@@ -19,11 +19,12 @@ st.markdown(f"""
     """, unsafe_allow_html=True)
 
 # --- 3. FUNCIONES LÓGICAS ---
-def aplicar_semaforo(val):
+def color_texto_semaforo(val):
+    """Aplica color solo a las letras basado en el porcentaje"""
     if isinstance(val, (int, float)):
-        if val >= 0.75: return 'background-color: #28a745; color: white' # Verde
-        elif val >= 0.55: return 'background-color: #ffc107; color: black' # Amarillo
-    return ''
+        if val >= 0.75: return 'color: #28a745; font-weight: bold;' # Verde
+        elif val >= 0.55: return 'color: #ffa500; font-weight: bold;' # Naranja/Amarillo
+    return 'color: black;'
 
 def extraer_goles(resultado_str):
     numeros = re.findall(r'\d+', str(resultado_str))
@@ -118,6 +119,7 @@ with tab1:
                             for eq_tipo in ['Local', 'Visitante']:
                                 eq_nombre = r[eq_tipo]
                                 st.write(f"**{eq_nombre}**")
+                                # Filtro corregido para que el botón no salga vacío
                                 h_eq = df_his[(df_his['Equipo Local'] == eq_nombre) | (df_his['Equipo Visitante'] == eq_nombre)].head(5).copy()
                                 if not h_eq.empty:
                                     def f_res(row):
@@ -140,11 +142,14 @@ with tab1:
         
         df_v = df_t if f_j == "TODAS" else df_t[df_t['Jornada'] == int(f_j)]
         cols_viz = ['Fecha', 'Jornada', 'Liga', 'Partido', 'Pick', 'Prob. Pick', 'Over 1.5', 'Over 2.5', 'BTTS']
-        st.dataframe(df_v[cols_viz].style.applymap(aplicar_semaforo, subset=['Prob. Pick', 'Over 1.5', 'Over 2.5', 'BTTS']).format({c: '{:.0%}' for c in ['Prob. Pick', 'Over 1.5', 'Over 2.5', 'BTTS']}), use_container_width=True, hide_index=True)
+        # Estilo de color aplicado SOLO al texto
+        st.dataframe(df_v[cols_viz].style.applymap(color_texto_semaforo, subset=['Prob. Pick', 'Over 1.5', 'Over 2.5', 'BTTS']).format({c: '{:.0%}' for c in ['Prob. Pick', 'Over 1.5', 'Over 2.5', 'BTTS']}), use_container_width=True, hide_index=True)
 
 with tab2:
     st.header("📜 HISTORIAL")
     if not df_his.empty:
+        # Restaurada la barra de búsqueda y filtros del historial
+        busqueda = st.text_input("🔍 Buscar equipo en el historial:")
         h1, h2 = st.columns(2)
         with h1: sel_l = st.selectbox("Liga Historial:", ["TODAS"] + lista_ligas_total, key="lh")
         with h2:
@@ -153,4 +158,8 @@ with tab2:
             sel_j = st.selectbox("Jornada Historial:", ["TODAS"] + j_h, key="jh")
         
         df_hf = df_th if sel_j == "TODAS" else df_th[df_th['Jornada'] == str(sel_j)]
+        
+        if busqueda:
+            df_hf = df_hf[(df_hf['Equipo Local'].str.contains(busqueda, case=False)) | (df_hf['Equipo Visitante'].str.contains(busqueda, case=False))]
+            
         st.dataframe(df_hf, use_container_width=True, hide_index=True)

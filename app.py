@@ -26,8 +26,8 @@ def aplicar_semaforo(val):
     return 'color: black;'
 
 def color_letras_historial(val):
-    if '✅' in str(val): return 'color: #28a745; font-weight: bold;'
-    if '❌' in str(val): return 'color: #dc3545; font-weight: bold;'
+    if val == '✅': return 'color: #28a745; font-weight: bold;'
+    if val == '❌': return 'color: #dc3545; font-weight: bold;'
     return 'color: black;'
 
 def extraer_goles(resultado_str):
@@ -70,15 +70,11 @@ def cargar_todo():
                 goles = extraer_goles(f['Resultado'])
                 if goles:
                     g_l, g_v = goles
-                    # Lógica de Doble Oportunidad aclarada
-                    check_1x = '✅' if g_l >= g_v else '❌'
-                    check_x2 = '✅' if g_v >= g_l else '❌'
                     historicos.append({
                         'Fecha': f['Fecha'], 'Liga': liga_n, 'Jornada': str(int(f['Jornada'])),
                         'Equipo Local': f['Equipo Local'], 'Equipo Visitante': f['Equipo Visitante'], 
                         'Marcador': f"{g_l}-{g_v}",
-                        'Doble Op. L (1X)': f"{f['Equipo Local']} {check_1x}",
-                        'Doble Op. V (X2)': f"{f['Equipo Visitante']} {check_x2}",
+                        'Doble Op.': '✅' if (g_l >= g_v or g_v >= g_l) else '❌', # Original simple
                         'Over 1.5': '✅' if (g_l+g_v) > 1.5 else '❌',
                         'Over 2.5': '✅' if (g_l+g_v) > 2.5 else '❌',
                         'BTTS': '✅' if (g_l > 0 and g_v > 0) else '❌'
@@ -116,15 +112,26 @@ with tab1:
     if not df_pre.empty:
         st.subheader("🏆 TOP 4 POR MERCADO (PRÓXIMA JORNADA)")
         df_top4_real = df_pre[df_pre['Es_Proxima'] == True]
-        mercados = [('1X', '🛡️', 'Doble Local'), ('X2', '🛡️', 'Doble Visita'), ('Over 1.5', '🥅', 'Over 1.5'), ('BTTS', '🤝', 'Ambos Marcan')]
+        
+        # Mercados con su etiqueta de tipo (1X o X2) para el Top 4
+        mercados = [
+            ('1X', '🛡️', 'Doble Local', '1X'), 
+            ('X2', '🛡️', 'Doble Visita', 'X2'), 
+            ('Over 1.5', '🥅', 'Over 1.5', ''), 
+            ('BTTS', '🤝', 'Ambos Marcan', '')
+        ]
+        
         cols_top = st.columns(4)
-        for i, (campo, ico, tit) in enumerate(mercados):
+        for i, (campo, ico, tit, label) in enumerate(mercados):
             with cols_top[i]:
                 st.markdown(f'#### {ico} {tit}')
                 n_count = min(len(df_top4_real), 4)
                 if n_count > 0:
                     for _, r in df_top4_real.nlargest(n_count, campo).iterrows():
-                        st.markdown(f'<div class="top4-card">📅 {r["Fecha"]}<br><b>{r["Partido"]}</b><br><b>{r[campo]:.0%}</b></div>', unsafe_allow_html=True)
+                        # Aquí agregamos el (1X) o (X2) al lado del porcentaje
+                        texto_label = f"({label})" if label else ""
+                        st.markdown(f'<div class="top4-card">📅 {r["Fecha"]}<br><b>{r["Partido"]}</b><br><b>{r[campo]:.0%} {texto_label}</b></div>', unsafe_allow_html=True)
+                        
                         with st.popover("📊 Ver Racha"):
                             for tipo_e, eq_nom in [("Local", r['Local']), ("Visitante", r['Visitante'])]:
                                 st.write(f"**Últimos de {eq_nom}:**")
@@ -156,7 +163,7 @@ with tab1:
 with tab2:
     st.header("📜 HISTORIAL Y RENDIMIENTO")
     if not df_his.empty:
-        busqueda = st.text_input("🔍 Buscar equipo para analizar su efectividad:")
+        busqueda = st.text_input("🔍 Buscar equipo:")
         h1, h2 = st.columns(2)
         with h1: sel_l_h = st.selectbox("Filtrar Liga:", ["TODAS"] + lista_ligas_total, key="lh")
         with h2:
@@ -167,21 +174,7 @@ with tab2:
         df_hf = df_th if sel_j_h == "TODAS" else df_th[df_th['Jornada'] == str(sel_j_h)]
         
         if busqueda:
-            df_equipo = df_hf[(df_hf['Equipo Local'].str.contains(busqueda, case=False)) | (df_hf['Equipo Visitante'].str.contains(busqueda, case=False))]
-            if not df_equipo.empty:
-                st.markdown(f"### 📊 Resumen de acierto: {busqueda}")
-                m1, m2, m3, m4 = st.columns(4)
-                partidos_l = df_equipo[df_equipo['Equipo Local'].str.contains(busqueda, case=False)]
-                partidos_v = df_equipo[df_equipo['Equipo Visitante'].str.contains(busqueda, case=False)]
-                # Cálculo de efectividad Doble Op combinada
-                ex_l = (partidos_l['Doble Op. L (1X)'].str.contains('✅')).sum()
-                ex_v = (partidos_v['Doble Op. V (X2)'].str.contains('✅')).sum()
-                
-                m1.metric("Efectividad Doble Op", f"{((ex_l + ex_v)/len(df_equipo)):.0%}")
-                m2.metric("Efectividad O 1.5", f"{(df_equipo['Over 1.5'] == '✅').mean():.0%}")
-                m3.metric("Efectividad O 2.5", f"{(df_equipo['Over 2.5'] == '✅').mean():.0%}")
-                m4.metric("Efectividad BTTS", f"{(df_equipo['BTTS'] == '✅').mean():.0%}")
-                df_hf = df_equipo
+            df_hf = df_hf[(df_hf['Equipo Local'].str.contains(busqueda, case=False)) | (df_hf['Equipo Visitante'].str.contains(busqueda, case=False))]
 
-        col_h_f = ['Fecha', 'Jornada', 'Liga', 'Equipo Local', 'Equipo Visitante', 'Marcador', 'Doble Op. L (1X)', 'Doble Op. V (X2)', 'Over 1.5', 'Over 2.5', 'BTTS']
-        st.dataframe(df_hf[col_h_f].style.applymap(color_letras_historial, subset=['Doble Op. L (1X)', 'Doble Op. V (X2)', 'Over 1.5', 'Over 2.5', 'BTTS']), use_container_width=True, hide_index=True)
+        col_h_f = ['Fecha', 'Jornada', 'Liga', 'Equipo Local', 'Equipo Visitante', 'Marcador', 'Doble Op.', 'Over 1.5', 'Over 2.5', 'BTTS']
+        st.dataframe(df_hf[col_h_f].style.applymap(color_letras_historial, subset=['Doble Op.', 'Over 1.5', 'Over 2.5', 'BTTS']), use_container_width=True, hide_index=True)

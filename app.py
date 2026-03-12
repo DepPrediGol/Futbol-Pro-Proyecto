@@ -32,13 +32,17 @@ st.markdown(f"""
     """, unsafe_allow_html=True)
 
 # --- 3. FUNCIONES LÓGICAS ---
+
+# MODIFICACIÓN AQUÍ: Solo cambia el color del texto y resalta
 def aplicar_semaforo(val):
     try:
         p = float(val)
-        if p >= 0.75: return 'background-color: #28a745; color: white; font-weight: bold;'
-        if p >= 0.60: return 'background-color: #ffc107; color: black; font-weight: bold;'
+        # Verde Pro para texto
+        if p >= 0.75: return 'color: #28a745; font-weight: bold;'
+        # Amarillo Riesgo para texto
+        if p >= 0.60: return 'color: #f7b731; font-weight: bold;' # Un amarillo más oscuro para legibilidad sobre blanco
     except: pass
-    return ''
+    return 'color: black;' # Color por defecto para el texto
 
 def calcular_poisson(media, x):
     if media <= 0: return 0.001
@@ -141,11 +145,10 @@ with tab1:
         
         df_v = df_temp_p if f_j == "TODAS" else df_temp_p[df_temp_p['Jornada'] == int(f_j)]
         
-        # Aplicamos el semáforo solo a las columnas de probabilidad
         cols_prob = ['Prob. Pick', 'Over 1.5', 'Over 2.5', 'BTTS']
         st.dataframe(
             df_v[['Fecha', 'Jornada', 'Liga', 'Partido', 'Pick', 'Prob. Pick', 'Over 1.5', 'Over 2.5', 'BTTS']]
-            .style.applymap(aplicar_semaforo, subset=cols_prob)
+            .style.applymap(aplicar_semaforo, subset=cols_prob) # Aplicamos la nueva función
             .format({c: '{:.0%}' for c in cols_prob}), 
             use_container_width=True, hide_index=True
         )

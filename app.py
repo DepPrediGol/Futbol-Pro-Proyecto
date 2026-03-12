@@ -5,7 +5,7 @@ import math
 import re
 
 # --- 1. CONFIGURACIÓN DE PÁGINA ---
-st.set_page_config(page_title="Bot Futbol Pro", layout="wide", page_icon="⚽")
+st.set_page_config(page_title="Bet Pro League", layout="wide", page_icon="⚽")
 
 # --- 2. DISEÑO VISUAL COMPLETO ---
 fondo_url = "https://images.unsplash.com/photo-1556056504-5c7696c4c28d?q=80&w=2076&auto=format&fit=crop"

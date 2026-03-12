@@ -7,7 +7,7 @@ import re
 # --- 1. CONFIGURACIÓN DE PÁGINA ---
 st.set_page_config(page_title="Bet Pro League", layout="wide", page_icon="⚽")
 
-# --- 2. DISEÑO VISUAL COMPLETO (Sigue tu esquema original) ---
+# --- 2. DISEÑO VISUAL COMPLETO (Tu esquema base) ---
 fondo_url = "https://images.unsplash.com/photo-1556056504-5c7696c4c28d?q=80&w=2076&auto=format&fit=crop"
 st.markdown(f"""
     <style>
@@ -31,8 +31,8 @@ st.markdown(f"""
 def aplicar_semaforo(val):
     try:
         p = float(val)
-        if p >= 0.75: return 'color: #28a745; font-weight: bold;' # Verde
-        if p >= 0.60: return 'color: #f7b731; font-weight: bold;' # Amarillo
+        if p >= 0.75: return 'color: #28a745; font-weight: bold;'
+        if p >= 0.60: return 'color: #f7b731; font-weight: bold;'
     except: pass
     return 'color: black;'
 
@@ -98,8 +98,7 @@ def cargar_todo():
                     actuales.append({
                         'Fecha': f['Fecha'], 'Jornada': int(f['Jornada']), 'Liga': liga_n, 
                         'Partido': f"{f['Equipo Local']} vs {f['Equipo Visitante']}",
-                        'Pick': "1X", 'Prob. Pick': (p_l + p_e), 
-                        '% Empate (X)': p_e, '% X2': (p_v + p_e),
+                        '1X': (p_l + p_e), 'X': p_e, 'X2': (p_v + p_e),
                         'Over 1.5': p_o15, 'Over 2.5': p_o25, 'BTTS': p_btts,
                         'Es_Proxima': (f['Jornada'] == prox_jor_liga)
                     })
@@ -117,14 +116,14 @@ with tab1:
         st.subheader("🏆 TOP 4 POR MERCADO (PRÓXIMA JORNADA)")
         df_top4_real = df_pre[df_pre['Es_Proxima'] == True]
         
-        mercados = [('Prob. Pick', 'ico-pulse', '🛡️', 'Doble Oportunidad'), ('Over 1.5', 'ico-bounce', '🥅', 'Over 1.5'), ('Over 2.5', 'ico-pulse', '💥', 'Over 2.5'), ('BTTS', 'ico-shake', '🤝', 'Ambos Marcan')]
+        # El TOP 4 sigue usando 1X para el mercado de Doble Oportunidad
+        mercados = [('1X', 'ico-pulse', '🛡️', 'Doble Oportunidad'), ('Over 1.5', 'ico-bounce', '🥅', 'Over 1.5'), ('Over 2.5', 'ico-pulse', '💥', 'Over 2.5'), ('BTTS', 'ico-shake', '🤝', 'Ambos Marcan')]
         cols = st.columns(4)
         for i, (campo, anim, ico, tit) in enumerate(mercados):
             with cols[i]:
                 st.markdown(f'#### <span class="{anim}">{ico}</span> {tit}', unsafe_allow_html=True)
                 for _, r in df_top4_real.nlargest(4, campo).iterrows():
-                    p_txt = f"<b>{r['Pick']}:</b> " if campo == 'Prob. Pick' else ""
-                    st.markdown(f'<div class="top4-card">📅 {r["Fecha"]}<br>{r["Partido"]}<br>{p_txt}<b>{r[campo]:.0%}</b></div>', unsafe_allow_html=True)
+                    st.markdown(f'<div class="top4-card">📅 {r["Fecha"]}<br>{r["Partido"]}<br><b>{r[campo]:.0%}</b></div>', unsafe_allow_html=True)
         
         st.markdown("---")
         st.subheader("📊 FILTROS DE PREDICCIONES")
@@ -137,18 +136,17 @@ with tab1:
         
         df_v = df_temp_p if f_j == "TODAS" else df_temp_p[df_temp_p['Jornada'] == int(f_j)]
         
-        # Columnas a mostrar (Incluyendo las nuevas de Empate y X2)
-        cols_mostrar = ['Fecha', 'Jornada', 'Liga', 'Partido', 'Pick', 'Prob. Pick', '% Empate (X)', '% X2', 'Over 1.5', 'Over 2.5', 'BTTS']
-        cols_prob = ['Prob. Pick', '% Empate (X)', '% X2', 'Over 1.5', 'Over 2.5', 'BTTS']
+        # Definición de columnas finales solicitada
+        cols_finales = ['Fecha', 'Jornada', 'Liga', 'Partido', '1X', 'X', 'X2', 'Over 1.5', 'Over 2.5', 'BTTS']
+        cols_prob = ['1X', 'X', 'X2', 'Over 1.5', 'Over 2.5', 'BTTS']
         
         st.dataframe(
-            df_v[cols_mostrar].style.applymap(aplicar_semaforo, subset=cols_prob)
+            df_v[cols_finales].style.applymap(aplicar_semaforo, subset=cols_prob)
             .format({c: '{:.0%}' for c in cols_prob}), 
             use_container_width=True, hide_index=True
         )
 
 with tab2:
-    # (El historial se mantiene igual para no alterar tu esquema)
     st.header("📜 HISTORIAL")
     if not df_his.empty:
         h1, h2 = st.columns(2)

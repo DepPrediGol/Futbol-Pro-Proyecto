@@ -32,6 +32,14 @@ st.markdown(f"""
     """, unsafe_allow_html=True)
 
 # --- 3. FUNCIONES LÓGICAS ---
+def aplicar_semaforo(val):
+    try:
+        p = float(val)
+        if p >= 0.75: return 'background-color: #28a745; color: white; font-weight: bold;'
+        if p >= 0.60: return 'background-color: #ffc107; color: black; font-weight: bold;'
+    except: pass
+    return ''
+
 def calcular_poisson(media, x):
     if media <= 0: return 0.001
     return (math.exp(-media) * (media**x)) / math.factorial(x)
@@ -66,7 +74,6 @@ def cargar_todo():
             df['Resultado'] = df['Resultado'].astype(str).str.strip()
             fuerzas = calcular_fuerzas(df)
             
-            # Identificar la jornada más próxima de esta liga específica
             pendientes_liga = df[~df['Resultado'].str.contains(r'\d', na=False)].copy()
             prox_jor_liga = pendientes_liga['Jornada'].min() if not pendientes_liga.empty else 0
             
@@ -98,7 +105,7 @@ def cargar_todo():
                         'Partido': f"{f['Equipo Local']} vs {f['Equipo Visitante']}",
                         'Pick': "1X" if p_1x >= p_x2 else "X2", 'Prob. Pick': p_1x if p_1x >= p_x2 else p_x2, 
                         'Over 1.5': p_o15, 'Over 2.5': p_o25, 'BTTS': p_btts,
-                        'Es_Proxima': (f['Jornada'] == prox_jor_liga) # Marcar para el TOP 4
+                        'Es_Proxima': (f['Jornada'] == prox_jor_liga)
                     })
         except: continue
     return pd.DataFrame(actuales), pd.DataFrame(historicos), sorted(list(set(todas_las_ligas)))
@@ -112,7 +119,6 @@ tab1, tab2 = st.tabs(["PREDICCIONES", "HISTORIAL"])
 with tab1:
     if not df_pre.empty:
         st.subheader("🏆 TOP 4 POR MERCADO (PRÓXIMA JORNADA)")
-        # FILTRO CRUCIAL: Solo partidos marcados como 'Es_Proxima' para el TOP 4
         df_top4_real = df_pre[df_pre['Es_Proxima'] == True]
         
         mercados = [('Prob. Pick', 'ico-pulse', '🛡️', 'Doble Oportunidad'), ('Over 1.5', 'ico-bounce', '🥅', 'Over 1.5'), ('Over 2.5', 'ico-pulse', '💥', 'Over 2.5'), ('BTTS', 'ico-shake', '🤝', 'Ambos Marcan')]
@@ -134,7 +140,15 @@ with tab1:
             f_j = st.selectbox("Selecciona Jornada:", ["TODAS"] + [int(x) for x in j_list_p], key="jp")
         
         df_v = df_temp_p if f_j == "TODAS" else df_temp_p[df_temp_p['Jornada'] == int(f_j)]
-        st.dataframe(df_v[['Fecha', 'Jornada', 'Liga', 'Partido', 'Pick', 'Prob. Pick', 'Over 1.5', 'Over 2.5', 'BTTS']].style.format({'Prob. Pick': '{:.0%}', 'Over 1.5': '{:.0%}', 'Over 2.5': '{:.0%}', 'BTTS': '{:.0%}'}), use_container_width=True, hide_index=True)
+        
+        # Aplicamos el semáforo solo a las columnas de probabilidad
+        cols_prob = ['Prob. Pick', 'Over 1.5', 'Over 2.5', 'BTTS']
+        st.dataframe(
+            df_v[['Fecha', 'Jornada', 'Liga', 'Partido', 'Pick', 'Prob. Pick', 'Over 1.5', 'Over 2.5', 'BTTS']]
+            .style.applymap(aplicar_semaforo, subset=cols_prob)
+            .format({c: '{:.0%}' for c in cols_prob}), 
+            use_container_width=True, hide_index=True
+        )
 
 with tab2:
     st.header("📜 HISTORIAL")

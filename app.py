@@ -106,7 +106,7 @@ def cargar_todo():
 df_pre, df_his, lista_ligas_total = cargar_todo()
 
 # --- 5. INTERFAZ ---
-st.markdown('<h1><span class="ball-spin">⚽</span> BOT FUTBOL PRO</h1>', unsafe_allow_html=True)
+st.markdown('<h1><span class="ball-spin">⚽</span> Bet Pro League</h1>', unsafe_allow_html=True)
 tab1, tab2 = st.tabs(["PREDICCIONES", "HISTORIAL"])
 
 with tab1:
@@ -149,7 +149,7 @@ with tab2:
         df_hf = df_temp_h if sel_j == "TODAS" else df_temp_h[df_temp_h['Jornada'] == sel_j]
         if not df_hf.empty:
             m1, m2, m3, m4 = st.columns(4)
-            m1.metric("Doble Oportunidad", f"{(df_hf['Doble Op.'] == '✅').mean():.1%}")
+            m1.metric("Doble Oportunidad", f"{(df_hf['Doble Oportunidad.'] == '✅').mean():.1%}")
             m2.metric("Over 1.5", f"{(df_hf['Over 1.5'] == '✅').mean():.1%}")
             m3.metric("Over 2.5", f"{(df_hf['Over 2.5'] == '✅').mean():.1%}")
             m4.metric("BTTS", f"{(df_hf['BTTS'] == '✅').mean():.1%}")

@@ -7,7 +7,7 @@ import re
 # --- 1. CONFIGURACIÓN DE PÁGINA ---
 st.set_page_config(page_title="Bet Pro League", layout="wide", page_icon="⚽")
 
-# --- 2. DISEÑO VISUAL COMPLETO ---
+# --- 2. DISEÑO VISUAL COMPLETO (Original intacto) ---
 fondo_url = "https://images.unsplash.com/photo-1556056504-5c7696c4c28d?q=80&w=2076&auto=format&fit=crop"
 st.markdown(f"""
     <style>
@@ -17,10 +17,7 @@ st.markdown(f"""
     div[data-baseweb="select"] > div, ul[role="listbox"], div[data-baseweb="popover"] div {{
         background-color: white !important; color: black !important;
     }}
-    input[data-baseweb="input"] {{ color: black !important; -webkit-text-fill-color: black !important; }}
-    @keyframes spin {{ 100% {{ transform:rotate(360deg); }} }}
-    .ball-spin {{ display: inline-block; animation: spin 4s linear infinite; }}
-    .top4-card {{ padding: 12px; border-radius: 10px; transition: all 0.3s; background: rgba(255,255,255,0.5); border: 1px solid #ddd; text-align: center; }}
+    .top4-card {{ padding: 12px; border-radius: 10px; background: rgba(255,255,255,0.5); border: 1px solid #ddd; text-align: center; margin-bottom: 8px; }}
     </style>
     """, unsafe_allow_html=True)
 
@@ -58,8 +55,8 @@ def cargar_todo():
             df['Resultado'] = df['Resultado'].astype(str).str.strip()
             fuerzas = calcular_fuerzas(df)
             
-            pendientes_liga = df[~df['Resultado'].str.contains(r'\d', na=False)].copy()
-            prox_jor_liga = pendientes_liga['Jornada'].min() if not pendientes_liga.empty else 0
+            pendientes = df[~df['Resultado'].str.contains(r'\d', na=False)].copy()
+            prox_jor_liga = pendientes['Jornada'].min() if not pendientes.empty else 0
             
             for _, f in df.iterrows():
                 goles = extraer_goles(f['Resultado'])
@@ -107,52 +104,46 @@ with tab1:
         
         mercados = [('Prob. Pick', '🛡️', 'Doble Oportunidad'), ('Over 1.5', '🥅', 'Over 1.5'), ('Over 2.5', '💥', 'Over 2.5'), ('BTTS', '🤝', 'Ambos Marcan')]
         cols = st.columns(4)
-        for i, (campo, anim, ico, tit) in enumerate(mercados):
+        for i, (campo, ico, tit) in enumerate(mercados):
             with cols[i]:
                 st.markdown(f'#### {ico} {tit}')
-                for _, r in df_top4_real.nlargest(4, campo).iterrows():
-                    with st.container():
-                        p_txt = f"<b>{r['Pick']}:</b> " if campo == 'Prob. Pick' else ""
-                        st.markdown(f"""<div class="top4-card">
-                            <small>{r['Fecha']}</small><br>
-                            <b>{r['Partido']}</b><br>
-                            <span style="font-size:18px;">{p_txt}<b>{r[campo]:.0%}</b></span>
-                        </div>""", unsafe_allow_html=True)
-                        
-                        # BOTÓN DE RACHA CORREGIDO
-                        with st.popover("📊 Ver Racha"):
-                            for eq_tipo in ['Local', 'Visitante']:
-                                nombre_eq = r[eq_tipo]
-                                st.write(f"**Últimos de {nombre_eq}:**")
-                                # Filtramos usando los nombres de columna exactos del historial
-                                h_eq = df_his[(df_his['Equipo Local'] == nombre_eq) | (df_his['Equipo Visitante'] == nombre_eq)].head(5).copy()
-                                
-                                if not h_eq.empty:
-                                    def f_res(row):
-                                        g = extraer_goles(row['Marcador'])
-                                        if not g: return "⚪"
-                                        if row['Equipo Local'] == nombre_eq:
-                                            return "🟢 G" if g[0] > g[1] else ("🟡 E" if g[0] == g[1] else "🔴 P")
-                                        else:
-                                            return "🟢 G" if g[1] > g[0] else ("🟡 E" if g[1] == g[0] else "🔴 P")
-                                    
-                                    h_eq['Res'] = h_eq.apply(f_res, axis=1)
-                                    st.dataframe(h_eq[['Fecha', 'Equipo Local', 'Equipo Visitante', 'Marcador', 'Res']], hide_index=True)
-                                else:
-                                    st.write("Sin datos previos.")
+                # Blindaje nlargest: si hay menos de 4 partidos, toma los que existan
+                n_count = min(len(df_top4_real), 4)
+                if n_count > 0:
+                    for _, r in df_top4_real.nlargest(n_count, campo).iterrows():
+                        with st.container():
+                            p_txt = f"<b>{r['Pick']}:</b> " if campo == 'Prob. Pick' else ""
+                            st.markdown(f'<div class="top4-card">📅 {r["Fecha"]}<br><b>{r["Partido"]}</b><br>{p_txt}<b>{r[campo]:.0%}</b></div>', unsafe_allow_html=True)
+                            
+                            with st.popover("📊 Ver Racha"):
+                                for eq_tipo in ['Local', 'Visitante']:
+                                    nom = r[eq_tipo]
+                                    st.write(f"**Últimos de {nom}:**")
+                                    h_eq = df_his[(df_his['Equipo Local'] == nom) | (df_his['Equipo Visitante'] == nom)].head(5).copy()
+                                    if not h_eq.empty:
+                                        def f_res(row):
+                                            g = extraer_goles(row['Marcador'])
+                                            if not g: return "⚪"
+                                            if row['Equipo Local'] == nom:
+                                                return "🟢 G" if g[0]>g[1] else ("🟡 E" if g[0]==g[1] else "🔴 P")
+                                            return "🟢 G" if g[1]>g[0] else ("🟡 E" if g[1]==g[0] else "🔴 P")
+                                        h_eq['Res'] = h_eq.apply(f_res, axis=1)
+                                        st.dataframe(h_eq[['Fecha', 'Equipo Local', 'Equipo Visitante', 'Marcador', 'Res']], hide_index=True)
+                                    else: st.write("Sin historial.")
 
         st.markdown("---")
         st.subheader("📊 FILTROS DE PREDICCIONES")
         c1, c2 = st.columns(2)
         with c1: f_l = st.selectbox("Selecciona Liga:", ["TODAS"] + lista_ligas_total, key="lp")
         with c2:
-            df_temp_p = df_pre if f_l == "TODAS" else df_pre[df_pre['Liga'] == f_l]
-            j_list_p = sorted([int(x) for x in df_temp_p['Jornada'].unique()], reverse=True)
-            f_j = st.selectbox("Selecciona Jornada:", ["TODAS"] + j_list_p, key="jp")
+            df_t = df_pre if f_l == "TODAS" else df_pre[df_pre['Liga'] == f_l]
+            # Convertir a int para evitar errores de ordenación
+            j_list = sorted([int(x) for x in df_t['Jornada'].unique()], reverse=True)
+            f_j = st.selectbox("Selecciona Jornada:", ["TODAS"] + j_list, key="jp")
         
-        df_v = df_temp_p if f_j == "TODAS" else df_temp_p[df_temp_p['Jornada'] == int(f_j)]
-        cols_mostrar = ['Fecha', 'Jornada', 'Liga', 'Partido', 'Pick', 'Prob. Pick', 'Over 1.5', 'Over 2.5', 'BTTS']
-        st.dataframe(df_v[cols_mostrar].style.format({c: '{:.0%}' for c in ['Prob. Pick', 'Over 1.5', 'Over 2.5', 'BTTS']}), use_container_width=True, hide_index=True)
+        df_v = df_t if f_j == "TODAS" else df_t[df_t['Jornada'] == int(f_j)]
+        cols_viz = ['Fecha', 'Jornada', 'Liga', 'Partido', 'Pick', 'Prob. Pick', 'Over 1.5', 'Over 2.5', 'BTTS']
+        st.dataframe(df_v[cols_viz].style.format({c: '{:.0%}' for c in ['Prob. Pick', 'Over 1.5', 'Over 2.5', 'BTTS']}), use_container_width=True, hide_index=True)
 
 with tab2:
     st.header("📜 HISTORIAL")

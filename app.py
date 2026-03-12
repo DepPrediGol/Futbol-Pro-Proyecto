@@ -122,6 +122,21 @@ with tab1:
                 if n_count > 0:
                     for _, r in df_top4_real.nlargest(n_count, campo).iterrows():
                         st.markdown(f'<div class="top4-card">📅 {r["Fecha"]}<br><b>{r["Partido"]}</b><br><b>{r[campo]:.0%}</b></div>', unsafe_allow_html=True)
+                        # VENTANA FLOTANTE RECUPERADA
+                        with st.popover("📊 Ver Racha"):
+                            for tipo_e, eq_nom in [("Local", r['Local']), ("Visitante", r['Visitante'])]:
+                                st.write(f"**Últimos de {eq_nom}:**")
+                                h_eq = df_his[(df_his['Equipo Local'] == eq_nom) | (df_his['Equipo Visitante'] == eq_nom)].head(5).copy()
+                                if not h_eq.empty:
+                                    def det_res(row):
+                                        g = extraer_goles(row['Marcador'])
+                                        if not g: return "⚪ -"
+                                        if row['Equipo Local'] == eq_nom:
+                                            return "🟢 G" if g[0]>g[1] else ("🟡 E" if g[0]==g[1] else "🔴 P")
+                                        return "🟢 G" if g[1]>g[0] else ("🟡 E" if g[1]==g[0] else "🔴 P")
+                                    h_eq['Res'] = h_eq.apply(det_res, axis=1)
+                                    st.dataframe(h_eq[['Fecha', 'Equipo Local', 'Equipo Visitante', 'Marcador', 'Res']], hide_index=True)
+                                else: st.write("Sin datos históricos.")
 
         st.markdown("---")
         st.subheader("📊 FILTROS DE PREDICCIONES")
@@ -154,7 +169,6 @@ with tab2:
             if not df_equipo.empty:
                 st.markdown(f"### 📊 Resumen de acierto: {busqueda}")
                 m1, m2, m3, m4 = st.columns(4)
-                # Cálculo de efectividad Doble Op combinada
                 partidos_l = df_equipo[df_equipo['Equipo Local'].str.contains(busqueda, case=False)]
                 partidos_v = df_equipo[df_equipo['Equipo Visitante'].str.contains(busqueda, case=False)]
                 exitos = (partidos_l['1X (L)'] == '✅').sum() + (partidos_v['X2 (V)'] == '✅').sum()

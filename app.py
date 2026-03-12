@@ -4,10 +4,10 @@ import glob
 import math
 import re
 
-# --- 1. CONFIGURACIÓN DE PÁGINA ---
+# --- 1. CONFIGURACIÓN DE PÁGINA (ESTRUCTURA ORIGINAL) ---
 st.set_page_config(page_title="Bet Pro League", layout="wide", page_icon="⚽")
 
-# --- 2. DISEÑO VISUAL COMPLETO (Tu esquema base) ---
+# --- 2. DISEÑO VISUAL COMPLETO (SIN CAMBIOS) ---
 fondo_url = "https://images.unsplash.com/photo-1556056504-5c7696c4c28d?q=80&w=2076&auto=format&fit=crop"
 st.markdown(f"""
     <style>
@@ -27,7 +27,7 @@ st.markdown(f"""
     </style>
     """, unsafe_allow_html=True)
 
-# --- 3. FUNCIONES LÓGICAS ---
+# --- 3. FUNCIONES LÓGICAS (TEXTO COLOREADO) ---
 def aplicar_semaforo(val):
     try:
         p = float(val)
@@ -56,7 +56,7 @@ def calcular_fuerzas(df_h):
             f[fila['Equipo Visitante']] += 0.20 if g_v > g_l else 0.05 * g_v
     return f
 
-# --- 4. CARGA DE DATOS ---
+# --- 4. CARGA DE DATOS (POISSON ESTRUCTURA ORIGINAL) ---
 @st.cache_data(ttl=300)
 def cargar_todo():
     archivos = glob.glob("*.csv")
@@ -95,10 +95,14 @@ def cargar_todo():
                             if (gl+gv) > 2.5: p_o25 += p
                             if gl > 0 and gv > 0: p_btts += p
                     
+                    p_1x, p_x2 = (p_l + p_e), (p_v + p_e)
+                    
                     actuales.append({
                         'Fecha': f['Fecha'], 'Jornada': int(f['Jornada']), 'Liga': liga_n, 
                         'Partido': f"{f['Equipo Local']} vs {f['Equipo Visitante']}",
-                        '1X': (p_l + p_e), 'X': p_e, 'X2': (p_v + p_e),
+                        '1X': p_1x, 'X': p_e, 'X2': p_x2,
+                        'Doble_Mejor_Pick': "1X" if p_1x >= p_x2 else "X2",
+                        'Doble_Mejor_Val': p_1x if p_1x >= p_x2 else p_x2,
                         'Over 1.5': p_o15, 'Over 2.5': p_o25, 'BTTS': p_btts,
                         'Es_Proxima': (f['Jornada'] == prox_jor_liga)
                     })
@@ -107,7 +111,7 @@ def cargar_todo():
 
 df_pre, df_his, lista_ligas_total = cargar_todo()
 
-# --- 5. INTERFAZ ---
+# --- 5. INTERFAZ (ESQUEMA ORIGINAL INTACTO) ---
 st.markdown('<h1><span class="ball-spin">⚽</span> Bet Pro League</h1>', unsafe_allow_html=True)
 tab1, tab2 = st.tabs(["PREDICCIONES", "HISTORIAL"])
 
@@ -116,14 +120,16 @@ with tab1:
         st.subheader("🏆 TOP 4 POR MERCADO (PRÓXIMA JORNADA)")
         df_top4_real = df_pre[df_pre['Es_Proxima'] == True]
         
-        # El TOP 4 sigue usando 1X para el mercado de Doble Oportunidad
-        mercados = [('1X', 'ico-pulse', '🛡️', 'Doble Oportunidad'), ('Over 1.5', 'ico-bounce', '🥅', 'Over 1.5'), ('Over 2.5', 'ico-pulse', '💥', 'Over 2.5'), ('BTTS', 'ico-shake', '🤝', 'Ambos Marcan')]
+        # TOP 4 inteligente (elige el mejor entre 1X o X2)
+        mercados = [('Doble_Mejor_Val', 'ico-pulse', '🛡️', 'Doble Oportunidad'), ('Over 1.5', 'ico-bounce', '🥅', 'Over 1.5'), ('Over 2.5', 'ico-pulse', '💥', 'Over 2.5'), ('BTTS', 'ico-shake', '🤝', 'Ambos Marcan')]
         cols = st.columns(4)
         for i, (campo, anim, ico, tit) in enumerate(mercados):
             with cols[i]:
                 st.markdown(f'#### <span class="{anim}">{ico}</span> {tit}', unsafe_allow_html=True)
                 for _, r in df_top4_real.nlargest(4, campo).iterrows():
-                    st.markdown(f'<div class="top4-card">📅 {r["Fecha"]}<br>{r["Partido"]}<br><b>{r[campo]:.0%}</b></div>', unsafe_allow_html=True)
+                    # Muestra 1X o X2 dinámicamente en la tarjeta
+                    pick_label = f"<b>{r['Doble_Mejor_Pick']}:</b> " if campo == 'Doble_Mejor_Val' else ""
+                    st.markdown(f'<div class="top4-card">📅 {r["Fecha"]}<br>{r["Partido"]}<br>{pick_label}<b>{r[campo]:.0%}</b></div>', unsafe_allow_html=True)
         
         st.markdown("---")
         st.subheader("📊 FILTROS DE PREDICCIONES")
@@ -136,7 +142,7 @@ with tab1:
         
         df_v = df_temp_p if f_j == "TODAS" else df_temp_p[df_temp_p['Jornada'] == int(f_j)]
         
-        # Definición de columnas finales solicitada
+        # Columnas según tu nuevo esquema fusionado
         cols_finales = ['Fecha', 'Jornada', 'Liga', 'Partido', '1X', 'X', 'X2', 'Over 1.5', 'Over 2.5', 'BTTS']
         cols_prob = ['1X', 'X', 'X2', 'Over 1.5', 'Over 2.5', 'BTTS']
         
@@ -147,6 +153,7 @@ with tab1:
         )
 
 with tab2:
+    # --- HISTORIAL (ESQUEMA ORIGINAL SIN CAMBIOS) ---
     st.header("📜 HISTORIAL")
     if not df_his.empty:
         h1, h2 = st.columns(2)

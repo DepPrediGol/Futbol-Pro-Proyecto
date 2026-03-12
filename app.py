@@ -7,7 +7,7 @@ import re
 # --- 1. CONFIGURACIÓN DE PÁGINA ---
 st.set_page_config(page_title="Bet Pro League", layout="wide", page_icon="⚽")
 
-# --- 2. DISEÑO VISUAL COMPLETO ---
+# --- 2. DISEÑO VISUAL COMPLETO (Sigue tu esquema original) ---
 fondo_url = "https://images.unsplash.com/photo-1556056504-5c7696c4c28d?q=80&w=2076&auto=format&fit=crop"
 st.markdown(f"""
     <style>
@@ -20,29 +20,21 @@ st.markdown(f"""
     input[data-baseweb="input"] {{ color: black !important; -webkit-text-fill-color: black !important; }}
     @keyframes spin {{ 100% {{ transform:rotate(360deg); }} }}
     @keyframes pulse {{ 0% {{ transform: scale(1); }} 50% {{ transform: scale(1.1); }} 100% {{ transform: scale(1); }} }}
-    @keyframes bounce {{ 0%, 100% {{ transform: translateY(0); }} 50% {{ transform: translateY(-5px); }} }}
-    @keyframes shake {{ 0% {{ transform: rotate(-5deg); }} 50% {{ transform: rotate(5deg); }} 100% {{ transform: rotate(-5deg); }} }}
     .ball-spin {{ display: inline-block; animation: spin 4s linear infinite; }}
     .ico-pulse {{ display: inline-block; animation: pulse 2s ease-in-out infinite; }}
-    .ico-bounce {{ display: inline-block; animation: bounce 1.5s ease-in-out infinite; }}
-    .ico-shake {{ display: inline-block; animation: shake 2s ease-in-out infinite; }}
     .top4-card {{ padding: 12px; border-radius: 10px; transition: all 0.3s; background: rgba(255,255,255,0.5); border: 1px solid #ddd; }}
     .top4-card:hover {{ transform: scale(1.02); background: white; }}
     </style>
     """, unsafe_allow_html=True)
 
 # --- 3. FUNCIONES LÓGICAS ---
-
-# MODIFICACIÓN AQUÍ: Solo cambia el color del texto y resalta
 def aplicar_semaforo(val):
     try:
         p = float(val)
-        # Verde Pro para texto
-        if p >= 0.75: return 'color: #28a745; font-weight: bold;'
-        # Amarillo Riesgo para texto
-        if p >= 0.60: return 'color: #f7b731; font-weight: bold;' # Un amarillo más oscuro para legibilidad sobre blanco
+        if p >= 0.75: return 'color: #28a745; font-weight: bold;' # Verde
+        if p >= 0.60: return 'color: #f7b731; font-weight: bold;' # Amarillo
     except: pass
-    return 'color: black;' # Color por defecto para el texto
+    return 'color: black;'
 
 def calcular_poisson(media, x):
     if media <= 0: return 0.001
@@ -50,8 +42,7 @@ def calcular_poisson(media, x):
 
 def extraer_goles(resultado_str):
     numeros = re.findall(r'\d+', str(resultado_str))
-    if len(numeros) >= 2:
-        return int(numeros[0]), int(numeros[1])
+    if len(numeros) >= 2: return int(numeros[0]), int(numeros[1])
     return None
 
 def calcular_fuerzas(df_h):
@@ -103,11 +94,12 @@ def cargar_todo():
                             if (gl+gv) > 1.5: p_o15 += p
                             if (gl+gv) > 2.5: p_o25 += p
                             if gl > 0 and gv > 0: p_btts += p
-                    p_1x, p_x2 = p_l + p_e, p_v + p_e
+                    
                     actuales.append({
                         'Fecha': f['Fecha'], 'Jornada': int(f['Jornada']), 'Liga': liga_n, 
                         'Partido': f"{f['Equipo Local']} vs {f['Equipo Visitante']}",
-                        'Pick': "1X" if p_1x >= p_x2 else "X2", 'Prob. Pick': p_1x if p_1x >= p_x2 else p_x2, 
+                        'Pick': "1X", 'Prob. Pick': (p_l + p_e), 
+                        '% Empate (X)': p_e, '% X2': (p_v + p_e),
                         'Over 1.5': p_o15, 'Over 2.5': p_o25, 'BTTS': p_btts,
                         'Es_Proxima': (f['Jornada'] == prox_jor_liga)
                     })
@@ -145,15 +137,18 @@ with tab1:
         
         df_v = df_temp_p if f_j == "TODAS" else df_temp_p[df_temp_p['Jornada'] == int(f_j)]
         
-        cols_prob = ['Prob. Pick', 'Over 1.5', 'Over 2.5', 'BTTS']
+        # Columnas a mostrar (Incluyendo las nuevas de Empate y X2)
+        cols_mostrar = ['Fecha', 'Jornada', 'Liga', 'Partido', 'Pick', 'Prob. Pick', '% Empate (X)', '% X2', 'Over 1.5', 'Over 2.5', 'BTTS']
+        cols_prob = ['Prob. Pick', '% Empate (X)', '% X2', 'Over 1.5', 'Over 2.5', 'BTTS']
+        
         st.dataframe(
-            df_v[['Fecha', 'Jornada', 'Liga', 'Partido', 'Pick', 'Prob. Pick', 'Over 1.5', 'Over 2.5', 'BTTS']]
-            .style.applymap(aplicar_semaforo, subset=cols_prob) # Aplicamos la nueva función
+            df_v[cols_mostrar].style.applymap(aplicar_semaforo, subset=cols_prob)
             .format({c: '{:.0%}' for c in cols_prob}), 
             use_container_width=True, hide_index=True
         )
 
 with tab2:
+    # (El historial se mantiene igual para no alterar tu esquema)
     st.header("📜 HISTORIAL")
     if not df_his.empty:
         h1, h2 = st.columns(2)

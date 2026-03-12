@@ -26,8 +26,8 @@ def aplicar_semaforo(val):
     return 'color: black;'
 
 def color_letras_historial(val):
-    if val == '✅': return 'color: #28a745; font-weight: bold;'
-    if val == '❌': return 'color: #dc3545; font-weight: bold;'
+    if '✅' in str(val): return 'color: #28a745; font-weight: bold;'
+    if '❌' in str(val): return 'color: #dc3545; font-weight: bold;'
     return 'color: black;'
 
 def extraer_goles(resultado_str):
@@ -70,12 +70,15 @@ def cargar_todo():
                 goles = extraer_goles(f['Resultado'])
                 if goles:
                     g_l, g_v = goles
+                    # Lógica de Doble Oportunidad aclarada
+                    check_1x = '✅' if g_l >= g_v else '❌'
+                    check_x2 = '✅' if g_v >= g_l else '❌'
                     historicos.append({
                         'Fecha': f['Fecha'], 'Liga': liga_n, 'Jornada': str(int(f['Jornada'])),
                         'Equipo Local': f['Equipo Local'], 'Equipo Visitante': f['Equipo Visitante'], 
                         'Marcador': f"{g_l}-{g_v}",
-                        '1X (L)': '✅' if g_l >= g_v else '❌',
-                        'X2 (V)': '✅' if g_v >= g_l else '❌',
+                        'Doble Op. L (1X)': f"{f['Equipo Local']} {check_1x}",
+                        'Doble Op. V (X2)': f"{f['Equipo Visitante']} {check_x2}",
                         'Over 1.5': '✅' if (g_l+g_v) > 1.5 else '❌',
                         'Over 2.5': '✅' if (g_l+g_v) > 2.5 else '❌',
                         'BTTS': '✅' if (g_l > 0 and g_v > 0) else '❌'
@@ -122,7 +125,6 @@ with tab1:
                 if n_count > 0:
                     for _, r in df_top4_real.nlargest(n_count, campo).iterrows():
                         st.markdown(f'<div class="top4-card">📅 {r["Fecha"]}<br><b>{r["Partido"]}</b><br><b>{r[campo]:.0%}</b></div>', unsafe_allow_html=True)
-                        # VENTANA FLOTANTE RECUPERADA
                         with st.popover("📊 Ver Racha"):
                             for tipo_e, eq_nom in [("Local", r['Local']), ("Visitante", r['Visitante'])]:
                                 st.write(f"**Últimos de {eq_nom}:**")
@@ -171,13 +173,15 @@ with tab2:
                 m1, m2, m3, m4 = st.columns(4)
                 partidos_l = df_equipo[df_equipo['Equipo Local'].str.contains(busqueda, case=False)]
                 partidos_v = df_equipo[df_equipo['Equipo Visitante'].str.contains(busqueda, case=False)]
-                exitos = (partidos_l['1X (L)'] == '✅').sum() + (partidos_v['X2 (V)'] == '✅').sum()
+                # Cálculo de efectividad Doble Op combinada
+                ex_l = (partidos_l['Doble Op. L (1X)'].str.contains('✅')).sum()
+                ex_v = (partidos_v['Doble Op. V (X2)'].str.contains('✅')).sum()
                 
-                m1.metric("Efectividad Doble Op", f"{(exitos/len(df_equipo)):.0%}")
+                m1.metric("Efectividad Doble Op", f"{((ex_l + ex_v)/len(df_equipo)):.0%}")
                 m2.metric("Efectividad O 1.5", f"{(df_equipo['Over 1.5'] == '✅').mean():.0%}")
                 m3.metric("Efectividad O 2.5", f"{(df_equipo['Over 2.5'] == '✅').mean():.0%}")
                 m4.metric("Efectividad BTTS", f"{(df_equipo['BTTS'] == '✅').mean():.0%}")
                 df_hf = df_equipo
 
-        col_h_f = ['Fecha', 'Jornada', 'Liga', 'Equipo Local', 'Equipo Visitante', 'Marcador', '1X (L)', 'X2 (V)', 'Over 1.5', 'Over 2.5', 'BTTS']
-        st.dataframe(df_hf[col_h_f].style.applymap(color_letras_historial, subset=['1X (L)', 'X2 (V)', 'Over 1.5', 'Over 2.5', 'BTTS']), use_container_width=True, hide_index=True)
+        col_h_f = ['Fecha', 'Jornada', 'Liga', 'Equipo Local', 'Equipo Visitante', 'Marcador', 'Doble Op. L (1X)', 'Doble Op. V (X2)', 'Over 1.5', 'Over 2.5', 'BTTS']
+        st.dataframe(df_hf[col_h_f].style.applymap(color_letras_historial, subset=['Doble Op. L (1X)', 'Doble Op. V (X2)', 'Over 1.5', 'Over 2.5', 'BTTS']), use_container_width=True, hide_index=True)

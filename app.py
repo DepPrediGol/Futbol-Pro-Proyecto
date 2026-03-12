@@ -7,7 +7,7 @@ import re
 # --- 1. CONFIGURACIÓN DE PÁGINA ---
 st.set_page_config(page_title="Bet Pro League", layout="wide", page_icon="⚽")
 
-# --- 2. DISEÑO VISUAL COMPLETO (Tu original intacto) ---
+# --- 2. DISEÑO VISUAL COMPLETO ---
 fondo_url = "https://images.unsplash.com/photo-1556056504-5c7696c4c28d?q=80&w=2076&auto=format&fit=crop"
 st.markdown(f"""
     <style>
@@ -20,8 +20,7 @@ st.markdown(f"""
     input[data-baseweb="input"] {{ color: black !important; -webkit-text-fill-color: black !important; }}
     @keyframes spin {{ 100% {{ transform:rotate(360deg); }} }}
     .ball-spin {{ display: inline-block; animation: spin 4s linear infinite; }}
-    .top4-card {{ padding: 12px; border-radius: 10px; transition: all 0.3s; background: rgba(255,255,255,0.5); border: 1px solid #ddd; }}
-    .top4-card:hover {{ transform: scale(1.02); background: white; }}
+    .top4-card {{ padding: 12px; border-radius: 10px; transition: all 0.3s; background: rgba(255,255,255,0.5); border: 1px solid #ddd; text-align: center; }}
     </style>
     """, unsafe_allow_html=True)
 
@@ -68,10 +67,8 @@ def cargar_todo():
                     g_l, g_v = goles
                     historicos.append({
                         'Fecha': f['Fecha'], 'Liga': liga_n, 'Jornada': str(int(f['Jornada'])),
-                        'Local': f['Equipo Local'], 'Visitante': f['Equipo Visitante'], 
-                        'Partido': f"{f['Equipo Local']} vs {f['Equipo Visitante']}", 'Marcador': f"{g_l}-{g_v}",
-                        'Doble Op.': '✅' if g_l >= g_v else '❌', 'Over 1.5': '✅' if (g_l+g_v)>1.5 else '❌',
-                        'Over 2.5': '✅' if (g_l+g_v)>2.5 else '❌', 'BTTS': '✅' if (g_l>0 and g_v>0) else '❌'
+                        'Equipo Local': f['Equipo Local'], 'Equipo Visitante': f['Equipo Visitante'], 
+                        'Marcador': f"{g_l}-{g_v}"
                     })
                 else:
                     e_l, e_v = fuerzas.get(f['Equipo Local'], 1.2)*1.1, fuerzas.get(f['Equipo Visitante'], 1.1)*0.9
@@ -110,29 +107,39 @@ with tab1:
         
         mercados = [('Prob. Pick', '🛡️', 'Doble Oportunidad'), ('Over 1.5', '🥅', 'Over 1.5'), ('Over 2.5', '💥', 'Over 2.5'), ('BTTS', '🤝', 'Ambos Marcan')]
         cols = st.columns(4)
-        for i, (campo, ico, tit) in enumerate(mercados):
+        for i, (campo, anim, ico, tit) in enumerate(mercados):
             with cols[i]:
                 st.markdown(f'#### {ico} {tit}')
                 for _, r in df_top4_real.nlargest(4, campo).iterrows():
                     with st.container():
                         p_txt = f"<b>{r['Pick']}:</b> " if campo == 'Prob. Pick' else ""
-                        st.markdown(f'<div class="top4-card">📅 {r["Fecha"]}<br>{r["Partido"]}<br>{p_txt}<b>{r[campo]:.0%}</b></div>', unsafe_allow_html=True)
+                        st.markdown(f"""<div class="top4-card">
+                            <small>{r['Fecha']}</small><br>
+                            <b>{r['Partido']}</b><br>
+                            <span style="font-size:18px;">{p_txt}<b>{r[campo]:.0%}</b></span>
+                        </div>""", unsafe_allow_html=True)
                         
-                        # BOTÓN DE RACHA (Individual por equipo)
+                        # BOTÓN DE RACHA CORREGIDO
                         with st.popover("📊 Ver Racha"):
                             for eq_tipo in ['Local', 'Visitante']:
                                 nombre_eq = r[eq_tipo]
                                 st.write(f"**Últimos de {nombre_eq}:**")
-                                h_eq = df_his[(df_his['Local'] == nombre_eq) | (df_his['Visitante'] == nombre_eq)].head(5).copy()
+                                # Filtramos usando los nombres de columna exactos del historial
+                                h_eq = df_his[(df_his['Equipo Local'] == nombre_eq) | (df_his['Equipo Visitante'] == nombre_eq)].head(5).copy()
+                                
                                 if not h_eq.empty:
                                     def f_res(row):
                                         g = extraer_goles(row['Marcador'])
-                                        if row['Local'] == nombre_eq:
-                                            return "🟢 G" if g[0]>g[1] else ("🟡 E" if g[0]==g[1] else "🔴 P")
-                                        return "🟢 G" if g[1]>g[0] else ("🟡 E" if g[1]==g[0] else "🔴 P")
+                                        if not g: return "⚪"
+                                        if row['Equipo Local'] == nombre_eq:
+                                            return "🟢 G" if g[0] > g[1] else ("🟡 E" if g[0] == g[1] else "🔴 P")
+                                        else:
+                                            return "🟢 G" if g[1] > g[0] else ("🟡 E" if g[1] == g[0] else "🔴 P")
+                                    
                                     h_eq['Res'] = h_eq.apply(f_res, axis=1)
-                                    st.dataframe(h_eq[['Fecha', 'Local', 'Visitante', 'Marcador', 'Res']], hide_index=True)
-                                else: st.write("Sin datos.")
+                                    st.dataframe(h_eq[['Fecha', 'Equipo Local', 'Equipo Visitante', 'Marcador', 'Res']], hide_index=True)
+                                else:
+                                    st.write("Sin datos previos.")
 
         st.markdown("---")
         st.subheader("📊 FILTROS DE PREDICCIONES")
@@ -144,8 +151,6 @@ with tab1:
             f_j = st.selectbox("Selecciona Jornada:", ["TODAS"] + j_list_p, key="jp")
         
         df_v = df_temp_p if f_j == "TODAS" else df_temp_p[df_temp_p['Jornada'] == int(f_j)]
-        
-        # COLUMNAS ORIGINALES (Evita el KeyError de la imagen)
         cols_mostrar = ['Fecha', 'Jornada', 'Liga', 'Partido', 'Pick', 'Prob. Pick', 'Over 1.5', 'Over 2.5', 'BTTS']
         st.dataframe(df_v[cols_mostrar].style.format({c: '{:.0%}' for c in ['Prob. Pick', 'Over 1.5', 'Over 2.5', 'BTTS']}), use_container_width=True, hide_index=True)
 

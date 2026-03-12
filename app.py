@@ -1,50 +1,51 @@
 import streamlit as st
 import pandas as pd
 import glob
-import math
 import re
 
 # --- 1. CONFIGURACIÓN DE PÁGINA ---
 st.set_page_config(page_title="Bet Pro League", layout="wide", page_icon="⚽")
 
-# --- 2. DISEÑO VISUAL (TU ESTILO ORIGINAL) ---
+# --- 2. DISEÑO VISUAL (TU ESTILO ORIGINAL REFORZADO) ---
 fondo_url = "https://images.unsplash.com/photo-1556056504-5c7696c4c28d?q=80&w=2076&auto=format&fit=crop"
 st.markdown(f"""
     <style>
     .stApp {{ background-image: url("{fondo_url}"); background-attachment: fixed; background-size: cover; }}
     .main .block-container {{ background-color: rgba(255, 255, 255, 0.95); border-radius: 10px; padding: 30px; margin-top: 20px; }}
-    h1, h2, h3, h4, p, span, div, label, .stMetric {{ color: #000000 !important; font-weight: bold; }}
-    div[data-baseweb="select"] > div, ul[role="listbox"], div[data-baseweb="popover"] div {{
-        background-color: white !important; color: black !important;
-    }}
+    h1, h2, h3, h4, p, span, div, label {{ color: #000000 !important; font-weight: bold; }}
+    /* Asegurar que las tablas se vean bien en móvil */
+    .stDataFrame {{ background-color: white; border-radius: 5px; }}
     </style>
     """, unsafe_allow_html=True)
 
 # --- 3. LÓGICA DE CÁLCULO ---
 def calcular_probabilidades(df_liga):
     if df_liga.empty: return pd.DataFrame()
+    # Identificar partidos jugados por el guión en el resultado
     df_jugados = df_liga[df_liga['Resultado'].str.contains('-', na=False)].copy()
     total_partidos = len(df_jugados)
     if total_partidos == 0: return pd.DataFrame()
 
-    overs_15 = len(df_jugados[df_jugados['Resultado'].apply(lambda x: sum(map(int, re.findall(r'\d+', x))) > 1.5)]) / total_partidos
-    overs_25 = len(df_jugados[df_jugados['Resultado'].apply(lambda x: sum(map(int, re.findall(r'\d+', x))) > 2.5)]) / total_partidos
+    # Cálculo de métricas
+    overs_15 = len(df_jugados[df_jugados['Resultado'].apply(lambda x: sum(map(int, re.findall(r'\d+', str(x)))) > 1.5)]) / total_partidos
+    overs_25 = len(df_jugados[df_jugados['Resultado'].apply(lambda x: sum(map(int, re.findall(r'\d+', str(x)))) > 2.5)]) / total_partidos
     
     def es_btts(res):
-        goles = re.findall(r'\d+', res)
+        goles = re.findall(r'\d+', str(res))
         return int(goles[0]) > 0 and int(goles[1]) > 0 if len(goles)==2 else False
     
     btts_prob = len(df_jugados[df_jugados['Resultado'].apply(es_btts)]) / total_partidos
 
+    # Partidos futuros
     df_pendientes = df_liga[~df_liga['Resultado'].str.contains('-', na=False)].copy()
     picks = []
     for _, row in df_pendientes.iterrows():
         pick_text = "Over 1.5" if overs_15 > 0.70 else "Local o Empate"
-        prob = overs_15 if "Over" in pick_text else 0.65
+        prob_p = overs_15 if "Over" in pick_text else 0.65
         picks.append({
             'Fecha': row['Fecha'], 'Jornada': row['Jornada'], 'Liga': row['Liga_Nombre'],
             'Partido': f"{row['Equipo Local']} vs {row['Equipo Visitante']}",
-            'Pick': pick_text, 'Prob. Pick': prob, 'Over 1.5': overs_15, 'Over 2.5': overs_25, 'BTTS': btts_prob
+            'Pick': pick_text, 'Prob. Pick': prob_p, 'Over 1.5': overs_15, 'Over 2.5': overs_25, 'BTTS': btts_prob
         })
     return pd.DataFrame(picks)
 
@@ -66,40 +67,43 @@ for arc in archivos:
 df_fut = pd.concat(df_lista_picks) if df_lista_picks else pd.DataFrame()
 df_his = pd.concat(df_lista_historial) if df_lista_historial else pd.DataFrame()
 
-# --- 5. INTERFAZ ---
-st.title("⚽ BET PRO LEAGUE")
+# --- 5. INTERFAZ ORIGINAL CON MEJORAS ---
+st.title("⚽ Bet Pro League")
 tab1, tab2 = st.tabs(["🎯 PRÓXIMOS PICKS", "📜 HISTORIAL"])
 
-# Función de color corregida para aplicar a TODAS las columnas de porcentaje
 def aplicar_semaforo(val):
     try:
         p = float(val)
-        if p >= 0.75: return 'background-color: #28a745; color: white; font-weight: bold;'
-        if p >= 0.60: return 'background-color: #ffc107; color: black; font-weight: bold;'
+        if p >= 0.75: return 'background-color: #28a745; color: white; font-weight: bold;' # Verde
+        if p >= 0.60: return 'background-color: #ffc107; color: black; font-weight: bold;' # Amarillo
     except: pass
     return ''
 
 with tab1:
     st.header("🎯 PRÓXIMOS PICKS")
     if not df_fut.empty:
-        f1, f2 = st.columns(2)
-        with f1: sel_l_p = st.selectbox("Selecciona Liga:", ["TODAS"] + lista_ligas_total, key="lp")
+        col1, col2 = st.columns(2)
+        with col1: 
+            sel_l_p = st.selectbox("Selecciona Liga:", ["TODAS"] + sorted(lista_ligas_total), key="lp")
+        
         df_temp_p = df_fut[df_fut['Liga'] == sel_l_p] if sel_l_p != "TODAS" else df_fut
-        j_list_p = sorted(df_temp_p['Jornada'].unique(), key=lambda x: int(x), reverse=True)
-        with f2: f_j = st.selectbox("Selecciona Jornada:", ["TODAS"] + [int(x) for x in j_list_p], key="jp")
         
-        df_v = df_temp_p if f_j == "TODAS" else df_temp_p[df_temp_p['Jornada'] == int(f_j)]
+        # Corrección del error de ordenamiento (Jornada)
+        j_list_p = sorted(df_temp_p['Jornada'].dropna().unique(), key=lambda x: str(x), reverse=True)
         
-        # Agregamos el icono al texto del Pick
+        with col2: 
+            f_j = st.selectbox("Selecciona Jornada:", ["TODAS"] + list(j_list_p), key="jp")
+        
+        df_v = df_temp_p if f_j == "TODAS" else df_temp_p[df_temp_p['Jornada'] == f_j]
+        
+        # Estética de celdas
         df_v['Pick'] = "⚽ " + df_v['Pick'].astype(str)
-
-        # Columnas a las que aplicaremos el color
-        cols_porcentaje = ['Prob. Pick', 'Over 1.5', 'Over 2.5', 'BTTS']
+        cols_p = ['Prob. Pick', 'Over 1.5', 'Over 2.5', 'BTTS']
 
         st.dataframe(
             df_v[['Fecha', 'Jornada', 'Liga', 'Partido', 'Pick', 'Prob. Pick', 'Over 1.5', 'Over 2.5', 'BTTS']]
-            .style.applymap(aplicar_semaforo, subset=cols_porcentaje)
-            .format({c: '{:.0%}' for c in cols_porcentaje}), 
+            .style.applymap(aplicar_semaforo, subset=cols_p)
+            .format({c: '{:.0%}' for c in cols_p}), 
             use_container_width=True, hide_index=True
         )
 
@@ -107,9 +111,12 @@ with tab2:
     st.header("📜 HISTORIAL")
     if not df_his.empty:
         h1, h2 = st.columns(2)
-        with h1: sel_l = st.selectbox("Liga Historial:", ["TODAS"] + lista_ligas_total, key="lh")
+        with h1: sel_l = st.selectbox("Liga Historial:", ["TODAS"] + sorted(lista_ligas_total), key="lh")
         df_temp_h = df_his[df_his['Liga_Nombre'] == sel_l] if sel_l != "TODAS" else df_his
-        j_list_h = sorted(df_temp_h['Jornada'].unique(), key=lambda x: int(x), reverse=True)
-        with h2: sel_j = st.selectbox("Jornada Historial:", ["TODAS"] + j_list_h, key="jh")
+        
+        j_list_h = sorted(df_temp_h['Jornada'].dropna().unique(), key=lambda x: str(x), reverse=True)
+        
+        with h2: sel_j = st.selectbox("Jornada Historial:", ["TODAS"] + list(j_list_h), key="jh")
+        
         df_h_v = df_temp_h if sel_j == "TODAS" else df_temp_h[df_temp_h['Jornada'] == sel_j]
         st.dataframe(df_h_v[['Fecha', 'Jornada', 'Equipo Local', 'Equipo Visitante', 'Resultado']], use_container_width=True, hide_index=True)

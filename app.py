@@ -171,4 +171,3 @@ with tab2:
             df_hf[['Fecha', 'Jornada', 'Liga', 'Equipo Local', 'Equipo Visitante', 'Marcador', '1X (L)', 'X2 (V)', 'Over 1.5', 'Over 2.5', 'BTTS']].style.applymap(color_letras_historial, subset=['1X (L)', 'X2 (V)', 'Over 1.5', 'Over 2.5', 'BTTS']),
             use_container_width=True, hide_index=True
         )
-        )

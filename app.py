@@ -25,11 +25,6 @@ def aplicar_semaforo(val):
         elif val >= 0.55: return 'color: #ffa500; font-weight: bold;'
     return 'color: black;'
 
-def color_letras_historial(val):
-    if val == '✅': return 'color: #28a745; font-weight: bold;'
-    if val == '❌': return 'color: #dc3545; font-weight: bold;'
-    return 'color: black;'
-
 def extraer_goles(resultado_str):
     numeros = re.findall(r'\d+', str(resultado_str))
     if len(numeros) >= 2: return int(numeros[0]), int(numeros[1])
@@ -74,7 +69,7 @@ def cargar_todo():
                         'Fecha': f['Fecha'], 'Liga': liga_n, 'Jornada': str(int(f['Jornada'])),
                         'Equipo Local': f['Equipo Local'], 'Equipo Visitante': f['Equipo Visitante'], 
                         'Marcador': f"{g_l}-{g_v}",
-                        'Doble Op.': '✅' if (g_l >= g_v or g_v >= g_l) else '❌', # Original simple
+                        'Doble Op.': '✅' if (g_l >= g_v or g_v >= g_l) else '❌',
                         'Over 1.5': '✅' if (g_l+g_v) > 1.5 else '❌',
                         'Over 2.5': '✅' if (g_l+g_v) > 2.5 else '❌',
                         'BTTS': '✅' if (g_l > 0 and g_v > 0) else '❌'
@@ -91,11 +86,19 @@ def cargar_todo():
                             if (gl+gv) > 1.5: p_o15 += p
                             if (gl+gv) > 2.5: p_o25 += p
                             if gl > 0 and gv > 0: p_btts += p
+                    
+                    # Determinamos si el Pick es 1X o X2 para el Top 4
+                    pick_val = p_l + p_e
+                    pick_label = "1X"
+                    if (p_v + p_e) > pick_val:
+                        pick_val = p_v + p_e
+                        pick_label = "X2"
+
                     actuales.append({
                         'Fecha': f['Fecha'], 'Jornada': int(f['Jornada']), 'Liga': liga_n, 
                         'Local': f['Equipo Local'], 'Visitante': f['Equipo Visitante'],
                         'Partido': f"{f['Equipo Local']} vs {f['Equipo Visitante']}",
-                        '1X': p_l + p_e, 'X': p_e, 'X2': p_v + p_e,
+                        'Doble Op.': pick_val, 'Pick_Tipo': pick_label,
                         'Over 1.5': p_o15, 'Over 2.5': p_o25, 'BTTS': p_btts,
                         'Es_Proxima': (f['Jornada'] == prox_jor_liga)
                     })
@@ -113,27 +116,27 @@ with tab1:
         st.subheader("🏆 TOP 4 POR MERCADO (PRÓXIMA JORNADA)")
         df_top4_real = df_pre[df_pre['Es_Proxima'] == True]
         
-        # Mercados con su etiqueta de tipo (1X o X2) para el Top 4
+        # Estructura ORIGINAL de los 4 mercados
         mercados = [
-            ('1X', '🛡️', 'Doble Local', '1X'), 
-            ('X2', '🛡️', 'Doble Visita', 'X2'), 
-            ('Over 1.5', '🥅', 'Over 1.5', ''), 
-            ('BTTS', '🤝', 'Ambos Marcan', '')
+            ('Doble Op.', '🛡️', 'Doble Oportunidad'), 
+            ('Over 1.5', '🥅', 'Over 1.5'), 
+            ('Over 2.5', '🥅', 'Over 2.5'), 
+            ('BTTS', '🤝', 'Ambos Marcan')
         ]
         
         cols_top = st.columns(4)
-        for i, (campo, ico, tit, label) in enumerate(mercados):
+        for i, (campo, ico, tit) in enumerate(mercados):
             with cols_top[i]:
                 st.markdown(f'#### {ico} {tit}')
                 n_count = min(len(df_top4_real), 4)
                 if n_count > 0:
                     for _, r in df_top4_real.nlargest(n_count, campo).iterrows():
-                        # Aquí agregamos el (1X) o (X2) al lado del porcentaje
-                        texto_label = f"({label})" if label else ""
-                        st.markdown(f'<div class="top4-card">📅 {r["Fecha"]}<br><b>{r["Partido"]}</b><br><b>{r[campo]:.0%} {texto_label}</b></div>', unsafe_allow_html=True)
+                        # Solo agregamos el label (1X o X2) si es el mercado de Doble Op.
+                        label = f" ({r['Pick_Tipo']})" if campo == 'Doble Op.' else ""
+                        st.markdown(f'<div class="top4-card">📅 {r["Fecha"]}<br><b>{r["Partido"]}</b><br><b>{r[campo]:.0%}{label}</b></div>', unsafe_allow_html=True)
                         
                         with st.popover("📊 Ver Racha"):
-                            for tipo_e, eq_nom in [("Local", r['Local']), ("Visitante", r['Visitante'])]:
+                            for eq_nom in [r['Local'], r['Visitante']]:
                                 st.write(f"**Últimos de {eq_nom}:**")
                                 h_eq = df_his[(df_his['Equipo Local'] == eq_nom) | (df_his['Equipo Visitante'] == eq_nom)].head(5).copy()
                                 if not h_eq.empty:
@@ -157,24 +160,12 @@ with tab1:
             f_j = st.selectbox("Selecciona Jornada:", ["TODAS"] + j_list, key="jp")
         
         df_v = df_t if f_j == "TODAS" else df_t[df_t['Jornada'] == int(f_j)]
-        columnas_f = ['Fecha', 'Jornada', 'Liga', 'Partido', '1X', 'X', 'X2', 'Over 1.5', 'Over 2.5', 'BTTS']
-        st.dataframe(df_v[columnas_f].style.applymap(aplicar_semaforo, subset=['1X', 'X', 'X2', 'Over 1.5', 'Over 2.5', 'BTTS']).format({c: '{:.0%}' for c in ['1X', 'X', 'X2', 'Over 1.5', 'Over 2.5', 'BTTS']}), use_container_width=True, hide_index=True)
+        # Columnas de la tabla general según tu esquema original
+        cols_v = ['Fecha', 'Jornada', 'Liga', 'Partido', 'Doble Op.', 'Over 1.5', 'Over 2.5', 'BTTS']
+        st.dataframe(df_v[cols_v].style.applymap(aplicar_semaforo, subset=['Doble Op.', 'Over 1.5', 'Over 2.5', 'BTTS']).format({c: '{:.0%}' for c in ['Doble Op.', 'Over 1.5', 'Over 2.5', 'BTTS']}), use_container_width=True, hide_index=True)
 
 with tab2:
-    st.header("📜 HISTORIAL Y RENDIMIENTO")
+    st.header("📜 HISTORIAL")
     if not df_his.empty:
-        busqueda = st.text_input("🔍 Buscar equipo:")
-        h1, h2 = st.columns(2)
-        with h1: sel_l_h = st.selectbox("Filtrar Liga:", ["TODAS"] + lista_ligas_total, key="lh")
-        with h2:
-            df_th = df_his[df_his['Liga'] == sel_l_h] if sel_l_h != "TODAS" else df_his
-            j_h = sorted([int(x) for x in df_th['Jornada'].unique()], reverse=True)
-            sel_j_h = st.selectbox("Filtrar Jornada:", ["TODAS"] + j_h, key="jh")
-        
-        df_hf = df_th if sel_j_h == "TODAS" else df_th[df_th['Jornada'] == str(sel_j_h)]
-        
-        if busqueda:
-            df_hf = df_hf[(df_hf['Equipo Local'].str.contains(busqueda, case=False)) | (df_hf['Equipo Visitante'].str.contains(busqueda, case=False))]
-
         col_h_f = ['Fecha', 'Jornada', 'Liga', 'Equipo Local', 'Equipo Visitante', 'Marcador', 'Doble Op.', 'Over 1.5', 'Over 2.5', 'BTTS']
-        st.dataframe(df_hf[col_h_f].style.applymap(color_letras_historial, subset=['Doble Op.', 'Over 1.5', 'Over 2.5', 'BTTS']), use_container_width=True, hide_index=True)
+        st.dataframe(df_his[col_h_f], use_container_width=True, hide_index=True)

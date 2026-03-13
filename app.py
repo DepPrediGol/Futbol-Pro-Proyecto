@@ -10,13 +10,22 @@ st.set_page_config(page_title="Bet Pro League", layout="wide", page_icon="⚽")
 # --- 2. ESTILOS Y PRIVACIDAD ---
 st.markdown("""
     <style>
-    /* Ocultar elementos de administración y menús para privacidad */
-    header {visibility: hidden;}
-    .stAppDeployButton {display: none !important;}
+    /* 1. Ocultar el encabezado completo (Share, estrella, GitHub, Menú) */
+    header {visibility: hidden !important;}
+    
+    /* 2. Ocultar el botón de 'Manage app' (probando varios selectores) */
+    .stAppDeployButton, 
+    [data-testid="stStatusWidget"], 
+    .st-emotion-cache-1647z7h, 
+    footer + div {
+        display: none !important;
+        visibility: hidden !important;
+    }
+    
+    /* 3. Ocultar el footer (Made with Streamlit) */
     footer {display: none !important;}
-    #MainMenu {visibility: hidden;}
 
-    /* Estilos de la aplicación */
+    /* Tus estilos de diseño se mantienen */
     .stApp { 
         background-image: url("https://images.unsplash.com/photo-1556056504-5c7696c4c28d?q=80&w=2076&auto=format&fit=crop"); 
         background-attachment: fixed; 

@@ -3,28 +3,24 @@ import pandas as pd
 import glob
 import math
 import re
+from datetime import datetime
 
-# --- 1. CONFIGURACIÓN DE PÁGINA ---
+# --- 1. CONFIGURACIÓN ---
 st.set_page_config(page_title="Bet Pro League", layout="wide", page_icon="⚽")
 
-# --- 2. DISEÑO VISUAL Y ANIMACIONES ---
-fondo_url = "https://images.unsplash.com/photo-1556056504-5c7696c4c28d?q=80&w=2076&auto=format&fit=crop"
-st.markdown(f"""
+# --- 2. ESTILOS ---
+st.markdown("""
     <style>
-    .stApp {{ background-image: url("{fondo_url}"); background-attachment: fixed; background-size: cover; }}
-    .main .block-container {{ background-color: rgba(255, 255, 255, 0.95); border-radius: 10px; padding: 30px; margin-top: 20px; }}
-    h1, h2, h3, h4, p, span, div, label, .stMetric {{ color: #000000 !important; font-weight: bold; }}
-    .top4-card {{ padding: 12px; border-radius: 10px; background: rgba(255,255,255,0.5); border: 1px solid #ddd; text-align: center; margin-bottom: 8px; min-height: 100px; }}
-    
-    .giro-balon {{ display: inline-block; animation: rotacion 3s infinite linear; font-style: normal; }}
-    @keyframes rotacion {{ from {{ transform: rotate(0deg); }} to {{ transform: rotate(360deg); }} }}
-    
-    .rebote-icon {{ display: inline-block; animation: bounce 2s infinite; font-style: normal; }}
-    @keyframes bounce {{ 0%, 20%, 50%, 80%, 100% {{transform: translateY(0);}} 40% {{transform: translateY(-6px);}} 60% {{transform: translateY(-3px);}} }}
+    .stApp { background-image: url("https://images.unsplash.com/photo-1556056504-5c7696c4c28d?q=80&w=2076&auto=format&fit=crop"); background-attachment: fixed; background-size: cover; }
+    .main .block-container { background-color: rgba(255, 255, 255, 0.95); border-radius: 10px; padding: 30px; margin-top: 20px; }
+    h1, h2, h3, h4, p, span, div, label, .stMetric { color: #000000 !important; font-weight: bold; }
+    .top4-card { padding: 12px; border-radius: 10px; background: rgba(255,255,255,0.5); border: 1px solid #ddd; text-align: center; margin-bottom: 8px; min-height: 100px; }
+    .giro-balon { display: inline-block; animation: rotacion 3s infinite linear; }
+    @keyframes rotacion { from { transform: rotate(0deg); } to { transform: rotate(360deg); } }
     </style>
     """, unsafe_allow_html=True)
 
-# --- 3. FUNCIONES LÓGICAS ---
+# --- 3. LÓGICA DE CÁLCULO ---
 def aplicar_semaforo(val):
     if isinstance(val, (int, float)):
         if val >= 0.75: return 'color: #28a745; font-weight: bold;'
@@ -69,7 +65,7 @@ def calcular_fuerzas(df_h):
             f[fila['Equipo Visitante']] += 0.20 if g_v > g_l else 0.05 * g_v
     return f
 
-# --- 4. CARGA Y PROCESAMIENTO ---
+# --- 4. CARGA DE DATOS ---
 @st.cache_data(ttl=300)
 def cargar_todo():
     archivos = glob.glob("*.csv")
@@ -81,6 +77,8 @@ def cargar_todo():
             todas_las_ligas.append(liga_n)
             df['Resultado'] = df['Resultado'].astype(str).str.strip()
             fuerzas = calcular_fuerzas(df)
+            
+            # Identificar partidos sin jugar para el Top 4
             pendientes = df[~df['Resultado'].str.contains(r'\d', na=False)].copy()
             prox_jor_liga = pendientes['Jornada'].min() if not pendientes.empty else 0
             
@@ -92,7 +90,6 @@ def cargar_todo():
                 goles = extraer_goles(f['Resultado'])
                 if goles:
                     g_l, g_v = goles
-                    # Lógica para mostrar el porcentaje correcto en la Doble Oportunidad real
                     prob_d = (pl + pe) if g_l >= g_v else (pv + pe)
                     historicos.append({
                         'Fecha': f['Fecha'], 'Liga': liga_n, 'Jornada': str(int(f['Jornada'])),
@@ -122,21 +119,21 @@ tab1, tab2 = st.tabs(["PREDICCIONES", "HISTORIAL"])
 
 with tab1:
     if not df_pre.empty:
-        st.markdown(f'### <span class="rebote-icon">🏆</span> TOP 4 POR MERCADO (PRÓXIMA JORNADA)', unsafe_allow_html=True)
+        st.markdown('### 🏆 TOP 4 POR MERCADO (PRÓXIMOS PARTIDOS)')
+        # Lógica de fechas que siguen: solo partidos marcados como 'Es_Proxima'
         df_top4_real = df_pre[df_pre['Es_Proxima'] == True]
-        mercados = [('1X', '🛡️', 'Doble Local'), ('X2', '🛡️', 'Doble Visita'), ('Over 1.5', '🥅', 'Over 1.5'), ('BTTS', '🤝', 'Ambos Marcan')]
+        mercados = [('1X', '🛡️', 'Doble Op.'), ('Over 1.5', '🥅', 'Over 1.5'), ('Over 2.5', '⚽', 'Over 2.5'), ('BTTS', '🤝', 'Ambos Marcan')]
         cols_top = st.columns(4)
         
         for i, (campo, ico, tit) in enumerate(mercados):
             with cols_top[i]:
-                st.markdown(f'#### <span class="rebote-icon">{ico}</span> {tit}', unsafe_allow_html=True)
+                st.markdown(f'#### {ico} {tit}')
                 n_count = min(len(df_top4_real), 4)
                 if n_count > 0:
                     for _, r in df_top4_real.nlargest(n_count, campo).iterrows():
                         st.markdown(f'<div class="top4-card">📅 {r["Fecha"]}<br><b>{r["Partido"]}</b><br><b>{r[campo]:.0%}</b></div>', unsafe_allow_html=True)
                         with st.popover("📊 Ver Racha"):
                             for eq in [r['Local'], r['Visitante']]:
-                                st.write(f"**Últimos de {eq}:**")
                                 h_eq = df_his[(df_his['Equipo Local']==eq)|(df_his['Equipo Visitante']==eq)].head(5).copy()
                                 if not h_eq.empty:
                                     def det_r(row):
@@ -148,7 +145,7 @@ with tab1:
                                     st.dataframe(h_eq[['Fecha', 'Equipo Local', 'Equipo Visitante', 'Marcador', 'Res']], hide_index=True)
 
         st.markdown("---")
-        st.markdown(f'### <span class="rebote-icon">📊</span> FILTROS DE PREDICCIONES', unsafe_allow_html=True)
+        st.markdown('### 📊 FILTROS DE PREDICCIONES')
         c1, c2 = st.columns(2)
         with c1: f_l = st.selectbox("Selecciona Liga:", ["TODAS"] + lista_ligas_total)
         with c2:
@@ -156,28 +153,19 @@ with tab1:
             f_j = st.selectbox("Selecciona Jornada:", ["TODAS"] + sorted([int(x) for x in df_t['Jornada'].unique()], reverse=True))
         
         df_v = df_t if f_j == "TODAS" else df_t[df_t['Jornada'] == int(f_j)]
-        cols_viz = ['Fecha', 'Jornada', 'Liga', 'Partido', '1X', 'X', 'X2', 'Over 1.5', 'Over 2.5', 'BTTS']
-        st.dataframe(df_v[cols_viz].style.applymap(aplicar_semaforo, subset=['1X', 'X', 'X2', 'Over 1.5', 'Over 2.5', 'BTTS']).format({c: '{:.0%}' for c in ['1X', 'X', 'X2', 'Over 1.5', 'Over 2.5', 'BTTS']}), use_container_width=True, hide_index=True)
+        st.dataframe(df_v[['Fecha', 'Jornada', 'Liga', 'Partido', '1X', 'X', 'X2', 'Over 1.5', 'Over 2.5', 'BTTS']].style.applymap(aplicar_semaforo, subset=['1X', 'X', 'X2', 'Over 1.5', 'Over 2.5', 'BTTS']).format({c: '{:.0%}' for c in ['1X', 'X', 'X2', 'Over 1.5', 'Over 2.5', 'BTTS']}), use_container_width=True, hide_index=True)
 
 with tab2:
-    st.markdown(f'## <span class="rebote-icon">📜</span> HISTORIAL', unsafe_allow_html=True)
+    st.markdown('## 📜 HISTORIAL')
     if not df_his.empty:
-        busq = st.text_input("🔍 Buscar equipo para ver su historial y efectividad:")
+        busq = st.text_input("🔍 Buscar equipo:")
         h1, h2 = st.columns(2)
-        with h1: sel_l_h = st.selectbox("Filtrar Liga:", ["TODAS"] + lista_ligas_total, key="lh")
+        with h1: sel_l_h = st.selectbox("Liga:", ["TODAS"] + lista_ligas_total, key="lh")
         with h2:
             df_th = df_his[df_his['Liga'] == sel_l_h] if sel_l_h != "TODAS" else df_his
-            sel_j_h = st.selectbox("Filtrar Jornada:", ["TODAS"] + sorted([int(x) for x in df_th['Jornada'].unique()], reverse=True), key="jh")
+            sel_j_h = st.selectbox("Jornada:", ["TODAS"] + sorted([int(x) for x in df_th['Jornada'].unique()], reverse=True), key="jh")
         
         df_hf = df_th if sel_j_h == "TODAS" else df_th[df_th['Jornada'] == str(sel_j_h)]
-        if busq:
-            df_hf = df_hf[(df_hf['Equipo Local'].str.contains(busq, case=False)) | (df_hf['Equipo Visitante'].str.contains(busq, case=False))]
-            if not df_hf.empty:
-                st.write(f"### 📈 Efectividad para: {busq}")
-                m1, m2, m3, m4 = st.columns(4)
-                m1.metric("Doble Oportunidad", f"{(df_hf['Doble Op.'].str.contains('✅')).mean():.0%}")
-                m2.metric("Over 1.5", f"{(df_hf['Over 1.5'].str.contains('✅')).mean():.0%}")
-                m3.metric("Over 2.5", f"{(df_hf['Over 2.5'].str.contains('✅')).mean():.0%}")
-                m4.metric("BTTS", f"{(df_hf['BTTS'].str.contains('✅')).mean():.0%}")
+        if busq: df_hf = df_hf[(df_hf['Equipo Local'].str.contains(busq, case=False)) | (df_hf['Equipo Visitante'].str.contains(busq, case=False))]
         
         st.dataframe(df_hf[['Fecha', 'Jornada', 'Liga', 'Equipo Local', 'Equipo Visitante', 'Marcador', 'Doble Op.', 'Over 1.5', 'Over 2.5', 'BTTS']].style.applymap(color_letras_historial, subset=['Doble Op.', 'Over 1.5', 'Over 2.5', 'BTTS']), use_container_width=True, hide_index=True)

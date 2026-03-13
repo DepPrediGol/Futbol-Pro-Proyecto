@@ -5,27 +5,32 @@ import math
 import re
 
 # --- 1. CONFIGURACIÓN ---
+# El layout="wide" ayuda a que en PC use toda la pantalla, pero en móvil Streamlit lo apila verticalmente.
 st.set_page_config(page_title="Bet Pro League", layout="wide", page_icon="⚽")
 
-# --- 2. ESTILOS Y PRIVACIDAD ---
+# --- 2. ESTILOS, PRIVACIDAD Y RESPONSIVE ---
 st.markdown("""
     <style>
-    /* 1. Ocultar el encabezado completo (Share, estrella, GitHub, Menú) */
+    /* FUERZA EL DISEÑO RESPONSIVE */
+    /* Asegura que el contenedor principal no tenga márgenes gigantes en móviles */
+    @media (max-width: 640px) {
+        .main .block-container {
+            padding: 10px !important;
+            margin-top: 0px !important;
+        }
+        h1 { font-size: 1.5rem !important; }
+        .top4-card { min-height: 80px !important; font-size: 0.8rem !important; }
+    }
+
+    /* PRIVACIDAD: Ocultar botones de administración */
     header {visibility: hidden !important;}
-    
-    /* 2. Ocultar el botón de 'Manage app' (probando varios selectores) */
-    .stAppDeployButton, 
-    [data-testid="stStatusWidget"], 
-    .st-emotion-cache-1647z7h, 
-    footer + div {
+    footer {display: none !important;}
+    [data-testid="stStatusWidget"], .stAppDeployButton {
         display: none !important;
         visibility: hidden !important;
     }
-    
-    /* 3. Ocultar el footer (Made with Streamlit) */
-    footer {display: none !important;}
 
-    /* Tus estilos de diseño se mantienen */
+    /* ESTILOS VISUALES */
     .stApp { 
         background-image: url("https://images.unsplash.com/photo-1556056504-5c7696c4c28d?q=80&w=2076&auto=format&fit=crop"); 
         background-attachment: fixed; 
@@ -48,7 +53,6 @@ st.markdown("""
         border: 1px solid #ddd; 
         text-align: center; 
         margin-bottom: 5px; 
-        min-height: 100px; 
     }
     .giro-balon { 
         display: inline-block; 
@@ -155,6 +159,8 @@ with t1:
         st.markdown('### 🏆 TOP 4 POR MERCADO (PRÓXIMAS FECHAS)')
         df_t4 = df_p[df_p['Es_Proxima'] == True].copy()
         mks = [('DOBLE', '🛡️', 'Doble Oportunidad'), ('Over 1.5', '🥅', 'Over 1.5'), ('Over 2.5', '⚽', 'Over 2.5'), ('BTTS', '🤝', 'Ambos Marcan')]
+        
+        # En móviles, st.columns se apilan solos, pero aquí forzamos que se vean bien
         cols = st.columns(4)
         for i, (m, ico, tit) in enumerate(mks):
             with cols[i]:
@@ -168,18 +174,16 @@ with t1:
                     v = f"{r['Tp'] if m=='DOBLE' else ''} {r['Mx']:.0%}" if m=='DOBLE' else f"{r[m]:.0%}"
                     st.markdown(f'<div class="top4-card">📅 {r["Fecha"]}<br><small>{r["Liga"]}</small><br><b>{r["Partido"]}</b><br><span style="color:#1a73e8;">{v}</span></div>', unsafe_allow_html=True)
                     
-                    # --- VENTANA FLOTANTE (ÚLTIMOS 5 PARTIDOS REALES) ---
                     with st.popover("📊 Ver Racha"):
                         for eq in [r['Local'], r['Visitante']]:
-                            st.write(f"📈 **Efectividad últimos partidos: {eq}**")
-                            # Invertimos el historial (iloc[::-1]) para que los últimos partidos (final del CSV) aparezcan primero
+                            st.write(f"📈 **Racha: {eq}**")
                             df_eq = df_h[(df_h['Equipo Local']==eq)|(df_h['Equipo Visitante']==eq)].iloc[::-1].head(5)
                             if not df_eq.empty:
                                 ef_c1, ef_c2, ef_c3 = st.columns(3)
                                 ef_c1.metric("Doble Op.", f"{(df_eq['Doble Oportunidad'].str.contains('✅').sum()/len(df_eq)):.0%}")
                                 ef_c2.metric("Over 1.5", f"{(df_eq['Over 1.5'].str.contains('✅').sum()/len(df_eq)):.0%}")
                                 ef_c3.metric("BTTS", f"{(df_eq['BTTS'].str.contains('✅').sum()/len(df_eq)):.0%}")
-                                st.dataframe(df_eq, hide_index=True)
+                                st.dataframe(df_eq, use_container_width=True, hide_index=True)
 
         st.markdown("---")
         st.markdown('### 📊 FILTROS DE PREDICCIONES')
@@ -197,7 +201,7 @@ with t2:
         h1, h2 = st.columns(2)
         with h1: slh = st.selectbox("Filtrar Liga:", ["TODAS"] + lgs, key="h1")
         with h2:
-            df_th = df_h if slh=="TODAS" else df_h[df_h['Liga']==slh]
+            df_th = df_h if slh=="TODAS" else df_h[df_th['Liga']==slh]
             sjh = st.selectbox("Filtrar Jornada:", ["TODAS"] + sorted(df_th['Jornada'].unique().tolist(), key=lambda x: int(x), reverse=True), key="h2")
         bq = st.text_input("🔍 Buscar equipo en historial:", key="h3")
         df_res = df_th if sjh=="TODAS" else df_th[df_th['Jornada']==sjh]

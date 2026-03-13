@@ -126,17 +126,17 @@ with t1:
                     v = f"{r['Tp'] if m=='DOBLE' else ''} {r['Mx']:.0%}" if m=='DOBLE' else f"{r[m]:.0%}"
                     st.markdown(f'<div class="top4-card">📅 {r["Fecha"]}<br><small>{r["Liga"]}</small><br><b>{r["Partido"]}</b><br><span style="color:#1a73e8;">{v}</span></div>', unsafe_allow_html=True)
                     
-                    # --- VENTANA FLOTANTE CON EFECTIVIDAD (CUIDADOSAMENTE RESTAURADA) ---
+                    # --- VENTANA FLOTANTE CON RACHA DE 5 PARTIDOS (CORREGIDA) ---
                     with st.popover("📊 Ver Racha"):
                         for eq in [r['Local'], r['Visitante']]:
                             st.write(f"📈 **Efectividad para: {eq}**")
-                            df_eq = df_h[(df_h['Equipo Local']==eq)|(df_h['Equipo Visitante']==eq)]
+                            df_eq = df_h[(df_h['Equipo Local']==eq)|(df_h['Equipo Visitante']==eq)].head(5)
                             if not df_eq.empty:
                                 ef_c1, ef_c2, ef_c3 = st.columns(3)
                                 ef_c1.metric("Doble Op.", f"{(df_eq['Doble Oportunidad'].str.contains('✅').sum()/len(df_eq)):.0%}")
                                 ef_c2.metric("Over 1.5", f"{(df_eq['Over 1.5'].str.contains('✅').sum()/len(df_eq)):.0%}")
                                 ef_c3.metric("BTTS", f"{(df_eq['BTTS'].str.contains('✅').sum()/len(df_eq)):.0%}")
-                                st.dataframe(df_eq.head(3), hide_index=True)
+                                st.dataframe(df_eq, hide_index=True)
 
         st.markdown("---")
         st.markdown('### 📊 FILTROS DE PREDICCIONES')

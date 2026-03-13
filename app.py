@@ -7,15 +7,48 @@ import re
 # --- 1. CONFIGURACIÓN ---
 st.set_page_config(page_title="Bet Pro League", layout="wide", page_icon="⚽")
 
-# --- 2. ESTILOS ---
+# --- 2. ESTILOS Y PRIVACIDAD ---
 st.markdown("""
     <style>
-    .stApp { background-image: url("https://images.unsplash.com/photo-1556056504-5c7696c4c28d?q=80&w=2076&auto=format&fit=crop"); background-attachment: fixed; background-size: cover; }
-    .main .block-container { background-color: rgba(255, 255, 255, 0.95); border-radius: 10px; padding: 30px; margin-top: 20px; }
-    h1, h2, h3, h4, p, span, div, label, .stMetric { color: #000000 !important; font-weight: bold; }
-    .top4-card { padding: 12px; border-radius: 10px; background: rgba(255,255,255,0.7); border: 1px solid #ddd; text-align: center; margin-bottom: 5px; min-height: 100px; }
-    .giro-balon { display: inline-block; animation: rotacion 3s infinite linear; }
-    @keyframes rotacion { from { transform: rotate(0deg); } to { transform: rotate(360deg); } }
+    /* Ocultar elementos de administración y menús para privacidad */
+    header {visibility: hidden;}
+    .stAppDeployButton {display: none !important;}
+    footer {display: none !important;}
+    #MainMenu {visibility: hidden;}
+
+    /* Estilos de la aplicación */
+    .stApp { 
+        background-image: url("https://images.unsplash.com/photo-1556056504-5c7696c4c28d?q=80&w=2076&auto=format&fit=crop"); 
+        background-attachment: fixed; 
+        background-size: cover; 
+    }
+    .main .block-container { 
+        background-color: rgba(255, 255, 255, 0.95); 
+        border-radius: 10px; 
+        padding: 30px; 
+        margin-top: 20px; 
+    }
+    h1, h2, h3, h4, p, span, div, label, .stMetric { 
+        color: #000000 !important; 
+        font-weight: bold; 
+    }
+    .top4-card { 
+        padding: 12px; 
+        border-radius: 10px; 
+        background: rgba(255,255,255,0.7); 
+        border: 1px solid #ddd; 
+        text-align: center; 
+        margin-bottom: 5px; 
+        min-height: 100px; 
+    }
+    .giro-balon { 
+        display: inline-block; 
+        animation: rotacion 3s infinite linear; 
+    }
+    @keyframes rotacion { 
+        from { transform: rotate(0deg); } 
+        to { transform: rotate(360deg); } 
+    }
     </style>
     """, unsafe_allow_html=True)
 
@@ -126,11 +159,11 @@ with t1:
                     v = f"{r['Tp'] if m=='DOBLE' else ''} {r['Mx']:.0%}" if m=='DOBLE' else f"{r[m]:.0%}"
                     st.markdown(f'<div class="top4-card">📅 {r["Fecha"]}<br><small>{r["Liga"]}</small><br><b>{r["Partido"]}</b><br><span style="color:#1a73e8;">{v}</span></div>', unsafe_allow_html=True)
                     
-                    # --- VENTANA FLOTANTE CORREGIDA (ÚLTIMOS 5 PARTIDOS JUGADOS) ---
+                    # --- VENTANA FLOTANTE (ÚLTIMOS 5 PARTIDOS REALES) ---
                     with st.popover("📊 Ver Racha"):
                         for eq in [r['Local'], r['Visitante']]:
                             st.write(f"📈 **Efectividad últimos partidos: {eq}**")
-                            # Filtramos y ordenamos de más reciente a más antiguo antes de tomar los 5
+                            # Invertimos el historial (iloc[::-1]) para que los últimos partidos (final del CSV) aparezcan primero
                             df_eq = df_h[(df_h['Equipo Local']==eq)|(df_h['Equipo Visitante']==eq)].iloc[::-1].head(5)
                             if not df_eq.empty:
                                 ef_c1, ef_c2, ef_c3 = st.columns(3)

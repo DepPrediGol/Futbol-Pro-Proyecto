@@ -20,13 +20,13 @@ st.markdown(f"""
     .giro-balon {{ display: inline-block; animation: rotacion 3s infinite linear; font-style: normal; }}
     @keyframes rotacion {{ from {{ transform: rotate(0deg); }} to {{ transform: rotate(360deg); }} }}
     
-    /* Animación de rebote para el resto de iconos */
+    /* Animación de rebote para los iconos 🛡️🥅🤝🏆📊📜 */
     .rebote-icon {{ display: inline-block; animation: bounce 2s infinite; font-style: normal; }}
     @keyframes bounce {{ 0%, 20%, 50%, 80%, 100% {{transform: translateY(0);}} 40% {{transform: translateY(-6px);}} 60% {{transform: translateY(-3px);}} }}
     </style>
     """, unsafe_allow_html=True)
 
-# --- 3. FUNCIONES LÓGICAS (Revisadas línea por línea) ---
+# --- 3. FUNCIONES LÓGICAS ---
 def aplicar_semaforo(val):
     if isinstance(val, (int, float)):
         if val >= 0.75: return 'color: #28a745; font-weight: bold;'
@@ -121,6 +121,7 @@ with tab1:
         df_top4_real = df_pre[df_pre['Es_Proxima'] == True]
         mercados = [('1X', '🛡️', 'Doble Oportunidad'), ('Over 1.5', '🥅', 'Over 1.5'), ('Over 2.5', '🥅', 'Over 2.5'), ('BTTS', '🤝', 'Ambos Marcan')]
         cols_top = st.columns(4)
+        
         for i, (campo, ico, tit) in enumerate(mercados):
             with cols_top[i]:
                 st.markdown(f'#### <span class="rebote-icon">{ico}</span> {tit}', unsafe_allow_html=True)
@@ -130,6 +131,20 @@ with tab1:
                         label = f" ({r['Pick_T']})" if tit == 'Doble Oportunidad' else ""
                         val_display = r['1X'] if tit == 'Doble Oportunidad' and r['Pick_T'] == '1X' else (r['X2'] if tit == 'Doble Oportunidad' else r[campo])
                         st.markdown(f'<div class="top4-card">📅 {r["Fecha"]}<br><b>{r["Partido"]}</b><br><b>{val_display:.0%}{label}</b></div>', unsafe_allow_html=True)
+                        
+                        # --- VENTANA FLOTANTE (RESTAURADA) ---
+                        with st.popover("📊 Ver Racha"):
+                            for eq in [r['Local'], r['Visitante']]:
+                                st.write(f"**Últimos de {eq}:**")
+                                h_eq = df_his[(df_his['Equipo Local']==eq)|(df_his['Equipo Visitante']==eq)].head(5).copy()
+                                if not h_eq.empty:
+                                    def det_r(row):
+                                        g = extraer_goles(row['Marcador'])
+                                        if not g: return "⚪ -"
+                                        if row['Equipo Local']==eq: return "🟢 G" if g[0]>g[1] else ("🟡 E" if g[0]==g[1] else "🔴 P")
+                                        return "🟢 G" if g[1]>g[0] else ("🟡 E" if g[1]==g[0] else "🔴 P")
+                                    h_eq['Res'] = h_eq.apply(det_r, axis=1)
+                                    st.dataframe(h_eq[['Fecha', 'Equipo Local', 'Equipo Visitante', 'Marcador', 'Res']], hide_index=True)
 
         st.markdown("---")
         st.markdown(f'### <span class="rebote-icon">📊</span> FILTROS DE PREDICCIONES', unsafe_allow_html=True)

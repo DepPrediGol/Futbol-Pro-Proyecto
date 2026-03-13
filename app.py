@@ -17,9 +17,9 @@ st.markdown(f"""
     h1, h2, h3, h4, p, span, div, label, .stMetric {{ color: #000000 !important; font-weight: bold; }}
     .top4-card {{ padding: 12px; border-radius: 10px; background: rgba(255,255,255,0.5); border: 1px solid #ddd; text-align: center; margin-bottom: 8px; }}
     
-    /* Animación de iconos */
-    .faa-bounce.animated {{ animation: bounce 2s infinite; }}
-    @keyframes bounce {{ 0%, 20%, 50%, 80%, 100% {{transform: translateY(0);}} 40% {{transform: translateY(-5px);}} 60% {{transform: translateY(-3px);}} }}
+    /* Animación constante para el balón y otros iconos */
+    .bounce-constante {{ display: inline-block; animation: bounce 2s infinite; }}
+    @keyframes bounce {{ 0%, 20%, 50%, 80%, 100% {{transform: translateY(0);}} 40% {{transform: translateY(-8px);}} 60% {{transform: translateY(-4px);}} }}
     </style>
     """, unsafe_allow_html=True)
 
@@ -31,8 +31,8 @@ def aplicar_semaforo(val):
     return 'color: black;'
 
 def color_letras_historial(val):
-    if val == '✅': return 'color: #28a745; font-weight: bold;'
-    if val == '❌': return 'color: #dc3545; font-weight: bold;'
+    if '✅' in str(val): return 'color: #28a745; font-weight: bold;'
+    if '❌' in str(val): return 'color: #dc3545; font-weight: bold;'
     return 'color: black;'
 
 def extraer_goles(resultado_str):
@@ -75,11 +75,13 @@ def cargar_todo():
                 goles = extraer_goles(f['Resultado'])
                 if goles:
                     g_l, g_v = goles
+                    # Determinamos si fue 1X o X2 el acierto real
+                    tipo_real = "1X" if g_l >= g_v else "X2"
                     historicos.append({
                         'Fecha': f['Fecha'], 'Liga': liga_n, 'Jornada': str(int(f['Jornada'])),
                         'Equipo Local': f['Equipo Local'], 'Equipo Visitante': f['Equipo Visitante'], 
                         'Marcador': f"{g_l}-{g_v}",
-                        'Doble Op.': '✅' if (g_l >= g_v or g_v >= g_l) else '❌',
+                        'Doble Oportunidad': f"{tipo_real} ✅" if (g_l >= g_v or g_v >= g_l) else f"{tipo_real} ❌",
                         'Over 1.5': '✅' if (g_l+g_v) > 1.5 else '❌',
                         'Over 2.5': '✅' if (g_l+g_v) > 2.5 else '❌',
                         'BTTS': '✅' if (g_l > 0 and g_v > 0) else '❌'
@@ -112,7 +114,7 @@ def cargar_todo():
 df_pre, df_his, lista_ligas_total = cargar_todo()
 
 # --- 5. INTERFAZ ---
-st.markdown('<h1>⚽ Bet Pro League</h1>', unsafe_allow_html=True)
+st.markdown('<h1><i class="fa-solid fa-soccer-ball bounce-constante"></i> Bet Pro League</h1>', unsafe_allow_html=True)
 tab1, tab2 = st.tabs(["PREDICCIONES", "HISTORIAL"])
 
 with tab1:
@@ -120,15 +122,15 @@ with tab1:
         st.subheader("🏆 TOP 4 POR MERCADO (PRÓXIMA JORNADA)")
         df_top4_real = df_pre[df_pre['Es_Proxima'] == True]
         mercados = [
-            ('1X', 'fa-shield-halved', 'Doble Oportunidad'), # Se usa 1X como base para el sorteo
-            ('Over 1.5', 'fa-goal-net', 'Over 1.5'), 
-            ('Over 2.5', 'fa-fire', 'Over 2.5'), 
+            ('1X', 'fa-shield-halved', 'Doble Oportunidad'),
+            ('Over 1.5', 'fa-square-poll-vertical', 'Over 1.5'), 
+            ('Over 2.5', 'fa-fire-flame-curved', 'Over 2.5'), 
             ('BTTS', 'fa-handshake', 'Ambos Marcan')
         ]
         cols_top = st.columns(4)
         for i, (campo, ico, tit) in enumerate(mercados):
             with cols_top[i]:
-                st.markdown(f'#### <i class="fa-solid {ico} faa-bounce animated"></i> {tit}', unsafe_allow_html=True)
+                st.markdown(f'#### <i class="fa-solid {ico} bounce-constante"></i> {tit}', unsafe_allow_html=True)
                 n_count = min(len(df_top4_real), 4)
                 if n_count > 0:
                     for _, r in df_top4_real.nlargest(n_count, campo).iterrows():
@@ -158,14 +160,12 @@ with tab1:
             f_j = st.selectbox("Selecciona Jornada:", ["TODAS"] + j_list)
         
         df_v = df_t if f_j == "TODAS" else df_t[df_t['Jornada'] == int(f_j)]
-        # AQUÍ VUELVEN LAS COLUMNAS 1X, X, X2
         cols_viz = ['Fecha', 'Jornada', 'Liga', 'Partido', '1X', 'X', 'X2', 'Over 1.5', 'Over 2.5', 'BTTS']
         st.dataframe(df_v[cols_viz].style.applymap(aplicar_semaforo, subset=['1X', 'X', 'X2', 'Over 1.5', 'Over 2.5', 'BTTS']).format({c: '{:.0%}' for c in ['1X', 'X', 'X2', 'Over 1.5', 'Over 2.5', 'BTTS']}), use_container_width=True, hide_index=True)
 
 with tab2:
     st.header("📜 HISTORIAL")
     if not df_his.empty:
-        # AQUÍ VUELVE LA BARRA DE BÚSQUEDA
         busq = st.text_input("🔍 Buscar equipo para ver su historial y efectividad:")
         h1, h2 = st.columns(2)
         with h1: sel_l_h = st.selectbox("Filtrar Liga:", ["TODAS"] + lista_ligas_total, key="lh")
@@ -180,10 +180,11 @@ with tab2:
             df_hf = df_hf[(df_hf['Equipo Local'].str.contains(busq, case=False)) | (df_hf['Equipo Visitante'].str.contains(busq, case=False))]
             if not df_hf.empty:
                 st.write(f"### 📈 Efectividad para: {busq}")
-                m1, m2, m3 = st.columns(3)
-                m1.metric("Doble Op.", f"{(df_hf['Doble Op.'] == '✅').mean():.0%}")
+                m1, m2, m3, m4 = st.columns(4)
+                m1.metric("Doble Oportunidad", f"{(df_hf['Doble Oportunidad'].str.contains('✅')).mean():.0%}")
                 m2.metric("Over 1.5", f"{(df_hf['Over 1.5'] == '✅').mean():.0%}")
-                m3.metric("BTTS", f"{(df_hf['BTTS'] == '✅').mean():.0%}")
+                m3.metric("Over 2.5", f"{(df_hf['Over 2.5'] == '✅').mean():.0%}")
+                m4.metric("BTTS", f"{(df_hf['BTTS'] == '✅').mean():.0%}")
 
-        col_h = ['Fecha', 'Jornada', 'Liga', 'Equipo Local', 'Equipo Visitante', 'Marcador', 'Doble Op.', 'Over 1.5', 'Over 2.5', 'BTTS']
-        st.dataframe(df_hf[col_h].style.applymap(color_letras_historial, subset=['Doble Op.', 'Over 1.5', 'Over 2.5', 'BTTS']), use_container_width=True, hide_index=True)
+        col_h = ['Fecha', 'Jornada', 'Liga', 'Equipo Local', 'Equipo Visitante', 'Marcador', 'Doble Oportunidad', 'Over 1.5', 'Over 2.5', 'BTTS']
+        st.dataframe(df_hf[col_h].style.applymap(color_letras_historial, subset=['Doble Oportunidad', 'Over 1.5', 'Over 2.5', 'BTTS']), use_container_width=True, hide_index=True)

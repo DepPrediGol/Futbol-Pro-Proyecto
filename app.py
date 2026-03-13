@@ -17,9 +17,16 @@ st.markdown(f"""
     h1, h2, h3, h4, p, span, div, label, .stMetric {{ color: #000000 !important; font-weight: bold; }}
     .top4-card {{ padding: 12px; border-radius: 10px; background: rgba(255,255,255,0.5); border: 1px solid #ddd; text-align: center; margin-bottom: 8px; }}
     
-    /* Animación constante para el balón y otros iconos */
-    .bounce-constante {{ display: inline-block; animation: bounce 2s infinite; }}
-    @keyframes bounce {{ 0%, 20%, 50%, 80%, 100% {{transform: translateY(0);}} 40% {{transform: translateY(-8px);}} 60% {{transform: translateY(-4px);}} }}
+    /* Animación de giro para el balón */
+    .fa-spin-slow {{
+        display: inline-block;
+        animation: fa-spin 3s infinite linear;
+        color: #1d72b8; /* Color azul deportivo para el balón */
+    }}
+    
+    /* Animación de rebote suave para los iconos del Top 4 */
+    .bounce-suave {{ display: inline-block; animation: bounce 2s infinite; }}
+    @keyframes bounce {{ 0%, 20%, 50%, 80%, 100% {{transform: translateY(0);}} 40% {{transform: translateY(-5px);}} 60% {{transform: translateY(-2px);}} }}
     </style>
     """, unsafe_allow_html=True)
 
@@ -75,7 +82,6 @@ def cargar_todo():
                 goles = extraer_goles(f['Resultado'])
                 if goles:
                     g_l, g_v = goles
-                    # Determinamos si fue 1X o X2 el acierto real
                     tipo_real = "1X" if g_l >= g_v else "X2"
                     historicos.append({
                         'Fecha': f['Fecha'], 'Liga': liga_n, 'Jornada': str(int(f['Jornada'])),
@@ -114,7 +120,7 @@ def cargar_todo():
 df_pre, df_his, lista_ligas_total = cargar_todo()
 
 # --- 5. INTERFAZ ---
-st.markdown('<h1><i class="fa-solid fa-soccer-ball bounce-constante"></i> Bet Pro League</h1>', unsafe_allow_html=True)
+st.markdown('<h1><i class="fa-solid fa-soccer-ball fa-spin-slow"></i> Bet Pro League</h1>', unsafe_allow_html=True)
 tab1, tab2 = st.tabs(["PREDICCIONES", "HISTORIAL"])
 
 with tab1:
@@ -130,7 +136,7 @@ with tab1:
         cols_top = st.columns(4)
         for i, (campo, ico, tit) in enumerate(mercados):
             with cols_top[i]:
-                st.markdown(f'#### <i class="fa-solid {ico} bounce-constante"></i> {tit}', unsafe_allow_html=True)
+                st.markdown(f'#### <i class="fa-solid {ico} bounce-suave"></i> {tit}', unsafe_allow_html=True)
                 n_count = min(len(df_top4_real), 4)
                 if n_count > 0:
                     for _, r in df_top4_real.nlargest(n_count, campo).iterrows():

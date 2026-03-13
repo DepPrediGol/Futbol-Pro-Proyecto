@@ -126,11 +126,12 @@ with t1:
                     v = f"{r['Tp'] if m=='DOBLE' else ''} {r['Mx']:.0%}" if m=='DOBLE' else f"{r[m]:.0%}"
                     st.markdown(f'<div class="top4-card">📅 {r["Fecha"]}<br><small>{r["Liga"]}</small><br><b>{r["Partido"]}</b><br><span style="color:#1a73e8;">{v}</span></div>', unsafe_allow_html=True)
                     
-                    # --- VENTANA FLOTANTE CON RACHA DE 5 PARTIDOS (CORREGIDA) ---
+                    # --- VENTANA FLOTANTE CORREGIDA (ÚLTIMOS 5 PARTIDOS JUGADOS) ---
                     with st.popover("📊 Ver Racha"):
                         for eq in [r['Local'], r['Visitante']]:
-                            st.write(f"📈 **Efectividad para: {eq}**")
-                            df_eq = df_h[(df_h['Equipo Local']==eq)|(df_h['Equipo Visitante']==eq)].head(5)
+                            st.write(f"📈 **Efectividad últimos partidos: {eq}**")
+                            # Filtramos y ordenamos de más reciente a más antiguo antes de tomar los 5
+                            df_eq = df_h[(df_h['Equipo Local']==eq)|(df_h['Equipo Visitante']==eq)].iloc[::-1].head(5)
                             if not df_eq.empty:
                                 ef_c1, ef_c2, ef_c3 = st.columns(3)
                                 ef_c1.metric("Doble Op.", f"{(df_eq['Doble Oportunidad'].str.contains('✅').sum()/len(df_eq)):.0%}")

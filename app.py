@@ -14,13 +14,11 @@ st.markdown(f"""
     .stApp {{ background-image: url("{fondo_url}"); background-attachment: fixed; background-size: cover; }}
     .main .block-container {{ background-color: rgba(255, 255, 255, 0.95); border-radius: 10px; padding: 30px; margin-top: 20px; }}
     h1, h2, h3, h4, p, span, div, label, .stMetric {{ color: #000000 !important; font-weight: bold; }}
-    .top4-card {{ padding: 12px; border-radius: 10px; background: rgba(255,255,255,0.5); border: 1px solid #ddd; text-align: center; margin-bottom: 8px; }}
+    .top4-card {{ padding: 12px; border-radius: 10px; background: rgba(255,255,255,0.5); border: 1px solid #ddd; text-align: center; margin-bottom: 8px; min-height: 100px; }}
     
-    /* Animación de giro para el balón ⚽ */
     .giro-balon {{ display: inline-block; animation: rotacion 3s infinite linear; font-style: normal; }}
     @keyframes rotacion {{ from {{ transform: rotate(0deg); }} to {{ transform: rotate(360deg); }} }}
     
-    /* Animación de rebote para los iconos 🛡️🥅🤝🏆📊📜 */
     .rebote-icon {{ display: inline-block; animation: bounce 2s infinite; font-style: normal; }}
     @keyframes bounce {{ 0%, 20%, 50%, 80%, 100% {{transform: translateY(0);}} 40% {{transform: translateY(-6px);}} 60% {{transform: translateY(-3px);}} }}
     </style>
@@ -46,6 +44,19 @@ def extraer_goles(resultado_str):
 def calcular_poisson(media, x):
     if media <= 0: return 0.001
     return (math.exp(-media) * (media**x)) / math.factorial(x)
+
+def obtener_probabilidades(e_l, e_v):
+    p_l, p_e, p_v, p_o15, p_o25, p_btts = 0, 0, 0, 0, 0, 0
+    for gl in range(7):
+        for gv in range(7):
+            p = calcular_poisson(e_l, gl) * calcular_poisson(e_v, gv)
+            if gl > gv: p_l += p
+            elif gl == gv: p_e += p
+            else: p_v += p
+            if (gl+gv) > 1.5: p_o15 += p
+            if (gl+gv) > 2.5: p_o25 += p
+            if gl > 0 and gv > 0: p_btts += p
+    return p_l, p_e, p_v, p_o15, p_o25, p_btts
 
 def calcular_fuerzas(df_h):
     equipos = pd.concat([df_h['Equipo Local'], df_h['Equipo Visitante']]).unique()
@@ -74,36 +85,30 @@ def cargar_todo():
             prox_jor_liga = pendientes['Jornada'].min() if not pendientes.empty else 0
             
             for _, f in df.iterrows():
+                e_l_f = fuerzas.get(f['Equipo Local'], 1.2)
+                e_v_f = fuerzas.get(f['Equipo Visitante'], 1.2)
+                pl, pe, pv, po15, po25, pbtts = obtener_probabilidades(e_l_f, e_v_f)
+                
                 goles = extraer_goles(f['Resultado'])
                 if goles:
                     g_l, g_v = goles
-                    tipo_real = "1X" if g_l >= g_v else "X2"
+                    # Lógica para mostrar el porcentaje correcto en la Doble Oportunidad real
+                    prob_d = (pl + pe) if g_l >= g_v else (pv + pe)
                     historicos.append({
                         'Fecha': f['Fecha'], 'Liga': liga_n, 'Jornada': str(int(f['Jornada'])),
                         'Equipo Local': f['Equipo Local'], 'Equipo Visitante': f['Equipo Visitante'], 
                         'Marcador': f"{g_l}-{g_v}",
-                        'Doble Oportunidad': f"{tipo_real} ✅" if (g_l >= g_v or g_v >= g_l) else f"{tipo_real} ❌",
-                        'Over 1.5': '✅' if (g_l+g_v) > 1.5 else '❌', 'Over 2.5': '✅' if (g_l+g_v) > 2.5 else '❌', 'BTTS': '✅' if (g_l > 0 and g_v > 0) else '❌'
+                        'Doble Op.': f"{'✅' if (g_l >= g_v or g_v >= g_l) else '❌'} ({prob_d:.0%})",
+                        'Over 1.5': f"{'✅' if (g_l+g_v) > 1.5 else '❌'} ({po15:.0%})", 
+                        'Over 2.5': f"{'✅' if (g_l+g_v) > 2.5 else '❌'} ({po25:.0%})", 
+                        'BTTS': f"{'✅' if (g_l > 0 and g_v > 0) else '❌'} ({pbtts:.0%})"
                     })
                 else:
-                    e_l, e_v = fuerzas.get(f['Equipo Local'], 1.2)*1.1, fuerzas.get(f['Equipo Visitante'], 1.1)*0.9
-                    p_l, p_e, p_v, p_o15, p_o25, p_btts = 0, 0, 0, 0, 0, 0
-                    for gl in range(7):
-                        for gv in range(7):
-                            p = calcular_poisson(e_l, gl) * calcular_poisson(e_v, gv)
-                            if gl > gv: p_l += p
-                            elif gl == gv: p_e += p
-                            else: p_v += p
-                            if (gl+gv) > 1.5: p_o15 += p
-                            if (gl+gv) > 2.5: p_o25 += p
-                            if gl > 0 and gv > 0: p_btts += p
-                    pick_label = "1X" if (p_l + p_e) >= (p_v + p_e) else "X2"
                     actuales.append({
                         'Fecha': f['Fecha'], 'Jornada': int(f['Jornada']), 'Liga': liga_n, 
                         'Local': f['Equipo Local'], 'Visitante': f['Equipo Visitante'],
                         'Partido': f"{f['Equipo Local']} vs {f['Equipo Visitante']}",
-                        '1X': p_l + p_e, 'X': p_e, 'X2': p_v + p_e, 'Pick_T': pick_label,
-                        'Over 1.5': p_o15, 'Over 2.5': p_o25, 'BTTS': p_btts,
+                        '1X': pl + pe, 'X': pe, 'X2': pv + pe, 'Over 1.5': po15, 'Over 2.5': po25, 'BTTS': pbtts,
                         'Es_Proxima': (f['Jornada'] == prox_jor_liga)
                     })
         except: continue
@@ -119,7 +124,7 @@ with tab1:
     if not df_pre.empty:
         st.markdown(f'### <span class="rebote-icon">🏆</span> TOP 4 POR MERCADO (PRÓXIMA JORNADA)', unsafe_allow_html=True)
         df_top4_real = df_pre[df_pre['Es_Proxima'] == True]
-        mercados = [('1X', '🛡️', 'Doble Oportunidad'), ('Over 1.5', '🥅', 'Over 1.5'), ('Over 2.5', '🥅', 'Over 2.5'), ('BTTS', '🤝', 'Ambos Marcan')]
+        mercados = [('1X', '🛡️', 'Doble Local'), ('X2', '🛡️', 'Doble Visita'), ('Over 1.5', '🥅', 'Over 1.5'), ('BTTS', '🤝', 'Ambos Marcan')]
         cols_top = st.columns(4)
         
         for i, (campo, ico, tit) in enumerate(mercados):
@@ -128,11 +133,7 @@ with tab1:
                 n_count = min(len(df_top4_real), 4)
                 if n_count > 0:
                     for _, r in df_top4_real.nlargest(n_count, campo).iterrows():
-                        label = f" ({r['Pick_T']})" if tit == 'Doble Oportunidad' else ""
-                        val_display = r['1X'] if tit == 'Doble Oportunidad' and r['Pick_T'] == '1X' else (r['X2'] if tit == 'Doble Oportunidad' else r[campo])
-                        st.markdown(f'<div class="top4-card">📅 {r["Fecha"]}<br><b>{r["Partido"]}</b><br><b>{val_display:.0%}{label}</b></div>', unsafe_allow_html=True)
-                        
-                        # --- VENTANA FLOTANTE (RESTAURADA) ---
+                        st.markdown(f'<div class="top4-card">📅 {r["Fecha"]}<br><b>{r["Partido"]}</b><br><b>{r[campo]:.0%}</b></div>', unsafe_allow_html=True)
                         with st.popover("📊 Ver Racha"):
                             for eq in [r['Local'], r['Visitante']]:
                                 st.write(f"**Últimos de {eq}:**")
@@ -174,8 +175,9 @@ with tab2:
             if not df_hf.empty:
                 st.write(f"### 📈 Efectividad para: {busq}")
                 m1, m2, m3, m4 = st.columns(4)
-                m1.metric("Doble Oportunidad", f"{(df_hf['Doble Oportunidad'].str.contains('✅')).mean():.0%}")
-                m2.metric("Over 1.5", f"{(df_hf['Over 1.5'] == '✅').mean():.0%}")
-                m3.metric("Over 2.5", f"{(df_hf['Over 2.5'] == '✅').mean():.0%}")
-                m4.metric("BTTS", f"{(df_hf['BTTS'] == '✅').mean():.0%}")
-        st.dataframe(df_hf[['Fecha', 'Jornada', 'Liga', 'Equipo Local', 'Equipo Visitante', 'Marcador', 'Doble Oportunidad', 'Over 1.5', 'Over 2.5', 'BTTS']].style.applymap(color_letras_historial, subset=['Doble Oportunidad', 'Over 1.5', 'Over 2.5', 'BTTS']), use_container_width=True, hide_index=True)
+                m1.metric("Doble Oportunidad", f"{(df_hf['Doble Op.'].str.contains('✅')).mean():.0%}")
+                m2.metric("Over 1.5", f"{(df_hf['Over 1.5'].str.contains('✅')).mean():.0%}")
+                m3.metric("Over 2.5", f"{(df_hf['Over 2.5'].str.contains('✅')).mean():.0%}")
+                m4.metric("BTTS", f"{(df_hf['BTTS'].str.contains('✅')).mean():.0%}")
+        
+        st.dataframe(df_hf[['Fecha', 'Jornada', 'Liga', 'Equipo Local', 'Equipo Visitante', 'Marcador', 'Doble Op.', 'Over 1.5', 'Over 2.5', 'BTTS']].style.applymap(color_letras_historial, subset=['Doble Op.', 'Over 1.5', 'Over 2.5', 'BTTS']), use_container_width=True, hide_index=True)

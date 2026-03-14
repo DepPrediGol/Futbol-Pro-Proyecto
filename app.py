@@ -3,6 +3,7 @@ import pandas as pd
 import glob
 import math
 import re
+from datetime import datetime
 
 # --- 1. CONFIGURACIÓN ---
 st.set_page_config(page_title="Bet Pro League", layout="wide", page_icon="⚽")
@@ -78,17 +79,22 @@ def calcular_fuerzas(df_h):
 def cargar_todo():
     archivos = glob.glob("*.csv")
     actuales, historicos, ligas = [], [], []
+    hoy = datetime.now()
+    
     for arc in archivos:
         try:
             df = pd.read_csv(arc)
             ln = arc.replace('.csv','')
             if ln not in ligas: ligas.append(ln)
             fz = calcular_fuerzas(df)
-            pend = df[~df['Resultado'].astype(str).str.contains(r'\d', na=False)].copy()
-            pj = pend['Jornada'].min() if not pend.empty else 0
+            
+            # Convertir fechas para comparar
+            df['Fecha_dt'] = pd.to_datetime(df['Fecha'], dayfirst=True, errors='coerce')
+            
             for _, f in df.iterrows():
                 pl, pe, pv, po15, po25, pb = obtener_probabilidades(fz.get(f['Equipo Local'],1.2), fz.get(f['Equipo Visitante'],1.2))
                 g = extraer_goles(f['Resultado'])
+                
                 if g:
                     p1x, px2 = pl+pe, pv+pe
                     pk = "1X" if p1x >= px2 else "X2"
@@ -103,12 +109,17 @@ def cargar_todo():
                         'BTTS': f"{'✅' if (g[0]>0 and g[1]>0) else '❌'} ({pb:.0%})"
                     })
                 else:
+                    # SOLO PARA PREDICCIONES: Marcar como próxima si la fecha es igual o mayor a hoy
+                    es_futuro = False
+                    if pd.notnull(f['Fecha_dt']) and f['Fecha_dt'] >= hoy:
+                        es_futuro = True
+                        
                     actuales.append({
-                        'Fecha': f['Fecha'], 'Jornada': int(f['Jornada']), 'Liga': ln, 
+                        'Fecha': f['Fecha'], 'Fecha_dt': f['Fecha_dt'], 'Jornada': int(f['Jornada']), 'Liga': ln, 
                         'Local': f['Equipo Local'], 'Visitante': f['Equipo Visitante'],
                         'Partido': f"{f['Equipo Local']} vs {f['Equipo Visitante']}",
                         '1X': pl+pe, 'X2': pv+pe, 'Over 1.5': po15, 'Over 2.5': po25, 'BTTS': pb,
-                        'Es_Proxima': (f['Jornada'] == pj)
+                        'Es_Proxima': es_futuro
                     })
         except: continue
     return pd.DataFrame(actuales), pd.DataFrame(historicos), sorted(ligas)
@@ -122,7 +133,9 @@ t1, t2 = st.tabs(["PREDICCIONES", "HISTORIAL"])
 with t1:
     if not df_p.empty:
         st.markdown('### 🏆 TOP 4 POR MERCADO (PRÓXIMAS FECHAS)')
+        # FILTRO CRÍTICO: Solo mostrar en el TOP 4 partidos con fecha a futuro
         df_t4 = df_p[df_p['Es_Proxima'] == True].copy()
+        
         mks = [('DOBLE', '🛡️', 'Doble Oportunidad'), ('Over 1.5', '🥅', 'Over 1.5'), ('Over 2.5', '⚽', 'Over 2.5'), ('BTTS', '🤝', 'Ambos Marcan')]
         cols = st.columns(4)
         for i, (m, ico, tit) in enumerate(mks):
@@ -133,6 +146,7 @@ with t1:
                     df_t4['Tp'] = df_t4.apply(lambda x: '1X' if x['1X'] >= x['X2'] else 'X2', axis=1)
                     top = df_t4.nlargest(4, 'Mx')
                 else: top = df_t4.nlargest(4, m)
+                
                 for _, r in top.iterrows():
                     v = f"{r['Tp'] if m=='DOBLE' else ''} {r['Mx']:.0%}" if m=='DOBLE' else f"{r[m]:.0%}"
                     st.markdown(f'<div class="top4-card">📅 {r["Fecha"]}<br><small>{r["Liga"]}</small><br><b>{r["Partido"]}</b><br><span style="color:#1a73e8;">{v}</span></div>', unsafe_allow_html=True)
@@ -164,7 +178,6 @@ with t2:
         h1, h2 = st.columns(2)
         with h1: slh = st.selectbox("Filtrar Liga:", ["TODAS"] + lgs, key="h1")
         with h2:
-            # CORRECCIÓN AQUÍ: Se usa df_h directamente para filtrar y evitar el NameError
             df_hist_filtro = df_h if slh=="TODAS" else df_h[df_h['Liga']==slh]
             jornadas_h = sorted(df_hist_filtro['Jornada'].unique().tolist(), key=lambda x: int(x), reverse=True) if not df_hist_filtro.empty else []
             sjh = st.selectbox("Filtrar Jornada:", ["TODAS"] + jornadas_h, key="h2")

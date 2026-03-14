@@ -3,7 +3,7 @@ import pandas as pd
 import glob
 import math
 import re
-from datetime import datetime
+from datetime import datetime, timedelta
 
 # --- 1. CONFIGURACIÓN ---
 st.set_page_config(page_title="Bet Pro League", layout="wide", page_icon="⚽")
@@ -79,7 +79,6 @@ def calcular_fuerzas(df_h):
 def cargar_todo():
     archivos = glob.glob("*.csv")
     actuales, historicos, ligas = [], [], []
-    hoy = datetime.now()
     
     for arc in archivos:
         try:
@@ -88,7 +87,7 @@ def cargar_todo():
             if ln not in ligas: ligas.append(ln)
             fz = calcular_fuerzas(df)
             
-            # Convertir fechas para comparar
+            # Limpieza y conversión de fechas
             df['Fecha_dt'] = pd.to_datetime(df['Fecha'], dayfirst=True, errors='coerce')
             
             for _, f in df.iterrows():
@@ -109,17 +108,11 @@ def cargar_todo():
                         'BTTS': f"{'✅' if (g[0]>0 and g[1]>0) else '❌'} ({pb:.0%})"
                     })
                 else:
-                    # SOLO PARA PREDICCIONES: Marcar como próxima si la fecha es igual o mayor a hoy
-                    es_futuro = False
-                    if pd.notnull(f['Fecha_dt']) and f['Fecha_dt'] >= hoy:
-                        es_futuro = True
-                        
                     actuales.append({
                         'Fecha': f['Fecha'], 'Fecha_dt': f['Fecha_dt'], 'Jornada': int(f['Jornada']), 'Liga': ln, 
                         'Local': f['Equipo Local'], 'Visitante': f['Equipo Visitante'],
                         'Partido': f"{f['Equipo Local']} vs {f['Equipo Visitante']}",
-                        '1X': pl+pe, 'X2': pv+pe, 'Over 1.5': po15, 'Over 2.5': po25, 'BTTS': pb,
-                        'Es_Proxima': es_futuro
+                        '1X': pl+pe, 'X2': pv+pe, 'Over 1.5': po15, 'Over 2.5': po25, 'BTTS': pb
                     })
         except: continue
     return pd.DataFrame(actuales), pd.DataFrame(historicos), sorted(ligas)
@@ -132,34 +125,45 @@ t1, t2 = st.tabs(["PREDICCIONES", "HISTORIAL"])
 
 with t1:
     if not df_p.empty:
-        st.markdown('### 🏆 TOP 4 POR MERCADO (PRÓXIMAS FECHAS)')
-        # FILTRO CRÍTICO: Solo mostrar en el TOP 4 partidos con fecha a futuro
-        df_t4 = df_p[df_p['Es_Proxima'] == True].copy()
+        # LÓGICA DE FECHA DINÁMICA PARA EL TOP 4
+        # Buscamos la fecha más cercana a partir de hoy (13/03/2026) que tenga partidos
+        hoy = datetime.now().replace(hour=0, minute=0, second=0, microsecond=0)
+        fechas_futuras = df_p[df_p['Fecha_dt'] >= hoy]['Fecha_dt'].unique()
         
-        mks = [('DOBLE', '🛡️', 'Doble Oportunidad'), ('Over 1.5', '🥅', 'Over 1.5'), ('Over 2.5', '⚽', 'Over 2.5'), ('BTTS', '🤝', 'Ambos Marcan')]
-        cols = st.columns(4)
-        for i, (m, ico, tit) in enumerate(mks):
-            with cols[i]:
-                st.markdown(f'#### {ico} {tit}')
-                if m == 'DOBLE':
-                    df_t4['Mx'] = df_t4[['1X', 'X2']].max(axis=1)
-                    df_t4['Tp'] = df_t4.apply(lambda x: '1X' if x['1X'] >= x['X2'] else 'X2', axis=1)
-                    top = df_t4.nlargest(4, 'Mx')
-                else: top = df_t4.nlargest(4, m)
-                
-                for _, r in top.iterrows():
-                    v = f"{r['Tp'] if m=='DOBLE' else ''} {r['Mx']:.0%}" if m=='DOBLE' else f"{r[m]:.0%}"
-                    st.markdown(f'<div class="top4-card">📅 {r["Fecha"]}<br><small>{r["Liga"]}</small><br><b>{r["Partido"]}</b><br><span style="color:#1a73e8;">{v}</span></div>', unsafe_allow_html=True)
-                    with st.popover("📊 Ver Racha"):
-                        for eq in [r['Local'], r['Visitante']]:
-                            st.write(f"📈 **Racha: {eq}**")
-                            df_eq = df_h[(df_h['Equipo Local']==eq)|(df_h['Equipo Visitante']==eq)].iloc[::-1].head(5)
-                            if not df_eq.empty:
-                                ef_c1, ef_c2, ef_c3 = st.columns(3)
-                                ef_c1.metric("Doble Op.", f"{(df_eq['Doble Oportunidad'].str.contains('✅').sum()/len(df_eq)):.0%}")
-                                ef_c2.metric("Over 1.5", f"{(df_eq['Over 1.5'].str.contains('✅').sum()/len(df_eq)):.0%}")
-                                ef_c3.metric("BTTS", f"{(df_eq['BTTS'].str.contains('✅').sum()/len(df_eq)):.0%}")
-                                st.dataframe(df_eq, use_container_width=True, hide_index=True)
+        if len(fechas_futuras) > 0:
+            proxima_fecha = min(fechas_futuras)
+            df_t4 = df_p[df_p['Fecha_dt'] == proxima_fecha].copy()
+            fecha_str = proxima_fecha.strftime('%d/%m/%Y')
+            st.markdown(f'### 🏆 TOP 4 POR MERCADO (FECHA: {fecha_str})')
+        else:
+            df_t4 = pd.DataFrame()
+            st.markdown('### 🏆 TOP 4 POR MERCADO (SIN PARTIDOS PRÓXIMOS)')
+
+        if not df_t4.empty:
+            mks = [('DOBLE', '🛡️', 'Doble Oportunidad'), ('Over 1.5', '🥅', 'Over 1.5'), ('Over 2.5', '⚽', 'Over 2.5'), ('BTTS', '🤝', 'Ambos Marcan')]
+            cols = st.columns(4)
+            for i, (m, ico, tit) in enumerate(mks):
+                with cols[i]:
+                    st.markdown(f'#### {ico} {tit}')
+                    if m == 'DOBLE':
+                        df_t4['Mx'] = df_t4[['1X', 'X2']].max(axis=1)
+                        df_t4['Tp'] = df_t4.apply(lambda x: '1X' if x['1X'] >= x['X2'] else 'X2', axis=1)
+                        top = df_t4.nlargest(4, 'Mx')
+                    else: top = df_t4.nlargest(4, m)
+                    
+                    for _, r in top.iterrows():
+                        v = f"{r['Tp'] if m=='DOBLE' else ''} {r['Mx']:.0%}" if m=='DOBLE' else f"{r[m]:.0%}"
+                        st.markdown(f'<div class="top4-card">📅 {r["Fecha"]}<br><small>{r["Liga"]}</small><br><b>{r["Partido"]}</b><br><span style="color:#1a73e8;">{v}</span></div>', unsafe_allow_html=True)
+                        with st.popover("📊 Ver Racha"):
+                            for eq in [r['Local'], r['Visitante']]:
+                                st.write(f"📈 **Racha: {eq}**")
+                                df_eq = df_h[(df_h['Equipo Local']==eq)|(df_h['Equipo Visitante']==eq)].iloc[::-1].head(5)
+                                if not df_eq.empty:
+                                    ef_c1, ef_c2, ef_c3 = st.columns(3)
+                                    ef_c1.metric("Doble Op.", f"{(df_eq['Doble Oportunidad'].str.contains('✅').sum()/len(df_eq)):.0%}")
+                                    ef_c2.metric("Over 1.5", f"{(df_eq['Over 1.5'].str.contains('✅').sum()/len(df_eq)):.0%}")
+                                    ef_c3.metric("BTTS", f"{(df_eq['BTTS'].str.contains('✅').sum()/len(df_eq)):.0%}")
+                                    st.dataframe(df_eq, use_container_width=True, hide_index=True)
 
         st.markdown("---")
         st.markdown('### 📊 FILTROS DE PREDICCIONES')

@@ -44,19 +44,19 @@
 08/03/2026,3,Portland Timbers,Vancouver Whitecaps,1-4
 08/03/2026,3,New York RB,CF Montréal,0-3
 09/03/2026,3,FC Cincinnati,Toronto FC,0-1
-14/03/2026,4,Toronto FC,New York RB,
-14/03/2026,4,Atlanta United FC,Philadelphia Union,
-14/03/2026,4,Columbus Crew,Nashville SC,
-15/03/2026,4,Charlotte FC,Inter Miami CF,
-15/03/2026,4,New York City FC,Colorado Rapids,
-15/03/2026,4,Orlando City,CF Montréal,
-15/03/2026,4,Chicago Fire,D.C. United,
-15/03/2026,4,FC Dallas,San Diego FC,
-15/03/2026,4,Houston Dynamo,Portland Timbers,
-15/03/2026,4,Los Angeles Galaxy,Sporting Kansas City,
-15/03/2026,4,Real Salt Lake,Austin FC,
-15/03/2026,4,Los Angeles FC,St. Louis City SC,
-15/03/2026,4,New England Revolution,FC Cincinnati,
+14/03/2026,4,Toronto FC,New York RB,1-1
+14/03/2026,4,Atlanta United FC,Philadelphia Union,3-1
+14/03/2026,4,Columbus Crew,Nashville SC,0-1
+15/03/2026,4,Charlotte FC,Inter Miami CF,0-0
+15/03/2026,4,New York City FC,Colorado Rapids,3-1
+15/03/2026,4,Orlando City,CF Montréal,2-1
+15/03/2026,4,Chicago Fire,D.C. United,1-2
+15/03/2026,4,FC Dallas,San Diego FC,3-3
+15/03/2026,4,Houston Dynamo,Portland Timbers,3-2
+15/03/2026,4,Los Angeles Galaxy,Sporting Kansas City,1-2
+15/03/2026,4,Real Salt Lake,Austin FC,2-1
+15/03/2026,4,Los Angeles FC,St. Louis City SC,2-0
+15/03/2026,4,New England Revolution,9.,0-0
 15/03/2026,4,Vancouver Whitecaps,Minnesota United FC,
 16/03/2026,4,San Jose Earthquakes,Seattle Sounders,
 21/03/2026,5,Toronto FC,Columbus Crew,
@@ -119,12 +119,12 @@
 19/04/2026,8,Real Salt Lake,San Diego FC,
 19/04/2026,8,Seattle Sounders,St. Louis City SC,
 20/04/2026,8,Los Angeles FC,San Jose Earthquakes,
+23/04/2026,9,Atlanta United FC,New England Revolution,
 23/04/2026,9,Columbus Crew,Los Angeles Galaxy,
 23/04/2026,9,New York City FC,FC Cincinnati,
 23/04/2026,9,New York RB,D.C. United,
 23/04/2026,9,Orlando City,Charlotte FC,
 23/04/2026,9,Toronto FC,Philadelphia Union,
-23/04/2026,9,Atlanta United FC,New England Revolution,
 23/04/2026,9,FC Dallas,Minnesota United FC,
 23/04/2026,9,Houston Dynamo,San Diego FC,
 23/04/2026,9,Real Salt Lake,Inter Miami CF,
@@ -135,8 +135,8 @@
 17/07/2026,9,Seattle Sounders,Portland Timbers,
 23/07/2026,9,Nashville SC,CF Montréal,
 25/04/2026,10,Toronto FC,Atlanta United FC,
-25/04/2026,10,Minnesota United FC,Los Angeles FC,
 25/04/2026,10,CF Montréal,New York City FC,
+25/04/2026,10,Minnesota United FC,Los Angeles FC,
 26/04/2026,10,Columbus Crew,Philadelphia Union,
 26/04/2026,10,D.C. United,Orlando City,
 26/04/2026,10,FC Cincinnati,New York RB,

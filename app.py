@@ -26,11 +26,6 @@ st.markdown("""
     .main .block-container { background-color: rgba(255, 255, 255, 0.95); border-radius: 10px; padding: 30px; margin-top: 20px; }
     h1, h2, h3, h4, p, span, div, label, .stMetric { color: #000000 !important; font-weight: bold; }
     .top4-card { padding: 12px; border-radius: 10px; background: rgba(255,255,255,0.7); border: 1px solid #ddd; text-align: center; margin-bottom: 5px; }
-    .reloj-contenedor {
-        background: #000000; color: #00FF00; padding: 10px; border-radius: 8px;
-        text-align: center; font-family: 'Courier New', Courier, monospace;
-        font-size: 1.2rem; border: 2px solid #333; margin-bottom: 20px;
-    }
     .giro-balon { display: inline-block; animation: rotacion 3s infinite linear; }
     @keyframes rotacion { from { transform: rotate(0deg); } to { transform: rotate(360deg); } }
     </style>
@@ -84,16 +79,21 @@ def calcular_fuerzas(df_h):
 def cargar_todo():
     archivos = glob.glob("*.csv")
     actuales, historicos, ligas = [], [], []
+    
     for arc in archivos:
         try:
             df = pd.read_csv(arc)
             ln = arc.replace('.csv','')
             if ln not in ligas: ligas.append(ln)
             fz = calcular_fuerzas(df)
+            
+            # Limpieza y conversión de fechas
             df['Fecha_dt'] = pd.to_datetime(df['Fecha'], dayfirst=True, errors='coerce')
+            
             for _, f in df.iterrows():
                 pl, pe, pv, po15, po25, pb = obtener_probabilidades(fz.get(f['Equipo Local'],1.2), fz.get(f['Equipo Visitante'],1.2))
                 g = extraer_goles(f['Resultado'])
+                
                 if g:
                     p1x, px2 = pl+pe, pv+pe
                     pk = "1X" if p1x >= px2 else "X2"
@@ -121,59 +121,49 @@ df_p, df_h, lgs = cargar_todo()
 
 # --- 5. INTERFAZ ---
 st.markdown('<h1><span class="giro-balon">⚽</span> Bet Pro League</h1>', unsafe_allow_html=True)
-
-# LÓGICA DE RELOJ Y FECHA DINÁMICA
-hoy = datetime.now().replace(hour=0, minute=0, second=0, microsecond=0)
-fechas_futuras = df_p[df_p['Fecha_dt'] >= hoy]['Fecha_dt'].unique()
-
-if len(fechas_futuras) > 0:
-    proxima_fecha = min(fechas_futuras)
-    fecha_str = proxima_fecha.strftime('%d/%m/%Y')
-    ahora = datetime.now()
-    inicio_partidos = proxima_fecha.replace(hour=8, minute=0) # Asumimos inicio a las 8 AM
-    dif = inicio_partidos - ahora
-    
-    if dif.total_seconds() > 0:
-        dias = dif.days
-        horas, rem = divmod(dif.seconds, 3600)
-        minutos, _ = divmod(rem, 60)
-        reloj_txt = f"⏱️ PRÓXIMA FECHA ({fecha_str}) EN: {dias}d {horas:02d}h {minutos:02d}m"
-    else:
-        reloj_txt = f"⚽ PARTIDOS EN CURSO PARA LA FECHA: {fecha_str}"
-    
-    st.markdown(f'<div class="reloj-contenedor">{reloj_txt}</div>', unsafe_allow_html=True)
-    df_t4 = df_p[df_p['Fecha_dt'] == proxima_fecha].copy()
-else:
-    df_t4 = pd.DataFrame()
-
 t1, t2 = st.tabs(["PREDICCIONES", "HISTORIAL"])
 
 with t1:
-    if not df_t4.empty:
-        st.markdown('### 🏆 TOP 4 POR MERCADO')
-        mks = [('DOBLE', '🛡️', 'Doble Oportunidad'), ('Over 1.5', '🥅', 'Over 1.5'), ('Over 2.5', '⚽', 'Over 2.5'), ('BTTS', '🤝', 'Ambos Marcan')]
-        cols = st.columns(4)
-        for i, (m, ico, tit) in enumerate(mks):
-            with cols[i]:
-                st.markdown(f'#### {ico} {tit}')
-                if m == 'DOBLE':
-                    df_t4['Mx'] = df_t4[['1X', 'X2']].max(axis=1)
-                    df_t4['Tp'] = df_t4.apply(lambda x: '1X' if x['1X'] >= x['X2'] else 'X2', axis=1)
-                    top = df_t4.nlargest(4, 'Mx')
-                else: top = df_t4.nlargest(4, m)
-                for _, r in top.iterrows():
-                    v = f"{r['Tp'] if m=='DOBLE' else ''} {r['Mx']:.0%}" if m=='DOBLE' else f"{r[m]:.0%}"
-                    st.markdown(f'<div class="top4-card">📅 {r["Fecha"]}<br><small>{r["Liga"]}</small><br><b>{r["Partido"]}</b><br><span style="color:#1a73e8;">{v}</span></div>', unsafe_allow_html=True)
-                    with st.popover("📊 Ver Racha"):
-                        for eq in [r['Local'], r['Visitante']]:
-                            st.write(f"📈 **Racha: {eq}**")
-                            df_eq = df_h[(df_h['Equipo Local']==eq)|(df_h['Equipo Visitante']==eq)].iloc[::-1].head(5)
-                            if not df_eq.empty:
-                                ef_c1, ef_c2, ef_c3 = st.columns(3)
-                                ef_c1.metric("Doble Op.", f"{(df_eq['Doble Oportunidad'].str.contains('✅').sum()/len(df_eq)):.0%}")
-                                ef_c2.metric("Over 1.5", f"{(df_eq['Over 1.5'].str.contains('✅').sum()/len(df_eq)):.0%}")
-                                ef_c3.metric("BTTS", f"{(df_eq['BTTS'].str.contains('✅').sum()/len(df_eq)):.0%}")
-                                st.dataframe(df_eq, use_container_width=True, hide_index=True)
+    if not df_p.empty:
+        # LÓGICA DE FECHA DINÁMICA PARA EL TOP 4
+        # Buscamos la fecha más cercana a partir de hoy (13/03/2026) que tenga partidos
+        hoy = datetime.now().replace(hour=0, minute=0, second=0, microsecond=0)
+        fechas_futuras = df_p[df_p['Fecha_dt'] >= hoy]['Fecha_dt'].unique()
+        
+        if len(fechas_futuras) > 0:
+            proxima_fecha = min(fechas_futuras)
+            df_t4 = df_p[df_p['Fecha_dt'] == proxima_fecha].copy()
+            fecha_str = proxima_fecha.strftime('%d/%m/%Y')
+            st.markdown(f'### 🏆 TOP 4 POR MERCADO (FECHA: {fecha_str})')
+        else:
+            df_t4 = pd.DataFrame()
+            st.markdown('### 🏆 TOP 4 POR MERCADO (SIN PARTIDOS PRÓXIMOS)')
+
+        if not df_t4.empty:
+            mks = [('DOBLE', '🛡️', 'Doble Oportunidad'), ('Over 1.5', '🥅', 'Over 1.5'), ('Over 2.5', '⚽', 'Over 2.5'), ('BTTS', '🤝', 'Ambos Marcan')]
+            cols = st.columns(4)
+            for i, (m, ico, tit) in enumerate(mks):
+                with cols[i]:
+                    st.markdown(f'#### {ico} {tit}')
+                    if m == 'DOBLE':
+                        df_t4['Mx'] = df_t4[['1X', 'X2']].max(axis=1)
+                        df_t4['Tp'] = df_t4.apply(lambda x: '1X' if x['1X'] >= x['X2'] else 'X2', axis=1)
+                        top = df_t4.nlargest(4, 'Mx')
+                    else: top = df_t4.nlargest(4, m)
+                    
+                    for _, r in top.iterrows():
+                        v = f"{r['Tp'] if m=='DOBLE' else ''} {r['Mx']:.0%}" if m=='DOBLE' else f"{r[m]:.0%}"
+                        st.markdown(f'<div class="top4-card">📅 {r["Fecha"]}<br><small>{r["Liga"]}</small><br><b>{r["Partido"]}</b><br><span style="color:#1a73e8;">{v}</span></div>', unsafe_allow_html=True)
+                        with st.popover("📊 Ver Racha"):
+                            for eq in [r['Local'], r['Visitante']]:
+                                st.write(f"📈 **Racha: {eq}**")
+                                df_eq = df_h[(df_h['Equipo Local']==eq)|(df_h['Equipo Visitante']==eq)].iloc[::-1].head(5)
+                                if not df_eq.empty:
+                                    ef_c1, ef_c2, ef_c3 = st.columns(3)
+                                    ef_c1.metric("Doble Op.", f"{(df_eq['Doble Oportunidad'].str.contains('✅').sum()/len(df_eq)):.0%}")
+                                    ef_c2.metric("Over 1.5", f"{(df_eq['Over 1.5'].str.contains('✅').sum()/len(df_eq)):.0%}")
+                                    ef_c3.metric("BTTS", f"{(df_eq['BTTS'].str.contains('✅').sum()/len(df_eq)):.0%}")
+                                    st.dataframe(df_eq, use_container_width=True, hide_index=True)
 
         st.markdown("---")
         st.markdown('### 📊 FILTROS DE PREDICCIONES')

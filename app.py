@@ -14,7 +14,6 @@ st.markdown("""
     @media (max-width: 640px) {
         .main .block-container { padding: 10px !important; margin-top: 0px !important; }
         h1 { font-size: 1.5rem !important; }
-        .top4-card { min-height: 80px !important; font-size: 0.8rem !important; }
     }
     header {visibility: hidden !important;}
     footer {display: none !important;}
@@ -34,16 +33,11 @@ st.markdown("""
         border-radius: 12px !important;
         padding: 15px !important;
         box-shadow: 2px 2px 8px rgba(0,0,0,0.1) !important;
-        transition: all 0.3s ease !important;
         height: auto !important;
         min-height: 120px !important;
         white-space: pre-line !important;
     }
-    .stButton > button:hover {
-        border-color: #28a745 !important;
-        transform: translateY(-3px) !important;
-        box-shadow: 4px 4px 12px rgba(0,0,0,0.2) !important;
-    }
+    .stButton > button:hover { border-color: #28a745 !important; transform: translateY(-3px) !important; }
     .giro-balon { display: inline-block; animation: rotacion 3s infinite linear; }
     @keyframes rotacion { from { transform: rotate(0deg); } to { transform: rotate(360deg); } }
     </style>
@@ -115,6 +109,7 @@ def cargar_datos_completos():
             if ln not in ligas: ligas.append(ln)
             df['Jornada'] = pd.to_numeric(df['Jornada'], errors='coerce').fillna(0).astype(int)
             df['Fecha_dt'] = pd.to_datetime(df['Fecha'], dayfirst=True, errors='coerce')
+            
             equipos = pd.concat([df['Equipo Local'], df['Equipo Visitante']]).unique()
             fz = {e: 1.2 for e in equipos}
             for _, fila in df.iterrows():
@@ -122,6 +117,7 @@ def cargar_datos_completos():
                 if g:
                     fz[fila['Equipo Local']] += 0.20 if g[0] > g[1] else 0.05
                     fz[fila['Equipo Visitante']] += 0.20 if g[1] > g[0] else 0.05
+
             for _, f in df.iterrows():
                 pl, pe, pv, po15, po25, pb = obtener_probabilidades(fz.get(f['Equipo Local'],1.2), fz.get(f['Equipo Visitante'],1.2))
                 g = extraer_goles(f.get('Resultado'))
@@ -155,13 +151,14 @@ t1, t2 = st.tabs(["PREDICCIONES", "HISTORIAL"])
 
 with t1:
     if not df_p.empty:
+        # TOP 4
         hoy = datetime.now().replace(hour=0, minute=0, second=0, microsecond=0)
         fechas = df_p[df_p['Fecha_dt'] >= hoy]['Fecha_dt'].unique()
         if len(fechas) > 0:
             f_prox = min(fechas)
             df_t4 = df_p[df_p['Fecha_dt'] == f_prox].copy()
             st.markdown(f"### 🏆 TOP 4 POR MERCADO ({f_prox.strftime('%d/%m/%Y')})")
-            mks = [('1X', '🛡️ Doble Oportunidad.'), ('Over 1.5', '🥅 Over 1.5'), ('Over 2.5', '⚽ Over 2.5'), ('BTTS', '🤝 BTTS')]
+            mks = [('1X', '🛡️ Doble Op.'), ('Over 1.5', '🥅 Over 1.5'), ('Over 2.5', '⚽ Over 2.5'), ('BTTS', '🤝 BTTS')]
             cols = st.columns(4)
             for i, (m, tit) in enumerate(mks):
                 with cols[i]:
@@ -170,8 +167,9 @@ with t1:
                     for idx, r in top.iterrows():
                         txt = f"{r['Fecha']}\n{r['Liga']}\n{r['Partido']}\n⭐ Prob: {r[m]:.0%}"
                         if st.button(txt, key=f"t4_{m}_{idx}"): ventana_analisis(r, df_h)
+        
         st.divider()
-        st.markdown("### 📊 FILTRO POR LIGAS Y JORNADAS")
+        st.markdown("### 📊 LISTADO COMPLETO")
         c1, c2 = st.columns(2)
         with c1: sl = st.selectbox("Liga:", ["TODAS"] + lgs, key="filt_l")
         with c2:
@@ -183,14 +181,39 @@ with t1:
                      .style.applymap(aplicar_semaforo, subset=['1X', 'X2', 'Over 1.5', 'Over 2.5', 'BTTS'])
                      .format({c: '{:.0%}' for c in ['1X', 'X2', 'Over 1.5', 'Over 2.5', 'BTTS']}), use_container_width=True, hide_index=True)
         
-        # --- OBSERVACIÓN RESALTADA (PREDICCIÓN BOMBA) ---
+        # --- NUEVA OBSERVACIÓN BOMBA INTELIGENTE ---
         st.divider()
         cols_p = ['1X', 'X2', 'Over 1.5', 'Over 2.5', 'BTTS']
         val_max = df_fin[cols_p].max().max()
-        idx_m = (df_fin[cols_p] == val_max).idxmax(axis=1)
-        row_idx = idx_m[idx_m.index[df_fin[cols_p].max(axis=1) == val_max][0]]
-        d_top = df_fin.loc[idx_m.index[df_fin[cols_p].max(axis=1) == val_max][0]]
-        st.markdown(f"""<div style="background-color: #ff4b4b; padding: 20px; border-radius: 15px; border-left: 10px solid #8B0000; box-shadow: 5px 5px 15px rgba(0,0,0,0.2); margin-top: 20px; text-align: center;"><h2 style="color: white !important; margin: 0; font-size: 1.8rem;">🔥 PREDICCIÓN BOMBA 🔥</h2><p style="color: white !important; font-size: 1.3rem; margin-top: 10px;">En la liga <b>{d_top['Liga']}</b>, el mercado de <b>{row_idx}</b> para el partido <b>{d_top['Partido']}</b> tiene una probabilidad del:</p><div style="background: white; color: #ff4b4b; display: inline-block; padding: 10px 30px; border-radius: 50px; font-size: 2.5rem; font-weight: 900; margin-top: 10px;">{val_max:.0%}</div></div>""", unsafe_allow_html=True)
+        col_max = (df_fin[cols_p] == val_max).idxmax(axis=1)
+        idx_f = col_max.index[df_fin[cols_p].max(axis=1) == val_max][0]
+        d_top = df_fin.loc[idx_f]
+        m_nombre = col_max[idx_f]
+
+        # Lógica de racha para la observación precisa
+        loc, vis = d_top['Local'], d_top['Visitante']
+        h_loc = df_h[df_h['Equipo Local'] == loc].tail(10)
+        h_vis = df_h[df_h['Equipo Visitante'] == vis].tail(10)
+        
+        g_loc = h_loc['Doble Oportunidad'].str.contains('✅').sum()
+        o15_loc = h_loc['Over 1.5'].str.contains('✅').sum()
+        p_vis = h_vis['Doble Oportunidad'].str.contains('❌').sum()
+        btts_vis = h_vis['BTTS'].str.contains('✅').sum()
+
+        obs_texto = f"El equipo <b>{loc}</b> viene fuerte con {g_loc} de sus últimos {len(h_loc)} partidos sin perder en casa y anotando O1.5 en {o15_loc} juegos. Por otro lado, <b>{vis}</b> ha flaqueado como visitante perdiendo {p_vis} de {len(h_vis)} salidas, aunque marca en {btts_vis} de ellas."
+
+        st.markdown(f"""
+            <div style="background-color: #ff4b4b; padding: 25px; border-radius: 15px; border-left: 12px solid #8B0000; box-shadow: 5px 5px 15px rgba(0,0,0,0.3); text-align: center;">
+                <h2 style="color: white !important; margin: 0; font-size: 2rem;">💣 PREDICCIÓN BOMBA DETECTADA 💣</h2>
+                <p style="color: white !important; font-size: 1.2rem; margin-top: 15px; line-height: 1.6;">
+                    {obs_texto}<br>
+                    <b>La probabilidad más alta es {m_nombre} en la liga {d_top['Liga']}</b>
+                </p>
+                <div style="background: white; color: #ff4b4b; display: inline-block; padding: 10px 40px; border-radius: 50px; font-size: 3rem; font-weight: 900; margin-top: 15px;">
+                    {val_max:.0%}
+                </div>
+            </div>
+        """, unsafe_allow_html=True)
 
 with t2:
     st.markdown("## 📜 HISTORIAL DE RESULTADOS")

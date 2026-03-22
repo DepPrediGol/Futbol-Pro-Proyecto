@@ -8,10 +8,10 @@ from datetime import datetime
 # --- 1. CONFIGURACIÓN ---
 st.set_page_config(page_title="Bet Pro League", layout="wide", page_icon="⚽")
 
-# --- 2. ESTILOS (Tarjetas limpias y filtros verdes) ---
+# --- 2. ESTILOS ORIGINALES ---
 st.markdown("""
     <style>
-    /* Filtros Verdes según tu captura */
+    /* Filtros Blancos con texto verde para móvil */
     div[data-baseweb="select"] > div { background-color: white !important; color: #28a745 !important; }
     
     header {visibility: hidden !important;}
@@ -25,7 +25,7 @@ st.markdown("""
     .main .block-container { background-color: rgba(255, 255, 255, 0.95); border-radius: 10px; padding: 30px; margin-top: 20px; }
     h1, h2, h3, h4, p, span, div, label, .stMetric { color: #000000 !important; font-weight: bold; }
 
-    /* Botón-Tarjeta Estilo Original */
+    /* Tarjetas del Top 4 Estilo Original */
     .stButton > button {
         width: 100% !important;
         background-color: rgba(255, 255, 255, 0.9) !important;
@@ -44,7 +44,19 @@ st.markdown("""
     </style>
     """, unsafe_allow_html=True)
 
-# --- 3. FUNCIONES LÓGICAS ---
+# --- 3. FUNCIONES DE FORMATO ---
+def aplicar_semaforo(val):
+    if isinstance(val, (int, float)):
+        if val >= 0.75: return 'color: #28a745; font-weight: bold;'
+        elif val >= 0.55: return 'color: #ffa500; font-weight: bold;'
+    return 'color: black;'
+
+def color_historial(val):
+    if '✅' in str(val): return 'color: #28a745; font-weight: bold;'
+    if '❌' in str(val): return 'color: #dc3545; font-weight: bold;'
+    return 'color: black;'
+
+# --- 4. LÓGICA DE DATOS ---
 def extraer_goles(resultado_str):
     numeros = re.findall(r'\d+', str(resultado_str))
     return (int(numeros[0]), int(numeros[1])) if len(numeros) >= 2 else None
@@ -67,7 +79,7 @@ def obtener_probabilidades(e_l, e_v):
     return p_l, p_e, p_v, p_o15, p_o25, p_btts
 
 @st.cache_data(ttl=300)
-def cargar_todo():
+def cargar_datos():
     archivos = glob.glob("*.csv")
     actuales, historicos, ligas = [], [], []
     for arc in archivos:
@@ -89,77 +101,76 @@ def cargar_todo():
         except: continue
     return pd.DataFrame(actuales), pd.DataFrame(historicos), sorted(ligas)
 
-df_p, df_h, lgs = cargar_todo()
+df_p, df_h, lgs = cargar_datos()
 
-# --- 4. DIÁLOGO DE ANÁLISIS (La ventana grande) ---
-@st.dialog("📊 ANÁLISIS DETALLADO", width="large")
-def mostrar_analisis(r):
-    st.subheader(f"🏟️ {r['Partido']}")
-    st.write(f"🏆 {r['Liga']} | 📅 {r['Fecha']}")
+# --- 5. VENTANA DE ANÁLISIS (Dailog Grande) ---
+@st.dialog("📊 ANÁLISIS COMPLETO", width="large")
+def ventana_analisis(partido_data):
+    st.title(f"⚽ {partido_data['Partido']}")
+    st.write(f"📅 {partido_data['Fecha']} | 🏆 {partido_data['Liga']}")
     st.divider()
-    
-    # Métricas principales
     c1, c2, c3 = st.columns(3)
-    c1.metric("🛡️ Doble Op (1X/X2)", f"{max(r['1X'], r['X2']):.0%}")
-    c2.metric("🥅 Over 1.5", f"{r['Over 1.5']:.0%}")
-    c3.metric("🤝 BTTS", f"{r['BTTS']:.0%}")
-    
-    st.markdown("### 📈 Racha de los Equipos")
-    for eq in [r['Local'], r['Visitante']]:
-        st.write(f"**Últimos partidos: {eq}**")
-        # Corrección de lógica para mostrar la racha completa
-        racha = df_h[(df_h['Equipo Local']==eq)|(df_h['Equipo Visitante']==eq)].iloc[::-1].head(5)
-        if not racha.empty:
-            st.dataframe(racha, use_container_width=True, hide_index=True)
-        else:
-            st.info(f"No hay historial reciente para {eq}")
+    c1.metric("🛡️ Doble Op.", f"{max(partido_data['1X'], partido_data['X2']):.0%}")
+    c2.metric("🥅 Over 1.5", f"{partido_data['Over 1.5']:.0%}")
+    c3.metric("🤝 Ambos Marcan", f"{partido_data['BTTS']:.0%}")
+    st.markdown("### 📈 Racha Histórica")
+    eq = partido_data['Local']
+    st.write(f"**Últimos de {eq}:**")
+    racha = df_h[(df_h['Equipo Local']==eq)|(df_h['Equipo Visitante']==eq)].head(5)
+    st.dataframe(racha, use_container_width=True, hide_index=True)
 
-# --- 5. INTERFAZ ---
+# --- 6. INTERFAZ ---
 st.markdown('<h1><span class="giro-balon">⚽</span> Bet Pro League</h1>', unsafe_allow_html=True)
 t1, t2 = st.tabs(["PREDICCIONES", "HISTORIAL"])
 
 with t1:
-    # A. TOP 4 ARRIBA
+    # A. TOP 4
     st.markdown('### 🏆 TOP 4 POR MERCADO')
     if not df_p.empty:
-        mks = [('1X', '🛡️', 'Doble Op.'), ('Over 1.5', '🥅', 'Over 1.5'), ('Over 2.5', '⚽', 'Over 2.5'), ('BTTS', '🤝', 'BTTS')]
         cols = st.columns(4)
-        for i, (m, ico, tit) in enumerate(mks):
+        mks = [('1X', '🛡️ 1X/X2'), ('Over 1.5', '🥅 Over 1.5'), ('Over 2.5', '⚽ Over 2.5'), ('BTTS', '🤝 BTTS')]
+        for i, (m, tit) in enumerate(mks):
             with cols[i]:
-                st.markdown(f"#### {ico} {tit}")
+                st.markdown(f"#### {tit}")
                 top = df_p.nlargest(4, m)
                 for idx, r in top.iterrows():
-                    # Formato limpio sin avisos feos
-                    val = f"{r[m]:.0%}" if m != '1X' else (f"1X {r['1X']:.0%}" if r['1X'] > r['X2'] else f"X2 {r['X2']:.0%}")
+                    val = f"{r[m]:.0%}"
                     txt = f"🗓️ {r['Fecha']}\n{r['Liga']}\n{r['Partido']}\n{val}"
                     if st.button(txt, key=f"t4_{m}_{idx}"):
-                        mostrar_analisis(r)
+                        ventana_analisis(r)
 
-    # B. FILTROS EN EL MEDIO
+    # B. FILTROS
     st.divider()
     st.markdown('### 📊 FILTROS DE LIGAS')
     f1, f2 = st.columns(2)
-    with f1: sl = st.selectbox("Selecciona Liga:", ["TODAS"] + lgs, key="p_l")
+    with f1: sl = st.selectbox("Selecciona Liga:", ["TODAS"] + lgs, key="sl_p")
     with f2:
-        df_fl = df_p if sl=="TODAS" else df_p[df_p['Liga']==sl]
-        j_list = sorted(df_fl['Jornada'].unique().tolist(), reverse=True) if not df_fl.empty else []
-        sj = st.selectbox("Selecciona Jornada:", ["TODAS"] + j_list, key="p_j")
+        df_f = df_p if sl=="TODAS" else df_p[df_p['Liga']==sl]
+        j_list = sorted(df_f['Jornada'].unique().tolist(), reverse=True) if not df_f.empty else []
+        sj = st.selectbox("Selecciona Jornada:", ["TODAS"] + j_list, key="sj_p")
 
-    # C. CUADRO DE EQUIPOS ABAJO
+    # C. TABLA CON PORCENTAJES REALES
     st.markdown("### 📋 Predicciones de la Jornada")
-    df_fin = df_fl if sj=="TODAS" else df_fl[df_fl['Jornada']==int(sj)]
+    df_fin = df_f if sj=="TODAS" else df_f[df_f['Jornada']==int(sj)]
     if not df_fin.empty:
-        st.dataframe(df_fin[['Fecha', 'Liga', 'Partido', '1X', 'X2', 'Over 1.5', 'Over 2.5', 'BTTS']], use_container_width=True, hide_index=True)
+        cols_mostrar = ['Fecha', 'Liga', 'Partido', '1X', 'X2', 'Over 1.5', 'Over 2.5', 'BTTS']
+        st.dataframe(
+            df_fin[cols_mostrar].style.applymap(aplicar_semaforo, subset=['1X', 'X2', 'Over 1.5', 'Over 2.5', 'BTTS'])
+            .format({c: '{:.0%}' for c in ['1X', 'X2', 'Over 1.5', 'Over 2.5', 'BTTS']}),
+            use_container_width=True, hide_index=True
+        )
 
 with t2:
     st.markdown('## 📜 HISTORIAL')
-    if not df_h.empty:
-        h1, h2 = st.columns(2)
-        with h1: slh = st.selectbox("Filtrar Liga:", ["TODAS"] + lgs, key="h_l")
-        with h2:
-            # FIX NameError: Se usa df_h para filtrar, no df_th
-            df_hist_filtro = df_h if slh=="TODAS" else df_h[df_h['Liga']==slh]
-            j_h_list = sorted(df_hist_filtro['Jornada'].unique().tolist(), key=lambda x: int(x), reverse=True) if not df_hist_filtro.empty else []
-            sjh = st.selectbox("Filtrar Jornada:", ["TODAS"] + j_h_list, key="h_j")
-        
-        st.dataframe(df_hist_filtro if sjh=="TODAS" else df_hist_filtro[df_hist_filtro['Jornada']==sjh], use_container_width=True, hide_index=True)
+    h1, h2 = st.columns(2)
+    with h1: slh = st.selectbox("Filtrar Liga:", ["TODAS"] + lgs, key="sl_h")
+    with h2:
+        # FIX NameError
+        df_hist_f = df_h if slh=="TODAS" else df_h[df_h['Liga']==slh]
+        jh_list = sorted(df_hist_f['Jornada'].unique().tolist(), key=lambda x: int(x), reverse=True) if not df_hist_f.empty else []
+        sjh = st.selectbox("Filtrar Jornada:", ["TODAS"] + jh_list, key="sj_h")
+    
+    st.dataframe(
+        df_hist_f if sjh=="TODAS" else df_hist_f[df_hist_f['Jornada']==sjh],
+        use_container_width=True, hide_index=True
+    ).style.applymap(color_historial, subset=['Doble Oportunidad', 'Over 1.5', 'Over 2.5', 'BTTS'])

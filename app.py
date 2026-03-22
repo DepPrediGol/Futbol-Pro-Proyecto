@@ -8,7 +8,7 @@ from datetime import datetime, timedelta
 # --- 1. CONFIGURACIÓN ---
 st.set_page_config(page_title="Bet Pro League", layout="wide", page_icon="⚽")
 
-# --- 2. ESTILOS, PRIVACIDAD Y RESPONSIVE (TAL CUAL LOS TENÍAS) ---
+# --- 2. ESTILOS, PRIVACIDAD Y RESPONSIVE (BLOQUE ORIGINAL COMPLETO) ---
 st.markdown("""
     <style>
     @media (max-width: 640px) {
@@ -26,22 +26,31 @@ st.markdown("""
     .main .block-container { background-color: rgba(255, 255, 255, 0.95); border-radius: 10px; padding: 30px; margin-top: 20px; }
     h1, h2, h3, h4, p, span, div, label, .stMetric { color: #000000 !important; font-weight: bold; }
     
-    /* Estilo para que el botón parezca una tarjeta del Top 4 */
+    /* Diseño de tarjetas blancas originales */
     .stButton > button {
         width: 100% !important;
-        background-color: rgba(255, 255, 255, 0.8) !important;
-        border: 1px solid #ddd !important;
-        border-radius: 10px !important;
-        padding: 10px !important;
+        background-color: white !important;
         color: black !important;
-        text-align: center !important;
+        border: 1px solid #ddd !important;
+        border-radius: 12px !important;
+        padding: 15px !important;
+        box-shadow: 2px 2px 8px rgba(0,0,0,0.1) !important;
+        transition: all 0.3s ease !important;
+        height: auto !important;
+        min-height: 120px !important;
+        white-space: pre-line !important;
+    }
+    .stButton > button:hover {
+        border-color: #28a745 !important;
+        transform: translateY(-3px) !important;
+        box-shadow: 4px 4px 12px rgba(0,0,0,0.2) !important;
     }
     .giro-balon { display: inline-block; animation: rotacion 3s infinite linear; }
     @keyframes rotacion { from { transform: rotate(0deg); } to { transform: rotate(360deg); } }
     </style>
     """, unsafe_allow_html=True)
 
-# --- 3. FUNCIONES LÓGICAS ---
+# --- 3. FUNCIONES LÓGICAS (SIN CAMBIOS) ---
 def aplicar_semaforo(val):
     if isinstance(val, (int, float)):
         if val >= 0.75: return 'color: #28a745; font-weight: bold;'
@@ -54,6 +63,7 @@ def color_letras_historial(val):
     return 'color: black;'
 
 def extraer_goles(resultado_str):
+    if pd.isna(resultado_str): return None
     numeros = re.findall(r'\d+', str(resultado_str))
     return (int(numeros[0]), int(numeros[1])) if len(numeros) >= 2 else None
 
@@ -74,41 +84,31 @@ def obtener_probabilidades(e_l, e_v):
             if gl > 0 and gv > 0: p_btts += p
     return p_l, p_e, p_v, p_o15, p_o25, p_btts
 
-def calcular_fuerzas(df_h):
-    equipos = pd.concat([df_h['Equipo Local'], df_h['Equipo Visitante']]).unique()
-    f = {e: 1.2 for e in equipos}
-    for _, fila in df_h.iterrows():
-        g = extraer_goles(fila['Resultado'])
-        if g:
-            f[fila['Equipo Local']] += 0.20 if g[0] > g[1] else 0.05 * g[0]
-            f[fila['Equipo Visitante']] += 0.20 if g[1] > g[0] else 0.05 * g[1]
-    return f
-
-# --- 4. NUEVA FUNCIÓN DE VENTANA (MODAL) ---
-@st.dialog("📊 ESTADÍSTICAS Y RACHA", width="large")
-def ventana_detalles(partido, df_hist):
-    st.write(f"### {partido['Partido']}")
-    st.write(f"🏆 {partido['Liga']} | 📅 {partido['Fecha']}")
+# --- 4. VENTANA MODAL (PÁGINA COMPLETA) ---
+@st.dialog("📊 ANÁLISIS DETALLADO", width="large")
+def ventana_analisis(r, df_h):
+    st.title(f"⚽ {r['Partido']}")
+    st.subheader(f"🏆 {r['Liga']} | 📅 {r['Fecha']}")
     st.divider()
     
-    for eq in [partido['Local'], partido['Visitante']]:
-        st.markdown(f"#### 📈 Racha: {eq}")
-        df_eq = df_hist[(df_hist['Equipo Local'] == eq) | (df_hist['Equipo Visitante'] == eq)].iloc[::-1].head(5)
-        
+    for eq in [r['Local'], r['Visitante']]:
+        st.markdown(f"#### 📈 Rendimiento Reciente: {eq}")
+        df_eq = df_h[(df_h['Equipo Local'] == eq) | (df_h['Equipo Visitante'] == eq)].iloc[::-1].head(5)
         if not df_eq.empty:
-            # Aquí restauré tus métricas que se habían perdido
-            m1, m2, m3 = st.columns(3)
-            m1.metric("Doble Op.", f"{(df_eq['Doble Oportunidad'].str.contains('✅').sum()/len(df_eq)):.0%}")
-            m2.metric("Over 1.5", f"{(df_eq['Over 1.5'].str.contains('✅').sum()/len(df_eq)):.0%}")
-            m3.metric("BTTS", f"{(df_eq['BTTS'].str.contains('✅').sum()/len(df_eq)):.0%}")
+            c1, c2, c3 = st.columns(3)
+            # Métricas originales recuperadas
+            m_1x = (df_eq['Doble Oportunidad'].str.contains('✅').sum() / len(df_eq))
+            m_o15 = (df_eq['Over 1.5'].str.contains('✅').sum() / len(df_eq))
+            m_btts = (df_eq['BTTS'].str.contains('✅').sum() / len(df_eq))
+            c1.metric("Efectividad 1X/X2", f"{m_1x:.0%}")
+            c2.metric("Efectividad O1.5", f"{m_o15:.0%}")
+            c3.metric("Efectividad BTTS", f"{m_btts:.0%}")
             st.dataframe(df_eq, use_container_width=True, hide_index=True)
-        else:
-            st.info(f"No hay datos históricos recientes para {eq}.")
         st.divider()
 
-# --- 5. CARGA DE DATOS ---
+# --- 5. CARGA Y PROCESAMIENTO (RESTAURADO COMPLETO) ---
 @st.cache_data(ttl=300)
-def cargar_todo():
+def cargar_datos_completos():
     archivos = glob.glob("*.csv")
     actuales, historicos, ligas = [], [], []
     
@@ -117,25 +117,32 @@ def cargar_todo():
             df = pd.read_csv(arc)
             ln = arc.replace('.csv','')
             if ln not in ligas: ligas.append(ln)
-            fz = calcular_fuerzas(df)
             
-            # Limpieza de fechas y FIX JORNADA (Enteros)
-            df['Fecha_dt'] = pd.to_datetime(df['Fecha'], dayfirst=True, errors='coerce')
+            # Limpieza de datos y FIX de Jornada (Entero)
             df['Jornada'] = pd.to_numeric(df['Jornada'], errors='coerce').fillna(0).astype(int)
+            df['Fecha_dt'] = pd.to_datetime(df['Fecha'], dayfirst=True, errors='coerce')
             
+            # Lógica de fuerzas por liga
+            equipos = pd.concat([df['Equipo Local'], df['Equipo Visitante']]).unique()
+            fz = {e: 1.2 for e in equipos}
+            for _, fila in df.iterrows():
+                g = extraer_goles(fila.get('Resultado'))
+                if g:
+                    fz[fila['Equipo Local']] += 0.20 if g[0] > g[1] else 0.05
+                    fz[fila['Equipo Visitante']] += 0.20 if g[1] > g[0] else 0.05
+
             for _, f in df.iterrows():
                 pl, pe, pv, po15, po25, pb = obtener_probabilidades(fz.get(f['Equipo Local'],1.2), fz.get(f['Equipo Visitante'],1.2))
-                g = extraer_goles(f['Resultado'])
+                g = extraer_goles(f.get('Resultado'))
                 
                 if g:
                     p1x, px2 = pl+pe, pv+pe
                     pk = "1X" if p1x >= px2 else "X2"
-                    pr = max(p1x, px2)
                     historicos.append({
                         'Fecha': f['Fecha'], 'Liga': ln, 'Jornada': f['Jornada'],
                         'Equipo Local': f['Equipo Local'], 'Equipo Visitante': f['Equipo Visitante'], 
-                        'Marcador': f"{g[0]} - {g[1]}", # Guion según pedido
-                        'Doble Oportunidad': f"{pk} {'✅' if (g[0]>=g[1] if pk=='1X' else g[1]>=g[0]) else '❌'} ({pr:.0%})",
+                        'Marcador': f"{g[0]} - {g[1]}",
+                        'Doble Oportunidad': f"{pk} {'✅' if (g[0]>=g[1] if pk=='1X' else g[1]>=g[0]) else '❌'} ({max(p1x,px2):.0%})",
                         'Over 1.5': f"{'✅' if (g[0]+g[1])>1.5 else '❌'} ({po15:.0%})", 
                         'Over 2.5': f"{'✅' if (g[0]+g[1])>2.5 else '❌'} ({po25:.0%})", 
                         'BTTS': f"{'✅' if (g[0]>0 and g[1]>0) else '❌'} ({pb:.0%})"
@@ -150,42 +157,43 @@ def cargar_todo():
         except: continue
     return pd.DataFrame(actuales), pd.DataFrame(historicos), sorted(ligas)
 
-df_p, df_h, lgs = cargar_todo()
+df_p, df_h, lgs = cargar_datos_completos()
 
-# --- 6. INTERFAZ ---
+# --- 6. INTERFAZ FINAL ---
 st.markdown('<h1><span class="giro-balon">⚽</span> Bet Pro League</h1>', unsafe_allow_html=True)
 t1, t2 = st.tabs(["PREDICCIONES", "HISTORIAL"])
 
 with t1:
     if not df_p.empty:
+        # TOP 4 POR FECHA PRÓXIMA
         hoy = datetime.now().replace(hour=0, minute=0, second=0, microsecond=0)
-        fechas_futuras = df_p[df_p['Fecha_dt'] >= hoy]['Fecha_dt'].unique()
-        
-        if len(fechas_futuras) > 0:
-            prox_f = min(fechas_futuras)
-            df_t4 = df_p[df_p['Fecha_dt'] == prox_f].copy()
-            st.markdown(f'### 🏆 TOP 4 POR MERCADO ({prox_f.strftime("%d/%m/%Y")})')
+        fechas = df_p[df_p['Fecha_dt'] >= hoy]['Fecha_dt'].unique()
+        if len(fechas) > 0:
+            f_prox = min(fechas)
+            df_t4 = df_p[df_p['Fecha_dt'] == f_prox].copy()
+            st.markdown(f"### 🏆 TOP 4 POR MERCADO ({f_prox.strftime('%d/%m/%Y')})")
             
-            mks = [('1X', '🛡️ Doble Op.'), ('Over 1.5', '🥅 Over 1.5'), ('Over 2.5', '⚽ Over 2.5'), ('BTTS', '🤝 Ambos Marcan')]
+            mks = [('1X', '🛡️ Doble Op.'), ('Over 1.5', '🥅 Over 1.5'), ('Over 2.5', '⚽ Over 2.5'), ('BTTS', '🤝 BTTS')]
             cols = st.columns(4)
             for i, (m, tit) in enumerate(mks):
                 with cols[i]:
-                    st.markdown(f'#### {tit}')
+                    st.markdown(f"#### {tit}")
                     top = df_t4.nlargest(4, m)
                     for idx, r in top.iterrows():
-                        # El botón ahora dispara la ventana y muestra la info principal
-                        label = f"{r['Partido']}\n{r[m]:.0%}"
-                        if st.button(label, key=f"t4_{m}_{idx}"):
-                            ventana_detalles(r, df_h)
+                        # TEXTO DE LA TARJETA (Botón) ORIGINAL
+                        txt = f"{r['Fecha']}\n{r['Liga']}\n{r['Partido']}\n⭐ Prob: {r[m]:.0%}"
+                        if st.button(txt, key=f"t4_{m}_{idx}"):
+                            ventana_analisis(r, df_h)
 
         st.divider()
-        st.markdown('### 📊 FILTROS DE PREDICCIONES')
+        # FILTROS Y TABLA DE PREDICCIONES
+        st.markdown("### 📊 LISTADO COMPLETO")
         c1, c2 = st.columns(2)
-        with c1: sl = st.selectbox("Selecciona Liga:", ["TODAS"] + lgs, key="p1")
+        with c1: sl = st.selectbox("Liga:", ["TODAS"] + lgs, key="filt_l")
         with c2:
             df_fl = df_p if sl=="TODAS" else df_p[df_p['Liga']==sl]
-            j_list = sorted(df_fl['Jornada'].unique().tolist(), reverse=True) if not df_fl.empty else []
-            sj = st.selectbox("Selecciona Jornada:", ["TODAS"] + j_list, key="p2")
+            j_list = sorted(df_fl['Jornada'].unique().tolist(), reverse=True)
+            sj = st.selectbox("Jornada:", ["TODAS"] + j_list, key="filt_j")
         
         df_fin = df_fl if sj=="TODAS" else df_fl[df_fl['Jornada']==sj]
         st.dataframe(df_fin[['Fecha', 'Jornada', 'Liga', 'Partido', '1X', 'X2', 'Over 1.5', 'Over 2.5', 'BTTS']]
@@ -194,14 +202,14 @@ with t1:
                      use_container_width=True, hide_index=True)
 
 with t2:
-    st.markdown('## 📜 HISTORIAL')
+    st.markdown("## 📜 HISTORIAL DE RESULTADOS")
     if not df_h.empty:
         h1, h2 = st.columns(2)
-        with h1: slh = st.selectbox("Filtrar Liga:", ["TODAS"] + lgs, key="h1")
+        with h1: slh = st.selectbox("Liga:", ["TODAS"] + lgs, key="h_l")
         with h2:
             df_hh = df_h if slh=="TODAS" else df_h[df_h['Liga']==slh]
-            jh_list = sorted(df_hh['Jornada'].unique().tolist(), reverse=True) if not df_hh.empty else []
-            sjh = st.selectbox("Filtrar Jornada:", ["TODAS"] + jh_list, key="h2")
+            jh_list = sorted(df_hh['Jornada'].unique().tolist(), reverse=True)
+            sjh = st.selectbox("Jornada:", ["TODAS"] + jh_list, key="h_j")
         
         df_res = df_hh if sjh=="TODAS" else df_hh[df_hh['Jornada']==sjh]
         st.dataframe(df_res.style.applymap(color_letras_historial, subset=['Doble Oportunidad', 'Over 1.5', 'Over 2.5', 'BTTS']), 

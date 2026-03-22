@@ -200,7 +200,7 @@ with t1:
         p_vis = h_vis['Doble Oportunidad'].str.contains('❌').sum()
         btts_vis = h_vis['BTTS'].str.contains('✅').sum()
 
-        obs_texto = f"El equipo <b>{loc}</b> viene fuerte con {g_loc} de sus últimos {len(h_loc)} partidos sin perder en casa y anotando 1.5 en {o15_loc} juegos. Por otro lado, <b>{vis}</b> ha flaqueado como visitante perdiendo {p_vis} de {len(h_vis)} salidas, aunque marca en {btts_vis} de ellas."
+        obs_texto = f"El equipo <b>{loc}</b> viene fuerte con {g_loc} de sus últimos {len(h_loc)} partidos sin perder en casa y anotando 1.5 goles en {o15_loc} juegos. Por otro lado, <b>{vis}</b> ha flaqueado como visitante perdiendo {p_vis} de {len(h_vis)} salidas, aunque marca en {btts_vis} de ellas."
 
         st.markdown(f"""
             <div style="background-color: #ff4b4b; padding: 25px; border-radius: 15px; border-left: 12px solid #8B0000; box-shadow: 5px 5px 15px rgba(0,0,0,0.3); text-align: center;">

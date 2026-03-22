@@ -3,7 +3,7 @@ import pandas as pd
 import glob
 import math
 import re
-from datetime import datetime
+from datetime import datetime, timedelta
 
 # --- 1. CONFIGURACIÓN ---
 st.set_page_config(page_title="Bet Pro League", layout="wide", page_icon="⚽")
@@ -11,45 +11,27 @@ st.set_page_config(page_title="Bet Pro League", layout="wide", page_icon="⚽")
 # --- 2. ESTILOS, PRIVACIDAD Y RESPONSIVE ---
 st.markdown("""
     <style>
-    /* Estilo de los filtros: Fondo blanco y letras VERDES */
-    div[data-baseweb="select"] > div { background-color: white !important; color: #28a745 !important; }
-    span[data-baseweb="select-item"], div[role="listbox"] div { color: #28a745 !important; background-color: white !important; font-weight: bold !important; }
-    
     @media (max-width: 640px) {
         .main .block-container { padding: 10px !important; margin-top: 0px !important; }
         h1 { font-size: 1.5rem !important; }
-        .top4-card { min-height: 100px !important; }
+        .top4-card { min-height: 80px !important; font-size: 0.8rem !important; }
     }
     header {visibility: hidden !important;}
     footer {display: none !important;}
     [data-testid="stStatusWidget"], .stAppDeployButton { display: none !important; visibility: hidden !important; }
-    
     .stApp { 
         background-image: url("https://images.unsplash.com/photo-1556056504-5c7696c4c28d?q=80&w=2076&auto=format&fit=crop"); 
         background-attachment: fixed; background-size: cover; 
     }
     .main .block-container { background-color: rgba(255, 255, 255, 0.95); border-radius: 10px; padding: 30px; margin-top: 20px; }
     h1, h2, h3, h4, p, span, div, label, .stMetric { color: #000000 !important; font-weight: bold; }
-    
-    /* Diseño Organizado de la Tarjeta Original */
-    .top4-card { 
-        padding: 15px; border-radius: 12px; background: rgba(255,255,255,0.9); 
-        border: 1px solid #eee; text-align: center; 
-        box-shadow: 0px 4px 6px rgba(0,0,0,0.05);
-    }
-    .top4-card:hover { border-color: #28a745; background: white; }
-    
-    /* Ajuste para que el popover parezca un botón invisible sobre la tarjeta */
-    .stPopover button {
-        width: 100% !important; background-color: transparent !important; 
-        border: none !important; padding: 0px !important; color: inherit !important;
-    }
+    .top4-card { padding: 12px; border-radius: 10px; background: rgba(255,255,255,0.7); border: 1px solid #ddd; text-align: center; margin-bottom: 5px; }
     .giro-balon { display: inline-block; animation: rotacion 3s infinite linear; }
     @keyframes rotacion { from { transform: rotate(0deg); } to { transform: rotate(360deg); } }
     </style>
     """, unsafe_allow_html=True)
 
-# --- 3. FUNCIONES LÓGICAS (Sin cambios) ---
+# --- 3. FUNCIONES LÓGICAS ---
 def aplicar_semaforo(val):
     if isinstance(val, (int, float)):
         if val >= 0.75: return 'color: #28a745; font-weight: bold;'
@@ -92,20 +74,26 @@ def calcular_fuerzas(df_h):
             f[fila['Equipo Visitante']] += 0.20 if g[1] > g[0] else 0.05 * g[1]
     return f
 
+# --- 4. CARGA DE DATOS ---
 @st.cache_data(ttl=300)
 def cargar_todo():
     archivos = glob.glob("*.csv")
     actuales, historicos, ligas = [], [], []
+    
     for arc in archivos:
         try:
             df = pd.read_csv(arc)
             ln = arc.replace('.csv','')
             if ln not in ligas: ligas.append(ln)
             fz = calcular_fuerzas(df)
+            
+            # Limpieza y conversión de fechas
             df['Fecha_dt'] = pd.to_datetime(df['Fecha'], dayfirst=True, errors='coerce')
+            
             for _, f in df.iterrows():
                 pl, pe, pv, po15, po25, pb = obtener_probabilidades(fz.get(f['Equipo Local'],1.2), fz.get(f['Equipo Visitante'],1.2))
                 g = extraer_goles(f['Resultado'])
+                
                 if g:
                     p1x, px2 = pl+pe, pv+pe
                     pk = "1X" if p1x >= px2 else "X2"
@@ -133,50 +121,49 @@ df_p, df_h, lgs = cargar_todo()
 
 # --- 5. INTERFAZ ---
 st.markdown('<h1><span class="giro-balon">⚽</span> Bet Pro League</h1>', unsafe_allow_html=True)
-
-hoy = datetime.now().replace(hour=0, minute=0, second=0, microsecond=0)
-fechas_futuras = df_p[df_p['Fecha_dt'] >= hoy]['Fecha_dt'].unique() if not df_p.empty else []
-
-if len(fechas_futuras) > 0:
-    proxima_fecha = min(fechas_futuras)
-    df_t4 = df_p[df_p['Fecha_dt'] == proxima_fecha].copy()
-    st.info(f"📅 Predicciones para: {proxima_fecha.strftime('%d/%m/%Y')}")
-else:
-    df_t4 = pd.DataFrame()
-
 t1, t2 = st.tabs(["PREDICCIONES", "HISTORIAL"])
 
 with t1:
-    if not df_t4.empty:
-        st.markdown('### 🏆 TOP 4 POR MERCADO')
-        mks = [('DOBLE', '🛡️', 'Doble Oportunidad'), ('Over 1.5', '🥅', 'Over 1.5'), ('Over 2.5', '⚽', 'Over 2.5'), ('BTTS', '🤝', 'Ambos Marcan')]
-        cols = st.columns(4)
+    if not df_p.empty:
+        # LÓGICA DE FECHA DINÁMICA PARA EL TOP 4
+        # Buscamos la fecha más cercana a partir de hoy (13/03/2026) que tenga partidos
+        hoy = datetime.now().replace(hour=0, minute=0, second=0, microsecond=0)
+        fechas_futuras = df_p[df_p['Fecha_dt'] >= hoy]['Fecha_dt'].unique()
         
-        for i, (m, ico, tit) in enumerate(mks):
-            with cols[i]:
-                st.markdown(f'#### {ico} {tit}')
-                if m == 'DOBLE':
-                    df_t4['Mx'] = df_t4[['1X', 'X2']].max(axis=1)
-                    df_t4['Tp'] = df_t4.apply(lambda x: '1X' if x['1X'] >= x['X2'] else 'X2', axis=1)
-                    top = df_t4.nlargest(4, 'Mx')
-                else: top = df_t4.nlargest(4, m)
-                
-                for idx, r in top.iterrows():
-                    v = f"{r['Tp'] if m=='DOBLE' else ''} {r['Mx']:.0%}" if m=='DOBLE' else f"{r[m]:.0%}"
-                    # EL TRUCO: Un popover que envuelve la tarjeta organizada
-                    with st.popover(f"📅 {r['Fecha']} | {r['Partido']} | {v}", use_container_width=True):
-                        st.markdown(f"## 📊 Análisis Detallado: {r['Partido']}")
-                        st.write(f"**Liga:** {r['Liga']} | **Fecha:** {r['Fecha']}")
-                        st.markdown("---")
-                        for eq in [r['Local'], r['Visitante']]:
-                            st.subheader(f"📈 Racha: {eq}")
-                            df_eq = df_h[(df_h['Equipo Local']==eq)|(df_h['Equipo Visitante']==eq)].iloc[::-1].head(5)
-                            if not df_eq.empty:
-                                c1, c2, c3 = st.columns(3)
-                                c1.metric("Doble Op.", f"{(df_eq['Doble Oportunidad'].str.contains('✅').sum()/len(df_eq)):.0%}")
-                                c2.metric("Over 1.5", f"{(df_eq['Over 1.5'].str.contains('✅').sum()/len(df_eq)):.0%}")
-                                c3.metric("BTTS", f"{(df_eq['BTTS'].str.contains('✅').sum()/len(df_eq)):.0%}")
-                                st.dataframe(df_eq, use_container_width=True, hide_index=True)
+        if len(fechas_futuras) > 0:
+            proxima_fecha = min(fechas_futuras)
+            df_t4 = df_p[df_p['Fecha_dt'] == proxima_fecha].copy()
+            fecha_str = proxima_fecha.strftime('%d/%m/%Y')
+            st.markdown(f'### 🏆 TOP 4 POR MERCADO (FECHA: {fecha_str})')
+        else:
+            df_t4 = pd.DataFrame()
+            st.markdown('### 🏆 TOP 4 POR MERCADO (SIN PARTIDOS PRÓXIMOS)')
+
+        if not df_t4.empty:
+            mks = [('DOBLE', '🛡️', 'Doble Oportunidad'), ('Over 1.5', '🥅', 'Over 1.5'), ('Over 2.5', '⚽', 'Over 2.5'), ('BTTS', '🤝', 'Ambos Marcan')]
+            cols = st.columns(4)
+            for i, (m, ico, tit) in enumerate(mks):
+                with cols[i]:
+                    st.markdown(f'#### {ico} {tit}')
+                    if m == 'DOBLE':
+                        df_t4['Mx'] = df_t4[['1X', 'X2']].max(axis=1)
+                        df_t4['Tp'] = df_t4.apply(lambda x: '1X' if x['1X'] >= x['X2'] else 'X2', axis=1)
+                        top = df_t4.nlargest(4, 'Mx')
+                    else: top = df_t4.nlargest(4, m)
+                    
+                    for _, r in top.iterrows():
+                        v = f"{r['Tp'] if m=='DOBLE' else ''} {r['Mx']:.0%}" if m=='DOBLE' else f"{r[m]:.0%}"
+                        st.markdown(f'<div class="top4-card">📅 {r["Fecha"]}<br><small>{r["Liga"]}</small><br><b>{r["Partido"]}</b><br><span style="color:#1a73e8;">{v}</span></div>', unsafe_allow_html=True)
+                        with st.popover("📊 Ver Racha"):
+                            for eq in [r['Local'], r['Visitante']]:
+                                st.write(f"📈 **Racha: {eq}**")
+                                df_eq = df_h[(df_h['Equipo Local']==eq)|(df_h['Equipo Visitante']==eq)].iloc[::-1].head(5)
+                                if not df_eq.empty:
+                                    ef_c1, ef_c2, ef_c3 = st.columns(3)
+                                    ef_c1.metric("Doble Op.", f"{(df_eq['Doble Oportunidad'].str.contains('✅').sum()/len(df_eq)):.0%}")
+                                    ef_c2.metric("Over 1.5", f"{(df_eq['Over 1.5'].str.contains('✅').sum()/len(df_eq)):.0%}")
+                                    ef_c3.metric("BTTS", f"{(df_eq['BTTS'].str.contains('✅').sum()/len(df_eq)):.0%}")
+                                    st.dataframe(df_eq, use_container_width=True, hide_index=True)
 
         st.markdown("---")
         st.markdown('### 📊 FILTROS DE PREDICCIONES')

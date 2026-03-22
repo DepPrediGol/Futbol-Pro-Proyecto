@@ -11,17 +11,19 @@ st.set_page_config(page_title="Bet Pro League", layout="wide", page_icon="⚽")
 # --- 2. ESTILOS, PRIVACIDAD Y RESPONSIVE ---
 st.markdown("""
     <style>
+    /* Estilo de los filtros: Fondo blanco y letras VERDES */
     div[data-baseweb="select"] > div { background-color: white !important; color: #28a745 !important; }
-    div[data-baseweb="popover"] { background-color: white !important; }
     span[data-baseweb="select-item"], div[role="listbox"] div { color: #28a745 !important; background-color: white !important; font-weight: bold !important; }
     
     @media (max-width: 640px) {
         .main .block-container { padding: 10px !important; margin-top: 0px !important; }
         h1 { font-size: 1.5rem !important; }
+        .top4-card { min-height: 100px !important; }
     }
     header {visibility: hidden !important;}
     footer {display: none !important;}
     [data-testid="stStatusWidget"], .stAppDeployButton { display: none !important; visibility: hidden !important; }
+    
     .stApp { 
         background-image: url("https://images.unsplash.com/photo-1556056504-5c7696c4c28d?q=80&w=2076&auto=format&fit=crop"); 
         background-attachment: fixed; background-size: cover; 
@@ -29,28 +31,25 @@ st.markdown("""
     .main .block-container { background-color: rgba(255, 255, 255, 0.95); border-radius: 10px; padding: 30px; margin-top: 20px; }
     h1, h2, h3, h4, p, span, div, label, .stMetric { color: #000000 !important; font-weight: bold; }
     
-    /* Estilo para que el botón parezca una tarjeta */
-    .stButton > button {
-        width: 100%;
-        height: auto;
-        padding: 15px !important;
-        background-color: rgba(255,255,255,0.8) !important;
-        border: 1px solid #ddd !important;
-        border-radius: 10px !important;
-        color: black !important;
-        text-align: center !important;
-        transition: 0.3s;
+    /* Diseño Organizado de la Tarjeta Original */
+    .top4-card { 
+        padding: 15px; border-radius: 12px; background: rgba(255,255,255,0.9); 
+        border: 1px solid #eee; text-align: center; 
+        box-shadow: 0px 4px 6px rgba(0,0,0,0.05);
     }
-    .stButton > button:hover {
-        border-color: #28a745 !important;
-        background-color: white !important;
+    .top4-card:hover { border-color: #28a745; background: white; }
+    
+    /* Ajuste para que el popover parezca un botón invisible sobre la tarjeta */
+    .stPopover button {
+        width: 100% !important; background-color: transparent !important; 
+        border: none !important; padding: 0px !important; color: inherit !important;
     }
     .giro-balon { display: inline-block; animation: rotacion 3s infinite linear; }
     @keyframes rotacion { from { transform: rotate(0deg); } to { transform: rotate(360deg); } }
     </style>
     """, unsafe_allow_html=True)
 
-# --- 3. FUNCIONES LÓGICAS ---
+# --- 3. FUNCIONES LÓGICAS (Sin cambios) ---
 def aplicar_semaforo(val):
     if isinstance(val, (int, float)):
         if val >= 0.75: return 'color: #28a745; font-weight: bold;'
@@ -140,9 +139,8 @@ fechas_futuras = df_p[df_p['Fecha_dt'] >= hoy]['Fecha_dt'].unique() if not df_p.
 
 if len(fechas_futuras) > 0:
     proxima_fecha = min(fechas_futuras)
-    fecha_str = proxima_fecha.strftime('%d/%m/%Y')
     df_t4 = df_p[df_p['Fecha_dt'] == proxima_fecha].copy()
-    st.info(f"📅 Predicciones para: {fecha_str}")
+    st.info(f"📅 Predicciones para: {proxima_fecha.strftime('%d/%m/%Y')}")
 else:
     df_t4 = pd.DataFrame()
 
@@ -150,7 +148,7 @@ t1, t2 = st.tabs(["PREDICCIONES", "HISTORIAL"])
 
 with t1:
     if not df_t4.empty:
-        st.markdown('### 🏆 TOP 4 POR MERCADO (Haz clic en un partido para ver racha)')
+        st.markdown('### 🏆 TOP 4 POR MERCADO')
         mks = [('DOBLE', '🛡️', 'Doble Oportunidad'), ('Over 1.5', '🥅', 'Over 1.5'), ('Over 2.5', '⚽', 'Over 2.5'), ('BTTS', '🤝', 'Ambos Marcan')]
         cols = st.columns(4)
         
@@ -165,18 +163,19 @@ with t1:
                 
                 for idx, r in top.iterrows():
                     v = f"{r['Tp'] if m=='DOBLE' else ''} {r['Mx']:.0%}" if m=='DOBLE' else f"{r[m]:.0%}"
-                    # Creamos un botón que contiene la info del partido
-                    label = f"📅 {r['Fecha']}\n{r['Liga']}\n{r['Partido']}\n{v}"
-                    if st.button(label, key=f"btn_{m}_{idx}"):
-                        st.markdown(f"#### 📊 Análisis Detallado: {r['Partido']}")
+                    # EL TRUCO: Un popover que envuelve la tarjeta organizada
+                    with st.popover(f"📅 {r['Fecha']} | {r['Partido']} | {v}", use_container_width=True):
+                        st.markdown(f"## 📊 Análisis Detallado: {r['Partido']}")
+                        st.write(f"**Liga:** {r['Liga']} | **Fecha:** {r['Fecha']}")
+                        st.markdown("---")
                         for eq in [r['Local'], r['Visitante']]:
-                            st.write(f"📈 **Racha: {eq}**")
+                            st.subheader(f"📈 Racha: {eq}")
                             df_eq = df_h[(df_h['Equipo Local']==eq)|(df_h['Equipo Visitante']==eq)].iloc[::-1].head(5)
                             if not df_eq.empty:
-                                ef_c1, ef_c2, ef_c3 = st.columns(3)
-                                ef_c1.metric("Doble Op.", f"{(df_eq['Doble Oportunidad'].str.contains('✅').sum()/len(df_eq)):.0%}")
-                                ef_c2.metric("Over 1.5", f"{(df_eq['Over 1.5'].str.contains('✅').sum()/len(df_eq)):.0%}")
-                                ef_c3.metric("BTTS", f"{(df_eq['BTTS'].str.contains('✅').sum()/len(df_eq)):.0%}")
+                                c1, c2, c3 = st.columns(3)
+                                c1.metric("Doble Op.", f"{(df_eq['Doble Oportunidad'].str.contains('✅').sum()/len(df_eq)):.0%}")
+                                c2.metric("Over 1.5", f"{(df_eq['Over 1.5'].str.contains('✅').sum()/len(df_eq)):.0%}")
+                                c3.metric("BTTS", f"{(df_eq['BTTS'].str.contains('✅').sum()/len(df_eq)):.0%}")
                                 st.dataframe(df_eq, use_container_width=True, hide_index=True)
 
         st.markdown("---")

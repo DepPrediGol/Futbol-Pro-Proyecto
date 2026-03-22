@@ -201,6 +201,24 @@ with t1:
                      .format({c: '{:.0%}' for c in ['1X', 'X2', 'Over 1.5', 'Over 2.5', 'BTTS']}), 
                      use_container_width=True, hide_index=True)
 
+# --- NUEVA SECCIÓN DE OBSERVACIÓN (Debajo de la tabla) ---
+        st.divider()
+        
+        # Encontramos el valor máximo en las columnas de probabilidad
+        cols_prob = ['1X', 'X2', 'Over 1.5', 'Over 2.5', 'BTTS']
+        max_val = df_fin[cols_prob].max().max()
+        
+        # Localizamos la fila y columna que tiene ese valor máximo
+        idx_max = (df_fin[cols_prob] == max_val).idxmax(axis=1)
+        fila_id = idx_max[idx_max.index[df_fin[cols_prob].max(axis=1) == max_val][0]]
+        datos_top = df_fin.loc[idx_max.index[df_fin[cols_prob].max(axis=1) == max_val][0]]
+        
+        mercado_nombre = fila_id # Ejemplo: 'Over 1.5'
+        equipo_top = datos_top['Partido']
+        liga_top = datos_top['Liga']
+
+        st.info(f"💡 **Observación Pro:** La predicción más alta de la selección actual se encuentra en la liga **{liga_top}** para el partido **{equipo_top}**, con una probabilidad del **{max_val:.0%}** en el mercado de **{mercado_nombre}**.")
+
 with t2:
     st.markdown("## 📜 HISTORIAL DE RESULTADOS")
     if not df_h.empty:

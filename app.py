@@ -187,7 +187,7 @@ with t1:
 
         st.divider()
         # FILTROS Y TABLA DE PREDICCIONES
-        st.markdown("### 📊 LISTADO COMPLETO")
+        st.markdown("### 📊 FILTRO POR LIGAS Y JORNADAS")
         c1, c2 = st.columns(2)
         with c1: sl = st.selectbox("Liga:", ["TODAS"] + lgs, key="filt_l")
         with c2:

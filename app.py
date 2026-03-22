@@ -8,10 +8,10 @@ from datetime import datetime
 # --- 1. CONFIGURACIÓN ---
 st.set_page_config(page_title="Bet Pro League", layout="wide", page_icon="⚽")
 
-# --- 2. ESTILOS REFORZADOS ---
+# --- 2. ESTILOS (Tarjetas como la imagen y filtros verdes) ---
 st.markdown("""
     <style>
-    /* Filtros: Letras VERDES y fondo blanco para celular */
+    /* Filtros Verdes */
     div[data-baseweb="select"] > div { background-color: white !important; color: #28a745 !important; }
     span[data-baseweb="select-item"], div[role="listbox"] div { color: #28a745 !important; background-color: white !important; font-weight: bold !important; }
     
@@ -26,28 +26,31 @@ st.markdown("""
     .main .block-container { background-color: rgba(255, 255, 255, 0.95); border-radius: 10px; padding: 30px; margin-top: 20px; }
     h1, h2, h3, h4, p, span, div, label, .stMetric { color: #000000 !important; font-weight: bold; }
 
-    /* Diseño del Botón-Cuadro Organizado */
+    /* Botón-Tarjeta Organizado */
     .stButton > button {
         width: 100% !important;
         height: auto !important;
         background-color: rgba(255, 255, 255, 0.9) !important;
         border: 1px solid #ddd !important;
-        border-radius: 12px !important;
-        padding: 15px !important;
-        transition: 0.3s !important;
+        border-radius: 15px !important;
+        padding: 20px !important;
+        color: black !important;
+        font-size: 1rem !important;
+        line-height: 1.5 !important;
+        white-space: pre-wrap !important;
         display: block !important;
     }
     .stButton > button:hover {
         border-color: #28a745 !important;
         background-color: #ffffff !important;
-        box-shadow: 0px 4px 10px rgba(0,0,0,0.1) !important;
+        box-shadow: 0px 4px 12px rgba(0,0,0,0.1) !important;
     }
     .giro-balon { display: inline-block; animation: rotacion 3s infinite linear; }
     @keyframes rotacion { from { transform: rotate(0deg); } to { transform: rotate(360deg); } }
     </style>
     """, unsafe_allow_html=True)
 
-# --- 3. FUNCIONES (Sin tocar la lógica) ---
+# --- 3. LÓGICA DE DATOS ---
 def extraer_goles(resultado_str):
     numeros = re.findall(r'\d+', str(resultado_str))
     return (int(numeros[0]), int(numeros[1])) if len(numeros) >= 2 else None
@@ -118,14 +121,15 @@ def cargar_todo():
 
 df_p, df_h, lgs = cargar_todo()
 
-# --- 4. FUNCIÓN PÁGINA APARTE (MODAL) ---
-@st.dialog("📈 Análisis de Racha")
+# --- 4. VENTANA DE ANÁLISIS ---
+@st.dialog("📋 Análisis de Racha")
 def mostrar_analisis(r):
-    st.subheader(f"{r['Local']} vs {r['Visitante']}")
-    st.write(f"📅 {r['Fecha']} | 🏆 {r['Liga']}")
-    st.markdown("---")
+    st.markdown(f"### {r['Local']} vs {r['Visitante']}")
+    st.write(f"🏆 {r['Liga']} | 📅 {r['Fecha']}")
+    st.divider()
     for eq in [r['Local'], r['Visitante']]:
         st.markdown(f"**Racha Reciente: {eq}**")
+        # Corrección de variable NameError
         df_eq = df_h[(df_h['Equipo Local']==eq)|(df_h['Equipo Visitante']==eq)].iloc[::-1].head(5)
         if not df_eq.empty:
             c1, c2, c3 = st.columns(3)
@@ -140,7 +144,7 @@ st.markdown('<h1><span class="giro-balon">⚽</span> Bet Pro League</h1>', unsaf
 t1, t2 = st.tabs(["PREDICCIONES", "HISTORIAL"])
 
 with t1:
-    # FILTROS RESTAURADOS
+    # FILTROS ARRIBA
     st.markdown('### 📊 FILTROS')
     cf1, cf2 = st.columns(2)
     with cf1: sl = st.selectbox("Selecciona Liga:", ["TODAS"] + lgs, key="p_liga")
@@ -149,35 +153,35 @@ with t1:
         jorns = sorted(df_l['Jornada'].unique().tolist(), reverse=True) if not df_l.empty else []
         sj = st.selectbox("Selecciona Jornada:", ["TODAS"] + jorns, key="p_jorn")
 
-    # TOP 4 ORGANIZADO
-    st.markdown('### 🏆 TOP 4 POR MERCADO (Haz clic en un cuadro)')
-    df_t4 = df_l[df_l['Jornada']==int(sj)] if sj!="TODAS" else df_l
+    # TOP 4 POR MERCADO
+    st.markdown('### 🏆 TOP 4 POR MERCADO')
+    df_f = df_l[df_l['Jornada']==int(sj)] if sj!="TODAS" else df_l
     
-    if not df_t4.empty:
+    if not df_f.empty:
         mks = [('DOBLE', '🛡️', 'Doble Oportunidad'), ('Over 1.5', '🥅', 'Over 1.5'), ('Over 2.5', '⚽', 'Over 2.5'), ('BTTS', '🤝', 'Ambos Marcan')]
         cols = st.columns(4)
         for i, (m, ico, tit) in enumerate(mks):
             with cols[i]:
                 st.markdown(f'#### {ico} {tit}')
                 if m == 'DOBLE':
-                    df_t4['Mx'] = df_t4[['1X', 'X2']].max(axis=1)
-                    df_t4['Tp'] = df_t4.apply(lambda x: '1X' if x['1X'] >= x['X2'] else 'X2', axis=1)
-                    top = df_t4.nlargest(4, 'Mx')
-                else: top = df_t4.nlargest(4, m)
+                    df_f['Mx'] = df_f[['1X', 'X2']].max(axis=1)
+                    df_f['Tp'] = df_f.apply(lambda x: '1X' if x['1X'] >= x['X2'] else 'X2', axis=1)
+                    top = df_f.nlargest(4, 'Mx')
+                else: top = df_f.nlargest(4, m)
                 
                 for idx, r in top.iterrows():
                     v = f"{r['Tp'] if m=='DOBLE' else ''} {r['Mx']:.0%}" if m=='DOBLE' else f"{r[m]:.0%}"
-                    # El botón ahora contiene el diseño limpio
-                    btn_text = f"📅 {r['Fecha']}\n{r['Liga']}\n{r['Partido']}\n{v}"
-                    if st.button(btn_text, key=f"t4_{m}_{idx}"):
+                    # Texto del cuadro organizado según imagen
+                    txt = f"📅 {r['Fecha']}\n{r['Liga']}\n{r['Partido']}\n{v}"
+                    if st.button(txt, key=f"t4_{m}_{idx}"):
                         mostrar_analisis(r)
 
 with t2:
-    st.markdown('## 📜 HISTORIAL COMPLETO')
-    # FILTROS HISTORIAL RESTAURADOS
+    st.markdown('## 📜 HISTORIAL')
     h1, h2 = st.columns(2)
     with h1: slh = st.selectbox("Filtrar Liga:", ["TODAS"] + lgs, key="h_liga")
     with h2:
+        # Corrección de NameError definitiva
         df_hh = df_h if slh=="TODAS" else df_h[df_h['Liga']==slh]
         jorns_h = sorted(df_hh['Jornada'].unique().tolist(), key=lambda x: int(x), reverse=True) if not df_hh.empty else []
         sjh = st.selectbox("Filtrar Jornada:", ["TODAS"] + jorns_h, key="h_jorn")

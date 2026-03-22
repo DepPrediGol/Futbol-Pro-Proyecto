@@ -158,7 +158,7 @@ with t1:
             f_prox = min(fechas)
             df_t4 = df_p[df_p['Fecha_dt'] == f_prox].copy()
             st.markdown(f"### 🏆 TOP 4 POR MERCADO ({f_prox.strftime('%d/%m/%Y')})")
-            mks = [('1X', '🛡️ Doble Op.'), ('Over 1.5', '🥅 Over 1.5'), ('Over 2.5', '⚽ Over 2.5'), ('BTTS', '🤝 BTTS')]
+            mks = [('1X', '🛡️ Doble Oportunidad.'), ('Over 1.5', '🥅 Over 1.5'), ('Over 2.5', '⚽ Over 2.5'), ('BTTS', '🤝 BTTS')]
             cols = st.columns(4)
             for i, (m, tit) in enumerate(mks):
                 with cols[i]:
@@ -169,7 +169,7 @@ with t1:
                         if st.button(txt, key=f"t4_{m}_{idx}"): ventana_analisis(r, df_h)
         
         st.divider()
-        st.markdown("### 📊 LISTADO COMPLETO")
+        st.markdown("### 📊 LIGAS Y JORNADAS")
         c1, c2 = st.columns(2)
         with c1: sl = st.selectbox("Liga:", ["TODAS"] + lgs, key="filt_l")
         with c2:
@@ -200,7 +200,7 @@ with t1:
         p_vis = h_vis['Doble Oportunidad'].str.contains('❌').sum()
         btts_vis = h_vis['BTTS'].str.contains('✅').sum()
 
-        obs_texto = f"El equipo <b>{loc}</b> viene fuerte con {g_loc} de sus últimos {len(h_loc)} partidos sin perder en casa y anotando O1.5 en {o15_loc} juegos. Por otro lado, <b>{vis}</b> ha flaqueado como visitante perdiendo {p_vis} de {len(h_vis)} salidas, aunque marca en {btts_vis} de ellas."
+        obs_texto = f"El equipo <b>{loc}</b> viene fuerte con {g_loc} de sus últimos {len(h_loc)} partidos sin perder en casa y anotando 1.5 en {o15_loc} juegos. Por otro lado, <b>{vis}</b> ha flaqueado como visitante perdiendo {p_vis} de {len(h_vis)} salidas, aunque marca en {btts_vis} de ellas."
 
         st.markdown(f"""
             <div style="background-color: #ff4b4b; padding: 25px; border-radius: 15px; border-left: 12px solid #8B0000; box-shadow: 5px 5px 15px rgba(0,0,0,0.3); text-align: center;">

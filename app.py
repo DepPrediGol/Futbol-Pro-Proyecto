@@ -8,7 +8,7 @@ from datetime import datetime, timedelta
 # --- 1. CONFIGURACIÓN ---
 st.set_page_config(page_title="Bet Pro League", layout="wide", page_icon="⚽")
 
-# --- 2. ESTILOS, PRIVACIDAD Y RESPONSIVE ---
+# --- 2. ESTILOS, PRIVACIDAD Y RESPONSIVE (BLOQUE ORIGINAL COMPLETO) ---
 st.markdown("""
     <style>
     @media (max-width: 640px) {
@@ -49,7 +49,7 @@ st.markdown("""
     </style>
     """, unsafe_allow_html=True)
 
-# --- 3. FUNCIONES LÓGICAS ---
+# --- 3. FUNCIONES LÓGICAS (TODO EL MOTOR ORIGINAL) ---
 def aplicar_semaforo(val):
     if isinstance(val, (int, float)):
         if val >= 0.75: return 'color: #28a745; font-weight: bold;'
@@ -83,20 +83,27 @@ def obtener_probabilidades(e_l, e_v):
             if gl > 0 and gv > 0: p_btts += p
     return p_l, p_e, p_v, p_o15, p_o25, p_btts
 
-# --- 4. VENTANA MODAL ---
+# --- 4. VENTANA MODAL (@st.dialog ORIGINAL) ---
 @st.dialog("📊 ANÁLISIS DETALLADO", width="large")
 def ventana_analisis(r, df_h):
     st.title(f"⚽ {r['Partido']}")
     st.subheader(f"🏆 {r['Liga']} | 📅 {r['Fecha']}")
     st.divider()
-    for eq, t_tipo in [(r['Local'], 'Equipo Local'), (r['Visitante'], 'Equipo Visitante')]:
-        st.markdown(f"#### 📈 Historial como {('Local' if t_tipo=='Equipo Local' else 'Visitante')}: {eq}")
-        df_eq = df_h[df_h[t_tipo] == eq].iloc[::-1].head(10)
+    for eq in [r['Local'], r['Visitante']]:
+        st.markdown(f"#### 📈 Rendimiento Reciente: {eq}")
+        df_eq = df_h[(df_h['Equipo Local'] == eq) | (df_h['Equipo Visitante'] == eq)].iloc[::-1].head(5)
         if not df_eq.empty:
+            c1, c2, c3 = st.columns(3)
+            m_1x = (df_eq['Doble Oportunidad'].str.contains('✅').sum() / len(df_eq))
+            m_o15 = (df_eq['Over 1.5'].str.contains('✅').sum() / len(df_eq))
+            m_btts = (df_eq['BTTS'].str.contains('✅').sum() / len(df_eq))
+            c1.metric("Efectividad 1X/X2", f"{m_1x:.0%}")
+            c2.metric("Efectividad O1.5", f"{m_o15:.0%}")
+            c3.metric("Efectividad BTTS", f"{m_btts:.0%}")
             st.dataframe(df_eq, use_container_width=True, hide_index=True)
         st.divider()
 
-# --- 5. CARGA Y PROCESAMIENTO ---
+# --- 5. CARGA Y PROCESAMIENTO (CON CACHÉ Y LÓGICA COMPLETA) ---
 @st.cache_data(ttl=300)
 def cargar_datos_completos():
     archivos = glob.glob("*.csv")
@@ -127,7 +134,8 @@ def cargar_datos_completos():
                         'Equipo Local': f['Equipo Local'], 'Equipo Visitante': f['Equipo Visitante'], 
                         'Marcador': f"{g[0]} - {g[1]}", 'G_L': g[0], 'G_V': g[1],
                         'Doble Oportunidad': f"{pk} {'✅' if (g[0]>=g[1] if pk=='1X' else g[1]>=g[0]) else '❌'}",
-                        'Over 1.5': '✅' if (g[0]+g[1])>1.5 else '❌', 'Over 2.5': '✅' if (g[0]+g[1])>2.5 else '❌', 
+                        'Over 1.5': '✅' if (g[0]+g[1])>1.5 else '❌', 
+                        'Over 2.5': '✅' if (g[0]+g[1])>2.5 else '❌', 
                         'BTTS': '✅' if (g[0]>0 and g[1]>0) else '❌'
                     })
                 else:
@@ -148,7 +156,7 @@ t1, t2 = st.tabs(["PREDICCIONES", "HISTORIAL"])
 
 with t1:
     if not df_p.empty:
-        # TOP 4
+        # SECCIÓN TOP 4 (COMPLETA)
         hoy = datetime.now().replace(hour=0, minute=0, second=0, microsecond=0)
         fechas = df_p[df_p['Fecha_dt'] >= hoy]['Fecha_dt'].unique()
         if len(fechas) > 0:
@@ -166,57 +174,65 @@ with t1:
                         if st.button(txt, key=f"t4_{m}_{idx}"): ventana_analisis(r, df_h)
         
         st.divider()
+        st.markdown("### 📊 LISTADO COMPLETO")
         c1, c2 = st.columns(2)
-        sl = c1.selectbox("Liga:", ["TODAS"] + lgs, key="filt_l")
-        df_fl = df_p if sl=="TODAS" else df_p[df_p['Liga']==sl]
-        sj = c2.selectbox("Jornada:", ["TODAS"] + sorted(df_fl['Jornada'].unique().tolist(), reverse=True), key="filt_j")
+        with c1: sl = st.selectbox("Liga:", ["TODAS"] + lgs, key="filt_l")
+        with c2:
+            df_fl = df_p if sl=="TODAS" else df_p[df_p['Liga']==sl]
+            j_list = sorted(df_fl['Jornada'].unique().tolist(), reverse=True)
+            sj = st.selectbox("Jornada:", ["TODAS"] + j_list, key="filt_j")
         df_fin = df_fl if sj=="TODAS" else df_fl[df_fl['Jornada']==sj]
-        st.dataframe(df_fin[['Fecha', 'Jornada', 'Liga', 'Partido', '1X', 'X2', 'Over 1.5', 'Over 2.5', 'BTTS']].style.applymap(aplicar_semaforo, subset=['1X', 'X2', 'Over 1.5', 'Over 2.5', 'BTTS']).format({c: '{:.0%}' for c in ['1X', 'X2', 'Over 1.5', 'Over 2.5', 'BTTS']}), use_container_width=True, hide_index=True)
+        st.dataframe(df_fin[['Fecha', 'Jornada', 'Liga', 'Partido', '1X', 'X2', 'Over 1.5', 'Over 2.5', 'BTTS']]
+                     .style.applymap(aplicar_semaforo, subset=['1X', 'X2', 'Over 1.5', 'Over 2.5', 'BTTS'])
+                     .format({c: '{:.0%}' for c in ['1X', 'X2', 'Over 1.5', 'Over 2.5', 'BTTS']}), use_container_width=True, hide_index=True)
         
-        # --- NUEVA PREDICCIÓN BOMBA INDIVIDUAL POR EQUIPO ---
+        # --- NUEVA PREDICCIÓN BOMBA ULTRA-DETALLADA ---
         if not df_fin.empty:
             st.divider()
-            d_top = df_fin.loc[df_fin[['Over 1.5', 'Over 2.5', 'BTTS']].max(axis=1).idxmax()]
+            d_top = df_fin.loc[df_fin[['1X', 'X2', 'Over 1.5', 'Over 2.5', 'BTTS']].max(axis=1).idxmax()]
             loc, vis = d_top['Local'], d_top['Visitante']
+            h_l = df_h[df_h['Equipo Local'] == loc]
+            h_v = df_h[df_h['Equipo Visitante'] == vis]
             
-            # FILTRO ESTRICTO: Local en Casa / Visitante Fuera
-            h_l_home = df_h[(df_h['Equipo Local'] == loc) & (df_h['Liga'] == d_top['Liga'])]
-            h_v_away = df_h[(df_h['Equipo Visitante'] == vis) & (df_h['Liga'] == d_top['Liga'])]
-            
-            # Estadísticas Local (HOME)
-            tot_l = len(h_l_home)
-            if tot_l > 0:
-                m1_l = (h_l_home['G_L'] >= 1).sum()
-                m2_l = (h_l_home['G_L'] >= 2).sum()
-                r1_l = (h_l_home['G_V'] >= 1).sum()
-                w1x_l = (h_l_home['G_L'] >= h_l_home['G_V']).sum()
-            
-            # Estadísticas Visitante (AWAY)
-            tot_v = len(h_v_away)
-            if tot_v > 0:
-                m1_v = (h_v_away['G_V'] >= 1).sum()
-                m2_v = (h_v_away['G_V'] >= 2).sum()
-                wx2_v = (h_v_away['G_V'] >= h_v_away['G_L']).sum()
+            # Estadísticas Local en Casa
+            c_l = len(h_l)
+            w_l = h_l['Doble Oportunidad'].str.contains('✅').sum()
+            o15_l = h_l['Over 1.5'].str.contains('✅').sum()
+            o25_l = h_l['Over 2.5'].str.contains('✅').sum()
+            rec_l = h_l[h_l['G_V'] > 1].shape[0]
 
-            if tot_l > 0 and tot_v > 0:
-                st.markdown(f"""
+            # Estadísticas Visitante Fuera
+            c_v = len(h_v)
+            w_v = h_v['Doble Oportunidad'].str.contains('✅').sum()
+            o15_v = h_v['Over 1.5'].str.contains('✅').sum()
+            o25_v = h_v['Over 2.5'].str.contains('✅').sum()
+            btts_v = h_v['BTTS'].str.contains('✅').sum()
+
+            st.markdown(f"""
                 <div style="background-color: #ff4b4b; padding: 25px; border-radius: 15px; border-left: 12px solid #8B0000; box-shadow: 5px 5px 20px rgba(0,0,0,0.4); color: white; text-align: center;">
                     <h2 style="color: white !important; margin: 0; text-shadow: 2px 2px 4px #000000;">💣 PREDICCIÓN BOMBA DETECTADA 💣</h2>
-                    <p style="font-size: 1.1rem; line-height: 1.6; margin-top: 15px;">
-                        El equipo local <b>{loc}</b> lleva {m1_l} de {tot_l} marcando al menos 1 gol en casa y de esos {m1_l} partidos {m2_l} ha marcado 2 o más goles, 
-                        ha recibido 1 gol en {r1_l} de {tot_l} encuentros en casa y ha ganado o empatado en {w1x_l} de {tot_l} encuentros como local. 
-                        Por otro lado, el equipo visitante <b>{vis}</b> ha marcado al menos 1 gol en {m1_v} de {tot_v} partidos como visitante y de esos {m1_v} ha marcado más de 1.5 goles, 
-                        ha ganado o empatado en {wx2_v} de {tot_v} partidos jugados como visitante.
+                    <p style="font-size: 1.15rem; line-height: 1.7; margin-top: 15px; font-weight: normal;">
+                        El equipo <b>{loc}</b> lleva <b>{w_l} de {c_l}</b> partidos ganando o empatando como local. En <b>{o15_l} de {c_l}</b> se dio el Over 1.5, el Over 2.5 en <b>{o25_l} de {c_l}</b> y ha recibido más de 1 gol en <b>{rec_l}</b> juegos. 
+                        Por su parte, <b>{vis}</b> lleva <b>{o15_v} de {c_v}</b> con Over 1.5, en <b>{o25_v} de {c_v}</b> lleva el Over 2.5 y ha puntuado en <b>{w_v} de {c_v}</b> fuera de casa.
                     </p>
-                    <div style="display: grid; grid-template-columns: repeat(2, 1fr); gap: 10px; margin-top: 20px;">
-                        <div style="background: white; color: #ff4b4b; padding: 10px; border-radius: 10px;">🛡️ <b>Gana/Empata:</b> {max(d_top['1X'], d_top['X2']):.0%}</div>
-                        <div style="background: white; color: #ff4b4b; padding: 10px; border-radius: 10px;">🥅 <b>Over 1.5:</b> {d_top['Over 1.5']:.0%}</div>
-                        <div style="background: white; color: #ff4b4b; padding: 10px; border-radius: 10px;">⚽ <b>Over 2.5:</b> {d_top['Over 2.5']:.0%}</div>
-                        <div style="background: white; color: #ff4b4b; padding: 10px; border-radius: 10px;">🤝 <b>Ambos Marcan:</b> {d_top['BTTS']:.0%}</div>
+                    <div style="display: grid; grid-template-columns: repeat(2, 1fr); gap: 15px; margin-top: 20px;">
+                        <div style="background: white; color: #ff4b4b; padding: 12px; border-radius: 12px; font-size: 1.3rem;">🛡️ <b>1X/X2:</b> {max(d_top['1X'], d_top['X2']):.0%}</div>
+                        <div style="background: white; color: #ff4b4b; padding: 12px; border-radius: 12px; font-size: 1.3rem;">🥅 <b>O 1.5:</b> {d_top['Over 1.5']:.0%}</div>
+                        <div style="background: white; color: #ff4b4b; padding: 12px; border-radius: 12px; font-size: 1.3rem;">⚽ <b>O 2.5:</b> {d_top['Over 2.5']:.0%}</div>
+                        <div style="background: white; color: #ff4b4b; padding: 12px; border-radius: 12px; font-size: 1.3rem;">🤝 <b>BTTS:</b> {d_top['BTTS']:.0%}</div>
                     </div>
                 </div>
-                """, unsafe_allow_html=True)
+            """, unsafe_allow_html=True)
 
 with t2:
+    st.markdown("## 📜 HISTORIAL DE RESULTADOS")
     if not df_h.empty:
-        st.dataframe(df_res.style.applymap(color_letras_historial, subset=['Doble Oportunidad', 'Over 1.5', 'Over 2.5', 'BTTS']), use_container_width=True, hide_index=True)
+        h1, h2 = st.columns(2)
+        with h1: slh = st.selectbox("Liga:", ["TODAS"] + lgs, key="h_l")
+        with h2:
+            df_hh = df_h if slh=="TODAS" else df_h[df_h['Liga']==slh]
+            jh_list = sorted(df_hh['Jornada'].unique().tolist(), reverse=True)
+            sjh = st.selectbox("Jornada:", ["TODAS"] + jh_list, key="h_j")
+        df_res = df_hh if sjh=="TODAS" else df_hh[df_hh['Jornada']==sjh]
+        st.dataframe(df_res[['Fecha', 'Jornada', 'Liga', 'Equipo Local', 'Equipo Visitante', 'Marcador', 'Doble Oportunidad', 'Over 1.5', 'Over 2.5', 'BTTS']]
+                     .style.applymap(color_letras_historial, subset=['Doble Oportunidad', 'Over 1.5', 'Over 2.5', 'BTTS']), use_container_width=True, hide_index=True)

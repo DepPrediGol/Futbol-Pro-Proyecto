@@ -174,6 +174,8 @@ with t1:
                         if st.button(txt, key=f"t4_{m}_{idx}"): ventana_analisis(r, df_h)
         
         st.divider()
+        # --- SUBTÍTULO RESTAURADO ---
+        st.markdown("### 📊 LISTADO COMPLETO")
         c1, c2 = st.columns(2)
         with c1: sl = st.selectbox("Liga:", ["TODAS"] + lgs, key="filt_l")
         with c2:
@@ -197,8 +199,11 @@ with t1:
                 m1_v, m15_v = (h_v_away['G_V'] >= 1).sum(), (h_v_away['G_V'] >= 2).sum()
                 wx2_v = (h_v_away['G_V'] >= h_v_away['G_L']).sum()
                 
-                etiqueta_do = "1X" if d_top['1X'] >= d_top['X2'] else "X2"
-                prob_do = d_top['1X'] if etiqueta_do == "1X" else d_top['X2']
+                # --- LÓGICA DE ETIQUETA DINÁMICA ---
+                if d_top['1X'] >= d_top['X2']:
+                    etiqueta_texto = f"Gana o empata (Local): {d_top['1X']:.0%}"
+                else:
+                    etiqueta_texto = f"Gana o empata (Visitante): {d_top['X2']:.0%}"
 
                 st.markdown(f"""
                 <div style="background-color: #ff4b4b; padding: 25px; border-radius: 15px; border-left: 12px solid #8B0000; color: white; text-align: center;">
@@ -210,7 +215,7 @@ with t1:
                         ha ganado o empatado en {wx2_v} de {t_v} partidos jugados como visitante.
                     </p>
                     <div style="display: grid; grid-template-columns: repeat(2, 1fr); gap: 10px; margin-top: 20px;">
-                        <div style="background: white; color: #ff4b4b; padding: 10px; border-radius: 10px;">🛡️ <b>{etiqueta_do}:</b> {prob_do:.0%}</div>
+                        <div style="background: white; color: #ff4b4b; padding: 10px; border-radius: 10px;">🛡️ <b>{etiqueta_texto}</b></div>
                         <div style="background: white; color: #ff4b4b; padding: 10px; border-radius: 10px;">🥅 <b>Over 1.5:</b> {d_top['Over 1.5']:.0%}</div>
                         <div style="background: white; color: #ff4b4b; padding: 10px; border-radius: 10px;">⚽ <b>Over 2.5:</b> {d_top['Over 2.5']:.0%}</div>
                         <div style="background: white; color: #ff4b4b; padding: 10px; border-radius: 10px;">🤝 <b>Ambos Marcan:</b> {d_top['BTTS']:.0%}</div>

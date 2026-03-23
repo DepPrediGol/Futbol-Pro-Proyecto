@@ -4,13 +4,14 @@
 21/03/2026,1,Operário Ferroviário - PR,Atlético Goianiense,1-0
 21/03/2026,1,Botafogo - SP,Fortaleza - CE,4-0
 22/03/2026,1,Cuiabá - MT,Sport Recife - PE,0-0
-22/03/2026,1,Avaí - SC,Juventude - RS,
-22/03/2026,1,Náutico - PE,Criciúma - SC,
-22/03/2026,1,Athletic - MG,Ponte Preta,
-22/03/2026,1,Goiás - GO,América - MG,
-23/03/2026,1,Grêmio Novorizontino - SP,Londrina - PR,
+22/03/2026,1,Avaí - SC,Juventude - RS,2-0
+22/03/2026,1,Náutico - PE,Criciúma - SC,0-1
+22/03/2026,1,Athletic - MG,Ponte Preta,2-1
+22/03/2026,1,Goiás - GO,América - MG,3-1
+23/03/2026,1,Grêmio Novorizontino - SP,Londrina - PR,1-3
+31/03/2026,2,Juventude - RS,Grêmio Novorizontino - SP,
 01/04/2026,2,Fortaleza - CE,Cuiabá - MT,
-01/04/2026,2,Juventude - RS,Grêmio Novorizontino - SP,
+01/04/2026,2,América - MG,Botafogo - SP,
 02/04/2026,2,Londrina - PR,Goiás - GO,
 02/04/2026,2,Atlético Goianiense,Náutico - PE,
 02/04/2026,2,Sport Recife - PE,Vila Nova - GO,
@@ -18,7 +19,6 @@
 02/04/2026,2,Criciúma - SC,Athletic - MG,
 02/04/2026,2,CR Brasil - AL,Avaí - SC,
 02/04/2026,2,São Bernardo FC - SP,Operário Ferroviário - PR,
-03/04/2026,2,América - MG,Botafogo - SP,
 04/04/2026,3,Fortaleza - CE,Juventude - RS,
 04/04/2026,3,Náutico - PE,Ponte Preta,
 04/04/2026,3,Cuiabá - MT,Ceará - CE,
@@ -26,9 +26,9 @@
 05/04/2026,3,Londrina - PR,Sport Recife - PE,
 05/04/2026,3,Avaí - SC,Operário Ferroviário - PR,
 05/04/2026,3,Grêmio Novorizontino - SP,CR Brasil - AL,
+05/04/2026,3,Goiás - GO,Criciúma - SC,
 06/04/2026,3,Athletic - MG,América - MG,
 06/04/2026,3,Botafogo - SP,São Bernardo FC - SP,
-07/04/2026,3,Goiás - GO,Criciúma - SC,
 11/04/2026,4,Criciúma - SC,Botafogo - SP,
 11/04/2026,4,Sport Recife - PE,Avaí - SC,
 11/04/2026,4,Ponte Preta,Vila Nova - GO,

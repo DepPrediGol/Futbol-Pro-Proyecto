@@ -178,7 +178,7 @@
 10/01/2026,15,Dover Athletic,Hemel Hempstead Town,1-2
 16/03/2026,15,Chelmsford City,Slough Town,2-0
 17/03/2026,15,Maidenhead United,Ebbsfleet United,2-3
-24/03/2026,15,Weston-super-Mare AFC,Worthing FC,
+24/03/2026,15,Weston-super-Mare AFC,Worthing FC,2-3
 01/11/2025,16,Worthing FC,Hampton & Richmond Borough,3-0
 04/11/2025,16,AFC Totton,Maidenhead United,2-1
 04/11/2025,16,Chippenham Town,Salisbury FC,2-2
@@ -309,7 +309,7 @@
 17/02/2026,26,Dorking Wanderers,AFC Hornchurch,1-0
 03/03/2026,26,Maidstone United,Weston-super-Mare AFC,2-1
 17/03/2026,26,Chesham United,AFC Totton,1-2
-25/03/2026,26,Farnborough FC,Chelmsford City,
+25/03/2026,26,Farnborough FC,Chelmsford City,4-2
 31/03/2026,26,Maidenhead United,Bath City FC,
 17/01/2026,27,Chelmsford City,Weston-super-Mare AFC,1-0
 17/01/2026,27,Chippenham Town,Ebbsfleet United,1-4
@@ -345,7 +345,7 @@
 03/03/2026,29,Maidenhead United,AFC Totton,2-0
 03/03/2026,29,Torquay United,Farnborough FC,2-2
 17/03/2026,29,Enfield Town FC,Dorking Wanderers,2-4
-24/03/2026,29,Chesham United,AFC Hornchurch,
+24/03/2026,29,Chesham United,AFC Hornchurch,1-2
 31/03/2026,29,Weston-super-Mare AFC,Hemel Hempstead Town,
 31/01/2026,30,Chippenham Town,Chesham United,1-4
 31/01/2026,30,Dorking Wanderers,Salisbury FC,3-0
@@ -368,8 +368,8 @@
 17/02/2026,31,Chesham United,Eastbourne Borough,1-0
 17/02/2026,31,Enfield Town FC,Horsham FC,2-1
 17/03/2026,31,Weston-super-Mare AFC,Tonbridge Angels,0-1
-24/03/2026,31,Bath City FC,Hemel Hempstead Town,
-24/03/2026,31,Torquay United,Dorking Wanderers,
+24/03/2026,31,Bath City FC,Hemel Hempstead Town,0-3
+24/03/2026,31,Torquay United,Dorking Wanderers,2-2
 30/03/2026,31,Chelmsford City,AFC Totton,
 13/12/2025,32,Farnborough FC,Salisbury FC,1-0
 10/02/2026,32,Chippenham Town,Torquay United,1-0
@@ -394,7 +394,7 @@
 14/02/2026,33,Slough Town,Horsham FC,0-0
 14/02/2026,33,Torquay United,Maidenhead United,1-1
 14/02/2026,33,Weston-super-Mare AFC,Eastbourne Borough,3-1
-24/03/2026,33,Enfield Town FC,Dover Athletic,
+24/03/2026,33,Enfield Town FC,Dover Athletic,3-1
 21/02/2026,34,AFC Totton,AFC Hornchurch,1-0
 21/02/2026,34,Bath City FC,Hampton & Richmond Borough,0-4
 21/02/2026,34,Chelmsford City,Salisbury FC,2-2
@@ -479,18 +479,18 @@
 21/03/2026,40,Maidenhead United,Dorking Wanderers,2-0
 21/03/2026,40,Salisbury FC,Enfield Town FC,2-0
 21/03/2026,40,Tonbridge Angels,Bath City FC,2-1
-28/03/2026,41,Chesham United,Tonbridge Angels,
-28/03/2026,41,Chippenham Town,Chelmsford City,
-28/03/2026,41,Dagenham & Redbridge,Hampton & Richmond Borough,
-28/03/2026,41,Dorking Wanderers,Hemel Hempstead Town,
-28/03/2026,41,Eastbourne Borough,Bath City FC,
-28/03/2026,41,Ebbsfleet United,Slough Town,
-28/03/2026,41,Enfield Town FC,Worthing FC,
-28/03/2026,41,Farnborough FC,AFC Hornchurch,
-28/03/2026,41,Maidenhead United,Weston-super-Mare AFC,
-28/03/2026,41,Maidstone United,AFC Totton,
-28/03/2026,41,Salisbury FC,Dover Athletic,
-28/03/2026,41,Torquay United,Horsham FC,
+28/03/2026,41,Chesham United,Tonbridge Angels,1-0
+28/03/2026,41,Chippenham Town,Chelmsford City,0-1
+28/03/2026,41,Dagenham & Redbridge,Hampton & Richmond Borough,3-1
+28/03/2026,41,Dorking Wanderers,Hemel Hempstead Town,2-1
+28/03/2026,41,Eastbourne Borough,Bath City FC,2-2
+28/03/2026,41,Ebbsfleet United,Slough Town,2-1
+28/03/2026,41,Enfield Town FC,Worthing FC,1-1
+28/03/2026,41,Farnborough FC,AFC Hornchurch,2-2
+28/03/2026,41,Maidenhead United,Weston-super-Mare AFC,1-2
+28/03/2026,41,Maidstone United,AFC Totton,3-1
+28/03/2026,41,Salisbury FC,Dover Athletic,2-1
+28/03/2026,41,Torquay United,Horsham FC,2-0
 03/04/2026,42,AFC Totton,Salisbury FC,
 03/04/2026,42,Bath City FC,Chippenham Town,
 03/04/2026,42,Chelmsford City,Enfield Town FC,

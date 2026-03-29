@@ -380,7 +380,7 @@
 14/02/2026,32,Exeter City,Northampton Town,0-0
 14/02/2026,32,Lincoln City,Bolton Wanderers,1-1
 24/02/2026,32,Burton Albion,Stockport County,3-0
-24/03/2026,32,Doncaster Rovers,Port Vale FC,
+24/03/2026,32,Doncaster Rovers,Port Vale FC,1-0
 14/04/2026,32,Leyton Orient,Mansfield Town,
 14/04/2026,32,Wigan Athletic,Rotherham United,
 17/02/2026,33,Barnsley FC,Peterborough United,2-1
@@ -419,7 +419,6 @@
 28/02/2026,35,Stevenage FC,Stockport County,2-1
 28/02/2026,35,Wigan Athletic,Huddersfield Town,1-0
 28/02/2026,35,Wycombe Wanderers,Burton Albion,3-0
-07/03/2026,36,Stockport County,Mansfield Town,
 07/03/2026,36,Cardiff City,Lincoln City,0-2
 07/03/2026,36,Huddersfield Town,Rotherham United,1-0
 07/03/2026,36,Barnsley FC,Exeter City,2-1
@@ -431,6 +430,7 @@
 07/03/2026,36,Plymouth Argyle,Doncaster Rovers,2-1
 08/03/2026,36,AFC Wimbledon,Northampton Town,1-0
 16/04/2026,36,Peterborough United,Port Vale FC,
+21/04/2026,36,Stockport County,Mansfield Town,
 14/03/2026,37,Lincoln City,Stockport County,3-1
 14/03/2026,37,Rotherham United,Bolton Wanderers,2-2
 14/03/2026,37,Doncaster Rovers,Blackpool FC,2-1
@@ -467,14 +467,14 @@
 21/03/2026,39,Port Vale FC,Bolton Wanderers,1-0
 21/03/2026,39,Stevenage FC,Reading FC,1-0
 21/03/2026,39,Wigan Athletic,Exeter City,2-0
-28/03/2026,40,Bradford City,Plymouth Argyle,
-28/03/2026,40,Blackpool FC,Burton Albion,
-28/03/2026,40,Exeter City,Leyton Orient,
-28/03/2026,40,Reading FC,Wigan Athletic,
-28/03/2026,40,Stockport County,AFC Wimbledon,
-28/03/2026,40,Wycombe Wanderers,Port Vale FC,
+28/03/2026,40,Blackpool FC,Burton Albion,1-0
+28/03/2026,40,Exeter City,Leyton Orient,0-0
+28/03/2026,40,Reading FC,Wigan Athletic,3-0
+28/03/2026,40,Stockport County,AFC Wimbledon,3-0
+28/03/2026,40,Wycombe Wanderers,Port Vale FC,4-0
 14/04/2026,40,Bolton Wanderers,Stevenage FC,
 14/04/2026,40,Huddersfield Town,Cardiff City,
+21/04/2026,40,Bradford City,Plymouth Argyle,
 21/04/2026,40,Doncaster Rovers,Lincoln City,
 21/04/2026,40,Rotherham United,Luton Town,
 28/04/2026,40,Northampton Town,Barnsley FC,
@@ -499,10 +499,10 @@
 06/04/2026,42,Mansfield Town,Burton Albion,
 06/04/2026,42,Northampton Town,Wigan Athletic,
 06/04/2026,42,Peterborough United,Cardiff City,
-06/04/2026,42,Port Vale FC,Rotherham United,
 06/04/2026,42,Reading FC,Lincoln City,
 06/04/2026,42,Stevenage FC,Blackpool FC,
 06/04/2026,42,Wycombe Wanderers,Bradford City,
+07/04/2026,42,Port Vale FC,Rotherham United,
 11/04/2026,43,Cardiff City,Bolton Wanderers,
 11/04/2026,43,Lincoln City,Leyton Orient,
 11/04/2026,43,Plymouth Argyle,Exeter City,

@@ -1,5 +1,4 @@
 ﻿Fecha,Jornada,Equipo Local,Equipo Visitante,Resultado
-14/03/2026,1,Sarpsborg 08,FK Bodø/Glimt,
 14/03/2026,1,Hamarkameratene,Viking FK,2-1
 14/03/2026,1,Molde FK,Rosenborg BK,2-0
 15/03/2026,1,Kristiansund BK,SK Brann,3-2
@@ -7,14 +6,15 @@
 15/03/2026,1,KFUM Oslo,IK Start,2-0
 15/03/2026,1,Vålerenga IF,Sandefjord Fotball,1-0
 15/03/2026,1,Tromsø IL,Fredrikstad FK,4-0
+15/04/2026,1,Sarpsborg 08,FK Bodø/Glimt,
 21/03/2026,2,IK Start,Aalesunds FK,1-1
 21/03/2026,2,Viking FK,Molde FK,4-1
-22/03/2026,2,Lillestrøm SK,Kristiansund BK,
 22/03/2026,2,FK Bodø/Glimt,Hamarkameratene,
 22/03/2026,2,Rosenborg BK,Vålerenga IF,0-2
 22/03/2026,2,SK Brann,Tromsø IL,1-2
 22/03/2026,2,Fredrikstad FK,KFUM Oslo,3-1
 22/03/2026,2,Sandefjord Fotball,Sarpsborg 08,0-2
+20/05/2026,2,Lillestrøm SK,Kristiansund BK,
 06/04/2026,3,Vålerenga IF,Viking FK,
 06/04/2026,3,Hamarkameratene,SK Brann,
 06/04/2026,3,Kristiansund BK,FK Bodø/Glimt,
@@ -71,14 +71,14 @@
 16/05/2026,9,Viking FK,IK Start,
 16/05/2026,9,FK Bodø/Glimt,Tromsø IL,
 16/05/2026,9,Vålerenga IF,Sarpsborg 08,
-25/05/2026,10,FK Bodø/Glimt,SK Brann,
-25/05/2026,10,Hamarkameratene,Lillestrøm SK,
+23/05/2026,10,Tromsø IL,Aalesunds FK,
+24/05/2026,10,Hamarkameratene,Lillestrøm SK,
+24/05/2026,10,FK Bodø/Glimt,SK Brann,
+24/05/2026,10,Kristiansund BK,Viking FK,
 25/05/2026,10,IK Start,Vålerenga IF,
 25/05/2026,10,KFUM Oslo,Rosenborg BK,
-25/05/2026,10,Kristiansund BK,Viking FK,
-25/05/2026,10,Sandefjord Fotball,Fredrikstad FK,
 25/05/2026,10,Sarpsborg 08,Molde FK,
-25/05/2026,10,Tromsø IL,Aalesunds FK,
+25/05/2026,10,Sandefjord Fotball,Fredrikstad FK,
 29/05/2026,11,Aalesunds FK,Hamarkameratene,
 29/05/2026,11,SK Brann,Sarpsborg 08,
 29/05/2026,11,Fredrikstad FK,IK Start,

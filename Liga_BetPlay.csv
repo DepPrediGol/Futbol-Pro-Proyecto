@@ -43,12 +43,12 @@
 07/02/2026,5,Independiente Medellín,Internacional de Bogotá,1-2
 07/02/2026,5,Águilas Doradas,Cúcuta Deportivo,3-2
 07/02/2026,5,Deportes Tolima,Llaneros FC,0-1
-08/02/2026,5,Fortaleza FC,América de Cali,
 08/02/2026,5,Atlético Junior,Boyacá Chicó,3-0
 08/02/2026,5,Alianza FC,Once Caldas,1-1
 09/02/2026,5,Deportivo Cali,Millonarios,0-0
 09/02/2026,5,Jaguares de Córdoba,Deportivo Pereira,1-0
 26/02/2026,5,Santa Fe,Atlético Nacional,1-2
+23/04/2026,5,Fortaleza FC,América de Cali,
 10/02/2026,6,Cúcuta Deportivo,Independiente Medellín,1-3
 11/02/2026,6,Llaneros FC,Deportivo Pasto,0-1
 11/02/2026,6,Atlético Bucaramanga,Deportes Tolima,0-0
@@ -122,19 +122,19 @@
 22/03/2026,13,Once Caldas,Millonarios,1-4
 22/03/2026,13,Atlético Nacional,Internacional de Bogotá,3-0
 22/03/2026,13,Alianza FC,Deportivo Cali,1-0
-23/03/2026,13,Boyacá Chicó,Deportes Tolima,
-23/03/2026,13,Santa Fe,Independiente Medellín,
-24/03/2026,13,Jaguares de Córdoba,Águilas Doradas,
-24/03/2026,13,Deportivo Pereira,Cúcuta Deportivo,
-25/03/2026,13,Atlético Junior,Atlético Bucaramanga,
-25/03/2026,13,Fortaleza FC,Deportivo Pasto,
-26/03/2026,13,América de Cali,Llaneros FC,
-27/03/2026,14,Águilas Doradas,Alianza FC,
-28/03/2026,14,Atlético Bucaramanga,Santa Fe,
-28/03/2026,14,Cúcuta Deportivo,Boyacá Chicó,
-29/03/2026,14,Deportes Tolima,Jaguares de Córdoba,
-29/03/2026,14,Deportivo Cali,Deportivo Pereira,
-29/03/2026,14,Internacional de Bogotá,Atlético Junior,
+23/03/2026,13,Boyacá Chicó,Deportes Tolima,1-1
+23/03/2026,13,Santa Fe,Independiente Medellín,2-1
+24/03/2026,13,Jaguares de Córdoba,Águilas Doradas,1-1
+24/03/2026,13,Deportivo Pereira,Cúcuta Deportivo,2-2
+25/03/2026,13,Atlético Junior,Atlético Bucaramanga,2-0
+25/03/2026,13,Fortaleza FC,Deportivo Pasto,1-2
+26/03/2026,13,América de Cali,Llaneros FC,0-0
+27/03/2026,14,Águilas Doradas,Alianza FC,1-0
+28/03/2026,14,Atlético Bucaramanga,Santa Fe,1-2
+28/03/2026,14,Cúcuta Deportivo,Boyacá Chicó,1-0
+29/03/2026,14,Deportes Tolima,Jaguares de Córdoba,3-1
+29/03/2026,14,Deportivo Cali,Deportivo Pereira,1-0
+29/03/2026,14,Internacional de Bogotá,45.,0-0
 30/03/2026,14,Deportivo Pasto,Atlético Nacional,
 30/03/2026,14,Llaneros FC,Once Caldas,
 31/03/2026,14,Independiente Medellín,América de Cali,
@@ -152,11 +152,11 @@
 02/03/2026,16,Deportivo Cali,Fortaleza FC,1-1
 09/03/2026,16,Llaneros FC,Jaguares de Córdoba,2-0
 06/04/2026,16,Cúcuta Deportivo,América de Cali,
-11/04/2026,16,Deportivo Pereira,Once Caldas,
+10/04/2026,16,Deportivo Pereira,Once Caldas,
 11/04/2026,16,Deportivo Pasto,Deportes Tolima,
-12/04/2026,16,Millonarios,Santa Fe,
+11/04/2026,16,Águilas Doradas,Atlético Junior,
 12/04/2026,16,Independiente Medellín,Atlético Nacional,
-12/04/2026,16,Águilas Doradas,Atlético Junior,
+12/04/2026,16,Millonarios,Santa Fe,
 13/04/2026,16,Atlético Bucaramanga,Boyacá Chicó,
 13/04/2026,16,Internacional de Bogotá,Alianza FC,
 18/04/2026,17,Jaguares de Córdoba,Deportivo Pasto,
@@ -169,9 +169,9 @@
 20/04/2026,17,Alianza FC,Independiente Medellín,
 21/04/2026,17,Once Caldas,Internacional de Bogotá,
 21/04/2026,17,Atlético Nacional,Atlético Bucaramanga,
+24/04/2026,18,Deportivo Pasto,Santa Fe,
 24/04/2026,18,Millonarios,Deportes Tolima,
 25/04/2026,18,Cúcuta Deportivo,Atlético Junior,
-25/04/2026,18,Deportivo Pasto,Santa Fe,
 25/04/2026,18,Atlético Bucaramanga,Jaguares de Córdoba,
 25/04/2026,18,Independiente Medellín,Fortaleza FC,
 26/04/2026,18,Deportivo Cali,América de Cali,

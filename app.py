@@ -39,7 +39,7 @@ st.markdown("""
     </style>
     """, unsafe_allow_html=True)
 
-# --- 3. FUNCIONES DE LÓGICA Y ESTILO ---
+# --- 3. FUNCIONES DE LÓGICA ---
 def aplicar_semaforo(val):
     try:
         if isinstance(val, (int, float)):
@@ -96,11 +96,11 @@ def ventana_analisis(r, df_h):
             st.dataframe(df_eq, use_container_width=True, hide_index=True)
         st.divider()
 
-# --- 5. CARGA MASIVA RECURSIVA (TEMPORADAS + ACTUAL) ---
+# --- 5. CARGA MASIVA RECURSIVA ---
 @st.cache_data(ttl=300)
 def cargar_datos_proyecto():
     archivos = glob.glob("**/*.csv", recursive=True)
-    archivos.sort() # Orden para que temporadas viejas den base a la fuerza
+    archivos.sort()
     actuales, historicos, ligas = [], [], []
     fz = {}
 
@@ -109,7 +109,6 @@ def cargar_datos_proyecto():
             df = pd.read_csv(arc)
             ln = os.path.basename(arc).replace('.csv','')
             if ln not in ligas: ligas.append(ln)
-            
             df['Jornada'] = pd.to_numeric(df['Jornada'], errors='coerce').fillna(0).astype(int)
             df['Fecha_dt'] = pd.to_datetime(df['Fecha'], dayfirst=True, errors='coerce')
             
@@ -117,23 +116,19 @@ def cargar_datos_proyecto():
                 loc, vis = fila['Equipo Local'], fila['Equipo Visitante']
                 if loc not in fz: fz[loc] = 1.2
                 if vis not in fz: fz[vis] = 1.2
-                
                 g = extraer_goles(fila.get('Resultado'))
                 if g:
-                    # Actualización de fuerza acumulada
                     fz[loc] += 0.20 if g[0] > g[1] else 0.05
                     fz[vis] += 0.20 if g[1] > g[0] else 0.05
                     pl, pe, pv, po15, po25, pb = obtener_probabilidades(fz[loc], fz[vis])
-                    p1x, px2 = pl+pe, pv+pe
-                    pk = "1X" if p1x >= px2 else "X2"
-                    
+                    pk = "1X" if (pl+pe) >= (pv+pe) else "X2"
                     historicos.append({
                         'Fecha': fila['Fecha'], 'Liga': ln, 'Jornada': fila['Jornada'],
                         'Local': loc, 'Visitante': vis, 'Marcador': f"{g[0]}-{g[1]}",
-                        'Doble Oportunidad': f"{pk} {'✅' if (g[0]>=g[1] if pk=='1X' else g[1]>=g[0]) else '❌'} ({max(p1x,px2):.0%})",
-                        'Over 1.5': f"{'✅' if (g[0]+g[1])>1.5 else '❌'} ({po15:.0%})", 
-                        'Over 2.5': f"{'✅' if (g[0]+g[1])>2.5 else '❌'} ({po25:.0%})", 
-                        'BTTS': f"{'✅' if (g[0]>0 and g[1]>0) else '❌'} ({pb:.0%})",
+                        'Doble Oportunidad': f"{pk} {'✅' if (g[0]>=g[1] if pk=='1X' else g[1]>=g[0]) else '❌'}",
+                        'Over 1.5': f"{'✅' if (g[0]+g[1])>1.5 else '❌'}", 
+                        'Over 2.5': f"{'✅' if (g[0]+g[1])>2.5 else '❌'}", 
+                        'BTTS': f"{'✅' if (g[0]>0 and g[1]>0) else '❌'}",
                         'G_L': g[0], 'G_V': g[1]
                     })
                 else:
@@ -154,22 +149,20 @@ t1, t2 = st.tabs(["PREDICCIONES", "HISTORIAL"])
 
 with t1:
     if not df_p.empty:
-        # --- TOP 4 POR MERCADO ---
         hoy = datetime.now().replace(hour=0, minute=0, second=0, microsecond=0)
         fechas_futuras = df_p[df_p['Fecha_dt'] >= hoy]['Fecha_dt'].unique()
         if len(fechas_futuras) > 0:
             f_prox = min(fechas_futuras)
             df_t4 = df_p[df_p['Fecha_dt'] == f_prox].copy()
             st.markdown(f"### 🏆 TOP 4 POR MERCADO ({f_prox.strftime('%d/%m/%Y')})")
-            mks = [('1X', '🛡️ Doble Oportunidad'), ('Over 1.5', '🥅 Over 1.5'), ('Over 2.5', '⚽ Over 2.5'), ('BTTS', '🤝 BTTS')]
+            mks = [('1X', '🛡️ 1X/X2'), ('Over 1.5', '🥅 Over 1.5'), ('Over 2.5', '⚽ Over 2.5'), ('BTTS', '🤝 BTTS')]
             cols = st.columns(4)
             for i, (m, tit) in enumerate(mks):
                 with cols[i]:
                     st.markdown(f"#### {tit}")
                     top = df_t4.nlargest(4, m)
                     for idx, r in top.iterrows():
-                        txt = f"{r['Fecha']}\n{r['Liga']}\n{r['Partido']}\n⭐ Prob: {r[m]:.0%}"
-                        if st.button(txt, key=f"t4_{m}_{idx}"): ventana_analisis(r, df_h)
+                        if st.button(f"{r['Partido']}\n⭐ Prob: {r[m]:.0%}", key=f"t4_{m}_{idx}"): ventana_analisis(r, df_h)
 
         st.divider()
         st.markdown("### 📊 LIGAS Y JORNADAS")
@@ -181,34 +174,23 @@ with t1:
             sj = st.selectbox("Jornada:", ["TODAS"] + lj, key="filt_j1")
         
         df_fin = df_fl if sj=="TODAS" else df_fl[df_fl['Jornada']==sj]
+        st.dataframe(df_fin[['Fecha', 'Jornada', 'Liga', 'Partido', '1X', 'X2', 'Over 1.5', 'Over 2.5', 'BTTS']].style.applymap(aplicar_semaforo, subset=['1X', 'X2', 'Over 1.5', 'Over 2.5', 'BTTS']).format({c: '{:.0%}' for c in ['1X', 'X2', 'Over 1.5', 'Over 2.5', 'BTTS']}), use_container_width=True, hide_index=True)
+
         if not df_fin.empty:
-            st.dataframe(df_fin[['Fecha', 'Jornada', 'Liga', 'Partido', '1X', 'X2', 'Over 1.5', 'Over 2.5', 'BTTS']].style.applymap(aplicar_semaforo, subset=['1X', 'X2', 'Over 1.5', 'Over 2.5', 'BTTS']).format({c: '{:.0%}' for c in ['1X', 'X2', 'Over 1.5', 'Over 2.5', 'BTTS']}), use_container_width=True, hide_index=True)
-            
-            # --- PREDICCIÓN BOMBA ---
             st.divider()
             d_top = df_fin.loc[df_fin[['Over 1.5', 'Over 2.5', 'BTTS']].max(axis=1).idxmax()]
             loc, vis = d_top['Local'], d_top['Visitante']
-            h_l = df_h[df_h['Local'] == loc]
-            h_v = df_h[df_h['Visitante'] == vis]
-            
+            h_l, h_v = df_h[df_h['Local'] == loc], df_h[df_h['Visitante'] == vis]
             if not h_l.empty and not h_v.empty:
-                t_l, t_v = len(h_l), len(h_v)
-                m1_l, m2_l, r1_l = (h_l['G_L'] >= 1).sum(), (h_l['G_L'] >= 2).sum(), (h_l['G_V'] >= 1).sum()
+                m1_l, m2_l = (h_l['G_L'] >= 1).sum(), (h_l['G_L'] >= 2).sum()
                 w_l = (h_l['G_L'] >= h_l['G_V']).sum()
-                m1_v, m15_v = (h_v['G_V'] >= 1).sum(), (h_v['G_V'] >= 2).sum()
-                w_v = (h_v['G_V'] >= h_v['G_L']).sum()
-                tipo_do = "(Local)" if d_top['1X'] >= d_top['X2'] else "(Visitante)"
-                prob_do = d_top['1X'] if d_top['1X'] >= d_top['X2'] else d_top['X2']
-
                 st.markdown(f"""
                 <div style="background-color: #ff4b4b; padding: 25px; border-radius: 15px; color: white; text-align: center;">
-                    <h2>💣 PREDICCIÓN BOMBA DETECTADA 💣</h2>
-                    <p>El equipo local <b>{loc}</b> lleva {m1_l} de {t_l} marcando al menos 1 gol en casa y de esos {m1_l} partidos {m2_l} ha marcado 2 o más goles, ha recibido 1 gol en {r1_l} de {t_l} encuentros en casa y ha ganado o empatado en {w_l} de {t_l} encuentros como local. El visitante <b>{vis}</b> ha marcado en {m1_v}/{t_v} y ha ganado o empatado en {w_v} como visitante.</p>
+                    <h2>💣 PREDICCIÓN BOMBA: {d_top['Partido']} 💣</h2>
+                    <p>El local marcando en {m1_l}/{len(h_l)} y marcando +1.5 en {m2_l} partidos. Invicto en casa: {w_l}/{len(h_l)}.</p>
                     <div style="display: grid; grid-template-columns: repeat(2, 1fr); gap: 10px;">
-                        <div style="background: white; color: #ff4b4b; padding: 10px; border-radius: 10px;">🛡️ <b>Gana/Empata {tipo_do}: {prob_do:.0%}</b></div>
-                        <div style="background: white; color: #ff4b4b; padding: 10px; border-radius: 10px;">🥅 <b>Over 1.5: {d_top['Over 1.5']:.0%}</b></div>
-                        <div style="background: white; color: #ff4b4b; padding: 10px; border-radius: 10px;">⚽ <b>Over 2.5: {d_top['Over 2.5']:.0%}</b></div>
-                        <div style="background: white; color: #ff4b4b; padding: 10px; border-radius: 10px;">🤝 <b>Ambos Marcan: {d_top['BTTS']:.0%}</b></div>
+                        <div style="background: white; color: black; padding: 10px; border-radius: 10px;">🛡️ <b>Prob. 1X/X2: {max(d_top['1X'], d_top['X2']):.0%}</b></div>
+                        <div style="background: white; color: black; padding: 10px; border-radius: 10px;">🥅 <b>Over 1.5: {d_top['Over 1.5']:.0%}</b></div>
                     </div>
                 </div>
                 """, unsafe_allow_html=True)
@@ -222,7 +204,5 @@ with t2:
             df_hh = df_h if slh=="TODAS" else df_h[df_h['Liga']==slh]
             ljh = sorted(df_hh['Jornada'].unique().tolist(), reverse=True) if not df_hh.empty else [0]
             sjh = st.selectbox("Jornada:", ["TODAS"] + ljh, key="filt_j2")
-        
         df_res = df_hh if sjh=="TODAS" else df_hh[df_hh['Jornada']==sjh]
-        if not df_res.empty:
-            st.dataframe(df_res[['Fecha', 'Jornada', 'Liga', 'Local', 'Visitante', 'Marcador', 'Doble Oportunidad', 'Over 1.5', 'Over 2.5', 'BTTS']].style.applymap(color_letras_historial, subset=['Doble Oportunidad', 'Over 1.5', 'Over 2.5', 'BTTS']), use_container_width=True, hide_index=True)
+        st.dataframe(df_res[['Fecha', 'Jornada', 'Liga', 'Local', 'Visitante', 'Marcador', 'Doble Oportunidad', 'Over 1.5', 'Over 2.5', 'BTTS']].style.applymap(color_letras_historial, subset=['Doble Oportunidad', 'Over 1.5', 'Over 2.5', 'BTTS']), use_container_width=True, hide_index=True)

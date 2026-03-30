@@ -1,0 +1,381 @@
+﻿Fecha,Jornada,Equipo Local,Equipo Visitante,Resultado
+22/08/2025,1,Delfino Pescara,Cesena FC,1-3
+23/08/2025,1,Empoli FC,Calcio Padova,3-1
+23/08/2025,1,Virtus Entella,Juve Stabia,1-1
+23/08/2025,1,AC Monza,Mantova 1911,1-0
+23/08/2025,1,Palermo FC,AC Reggiana 1919,2-1
+24/08/2025,1,Spezia Calcio,Carrarese Calcio,0-2
+24/08/2025,1,Venezia FC,SSC Bari,2-1
+24/08/2025,1,US Catanzaro,FC Südtirol,1-1
+24/08/2025,1,Frosinone Calcio,US Avellino,2-0
+25/08/2025,1,Sampdoria,Modena FC,0-2
+29/08/2025,2,AC Reggiana 1919,Empoli FC,3-1
+30/08/2025,2,Juve Stabia,Venezia FC,0-0
+30/08/2025,2,Mantova 1911,Delfino Pescara,2-1
+30/08/2025,2,Cesena FC,Virtus Entella,1-1
+30/08/2025,2,Palermo FC,Frosinone Calcio,0-0
+30/08/2025,2,Spezia Calcio,US Catanzaro,0-0
+31/08/2025,2,Carrarese Calcio,Calcio Padova,0-0
+31/08/2025,2,FC Südtirol,Sampdoria,3-1
+31/08/2025,2,SSC Bari,AC Monza,1-1
+31/08/2025,2,Modena FC,US Avellino,1-1
+12/09/2025,3,US Avellino,AC Monza,2-1
+13/09/2025,3,Juve Stabia,AC Reggiana 1919,0-0
+13/09/2025,3,Modena FC,SSC Bari,3-0
+13/09/2025,3,Calcio Padova,Frosinone Calcio,0-1
+13/09/2025,3,Delfino Pescara,Venezia FC,2-2
+13/09/2025,3,US Catanzaro,Carrarese Calcio,1-1
+13/09/2025,3,Sampdoria,Cesena FC,1-2
+14/09/2025,3,Virtus Entella,Mantova 1911,1-0
+14/09/2025,3,FC Südtirol,Palermo FC,0-2
+14/09/2025,3,Empoli FC,Spezia Calcio,1-1
+19/09/2025,4,Frosinone Calcio,FC Südtirol,2-2
+19/09/2025,4,Palermo FC,SSC Bari,2-0
+20/09/2025,4,AC Reggiana 1919,US Catanzaro,2-2
+20/09/2025,4,Spezia Calcio,Juve Stabia,1-3
+20/09/2025,4,Venezia FC,Cesena FC,1-2
+20/09/2025,4,AC Monza,Sampdoria,1-0
+20/09/2025,4,Mantova 1911,Modena FC,1-3
+21/09/2025,4,Carrarese Calcio,US Avellino,3-4
+21/09/2025,4,Delfino Pescara,Empoli FC,4-0
+21/09/2025,4,Calcio Padova,Virtus Entella,2-1
+26/09/2025,5,US Catanzaro,Juve Stabia,2-2
+27/09/2025,5,US Avellino,Virtus Entella,2-0
+27/09/2025,5,Cesena FC,Palermo FC,1-1
+27/09/2025,5,Mantova 1911,Frosinone Calcio,1-5
+27/09/2025,5,FC Südtirol,AC Reggiana 1919,3-1
+27/09/2025,5,Venezia FC,Spezia Calcio,2-0
+27/09/2025,5,AC Monza,Calcio Padova,0-1
+27/09/2025,5,SSC Bari,Sampdoria,1-1
+28/09/2025,5,Modena FC,Delfino Pescara,2-1
+28/09/2025,5,Empoli FC,Carrarese Calcio,2-2
+30/09/2025,6,Virtus Entella,SSC Bari,2-2
+30/09/2025,6,Frosinone Calcio,Cesena FC,3-1
+30/09/2025,6,Juve Stabia,Mantova 1911,2-1
+30/09/2025,6,Calcio Padova,US Avellino,2-2
+30/09/2025,6,Palermo FC,Venezia FC,0-0
+30/09/2025,6,AC Reggiana 1919,Spezia Calcio,1-1
+01/10/2025,6,Carrarese Calcio,Modena FC,0-0
+01/10/2025,6,Empoli FC,AC Monza,1-1
+01/10/2025,6,Delfino Pescara,FC Südtirol,1-1
+01/10/2025,6,Sampdoria,US Catanzaro,0-0
+04/10/2025,7,US Avellino,Mantova 1911,0-0
+04/10/2025,7,SSC Bari,Calcio Padova,2-1
+04/10/2025,7,AC Monza,US Catanzaro,2-1
+04/10/2025,7,Venezia FC,Frosinone Calcio,3-0
+04/10/2025,7,Spezia Calcio,Palermo FC,1-2
+04/10/2025,7,Cesena FC,AC Reggiana 1919,1-2
+05/10/2025,7,Carrarese Calcio,Juve Stabia,3-0
+05/10/2025,7,FC Südtirol,Empoli FC,1-2
+05/10/2025,7,Sampdoria,Delfino Pescara,4-1
+05/10/2025,7,Modena FC,Virtus Entella,2-0
+17/10/2025,8,Virtus Entella,Sampdoria,3-1
+18/10/2025,8,Frosinone Calcio,AC Monza,0-1
+18/10/2025,8,Mantova 1911,FC Südtirol,1-1
+18/10/2025,8,Delfino Pescara,Carrarese Calcio,2-2
+18/10/2025,8,AC Reggiana 1919,SSC Bari,3-1
+18/10/2025,8,Juve Stabia,US Avellino,2-0
+18/10/2025,8,Spezia Calcio,Cesena FC,1-2
+19/10/2025,8,Palermo FC,Modena FC,1-1
+19/10/2025,8,Empoli FC,Venezia FC,1-1
+19/10/2025,8,US Catanzaro,Calcio Padova,0-1
+24/10/2025,9,Modena FC,Empoli FC,2-1
+25/10/2025,9,US Avellino,Spezia Calcio,0-4
+25/10/2025,9,Virtus Entella,Delfino Pescara,1-1
+25/10/2025,9,AC Monza,AC Reggiana 1919,3-1
+25/10/2025,9,Sampdoria,Frosinone Calcio,1-1
+25/10/2025,9,FC Südtirol,Cesena FC,0-1
+25/10/2025,9,Carrarese Calcio,Venezia FC,3-2
+25/10/2025,9,US Catanzaro,Palermo FC,1-0
+26/10/2025,9,Calcio Padova,Juve Stabia,2-2
+26/10/2025,9,SSC Bari,Mantova 1911,1-0
+28/10/2025,10,Cesena FC,Carrarese Calcio,2-1
+28/10/2025,10,Empoli FC,Sampdoria,1-1
+28/10/2025,10,Frosinone Calcio,Virtus Entella,4-0
+28/10/2025,10,Palermo FC,AC Monza,0-3
+28/10/2025,10,Delfino Pescara,US Avellino,1-1
+28/10/2025,10,AC Reggiana 1919,Modena FC,1-0
+29/10/2025,10,Mantova 1911,US Catanzaro,1-3
+29/10/2025,10,Spezia Calcio,Calcio Padova,1-1
+29/10/2025,10,Venezia FC,FC Südtirol,3-0
+04/12/2025,10,Juve Stabia,SSC Bari,0-0
+01/11/2025,11,US Avellino,AC Reggiana 1919,4-3
+01/11/2025,11,Carrarese Calcio,Frosinone Calcio,0-2
+01/11/2025,11,Calcio Padova,FC Südtirol,1-1
+01/11/2025,11,Virtus Entella,Empoli FC,1-0
+01/11/2025,11,Palermo FC,Delfino Pescara,5-0
+02/11/2025,11,SSC Bari,Cesena FC,1-0
+02/11/2025,11,US Catanzaro,Venezia FC,2-1
+02/11/2025,11,Modena FC,Juve Stabia,3-0
+02/11/2025,11,AC Monza,Spezia Calcio,1-0
+02/11/2025,11,Sampdoria,Mantova 1911,0-1
+07/11/2025,12,Spezia Calcio,SSC Bari,1-1
+08/11/2025,12,Empoli FC,US Catanzaro,1-0
+08/11/2025,12,Frosinone Calcio,Modena FC,2-2
+08/11/2025,12,Mantova 1911,Calcio Padova,1-0
+08/11/2025,12,AC Reggiana 1919,Virtus Entella,0-0
+08/11/2025,12,FC Südtirol,Carrarese Calcio,1-1
+08/11/2025,12,Juve Stabia,Palermo FC,1-0
+08/11/2025,12,Venezia FC,Sampdoria,3-1
+09/11/2025,12,Cesena FC,US Avellino,3-0
+09/11/2025,12,Delfino Pescara,AC Monza,0-2
+21/11/2025,13,US Catanzaro,Delfino Pescara,3-3
+22/11/2025,13,US Avellino,Empoli FC,0-3
+22/11/2025,13,Carrarese Calcio,AC Reggiana 1919,0-0
+22/11/2025,13,Virtus Entella,Palermo FC,1-1
+22/11/2025,13,Calcio Padova,Venezia FC,0-2
+22/11/2025,13,SSC Bari,Frosinone Calcio,2-3
+23/11/2025,13,Mantova 1911,Spezia Calcio,4-1
+23/11/2025,13,Modena FC,FC Südtirol,0-0
+23/11/2025,13,AC Monza,Cesena FC,1-0
+24/11/2025,13,Sampdoria,Juve Stabia,1-0
+28/11/2025,14,Cesena FC,Modena FC,1-0
+29/11/2025,14,Empoli FC,SSC Bari,5-0
+29/11/2025,14,Delfino Pescara,Calcio Padova,0-1
+29/11/2025,14,AC Reggiana 1919,Frosinone Calcio,0-1
+29/11/2025,14,Venezia FC,Mantova 1911,3-0
+29/11/2025,14,FC Südtirol,US Avellino,0-1
+29/11/2025,14,US Catanzaro,Virtus Entella,3-2
+29/11/2025,14,Palermo FC,Carrarese Calcio,5-0
+30/11/2025,14,Juve Stabia,AC Monza,2-2
+30/11/2025,14,Spezia Calcio,Sampdoria,1-0
+07/12/2025,15,Empoli FC,Palermo FC,1-3
+07/12/2025,15,Sampdoria,Carrarese Calcio,3-2
+08/12/2025,15,Modena FC,US Catanzaro,1-2
+08/12/2025,15,US Avellino,Venezia FC,1-1
+08/12/2025,15,Frosinone Calcio,Juve Stabia,3-0
+08/12/2025,15,Mantova 1911,AC Reggiana 1919,0-1
+08/12/2025,15,AC Monza,FC Südtirol,1-1
+08/12/2025,15,Calcio Padova,Cesena FC,1-1
+08/12/2025,15,SSC Bari,Delfino Pescara,1-1
+08/12/2025,15,Virtus Entella,Spezia Calcio,0-1
+12/12/2025,16,Palermo FC,Sampdoria,1-0
+13/12/2025,16,Juve Stabia,Empoli FC,2-0
+13/12/2025,16,AC Reggiana 1919,Calcio Padova,1-2
+13/12/2025,16,Spezia Calcio,Modena FC,0-2
+13/12/2025,16,FC Südtirol,SSC Bari,0-0
+13/12/2025,16,Venezia FC,AC Monza,2-0
+13/12/2025,16,US Catanzaro,US Avellino,1-0
+13/12/2025,16,Cesena FC,Mantova 1911,3-2
+14/12/2025,16,Carrarese Calcio,Virtus Entella,3-1
+14/12/2025,16,Delfino Pescara,Frosinone Calcio,1-2
+19/12/2025,17,SSC Bari,US Catanzaro,1-2
+20/12/2025,17,Cesena FC,Juve Stabia,1-1
+20/12/2025,17,Frosinone Calcio,Spezia Calcio,2-1
+20/12/2025,17,Modena FC,Venezia FC,1-2
+20/12/2025,17,AC Monza,Carrarese Calcio,4-1
+20/12/2025,17,Calcio Padova,Sampdoria,1-1
+20/12/2025,17,US Avellino,Palermo FC,2-2
+20/12/2025,17,Delfino Pescara,AC Reggiana 1919,2-1
+21/12/2025,17,Virtus Entella,FC Südtirol,1-1
+21/12/2025,17,Mantova 1911,Empoli FC,0-1
+26/12/2025,18,Modena FC,AC Monza,1-2
+27/12/2025,18,Spezia Calcio,Delfino Pescara,2-1
+27/12/2025,18,Carrarese Calcio,Mantova 1911,0-0
+27/12/2025,18,US Catanzaro,Cesena FC,2-0
+27/12/2025,18,Empoli FC,Frosinone Calcio,1-1
+27/12/2025,18,Juve Stabia,FC Südtirol,1-0
+27/12/2025,18,Sampdoria,AC Reggiana 1919,2-1
+27/12/2025,18,Venezia FC,Virtus Entella,1-0
+27/12/2025,18,Palermo FC,Calcio Padova,1-0
+27/12/2025,18,SSC Bari,US Avellino,1-1
+10/01/2026,19,US Avellino,Sampdoria,2-1
+10/01/2026,19,Carrarese Calcio,SSC Bari,1-0
+10/01/2026,19,Virtus Entella,AC Monza,1-0
+10/01/2026,19,Frosinone Calcio,US Catanzaro,2-0
+10/01/2026,19,AC Reggiana 1919,Venezia FC,1-3
+10/01/2026,19,FC Südtirol,Spezia Calcio,2-1
+10/01/2026,19,Juve Stabia,Delfino Pescara,2-2
+10/01/2026,19,Cesena FC,Empoli FC,0-1
+11/01/2026,19,Mantova 1911,Palermo FC,1-1
+11/01/2026,19,Calcio Padova,Modena FC,2-0
+16/01/2026,20,Sampdoria,Virtus Entella,1-1
+17/01/2026,20,US Avellino,Carrarese Calcio,1-2
+17/01/2026,20,Empoli FC,FC Südtirol,0-1
+17/01/2026,20,AC Monza,Frosinone Calcio,2-2
+17/01/2026,20,Calcio Padova,Mantova 1911,1-2
+17/01/2026,20,Venezia FC,US Catanzaro,3-1
+17/01/2026,20,AC Reggiana 1919,Cesena FC,1-2
+17/01/2026,20,SSC Bari,Juve Stabia,0-1
+18/01/2026,20,Delfino Pescara,Modena FC,0-2
+18/01/2026,20,Palermo FC,Spezia Calcio,1-0
+23/01/2026,21,Carrarese Calcio,Empoli FC,3-0
+24/01/2026,21,Cesena FC,SSC Bari,1-2
+24/01/2026,21,Frosinone Calcio,AC Reggiana 1919,1-0
+24/01/2026,21,Juve Stabia,Virtus Entella,1-0
+24/01/2026,21,Mantova 1911,Venezia FC,2-5
+24/01/2026,21,AC Monza,Delfino Pescara,3-0
+24/01/2026,21,Modena FC,Palermo FC,0-0
+24/01/2026,21,Spezia Calcio,US Avellino,1-0
+25/01/2026,21,FC Südtirol,Calcio Padova,3-0
+25/01/2026,21,US Catanzaro,Sampdoria,0-0
+30/01/2026,22,SSC Bari,Palermo FC,0-3
+31/01/2026,22,US Avellino,Cesena FC,3-1
+31/01/2026,22,Empoli FC,Modena FC,0-0
+31/01/2026,22,Virtus Entella,Frosinone Calcio,1-1
+31/01/2026,22,FC Südtirol,US Catanzaro,2-1
+31/01/2026,22,Venezia FC,Carrarese Calcio,2-1
+31/01/2026,22,Delfino Pescara,Mantova 1911,2-2
+31/01/2026,22,Sampdoria,Spezia Calcio,1-0
+01/02/2026,22,AC Reggiana 1919,Juve Stabia,1-1
+01/02/2026,22,Calcio Padova,AC Monza,1-2
+06/02/2026,23,Cesena FC,Delfino Pescara,2-0
+07/02/2026,23,Carrarese Calcio,FC Südtirol,0-0
+07/02/2026,23,US Catanzaro,AC Reggiana 1919,2-0
+07/02/2026,23,Frosinone Calcio,Venezia FC,1-2
+07/02/2026,23,Juve Stabia,Calcio Padova,3-3
+07/02/2026,23,Mantova 1911,SSC Bari,2-1
+07/02/2026,23,Modena FC,Sampdoria,1-2
+07/02/2026,23,Palermo FC,Empoli FC,3-2
+07/02/2026,23,Spezia Calcio,Virtus Entella,1-1
+08/02/2026,23,AC Monza,US Avellino,2-1
+10/02/2026,24,Sampdoria,Palermo FC,3-3
+10/02/2026,24,Virtus Entella,Cesena FC,3-1
+10/02/2026,24,Calcio Padova,Carrarese Calcio,1-0
+10/02/2026,24,Delfino Pescara,US Catanzaro,0-2
+10/02/2026,24,AC Reggiana 1919,Mantova 1911,1-0
+10/02/2026,24,Venezia FC,Modena FC,0-2
+11/02/2026,24,FC Südtirol,AC Monza,0-0
+11/02/2026,24,US Avellino,Frosinone Calcio,1-3
+11/02/2026,24,SSC Bari,Spezia Calcio,0-0
+11/02/2026,24,Empoli FC,Juve Stabia,1-2
+14/02/2026,25,Modena FC,Carrarese Calcio,2-0
+14/02/2026,25,Palermo FC,Virtus Entella,3-0
+14/02/2026,25,Sampdoria,Calcio Padova,1-0
+14/02/2026,25,US Catanzaro,Mantova 1911,2-0
+14/02/2026,25,Cesena FC,Venezia FC,0-4
+15/02/2026,25,SSC Bari,FC Südtirol,1-2
+15/02/2026,25,AC Monza,Juve Stabia,2-1
+15/02/2026,25,Spezia Calcio,Frosinone Calcio,0-2
+15/02/2026,25,Empoli FC,AC Reggiana 1919,1-1
+15/02/2026,25,US Avellino,Delfino Pescara,0-1
+20/02/2026,26,Frosinone Calcio,Empoli FC,2-2
+21/02/2026,26,Virtus Entella,US Catanzaro,1-3
+21/02/2026,26,Mantova 1911,Sampdoria,2-1
+21/02/2026,26,Calcio Padova,SSC Bari,1-1
+21/02/2026,26,Palermo FC,FC Südtirol,3-0
+21/02/2026,26,Venezia FC,Delfino Pescara,3-2
+21/02/2026,26,Cesena FC,Spezia Calcio,2-3
+21/02/2026,26,Carrarese Calcio,AC Monza,0-1
+22/02/2026,26,Juve Stabia,Modena FC,1-2
+22/02/2026,26,AC Reggiana 1919,US Avellino,1-1
+27/02/2026,27,AC Monza,Virtus Entella,2-0
+27/02/2026,27,Sampdoria,SSC Bari,0-2
+28/02/2026,27,Empoli FC,Cesena FC,1-1
+28/02/2026,27,Modena FC,Calcio Padova,1-2
+28/02/2026,27,FC Südtirol,Venezia FC,1-1
+28/02/2026,27,Spezia Calcio,AC Reggiana 1919,0-1
+28/02/2026,27,US Avellino,Juve Stabia,0-0
+01/03/2026,27,US Catanzaro,Frosinone Calcio,2-2
+01/03/2026,27,Delfino Pescara,Palermo FC,2-1
+01/03/2026,27,Mantova 1911,Carrarese Calcio,1-1
+03/03/2026,28,Calcio Padova,Spezia Calcio,2-2
+03/03/2026,28,Cesena FC,AC Monza,1-3
+03/03/2026,28,Virtus Entella,Modena FC,2-1
+03/03/2026,28,AC Reggiana 1919,FC Südtirol,0-4
+03/03/2026,28,Venezia FC,US Avellino,4-0
+04/03/2026,28,Carrarese Calcio,US Catanzaro,3-3
+04/03/2026,28,SSC Bari,Empoli FC,2-1
+04/03/2026,28,Frosinone Calcio,Delfino Pescara,2-2
+04/03/2026,28,Juve Stabia,Sampdoria,1-1
+04/03/2026,28,Palermo FC,Mantova 1911,2-1
+07/03/2026,29,US Avellino,Calcio Padova,1-0
+07/03/2026,29,Spezia Calcio,AC Monza,4-2
+07/03/2026,29,FC Südtirol,Virtus Entella,0-1
+07/03/2026,29,Venezia FC,AC Reggiana 1919,2-0
+07/03/2026,29,Modena FC,Cesena FC,0-0
+08/03/2026,29,US Catanzaro,Empoli FC,3-2
+08/03/2026,29,Frosinone Calcio,Sampdoria,3-0
+08/03/2026,29,Mantova 1911,Juve Stabia,2-0
+08/03/2026,29,Carrarese Calcio,Palermo FC,0-1
+08/03/2026,29,Delfino Pescara,SSC Bari,4-0
+13/03/2026,30,Modena FC,Spezia Calcio,3-0
+14/03/2026,30,SSC Bari,AC Reggiana 1919,4-1
+14/03/2026,30,Cesena FC,Frosinone Calcio,2-2
+14/03/2026,30,Empoli FC,Mantova 1911,2-2
+14/03/2026,30,Juve Stabia,Carrarese Calcio,1-1
+14/03/2026,30,Calcio Padova,US Catanzaro,1-3
+14/03/2026,30,AC Monza,Palermo FC,3-0
+14/03/2026,30,Sampdoria,Venezia FC,0-0
+15/03/2026,30,Virtus Entella,US Avellino,1-2
+15/03/2026,30,FC Südtirol,Delfino Pescara,0-0
+17/03/2026,31,Palermo FC,Juve Stabia,2-2
+17/03/2026,31,Mantova 1911,Cesena FC,3-0
+17/03/2026,31,AC Reggiana 1919,AC Monza,0-0
+17/03/2026,31,Spezia Calcio,Empoli FC,1-1
+17/03/2026,31,Venezia FC,Calcio Padova,3-1
+18/03/2026,31,Frosinone Calcio,SSC Bari,2-1
+18/03/2026,31,US Avellino,FC Südtirol,3-2
+18/03/2026,31,Carrarese Calcio,Sampdoria,2-0
+18/03/2026,31,Delfino Pescara,Virtus Entella,3-0
+14/04/2026,31,US Catanzaro,Modena FC,
+21/03/2026,32,Cesena FC,US Catanzaro,3-1
+21/03/2026,32,Juve Stabia,Spezia Calcio,3-1
+21/03/2026,32,Calcio Padova,Palermo FC,0-1
+21/03/2026,32,AC Monza,Venezia FC,1-1
+21/03/2026,32,Modena FC,Mantova 1911,2-1
+22/03/2026,32,SSC Bari,Carrarese Calcio,0-3
+22/03/2026,32,Empoli FC,Delfino Pescara,4-2
+22/03/2026,32,FC Südtirol,Frosinone Calcio,1-3
+22/03/2026,32,Sampdoria,US Avellino,2-1
+22/03/2026,32,Virtus Entella,AC Reggiana 1919,3-0
+05/04/2026,33,Frosinone Calcio,Calcio Padova,
+05/04/2026,33,Palermo FC,US Avellino,
+06/04/2026,33,Cesena FC,FC Südtirol,
+06/04/2026,33,SSC Bari,Modena FC,
+06/04/2026,33,US Catanzaro,AC Monza,
+06/04/2026,33,Mantova 1911,Virtus Entella,
+06/04/2026,33,AC Reggiana 1919,Delfino Pescara,
+06/04/2026,33,Venezia FC,Juve Stabia,
+06/04/2026,33,Sampdoria,Empoli FC,
+06/04/2026,33,Carrarese Calcio,Spezia Calcio,
+10/04/2026,34,Frosinone Calcio,Palermo FC,
+11/04/2026,34,Virtus Entella,Venezia FC,
+11/04/2026,34,Juve Stabia,Cesena FC,
+11/04/2026,34,Delfino Pescara,Sampdoria,
+11/04/2026,34,FC Südtirol,Modena FC,
+11/04/2026,34,US Avellino,US Catanzaro,
+11/04/2026,34,AC Monza,SSC Bari,
+12/04/2026,34,Calcio Padova,Empoli FC,
+12/04/2026,34,Spezia Calcio,Mantova 1911,
+12/04/2026,34,AC Reggiana 1919,Carrarese Calcio,
+17/04/2026,35,Sampdoria,AC Monza,
+18/04/2026,35,SSC Bari,Venezia FC,
+18/04/2026,35,Mantova 1911,US Avellino,
+18/04/2026,35,Modena FC,Frosinone Calcio,
+18/04/2026,35,Spezia Calcio,FC Südtirol,
+18/04/2026,35,Palermo FC,Cesena FC,
+18/04/2026,35,Juve Stabia,US Catanzaro,
+19/04/2026,35,Carrarese Calcio,Delfino Pescara,
+19/04/2026,35,Calcio Padova,AC Reggiana 1919,
+19/04/2026,35,Empoli FC,Virtus Entella,
+24/04/2026,36,AC Monza,Modena FC,
+24/04/2026,36,US Avellino,SSC Bari,
+25/04/2026,36,US Catanzaro,Spezia Calcio,
+25/04/2026,36,Virtus Entella,Calcio Padova,
+25/04/2026,36,Frosinone Calcio,Carrarese Calcio,
+25/04/2026,36,Delfino Pescara,Juve Stabia,
+25/04/2026,36,AC Reggiana 1919,Palermo FC,
+25/04/2026,36,FC Südtirol,Mantova 1911,
+25/04/2026,36,Venezia FC,Empoli FC,
+25/04/2026,36,Cesena FC,Sampdoria,
+01/05/2026,37,SSC Bari,Virtus Entella,
+01/05/2026,37,Carrarese Calcio,Cesena FC,
+01/05/2026,37,Empoli FC,US Avellino,
+01/05/2026,37,Juve Stabia,Frosinone Calcio,
+01/05/2026,37,Mantova 1911,AC Monza,
+01/05/2026,37,Modena FC,AC Reggiana 1919,
+01/05/2026,37,Calcio Padova,Delfino Pescara,
+01/05/2026,37,Palermo FC,US Catanzaro,
+01/05/2026,37,Sampdoria,FC Südtirol,
+01/05/2026,37,Spezia Calcio,Venezia FC,
+08/05/2026,38,US Avellino,Modena FC,
+08/05/2026,38,US Catanzaro,SSC Bari,
+08/05/2026,38,Cesena FC,Calcio Padova,
+08/05/2026,38,Virtus Entella,Carrarese Calcio,
+08/05/2026,38,Frosinone Calcio,Mantova 1911,
+08/05/2026,38,AC Monza,Empoli FC,
+08/05/2026,38,Delfino Pescara,Spezia Calcio,
+08/05/2026,38,AC Reggiana 1919,Sampdoria,
+08/05/2026,38,FC Südtirol,Juve Stabia,
+08/05/2026,38,Venezia FC,Palermo FC,

@@ -1,0 +1,381 @@
+﻿Fecha,Jornada,Equipo Local,Equipo Visitante,Resultado
+15/04/2023,1,Guarani - SP,Avaí - SC,4-1
+15/04/2023,1,Ituano - SP,Ceará - CE,2-0
+15/04/2023,1,Vila Nova - GO,Grêmio Novorizontino - SP,2-1
+15/04/2023,1,Mirassol - SP,Chapecoense,1-0
+15/04/2023,1,Sampaio Corrêa - MA,Atlético Goianiense,3-3
+15/04/2023,1,Juventude - RS,Botafogo - SP,1-2
+16/04/2023,1,Criciúma - SC,Tombense - MG,2-0
+16/04/2023,1,Londrina - PR,ABC - RN,1-0
+16/04/2023,1,Vitória - BA,Ponte Preta,3-0
+06/07/2023,1,CR Brasil - AL,Sport Recife - PE,2-0
+21/04/2023,2,Atlético Goianiense,CR Brasil - AL,2-1
+22/04/2023,2,Botafogo - SP,Sampaio Corrêa - MA,1-0
+22/04/2023,2,Ponte Preta,Criciúma - SC,1-2
+22/04/2023,2,Tombense - MG,Ituano - SP,3-0
+22/04/2023,2,Avaí - SC,Mirassol - SP,1-0
+22/04/2023,2,Grêmio Novorizontino - SP,Juventude - RS,1-0
+22/04/2023,2,Ceará - CE,Guarani - SP,0-3
+23/04/2023,2,Chapecoense,Londrina - PR,3-0
+23/04/2023,2,ABC - RN,Vitória - BA,0-3
+18/06/2023,2,Sport Recife - PE,Vila Nova - GO,1-0
+29/04/2023,3,Criciúma - SC,Avaí - SC,1-0
+29/04/2023,3,Vitória - BA,Londrina - PR,2-0
+29/04/2023,3,Guarani - SP,Ituano - SP,1-0
+29/04/2023,3,Sampaio Corrêa - MA,Mirassol - SP,1-3
+29/04/2023,3,Botafogo - SP,CR Brasil - AL,2-0
+29/04/2023,3,Chapecoense,Ponte Preta,1-1
+29/04/2023,3,Tombense - MG,Atlético Goianiense,1-1
+30/04/2023,3,Grêmio Novorizontino - SP,Sport Recife - PE,0-0
+30/04/2023,3,ABC - RN,Ceará - CE,1-2
+30/04/2023,3,Vila Nova - GO,Juventude - RS,1-0
+01/05/2023,4,Londrina - PR,Criciúma - SC,1-1
+03/05/2023,4,CR Brasil - AL,Sampaio Corrêa - MA,0-0
+03/05/2023,4,Ponte Preta,Botafogo - SP,2-0
+03/05/2023,4,Atlético Goianiense,Chapecoense,2-1
+04/05/2023,4,Ituano - SP,ABC - RN,3-0
+04/05/2023,4,Juventude - RS,Guarani - SP,1-0
+04/05/2023,4,Mirassol - SP,Grêmio Novorizontino - SP,0-2
+04/05/2023,4,Avaí - SC,Vila Nova - GO,0-3
+11/05/2023,4,Ceará - CE,Vitória - BA,0-2
+11/05/2023,4,Sport Recife - PE,Tombense - MG,3-2
+06/05/2023,5,Botafogo - SP,Vitória - BA,0-3
+06/05/2023,5,Criciúma - SC,Ituano - SP,2-1
+06/05/2023,5,Mirassol - SP,Vila Nova - GO,1-1
+06/05/2023,5,Sampaio Corrêa - MA,Juventude - RS,2-1
+06/05/2023,5,Tombense - MG,Avaí - SC,0-1
+07/05/2023,5,Chapecoense,Grêmio Novorizontino - SP,1-1
+07/05/2023,5,CR Brasil - AL,ABC - RN,1-1
+07/05/2023,5,Ponte Preta,Ceará - CE,0-0
+08/05/2023,5,Sport Recife - PE,Guarani - SP,2-0
+09/05/2023,5,Atlético Goianiense,Londrina - PR,2-1
+13/05/2023,6,Vila Nova - GO,Criciúma - SC,0-0
+13/05/2023,6,Avaí - SC,Chapecoense,1-4
+13/05/2023,6,Juventude - RS,Mirassol - SP,0-1
+13/05/2023,6,Guarani - SP,Sampaio Corrêa - MA,2-0
+13/05/2023,6,Grêmio Novorizontino - SP,CR Brasil - AL,0-1
+13/05/2023,6,Ceará - CE,Tombense - MG,2-0
+14/05/2023,6,Londrina - PR,Ponte Preta,3-0
+14/05/2023,6,ABC - RN,Botafogo - SP,1-2
+14/05/2023,6,Vitória - BA,Atlético Goianiense,2-3
+15/05/2023,6,Ituano - SP,Sport Recife - PE,1-1
+20/05/2023,7,Mirassol - SP,Vitória - BA,2-0
+20/05/2023,7,Tombense - MG,Londrina - PR,0-2
+20/05/2023,7,Atlético Goianiense,Avaí - SC,0-0
+20/05/2023,7,Sport Recife - PE,Botafogo - SP,3-0
+20/05/2023,7,Ituano - SP,Grêmio Novorizontino - SP,0-2
+20/05/2023,7,Sampaio Corrêa - MA,ABC - RN,1-0
+21/05/2023,7,Chapecoense,Juventude - RS,0-2
+21/05/2023,7,Criciúma - SC,Ceará - CE,1-2
+21/05/2023,7,Ponte Preta,Guarani - SP,1-1
+21/05/2023,7,CR Brasil - AL,Vila Nova - GO,0-3
+24/05/2023,8,Botafogo - SP,Mirassol - SP,1-0
+24/05/2023,8,ABC - RN,Tombense - MG,1-0
+24/05/2023,8,Grêmio Novorizontino - SP,Avaí - SC,2-0
+25/05/2023,8,Juventude - RS,Atlético Goianiense,3-0
+25/05/2023,8,Londrina - PR,Ceará - CE,1-3
+25/05/2023,8,Vila Nova - GO,Ituano - SP,1-0
+25/05/2023,8,Vitória - BA,CR Brasil - AL,1-0
+25/05/2023,8,Guarani - SP,Chapecoense,3-3
+25/05/2023,8,Criciúma - SC,Sport Recife - PE,1-0
+25/05/2023,8,Sampaio Corrêa - MA,Ponte Preta,0-0
+27/05/2023,9,CR Brasil - AL,Juventude - RS,1-2
+27/05/2023,9,Ituano - SP,Londrina - PR,3-1
+27/05/2023,9,Avaí - SC,Vitória - BA,1-1
+27/05/2023,9,Atlético Goianiense,Botafogo - SP,1-1
+28/05/2023,9,Ponte Preta,Vila Nova - GO,1-0
+28/05/2023,9,Ceará - CE,Grêmio Novorizontino - SP,0-3
+28/05/2023,9,Mirassol - SP,Criciúma - SC,1-0
+28/05/2023,9,Sport Recife - PE,ABC - RN,4-1
+28/05/2023,9,Tombense - MG,Guarani - SP,1-1
+30/05/2023,9,Chapecoense,Sampaio Corrêa - MA,0-1
+03/06/2023,10,Botafogo - SP,Tombense - MG,0-0
+03/06/2023,10,Ceará - CE,Chapecoense,2-0
+03/06/2023,10,Criciúma - SC,Atlético Goianiense,3-0
+03/06/2023,10,Vitória - BA,Ituano - SP,3-0
+03/06/2023,10,Juventude - RS,Avaí - SC,3-2
+03/06/2023,10,ABC - RN,Grêmio Novorizontino - SP,0-1
+03/06/2023,10,Mirassol - SP,Ponte Preta,1-0
+04/06/2023,10,Vila Nova - GO,Sampaio Corrêa - MA,3-0
+04/06/2023,10,Guarani - SP,CR Brasil - AL,0-1
+04/06/2023,10,Londrina - PR,Sport Recife - PE,1-2
+07/06/2023,11,Chapecoense,Vila Nova - GO,0-1
+07/06/2023,11,Ponte Preta,ABC - RN,0-0
+07/06/2023,11,Tombense - MG,Vitória - BA,1-2
+07/06/2023,11,Atlético Goianiense,Ceará - CE,0-3
+07/06/2023,11,Botafogo - SP,Ituano - SP,0-2
+08/06/2023,11,Grêmio Novorizontino - SP,Guarani - SP,1-0
+08/06/2023,11,Sampaio Corrêa - MA,Londrina - PR,2-0
+08/06/2023,11,Sport Recife - PE,Avaí - SC,2-1
+08/06/2023,11,CR Brasil - AL,Mirassol - SP,2-0
+08/06/2023,11,Criciúma - SC,Juventude - RS,0-1
+10/06/2023,12,ABC - RN,Chapecoense,1-1
+10/06/2023,12,Vila Nova - GO,Guarani - SP,0-0
+10/06/2023,12,Ituano - SP,Atlético Goianiense,1-1
+10/06/2023,12,Grêmio Novorizontino - SP,Sampaio Corrêa - MA,1-0
+11/06/2023,12,Ceará - CE,CR Brasil - AL,1-3
+11/06/2023,12,Londrina - PR,Mirassol - SP,1-2
+11/06/2023,12,Ponte Preta,Sport Recife - PE,1-1
+11/06/2023,12,Avaí - SC,Botafogo - SP,1-1
+11/06/2023,12,Vitória - BA,Criciúma - SC,0-1
+11/06/2023,12,Juventude - RS,Tombense - MG,1-2
+22/06/2023,13,CR Brasil - AL,Ituano - SP,2-2
+23/06/2023,13,Sport Recife - PE,Juventude - RS,3-0
+24/06/2023,13,Atlético Goianiense,Ponte Preta,1-0
+24/06/2023,13,Botafogo - SP,Vila Nova - GO,0-3
+24/06/2023,13,Avaí - SC,Londrina - PR,0-0
+24/06/2023,13,Chapecoense,Criciúma - SC,1-1
+24/06/2023,13,Tombense - MG,Grêmio Novorizontino - SP,1-2
+25/06/2023,13,Mirassol - SP,ABC - RN,3-2
+25/06/2023,13,Sampaio Corrêa - MA,Ceará - CE,1-1
+25/06/2023,13,Guarani - SP,Vitória - BA,2-0
+28/06/2023,14,Chapecoense,Sport Recife - PE,1-1
+28/06/2023,14,Criciúma - SC,CR Brasil - AL,2-1
+28/06/2023,14,Grêmio Novorizontino - SP,Botafogo - SP,0-1
+28/06/2023,14,Vila Nova - GO,Tombense - MG,1-0
+29/06/2023,14,ABC - RN,Atlético Goianiense,1-1
+29/06/2023,14,Ceará - CE,Avaí - SC,0-0
+29/06/2023,14,Guarani - SP,Mirassol - SP,2-1
+29/06/2023,14,Ituano - SP,Ponte Preta,0-1
+29/06/2023,14,Londrina - PR,Juventude - RS,1-2
+29/06/2023,14,Vitória - BA,Sampaio Corrêa - MA,2-1
+01/07/2023,15,Tombense - MG,Chapecoense,4-2
+01/07/2023,15,Atlético Goianiense,Vila Nova - GO,1-1
+01/07/2023,15,Avaí - SC,ABC - RN,0-2
+01/07/2023,15,Sampaio Corrêa - MA,Criciúma - SC,0-2
+01/07/2023,15,CR Brasil - AL,Londrina - PR,2-1
+02/07/2023,15,Juventude - RS,Vitória - BA,1-0
+02/07/2023,15,Sport Recife - PE,Ceará - CE,2-0
+03/07/2023,15,Ponte Preta,Grêmio Novorizontino - SP,1-0
+03/07/2023,15,Mirassol - SP,Ituano - SP,0-1
+04/07/2023,15,Botafogo - SP,Guarani - SP,1-0
+08/07/2023,16,Grêmio Novorizontino - SP,Atlético Goianiense,2-2
+08/07/2023,16,Ceará - CE,Botafogo - SP,3-0
+08/07/2023,16,Guarani - SP,Londrina - PR,2-1
+08/07/2023,16,ABC - RN,Criciúma - SC,0-1
+08/07/2023,16,Avaí - SC,Ponte Preta,0-1
+08/07/2023,16,Ituano - SP,Juventude - RS,1-1
+08/07/2023,16,Tombense - MG,Sampaio Corrêa - MA,0-1
+09/07/2023,16,Chapecoense,CR Brasil - AL,2-1
+09/07/2023,16,Sport Recife - PE,Mirassol - SP,0-0
+11/07/2023,16,Vila Nova - GO,Vitória - BA,1-0
+14/07/2023,17,Criciúma - SC,Guarani - SP,1-1
+15/07/2023,17,Atlético Goianiense,Sport Recife - PE,3-1
+15/07/2023,17,Sampaio Corrêa - MA,Ituano - SP,0-0
+15/07/2023,17,Juventude - RS,ABC - RN,1-1
+15/07/2023,17,Londrina - PR,Vila Nova - GO,1-0
+15/07/2023,17,Ponte Preta,Tombense - MG,0-1
+16/07/2023,17,Mirassol - SP,Ceará - CE,1-1
+16/07/2023,17,Vitória - BA,Grêmio Novorizontino - SP,2-1
+24/08/2023,17,CR Brasil - AL,Avaí - SC,1-1
+24/08/2023,17,Botafogo - SP,Chapecoense,1-2
+18/07/2023,18,Botafogo - SP,Criciúma - SC,1-0
+18/07/2023,18,Tombense - MG,CR Brasil - AL,2-1
+19/07/2023,18,Chapecoense,Ituano - SP,1-0
+19/07/2023,18,Ponte Preta,Juventude - RS,0-0
+20/07/2023,18,Atlético Goianiense,Mirassol - SP,2-2
+20/07/2023,18,Grêmio Novorizontino - SP,Londrina - PR,3-0
+20/07/2023,18,ABC - RN,Guarani - SP,0-1
+20/07/2023,18,Avaí - SC,Sampaio Corrêa - MA,2-0
+20/07/2023,18,Ceará - CE,Vila Nova - GO,1-0
+20/07/2023,18,Sport Recife - PE,Vitória - BA,1-2
+22/07/2023,19,CR Brasil - AL,Ponte Preta,1-0
+22/07/2023,19,Mirassol - SP,Tombense - MG,2-0
+22/07/2023,19,Criciúma - SC,Grêmio Novorizontino - SP,0-1
+22/07/2023,19,Vila Nova - GO,ABC - RN,1-1
+22/07/2023,19,Ituano - SP,Avaí - SC,0-1
+23/07/2023,19,Guarani - SP,Atlético Goianiense,1-0
+23/07/2023,19,Juventude - RS,Ceará - CE,1-0
+23/07/2023,19,Sampaio Corrêa - MA,Sport Recife - PE,1-2
+25/07/2023,19,Londrina - PR,Botafogo - SP,1-2
+25/07/2023,19,Vitória - BA,Chapecoense,1-0
+29/07/2023,20,Ceará - CE,Ituano - SP,1-1
+29/07/2023,20,Sport Recife - PE,CR Brasil - AL,2-0
+29/07/2023,20,Chapecoense,Mirassol - SP,0-1
+29/07/2023,20,Botafogo - SP,Juventude - RS,0-2
+29/07/2023,20,ABC - RN,Londrina - PR,0-0
+29/07/2023,20,Avaí - SC,Guarani - SP,1-2
+29/07/2023,20,Atlético Goianiense,Sampaio Corrêa - MA,2-2
+30/07/2023,20,Tombense - MG,Criciúma - SC,2-2
+30/07/2023,20,Grêmio Novorizontino - SP,Vila Nova - GO,3-1
+30/07/2023,20,Ponte Preta,Vitória - BA,2-2
+02/08/2023,21,Mirassol - SP,Avaí - SC,2-2
+02/08/2023,21,Sampaio Corrêa - MA,Botafogo - SP,0-0
+02/08/2023,21,CR Brasil - AL,Atlético Goianiense,2-1
+03/08/2023,21,Criciúma - SC,Ponte Preta,2-1
+03/08/2023,21,Ituano - SP,Tombense - MG,1-0
+03/08/2023,21,Guarani - SP,Ceará - CE,0-0
+03/08/2023,21,Juventude - RS,Grêmio Novorizontino - SP,1-0
+03/08/2023,21,Londrina - PR,Chapecoense,1-1
+03/08/2023,21,Vila Nova - GO,Sport Recife - PE,0-1
+03/08/2023,21,Vitória - BA,ABC - RN,2-0
+05/08/2023,22,Mirassol - SP,Sampaio Corrêa - MA,0-0
+05/08/2023,22,Avaí - SC,Criciúma - SC,1-0
+05/08/2023,22,CR Brasil - AL,Botafogo - SP,0-0
+05/08/2023,22,Ituano - SP,Guarani - SP,1-1
+05/08/2023,22,Sport Recife - PE,Grêmio Novorizontino - SP,1-0
+06/08/2023,22,Ponte Preta,Chapecoense,1-0
+06/08/2023,22,Ceará - CE,ABC - RN,1-0
+07/08/2023,22,Juventude - RS,Vila Nova - GO,0-2
+08/08/2023,22,Atlético Goianiense,Tombense - MG,3-2
+08/08/2023,22,Londrina - PR,Vitória - BA,2-0
+12/08/2023,23,Grêmio Novorizontino - SP,Mirassol - SP,2-1
+12/08/2023,23,Tombense - MG,Sport Recife - PE,0-0
+12/08/2023,23,Criciúma - SC,Londrina - PR,2-0
+12/08/2023,23,Botafogo - SP,Ponte Preta,0-0
+12/08/2023,23,Sampaio Corrêa - MA,CR Brasil - AL,1-1
+12/08/2023,23,Vila Nova - GO,Avaí - SC,1-1
+13/08/2023,23,Chapecoense,Atlético Goianiense,0-1
+13/08/2023,23,Guarani - SP,Juventude - RS,0-1
+13/08/2023,23,Vitória - BA,Ceará - CE,1-0
+15/08/2023,23,ABC - RN,Ituano - SP,1-1
+18/08/2023,24,Londrina - PR,Atlético Goianiense,0-2
+18/08/2023,24,Vila Nova - GO,Mirassol - SP,2-0
+19/08/2023,24,Vitória - BA,Botafogo - SP,2-0
+19/08/2023,24,Guarani - SP,Sport Recife - PE,3-1
+19/08/2023,24,Avaí - SC,Tombense - MG,4-2
+19/08/2023,24,ABC - RN,CR Brasil - AL,1-2
+19/08/2023,24,Ituano - SP,Criciúma - SC,3-0
+19/08/2023,24,Juventude - RS,Sampaio Corrêa - MA,0-0
+20/08/2023,24,Grêmio Novorizontino - SP,Chapecoense,1-2
+20/08/2023,24,Ceará - CE,Ponte Preta,1-1
+23/08/2023,25,Mirassol - SP,Juventude - RS,0-1
+23/08/2023,25,Criciúma - SC,Vila Nova - GO,1-0
+26/08/2023,25,Ponte Preta,Londrina - PR,1-0
+26/08/2023,25,Sport Recife - PE,Ituano - SP,1-2
+26/08/2023,25,Sampaio Corrêa - MA,Guarani - SP,1-1
+26/08/2023,25,Tombense - MG,Ceará - CE,2-2
+26/08/2023,25,CR Brasil - AL,Grêmio Novorizontino - SP,1-0
+27/08/2023,25,Chapecoense,Avaí - SC,0-0
+27/08/2023,25,Atlético Goianiense,Vitória - BA,0-0
+29/08/2023,25,Botafogo - SP,ABC - RN,0-0
+31/08/2023,26,Grêmio Novorizontino - SP,Ituano - SP,2-0
+01/09/2023,26,Juventude - RS,Chapecoense,0-0
+02/09/2023,26,Vitória - BA,Mirassol - SP,0-0
+02/09/2023,26,Londrina - PR,Tombense - MG,1-1
+02/09/2023,26,Avaí - SC,Atlético Goianiense,0-2
+02/09/2023,26,ABC - RN,Sampaio Corrêa - MA,1-1
+02/09/2023,26,Ceará - CE,Criciúma - SC,1-0
+02/09/2023,26,Guarani - SP,Ponte Preta,1-0
+03/09/2023,26,Vila Nova - GO,CR Brasil - AL,0-1
+03/09/2023,26,Botafogo - SP,Sport Recife - PE,1-1
+06/09/2023,27,Chapecoense,Guarani - SP,0-1
+07/09/2023,27,Ceará - CE,Londrina - PR,3-1
+07/09/2023,27,Tombense - MG,ABC - RN,3-0
+08/09/2023,27,Ituano - SP,Vila Nova - GO,1-2
+09/09/2023,27,Ponte Preta,Sampaio Corrêa - MA,0-0
+10/09/2023,27,Mirassol - SP,Botafogo - SP,1-0
+10/09/2023,27,Sport Recife - PE,Criciúma - SC,3-3
+10/09/2023,27,Atlético Goianiense,Juventude - RS,3-0
+10/09/2023,27,CR Brasil - AL,Vitória - BA,6-0
+12/09/2023,27,Avaí - SC,Grêmio Novorizontino - SP,1-0
+14/09/2023,28,Londrina - PR,Ituano - SP,2-2
+16/09/2023,28,Vila Nova - GO,Ponte Preta,1-1
+16/09/2023,28,ABC - RN,Sport Recife - PE,0-1
+16/09/2023,28,Criciúma - SC,Mirassol - SP,2-1
+16/09/2023,28,Botafogo - SP,Atlético Goianiense,1-0
+16/09/2023,28,Sampaio Corrêa - MA,Chapecoense,2-0
+16/09/2023,28,Juventude - RS,CR Brasil - AL,3-1
+17/09/2023,28,Guarani - SP,Tombense - MG,3-0
+17/09/2023,28,Vitória - BA,Avaí - SC,3-0
+19/09/2023,28,Grêmio Novorizontino - SP,Ceará - CE,4-1
+20/09/2023,29,Sampaio Corrêa - MA,Vila Nova - GO,2-1
+23/09/2023,29,Ponte Preta,Mirassol - SP,0-3
+23/09/2023,29,Atlético Goianiense,Criciúma - SC,3-1
+23/09/2023,29,Ituano - SP,Vitória - BA,0-2
+23/09/2023,29,Chapecoense,Ceará - CE,1-1
+23/09/2023,29,CR Brasil - AL,Guarani - SP,1-0
+23/09/2023,29,Tombense - MG,Botafogo - SP,0-0
+24/09/2023,29,Sport Recife - PE,Londrina - PR,4-0
+25/09/2023,29,Avaí - SC,Juventude - RS,0-2
+26/09/2023,29,Grêmio Novorizontino - SP,ABC - RN,2-1
+29/09/2023,30,Mirassol - SP,CR Brasil - AL,1-0
+29/09/2023,30,Londrina - PR,Sampaio Corrêa - MA,1-0
+30/09/2023,30,Avaí - SC,Sport Recife - PE,2-2
+30/09/2023,30,Vitória - BA,Tombense - MG,1-0
+30/09/2023,30,Juventude - RS,Criciúma - SC,1-0
+30/09/2023,30,Guarani - SP,Grêmio Novorizontino - SP,2-1
+30/09/2023,30,Ituano - SP,Botafogo - SP,1-1
+30/09/2023,30,ABC - RN,Ponte Preta,2-0
+01/10/2023,30,Vila Nova - GO,Chapecoense,0-0
+01/10/2023,30,Ceará - CE,Atlético Goianiense,0-1
+04/10/2023,31,Mirassol - SP,Londrina - PR,2-0
+06/10/2023,31,Chapecoense,ABC - RN,0-0
+07/10/2023,31,Atlético Goianiense,Ituano - SP,1-0
+07/10/2023,31,CR Brasil - AL,Ceará - CE,2-0
+07/10/2023,31,Tombense - MG,Juventude - RS,1-1
+07/10/2023,31,Botafogo - SP,Avaí - SC,0-1
+07/10/2023,31,Sampaio Corrêa - MA,Grêmio Novorizontino - SP,1-1
+07/10/2023,31,Guarani - SP,Vila Nova - GO,1-1
+08/10/2023,31,Criciúma - SC,Vitória - BA,1-0
+10/10/2023,31,Sport Recife - PE,Ponte Preta,3-3
+11/10/2023,32,ABC - RN,Mirassol - SP,1-2
+12/10/2023,32,Vila Nova - GO,Botafogo - SP,3-1
+14/10/2023,32,Criciúma - SC,Chapecoense,1-2
+14/10/2023,32,Ituano - SP,CR Brasil - AL,0-0
+14/10/2023,32,Grêmio Novorizontino - SP,Tombense - MG,0-0
+14/10/2023,32,Ceará - CE,Sampaio Corrêa - MA,0-0
+15/10/2023,32,Ponte Preta,Atlético Goianiense,0-2
+15/10/2023,32,Vitória - BA,Guarani - SP,2-0
+15/10/2023,32,Londrina - PR,Avaí - SC,1-1
+17/10/2023,32,Juventude - RS,Sport Recife - PE,2-2
+20/10/2023,33,Atlético Goianiense,ABC - RN,3-1
+20/10/2023,33,Tombense - MG,Vila Nova - GO,2-1
+21/10/2023,33,Sampaio Corrêa - MA,Vitória - BA,0-1
+21/10/2023,33,Mirassol - SP,Guarani - SP,0-0
+21/10/2023,33,Botafogo - SP,Grêmio Novorizontino - SP,2-0
+21/10/2023,33,CR Brasil - AL,Criciúma - SC,0-1
+21/10/2023,33,Juventude - RS,Londrina - PR,2-2
+22/10/2023,33,Avaí - SC,Ceará - CE,1-0
+22/10/2023,33,Sport Recife - PE,Chapecoense,2-1
+24/10/2023,33,Ponte Preta,Ituano - SP,0-0
+27/10/2023,34,ABC - RN,Avaí - SC,1-1
+28/10/2023,34,Ceará - CE,Sport Recife - PE,2-1
+28/10/2023,34,Guarani - SP,Botafogo - SP,0-1
+28/10/2023,34,Grêmio Novorizontino - SP,Ponte Preta,2-0
+28/10/2023,34,Criciúma - SC,Sampaio Corrêa - MA,3-0
+28/10/2023,34,Ituano - SP,Mirassol - SP,0-0
+29/10/2023,34,Vila Nova - GO,Atlético Goianiense,2-1
+29/10/2023,34,Londrina - PR,CR Brasil - AL,1-1
+29/10/2023,34,Vitória - BA,Juventude - RS,0-0
+31/10/2023,34,Chapecoense,Tombense - MG,1-2
+02/11/2023,35,Atlético Goianiense,Grêmio Novorizontino - SP,2-2
+03/11/2023,35,Mirassol - SP,Sport Recife - PE,2-1
+04/11/2023,35,Juventude - RS,Ituano - SP,2-1
+04/11/2023,35,Londrina - PR,Guarani - SP,0-0
+04/11/2023,35,Botafogo - SP,Ceará - CE,2-2
+04/11/2023,35,Ponte Preta,Avaí - SC,0-1
+04/11/2023,35,Sampaio Corrêa - MA,Tombense - MG,1-2
+05/11/2023,35,Vitória - BA,Vila Nova - GO,1-1
+07/11/2023,35,CR Brasil - AL,Chapecoense,3-2
+08/11/2023,35,Criciúma - SC,ABC - RN,1-0
+10/11/2023,36,Vila Nova - GO,Londrina - PR,4-1
+11/11/2023,36,Sport Recife - PE,Atlético Goianiense,0-0
+11/11/2023,36,Ituano - SP,Sampaio Corrêa - MA,2-1
+11/11/2023,36,Avaí - SC,CR Brasil - AL,1-1
+11/11/2023,36,Chapecoense,Botafogo - SP,2-0
+11/11/2023,36,Tombense - MG,Ponte Preta,0-1
+12/11/2023,36,Ceará - CE,Mirassol - SP,2-0
+12/11/2023,36,Grêmio Novorizontino - SP,Vitória - BA,1-2
+14/11/2023,36,Guarani - SP,Criciúma - SC,1-1
+15/11/2023,36,ABC - RN,Juventude - RS,0-0
+17/11/2023,37,Ituano - SP,Chapecoense,0-0
+18/11/2023,37,Londrina - PR,Grêmio Novorizontino - SP,0-1
+18/11/2023,37,Criciúma - SC,Botafogo - SP,3-0
+18/11/2023,37,Juventude - RS,Ponte Preta,0-0
+18/11/2023,37,Mirassol - SP,Atlético Goianiense,4-1
+18/11/2023,37,Vila Nova - GO,Ceará - CE,3-1
+18/11/2023,37,Vitória - BA,Sport Recife - PE,1-0
+19/11/2023,37,Guarani - SP,ABC - RN,2-3
+19/11/2023,37,CR Brasil - AL,Tombense - MG,2-0
+21/11/2023,37,Sampaio Corrêa - MA,Avaí - SC,4-0
+25/11/2023,38,ABC - RN,Vila Nova - GO,3-2
+25/11/2023,38,Atlético Goianiense,Guarani - SP,3-0
+25/11/2023,38,Avaí - SC,Ituano - SP,0-0
+25/11/2023,38,Botafogo - SP,Londrina - PR,0-1
+25/11/2023,38,Ceará - CE,Juventude - RS,1-3
+25/11/2023,38,Chapecoense,Vitória - BA,3-1
+25/11/2023,38,Grêmio Novorizontino - SP,Criciúma - SC,2-0
+25/11/2023,38,Ponte Preta,CR Brasil - AL,3-0
+25/11/2023,38,Sport Recife - PE,Sampaio Corrêa - MA,4-1
+25/11/2023,38,Tombense - MG,Mirassol - SP,0-1

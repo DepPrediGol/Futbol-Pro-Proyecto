@@ -1,0 +1,473 @@
+﻿Fecha,Jornada,Equipo Local,Equipo Visitante,Resultado
+17/04/2021,1,Houston Dynamo,San Jose Earthquakes,2-1
+17/04/2021,1,Seattle Sounders,Minnesota United FC,4-0
+17/04/2021,1,CF Montréal,Toronto FC,4-2
+17/04/2021,1,Orlando City,Atlanta United FC,0-0
+18/04/2021,1,Los Angeles FC,Austin FC,2-0
+18/04/2021,1,FC Dallas,Colorado Rapids,0-0
+18/04/2021,1,D.C. United,New York City FC,2-1
+18/04/2021,1,New York RB,Sporting Kansas City,1-2
+18/04/2021,1,Nashville SC,FC Cincinnati,2-2
+18/04/2021,1,Chicago Fire,New England Revolution,2-2
+18/04/2021,1,Inter Miami CF,Los Angeles Galaxy,2-3
+18/04/2021,1,Columbus Crew,Philadelphia Union,0-0
+19/04/2021,1,Vancouver Whitecaps,Portland Timbers,1-0
+24/04/2021,1,Sporting Kansas City,Orlando City,1-1
+24/04/2021,1,New York City FC,FC Cincinnati,5-0
+24/04/2021,1,Nashville SC,CF Montréal,2-2
+24/04/2021,1,Toronto FC,Vancouver Whitecaps,2-2
+24/04/2021,1,San Jose Earthquakes,FC Dallas,3-1
+25/04/2021,1,Los Angeles FC,Seattle Sounders,1-1
+25/04/2021,1,Atlanta United FC,Chicago Fire,3-1
+25/04/2021,1,Minnesota United FC,Real Salt Lake,1-2
+25/04/2021,1,New England Revolution,D.C. United,1-0
+25/04/2021,1,Philadelphia Union,Inter Miami CF,1-2
+25/04/2021,1,Colorado Rapids,Austin FC,1-3
+25/04/2021,1,Portland Timbers,Houston Dynamo,2-1
+25/04/2021,1,Los Angeles Galaxy,New York RB,3-2
+01/05/2021,2,New York RB,Chicago Fire,2-0
+01/05/2021,2,Real Salt Lake,Sporting Kansas City,3-1
+01/05/2021,2,CF Montréal,Columbus Crew,0-0
+01/05/2021,2,Houston Dynamo,Los Angeles FC,1-1
+02/05/2021,2,New England Revolution,Atlanta United FC,2-1
+02/05/2021,2,Orlando City,FC Cincinnati,3-0
+02/05/2021,2,Philadelphia Union,New York City FC,0-2
+02/05/2021,2,FC Dallas,Portland Timbers,4-1
+02/05/2021,2,Minnesota United FC,Austin FC,0-1
+02/05/2021,2,San Jose Earthquakes,D.C. United,4-1
+02/05/2021,2,Nashville SC,Inter Miami CF,0-0
+03/05/2021,2,Seattle Sounders,Los Angeles Galaxy,3-0
+03/05/2021,2,Vancouver Whitecaps,Colorado Rapids,0-1
+08/05/2021,2,Real Salt Lake,San Jose Earthquakes,1-2
+08/05/2021,2,Chicago Fire,Philadelphia Union,0-2
+08/05/2021,2,New York RB,Toronto FC,2-0
+08/05/2021,2,Columbus Crew,D.C. United,3-1
+08/05/2021,2,Nashville SC,New England Revolution,2-0
+08/05/2021,2,Vancouver Whitecaps,CF Montréal,2-0
+08/05/2021,2,FC Dallas,Houston Dynamo,1-1
+09/05/2021,2,Orlando City,New York City FC,1-1
+09/05/2021,2,Los Angeles Galaxy,Los Angeles FC,2-1
+09/05/2021,2,Colorado Rapids,Minnesota United FC,3-2
+09/05/2021,2,Inter Miami CF,Atlanta United FC,1-1
+09/05/2021,2,Portland Timbers,Seattle Sounders,1-2
+10/05/2021,2,Sporting Kansas City,Austin FC,2-1
+13/05/2021,2,Toronto FC,Columbus Crew,2-0
+13/05/2021,2,Inter Miami CF,CF Montréal,0-2
+13/05/2021,2,Philadelphia Union,New England Revolution,1-1
+13/05/2021,2,Houston Dynamo,Sporting Kansas City,1-0
+13/05/2021,2,Minnesota United FC,Vancouver Whitecaps,1-0
+13/05/2021,2,San Jose Earthquakes,Seattle Sounders,0-1
+14/05/2021,2,D.C. United,Chicago Fire,1-0
+15/05/2021,2,New York City FC,Toronto FC,1-1
+15/05/2021,2,Los Angeles Galaxy,Austin FC,2-0
+16/05/2021,2,Atlanta United FC,CF Montréal,1-0
+16/05/2021,2,Philadelphia Union,New York RB,1-0
+16/05/2021,2,Minnesota United FC,FC Dallas,1-0
+16/05/2021,2,Colorado Rapids,Houston Dynamo,3-1
+16/05/2021,2,Real Salt Lake,Nashville SC,0-0
+16/05/2021,2,San Jose Earthquakes,Portland Timbers,0-2
+16/05/2021,2,Sporting Kansas City,Vancouver Whitecaps,3-0
+16/05/2021,2,FC Cincinnati,Inter Miami CF,2-3
+17/05/2021,2,New England Revolution,Columbus Crew,1-0
+17/05/2021,2,D.C. United,Orlando City,0-1
+17/05/2021,2,Seattle Sounders,Los Angeles FC,2-0
+22/05/2021,2,CF Montréal,FC Cincinnati,1-2
+22/05/2021,2,Portland Timbers,Los Angeles Galaxy,3-0
+23/05/2021,2,Chicago Fire,Inter Miami CF,1-0
+23/05/2021,2,Orlando City,Toronto FC,1-0
+23/05/2021,2,New York City FC,Columbus Crew,1-2
+23/05/2021,2,FC Dallas,Real Salt Lake,2-2
+23/05/2021,2,New England Revolution,New York RB,3-1
+23/05/2021,2,Houston Dynamo,Vancouver Whitecaps,2-1
+23/05/2021,2,San Jose Earthquakes,Sporting Kansas City,1-3
+23/05/2021,2,Los Angeles FC,Colorado Rapids,2-1
+23/05/2021,2,Seattle Sounders,Atlanta United FC,1-1
+24/05/2021,2,D.C. United,Philadelphia Union,0-1
+24/05/2021,2,Nashville SC,Austin FC,1-0
+29/05/2021,2,Chicago Fire,CF Montréal,0-1
+29/05/2021,2,New York RB,Orlando City,2-1
+29/05/2021,2,Columbus Crew,Toronto FC,2-1
+29/05/2021,2,FC Cincinnati,New England Revolution,0-1
+29/05/2021,2,Atlanta United FC,Nashville SC,2-2
+29/05/2021,2,Los Angeles FC,New York City FC,1-2
+30/05/2021,2,Los Angeles Galaxy,San Jose Earthquakes,1-0
+30/05/2021,2,Inter Miami CF,D.C. United,0-3
+30/05/2021,2,Sporting Kansas City,Houston Dynamo,3-2
+30/05/2021,2,Colorado Rapids,FC Dallas,3-0
+30/05/2021,2,Real Salt Lake,Minnesota United FC,1-1
+31/05/2021,2,Philadelphia Union,Portland Timbers,3-0
+31/05/2021,2,Seattle Sounders,Austin FC,0-0
+12/06/2021,3,Sporting Kansas City,Austin FC,1-1
+19/06/2021,3,New York RB,Nashville SC,2-0
+19/06/2021,3,Real Salt Lake,Vancouver Whitecaps,3-1
+20/06/2021,3,Columbus Crew,Chicago Fire,2-0
+20/06/2021,3,FC Cincinnati,Colorado Rapids,0-2
+20/06/2021,3,Toronto FC,Orlando City,2-3
+20/06/2021,3,New York City FC,New England Revolution,2-3
+20/06/2021,3,D.C. United,Inter Miami CF,1-0
+20/06/2021,3,FC Dallas,Minnesota United FC,1-1
+20/06/2021,3,Austin FC,San Jose Earthquakes,0-0
+20/06/2021,3,Los Angeles Galaxy,Seattle Sounders,1-2
+20/06/2021,3,Portland Timbers,Sporting Kansas City,2-1
+20/06/2021,3,Los Angeles FC,Houston Dynamo,1-1
+20/06/2021,3,Atlanta United FC,Philadelphia Union,2-2
+23/06/2021,3,Orlando City,San Jose Earthquakes,5-0
+24/06/2021,3,New England Revolution,New York RB,3-2
+24/06/2021,3,Philadelphia Union,Columbus Crew,1-0
+24/06/2021,3,New York City FC,Atlanta United FC,1-0
+24/06/2021,3,Chicago Fire,FC Cincinnati,0-1
+24/06/2021,3,CF Montréal,D.C. United,0-0
+24/06/2021,3,Minnesota United FC,Austin FC,2-0
+24/06/2021,3,Houston Dynamo,Portland Timbers,2-2
+24/06/2021,3,Nashville SC,Toronto FC,3-2
+24/06/2021,3,Sporting Kansas City,Colorado Rapids,3-1
+24/06/2021,3,Seattle Sounders,Real Salt Lake,2-1
+24/06/2021,3,Los Angeles FC,FC Dallas,2-0
+24/06/2021,3,Vancouver Whitecaps,Los Angeles Galaxy,1-2
+26/06/2021,3,Inter Miami CF,Orlando City,1-2
+26/06/2021,3,Sporting Kansas City,Los Angeles FC,2-1
+27/06/2021,3,Toronto FC,FC Cincinnati,0-2
+27/06/2021,3,Chicago Fire,Philadelphia Union,3-3
+27/06/2021,3,Real Salt Lake,Houston Dynamo,1-1
+27/06/2021,3,Nashville SC,CF Montréal,1-1
+27/06/2021,3,Seattle Sounders,Vancouver Whitecaps,2-2
+27/06/2021,3,San Jose Earthquakes,Los Angeles Galaxy,1-3
+27/06/2021,3,Portland Timbers,Minnesota United FC,0-1
+27/06/2021,3,Atlanta United FC,New York RB,0-0
+28/06/2021,3,New York City FC,D.C. United,2-1
+28/06/2021,3,Austin FC,Columbus Crew,0-0
+28/06/2021,3,FC Dallas,New England Revolution,2-1
+02/07/2021,4,Austin FC,Portland Timbers,4-1
+03/07/2021,4,Columbus Crew,New England Revolution,2-2
+03/07/2021,4,D.C. United,Toronto FC,7-1
+04/07/2021,4,CF Montréal,Inter Miami CF,1-0
+04/07/2021,4,Orlando City,New York RB,1-2
+04/07/2021,4,Chicago Fire,Atlanta United FC,3-0
+04/07/2021,4,Minnesota United FC,San Jose Earthquakes,2-2
+04/07/2021,4,Nashville SC,Philadelphia Union,1-0
+04/07/2021,4,Houston Dynamo,FC Cincinnati,1-1
+04/07/2021,4,Real Salt Lake,Los Angeles FC,0-1
+05/07/2021,4,FC Dallas,Vancouver Whitecaps,2-2
+05/07/2021,4,Colorado Rapids,Seattle Sounders,1-1
+05/07/2021,4,Los Angeles Galaxy,Sporting Kansas City,0-2
+08/07/2021,4,New England Revolution,Toronto FC,2-3
+08/07/2021,4,CF Montréal,New York City FC,2-1
+08/07/2021,4,Chicago Fire,Orlando City,3-1
+08/07/2021,4,Austin FC,Los Angeles FC,0-2
+08/07/2021,4,Colorado Rapids,Minnesota United FC,2-0
+08/07/2021,4,Seattle Sounders,Houston Dynamo,2-0
+08/07/2021,4,Vancouver Whitecaps,Real Salt Lake,0-4
+08/07/2021,4,Los Angeles Galaxy,FC Dallas,3-1
+09/07/2021,4,New York RB,Philadelphia Union,1-1
+09/07/2021,4,Nashville SC,Atlanta United FC,2-2
+10/07/2021,4,FC Cincinnati,Columbus Crew,2-2
+17/07/2021,4,Atlanta United FC,New England Revolution,0-1
+18/07/2021,4,CF Montréal,FC Cincinnati,5-4
+18/07/2021,4,Columbus Crew,New York City FC,2-1
+18/07/2021,4,Philadelphia Union,D.C. United,2-1
+18/07/2021,4,Toronto FC,Orlando City,1-1
+18/07/2021,4,Nashville SC,Chicago Fire,5-1
+18/07/2021,4,Colorado Rapids,San Jose Earthquakes,1-1
+18/07/2021,4,Vancouver Whitecaps,Los Angeles Galaxy,2-1
+18/07/2021,4,Los Angeles FC,Real Salt Lake,2-1
+18/07/2021,4,Portland Timbers,FC Dallas,1-0
+18/07/2021,4,Minnesota United FC,Seattle Sounders,1-0
+21/07/2021,4,Vancouver Whitecaps,Houston Dynamo,0-0
+22/07/2021,4,Inter Miami CF,New England Revolution,0-5
+22/07/2021,4,Columbus Crew,Nashville SC,0-0
+22/07/2021,4,Toronto FC,New York RB,1-1
+22/07/2021,4,New York City FC,CF Montréal,1-0
+22/07/2021,4,FC Cincinnati,Atlanta United FC,1-1
+22/07/2021,4,Chicago Fire,D.C. United,2-2
+22/07/2021,4,Sporting Kansas City,San Jose Earthquakes,1-1
+22/07/2021,4,Colorado Rapids,FC Dallas,2-0
+22/07/2021,4,Real Salt Lake,Los Angeles Galaxy,2-2
+22/07/2021,4,Portland Timbers,Los Angeles FC,2-1
+23/07/2021,4,Orlando City,Philadelphia Union,2-1
+23/07/2021,4,Austin FC,Seattle Sounders,0-1
+24/07/2021,4,Atlanta United FC,Columbus Crew,0-1
+25/07/2021,4,Chicago Fire,Toronto FC,1-2
+25/07/2021,4,Minnesota United FC,Portland Timbers,2-1
+25/07/2021,4,FC Dallas,Los Angeles Galaxy,4-0
+25/07/2021,4,Nashville SC,FC Cincinnati,3-0
+25/07/2021,4,Real Salt Lake,Colorado Rapids,3-0
+25/07/2021,4,San Jose Earthquakes,Houston Dynamo,1-1
+25/07/2021,4,Los Angeles FC,Vancouver Whitecaps,2-2
+26/07/2021,4,New England Revolution,CF Montréal,2-1
+26/07/2021,4,New York City FC,Orlando City,5-0
+26/07/2021,4,Inter Miami CF,Philadelphia Union,1-1
+26/07/2021,4,D.C. United,New York RB,1-0
+26/07/2021,4,Seattle Sounders,Sporting Kansas City,1-3
+29/07/2021,4,Los Angeles FC,Minnesota United FC,2-2
+31/07/2021,4,New York City FC,Columbus Crew,4-1
+31/07/2021,4,Orlando City,Atlanta United FC,3-2
+31/07/2021,4,Los Angeles Galaxy,Portland Timbers,4-1
+31/07/2021,4,Seattle Sounders,San Jose Earthquakes,0-1
+01/08/2021,5,New York RB,New England Revolution,2-3
+01/08/2021,5,FC Cincinnati,D.C. United,0-0
+01/08/2021,5,Inter Miami CF,CF Montréal,2-1
+01/08/2021,5,Houston Dynamo,Real Salt Lake,0-0
+01/08/2021,5,Sporting Kansas City,FC Dallas,1-2
+01/08/2021,5,Austin FC,Colorado Rapids,0-1
+01/08/2021,5,Vancouver Whitecaps,Minnesota United FC,2-2
+02/08/2021,5,Philadelphia Union,Chicago Fire,1-1
+02/08/2021,5,Toronto FC,Nashville SC,1-1
+05/08/2021,5,New England Revolution,Nashville SC,0-0
+05/08/2021,5,CF Montréal,Atlanta United FC,2-2
+05/08/2021,5,Columbus Crew,D.C. United,2-4
+05/08/2021,5,Philadelphia Union,Toronto FC,3-0
+05/08/2021,5,New York RB,FC Cincinnati,0-0
+05/08/2021,5,Orlando City,Inter Miami CF,1-1
+05/08/2021,5,Chicago Fire,New York City FC,0-0
+05/08/2021,5,Austin FC,Houston Dynamo,3-2
+05/08/2021,5,Seattle Sounders,FC Dallas,1-1
+05/08/2021,5,Los Angeles Galaxy,Real Salt Lake,1-0
+05/08/2021,5,Los Angeles FC,Sporting Kansas City,1-4
+05/08/2021,5,Portland Timbers,San Jose Earthquakes,1-1
+08/08/2021,5,Columbus Crew,Atlanta United FC,2-3
+08/08/2021,5,FC Cincinnati,Orlando City,1-1
+08/08/2021,5,Minnesota United FC,Houston Dynamo,2-0
+08/08/2021,5,Toronto FC,New York City FC,2-2
+08/08/2021,5,FC Dallas,Austin FC,2-0
+08/08/2021,5,Colorado Rapids,Sporting Kansas City,0-0
+08/08/2021,5,Portland Timbers,Real Salt Lake,3-2
+09/08/2021,5,Inter Miami CF,Nashville SC,2-1
+09/08/2021,5,Chicago Fire,New York RB,2-1
+09/08/2021,5,New England Revolution,Philadelphia Union,2-1
+09/08/2021,5,San Jose Earthquakes,Los Angeles FC,2-1
+09/08/2021,5,D.C. United,CF Montréal,2-1
+09/08/2021,5,Los Angeles Galaxy,Vancouver Whitecaps,1-1
+14/08/2021,5,San Jose Earthquakes,Vancouver Whitecaps,0-0
+15/08/2021,5,Minnesota United FC,Los Angeles Galaxy,0-1
+15/08/2021,5,New York City FC,Inter Miami CF,2-0
+15/08/2021,5,CF Montréal,New York RB,2-1
+15/08/2021,5,Toronto FC,New England Revolution,1-2
+15/08/2021,5,FC Dallas,Sporting Kansas City,0-2
+15/08/2021,5,Houston Dynamo,Colorado Rapids,1-3
+15/08/2021,5,Real Salt Lake,Austin FC,1-0
+15/08/2021,5,Atlanta United FC,Los Angeles FC,1-0
+16/08/2021,5,Chicago Fire,Columbus Crew,1-0
+16/08/2021,5,Nashville SC,D.C. United,5-2
+16/08/2021,5,Portland Timbers,Seattle Sounders,2-6
+18/08/2021,5,Los Angeles Galaxy,Colorado Rapids,1-2
+18/08/2021,5,San Jose Earthquakes,Minnesota United FC,1-1
+19/08/2021,5,Atlanta United FC,Toronto FC,1-0
+19/08/2021,5,New England Revolution,D.C. United,3-2
+19/08/2021,5,Inter Miami CF,Chicago Fire,3-2
+19/08/2021,5,FC Cincinnati,CF Montréal,0-0
+19/08/2021,5,Philadelphia Union,New York City FC,1-0
+19/08/2021,5,New York RB,Columbus Crew,1-0
+19/08/2021,5,FC Dallas,Seattle Sounders,0-1
+19/08/2021,5,Nashville SC,Orlando City,1-1
+19/08/2021,5,Sporting Kansas City,Portland Timbers,1-1
+19/08/2021,5,Austin FC,Vancouver Whitecaps,1-2
+19/08/2021,5,Real Salt Lake,Houston Dynamo,2-1
+21/08/2021,5,Los Angeles Galaxy,San Jose Earthquakes,1-2
+21/08/2021,5,Minnesota United FC,Sporting Kansas City,0-0
+21/08/2021,5,Columbus Crew,Seattle Sounders,1-2
+22/08/2021,5,Inter Miami CF,Toronto FC,3-1
+22/08/2021,5,Orlando City,Chicago Fire,1-0
+22/08/2021,5,Philadelphia Union,CF Montréal,1-1
+22/08/2021,5,D.C. United,Atlanta United FC,1-2
+22/08/2021,5,New England Revolution,FC Cincinnati,4-1
+22/08/2021,5,Houston Dynamo,FC Dallas,2-2
+22/08/2021,5,Austin FC,Portland Timbers,3-1
+22/08/2021,5,Colorado Rapids,Real Salt Lake,2-1
+22/08/2021,5,Vancouver Whitecaps,Los Angeles FC,2-1
+28/08/2021,5,Columbus Crew,FC Cincinnati,3-2
+28/08/2021,5,CF Montréal,Toronto FC,3-1
+28/08/2021,5,Orlando City,Inter Miami CF,0-0
+28/08/2021,5,Atlanta United FC,Nashville SC,0-2
+29/08/2021,5,New York RB,Chicago Fire,0-1
+29/08/2021,5,Los Angeles FC,Los Angeles Galaxy,3-3
+29/08/2021,5,New York City FC,New England Revolution,2-0
+29/08/2021,5,D.C. United,Philadelphia Union,3-1
+29/08/2021,5,Houston Dynamo,Minnesota United FC,1-2
+29/08/2021,5,Sporting Kansas City,Colorado Rapids,1-1
+30/08/2021,5,Austin FC,FC Dallas,3-5
+30/08/2021,5,Vancouver Whitecaps,Real Salt Lake,4-1
+30/08/2021,5,Seattle Sounders,Portland Timbers,0-2
+04/09/2021,6,Nashville SC,New York City FC,3-1
+04/09/2021,6,Philadelphia Union,New England Revolution,0-1
+04/09/2021,6,Houston Dynamo,Portland Timbers,0-2
+04/09/2021,6,Los Angeles FC,Sporting Kansas City,4-0
+05/09/2021,6,Vancouver Whitecaps,Austin FC,2-1
+05/09/2021,6,Orlando City,Columbus Crew,3-2
+05/09/2021,6,FC Cincinnati,Inter Miami CF,0-1
+05/09/2021,6,Real Salt Lake,FC Dallas,3-2
+05/09/2021,6,San Jose Earthquakes,Colorado Rapids,0-1
+11/09/2021,6,Atlanta United FC,Orlando City,3-0
+11/09/2021,6,Vancouver Whitecaps,Portland Timbers,0-1
+11/09/2021,6,Colorado Rapids,Los Angeles Galaxy,1-1
+11/09/2021,6,Seattle Sounders,Minnesota United FC,1-0
+12/09/2021,6,New England Revolution,New York City FC,2-1
+12/09/2021,6,New York RB,D.C. United,1-1
+12/09/2021,6,Inter Miami CF,Columbus Crew,1-0
+12/09/2021,6,FC Cincinnati,Toronto FC,2-0
+12/09/2021,6,CF Montréal,Nashville SC,0-1
+12/09/2021,6,FC Dallas,San Jose Earthquakes,1-1
+12/09/2021,6,Houston Dynamo,Austin FC,3-0
+12/09/2021,6,Sporting Kansas City,Chicago Fire,2-0
+13/09/2021,6,Los Angeles FC,Real Salt Lake,3-2
+15/09/2021,6,Columbus Crew,New York RB,2-1
+15/09/2021,6,New York City FC,FC Dallas,3-3
+15/09/2021,6,Toronto FC,Inter Miami CF,0-1
+16/09/2021,6,Atlanta United FC,FC Cincinnati,4-0
+16/09/2021,6,Orlando City,CF Montréal,2-4
+16/09/2021,6,D.C. United,Chicago Fire,3-0
+16/09/2021,6,Sporting Kansas City,Minnesota United FC,4-0
+16/09/2021,6,Austin FC,Los Angeles FC,1-2
+16/09/2021,6,Portland Timbers,Colorado Rapids,2-2
+16/09/2021,6,Los Angeles Galaxy,Houston Dynamo,1-1
+16/09/2021,6,San Jose Earthquakes,Real Salt Lake,3-4
+18/09/2021,6,Inter Miami CF,New York RB,0-4
+18/09/2021,6,Atlanta United FC,D.C. United,3-2
+19/09/2021,6,New England Revolution,Columbus Crew,1-1
+19/09/2021,6,FC Cincinnati,New York City FC,1-2
+19/09/2021,6,Toronto FC,Nashville SC,2-1
+19/09/2021,6,Minnesota United FC,Los Angeles Galaxy,3-0
+19/09/2021,6,Austin FC,San Jose Earthquakes,3-4
+19/09/2021,6,Houston Dynamo,FC Dallas,3-2
+19/09/2021,6,Real Salt Lake,Seattle Sounders,1-0
+19/09/2021,6,CF Montréal,Chicago Fire,2-0
+19/09/2021,6,Philadelphia Union,Orlando City,3-1
+20/09/2021,6,Portland Timbers,Los Angeles FC,2-1
+20/09/2021,6,Colorado Rapids,Vancouver Whitecaps,1-1
+23/09/2021,6,Inter Miami CF,Nashville SC,1-5
+23/09/2021,6,New York RB,New York City FC,1-1
+23/09/2021,6,Chicago Fire,New England Revolution,2-3
+25/09/2021,6,Philadelphia Union,Atlanta United FC,1-0
+26/09/2021,6,New England Revolution,Orlando City,2-1
+26/09/2021,6,Columbus Crew,CF Montréal,2-1
+26/09/2021,6,D.C. United,FC Cincinnati,4-2
+26/09/2021,6,New York City FC,New York RB,0-1
+26/09/2021,6,Colorado Rapids,Toronto FC,0-0
+26/09/2021,6,Minnesota United FC,Houston Dynamo,2-0
+26/09/2021,6,San Jose Earthquakes,Los Angeles FC,2-0
+26/09/2021,6,Vancouver Whitecaps,FC Dallas,1-0
+26/09/2021,6,Portland Timbers,Real Salt Lake,6-1
+26/09/2021,6,Chicago Fire,Nashville SC,0-0
+27/09/2021,6,Sporting Kansas City,Seattle Sounders,1-2
+27/09/2021,6,Austin FC,Los Angeles Galaxy,2-0
+30/09/2021,6,Toronto FC,FC Cincinnati,3-2
+30/09/2021,6,Atlanta United FC,Inter Miami CF,1-0
+30/09/2021,6,New York RB,Philadelphia Union,1-1
+30/09/2021,6,CF Montréal,New England Revolution,1-4
+30/09/2021,6,D.C. United,Minnesota United FC,3-1
+30/09/2021,6,Chicago Fire,New York City FC,2-0
+30/09/2021,6,FC Dallas,Sporting Kansas City,1-3
+30/09/2021,6,Nashville SC,Orlando City,2-2
+30/09/2021,6,Colorado Rapids,Austin FC,3-0
+30/09/2021,6,Houston Dynamo,Vancouver Whitecaps,0-0
+30/09/2021,6,Real Salt Lake,Los Angeles Galaxy,2-1
+30/09/2021,6,Los Angeles FC,Portland Timbers,1-2
+30/09/2021,6,San Jose Earthquakes,Seattle Sounders,1-3
+02/10/2021,7,Austin FC,Real Salt Lake,2-1
+03/10/2021,7,CF Montréal,Atlanta United FC,2-1
+03/10/2021,7,FC Cincinnati,New York RB,0-1
+03/10/2021,7,Orlando City,D.C. United,2-1
+03/10/2021,7,FC Dallas,Minnesota United FC,0-0
+03/10/2021,7,Vancouver Whitecaps,San Jose Earthquakes,3-0
+03/10/2021,7,New York City FC,Nashville SC,0-0
+03/10/2021,7,Philadelphia Union,Columbus Crew,3-0
+03/10/2021,7,Sporting Kansas City,Houston Dynamo,4-2
+03/10/2021,7,Toronto FC,Chicago Fire,3-1
+03/10/2021,7,Portland Timbers,Inter Miami CF,1-0
+04/10/2021,7,Los Angeles Galaxy,Los Angeles FC,1-1
+04/10/2021,7,Seattle Sounders,Colorado Rapids,3-0
+10/10/2021,7,New York RB,Inter Miami CF,1-0
+10/10/2021,7,FC Cincinnati,Philadelphia Union,1-2
+10/10/2021,7,Seattle Sounders,Vancouver Whitecaps,4-1
+10/10/2021,7,Minnesota United FC,Colorado Rapids,1-3
+16/10/2021,7,CF Montréal,Philadelphia Union,2-2
+16/10/2021,7,Los Angeles FC,San Jose Earthquakes,3-1
+17/10/2021,7,Columbus Crew,Inter Miami CF,4-0
+17/10/2021,7,New England Revolution,Chicago Fire,2-2
+17/10/2021,7,D.C. United,Nashville SC,0-0
+17/10/2021,7,FC Cincinnati,Orlando City,0-1
+17/10/2021,7,Toronto FC,Atlanta United FC,0-2
+17/10/2021,7,Houston Dynamo,Seattle Sounders,2-1
+17/10/2021,7,Austin FC,Minnesota United FC,0-1
+17/10/2021,7,Real Salt Lake,Colorado Rapids,3-1
+17/10/2021,7,Los Angeles Galaxy,Portland Timbers,2-1
+17/10/2021,7,New York RB,New York City FC,1-0
+18/10/2021,7,Vancouver Whitecaps,Sporting Kansas City,2-1
+21/10/2021,7,Inter Miami CF,Toronto FC,3-0
+21/10/2021,7,Atlanta United FC,New York City FC,1-1
+21/10/2021,7,FC Cincinnati,Chicago Fire,3-4
+21/10/2021,7,Orlando City,CF Montréal,1-1
+21/10/2021,7,D.C. United,New England Revolution,2-3
+21/10/2021,7,FC Dallas,Los Angeles FC,2-3
+21/10/2021,7,Minnesota United FC,Philadelphia Union,3-2
+21/10/2021,7,Houston Dynamo,Los Angeles Galaxy,0-3
+21/10/2021,7,Nashville SC,Columbus Crew,1-1
+21/10/2021,7,Colorado Rapids,Seattle Sounders,1-1
+21/10/2021,7,Portland Timbers,Vancouver Whitecaps,2-3
+21/10/2021,7,San Jose Earthquakes,Austin FC,4-0
+23/10/2021,7,Seattle Sounders,Sporting Kansas City,1-2
+24/10/2021,7,Columbus Crew,New York RB,1-2
+24/10/2021,7,Toronto FC,CF Montréal,1-1
+24/10/2021,7,New York City FC,D.C. United,6-0
+24/10/2021,7,Philadelphia Union,Nashville SC,1-0
+24/10/2021,7,Inter Miami CF,FC Cincinnati,5-1
+24/10/2021,7,Chicago Fire,Real Salt Lake,1-0
+24/10/2021,7,Minnesota United FC,Los Angeles FC,1-1
+24/10/2021,7,Colorado Rapids,Portland Timbers,2-0
+24/10/2021,7,Los Angeles Galaxy,FC Dallas,2-2
+24/10/2021,7,San Jose Earthquakes,Vancouver Whitecaps,1-1
+24/10/2021,7,Austin FC,Houston Dynamo,2-1
+25/10/2021,7,Orlando City,New England Revolution,2-2
+27/10/2021,7,Los Angeles FC,Seattle Sounders,3-0
+28/10/2021,7,New England Revolution,Colorado Rapids,1-0
+28/10/2021,7,Atlanta United FC,Inter Miami CF,2-1
+28/10/2021,7,Columbus Crew,Orlando City,3-2
+28/10/2021,7,FC Cincinnati,Nashville SC,3-6
+28/10/2021,7,Toronto FC,Philadelphia Union,2-2
+28/10/2021,7,D.C. United,New York RB,1-0
+28/10/2021,7,New York City FC,Chicago Fire,1-0
+28/10/2021,7,FC Dallas,Real Salt Lake,1-2
+28/10/2021,7,Sporting Kansas City,Los Angeles Galaxy,2-0
+28/10/2021,7,Portland Timbers,San Jose Earthquakes,2-0
+28/10/2021,7,Vancouver Whitecaps,Minnesota United FC,2-1
+30/10/2021,7,Inter Miami CF,New York City FC,1-3
+30/10/2021,7,Real Salt Lake,San Jose Earthquakes,3-4
+30/10/2021,7,New York RB,CF Montréal,1-0
+31/10/2021,7,Atlanta United FC,Toronto FC,1-1
+31/10/2021,7,D.C. United,Columbus Crew,1-3
+31/10/2021,7,FC Dallas,Austin FC,2-1
+31/10/2021,7,Minnesota United FC,Sporting Kansas City,2-1
+31/10/2021,7,Houston Dynamo,Colorado Rapids,0-1
+01/11/2021,7,Philadelphia Union,FC Cincinnati,2-0
+31/10/2021,8,Orlando City,Nashville SC,1-1
+02/11/2021,8,Seattle Sounders,Los Angeles Galaxy,1-1
+03/11/2021,8,Los Angeles FC,Vancouver Whitecaps,1-1
+04/11/2021,8,New York RB,Atlanta United FC,0-0
+04/11/2021,8,CF Montréal,Houston Dynamo,2-0
+04/11/2021,8,Austin FC,Sporting Kansas City,3-1
+04/11/2021,8,Real Salt Lake,Portland Timbers,1-3
+07/11/2021,8,CF Montréal,Orlando City,0-2
+07/11/2021,8,Columbus Crew,Chicago Fire,2-0
+07/11/2021,8,FC Cincinnati,Atlanta United FC,1-2
+07/11/2021,8,Nashville SC,New York RB,1-1
+07/11/2021,8,New England Revolution,Inter Miami CF,0-1
+07/11/2021,8,New York City FC,Philadelphia Union,1-1
+07/11/2021,8,Toronto FC,D.C. United,1-3
+08/11/2021,8,Colorado Rapids,Los Angeles FC,5-2
+08/11/2021,8,Los Angeles Galaxy,Minnesota United FC,3-3
+08/11/2021,8,Portland Timbers,Austin FC,3-0
+08/11/2021,8,San Jose Earthquakes,FC Dallas,1-1
+08/11/2021,8,Sporting Kansas City,Real Salt Lake,0-1
+08/11/2021,8,Vancouver Whitecaps,Seattle Sounders,1-1
+20/11/2021,9,Philadelphia Union,New York RB,1-0
+20/11/2021,9,Sporting Kansas City,Vancouver Whitecaps,3-1
+21/11/2021,9,New York City FC,Atlanta United FC,2-0
+21/11/2021,9,Portland Timbers,Minnesota United FC,3-1
+24/11/2021,9,Nashville SC,Orlando City,3-1
+24/11/2021,9,Seattle Sounders,Real Salt Lake,5-6
+25/11/2021,9,Colorado Rapids,Portland Timbers,0-1
+28/11/2021,9,Sporting Kansas City,Real Salt Lake,1-2
+28/11/2021,9,Philadelphia Union,Nashville SC,2-0
+01/12/2021,9,New England Revolution,New York City FC,3-5
+05/12/2021,9,Portland Timbers,Real Salt Lake,2-0
+05/12/2021,9,Philadelphia Union,New York City FC,1-2
+11/12/2021,9,Portland Timbers,New York City FC,2-4

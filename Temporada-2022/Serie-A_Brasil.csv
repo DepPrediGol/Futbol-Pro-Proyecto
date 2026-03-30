@@ -1,0 +1,381 @@
+﻿Fecha,Jornada,Equipo Local,Equipo Visitante,Resultado
+09/04/2022,1,Fluminense RJ,Santos FC,0-0
+10/04/2022,1,Atlético Goianiense,Flamengo RJ,1-1
+10/04/2022,1,Palmeiras,Ceará - CE,2-3
+10/04/2022,1,Coritiba - PR,Goiás - GO,3-0
+10/04/2022,1,Atlético Mineiro,Internacional,2-0
+10/04/2022,1,Botafogo - RJ,Corinthians SP,1-3
+10/04/2022,1,Fortaleza - CE,Cuiabá - MT,0-1
+11/04/2022,1,Avaí - SC,América - MG,1-0
+11/04/2022,1,São Paulo FC,Athletico Paranaense,4-0
+12/04/2022,1,Juventude - RS,Red Bull Bragantino,2-2
+16/04/2022,2,Goiás - GO,Palmeiras,1-1
+17/04/2022,2,América - MG,Juventude - RS,4-1
+17/04/2022,2,Corinthians SP,Avaí - SC,3-0
+17/04/2022,2,Cuiabá - MT,Fluminense RJ,0-1
+17/04/2022,2,Santos FC,Coritiba - PR,2-1
+17/04/2022,2,Flamengo RJ,São Paulo FC,3-1
+17/04/2022,2,Athletico Paranaense,Atlético Mineiro,0-1
+17/04/2022,2,Red Bull Bragantino,Atlético Goianiense,4-0
+17/04/2022,2,Internacional,Fortaleza - CE,2-1
+18/04/2022,2,Ceará - CE,Botafogo - RJ,1-3
+23/04/2022,3,Athletico Paranaense,Flamengo RJ,1-0
+23/04/2022,3,Red Bull Bragantino,São Paulo FC,1-1
+24/04/2022,3,Fluminense RJ,Internacional,0-1
+24/04/2022,3,Palmeiras,Corinthians SP,3-0
+24/04/2022,3,Atlético Mineiro,Coritiba - PR,2-2
+24/04/2022,3,Santos FC,América - MG,3-0
+24/04/2022,3,Juventude - RS,Cuiabá - MT,0-1
+24/04/2022,3,Atlético Goianiense,Botafogo - RJ,1-1
+26/04/2022,3,Avaí - SC,Goiás - GO,3-2
+02/06/2022,3,Fortaleza - CE,Ceará - CE,0-1
+21/04/2022,4,Flamengo RJ,Palmeiras,0-0
+30/04/2022,4,América - MG,Athletico Paranaense,1-0
+30/04/2022,4,Ceará - CE,Red Bull Bragantino,0-1
+30/04/2022,4,Goiás - GO,Atlético Mineiro,2-2
+01/05/2022,4,Cuiabá - MT,Atlético Goianiense,1-1
+01/05/2022,4,Botafogo - RJ,Juventude - RS,1-1
+01/05/2022,4,Corinthians SP,Fortaleza - CE,1-0
+01/05/2022,4,Coritiba - PR,Fluminense RJ,3-2
+02/05/2022,4,Internacional,Avaí - SC,0-0
+03/05/2022,4,São Paulo FC,Santos FC,2-1
+07/05/2022,5,Atlético Mineiro,América - MG,1-2
+08/05/2022,5,Athletico Paranaense,Ceará - CE,1-0
+08/05/2022,5,Flamengo RJ,Botafogo - RJ,0-1
+08/05/2022,5,Atlético Goianiense,Goiás - GO,0-1
+08/05/2022,5,Palmeiras,Fluminense RJ,1-1
+08/05/2022,5,Red Bull Bragantino,Corinthians SP,0-1
+08/05/2022,5,Santos FC,Cuiabá - MT,4-1
+09/05/2022,5,Fortaleza - CE,São Paulo FC,1-1
+09/05/2022,5,Juventude - RS,Internacional,1-1
+10/05/2022,5,Avaí - SC,Coritiba - PR,2-1
+14/05/2022,6,Ceará - CE,Flamengo RJ,2-2
+14/05/2022,6,Palmeiras,Red Bull Bragantino,2-0
+15/05/2022,6,Atlético Mineiro,Atlético Goianiense,2-0
+15/05/2022,6,Internacional,Corinthians SP,2-2
+15/05/2022,6,Fluminense RJ,Athletico Paranaense,2-1
+15/05/2022,6,São Paulo FC,Cuiabá - MT,2-1
+15/05/2022,6,Coritiba - PR,América - MG,1-0
+15/05/2022,6,Avaí - SC,Juventude - RS,1-2
+15/05/2022,6,Botafogo - RJ,Fortaleza - CE,3-1
+16/05/2022,6,Goiás - GO,Santos FC,1-0
+12/05/2022,7,Red Bull Bragantino,Atlético Mineiro,1-1
+21/05/2022,7,Atlético Goianiense,Coritiba - PR,2-0
+21/05/2022,7,Flamengo RJ,Goiás - GO,1-0
+21/05/2022,7,Santos FC,Ceará - CE,0-0
+22/05/2022,7,Juventude - RS,Palmeiras,0-3
+22/05/2022,7,América - MG,Botafogo - RJ,1-1
+22/05/2022,7,Cuiabá - MT,Internacional,1-1
+22/05/2022,7,Corinthians SP,São Paulo FC,1-1
+22/05/2022,7,Fortaleza - CE,Fluminense RJ,0-1
+23/05/2022,7,Athletico Paranaense,Avaí - SC,2-1
+28/05/2022,8,Goiás - GO,Red Bull Bragantino,1-1
+29/05/2022,8,São Paulo FC,Ceará - CE,2-2
+29/05/2022,8,Fortaleza - CE,Juventude - RS,1-1
+29/05/2022,8,Coritiba - PR,Botafogo - RJ,1-0
+29/05/2022,8,Santos FC,Palmeiras,0-1
+29/05/2022,8,Corinthians SP,América - MG,1-1
+29/05/2022,8,Cuiabá - MT,Athletico Paranaense,0-1
+29/05/2022,8,Fluminense RJ,Flamengo RJ,1-2
+30/05/2022,8,Atlético Mineiro,Avaí - SC,2-1
+31/05/2022,8,Internacional,Atlético Goianiense,1-1
+04/06/2022,9,América - MG,Cuiabá - MT,2-1
+05/06/2022,9,Athletico Paranaense,Santos FC,2-2
+05/06/2022,9,Avaí - SC,São Paulo FC,1-1
+05/06/2022,9,Ceará - CE,Coritiba - PR,1-1
+05/06/2022,9,Atlético Goianiense,Corinthians SP,0-1
+05/06/2022,9,Juventude - RS,Fluminense RJ,1-0
+05/06/2022,9,Flamengo RJ,Fortaleza - CE,1-2
+05/06/2022,9,Palmeiras,Atlético Mineiro,0-0
+06/06/2022,9,Red Bull Bragantino,Internacional,0-2
+07/06/2022,9,Botafogo - RJ,Goiás - GO,1-2
+08/06/2022,10,Cuiabá - MT,Corinthians SP,1-0
+09/06/2022,10,América - MG,Ceará - CE,0-2
+09/06/2022,10,Juventude - RS,Athletico Paranaense,1-3
+09/06/2022,10,Atlético Goianiense,Avaí - SC,2-1
+09/06/2022,10,Red Bull Bragantino,Flamengo RJ,1-0
+09/06/2022,10,Fluminense RJ,Atlético Mineiro,5-3
+09/06/2022,10,Santos FC,Internacional,1-1
+10/06/2022,10,Palmeiras,Botafogo - RJ,4-0
+10/06/2022,10,Coritiba - PR,São Paulo FC,1-1
+10/06/2022,10,Fortaleza - CE,Goiás - GO,1-1
+11/06/2022,11,Corinthians SP,Juventude - RS,2-0
+12/06/2022,11,Atlético Mineiro,Santos FC,1-1
+12/06/2022,11,Cuiabá - MT,Red Bull Bragantino,1-1
+12/06/2022,11,Fluminense RJ,Atlético Goianiense,0-2
+12/06/2022,11,Internacional,Flamengo RJ,3-1
+12/06/2022,11,Goiás - GO,Ceará - CE,1-1
+12/06/2022,11,São Paulo FC,América - MG,1-0
+12/06/2022,11,Coritiba - PR,Palmeiras,0-2
+13/06/2022,11,Fortaleza - CE,Athletico Paranaense,0-0
+14/06/2022,11,Botafogo - RJ,Avaí - SC,0-1
+15/06/2022,12,Juventude - RS,Santos FC,1-2
+16/06/2022,12,Red Bull Bragantino,Coritiba - PR,4-2
+16/06/2022,12,Ceará - CE,Atlético Mineiro,0-0
+16/06/2022,12,Flamengo RJ,Cuiabá - MT,2-0
+16/06/2022,12,Goiás - GO,Internacional,1-2
+16/06/2022,12,América - MG,Fluminense RJ,0-0
+16/06/2022,12,Athletico Paranaense,Corinthians SP,1-1
+16/06/2022,12,Botafogo - RJ,São Paulo FC,1-0
+16/06/2022,12,Palmeiras,Atlético Goianiense,4-2
+17/06/2022,12,Avaí - SC,Fortaleza - CE,3-2
+19/06/2022,13,Cuiabá - MT,Ceará - CE,0-0
+19/06/2022,13,Santos FC,Red Bull Bragantino,2-2
+19/06/2022,13,Atlético Mineiro,Flamengo RJ,2-0
+19/06/2022,13,Corinthians SP,Goiás - GO,1-0
+19/06/2022,13,Coritiba - PR,Athletico Paranaense,0-1
+19/06/2022,13,Atlético Goianiense,Juventude - RS,3-1
+19/06/2022,13,Fortaleza - CE,América - MG,1-0
+19/06/2022,13,Internacional,Botafogo - RJ,2-3
+20/06/2022,13,Fluminense RJ,Avaí - SC,2-0
+21/06/2022,13,São Paulo FC,Palmeiras,1-2
+25/06/2022,14,Internacional,Coritiba - PR,3-0
+25/06/2022,14,Athletico Paranaense,Red Bull Bragantino,4-2
+26/06/2022,14,Corinthians SP,Santos FC,0-0
+26/06/2022,14,Flamengo RJ,América - MG,3-0
+26/06/2022,14,Atlético Mineiro,Fortaleza - CE,3-2
+26/06/2022,14,Avaí - SC,Palmeiras,2-2
+26/06/2022,14,Botafogo - RJ,Fluminense RJ,0-1
+26/06/2022,14,Ceará - CE,Atlético Goianiense,1-1
+26/06/2022,14,Goiás - GO,Cuiabá - MT,1-0
+26/06/2022,14,São Paulo FC,Juventude - RS,0-0
+02/07/2022,15,Fluminense RJ,Corinthians SP,4-0
+02/07/2022,15,Juventude - RS,Atlético Mineiro,1-2
+03/07/2022,15,Ceará - CE,Internacional,1-1
+03/07/2022,15,Santos FC,Flamengo RJ,1-2
+03/07/2022,15,Palmeiras,Athletico Paranaense,0-2
+03/07/2022,15,Avaí - SC,Cuiabá - MT,1-2
+03/07/2022,15,Atlético Goianiense,São Paulo FC,1-2
+03/07/2022,15,América - MG,Goiás - GO,1-0
+03/07/2022,15,Coritiba - PR,Fortaleza - CE,2-1
+05/07/2022,15,Red Bull Bragantino,Botafogo - RJ,0-1
+09/07/2022,16,Red Bull Bragantino,Avaí - SC,4-0
+10/07/2022,16,Fluminense RJ,Ceará - CE,2-1
+10/07/2022,16,Goiás - GO,Athletico Paranaense,2-1
+10/07/2022,16,Coritiba - PR,Juventude - RS,2-2
+10/07/2022,16,Corinthians SP,Flamengo RJ,1-0
+10/07/2022,16,Atlético Mineiro,São Paulo FC,0-0
+10/07/2022,16,Fortaleza - CE,Palmeiras,0-0
+10/07/2022,16,Santos FC,Atlético Goianiense,1-0
+11/07/2022,16,Cuiabá - MT,Botafogo - RJ,2-0
+12/07/2022,16,Internacional,América - MG,1-0
+16/07/2022,17,Athletico Paranaense,Internacional,0-0
+17/07/2022,17,Avaí - SC,Santos FC,1-0
+17/07/2022,17,Flamengo RJ,Coritiba - PR,2-0
+17/07/2022,17,Ceará - CE,Corinthians SP,3-1
+17/07/2022,17,Juventude - RS,Goiás - GO,0-0
+17/07/2022,17,São Paulo FC,Fluminense RJ,2-2
+17/07/2022,17,Atlético Goianiense,Fortaleza - CE,0-1
+17/07/2022,17,Botafogo - RJ,Atlético Mineiro,0-1
+18/07/2022,17,América - MG,Red Bull Bragantino,0-3
+19/07/2022,17,Palmeiras,Cuiabá - MT,1-0
+20/07/2022,18,Ceará - CE,Avaí - SC,1-0
+21/07/2022,18,Red Bull Bragantino,Fortaleza - CE,2-1
+21/07/2022,18,Goiás - GO,Fluminense RJ,2-3
+21/07/2022,18,Athletico Paranaense,Atlético Goianiense,4-1
+21/07/2022,18,Flamengo RJ,Juventude - RS,4-0
+21/07/2022,18,Internacional,São Paulo FC,3-3
+21/07/2022,18,Corinthians SP,Coritiba - PR,3-1
+21/07/2022,18,Santos FC,Botafogo - RJ,2-0
+22/07/2022,18,Cuiabá - MT,Atlético Mineiro,1-1
+22/07/2022,18,América - MG,Palmeiras,0-1
+24/07/2022,19,São Paulo FC,Goiás - GO,3-3
+24/07/2022,19,Botafogo - RJ,Athletico Paranaense,2-0
+24/07/2022,19,Avaí - SC,Flamengo RJ,1-2
+24/07/2022,19,Fluminense RJ,Red Bull Bragantino,2-1
+24/07/2022,19,Juventude - RS,Ceará - CE,1-0
+24/07/2022,19,Palmeiras,Internacional,2-1
+24/07/2022,19,Atlético Goianiense,América - MG,0-1
+24/07/2022,19,Atlético Mineiro,Corinthians SP,1-2
+25/07/2022,19,Fortaleza - CE,Santos FC,0-0
+26/07/2022,19,Coritiba - PR,Cuiabá - MT,1-0
+30/07/2022,20,Ceará - CE,Palmeiras,1-2
+30/07/2022,20,Goiás - GO,Coritiba - PR,1-0
+31/07/2022,20,Corinthians SP,Botafogo - RJ,1-0
+31/07/2022,20,Flamengo RJ,Atlético Goianiense,4-1
+31/07/2022,20,Athletico Paranaense,São Paulo FC,1-0
+31/07/2022,20,Internacional,Atlético Mineiro,3-0
+31/07/2022,20,América - MG,Avaí - SC,3-1
+31/07/2022,20,Cuiabá - MT,Fortaleza - CE,0-1
+01/08/2022,20,Red Bull Bragantino,Juventude - RS,1-0
+02/08/2022,20,Santos FC,Fluminense RJ,2-2
+06/08/2022,21,Botafogo - RJ,Ceará - CE,1-1
+06/08/2022,21,Juventude - RS,América - MG,0-1
+07/08/2022,21,Atlético Goianiense,Red Bull Bragantino,2-1
+07/08/2022,21,Avaí - SC,Corinthians SP,1-1
+07/08/2022,21,São Paulo FC,Flamengo RJ,0-2
+07/08/2022,21,Fluminense RJ,Cuiabá - MT,1-0
+07/08/2022,21,Palmeiras,Goiás - GO,3-0
+07/08/2022,21,Fortaleza - CE,Internacional,3-0
+08/08/2022,21,Atlético Mineiro,Athletico Paranaense,2-3
+09/08/2022,21,Coritiba - PR,Santos FC,1-2
+13/08/2022,22,Goiás - GO,Avaí - SC,1-1
+14/08/2022,22,Corinthians SP,Palmeiras,0-1
+14/08/2022,22,Cuiabá - MT,Juventude - RS,1-0
+14/08/2022,22,Botafogo - RJ,Atlético Goianiense,0-0
+14/08/2022,22,Coritiba - PR,Atlético Mineiro,0-1
+14/08/2022,22,Ceará - CE,Fortaleza - CE,0-1
+14/08/2022,22,Flamengo RJ,Athletico Paranaense,5-0
+14/08/2022,22,São Paulo FC,Red Bull Bragantino,3-0
+14/08/2022,22,América - MG,Santos FC,1-0
+15/08/2022,22,Internacional,Fluminense RJ,3-0
+20/08/2022,23,Atlético Mineiro,Goiás - GO,0-1
+21/08/2022,23,Fluminense RJ,Coritiba - PR,5-2
+21/08/2022,23,Juventude - RS,Botafogo - RJ,2-2
+21/08/2022,23,Palmeiras,Flamengo RJ,1-1
+21/08/2022,23,Athletico Paranaense,América - MG,1-1
+21/08/2022,23,Atlético Goianiense,Cuiabá - MT,1-1
+21/08/2022,23,Red Bull Bragantino,Ceará - CE,1-1
+21/08/2022,23,Fortaleza - CE,Corinthians SP,1-0
+22/08/2022,23,Santos FC,São Paulo FC,1-0
+23/08/2022,23,Avaí - SC,Internacional,0-1
+27/08/2022,24,Coritiba - PR,Avaí - SC,1-0
+27/08/2022,24,Goiás - GO,Atlético Goianiense,2-1
+28/08/2022,24,Fluminense RJ,Palmeiras,1-1
+28/08/2022,24,Ceará - CE,Athletico Paranaense,0-0
+28/08/2022,24,América - MG,Atlético Mineiro,1-1
+28/08/2022,24,São Paulo FC,Fortaleza - CE,0-1
+28/08/2022,24,Botafogo - RJ,Flamengo RJ,0-1
+28/08/2022,24,Cuiabá - MT,Santos FC,0-0
+30/08/2022,24,Internacional,Juventude - RS,4-0
+30/08/2022,24,Corinthians SP,Red Bull Bragantino,1-0
+03/09/2022,25,Juventude - RS,Avaí - SC,1-1
+04/09/2022,25,Athletico Paranaense,Fluminense RJ,1-0
+04/09/2022,25,Red Bull Bragantino,Palmeiras,2-2
+04/09/2022,25,América - MG,Coritiba - PR,2-0
+04/09/2022,25,Flamengo RJ,Ceará - CE,1-1
+04/09/2022,25,Corinthians SP,Internacional,2-2
+04/09/2022,25,Fortaleza - CE,Botafogo - RJ,1-3
+04/09/2022,25,Atlético Goianiense,Atlético Mineiro,0-2
+05/09/2022,25,Cuiabá - MT,São Paulo FC,1-1
+06/09/2022,25,Santos FC,Goiás - GO,1-2
+07/09/2022,26,Atlético Mineiro,Red Bull Bragantino,1-1
+10/09/2022,26,Ceará - CE,Santos FC,2-1
+10/09/2022,26,Internacional,Cuiabá - MT,1-0
+11/09/2022,26,Fluminense RJ,Fortaleza - CE,2-1
+11/09/2022,26,Palmeiras,Juventude - RS,2-1
+11/09/2022,26,Avaí - SC,Athletico Paranaense,1-1
+11/09/2022,26,Botafogo - RJ,América - MG,0-0
+11/09/2022,26,Coritiba - PR,Atlético Goianiense,2-0
+11/09/2022,26,São Paulo FC,Corinthians SP,1-1
+12/09/2022,26,Goiás - GO,Flamengo RJ,1-1
+17/09/2022,27,Avaí - SC,Atlético Mineiro,1-0
+18/09/2022,27,Botafogo - RJ,Coritiba - PR,2-0
+18/09/2022,27,Red Bull Bragantino,Goiás - GO,1-1
+18/09/2022,27,Ceará - CE,São Paulo FC,0-2
+18/09/2022,27,Flamengo RJ,Fluminense RJ,1-2
+18/09/2022,27,América - MG,Corinthians SP,1-0
+18/09/2022,27,Juventude - RS,Fortaleza - CE,1-1
+18/09/2022,27,Palmeiras,Santos FC,1-0
+19/09/2022,27,Athletico Paranaense,Cuiabá - MT,2-2
+20/09/2022,27,Atlético Goianiense,Internacional,1-2
+26/09/2022,28,São Paulo FC,Avaí - SC,4-0
+28/09/2022,28,Santos FC,Athletico Paranaense,2-0
+29/09/2022,28,Corinthians SP,Atlético Goianiense,2-1
+29/09/2022,28,Coritiba - PR,Ceará - CE,1-0
+29/09/2022,28,Fluminense RJ,Juventude - RS,4-0
+29/09/2022,28,Fortaleza - CE,Flamengo RJ,3-2
+29/09/2022,28,Cuiabá - MT,América - MG,2-1
+29/09/2022,28,Atlético Mineiro,Palmeiras,0-1
+29/09/2022,28,Goiás - GO,Botafogo - RJ,0-1
+29/09/2022,28,Internacional,Red Bull Bragantino,0-0
+01/10/2022,29,Atlético Mineiro,Fluminense RJ,2-0
+01/10/2022,29,Ceará - CE,América - MG,1-2
+01/10/2022,29,Internacional,Santos FC,1-0
+02/10/2022,29,Athletico Paranaense,Juventude - RS,2-0
+02/10/2022,29,Avaí - SC,Atlético Goianiense,1-2
+02/10/2022,29,Flamengo RJ,Red Bull Bragantino,4-1
+02/10/2022,29,Goiás - GO,Fortaleza - CE,0-1
+02/10/2022,29,Corinthians SP,Cuiabá - MT,2-0
+04/10/2022,29,Botafogo - RJ,Palmeiras,1-3
+21/10/2022,29,São Paulo FC,Coritiba - PR,3-1
+05/10/2022,30,Juventude - RS,Corinthians SP,2-2
+06/10/2022,30,Atlético Goianiense,Fluminense RJ,3-2
+06/10/2022,30,Red Bull Bragantino,Cuiabá - MT,2-1
+06/10/2022,30,Ceará - CE,Goiás - GO,1-1
+06/10/2022,30,Athletico Paranaense,Fortaleza - CE,1-1
+06/10/2022,30,Flamengo RJ,Internacional,0-0
+06/10/2022,30,Santos FC,Atlético Mineiro,1-2
+07/10/2022,30,Palmeiras,Coritiba - PR,4-0
+07/10/2022,30,América - MG,São Paulo FC,1-2
+07/10/2022,30,Avaí - SC,Botafogo - RJ,1-2
+09/10/2022,31,Cuiabá - MT,Flamengo RJ,1-2
+09/10/2022,31,Corinthians SP,Athletico Paranaense,2-1
+09/10/2022,31,Internacional,Goiás - GO,4-2
+09/10/2022,31,Fortaleza - CE,Avaí - SC,2-0
+09/10/2022,31,São Paulo FC,Botafogo - RJ,0-1
+09/10/2022,31,Atlético Mineiro,Ceará - CE,0-0
+09/10/2022,31,Coritiba - PR,Red Bull Bragantino,2-1
+09/10/2022,31,Fluminense RJ,América - MG,0-2
+10/10/2022,31,Atlético Goianiense,Palmeiras,1-1
+11/10/2022,31,Santos FC,Juventude - RS,4-1
+16/10/2022,32,América - MG,Fortaleza - CE,1-2
+16/10/2022,32,Flamengo RJ,Atlético Mineiro,1-0
+16/10/2022,32,Ceará - CE,Cuiabá - MT,1-1
+16/10/2022,32,Palmeiras,São Paulo FC,0-0
+16/10/2022,32,Botafogo - RJ,Internacional,0-1
+16/10/2022,32,Juventude - RS,Atlético Goianiense,1-1
+17/10/2022,32,Athletico Paranaense,Coritiba - PR,1-0
+17/10/2022,32,Avaí - SC,Fluminense RJ,0-3
+18/10/2022,32,Red Bull Bragantino,Santos FC,0-2
+30/10/2022,32,Goiás - GO,Corinthians SP,0-0
+22/10/2022,33,Red Bull Bragantino,Athletico Paranaense,4-2
+23/10/2022,33,América - MG,Flamengo RJ,1-2
+23/10/2022,33,Santos FC,Corinthians SP,0-1
+23/10/2022,33,Palmeiras,Avaí - SC,3-0
+23/10/2022,33,Fluminense RJ,Botafogo - RJ,2-2
+23/10/2022,33,Juventude - RS,São Paulo FC,1-2
+23/10/2022,33,Atlético Goianiense,Ceará - CE,1-0
+23/10/2022,33,Coritiba - PR,Internacional,1-1
+23/10/2022,33,Cuiabá - MT,Goiás - GO,1-2
+25/10/2022,33,Fortaleza - CE,Atlético Mineiro,0-0
+26/10/2022,34,Athletico Paranaense,Palmeiras,1-3
+26/10/2022,34,Flamengo RJ,Santos FC,3-2
+27/10/2022,34,Botafogo - RJ,Red Bull Bragantino,2-1
+27/10/2022,34,Corinthians SP,Fluminense RJ,0-2
+27/10/2022,34,Goiás - GO,América - MG,2-2
+27/10/2022,34,Internacional,Ceará - CE,2-1
+28/10/2022,34,Fortaleza - CE,Coritiba - PR,3-1
+28/10/2022,34,São Paulo FC,Atlético Goianiense,2-1
+28/10/2022,34,Atlético Mineiro,Juventude - RS,1-0
+28/10/2022,34,Cuiabá - MT,Avaí - SC,1-0
+01/11/2022,35,Ceará - CE,Fluminense RJ,0-1
+01/11/2022,35,Botafogo - RJ,Cuiabá - MT,0-2
+02/11/2022,35,São Paulo FC,Atlético Mineiro,2-2
+02/11/2022,35,América - MG,Internacional,1-0
+02/11/2022,35,Athletico Paranaense,Goiás - GO,3-2
+02/11/2022,35,Atlético Goianiense,Santos FC,2-3
+02/11/2022,35,Avaí - SC,Red Bull Bragantino,1-2
+02/11/2022,35,Juventude - RS,Coritiba - PR,0-1
+03/11/2022,35,Flamengo RJ,Corinthians SP,1-2
+03/11/2022,35,Palmeiras,Fortaleza - CE,4-0
+05/11/2022,36,Fluminense RJ,São Paulo FC,3-1
+05/11/2022,36,Santos FC,Avaí - SC,1-1
+05/11/2022,36,Red Bull Bragantino,América - MG,1-4
+05/11/2022,36,Goiás - GO,Juventude - RS,1-0
+06/11/2022,36,Corinthians SP,Ceará - CE,1-0
+06/11/2022,36,Internacional,Athletico Paranaense,2-0
+06/11/2022,36,Coritiba - PR,Flamengo RJ,1-0
+06/11/2022,36,Fortaleza - CE,Atlético Goianiense,1-1
+06/11/2022,36,Cuiabá - MT,Palmeiras,1-1
+08/11/2022,36,Atlético Mineiro,Botafogo - RJ,0-2
+09/11/2022,37,São Paulo FC,Internacional,0-1
+09/11/2022,37,Avaí - SC,Ceará - CE,2-0
+09/11/2022,37,Coritiba - PR,Corinthians SP,2-2
+09/11/2022,37,Fluminense RJ,Goiás - GO,3-0
+10/11/2022,37,Fortaleza - CE,Red Bull Bragantino,6-0
+10/11/2022,37,Atlético Goianiense,Athletico Paranaense,1-1
+10/11/2022,37,Juventude - RS,Flamengo RJ,2-2
+10/11/2022,37,Palmeiras,América - MG,2-1
+11/11/2022,37,Atlético Mineiro,Cuiabá - MT,3-0
+11/11/2022,37,Botafogo - RJ,Santos FC,3-0
+12/11/2022,38,Flamengo RJ,Avaí - SC,1-2
+13/11/2022,38,América - MG,Atlético Goianiense,1-1
+13/11/2022,38,Athletico Paranaense,Botafogo - RJ,3-0
+13/11/2022,38,Red Bull Bragantino,Fluminense RJ,0-1
+13/11/2022,38,Ceará - CE,Juventude - RS,4-1
+13/11/2022,38,Corinthians SP,Atlético Mineiro,0-1
+13/11/2022,38,Cuiabá - MT,Coritiba - PR,2-1
+13/11/2022,38,Goiás - GO,São Paulo FC,0-4
+13/11/2022,38,Internacional,Palmeiras,3-0
+13/11/2022,38,Santos FC,Fortaleza - CE,0-2

@@ -3,7 +3,8 @@ import pandas as pd
 import glob
 import math
 import re
-from datetime import datetime, timedelta
+import os
+from datetime import datetime
 
 # --- 1. CONFIGURACIÓN ---
 st.set_page_config(page_title="Bet Pro League", layout="wide", page_icon="⚽")
@@ -39,11 +40,6 @@ st.markdown("""
         min-height: 120px !important;
         white-space: pre-line !important;
     }
-    .stButton > button:hover {
-        border-color: #28a745 !important;
-        transform: translateY(-3px) !important;
-        box-shadow: 4px 4px 12px rgba(0,0,0,0.2) !important;
-    }
     .giro-balon { display: inline-block; animation: rotacion 3s infinite linear; }
     @keyframes rotacion { from { transform: rotate(0deg); } to { transform: rotate(360deg); } }
     </style>
@@ -63,7 +59,7 @@ def color_letras_historial(val):
 
 def extraer_goles(resultado_str):
     if pd.isna(resultado_str): return None
-    numeros = re.findall(r'\d+', str(resultado_str))
+    numeros = re.findall(r'\d+', str(resultado_str).replace(':', '-'))
     return (int(numeros[0]), int(numeros[1])) if len(numeros) >= 2 else None
 
 def calcular_poisson(media, x):
@@ -103,36 +99,43 @@ def ventana_analisis(r, df_h):
             st.dataframe(df_eq, use_container_width=True, hide_index=True)
         st.divider()
 
-# --- 5. CARGA Y PROCESAMIENTO ---
+# --- 5. CARGA Y PROCESAMIENTO (RECURSIVO PARA TEMPORADAS) ---
 @st.cache_data(ttl=300)
 def cargar_datos_completos():
-    archivos = glob.glob("*.csv")
+    # Busca en todas las subcarpetas (2024, 2025, etc.)
+    archivos = glob.glob("**/*.csv", recursive=True)
+    archivos.sort() # Orden cronológico por nombre de carpeta/archivo
+    
     actuales, historicos, ligas = [], [], []
+    fz = {} # Diccionario de fuerza acumulada
+
     for arc in archivos:
         try:
             df = pd.read_csv(arc)
-            ln = arc.replace('.csv','')
+            ln = os.path.basename(arc).replace('.csv','')
             if ln not in ligas: ligas.append(ln)
+            
             df['Jornada'] = pd.to_numeric(df['Jornada'], errors='coerce').fillna(0).astype(int)
             df['Fecha_dt'] = pd.to_datetime(df['Fecha'], dayfirst=True, errors='coerce')
             
-            equipos = pd.concat([df['Equipo Local'], df['Equipo Visitante']]).unique()
-            fz = {e: 1.2 for e in equipos}
             for _, fila in df.iterrows():
+                loc, vis = fila['Equipo Local'], fila['Equipo Visitante']
+                if loc not in fz: fz[loc] = 1.2
+                if vis not in fz: fz[vis] = 1.2
+                
                 g = extraer_goles(fila.get('Resultado'))
                 if g:
-                    fz[fila['Equipo Local']] += 0.20 if g[0] > g[1] else 0.05
-                    fz[fila['Equipo Visitante']] += 0.20 if g[1] > g[0] else 0.05
-
-            for _, f in df.iterrows():
-                pl, pe, pv, po15, po25, pb = obtener_probabilidades(fz.get(f['Equipo Local'],1.2), fz.get(f['Equipo Visitante'],1.2))
-                g = extraer_goles(f.get('Resultado'))
-                if g:
+                    # Actualiza fuerza con datos históricos
+                    fz[loc] += 0.20 if g[0] > g[1] else 0.05
+                    fz[vis] += 0.20 if g[1] > g[0] else 0.05
+                    
+                    pl, pe, pv, po15, po25, pb = obtener_probabilidades(fz[loc], fz[vis])
                     p1x, px2 = pl+pe, pv+pe
                     pk = "1X" if p1x >= px2 else "X2"
+                    
                     historicos.append({
-                        'Fecha': f['Fecha'], 'Liga': ln, 'Jornada': f['Jornada'],
-                        'Equipo Local': f['Equipo Local'], 'Equipo Visitante': f['Equipo Visitante'], 
+                        'Fecha': fila['Fecha'], 'Liga': ln, 'Jornada': fila['Jornada'],
+                        'Equipo Local': loc, 'Equipo Visitante': vis, 
                         'Marcador': f"{g[0]} - {g[1]}", 'G_L': g[0], 'G_V': g[1],
                         'Doble Oportunidad': f"{pk} {'✅' if (g[0]>=g[1] if pk=='1X' else g[1]>=g[0]) else '❌'} ({max(p1x,px2):.0%})",
                         'Over 1.5': f"{'✅' if (g[0]+g[1])>1.5 else '❌'} ({po15:.0%})", 
@@ -140,10 +143,10 @@ def cargar_datos_completos():
                         'BTTS': f"{'✅' if (g[0]>0 and g[1]>0) else '❌'} ({pb:.0%})"
                     })
                 else:
+                    pl, pe, pv, po15, po25, pb = obtener_probabilidades(fz[loc], fz[vis])
                     actuales.append({
-                        'Fecha': f['Fecha'], 'Fecha_dt': f['Fecha_dt'], 'Jornada': f['Jornada'], 'Liga': ln, 
-                        'Local': f['Equipo Local'], 'Visitante': f['Equipo Visitante'],
-                        'Partido': f"{f['Equipo Local']} vs {f['Equipo Visitante']}",
+                        'Fecha': fila['Fecha'], 'Fecha_dt': fila['Fecha_dt'], 'Jornada': fila['Jornada'], 'Liga': ln, 
+                        'Local': loc, 'Visitante': vis, 'Partido': f"{loc} vs {vis}",
                         '1X': pl+pe, 'X2': pv+pe, 'Over 1.5': po15, 'Over 2.5': po25, 'BTTS': pb
                     })
         except: continue
@@ -174,8 +177,7 @@ with t1:
                         if st.button(txt, key=f"t4_{m}_{idx}"): ventana_analisis(r, df_h)
         
         st.divider()
-        # --- SUBTÍTULO RESTAURADO ---
-        st.markdown("### 📊 LIGAS Y JORNADAS")
+        st.markdown("### 📊 LIGAS Y JORNADAS") # Título actualizado como pediste
         c1, c2 = st.columns(2)
         with c1: sl = st.selectbox("Liga:", ["TODAS"] + lgs, key="filt_l")
         with c2:
@@ -189,6 +191,7 @@ with t1:
             st.divider()
             d_top = df_fin.loc[df_fin[['Over 1.5', 'Over 2.5', 'BTTS']].max(axis=1).idxmax()]
             loc, vis = d_top['Local'], d_top['Visitante']
+            
             h_l_home = df_h[(df_h['Equipo Local'] == loc) & (df_h['Liga'] == d_top['Liga'])]
             h_v_away = df_h[(df_h['Equipo Visitante'] == vis) & (df_h['Liga'] == d_top['Liga'])]
             
@@ -199,7 +202,6 @@ with t1:
                 m1_v, m15_v = (h_v_away['G_V'] >= 1).sum(), (h_v_away['G_V'] >= 2).sum()
                 wx2_v = (h_v_away['G_V'] >= h_v_away['G_L']).sum()
                 
-                # --- LÓGICA DE ETIQUETA DINÁMICA ---
                 if d_top['1X'] >= d_top['X2']:
                     etiqueta_texto = f"Gana o empata (Local): {d_top['1X']:.0%}"
                 else:

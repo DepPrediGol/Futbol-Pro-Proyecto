@@ -1,0 +1,126 @@
+﻿Fecha,Jornada,Equipo Local,Equipo Visitante,Resultado
+21/10/2020,1,Red Bull Salzburgo,Lokomotiv Moscú,2-2
+21/10/2020,1,Bayern Munich,Atlético de Madrid,4-0
+27/10/2020,2,Lokomotiv Moscú,Bayern Munich,1-2
+27/10/2020,2,Atlético de Madrid,Red Bull Salzburgo,3-2
+03/11/2020,3,Lokomotiv Moscú,Atlético de Madrid,1-1
+03/11/2020,3,Red Bull Salzburgo,Bayern Munich,2-6
+25/11/2020,4,Atlético de Madrid,Lokomotiv Moscú,0-0
+25/11/2020,4,Bayern Munich,Red Bull Salzburgo,3-1
+01/12/2020,5,Lokomotiv Moscú,Red Bull Salzburgo,1-3
+01/12/2020,5,Atlético de Madrid,Bayern Munich,1-1
+09/12/2020,6,Bayern Munich,Lokomotiv Moscú,2-0
+09/12/2020,6,Red Bull Salzburgo,Atlético de Madrid,0-2
+21/10/2020,1,Real Madrid,Shajtar Donetsk,2-3
+21/10/2020,1,Inter,Bor. Mönchengladbach,2-2
+27/10/2020,2,Shajtar Donetsk,Inter,0-0
+27/10/2020,2,Bor. Mönchengladbach,Real Madrid,2-2
+03/11/2020,3,Shajtar Donetsk,Bor. Mönchengladbach,0-6
+03/11/2020,3,Real Madrid,Inter,3-2
+25/11/2020,4,Bor. Mönchengladbach,Shajtar Donetsk,4-0
+25/11/2020,4,Inter,Real Madrid,0-2
+01/12/2020,5,Shajtar Donetsk,Real Madrid,2-0
+01/12/2020,5,Bor. Mönchengladbach,Inter,2-3
+09/12/2020,6,Inter,Shajtar Donetsk,0-0
+09/12/2020,6,Real Madrid,Bor. Mönchengladbach,2-0
+21/10/2020,1,Manchester City,FC Porto,3-1
+21/10/2020,1,Olympiakos Piraeus,Olympique Marseille,1-0
+27/10/2020,2,FC Porto,Olympiakos Piraeus,2-0
+27/10/2020,2,Olympique Marseille,Manchester City,0-3
+03/11/2020,3,FC Porto,Olympique Marseille,3-0
+03/11/2020,3,Manchester City,Olympiakos Piraeus,3-0
+25/11/2020,4,Olympiakos Piraeus,Manchester City,0-1
+25/11/2020,4,Olympique Marseille,FC Porto,0-2
+01/12/2020,5,FC Porto,Manchester City,0-0
+01/12/2020,5,Olympique Marseille,Olympiakos Piraeus,2-1
+09/12/2020,6,Manchester City,Olympique Marseille,3-0
+09/12/2020,6,Olympiakos Piraeus,FC Porto,0-2
+21/10/2020,1,AFC Ajax,Liverpool FC,0-1
+21/10/2020,1,FC Midtjylland,Atalanta,0-4
+27/10/2020,2,Atalanta,AFC Ajax,2-2
+27/10/2020,2,Liverpool FC,FC Midtjylland,2-0
+03/11/2020,3,Atalanta,Liverpool FC,0-5
+03/11/2020,3,FC Midtjylland,AFC Ajax,1-2
+25/11/2020,4,AFC Ajax,FC Midtjylland,3-1
+25/11/2020,4,Liverpool FC,Atalanta,0-2
+01/12/2020,5,Atalanta,FC Midtjylland,1-1
+01/12/2020,5,Liverpool FC,AFC Ajax,1-0
+09/12/2020,6,AFC Ajax,Atalanta,0-1
+09/12/2020,6,FC Midtjylland,Liverpool FC,1-1
+20/10/2020,1,Chelsea FC,Sevilla FC,0-0
+20/10/2020,1,Stade Rennais,FK Krasnodar,1-1
+28/10/2020,2,FK Krasnodar,Chelsea FC,0-4
+28/10/2020,2,Sevilla FC,Stade Rennais,1-0
+04/11/2020,3,Chelsea FC,Stade Rennais,3-0
+04/11/2020,3,Sevilla FC,FK Krasnodar,3-2
+24/11/2020,4,Stade Rennais,Chelsea FC,1-2
+24/11/2020,4,FK Krasnodar,Sevilla FC,1-2
+02/12/2020,5,FK Krasnodar,Stade Rennais,1-0
+02/12/2020,5,Sevilla FC,Chelsea FC,0-4
+08/12/2020,6,Chelsea FC,FK Krasnodar,1-1
+08/12/2020,6,Stade Rennais,Sevilla FC,1-3
+20/10/2020,1,Zenit de San Petersburgo,Club Brugge KV,1-2
+20/10/2020,1,Lazio Roma,Borussia Dortmund,3-1
+28/10/2020,2,Borussia Dortmund,Zenit de San Petersburgo,2-0
+28/10/2020,2,Club Brugge KV,Lazio Roma,1-1
+04/11/2020,3,Zenit de San Petersburgo,Lazio Roma,1-1
+04/11/2020,3,Club Brugge KV,Borussia Dortmund,0-3
+24/11/2020,4,Borussia Dortmund,Club Brugge KV,3-0
+24/11/2020,4,Lazio Roma,Zenit de San Petersburgo,3-1
+02/12/2020,5,Borussia Dortmund,Lazio Roma,1-1
+02/12/2020,5,Club Brugge KV,Zenit de San Petersburgo,3-0
+08/12/2020,6,Zenit de San Petersburgo,Borussia Dortmund,1-2
+08/12/2020,6,Lazio Roma,Club Brugge KV,2-2
+20/10/2020,1,Dinamo Kiev,Juventus,0-2
+20/10/2020,1,FC Barcelona,Ferencvárosi TC,5-1
+28/10/2020,2,Ferencvárosi TC,Dinamo Kiev,2-2
+28/10/2020,2,Juventus,FC Barcelona,0-2
+04/11/2020,3,FC Barcelona,Dinamo Kiev,2-1
+04/11/2020,3,Ferencvárosi TC,Juventus,1-4
+24/11/2020,4,Dinamo Kiev,FC Barcelona,0-4
+24/11/2020,4,Juventus,Ferencvárosi TC,2-1
+02/12/2020,5,Juventus,Dinamo Kiev,3-0
+02/12/2020,5,Ferencvárosi TC,FC Barcelona,0-3
+08/12/2020,6,Dinamo Kiev,Ferencvárosi TC,1-0
+08/12/2020,6,FC Barcelona,Juventus,0-3
+20/10/2020,1,RB Leipzig,İstanbul Başakşehir,2-0
+20/10/2020,1,Paris Saint-Germain,Manchester United,1-2
+28/10/2020,2,İstanbul Başakşehir,Paris Saint-Germain,0-2
+28/10/2020,2,Manchester United,RB Leipzig,5-0
+04/11/2020,3,İstanbul Başakşehir,Manchester United,2-1
+04/11/2020,3,RB Leipzig,Paris Saint-Germain,2-1
+24/11/2020,4,Manchester United,İstanbul Başakşehir,4-1
+24/11/2020,4,Paris Saint-Germain,RB Leipzig,1-0
+02/12/2020,5,İstanbul Başakşehir,RB Leipzig,3-4
+02/12/2020,5,Manchester United,Paris Saint-Germain,1-3
+08/12/2020,6,RB Leipzig,Manchester United,3-2
+09/12/2020,6,Paris Saint-Germain,İstanbul Başakşehir,5-1
+16/02/2021,6,RB Leipzig,Liverpool FC,0-2
+16/02/2021,6,FC Barcelona,Paris Saint-Germain,1-4
+17/02/2021,6,FC Porto,Juventus,2-1
+17/02/2021,6,Sevilla FC,Borussia Dortmund,2-3
+23/02/2021,6,Lazio Roma,Bayern Munich,1-4
+23/02/2021,6,Atlético de Madrid,Chelsea FC,0-1
+24/02/2021,6,Bor. Mönchengladbach,Manchester City,0-2
+24/02/2021,6,Atalanta,Real Madrid,0-1
+09/03/2021,6,Juventus,FC Porto,3-2
+09/03/2021,6,Borussia Dortmund,Sevilla FC,2-2
+10/03/2021,6,Liverpool FC,RB Leipzig,2-0
+10/03/2021,6,Paris Saint-Germain,FC Barcelona,1-1
+16/03/2021,6,Manchester City,Bor. Mönchengladbach,2-0
+16/03/2021,6,Real Madrid,Atalanta,3-1
+17/03/2021,6,Bayern Munich,Lazio Roma,2-1
+17/03/2021,6,Chelsea FC,Atlético de Madrid,2-0
+06/04/2021,6,Manchester City,Borussia Dortmund,2-1
+06/04/2021,6,Real Madrid,Liverpool FC,3-1
+07/04/2021,6,FC Porto,Chelsea FC,0-2
+07/04/2021,6,Bayern Munich,Paris Saint-Germain,2-3
+13/04/2021,6,Chelsea FC,FC Porto,0-1
+13/04/2021,6,Paris Saint-Germain,Bayern Munich,0-1
+14/04/2021,6,Borussia Dortmund,Manchester City,1-2
+14/04/2021,6,Liverpool FC,Real Madrid,0-0
+27/04/2021,6,Real Madrid,Chelsea FC,1-1
+28/04/2021,6,Paris Saint-Germain,Manchester City,1-2
+04/05/2021,6,Manchester City,Paris Saint-Germain,2-0
+05/05/2021,6,Chelsea FC,Real Madrid,2-0
+29/05/2021,6,Manchester City,Chelsea FC,0-1

@@ -1,0 +1,126 @@
+﻿Fecha,Jornada,Equipo Local,Equipo Visitante,Resultado
+07/09/2022,1,AFC Ajax,Rangers FC,4-0
+07/09/2022,1,SSC Napoli,Liverpool FC,4-1
+13/09/2022,2,Liverpool FC,AFC Ajax,2-1
+14/09/2022,2,Rangers FC,SSC Napoli,0-3
+04/10/2022,3,AFC Ajax,SSC Napoli,1-6
+04/10/2022,3,Liverpool FC,Rangers FC,2-0
+12/10/2022,4,SSC Napoli,AFC Ajax,4-2
+12/10/2022,4,Rangers FC,Liverpool FC,1-7
+26/10/2022,5,AFC Ajax,Liverpool FC,0-3
+26/10/2022,5,SSC Napoli,Rangers FC,3-0
+01/11/2022,6,Rangers FC,AFC Ajax,1-3
+01/11/2022,6,Liverpool FC,SSC Napoli,2-0
+07/09/2022,1,Atlético de Madrid,FC Porto,2-1
+07/09/2022,1,Club Brugge KV,Bayer Leverkusen,1-0
+13/09/2022,2,Bayer Leverkusen,Atlético de Madrid,2-0
+13/09/2022,2,FC Porto,Club Brugge KV,0-4
+04/10/2022,3,Club Brugge KV,Atlético de Madrid,2-0
+04/10/2022,3,FC Porto,Bayer Leverkusen,2-0
+12/10/2022,4,Atlético de Madrid,Club Brugge KV,0-0
+12/10/2022,4,Bayer Leverkusen,FC Porto,0-3
+26/10/2022,5,Club Brugge KV,FC Porto,0-4
+26/10/2022,5,Atlético de Madrid,Bayer Leverkusen,2-2
+01/11/2022,6,FC Porto,Atlético de Madrid,2-1
+01/11/2022,6,Bayer Leverkusen,Club Brugge KV,0-0
+07/09/2022,1,Inter,Bayern Munich,0-2
+07/09/2022,1,FC Barcelona,Viktoria Plzeň,5-1
+13/09/2022,2,Viktoria Plzeň,Inter,0-2
+13/09/2022,2,Bayern Munich,FC Barcelona,2-0
+04/10/2022,3,Bayern Munich,Viktoria Plzeň,5-0
+04/10/2022,3,Inter,FC Barcelona,1-0
+12/10/2022,4,Viktoria Plzeň,Bayern Munich,2-4
+12/10/2022,4,FC Barcelona,Inter,3-3
+26/10/2022,5,Inter,Viktoria Plzeň,4-0
+26/10/2022,5,FC Barcelona,Bayern Munich,0-3
+01/11/2022,6,Bayern Munich,Inter,2-0
+01/11/2022,6,Viktoria Plzeň,FC Barcelona,2-4
+07/09/2022,1,Eintracht Francfort,Sporting CP,0-3
+07/09/2022,1,Tottenham Hotspur,Olympique Marseille,2-0
+13/09/2022,2,Sporting CP,Tottenham Hotspur,2-0
+13/09/2022,2,Olympique Marseille,Eintracht Francfort,0-1
+04/10/2022,3,Olympique Marseille,Sporting CP,4-1
+04/10/2022,3,Eintracht Francfort,Tottenham Hotspur,0-0
+12/10/2022,4,Tottenham Hotspur,Eintracht Francfort,3-2
+12/10/2022,4,Sporting CP,Olympique Marseille,0-2
+26/10/2022,5,Eintracht Francfort,Olympique Marseille,2-1
+26/10/2022,5,Tottenham Hotspur,Sporting CP,1-1
+01/11/2022,6,Sporting CP,Eintracht Francfort,1-2
+01/11/2022,6,Olympique Marseille,Tottenham Hotspur,1-2
+06/09/2022,1,Dinamo Zagreb,Chelsea FC,1-0
+06/09/2022,1,Red Bull Salzburgo,AC Milan,1-1
+14/09/2022,2,AC Milan,Dinamo Zagreb,3-1
+14/09/2022,2,Chelsea FC,Red Bull Salzburgo,1-1
+05/10/2022,3,Red Bull Salzburgo,Dinamo Zagreb,1-0
+05/10/2022,3,Chelsea FC,AC Milan,3-0
+11/10/2022,4,AC Milan,Chelsea FC,0-2
+11/10/2022,4,Dinamo Zagreb,Red Bull Salzburgo,1-1
+25/10/2022,5,Red Bull Salzburgo,Chelsea FC,1-2
+25/10/2022,5,Dinamo Zagreb,AC Milan,0-4
+02/11/2022,6,AC Milan,Red Bull Salzburgo,4-0
+02/11/2022,6,Chelsea FC,Dinamo Zagreb,2-1
+06/09/2022,1,Celtic FC,Real Madrid,0-3
+06/09/2022,1,RB Leipzig,Shajtar Donetsk,1-4
+14/09/2022,2,Shajtar Donetsk,Celtic FC,1-1
+14/09/2022,2,Real Madrid,RB Leipzig,2-0
+05/10/2022,3,RB Leipzig,Celtic FC,3-1
+05/10/2022,3,Real Madrid,Shajtar Donetsk,2-1
+11/10/2022,4,Celtic FC,RB Leipzig,0-2
+11/10/2022,4,Shajtar Donetsk,Real Madrid,1-1
+25/10/2022,5,Celtic FC,Shajtar Donetsk,1-1
+25/10/2022,5,RB Leipzig,Real Madrid,3-2
+02/11/2022,6,Real Madrid,Celtic FC,5-1
+02/11/2022,6,Shajtar Donetsk,RB Leipzig,0-4
+06/09/2022,1,Borussia Dortmund,FC København,3-0
+06/09/2022,1,Sevilla FC,Manchester City,0-4
+14/09/2022,2,Manchester City,Borussia Dortmund,2-1
+14/09/2022,2,FC København,Sevilla FC,0-0
+05/10/2022,3,Sevilla FC,Borussia Dortmund,1-4
+05/10/2022,3,Manchester City,FC København,5-0
+11/10/2022,4,FC København,Manchester City,0-0
+11/10/2022,4,Borussia Dortmund,Sevilla FC,1-1
+25/10/2022,5,Sevilla FC,FC København,3-0
+25/10/2022,5,Borussia Dortmund,Manchester City,0-0
+02/11/2022,6,FC København,Borussia Dortmund,1-1
+02/11/2022,6,Manchester City,Sevilla FC,3-1
+06/09/2022,1,Paris Saint-Germain,Juventus,2-1
+06/09/2022,1,SL Benfica,Maccabi Haifa,2-0
+14/09/2022,2,Juventus,SL Benfica,1-2
+14/09/2022,2,Maccabi Haifa,Paris Saint-Germain,1-3
+05/10/2022,3,Juventus,Maccabi Haifa,3-1
+05/10/2022,3,SL Benfica,Paris Saint-Germain,1-1
+11/10/2022,4,Maccabi Haifa,Juventus,2-0
+11/10/2022,4,Paris Saint-Germain,SL Benfica,1-1
+25/10/2022,5,SL Benfica,Juventus,4-3
+25/10/2022,5,Paris Saint-Germain,Maccabi Haifa,7-2
+02/11/2022,6,Juventus,Paris Saint-Germain,1-2
+02/11/2022,6,Maccabi Haifa,SL Benfica,1-6
+14/02/2023,6,AC Milan,Tottenham Hotspur,1-0
+14/02/2023,6,Paris Saint-Germain,Bayern Munich,0-1
+15/02/2023,6,Club Brugge KV,SL Benfica,0-2
+15/02/2023,6,Borussia Dortmund,Chelsea FC,1-0
+21/02/2023,6,Liverpool FC,Real Madrid,2-5
+21/02/2023,6,Eintracht Francfort,SSC Napoli,0-2
+22/02/2023,6,RB Leipzig,Manchester City,1-1
+22/02/2023,6,Inter,FC Porto,1-0
+07/03/2023,6,SL Benfica,Club Brugge KV,5-1
+07/03/2023,6,Chelsea FC,Borussia Dortmund,2-0
+08/03/2023,6,Bayern Munich,Paris Saint-Germain,2-0
+08/03/2023,6,Tottenham Hotspur,AC Milan,0-0
+14/03/2023,6,Manchester City,RB Leipzig,7-0
+14/03/2023,6,FC Porto,Inter,0-0
+15/03/2023,6,Real Madrid,Liverpool FC,1-0
+15/03/2023,6,SSC Napoli,Eintracht Francfort,3-0
+11/04/2023,6,SL Benfica,Inter,0-2
+11/04/2023,6,Manchester City,Bayern Munich,3-0
+12/04/2023,6,Real Madrid,Chelsea FC,2-0
+12/04/2023,6,AC Milan,SSC Napoli,1-0
+18/04/2023,6,Chelsea FC,Real Madrid,0-2
+18/04/2023,6,SSC Napoli,AC Milan,1-1
+19/04/2023,6,Inter,SL Benfica,3-3
+19/04/2023,6,Bayern Munich,Manchester City,1-1
+09/05/2023,6,Real Madrid,Manchester City,1-1
+10/05/2023,6,AC Milan,Inter,0-2
+16/05/2023,6,Inter,AC Milan,1-0
+17/05/2023,6,Manchester City,Real Madrid,4-0
+10/06/2023,6,Manchester City,Inter,1-0

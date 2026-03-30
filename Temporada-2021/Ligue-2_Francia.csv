@@ -1,0 +1,381 @@
+﻿Fecha,Jornada,Equipo Local,Equipo Visitante,Resultado
+22/08/2020,1,Toulouse FC,USL Dunkerque,0-1
+22/08/2020,1,AC Ajaccio,LB Châteauroux,0-1
+22/08/2020,1,AJ Auxerre,FC Sochaux,0-2
+22/08/2020,1,Clermont Foot 63,SM Caen,0-0
+22/08/2020,1,EA Guingamp,Chamois Niortais,0-1
+22/08/2020,1,FC Chambly,Paris FC,0-3
+22/08/2020,1,Valenciennes FC,Pau FC,3-0
+22/08/2020,1,Rodez AF,Grenoble Foot 38,1-0
+22/08/2020,1,Amiens SC,AS Nancy Lorraine,1-0
+24/08/2020,1,ESTAC Troyes,Havre AC,2-0
+29/08/2020,2,AS Nancy Lorraine,EA Guingamp,2-2
+29/08/2020,2,SM Caen,AC Ajaccio,1-0
+29/08/2020,2,Havre AC,Amiens SC,1-0
+29/08/2020,2,Chamois Niortais,FC Chambly,1-1
+29/08/2020,2,Paris FC,Valenciennes FC,1-0
+29/08/2020,2,Pau FC,Rodez AF,1-1
+29/08/2020,2,FC Sochaux,ESTAC Troyes,2-1
+29/08/2020,2,Grenoble Foot 38,Toulouse FC,5-3
+29/08/2020,2,LB Châteauroux,AJ Auxerre,1-2
+29/08/2020,2,USL Dunkerque,Clermont Foot 63,1-1
+12/09/2020,3,EA Guingamp,Havre AC,1-3
+12/09/2020,3,AJ Auxerre,Clermont Foot 63,0-1
+12/09/2020,3,ESTAC Troyes,Pau FC,2-0
+12/09/2020,3,FC Chambly,Grenoble Foot 38,1-2
+12/09/2020,3,Chamois Niortais,AS Nancy Lorraine,1-0
+12/09/2020,3,Valenciennes FC,LB Châteauroux,1-0
+12/09/2020,3,Rodez AF,SM Caen,0-3
+12/09/2020,3,Amiens SC,Paris FC,1-2
+14/09/2020,3,Toulouse FC,FC Sochaux,0-0
+30/09/2020,3,AC Ajaccio,USL Dunkerque,1-0
+19/09/2020,4,Clermont Foot 63,Toulouse FC,1-1
+19/09/2020,4,Havre AC,Chamois Niortais,0-1
+19/09/2020,4,Paris FC,AS Nancy Lorraine,0-2
+19/09/2020,4,Pau FC,EA Guingamp,0-1
+19/09/2020,4,FC Sochaux,Rodez AF,2-2
+19/09/2020,4,Grenoble Foot 38,AC Ajaccio,2-0
+19/09/2020,4,LB Châteauroux,Amiens SC,0-0
+19/09/2020,4,SM Caen,FC Chambly,0-0
+19/09/2020,4,USL Dunkerque,Valenciennes FC,1-0
+21/09/2020,4,AJ Auxerre,ESTAC Troyes,2-1
+26/09/2020,5,Toulouse FC,AJ Auxerre,3-1
+26/09/2020,5,AC Ajaccio,FC Sochaux,1-1
+26/09/2020,5,AS Nancy Lorraine,Havre AC,0-1
+26/09/2020,5,EA Guingamp,Grenoble Foot 38,1-0
+26/09/2020,5,FC Chambly,LB Châteauroux,2-1
+26/09/2020,5,Chamois Niortais,Paris FC,2-2
+26/09/2020,5,Valenciennes FC,SM Caen,1-0
+26/09/2020,5,Rodez AF,USL Dunkerque,2-1
+26/09/2020,5,Amiens SC,Pau FC,0-0
+28/09/2020,5,ESTAC Troyes,Clermont Foot 63,1-0
+03/10/2020,6,Toulouse FC,ESTAC Troyes,0-0
+03/10/2020,6,SM Caen,Amiens SC,1-0
+03/10/2020,6,AJ Auxerre,AC Ajaccio,5-1
+03/10/2020,6,Clermont Foot 63,Rodez AF,3-0
+03/10/2020,6,Paris FC,Havre AC,3-0
+03/10/2020,6,Pau FC,AS Nancy Lorraine,1-1
+03/10/2020,6,FC Sochaux,FC Chambly,3-2
+03/10/2020,6,Grenoble Foot 38,Valenciennes FC,2-0
+03/10/2020,6,LB Châteauroux,Chamois Niortais,2-0
+03/10/2020,6,USL Dunkerque,EA Guingamp,1-0
+16/10/2020,7,FC Chambly,Clermont Foot 63,0-3
+17/10/2020,7,Valenciennes FC,FC Sochaux,0-0
+17/10/2020,7,AC Ajaccio,Toulouse FC,0-1
+17/10/2020,7,Havre AC,LB Châteauroux,1-1
+17/10/2020,7,AS Nancy Lorraine,USL Dunkerque,2-1
+17/10/2020,7,Chamois Niortais,SM Caen,3-0
+17/10/2020,7,Paris FC,Pau FC,1-0
+17/10/2020,7,Rodez AF,ESTAC Troyes,0-1
+17/10/2020,7,Amiens SC,Grenoble Foot 38,1-0
+19/10/2020,7,EA Guingamp,AJ Auxerre,2-0
+24/10/2020,8,SM Caen,EA Guingamp,1-0
+24/10/2020,8,AJ Auxerre,FC Chambly,4-0
+24/10/2020,8,Clermont Foot 63,AC Ajaccio,0-2
+24/10/2020,8,ESTAC Troyes,Valenciennes FC,1-1
+24/10/2020,8,Pau FC,Chamois Niortais,4-1
+24/10/2020,8,Toulouse FC,Rodez AF,3-0
+24/10/2020,8,LB Châteauroux,Paris FC,1-2
+24/10/2020,8,USL Dunkerque,Havre AC,0-1
+26/10/2020,8,FC Sochaux,Amiens SC,0-2
+24/11/2020,8,Grenoble Foot 38,AS Nancy Lorraine,1-0
+31/10/2020,9,Paris FC,SM Caen,3-1
+31/10/2020,9,AC Ajaccio,ESTAC Troyes,0-4
+31/10/2020,9,Havre AC,Pau FC,1-0
+31/10/2020,9,AS Nancy Lorraine,LB Châteauroux,2-1
+31/10/2020,9,EA Guingamp,FC Sochaux,0-0
+31/10/2020,9,FC Chambly,USL Dunkerque,0-1
+31/10/2020,9,Valenciennes FC,Clermont Foot 63,1-3
+31/10/2020,9,Rodez AF,AJ Auxerre,2-2
+02/11/2020,9,Amiens SC,Toulouse FC,0-1
+15/12/2020,9,Chamois Niortais,Grenoble Foot 38,0-0
+07/11/2020,10,Clermont Foot 63,EA Guingamp,0-0
+07/11/2020,10,Grenoble Foot 38,Havre AC,2-1
+07/11/2020,10,AJ Auxerre,Amiens SC,2-1
+07/11/2020,10,ESTAC Troyes,FC Chambly,2-2
+07/11/2020,10,FC Sochaux,Chamois Niortais,3-4
+07/11/2020,10,Toulouse FC,Valenciennes FC,4-5
+07/11/2020,10,LB Châteauroux,Pau FC,0-3
+07/11/2020,10,Rodez AF,AC Ajaccio,0-1
+07/11/2020,10,SM Caen,AS Nancy Lorraine,2-1
+07/11/2020,10,USL Dunkerque,Paris FC,0-1
+21/11/2020,11,Havre AC,SM Caen,1-2
+21/11/2020,11,FC Chambly,Toulouse FC,1-1
+21/11/2020,11,Chamois Niortais,USL Dunkerque,1-2
+21/11/2020,11,Paris FC,AJ Auxerre,0-3
+21/11/2020,11,Pau FC,Grenoble Foot 38,0-2
+21/11/2020,11,Valenciennes FC,Rodez AF,1-1
+21/11/2020,11,LB Châteauroux,FC Sochaux,2-1
+21/11/2020,11,Amiens SC,Clermont Foot 63,1-1
+23/11/2020,11,EA Guingamp,AC Ajaccio,2-2
+15/12/2020,11,AS Nancy Lorraine,ESTAC Troyes,2-3
+28/11/2020,12,Toulouse FC,Chamois Niortais,2-1
+28/11/2020,12,Grenoble Foot 38,Paris FC,0-0
+28/11/2020,12,AC Ajaccio,FC Chambly,0-0
+28/11/2020,12,AJ Auxerre,Valenciennes FC,1-1
+28/11/2020,12,Clermont Foot 63,AS Nancy Lorraine,2-0
+28/11/2020,12,ESTAC Troyes,Amiens SC,2-1
+28/11/2020,12,FC Sochaux,Havre AC,4-0
+28/11/2020,12,Rodez AF,EA Guingamp,1-1
+28/11/2020,12,SM Caen,LB Châteauroux,1-1
+28/11/2020,12,USL Dunkerque,Pau FC,2-2
+01/12/2020,13,Havre AC,AJ Auxerre,1-1
+01/12/2020,13,AS Nancy Lorraine,Toulouse FC,1-3
+01/12/2020,13,EA Guingamp,ESTAC Troyes,1-2
+01/12/2020,13,FC Chambly,Rodez AF,1-0
+01/12/2020,13,Chamois Niortais,Clermont Foot 63,1-0
+01/12/2020,13,Paris FC,FC Sochaux,0-0
+01/12/2020,13,Pau FC,SM Caen,1-0
+01/12/2020,13,Valenciennes FC,AC Ajaccio,1-1
+01/12/2020,13,LB Châteauroux,Grenoble Foot 38,0-1
+01/12/2020,13,Amiens SC,USL Dunkerque,1-0
+05/12/2020,14,ESTAC Troyes,Paris FC,2-1
+05/12/2020,14,AJ Auxerre,Chamois Niortais,6-0
+05/12/2020,14,Clermont Foot 63,Pau FC,3-0
+05/12/2020,14,FC Chambly,Valenciennes FC,1-2
+05/12/2020,14,FC Sochaux,AS Nancy Lorraine,1-1
+05/12/2020,14,Toulouse FC,EA Guingamp,2-2
+05/12/2020,14,Rodez AF,Amiens SC,1-2
+05/12/2020,14,SM Caen,Grenoble Foot 38,1-1
+05/12/2020,14,USL Dunkerque,LB Châteauroux,2-0
+07/12/2020,14,AC Ajaccio,Havre AC,1-1
+12/12/2020,15,SM Caen,ESTAC Troyes,0-0
+12/12/2020,15,AS Nancy Lorraine,AJ Auxerre,2-2
+12/12/2020,15,EA Guingamp,Valenciennes FC,1-1
+12/12/2020,15,Chamois Niortais,AC Ajaccio,2-0
+12/12/2020,15,Paris FC,Rodez AF,1-1
+12/12/2020,15,Grenoble Foot 38,USL Dunkerque,4-0
+12/12/2020,15,LB Châteauroux,Toulouse FC,0-3
+12/12/2020,15,Amiens SC,FC Chambly,1-1
+14/12/2020,15,Havre AC,Clermont Foot 63,0-0
+15/12/2020,15,Pau FC,FC Sochaux,0-0
+18/12/2020,16,AC Ajaccio,AS Nancy Lorraine,1-0
+18/12/2020,16,AJ Auxerre,Pau FC,2-1
+18/12/2020,16,ESTAC Troyes,Chamois Niortais,1-0
+18/12/2020,16,FC Chambly,EA Guingamp,3-0
+18/12/2020,16,FC Sochaux,Grenoble Foot 38,1-1
+18/12/2020,16,Valenciennes FC,Amiens SC,0-2
+18/12/2020,16,Rodez AF,LB Châteauroux,1-1
+18/12/2020,16,USL Dunkerque,SM Caen,2-3
+19/12/2020,16,Clermont Foot 63,Paris FC,3-2
+19/12/2020,16,Toulouse FC,Havre AC,4-3
+22/12/2020,17,Chamois Niortais,Valenciennes FC,0-3
+22/12/2020,17,Havre AC,Rodez AF,1-1
+22/12/2020,17,AS Nancy Lorraine,FC Chambly,3-3
+22/12/2020,17,Paris FC,EA Guingamp,3-2
+22/12/2020,17,Pau FC,Toulouse FC,0-3
+22/12/2020,17,Grenoble Foot 38,ESTAC Troyes,2-0
+22/12/2020,17,LB Châteauroux,Clermont Foot 63,0-1
+22/12/2020,17,Amiens SC,AC Ajaccio,0-0
+22/12/2020,17,SM Caen,FC Sochaux,1-4
+22/12/2020,17,USL Dunkerque,AJ Auxerre,0-1
+05/01/2021,18,AC Ajaccio,Pau FC,4-1
+05/01/2021,18,AJ Auxerre,SM Caen,1-1
+05/01/2021,18,Clermont Foot 63,Grenoble Foot 38,3-0
+05/01/2021,18,EA Guingamp,Amiens SC,2-2
+05/01/2021,18,ESTAC Troyes,LB Châteauroux,2-0
+05/01/2021,18,FC Chambly,Havre AC,0-1
+05/01/2021,18,FC Sochaux,USL Dunkerque,1-0
+05/01/2021,18,Toulouse FC,Paris FC,1-0
+05/01/2021,18,Valenciennes FC,AS Nancy Lorraine,2-3
+05/01/2021,18,Rodez AF,Chamois Niortais,1-1
+08/01/2021,19,Havre AC,Valenciennes FC,0-2
+08/01/2021,19,AS Nancy Lorraine,Rodez AF,2-2
+08/01/2021,19,Chamois Niortais,Amiens SC,0-2
+08/01/2021,19,Paris FC,AC Ajaccio,1-1
+08/01/2021,19,Pau FC,FC Chambly,1-3
+08/01/2021,19,FC Sochaux,Clermont Foot 63,0-0
+08/01/2021,19,LB Châteauroux,EA Guingamp,2-3
+08/01/2021,19,USL Dunkerque,ESTAC Troyes,0-0
+09/01/2021,19,Grenoble Foot 38,AJ Auxerre,2-2
+11/01/2021,19,SM Caen,Toulouse FC,2-2
+16/01/2021,20,ESTAC Troyes,FC Sochaux,2-1
+16/01/2021,20,Toulouse FC,Grenoble Foot 38,2-0
+16/01/2021,20,AC Ajaccio,SM Caen,1-0
+16/01/2021,20,AJ Auxerre,LB Châteauroux,4-1
+16/01/2021,20,Clermont Foot 63,USL Dunkerque,5-0
+16/01/2021,20,EA Guingamp,AS Nancy Lorraine,0-0
+16/01/2021,20,Rodez AF,Pau FC,1-0
+16/01/2021,20,Amiens SC,Havre AC,0-0
+26/01/2021,20,Valenciennes FC,Paris FC,2-0
+27/01/2021,20,FC Chambly,Chamois Niortais,1-1
+23/01/2021,21,Clermont Foot 63,AJ Auxerre,1-0
+23/01/2021,21,Havre AC,EA Guingamp,1-1
+23/01/2021,21,AS Nancy Lorraine,Chamois Niortais,2-2
+23/01/2021,21,Paris FC,Amiens SC,4-2
+23/01/2021,21,Pau FC,ESTAC Troyes,0-1
+23/01/2021,21,Grenoble Foot 38,FC Chambly,2-0
+23/01/2021,21,LB Châteauroux,Valenciennes FC,3-3
+23/01/2021,21,SM Caen,Rodez AF,1-2
+23/01/2021,21,USL Dunkerque,AC Ajaccio,3-1
+25/01/2021,21,FC Sochaux,Toulouse FC,0-1
+30/01/2021,22,ESTAC Troyes,AJ Auxerre,3-1
+30/01/2021,22,Toulouse FC,Clermont Foot 63,3-2
+30/01/2021,22,AC Ajaccio,Grenoble Foot 38,2-1
+30/01/2021,22,AS Nancy Lorraine,Paris FC,1-1
+30/01/2021,22,EA Guingamp,Pau FC,2-3
+30/01/2021,22,FC Chambly,SM Caen,4-2
+30/01/2021,22,Chamois Niortais,Havre AC,0-0
+30/01/2021,22,Valenciennes FC,USL Dunkerque,1-0
+30/01/2021,22,Rodez AF,FC Sochaux,1-1
+30/01/2021,22,Amiens SC,LB Châteauroux,1-0
+02/02/2021,23,Havre AC,AS Nancy Lorraine,1-1
+02/02/2021,23,AJ Auxerre,Toulouse FC,3-1
+02/02/2021,23,Clermont Foot 63,ESTAC Troyes,2-1
+02/02/2021,23,Paris FC,Chamois Niortais,3-3
+02/02/2021,23,Pau FC,Amiens SC,2-0
+02/02/2021,23,FC Sochaux,AC Ajaccio,0-2
+02/02/2021,23,Grenoble Foot 38,EA Guingamp,2-1
+02/02/2021,23,LB Châteauroux,FC Chambly,4-0
+02/02/2021,23,SM Caen,Valenciennes FC,1-1
+02/02/2021,23,USL Dunkerque,Rodez AF,0-0
+05/02/2021,24,AC Ajaccio,AJ Auxerre,0-0
+05/02/2021,24,AS Nancy Lorraine,Pau FC,1-0
+05/02/2021,24,EA Guingamp,USL Dunkerque,0-0
+05/02/2021,24,FC Chambly,FC Sochaux,1-4
+05/02/2021,24,Chamois Niortais,LB Châteauroux,1-1
+05/02/2021,24,Valenciennes FC,Grenoble Foot 38,0-1
+05/02/2021,24,Rodez AF,Clermont Foot 63,2-0
+05/02/2021,24,Amiens SC,SM Caen,0-0
+06/02/2021,24,Havre AC,Paris FC,1-0
+06/02/2021,24,ESTAC Troyes,Toulouse FC,1-1
+13/02/2021,25,AJ Auxerre,EA Guingamp,1-1
+13/02/2021,25,Clermont Foot 63,FC Chambly,1-0
+13/02/2021,25,ESTAC Troyes,Rodez AF,2-1
+13/02/2021,25,Pau FC,Paris FC,1-1
+13/02/2021,25,Grenoble Foot 38,Amiens SC,0-0
+13/02/2021,25,LB Châteauroux,Havre AC,0-1
+13/02/2021,25,SM Caen,Chamois Niortais,1-0
+13/02/2021,25,USL Dunkerque,AS Nancy Lorraine,1-2
+15/02/2021,25,FC Sochaux,Valenciennes FC,2-0
+15/02/2021,25,Toulouse FC,AC Ajaccio,3-0
+20/02/2021,26,Valenciennes FC,ESTAC Troyes,2-2
+20/02/2021,26,AC Ajaccio,Clermont Foot 63,0-2
+20/02/2021,26,Havre AC,USL Dunkerque,1-1
+20/02/2021,26,AS Nancy Lorraine,Grenoble Foot 38,1-2
+20/02/2021,26,FC Chambly,AJ Auxerre,0-1
+20/02/2021,26,Chamois Niortais,Pau FC,2-1
+20/02/2021,26,Paris FC,LB Châteauroux,1-0
+20/02/2021,26,Rodez AF,Toulouse FC,1-0
+20/02/2021,26,Amiens SC,FC Sochaux,0-1
+22/02/2021,26,EA Guingamp,SM Caen,2-2
+27/02/2021,27,ESTAC Troyes,AC Ajaccio,1-0
+27/02/2021,27,Toulouse FC,Amiens SC,3-0
+27/02/2021,27,AJ Auxerre,Rodez AF,0-1
+27/02/2021,27,Clermont Foot 63,Valenciennes FC,4-0
+27/02/2021,27,Pau FC,Havre AC,2-0
+27/02/2021,27,FC Sochaux,EA Guingamp,0-0
+27/02/2021,27,Grenoble Foot 38,Chamois Niortais,1-1
+27/02/2021,27,LB Châteauroux,AS Nancy Lorraine,1-4
+27/02/2021,27,SM Caen,Paris FC,0-2
+27/02/2021,27,USL Dunkerque,FC Chambly,1-1
+02/03/2021,28,AC Ajaccio,Rodez AF,1-0
+02/03/2021,28,Havre AC,Grenoble Foot 38,0-2
+02/03/2021,28,AS Nancy Lorraine,SM Caen,1-0
+02/03/2021,28,EA Guingamp,Clermont Foot 63,0-5
+02/03/2021,28,FC Chambly,ESTAC Troyes,0-3
+02/03/2021,28,Chamois Niortais,FC Sochaux,1-3
+02/03/2021,28,Paris FC,USL Dunkerque,1-0
+02/03/2021,28,Pau FC,LB Châteauroux,1-0
+02/03/2021,28,Valenciennes FC,Toulouse FC,1-0
+02/03/2021,28,Amiens SC,AJ Auxerre,1-1
+13/03/2021,29,AJ Auxerre,Paris FC,0-0
+13/03/2021,29,AC Ajaccio,EA Guingamp,0-2
+13/03/2021,29,ESTAC Troyes,AS Nancy Lorraine,1-5
+13/03/2021,29,FC Sochaux,LB Châteauroux,0-0
+13/03/2021,29,Toulouse FC,FC Chambly,4-0
+13/03/2021,29,Grenoble Foot 38,Pau FC,1-1
+13/03/2021,29,Rodez AF,Valenciennes FC,3-0
+13/03/2021,29,USL Dunkerque,Chamois Niortais,2-0
+15/03/2021,29,SM Caen,Havre AC,0-2
+14/04/2021,29,Clermont Foot 63,Amiens SC,3-0
+19/03/2021,30,FC Chambly,AC Ajaccio,2-1
+20/03/2021,30,Amiens SC,ESTAC Troyes,3-1
+20/03/2021,30,Havre AC,FC Sochaux,0-2
+20/03/2021,30,AS Nancy Lorraine,Clermont Foot 63,1-0
+20/03/2021,30,EA Guingamp,Rodez AF,1-1
+20/03/2021,30,Chamois Niortais,Toulouse FC,1-0
+20/03/2021,30,Paris FC,Grenoble Foot 38,2-0
+20/03/2021,30,Pau FC,USL Dunkerque,3-1
+20/03/2021,30,Valenciennes FC,AJ Auxerre,2-2
+20/03/2021,30,LB Châteauroux,SM Caen,2-2
+03/04/2021,31,Toulouse FC,AS Nancy Lorraine,4-1
+03/04/2021,31,AC Ajaccio,Valenciennes FC,3-0
+03/04/2021,31,Clermont Foot 63,Chamois Niortais,0-0
+03/04/2021,31,ESTAC Troyes,EA Guingamp,1-0
+03/04/2021,31,FC Sochaux,Paris FC,1-2
+03/04/2021,31,Grenoble Foot 38,LB Châteauroux,2-2
+03/04/2021,31,Rodez AF,FC Chambly,2-2
+03/04/2021,31,SM Caen,Pau FC,1-1
+05/04/2021,31,AJ Auxerre,Havre AC,1-1
+28/04/2021,31,USL Dunkerque,Amiens SC,1-1
+10/04/2021,32,Paris FC,ESTAC Troyes,1-1
+10/04/2021,32,Havre AC,AC Ajaccio,1-1
+10/04/2021,32,AS Nancy Lorraine,FC Sochaux,0-0
+10/04/2021,32,Chamois Niortais,AJ Auxerre,0-4
+10/04/2021,32,Pau FC,Clermont Foot 63,2-1
+10/04/2021,32,Valenciennes FC,FC Chambly,2-1
+10/04/2021,32,Grenoble Foot 38,SM Caen,3-1
+10/04/2021,32,LB Châteauroux,USL Dunkerque,1-2
+11/04/2021,32,Amiens SC,Rodez AF,1-0
+12/04/2021,32,EA Guingamp,Toulouse FC,1-1
+17/04/2021,33,Clermont Foot 63,Havre AC,1-1
+17/04/2021,33,ESTAC Troyes,SM Caen,1-0
+17/04/2021,33,AC Ajaccio,Chamois Niortais,3-0
+17/04/2021,33,AJ Auxerre,AS Nancy Lorraine,3-2
+17/04/2021,33,FC Chambly,Amiens SC,2-0
+17/04/2021,33,FC Sochaux,Pau FC,1-1
+17/04/2021,33,Toulouse FC,LB Châteauroux,1-0
+17/04/2021,33,Valenciennes FC,EA Guingamp,0-1
+17/04/2021,33,Rodez AF,Paris FC,2-2
+17/04/2021,33,USL Dunkerque,Grenoble Foot 38,1-1
+20/04/2021,34,AS Nancy Lorraine,AC Ajaccio,2-0
+20/04/2021,34,EA Guingamp,FC Chambly,1-0
+20/04/2021,34,Chamois Niortais,ESTAC Troyes,0-3
+20/04/2021,34,Paris FC,Clermont Foot 63,0-1
+20/04/2021,34,Pau FC,AJ Auxerre,3-0
+20/04/2021,34,Grenoble Foot 38,FC Sochaux,2-0
+20/04/2021,34,LB Châteauroux,Rodez AF,1-1
+20/04/2021,34,Amiens SC,Valenciennes FC,3-1
+20/04/2021,34,SM Caen,USL Dunkerque,1-1
+04/05/2021,34,Havre AC,Toulouse FC,0-1
+24/04/2021,35,ESTAC Troyes,Grenoble Foot 38,3-1
+24/04/2021,35,AC Ajaccio,Amiens SC,2-2
+24/04/2021,35,AJ Auxerre,USL Dunkerque,2-1
+24/04/2021,35,EA Guingamp,Paris FC,0-0
+24/04/2021,35,FC Chambly,AS Nancy Lorraine,1-1
+24/04/2021,35,FC Sochaux,SM Caen,1-0
+24/04/2021,35,Valenciennes FC,Chamois Niortais,1-1
+24/04/2021,35,Rodez AF,Havre AC,1-1
+26/04/2021,35,Clermont Foot 63,LB Châteauroux,2-1
+12/05/2021,35,Toulouse FC,Pau FC,2-2
+01/05/2021,36,Paris FC,Toulouse FC,3-1
+01/05/2021,36,Havre AC,FC Chambly,2-4
+01/05/2021,36,AS Nancy Lorraine,Valenciennes FC,1-3
+01/05/2021,36,Chamois Niortais,Rodez AF,1-1
+01/05/2021,36,Pau FC,AC Ajaccio,0-0
+01/05/2021,36,LB Châteauroux,ESTAC Troyes,1-2
+01/05/2021,36,Amiens SC,EA Guingamp,0-3
+01/05/2021,36,SM Caen,AJ Auxerre,0-0
+01/05/2021,36,USL Dunkerque,FC Sochaux,1-0
+03/05/2021,36,Grenoble Foot 38,Clermont Foot 63,1-2
+08/05/2021,37,AC Ajaccio,Paris FC,1-1
+08/05/2021,37,AJ Auxerre,Grenoble Foot 38,1-1
+08/05/2021,37,Clermont Foot 63,FC Sochaux,3-1
+08/05/2021,37,EA Guingamp,LB Châteauroux,2-0
+08/05/2021,37,ESTAC Troyes,USL Dunkerque,2-0
+08/05/2021,37,FC Chambly,Pau FC,1-0
+08/05/2021,37,Toulouse FC,SM Caen,3-0
+08/05/2021,37,Valenciennes FC,Havre AC,3-5
+08/05/2021,37,Rodez AF,AS Nancy Lorraine,1-1
+08/05/2021,37,Amiens SC,Chamois Niortais,0-0
+15/05/2021,38,Havre AC,ESTAC Troyes,3-2
+15/05/2021,38,AS Nancy Lorraine,Amiens SC,2-2
+15/05/2021,38,Chamois Niortais,EA Guingamp,0-2
+15/05/2021,38,Paris FC,FC Chambly,3-0
+15/05/2021,38,Pau FC,Valenciennes FC,4-3
+15/05/2021,38,FC Sochaux,AJ Auxerre,2-3
+15/05/2021,38,Grenoble Foot 38,Rodez AF,1-0
+15/05/2021,38,LB Châteauroux,AC Ajaccio,0-0
+15/05/2021,38,SM Caen,Clermont Foot 63,2-1
+15/05/2021,38,USL Dunkerque,Toulouse FC,3-3

@@ -1,0 +1,241 @@
+﻿Fecha,Jornada,Equipo Local,Equipo Visitante,Resultado
+15/02/2025,1,Manta,Barcelona,2-3
+15/02/2025,1,Aucas,Técnico Universitario,4-1
+15/02/2025,1,Libertad de Loja,Independiente del Valle,2-0
+16/02/2025,1,Macará,Orense SC,1-0
+16/02/2025,1,LDU Quito,Vinotinto,0-0
+16/02/2025,1,El Nacional,Deportivo Cuenca,0-1
+17/02/2025,1,Emelec,Universidad Católica,0-4
+18/02/2025,1,Mushuc Runa,Delfín SC,2-0
+22/02/2025,2,Deportivo Cuenca,Aucas,2-0
+22/02/2025,2,Vinotinto,Macará,1-2
+22/02/2025,2,Delfín SC,Emelec,2-0
+23/02/2025,2,Independiente del Valle,LDU Quito,1-1
+23/02/2025,2,Universidad Católica,El Nacional,1-1
+23/02/2025,2,Orense SC,Manta,2-1
+24/02/2025,2,Barcelona,Mushuc Runa,1-0
+25/02/2025,2,Técnico Universitario,Libertad de Loja,2-2
+01/03/2025,3,Emelec,Macará,0-0
+01/03/2025,3,Mushuc Runa,Deportivo Cuenca,3-1
+01/03/2025,3,LDU Quito,Orense SC,4-0
+02/03/2025,3,Libertad de Loja,Barcelona,1-4
+02/03/2025,3,Independiente del Valle,Universidad Católica,1-1
+02/03/2025,3,Aucas,Vinotinto,2-2
+03/03/2025,3,El Nacional,Técnico Universitario,0-0
+04/03/2025,3,Manta,Delfín SC,2-2
+08/03/2025,4,Deportivo Cuenca,Libertad de Loja,0-1
+08/03/2025,4,LDU Quito,Delfín SC,3-0
+08/03/2025,4,Manta,El Nacional,4-3
+09/03/2025,4,Barcelona,Independiente del Valle,0-4
+09/03/2025,4,Universidad Católica,Mushuc Runa,1-1
+09/03/2025,4,Macará,Aucas,1-1
+10/03/2025,4,Vinotinto,Emelec,2-1
+11/03/2025,4,Orense SC,Técnico Universitario,2-1
+15/03/2025,5,Mushuc Runa,Vinotinto,1-2
+15/03/2025,5,Libertad de Loja,Orense SC,4-1
+15/03/2025,5,Universidad Católica,Manta,3-0
+16/03/2025,5,Delfín SC,Deportivo Cuenca,0-0
+16/03/2025,5,Independiente del Valle,Macará,1-1
+16/03/2025,5,El Nacional,Aucas,0-1
+17/03/2025,5,Emelec,LDU Quito,1-0
+18/03/2025,5,Técnico Universitario,Barcelona,0-1
+28/03/2025,6,Aucas,Independiente del Valle,1-2
+29/03/2025,6,Barcelona,Delfín SC,2-0
+29/03/2025,6,Vinotinto,Universidad Católica,3-2
+29/03/2025,6,Deportivo Cuenca,LDU Quito,1-2
+30/03/2025,6,Mushuc Runa,Emelec,1-1
+30/03/2025,6,Macará,Técnico Universitario,0-1
+30/03/2025,6,Manta,Libertad de Loja,1-1
+31/03/2025,6,El Nacional,Orense SC,0-1
+05/04/2025,7,Libertad de Loja,El Nacional,1-3
+05/04/2025,7,Delfín SC,Aucas,1-1
+05/04/2025,7,Orense SC,Vinotinto,0-0
+06/04/2025,7,Independiente del Valle,Deportivo Cuenca,4-0
+06/04/2025,7,Técnico Universitario,Mushuc Runa,1-1
+06/04/2025,7,Universidad Católica,Macará,1-0
+07/04/2025,7,Emelec,Manta,1-1
+19/06/2025,7,LDU Quito,Barcelona,3-1
+10/04/2025,8,Vinotinto,Delfín SC,5-0
+10/04/2025,8,Macará,Deportivo Cuenca,0-1
+11/04/2025,8,Manta,Técnico Universitario,2-1
+12/04/2025,8,Emelec,Libertad de Loja,1-1
+14/04/2025,8,Mushuc Runa,LDU Quito,1-0
+14/04/2025,8,El Nacional,Independiente del Valle,1-3
+15/04/2025,8,Orense SC,Barcelona,3-1
+16/04/2025,8,Aucas,Universidad Católica,2-1
+18/04/2025,9,LDU Quito,Aucas,3-1
+19/04/2025,9,Barcelona,El Nacional,1-0
+19/04/2025,9,Libertad de Loja,Mushuc Runa,2-1
+19/04/2025,9,Deportivo Cuenca,Emelec,0-1
+20/04/2025,9,Independiente del Valle,Manta,2-0
+20/04/2025,9,Técnico Universitario,Vinotinto,1-3
+20/04/2025,9,Universidad Católica,Orense SC,2-0
+21/04/2025,9,Delfín SC,Macará,0-0
+26/04/2025,10,El Nacional,Delfín SC,3-2
+26/04/2025,10,Vinotinto,Deportivo Cuenca,0-1
+26/04/2025,10,Manta,LDU Quito,1-1
+27/04/2025,10,Macará,Barcelona,0-1
+27/04/2025,10,Aucas,Mushuc Runa,2-0
+27/04/2025,10,Orense SC,Independiente del Valle,1-2
+28/04/2025,10,Emelec,Técnico Universitario,0-1
+29/04/2025,10,Libertad de Loja,Universidad Católica,3-1
+03/05/2025,11,Deportivo Cuenca,Manta,2-0
+03/05/2025,11,LDU Quito,El Nacional,2-2
+03/05/2025,11,Técnico Universitario,Universidad Católica,1-1
+04/05/2025,11,Mushuc Runa,Macará,4-3
+04/05/2025,11,Delfín SC,Orense SC,0-0
+04/05/2025,11,Barcelona,Vinotinto,2-1
+05/05/2025,11,Independiente del Valle,Emelec,1-2
+06/05/2025,11,Aucas,Libertad de Loja,2-0
+10/05/2025,12,Orense SC,Deportivo Cuenca,1-0
+10/05/2025,12,Manta,Mushuc Runa,2-1
+10/05/2025,12,Macará,LDU Quito,0-1
+11/05/2025,12,Libertad de Loja,Delfín SC,0-1
+11/05/2025,12,Técnico Universitario,Independiente del Valle,1-2
+11/05/2025,12,Universidad Católica,Barcelona,2-2
+12/05/2025,12,Emelec,Aucas,0-1
+13/05/2025,12,El Nacional,Vinotinto,2-1
+17/05/2025,13,Deportivo Cuenca,Técnico Universitario,2-0
+17/05/2025,13,Aucas,Manta,1-1
+17/05/2025,13,Mushuc Runa,Orense SC,2-5
+18/05/2025,13,Macará,El Nacional,1-1
+18/05/2025,13,Vinotinto,Independiente del Valle,1-3
+18/05/2025,13,Delfín SC,Universidad Católica,1-0
+19/05/2025,13,Barcelona,Emelec,2-0
+20/05/2025,13,LDU Quito,Libertad de Loja,1-1
+23/05/2025,14,Independiente del Valle,Mushuc Runa,2-1
+24/05/2025,14,Barcelona,Deportivo Cuenca,0-0
+24/05/2025,14,Manta,Vinotinto,2-2
+24/05/2025,14,Universidad Católica,LDU Quito,3-1
+25/05/2025,14,Orense SC,Aucas,2-1
+25/05/2025,14,Libertad de Loja,Macará,0-1
+25/05/2025,14,Técnico Universitario,Delfín SC,1-2
+26/05/2025,14,El Nacional,Emelec,2-0
+31/05/2025,15,Macará,Manta,2-2
+31/05/2025,15,LDU Quito,Técnico Universitario,3-2
+31/05/2025,15,Delfín SC,Independiente del Valle,1-1
+01/06/2025,15,Emelec,Orense SC,1-0
+01/06/2025,15,Mushuc Runa,El Nacional,2-3
+01/06/2025,15,Deportivo Cuenca,Universidad Católica,3-1
+02/06/2025,15,Aucas,Barcelona,2-0
+03/06/2025,15,Vinotinto,Libertad de Loja,1-0
+14/06/2025,16,Independiente del Valle,Libertad de Loja,1-1
+14/06/2025,16,Barcelona,Manta,1-2
+15/06/2025,16,Vinotinto,LDU Quito,1-2
+15/06/2025,16,Técnico Universitario,Aucas,1-1
+15/06/2025,16,Deportivo Cuenca,El Nacional,4-1
+16/06/2025,16,Delfín SC,Mushuc Runa,3-1
+17/06/2025,16,Orense SC,Macará,1-0
+26/06/2025,16,Universidad Católica,Emelec,1-1
+21/06/2025,17,Libertad de Loja,Técnico Universitario,4-1
+21/06/2025,17,El Nacional,Universidad Católica,0-3
+21/06/2025,17,Emelec,Delfín SC,2-2
+22/06/2025,17,Macará,Vinotinto,1-0
+22/06/2025,17,LDU Quito,Independiente del Valle,1-1
+22/06/2025,17,Aucas,Deportivo Cuenca,1-3
+23/06/2025,17,Mushuc Runa,Barcelona,0-5
+24/06/2025,17,Manta,Orense SC,0-0
+28/06/2025,18,Deportivo Cuenca,Mushuc Runa,1-0
+28/06/2025,18,Delfín SC,Manta,2-0
+28/06/2025,18,Barcelona,Libertad de Loja,3-3
+29/06/2025,18,Orense SC,LDU Quito,2-1
+29/06/2025,18,Técnico Universitario,El Nacional,0-0
+29/06/2025,18,Universidad Católica,Independiente del Valle,0-3
+30/06/2025,18,Macará,Emelec,1-1
+01/07/2025,18,Vinotinto,Aucas,0-1
+05/07/2025,19,Libertad de Loja,Deportivo Cuenca,2-1
+05/07/2025,19,Mushuc Runa,Universidad Católica,1-1
+05/07/2025,19,Emelec,Vinotinto,2-0
+06/07/2025,19,Independiente del Valle,Barcelona,1-1
+06/07/2025,19,Aucas,Macará,1-4
+06/07/2025,19,El Nacional,Manta,1-0
+07/07/2025,19,Delfín SC,LDU Quito,0-4
+08/07/2025,19,Técnico Universitario,Orense SC,1-2
+12/07/2025,20,Macará,Independiente del Valle,1-2
+12/07/2025,20,Manta,Universidad Católica,4-2
+12/07/2025,20,LDU Quito,Emelec,2-0
+13/07/2025,20,Barcelona,Técnico Universitario,1-1
+13/07/2025,20,Vinotinto,Mushuc Runa,1-1
+13/07/2025,20,Orense SC,Libertad de Loja,0-1
+14/07/2025,20,Deportivo Cuenca,Delfín SC,1-1
+15/07/2025,20,Aucas,El Nacional,1-0
+19/07/2025,21,Independiente del Valle,Aucas,2-1
+19/07/2025,21,Universidad Católica,Vinotinto,3-0
+19/07/2025,21,Orense SC,El Nacional,1-1
+20/07/2025,21,Delfín SC,Barcelona,0-1
+20/07/2025,21,Técnico Universitario,Macará,1-0
+20/07/2025,21,Emelec,Mushuc Runa,1-0
+21/07/2025,21,LDU Quito,Deportivo Cuenca,2-2
+22/07/2025,21,Libertad de Loja,Manta,1-0
+25/07/2025,22,Barcelona,LDU Quito,0-1
+26/07/2025,22,El Nacional,Libertad de Loja,2-2
+26/07/2025,22,Aucas,Delfín SC,2-1
+26/07/2025,22,Manta,Emelec,2-4
+27/07/2025,22,Vinotinto,Orense SC,0-1
+27/07/2025,22,Mushuc Runa,Técnico Universitario,0-1
+27/07/2025,22,Macará,Universidad Católica,1-4
+28/07/2025,22,Deportivo Cuenca,Independiente del Valle,0-3
+02/08/2025,23,Deportivo Cuenca,Macará,1-1
+02/08/2025,23,Barcelona,Orense SC,2-0
+03/08/2025,23,Independiente del Valle,El Nacional,1-0
+03/08/2025,23,LDU Quito,Mushuc Runa,2-1
+03/08/2025,23,Universidad Católica,Aucas,6-2
+03/08/2025,23,Técnico Universitario,Manta,3-1
+04/08/2025,23,Libertad de Loja,Emelec,1-2
+05/08/2025,23,Delfín SC,Vinotinto,3-3
+09/08/2025,24,Orense SC,Universidad Católica,1-1
+09/08/2025,24,Mushuc Runa,Libertad de Loja,1-2
+09/08/2025,24,Aucas,LDU Quito,1-0
+10/08/2025,24,Manta,Independiente del Valle,0-0
+10/08/2025,24,Vinotinto,Técnico Universitario,0-1
+10/08/2025,24,Macará,Delfín SC,0-0
+11/08/2025,24,El Nacional,Barcelona,1-2
+11/08/2025,24,Emelec,Deportivo Cuenca,1-1
+16/08/2025,25,Delfín SC,El Nacional,0-3
+16/08/2025,25,Mushuc Runa,Aucas,1-0
+16/08/2025,25,Universidad Católica,Libertad de Loja,1-1
+17/08/2025,25,Independiente del Valle,Orense SC,2-1
+17/08/2025,25,LDU Quito,Manta,1-1
+17/08/2025,25,Técnico Universitario,Emelec,0-1
+18/08/2025,25,Barcelona,Macará,0-2
+19/08/2025,25,Deportivo Cuenca,Vinotinto,2-0
+23/08/2025,26,Libertad de Loja,Aucas,3-2
+23/08/2025,26,Macará,Mushuc Runa,2-1
+23/08/2025,26,Manta,Deportivo Cuenca,0-1
+24/08/2025,26,Vinotinto,Barcelona,0-1
+24/08/2025,26,El Nacional,LDU Quito,1-0
+24/08/2025,26,Emelec,Independiente del Valle,0-1
+25/08/2025,26,Universidad Católica,Técnico Universitario,2-0
+26/08/2025,26,Orense SC,Delfín SC,3-1
+30/08/2025,27,Vinotinto,El Nacional,0-1
+30/08/2025,27,Independiente del Valle,Técnico Universitario,4-0
+30/08/2025,27,LDU Quito,Macará,1-1
+30/08/2025,27,Mushuc Runa,Manta,2-0
+31/08/2025,27,Aucas,Emelec,1-2
+31/08/2025,27,Deportivo Cuenca,Orense SC,1-1
+01/09/2025,27,Barcelona,Universidad Católica,2-3
+02/09/2025,27,Delfín SC,Libertad de Loja,0-0
+13/09/2025,28,Libertad de Loja,LDU Quito,0-1
+13/09/2025,28,Independiente del Valle,Vinotinto,3-1
+13/09/2025,28,Universidad Católica,Delfín SC,1-1
+14/09/2025,28,Orense SC,Mushuc Runa,3-1
+14/09/2025,28,El Nacional,Macará,0-2
+14/09/2025,28,Técnico Universitario,Deportivo Cuenca,0-2
+15/09/2025,28,Emelec,Barcelona,0-4
+16/09/2025,28,Manta,Aucas,1-1
+20/09/2025,29,Mushuc Runa,Independiente del Valle,2-2
+20/09/2025,29,Delfín SC,Técnico Universitario,0-1
+20/09/2025,29,Vinotinto,Manta,4-1
+21/09/2025,29,Deportivo Cuenca,Barcelona,0-1
+21/09/2025,29,LDU Quito,Universidad Católica,2-4
+21/09/2025,29,Emelec,El Nacional,4-0
+21/09/2025,29,Aucas,Orense SC,0-0
+21/09/2025,29,Macará,Libertad de Loja,1-1
+27/09/2025,30,Manta,Macará,1-3
+27/09/2025,30,El Nacional,Mushuc Runa,0-5
+28/09/2025,30,Barcelona,Aucas,1-1
+28/09/2025,30,Orense SC,Emelec,0-0
+28/09/2025,30,Técnico Universitario,LDU Quito,1-3
+28/09/2025,30,Libertad de Loja,Vinotinto,1-0
+28/09/2025,30,Independiente del Valle,Delfín SC,0-0
+28/09/2025,30,Universidad Católica,Deportivo Cuenca,2-1

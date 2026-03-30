@@ -1,0 +1,307 @@
+﻿Fecha,Jornada,Equipo Local,Equipo Visitante,Resultado
+10/02/2023,1,Aldosivi,Independiente Rivadavia,1-2
+11/02/2023,1,Atlético Rafaela,Tristan Suárez,3-0
+11/02/2023,1,Gimnasia de Jujuy,Ferro Carril Oeste,1-1
+11/02/2023,1,Estudiantes de Caseros,Atlanta,2-0
+11/02/2023,1,Brown de Adrogué,Racing de Córdoba,1-2
+11/02/2023,1,Deportivo Madryn,Chacarita Juniors,0-0
+11/02/2023,1,Villa Dálmine,Mitre de SdE,0-0
+12/02/2023,1,Deportivo Maipú,Chaco For Ever,2-0
+12/02/2023,1,Quilmes,Deportivo Riestra,3-1
+18/02/2023,2,Gimnasia de Jujuy,Aldosivi,1-1
+18/02/2023,2,Racing de Córdoba,Estudiantes de Caseros,0-1
+18/02/2023,2,Ferro Carril Oeste,Quilmes,2-3
+18/02/2023,2,Chacarita Juniors,Villa Dálmine,3-0
+18/02/2023,2,Deportivo Riestra,Brown de Adrogué,2-1
+19/02/2023,2,Tristan Suárez,Deportivo Madryn,1-2
+19/02/2023,2,Mitre de SdE,Deportivo Maipú,1-0
+19/02/2023,2,Chaco For Ever,Independiente Rivadavia,2-1
+21/02/2023,2,Atlanta,Atlético Rafaela,0-0
+24/02/2023,3,Villa Dálmine,Tristan Suárez,3-1
+25/02/2023,3,Estudiantes de Caseros,Deportivo Riestra,1-0
+25/02/2023,3,Brown de Adrogué,Ferro Carril Oeste,1-1
+25/02/2023,3,Deportivo Madryn,Atlanta,0-1
+25/02/2023,3,Quilmes,Gimnasia de Jujuy,2-1
+26/02/2023,3,Aldosivi,Chaco For Ever,2-0
+26/02/2023,3,Deportivo Maipú,Chacarita Juniors,0-2
+27/02/2023,3,Atlético Rafaela,Racing de Córdoba,2-1
+27/02/2023,3,Independiente Rivadavia,Mitre de SdE,4-1
+03/03/2023,4,Deportivo Riestra,Atlético Rafaela,0-2
+03/03/2023,4,Racing de Córdoba,Deportivo Madryn,3-1
+04/03/2023,4,Tristan Suárez,Deportivo Maipú,0-4
+04/03/2023,4,Chacarita Juniors,Independiente Rivadavia,3-0
+04/03/2023,4,Gimnasia de Jujuy,Brown de Adrogué,1-1
+04/03/2023,4,Mitre de SdE,Chaco For Ever,2-0
+05/03/2023,4,Ferro Carril Oeste,Estudiantes de Caseros,0-2
+05/03/2023,4,Atlanta,Villa Dálmine,2-1
+06/03/2023,4,Quilmes,Aldosivi,4-1
+11/03/2023,5,Atlético Rafaela,Ferro Carril Oeste,1-2
+11/03/2023,5,Brown de Adrogué,Quilmes,1-0
+11/03/2023,5,Deportivo Madryn,Deportivo Riestra,0-3
+12/03/2023,5,Estudiantes de Caseros,Gimnasia de Jujuy,1-2
+12/03/2023,5,Deportivo Maipú,Atlanta,1-0
+12/03/2023,5,Chaco For Ever,Chacarita Juniors,1-1
+12/03/2023,5,Villa Dálmine,Racing de Córdoba,2-1
+13/03/2023,5,Independiente Rivadavia,Tristan Suárez,1-3
+14/03/2023,5,Aldosivi,Mitre de SdE,3-1
+17/03/2023,6,Ferro Carril Oeste,Deportivo Madryn,0-0
+18/03/2023,6,Gimnasia de Jujuy,Atlético Rafaela,1-0
+18/03/2023,6,Brown de Adrogué,Aldosivi,2-0
+18/03/2023,6,Tristan Suárez,Chaco For Ever,2-1
+18/03/2023,6,Chacarita Juniors,Mitre de SdE,1-1
+19/03/2023,6,Quilmes,Estudiantes de Caseros,2-0
+19/03/2023,6,Atlanta,Independiente Rivadavia,2-2
+19/03/2023,6,Racing de Córdoba,Deportivo Maipú,1-0
+20/03/2023,6,Deportivo Riestra,Villa Dálmine,2-1
+25/03/2023,7,Estudiantes de Caseros,Brown de Adrogué,1-1
+25/03/2023,7,Deportivo Madryn,Gimnasia de Jujuy,3-1
+25/03/2023,7,Villa Dálmine,Ferro Carril Oeste,2-0
+26/03/2023,7,Aldosivi,Chacarita Juniors,0-1
+26/03/2023,7,Mitre de SdE,Tristan Suárez,0-1
+26/03/2023,7,Chaco For Ever,Atlanta,1-1
+26/03/2023,7,Deportivo Maipú,Deportivo Riestra,1-1
+27/03/2023,7,Atlético Rafaela,Quilmes,1-0
+28/03/2023,7,Independiente Rivadavia,Racing de Córdoba,1-1
+01/04/2023,8,Gimnasia de Jujuy,Villa Dálmine,2-0
+02/04/2023,8,Tristan Suárez,Chacarita Juniors,1-3
+02/04/2023,8,Estudiantes de Caseros,Aldosivi,0-1
+02/04/2023,8,Deportivo Riestra,Independiente Rivadavia,3-3
+02/04/2023,8,Racing de Córdoba,Chaco For Ever,2-0
+02/04/2023,8,Ferro Carril Oeste,Deportivo Maipú,0-1
+03/04/2023,8,Brown de Adrogué,Atlético Rafaela,1-1
+03/04/2023,8,Atlanta,Mitre de SdE,0-1
+04/04/2023,8,Quilmes,Deportivo Madryn,2-0
+07/04/2023,9,Deportivo Maipú,Gimnasia de Jujuy,3-2
+08/04/2023,9,Deportivo Madryn,Brown de Adrogué,0-0
+08/04/2023,9,Aldosivi,Tristan Suárez,1-1
+08/04/2023,9,Chacarita Juniors,Atlanta,1-1
+08/04/2023,9,Independiente Rivadavia,Ferro Carril Oeste,2-1
+09/04/2023,9,Villa Dálmine,Quilmes,0-0
+09/04/2023,9,Mitre de SdE,Racing de Córdoba,1-1
+09/04/2023,9,Chaco For Ever,Deportivo Riestra,2-1
+10/04/2023,9,Atlético Rafaela,Estudiantes de Caseros,1-1
+14/04/2023,10,Atlético Rafaela,Aldosivi,2-2
+15/04/2023,10,Gimnasia de Jujuy,Independiente Rivadavia,1-3
+15/04/2023,10,Brown de Adrogué,Villa Dálmine,2-0
+16/04/2023,10,Estudiantes de Caseros,Deportivo Madryn,0-3
+16/04/2023,10,Quilmes,Deportivo Maipú,0-2
+17/04/2023,10,Ferro Carril Oeste,Chaco For Ever,2-1
+17/04/2023,10,Deportivo Riestra,Mitre de SdE,0-0
+18/04/2023,10,Atlanta,Tristan Suárez,3-2
+18/04/2023,10,Racing de Córdoba,Chacarita Juniors,1-1
+22/04/2023,11,Deportivo Madryn,Atlético Rafaela,0-1
+22/04/2023,11,Chacarita Juniors,Deportivo Riestra,4-2
+23/04/2023,11,Villa Dálmine,Estudiantes de Caseros,1-0
+23/04/2023,11,Aldosivi,Atlanta,0-1
+23/04/2023,11,Tristan Suárez,Racing de Córdoba,3-2
+23/04/2023,11,Mitre de SdE,Ferro Carril Oeste,0-2
+23/04/2023,11,Deportivo Maipú,Brown de Adrogué,1-0
+23/04/2023,11,Chaco For Ever,Gimnasia de Jujuy,0-0
+23/04/2023,11,Independiente Rivadavia,Quilmes,2-0
+29/04/2023,12,Gimnasia de Jujuy,Mitre de SdE,2-0
+29/04/2023,12,Brown de Adrogué,Independiente Rivadavia,0-0
+29/04/2023,12,Deportivo Madryn,Aldosivi,2-1
+29/04/2023,12,Estudiantes de Caseros,Deportivo Maipú,0-0
+29/04/2023,12,Quilmes,Chaco For Ever,1-0
+30/04/2023,12,Deportivo Riestra,Tristan Suárez,2-0
+30/04/2023,12,Racing de Córdoba,Atlanta,1-1
+01/05/2023,12,Atlético Rafaela,Villa Dálmine,1-0
+01/05/2023,12,Ferro Carril Oeste,Chacarita Juniors,0-0
+06/05/2023,13,Tristan Suárez,Ferro Carril Oeste,2-4
+06/05/2023,13,Aldosivi,Racing de Córdoba,3-1
+06/05/2023,13,Chacarita Juniors,Gimnasia de Jujuy,2-1
+06/05/2023,13,Villa Dálmine,Deportivo Madryn,1-3
+07/05/2023,13,Independiente Rivadavia,Estudiantes de Caseros,2-1
+07/05/2023,13,Deportivo Maipú,Atlético Rafaela,1-1
+07/05/2023,13,Mitre de SdE,Quilmes,1-0
+07/05/2023,13,Chaco For Ever,Brown de Adrogué,1-1
+09/05/2023,13,Atlanta,Deportivo Riestra,1-1
+13/05/2023,14,Gimnasia de Jujuy,Tristan Suárez,1-0
+13/05/2023,14,Deportivo Madryn,Deportivo Maipú,2-3
+13/05/2023,14,Atlético Rafaela,Independiente Rivadavia,1-3
+13/05/2023,14,Villa Dálmine,Aldosivi,0-1
+14/05/2023,14,Quilmes,Chacarita Juniors,1-1
+14/05/2023,14,Brown de Adrogué,Mitre de SdE,0-0
+14/05/2023,14,Ferro Carril Oeste,Atlanta,2-0
+15/05/2023,14,Deportivo Riestra,Racing de Córdoba,2-2
+16/05/2023,14,Estudiantes de Caseros,Chaco For Ever,3-0
+20/05/2023,15,Aldosivi,Deportivo Riestra,1-1
+21/05/2023,15,Tristan Suárez,Quilmes,0-0
+21/05/2023,15,Chaco For Ever,Atlético Rafaela,0-1
+21/05/2023,15,Independiente Rivadavia,Deportivo Madryn,1-0
+21/05/2023,15,Chacarita Juniors,Brown de Adrogué,0-0
+21/05/2023,15,Mitre de SdE,Estudiantes de Caseros,3-0
+21/05/2023,15,Deportivo Maipú,Villa Dálmine,2-1
+23/05/2023,15,Racing de Córdoba,Ferro Carril Oeste,1-1
+23/05/2023,15,Atlanta,Gimnasia de Jujuy,1-2
+27/05/2023,16,Deportivo Madryn,Chaco For Ever,1-0
+27/05/2023,16,Villa Dálmine,Independiente Rivadavia,0-3
+28/05/2023,16,Quilmes,Atlanta,1-2
+28/05/2023,16,Brown de Adrogué,Tristan Suárez,2-1
+28/05/2023,16,Deportivo Maipú,Aldosivi,3-2
+28/05/2023,16,Gimnasia de Jujuy,Racing de Córdoba,1-0
+28/05/2023,16,Estudiantes de Caseros,Chacarita Juniors,2-1
+29/05/2023,16,Atlético Rafaela,Mitre de SdE,0-1
+30/05/2023,16,Ferro Carril Oeste,Deportivo Riestra,2-2
+03/06/2023,17,Chacarita Juniors,Atlético Rafaela,3-0
+03/06/2023,17,Deportivo Riestra,Gimnasia de Jujuy,2-1
+03/06/2023,17,Tristan Suárez,Estudiantes de Caseros,1-1
+03/06/2023,17,Chaco For Ever,Villa Dálmine,2-0
+04/06/2023,17,Independiente Rivadavia,Deportivo Maipú,2-1
+04/06/2023,17,Aldosivi,Ferro Carril Oeste,1-2
+05/06/2023,17,Mitre de SdE,Deportivo Madryn,1-0
+05/06/2023,17,Atlanta,Brown de Adrogué,1-2
+06/06/2023,17,Racing de Córdoba,Quilmes,0-1
+17/06/2023,18,Tristan Suárez,Atlético Rafaela,0-0
+17/06/2023,18,Chacarita Juniors,Deportivo Madryn,0-0
+17/06/2023,18,Independiente Rivadavia,Aldosivi,2-1
+18/06/2023,18,Mitre de SdE,Villa Dálmine,3-1
+18/06/2023,18,Ferro Carril Oeste,Gimnasia de Jujuy,3-0
+19/06/2023,18,Atlanta,Estudiantes de Caseros,3-2
+19/06/2023,18,Deportivo Riestra,Quilmes,1-1
+19/06/2023,18,Chaco For Ever,Deportivo Maipú,0-1
+20/06/2023,18,Racing de Córdoba,Brown de Adrogué,1-2
+24/06/2023,19,Villa Dálmine,Chacarita Juniors,0-1
+24/06/2023,19,Deportivo Madryn,Tristan Suárez,1-0
+24/06/2023,19,Independiente Rivadavia,Chaco For Ever,1-0
+25/06/2023,19,Quilmes,Ferro Carril Oeste,1-0
+25/06/2023,19,Brown de Adrogué,Deportivo Riestra,1-1
+25/06/2023,19,Estudiantes de Caseros,Racing de Córdoba,1-1
+25/06/2023,19,Deportivo Maipú,Mitre de SdE,2-1
+25/06/2023,19,Aldosivi,Gimnasia de Jujuy,3-1
+26/06/2023,19,Atlético Rafaela,Atlanta,1-0
+01/07/2023,20,Gimnasia de Jujuy,Quilmes,0-1
+01/07/2023,20,Ferro Carril Oeste,Brown de Adrogué,1-0
+01/07/2023,20,Tristan Suárez,Villa Dálmine,1-1
+01/07/2023,20,Racing de Córdoba,Atlético Rafaela,3-3
+02/07/2023,20,Chacarita Juniors,Deportivo Maipú,2-1
+02/07/2023,20,Chaco For Ever,Aldosivi,3-0
+03/07/2023,20,Mitre de SdE,Independiente Rivadavia,2-1
+03/07/2023,20,Deportivo Riestra,Estudiantes de Caseros,2-1
+04/07/2023,20,Atlanta,Deportivo Madryn,1-1
+08/07/2023,21,Brown de Adrogué,Gimnasia de Jujuy,1-0
+08/07/2023,21,Deportivo Madryn,Racing de Córdoba,1-0
+08/07/2023,21,Atlético Rafaela,Deportivo Riestra,0-1
+08/07/2023,21,Villa Dálmine,Atlanta,0-2
+08/07/2023,21,Chaco For Ever,Mitre de SdE,1-0
+09/07/2023,21,Deportivo Maipú,Tristan Suárez,3-2
+09/07/2023,21,Independiente Rivadavia,Chacarita Juniors,1-0
+09/07/2023,21,Estudiantes de Caseros,Ferro Carril Oeste,1-2
+10/07/2023,21,Aldosivi,Quilmes,1-2
+15/07/2023,22,Tristan Suárez,Independiente Rivadavia,0-3
+15/07/2023,22,Chacarita Juniors,Chaco For Ever,1-0
+15/07/2023,22,Gimnasia de Jujuy,Estudiantes de Caseros,1-2
+16/07/2023,22,Quilmes,Brown de Adrogué,1-1
+16/07/2023,22,Deportivo Riestra,Deportivo Madryn,0-0
+16/07/2023,22,Racing de Córdoba,Villa Dálmine,0-0
+17/07/2023,22,Ferro Carril Oeste,Atlético Rafaela,0-1
+17/07/2023,22,Mitre de SdE,Aldosivi,0-2
+18/07/2023,22,Atlanta,Deportivo Maipú,1-3
+22/07/2023,23,Estudiantes de Caseros,Quilmes,1-1
+22/07/2023,23,Deportivo Madryn,Ferro Carril Oeste,1-0
+23/07/2023,23,Independiente Rivadavia,Atlanta,1-1
+23/07/2023,23,Mitre de SdE,Chacarita Juniors,1-2
+23/07/2023,23,Deportivo Maipú,Racing de Córdoba,2-1
+23/07/2023,23,Villa Dálmine,Deportivo Riestra,1-2
+23/07/2023,23,Atlético Rafaela,Gimnasia de Jujuy,1-0
+23/07/2023,23,Chaco For Ever,Tristan Suárez,1-1
+24/07/2023,23,Aldosivi,Brown de Adrogué,2-1
+29/07/2023,24,Deportivo Riestra,Deportivo Maipú,1-0
+30/07/2023,24,Quilmes,Atlético Rafaela,1-2
+30/07/2023,24,Brown de Adrogué,Estudiantes de Caseros,1-1
+30/07/2023,24,Tristan Suárez,Mitre de SdE,3-0
+30/07/2023,24,Chacarita Juniors,Aldosivi,2-0
+30/07/2023,24,Ferro Carril Oeste,Villa Dálmine,3-0
+30/07/2023,24,Gimnasia de Jujuy,Deportivo Madryn,1-0
+30/07/2023,24,Racing de Córdoba,Independiente Rivadavia,2-0
+31/07/2023,24,Atlanta,Chaco For Ever,4-0
+05/08/2023,25,Deportivo Madryn,Quilmes,0-0
+05/08/2023,25,Villa Dálmine,Gimnasia de Jujuy,2-1
+05/08/2023,25,Chacarita Juniors,Tristan Suárez,1-1
+06/08/2023,25,Deportivo Maipú,Ferro Carril Oeste,1-0
+06/08/2023,25,Atlético Rafaela,Brown de Adrogué,0-0
+06/08/2023,25,Mitre de SdE,Atlanta,2-0
+06/08/2023,25,Independiente Rivadavia,Deportivo Riestra,1-0
+07/08/2023,25,Aldosivi,Estudiantes de Caseros,1-1
+08/08/2023,25,Chaco For Ever,Racing de Córdoba,2-1
+18/08/2023,26,Deportivo Riestra,Chaco For Ever,0-0
+19/08/2023,26,Brown de Adrogué,Deportivo Madryn,3-1
+19/08/2023,26,Tristan Suárez,Aldosivi,0-0
+19/08/2023,26,Estudiantes de Caseros,Atlético Rafaela,1-1
+19/08/2023,26,Atlanta,Chacarita Juniors,0-1
+20/08/2023,26,Ferro Carril Oeste,Independiente Rivadavia,1-1
+20/08/2023,26,Quilmes,Villa Dálmine,2-0
+20/08/2023,26,Gimnasia de Jujuy,Deportivo Maipú,1-0
+20/08/2023,26,Racing de Córdoba,Mitre de SdE,4-2
+25/08/2023,27,Aldosivi,Atlético Rafaela,0-1
+26/08/2023,27,Deportivo Madryn,Estudiantes de Caseros,1-1
+26/08/2023,27,Tristan Suárez,Atlanta,1-0
+26/08/2023,27,Villa Dálmine,Brown de Adrogué,0-1
+26/08/2023,27,Chacarita Juniors,Racing de Córdoba,1-0
+26/08/2023,27,Independiente Rivadavia,Gimnasia de Jujuy,2-1
+27/08/2023,27,Deportivo Maipú,Quilmes,1-0
+27/08/2023,27,Mitre de SdE,Deportivo Riestra,1-1
+27/08/2023,27,Chaco For Ever,Ferro Carril Oeste,4-2
+02/09/2023,28,Brown de Adrogué,Deportivo Maipú,1-1
+02/09/2023,28,Estudiantes de Caseros,Villa Dálmine,1-0
+03/09/2023,28,Quilmes,Independiente Rivadavia,0-1
+03/09/2023,28,Gimnasia de Jujuy,Chaco For Ever,2-0
+03/09/2023,28,Racing de Córdoba,Tristan Suárez,1-1
+03/09/2023,28,Atlético Rafaela,Deportivo Madryn,0-0
+05/09/2023,28,Ferro Carril Oeste,Mitre de SdE,3-0
+05/09/2023,28,Deportivo Riestra,Chacarita Juniors,0-1
+06/09/2023,28,Atlanta,Aldosivi,0-0
+09/09/2023,29,Villa Dálmine,Atlético Rafaela,1-4
+10/09/2023,29,Chacarita Juniors,Ferro Carril Oeste,3-1
+10/09/2023,29,Tristan Suárez,Deportivo Riestra,0-0
+10/09/2023,29,Atlanta,Racing de Córdoba,2-2
+10/09/2023,29,Deportivo Maipú,Estudiantes de Caseros,2-0
+10/09/2023,29,Aldosivi,Deportivo Madryn,0-0
+10/09/2023,29,Chaco For Ever,Quilmes,0-4
+10/09/2023,29,Mitre de SdE,Gimnasia de Jujuy,1-1
+11/09/2023,29,Independiente Rivadavia,Brown de Adrogué,0-2
+15/09/2023,30,Deportivo Riestra,Atlanta,1-0
+16/09/2023,30,Deportivo Madryn,Villa Dálmine,4-0
+17/09/2023,30,Estudiantes de Caseros,Independiente Rivadavia,0-0
+17/09/2023,30,Brown de Adrogué,Chaco For Ever,1-2
+17/09/2023,30,Gimnasia de Jujuy,Chacarita Juniors,2-0
+17/09/2023,30,Quilmes,Mitre de SdE,1-3
+17/09/2023,30,Racing de Córdoba,Aldosivi,2-0
+17/09/2023,30,Atlético Rafaela,Deportivo Maipú,2-0
+19/09/2023,30,Ferro Carril Oeste,Tristan Suárez,2-1
+23/09/2023,31,Independiente Rivadavia,Atlético Rafaela,2-1
+23/09/2023,31,Chacarita Juniors,Quilmes,2-2
+23/09/2023,31,Chaco For Ever,Estudiantes de Caseros,2-1
+24/09/2023,31,Mitre de SdE,Brown de Adrogué,3-0
+24/09/2023,31,Atlanta,Ferro Carril Oeste,1-1
+24/09/2023,31,Tristan Suárez,Gimnasia de Jujuy,1-2
+24/09/2023,31,Racing de Córdoba,Deportivo Riestra,1-0
+25/09/2023,31,Aldosivi,Villa Dálmine,1-1
+25/09/2023,31,Deportivo Maipú,Deportivo Madryn,0-0
+30/09/2023,32,Quilmes,Tristan Suárez,5-1
+30/09/2023,32,Estudiantes de Caseros,Mitre de SdE,0-1
+30/09/2023,32,Ferro Carril Oeste,Racing de Córdoba,3-1
+01/10/2023,32,Deportivo Madryn,Independiente Rivadavia,1-1
+01/10/2023,32,Gimnasia de Jujuy,Atlanta,2-0
+01/10/2023,32,Atlético Rafaela,Chaco For Ever,1-3
+02/10/2023,32,Brown de Adrogué,Chacarita Juniors,1-2
+02/10/2023,32,Deportivo Riestra,Aldosivi,3-0
+02/10/2023,32,Villa Dálmine,Deportivo Maipú,2-3
+07/10/2023,33,Atlanta,Quilmes,0-1
+07/10/2023,33,Tristan Suárez,Brown de Adrogué,2-0
+07/10/2023,33,Chaco For Ever,Deportivo Madryn,0-0
+08/10/2023,33,Aldosivi,Deportivo Maipú,1-1
+08/10/2023,33,Deportivo Riestra,Ferro Carril Oeste,1-1
+08/10/2023,33,Chacarita Juniors,Estudiantes de Caseros,1-1
+08/10/2023,33,Mitre de SdE,Atlético Rafaela,2-1
+08/10/2023,33,Racing de Córdoba,Gimnasia de Jujuy,2-0
+09/10/2023,33,Independiente Rivadavia,Villa Dálmine,1-0
+15/10/2023,34,Atlético Rafaela,Chacarita Juniors,1-1
+15/10/2023,34,Brown de Adrogué,Atlanta,2-1
+15/10/2023,34,Estudiantes de Caseros,Tristan Suárez,0-2
+15/10/2023,34,Deportivo Madryn,Mitre de SdE,0-2
+15/10/2023,34,Deportivo Maipú,Independiente Rivadavia,0-1
+15/10/2023,34,Ferro Carril Oeste,Aldosivi,0-0
+15/10/2023,34,Gimnasia de Jujuy,Deportivo Riestra,0-1
+15/10/2023,34,Quilmes,Racing de Córdoba,1-2
+15/10/2023,34,Villa Dálmine,Chaco For Ever,0-1

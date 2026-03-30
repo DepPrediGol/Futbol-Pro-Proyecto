@@ -1,0 +1,381 @@
+﻿Fecha,Jornada,Equipo Local,Equipo Visitante,Resultado
+15/04/2023,1,América - MG,Fluminense RJ,0-3
+15/04/2023,1,Palmeiras,Cuiabá - MT,2-1
+15/04/2023,1,Athletico Paranaense,Goiás - GO,2-0
+15/04/2023,1,Botafogo - RJ,São Paulo FC,2-1
+15/04/2023,1,Red Bull Bragantino,Bahia - BA,2-1
+15/04/2023,1,Fortaleza - CE,Internacional,1-1
+16/04/2023,1,Atlético Mineiro,Vasco da Gama - RJ,1-2
+16/04/2023,1,Corinthians SP,Cruzeiro,2-1
+16/04/2023,1,Flamengo RJ,Coritiba - PR,3-0
+16/04/2023,1,Grêmio Porto Alegre,Santos FC,1-0
+22/04/2023,2,Fluminense RJ,Athletico Paranaense,2-0
+22/04/2023,2,Cuiabá - MT,Red Bull Bragantino,1-1
+22/04/2023,2,São Paulo FC,América - MG,3-0
+23/04/2023,2,Cruzeiro,Grêmio Porto Alegre,1-0
+23/04/2023,2,Internacional,Flamengo RJ,2-1
+23/04/2023,2,Santos FC,Atlético Mineiro,0-0
+23/04/2023,2,Vasco da Gama - RJ,Palmeiras,2-2
+23/04/2023,2,Coritiba - PR,Fortaleza - CE,0-3
+24/04/2023,2,Goiás - GO,Corinthians SP,3-1
+25/04/2023,2,Bahia - BA,Botafogo - RJ,1-2
+29/04/2023,3,Coritiba - PR,São Paulo FC,1-1
+29/04/2023,3,Fortaleza - CE,Fluminense RJ,4-2
+29/04/2023,3,Red Bull Bragantino,Cruzeiro,0-3
+29/04/2023,3,Palmeiras,Corinthians SP,2-1
+29/04/2023,3,Santos FC,América - MG,3-2
+30/04/2023,3,Atlético Mineiro,Athletico Paranaense,2-1
+30/04/2023,3,Flamengo RJ,Botafogo - RJ,2-3
+30/04/2023,3,Cuiabá - MT,Grêmio Porto Alegre,1-2
+30/04/2023,3,Internacional,Goiás - GO,1-0
+02/05/2023,3,Vasco da Gama - RJ,Bahia - BA,0-1
+06/05/2023,4,Cruzeiro,Santos FC,2-1
+07/05/2023,4,Fluminense RJ,Vasco da Gama - RJ,1-1
+07/05/2023,4,América - MG,Cuiabá - MT,1-2
+07/05/2023,4,Athletico Paranaense,Flamengo RJ,2-1
+07/05/2023,4,Bahia - BA,Coritiba - PR,3-1
+07/05/2023,4,São Paulo FC,Internacional,2-0
+07/05/2023,4,Botafogo - RJ,Atlético Mineiro,2-0
+07/05/2023,4,Goiás - GO,Palmeiras,0-5
+07/05/2023,4,Grêmio Porto Alegre,Red Bull Bragantino,3-3
+09/05/2023,4,Corinthians SP,Fortaleza - CE,1-1
+11/05/2023,5,Red Bull Bragantino,América - MG,2-2
+11/05/2023,5,Internacional,Athletico Paranaense,0-2
+11/05/2023,5,Santos FC,Bahia - BA,3-0
+11/05/2023,5,Cuiabá - MT,Atlético Mineiro,0-4
+11/05/2023,5,Flamengo RJ,Goiás - GO,2-0
+11/05/2023,5,Cruzeiro,Fluminense RJ,0-2
+11/05/2023,5,Palmeiras,Grêmio Porto Alegre,4-1
+12/05/2023,5,Coritiba - PR,Vasco da Gama - RJ,1-1
+12/05/2023,5,Botafogo - RJ,Corinthians SP,3-0
+12/05/2023,5,Fortaleza - CE,São Paulo FC,0-0
+13/05/2023,6,Bahia - BA,Flamengo RJ,2-3
+13/05/2023,6,Fluminense RJ,Cuiabá - MT,2-0
+13/05/2023,6,Palmeiras,Red Bull Bragantino,1-1
+14/05/2023,6,Atlético Mineiro,Internacional,2-0
+14/05/2023,6,Corinthians SP,São Paulo FC,1-1
+14/05/2023,6,Grêmio Porto Alegre,Fortaleza - CE,0-0
+14/05/2023,6,Vasco da Gama - RJ,Santos FC,0-1
+14/05/2023,6,América - MG,Cruzeiro,0-4
+14/05/2023,6,Athletico Paranaense,Coritiba - PR,3-2
+14/05/2023,6,Goiás - GO,Botafogo - RJ,2-1
+20/05/2023,7,Bahia - BA,Goiás - GO,1-1
+20/05/2023,7,América - MG,Fortaleza - CE,2-1
+20/05/2023,7,Botafogo - RJ,Fluminense RJ,1-0
+20/05/2023,7,Red Bull Bragantino,Athletico Paranaense,2-0
+20/05/2023,7,Coritiba - PR,Atlético Mineiro,1-2
+20/05/2023,7,São Paulo FC,Vasco da Gama - RJ,4-2
+21/05/2023,7,Santos FC,Palmeiras,0-0
+21/05/2023,7,Flamengo RJ,Corinthians SP,1-0
+21/05/2023,7,Grêmio Porto Alegre,Internacional,3-1
+23/05/2023,7,Cruzeiro,Cuiabá - MT,0-1
+27/05/2023,8,Athletico Paranaense,Grêmio Porto Alegre,1-2
+27/05/2023,8,Fortaleza - CE,Vasco da Gama - RJ,2-0
+27/05/2023,8,Cuiabá - MT,Coritiba - PR,1-1
+27/05/2023,8,Flamengo RJ,Cruzeiro,1-1
+28/05/2023,8,São Paulo FC,Goiás - GO,2-1
+28/05/2023,8,Corinthians SP,Fluminense RJ,2-0
+28/05/2023,8,Internacional,Bahia - BA,2-0
+28/05/2023,8,Atlético Mineiro,Palmeiras,1-1
+28/05/2023,8,Red Bull Bragantino,Santos FC,2-0
+29/05/2023,8,Botafogo - RJ,América - MG,2-0
+03/06/2023,9,Fortaleza - CE,Bahia - BA,0-0
+03/06/2023,9,América - MG,Corinthians SP,2-0
+03/06/2023,9,Athletico Paranaense,Botafogo - RJ,1-0
+03/06/2023,9,Cruzeiro,Atlético Mineiro,0-1
+04/06/2023,9,Santos FC,Internacional,1-1
+04/06/2023,9,Fluminense RJ,Red Bull Bragantino,2-1
+04/06/2023,9,Grêmio Porto Alegre,São Paulo FC,2-1
+04/06/2023,9,Goiás - GO,Cuiabá - MT,0-1
+04/06/2023,9,Palmeiras,Coritiba - PR,3-1
+06/06/2023,9,Vasco da Gama - RJ,Flamengo RJ,1-4
+10/06/2023,10,Coritiba - PR,Santos FC,0-0
+10/06/2023,10,Atlético Mineiro,Red Bull Bragantino,1-1
+10/06/2023,10,Bahia - BA,Cruzeiro,2-2
+10/06/2023,10,Corinthians SP,Cuiabá - MT,1-1
+11/06/2023,10,Botafogo - RJ,Fortaleza - CE,2-0
+11/06/2023,10,América - MG,Athletico Paranaense,2-2
+11/06/2023,10,Internacional,Vasco da Gama - RJ,2-1
+11/06/2023,10,São Paulo FC,Palmeiras,0-2
+11/06/2023,10,Flamengo RJ,Grêmio Porto Alegre,3-0
+11/06/2023,10,Goiás - GO,Fluminense RJ,2-2
+22/06/2023,11,Cruzeiro,Fortaleza - CE,0-1
+22/06/2023,11,São Paulo FC,Athletico Paranaense,2-1
+22/06/2023,11,Santos FC,Corinthians SP,0-2
+22/06/2023,11,Bahia - BA,Palmeiras,1-0
+22/06/2023,11,Fluminense RJ,Atlético Mineiro,1-1
+23/06/2023,11,Grêmio Porto Alegre,América - MG,3-1
+23/06/2023,11,Coritiba - PR,Internacional,0-1
+23/06/2023,11,Cuiabá - MT,Botafogo - RJ,0-1
+23/06/2023,11,Vasco da Gama - RJ,Goiás - GO,0-1
+23/06/2023,11,Red Bull Bragantino,Flamengo RJ,4-0
+24/06/2023,12,Athletico Paranaense,Corinthians SP,1-0
+24/06/2023,12,Fluminense RJ,Bahia - BA,2-1
+24/06/2023,12,Fortaleza - CE,Atlético Mineiro,2-1
+25/06/2023,12,Cruzeiro,São Paulo FC,1-0
+25/06/2023,12,Grêmio Porto Alegre,Coritiba - PR,5-1
+25/06/2023,12,Palmeiras,Botafogo - RJ,0-1
+25/06/2023,12,América - MG,Internacional,1-2
+25/06/2023,12,Red Bull Bragantino,Goiás - GO,2-0
+25/06/2023,12,Santos FC,Flamengo RJ,2-3
+27/06/2023,12,Vasco da Gama - RJ,Cuiabá - MT,1-0
+01/07/2023,13,São Paulo FC,Fluminense RJ,1-0
+01/07/2023,13,Bahia - BA,Grêmio Porto Alegre,1-2
+01/07/2023,13,Flamengo RJ,Fortaleza - CE,2-0
+02/07/2023,13,Internacional,Cruzeiro,0-0
+02/07/2023,13,Corinthians SP,Red Bull Bragantino,0-1
+02/07/2023,13,Athletico Paranaense,Palmeiras,2-2
+02/07/2023,13,Atlético Mineiro,América - MG,2-2
+02/07/2023,13,Botafogo - RJ,Vasco da Gama - RJ,2-0
+02/07/2023,13,Cuiabá - MT,Santos FC,3-0
+04/07/2023,13,Goiás - GO,Coritiba - PR,1-2
+08/07/2023,14,Cuiabá - MT,Bahia - BA,1-1
+08/07/2023,14,Vasco da Gama - RJ,Cruzeiro,0-1
+08/07/2023,14,Atlético Mineiro,Corinthians SP,0-1
+08/07/2023,14,Coritiba - PR,América - MG,3-1
+09/07/2023,14,Palmeiras,Flamengo RJ,1-1
+09/07/2023,14,Santos FC,Goiás - GO,4-3
+09/07/2023,14,Red Bull Bragantino,São Paulo FC,0-0
+09/07/2023,14,Fluminense RJ,Internacional,2-0
+09/07/2023,14,Fortaleza - CE,Athletico Paranaense,1-0
+09/07/2023,14,Grêmio Porto Alegre,Botafogo - RJ,0-2
+16/07/2023,15,Botafogo - RJ,Red Bull Bragantino,2-0
+16/07/2023,15,Cruzeiro,Coritiba - PR,0-0
+16/07/2023,15,Fluminense RJ,Flamengo RJ,0-0
+16/07/2023,15,Fortaleza - CE,Cuiabá - MT,0-1
+16/07/2023,15,São Paulo FC,Santos FC,4-1
+16/07/2023,15,Athletico Paranaense,Bahia - BA,2-0
+16/07/2023,15,Internacional,Palmeiras,0-0
+18/07/2023,15,Goiás - GO,Atlético Mineiro,0-0
+19/09/2023,15,Corinthians SP,Grêmio Porto Alegre,4-4
+26/09/2023,15,América - MG,Vasco da Gama - RJ,0-1
+22/07/2023,16,Flamengo RJ,América - MG,1-1
+22/07/2023,16,Palmeiras,Fortaleza - CE,3-1
+22/07/2023,16,Bahia - BA,Corinthians SP,0-0
+22/07/2023,16,Cuiabá - MT,São Paulo FC,2-1
+23/07/2023,16,Grêmio Porto Alegre,Atlético Mineiro,1-0
+23/07/2023,16,Red Bull Bragantino,Internacional,0-0
+23/07/2023,16,Cruzeiro,Goiás - GO,0-1
+23/07/2023,16,Santos FC,Botafogo - RJ,2-2
+23/07/2023,16,Vasco da Gama - RJ,Athletico Paranaense,0-2
+25/07/2023,16,Coritiba - PR,Fluminense RJ,2-0
+29/07/2023,17,Athletico Paranaense,Cruzeiro,3-3
+29/07/2023,17,Fluminense RJ,Santos FC,1-0
+29/07/2023,17,Internacional,Cuiabá - MT,1-2
+29/07/2023,17,Corinthians SP,Vasco da Gama - RJ,3-1
+29/07/2023,17,Fortaleza - CE,Red Bull Bragantino,0-3
+30/07/2023,17,Atlético Mineiro,Flamengo RJ,1-2
+30/07/2023,17,São Paulo FC,Bahia - BA,0-0
+30/07/2023,17,América - MG,Palmeiras,1-4
+30/07/2023,17,Botafogo - RJ,Coritiba - PR,4-1
+30/07/2023,17,Goiás - GO,Grêmio Porto Alegre,1-1
+05/08/2023,18,Santos FC,Athletico Paranaense,1-1
+05/08/2023,18,Goiás - GO,Fortaleza - CE,1-0
+05/08/2023,18,Internacional,Corinthians SP,2-2
+06/08/2023,18,Fluminense RJ,Palmeiras,2-1
+06/08/2023,18,São Paulo FC,Atlético Mineiro,0-2
+06/08/2023,18,Vasco da Gama - RJ,Grêmio Porto Alegre,1-0
+06/08/2023,18,Bahia - BA,América - MG,3-1
+06/08/2023,18,Coritiba - PR,Red Bull Bragantino,0-1
+06/08/2023,18,Cruzeiro,Botafogo - RJ,0-0
+07/08/2023,18,Cuiabá - MT,Flamengo RJ,3-0
+13/08/2023,19,Botafogo - RJ,Internacional,3-1
+13/08/2023,19,Atlético Mineiro,Bahia - BA,1-0
+13/08/2023,19,América - MG,Goiás - GO,0-1
+13/08/2023,19,Corinthians SP,Coritiba - PR,3-1
+13/08/2023,19,Grêmio Porto Alegre,Fluminense RJ,2-1
+13/08/2023,19,Flamengo RJ,São Paulo FC,1-1
+13/08/2023,19,Fortaleza - CE,Santos FC,4-0
+15/08/2023,19,Palmeiras,Cruzeiro,1-0
+15/08/2023,19,Red Bull Bragantino,Vasco da Gama - RJ,1-1
+16/08/2023,19,Athletico Paranaense,Cuiabá - MT,2-0
+19/08/2023,20,Internacional,Fortaleza - CE,0-1
+19/08/2023,20,São Paulo FC,Botafogo - RJ,0-0
+19/08/2023,20,Cuiabá - MT,Palmeiras,0-2
+19/08/2023,20,Fluminense RJ,América - MG,3-1
+20/08/2023,20,Cruzeiro,Corinthians SP,1-1
+20/08/2023,20,Vasco da Gama - RJ,Atlético Mineiro,1-0
+20/08/2023,20,Bahia - BA,Red Bull Bragantino,4-0
+20/08/2023,20,Coritiba - PR,Flamengo RJ,2-3
+20/08/2023,20,Santos FC,Grêmio Porto Alegre,2-1
+22/08/2023,20,Goiás - GO,Athletico Paranaense,1-1
+26/08/2023,21,Flamengo RJ,Internacional,0-0
+27/08/2023,21,Corinthians SP,Goiás - GO,1-1
+27/08/2023,21,Red Bull Bragantino,Cuiabá - MT,2-0
+27/08/2023,21,América - MG,São Paulo FC,2-1
+27/08/2023,21,Atlético Mineiro,Santos FC,2-0
+27/08/2023,21,Botafogo - RJ,Bahia - BA,3-0
+27/08/2023,21,Athletico Paranaense,Fluminense RJ,2-2
+27/08/2023,21,Fortaleza - CE,Coritiba - PR,3-1
+27/08/2023,21,Palmeiras,Vasco da Gama - RJ,1-0
+28/08/2023,21,Grêmio Porto Alegre,Cruzeiro,3-0
+02/09/2023,22,Athletico Paranaense,Atlético Mineiro,1-1
+02/09/2023,22,Goiás - GO,Internacional,0-0
+03/09/2023,22,Botafogo - RJ,Flamengo RJ,1-2
+03/09/2023,22,Grêmio Porto Alegre,Cuiabá - MT,2-0
+03/09/2023,22,Corinthians SP,Palmeiras,0-0
+03/09/2023,22,Fluminense RJ,Fortaleza - CE,1-0
+03/09/2023,22,América - MG,Santos FC,2-0
+03/09/2023,22,Bahia - BA,Vasco da Gama - RJ,1-1
+03/09/2023,22,Cruzeiro,Red Bull Bragantino,0-0
+28/09/2023,22,São Paulo FC,Coritiba - PR,2-1
+14/09/2023,23,Flamengo RJ,Athletico Paranaense,0-3
+14/09/2023,23,Internacional,São Paulo FC,2-1
+15/09/2023,23,Fortaleza - CE,Corinthians SP,2-1
+15/09/2023,23,Santos FC,Cruzeiro,0-3
+15/09/2023,23,Coritiba - PR,Bahia - BA,2-4
+15/09/2023,23,Red Bull Bragantino,Grêmio Porto Alegre,2-0
+16/09/2023,23,Cuiabá - MT,América - MG,2-2
+16/09/2023,23,Palmeiras,Goiás - GO,1-0
+16/09/2023,23,Vasco da Gama - RJ,Fluminense RJ,4-2
+17/09/2023,23,Atlético Mineiro,Botafogo - RJ,1-0
+19/09/2023,24,Bahia - BA,Santos FC,1-2
+20/09/2023,24,América - MG,Red Bull Bragantino,0-2
+21/09/2023,24,Goiás - GO,Flamengo RJ,0-0
+21/09/2023,24,Fluminense RJ,Cruzeiro,1-0
+21/09/2023,24,São Paulo FC,Fortaleza - CE,1-2
+22/09/2023,24,Vasco da Gama - RJ,Coritiba - PR,5-1
+22/09/2023,24,Athletico Paranaense,Internacional,2-1
+22/09/2023,24,Grêmio Porto Alegre,Palmeiras,1-0
+23/09/2023,24,Corinthians SP,Botafogo - RJ,1-0
+24/09/2023,24,Atlético Mineiro,Cuiabá - MT,1-0
+30/09/2023,25,Flamengo RJ,Bahia - BA,1-0
+30/09/2023,25,Fortaleza - CE,Grêmio Porto Alegre,1-1
+30/09/2023,25,Cuiabá - MT,Fluminense RJ,3-0
+30/09/2023,25,São Paulo FC,Corinthians SP,2-1
+01/10/2023,25,Internacional,Atlético Mineiro,0-2
+01/10/2023,25,Coritiba - PR,Athletico Paranaense,2-0
+01/10/2023,25,Cruzeiro,América - MG,1-1
+01/10/2023,25,Santos FC,Vasco da Gama - RJ,4-1
+01/10/2023,25,Red Bull Bragantino,Palmeiras,2-1
+03/10/2023,25,Botafogo - RJ,Goiás - GO,1-1
+07/10/2023,26,Goiás - GO,Bahia - BA,4-6
+07/10/2023,26,Vasco da Gama - RJ,São Paulo FC,0-0
+08/10/2023,26,Corinthians SP,Flamengo RJ,1-1
+08/10/2023,26,Fluminense RJ,Botafogo - RJ,0-2
+08/10/2023,26,Internacional,Grêmio Porto Alegre,3-2
+08/10/2023,26,Palmeiras,Santos FC,1-2
+08/10/2023,26,Athletico Paranaense,Red Bull Bragantino,1-1
+08/10/2023,26,Atlético Mineiro,Coritiba - PR,1-2
+08/10/2023,26,Fortaleza - CE,América - MG,3-2
+15/10/2023,26,Cuiabá - MT,Cruzeiro,0-0
+19/10/2023,27,Grêmio Porto Alegre,Athletico Paranaense,1-2
+19/10/2023,27,América - MG,Botafogo - RJ,1-2
+19/10/2023,27,Coritiba - PR,Cuiabá - MT,0-3
+19/10/2023,27,Bahia - BA,Internacional,1-0
+19/10/2023,27,Goiás - GO,São Paulo FC,2-0
+19/10/2023,27,Vasco da Gama - RJ,Fortaleza - CE,1-0
+20/10/2023,27,Cruzeiro,Flamengo RJ,0-2
+20/10/2023,27,Palmeiras,Atlético Mineiro,0-2
+20/10/2023,27,Santos FC,Red Bull Bragantino,1-3
+20/10/2023,27,Fluminense RJ,Corinthians SP,3-3
+21/10/2023,28,Bahia - BA,Fortaleza - CE,2-0
+21/10/2023,28,Cuiabá - MT,Goiás - GO,1-1
+21/10/2023,28,São Paulo FC,Grêmio Porto Alegre,3-0
+22/10/2023,28,Botafogo - RJ,Athletico Paranaense,1-1
+22/10/2023,28,Atlético Mineiro,Cruzeiro,0-1
+22/10/2023,28,Flamengo RJ,Vasco da Gama - RJ,1-0
+22/10/2023,28,Internacional,Santos FC,7-1
+22/10/2023,28,Red Bull Bragantino,Fluminense RJ,1-0
+22/10/2023,28,Corinthians SP,América - MG,1-1
+22/10/2023,28,Coritiba - PR,Palmeiras,0-2
+26/10/2023,29,Athletico Paranaense,América - MG,3-2
+26/10/2023,29,Red Bull Bragantino,Atlético Mineiro,1-2
+26/10/2023,29,Fluminense RJ,Goiás - GO,5-3
+26/10/2023,29,Cruzeiro,Bahia - BA,3-0
+26/10/2023,29,Palmeiras,São Paulo FC,5-0
+26/10/2023,29,Cuiabá - MT,Corinthians SP,0-1
+26/10/2023,29,Grêmio Porto Alegre,Flamengo RJ,3-2
+27/10/2023,29,Vasco da Gama - RJ,Internacional,1-2
+27/10/2023,29,Santos FC,Coritiba - PR,2-1
+23/11/2023,29,Fortaleza - CE,Botafogo - RJ,2-2
+29/10/2023,30,América - MG,Grêmio Porto Alegre,3-4
+29/10/2023,30,Palmeiras,Bahia - BA,1-0
+29/10/2023,30,Atlético Mineiro,Fluminense RJ,2-0
+29/10/2023,30,Athletico Paranaense,São Paulo FC,1-1
+29/10/2023,30,Goiás - GO,Vasco da Gama - RJ,1-1
+29/10/2023,30,Corinthians SP,Santos FC,1-1
+29/10/2023,30,Internacional,Coritiba - PR,3-4
+30/10/2023,30,Botafogo - RJ,Cuiabá - MT,0-1
+18/11/2023,30,Fortaleza - CE,Cruzeiro,0-1
+24/11/2023,30,Flamengo RJ,Red Bull Bragantino,1-0
+31/10/2023,31,Bahia - BA,Fluminense RJ,1-0
+01/11/2023,31,Corinthians SP,Athletico Paranaense,1-0
+01/11/2023,31,Internacional,América - MG,1-1
+02/11/2023,31,Coritiba - PR,Grêmio Porto Alegre,1-2
+02/11/2023,31,Flamengo RJ,Santos FC,1-2
+02/11/2023,31,Atlético Mineiro,Fortaleza - CE,3-1
+02/11/2023,31,Botafogo - RJ,Palmeiras,3-4
+02/11/2023,31,Cuiabá - MT,Vasco da Gama - RJ,0-2
+02/11/2023,31,Goiás - GO,Red Bull Bragantino,0-2
+03/11/2023,31,São Paulo FC,Cruzeiro,1-0
+04/11/2023,32,América - MG,Atlético Mineiro,1-1
+04/11/2023,32,Grêmio Porto Alegre,Bahia - BA,1-0
+05/11/2023,32,Palmeiras,Athletico Paranaense,1-0
+05/11/2023,32,Red Bull Bragantino,Corinthians SP,1-0
+05/11/2023,32,Cruzeiro,Internacional,1-2
+05/11/2023,32,Fortaleza - CE,Flamengo RJ,0-2
+05/11/2023,32,Coritiba - PR,Goiás - GO,0-1
+06/11/2023,32,Vasco da Gama - RJ,Botafogo - RJ,1-0
+07/11/2023,32,Santos FC,Cuiabá - MT,0-0
+23/11/2023,32,Fluminense RJ,São Paulo FC,1-0
+08/11/2023,33,América - MG,Coritiba - PR,0-3
+08/11/2023,33,Internacional,Fluminense RJ,0-0
+09/11/2023,33,Athletico Paranaense,Fortaleza - CE,1-1
+09/11/2023,33,São Paulo FC,Red Bull Bragantino,1-0
+09/11/2023,33,Flamengo RJ,Palmeiras,3-0
+09/11/2023,33,Corinthians SP,Atlético Mineiro,1-1
+09/11/2023,33,Goiás - GO,Santos FC,0-1
+10/11/2023,33,Bahia - BA,Cuiabá - MT,0-3
+10/11/2023,33,Botafogo - RJ,Grêmio Porto Alegre,3-4
+22/11/2023,33,Cruzeiro,Vasco da Gama - RJ,2-2
+11/11/2023,34,Coritiba - PR,Cruzeiro,1-0
+11/11/2023,34,Flamengo RJ,Fluminense RJ,1-1
+12/11/2023,34,Palmeiras,Internacional,3-0
+12/11/2023,34,Red Bull Bragantino,Botafogo - RJ,2-2
+12/11/2023,34,Grêmio Porto Alegre,Corinthians SP,0-1
+12/11/2023,34,Atlético Mineiro,Goiás - GO,2-1
+12/11/2023,34,Bahia - BA,Athletico Paranaense,1-1
+12/11/2023,34,Cuiabá - MT,Fortaleza - CE,2-1
+12/11/2023,34,Santos FC,São Paulo FC,0-0
+12/11/2023,34,Vasco da Gama - RJ,América - MG,2-1
+25/11/2023,35,Corinthians SP,Bahia - BA,1-5
+25/11/2023,35,Athletico Paranaense,Vasco da Gama - RJ,0-0
+26/11/2023,35,Fluminense RJ,Coritiba - PR,2-1
+26/11/2023,35,Atlético Mineiro,Grêmio Porto Alegre,3-0
+26/11/2023,35,Botafogo - RJ,Santos FC,1-1
+26/11/2023,35,América - MG,Flamengo RJ,0-3
+26/11/2023,35,Fortaleza - CE,Palmeiras,2-2
+26/11/2023,35,Internacional,Red Bull Bragantino,1-0
+26/11/2023,35,São Paulo FC,Cuiabá - MT,0-0
+28/11/2023,35,Goiás - GO,Cruzeiro,0-1
+29/11/2023,36,Vasco da Gama - RJ,Corinthians SP,2-4
+29/11/2023,36,Santos FC,Fluminense RJ,0-3
+29/11/2023,36,Flamengo RJ,Atlético Mineiro,0-3
+30/11/2023,36,Bahia - BA,São Paulo FC,0-1
+30/11/2023,36,Cuiabá - MT,Internacional,0-2
+30/11/2023,36,Coritiba - PR,Botafogo - RJ,1-1
+30/11/2023,36,Palmeiras,América - MG,4-0
+30/11/2023,36,Grêmio Porto Alegre,Goiás - GO,2-1
+01/12/2023,36,Cruzeiro,Athletico Paranaense,1-1
+01/12/2023,36,Red Bull Bragantino,Fortaleza - CE,1-2
+02/12/2023,37,Corinthians SP,Internacional,1-2
+03/12/2023,37,Atlético Mineiro,São Paulo FC,2-1
+03/12/2023,37,Flamengo RJ,Cuiabá - MT,2-1
+03/12/2023,37,Palmeiras,Fluminense RJ,1-0
+03/12/2023,37,América - MG,Bahia - BA,3-2
+03/12/2023,37,Athletico Paranaense,Santos FC,3-0
+03/12/2023,37,Botafogo - RJ,Cruzeiro,0-0
+03/12/2023,37,Red Bull Bragantino,Coritiba - PR,1-0
+03/12/2023,37,Fortaleza - CE,Goiás - GO,1-0
+03/12/2023,37,Grêmio Porto Alegre,Vasco da Gama - RJ,1-0
+06/12/2023,38,Goiás - GO,América - MG,1-0
+07/12/2023,38,Bahia - BA,Atlético Mineiro,4-1
+07/12/2023,38,Coritiba - PR,Corinthians SP,0-2
+07/12/2023,38,Cruzeiro,Palmeiras,1-1
+07/12/2023,38,Cuiabá - MT,Athletico Paranaense,3-0
+07/12/2023,38,Fluminense RJ,Grêmio Porto Alegre,2-3
+07/12/2023,38,Internacional,Botafogo - RJ,3-1
+07/12/2023,38,Santos FC,Fortaleza - CE,1-2
+07/12/2023,38,São Paulo FC,Flamengo RJ,1-0
+07/12/2023,38,Vasco da Gama - RJ,Red Bull Bragantino,2-1

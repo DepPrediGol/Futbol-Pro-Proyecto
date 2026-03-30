@@ -3,7 +3,6 @@ import pandas as pd
 import glob
 import math
 import re
-import os
 from datetime import datetime, timedelta
 
 # --- 1. CONFIGURACIÓN ---
@@ -28,12 +27,23 @@ st.markdown("""
     h1, h2, h3, h4, p, span, div, label, .stMetric { color: #000000 !important; font-weight: bold; }
     
     .stButton > button {
-        width: 100% !important; background-color: white !important; color: black !important;
-        border: 1px solid #ddd !important; border-radius: 12px !important; padding: 15px !important;
-        box-shadow: 2px 2px 8px rgba(0,0,0,0.1) !important; transition: all 0.3s ease !important;
-        height: auto !important; min-height: 120px !important; white-space: pre-line !important;
+        width: 100% !important;
+        background-color: white !important;
+        color: black !important;
+        border: 1px solid #ddd !important;
+        border-radius: 12px !important;
+        padding: 15px !important;
+        box-shadow: 2px 2px 8px rgba(0,0,0,0.1) !important;
+        transition: all 0.3s ease !important;
+        height: auto !important;
+        min-height: 120px !important;
+        white-space: pre-line !important;
     }
-    .stButton > button:hover { border-color: #28a745 !important; transform: translateY(-3px) !important; box-shadow: 4px 4px 12px rgba(0,0,0,0.2) !important; }
+    .stButton > button:hover {
+        border-color: #28a745 !important;
+        transform: translateY(-3px) !important;
+        box-shadow: 4px 4px 12px rgba(0,0,0,0.2) !important;
+    }
     .giro-balon { display: inline-block; animation: rotacion 3s infinite linear; }
     @keyframes rotacion { from { transform: rotate(0deg); } to { transform: rotate(360deg); } }
     </style>
@@ -53,7 +63,7 @@ def color_letras_historial(val):
 
 def extraer_goles(resultado_str):
     if pd.isna(resultado_str): return None
-    numeros = re.findall(r'\d+', str(resultado_str).replace(':', '-'))
+    numeros = re.findall(r'\d+', str(resultado_str))
     return (int(numeros[0]), int(numeros[1])) if len(numeros) >= 2 else None
 
 def calcular_poisson(media, x):
@@ -93,35 +103,27 @@ def ventana_analisis(r, df_h):
             st.dataframe(df_eq, use_container_width=True, hide_index=True)
         st.divider()
 
-# --- 5. CARGA Y PROCESAMIENTO (BÚSQUEDA RECURSIVA EN CARPETAS) ---
+# --- 5. CARGA Y PROCESAMIENTO ---
 @st.cache_data(ttl=300)
 def cargar_datos_completos():
-    # MODIFICACIÓN: Busca en todas las carpetas de temporadas
-    archivos = glob.glob("**/*.csv", recursive=True)
+    archivos = glob.glob("*.csv")
     actuales, historicos, ligas = [], [], []
-    fz = {} # Diccionario global de fuerza por equipo
-
     for arc in archivos:
         try:
             df = pd.read_csv(arc)
-            # Nombre de la liga basado en el archivo
-            ln = os.path.basename(arc).replace('.csv','')
+            ln = arc.replace('.csv','')
             if ln not in ligas: ligas.append(ln)
-            
             df['Jornada'] = pd.to_numeric(df['Jornada'], errors='coerce').fillna(0).astype(int)
             df['Fecha_dt'] = pd.to_datetime(df['Fecha'], dayfirst=True, errors='coerce')
             
-            # Cálculo de fuerza acumulativa
+            equipos = pd.concat([df['Equipo Local'], df['Equipo Visitante']]).unique()
+            fz = {e: 1.2 for e in equipos}
             for _, fila in df.iterrows():
-                loc, vis = fila['Equipo Local'], fila['Equipo Visitante']
-                if loc not in fz: fz[loc] = 1.2
-                if vis not in fz: fz[vis] = 1.2
                 g = extraer_goles(fila.get('Resultado'))
                 if g:
-                    fz[loc] += 0.20 if g[0] > g[1] else 0.05
-                    fz[vis] += 0.20 if g[1] > g[0] else 0.05
+                    fz[fila['Equipo Local']] += 0.20 if g[0] > g[1] else 0.05
+                    fz[fila['Equipo Visitante']] += 0.20 if g[1] > g[0] else 0.05
 
-            # Generación de predicciones e historial
             for _, f in df.iterrows():
                 pl, pe, pv, po15, po25, pb = obtener_probabilidades(fz.get(f['Equipo Local'],1.2), fz.get(f['Equipo Visitante'],1.2))
                 g = extraer_goles(f.get('Resultado'))
@@ -172,6 +174,7 @@ with t1:
                         if st.button(txt, key=f"t4_{m}_{idx}"): ventana_analisis(r, df_h)
         
         st.divider()
+        # --- SUBTÍTULO RESTAURADO ---
         st.markdown("### 📊 LIGAS Y JORNADAS")
         c1, c2 = st.columns(2)
         with c1: sl = st.selectbox("Liga:", ["TODAS"] + lgs, key="filt_l")
@@ -196,7 +199,11 @@ with t1:
                 m1_v, m15_v = (h_v_away['G_V'] >= 1).sum(), (h_v_away['G_V'] >= 2).sum()
                 wx2_v = (h_v_away['G_V'] >= h_v_away['G_L']).sum()
                 
-                etiqueta_texto = f"Gana o empata (Local): {d_top['1X']:.0%}" if d_top['1X'] >= d_top['X2'] else f"Gana o empata (Visitante): {d_top['X2']:.0%}"
+                # --- LÓGICA DE ETIQUETA DINÁMICA ---
+                if d_top['1X'] >= d_top['X2']:
+                    etiqueta_texto = f"Gana o empata (Local): {d_top['1X']:.0%}"
+                else:
+                    etiqueta_texto = f"Gana o empata (Visitante): {d_top['X2']:.0%}"
 
                 st.markdown(f"""
                 <div style="background-color: #ff4b4b; padding: 25px; border-radius: 15px; border-left: 12px solid #8B0000; color: white; text-align: center;">

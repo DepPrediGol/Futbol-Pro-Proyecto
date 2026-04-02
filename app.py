@@ -90,26 +90,30 @@ def ventana_analisis(r, df_h):
     st.title(f"⚽ {r['Partido']}")
     st.subheader(f"🏆 {r['Liga']} | 📅 {r['Fecha']}")
     st.divider()
+    
     for eq in [r['Local'], r['Visitante']]:
         st.markdown(f"#### 📈 Rendimiento Reciente: {eq}")
         df_eq = df_h[(df_h['Equipo Local'] == eq) | (df_h['Equipo Visitante'] == eq)].iloc[::-1].head(5)
+        
         if not df_eq.empty:
             c1, c2, c3 = st.columns(3)
             m_1x = (df_eq['Doble Oportunidad'].str.contains('✅').sum() / len(df_eq))
             m_o15 = (df_eq['Over 1.5'].str.contains('✅').sum() / len(df_eq))
             m_btts = (df_eq['BTTS'].str.contains('✅').sum() / len(df_eq))
+            
             c1.metric("Efectividad 1X/X2", f"{m_1x:.0%}")
             c2.metric("Efectividad O1.5", f"{m_o15:.0%}")
             c3.metric("Efectividad BTTS", f"{m_btts:.0%}")
             st.dataframe(df_eq, use_container_width=True, hide_index=True)
         st.divider()
 
-# --- 5. CARGA Y PROCESAMIENTO (RECURSIVO) ---
+# --- 5. CARGA Y PROCESAMIENTO ---
 @st.cache_data(ttl=300)
 def cargar_datos_completos():
     archivos = glob.glob("**/*.csv", recursive=True)
     actuales, historicos, ligas = [], [], []
     fz = {}
+    
     for arc in archivos:
         try:
             df = pd.read_csv(arc)
@@ -130,6 +134,7 @@ def cargar_datos_completos():
             for _, f in df.iterrows():
                 pl, pe, pv, po15, po25, pb = obtener_probabilidades(fz.get(f['Equipo Local'],1.2), fz.get(f['Equipo Visitante'],1.2))
                 g = extraer_goles(f.get('Resultado'))
+                
                 if g:
                     p1x, px2 = pl+pe, pv+pe
                     pk = "1X" if p1x >= px2 else "X2"
@@ -162,19 +167,23 @@ with t1:
     if not df_p.empty:
         hoy = datetime.now().replace(hour=0, minute=0, second=0, microsecond=0)
         fechas = df_p[df_p['Fecha_dt'] >= hoy]['Fecha_dt'].unique()
+        
         if len(fechas) > 0:
             f_prox = min(fechas)
             df_t4 = df_p[df_p['Fecha_dt'] == f_prox].copy()
             st.markdown(f"### 🏆 TOP 4 POR MERCADO ({f_prox.strftime('%d/%m/%Y')})")
             mks = [('1X', '🛡️ Doble Oportunidad'), ('Over 1.5', '🥅 Over 1.5'), ('Over 2.5', '⚽ Over 2.5'), ('BTTS', '🤝 BTTS')]
             cols = st.columns(4)
+            
             for i, (m, tit) in enumerate(mks):
                 with cols[i]:
                     st.markdown(f"#### {tit}")
                     top = df_t4.nlargest(4, m)
                     for idx, r in top.iterrows():
-                        txt = f"{r['Fecha']}\n{r['Liga']}\n{r['Partido']}\n⭐ Prob: {r[m]:.0%}"
+                        etq = ("1X" if r['1X'] >= r['X2'] else "X2") if m == '1X' else "Prob"
+                        txt = f"{r['Fecha']}\n{r['Liga']}\n{r['Partido']}\n⭐ {etq}: {r[m]:.0%}"
                         if st.button(txt, key=f"t4_{m}_{idx}"): ventana_analisis(r, df_h)
+        
         st.divider()
         st.markdown("### 📊 LIGAS Y JORNADAS")
         c1, c2 = st.columns(2)
@@ -182,19 +191,18 @@ with t1:
         with c2:
             df_fl = df_p if sl=="TODAS" else df_p[df_p['Liga']==sl]
             sj = st.selectbox("Jornada:", ["TODAS"] + sorted(df_fl['Jornada'].unique().tolist(), reverse=True) if not df_fl.empty else ["TODAS"], key="filt_j")
+        
         df_fin = df_fl if sj=="TODAS" else df_fl[df_fl['Jornada']==sj]
-        # CORRECCIÓN AQUÍ: Se cambió applymap por map y se añadió validación de columnas
         if not df_fin.empty:
-            cols_show = ['Fecha', 'Jornada', 'Liga', 'Partido', '1X', 'X2', 'Over 1.5', 'Over 2.5', 'BTTS']
             cols_fmt = ['1X', 'X2', 'Over 1.5', 'Over 2.5', 'BTTS']
-            # Versión compatible con Pandas nuevo y viejo
-            st.dataframe(df_fin[cols_show].style.map(aplicar_semaforo, subset=cols_fmt).format({c: '{:.0%}' for c in cols_fmt}), use_container_width=True, hide_index=True)
-        if not df_fin.empty:
+            st.dataframe(df_fin[['Fecha', 'Jornada', 'Liga', 'Partido'] + cols_fmt].style.map(aplicar_semaforo, subset=cols_fmt).format({c: '{:.0%}' for c in cols_fmt}), use_container_width=True, hide_index=True)
+            
             st.divider()
             d_top = df_fin.loc[df_fin[['Over 1.5', 'Over 2.5', 'BTTS']].max(axis=1).idxmax()]
             loc, vis = d_top['Local'], d_top['Visitante']
             h_l_home = df_h[(df_h['Equipo Local'] == loc) & (df_h['Liga'] == d_top['Liga'])]
             h_v_away = df_h[(df_h['Equipo Visitante'] == vis) & (df_h['Liga'] == d_top['Liga'])]
+            
             if len(h_l_home) > 0 and len(h_v_away) > 0:
                 t_l, t_v = len(h_l_home), len(h_v_away)
                 m1_l, m2_l, r1_l = (h_l_home['G_L'] >= 1).sum(), (h_l_home['G_L'] >= 2).sum(), (h_l_home['G_V'] >= 1).sum()
@@ -202,6 +210,7 @@ with t1:
                 m1_v, m15_v = (h_v_away['G_V'] >= 1).sum(), (h_v_away['G_V'] >= 2).sum()
                 wx2_v = (h_v_away['G_V'] >= h_v_away['G_L']).sum()
                 etiqueta_texto = f"Gana o empata (Local): {d_top['1X']:.0%}" if d_top['1X'] >= d_top['X2'] else f"Gana o empata (Visitante): {d_top['X2']:.0%}"
+                
                 st.markdown(f"""
                 <div style="background-color: #ff4b4b; padding: 25px; border-radius: 15px; border-left: 12px solid #8B0000; color: white; text-align: center;">
                     <h2 style="color: white !important; margin: 0;">💣 PREDICCIÓN BOMBA DETECTADA 💣</h2>
@@ -219,6 +228,7 @@ with t1:
                     </div>
                 </div>
                 """, unsafe_allow_html=True)
+        else: st.info("No hay predicciones futuras para esta selección.")
 
 with t2:
     st.markdown("## 📜 HISTORIAL DE RESULTADOS")
@@ -228,6 +238,7 @@ with t2:
         with h2:
             df_hh = df_h if slh=="TODAS" else df_h[df_h['Liga']==slh]
             sjh = st.selectbox("Jornada:", ["TODAS"] + sorted(df_hh['Jornada'].unique().tolist(), reverse=True) if not df_hh.empty else ["TODAS"], key="h_j")
+        
         df_res = df_hh if sjh=="TODAS" else df_hh[df_hh['Jornada']==sjh]
         if not df_res.empty:
             cols_h = ['Fecha', 'Jornada', 'Liga', 'Equipo Local', 'Equipo Visitante', 'Marcador', 'Doble Oportunidad', 'Over 1.5', 'Over 2.5', 'BTTS']

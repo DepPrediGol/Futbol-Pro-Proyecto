@@ -91,23 +91,25 @@ def obtener_probabilidades(e_l, e_v):
             if gl > 0 and gv > 0: p_btts += p
     return p_l, p_e, p_v, p_o15, p_o25, p_btts
 
-# --- 4. VENTANA MODAL (LÓGICA DINÁMICA CORREGIDA) ---
+# --- 4. VENTANA MODAL (10 PARTIDOS + FILTRO CONDICIÓN) ---
 @st.dialog("📊 ANÁLISIS DETALLADO", width="large")
 def ventana_analisis(r, df_h):
     st.title(f"⚽ {r['Match']}")
     st.subheader(f"🏆 {r['League']} | 📅 {r['Date']}")
     st.divider()
     
-    for eq in [r['Home team'], r['Away team']]:
-        st.markdown(f"#### 📈 Rendimiento Reciente: {eq}")
-        df_eq = df_h[(df_h['Home team'] == eq) | (df_h['Away team'] == eq)].iloc[::-1].head(5).copy()
+    # Analizamos cada equipo según su rol en el partido seleccionado
+    roles = [(r['Home team'], 'Home team', 'Local'), (r['Away team'], 'Away team', 'Visitante')]
+    
+    for eq, col_rol, nombre_rol in roles:
+        st.markdown(f"#### 📈 Últimos 10 partidos como {nombre_rol}: {eq}")
+        # FILTRO DINÁMICO: Filtra solo partidos donde el equipo cumplió el MISMO ROL
+        df_eq = df_h[df_h[col_rol] == eq].iloc[::-1].head(10).copy()
         
         if not df_eq.empty:
-            # CORRECCIÓN DE PERSPECTIVA: Ajustamos Double Chance según si el equipo es Local o Visitante
             for idx, fila in df_eq.iterrows():
                 g = extraer_goles(fila['Result'])
                 if g:
-                    # Obtenemos las probas originales guardadas en el texto (ej: "1X ✅ (65%)")
                     match_prob = re.search(r'\((\d+)%\)', str(fila['Double chance']))
                     prob_str = f" ({match_prob.group(1)}%)" if match_prob else ""
                     
@@ -123,12 +125,14 @@ def ventana_analisis(r, df_h):
             m_o15 = (df_eq['Over 1.5'].str.contains('✅').sum() / len(df_eq))
             m_btts = (df_eq['Btts'].str.contains('✅').sum() / len(df_eq))
             
-            c1.metric("Efectividad DC", f"{m_1x:.0%}")
+            c1.metric(f"Efectividad {('1X' if nombre_rol=='Local' else 'X2')}", f"{m_1x:.0%}")
             c2.metric("Efectividad O1.5", f"{m_o15:.0%}")
             c3.metric("Efectividad BTTS", f"{m_btts:.0%}")
             
             cols_mostrar = ['Date', 'Home team', 'Away team', 'Result', 'Double chance', 'Over 1.5', 'Over 2.5', 'Btts']
             st.dataframe(df_eq[cols_mostrar].style.map(color_letras_historial, subset=['Double chance', 'Over 1.5', 'Over 2.5', 'Btts']), use_container_width=True, hide_index=True)
+        else:
+            st.info(f"No hay historial suficiente para {eq} como {nombre_rol}.")
         st.divider()
 
 # --- 5. CARGA Y PROCESAMIENTO ---
@@ -184,7 +188,7 @@ def cargar_datos_completos():
 df_p, df_h, lgs = cargar_datos_completos()
 
 # --- 6. INTERFAZ FINAL ---
-st.markdown('<h1><span class="gion-balon">⚽</span> Bet Pro League</h1>', unsafe_allow_html=True)
+st.markdown('<h1><span class="giro-balon">⚽</span> Bet Pro League</h1>', unsafe_allow_html=True)
 t1, t2 = st.tabs(["PREDICCIONES", "HISTORIAL"])
 
 with t1:
@@ -220,7 +224,6 @@ with t1:
             st.dataframe(df_fin[['Date', 'Time', 'Matchday', 'League', 'Match'] + cols_fmt].style.map(aplicar_semaforo, subset=cols_fmt).format({c: '{:.0%}' for c in cols_fmt}), use_container_width=True, hide_index=True)
             
             st.divider()
-            # LÓGICA BOMBA MANTENIDA...
             d_top = df_fin.loc[df_fin[['Over 1.5', 'Over 2.5', 'Btts']].max(axis=1).idxmax()]
             loc, vis = d_top['Home team'], d_top['Away team']
             h_l_home = df_h[(df_h['Home team'] == loc) & (df_h['League'] == d_top['League'])]

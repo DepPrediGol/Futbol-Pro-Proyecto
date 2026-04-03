@@ -63,8 +63,10 @@ def color_letras_historial(val):
     return 'color: black;'
 
 def extraer_goles(resultado_str):
-    if pd.isna(resultado_str) or str(resultado_str).strip() == "": return None
-    numeros = re.findall(r'\d+', str(resultado_str).replace(':', '-'))
+    if pd.isna(resultado_str): return None
+    s = str(resultado_str).strip()
+    if s == "" or s.lower() == "nan": return None
+    numeros = re.findall(r'\d+', s.replace(':', '-'))
     return (int(numeros[0]), int(numeros[1])) if len(numeros) >= 2 else None
 
 def calcular_poisson(media, x):
@@ -150,7 +152,7 @@ def cargar_datos_completos():
                 else:
                     actuales.append({
                         'Fecha': f['date'], 'Fecha_dt': f['Fecha_dt'], 'Jornada': f['matchday'], 'Liga': ln, 
-                        'Local': f['home_team'], 'Visitante': f['away_team'],
+                        'Local': f['home_team'], 'Visitante': f['away_team'], 'Time': f.get('time','-'),
                         'Partido': f"{f['home_team']} vs {f['away_team']}",
                         '1X': pl+pe, 'X2': pv+pe, 'Over 1.5': po15, 'Over 2.5': po25, 'BTTS': pb
                     })
@@ -181,7 +183,7 @@ with t1:
                     top = df_t4.nlargest(4, m)
                     for idx, r in top.iterrows():
                         etq = ("1X" if r['1X'] >= r['X2'] else "X2") if m == '1X' else "Prob"
-                        txt = f"{r['Fecha']}\n{r['Liga']}\n{r['Partido']}\n⭐ {etq}: {r[m]:.0%}"
+                        txt = f"{r['Fecha']} {r['Time']}\n{r['Liga']}\n{r['Partido']}\n⭐ {etq}: {r[m]:.0%}"
                         if st.button(txt, key=f"t4_{m}_{idx}"): ventana_analisis(r, df_h)
         
         st.divider()
@@ -195,7 +197,7 @@ with t1:
         df_fin = df_fl if sj=="TODAS" else df_fl[df_fl['Jornada']==sj]
         if not df_fin.empty:
             cols_fmt = ['1X', 'X2', 'Over 1.5', 'Over 2.5', 'BTTS']
-            st.dataframe(df_fin[['Fecha', 'Jornada', 'Liga', 'Partido'] + cols_fmt].style.map(aplicar_semaforo, subset=cols_fmt).format({c: '{:.0%}' for c in cols_fmt}), use_container_width=True, hide_index=True)
+            st.dataframe(df_fin[['Fecha', 'Time', 'Jornada', 'Liga', 'Partido'] + cols_fmt].style.map(aplicar_semaforo, subset=cols_fmt).format({c: '{:.0%}' for c in cols_fmt}), use_container_width=True, hide_index=True)
             
             st.divider()
             d_top = df_fin.loc[df_fin[['Over 1.5', 'Over 2.5', 'BTTS']].max(axis=1).idxmax()]

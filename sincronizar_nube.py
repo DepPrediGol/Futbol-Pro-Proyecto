@@ -1,30 +1,38 @@
-import subprocess
 import os
-import time
-from Organizador_de_archivos import procesar_todo
+import subprocess
+from datetime import datetime
+
+# Se eliminó la importación de Organizador_de_archivos porque ya no se usará
 
 def sincronizar():
     print("--- INICIANDO ACTUALIZACIÓN PRO ---")
     
-    # 1. Organizar y limpiar los CSV que bajó el PAD
-    print("[1/3] Limpiando datos de las ligas...")
-    procesar_todo()
+    # [1/3] PASO OMITIDO: Ya tienes los archivos organizados manualmente
+    print("[1/3] Saltando limpieza (Archivos ya listos)...")
     
-    # 2. Subir todo a GitHub
+    # [2/3] Subiendo cambios a la nube
     print("[2/3] Subiendo cambios a la nube...")
     try:
-        # Forzamos la subida de los CSV ahora que quitamos el bloqueo
-        subprocess.run("git add .", shell=True, check=True)
-        mensaje = f"Auto-Update: {time.strftime('%H:%M:%S')}"
-        subprocess.run(f'git commit -m "{mensaje}"', shell=True)
-        subprocess.run("git push origin main", shell=True, check=True)
+        # Añadir todos los archivos actuales al commit
+        subprocess.run(["git", "add", "."], check=True)
+        
+        # Crear el mensaje con la hora actual
+        mensaje_commit = f"Auto-Update: {datetime.now().strftime('%H:%M:%S')}"
+        subprocess.run(["git", "commit", "-m", mensaje_commit], check=True)
+        
+        # Empujar a GitHub
+        subprocess.run(["git", "push", "origin", "main"], check=True)
         print("✅ ¡GitHub actualizado!")
-    except Exception as e:
-        print(f"❌ Error al subir: {e}")
+        
+    except subprocess.CalledProcessError as e:
+        print(f"❌ Error en la sincronización: {e}")
+        return
 
     print("\n[3/3] ¡PROCESO TERMINADO!")
-    print(f"Revisa tu web: https://betproleague.streamlit.app/")
-    time.sleep(5)
+    print("Revisa tu web: https://betproleague.streamlit.app/")
 
 if __name__ == "__main__":
+    print("===========================================")
+    print("      ACTUALIZANDO WEB")
+    print("===========================================")
     sincronizar()

@@ -1,102 +1,112 @@
 import pandas as pd
-import re
-import glob
 import os
+import re
 
-def limpiar_nombre_final(texto):
-    """Elimina repeticiones de nombres y basura"""
-    if not texto or str(texto).lower() == 'nan': return ""
+# 1. DICCIONARIO DE RENOMBRADO AUTOMÁTICO
+lista_renombrado = {
+    '2-bundesliga-de_2025-26.csv': '2-Bundesliga_Alemania.csv',
+    '3-liga-de_2025-26.csv': '3-Liga_Alemania.csv',
+    'bundesliga-de_2025-26.csv': 'Bundesliga_Alemania.csv',
+    'championship-gb-eng_2025-26.csv': 'Championship_Inglaterra.csv',
+    'conmebol-libertadores_2026.csv': 'Libertadores.csv',
+    'copa-del-rey-es_2025-26.csv': 'CopaDelRey_España.csv',
+    'dfb-pokal-de_2025-26.csv': 'DFB-Pokal_Alemania.csv',
+    'eerste-divisie-nl_2025-26.csv': 'Eerste-Divisie_Holanda.csv',
+    'eredivisie-nl_2025-26.csv': 'Eredivisie_Holanda.csv',
+    'fa-cup-gb-eng_2025-26.csv': 'FA-Cup_Inglaterra.csv',
+    'j1-league_2026.csv': 'J1-League_Japon.csv',
+    'jupiler-pro-league-be_2025-26.csv': 'Jupiler-Pro-League_Belgica.csv',
+    'la-liga-es_2025-26.csv': 'La-Liga_España.csv',
+    'league-cup-gb-eng_2025-26.csv': 'League-Cup_Inglaterra.csv',
+    'league-one-gb-eng_2025-26.csv': 'League-One_Inglaterra.csv',
+    'league-two-gb-eng_2025-26.csv': 'League-Two_Inglaterra.csv',
+    'liga-mx-mx_2025-26.csv': 'Liga-MX_Mexico.csv',
+    'liga-profesional-argentina-ar_2026.csv': 'Liga-Profesional_Argentina.csv',
+    'ligue-1-fr_2025-26.csv': 'Ligue-1_Francia.csv',
+    'ligue-2-fr_2025-26.csv': 'Ligue-2_Francia.csv',
+    'major-league-soccer-us_2026.csv': 'MLS_Estados-Unidos.csv',
+    'national-league-gb-eng_2025-26.csv': 'National-League_Inglaterra.csv',
+    'premier-league-gb-eng_2025-26.csv': 'Premier-League_Inglaterra.csv',
+    'premiership-gb-sct_2025-26.csv': 'Premiership_Escocia.csv',
+    'primeira-liga-pt_2025-26.csv': 'Primeira-Liga_Portugal.csv',
+    'primera-a_2026.csv': 'Liga-BetPlay_Colombia.csv',
+    'primera-b_2026.csv': 'Torneo-BetPlay_Colombia.csv',
+    'primera-nacional_2026.csv': 'Primera-Nacional_Argentina.csv',
+    'pro-league-sa_2025-26.csv': 'Pro-League_Arabia-Saudita.csv',
+    'segunda-division-es_2025-26.csv': 'La-Liga2_España.csv',
+    'segunda-liga-pt_2025-26.csv': 'Segunda-Liga_Portugal.csv',
+    'serie-a-br_2026.csv': 'Serie-A_Brasil.csv',
+    'serie-a-it_2025-26.csv': 'Serie-A_Italia.csv',
+    'serie-b-it_2025-26.csv': 'Serie-B_Italia.csv',
+    'serie-b_2025.csv': 'Serie-B_Brasil.csv',
+    'super-lig-tr_2025-26.csv': 'Super-Lig_Turquia.csv',
+    'uefa-champions-league_2025-26.csv': 'Uefa-Champions-League.csv',
+    'uefa-europa-conference-league_2025-26.csv': 'Uefa-Europa-Conference-League.csv',
+    'uefa-europa-league_2025-26.csv': 'Uefa-Europa-League.csv',
+    'usl-championship_2026.csv': 'USL-Championship_Estados-Unidos.csv'
+}
+
+# 2. Configuración General
+ruta_carpeta = '.' 
+carpeta_salida = 'Procesados_Actualizados'
+columnas_deseadas = ['matchday', 'date', 'time', 'home_team', 'away_team', 'result', 'status']
+
+def procesar_todo(path=ruta_carpeta, output_folder=carpeta_salida, columns=columnas_deseadas, rename_dict=lista_renombrado):
+    if not os.path.exists(output_folder):
+        os.makedirs(output_folder)
+        print(f"📁 Carpeta '{output_folder}' creada.")
+
+    archivos = [f for f in os.listdir(path) if f.endswith('.csv')]
     
-    # Quitar saltos de línea y basura común
-    texto = texto.replace('Final', '').replace('apla.', '').replace('venc.', '').strip()
-    texto = texto.split('\n')[-1].strip()
-    
-    # Lógica de "Espejo" para PereiraPereira
-    n = len(texto)
-    for i in range(1, n // 2 + 1):
-        if n % i == 0:
-            sub = texto[:i]
-            if sub * (n // i) == texto:
-                return sub.strip()
-    return texto.strip()
+    for archivo in archivos:
+        if archivo in rename_dict:
+            nombre_final = rename_dict[archivo]
+            ruta_input = os.path.join(path, archivo)
+            ruta_output = os.path.join(output_folder, nombre_final)
 
-def procesar_todo():
-    # Buscamos todos los archivos CSV
-    archivos_csv = glob.glob("*.csv")
-    
-    for nombre_archivo in archivos_csv:
-        try:
-            # 1. Verificar si ya está organizado (para no dañarlo si se corre dos veces)
-            with open(nombre_archivo, 'r', encoding='utf-8-sig') as f:
-                primera_linea = f.readline()
-            if primera_linea.startswith("Fecha,Jornada"):
-                continue
+            try:
+                try:
+                    df = pd.read_csv(ruta_input, encoding='utf-8')
+                except:
+                    df = pd.read_csv(ruta_input, encoding='latin1')
 
-            # 2. Leer el archivo sucio
-            df = pd.read_csv(nombre_archivo, encoding='utf-8-sig', header=None).astype(str)
-            datos_finales = []
-            fecha_actual, jornada_actual = "", ""
+                # A. Filtrar columnas
+                columnas_presentes = [col for col in columns if col in df.columns]
+                df = df[columnas_presentes].copy()
 
-            print(f"Organizando y sobrescribiendo: {nombre_archivo}...")
+                # B. Matchday sin decimales
+                if 'matchday' in df.columns:
+                    df['matchday'] = pd.to_numeric(df['matchday'], errors='coerce').astype('Int64')
 
-            for i in range(len(df)):
-                linea = df.iloc[i, 0].strip()
+                # C. Fecha a DD/MM/YYYY
+                if 'date' in df.columns:
+                    df['date'] = pd.to_datetime(df['date'], errors='coerce').dt.strftime('%d/%m/%Y')
 
-                # A. Detectar Fecha (17.01.2026)
-                if re.match(r'\d{2}\.\d{2}\.\d{4}', linea):
-                    fecha_actual = linea.replace('.', '/')
-                    continue
+                # D. Limpiar marcador - CORRECCIÓN AQUÍ PARA EVITAR ERROR 'FLOAT'
+                if 'result' in df.columns:
+                    # Convertimos a string primero para que no falle con los NaN (floats)
+                    df['result'] = df['result'].fillna('').astype(str)
+                    df['result'] = df['result'].str.replace(r'\s*\(.*?\)', '', regex=True).str.strip()
+                    df['result'] = df['result'].replace(['nan', 'None', '<NA>', ''], '')
 
-                # B. Detectar Jornada (1. Jornada)
-                if 'Jornada' in linea:
-                    nums = re.findall(r'\d+', linea)
-                    if nums: jornada_actual = nums[0]
-                    continue
+                # E. Cambios en Status
+                if 'status' in df.columns:
+                    df['status'] = df['status'].fillna('').astype(str).str.strip()
+                    map_status = {
+                        'jugado': 'Final', 'Jugado': 'Final', 'JUGADO': 'Final',
+                        'Por jugar': '', 'por jugar': '', 'POR JUGAR': ''
+                    }
+                    df['status'] = df['status'].replace(map_status)
+                    df['status'] = df['status'].replace(['nan', 'None', '<NA>'], '')
 
-                # C. Detectar Separador (Marcador 2:1, Hora 01:20 o Aplazado -:-)
-                match_sep = re.search(r'(\d{1,2}:\d{1,2}|-:-)', linea)
-                
-                if match_sep:
-                    separador = match_sep.group(1)
-                    
-                    # REGLA: Si es hora (HH:MM) o -:- el resultado queda VACÍO
-                    # Si es marcador (G:G) se pone con guion
-                    es_hora = re.match(r'\d{2}:\d{2}', separador)
-                    if es_hora or separador == "-:-":
-                        res_final = ""
-                    else:
-                        res_final = separador.replace(':', '-')
+                # Guardar
+                df.to_csv(ruta_output, index=False, encoding='utf-8')
+                print(f"✅ PROCESADO: {archivo} -> {nombre_final}")
 
-                    # Separar equipos
-                    partes = linea.split(separador)
-                    local_raw = partes[0].strip()
-                    visitante_raw = partes[1].strip() if len(partes) > 1 else ""
-
-                    # Limpieza de nombres
-                    local = limpiar_nombre_final(local_raw)
-                    visitante = limpiar_nombre_final(visitante_raw)
-
-                    if local and 'Jornada' not in local:
-                        datos_finales.append({
-                            'Fecha': fecha_actual,
-                            'Jornada': jornada_actual,
-                            'Equipo Local': local,
-                            'Equipo Visitante': visitante,
-                            'Resultado': res_final
-                        })
-
-            # 3. GUARDAR SOBRE EL ORIGINAL
-            if datos_finales:
-                df_res = pd.DataFrame(datos_finales).drop_duplicates()
-                columnas = ['Fecha', 'Jornada', 'Equipo Local', 'Equipo Visitante', 'Resultado']
-                df_res = df_res[columnas]
-                
-                # Aquí ocurre la magia: guardamos con el MISMO nombre de entrada
-                df_res.to_csv(nombre_archivo, index=False, encoding='utf-8-sig')
-                print(f"   ✅ {nombre_archivo} actualizado correctamente.")
-
-        except Exception as e:
-            print(f"   ❌ Error en {nombre_archivo}: {e}")
+            except Exception as e:
+                print(f"❌ ERROR en {archivo}: {e}")
+        else:
+            continue
 
 if __name__ == "__main__":
-    procesar_todo()
+    procesar_todo(ruta_carpeta, carpeta_salida, columnas_deseadas, lista_renombrado)

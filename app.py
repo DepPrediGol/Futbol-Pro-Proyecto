@@ -9,7 +9,7 @@ from datetime import datetime, timedelta
 # --- 1. CONFIGURACIÓN ---
 st.set_page_config(page_title="Bet Pro League", layout="wide", page_icon="⚽")
 
-# --- 2. ESTILOS, PRIVACIDAD Y SIMETRÍA ---
+# --- 2. ESTILOS, PRIVACIDAD Y RESPONSIVE ---
 st.markdown("""
     <style>
     @media (max-width: 640px) {
@@ -26,7 +26,6 @@ st.markdown("""
     .main .block-container { background-color: rgba(255, 255, 255, 0.95); border-radius: 10px; padding: 30px; margin-top: 20px; }
     h1, h2, h3, h4, p, span, div, label, .stMetric { color: #000000 !important; font-weight: bold; }
     
-    /* FIX SIMETRÍA: Altura fija de 180px para que los cuadros no se muevan */
     div.stButton > button {
         width: 100% !important;
         height: 180px !important;
@@ -92,7 +91,7 @@ def obtener_probabilidades(e_l, e_v):
             if gl > 0 and gv > 0: p_btts += p
     return p_l, p_e, p_v, p_o15, p_o25, p_btts
 
-# --- 4. VENTANA MODAL ---
+# --- 4. VENTANA MODAL (LÓGICA DINÁMICA CORREGIDA) ---
 @st.dialog("📊 ANÁLISIS DETALLADO", width="large")
 def ventana_analisis(r, df_h):
     st.title(f"⚽ {r['Match']}")
@@ -101,9 +100,24 @@ def ventana_analisis(r, df_h):
     
     for eq in [r['Home team'], r['Away team']]:
         st.markdown(f"#### 📈 Rendimiento Reciente: {eq}")
-        df_eq = df_h[(df_h['Home team'] == eq) | (df_h['Away team'] == eq)].head(5)
+        df_eq = df_h[(df_h['Home team'] == eq) | (df_h['Away team'] == eq)].iloc[::-1].head(5).copy()
         
         if not df_eq.empty:
+            # CORRECCIÓN DE PERSPECTIVA: Ajustamos Double Chance según si el equipo es Local o Visitante
+            for idx, fila in df_eq.iterrows():
+                g = extraer_goles(fila['Result'])
+                if g:
+                    # Obtenemos las probas originales guardadas en el texto (ej: "1X ✅ (65%)")
+                    match_prob = re.search(r'\((\d+)%\)', str(fila['Double chance']))
+                    prob_str = f" ({match_prob.group(1)}%)" if match_prob else ""
+                    
+                    if fila['Home team'] == eq:
+                        check = "✅" if g[0] >= g[1] else "❌"
+                        df_eq.at[idx, 'Double chance'] = f"1X {check}{prob_str}"
+                    else:
+                        check = "✅" if g[1] >= g[0] else "❌"
+                        df_eq.at[idx, 'Double chance'] = f"X2 {check}{prob_str}"
+
             c1, c2, c3 = st.columns(3)
             m_1x = (df_eq['Double chance'].str.contains('✅').sum() / len(df_eq))
             m_o15 = (df_eq['Over 1.5'].str.contains('✅').sum() / len(df_eq))
@@ -113,7 +127,6 @@ def ventana_analisis(r, df_h):
             c2.metric("Efectividad O1.5", f"{m_o15:.0%}")
             c3.metric("Efectividad BTTS", f"{m_btts:.0%}")
             
-            # COLUMNAS RESTAURADAS SEGÚN CAPTURA
             cols_mostrar = ['Date', 'Home team', 'Away team', 'Result', 'Double chance', 'Over 1.5', 'Over 2.5', 'Btts']
             st.dataframe(df_eq[cols_mostrar].style.map(color_letras_historial, subset=['Double chance', 'Over 1.5', 'Over 2.5', 'Btts']), use_container_width=True, hide_index=True)
         st.divider()
@@ -171,21 +184,19 @@ def cargar_datos_completos():
 df_p, df_h, lgs = cargar_datos_completos()
 
 # --- 6. INTERFAZ FINAL ---
-st.markdown('<h1><span class="giro-balon">⚽</span> Bet Pro League</h1>', unsafe_allow_html=True)
+st.markdown('<h1><span class="gion-balon">⚽</span> Bet Pro League</h1>', unsafe_allow_html=True)
 t1, t2 = st.tabs(["PREDICCIONES", "HISTORIAL"])
 
 with t1:
     if not df_p.empty:
         hoy = datetime.now().replace(hour=0, minute=0, second=0, microsecond=0)
         fechas = df_p[df_p['Fecha_dt'] >= hoy]['Fecha_dt'].unique()
-        
         if len(fechas) > 0:
             f_prox = min(fechas)
             df_t4 = df_p[df_p['Fecha_dt'] == f_prox].copy()
-            st.markdown(f"### 🏆 TOP 4 ({f_prox.strftime('%d/%m/%Y')})")
+            st.markdown(f"### 🏆 TOP 4 POR MERCADO ({f_prox.strftime('%d/%m/%Y')})")
             mks = [('1X', '🛡️ Doble Oportunidad'), ('Over 1.5', '🥅 Over 1.5'), ('Over 2.5', '⚽ Over 2.5'), ('Btts', '🤝 Btts')]
             cols = st.columns(4)
-            
             for i, (m, tit) in enumerate(mks):
                 with cols[i]:
                     st.markdown(f"#### {tit}")
@@ -209,7 +220,7 @@ with t1:
             st.dataframe(df_fin[['Date', 'Time', 'Matchday', 'League', 'Match'] + cols_fmt].style.map(aplicar_semaforo, subset=cols_fmt).format({c: '{:.0%}' for c in cols_fmt}), use_container_width=True, hide_index=True)
             
             st.divider()
-            # LÓGICA DE PREDICCIÓN BOMBA DETECTADA
+            # LÓGICA BOMBA MANTENIDA...
             d_top = df_fin.loc[df_fin[['Over 1.5', 'Over 2.5', 'Btts']].max(axis=1).idxmax()]
             loc, vis = d_top['Home team'], d_top['Away team']
             h_l_home = df_h[(df_h['Home team'] == loc) & (df_h['League'] == d_top['League'])]
@@ -240,7 +251,6 @@ with t1:
                     </div>
                 </div>
                 """, unsafe_allow_html=True)
-        else: st.info("No hay predicciones futuras para esta selección.")
 
 with t2:
     st.markdown("## 📜 HISTORIAL DE RESULTADOS")
@@ -250,7 +260,6 @@ with t2:
         with h2:
             df_hh = df_h if slh=="TODAS" else df_h[df_h['League']==slh]
             sjh = st.selectbox("Matchday:", ["TODAS"] + sorted(df_hh['Matchday'].unique().tolist(), reverse=True) if not df_hh.empty else ["TODAS"], key="h_j")
-        
         df_res = df_hh if sjh=="TODAS" else df_hh[df_hh['Matchday']==sjh]
         if not df_res.empty:
             cols_h = ['Date', 'Matchday', 'League', 'Home team', 'Away team', 'Result', 'Double chance', 'Over 1.5', 'Over 2.5', 'Btts']

@@ -94,7 +94,7 @@ def obtener_probabilidades(e_l, e_v):
     return p_l, p_e, p_v, p_o15, p_o25, p_btts
 
 # --- 4. VENTANA MODAL CORREGIDA ---
-@st.dialog("📊 ANÁLISIS DETALLADO", width="large")
+@st.dialog("📊 ANÁLISIS ", width="large")
 def ventana_analisis(r, df_h):
     st.title(f"⚽ {r['Match']}")
     st.subheader(f"🏆 {r['League']} | 📅 {r['Date']}")

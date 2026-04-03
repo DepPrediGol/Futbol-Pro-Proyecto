@@ -9,7 +9,7 @@ from datetime import datetime, timedelta
 # --- 1. CONFIGURACIÓN ---
 st.set_page_config(page_title="Bet Pro League", layout="wide", page_icon="⚽")
 
-# --- 2. ESTILOS, PRIVACIDAD Y RESPONSIVE (CORREGIDO PARA SIMETRÍA) ---
+# --- 2. ESTILOS, PRIVACIDAD Y SIMETRÍA ---
 st.markdown("""
     <style>
     @media (max-width: 640px) {
@@ -26,12 +26,12 @@ st.markdown("""
     .main .block-container { background-color: rgba(255, 255, 255, 0.95); border-radius: 10px; padding: 30px; margin-top: 20px; }
     h1, h2, h3, h4, p, span, div, label, .stMetric { color: #000000 !important; font-weight: bold; }
     
-    /* BOTONES TOP 4: Altura fija de 175px para simetría total */
+    /* FIX SIMETRÍA: Altura fija de 180px para que los cuadros no se muevan */
     div.stButton > button {
         width: 100% !important;
-        height: 175px !important;
-        min-height: 175px !important;
-        max-height: 175px !important;
+        height: 180px !important;
+        min-height: 180px !important;
+        max-height: 180px !important;
         background-color: white !important;
         color: black !important;
         border: 1px solid #ddd !important;
@@ -44,9 +44,8 @@ st.markdown("""
         align-items: center !important;
         text-align: center !important;
         font-size: 0.85rem !important;
-        line-height: 1.2 !important;
         white-space: pre-line !important;
-        overflow: hidden !important; /* Corta el texto si es muy largo para no mover el cuadro */
+        overflow: hidden !important;
     }
     div.stButton > button:hover {
         border-color: #28a745 !important;
@@ -102,7 +101,6 @@ def ventana_analisis(r, df_h):
     
     for eq in [r['Home team'], r['Away team']]:
         st.markdown(f"#### 📈 Rendimiento Reciente: {eq}")
-        # Filtrado rápido para velocidad
         df_eq = df_h[(df_h['Home team'] == eq) | (df_h['Away team'] == eq)].head(5)
         
         if not df_eq.empty:
@@ -114,11 +112,14 @@ def ventana_analisis(r, df_h):
             c1.metric("Efectividad DC", f"{m_1x:.0%}")
             c2.metric("Efectividad O1.5", f"{m_o15:.0%}")
             c3.metric("Efectividad BTTS", f"{m_btts:.0%}")
-            st.dataframe(df_eq[['Date', 'Result', 'Double chance', 'Over 1.5', 'Btts']], use_container_width=True, hide_index=True)
+            
+            # COLUMNAS RESTAURADAS SEGÚN CAPTURA
+            cols_mostrar = ['Date', 'Home team', 'Away team', 'Result', 'Double chance', 'Over 1.5', 'Over 2.5', 'Btts']
+            st.dataframe(df_eq[cols_mostrar].style.map(color_letras_historial, subset=['Double chance', 'Over 1.5', 'Over 2.5', 'Btts']), use_container_width=True, hide_index=True)
         st.divider()
 
-# --- 5. CARGA Y PROCESAMIENTO (OPTIMIZADO) ---
-@st.cache_data(ttl=600) # Aumentado a 10 min para mayor velocidad
+# --- 5. CARGA Y PROCESAMIENTO ---
+@st.cache_data(ttl=300)
 def cargar_datos_completos():
     archivos = glob.glob("**/*.csv", recursive=True)
     actuales, historicos, ligas = [], [], []
@@ -132,15 +133,14 @@ def cargar_datos_completos():
             df['matchday'] = pd.to_numeric(df['matchday'], errors='coerce').fillna(0).astype(int)
             df['Fecha_dt'] = pd.to_datetime(df['date'], dayfirst=True, errors='coerce')
             
-            # Cálculo de fuerza de ataque/defensa (Pre-procesado)
             for _, fila in df.iterrows():
                 loc, vis = fila['home_team'], fila['away_team']
                 if loc not in fz: fz[loc] = 1.2
                 if vis not in fz: fz[vis] = 1.2
                 g = extraer_goles(fila.get('result'))
                 if g:
-                    fz[loc] += 0.15 if g[0] > g[1] else 0.05
-                    fz[vis] += 0.15 if g[1] > g[0] else 0.05
+                    fz[loc] += 0.20 if g[0] > g[1] else 0.05
+                    fz[vis] += 0.20 if g[1] > g[0] else 0.05
 
             for _, f in df.iterrows():
                 pl, pe, pv, po15, po25, pb = obtener_probabilidades(fz.get(f['home_team'],1.2), fz.get(f['away_team'],1.2))
@@ -182,7 +182,6 @@ with t1:
         if len(fechas) > 0:
             f_prox = min(fechas)
             df_t4 = df_p[df_p['Fecha_dt'] == f_prox].copy()
-            # CAMBIO: Título solicitado
             st.markdown(f"### 🏆 TOP 4 ({f_prox.strftime('%d/%m/%Y')})")
             mks = [('1X', '🛡️ Doble Oportunidad'), ('Over 1.5', '🥅 Over 1.5'), ('Over 2.5', '⚽ Over 2.5'), ('Btts', '🤝 Btts')]
             cols = st.columns(4)
@@ -209,37 +208,39 @@ with t1:
             cols_fmt = ['1X', 'X2', 'Over 1.5', 'Over 2.5', 'Btts']
             st.dataframe(df_fin[['Date', 'Time', 'Matchday', 'League', 'Match'] + cols_fmt].style.map(aplicar_semaforo, subset=cols_fmt).format({c: '{:.0%}' for c in cols_fmt}), use_container_width=True, hide_index=True)
             
-            # PREDICCIÓN BOMBA DETECTADA (TU LÓGICA ORIGINAL)
             st.divider()
-            try:
-                d_top = df_fin.loc[df_fin[['Over 1.5', 'Over 2.5', 'Btts']].max(axis=1).idxmax()]
-                loc, vis = d_top['Home team'], d_top['Away team']
-                h_l_home = df_h[(df_h['Home team'] == loc) & (df_h['League'] == d_top['League'])]
-                h_v_away = df_h[(df_h['Away team'] == vis) & (df_h['League'] == d_top['League'])]
+            # LÓGICA DE PREDICCIÓN BOMBA DETECTADA
+            d_top = df_fin.loc[df_fin[['Over 1.5', 'Over 2.5', 'Btts']].max(axis=1).idxmax()]
+            loc, vis = d_top['Home team'], d_top['Away team']
+            h_l_home = df_h[(df_h['Home team'] == loc) & (df_h['League'] == d_top['League'])]
+            h_v_away = df_h[(df_h['Away team'] == vis) & (df_h['League'] == d_top['League'])]
+            
+            if len(h_l_home) > 0 and len(h_v_away) > 0:
+                t_l, t_v = len(h_l_home), len(h_v_away)
+                m1_l, m2_l, r1_l = (h_l_home['G_L'] >= 1).sum(), (h_l_home['G_L'] >= 2).sum(), (h_l_home['G_V'] >= 1).sum()
+                w1x_l = (h_l_home['G_L'] >= h_l_home['G_V']).sum()
+                m1_v, m15_v = (h_v_away['G_V'] >= 1).sum(), (h_v_away['G_V'] >= 2).sum()
+                wx2_v = (h_v_away['G_V'] >= h_v_away['G_L']).sum()
+                etiqueta_texto = f"Gana o empata (Local): {d_top['1X']:.0%}" if d_top['1X'] >= d_top['X2'] else f"Gana o empata (Visitante): {d_top['X2']:.0%}"
                 
-                if len(h_l_home) > 0 and len(h_v_away) > 0:
-                    t_l, t_v = len(h_l_home), len(h_v_away)
-                    m1_l, m2_l, r1_l = (h_l_home['G_L'] >= 1).sum(), (h_l_home['G_L'] >= 2).sum(), (h_l_home['G_V'] >= 1).sum()
-                    w1x_l = (h_l_home['G_L'] >= h_l_home['G_V']).sum()
-                    m1_v, m15_v = (h_v_away['G_V'] >= 1).sum(), (h_v_away['G_V'] >= 2).sum()
-                    wx2_v = (h_v_away['G_V'] >= h_v_away['G_L']).sum()
-                    etiqueta_texto = f"Gana o empata (Local): {d_top['1X']:.0%}" if d_top['1X'] >= d_top['X2'] else f"Gana o empata (Visitante): {d_top['X2']:.0%}"
-                    
-                    st.markdown(f"""
-                    <div style="background-color: #ff4b4b; padding: 25px; border-radius: 15px; border-left: 12px solid #8B0000; color: white; text-align: center;">
-                        <h2 style="color: white !important; margin: 0;">💣 PREDICCIÓN BOMBA DETECTADA 💣</h2>
-                        <p style="font-size: 1.1rem; line-height: 1.6; margin-top: 15px;">
-                            El equipo local <b>{loc}</b> lleva {m1_l} de {t_l} marcando al menos 1 gol en casa y de esos {m1_l} partidos {m2_l} ha marcado 2 o más goles, 
-                            ha recibido 1 gol en {r1_l} de {t_l} encuentros en casa y ha ganado o empatado en {w1x_l} de {t_l} encuentros como local. 
-                        </p>
-                        <div style="display: grid; grid-template-columns: repeat(2, 1fr); gap: 10px; margin-top: 20px;">
-                            <div style="background: white; color: #ff4b4b; padding: 10px; border-radius: 10px;">🛡️ <b>{etiqueta_texto}</b></div>
-                            <div style="background: white; color: #ff4b4b; padding: 10px; border-radius: 10px;">🥅 <b>Over 1.5:</b> {d_top['Over 1.5']:.0%}</div>
-                        </div>
+                st.markdown(f"""
+                <div style="background-color: #ff4b4b; padding: 25px; border-radius: 15px; border-left: 12px solid #8B0000; color: white; text-align: center;">
+                    <h2 style="color: white !important; margin: 0;">💣 PREDICCIÓN BOMBA DETECTADA 💣</h2>
+                    <p style="font-size: 1.1rem; line-height: 1.6; margin-top: 15px;">
+                        El equipo local <b>{loc}</b> lleva {m1_l} de {t_l} marcando al menos 1 gol en casa y de esos {m1_l} partidos {m2_l} ha marcado 2 o más goles, 
+                        ha recibido 1 gol en {r1_l} de {t_l} encuentros en casa y ha ganado o empatado en {w1x_l} de {t_l} encuentros como local. 
+                        Por otro lado, el equipo visitante <b>{vis}</b> ha marcado al menos 1 gol en {m1_v} de {t_v} partidos como visitante y de esos {m1_v} partidos <b>{m15_v}</b> ha marcado más de 1.5 goles, 
+                        ha ganado o empatado en {wx2_v} de {t_v} partidos jugados como visitante.
+                    </p>
+                    <div style="display: grid; grid-template-columns: repeat(2, 1fr); gap: 10px; margin-top: 20px;">
+                        <div style="background: white; color: #ff4b4b; padding: 10px; border-radius: 10px;">🛡️ <b>{etiqueta_texto}</b></div>
+                        <div style="background: white; color: #ff4b4b; padding: 10px; border-radius: 10px;">🥅 <b>Over 1.5:</b> {d_top['Over 1.5']:.0%}</div>
+                        <div style="background: white; color: #ff4b4b; padding: 10px; border-radius: 10px;">⚽ <b>Over 2.5:</b> {d_top['Over 2.5']:.0%}</div>
+                        <div style="background: white; color: #ff4b4b; padding: 10px; border-radius: 10px;">🤝 <b>Btts:</b> {d_top['Btts']:.0%}</div>
                     </div>
-                    """, unsafe_allow_html=True)
-            except: pass
-        else: st.info("No hay predicciones futuras.")
+                </div>
+                """, unsafe_allow_html=True)
+        else: st.info("No hay predicciones futuras para esta selección.")
 
 with t2:
     st.markdown("## 📜 HISTORIAL DE RESULTADOS")

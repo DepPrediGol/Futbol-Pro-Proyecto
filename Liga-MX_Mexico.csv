@@ -1,154 +1,324 @@
-﻿Fecha,Jornada,Equipo Local,Equipo Visitante,Resultado
-10/01/2026,1,Mazatlán FC,FC Juárez,1-2
-10/01/2026,1,Atlas Guadalajara,Puebla FC,1-0
-10/01/2026,1,Club Tijuana,CF América,0-0
-11/01/2026,1,Deportivo Guadalajara,CF Pachuca,2-0
-11/01/2026,1,Club León,Cruz Azul,2-1
-11/01/2026,1,Santos Laguna,Club Necaxa,1-3
-11/01/2026,1,CF Monterrey,Deportivo Toluca,0-1
-11/01/2026,1,Pumas UNAM,Gallos Blancos,1-1
-12/01/2026,1,Atlético San Luis,UANL Tigres,1-2
-14/01/2026,2,Puebla FC,Mazatlán FC,2-1
-14/01/2026,2,Club Necaxa,CF Monterrey,0-2
-14/01/2026,2,CF Pachuca,Club León,2-1
-14/01/2026,2,FC Juárez,Deportivo Guadalajara,0-1
-15/01/2026,2,Cruz Azul,Atlas Guadalajara,2-0
-15/01/2026,2,Gallos Blancos,Club Tijuana,1-2
-15/01/2026,2,CF América,Atlético San Luis,0-2
-15/01/2026,2,UANL Tigres,Pumas UNAM,0-1
-15/01/2026,2,Deportivo Toluca,Santos Laguna,3-1
-17/01/2026,3,Mazatlán FC,CF Monterrey,1-5
-18/01/2026,3,Club Necaxa,Atlas Guadalajara,0-1
-18/01/2026,3,Deportivo Guadalajara,Gallos Blancos,2-1
-18/01/2026,3,UANL Tigres,Deportivo Toluca,0-0
-18/01/2026,3,Cruz Azul,Puebla FC,1-0
-18/01/2026,3,Club Tijuana,Atlético San Luis,1-1
-18/01/2026,3,Pumas UNAM,Club León,1-1
-19/01/2026,3,Santos Laguna,FC Juárez,2-2
-19/01/2026,3,CF Pachuca,CF América,0-0
-31/01/2026,4,Puebla FC,Deportivo Toluca,0-0
-31/01/2026,4,Pumas UNAM,Santos Laguna,4-0
-31/01/2026,4,FC Juárez,Cruz Azul,3-4
-31/01/2026,4,CF América,Club Necaxa,2-0
-01/02/2026,4,Atlas Guadalajara,Mazatlán FC,1-0
-01/02/2026,4,Atlético San Luis,Deportivo Guadalajara,2-3
-01/02/2026,4,CF Monterrey,Club Tijuana,2-2
-01/02/2026,4,Club León,UANL Tigres,1-2
-02/02/2026,4,Gallos Blancos,CF Pachuca,0-0
-07/02/2026,5,Club Necaxa,Atlético San Luis,4-1
-07/02/2026,5,UANL Tigres,Santos Laguna,5-1
-07/02/2026,5,Club Tijuana,Puebla FC,0-0
-07/02/2026,5,Mazatlán FC,Deportivo Guadalajara,1-2
-08/02/2026,5,Deportivo Toluca,Cruz Azul,1-1
-08/02/2026,5,Gallos Blancos,Club León,2-0
-08/02/2026,5,Atlas Guadalajara,Pumas UNAM,2-2
-08/02/2026,5,CF Pachuca,FC Juárez,2-0
-08/02/2026,5,CF América,CF Monterrey,1-0
-14/02/2026,6,Puebla FC,Pumas UNAM,2-3
-14/02/2026,6,Deportivo Toluca,Club Tijuana,1-0
-15/02/2026,6,Atlético San Luis,Gallos Blancos,3-0
-15/02/2026,6,CF Pachuca,Atlas Guadalajara,3-1
-15/02/2026,6,CF Monterrey,Club León,1-0
-15/02/2026,6,FC Juárez,Club Necaxa,1-2
-15/02/2026,6,Deportivo Guadalajara,CF América,1-0
-15/02/2026,6,Cruz Azul,UANL Tigres,2-1
-16/02/2026,6,Santos Laguna,Mazatlán FC,1-2
-21/02/2026,7,UANL Tigres,CF Pachuca,1-2
-21/02/2026,7,Puebla FC,CF América,0-4
-22/02/2026,7,Atlas Guadalajara,Atlético San Luis,3-2
-22/02/2026,7,Club León,Santos Laguna,2-1
-22/02/2026,7,Club Necaxa,Deportivo Toluca,0-3
-22/02/2026,7,Cruz Azul,Deportivo Guadalajara,2-1
-22/02/2026,7,Club Tijuana,Mazatlán FC,1-1
-23/02/2026,7,Pumas UNAM,CF Monterrey,2-0
-08/04/2026,7,Gallos Blancos,FC Juárez,
-28/02/2026,8,Mazatlán FC,CF Pachuca,1-0
-28/02/2026,8,Gallos Blancos,Santos Laguna,2-2
-28/02/2026,8,FC Juárez,Atlas Guadalajara,3-1
-28/02/2026,8,Club Tijuana,Pumas UNAM,1-1
-01/03/2026,8,Atlético San Luis,Puebla FC,0-1
-01/03/2026,8,Deportivo Toluca,Deportivo Guadalajara,2-0
-01/03/2026,8,CF Monterrey,Cruz Azul,0-2
-01/03/2026,8,Club León,Club Necaxa,2-1
-01/03/2026,8,CF América,UANL Tigres,1-4
-04/03/2026,9,CF Pachuca,Club Necaxa,2-1
-04/03/2026,9,Santos Laguna,Cruz Azul,1-2
-04/03/2026,9,Atlético San Luis,Mazatlán FC,4-1
-04/03/2026,9,Pumas UNAM,Deportivo Toluca,2-3
-05/03/2026,9,CF Monterrey,Gallos Blancos,4-0
-05/03/2026,9,Puebla FC,UANL Tigres,3-1
-05/03/2026,9,Atlas Guadalajara,Club Tijuana,2-1
-05/03/2026,9,CF América,FC Juárez,1-2
-19/03/2026,9,Deportivo Guadalajara,Club León,5-0
-07/03/2026,10,Mazatlán FC,Club León,4-2
-07/03/2026,10,Club Necaxa,Pumas UNAM,0-1
-08/03/2026,10,Cruz Azul,Atlético San Luis,3-0
-08/03/2026,10,Gallos Blancos,CF América,1-2
-08/03/2026,10,Atlas Guadalajara,Deportivo Guadalajara,1-2
-08/03/2026,10,CF Pachuca,Puebla FC,2-1
-08/03/2026,10,UANL Tigres,CF Monterrey,1-0
-09/03/2026,10,Deportivo Toluca,FC Juárez,3-1
-09/03/2026,10,Club Tijuana,Santos Laguna,1-2
-14/03/2026,11,Puebla FC,Club Necaxa,0-0
-14/03/2026,11,FC Juárez,CF Monterrey,2-2
-15/03/2026,11,Atlético San Luis,CF Pachuca,1-1
-15/03/2026,11,Deportivo Guadalajara,Santos Laguna,3-0
-15/03/2026,11,Club León,Club Tijuana,0-3
-15/03/2026,11,Deportivo Toluca,Atlas Guadalajara,1-1
-15/03/2026,11,Pumas UNAM,Cruz Azul,2-2
-16/03/2026,11,UANL Tigres,Gallos Blancos,0-0
-16/03/2026,11,CF América,Mazatlán FC,2-0
-21/03/2026,12,Club Necaxa,Club Tijuana,3-0
-21/03/2026,12,Mazatlán FC,Cruz Azul,1-1
-22/03/2026,12,Atlas Guadalajara,Gallos Blancos,0-0
-22/03/2026,12,Atlético San Luis,Club León,1-2
-22/03/2026,12,CF Monterrey,Deportivo Guadalajara,2-3
-22/03/2026,12,Pumas UNAM,CF América,1-0
-23/03/2026,12,CF Pachuca,Deportivo Toluca,1-1
-23/03/2026,12,Santos Laguna,Puebla FC,2-1
-23/03/2026,12,FC Juárez,UANL Tigres,2-1
-04/04/2026,13,Puebla FC,FC Juárez,
-04/04/2026,13,Club Necaxa,Mazatlán FC,
-04/04/2026,13,Club Tijuana,UANL Tigres,
-05/04/2026,13,CF Monterrey,Atlético San Luis,
-05/04/2026,13,Gallos Blancos,Deportivo Toluca,
-05/04/2026,13,Club León,Atlas Guadalajara,
-05/04/2026,13,Cruz Azul,CF Pachuca,
-05/04/2026,13,Santos Laguna,CF América,
-06/04/2026,13,Deportivo Guadalajara,Pumas UNAM,
-11/04/2026,14,Puebla FC,Club León,
-11/04/2026,14,FC Juárez,Club Tijuana,
-12/04/2026,14,Gallos Blancos,Club Necaxa,
-12/04/2026,14,UANL Tigres,Deportivo Guadalajara,
-12/04/2026,14,Atlas Guadalajara,CF Monterrey,
-12/04/2026,14,CF Pachuca,Santos Laguna,
-12/04/2026,14,CF América,Cruz Azul,
-12/04/2026,14,Pumas UNAM,Mazatlán FC,
-13/04/2026,14,Deportivo Toluca,Atlético San Luis,
-18/04/2026,15,Atlético San Luis,Pumas UNAM,
-18/04/2026,15,Mazatlán FC,Gallos Blancos,
-18/04/2026,15,Club Necaxa,UANL Tigres,
-19/04/2026,15,Cruz Azul,Club Tijuana,
-19/04/2026,15,CF Monterrey,CF Pachuca,
-19/04/2026,15,Deportivo Guadalajara,Puebla FC,
-19/04/2026,15,CF América,Deportivo Toluca,
-19/04/2026,15,Club León,FC Juárez,
-20/04/2026,15,Santos Laguna,Atlas Guadalajara,
-22/04/2026,16,Gallos Blancos,Cruz Azul,
-22/04/2026,16,Pumas UNAM,FC Juárez,
-22/04/2026,16,CF Monterrey,Puebla FC,
-22/04/2026,16,Club León,CF América,
-23/04/2026,16,Atlas Guadalajara,UANL Tigres,
-23/04/2026,16,Atlético San Luis,Santos Laguna,
-23/04/2026,16,Mazatlán FC,Deportivo Toluca,
-23/04/2026,16,Club Necaxa,Deportivo Guadalajara,
-23/04/2026,16,Club Tijuana,CF Pachuca,
-25/04/2026,17,Puebla FC,Gallos Blancos,
-26/04/2026,17,CF Pachuca,Pumas UNAM,
-26/04/2026,17,UANL Tigres,Mazatlán FC,
-26/04/2026,17,Deportivo Toluca,Club León,
-26/04/2026,17,Deportivo Guadalajara,Club Tijuana,
-26/04/2026,17,CF América,Atlas Guadalajara,
-26/04/2026,17,FC Juárez,Atlético San Luis,
-27/04/2026,17,Santos Laguna,CF Monterrey,
-27/04/2026,17,Cruz Azul,Club Necaxa,
+matchday,date,time,home_team,away_team,result,status
+1,11/07/2025,20:00,Puebla,Atlas,2-3,Final
+1,11/07/2025,22:00,FC Juarez,Club America,1-1,Final
+1,11/07/2025,22:05,Club Tijuana,Club Queretaro,1-0,Final
+1,12/07/2025,20:00,Toluca,Necaxa,3-1,Final
+1,12/07/2025,20:00,Santos Laguna,U.N.A.M. - Pumas,3-0,Final
+1,12/07/2025,22:05,Cruz Azul,Mazatlán,0-0,Final
+1,13/07/2025,18:00,Pachuca,Monterrey,3-0,Final
+1,13/07/2025,20:00,Leon,Atletico San Luis,0-1,Final
+2,16/07/2025,20:00,Club America,Club Tijuana,3-1,Final
+2,16/07/2025,22:05,Santos Laguna,Toluca,2-4,Final
+2,18/07/2025,20:00,Necaxa,Club Queretaro,3-1,Final
+2,18/07/2025,22:00,Atletico San Luis,Monterrey,0-1,Final
+2,18/07/2025,22:05,Mazatlán,Puebla,2-1,Final
+2,19/07/2025,20:00,Tigres UANL,FC Juarez,1-0,Final
+2,19/07/2025,20:00,Leon,Guadalajara Chivas,1-0,Final
+2,19/07/2025,22:05,Atlas,Cruz Azul,3-3,Final
+2,20/07/2025,13:00,U.N.A.M. - Pumas,Pachuca,2-3,Final
+3,25/07/2025,20:00,Club Queretaro,U.N.A.M. - Pumas,0-2,Final
+3,25/07/2025,20:00,Puebla,Santos Laguna,1-0,Final
+3,25/07/2025,22:00,Club Tijuana,FC Juarez,1-1,Final
+3,26/07/2025,18:00,Pachuca,Mazatlán,1-0,Final
+3,26/07/2025,18:07,Guadalajara Chivas,Atletico San Luis,4-3,Final
+3,26/07/2025,20:00,Toluca,Tigres UANL,3-4,Final
+3,26/07/2025,20:00,Monterrey,Atlas,3-1,Final
+3,26/07/2025,20:00,Cruz Azul,Leon,4-1,Final
+3,26/07/2025,22:05,Necaxa,Club America,1-1,Final
+4,08/08/2025,22:00,Tigres UANL,Puebla,7-0,Final
+4,09/08/2025,20:00,Club America,Club Queretaro,1-0,Final
+4,09/08/2025,22:00,Mazatlán,Club Tijuana,2-2,Final
+4,09/08/2025,22:05,Atlas,Pachuca,0-3,Final
+4,10/08/2025,19:00,U.N.A.M. - Pumas,Necaxa,1-1,Final
+4,10/08/2025,21:05,Santos Laguna,Guadalajara Chivas,1-0,Final
+4,11/08/2025,20:00,Leon,Monterrey,1-3,Final
+4,11/08/2025,22:00,FC Juarez,Toluca,0-2,Final
+4,11/08/2025,22:05,Atletico San Luis,Cruz Azul,1-2,Final
+5,15/08/2025,20:00,Puebla,Atletico San Luis,0-2,Final
+5,15/08/2025,22:05,Necaxa,Leon,0-1,Final
+5,16/08/2025,18:07,Guadalajara Chivas,FC Juarez,1-2,Final
+5,16/08/2025,20:00,Tigres UANL,Club America,1-3,Final
+5,16/08/2025,20:00,Pachuca,Club Tijuana,0-2,Final
+5,16/08/2025,20:00,Cruz Azul,Santos Laguna,3-2,Final
+5,16/08/2025,22:10,Toluca,U.N.A.M. - Pumas,1-1,Final
+5,17/08/2025,17:00,Club Queretaro,Atlas,3-3,Final
+5,17/08/2025,19:00,Monterrey,Mazatlán,3-2,Final
+6,22/08/2025,20:00,Club Queretaro,Atletico San Luis,3-2,Final
+6,22/08/2025,20:00,FC Juarez,Santos Laguna,2-1,Final
+6,22/08/2025,22:00,Club Tijuana,Guadalajara Chivas,3-3,Final
+6,23/08/2025,18:00,Leon,Pachuca,1-1,Final
+6,23/08/2025,20:00,Monterrey,Necaxa,3-0,Final
+6,23/08/2025,20:00,Mazatlán,Tigres UANL,2-2,Final
+6,23/08/2025,22:05,Cruz Azul,Toluca,1-0,Final
+6,24/08/2025,18:00,U.N.A.M. - Pumas,Puebla,0-0,Final
+6,24/08/2025,20:05,Atlas,Club America,2-4,Final
+7,29/08/2025,20:00,FC Juarez,Mazatlán,1-0,Final
+7,29/08/2025,20:00,Atletico San Luis,Toluca,1-3,Final
+7,29/08/2025,22:05,Puebla,Monterrey,2-4,Final
+7,30/08/2025,18:00,Leon,Club Queretaro,3-0,Final
+7,30/08/2025,20:00,Santos Laguna,Tigres UANL,0-1,Final
+7,30/08/2025,20:07,Guadalajara Chivas,Cruz Azul,1-2,Final
+7,30/08/2025,22:05,Club America,Pachuca,2-0,Final
+7,31/08/2025,17:00,U.N.A.M. - Pumas,Atlas,1-0,Final
+7,31/08/2025,22:00,Club Tijuana,Necaxa,3-0,Final
+8,12/09/2025,20:00,Necaxa,FC Juarez,1-1,Final
+8,12/09/2025,22:00,Mazatlán,U.N.A.M. - Pumas,1-4,Final
+8,13/09/2025,18:00,Pachuca,Cruz Azul,0-1,Final
+8,13/09/2025,20:00,Tigres UANL,Leon,0-0,Final
+8,13/09/2025,20:00,Atlas,Santos Laguna,2-2,Final
+8,13/09/2025,22:00,Toluca,Puebla,3-1,Final
+8,13/09/2025,22:15,Club America,Guadalajara Chivas,1-2,Final
+8,14/09/2025,18:00,Club Queretaro,Monterrey,0-1,Final
+8,14/09/2025,20:00,Atletico San Luis,Club Tijuana,1-1,Final
+1,17/09/2025,20:07,Guadalajara Chivas,Tigres UANL,0-0,Final
+9,19/09/2025,20:00,Necaxa,Puebla,1-0,Final
+9,19/09/2025,20:00,Cruz Azul,FC Juarez,3-2,Final
+9,19/09/2025,22:00,Mazatlán,Atlas,1-1,Final
+9,19/09/2025,22:05,Club Tijuana,Leon,5-0,Final
+9,20/09/2025,18:00,Pachuca,Club Queretaro,0-2,Final
+9,20/09/2025,20:00,U.N.A.M. - Pumas,Tigres UANL,1-1,Final
+9,20/09/2025,20:07,Guadalajara Chivas,Toluca,0-3,Final
+9,20/09/2025,22:05,Monterrey,Club America,2-2,Final
+9,21/09/2025,18:00,Santos Laguna,Atletico San Luis,1-4,Final
+10,23/09/2025,20:00,Puebla,Pachuca,2-2,Final
+10,23/09/2025,20:07,Guadalajara Chivas,Necaxa,3-1,Final
+10,23/09/2025,22:00,FC Juarez,U.N.A.M. - Pumas,3-1,Final
+10,23/09/2025,22:05,Leon,Mazatlán,2-2,Final
+10,24/09/2025,19:00,Cruz Azul,Club Queretaro,2-2,Final
+10,24/09/2025,20:00,Tigres UANL,Atlas,2-0,Final
+10,24/09/2025,21:00,Toluca,Monterrey,6-2,Final
+10,24/09/2025,22:00,Santos Laguna,Club Tijuana,1-0,Final
+10,24/09/2025,22:00,Atletico San Luis,Club America,0-1,Final
+11,26/09/2025,20:00,FC Juarez,Leon,2-0,Final
+11,27/09/2025,18:00,Atlas,Necaxa,3-2,Final
+11,27/09/2025,18:00,Puebla,Guadalajara Chivas,0-2,Final
+11,27/09/2025,18:00,Pachuca,Atletico San Luis,2-1,Final
+11,27/09/2025,20:00,Toluca,Mazatlán,3-1,Final
+11,27/09/2025,20:00,Monterrey,Santos Laguna,1-0,Final
+11,27/09/2025,22:05,Club America,U.N.A.M. - Pumas,4-1,Final
+11,28/09/2025,18:00,Club Queretaro,Tigres UANL,0-2,Final
+11,28/09/2025,22:05,Club Tijuana,Cruz Azul,2-0,Final
+12,03/10/2025,20:00,Necaxa,Pachuca,0-1,Final
+12,03/10/2025,22:00,Mazatlán,Atletico San Luis,2-1,Final
+12,03/10/2025,22:05,Atlas,FC Juarez,3-1,Final
+12,04/10/2025,18:00,Club Queretaro,Puebla,3-1,Final
+12,04/10/2025,20:00,Tigres UANL,Cruz Azul,1-1,Final
+12,04/10/2025,20:00,Leon,Toluca,2-4,Final
+12,04/10/2025,22:05,Club America,Santos Laguna,3-0,Final
+12,05/10/2025,20:00,U.N.A.M. - Pumas,Guadalajara Chivas,1-2,Final
+12,05/10/2025,22:05,Club Tijuana,Monterrey,2-2,Final
+13,17/10/2025,20:00,Puebla,Club Tijuana,4-3,Final
+13,17/10/2025,22:00,Tigres UANL,Necaxa,5-3,Final
+13,17/10/2025,22:00,Atletico San Luis,Atlas,2-0,Final
+13,18/10/2025,18:00,Toluca,Club Queretaro,4-0,Final
+13,18/10/2025,18:00,Santos Laguna,Leon,2-0,Final
+13,18/10/2025,18:00,FC Juarez,Pachuca,2-2,Final
+13,18/10/2025,20:00,Monterrey,U.N.A.M. - Pumas,1-1,Final
+13,18/10/2025,20:07,Guadalajara Chivas,Mazatlán,2-0,Final
+13,18/10/2025,22:05,Cruz Azul,Club America,2-1,Final
+14,21/10/2025,20:00,Club America,Puebla,2-1,Final
+14,21/10/2025,20:00,Necaxa,Cruz Azul,1-1,Final
+14,21/10/2025,22:00,Mazatlán,Santos Laguna,2-2,Final
+14,21/10/2025,22:05,Monterrey,FC Juarez,4-2,Final
+14,22/10/2025,20:00,Club Queretaro,Guadalajara Chivas,1-0,Final
+14,22/10/2025,20:00,Pachuca,Tigres UANL,1-2,Final
+14,22/10/2025,22:00,Club Tijuana,Toluca,0-0,Final
+14,22/10/2025,22:00,Atlas,Leon,2-0,Final
+14,22/10/2025,22:05,U.N.A.M. - Pumas,Atletico San Luis,0-1,Final
+15,24/10/2025,20:00,FC Juarez,Puebla,4-4,Final
+15,24/10/2025,22:00,Mazatlán,Club America,2-2,Final
+15,25/10/2025,18:00,Tigres UANL,Club Tijuana,2-0,Final
+15,25/10/2025,19:00,Leon,U.N.A.M. - Pumas,1-1,Final
+15,25/10/2025,19:07,Guadalajara Chivas,Atlas,4-1,Final
+15,25/10/2025,22:05,Cruz Azul,Monterrey,2-0,Final
+15,26/10/2025,18:00,Santos Laguna,Club Queretaro,3-1,Final
+15,26/10/2025,20:00,Toluca,Pachuca,2-2,Final
+15,26/10/2025,20:00,Atletico San Luis,Necaxa,3-4,Final
+16,31/10/2025,20:00,Necaxa,Santos Laguna,4-1,Final
+16,31/10/2025,22:00,Atletico San Luis,FC Juarez,1-2,Final
+16,31/10/2025,22:05,Puebla,Cruz Azul,0-3,Final
+16,01/11/2025,18:00,Atlas,Toluca,0-0,Final
+16,01/11/2025,20:05,Monterrey,Tigres UANL,1-1,Final
+16,01/11/2025,22:10,Club America,Leon,2-0,Final
+16,02/11/2025,13:00,U.N.A.M. - Pumas,Club Tijuana,4-1,Final
+16,02/11/2025,18:00,Club Queretaro,Mazatlán,1-0,Final
+16,02/11/2025,20:00,Pachuca,Guadalajara Chivas,0-1,Final
+17,07/11/2025,20:00,FC Juarez,Club Queretaro,1-2,Final
+17,07/11/2025,22:00,Club Tijuana,Atlas,2-0,Final
+17,07/11/2025,22:00,Mazatlán,Necaxa,1-1,Final
+17,08/11/2025,18:00,Tigres UANL,Atletico San Luis,3-1,Final
+17,08/11/2025,18:07,Guadalajara Chivas,Monterrey,4-2,Final
+17,08/11/2025,20:00,Toluca,Club America,2-0,Final
+17,08/11/2025,20:00,Leon,Puebla,1-2,Final
+17,08/11/2025,22:05,Cruz Azul,U.N.A.M. - Pumas,2-3,Final
+17,09/11/2025,18:00,Santos Laguna,Pachuca,1-0,Final
+,20/11/2025,20:00,Pachuca,U.N.A.M. - Pumas,3-1,Final
+,20/11/2025,22:00,Club Tijuana,FC Juarez,3-1,Final
+,23/11/2025,20:00,FC Juarez,Pachuca,2-1,Final
+,26/11/2025,20:00,FC Juarez,Toluca,1-2,Final
+,26/11/2025,22:05,Monterrey,Club America,2-0,Final
+,27/11/2025,00:00,Club Tijuana,Tigres UANL,3-0,Final
+,27/11/2025,21:07,Guadalajara Chivas,Cruz Azul,0-0,Final
+,29/11/2025,18:00,Club America,Monterrey,2-1,Final
+,29/11/2025,20:05,Toluca,FC Juarez,0-0,Final
+,29/11/2025,22:10,Tigres UANL,Club Tijuana,5-0,Final
+,30/11/2025,20:00,Cruz Azul,Guadalajara Chivas,3-2,Final
+,03/12/2025,20:00,Cruz Azul,Tigres UANL,1-1,Final
+,03/12/2025,22:10,Monterrey,Toluca,1-0,Final
+,06/12/2025,20:00,Toluca,Monterrey,3-2,Final
+,06/12/2025,22:10,Tigres UANL,Cruz Azul,1-1,Final
+,11/12/2025,21:00,Tigres UANL,Toluca,1-0,Final
+,14/12/2025,20:00,Toluca,Tigres UANL,2-1,Final
+1,09/01/2026,20:00,Mazatlán,FC Juarez,1-2,Final
+1,09/01/2026,22:00,Club Tijuana,Club America,0-0,Final
+1,09/01/2026,22:00,Atlas,Puebla,1-0,Final
+1,10/01/2026,18:07,Guadalajara Chivas,Pachuca,2-0,Final
+1,10/01/2026,20:00,Santos Laguna,Necaxa,1-3,Final
+1,10/01/2026,20:00,Leon,Cruz Azul,2-1,Final
+1,10/01/2026,22:05,Monterrey,Toluca,0-1,Final
+1,11/01/2026,13:00,U.N.A.M. - Pumas,Club Queretaro,1-1,Final
+1,11/01/2026,20:00,Atletico San Luis,Tigres UANL,1-2,Final
+2,13/01/2026,18:00,Puebla,Mazatlán,2-1,Final
+2,13/01/2026,20:00,Necaxa,Monterrey,0-2,Final
+2,13/01/2026,20:06,Pachuca,Leon,2-1,Final
+2,13/01/2026,22:10,FC Juarez,Guadalajara Chivas,0-1,Final
+2,14/01/2026,18:00,Cruz Azul,Atlas,2-0,Final
+2,14/01/2026,20:00,Club Queretaro,Club Tijuana,1-2,Final
+2,14/01/2026,20:05,Club America,Atletico San Luis,0-2,Final
+2,14/01/2026,22:06,Tigres UANL,U.N.A.M. - Pumas,0-1,Final
+2,14/01/2026,22:10,Toluca,Santos Laguna,3-1,Final
+3,16/01/2026,22:00,Mazatlán,Monterrey,1-5,Final
+3,17/01/2026,18:00,Necaxa,Atlas,0-1,Final
+3,17/01/2026,18:07,Guadalajara Chivas,Club Queretaro,2-1,Final
+3,17/01/2026,20:00,Tigres UANL,Toluca,0-0,Final
+3,17/01/2026,22:05,Cruz Azul,Puebla,1-0,Final
+3,17/01/2026,22:06,Club Tijuana,Atletico San Luis,1-1,Final
+3,18/01/2026,13:00,U.N.A.M. - Pumas,Leon,1-1,Final
+3,18/01/2026,18:00,Santos Laguna,FC Juarez,2-2,Final
+3,18/01/2026,20:06,Pachuca,Club America,0-0,Final
+4,30/01/2026,20:00,Puebla,Toluca,0-0,Final
+4,30/01/2026,22:00,U.N.A.M. - Pumas,Santos Laguna,4-0,Final
+4,30/01/2026,22:06,FC Juarez,Cruz Azul,3-4,Final
+4,31/01/2026,17:00,Club America,Necaxa,2-0,Final
+4,31/01/2026,18:00,Atlas,Mazatlán,1-0,Final
+4,31/01/2026,18:00,Atletico San Luis,Guadalajara Chivas,2-3,Final
+4,31/01/2026,20:00,Monterrey,Club Tijuana,2-2,Final
+4,31/01/2026,20:10,Leon,Tigres UANL,1-2,Final
+4,01/02/2026,18:00,Club Queretaro,Pachuca,0-0,Final
+5,06/02/2026,20:00,Tigres UANL,Santos Laguna,5-1,Final
+5,06/02/2026,20:00,Necaxa,Atletico San Luis,4-1,Final
+5,06/02/2026,22:06,Club Tijuana,Puebla,0-0,Final
+5,06/02/2026,22:06,Mazatlán,Guadalajara Chivas,1-2,Final
+5,07/02/2026,18:00,Toluca,Cruz Azul,1-1,Final
+5,07/02/2026,18:00,Club Queretaro,Leon,2-0,Final
+5,07/02/2026,20:05,Atlas,U.N.A.M. - Pumas,2-2,Final
+5,07/02/2026,20:06,Pachuca,FC Juarez,2-0,Final
+5,07/02/2026,22:10,Club America,Monterrey,1-0,Final
+6,13/02/2026,20:00,Puebla,U.N.A.M. - Pumas,2-3,Final
+6,13/02/2026,22:05,Toluca,Club Tijuana,1-0,Final
+6,14/02/2026,18:00,Atletico San Luis,Club Queretaro,3-0,Final
+6,14/02/2026,18:00,Pachuca,Atlas,3-1,Final
+6,14/02/2026,20:00,Monterrey,Leon,1-0,Final
+6,14/02/2026,20:06,FC Juarez,Necaxa,1-2,Final
+6,14/02/2026,22:07,Guadalajara Chivas,Club America,1-0,Final
+6,15/02/2026,17:30,Cruz Azul,Tigres UANL,2-1,Final
+6,15/02/2026,18:00,Santos Laguna,Mazatlán,1-2,Final
+7,20/02/2026,20:00,Tigres UANL,Pachuca,1-2,Final
+7,20/02/2026,22:06,Puebla,Club America,0-4,Final
+7,21/02/2026,18:00,Atlas,Atletico San Luis,3-2,Final
+7,21/02/2026,20:00,Necaxa,Toluca,0-3,Final
+7,21/02/2026,20:00,Leon,Santos Laguna,2-1,Final
+7,21/02/2026,22:05,Cruz Azul,Guadalajara Chivas,2-1,Final
+7,22/02/2026,00:10,Club Tijuana,Mazatlán,1-1,Final
+7,22/02/2026,18:00,U.N.A.M. - Pumas,Monterrey,2-0,Final
+8,27/02/2026,20:00,Club Queretaro,Santos Laguna,2-2,Final
+8,27/02/2026,20:00,Mazatlán,Pachuca,1-0,Final
+8,27/02/2026,22:00,FC Juarez,Atlas,3-1,Final
+8,27/02/2026,22:06,Club Tijuana,U.N.A.M. - Pumas,1-1,Final
+8,28/02/2026,18:00,Toluca,Guadalajara Chivas,2-0,Final
+8,28/02/2026,18:00,Atletico San Luis,Puebla,0-1,Final
+8,28/02/2026,20:05,Monterrey,Cruz Azul,0-2,Final
+8,28/02/2026,20:06,Leon,Necaxa,2-1,Final
+8,28/02/2026,22:10,Club America,Tigres UANL,1-4,Final
+9,03/03/2026,20:00,Santos Laguna,Cruz Azul,1-2,Final
+9,03/03/2026,20:00,Pachuca,Necaxa,2-1,Final
+9,03/03/2026,22:00,Atletico San Luis,Mazatlán,4-1,Final
+9,03/03/2026,22:10,U.N.A.M. - Pumas,Toluca,2-3,Final
+9,04/03/2026,20:00,Monterrey,Club Queretaro,4-0,Final
+9,04/03/2026,20:00,Puebla,Tigres UANL,3-1,Final
+9,04/03/2026,22:00,Atlas,Club Tijuana,2-1,Final
+9,04/03/2026,22:00,Club America,FC Juarez,1-2,Final
+10,06/03/2026,20:00,Mazatlán,Leon,4-2,Final
+10,06/03/2026,22:00,Necaxa,U.N.A.M. - Pumas,0-1,Final
+10,07/03/2026,18:00,Cruz Azul,Atletico San Luis,3-0,Final
+10,07/03/2026,18:00,Club Queretaro,Club America,1-2,Final
+10,07/03/2026,20:05,Atlas,Guadalajara Chivas,1-2,Final
+10,07/03/2026,20:06,Pachuca,Puebla,2-1,Final
+10,07/03/2026,22:00,Tigres UANL,Monterrey,1-0,Final
+10,08/03/2026,18:00,Toluca,FC Juarez,3-1,Final
+10,08/03/2026,22:06,Club Tijuana,Santos Laguna,1-2,Final
+11,13/03/2026,20:00,Puebla,Necaxa,0-0,Final
+11,13/03/2026,22:00,FC Juarez,Monterrey,2-2,Final
+11,14/03/2026,18:00,Atletico San Luis,Pachuca,1-1,Final
+11,14/03/2026,18:07,Guadalajara Chivas,Santos Laguna,3-0,Final
+11,14/03/2026,20:00,Toluca,Atlas,1-1,Final
+11,14/03/2026,20:00,Leon,Club Tijuana,0-3,Final
+11,14/03/2026,22:10,U.N.A.M. - Pumas,Cruz Azul,2-2,Final
+11,15/03/2026,18:00,Tigres UANL,Club Queretaro,0-0,Final
+11,15/03/2026,20:00,Club America,Mazatlán,2-0,Final
+9,18/03/2026,21:07,Guadalajara Chivas,Leon,5-0,Final
+12,20/03/2026,20:00,Necaxa,Club Tijuana,3-0,Final
+12,20/03/2026,22:06,Mazatlán,Cruz Azul,1-1,Final
+12,21/03/2026,18:00,Atlas,Club Queretaro,0-0,Final
+12,21/03/2026,20:00,Atletico San Luis,Leon,1-2,Final
+12,21/03/2026,20:05,Monterrey,Guadalajara Chivas,2-3,Final
+12,21/03/2026,22:10,U.N.A.M. - Pumas,Club America,1-0,Final
+12,22/03/2026,18:00,Pachuca,Toluca,1-1,Final
+12,22/03/2026,18:00,Santos Laguna,Puebla,2-1,Final
+12,22/03/2026,20:06,FC Juarez,Tigres UANL,2-1,Final
+13,03/04/2026,20:00,Puebla,FC Juarez,,
+13,03/04/2026,22:00,Necaxa,Mazatlán,,
+13,03/04/2026,22:06,Club Tijuana,Tigres UANL,,
+13,04/04/2026,18:00,Monterrey,Atletico San Luis,,
+13,04/04/2026,18:00,Club Queretaro,Toluca,,
+13,04/04/2026,20:00,Leon,Atlas,,
+13,04/04/2026,20:00,Cruz Azul,Pachuca,,
+13,04/04/2026,22:00,Santos Laguna,Club America,,
+13,05/04/2026,21:07,Guadalajara Chivas,U.N.A.M. - Pumas,,
+7,07/04/2026,19:00,Club Queretaro,FC Juarez,,
+14,10/04/2026,20:00,Puebla,Leon,,
+14,10/04/2026,22:06,FC Juarez,Club Tijuana,,
+14,11/04/2026,18:00,Tigres UANL,Guadalajara Chivas,,
+14,11/04/2026,18:00,Club Queretaro,Necaxa,,
+14,11/04/2026,20:00,Atlas,Monterrey,,
+14,11/04/2026,20:00,Pachuca,Santos Laguna,,
+14,11/04/2026,22:00,Club America,Cruz Azul,,
+14,12/04/2026,13:00,U.N.A.M. - Pumas,Mazatlán,,
+14,12/04/2026,20:00,Toluca,Atletico San Luis,,
+15,17/04/2026,20:00,Atletico San Luis,U.N.A.M. - Pumas,,
+15,17/04/2026,20:00,Mazatlán,Club Queretaro,,
+15,17/04/2026,22:00,Necaxa,Tigres UANL,,
+15,18/04/2026,18:00,Cruz Azul,Club Tijuana,,
+15,18/04/2026,20:00,Monterrey,Pachuca,,
+15,18/04/2026,20:07,Guadalajara Chivas,Puebla,,
+15,18/04/2026,22:00,Club America,Toluca,,
+15,18/04/2026,22:00,Leon,FC Juarez,,
+15,19/04/2026,18:00,Santos Laguna,Atlas,,
+16,21/04/2026,20:00,U.N.A.M. - Pumas,FC Juarez,,
+16,21/04/2026,20:00,Club Queretaro,Cruz Azul,,
+16,21/04/2026,22:00,Monterrey,Puebla,,
+16,21/04/2026,22:06,Leon,Club America,,
+16,22/04/2026,20:00,Atlas,Tigres UANL,,
+16,22/04/2026,20:00,Atletico San Luis,Santos Laguna,,
+16,22/04/2026,20:00,Mazatlán,Toluca,,
+16,22/04/2026,22:00,Club Tijuana,Pachuca,,
+16,22/04/2026,22:00,Necaxa,Guadalajara Chivas,,
+17,24/04/2026,22:00,Puebla,Club Queretaro,,
+17,25/04/2026,18:00,Tigres UANL,Mazatlán,,
+17,25/04/2026,18:00,Pachuca,U.N.A.M. - Pumas,,
+17,25/04/2026,20:00,Toluca,Leon,,
+17,25/04/2026,20:07,Guadalajara Chivas,Club Tijuana,,
+17,25/04/2026,22:00,Club America,Atlas,,
+17,25/04/2026,22:00,FC Juarez,Atletico San Luis,,
+17,26/04/2026,18:00,Santos Laguna,Monterrey,,
+17,26/04/2026,20:00,Cruz Azul,Necaxa,,

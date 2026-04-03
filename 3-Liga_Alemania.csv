@@ -1,0 +1,381 @@
+matchday,date,time,home_team,away_team,result,status
+1,01/08/2025,12:00,Rot-Weiß Essen,TSV 1860 Munich,1-1,Final
+1,02/08/2025,07:00,FC Ingolstadt 04,SSV Jahn Regensburg,1-1,Final
+1,02/08/2025,07:00,Energie Cottbus,FC Saarbrücken,3-3,Final
+1,02/08/2025,07:00,VfL Osnabrück,Alemannia Aachen,0-0,Final
+1,02/08/2025,07:00,Waldhof Mannheim,Verl,2-2,Final
+1,02/08/2025,07:00,Hoffenheim II,Havelse,0-0,Final
+1,02/08/2025,09:30,MSV Duisburg,Stuttgart II,2-1,Final
+1,03/08/2025,06:30,Erzgebirge Aue,Hansa Rostock,0-0,Final
+1,03/08/2025,09:30,FC Viktoria Köln,FC Schweinfurt 05,2-0,Final
+1,03/08/2025,12:30,SV Wehen,SSV ULM 1846,3-1,Final
+2,08/08/2025,12:00,FC Schweinfurt 05,Energie Cottbus,0-2,Final
+2,09/08/2025,07:00,TSV 1860 Munich,VfL Osnabrück,3-1,Final
+2,09/08/2025,07:00,FC Saarbrücken,FC Viktoria Köln,2-1,Final
+2,09/08/2025,07:00,SSV ULM 1846,Erzgebirge Aue,1-0,Final
+2,09/08/2025,07:00,Alemannia Aachen,Hoffenheim II,2-4,Final
+2,09/08/2025,07:00,Havelse,Rot-Weiß Essen,1-1,Final
+2,09/08/2025,09:30,Verl,SV Wehen,2-2,Final
+2,10/08/2025,06:30,SSV Jahn Regensburg,MSV Duisburg,0-4,Final
+2,10/08/2025,09:30,Hansa Rostock,Waldhof Mannheim,1-0,Final
+2,10/08/2025,12:30,Stuttgart II,FC Ingolstadt 04,2-1,Final
+3,22/08/2025,12:00,SV Wehen,Rot-Weiß Essen,3-4,Final
+3,23/08/2025,07:00,SSV Jahn Regensburg,FC Schweinfurt 05,3-0,Final
+3,23/08/2025,07:00,VfL Osnabrück,FC Saarbrücken,2-0,Final
+3,23/08/2025,07:00,Alemannia Aachen,TSV 1860 Munich,0-2,Final
+3,23/08/2025,07:00,Hoffenheim II,Energie Cottbus,4-1,Final
+3,23/08/2025,07:00,Stuttgart II,Verl,1-1,Final
+3,23/08/2025,09:30,MSV Duisburg,SSV ULM 1846,2-1,Final
+3,24/08/2025,06:30,FC Ingolstadt 04,Hansa Rostock,1-1,Final
+3,24/08/2025,09:30,Erzgebirge Aue,Havelse,2-1,Final
+3,24/08/2025,12:30,Waldhof Mannheim,FC Viktoria Köln,2-0,Final
+4,29/08/2025,12:00,FC Viktoria Köln,SSV Jahn Regensburg,1-0,Final
+4,30/08/2025,07:00,TSV 1860 Munich,Stuttgart II,1-1,Final
+4,30/08/2025,07:00,Energie Cottbus,FC Ingolstadt 04,1-1,Final
+4,30/08/2025,07:00,FC Saarbrücken,Erzgebirge Aue,4-1,Final
+4,30/08/2025,07:00,Verl,MSV Duisburg,2-3,Final
+4,30/08/2025,07:00,Havelse,VfL Osnabrück,0-2,Final
+4,30/08/2025,09:30,Hansa Rostock,Hoffenheim II,0-1,Final
+4,31/08/2025,06:30,SSV ULM 1846,Waldhof Mannheim,1-2,Final
+4,31/08/2025,09:30,FC Schweinfurt 05,SV Wehen,0-1,Final
+4,31/08/2025,12:30,Rot-Weiß Essen,Alemannia Aachen,2-3,Final
+5,12/09/2025,12:00,SSV Jahn Regensburg,Rot-Weiß Essen,1-3,Final
+5,13/09/2025,07:00,FC Ingolstadt 04,FC Schweinfurt 05,2-3,Final
+5,13/09/2025,07:00,MSV Duisburg,SV Wehen,3-1,Final
+5,13/09/2025,07:00,Erzgebirge Aue,FC Viktoria Köln,0-3,Final
+5,13/09/2025,07:00,Hoffenheim II,Verl,2-4,Final
+5,13/09/2025,07:00,Stuttgart II,FC Saarbrücken,1-3,Final
+5,13/09/2025,09:30,Alemannia Aachen,SSV ULM 1846,1-3,Final
+5,14/09/2025,06:30,VfL Osnabrück,Hansa Rostock,0-0,Final
+5,14/09/2025,09:30,Waldhof Mannheim,Energie Cottbus,0-3,Final
+5,14/09/2025,12:30,TSV 1860 Munich,Havelse,3-2,Final
+6,16/09/2025,12:00,SV Wehen,SSV Jahn Regensburg,2-0,Final
+6,16/09/2025,12:00,FC Viktoria Köln,Hoffenheim II,2-1,Final
+6,16/09/2025,12:00,FC Schweinfurt 05,MSV Duisburg,0-3,Final
+6,16/09/2025,12:00,FC Saarbrücken,SSV ULM 1846,3-1,Final
+6,16/09/2025,12:00,Verl,Alemannia Aachen,2-1,Final
+6,17/09/2025,12:00,Energie Cottbus,Erzgebirge Aue,2-1,Final
+6,17/09/2025,12:00,Hansa Rostock,TSV 1860 Munich,2-1,Final
+6,17/09/2025,12:00,Rot-Weiß Essen,VfL Osnabrück,1-1,Final
+6,17/09/2025,12:00,Waldhof Mannheim,Stuttgart II,0-1,Final
+6,17/09/2025,12:00,Havelse,FC Ingolstadt 04,2-6,Final
+7,19/09/2025,12:00,FC Saarbrücken,FC Schweinfurt 05,2-1,Final
+7,20/09/2025,07:00,FC Ingolstadt 04,SV Wehen,0-0,Final
+7,20/09/2025,07:00,VfL Osnabrück,Erzgebirge Aue,3-1,Final
+7,20/09/2025,07:00,Rot-Weiß Essen,Hansa Rostock,3-0,Final
+7,20/09/2025,07:00,Alemannia Aachen,Waldhof Mannheim,3-2,Final
+7,20/09/2025,07:00,Stuttgart II,FC Viktoria Köln,2-1,Final
+7,20/09/2025,09:30,TSV 1860 Munich,Hoffenheim II,1-5,Final
+7,21/09/2025,06:30,Havelse,MSV Duisburg,1-1,Final
+7,21/09/2025,09:30,Verl,Energie Cottbus,2-1,Final
+7,21/09/2025,12:30,SSV ULM 1846,SSV Jahn Regensburg,2-1,Final
+8,26/09/2025,12:00,Energie Cottbus,Stuttgart II,5-0,Final
+8,27/09/2025,07:00,MSV Duisburg,FC Ingolstadt 04,2-1,Final
+8,27/09/2025,07:00,Erzgebirge Aue,TSV 1860 Munich,2-0,Final
+8,27/09/2025,07:00,SV Wehen,FC Saarbrücken,1-1,Final
+8,27/09/2025,07:00,Hansa Rostock,Havelse,1-1,Final
+8,27/09/2025,07:00,FC Schweinfurt 05,Alemannia Aachen,1-5,Final
+8,27/09/2025,09:30,Waldhof Mannheim,Rot-Weiß Essen,6-1,Final
+8,28/09/2025,06:30,SSV Jahn Regensburg,Verl,2-0,Final
+8,28/09/2025,09:30,Hoffenheim II,SSV ULM 1846,1-1,Final
+8,28/09/2025,12:30,FC Viktoria Köln,VfL Osnabrück,0-0,Final
+9,30/09/2025,12:00,Hansa Rostock,Energie Cottbus,1-3,Final
+9,30/09/2025,12:00,FC Saarbrücken,MSV Duisburg,0-0,Final
+9,30/09/2025,12:00,Alemannia Aachen,Erzgebirge Aue,0-1,Final
+9,30/09/2025,12:00,Havelse,Waldhof Mannheim,2-3,Final
+9,30/09/2025,12:00,Stuttgart II,SV Wehen,0-0,Final
+9,01/10/2025,12:00,TSV 1860 Munich,FC Viktoria Köln,2-2,Final
+9,01/10/2025,12:00,VfL Osnabrück,SSV Jahn Regensburg,2-0,Final
+9,01/10/2025,12:00,Rot-Weiß Essen,Hoffenheim II,3-1,Final
+9,01/10/2025,12:00,SSV ULM 1846,FC Schweinfurt 05,5-1,Final
+9,01/10/2025,12:00,Verl,FC Ingolstadt 04,2-2,Final
+10,03/10/2025,12:00,MSV Duisburg,Hansa Rostock,2-2,Final
+10,04/10/2025,07:00,SSV Jahn Regensburg,FC Saarbrücken,1-1,Final
+10,04/10/2025,07:00,FC Ingolstadt 04,SSV ULM 1846,4-1,Final
+10,04/10/2025,07:00,FC Viktoria Köln,Havelse,4-1,Final
+10,04/10/2025,07:00,FC Schweinfurt 05,Verl,1-2,Final
+10,04/10/2025,07:00,Waldhof Mannheim,VfL Osnabrück,1-4,Final
+10,04/10/2025,09:30,Energie Cottbus,Alemannia Aachen,3-2,Final
+10,05/10/2025,06:30,Erzgebirge Aue,Rot-Weiß Essen,2-2,Final
+10,05/10/2025,09:30,SV Wehen,TSV 1860 Munich,1-0,Final
+10,05/10/2025,12:30,Hoffenheim II,Stuttgart II,1-3,Final
+11,17/10/2025,12:00,Erzgebirge Aue,Waldhof Mannheim,0-2,Final
+11,18/10/2025,07:00,Hansa Rostock,SV Wehen,3-0,Final
+11,18/10/2025,07:00,VfL Osnabrück,Hoffenheim II,0-4,Final
+11,18/10/2025,07:00,FC Saarbrücken,Verl,2-4,Final
+11,18/10/2025,07:00,Alemannia Aachen,FC Ingolstadt 04,0-1,Final
+11,18/10/2025,07:00,Stuttgart II,FC Schweinfurt 05,3-0,Final
+11,18/10/2025,09:30,Rot-Weiß Essen,FC Viktoria Köln,1-0,Final
+11,19/10/2025,06:30,SSV ULM 1846,Energie Cottbus,1-2,Final
+11,19/10/2025,09:30,TSV 1860 Munich,MSV Duisburg,3-1,Final
+11,19/10/2025,12:30,Havelse,SSV Jahn Regensburg,1-2,Final
+12,24/10/2025,12:00,SV Wehen,Alemannia Aachen,1-2,Final
+12,25/10/2025,07:00,SSV Jahn Regensburg,Stuttgart II,3-2,Final
+12,25/10/2025,07:00,FC Ingolstadt 04,FC Saarbrücken,2-1,Final
+12,25/10/2025,07:00,Energie Cottbus,Havelse,4-3,Final
+12,25/10/2025,07:00,Verl,SSV ULM 1846,5-0,Final
+12,25/10/2025,07:00,Waldhof Mannheim,TSV 1860 Munich,3-1,Final
+12,25/10/2025,09:30,FC Schweinfurt 05,VfL Osnabrück,1-2,Final
+12,26/10/2025,07:30,Hoffenheim II,Erzgebirge Aue,1-1,Final
+12,26/10/2025,10:30,FC Viktoria Köln,Hansa Rostock,2-4,Final
+12,26/10/2025,13:30,MSV Duisburg,Rot-Weiß Essen,1-1,Final
+13,31/10/2025,13:00,FC Viktoria Köln,FC Ingolstadt 04,3-1,Final
+13,01/11/2025,08:00,Erzgebirge Aue,SSV Jahn Regensburg,4-3,Final
+13,01/11/2025,08:00,TSV 1860 Munich,Energie Cottbus,3-0,Final
+13,01/11/2025,08:00,VfL Osnabrück,MSV Duisburg,0-0,Final
+13,01/11/2025,08:00,SSV ULM 1846,Stuttgart II,1-3,Final
+13,01/11/2025,08:00,Havelse,SV Wehen,0-2,Final
+13,01/11/2025,10:30,Hansa Rostock,Verl,2-2,Final
+13,02/11/2025,07:30,Hoffenheim II,Waldhof Mannheim,2-0,Final
+13,02/11/2025,10:30,Rot-Weiß Essen,FC Schweinfurt 05,2-1,Final
+13,02/11/2025,13:30,Alemannia Aachen,FC Saarbrücken,2-0,Final
+14,07/11/2025,13:00,MSV Duisburg,Waldhof Mannheim,2-1,Final
+14,08/11/2025,08:00,FC Ingolstadt 04,Rot-Weiß Essen,1-2,Final
+14,08/11/2025,08:00,Energie Cottbus,VfL Osnabrück,0-1,Final
+14,08/11/2025,08:00,FC Schweinfurt 05,Hoffenheim II,2-1,Final
+14,08/11/2025,08:00,SSV ULM 1846,Hansa Rostock,0-5,Final
+14,08/11/2025,08:00,Verl,Erzgebirge Aue,1-1,Final
+14,08/11/2025,10:30,FC Saarbrücken,Havelse,1-1,Final
+14,09/11/2025,07:30,Stuttgart II,Alemannia Aachen,1-3,Final
+14,09/11/2025,10:30,SSV Jahn Regensburg,TSV 1860 Munich,4-0,Final
+14,09/11/2025,13:30,SV Wehen,FC Viktoria Köln,0-1,Final
+15,21/11/2025,13:00,Hoffenheim II,MSV Duisburg,4-1,Final
+15,22/11/2025,08:00,Hansa Rostock,FC Schweinfurt 05,2-0,Final
+15,22/11/2025,08:00,FC Viktoria Köln,Verl,1-5,Final
+15,22/11/2025,08:00,Alemannia Aachen,SSV Jahn Regensburg,0-2,Final
+15,22/11/2025,08:00,Waldhof Mannheim,SV Wehen,1-0,Final
+15,22/11/2025,08:00,Havelse,SSV ULM 1846,2-1,Final
+15,22/11/2025,10:30,VfL Osnabrück,FC Ingolstadt 04,1-0,Final
+15,23/11/2025,07:30,TSV 1860 Munich,FC Saarbrücken,2-0,Final
+15,23/11/2025,10:30,Erzgebirge Aue,Stuttgart II,0-0,Final
+15,23/11/2025,13:30,Rot-Weiß Essen,Energie Cottbus,2-3,Final
+16,28/11/2025,13:00,SV Wehen,Erzgebirge Aue,3-1,Final
+16,29/11/2025,08:00,FC Ingolstadt 04,Hoffenheim II,3-2,Final
+16,29/11/2025,08:00,MSV Duisburg,Alemannia Aachen,3-1,Final
+16,29/11/2025,08:00,Energie Cottbus,FC Viktoria Köln,3-2,Final
+16,29/11/2025,08:00,FC Saarbrücken,Rot-Weiß Essen,2-3,Final
+16,29/11/2025,08:00,SSV ULM 1846,TSV 1860 Munich,0-1,Final
+16,29/11/2025,10:30,FC Schweinfurt 05,Waldhof Mannheim,2-3,Final
+16,30/11/2025,07:30,SSV Jahn Regensburg,Hansa Rostock,0-3,Final
+16,30/11/2025,10:30,Verl,VfL Osnabrück,4-1,Final
+16,30/11/2025,13:30,Stuttgart II,Havelse,2-1,Final
+17,05/12/2025,13:00,Rot-Weiß Essen,Stuttgart II,1-1,Final
+17,06/12/2025,08:00,Energie Cottbus,MSV Duisburg,3-2,Final
+17,06/12/2025,08:00,VfL Osnabrück,SV Wehen,0-1,Final
+17,06/12/2025,08:00,FC Viktoria Köln,SSV ULM 1846,0-1,Final
+17,06/12/2025,08:00,Havelse,Verl,2-2,Final
+17,06/12/2025,08:00,Hoffenheim II,SSV Jahn Regensburg,1-0,Final
+17,06/12/2025,10:30,TSV 1860 Munich,FC Schweinfurt 05,3-1,Final
+17,07/12/2025,07:30,Waldhof Mannheim,FC Saarbrücken,2-1,Final
+17,07/12/2025,10:30,Hansa Rostock,Alemannia Aachen,2-2,Final
+17,07/12/2025,13:30,Erzgebirge Aue,FC Ingolstadt 04,2-2,Final
+18,12/12/2025,13:00,SSV ULM 1846,VfL Osnabrück,3-5,Final
+18,13/12/2025,08:00,FC Ingolstadt 04,TSV 1860 Munich,1-2,Final
+18,13/12/2025,08:00,MSV Duisburg,Erzgebirge Aue,0-0,Final
+18,13/12/2025,08:00,FC Saarbrücken,Hoffenheim II,2-2,Final
+18,13/12/2025,08:00,Alemannia Aachen,FC Viktoria Köln,0-3,Final
+18,13/12/2025,08:00,Stuttgart II,Hansa Rostock,0-1,Final
+18,13/12/2025,10:30,Verl,Rot-Weiß Essen,0-0,Final
+18,14/12/2025,07:30,SV Wehen,Energie Cottbus,3-1,Final
+18,14/12/2025,10:30,SSV Jahn Regensburg,Waldhof Mannheim,3-0,Final
+18,14/12/2025,13:30,FC Schweinfurt 05,Havelse,2-3,Final
+19,19/12/2025,13:00,Energie Cottbus,SSV Jahn Regensburg,2-2,Final
+19,20/12/2025,08:00,Erzgebirge Aue,FC Schweinfurt 05,4-0,Final
+19,20/12/2025,08:00,Hansa Rostock,FC Saarbrücken,1-1,Final
+19,20/12/2025,08:00,VfL Osnabrück,Stuttgart II,1-2,Final
+19,20/12/2025,08:00,Rot-Weiß Essen,SSV ULM 1846,3-2,Final
+19,20/12/2025,08:00,Waldhof Mannheim,FC Ingolstadt 04,2-2,Final
+19,20/12/2025,10:30,TSV 1860 Munich,Verl,0-2,Final
+19,21/12/2025,07:30,Havelse,Alemannia Aachen,1-1,Final
+19,21/12/2025,10:30,Hoffenheim II,SV Wehen,3-1,Final
+19,21/12/2025,13:30,FC Viktoria Köln,MSV Duisburg,0-0,Final
+20,16/01/2026,13:00,SSV Jahn Regensburg,FC Ingolstadt 04,0-3,Final
+20,17/01/2026,08:00,TSV 1860 Munich,Rot-Weiß Essen,1-1,Final
+20,17/01/2026,08:00,Hansa Rostock,Erzgebirge Aue,2-1,Final
+20,17/01/2026,08:00,FC Saarbrücken,Energie Cottbus,1-1,Final
+20,17/01/2026,08:00,SSV ULM 1846,SV Wehen,0-1,Final
+20,17/01/2026,08:00,Verl,Waldhof Mannheim,5-2,Final
+20,17/01/2026,10:30,Alemannia Aachen,VfL Osnabrück,0-3,Final
+20,18/01/2026,07:30,Stuttgart II,MSV Duisburg,0-4,Final
+20,18/01/2026,10:30,FC Schweinfurt 05,FC Viktoria Köln,2-0,Final
+20,18/01/2026,13:30,Havelse,Hoffenheim II,4-0,Final
+21,23/01/2026,13:00,FC Viktoria Köln,FC Saarbrücken,2-0,Final
+21,24/01/2026,08:00,FC Ingolstadt 04,Stuttgart II,2-1,Final
+21,24/01/2026,08:00,Erzgebirge Aue,SSV ULM 1846,0-3,Final
+21,24/01/2026,08:00,Energie Cottbus,FC Schweinfurt 05,2-1,Final
+21,24/01/2026,08:00,Rot-Weiß Essen,Havelse,4-1,Final
+21,24/01/2026,08:00,Hoffenheim II,Alemannia Aachen,2-3,Final
+21,24/01/2026,10:30,MSV Duisburg,SSV Jahn Regensburg,2-0,Final
+21,25/01/2026,07:30,Waldhof Mannheim,Hansa Rostock,0-4,Final
+21,25/01/2026,10:30,VfL Osnabrück,TSV 1860 Munich,1-1,Final
+21,25/01/2026,13:30,SV Wehen,Verl,2-1,Final
+22,30/01/2026,13:00,Havelse,Erzgebirge Aue,3-1,Final
+22,31/01/2026,08:00,TSV 1860 Munich,Alemannia Aachen,2-2,Final
+22,31/01/2026,08:00,Energie Cottbus,Hoffenheim II,3-1,Final
+22,31/01/2026,08:00,Hansa Rostock,FC Ingolstadt 04,0-3,Final
+22,31/01/2026,08:00,FC Viktoria Köln,Waldhof Mannheim,1-3,Final
+22,31/01/2026,08:00,FC Saarbrücken,VfL Osnabrück,0-1,Final
+22,31/01/2026,10:30,FC Schweinfurt 05,SSV Jahn Regensburg,0-1,Final
+22,01/02/2026,07:30,SSV ULM 1846,MSV Duisburg,1-0,Final
+22,01/02/2026,10:30,Verl,Stuttgart II,4-0,Final
+22,01/02/2026,13:30,Rot-Weiß Essen,SV Wehen,1-1,Final
+23,06/02/2026,13:00,Waldhof Mannheim,SSV ULM 1846,2-1,Final
+23,07/02/2026,08:00,SSV Jahn Regensburg,FC Viktoria Köln,0-0,Final
+23,07/02/2026,08:00,FC Ingolstadt 04,Energie Cottbus,0-0,Final
+23,07/02/2026,08:00,Erzgebirge Aue,FC Saarbrücken,0-0,Final
+23,07/02/2026,08:00,SV Wehen,FC Schweinfurt 05,2-0,Final
+23,07/02/2026,08:00,VfL Osnabrück,Havelse,2-0,Final
+23,07/02/2026,10:30,Stuttgart II,TSV 1860 Munich,2-1,Final
+23,08/02/2026,07:30,Hoffenheim II,Hansa Rostock,2-2,Final
+23,08/02/2026,10:30,Alemannia Aachen,Rot-Weiß Essen,3-3,Final
+23,08/02/2026,13:30,MSV Duisburg,Verl,4-2,Final
+24,13/02/2026,13:00,FC Viktoria Köln,Erzgebirge Aue,2-2,Final
+24,14/02/2026,08:00,SV Wehen,MSV Duisburg,6-1,Final
+24,14/02/2026,08:00,Hansa Rostock,VfL Osnabrück,2-2,Final
+24,14/02/2026,08:00,FC Saarbrücken,Stuttgart II,2-0,Final
+24,14/02/2026,08:00,Verl,Hoffenheim II,3-1,Final
+24,14/02/2026,08:00,Havelse,TSV 1860 Munich,0-5,Final
+24,14/02/2026,10:30,Rot-Weiß Essen,SSV Jahn Regensburg,3-2,Final
+24,15/02/2026,07:30,Energie Cottbus,Waldhof Mannheim,1-1,Final
+24,15/02/2026,10:30,SSV ULM 1846,Alemannia Aachen,1-3,Final
+24,15/02/2026,13:30,FC Schweinfurt 05,FC Ingolstadt 04,1-1,Final
+25,20/02/2026,13:00,Stuttgart II,Waldhof Mannheim,3-1,Final
+25,21/02/2026,08:00,SSV Jahn Regensburg,SV Wehen,2-1,Final
+25,21/02/2026,08:00,FC Ingolstadt 04,Havelse,3-2,Final
+25,21/02/2026,08:00,MSV Duisburg,FC Schweinfurt 05,3-1,Final
+25,21/02/2026,08:00,VfL Osnabrück,Rot-Weiß Essen,3-0,Final
+25,21/02/2026,08:00,Alemannia Aachen,Verl,3-1,Final
+25,21/02/2026,10:30,SSV ULM 1846,FC Saarbrücken,1-1,Final
+25,22/02/2026,07:30,TSV 1860 Munich,Hansa Rostock,1-0,Final
+25,22/02/2026,10:30,Erzgebirge Aue,Energie Cottbus,1-2,Final
+25,22/02/2026,13:30,Hoffenheim II,FC Viktoria Köln,1-3,Final
+26,27/02/2026,13:00,Hoffenheim II,TSV 1860 Munich,1-2,Final
+26,28/02/2026,08:00,SSV Jahn Regensburg,SSV ULM 1846,1-1,Final
+26,28/02/2026,08:00,Erzgebirge Aue,VfL Osnabrück,1-3,Final
+26,28/02/2026,08:00,SV Wehen,FC Ingolstadt 04,2-1,Final
+26,28/02/2026,08:00,Hansa Rostock,Rot-Weiß Essen,3-2,Final
+26,28/02/2026,08:00,FC Viktoria Köln,Stuttgart II,2-0,Final
+26,28/02/2026,10:30,Energie Cottbus,Verl,0-0,Final
+26,01/03/2026,07:30,Waldhof Mannheim,Alemannia Aachen,2-1,Final
+26,01/03/2026,10:30,MSV Duisburg,Havelse,1-1,Final
+26,01/03/2026,13:30,FC Schweinfurt 05,FC Saarbrücken,2-2,Final
+27,03/03/2026,13:00,TSV 1860 Munich,Erzgebirge Aue,2-1,Final
+27,03/03/2026,13:00,VfL Osnabrück,FC Viktoria Köln,2-0,Final
+27,03/03/2026,13:00,SSV ULM 1846,Hoffenheim II,1-3,Final
+27,03/03/2026,13:00,Verl,SSV Jahn Regensburg,1-2,Final
+27,03/03/2026,13:00,Stuttgart II,Energie Cottbus,1-2,Final
+27,04/03/2026,13:00,FC Ingolstadt 04,MSV Duisburg,0-0,Final
+27,04/03/2026,13:00,Rot-Weiß Essen,Waldhof Mannheim,1-0,Final
+27,04/03/2026,13:00,FC Saarbrücken,SV Wehen,2-0,Final
+27,04/03/2026,13:00,Alemannia Aachen,FC Schweinfurt 05,1-0,Final
+27,04/03/2026,13:00,Havelse,Hansa Rostock,1-3,Final
+28,06/03/2026,13:00,FC Viktoria Köln,TSV 1860 Munich,0-1,Final
+28,07/03/2026,08:00,Erzgebirge Aue,Alemannia Aachen,1-3,Final
+28,07/03/2026,08:00,SV Wehen,Stuttgart II,2-1,Final
+28,07/03/2026,08:00,Energie Cottbus,Hansa Rostock,0-0,Final
+28,07/03/2026,08:00,FC Schweinfurt 05,SSV ULM 1846,3-2,Final
+28,07/03/2026,08:00,Hoffenheim II,Rot-Weiß Essen,2-4,Final
+28,07/03/2026,10:30,SSV Jahn Regensburg,VfL Osnabrück,0-2,Final
+28,08/03/2026,07:30,Waldhof Mannheim,Havelse,3-1,Final
+28,08/03/2026,10:30,MSV Duisburg,FC Saarbrücken,4-2,Final
+28,08/03/2026,13:30,FC Ingolstadt 04,Verl,1-2,Final
+29,13/03/2026,13:00,Alemannia Aachen,Energie Cottbus,4-1,Final
+29,14/03/2026,08:00,Hansa Rostock,MSV Duisburg,5-1,Final
+29,14/03/2026,08:00,VfL Osnabrück,Waldhof Mannheim,4-1,Final
+29,14/03/2026,08:00,Rot-Weiß Essen,Erzgebirge Aue,4-2,Final
+29,14/03/2026,08:00,FC Saarbrücken,SSV Jahn Regensburg,1-1,Final
+29,14/03/2026,08:00,Havelse,FC Viktoria Köln,3-2,Final
+29,14/03/2026,10:30,TSV 1860 Munich,SV Wehen,0-0,Final
+29,15/03/2026,07:30,Stuttgart II,Hoffenheim II,1-0,Final
+29,15/03/2026,10:30,Verl,FC Schweinfurt 05,4-0,Final
+29,15/03/2026,13:30,SSV ULM 1846,FC Ingolstadt 04,1-3,Final
+30,20/03/2026,13:00,SV Wehen,Hansa Rostock,0-1,Final
+30,21/03/2026,08:00,SSV Jahn Regensburg,Havelse,5-2,Final
+30,21/03/2026,08:00,FC Ingolstadt 04,Alemannia Aachen,1-2,Final
+30,21/03/2026,08:00,Energie Cottbus,SSV ULM 1846,1-1,Final
+30,21/03/2026,08:00,FC Schweinfurt 05,Stuttgart II,3-1,Final
+30,21/03/2026,08:00,Waldhof Mannheim,Erzgebirge Aue,2-1,Final
+30,21/03/2026,10:30,Verl,FC Saarbrücken,3-0,Final
+30,22/03/2026,07:30,Hoffenheim II,VfL Osnabrück,0-1,Final
+30,22/03/2026,10:30,MSV Duisburg,TSV 1860 Munich,2-1,Final
+30,22/03/2026,13:30,FC Viktoria Köln,Rot-Weiß Essen,1-2,Final
+31,04/04/2026,07:00,Erzgebirge Aue,Hoffenheim II,,
+31,04/04/2026,07:00,TSV 1860 Munich,Waldhof Mannheim,,
+31,04/04/2026,07:00,Hansa Rostock,FC Viktoria Köln,,
+31,04/04/2026,07:00,VfL Osnabrück,FC Schweinfurt 05,,
+31,04/04/2026,07:00,Havelse,Energie Cottbus,,
+31,04/04/2026,09:30,Rot-Weiß Essen,MSV Duisburg,,
+31,04/04/2026,09:30,Stuttgart II,SSV Jahn Regensburg,,
+31,05/04/2026,06:30,SSV ULM 1846,Verl,,
+31,05/04/2026,09:30,FC Saarbrücken,FC Ingolstadt 04,,
+31,05/04/2026,12:30,Alemannia Aachen,SV Wehen,,
+32,07/04/2026,12:00,SSV Jahn Regensburg,Erzgebirge Aue,,
+32,07/04/2026,12:00,MSV Duisburg,VfL Osnabrück,,
+32,07/04/2026,12:00,Energie Cottbus,TSV 1860 Munich,,
+32,07/04/2026,12:00,FC Schweinfurt 05,Rot-Weiß Essen,,
+32,07/04/2026,12:00,Waldhof Mannheim,Hoffenheim II,,
+32,08/04/2026,12:00,FC Ingolstadt 04,FC Viktoria Köln,,
+32,08/04/2026,12:00,SV Wehen,Havelse,,
+32,08/04/2026,12:00,FC Saarbrücken,Alemannia Aachen,,
+32,08/04/2026,12:00,Verl,Hansa Rostock,,
+32,08/04/2026,12:00,Stuttgart II,SSV ULM 1846,,
+33,10/04/2026,12:00,Hoffenheim II,FC Schweinfurt 05,,
+33,11/04/2026,07:00,FC Viktoria Köln,SV Wehen,,
+33,11/04/2026,07:00,Rot-Weiß Essen,FC Ingolstadt 04,,
+33,11/04/2026,07:00,Alemannia Aachen,Stuttgart II,,
+33,11/04/2026,07:00,Waldhof Mannheim,MSV Duisburg,,
+33,11/04/2026,07:00,Havelse,FC Saarbrücken,,
+33,11/04/2026,09:30,Hansa Rostock,SSV ULM 1846,,
+33,12/04/2026,06:30,VfL Osnabrück,Energie Cottbus,,
+33,12/04/2026,09:30,Erzgebirge Aue,Verl,,
+33,12/04/2026,12:30,TSV 1860 Munich,SSV Jahn Regensburg,,
+34,17/04/2026,12:00,SSV Jahn Regensburg,Alemannia Aachen,,
+34,18/04/2026,07:00,FC Ingolstadt 04,VfL Osnabrück,,
+34,18/04/2026,07:00,MSV Duisburg,Hoffenheim II,,
+34,18/04/2026,07:00,FC Schweinfurt 05,Hansa Rostock,,
+34,18/04/2026,07:00,FC Saarbrücken,TSV 1860 Munich,,
+34,18/04/2026,07:00,Verl,FC Viktoria Köln,,
+34,18/04/2026,09:30,SSV ULM 1846,Havelse,,
+34,19/04/2026,06:30,Energie Cottbus,Rot-Weiß Essen,,
+34,19/04/2026,09:30,Stuttgart II,Erzgebirge Aue,,
+34,19/04/2026,12:30,SV Wehen,Waldhof Mannheim,,
+35,25/04/2026,07:00,Erzgebirge Aue,SV Wehen,,
+35,25/04/2026,07:00,TSV 1860 Munich,SSV ULM 1846,,
+35,25/04/2026,07:00,Hansa Rostock,SSV Jahn Regensburg,,
+35,25/04/2026,07:00,VfL Osnabrück,Verl,,
+35,25/04/2026,07:00,FC Viktoria Köln,Energie Cottbus,,
+35,25/04/2026,07:00,Rot-Weiß Essen,FC Saarbrücken,,
+35,25/04/2026,07:00,Alemannia Aachen,MSV Duisburg,,
+35,25/04/2026,07:00,Waldhof Mannheim,FC Schweinfurt 05,,
+35,25/04/2026,07:00,Havelse,Stuttgart II,,
+35,25/04/2026,07:00,Hoffenheim II,FC Ingolstadt 04,,
+36,02/05/2026,07:00,SSV Jahn Regensburg,Hoffenheim II,,
+36,02/05/2026,07:00,FC Ingolstadt 04,Erzgebirge Aue,,
+36,02/05/2026,07:00,MSV Duisburg,Energie Cottbus,,
+36,02/05/2026,07:00,SV Wehen,VfL Osnabrück,,
+36,02/05/2026,07:00,FC Schweinfurt 05,TSV 1860 Munich,,
+36,02/05/2026,07:00,FC Saarbrücken,Waldhof Mannheim,,
+36,02/05/2026,07:00,SSV ULM 1846,FC Viktoria Köln,,
+36,02/05/2026,07:00,Alemannia Aachen,Hansa Rostock,,
+36,02/05/2026,07:00,Verl,Havelse,,
+36,02/05/2026,07:00,Stuttgart II,Rot-Weiß Essen,,
+37,09/05/2026,07:00,Erzgebirge Aue,MSV Duisburg,,
+37,09/05/2026,07:00,TSV 1860 Munich,FC Ingolstadt 04,,
+37,09/05/2026,07:00,Energie Cottbus,SV Wehen,,
+37,09/05/2026,07:00,Hansa Rostock,Stuttgart II,,
+37,09/05/2026,07:00,VfL Osnabrück,SSV ULM 1846,,
+37,09/05/2026,07:00,FC Viktoria Köln,Alemannia Aachen,,
+37,09/05/2026,07:00,Rot-Weiß Essen,Verl,,
+37,09/05/2026,07:00,Waldhof Mannheim,SSV Jahn Regensburg,,
+37,09/05/2026,07:00,Havelse,FC Schweinfurt 05,,
+37,09/05/2026,07:00,Hoffenheim II,FC Saarbrücken,,
+38,16/05/2026,07:00,SSV Jahn Regensburg,Energie Cottbus,,
+38,16/05/2026,07:00,FC Ingolstadt 04,Waldhof Mannheim,,
+38,16/05/2026,07:00,MSV Duisburg,FC Viktoria Köln,,
+38,16/05/2026,07:00,SV Wehen,Hoffenheim II,,
+38,16/05/2026,07:00,FC Schweinfurt 05,Erzgebirge Aue,,
+38,16/05/2026,07:00,FC Saarbrücken,Hansa Rostock,,
+38,16/05/2026,07:00,SSV ULM 1846,Rot-Weiß Essen,,
+38,16/05/2026,07:00,Alemannia Aachen,Havelse,,
+38,16/05/2026,07:00,Verl,TSV 1860 Munich,,
+38,16/05/2026,07:00,Stuttgart II,VfL Osnabrück,,

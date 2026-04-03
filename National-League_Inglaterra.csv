@@ -1,0 +1,553 @@
+matchday,date,time,home_team,away_team,result,status
+1,09/08/2025,09:00,Yeovil Town,Hartlepool,0-0,Final
+1,09/08/2025,09:00,Gateshead,Southend,0-3,Final
+1,09/08/2025,09:00,York,Sutton Utd,2-2,Final
+1,09/08/2025,09:00,Boreham Wood,Rochdale,0-2,Final
+1,09/08/2025,09:00,Braintree,FC Halifax Town,3-0,Final
+1,09/08/2025,09:00,Solihull Moors,Forest Green,2-2,Final
+1,09/08/2025,09:00,Woking,Carlisle,0-2,Final
+1,09/08/2025,09:00,Altrincham,Aldershot Town,3-2,Final
+1,09/08/2025,09:00,Brackley Town,Eastleigh,1-0,Final
+1,09/08/2025,09:00,Tamworth,Scunthorpe,1-2,Final
+1,09/08/2025,09:00,Wealdstone,Truro City,2-0,Final
+2,16/08/2025,06:30,Rochdale,Altrincham,2-1,Final
+2,16/08/2025,09:00,Scunthorpe,Woking,3-1,Final
+2,16/08/2025,09:00,Southend,Tamworth,2-0,Final
+2,16/08/2025,09:00,Hartlepool,Braintree,2-0,Final
+2,16/08/2025,09:00,Carlisle,Boreham Wood,3-3,Final
+2,16/08/2025,09:00,Forest Green,Yeovil Town,2-0,Final
+2,16/08/2025,09:00,Aldershot Town,Boston United,2-3,Final
+2,16/08/2025,09:00,Eastleigh,Gateshead,0-2,Final
+2,16/08/2025,09:00,Sutton Utd,Solihull Moors,0-0,Final
+2,16/08/2025,09:00,Wealdstone,FC Halifax Town,2-1,Final
+2,16/08/2025,11:30,Truro City,York,0-2,Final
+3,19/08/2025,13:45,Carlisle,Solihull Moors,1-1,Final
+3,19/08/2025,13:45,Woking,Wealdstone,1-2,Final
+3,19/08/2025,13:45,Altrincham,Hartlepool,0-2,Final
+3,19/08/2025,13:45,Tamworth,Truro City,2-0,Final
+3,19/08/2025,13:45,Boston United,FC Halifax Town,0-1,Final
+3,20/08/2025,13:45,Rochdale,Gateshead,4-0,Final
+3,20/08/2025,13:45,Southend,York,0-0,Final
+3,20/08/2025,13:45,Yeovil Town,Brackley Town,2-1,Final
+3,20/08/2025,13:45,Forest Green,Sutton Utd,4-0,Final
+3,20/08/2025,13:45,Aldershot Town,Eastleigh,2-3,Final
+3,20/08/2025,13:45,Boreham Wood,Braintree,2-1,Final
+4,23/08/2025,06:30,Morecambe,Altrincham,2-1,Final
+4,23/08/2025,09:00,Hartlepool,Woking,3-0,Final
+4,23/08/2025,09:00,Eastleigh,Boston United,2-0,Final
+4,23/08/2025,09:00,Gateshead,Tamworth,2-1,Final
+4,23/08/2025,09:00,Braintree,Yeovil Town,1-0,Final
+4,23/08/2025,09:00,Solihull Moors,Aldershot Town,1-5,Final
+4,23/08/2025,09:00,Sutton Utd,Scunthorpe,2-3,Final
+4,23/08/2025,09:00,FC Halifax Town,Forest Green,1-2,Final
+4,23/08/2025,09:00,Truro City,Southend,0-1,Final
+4,23/08/2025,09:00,Brackley Town,Rochdale,2-1,Final
+4,23/08/2025,11:30,Wealdstone,Carlisle,0-1,Final
+5,25/08/2025,09:00,Rochdale,Sutton Utd,1-0,Final
+5,25/08/2025,09:00,Scunthorpe,FC Halifax Town,1-1,Final
+5,25/08/2025,09:00,Southend,Hartlepool,1-1,Final
+5,25/08/2025,09:00,Carlisle,Braintree,5-0,Final
+5,25/08/2025,09:00,Yeovil Town,Gateshead,3-4,Final
+5,25/08/2025,09:00,Forest Green,Eastleigh,1-0,Final
+5,25/08/2025,09:00,Aldershot Town,Morecambe,4-0,Final
+5,25/08/2025,09:00,Boreham Wood,Truro City,2-1,Final
+5,25/08/2025,09:00,Woking,York,1-1,Final
+5,25/08/2025,09:00,Altrincham,Solihull Moors,2-0,Final
+5,25/08/2025,09:00,Tamworth,Brackley Town,1-1,Final
+5,25/08/2025,09:00,Boston United,Wealdstone,2-1,Final
+6,30/08/2025,06:30,Solihull Moors,Southend,1-2,Final
+6,30/08/2025,09:00,Hartlepool,Boreham Wood,0-0,Final
+6,30/08/2025,09:00,Morecambe,Woking,0-2,Final
+6,30/08/2025,09:00,Eastleigh,Altrincham,2-1,Final
+6,30/08/2025,09:00,Gateshead,Aldershot Town,3-3,Final
+6,30/08/2025,09:00,Braintree,Forest Green,0-0,Final
+6,30/08/2025,09:00,Sutton Utd,Carlisle,2-1,Final
+6,30/08/2025,09:00,FC Halifax Town,Yeovil Town,3-2,Final
+6,30/08/2025,09:00,Truro City,Boston United,3-0,Final
+6,30/08/2025,09:00,Wealdstone,Rochdale,1-3,Final
+6,30/08/2025,11:30,Brackley Town,Scunthorpe,1-1,Final
+7,02/09/2025,13:45,Morecambe,Forest Green,1-3,Final
+7,02/09/2025,13:45,Braintree,Tamworth,1-2,Final
+7,02/09/2025,13:45,Solihull Moors,Yeovil Town,0-1,Final
+7,02/09/2025,13:45,Wealdstone,Southend,3-2,Final
+7,03/09/2025,13:45,Hartlepool,Boston United,1-1,Final
+7,03/09/2025,13:45,Gateshead,Altrincham,0-2,Final
+7,03/09/2025,13:45,Sutton Utd,Boreham Wood,3-4,Final
+7,03/09/2025,13:45,FC Halifax Town,Woking,1-1,Final
+7,03/09/2025,13:45,Truro City,Aldershot Town,2-2,Final
+7,03/09/2025,13:45,Brackley Town,Carlisle,0-1,Final
+8,06/09/2025,06:30,Altrincham,Sutton Utd,2-1,Final
+8,06/09/2025,09:00,Rochdale,Braintree,2-0,Final
+8,06/09/2025,09:00,Southend,FC Halifax Town,3-0,Final
+8,06/09/2025,09:00,Carlisle,Truro City,3-0,Final
+8,06/09/2025,09:00,Yeovil Town,York,1-3,Final
+8,06/09/2025,09:00,Forest Green,Hartlepool,1-0,Final
+8,06/09/2025,09:00,Boreham Wood,Morecambe,3-0,Final
+8,06/09/2025,09:00,Woking,Gateshead,5-0,Final
+8,06/09/2025,09:00,Tamworth,Eastleigh,1-0,Final
+8,06/09/2025,09:00,Boston United,Solihull Moors,1-2,Final
+8,06/09/2025,09:00,Scunthorpe,Wealdstone,,Final
+8,06/09/2025,11:30,Aldershot Town,Brackley Town,2-2,Final
+6,09/09/2025,13:45,York,Tamworth,4-0,Final
+9,13/09/2025,06:30,Yeovil Town,Woking,1-0,Final
+9,13/09/2025,09:00,Southend,Boston United,1-1,Final
+9,13/09/2025,09:00,Hartlepool,Brackley Town,0-0,Final
+9,13/09/2025,09:00,Carlisle,Aldershot Town,2-0,Final
+9,13/09/2025,09:00,Forest Green,Scunthorpe,1-1,Final
+9,13/09/2025,09:00,Boreham Wood,Altrincham,3-1,Final
+9,13/09/2025,09:00,Braintree,York,2-3,Final
+9,13/09/2025,09:00,Solihull Moors,Morecambe,4-4,Final
+9,13/09/2025,09:00,Sutton Utd,Tamworth,2-3,Final
+9,13/09/2025,09:00,Truro City,Rochdale,0-1,Final
+9,13/09/2025,09:00,Wealdstone,Gateshead,2-2,Final
+9,13/09/2025,11:30,FC Halifax Town,Eastleigh,2-2,Final
+10,20/09/2025,06:30,Brackley Town,Sutton Utd,1-0,Final
+10,20/09/2025,09:00,Scunthorpe,Truro City,4-0,Final
+10,20/09/2025,09:00,Morecambe,Wealdstone,4-3,Final
+10,20/09/2025,09:00,Aldershot Town,Hartlepool,1-0,Final
+10,20/09/2025,09:00,Eastleigh,Braintree,1-3,Final
+10,20/09/2025,09:00,Gateshead,FC Halifax Town,1-2,Final
+10,20/09/2025,09:00,York,Solihull Moors,0-1,Final
+10,20/09/2025,09:00,Woking,Forest Green,0-2,Final
+10,20/09/2025,09:00,Altrincham,Carlisle,1-2,Final
+10,20/09/2025,09:00,Tamworth,Yeovil Town,1-0,Final
+10,20/09/2025,09:00,Boston United,Boreham Wood,0-2,Final
+11,23/09/2025,13:45,Rochdale,Solihull Moors,4-1,Final
+11,23/09/2025,13:45,Gateshead,Hartlepool,0-1,Final
+11,23/09/2025,13:45,York,Carlisle,5-0,Final
+11,23/09/2025,13:45,Woking,Sutton Utd,1-1,Final
+11,23/09/2025,13:45,Altrincham,Forest Green,1-2,Final
+11,23/09/2025,13:45,Brackley Town,Truro City,1-0,Final
+11,24/09/2025,13:45,Scunthorpe,Boreham Wood,1-1,Final
+11,24/09/2025,13:45,Morecambe,FC Halifax Town,1-2,Final
+11,24/09/2025,13:45,Aldershot Town,Yeovil Town,1-4,Final
+11,24/09/2025,13:45,Eastleigh,Southend,2-1,Final
+11,24/09/2025,13:45,Tamworth,Wealdstone,1-1,Final
+11,24/09/2025,13:45,Boston United,Braintree,2-0,Final
+12,27/09/2025,06:30,Boreham Wood,Woking,1-0,Final
+12,27/09/2025,09:00,Southend,Scunthorpe,0-2,Final
+12,27/09/2025,09:00,Hartlepool,Tamworth,1-1,Final
+12,27/09/2025,09:00,Carlisle,Rochdale,0-2,Final
+12,27/09/2025,09:00,Yeovil Town,Altrincham,1-0,Final
+12,27/09/2025,09:00,Braintree,Gateshead,1-2,Final
+12,27/09/2025,09:00,Solihull Moors,Brackley Town,1-0,Final
+12,27/09/2025,09:00,Sutton Utd,Boston United,1-1,Final
+12,27/09/2025,09:00,FC Halifax Town,Aldershot Town,4-2,Final
+12,27/09/2025,09:00,Truro City,Morecambe,5-0,Final
+12,27/09/2025,09:00,Wealdstone,Eastleigh,0-0,Final
+12,27/09/2025,11:30,Forest Green,York,1-1,Final
+13,30/09/2025,13:45,Morecambe,Gateshead,2-5,Final
+13,30/09/2025,13:45,Aldershot Town,Braintree,1-1,Final
+13,30/09/2025,13:45,Boreham Wood,Southend,1-1,Final
+13,30/09/2025,13:45,Solihull Moors,Woking,0-3,Final
+13,30/09/2025,13:45,Sutton Utd,Yeovil Town,1-2,Final
+13,30/09/2025,13:45,Truro City,Eastleigh,0-2,Final
+13,01/10/2025,13:45,Rochdale,FC Halifax Town,1-2,Final
+13,01/10/2025,13:45,Carlisle,Hartlepool,3-1,Final
+13,01/10/2025,13:45,York,Scunthorpe,1-3,Final
+13,01/10/2025,13:45,Altrincham,Tamworth,1-2,Final
+13,01/10/2025,13:45,Brackley Town,Wealdstone,0-2,Final
+13,01/10/2025,13:45,Boston United,Forest Green,0-0,Final
+14,04/10/2025,06:30,Hartlepool,York,1-2,Final
+14,04/10/2025,06:30,Gateshead,Boston United,1-3,Final
+14,04/10/2025,09:00,Southend,Aldershot Town,3-0,Final
+14,04/10/2025,09:00,Yeovil Town,Boreham Wood,0-3,Final
+14,04/10/2025,09:00,Forest Green,Rochdale,0-1,Final
+14,04/10/2025,09:00,Eastleigh,Solihull Moors,1-1,Final
+14,04/10/2025,09:00,Braintree,Sutton Utd,0-0,Final
+14,04/10/2025,09:00,Woking,Truro City,2-2,Final
+14,04/10/2025,09:00,FC Halifax Town,Brackley Town,2-0,Final
+14,04/10/2025,09:00,Tamworth,Morecambe,1-1,Final
+14,04/10/2025,09:00,Wealdstone,Altrincham,1-1,Final
+14,04/10/2025,11:30,Scunthorpe,Carlisle,0-1,Final
+3,07/10/2025,13:45,Scunthorpe,Morecambe,3-1,Final
+15,18/10/2025,06:30,Solihull Moors,Braintree,2-0,Final
+15,18/10/2025,09:00,Rochdale,Yeovil Town,3-0,Final
+15,18/10/2025,09:00,Morecambe,Southend,0-3,Final
+15,18/10/2025,09:00,Aldershot Town,Tamworth,1-2,Final
+15,18/10/2025,09:00,York,Wealdstone,4-0,Final
+15,18/10/2025,09:00,Boreham Wood,Eastleigh,2-0,Final
+15,18/10/2025,09:00,Truro City,FC Halifax Town,2-1,Final
+15,18/10/2025,09:00,Altrincham,Woking,1-3,Final
+15,18/10/2025,09:00,Brackley Town,Gateshead,0-0,Final
+15,18/10/2025,09:00,Boston United,Scunthorpe,1-1,Final
+15,18/10/2025,11:30,Carlisle,Forest Green,4-2,Final
+15,18/10/2025,11:30,Sutton Utd,Hartlepool,3-3,Final
+7,21/10/2025,13:45,Eastleigh,Scunthorpe,1-1,Final
+4,21/10/2025,13:45,York,Boreham Wood,2-2,Final
+1,21/10/2025,13:45,Boston United,Morecambe,0-4,Final
+16,25/10/2025,06:30,FC Halifax Town,York,1-1,Final
+16,25/10/2025,09:00,Scunthorpe,Aldershot Town,2-1,Final
+16,25/10/2025,09:00,Southend,Brackley Town,2-0,Final
+16,25/10/2025,09:00,Hartlepool,Solihull Moors,2-0,Final
+16,25/10/2025,09:00,Yeovil Town,Carlisle,1-1,Final
+16,25/10/2025,09:00,Forest Green,Boreham Wood,2-1,Final
+16,25/10/2025,09:00,Eastleigh,Morecambe,2-1,Final
+16,25/10/2025,09:00,Gateshead,Truro City,2-2,Final
+16,25/10/2025,09:00,Braintree,Altrincham,0-0,Final
+16,25/10/2025,09:00,Woking,Rochdale,0-0,Final
+16,25/10/2025,09:00,Wealdstone,Sutton Utd,4-2,Final
+16,25/10/2025,11:30,Tamworth,Boston United,1-3,Final
+17,04/11/2025,14:45,Hartlepool,Morecambe,1-1,Final
+17,04/11/2025,14:45,Carlisle,FC Halifax Town,2-0,Final
+17,04/11/2025,14:45,Yeovil Town,Wealdstone,0-2,Final
+17,04/11/2025,14:45,Boreham Wood,Aldershot Town,1-0,Final
+17,05/11/2025,14:45,York,Gateshead,4-0,Final
+17,05/11/2025,14:45,Braintree,Brackley Town,0-1,Final
+17,05/11/2025,14:45,Solihull Moors,Truro City,4-0,Final
+17,05/11/2025,14:45,Sutton Utd,Eastleigh,2-1,Final
+17,05/11/2025,14:45,Woking,Southend,1-1,Final
+17,05/11/2025,14:45,Altrincham,Boston United,1-0,Final
+18,08/11/2025,07:30,Aldershot Town,Forest Green,2-3,Final
+18,08/11/2025,10:00,Scunthorpe,Yeovil Town,1-0,Final
+18,08/11/2025,10:00,Morecambe,Sutton Utd,2-2,Final
+18,08/11/2025,10:00,Eastleigh,York,2-4,Final
+18,08/11/2025,10:00,Gateshead,Solihull Moors,0-2,Final
+18,08/11/2025,10:00,FC Halifax Town,Hartlepool,0-1,Final
+18,08/11/2025,10:00,Truro City,Altrincham,0-1,Final
+18,08/11/2025,10:00,Brackley Town,Boreham Wood,1-3,Final
+18,08/11/2025,10:00,Tamworth,Woking,0-1,Final
+18,08/11/2025,10:00,Boston United,Rochdale,1-3,Final
+18,08/11/2025,10:00,Wealdstone,Braintree,1-0,Final
+18,08/11/2025,12:30,Southend,Carlisle,1-2,Final
+17,11/11/2025,14:45,Forest Green,Tamworth,4-2,Final
+7,11/11/2025,14:45,York,Rochdale,4-1,Final
+19,15/11/2025,10:03,Rochdale,Aldershot Town,1-0,Final
+19,15/11/2025,10:03,Hartlepool,Wealdstone,1-1,Final
+19,15/11/2025,10:03,Carlisle,Eastleigh,1-1,Final
+19,15/11/2025,10:03,Yeovil Town,Southend,0-1,Final
+19,15/11/2025,10:03,Forest Green,Gateshead,3-1,Final
+19,15/11/2025,10:03,York,Morecambe,4-2,Final
+19,15/11/2025,10:03,Boreham Wood,Tamworth,1-2,Final
+19,15/11/2025,10:03,Braintree,Truro City,2-0,Final
+19,15/11/2025,10:03,Solihull Moors,Scunthorpe,3-0,Final
+19,15/11/2025,10:03,Sutton Utd,FC Halifax Town,2-0,Final
+19,15/11/2025,10:03,Woking,Boston United,1-1,Final
+19,15/11/2025,10:03,Altrincham,Brackley Town,2-1,Final
+2,18/11/2025,14:45,Morecambe,Brackley Town,2-0,Final
+20,22/11/2025,07:30,Aldershot Town,Woking,1-2,Final
+20,22/11/2025,07:30,Tamworth,Rochdale,1-2,Final
+20,22/11/2025,10:00,Scunthorpe,Braintree,1-1,Final
+20,22/11/2025,10:00,Southend,Altrincham,3-0,Final
+20,22/11/2025,10:00,Morecambe,Yeovil Town,0-0,Final
+20,22/11/2025,10:00,Eastleigh,Hartlepool,0-2,Final
+20,22/11/2025,10:00,Gateshead,Boreham Wood,0-3,Final
+20,22/11/2025,10:00,FC Halifax Town,Solihull Moors,3-0,Final
+20,22/11/2025,10:00,Truro City,Sutton Utd,2-3,Final
+20,22/11/2025,10:00,Brackley Town,York,2-3,Final
+20,22/11/2025,10:00,Wealdstone,Forest Green,1-1,Final
+20,22/11/2025,12:30,Boston United,Carlisle,1-2,Final
+21,29/11/2025,07:30,Solihull Moors,Wealdstone,1-1,Final
+21,29/11/2025,10:00,Rochdale,Eastleigh,2-0,Final
+21,29/11/2025,10:00,Hartlepool,Truro City,3-1,Final
+21,29/11/2025,10:00,Carlisle,Tamworth,2-1,Final
+21,29/11/2025,10:00,Yeovil Town,Boston United,2-1,Final
+21,29/11/2025,10:00,Forest Green,Southend,2-1,Final
+21,29/11/2025,10:00,York,Aldershot Town,5-1,Final
+21,29/11/2025,10:00,Braintree,Morecambe,1-0,Final
+21,29/11/2025,10:00,Sutton Utd,Gateshead,4-2,Final
+21,29/11/2025,10:00,Woking,Brackley Town,2-0,Final
+21,29/11/2025,10:00,Altrincham,Scunthorpe,4-2,Final
+21,29/11/2025,12:30,Boreham Wood,FC Halifax Town,2-1,Final
+22,06/12/2025,07:30,Morecambe,Boston United,0-3,Final
+22,06/12/2025,10:00,Hartlepool,Yeovil Town,0-2,Final
+22,06/12/2025,10:00,Forest Green,Solihull Moors,1-1,Final
+22,06/12/2025,10:00,Aldershot Town,Altrincham,2-1,Final
+22,06/12/2025,10:00,FC Halifax Town,Braintree,4-0,Final
+22,06/12/2025,12:30,Scunthorpe,Tamworth,3-1,Final
+22,10/12/2025,14:45,Carlisle,Woking,1-3,Final
+22,16/12/2025,14:45,Truro City,Wealdstone,2-0,Final
+23,19/12/2025,14:45,Altrincham,Rochdale,0-3,Final
+23,20/12/2025,07:30,Woking,Scunthorpe,1-2,Final
+23,20/12/2025,07:30,Boston United,Aldershot Town,0-2,Final
+23,20/12/2025,12:30,York,Truro City,4-0,Final
+23,20/12/2025,12:30,Tamworth,Southend,2-1,Final
+23,20/12/2025,14:45,Yeovil Town,Forest Green,0-2,Final
+23,21/12/2025,07:00,Solihull Moors,Sutton Utd,4-1,Final
+23,21/12/2025,07:00,Brackley Town,Morecambe,0-2,Final
+23,21/12/2025,09:00,Gateshead,Eastleigh,1-3,Final
+23,21/12/2025,09:00,Braintree,Hartlepool,0-0,Final
+23,21/12/2025,11:00,Boreham Wood,Carlisle,2-0,Final
+23,21/12/2025,11:00,FC Halifax Town,Wealdstone,2-2,Final
+24,26/12/2025,10:00,Hartlepool,Scunthorpe,1-2,Final
+24,26/12/2025,10:00,Morecambe,Rochdale,1-2,Final
+24,26/12/2025,10:00,Eastleigh,Woking,1-1,Final
+24,26/12/2025,10:00,Gateshead,Carlisle,0-3,Final
+24,26/12/2025,10:00,York,Boston United,2-2,Final
+24,26/12/2025,10:00,Braintree,Southend,0-1,Final
+24,26/12/2025,10:00,Solihull Moors,Tamworth,7-1,Final
+24,26/12/2025,10:00,Sutton Utd,Aldershot Town,0-0,Final
+24,26/12/2025,10:00,FC Halifax Town,Altrincham,2-1,Final
+24,26/12/2025,10:00,Truro City,Yeovil Town,1-0,Final
+24,26/12/2025,10:00,Brackley Town,Forest Green,1-0,Final
+24,26/12/2025,10:00,Wealdstone,Boreham Wood,0-4,Final
+25,30/12/2025,14:45,Rochdale,Hartlepool,1-2,Final
+25,30/12/2025,14:45,Scunthorpe,Gateshead,2-0,Final
+25,30/12/2025,14:45,Southend,Sutton Utd,1-0,Final
+25,30/12/2025,14:45,Carlisle,Morecambe,1-0,Final
+25,30/12/2025,14:45,Yeovil Town,Eastleigh,1-1,Final
+25,30/12/2025,14:45,Forest Green,Truro City,1-1,Final
+25,30/12/2025,14:45,Aldershot Town,Wealdstone,4-1,Final
+25,30/12/2025,14:45,Boreham Wood,Solihull Moors,2-1,Final
+25,30/12/2025,14:45,Woking,Braintree,0-1,Final
+25,30/12/2025,14:45,Altrincham,York,1-2,Final
+25,30/12/2025,14:45,Tamworth,FC Halifax Town,0-2,Final
+25,30/12/2025,14:45,Boston United,Brackley Town,1-2,Final
+26,03/01/2026,10:00,Carlisle,Wealdstone,2-0,Final
+26,03/01/2026,10:00,Forest Green,FC Halifax Town,2-1,Final
+26,03/01/2026,10:00,Tamworth,Gateshead,3-1,Final
+26,03/01/2026,10:00,Boston United,Eastleigh,1-2,Final
+26,03/01/2026,12:30,Yeovil Town,Braintree,3-1,Final
+26,10/01/2026,10:00,Aldershot Town,Solihull Moors,1-5,Final
+26,10/01/2026,10:00,Woking,Hartlepool,4-0,Final
+22,10/01/2026,10:00,Sutton Utd,York,1-2,Final
+28,10/01/2026,12:30,Braintree,Boston United,0-0,Final
+27,17/01/2026,07:30,Hartlepool,Altrincham,1-0,Final
+27,17/01/2026,10:00,Morecambe,Scunthorpe,2-2,Final
+27,17/01/2026,10:00,Eastleigh,Aldershot Town,1-4,Final
+27,17/01/2026,10:00,Gateshead,Rochdale,0-2,Final
+27,17/01/2026,10:00,Braintree,Boreham Wood,0-3,Final
+27,17/01/2026,10:00,Solihull Moors,Carlisle,3-3,Final
+27,17/01/2026,10:00,Sutton Utd,Forest Green,1-1,Final
+27,17/01/2026,10:00,FC Halifax Town,Boston United,2-1,Final
+27,17/01/2026,10:00,Truro City,Tamworth,0-0,Final
+27,17/01/2026,10:00,Brackley Town,Yeovil Town,2-1,Final
+27,17/01/2026,10:00,Wealdstone,Woking,1-0,Final
+27,17/01/2026,12:30,York,Southend,1-1,Final
+28,20/01/2026,14:45,Southend,Eastleigh,4-1,Final
+28,20/01/2026,14:45,Hartlepool,Gateshead,2-1,Final
+28,20/01/2026,14:45,Truro City,Brackley Town,3-3,Final
+28,20/01/2026,14:45,Boreham Wood,Scunthorpe,1-3,Final
+28,21/01/2026,14:45,Carlisle,York,0-3,Final
+28,21/01/2026,14:45,Forest Green,Altrincham,1-1,Final
+28,21/01/2026,14:45,Solihull Moors,Rochdale,0-1,Final
+28,21/01/2026,14:45,FC Halifax Town,Morecambe,1-0,Final
+29,24/01/2026,10:00,Rochdale,Truro City,2-0,Final
+29,24/01/2026,10:00,Morecambe,Solihull Moors,0-2,Final
+29,24/01/2026,10:00,Eastleigh,FC Halifax Town,2-3,Final
+29,24/01/2026,10:00,York,Braintree,5-0,Final
+29,24/01/2026,10:00,Altrincham,Boreham Wood,3-1,Final
+29,24/01/2026,10:00,Brackley Town,Hartlepool,0-0,Final
+29,24/01/2026,10:00,Tamworth,Sutton Utd,0-1,Final
+29,24/01/2026,10:00,Boston United,Southend,3-3,Final
+29,24/01/2026,12:30,Scunthorpe,Forest Green,3-2,Final
+10,27/01/2026,14:45,Rochdale,Southend,2-1,Final
+30,31/01/2026,10:00,Hartlepool,Aldershot Town,0-3,Final
+30,31/01/2026,10:00,Carlisle,Altrincham,3-1,Final
+30,31/01/2026,10:00,Boreham Wood,Boston United,1-2,Final
+30,31/01/2026,10:00,Braintree,Eastleigh,2-1,Final
+30,31/01/2026,10:00,Solihull Moors,York,0-2,Final
+30,31/01/2026,10:00,Sutton Utd,Brackley Town,1-1,Final
+26,03/02/2026,14:45,Altrincham,Morecambe,1-1,Final
+30,03/02/2026,14:45,Forest Green,Woking,4-2,Final
+22,03/02/2026,14:45,Rochdale,Boreham Wood,4-1,Final
+31,07/02/2026,10:00,Rochdale,Carlisle,1-0,Final
+31,07/02/2026,10:00,Scunthorpe,Southend,1-0,Final
+31,07/02/2026,10:00,Morecambe,Truro City,1-2,Final
+31,07/02/2026,10:00,Aldershot Town,FC Halifax Town,3-2,Final
+31,07/02/2026,10:00,York,Forest Green,2-1,Final
+31,07/02/2026,10:00,Altrincham,Yeovil Town,0-1,Final
+31,07/02/2026,10:00,Tamworth,Hartlepool,1-1,Final
+31,07/02/2026,10:00,Boston United,Sutton Utd,1-0,Final
+31,07/02/2026,12:30,Eastleigh,Wealdstone,2-2,Final
+32,10/02/2026,14:45,Carlisle,Scunthorpe,3-2,Final
+32,10/02/2026,14:45,Morecambe,Tamworth,2-2,Final
+32,10/02/2026,14:45,Solihull Moors,Eastleigh,2-3,Final
+32,10/02/2026,14:45,Truro City,Woking,0-2,Final
+32,10/02/2026,14:45,Altrincham,Wealdstone,1-0,Final
+32,10/02/2026,14:45,Boston United,Gateshead,1-0,Final
+32,11/02/2026,14:45,Rochdale,Forest Green,2-1,Final
+32,11/02/2026,14:45,York,Hartlepool,3-2,Final
+32,11/02/2026,14:45,Boreham Wood,Yeovil Town,3-2,Final
+32,11/02/2026,14:45,Sutton Utd,Braintree,1-1,Final
+32,11/02/2026,14:45,Brackley Town,FC Halifax Town,1-1,Final
+33,14/02/2026,10:00,Scunthorpe,Boston United,3-6,Final
+33,14/02/2026,10:00,Southend,Morecambe,5-1,Final
+33,14/02/2026,10:00,Yeovil Town,Rochdale,1-1,Final
+33,14/02/2026,10:00,Eastleigh,Boreham Wood,2-2,Final
+33,14/02/2026,10:00,Gateshead,Brackley Town,1-2,Final
+33,14/02/2026,10:00,Braintree,Solihull Moors,0-0,Final
+33,14/02/2026,10:00,FC Halifax Town,Truro City,1-0,Final
+33,14/02/2026,10:00,Tamworth,Aldershot Town,1-1,Final
+33,14/02/2026,10:00,Wealdstone,York,0-3,Final
+33,14/02/2026,12:30,Forest Green,Carlisle,1-3,Final
+17,17/02/2026,14:45,Rochdale,Scunthorpe,1-1,Final
+28,17/02/2026,14:45,Yeovil Town,Aldershot Town,1-2,Final
+28,17/02/2026,14:45,Sutton Utd,Woking,2-1,Final
+30,17/02/2026,14:45,FC Halifax Town,Gateshead,1-2,Final
+34,21/02/2026,10:00,Rochdale,Woking,3-0,Final
+34,21/02/2026,10:00,Carlisle,Yeovil Town,3-0,Final
+34,21/02/2026,10:00,Morecambe,Eastleigh,4-0,Final
+34,21/02/2026,10:00,Aldershot Town,Scunthorpe,3-1,Final
+34,21/02/2026,10:00,York,FC Halifax Town,4-1,Final
+34,21/02/2026,10:00,Boreham Wood,Forest Green,1-1,Final
+34,21/02/2026,10:00,Solihull Moors,Hartlepool,3-4,Final
+34,21/02/2026,10:00,Sutton Utd,Wealdstone,3-0,Final
+34,21/02/2026,10:00,Altrincham,Braintree,2-1,Final
+34,21/02/2026,10:00,Brackley Town,Southend,0-3,Final
+34,21/02/2026,10:00,Boston United,Tamworth,0-0,Final
+34,21/02/2026,12:30,Truro City,Gateshead,1-2,Final
+35,24/02/2026,14:45,Scunthorpe,York,0-3,Final
+35,24/02/2026,14:45,Southend,Boreham Wood,0-2,Final
+35,24/02/2026,14:45,Forest Green,Boston United,2-3,Final
+35,24/02/2026,14:45,FC Halifax Town,Rochdale,2-2,Final
+35,24/02/2026,14:45,Tamworth,Altrincham,5-1,Final
+35,24/02/2026,14:45,Wealdstone,Brackley Town,2-1,Final
+35,25/02/2026,14:45,Hartlepool,Carlisle,3-1,Final
+35,25/02/2026,14:45,Yeovil Town,Sutton Utd,3-2,Final
+35,25/02/2026,14:45,Eastleigh,Truro City,2-1,Final
+35,25/02/2026,14:45,Gateshead,Morecambe,4-4,Final
+35,25/02/2026,14:45,Braintree,Aldershot Town,1-2,Final
+36,28/02/2026,10:00,Scunthorpe,Solihull Moors,3-3,Final
+36,28/02/2026,10:00,Aldershot Town,Rochdale,0-2,Final
+36,28/02/2026,10:00,Eastleigh,Carlisle,1-2,Final
+36,28/02/2026,10:00,Gateshead,Forest Green,0-2,Final
+36,28/02/2026,10:00,FC Halifax Town,Sutton Utd,2-2,Final
+36,28/02/2026,10:00,Truro City,Braintree,2-3,Final
+36,28/02/2026,10:00,Brackley Town,Altrincham,0-2,Final
+36,28/02/2026,10:00,Tamworth,Boreham Wood,3-2,Final
+36,28/02/2026,12:30,Morecambe,York,0-1,Final
+26,03/03/2026,14:45,Rochdale,Brackley Town,3-2,Final
+26,03/03/2026,14:45,Southend,Truro City,1-1,Final
+26,03/03/2026,14:45,Boreham Wood,York,3-2,Final
+30,03/03/2026,14:45,Yeovil Town,Tamworth,2-0,Final
+30,03/03/2026,14:45,Wealdstone,Morecambe,2-3,Final
+33,03/03/2026,14:45,Hartlepool,Sutton Utd,0-2,Final
+36,03/03/2026,14:45,Boston United,Woking,2-2,Final
+31,04/03/2026,14:45,Gateshead,Braintree,1-0,Final
+37,07/03/2026,07:30,Boreham Wood,Brackley Town,5-3,Final
+37,07/03/2026,10:00,Rochdale,Boston United,1-0,Final
+37,07/03/2026,10:00,Hartlepool,FC Halifax Town,0-1,Final
+37,07/03/2026,10:00,Yeovil Town,Scunthorpe,0-3,Final
+37,07/03/2026,10:00,Forest Green,Aldershot Town,2-1,Final
+37,07/03/2026,10:00,York,Eastleigh,3-1,Final
+37,07/03/2026,10:00,Braintree,Wealdstone,1-4,Final
+37,07/03/2026,10:00,Solihull Moors,Gateshead,1-2,Final
+37,07/03/2026,10:00,Sutton Utd,Morecambe,0-5,Final
+37,07/03/2026,10:00,Woking,Tamworth,3-1,Final
+37,07/03/2026,10:00,Altrincham,Truro City,2-0,Final
+37,07/03/2026,12:30,Carlisle,Southend,2-2,Final
+26,10/03/2026,14:45,Scunthorpe,Sutton Utd,1-2,Final
+22,10/03/2026,14:45,Southend,Gateshead,1-1,Final
+22,10/03/2026,14:45,Eastleigh,Brackley Town,2-1,Final
+28,10/03/2026,14:45,Wealdstone,Tamworth,3-2,Final
+29,10/03/2026,14:45,Aldershot Town,Carlisle,0-2,Final
+31,10/03/2026,14:45,Woking,Boreham Wood,2-2,Final
+38,14/03/2026,07:30,Wealdstone,Solihull Moors,5-1,Final
+38,14/03/2026,10:00,Southend,Forest Green,2-0,Final
+38,14/03/2026,10:00,Aldershot Town,York,0-3,Final
+38,14/03/2026,10:00,Gateshead,Sutton Utd,1-1,Final
+38,14/03/2026,10:00,FC Halifax Town,Boreham Wood,3-2,Final
+38,14/03/2026,10:00,Truro City,Hartlepool,0-1,Final
+38,14/03/2026,10:00,Brackley Town,Woking,1-4,Final
+38,14/03/2026,10:00,Tamworth,Carlisle,2-1,Final
+38,14/03/2026,10:00,Boston United,Yeovil Town,2-1,Final
+38,14/03/2026,12:30,Scunthorpe,Altrincham,2-1,Final
+38,14/03/2026,12:30,Morecambe,Braintree,1-1,Final
+38,14/03/2026,12:30,Eastleigh,Rochdale,1-3,Final
+29,17/03/2026,14:45,Gateshead,Wealdstone,1-0,Final
+29,17/03/2026,14:45,Woking,Yeovil Town,1-0,Final
+30,17/03/2026,14:45,Truro City,Scunthorpe,1-2,Final
+30,17/03/2026,14:45,Southend,Rochdale,3-2,Final
+31,17/03/2026,14:45,Brackley Town,Solihull Moors,1-1,Final
+39,21/03/2026,07:30,Woking,Aldershot Town,3-2,Final
+39,21/03/2026,10:00,Rochdale,Tamworth,3-2,Final
+39,21/03/2026,10:00,Hartlepool,Eastleigh,1-0,Final
+39,21/03/2026,10:00,Carlisle,Boston United,6-2,Final
+39,21/03/2026,10:00,Yeovil Town,Morecambe,3-2,Final
+39,21/03/2026,10:00,Forest Green,Wealdstone,2-0,Final
+39,21/03/2026,10:00,York,Brackley Town,4-0,Final
+39,21/03/2026,10:00,Boreham Wood,Gateshead,3-0,Final
+39,21/03/2026,10:00,Braintree,Scunthorpe,2-3,Final
+39,21/03/2026,10:00,Sutton Utd,Truro City,0-3,Final
+39,21/03/2026,10:00,Altrincham,Southend,1-0,Final
+39,21/03/2026,12:30,Solihull Moors,FC Halifax Town,0-3,Final
+40,24/03/2026,14:45,Aldershot Town,Boreham Wood,1-2,Final
+40,24/03/2026,14:45,Eastleigh,Sutton Utd,0-2,Final
+40,24/03/2026,14:45,Gateshead,York,3-1,Final
+40,24/03/2026,14:45,FC Halifax Town,Carlisle,0-1,Final
+40,24/03/2026,14:45,Brackley Town,Braintree,1-1,Final
+40,24/03/2026,14:45,Boston United,Altrincham,2-2,Final
+40,25/03/2026,14:45,Scunthorpe,Rochdale,2-2,Final
+40,25/03/2026,14:45,Southend,Woking,1-1,Final
+40,25/03/2026,14:45,Morecambe,Hartlepool,2-3,Final
+40,25/03/2026,14:45,Truro City,Solihull Moors,1-1,Final
+40,25/03/2026,14:45,Tamworth,Forest Green,1-0,Final
+40,25/03/2026,14:45,Wealdstone,Yeovil Town,0-2,Final
+41,28/03/2026,10:00,Morecambe,Aldershot Town,0-2,Final
+41,28/03/2026,10:00,Eastleigh,Forest Green,2-4,Final
+41,28/03/2026,10:00,Gateshead,Yeovil Town,2-1,Final
+41,28/03/2026,10:00,York,Woking,1-0,Final
+41,28/03/2026,10:00,Braintree,Carlisle,1-2,Final
+41,28/03/2026,10:00,Solihull Moors,Altrincham,1-0,Final
+41,28/03/2026,10:00,Sutton Utd,Rochdale,1-2,Final
+41,28/03/2026,10:00,FC Halifax Town,Scunthorpe,1-2,Final
+41,28/03/2026,10:00,Truro City,Boreham Wood,0-0,Final
+41,28/03/2026,10:00,Brackley Town,Tamworth,0-1,Final
+33,31/03/2026,13:45,Woking,Altrincham,1-1,Final
+36,31/03/2026,13:45,Southend,Yeovil Town,2-1,Final
+36,31/03/2026,13:45,Wealdstone,Hartlepool,7-0,Final
+42,03/04/2026,09:00,Rochdale,Morecambe,,
+42,03/04/2026,09:00,Scunthorpe,Hartlepool,,
+42,03/04/2026,09:00,Southend,Braintree,,
+42,03/04/2026,09:00,Carlisle,Gateshead,,
+42,03/04/2026,09:00,Yeovil Town,Truro City,,
+42,03/04/2026,09:00,Forest Green,Brackley Town,,
+42,03/04/2026,09:00,Aldershot Town,Sutton Utd,,
+42,03/04/2026,09:00,Boreham Wood,Wealdstone,,
+42,03/04/2026,09:00,Woking,Eastleigh,,
+42,03/04/2026,09:00,Altrincham,FC Halifax Town,,
+42,03/04/2026,09:00,Tamworth,Solihull Moors,,
+42,03/04/2026,09:00,Boston United,York,,
+43,06/04/2026,09:00,Hartlepool,Rochdale,,
+43,06/04/2026,09:00,Morecambe,Carlisle,,
+43,06/04/2026,09:00,Eastleigh,Yeovil Town,,
+43,06/04/2026,09:00,Gateshead,Scunthorpe,,
+43,06/04/2026,09:00,York,Altrincham,,
+43,06/04/2026,09:00,Braintree,Woking,,
+43,06/04/2026,09:00,Solihull Moors,Boreham Wood,,
+43,06/04/2026,09:00,Sutton Utd,Southend,,
+43,06/04/2026,09:00,FC Halifax Town,Tamworth,,
+43,06/04/2026,09:00,Truro City,Forest Green,,
+43,06/04/2026,09:00,Brackley Town,Boston United,,
+43,06/04/2026,09:00,Wealdstone,Aldershot Town,,
+44,11/04/2026,06:30,Boreham Wood,Hartlepool,,
+44,11/04/2026,06:30,Tamworth,York,,
+44,11/04/2026,09:00,Scunthorpe,Brackley Town,,
+44,11/04/2026,09:00,Southend,Solihull Moors,,
+44,11/04/2026,09:00,Carlisle,Sutton Utd,,
+44,11/04/2026,09:00,Yeovil Town,FC Halifax Town,,
+44,11/04/2026,09:00,Forest Green,Braintree,,
+44,11/04/2026,09:00,Aldershot Town,Gateshead,,
+44,11/04/2026,09:00,Woking,Morecambe,,
+44,11/04/2026,09:00,Altrincham,Eastleigh,,
+44,11/04/2026,09:00,Boston United,Truro City,,
+44,11/04/2026,11:30,Rochdale,Wealdstone,,
+32,14/04/2026,13:45,Aldershot Town,Southend,,
+35,14/04/2026,13:45,Woking,Solihull Moors,,
+41,14/04/2026,13:45,Wealdstone,Boston United,,
+45,18/04/2026,06:30,FC Halifax Town,Southend,,
+45,18/04/2026,09:00,Hartlepool,Forest Green,,
+45,18/04/2026,09:00,Morecambe,Boreham Wood,,
+45,18/04/2026,09:00,Eastleigh,Tamworth,,
+45,18/04/2026,09:00,Gateshead,Woking,,
+45,18/04/2026,09:00,Solihull Moors,Boston United,,
+45,18/04/2026,09:00,Sutton Utd,Altrincham,,
+45,18/04/2026,09:00,Truro City,Carlisle,,
+45,18/04/2026,09:00,Brackley Town,Aldershot Town,,
+45,18/04/2026,09:00,Wealdstone,Scunthorpe,,
+45,18/04/2026,11:30,York,Yeovil Town,,
+45,18/04/2026,11:30,Braintree,Rochdale,,
+41,21/04/2026,13:45,Hartlepool,Southend,,
+46,25/04/2026,06:30,Rochdale,York,,
+46,25/04/2026,06:30,Scunthorpe,Eastleigh,,
+46,25/04/2026,06:30,Southend,Wealdstone,,
+46,25/04/2026,06:30,Carlisle,Brackley Town,,
+46,25/04/2026,06:30,Yeovil Town,Solihull Moors,,
+46,25/04/2026,06:30,Forest Green,Morecambe,,
+46,25/04/2026,06:30,Aldershot Town,Truro City,,
+46,25/04/2026,06:30,Boreham Wood,Sutton Utd,,
+46,25/04/2026,06:30,Woking,FC Halifax Town,,
+46,25/04/2026,06:30,Altrincham,Gateshead,,
+46,25/04/2026,06:30,Tamworth,Braintree,,
+46,25/04/2026,06:30,Boston United,Hartlepool,,

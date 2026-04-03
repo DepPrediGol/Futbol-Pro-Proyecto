@@ -1,0 +1,267 @@
+matchday,date,time,home_team,away_team,result,status
+1,10/07/2025,11:00,Sabah FA,Celje,2-3,Final
+1,10/07/2025,11:30,AEK Larnaca,FK Partizan,1-0,Final
+1,10/07/2025,12:00,Sheriff Tiraspol,Prishtina,4-0,Final
+1,10/07/2025,12:00,Paks,CFR 1907 Cluj,0-0,Final
+1,10/07/2025,12:30,Levski Sofia,Hapoel Beer Sheva,0-0,Final
+1,10/07/2025,13:00,Shakhtar Donetsk,Ilves,6-0,Final
+1,10/07/2025,13:15,Spartak Trnava,BK Hacken,0-1,Final
+1,10/07/2025,14:00,Legia Warszawa,Aktobe,1-0,Final
+1,17/07/2025,11:00,Ilves,Shakhtar Donetsk,0-0,Final
+1,17/07/2025,11:00,Aktobe,Legia Warszawa,0-1,Final
+1,17/07/2025,12:00,BK Hacken,Spartak Trnava,2-2,Final
+1,17/07/2025,12:30,CFR 1907 Cluj,Paks,3-0,Final
+1,17/07/2025,13:00,Hapoel Beer Sheva,Levski Sofia,0-0,Final
+1,17/07/2025,13:00,Prishtina,Sheriff Tiraspol,2-1,Final
+1,17/07/2025,13:00,Celje,Sabah FA,3-3,Final
+1,17/07/2025,14:00,FK Partizan,AEK Larnaca,1-0,Final
+2,24/07/2025,12:00,Sheriff Tiraspol,Utrecht,1-3,Final
+2,24/07/2025,12:00,Baník Ostrava,Legia Warszawa,2-2,Final
+2,24/07/2025,12:30,Midtjylland,Hibernian,1-1,Final
+2,24/07/2025,12:30,Levski Sofia,SC Braga,0-0,Final
+2,24/07/2025,13:00,Beşiktaş,Shakhtar Donetsk,2-4,Final
+2,24/07/2025,13:00,Anderlecht,BK Hacken,1-0,Final
+2,24/07/2025,13:00,Celje,AEK Larnaca,1-1,Final
+2,24/07/2025,13:30,FC Lugano,CFR 1907 Cluj,0-0,Final
+2,31/07/2025,11:30,AEK Larnaca,Celje,2-1,Final
+2,31/07/2025,12:00,BK Hacken,Anderlecht,2-1,Final
+2,31/07/2025,12:30,CFR 1907 Cluj,FC Lugano,1-0,Final
+2,31/07/2025,13:00,Utrecht,Sheriff Tiraspol,4-1,Final
+2,31/07/2025,13:00,Shakhtar Donetsk,Beşiktaş,2-0,Final
+2,31/07/2025,14:00,SC Braga,Levski Sofia,1-0,Final
+2,31/07/2025,14:00,Hibernian,Midtjylland,1-2,Final
+2,31/07/2025,14:00,Legia Warszawa,Baník Ostrava,2-1,Final
+3,05/08/2025,12:00,Hamrun Spartans,Maccabi Tel Aviv,1-2,Final
+3,06/08/2025,12:00,Rīgas FS,KuPS,1-2,Final
+3,06/08/2025,13:45,HNK Rijeka,Shelbourne,1-2,Final
+3,07/08/2025,11:00,Lincoln Red Imps FC,FC Noah,1-1,Final
+3,07/08/2025,11:00,Fredrikstad,Midtjylland,1-3,Final
+3,07/08/2025,11:30,AEK Larnaca,Legia Warszawa,4-1,Final
+3,07/08/2025,11:30,CFR 1907 Cluj,SC Braga,1-2,Final
+3,07/08/2025,12:00,BK Hacken,Brann,0-2,Final
+3,07/08/2025,12:30,PAOK,Wolfsberger AC,0-0,Final
+3,07/08/2025,13:00,Zrinjski,Breidablik,1-1,Final
+3,07/08/2025,13:00,Panathinaikos,Shakhtar Donetsk,0-0,Final
+3,07/08/2025,13:30,FCSB,Drita,3-2,Final
+3,07/08/2025,13:30,Servette FC,Utrecht,1-3,Final
+3,12/08/2025,13:45,Shelbourne,HNK Rijeka,1-3,Final
+3,14/08/2025,10:00,KuPS,Rīgas FS,1-0,Final
+3,14/08/2025,11:00,Midtjylland,Fredrikstad,2-0,Final
+3,14/08/2025,12:00,Brann,BK Hacken,0-1,Final
+3,14/08/2025,12:00,Wolfsberger AC,PAOK,0-1,Final
+3,14/08/2025,12:00,FC Noah,Lincoln Red Imps FC,0-0,Final
+3,14/08/2025,12:30,Breidablik,Zrinjski,1-2,Final
+3,14/08/2025,13:00,Utrecht,Servette FC,2-1,Final
+3,14/08/2025,13:00,Shakhtar Donetsk,Panathinaikos,0-0,Final
+3,14/08/2025,13:00,Maccabi Tel Aviv,Hamrun Spartans,3-1,Final
+3,14/08/2025,13:00,Drita,FCSB,1-3,Final
+3,14/08/2025,13:30,SC Braga,CFR 1907 Cluj,2-0,Final
+3,14/08/2025,14:00,Legia Warszawa,AEK Larnaca,2-1,Final
+,21/08/2025,11:30,Midtjylland,KuPS,4-0,Final
+,21/08/2025,12:00,Brann,AEK Larnaca,2-1,Final
+,21/08/2025,12:00,Malmo FF,Sigma Olomouc,3-0,Final
+,21/08/2025,13:00,Zrinjski,Utrecht,0-2,Final
+,21/08/2025,13:00,Maccabi Tel Aviv,Dynamo Kyiv,3-1,Final
+,21/08/2025,13:00,Shkendija,Ludogorets,2-1,Final
+,21/08/2025,13:00,Panathinaikos,Samsunspor,2-1,Final
+,21/08/2025,13:15,Slovan Bratislava,BSC Young Boys,0-1,Final
+,21/08/2025,13:30,Lech Poznan,Genk,1-5,Final
+,21/08/2025,13:45,Aberdeen,FCSB,2-2,Final
+,21/08/2025,13:45,HNK Rijeka,PAOK,1-0,Final
+,21/08/2025,14:00,Lincoln Red Imps FC,SC Braga,0-4,Final
+,27/08/2025,11:30,AEK Larnaca,Brann,0-4,Final
+,28/08/2025,10:00,KuPS,Midtjylland,0-2,Final
+,28/08/2025,11:30,Sigma Olomouc,Malmo FF,0-2,Final
+,28/08/2025,12:00,Samsunspor,Panathinaikos,0-0,Final
+,28/08/2025,12:30,Ludogorets,Shkendija,4-1,Final
+,28/08/2025,12:30,PAOK,HNK Rijeka,5-0,Final
+,28/08/2025,13:00,Utrecht,Zrinjski,0-0,Final
+,28/08/2025,13:00,BSC Young Boys,Slovan Bratislava,3-2,Final
+,28/08/2025,13:00,Dynamo Kyiv,Maccabi Tel Aviv,1-0,Final
+,28/08/2025,13:00,Genk,Lech Poznan,1-2,Final
+,28/08/2025,13:30,FCSB,Aberdeen,3-0,Final
+,28/08/2025,14:00,SC Braga,Lincoln Red Imps FC,5-1,Final
+1,24/09/2025,11:45,Midtjylland,Sturm Graz,2-0,Final
+1,24/09/2025,11:45,PAOK,Maccabi Tel Aviv,0-0,Final
+1,24/09/2025,14:00,Nice,AS Roma,1-2,Final
+1,24/09/2025,14:00,SC Freiburg,FC Basel 1893,2-1,Final
+1,24/09/2025,14:00,SC Braga,Feyenoord,1-0,Final
+1,24/09/2025,14:00,Malmo FF,Ludogorets,1-2,Final
+1,24/09/2025,14:00,Real Betis,Nottingham Forest,2-2,Final
+1,24/09/2025,14:00,FK Crvena Zvezda,Celtic,1-1,Final
+1,24/09/2025,14:00,Dinamo Zagreb,Fenerbahçe,3-1,Final
+1,25/09/2025,11:45,Lille,Brann,2-1,Final
+1,25/09/2025,11:45,GO Ahead Eagles,FCSB,0-1,Final
+1,25/09/2025,14:00,Aston Villa,Bologna,1-0,Final
+1,25/09/2025,14:00,VfB Stuttgart,Celta Vigo,2-1,Final
+1,25/09/2025,14:00,Utrecht,Lyon,0-1,Final
+1,25/09/2025,14:00,Rangers,Genk,0-1,Final
+1,25/09/2025,14:00,BSC Young Boys,Panathinaikos,1-4,Final
+1,25/09/2025,14:00,Red Bull Salzburg,FC Porto,0-1,Final
+1,25/09/2025,14:00,Ferencvarosi TC,Plzen,1-1,Final
+2,02/10/2025,11:45,Celtic,SC Braga,0-2,Final
+2,02/10/2025,11:45,Brann,Utrecht,1-0,Final
+2,02/10/2025,11:45,AS Roma,Lille,0-1,Final
+2,02/10/2025,11:45,Bologna,SC Freiburg,1-1,Final
+2,02/10/2025,11:45,FCSB,BSC Young Boys,0-2,Final
+2,02/10/2025,11:45,Ludogorets,Real Betis,0-2,Final
+2,02/10/2025,11:45,Plzen,Malmo FF,3-0,Final
+2,02/10/2025,11:45,Fenerbahçe,Nice,2-1,Final
+2,02/10/2025,11:45,Panathinaikos,GO Ahead Eagles,1-2,Final
+2,02/10/2025,14:00,Nottingham Forest,Midtjylland,2-3,Final
+2,02/10/2025,14:00,Lyon,Red Bull Salzburg,2-0,Final
+2,02/10/2025,14:00,Feyenoord,Aston Villa,0-2,Final
+2,02/10/2025,14:00,FC Porto,FK Crvena Zvezda,2-1,Final
+2,02/10/2025,14:00,Celta Vigo,PAOK,3-1,Final
+2,02/10/2025,14:00,FC Basel 1893,VfB Stuttgart,2-0,Final
+2,02/10/2025,14:00,Maccabi Tel Aviv,Dinamo Zagreb,1-3,Final
+2,02/10/2025,14:00,Sturm Graz,Rangers,2-1,Final
+2,02/10/2025,14:00,Genk,Ferencvarosi TC,0-1,Final
+3,23/10/2025,11:45,Lyon,FC Basel 1893,2-0,Final
+3,23/10/2025,11:45,SC Braga,FK Crvena Zvezda,2-0,Final
+3,23/10/2025,11:45,Brann,Rangers,3-0,Final
+3,23/10/2025,11:45,GO Ahead Eagles,Aston Villa,2-1,Final
+3,23/10/2025,11:45,FCSB,Bologna,1-2,Final
+3,23/10/2025,11:45,Red Bull Salzburg,Ferencvarosi TC,2-3,Final
+3,23/10/2025,11:45,Fenerbahçe,VfB Stuttgart,1-0,Final
+3,23/10/2025,11:45,Genk,Real Betis,0-0,Final
+3,23/10/2025,14:00,Nottingham Forest,FC Porto,2-0,Final
+3,23/10/2025,14:00,Lille,PAOK,3-4,Final
+3,23/10/2025,14:00,SC Freiburg,Utrecht,2-0,Final
+3,23/10/2025,14:00,Feyenoord,Panathinaikos,3-1,Final
+3,23/10/2025,14:00,Celtic,Sturm Graz,2-1,Final
+3,23/10/2025,14:00,Malmo FF,Dinamo Zagreb,1-1,Final
+3,23/10/2025,14:00,AS Roma,Plzen,1-2,Final
+3,23/10/2025,14:00,Celta Vigo,Nice,2-1,Final
+3,23/10/2025,14:00,BSC Young Boys,Ludogorets,3-2,Final
+3,23/10/2025,14:00,Maccabi Tel Aviv,Midtjylland,0-3,Final
+4,06/11/2025,12:45,Nice,SC Freiburg,1-3,Final
+4,06/11/2025,12:45,Utrecht,FC Porto,1-1,Final
+4,06/11/2025,12:45,Malmo FF,Panathinaikos,0-1,Final
+4,06/11/2025,12:45,Midtjylland,Celtic,3-1,Final
+4,06/11/2025,12:45,FC Basel 1893,FCSB,3-1,Final
+4,06/11/2025,12:45,Red Bull Salzburg,GO Ahead Eagles,2-0,Final
+4,06/11/2025,12:45,FK Crvena Zvezda,Lille,1-0,Final
+4,06/11/2025,12:45,Dinamo Zagreb,Celta Vigo,0-3,Final
+4,06/11/2025,12:45,Sturm Graz,Nottingham Forest,0-0,Final
+4,06/11/2025,15:00,Aston Villa,Maccabi Tel Aviv,2-0,Final
+4,06/11/2025,15:00,VfB Stuttgart,Feyenoord,2-0,Final
+4,06/11/2025,15:00,SC Braga,Genk,3-4,Final
+4,06/11/2025,15:00,Rangers,AS Roma,0-2,Final
+4,06/11/2025,15:00,Bologna,Brann,0-0,Final
+4,06/11/2025,15:00,Real Betis,Lyon,2-0,Final
+4,06/11/2025,15:00,Plzen,Fenerbahçe,0-0,Final
+4,06/11/2025,15:00,PAOK,BSC Young Boys,4-0,Final
+4,06/11/2025,15:00,Ferencvarosi TC,Ludogorets,3-1,Final
+5,27/11/2025,12:45,Aston Villa,BSC Young Boys,2-1,Final
+5,27/11/2025,12:45,Lille,Dinamo Zagreb,4-0,Final
+5,27/11/2025,12:45,Feyenoord,Celtic,1-3,Final
+5,27/11/2025,12:45,FC Porto,Nice,3-0,Final
+5,27/11/2025,12:45,AS Roma,Midtjylland,2-1,Final
+5,27/11/2025,12:45,Ludogorets,Celta Vigo,3-2,Final
+5,27/11/2025,12:45,Plzen,SC Freiburg,0-0,Final
+5,27/11/2025,12:45,Fenerbahçe,Ferencvarosi TC,1-1,Final
+5,27/11/2025,12:45,PAOK,Brann,1-1,Final
+5,27/11/2025,15:00,Nottingham Forest,Malmo FF,3-0,Final
+5,27/11/2025,15:00,Rangers,SC Braga,1-1,Final
+5,27/11/2025,15:00,GO Ahead Eagles,VfB Stuttgart,0-4,Final
+5,27/11/2025,15:00,Bologna,Red Bull Salzburg,4-1,Final
+5,27/11/2025,15:00,Real Betis,Utrecht,2-1,Final
+5,27/11/2025,15:00,FK Crvena Zvezda,FCSB,1-0,Final
+5,27/11/2025,15:00,Maccabi Tel Aviv,Lyon,0-6,Final
+5,27/11/2025,15:00,Panathinaikos,Sturm Graz,2-1,Final
+5,27/11/2025,15:00,Genk,FC Basel 1893,2-1,Final
+6,11/12/2025,12:45,Nice,SC Braga,0-1,Final
+6,11/12/2025,12:45,VfB Stuttgart,Maccabi Tel Aviv,4-1,Final
+6,11/12/2025,12:45,Utrecht,Nottingham Forest,1-2,Final
+6,11/12/2025,12:45,Midtjylland,Genk,1-0,Final
+6,11/12/2025,12:45,BSC Young Boys,Lille,1-0,Final
+6,11/12/2025,12:45,Ludogorets,PAOK,3-3,Final
+6,11/12/2025,12:45,Dinamo Zagreb,Real Betis,1-3,Final
+6,11/12/2025,12:45,Sturm Graz,FK Crvena Zvezda,0-1,Final
+6,11/12/2025,12:45,Ferencvarosi TC,Rangers,2-1,Final
+6,11/12/2025,15:00,Lyon,GO Ahead Eagles,2-1,Final
+6,11/12/2025,15:00,SC Freiburg,Red Bull Salzburg,1-0,Final
+6,11/12/2025,15:00,FC Porto,Malmo FF,2-1,Final
+6,11/12/2025,15:00,Celtic,AS Roma,0-3,Final
+6,11/12/2025,15:00,Brann,Fenerbahçe,0-4,Final
+6,11/12/2025,15:00,Celta Vigo,Bologna,1-2,Final
+6,11/12/2025,15:00,FC Basel 1893,Aston Villa,1-2,Final
+6,11/12/2025,15:00,FCSB,Feyenoord,4-3,Final
+6,11/12/2025,15:00,Panathinaikos,Plzen,0-0,Final
+7,22/01/2026,12:45,SC Freiburg,Maccabi Tel Aviv,1-0,Final
+7,22/01/2026,12:45,Feyenoord,Sturm Graz,3-0,Final
+7,22/01/2026,12:45,Brann,Midtjylland,3-3,Final
+7,22/01/2026,12:45,Malmo FF,FK Crvena Zvezda,0-1,Final
+7,22/01/2026,12:45,Bologna,Celtic,2-2,Final
+7,22/01/2026,12:45,BSC Young Boys,Lyon,0-1,Final
+7,22/01/2026,12:45,Plzen,FC Porto,1-1,Final
+7,22/01/2026,12:45,Fenerbahçe,Aston Villa,0-1,Final
+7,22/01/2026,12:45,PAOK,Real Betis,2-0,Final
+7,22/01/2026,15:00,Nice,GO Ahead Eagles,3-1,Final
+7,22/01/2026,15:00,Utrecht,Genk,0-2,Final
+7,22/01/2026,15:00,SC Braga,Nottingham Forest,1-0,Final
+7,22/01/2026,15:00,Rangers,Ludogorets,1-0,Final
+7,22/01/2026,15:00,AS Roma,VfB Stuttgart,2-0,Final
+7,22/01/2026,15:00,Celta Vigo,Lille,2-1,Final
+7,22/01/2026,15:00,Red Bull Salzburg,FC Basel 1893,3-1,Final
+7,22/01/2026,15:00,Dinamo Zagreb,FCSB,4-1,Final
+7,22/01/2026,15:00,Ferencvarosi TC,Panathinaikos,1-1,Final
+8,29/01/2026,15:00,Nottingham Forest,Ferencvarosi TC,4-0,Final
+8,29/01/2026,15:00,Aston Villa,Red Bull Salzburg,3-2,Final
+8,29/01/2026,15:00,Lille,SC Freiburg,1-0,Final
+8,29/01/2026,15:00,Lyon,PAOK,4-2,Final
+8,29/01/2026,15:00,VfB Stuttgart,BSC Young Boys,3-2,Final
+8,29/01/2026,15:00,FC Porto,Rangers,3-1,Final
+8,29/01/2026,15:00,Celtic,Utrecht,4-2,Final
+8,29/01/2026,15:00,Midtjylland,Dinamo Zagreb,2-0,Final
+8,29/01/2026,15:00,GO Ahead Eagles,SC Braga,0-0,Final
+8,29/01/2026,15:00,Real Betis,Feyenoord,2-1,Final
+8,29/01/2026,15:00,FC Basel 1893,Plzen,0-1,Final
+8,29/01/2026,15:00,FCSB,Fenerbahçe,1-1,Final
+8,29/01/2026,15:00,Ludogorets,Nice,1-0,Final
+8,29/01/2026,15:00,FK Crvena Zvezda,Celta Vigo,1-1,Final
+8,29/01/2026,15:00,Maccabi Tel Aviv,Bologna,0-3,Final
+8,29/01/2026,15:00,Panathinaikos,AS Roma,1-1,Final
+8,29/01/2026,15:00,Sturm Graz,Brann,1-0,Final
+8,29/01/2026,15:00,Genk,Malmo FF,2-1,Final
+32,19/02/2026,12:45,Brann,Bologna,0-1,Final
+32,19/02/2026,12:45,Fenerbahçe,Nottingham Forest,0-3,Final
+32,19/02/2026,12:45,PAOK,Celta Vigo,1-2,Final
+32,19/02/2026,12:45,Dinamo Zagreb,Genk,1-3,Final
+32,19/02/2026,15:00,Lille,FK Crvena Zvezda,0-1,Final
+32,19/02/2026,15:00,Celtic,VfB Stuttgart,1-4,Final
+32,19/02/2026,15:00,Ludogorets,Ferencvarosi TC,2-1,Final
+32,19/02/2026,15:00,Panathinaikos,Plzen,2-2,Final
+32,26/02/2026,12:45,VfB Stuttgart,Celtic,0-1,Final
+32,26/02/2026,12:45,Plzen,Panathinaikos,1-1,Final
+32,26/02/2026,12:45,FK Crvena Zvezda,Lille,0-1,Final
+32,26/02/2026,12:45,Ferencvarosi TC,Ludogorets,2-0,Final
+32,26/02/2026,15:00,Nottingham Forest,Fenerbahçe,1-2,Final
+32,26/02/2026,15:00,Bologna,Brann,1-0,Final
+32,26/02/2026,15:00,Celta Vigo,PAOK,1-0,Final
+32,26/02/2026,15:00,Genk,Dinamo Zagreb,3-3,Final
+16,12/03/2026,12:45,Lille,Aston Villa,0-1,Final
+16,12/03/2026,12:45,VfB Stuttgart,FC Porto,1-2,Final
+16,12/03/2026,12:45,Bologna,AS Roma,1-1,Final
+16,12/03/2026,12:45,Panathinaikos,Real Betis,1-0,Final
+16,12/03/2026,15:00,Nottingham Forest,Midtjylland,0-1,Final
+16,12/03/2026,15:00,Celta Vigo,Lyon,1-1,Final
+16,12/03/2026,15:00,Ferencvarosi TC,SC Braga,2-0,Final
+16,12/03/2026,15:00,Genk,SC Freiburg,1-0,Final
+16,18/03/2026,10:30,SC Braga,Ferencvarosi TC,4-0,Final
+16,19/03/2026,12:45,Lyon,Celta Vigo,0-2,Final
+16,19/03/2026,12:45,SC Freiburg,Genk,5-1,Final
+16,19/03/2026,12:45,Midtjylland,Nottingham Forest,1-2,Final
+16,19/03/2026,15:00,Aston Villa,Lille,2-0,Final
+16,19/03/2026,15:00,FC Porto,VfB Stuttgart,2-0,Final
+16,19/03/2026,15:00,AS Roma,Bologna,3-4,Final
+16,19/03/2026,15:00,Real Betis,Panathinaikos,4-0,Final
+,08/04/2026,11:45,SC Braga,Real Betis,,
+,09/04/2026,14:00,SC Freiburg,Celta Vigo,,
+,09/04/2026,14:00,FC Porto,Nottingham Forest,,
+,09/04/2026,14:00,Bologna,Aston Villa,,
+,16/04/2026,11:45,Celta Vigo,SC Freiburg,,
+,16/04/2026,14:00,Nottingham Forest,FC Porto,,
+,16/04/2026,14:00,Aston Villa,Bologna,,
+,16/04/2026,14:00,Real Betis,SC Braga,,

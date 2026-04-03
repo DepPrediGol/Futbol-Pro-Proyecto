@@ -1,0 +1,191 @@
+matchday,date,time,home_team,away_team,result,status
+1,16/01/2026,18:20,Deportivo Pereira,Llaneros,0-2,Final
+1,16/01/2026,20:30,Fortaleza FC,Alianza Valledupar,1-0,Final
+1,17/01/2026,16:10,America de Cali,Internacional de Bogota,3-0,Final
+1,17/01/2026,18:20,Atletico Nacional,Chico,4-0,Final
+1,17/01/2026,20:30,Bucaramanga,Millonarios,2-1,Final
+1,18/01/2026,14:00,Deportivo Pasto,Independiente Medellin,1-0,Final
+1,18/01/2026,16:10,Jaguares,Deportivo Cali,1-0,Final
+1,18/01/2026,18:20,Junior,Deportes Tolima,0-2,Final
+1,18/01/2026,20:30,Santa Fe,Águilas Doradas,1-1,Final
+1,19/01/2026,16:00,Cucuta,Once Caldas,1-2,Final
+2,23/01/2026,18:20,Internacional de Bogota,Cucuta,2-1,Final
+2,23/01/2026,20:30,Deportes Tolima,Alianza Valledupar,2-0,Final
+2,24/01/2026,14:00,Deportivo Pereira,Fortaleza FC,0-0,Final
+2,24/01/2026,16:10,Llaneros,Bucaramanga,1-1,Final
+2,24/01/2026,18:20,Deportivo Cali,Independiente Medellin,3-1,Final
+2,24/01/2026,20:30,Chico,America de Cali,0-1,Final
+2,25/01/2026,16:00,Águilas Doradas,Deportivo Pasto,1-2,Final
+2,25/01/2026,18:10,Millonarios,Junior,1-2,Final
+2,25/01/2026,20:20,Once Caldas,Santa Fe,1-1,Final
+3,27/01/2026,16:00,Cucuta,Bucaramanga,2-2,Final
+3,27/01/2026,18:20,Fortaleza FC,Llaneros,1-1,Final
+3,27/01/2026,20:30,Independiente Medellin,Deportes Tolima,2-2,Final
+3,28/01/2026,16:10,Alianza Valledupar,Chico,1-1,Final
+3,28/01/2026,18:30,Santa Fe,Deportivo Pereira,2-2,Final
+3,28/01/2026,20:30,Deportivo Pasto,Millonarios,2-1,Final
+3,29/01/2026,16:00,Águilas Doradas,Deportivo Cali,2-1,Final
+3,29/01/2026,18:10,Jaguares,Internacional de Bogota,2-3,Final
+3,29/01/2026,20:20,America de Cali,Once Caldas,1-1,Final
+4,31/01/2026,16:00,Cucuta,Fortaleza FC,1-1,Final
+4,31/01/2026,18:10,Chico,Santa Fe,0-1,Final
+4,01/02/2026,14:00,Bucaramanga,Alianza Valledupar,5-0,Final
+4,01/02/2026,16:10,Deportivo Cali,Deportivo Pasto,3-0,Final
+4,01/02/2026,18:10,Once Caldas,Jaguares,1-1,Final
+4,01/02/2026,20:30,Llaneros,Águilas Doradas,1-1,Final
+4,02/02/2026,15:00,Millonarios,Independiente Medellin,0-0,Final
+4,02/02/2026,18:20,Internacional de Bogota,Deportes Tolima,0-0,Final
+4,02/02/2026,20:30,Deportivo Pereira,Junior,2-3,Final
+4,04/02/2026,20:00,Atletico Nacional,America de Cali,2-1,Final
+5,06/02/2026,18:20,Deportivo Pasto,Bucaramanga,0-0,Final
+5,06/02/2026,20:30,Independiente Medellin,Internacional de Bogota,1-2,Final
+5,07/02/2026,14:00,Águilas Doradas,Cucuta,3-2,Final
+5,07/02/2026,16:10,Deportes Tolima,Llaneros,0-1,Final
+9,07/02/2026,18:20,Fortaleza FC,Santa Fe,1-1,Final
+5,07/02/2026,20:30,Junior,Chico,3-0,Final
+5,08/02/2026,16:10,Alianza Valledupar,Once Caldas,1-1,Final
+5,08/02/2026,18:20,Deportivo Cali,Millonarios,0-0,Final
+5,08/02/2026,20:30,Jaguares,Deportivo Pereira,1-0,Final
+6,10/02/2026,16:00,Cucuta,Independiente Medellin,1-3,Final
+6,10/02/2026,18:20,Llaneros,Deportivo Pasto,0-1,Final
+6,10/02/2026,20:30,Bucaramanga,Deportes Tolima,0-0,Final
+6,11/02/2026,18:30,Millonarios,Águilas Doradas,1-0,Final
+6,11/02/2026,20:30,Internacional de Bogota,Deportivo Cali,3-2,Final
+6,12/02/2026,16:10,Chico,Jaguares,5-0,Final
+6,12/02/2026,18:20,Once Caldas,Junior,2-1,Final
+6,12/02/2026,20:30,Atletico Nacional,Fortaleza FC,4-1,Final
+6,13/02/2026,20:00,America de Cali,Santa Fe,1-0,Final
+7,14/02/2026,16:30,Millonarios,Llaneros,2-1,Final
+7,14/02/2026,18:30,Independiente Medellin,Deportivo Pereira,1-1,Final
+7,14/02/2026,20:30,Deportivo Pasto,Internacional de Bogota,1-1,Final
+7,15/02/2026,16:20,Deportes Tolima,Once Caldas,2-1,Final
+7,15/02/2026,18:30,Deportivo Cali,Atletico Nacional,1-0,Final
+7,15/02/2026,20:30,Fortaleza FC,Chico,2-1,Final
+7,17/02/2026,16:00,Alianza Valledupar,Cucuta,1-1,Final
+7,17/02/2026,18:00,Jaguares,Santa Fe,3-1,Final
+7,18/02/2026,19:30,Junior,America de Cali,2-1,Final
+8,20/02/2026,18:20,Llaneros,Independiente Medellin,2-2,Final
+8,20/02/2026,20:30,Deportivo Pereira,Deportivo Pasto,2-2,Final
+8,21/02/2026,14:00,Once Caldas,Fortaleza FC,4-2,Final
+8,21/02/2026,16:10,Bucaramanga,Deportivo Cali,0-0,Final
+8,21/02/2026,18:20,Atletico Nacional,Alianza Valledupar,3-0,Final
+8,21/02/2026,20:30,Internacional de Bogota,Millonarios,3-2,Final
+8,22/02/2026,16:00,Santa Fe,Junior,2-1,Final
+8,22/02/2026,18:10,Chico,Águilas Doradas,0-1,Final
+8,22/02/2026,20:30,America de Cali,Jaguares,3-0,Final
+8,23/02/2026,16:00,Cucuta,Deportes Tolima,3-2,Final
+5,25/02/2026,19:00,Santa Fe,Atletico Nacional,1-2,Final
+9,26/02/2026,19:30,Millonarios,Deportivo Pereira,5-1,Final
+9,27/02/2026,20:30,Once Caldas,Chico,3-0,Final
+9,28/02/2026,16:10,Alianza Valledupar,America de Cali,0-3,Final
+9,28/02/2026,18:20,Jaguares,Junior,0-2,Final
+9,28/02/2026,20:30,Independiente Medellin,Bucaramanga,1-2,Final
+9,01/03/2026,14:00,Deportivo Pasto,Cucuta,3-2,Final
+9,01/03/2026,16:00,Águilas Doradas,Internacional de Bogota,0-0,Final
+16,01/03/2026,18:10,Deportivo Cali,Fortaleza FC,1-1,Final
+9,01/03/2026,20:30,Deportes Tolima,Atletico Nacional,1-0,Final
+10,04/03/2026,20:00,Fortaleza FC,Jaguares,2-1,Final
+10,05/03/2026,18:10,Llaneros,Internacional de Bogota,1-1,Final
+10,05/03/2026,20:20,Junior,Alianza Valledupar,1-1,Final
+10,06/03/2026,20:30,Deportivo Cali,Once Caldas,0-2,Final
+10,07/03/2026,16:00,Águilas Doradas,Atletico Nacional,1-2,Final
+16,09/03/2026,16:00,Llaneros,Jaguares,2-0,Final
+10,09/03/2026,18:20,Millonarios,Cucuta,2-0,Final
+10,09/03/2026,20:30,Deportivo Pasto,America de Cali,2-0,Final
+10,10/03/2026,18:20,Bucaramanga,Deportivo Pereira,3-0,Final
+3,10/03/2026,20:30,Junior,Atletico Nacional,0-4,Final
+11,13/03/2026,18:20,Once Caldas,Deportivo Pasto,4-2,Final
+11,13/03/2026,20:30,Atletico Nacional,Llaneros,2-0,Final
+11,14/03/2026,14:00,Internacional de Bogota,Bucaramanga,0-0,Final
+11,14/03/2026,16:10,Cucuta,Deportivo Cali,0-2,Final
+11,14/03/2026,18:20,Chico,Millonarios,2-1,Final
+11,14/03/2026,20:30,Santa Fe,Alianza Valledupar,1-1,Final
+11,15/03/2026,15:30,Deportivo Pereira,Águilas Doradas,0-1,Final
+11,15/03/2026,16:10,America de Cali,Deportes Tolima,1-1,Final
+11,15/03/2026,18:20,Jaguares,Independiente Medellin,1-2,Final
+11,15/03/2026,20:30,Junior,Fortaleza FC,2-1,Final
+12,17/03/2026,16:10,Llaneros,Cucuta,2-2,Final
+12,17/03/2026,20:30,Millonarios,Atletico Nacional,3-0,Final
+12,18/03/2026,16:10,Deportivo Pasto,Chico,2-0,Final
+12,18/03/2026,18:20,Internacional de Bogota,Deportivo Pereira,2-2,Final
+12,18/03/2026,19:30,Bucaramanga,Once Caldas,1-1,Final
+12,18/03/2026,20:30,Deportivo Cali,Santa Fe,1-1,Final
+12,19/03/2026,16:10,Alianza Valledupar,Jaguares,1-0,Final
+12,19/03/2026,18:20,Deportes Tolima,Fortaleza FC,2-0,Final
+12,19/03/2026,20:30,Independiente Medellin,Junior,2-0,Final
+12,20/03/2026,16:00,Águilas Doradas,America de Cali,0-1,Final
+13,21/03/2026,18:20,Once Caldas,Millonarios,1-4,Final
+13,21/03/2026,20:30,Atletico Nacional,Internacional de Bogota,3-0,Final
+13,22/03/2026,16:00,Alianza Valledupar,Deportivo Cali,1-0,Final
+13,23/03/2026,14:00,Chico,Deportes Tolima,1-1,Final
+13,23/03/2026,16:10,Santa Fe,Independiente Medellin,2-1,Final
+13,23/03/2026,18:20,Jaguares,Águilas Doradas,1-1,Final
+13,24/03/2026,15:30,Deportivo Pereira,Cucuta,2-2,Final
+13,24/03/2026,18:00,Junior,Bucaramanga,2-0,Final
+13,24/03/2026,20:00,Fortaleza FC,Deportivo Pasto,1-2,Final
+13,25/03/2026,20:00,America de Cali,Llaneros,0-0,Final
+14,27/03/2026,16:00,Águilas Doradas,Alianza Valledupar,1-0,Final
+14,27/03/2026,20:10,Bucaramanga,Santa Fe,1-2,Final
+14,28/03/2026,16:00,Cucuta,Chico,1-0,Final
+14,28/03/2026,18:10,Deportes Tolima,Jaguares,3-1,Final
+14,28/03/2026,20:20,Deportivo Cali,Deportivo Pereira,1-0,Final
+14,29/03/2026,16:10,Internacional de Bogota,Junior,0-1,Final
+14,29/03/2026,18:20,Deportivo Pasto,Atletico Nacional,1-2,Final
+14,30/03/2026,10:00,Llaneros,Once Caldas,1-1,Final
+14,30/03/2026,18:10,Independiente Medellin,America de Cali,2-1,Final
+14,30/03/2026,20:20,Millonarios,Fortaleza FC,2-2,Final
+15,31/03/2026,20:00,Deportes Tolima,Águilas Doradas,4-1,Final
+15,01/04/2026,16:10,Alianza Valledupar,Deportivo Pasto,0-0,Final
+15,01/04/2026,18:30,Santa Fe,Llaneros,0-1,Final
+15,01/04/2026,20:30,Atletico Nacional,Cucuta,0-0,Final
+15,02/04/2026,14:00,Chico,Deportivo Pereira,1-0,Final
+15,02/04/2026,16:10,America de Cali,Bucaramanga,2-0,Final
+15,02/04/2026,18:20,Jaguares,Millonarios,1-0,Final
+15,02/04/2026,20:30,Once Caldas,Independiente Medellin,1-1,Final
+15,03/04/2026,18:20,Fortaleza FC,Internacional de Bogota,,
+15,03/04/2026,20:30,Junior,Deportivo Cali,,
+10,04/04/2026,19:30,Deportes Tolima,Santa Fe,,
+16,05/04/2026,17:00,Cucuta,America de Cali,,
+6,06/04/2026,15:30,Deportivo Pereira,Alianza Valledupar,,
+2,06/04/2026,20:10,Atletico Nacional,Jaguares,,
+7,07/04/2026,16:00,Águilas Doradas,Bucaramanga,,
+16,10/04/2026,15:30,Deportivo Pereira,Once Caldas,,
+16,10/04/2026,20:05,Deportivo Pasto,Deportes Tolima,,
+16,11/04/2026,16:00,Águilas Doradas,Junior,,
+16,11/04/2026,20:20,Independiente Medellin,Atletico Nacional,,
+16,12/04/2026,14:00,Millonarios,Santa Fe,,
+9,12/04/2026,16:10,Deportivo Cali,Llaneros,,
+16,12/04/2026,18:20,Bucaramanga,Chico,,
+16,12/04/2026,20:30,Internacional de Bogota,Alianza Valledupar,,
+17,17/04/2026,18:20,Jaguares,Deportivo Pasto,,
+17,17/04/2026,20:30,Chico,Deportivo Cali,,
+17,18/04/2026,18:10,Deportes Tolima,Deportivo Pereira,,
+17,18/04/2026,20:30,Fortaleza FC,Águilas Doradas,,
+17,19/04/2026,14:00,Santa Fe,Cucuta,,
+17,19/04/2026,16:10,America de Cali,Millonarios,,
+17,19/04/2026,18:20,Junior,Llaneros,,
+17,19/04/2026,20:30,Alianza Valledupar,Independiente Medellin,,
+17,20/04/2026,18:20,Once Caldas,Internacional de Bogota,,
+17,20/04/2026,20:30,Atletico Nacional,Bucaramanga,,
+10,22/04/2026,18:20,Independiente Medellin,Chico,,
+5,22/04/2026,20:30,Fortaleza FC,America de Cali,,
+18,23/04/2026,18:00,Deportivo Pasto,Santa Fe,,
+18,23/04/2026,20:00,Millonarios,Deportes Tolima,,
+18,24/04/2026,18:20,Cucuta,Junior,,
+18,25/04/2026,14:00,Bucaramanga,Jaguares,,
+18,25/04/2026,16:00,Independiente Medellin,Fortaleza FC,,
+18,25/04/2026,18:10,Deportivo Cali,America de Cali,,
+18,25/04/2026,20:30,Deportivo Pereira,Atletico Nacional,,
+18,26/04/2026,16:00,Águilas Doradas,Once Caldas,,
+18,26/04/2026,18:10,Llaneros,Alianza Valledupar,,
+18,26/04/2026,20:20,Internacional de Bogota,Chico,,
+19,29/04/2026,15:00,Independiente Medellin,Águilas Doradas,,
+19,29/04/2026,15:00,Chico,Llaneros,,
+19,29/04/2026,15:00,Jaguares,Cucuta,,
+19,29/04/2026,15:00,Junior,Deportivo Pasto,,
+19,29/04/2026,15:00,Once Caldas,Atletico Nacional,,
+19,29/04/2026,15:00,America de Cali,Deportivo Pereira,,
+19,29/04/2026,15:00,Santa Fe,Internacional de Bogota,,
+19,29/04/2026,15:00,Alianza Valledupar,Millonarios,,
+19,29/04/2026,15:00,Deportes Tolima,Deportivo Cali,,
+19,29/04/2026,15:00,Fortaleza FC,Bucaramanga,,

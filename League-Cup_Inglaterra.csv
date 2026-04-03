@@ -1,0 +1,94 @@
+matchday,date,time,home_team,away_team,result,status
+,29/07/2025,13:30,Barnet,Newport County,2-2,Final
+,05/08/2025,13:45,Accrington ST,Oldham,3-1,Final
+1,12/08/2025,13:00,Swansea,Crawley Town,3-1,Final
+1,12/08/2025,13:30,Middlesbrough,Doncaster,0-4,Final
+1,12/08/2025,13:30,Newport County,Millwall,0-1,Final
+1,12/08/2025,13:30,Barrow,Preston,0-1,Final
+1,12/08/2025,13:30,Stockport County,Crewe,3-1,Final
+1,12/08/2025,13:45,Watford,Norwich,1-2,Final
+1,12/08/2025,13:45,Cardiff,Swindon Town,2-1,Final
+1,12/08/2025,13:45,Bristol City,Milton Keynes Dons,2-0,Final
+1,12/08/2025,13:45,West Brom,Derby,1-1,Final
+1,12/08/2025,13:45,Wigan,Notts County,1-0,Final
+1,12/08/2025,13:45,Blackburn,Bradford,1-2,Final
+1,12/08/2025,13:45,Stoke City,Walsall,0-0,Final
+1,12/08/2025,13:45,Bristol Rovers,Cambridge United,0-2,Final
+1,12/08/2025,13:45,Charlton,Stevenage,3-1,Final
+1,12/08/2025,13:45,Northampton,Southampton,0-1,Final
+1,12/08/2025,13:45,Oxford United,Colchester,1-0,Final
+1,12/08/2025,13:45,Chesterfield,Mansfield Town,0-2,Final
+1,12/08/2025,13:45,Coventry,Luton,1-0,Final
+1,12/08/2025,13:45,Gillingham,AFC Wimbledon,1-1,Final
+1,12/08/2025,13:45,Portsmouth,Reading,1-2,Final
+1,12/08/2025,13:45,Blackpool,Port Vale,0-1,Final
+1,12/08/2025,13:45,Plymouth,QPR,3-2,Final
+1,12/08/2025,13:45,Accrington ST,Peterborough,2-1,Final
+1,12/08/2025,13:45,Grimsby,Shrewsbury,3-1,Final
+1,12/08/2025,13:45,Leyton Orient,Wycombe,0-1,Final
+1,12/08/2025,13:45,Wrexham,Hull City,3-3,Final
+1,12/08/2025,13:45,Harrogate Town,Lincoln,1-3,Final
+1,12/08/2025,13:45,Salford City,Rotherham,0-0,Final
+1,12/08/2025,14:00,Bromley,Ipswich,1-1,Final
+1,13/08/2025,13:45,Huddersfield,Leicester,2-2,Final
+1,13/08/2025,13:45,Bolton,Sheffield Wednesday,3-3,Final
+1,13/08/2025,13:45,Barnsley,Fleetwood Town,2-2,Final
+1,13/08/2025,13:45,Cheltenham,Exeter City,2-0,Final
+1,13/08/2025,14:00,Birmingham,Sheffield Utd,2-1,Final
+1,19/08/2025,13:45,Tranmere,Burton Albion,1-1,Final
+2,26/08/2025,13:00,Reading,AFC Wimbledon,2-1,Final
+2,26/08/2025,13:30,Wolves,West Ham,3-2,Final
+2,26/08/2025,13:30,Cambridge United,Charlton,3-1,Final
+2,26/08/2025,13:45,Bournemouth,Brentford,0-2,Final
+2,26/08/2025,13:45,Cardiff,Cheltenham,3-0,Final
+2,26/08/2025,13:45,Burnley,Derby,2-1,Final
+2,26/08/2025,13:45,Birmingham,Port Vale,0-1,Final
+2,26/08/2025,13:45,Millwall,Coventry,2-1,Final
+2,26/08/2025,13:45,Preston,Wrexham,2-3,Final
+2,26/08/2025,13:45,Wigan,Stockport County,1-0,Final
+2,26/08/2025,13:45,Norwich,Southampton,0-3,Final
+2,26/08/2025,13:45,Stoke City,Bradford,0-3,Final
+2,26/08/2025,13:45,Swansea,Plymouth,1-1,Final
+2,26/08/2025,13:45,Sunderland,Huddersfield,1-1,Final
+2,26/08/2025,13:45,Barnsley,Rotherham,2-1,Final
+2,26/08/2025,13:45,Burton Albion,Lincoln,0-1,Final
+2,26/08/2025,13:45,Accrington ST,Doncaster,0-2,Final
+2,26/08/2025,13:45,Bromley,Wycombe,1-1,Final
+2,26/08/2025,14:00,Sheffield Wednesday,Leeds,1-1,Final
+2,27/08/2025,13:45,Fulham,Bristol City,2-0,Final
+2,27/08/2025,13:45,Oxford United,Brighton,0-6,Final
+2,27/08/2025,14:00,Everton,Mansfield Town,2-0,Final
+2,27/08/2025,14:00,Grimsby,Manchester United,2-2,Final
+3,16/09/2025,13:45,Sheffield Wednesday,Grimsby,0-1,Final
+3,16/09/2025,14:00,Crystal Palace,Millwall,1-1,Final
+3,16/09/2025,14:00,Brentford,Aston Villa,1-1,Final
+3,17/09/2025,14:00,Swansea,Nottingham Forest,3-2,Final
+3,23/09/2025,13:45,Fulham,Cambridge United,1-0,Final
+3,23/09/2025,13:45,Wolves,Everton,2-0,Final
+3,23/09/2025,13:45,Burnley,Cardiff,1-2,Final
+3,23/09/2025,13:45,Wigan,Wycombe,0-2,Final
+3,23/09/2025,13:45,Barnsley,Brighton,0-6,Final
+3,23/09/2025,13:45,Lincoln,Chelsea,1-2,Final
+3,23/09/2025,13:45,Wrexham,Reading,2-0,Final
+3,23/09/2025,14:00,Liverpool,Southampton,2-1,Final
+3,24/09/2025,13:45,Newcastle,Bradford,4-1,Final
+3,24/09/2025,13:45,Huddersfield,Manchester City,0-2,Final
+3,24/09/2025,13:45,Tottenham,Doncaster,3-0,Final
+3,24/09/2025,14:00,Port Vale,Arsenal,0-2,Final
+4,28/10/2025,14:45,Wycombe,Fulham,1-1,Final
+4,28/10/2025,14:45,Grimsby,Brentford,0-5,Final
+4,28/10/2025,15:00,Wrexham,Cardiff,1-2,Final
+4,29/10/2025,14:45,Wolves,Chelsea,3-4,Final
+4,29/10/2025,14:45,Liverpool,Crystal Palace,0-3,Final
+4,29/10/2025,14:45,Arsenal,Brighton,2-0,Final
+4,29/10/2025,14:45,Swansea,Manchester City,1-3,Final
+4,29/10/2025,15:00,Newcastle,Tottenham,2-0,Final
+,16/12/2025,15:00,Cardiff,Chelsea,1-3,Final
+,17/12/2025,14:30,Manchester City,Brentford,2-0,Final
+,17/12/2025,15:15,Newcastle,Fulham,2-1,Final
+,23/12/2025,15:00,Arsenal,Crystal Palace,1-1,Final
+,13/01/2026,15:00,Newcastle,Manchester City,0-2,Final
+,14/01/2026,15:00,Chelsea,Arsenal,2-3,Final
+,03/02/2026,15:00,Arsenal,Chelsea,1-0,Final
+,04/02/2026,15:00,Manchester City,Newcastle,3-1,Final
+,22/03/2026,11:30,Arsenal,Manchester City,0-2,Final

@@ -1,0 +1,481 @@
+matchday,date,time,home_team,away_team,result,status
+1,22/01/2026,15:00,Aldosivi,Defensa Y Justicia,0-0,Final
+1,22/01/2026,18:00,Banfield,Huracan,1-1,Final
+1,22/01/2026,18:00,Union Santa Fe,Platense,0-0,Final
+1,22/01/2026,20:15,Central Cordoba de Santiago,Gimnasia M.,0-1,Final
+1,22/01/2026,20:15,Instituto Cordoba,Velez Sarsfield,0-1,Final
+1,23/01/2026,17:00,San Lorenzo,Lanus,2-3,Final
+1,23/01/2026,18:00,Independiente,Estudiantes L.P.,1-1,Final
+1,23/01/2026,20:15,Independ. Rivadavia,Atletico Tucuman,2-1,Final
+1,23/01/2026,20:15,Talleres Cordoba,Newells Old Boys,2-1,Final
+1,24/01/2026,15:00,Barracas Central,River Plate,0-1,Final
+1,24/01/2026,17:30,Gimnasia L.P.,Racing Club,2-1,Final
+1,24/01/2026,20:00,Rosario Central,Belgrano Cordoba,1-2,Final
+1,25/01/2026,16:30,Boca Juniors,Deportivo Riestra,1-0,Final
+1,25/01/2026,19:00,Argentinos JRS,Sarmiento Junin,1-0,Final
+1,25/01/2026,19:00,Tigre,Estudiantes de Rio Cuarto,2-0,Final
+2,26/01/2026,15:00,Platense,Instituto Cordoba,2-1,Final
+2,27/01/2026,15:45,Velez Sarsfield,Talleres Cordoba,2-1,Final
+2,27/01/2026,18:00,Gimnasia M.,San Lorenzo,0-1,Final
+2,27/01/2026,18:00,Huracan,Independ. Rivadavia,1-2,Final
+2,27/01/2026,20:15,Atletico Tucuman,Central Cordoba de Santiago,0-0,Final
+2,27/01/2026,20:15,Newells Old Boys,Independiente,1-1,Final
+2,28/01/2026,15:00,Aldosivi,Barracas Central,0-0,Final
+2,28/01/2026,17:00,Racing Club,Rosario Central,1-2,Final
+2,28/01/2026,18:00,River Plate,Gimnasia L.P.,2-0,Final
+2,28/01/2026,20:15,Estudiantes L.P.,Boca Juniors,2-1,Final
+2,29/01/2026,15:00,Deportivo Riestra,Defensa Y Justicia,0-1,Final
+2,29/01/2026,17:15,Belgrano Cordoba,Tigre,1-1,Final
+2,29/01/2026,17:15,Lanus,Union Santa Fe,2-1,Final
+2,29/01/2026,19:30,Estudiantes de Rio Cuarto,Argentinos JRS,0-0,Final
+2,29/01/2026,19:30,Sarmiento Junin,Banfield,1-0,Final
+3,31/01/2026,15:30,San Lorenzo,Central Cordoba de Santiago,1-0,Final
+3,31/01/2026,17:45,Independiente,Velez Sarsfield,1-1,Final
+3,31/01/2026,20:00,Atletico Tucuman,Huracan,1-1,Final
+3,31/01/2026,20:00,Talleres Cordoba,Platense,1-2,Final
+3,01/02/2026,15:00,Barracas Central,Deportivo Riestra,1-1,Final
+3,01/02/2026,17:15,Boca Juniors,Newells Old Boys,2-0,Final
+3,01/02/2026,19:30,Rosario Central,River Plate,0-0,Final
+3,02/02/2026,15:30,Gimnasia L.P.,Aldosivi,3-1,Final
+3,02/02/2026,17:45,Defensa Y Justicia,Estudiantes L.P.,0-0,Final
+3,02/02/2026,17:45,Tigre,Racing Club,3-1,Final
+3,02/02/2026,20:00,Argentinos JRS,Belgrano Cordoba,0-0,Final
+3,02/02/2026,20:00,Union Santa Fe,Gimnasia M.,4-0,Final
+3,03/02/2026,17:00,Banfield,Estudiantes de Rio Cuarto,2-1,Final
+3,03/02/2026,19:15,Independ. Rivadavia,Sarmiento Junin,2-1,Final
+3,03/02/2026,19:15,Instituto Cordoba,Lanus,2-2,Final
+4,06/02/2026,19:00,Central Cordoba de Santiago,Union Santa Fe,1-0,Final
+4,07/02/2026,15:00,Aldosivi,Rosario Central,1-1,Final
+4,07/02/2026,16:00,Racing Club,Argentinos JRS,2-1,Final
+4,07/02/2026,18:00,River Plate,Tigre,1-4,Final
+4,07/02/2026,20:15,Belgrano Cordoba,Banfield,1-0,Final
+4,07/02/2026,20:15,Newells Old Boys,Defensa Y Justicia,2-3,Final
+4,08/02/2026,15:00,Platense,Independiente,0-1,Final
+4,08/02/2026,15:00,Sarmiento Junin,Atletico Tucuman,2-1,Final
+4,08/02/2026,17:15,Huracan,San Lorenzo,1-0,Final
+4,08/02/2026,20:15,Gimnasia M.,Instituto Cordoba,1-0,Final
+4,08/02/2026,20:15,Velez Sarsfield,Boca Juniors,2-1,Final
+4,09/02/2026,15:00,Barracas Central,Gimnasia L.P.,2-0,Final
+4,09/02/2026,17:15,Estudiantes L.P.,Deportivo Riestra,1-0,Final
+4,09/02/2026,17:15,Lanus,Talleres Cordoba,1-1,Final
+4,09/02/2026,19:30,Estudiantes de Rio Cuarto,Independ. Rivadavia,0-1,Final
+5,12/02/2026,17:00,Tigre,Aldosivi,1-0,Final
+5,12/02/2026,19:15,Argentinos JRS,River Plate,1-0,Final
+5,13/02/2026,18:00,Independiente,Lanus,2-0,Final
+5,13/02/2026,20:15,Defensa Y Justicia,Velez Sarsfield,1-1,Final
+5,13/02/2026,20:15,Union Santa Fe,San Lorenzo,0-0,Final
+5,14/02/2026,15:30,Banfield,Racing Club,0-2,Final
+5,14/02/2026,17:45,Huracan,Sarmiento Junin,1-0,Final
+5,14/02/2026,17:45,Talleres Cordoba,Gimnasia M.,2-1,Final
+5,14/02/2026,20:00,Atletico Tucuman,Estudiantes de Rio Cuarto,4-0,Final
+5,14/02/2026,20:00,Independ. Rivadavia,Belgrano Cordoba,0-1,Final
+5,15/02/2026,15:00,Gimnasia L.P.,Estudiantes L.P.,0-0,Final
+5,15/02/2026,17:30,Boca Juniors,Platense,0-0,Final
+5,15/02/2026,20:00,Instituto Cordoba,Central Cordoba de Santiago,2-0,Final
+5,15/02/2026,20:00,Rosario Central,Barracas Central,2-0,Final
+5,16/02/2026,17:00,Deportivo Riestra,Newells Old Boys,1-1,Final
+6,20/02/2026,15:15,Defensa Y Justicia,Belgrano Cordoba,1-1,Final
+6,20/02/2026,15:45,Estudiantes L.P.,Sarmiento Junin,1-0,Final
+6,20/02/2026,18:00,Boca Juniors,Racing Club,0-0,Final
+6,20/02/2026,18:00,Instituto Cordoba,Atletico Tucuman,2-1,Final
+6,20/02/2026,20:15,Gimnasia M.,Gimnasia L.P.,0-1,Final
+6,20/02/2026,20:15,Rosario Central,Talleres Cordoba,0-1,Final
+6,21/02/2026,15:00,Independ. Rivadavia,Independiente,3-2,Final
+6,21/02/2026,15:00,Platense,Barracas Central,1-0,Final
+6,21/02/2026,17:15,Banfield,Newells Old Boys,3-0,Final
+6,21/02/2026,17:15,Deportivo Riestra,Huracan,0-0,Final
+6,21/02/2026,19:30,Central Cordoba de Santiago,Tigre,0-0,Final
+6,22/02/2026,15:00,San Lorenzo,Estudiantes de Rio Cuarto,2-0,Final
+6,22/02/2026,17:15,Velez Sarsfield,River Plate,1-0,Final
+6,22/02/2026,19:30,Union Santa Fe,Aldosivi,1-0,Final
+7,24/02/2026,15:00,Platense,Defensa Y Justicia,0-0,Final
+7,24/02/2026,17:15,San Lorenzo,Instituto Cordoba,1-1,Final
+7,24/02/2026,17:45,Central Cordoba de Santiago,Talleres Cordoba,2-0,Final
+7,24/02/2026,19:30,Belgrano Cordoba,Atletico Tucuman,3-1,Final
+7,24/02/2026,20:00,Gimnasia M.,Independiente,1-1,Final
+7,25/02/2026,15:00,Barracas Central,Tigre,2-1,Final
+7,25/02/2026,15:00,Gimnasia L.P.,Rosario Central,1-2,Final
+7,25/02/2026,17:30,Newells Old Boys,Estudiantes L.P.,0-2,Final
+7,25/02/2026,17:30,Velez Sarsfield,Deportivo Riestra,0-0,Final
+7,26/02/2026,15:15,Racing Club,Independ. Rivadavia,1-1,Final
+7,26/02/2026,15:15,Sarmiento Junin,Union Santa Fe,1-3,Final
+7,26/02/2026,17:30,Estudiantes de Rio Cuarto,Huracan,2-0,Final
+7,26/02/2026,17:30,River Plate,Banfield,3-1,Final
+8,28/02/2026,15:45,Boca Juniors,Gimnasia M.,1-1,Final
+8,28/02/2026,18:00,Independiente,Central Cordoba de Santiago,2-0,Final
+8,28/02/2026,20:15,Talleres Cordoba,San Lorenzo,0-0,Final
+8,01/03/2026,15:00,Newells Old Boys,Rosario Central,0-2,Final
+8,01/03/2026,17:15,Argentinos JRS,Barracas Central,1-1,Final
+8,01/03/2026,17:15,Instituto Cordoba,Union Santa Fe,1-2,Final
+8,01/03/2026,19:30,Defensa Y Justicia,Lanus,1-1,Final
+8,01/03/2026,19:30,Tigre,Gimnasia L.P.,2-2,Final
+8,02/03/2026,17:15,Deportivo Riestra,Platense,0-0,Final
+8,02/03/2026,17:15,Estudiantes L.P.,Velez Sarsfield,0-1,Final
+8,02/03/2026,19:30,Banfield,Aldosivi,2-0,Final
+8,02/03/2026,19:30,Independ. Rivadavia,River Plate,1-1,Final
+8,03/03/2026,17:00,Sarmiento Junin,Estudiantes de Rio Cuarto,1-0,Final
+8,03/03/2026,17:15,Huracan,Belgrano Cordoba,3-1,Final
+8,03/03/2026,19:15,Atletico Tucuman,Racing Club,0-3,Final
+7,04/03/2026,19:00,Lanus,Boca Juniors,0-3,Final
+10,10/03/2026,17:45,Independiente,Union Santa Fe,4-4,Final
+10,10/03/2026,17:45,Tigre,Velez Sarsfield,1-1,Final
+10,10/03/2026,20:00,Newells Old Boys,Platense,1-1,Final
+10,10/03/2026,20:00,Sarmiento Junin,Racing Club,0-0,Final
+10,11/03/2026,15:30,Argentinos JRS,Rosario Central,0-0,Final
+10,11/03/2026,15:30,Banfield,Gimnasia L.P.,1-2,Final
+10,11/03/2026,17:45,Boca Juniors,San Lorenzo,1-1,Final
+10,11/03/2026,20:00,Atletico Tucuman,Aldosivi,1-1,Final
+10,11/03/2026,20:00,Independ. Rivadavia,Barracas Central,1-2,Final
+10,12/03/2026,15:00,Defensa Y Justicia,Central Cordoba de Santiago,1-1,Final
+10,12/03/2026,15:00,Deportivo Riestra,Gimnasia M.,0-0,Final
+10,12/03/2026,17:15,Estudiantes de Rio Cuarto,Belgrano Cordoba,0-1,Final
+10,12/03/2026,17:15,Talleres Cordoba,Instituto Cordoba,2-0,Final
+10,12/03/2026,19:30,Huracan,River Plate,1-2,Final
+10,13/03/2026,18:00,Estudiantes L.P.,Lanus,0-1,Final
+11,14/03/2026,17:00,Platense,Velez Sarsfield,0-2,Final
+11,14/03/2026,19:00,Rosario Central,Banfield,2-1,Final
+11,15/03/2026,13:15,Gimnasia L.P.,Independ. Rivadavia,2-3,Final
+11,15/03/2026,15:30,Belgrano Cordoba,Talleres Cordoba,0-0,Final
+11,15/03/2026,17:45,River Plate,Sarmiento Junin,2-0,Final
+11,15/03/2026,20:00,Tigre,Argentinos JRS,1-1,Final
+11,15/03/2026,20:00,Union Santa Fe,Boca Juniors,1-1,Final
+11,16/03/2026,13:30,Aldosivi,Huracan,0-0,Final
+11,16/03/2026,13:30,Barracas Central,Atletico Tucuman,2-1,Final
+11,16/03/2026,16:30,San Lorenzo,Defensa Y Justicia,2-5,Final
+11,16/03/2026,18:00,Racing Club,Estudiantes de Rio Cuarto,2-0,Final
+11,16/03/2026,20:15,Instituto Cordoba,Independiente,2-1,Final
+11,17/03/2026,17:00,Lanus,Newells Old Boys,5-0,Final
+11,17/03/2026,19:15,Central Cordoba de Santiago,Deportivo Riestra,1-0,Final
+11,17/03/2026,19:15,Gimnasia M.,Estudiantes L.P.,1-2,Final
+12,20/03/2026,19:00,Atletico Tucuman,Gimnasia L.P.,1-0,Final
+12,20/03/2026,19:00,Banfield,Tigre,1-0,Final
+12,21/03/2026,13:30,Velez Sarsfield,Lanus,0-1,Final
+12,21/03/2026,15:45,Defensa Y Justicia,Union Santa Fe,2-0,Final
+12,21/03/2026,15:45,Newells Old Boys,Gimnasia M.,1-0,Final
+12,21/03/2026,18:00,Independiente,Talleres Cordoba,1-2,Final
+12,21/03/2026,20:15,Belgrano Cordoba,Racing Club,1-2,Final
+12,22/03/2026,13:30,Sarmiento Junin,Aldosivi,2-0,Final
+12,22/03/2026,15:45,Estudiantes de Rio Cuarto,River Plate,0-2,Final
+12,22/03/2026,18:00,Boca Juniors,Instituto Cordoba,2-0,Final
+12,22/03/2026,20:15,Argentinos JRS,Platense,1-0,Final
+12,22/03/2026,20:15,Independ. Rivadavia,Rosario Central,2-0,Final
+12,23/03/2026,17:00,Estudiantes L.P.,Central Cordoba de Santiago,5-0,Final
+12,23/03/2026,19:15,Huracan,Barracas Central,0-0,Final
+12,25/03/2026,17:00,Deportivo Riestra,San Lorenzo,1-1,Final
+6,26/03/2026,19:00,Argentinos JRS,Lanus,2-1,Final
+7,31/03/2026,12:00,Aldosivi,Argentinos JRS,0-2,Final
+13,01/04/2026,18:00,Lanus,Platense,0-0,Final
+13,02/04/2026,13:00,Barracas Central,Sarmiento Junin,1-2,Final
+13,02/04/2026,15:30,Tigre,Independ. Rivadavia,0-2,Final
+13,02/04/2026,18:30,Talleres Cordoba,Boca Juniors,0-1,Final
+13,03/04/2026,13:00,Gimnasia M.,Velez Sarsfield,,
+13,03/04/2026,15:15,Union Santa Fe,Deportivo Riestra,,
+13,03/04/2026,17:30,San Lorenzo,Estudiantes L.P.,,
+13,04/04/2026,11:30,Aldosivi,Estudiantes de Rio Cuarto,,
+13,04/04/2026,15:30,Independiente,Racing Club,,
+13,04/04/2026,19:00,Rosario Central,Atletico Tucuman,,
+13,05/04/2026,13:30,Gimnasia L.P.,Huracan,,
+13,05/04/2026,16:00,River Plate,Belgrano Cordoba,,
+13,05/04/2026,18:30,Central Cordoba de Santiago,Newells Old Boys,,
+13,06/04/2026,17:00,Argentinos JRS,Banfield,,
+13,06/04/2026,19:15,Instituto Cordoba,Defensa Y Justicia,,
+14,10/04/2026,19:00,Belgrano Cordoba,Aldosivi,,
+14,11/04/2026,13:00,Deportivo Riestra,Instituto Cordoba,,
+14,11/04/2026,15:15,Estudiantes L.P.,Union Santa Fe,,
+14,11/04/2026,15:15,Independ. Rivadavia,Argentinos JRS,,
+14,11/04/2026,17:30,Boca Juniors,Independiente,,
+14,11/04/2026,19:45,Estudiantes de Rio Cuarto,Barracas Central,,
+14,12/04/2026,13:00,Newells Old Boys,San Lorenzo,,
+14,12/04/2026,13:00,Platense,Gimnasia M.,,
+14,12/04/2026,15:30,Atletico Tucuman,Tigre,,
+14,12/04/2026,15:30,Huracan,Rosario Central,,
+14,12/04/2026,18:00,Racing Club,River Plate,,
+14,13/04/2026,14:30,Defensa Y Justicia,Talleres Cordoba,,
+14,13/04/2026,14:30,Sarmiento Junin,Gimnasia L.P.,,
+14,13/04/2026,17:00,Lanus,Banfield,,
+14,13/04/2026,19:30,Velez Sarsfield,Central Cordoba de Santiago,,
+15,17/04/2026,18:30,Union Santa Fe,Newells Old Boys,,
+15,18/04/2026,13:00,Gimnasia L.P.,Estudiantes de Rio Cuarto,,
+15,18/04/2026,15:15,Instituto Cordoba,Estudiantes L.P.,,
+15,18/04/2026,17:30,Independiente,Defensa Y Justicia,,
+15,18/04/2026,19:45,Argentinos JRS,Atletico Tucuman,,
+15,19/04/2026,11:30,Aldosivi,Racing Club,,
+15,19/04/2026,15:00,River Plate,Boca Juniors,,
+15,19/04/2026,18:30,Rosario Central,Sarmiento Junin,,
+15,19/04/2026,18:30,Talleres Cordoba,Deportivo Riestra,,
+15,20/04/2026,13:00,Barracas Central,Belgrano Cordoba,,
+15,20/04/2026,15:15,Banfield,Independ. Rivadavia,,
+15,20/04/2026,15:15,Central Cordoba de Santiago,Platense,,
+15,20/04/2026,17:30,San Lorenzo,Velez Sarsfield,,
+15,20/04/2026,19:45,Gimnasia M.,Lanus,,
+15,20/04/2026,19:45,Tigre,Huracan,,
+16,23/04/2026,18:00,Defensa Y Justicia,Boca Juniors,,
+16,24/04/2026,15:00,Deportivo Riestra,Independiente,,
+16,24/04/2026,17:15,Estudiantes de Rio Cuarto,Rosario Central,,
+16,24/04/2026,17:15,Lanus,Central Cordoba de Santiago,,
+16,24/04/2026,19:30,Racing Club,Barracas Central,,
+16,25/04/2026,12:00,Platense,San Lorenzo,,
+16,25/04/2026,15:00,Estudiantes L.P.,Talleres Cordoba,,
+16,25/04/2026,17:15,Sarmiento Junin,Tigre,,
+16,25/04/2026,19:30,River Plate,Aldosivi,,
+16,26/04/2026,13:00,Independ. Rivadavia,Gimnasia M.,,
+16,26/04/2026,15:30,Belgrano Cordoba,Gimnasia L.P.,,
+16,26/04/2026,15:30,Newells Old Boys,Instituto Cordoba,,
+16,26/04/2026,18:00,Atletico Tucuman,Banfield,,
+16,27/04/2026,16:45,Velez Sarsfield,Union Santa Fe,,
+16,27/04/2026,19:00,Huracan,Argentinos JRS,,
+9,03/05/2026,15:00,Aldosivi,Independ. Rivadavia,,
+9,03/05/2026,15:00,Barracas Central,Banfield,,
+9,03/05/2026,15:00,Belgrano Cordoba,Sarmiento Junin,,
+9,03/05/2026,15:00,Central Cordoba de Santiago,Boca Juniors,,
+9,03/05/2026,15:00,Estudiantes de Rio Cuarto,Instituto Cordoba,,
+9,03/05/2026,15:00,Gimnasia L.P.,Argentinos JRS,,
+9,03/05/2026,15:00,Gimnasia M.,Defensa Y Justicia,,
+9,03/05/2026,15:00,Lanus,Deportivo Riestra,,
+9,03/05/2026,15:00,Platense,Estudiantes L.P.,,
+9,03/05/2026,15:00,Racing Club,Huracan,,
+9,03/05/2026,15:00,River Plate,Atletico Tucuman,,
+9,03/05/2026,15:00,Rosario Central,Tigre,,
+9,03/05/2026,15:00,San Lorenzo,Independiente,,
+9,03/05/2026,15:00,Union Santa Fe,Talleres Cordoba,,
+9,03/05/2026,15:00,Velez Sarsfield,Newells Old Boys,,
+1,26/07/2026,15:00,Atletico Tucuman,Independ. Rivadavia,,
+1,26/07/2026,15:00,Belgrano Cordoba,Rosario Central,,
+1,26/07/2026,15:00,Defensa Y Justicia,Aldosivi,,
+1,26/07/2026,15:00,Deportivo Riestra,Boca Juniors,,
+1,26/07/2026,15:00,Estudiantes L.P.,Independiente,,
+1,26/07/2026,15:00,Estudiantes de Rio Cuarto,Tigre,,
+1,26/07/2026,15:00,Gimnasia M.,Central Cordoba de Santiago,,
+1,26/07/2026,15:00,Huracan,Banfield,,
+1,26/07/2026,15:00,Lanus,San Lorenzo,,
+1,26/07/2026,15:00,Newells Old Boys,Talleres Cordoba,,
+1,26/07/2026,15:00,Platense,Union Santa Fe,,
+1,26/07/2026,15:00,Racing Club,Gimnasia L.P.,,
+1,26/07/2026,15:00,River Plate,Barracas Central,,
+1,26/07/2026,15:00,Sarmiento Junin,Argentinos JRS,,
+1,26/07/2026,15:00,Velez Sarsfield,Instituto Cordoba,,
+2,29/07/2026,15:00,Argentinos JRS,Estudiantes de Rio Cuarto,,
+2,29/07/2026,15:00,Banfield,Sarmiento Junin,,
+2,29/07/2026,15:00,Barracas Central,Aldosivi,,
+2,29/07/2026,15:00,Boca Juniors,Estudiantes L.P.,,
+2,29/07/2026,15:00,Central Cordoba de Santiago,Atletico Tucuman,,
+2,29/07/2026,15:00,Defensa Y Justicia,Deportivo Riestra,,
+2,29/07/2026,15:00,Gimnasia L.P.,River Plate,,
+2,29/07/2026,15:00,Independiente,Newells Old Boys,,
+2,29/07/2026,15:00,Independ. Rivadavia,Huracan,,
+2,29/07/2026,15:00,Instituto Cordoba,Platense,,
+2,29/07/2026,15:00,Rosario Central,Racing Club,,
+2,29/07/2026,15:00,San Lorenzo,Gimnasia M.,,
+2,29/07/2026,15:00,Talleres Cordoba,Velez Sarsfield,,
+2,29/07/2026,15:00,Tigre,Belgrano Cordoba,,
+2,29/07/2026,15:00,Union Santa Fe,Lanus,,
+3,02/08/2026,15:00,Aldosivi,Gimnasia L.P.,,
+3,02/08/2026,15:00,Belgrano Cordoba,Argentinos JRS,,
+3,02/08/2026,15:00,Central Cordoba de Santiago,San Lorenzo,,
+3,02/08/2026,15:00,Deportivo Riestra,Barracas Central,,
+3,02/08/2026,15:00,Estudiantes L.P.,Defensa Y Justicia,,
+3,02/08/2026,15:00,Estudiantes de Rio Cuarto,Banfield,,
+3,02/08/2026,15:00,Gimnasia M.,Union Santa Fe,,
+3,02/08/2026,15:00,Huracan,Atletico Tucuman,,
+3,02/08/2026,15:00,Lanus,Instituto Cordoba,,
+3,02/08/2026,15:00,Newells Old Boys,Boca Juniors,,
+3,02/08/2026,15:00,Platense,Talleres Cordoba,,
+3,02/08/2026,15:00,Racing Club,Tigre,,
+3,02/08/2026,15:00,River Plate,Rosario Central,,
+3,02/08/2026,15:00,Sarmiento Junin,Independ. Rivadavia,,
+3,02/08/2026,15:00,Velez Sarsfield,Independiente,,
+4,09/08/2026,15:00,Argentinos JRS,Racing Club,,
+4,09/08/2026,15:00,Atletico Tucuman,Sarmiento Junin,,
+4,09/08/2026,15:00,Banfield,Belgrano Cordoba,,
+4,09/08/2026,15:00,Boca Juniors,Velez Sarsfield,,
+4,09/08/2026,15:00,Defensa Y Justicia,Newells Old Boys,,
+4,09/08/2026,15:00,Deportivo Riestra,Estudiantes L.P.,,
+4,09/08/2026,15:00,Gimnasia L.P.,Barracas Central,,
+4,09/08/2026,15:00,Independiente,Platense,,
+4,09/08/2026,15:00,Independ. Rivadavia,Estudiantes de Rio Cuarto,,
+4,09/08/2026,15:00,Instituto Cordoba,Gimnasia M.,,
+4,09/08/2026,15:00,Rosario Central,Aldosivi,,
+4,09/08/2026,15:00,San Lorenzo,Huracan,,
+4,09/08/2026,15:00,Talleres Cordoba,Lanus,,
+4,09/08/2026,15:00,Tigre,River Plate,,
+4,09/08/2026,15:00,Union Santa Fe,Central Cordoba de Santiago,,
+5,16/08/2026,15:00,Aldosivi,Tigre,,
+5,16/08/2026,15:00,Barracas Central,Rosario Central,,
+5,16/08/2026,15:00,Belgrano Cordoba,Independ. Rivadavia,,
+5,16/08/2026,15:00,Central Cordoba de Santiago,Instituto Cordoba,,
+5,16/08/2026,15:00,Estudiantes L.P.,Gimnasia L.P.,,
+5,16/08/2026,15:00,Estudiantes de Rio Cuarto,Atletico Tucuman,,
+5,16/08/2026,15:00,Gimnasia M.,Talleres Cordoba,,
+5,16/08/2026,15:00,Lanus,Independiente,,
+5,16/08/2026,15:00,Newells Old Boys,Deportivo Riestra,,
+5,16/08/2026,15:00,Platense,Boca Juniors,,
+5,16/08/2026,15:00,Racing Club,Banfield,,
+5,16/08/2026,15:00,River Plate,Argentinos JRS,,
+5,16/08/2026,15:00,San Lorenzo,Union Santa Fe,,
+5,16/08/2026,15:00,Sarmiento Junin,Huracan,,
+5,16/08/2026,15:00,Velez Sarsfield,Defensa Y Justicia,,
+6,23/08/2026,15:00,Aldosivi,Union Santa Fe,,
+6,23/08/2026,15:00,Atletico Tucuman,Instituto Cordoba,,
+6,23/08/2026,15:00,Barracas Central,Platense,,
+6,23/08/2026,15:00,Belgrano Cordoba,Defensa Y Justicia,,
+6,23/08/2026,15:00,Estudiantes de Rio Cuarto,San Lorenzo,,
+6,23/08/2026,15:00,Gimnasia L.P.,Gimnasia M.,,
+6,23/08/2026,15:00,Huracan,Deportivo Riestra,,
+6,23/08/2026,15:00,Independiente,Independ. Rivadavia,,
+6,23/08/2026,15:00,Lanus,Argentinos JRS,,
+6,23/08/2026,15:00,Newells Old Boys,Banfield,,
+6,23/08/2026,15:00,Racing Club,Boca Juniors,,
+6,23/08/2026,15:00,River Plate,Velez Sarsfield,,
+6,23/08/2026,15:00,Sarmiento Junin,Estudiantes L.P.,,
+6,23/08/2026,15:00,Talleres Cordoba,Rosario Central,,
+6,23/08/2026,15:00,Tigre,Central Cordoba de Santiago,,
+7,30/08/2026,15:00,Argentinos JRS,Aldosivi,,
+7,30/08/2026,15:00,Atletico Tucuman,Belgrano Cordoba,,
+7,30/08/2026,15:00,Banfield,River Plate,,
+7,30/08/2026,15:00,Boca Juniors,Lanus,,
+7,30/08/2026,15:00,Defensa Y Justicia,Platense,,
+7,30/08/2026,15:00,Deportivo Riestra,Velez Sarsfield,,
+7,30/08/2026,15:00,Estudiantes L.P.,Newells Old Boys,,
+7,30/08/2026,15:00,Huracan,Estudiantes de Rio Cuarto,,
+7,30/08/2026,15:00,Independiente,Gimnasia M.,,
+7,30/08/2026,15:00,Independ. Rivadavia,Racing Club,,
+7,30/08/2026,15:00,Instituto Cordoba,San Lorenzo,,
+7,30/08/2026,15:00,Rosario Central,Gimnasia L.P.,,
+7,30/08/2026,15:00,Talleres Cordoba,Central Cordoba de Santiago,,
+7,30/08/2026,15:00,Tigre,Barracas Central,,
+7,30/08/2026,15:00,Union Santa Fe,Sarmiento Junin,,
+8,06/09/2026,15:00,Aldosivi,Banfield,,
+8,06/09/2026,15:00,Barracas Central,Argentinos JRS,,
+8,06/09/2026,15:00,Belgrano Cordoba,Huracan,,
+8,06/09/2026,15:00,Central Cordoba de Santiago,Independiente,,
+8,06/09/2026,15:00,Estudiantes de Rio Cuarto,Sarmiento Junin,,
+8,06/09/2026,15:00,Gimnasia L.P.,Tigre,,
+8,06/09/2026,15:00,Gimnasia M.,Boca Juniors,,
+8,06/09/2026,15:00,Lanus,Defensa Y Justicia,,
+8,06/09/2026,15:00,Platense,Deportivo Riestra,,
+8,06/09/2026,15:00,Racing Club,Atletico Tucuman,,
+8,06/09/2026,15:00,River Plate,Independ. Rivadavia,,
+8,06/09/2026,15:00,Rosario Central,Newells Old Boys,,
+8,06/09/2026,15:00,San Lorenzo,Talleres Cordoba,,
+8,06/09/2026,15:00,Union Santa Fe,Instituto Cordoba,,
+8,06/09/2026,15:00,Velez Sarsfield,Estudiantes L.P.,,
+9,13/09/2026,15:00,Argentinos JRS,Gimnasia L.P.,,
+9,13/09/2026,15:00,Atletico Tucuman,River Plate,,
+9,13/09/2026,15:00,Banfield,Barracas Central,,
+9,13/09/2026,15:00,Boca Juniors,Central Cordoba de Santiago,,
+9,13/09/2026,15:00,Defensa Y Justicia,Gimnasia M.,,
+9,13/09/2026,15:00,Deportivo Riestra,Lanus,,
+9,13/09/2026,15:00,Estudiantes L.P.,Platense,,
+9,13/09/2026,15:00,Huracan,Racing Club,,
+9,13/09/2026,15:00,Independiente,San Lorenzo,,
+9,13/09/2026,15:00,Independ. Rivadavia,Aldosivi,,
+9,13/09/2026,15:00,Instituto Cordoba,Estudiantes de Rio Cuarto,,
+9,13/09/2026,15:00,Newells Old Boys,Velez Sarsfield,,
+9,13/09/2026,15:00,Sarmiento Junin,Belgrano Cordoba,,
+9,13/09/2026,15:00,Talleres Cordoba,Union Santa Fe,,
+9,13/09/2026,15:00,Tigre,Rosario Central,,
+10,20/09/2026,15:00,Aldosivi,Atletico Tucuman,,
+10,20/09/2026,15:00,Barracas Central,Independ. Rivadavia,,
+10,20/09/2026,15:00,Belgrano Cordoba,Estudiantes de Rio Cuarto,,
+10,20/09/2026,15:00,Central Cordoba de Santiago,Defensa Y Justicia,,
+10,20/09/2026,15:00,Gimnasia L.P.,Banfield,,
+10,20/09/2026,15:00,Gimnasia M.,Deportivo Riestra,,
+10,20/09/2026,15:00,Instituto Cordoba,Talleres Cordoba,,
+10,20/09/2026,15:00,Lanus,Estudiantes L.P.,,
+10,20/09/2026,15:00,Platense,Newells Old Boys,,
+10,20/09/2026,15:00,Racing Club,Sarmiento Junin,,
+10,20/09/2026,15:00,River Plate,Huracan,,
+10,20/09/2026,15:00,Rosario Central,Argentinos JRS,,
+10,20/09/2026,15:00,San Lorenzo,Boca Juniors,,
+10,20/09/2026,15:00,Union Santa Fe,Independiente,,
+10,20/09/2026,15:00,Velez Sarsfield,Tigre,,
+11,04/10/2026,15:00,Argentinos JRS,Tigre,,
+11,04/10/2026,15:00,Atletico Tucuman,Barracas Central,,
+11,04/10/2026,15:00,Banfield,Rosario Central,,
+11,04/10/2026,15:00,Boca Juniors,Union Santa Fe,,
+11,04/10/2026,15:00,Defensa Y Justicia,San Lorenzo,,
+11,04/10/2026,15:00,Deportivo Riestra,Central Cordoba de Santiago,,
+11,04/10/2026,15:00,Estudiantes L.P.,Gimnasia M.,,
+11,04/10/2026,15:00,Estudiantes de Rio Cuarto,Racing Club,,
+11,04/10/2026,15:00,Huracan,Aldosivi,,
+11,04/10/2026,15:00,Independiente,Instituto Cordoba,,
+11,04/10/2026,15:00,Independ. Rivadavia,Gimnasia L.P.,,
+11,04/10/2026,15:00,Newells Old Boys,Lanus,,
+11,04/10/2026,15:00,Sarmiento Junin,River Plate,,
+11,04/10/2026,15:00,Talleres Cordoba,Belgrano Cordoba,,
+11,04/10/2026,15:00,Velez Sarsfield,Platense,,
+12,11/10/2026,15:00,Aldosivi,Sarmiento Junin,,
+12,11/10/2026,15:00,Barracas Central,Huracan,,
+12,11/10/2026,15:00,Central Cordoba de Santiago,Estudiantes L.P.,,
+12,11/10/2026,15:00,Gimnasia L.P.,Atletico Tucuman,,
+12,11/10/2026,15:00,Gimnasia M.,Newells Old Boys,,
+12,11/10/2026,15:00,Instituto Cordoba,Boca Juniors,,
+12,11/10/2026,15:00,Lanus,Velez Sarsfield,,
+12,11/10/2026,15:00,Platense,Argentinos JRS,,
+12,11/10/2026,15:00,Racing Club,Belgrano Cordoba,,
+12,11/10/2026,15:00,River Plate,Estudiantes de Rio Cuarto,,
+12,11/10/2026,15:00,Rosario Central,Independ. Rivadavia,,
+12,11/10/2026,15:00,San Lorenzo,Deportivo Riestra,,
+12,11/10/2026,15:00,Talleres Cordoba,Independiente,,
+12,11/10/2026,15:00,Tigre,Banfield,,
+12,11/10/2026,15:00,Union Santa Fe,Defensa Y Justicia,,
+13,18/10/2026,15:00,Atletico Tucuman,Rosario Central,,
+13,18/10/2026,15:00,Banfield,Argentinos JRS,,
+13,18/10/2026,15:00,Belgrano Cordoba,River Plate,,
+13,18/10/2026,15:00,Boca Juniors,Talleres Cordoba,,
+13,18/10/2026,15:00,Defensa Y Justicia,Instituto Cordoba,,
+13,18/10/2026,15:00,Deportivo Riestra,Union Santa Fe,,
+13,18/10/2026,15:00,Estudiantes L.P.,San Lorenzo,,
+13,18/10/2026,15:00,Estudiantes de Rio Cuarto,Aldosivi,,
+13,18/10/2026,15:00,Huracan,Gimnasia L.P.,,
+13,18/10/2026,15:00,Independ. Rivadavia,Tigre,,
+13,18/10/2026,15:00,Newells Old Boys,Central Cordoba de Santiago,,
+13,18/10/2026,15:00,Platense,Lanus,,
+13,18/10/2026,15:00,Racing Club,Independiente,,
+13,18/10/2026,15:00,Sarmiento Junin,Barracas Central,,
+13,18/10/2026,15:00,Velez Sarsfield,Gimnasia M.,,
+14,25/10/2026,16:00,Aldosivi,Belgrano Cordoba,,
+14,25/10/2026,16:00,Argentinos JRS,Independ. Rivadavia,,
+14,25/10/2026,16:00,Banfield,Lanus,,
+14,25/10/2026,16:00,Barracas Central,Estudiantes de Rio Cuarto,,
+14,25/10/2026,16:00,Central Cordoba de Santiago,Velez Sarsfield,,
+14,25/10/2026,16:00,Gimnasia L.P.,Sarmiento Junin,,
+14,25/10/2026,16:00,Gimnasia M.,Platense,,
+14,25/10/2026,16:00,Independiente,Boca Juniors,,
+14,25/10/2026,16:00,Instituto Cordoba,Deportivo Riestra,,
+14,25/10/2026,16:00,River Plate,Racing Club,,
+14,25/10/2026,16:00,Rosario Central,Huracan,,
+14,25/10/2026,16:00,San Lorenzo,Newells Old Boys,,
+14,25/10/2026,16:00,Talleres Cordoba,Defensa Y Justicia,,
+14,25/10/2026,16:00,Tigre,Atletico Tucuman,,
+14,25/10/2026,16:00,Union Santa Fe,Estudiantes L.P.,,
+15,01/11/2026,16:00,Atletico Tucuman,Argentinos JRS,,
+15,01/11/2026,16:00,Belgrano Cordoba,Barracas Central,,
+15,01/11/2026,16:00,Boca Juniors,River Plate,,
+15,01/11/2026,16:00,Defensa Y Justicia,Independiente,,
+15,01/11/2026,16:00,Deportivo Riestra,Talleres Cordoba,,
+15,01/11/2026,16:00,Estudiantes L.P.,Instituto Cordoba,,
+15,01/11/2026,16:00,Estudiantes de Rio Cuarto,Gimnasia L.P.,,
+15,01/11/2026,16:00,Huracan,Tigre,,
+15,01/11/2026,16:00,Independ. Rivadavia,Banfield,,
+15,01/11/2026,16:00,Lanus,Gimnasia M.,,
+15,01/11/2026,16:00,Newells Old Boys,Union Santa Fe,,
+15,01/11/2026,16:00,Platense,Central Cordoba de Santiago,,
+15,01/11/2026,16:00,Racing Club,Aldosivi,,
+15,01/11/2026,16:00,Sarmiento Junin,Rosario Central,,
+15,01/11/2026,16:00,Velez Sarsfield,San Lorenzo,,
+16,08/11/2026,16:00,Aldosivi,River Plate,,
+16,08/11/2026,16:00,Argentinos JRS,Huracan,,
+16,08/11/2026,16:00,Banfield,Atletico Tucuman,,
+16,08/11/2026,16:00,Barracas Central,Racing Club,,
+16,08/11/2026,16:00,Boca Juniors,Defensa Y Justicia,,
+16,08/11/2026,16:00,Central Cordoba de Santiago,Lanus,,
+16,08/11/2026,16:00,Gimnasia L.P.,Belgrano Cordoba,,
+16,08/11/2026,16:00,Gimnasia M.,Independ. Rivadavia,,
+16,08/11/2026,16:00,Independiente,Deportivo Riestra,,
+16,08/11/2026,16:00,Instituto Cordoba,Newells Old Boys,,
+16,08/11/2026,16:00,Rosario Central,Estudiantes de Rio Cuarto,,
+16,08/11/2026,16:00,San Lorenzo,Platense,,
+16,08/11/2026,16:00,Talleres Cordoba,Estudiantes L.P.,,
+16,08/11/2026,16:00,Tigre,Sarmiento Junin,,
+16,08/11/2026,16:00,Union Santa Fe,Velez Sarsfield,,

@@ -1,0 +1,553 @@
+matchday,date,time,home_team,away_team,result,status
+1,08/08/2025,14:00,Birmingham,Ipswich,1-1,Final
+1,09/08/2025,06:30,Southampton,Wrexham,2-1,Final
+1,09/08/2025,06:30,Charlton,Watford,1-0,Final
+1,09/08/2025,06:30,Coventry,Hull City,0-0,Final
+1,09/08/2025,09:00,West Brom,Blackburn,1-0,Final
+1,09/08/2025,09:00,Middlesbrough,Swansea,1-0,Final
+1,09/08/2025,09:00,Norwich,Millwall,1-2,Final
+1,09/08/2025,09:00,QPR,Preston,1-1,Final
+1,09/08/2025,09:00,Stoke City,Derby,3-1,Final
+1,09/08/2025,09:00,Oxford United,Portsmouth,0-1,Final
+1,09/08/2025,11:30,Sheffield Utd,Bristol City,1-4,Final
+1,10/08/2025,10:30,Leicester,Sheffield Wednesday,2-1,Final
+2,16/08/2025,06:30,Derby,Coventry,3-5,Final
+2,16/08/2025,06:30,Portsmouth,Norwich,1-2,Final
+2,16/08/2025,06:30,Wrexham,West Brom,2-3,Final
+2,16/08/2025,09:00,Watford,QPR,2-1,Final
+2,16/08/2025,09:00,Bristol City,Charlton,0-0,Final
+2,16/08/2025,09:00,Millwall,Middlesbrough,0-3,Final
+2,16/08/2025,09:00,Preston,Leicester,2-1,Final
+2,16/08/2025,09:00,Blackburn,Birmingham,1-2,Final
+2,16/08/2025,09:00,Sheffield Wednesday,Stoke City,0-3,Final
+2,16/08/2025,09:00,Swansea,Sheffield Utd,1-0,Final
+2,17/08/2025,06:00,Ipswich,Southampton,1-1,Final
+2,17/08/2025,09:00,Hull City,Oxford United,3-2,Final
+3,22/08/2025,14:00,Derby,Bristol City,1-1,Final
+3,23/08/2025,06:30,Hull City,Blackburn,0-3,Final
+3,23/08/2025,06:30,Swansea,Watford,1-1,Final
+3,23/08/2025,06:30,Charlton,Leicester,0-1,Final
+3,23/08/2025,09:00,Southampton,Stoke City,1-2,Final
+3,23/08/2025,09:00,Birmingham,Oxford United,1-0,Final
+3,23/08/2025,09:00,Preston,Ipswich,1-0,Final
+3,23/08/2025,09:00,West Brom,Portsmouth,1-1,Final
+3,23/08/2025,09:00,Sheffield Utd,Millwall,0-1,Final
+3,23/08/2025,09:00,Norwich,Middlesbrough,1-2,Final
+3,23/08/2025,09:00,Coventry,QPR,7-1,Final
+3,23/08/2025,09:00,Wrexham,Sheffield Wednesday,2-2,Final
+4,29/08/2025,14:00,Leicester,Birmingham,2-0,Final
+4,30/08/2025,06:30,Middlesbrough,Sheffield Utd,1-0,Final
+4,30/08/2025,06:30,QPR,Charlton,3-1,Final
+4,30/08/2025,06:30,Stoke City,West Brom,0-1,Final
+4,30/08/2025,09:00,Watford,Southampton,2-2,Final
+4,30/08/2025,09:00,Bristol City,Hull City,4-2,Final
+4,30/08/2025,09:00,Ipswich,Derby,2-2,Final
+4,30/08/2025,09:00,Millwall,Wrexham,0-2,Final
+4,30/08/2025,09:00,Blackburn,Norwich,0-2,Final
+4,30/08/2025,09:00,Sheffield Wednesday,Swansea,0-2,Final
+4,30/08/2025,09:00,Oxford United,Coventry,2-2,Final
+4,30/08/2025,09:00,Portsmouth,Preston,1-0,Final
+5,12/09/2025,14:00,Ipswich,Sheffield Utd,5-0,Final
+5,13/09/2025,06:30,Preston,Middlesbrough,2-2,Final
+5,13/09/2025,06:30,Charlton,Millwall,1-1,Final
+5,13/09/2025,06:30,Oxford United,Leicester,2-2,Final
+5,13/09/2025,09:00,Watford,Blackburn,0-1,Final
+5,13/09/2025,09:00,West Brom,Derby,0-1,Final
+5,13/09/2025,09:00,Sheffield Wednesday,Bristol City,0-3,Final
+5,13/09/2025,09:00,Stoke City,Birmingham,1-0,Final
+5,13/09/2025,09:00,Swansea,Hull City,2-2,Final
+5,13/09/2025,09:00,Coventry,Norwich,1-1,Final
+5,13/09/2025,09:00,Wrexham,QPR,1-3,Final
+5,14/09/2025,06:00,Southampton,Portsmouth,0-0,Final
+6,19/09/2025,14:00,Middlesbrough,West Brom,2-1,Final
+6,20/09/2025,06:30,Leicester,Coventry,0-0,Final
+6,20/09/2025,06:30,Birmingham,Swansea,1-0,Final
+6,20/09/2025,06:30,QPR,Stoke City,1-0,Final
+6,20/09/2025,09:00,Sheffield Utd,Charlton,0-1,Final
+6,20/09/2025,09:00,Hull City,Southampton,3-1,Final
+6,20/09/2025,09:00,Derby,Preston,0-1,Final
+6,20/09/2025,09:00,Norwich,Wrexham,2-3,Final
+6,20/09/2025,09:00,Portsmouth,Sheffield Wednesday,0-2,Final
+6,21/09/2025,09:00,Bristol City,Oxford United,1-3,Final
+6,22/09/2025,14:00,Millwall,Watford,1-0,Final
+7,26/09/2025,14:00,West Brom,Leicester,1-1,Final
+7,27/09/2025,06:30,Swansea,Millwall,1-1,Final
+7,27/09/2025,06:30,Coventry,Birmingham,3-0,Final
+7,27/09/2025,06:30,Wrexham,Derby,1-1,Final
+7,27/09/2025,09:00,Watford,Hull City,2-1,Final
+7,27/09/2025,09:00,Southampton,Middlesbrough,1-1,Final
+7,27/09/2025,09:00,Ipswich,Portsmouth,2-1,Final
+7,27/09/2025,09:00,Preston,Bristol City,0-0,Final
+7,27/09/2025,09:00,Sheffield Wednesday,QPR,1-1,Final
+7,27/09/2025,09:00,Stoke City,Norwich,1-1,Final
+7,27/09/2025,09:00,Charlton,Blackburn,3-0,Final
+7,27/09/2025,09:00,Oxford United,Sheffield Utd,0-1,Final
+8,30/09/2025,13:45,Leicester,Wrexham,1-1,Final
+8,30/09/2025,13:45,Birmingham,Sheffield Wednesday,2-2,Final
+8,30/09/2025,13:45,Bristol City,Ipswich,1-1,Final
+8,30/09/2025,13:45,Sheffield Utd,Southampton,1-2,Final
+8,30/09/2025,13:45,Hull City,Preston,2-2,Final
+8,30/09/2025,13:45,Blackburn,Swansea,1-2,Final
+8,30/09/2025,13:45,Middlesbrough,Stoke City,0-0,Final
+8,30/09/2025,14:00,Derby,Charlton,1-1,Final
+8,01/10/2025,13:45,Millwall,Coventry,0-4,Final
+8,01/10/2025,13:45,Norwich,West Brom,0-1,Final
+8,01/10/2025,13:45,Portsmouth,Watford,2-2,Final
+8,01/10/2025,14:00,QPR,Oxford United,0-0,Final
+9,03/10/2025,14:00,Wrexham,Birmingham,1-1,Final
+9,04/10/2025,06:30,Hull City,Sheffield Utd,1-0,Final
+9,04/10/2025,06:30,Blackburn,Stoke City,1-1,Final
+9,04/10/2025,06:30,Sheffield Wednesday,Coventry,0-5,Final
+9,04/10/2025,09:00,Watford,Oxford United,2-1,Final
+9,04/10/2025,09:00,Bristol City,QPR,1-2,Final
+9,04/10/2025,09:00,Millwall,West Brom,3-0,Final
+9,04/10/2025,09:00,Preston,Charlton,2-0,Final
+9,04/10/2025,09:00,Derby,Southampton,1-1,Final
+9,04/10/2025,09:00,Swansea,Leicester,1-3,Final
+9,04/10/2025,09:00,Portsmouth,Middlesbrough,1-0,Final
+9,05/10/2025,06:00,Ipswich,Norwich,3-1,Final
+10,17/10/2025,14:00,Middlesbrough,Ipswich,2-1,Final
+10,18/10/2025,06:30,Southampton,Swansea,0-0,Final
+10,18/10/2025,06:30,QPR,Millwall,1-2,Final
+10,18/10/2025,06:30,Oxford United,Derby,1-0,Final
+10,18/10/2025,09:00,Birmingham,Hull City,2-3,Final
+10,18/10/2025,09:00,West Brom,Preston,2-1,Final
+10,18/10/2025,09:00,Sheffield Utd,Watford,1-0,Final
+10,18/10/2025,09:00,Norwich,Bristol City,0-1,Final
+10,18/10/2025,09:00,Stoke City,Wrexham,1-0,Final
+10,18/10/2025,09:00,Charlton,Sheffield Wednesday,2-1,Final
+10,18/10/2025,09:00,Coventry,Blackburn,2-0,Final
+10,18/10/2025,13:45,Leicester,Portsmouth,1-1,Final
+11,21/10/2025,13:45,Ipswich,Charlton,0-3,Final
+11,21/10/2025,13:45,Millwall,Stoke City,2-0,Final
+11,21/10/2025,13:45,Preston,Birmingham,0-1,Final
+11,21/10/2025,13:45,Hull City,Leicester,2-1,Final
+11,21/10/2025,13:45,Blackburn,Sheffield Utd,1-3,Final
+11,21/10/2025,13:45,Derby,Norwich,1-0,Final
+11,21/10/2025,13:45,Portsmouth,Coventry,1-2,Final
+11,21/10/2025,14:00,Bristol City,Southampton,3-1,Final
+11,22/10/2025,13:45,Watford,West Brom,2-1,Final
+11,22/10/2025,13:45,Swansea,QPR,0-1,Final
+11,22/10/2025,13:45,Wrexham,Oxford United,1-0,Final
+11,22/10/2025,14:00,Sheffield Wednesday,Middlesbrough,0-1,Final
+12,24/10/2025,14:00,Preston,Sheffield Utd,3-2,Final
+12,25/10/2025,06:30,Ipswich,West Brom,1-0,Final
+12,25/10/2025,06:30,Coventry,Watford,3-1,Final
+12,25/10/2025,06:30,Portsmouth,Stoke City,0-1,Final
+12,25/10/2025,09:00,Bristol City,Birmingham,1-0,Final
+12,25/10/2025,09:00,Millwall,Leicester,1-0,Final
+12,25/10/2025,09:00,Hull City,Charlton,1-1,Final
+12,25/10/2025,09:00,Blackburn,Southampton,2-1,Final
+12,25/10/2025,09:00,Derby,QPR,1-0,Final
+12,25/10/2025,09:00,Middlesbrough,Wrexham,1-1,Final
+12,25/10/2025,09:00,Sheffield Wednesday,Oxford United,1-2,Final
+12,25/10/2025,09:00,Swansea,Norwich,2-1,Final
+13,31/10/2025,15:00,Wrexham,Coventry,3-2,Final
+13,01/11/2025,07:30,Leicester,Blackburn,0-2,Final
+13,01/11/2025,07:30,West Brom,Sheffield Wednesday,0-0,Final
+13,01/11/2025,07:30,Norwich,Hull City,0-2,Final
+13,01/11/2025,10:00,Watford,Middlesbrough,3-0,Final
+13,01/11/2025,10:00,Southampton,Preston,0-2,Final
+13,01/11/2025,10:00,Birmingham,Portsmouth,4-0,Final
+13,01/11/2025,10:00,Sheffield Utd,Derby,1-3,Final
+13,01/11/2025,10:00,QPR,Ipswich,1-4,Final
+13,01/11/2025,10:00,Stoke City,Bristol City,5-1,Final
+13,01/11/2025,10:00,Charlton,Swansea,1-1,Final
+13,01/11/2025,10:00,Oxford United,Millwall,2-2,Final
+14,04/11/2025,14:45,Leicester,Middlesbrough,1-1,Final
+14,04/11/2025,14:45,Birmingham,Millwall,4-0,Final
+14,04/11/2025,14:45,Bristol City,Blackburn,0-1,Final
+14,04/11/2025,14:45,Ipswich,Watford,1-1,Final
+14,04/11/2025,14:45,Derby,Hull City,2-1,Final
+14,04/11/2025,14:45,Charlton,West Brom,1-0,Final
+14,04/11/2025,14:45,Oxford United,Stoke City,0-3,Final
+14,04/11/2025,15:00,Coventry,Sheffield Utd,3-1,Final
+14,05/11/2025,14:45,Preston,Swansea,2-1,Final
+14,05/11/2025,14:45,QPR,Southampton,1-2,Final
+14,05/11/2025,14:45,Sheffield Wednesday,Norwich,1-1,Final
+14,05/11/2025,15:00,Portsmouth,Wrexham,0-0,Final
+15,07/11/2025,15:00,Watford,Bristol City,1-1,Final
+15,08/11/2025,07:30,Millwall,Preston,1-1,Final
+15,08/11/2025,07:30,Hull City,Portsmouth,3-2,Final
+15,08/11/2025,07:30,Blackburn,Derby,1-2,Final
+15,08/11/2025,10:00,Southampton,Sheffield Wednesday,3-1,Final
+15,08/11/2025,10:00,West Brom,Oxford United,2-1,Final
+15,08/11/2025,10:00,Sheffield Utd,QPR,0-0,Final
+15,08/11/2025,10:00,Middlesbrough,Birmingham,2-1,Final
+15,08/11/2025,10:00,Norwich,Leicester,1-2,Final
+15,08/11/2025,10:00,Stoke City,Coventry,0-1,Final
+15,08/11/2025,10:00,Swansea,Ipswich,1-4,Final
+15,08/11/2025,10:00,Wrexham,Charlton,1-0,Final
+16,21/11/2025,15:00,Preston,Blackburn,1-2,Final
+16,22/11/2025,07:30,Bristol City,Swansea,3-0,Final
+16,22/11/2025,07:30,Charlton,Southampton,1-5,Final
+16,22/11/2025,07:30,Coventry,West Brom,3-2,Final
+16,22/11/2025,10:00,Leicester,Stoke City,2-1,Final
+16,22/11/2025,10:00,Birmingham,Norwich,4-1,Final
+16,22/11/2025,10:00,Ipswich,Wrexham,0-0,Final
+16,22/11/2025,10:00,Derby,Watford,2-3,Final
+16,22/11/2025,10:00,QPR,Hull City,3-2,Final
+16,22/11/2025,10:00,Oxford United,Middlesbrough,1-1,Final
+16,22/11/2025,10:00,Portsmouth,Millwall,3-1,Final
+16,23/11/2025,07:00,Sheffield Wednesday,Sheffield Utd,0-3,Final
+17,25/11/2025,14:45,Watford,Preston,1-1,Final
+17,25/11/2025,14:45,Hull City,Ipswich,0-2,Final
+17,25/11/2025,14:45,Middlesbrough,Coventry,2-4,Final
+17,25/11/2025,14:45,Norwich,Oxford United,1-1,Final
+17,25/11/2025,14:45,Stoke City,Charlton,3-0,Final
+17,25/11/2025,14:45,Swansea,Derby,1-2,Final
+17,25/11/2025,15:00,Southampton,Leicester,3-0,Final
+17,26/11/2025,14:45,Millwall,Sheffield Wednesday,1-0,Final
+17,26/11/2025,14:45,Sheffield Utd,Portsmouth,3-0,Final
+17,26/11/2025,14:45,Blackburn,QPR,0-1,Final
+17,26/11/2025,14:45,Wrexham,Bristol City,2-0,Final
+17,26/11/2025,15:00,West Brom,Birmingham,1-1,Final
+18,28/11/2025,15:00,Oxford United,Ipswich,2-1,Final
+18,29/11/2025,07:30,Leicester,Sheffield Utd,2-3,Final
+18,29/11/2025,07:30,Stoke City,Hull City,1-2,Final
+18,29/11/2025,07:30,Portsmouth,Bristol City,0-1,Final
+18,29/11/2025,10:00,Millwall,Southampton,3-2,Final
+18,29/11/2025,10:00,West Brom,Swansea,3-2,Final
+18,29/11/2025,10:00,Middlesbrough,Derby,2-1,Final
+18,29/11/2025,10:00,Norwich,QPR,3-1,Final
+18,29/11/2025,10:00,Sheffield Wednesday,Preston,2-3,Final
+18,29/11/2025,10:00,Coventry,Charlton,3-1,Final
+18,29/11/2025,10:00,Wrexham,Blackburn,1-1,Final
+18,01/12/2025,15:00,Birmingham,Watford,2-1,Final
+6,02/12/2025,14:45,Blackburn,Ipswich,1-1,Final
+19,05/12/2025,15:00,Hull City,Middlesbrough,1-4,Final
+19,06/12/2025,07:30,Watford,Norwich,3-2,Final
+19,06/12/2025,07:30,Derby,Leicester,1-3,Final
+19,06/12/2025,10:00,Southampton,Birmingham,3-1,Final
+19,06/12/2025,10:00,Bristol City,Millwall,0-1,Final
+19,06/12/2025,10:00,Ipswich,Coventry,3-0,Final
+19,06/12/2025,10:00,Preston,Wrexham,1-1,Final
+19,06/12/2025,10:00,Sheffield Utd,Stoke City,4-0,Final
+19,06/12/2025,10:00,QPR,West Brom,3-1,Final
+19,06/12/2025,10:00,Swansea,Oxford United,2-0,Final
+20,09/12/2025,14:45,Watford,Sheffield Wednesday,1-1,Final
+20,09/12/2025,14:45,Southampton,West Brom,3-2,Final
+20,09/12/2025,14:45,Preston,Coventry,1-1,Final
+20,09/12/2025,14:45,Sheffield Utd,Norwich,1-1,Final
+20,09/12/2025,14:45,Blackburn,Oxford United,1-1,Final
+20,09/12/2025,14:45,Swansea,Portsmouth,1-0,Final
+20,09/12/2025,14:45,Charlton,Middlesbrough,1-2,Final
+20,09/12/2025,15:00,QPR,Birmingham,2-1,Final
+20,10/12/2025,14:45,Bristol City,Leicester,2-2,Final
+20,10/12/2025,14:45,Ipswich,Stoke City,1-0,Final
+20,10/12/2025,14:45,Derby,Millwall,1-1,Final
+20,10/12/2025,15:00,Hull City,Wrexham,2-0,Final
+21,12/12/2025,15:00,West Brom,Sheffield Utd,2-0,Final
+21,13/12/2025,07:30,Norwich,Southampton,2-1,Final
+21,13/12/2025,07:30,Stoke City,Swansea,2-1,Final
+21,13/12/2025,07:30,Oxford United,Preston,1-2,Final
+21,13/12/2025,10:00,Leicester,Ipswich,3-1,Final
+21,13/12/2025,10:00,Birmingham,Charlton,1-1,Final
+21,13/12/2025,10:00,Millwall,Hull City,1-3,Final
+21,13/12/2025,10:00,Middlesbrough,QPR,3-1,Final
+21,13/12/2025,10:00,Coventry,Bristol City,1-0,Final
+21,13/12/2025,10:00,Portsmouth,Blackburn,2-1,Final
+21,13/12/2025,10:00,Wrexham,Watford,2-2,Final
+21,15/12/2025,15:00,Sheffield Wednesday,Derby,0-3,Final
+22,19/12/2025,15:00,Swansea,Wrexham,2-1,Final
+22,20/12/2025,07:30,Southampton,Coventry,1-1,Final
+22,20/12/2025,07:30,Preston,Norwich,1-1,Final
+22,20/12/2025,07:30,Blackburn,Millwall,2-0,Final
+22,20/12/2025,10:00,Watford,Stoke City,1-0,Final
+22,20/12/2025,10:00,Bristol City,Middlesbrough,2-0,Final
+22,20/12/2025,10:00,Ipswich,Sheffield Wednesday,3-1,Final
+22,20/12/2025,10:00,Sheffield Utd,Birmingham,3-0,Final
+22,20/12/2025,10:00,Hull City,West Brom,1-0,Final
+22,20/12/2025,10:00,Derby,Portsmouth,1-1,Final
+22,20/12/2025,10:00,QPR,Leicester,4-1,Final
+22,20/12/2025,10:00,Charlton,Oxford United,1-0,Final
+23,26/12/2025,07:30,Birmingham,Derby,1-1,Final
+23,26/12/2025,08:00,Millwall,Ipswich,0-0,Final
+23,26/12/2025,10:00,Leicester,Watford,1-2,Final
+23,26/12/2025,10:00,West Brom,Bristol City,1-2,Final
+23,26/12/2025,10:00,Middlesbrough,Blackburn,0-0,Final
+23,26/12/2025,10:00,Norwich,Charlton,1-0,Final
+23,26/12/2025,10:00,Sheffield Wednesday,Hull City,2-2,Final
+23,26/12/2025,10:00,Stoke City,Preston,0-0,Final
+23,26/12/2025,10:00,Oxford United,Southampton,2-1,Final
+23,26/12/2025,10:00,Coventry,Swansea,1-0,Final
+23,26/12/2025,10:00,Portsmouth,QPR,1-1,Final
+23,26/12/2025,12:30,Wrexham,Sheffield Utd,5-3,Final
+24,29/12/2025,13:00,Coventry,Ipswich,0-2,Final
+24,29/12/2025,14:45,Leicester,Derby,2-1,Final
+24,29/12/2025,14:45,Millwall,Bristol City,2-1,Final
+24,29/12/2025,14:45,West Brom,QPR,2-1,Final
+24,29/12/2025,14:45,Middlesbrough,Hull City,0-1,Final
+24,29/12/2025,14:45,Norwich,Watford,0-1,Final
+24,29/12/2025,14:45,Sheffield Wednesday,Blackburn,0-0,Final
+24,29/12/2025,14:45,Stoke City,Sheffield Utd,1-2,Final
+24,29/12/2025,14:45,Oxford United,Swansea,0-1,Final
+24,29/12/2025,14:45,Portsmouth,Charlton,2-1,Final
+24,29/12/2025,14:45,Wrexham,Preston,2-1,Final
+24,29/12/2025,15:15,Birmingham,Southampton,1-1,Final
+25,01/01/2026,07:30,Blackburn,Wrexham,0-2,Final
+25,01/01/2026,10:00,Watford,Birmingham,3-0,Final
+25,01/01/2026,10:00,Southampton,Millwall,0-0,Final
+25,01/01/2026,10:00,Bristol City,Portsmouth,5-0,Final
+25,01/01/2026,10:00,Ipswich,Oxford United,2-1,Final
+25,01/01/2026,10:00,Preston,Sheffield Wednesday,3-0,Final
+25,01/01/2026,10:00,Hull City,Stoke City,0-1,Final
+25,01/01/2026,10:00,Derby,Middlesbrough,1-0,Final
+25,01/01/2026,10:00,QPR,Norwich,1-2,Final
+25,01/01/2026,10:00,Swansea,West Brom,1-0,Final
+25,01/01/2026,10:00,Charlton,Coventry,1-1,Final
+25,01/01/2026,12:30,Sheffield Utd,Leicester,3-1,Final
+26,04/01/2026,07:00,Birmingham,Coventry,3-2,Final
+26,04/01/2026,07:00,QPR,Sheffield Wednesday,3-0,Final
+26,04/01/2026,10:00,Bristol City,Preston,0-2,Final
+26,04/01/2026,10:00,Millwall,Swansea,2-1,Final
+26,04/01/2026,10:00,Blackburn,Charlton,2-2,Final
+26,04/01/2026,10:00,Derby,Wrexham,1-2,Final
+26,04/01/2026,10:00,Middlesbrough,Southampton,4-0,Final
+26,04/01/2026,10:00,Norwich,Stoke City,0-2,Final
+26,05/01/2026,15:00,Leicester,West Brom,2-1,Final
+27,16/01/2026,15:00,West Brom,Middlesbrough,2-3,Final
+27,17/01/2026,07:30,Watford,Millwall,0-2,Final
+27,17/01/2026,07:30,Ipswich,Blackburn,3-0,Final
+27,17/01/2026,07:30,Coventry,Leicester,2-1,Final
+27,17/01/2026,10:00,Southampton,Hull City,1-2,Final
+27,17/01/2026,10:00,Preston,Derby,0-1,Final
+27,17/01/2026,10:00,Sheffield Wednesday,Portsmouth,0-1,Final
+27,17/01/2026,10:00,Stoke City,QPR,0-0,Final
+27,17/01/2026,10:00,Charlton,Sheffield Utd,1-0,Final
+27,17/01/2026,10:00,Oxford United,Bristol City,0-0,Final
+27,17/01/2026,10:00,Wrexham,Norwich,1-2,Final
+27,17/01/2026,12:30,Swansea,Birmingham,1-1,Final
+28,20/01/2026,14:45,Ipswich,Bristol City,2-0,Final
+28,20/01/2026,14:45,Preston,Hull City,0-3,Final
+28,20/01/2026,14:45,West Brom,Norwich,0-5,Final
+28,20/01/2026,14:45,Sheffield Wednesday,Birmingham,0-2,Final
+28,20/01/2026,14:45,Swansea,Blackburn,3-1,Final
+28,20/01/2026,14:45,Charlton,Derby,1-2,Final
+28,20/01/2026,14:45,Oxford United,QPR,0-0,Final
+28,20/01/2026,14:45,Coventry,Millwall,2-1,Final
+28,20/01/2026,15:00,Wrexham,Leicester,1-1,Final
+28,21/01/2026,14:45,Watford,Portsmouth,1-1,Final
+28,21/01/2026,14:45,Southampton,Sheffield Utd,1-0,Final
+28,21/01/2026,15:00,Stoke City,Middlesbrough,1-2,Final
+29,23/01/2026,15:00,Derby,West Brom,1-1,Final
+29,24/01/2026,07:30,Millwall,Charlton,4-0,Final
+29,24/01/2026,07:30,Middlesbrough,Preston,4-0,Final
+29,24/01/2026,10:00,Leicester,Oxford United,1-2,Final
+29,24/01/2026,10:00,Birmingham,Stoke City,1-1,Final
+29,24/01/2026,10:00,Bristol City,Sheffield Wednesday,2-0,Final
+29,24/01/2026,10:00,Sheffield Utd,Ipswich,3-1,Final
+29,24/01/2026,10:00,Hull City,Swansea,2-1,Final
+29,24/01/2026,10:00,Blackburn,Watford,1-1,Final
+29,24/01/2026,10:00,QPR,Wrexham,2-3,Final
+29,25/01/2026,07:00,Portsmouth,Southampton,1-1,Final
+29,26/01/2026,15:00,Norwich,Coventry,2-1,Final
+30,30/01/2026,15:00,Bristol City,Derby,0-5,Final
+30,31/01/2026,07:30,Leicester,Charlton,0-2,Final
+30,31/01/2026,07:30,Sheffield Wednesday,Wrexham,0-1,Final
+30,31/01/2026,07:30,Stoke City,Southampton,0-2,Final
+30,31/01/2026,10:00,Watford,Swansea,0-2,Final
+30,31/01/2026,10:00,Ipswich,Preston,1-1,Final
+30,31/01/2026,10:00,Millwall,Sheffield Utd,1-1,Final
+30,31/01/2026,10:00,Blackburn,Hull City,0-1,Final
+30,31/01/2026,10:00,Middlesbrough,Norwich,1-0,Final
+30,31/01/2026,10:00,QPR,Coventry,2-1,Final
+30,31/01/2026,10:00,Oxford United,Birmingham,0-2,Final
+30,31/01/2026,10:00,Portsmouth,West Brom,3-0,Final
+19,03/02/2026,14:45,Blackburn,Sheffield Wednesday,1-0,Final
+26,03/02/2026,14:45,Sheffield Utd,Oxford United,3-1,Final
+26,03/02/2026,14:45,Hull City,Watford,0-0,Final
+31,06/02/2026,15:01,Charlton,QPR,0-0,Final
+31,07/02/2026,07:31,Southampton,Watford,1-0,Final
+31,07/02/2026,07:31,Derby,Ipswich,1-2,Final
+31,07/02/2026,07:31,Norwich,Blackburn,2-0,Final
+31,07/02/2026,10:01,Birmingham,Leicester,2-1,Final
+31,07/02/2026,10:01,Preston,Portsmouth,1-0,Final
+31,07/02/2026,10:01,West Brom,Stoke City,0-0,Final
+31,07/02/2026,10:01,Hull City,Bristol City,2-3,Final
+31,07/02/2026,10:01,Coventry,Oxford United,0-0,Final
+31,07/02/2026,10:01,Wrexham,Millwall,0-2,Final
+31,08/02/2026,07:01,Swansea,Sheffield Wednesday,4-0,Final
+31,09/02/2026,15:01,Sheffield Utd,Middlesbrough,1-2,Final
+32,10/02/2026,14:45,Oxford United,Norwich,0-3,Final
+32,10/02/2026,14:45,Leicester,Southampton,3-4,Final
+32,10/02/2026,15:00,Birmingham,West Brom,0-0,Final
+32,11/02/2026,14:45,Charlton,Stoke City,1-0,Final
+32,14/02/2026,10:00,Preston,Watford,2-2,Final
+32,14/02/2026,10:00,Derby,Swansea,2-0,Final
+32,14/02/2026,10:00,QPR,Blackburn,1-3,Final
+32,14/02/2026,10:00,Sheffield Wednesday,Millwall,1-2,Final
+32,14/02/2026,10:00,Portsmouth,Sheffield Utd,0-1,Final
+32,16/02/2026,15:00,Coventry,Middlesbrough,3-1,Final
+19,17/02/2026,14:45,Charlton,Portsmouth,1-3,Final
+32,17/02/2026,14:45,Bristol City,Wrexham,2-2,Final
+33,20/02/2026,15:00,Blackburn,Preston,1-0,Final
+33,21/02/2026,07:30,West Brom,Coventry,0-2,Final
+33,21/02/2026,07:30,Hull City,QPR,1-3,Final
+33,21/02/2026,07:30,Stoke City,Leicester,2-2,Final
+33,21/02/2026,07:30,Swansea,Bristol City,1-0,Final
+33,21/02/2026,10:00,Watford,Derby,2-0,Final
+33,21/02/2026,10:00,Southampton,Charlton,1-1,Final
+33,21/02/2026,10:00,Millwall,Portsmouth,1-3,Final
+33,21/02/2026,10:00,Middlesbrough,Oxford United,0-0,Final
+33,21/02/2026,10:00,Norwich,Birmingham,1-2,Final
+33,21/02/2026,10:00,Wrexham,Ipswich,5-3,Final
+33,22/02/2026,07:00,Sheffield Utd,Sheffield Wednesday,2-1,Final
+34,24/02/2026,14:45,Watford,Ipswich,0-2,Final
+34,24/02/2026,14:45,West Brom,Charlton,1-1,Final
+34,24/02/2026,14:45,Hull City,Derby,4-2,Final
+34,24/02/2026,14:45,Blackburn,Bristol City,1-2,Final
+34,24/02/2026,14:45,Middlesbrough,Leicester,1-1,Final
+34,24/02/2026,14:45,Swansea,Preston,1-1,Final
+34,24/02/2026,14:45,Wrexham,Portsmouth,2-1,Final
+34,24/02/2026,15:00,Southampton,QPR,5-0,Final
+34,25/02/2026,14:45,Millwall,Birmingham,3-0,Final
+34,25/02/2026,14:45,Sheffield Utd,Coventry,1-2,Final
+34,25/02/2026,14:45,Norwich,Sheffield Wednesday,2-0,Final
+34,25/02/2026,15:00,Stoke City,Oxford United,2-1,Final
+35,27/02/2026,15:00,Bristol City,Watford,1-2,Final
+35,28/02/2026,07:30,Leicester,Norwich,0-2,Final
+35,28/02/2026,07:30,Derby,Blackburn,3-1,Final
+35,28/02/2026,07:30,Portsmouth,Hull City,0-1,Final
+35,28/02/2026,10:00,Ipswich,Swansea,3-0,Final
+35,28/02/2026,10:00,Preston,Millwall,0-2,Final
+35,28/02/2026,10:00,QPR,Sheffield Utd,0-2,Final
+35,28/02/2026,10:00,Sheffield Wednesday,Southampton,1-3,Final
+35,28/02/2026,10:00,Charlton,Wrexham,0-1,Final
+35,28/02/2026,10:00,Oxford United,West Brom,2-1,Final
+35,28/02/2026,10:00,Coventry,Stoke City,2-1,Final
+35,02/03/2026,15:00,Birmingham,Middlesbrough,1-3,Final
+32,03/03/2026,14:45,Ipswich,Hull City,1-0,Final
+36,06/03/2026,15:00,Preston,Oxford United,1-3,Final
+36,07/03/2026,07:30,Hull City,Millwall,1-3,Final
+36,07/03/2026,07:30,Blackburn,Portsmouth,1-1,Final
+36,07/03/2026,10:00,Bristol City,Coventry,0-2,Final
+36,07/03/2026,10:00,Ipswich,Leicester,1-1,Final
+36,07/03/2026,10:00,Sheffield Utd,West Brom,1-1,Final
+36,07/03/2026,10:00,Derby,Sheffield Wednesday,2-1,Final
+36,07/03/2026,10:00,Swansea,Stoke City,2-0,Final
+36,07/03/2026,10:00,Charlton,Birmingham,1-0,Final
+36,08/03/2026,11:30,QPR,Middlesbrough,0-4,Final
+37,10/03/2026,14:45,Leicester,Bristol City,2-0,Final
+37,10/03/2026,14:45,Millwall,Derby,1-0,Final
+37,10/03/2026,14:45,Sheffield Wednesday,Watford,1-1,Final
+37,10/03/2026,14:45,Portsmouth,Swansea,1-2,Final
+37,10/03/2026,14:45,Wrexham,Hull City,1-2,Final
+37,10/03/2026,15:00,Stoke City,Ipswich,3-3,Final
+37,11/03/2026,14:45,Birmingham,QPR,1-0,Final
+37,11/03/2026,14:45,Norwich,Sheffield Utd,2-1,Final
+37,11/03/2026,14:45,West Brom,Southampton,1-1,Final
+37,11/03/2026,14:45,Middlesbrough,Charlton,0-1,Final
+37,11/03/2026,14:45,Oxford United,Blackburn,1-0,Final
+37,11/03/2026,15:00,Coventry,Preston,3-0,Final
+38,13/03/2026,15:00,Wrexham,Swansea,2-0,Final
+38,14/03/2026,07:30,Middlesbrough,Bristol City,1-1,Final
+38,14/03/2026,07:30,Oxford United,Charlton,1-1,Final
+38,14/03/2026,07:30,Coventry,Southampton,1-2,Final
+38,14/03/2026,10:00,Leicester,QPR,1-3,Final
+38,14/03/2026,10:00,Birmingham,Sheffield Utd,1-1,Final
+38,14/03/2026,10:00,Millwall,Blackburn,1-2,Final
+38,14/03/2026,10:00,West Brom,Hull City,3-0,Final
+38,14/03/2026,10:00,Norwich,Preston,2-0,Final
+38,14/03/2026,10:00,Sheffield Wednesday,Ipswich,0-2,Final
+38,14/03/2026,10:00,Stoke City,Watford,3-1,Final
+38,16/03/2026,15:00,Portsmouth,Derby,0-1,Final
+36,17/03/2026,14:45,Watford,Wrexham,3-1,Final
+36,18/03/2026,14:45,Southampton,Norwich,1-0,Final
+39,20/03/2026,15:00,Preston,Stoke City,3-1,Final
+39,21/03/2026,07:30,Ipswich,Millwall,1-1,Final
+39,21/03/2026,07:30,Blackburn,Middlesbrough,0-0,Final
+39,21/03/2026,07:30,Derby,Birmingham,1-0,Final
+39,21/03/2026,10:00,Watford,Leicester,0-0,Final
+39,21/03/2026,10:00,Southampton,Oxford United,2-0,Final
+39,21/03/2026,10:00,Bristol City,West Brom,0-1,Final
+39,21/03/2026,10:00,Sheffield Utd,Wrexham,1-2,Final
+39,21/03/2026,10:00,Hull City,Sheffield Wednesday,3-1,Final
+39,21/03/2026,10:00,QPR,Portsmouth,6-1,Final
+39,21/03/2026,10:00,Charlton,Norwich,0-1,Final
+39,21/03/2026,12:15,Swansea,Coventry,0-3,Final
+40,03/04/2026,06:30,Middlesbrough,Millwall,1-2,En vivo
+40,03/04/2026,09:00,Leicester,Preston,,
+40,03/04/2026,09:00,Birmingham,Blackburn,,
+40,03/04/2026,09:00,West Brom,Wrexham,,
+40,03/04/2026,09:00,Sheffield Utd,Swansea,,
+40,03/04/2026,09:00,Norwich,Portsmouth,,
+40,03/04/2026,09:00,QPR,Watford,,
+40,03/04/2026,09:00,Stoke City,Sheffield Wednesday,,
+40,03/04/2026,09:00,Charlton,Bristol City,,
+40,03/04/2026,09:00,Oxford United,Hull City,,
+40,03/04/2026,14:00,Coventry,Derby,,
+41,06/04/2026,06:30,Portsmouth,Oxford United,,
+41,06/04/2026,07:00,Millwall,Norwich,,
+41,06/04/2026,09:00,Watford,Charlton,,
+41,06/04/2026,09:00,Bristol City,Sheffield Utd,,
+41,06/04/2026,09:00,Ipswich,Birmingham,,
+41,06/04/2026,09:00,Preston,QPR,,
+41,06/04/2026,09:00,Blackburn,West Brom,,
+41,06/04/2026,09:00,Derby,Stoke City,,
+41,06/04/2026,09:00,Sheffield Wednesday,Leicester,,
+41,06/04/2026,11:30,Swansea,Middlesbrough,,
+41,06/04/2026,14:00,Hull City,Coventry,,
+41,07/04/2026,14:00,Wrexham,Southampton,,
+42,10/04/2026,14:00,West Brom,Millwall,,
+42,11/04/2026,06:30,Norwich,Ipswich,,
+42,11/04/2026,06:30,QPR,Bristol City,,
+42,11/04/2026,06:30,Coventry,Sheffield Wednesday,,
+42,11/04/2026,09:00,Southampton,Derby,,
+42,11/04/2026,09:00,Leicester,Swansea,,
+42,11/04/2026,09:00,Sheffield Utd,Hull City,,
+42,11/04/2026,09:00,Middlesbrough,Portsmouth,,
+42,11/04/2026,09:00,Stoke City,Blackburn,,
+42,11/04/2026,09:00,Charlton,Preston,,
+42,11/04/2026,09:00,Oxford United,Watford,,
+42,12/04/2026,06:00,Birmingham,Wrexham,,
+26,14/04/2026,14:00,Portsmouth,Ipswich,,
+43,17/04/2026,14:00,Blackburn,Coventry,,
+43,18/04/2026,06:30,Millwall,QPR,,
+43,18/04/2026,06:30,Derby,Oxford United,,
+43,18/04/2026,06:30,Portsmouth,Leicester,,
+43,18/04/2026,09:00,Watford,Sheffield Utd,,
+43,18/04/2026,09:00,Bristol City,Norwich,,
+43,18/04/2026,09:00,Preston,West Brom,,
+43,18/04/2026,09:00,Hull City,Birmingham,,
+43,18/04/2026,09:00,Sheffield Wednesday,Charlton,,
+43,18/04/2026,09:00,Swansea,Southampton,,
+43,18/04/2026,09:00,Wrexham,Stoke City,,
+43,19/04/2026,06:00,Ipswich,Middlesbrough,,
+44,21/04/2026,13:45,Southampton,Bristol City,,
+44,21/04/2026,13:45,West Brom,Watford,,
+44,21/04/2026,13:45,Norwich,Derby,,
+44,21/04/2026,13:45,QPR,Swansea,,
+44,21/04/2026,13:45,Stoke City,Millwall,,
+44,21/04/2026,13:45,Oxford United,Wrexham,,
+44,21/04/2026,13:45,Coventry,Portsmouth,,
+44,22/04/2026,13:45,Middlesbrough,Sheffield Wednesday,,
+44,22/04/2026,13:45,Leicester,Hull City,,
+44,22/04/2026,13:45,Birmingham,Preston,,
+44,22/04/2026,13:45,Sheffield Utd,Blackburn,,
+44,22/04/2026,13:45,Charlton,Ipswich,,
+45,25/04/2026,09:00,Southampton,Blackburn,,
+45,25/04/2026,09:00,Leicester,Millwall,,
+45,25/04/2026,09:00,Birmingham,Bristol City,,
+45,25/04/2026,09:00,West Brom,Ipswich,,
+45,25/04/2026,09:00,Sheffield Utd,Preston,,
+45,25/04/2026,09:00,Middlesbrough,Watford,,
+45,25/04/2026,09:00,Norwich,Swansea,,
+45,25/04/2026,09:00,QPR,Derby,,
+45,25/04/2026,09:00,Stoke City,Portsmouth,,
+45,25/04/2026,09:00,Charlton,Hull City,,
+45,25/04/2026,09:00,Oxford United,Sheffield Wednesday,,
+45,25/04/2026,09:00,Coventry,Wrexham,,
+40,28/04/2026,13:45,Southampton,Ipswich,,
+46,02/05/2026,06:30,Watford,Coventry,,
+46,02/05/2026,06:30,Bristol City,Stoke City,,
+46,02/05/2026,06:30,Ipswich,QPR,,
+46,02/05/2026,06:30,Millwall,Oxford United,,
+46,02/05/2026,06:30,Preston,Southampton,,
+46,02/05/2026,06:30,Hull City,Norwich,,
+46,02/05/2026,06:30,Blackburn,Leicester,,
+46,02/05/2026,06:30,Derby,Sheffield Utd,,
+46,02/05/2026,06:30,Sheffield Wednesday,West Brom,,
+46,02/05/2026,06:30,Swansea,Charlton,,
+46,02/05/2026,06:30,Portsmouth,Birmingham,,
+46,02/05/2026,06:30,Wrexham,Middlesbrough,,

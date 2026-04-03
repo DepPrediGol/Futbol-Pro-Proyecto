@@ -1,0 +1,307 @@
+matchday,date,time,home_team,away_team,result,status
+1,28/08/2025,11:05,Damac,Al-Hazm,1-1,Final
+1,28/08/2025,13:00,Al-Ahli Jeddah,NEOM,1-0,Final
+1,28/08/2025,13:00,Al-Ettifaq,Al Kholood,2-1,Final
+1,29/08/2025,10:50,Al-Hilal Saudi FC,Al Riyadh,2-0,Final
+1,29/08/2025,13:00,Al Taawon,Al-Nassr,0-5,Final
+1,29/08/2025,13:00,Al Shabab,Al Khaleej Saihat,1-4,Final
+1,30/08/2025,10:55,Al-Fateh,Al-Fayha,1-2,Final
+1,30/08/2025,13:00,Al-Qadisiyah FC,Al Najma,3-1,Final
+1,30/08/2025,13:00,Al Okhdood,Al-Ittihad FC,2-5,Final
+2,12/09/2025,10:25,Al-Ettifaq,Al-Ahli Jeddah,0-0,Final
+2,12/09/2025,10:35,Al Shabab,Al-Hazm,1-0,Final
+2,12/09/2025,13:00,Al-Ittihad FC,Al-Fateh,4-2,Final
+2,13/09/2025,10:25,Al Khaleej Saihat,Al-Fayha,3-0,Final
+2,13/09/2025,10:45,Al Okhdood,Al Taawon,2-3,Final
+2,13/09/2025,13:00,Al-Hilal Saudi FC,Al-Qadisiyah FC,2-2,Final
+2,14/09/2025,10:35,Al Riyadh,Al Najma,2-1,Final
+2,14/09/2025,10:50,Damac,NEOM,1-2,Final
+2,14/09/2025,13:00,Al-Nassr,Al Kholood,2-0,Final
+3,18/09/2025,10:40,Al Taawon,Al-Ettifaq,4-1,Final
+3,18/09/2025,10:40,Al Kholood,Damac,2-1,Final
+3,18/09/2025,13:00,NEOM,Al Okhdood,1-0,Final
+3,19/09/2025,10:15,Al-Qadisiyah FC,Al Khaleej Saihat,2-1,Final
+3,19/09/2025,10:35,Al-Fayha,Al Shabab,0-0,Final
+3,19/09/2025,13:00,Al-Ahli Jeddah,Al-Hilal Saudi FC,3-3,Final
+3,20/09/2025,10:40,Al-Hazm,Al-Fateh,0-0,Final
+3,20/09/2025,10:40,Al Najma,Al-Ittihad FC,0-1,Final
+3,20/09/2025,13:00,Al-Nassr,Al Riyadh,5-1,Final
+4,25/09/2025,10:10,Al Khaleej Saihat,Al Taawon,0-1,Final
+4,25/09/2025,10:25,Al Shabab,Al Kholood,1-2,Final
+4,25/09/2025,13:00,Al-Hilal Saudi FC,Al Okhdood,3-1,Final
+4,26/09/2025,10:35,Al-Hazm,Al-Ahli Jeddah,0-2,Final
+4,26/09/2025,10:40,Damac,Al-Ettifaq,1-3,Final
+4,26/09/2025,13:00,Al-Ittihad FC,Al-Nassr,0-2,Final
+4,27/09/2025,10:20,Al Riyadh,NEOM,2-3,Final
+4,27/09/2025,10:35,Al Najma,Al-Fayha,1-2,Final
+4,27/09/2025,13:00,Al-Fateh,Al-Qadisiyah FC,0-1,Final
+5,17/10/2025,10:05,Al-Fayha,Al-Ittihad FC,1-1,Final
+5,17/10/2025,10:10,Al Kholood,Al Najma,5-1,Final
+5,17/10/2025,13:00,Al-Ahli Jeddah,Al Shabab,1-1,Final
+5,18/10/2025,09:45,Al-Ettifaq,Al-Hilal Saudi FC,0-5,Final
+5,18/10/2025,10:15,Al Okhdood,Al-Hazm,1-2,Final
+5,18/10/2025,13:00,Al-Nassr,Al-Fateh,5-1,Final
+5,19/10/2025,09:45,Al Khaleej Saihat,Al Riyadh,4-1,Final
+5,19/10/2025,10:10,Al Taawon,Damac,6-1,Final
+5,19/10/2025,13:00,NEOM,Al-Qadisiyah FC,1-3,Final
+6,23/10/2025,09:55,Al Riyadh,Al Kholood,1-0,Final
+6,23/10/2025,10:00,Al-Fayha,Al Taawon,1-2,Final
+6,23/10/2025,13:00,Al Najma,Al-Ahli Jeddah,0-1,Final
+6,24/10/2025,09:45,Al-Fateh,Al-Ettifaq,2-1,Final
+6,24/10/2025,10:30,NEOM,Al Khaleej Saihat,1-1,Final
+6,24/10/2025,13:00,Al-Ittihad FC,Al-Hilal Saudi FC,0-2,Final
+6,25/10/2025,09:40,Al-Qadisiyah FC,Al Okhdood,0-0,Final
+6,25/10/2025,09:55,Al Shabab,Damac,1-1,Final
+6,25/10/2025,13:00,Al-Hazm,Al-Nassr,0-2,Final
+7,30/10/2025,10:15,Damac,Al-Fateh,1-1,Final
+7,30/10/2025,12:30,Al-Ahli Jeddah,Al Riyadh,1-1,Final
+7,30/10/2025,12:30,Al Kholood,NEOM,2-3,Final
+7,31/10/2025,08:40,Al Okhdood,Al Najma,2-1,Final
+7,31/10/2025,09:50,Al-Hilal Saudi FC,Al Shabab,1-0,Final
+7,31/10/2025,12:30,Al-Ettifaq,Al-Hazm,2-2,Final
+7,01/11/2025,08:30,Al Taawon,Al-Qadisiyah FC,2-0,Final
+7,01/11/2025,09:35,Al Khaleej Saihat,Al-Ittihad FC,4-4,Final
+7,01/11/2025,12:30,Al-Nassr,Al-Fayha,2-1,Final
+8,06/11/2025,09:55,Al-Hazm,Al Khaleej Saihat,1-4,Final
+8,06/11/2025,12:30,Al-Qadisiyah FC,Al Kholood,4-0,Final
+8,06/11/2025,12:30,Al Riyadh,Damac,1-1,Final
+8,07/11/2025,08:20,Al-Fayha,Al Okhdood,2-0,Final
+8,07/11/2025,09:35,Al-Fateh,Al Taawon,2-5,Final
+8,07/11/2025,12:30,Al Najma,Al-Hilal Saudi FC,2-4,Final
+8,08/11/2025,08:50,NEOM,Al-Nassr,1-3,Final
+8,08/11/2025,09:45,Al Shabab,Al-Ettifaq,1-1,Final
+8,08/11/2025,12:30,Al-Ittihad FC,Al-Ahli Jeddah,0-1,Final
+9,21/11/2025,09:50,Al Kholood,Al-Hazm,1-2,Final
+9,21/11/2025,10:15,Al-Ittihad FC,Al Riyadh,2-1,Final
+9,21/11/2025,12:30,Al-Ahli Jeddah,Al-Qadisiyah FC,2-1,Final
+9,22/11/2025,08:40,Damac,Al Najma,0-0,Final
+9,22/11/2025,09:25,Al-Ettifaq,Al-Fayha,3-2,Final
+9,22/11/2025,09:40,Al-Hilal Saudi FC,Al-Fateh,2-1,Final
+9,23/11/2025,10:05,Al Okhdood,Al Shabab,1-1,Final
+9,23/11/2025,12:30,Al Taawon,NEOM,1-1,Final
+9,23/11/2025,12:30,Al-Nassr,Al Khaleej Saihat,4-1,Final
+11,25/12/2025,09:50,Al-Fayha,Al-Hazm,0-0,Final
+11,25/12/2025,12:30,Al Riyadh,Al-Ettifaq,0-2,Final
+11,25/12/2025,12:30,NEOM,Al Najma,2-1,Final
+11,26/12/2025,08:05,Al-Fateh,Al-Ahli Jeddah,2-1,Final
+11,26/12/2025,10:00,Al Kholood,Al Taawon,0-2,Final
+11,26/12/2025,12:30,Al-Hilal Saudi FC,Al Khaleej Saihat,3-2,Final
+11,27/12/2025,08:00,Al-Qadisiyah FC,Damac,1-1,Final
+11,27/12/2025,09:50,Al-Nassr,Al Okhdood,3-0,Final
+11,27/12/2025,12:30,Al-Ittihad FC,Al Shabab,2-0,Final
+12,29/12/2025,09:35,Al Khaleej Saihat,Al-Fateh,0-1,Final
+12,29/12/2025,12:30,Al Taawon,Al Najma,1-0,Final
+12,29/12/2025,12:30,Al Riyadh,Al-Hazm,1-2,Final
+12,30/12/2025,10:30,Al-Ahli Jeddah,Al-Fayha,2-0,Final
+12,30/12/2025,12:30,Al-Ettifaq,Al-Nassr,2-2,Final
+12,30/12/2025,12:30,Al Okhdood,Damac,0-1,Final
+12,31/12/2025,10:25,NEOM,Al-Ittihad FC,1-3,Final
+12,31/12/2025,12:30,Al Shabab,Al-Qadisiyah FC,2-3,Final
+12,31/12/2025,12:30,Al Kholood,Al-Hilal Saudi FC,1-3,Final
+13,02/01/2026,08:30,Al Najma,Al Khaleej Saihat,2-2,Final
+13,02/01/2026,09:35,Al-Ettifaq,Al Okhdood,2-0,Final
+13,02/01/2026,12:30,Al-Ahli Jeddah,Al-Nassr,3-2,Final
+13,03/01/2026,08:10,Al-Fateh,Al Shabab,2-0,Final
+13,03/01/2026,09:55,Al-Fayha,Al Kholood,0-5,Final
+13,03/01/2026,12:30,Al-Ittihad FC,Al Taawon,1-0,Final
+13,04/01/2026,10:05,Al-Hazm,NEOM,1-2,Final
+13,04/01/2026,12:30,Al-Qadisiyah FC,Al Riyadh,4-0,Final
+13,04/01/2026,12:30,Damac,Al-Hilal Saudi FC,0-2,Final
+14,08/01/2026,09:55,Al-Hilal Saudi FC,Al-Hazm,3-0,Final
+14,08/01/2026,12:30,Al-Nassr,Al-Qadisiyah FC,1-2,Final
+14,08/01/2026,12:30,Al Najma,Al-Ettifaq,3-4,Final
+14,09/01/2026,08:10,Al Khaleej Saihat,Damac,4-0,Final
+14,09/01/2026,10:05,Al Taawon,Al Shabab,2-0,Final
+14,09/01/2026,12:30,Al Kholood,Al-Ittihad FC,0-4,Final
+14,10/01/2026,09:00,NEOM,Al-Fateh,0-1,Final
+14,10/01/2026,10:00,Al Riyadh,Al-Fayha,1-1,Final
+14,10/01/2026,12:30,Al Okhdood,Al-Ahli Jeddah,0-1,Final
+15,12/01/2026,10:10,Al-Hazm,Al Najma,3-2,Final
+15,12/01/2026,12:30,Al-Hilal Saudi FC,Al-Nassr,3-1,Final
+15,12/01/2026,12:30,Al-Ettifaq,Al Khaleej Saihat,1-2,Final
+15,13/01/2026,10:25,Al Okhdood,Al Kholood,1-0,Final
+15,13/01/2026,12:30,Al-Fateh,Al Riyadh,3-1,Final
+15,13/01/2026,12:30,Damac,Al-Ittihad FC,1-1,Final
+15,14/01/2026,09:45,Al-Qadisiyah FC,Al-Fayha,5-0,Final
+15,14/01/2026,12:30,Al-Ahli Jeddah,Al Taawon,2-1,Final
+15,14/01/2026,12:30,Al Shabab,NEOM,3-2,Final
+16,16/01/2026,08:40,Al Najma,Al-Fateh,1-1,Final
+16,16/01/2026,09:45,Al Khaleej Saihat,Al Okhdood,4-1,Final
+16,16/01/2026,12:30,Al-Ittihad FC,Al-Ettifaq,0-1,Final
+16,17/01/2026,08:35,Al-Fayha,Damac,1-1,Final
+16,17/01/2026,10:10,Al Kholood,Al-Ahli Jeddah,0-1,Final
+16,17/01/2026,12:30,Al-Nassr,Al Shabab,3-2,Final
+16,18/01/2026,10:15,Al-Hazm,Al-Qadisiyah FC,1-5,Final
+16,18/01/2026,12:30,Al Riyadh,Al Taawon,1-3,Final
+16,18/01/2026,12:30,NEOM,Al-Hilal Saudi FC,1-2,Final
+17,20/01/2026,10:05,Al Shabab,Al Najma,0-0,Final
+17,20/01/2026,12:30,Al-Ahli Jeddah,Al Khaleej Saihat,4-1,Final
+17,20/01/2026,12:30,Al-Fateh,Al Kholood,2-5,Final
+17,21/01/2026,10:30,Al Okhdood,Al Riyadh,2-2,Final
+17,21/01/2026,12:30,Al-Ettifaq,NEOM,0-0,Final
+17,21/01/2026,12:30,Damac,Al-Nassr,1-2,Final
+17,22/01/2026,10:15,Al Taawon,Al-Hazm,2-2,Final
+17,22/01/2026,12:30,Al-Hilal Saudi FC,Al-Fayha,4-1,Final
+17,22/01/2026,12:30,Al-Qadisiyah FC,Al-Ittihad FC,2-1,Final
+18,24/01/2026,08:25,Al Khaleej Saihat,Al Shabab,0-0,Final
+18,24/01/2026,10:20,Al Kholood,Al-Ettifaq,1-2,Final
+18,24/01/2026,12:30,NEOM,Al-Ahli Jeddah,0-3,Final
+18,25/01/2026,10:20,Al Najma,Al-Qadisiyah FC,1-3,Final
+18,25/01/2026,12:30,Al-Fayha,Al-Fateh,2-0,Final
+18,25/01/2026,12:30,Al Riyadh,Al-Hilal Saudi FC,1-1,Final
+18,26/01/2026,10:20,Al-Hazm,Damac,2-1,Final
+18,26/01/2026,12:30,Al-Ittihad FC,Al Okhdood,2-1,Final
+18,26/01/2026,12:30,Al-Nassr,Al Taawon,1-0,Final
+19,28/01/2026,10:20,Al Najma,Al Riyadh,1-1,Final
+19,28/01/2026,12:30,Al-Ahli Jeddah,Al-Ettifaq,4-0,Final
+19,28/01/2026,12:30,Al-Fayha,Al Khaleej Saihat,3-1,Final
+19,29/01/2026,10:00,Al-Fateh,Al-Ittihad FC,2-2,Final
+19,29/01/2026,12:30,Al-Qadisiyah FC,Al-Hilal Saudi FC,2-2,Final
+19,29/01/2026,12:30,Al-Hazm,Al Shabab,0-4,Final
+19,30/01/2026,08:50,Al Taawon,Al Okhdood,1-0,Final
+19,30/01/2026,12:30,NEOM,Damac,3-0,Final
+19,30/01/2026,12:30,Al Kholood,Al-Nassr,0-3,Final
+20,01/02/2026,10:15,Al Shabab,Al-Fayha,1-0,Final
+20,01/02/2026,12:30,Al-Fateh,Al-Hazm,1-1,Final
+20,01/02/2026,12:30,Al-Ittihad FC,Al Najma,1-0,Final
+20,02/02/2026,10:15,Al Riyadh,Al-Nassr,0-1,Final
+20,02/02/2026,12:30,Al-Hilal Saudi FC,Al-Ahli Jeddah,0-0,Final
+20,02/02/2026,12:30,Al Okhdood,NEOM,1-1,Final
+20,03/02/2026,10:40,Damac,Al Kholood,0-0,Final
+20,03/02/2026,12:30,Al Khaleej Saihat,Al-Qadisiyah FC,0-1,Final
+20,03/02/2026,12:30,Al-Ettifaq,Al Taawon,1-0,Final
+21,05/02/2026,10:20,Al-Fayha,Al Najma,3-0,Final
+21,05/02/2026,12:30,Al-Ahli Jeddah,Al-Hazm,2-0,Final
+21,05/02/2026,12:30,Al Okhdood,Al-Hilal Saudi FC,0-6,Final
+21,06/02/2026,09:25,NEOM,Al Riyadh,1-0,Final
+21,06/02/2026,10:00,Al-Ettifaq,Damac,2-0,Final
+21,06/02/2026,12:30,Al-Nassr,Al-Ittihad FC,2-0,Final
+21,07/02/2026,09:00,Al Kholood,Al Shabab,1-0,Final
+21,07/02/2026,10:30,Al Taawon,Al Khaleej Saihat,1-1,Final
+21,07/02/2026,12:30,Al-Qadisiyah FC,Al-Fateh,1-1,Final
+22,12/02/2026,10:45,Damac,Al Taawon,2-1,Final
+22,12/02/2026,12:30,Al-Qadisiyah FC,NEOM,1-0,Final
+22,12/02/2026,12:30,Al-Hazm,Al Okhdood,2-1,Final
+22,13/02/2026,08:55,Al Shabab,Al-Ahli Jeddah,2-5,Final
+22,13/02/2026,10:25,Al-Hilal Saudi FC,Al-Ettifaq,2-0,Final
+22,13/02/2026,12:30,Al-Ittihad FC,Al-Fayha,2-1,Final
+22,14/02/2026,08:55,Al Riyadh,Al Khaleej Saihat,1-1,Final
+22,14/02/2026,10:35,Al Najma,Al Kholood,2-1,Final
+22,14/02/2026,12:30,Al-Fateh,Al-Nassr,0-2,Final
+23,19/02/2026,14:00,Al-Ahli Jeddah,Al Najma,4-1,Final
+23,19/02/2026,14:00,Al-Ettifaq,Al-Fateh,4-3,Final
+23,19/02/2026,14:00,Al Kholood,Al Riyadh,0-2,Final
+23,20/02/2026,14:00,Al Taawon,Al-Fayha,2-3,Final
+23,20/02/2026,14:00,Damac,Al Shabab,1-3,Final
+23,20/02/2026,14:00,Al Okhdood,Al-Qadisiyah FC,2-4,Final
+23,21/02/2026,14:00,Al Khaleej Saihat,NEOM,0-1,Final
+23,21/02/2026,14:00,Al-Hilal Saudi FC,Al-Ittihad FC,1-1,Final
+23,21/02/2026,14:00,Al-Nassr,Al-Hazm,4-0,Final
+10,23/02/2026,14:00,Al-Fateh,Al Okhdood,2-1,Final
+10,23/02/2026,14:00,Al-Qadisiyah FC,Al-Ettifaq,4-0,Final
+10,23/02/2026,14:00,Al Shabab,Al Riyadh,3-1,Final
+10,23/02/2026,14:00,Damac,Al-Ahli Jeddah,0-1,Final
+10,24/02/2026,14:00,Al Khaleej Saihat,Al Kholood,2-3,Final
+10,24/02/2026,14:00,Al Taawon,Al-Hilal Saudi FC,1-1,Final
+10,24/02/2026,14:00,Al-Hazm,Al-Ittihad FC,1-1,Final
+10,25/02/2026,14:00,Al-Fayha,NEOM,1-1,Final
+10,25/02/2026,14:00,Al Najma,Al-Nassr,0-5,Final
+24,26/02/2026,14:00,Al-Fateh,Damac,1-1,Final
+24,26/02/2026,14:00,Al Riyadh,Al-Ahli Jeddah,0-1,Final
+24,27/02/2026,14:00,Al-Ittihad FC,Al Khaleej Saihat,1-0,Final
+24,27/02/2026,14:00,Al Shabab,Al-Hilal Saudi FC,3-5,Final
+24,27/02/2026,14:00,Al-Hazm,Al-Ettifaq,3-1,Final
+24,28/02/2026,14:00,Al-Qadisiyah FC,Al Taawon,1-1,Final
+24,28/02/2026,14:00,Al-Fayha,Al-Nassr,1-3,Final
+24,28/02/2026,14:00,Al Najma,Al Okhdood,1-3,Final
+24,28/02/2026,14:00,NEOM,Al Kholood,1-2,Final
+25,05/03/2026,14:00,Damac,Al Riyadh,3-0,Final
+25,06/03/2026,14:00,Al Khaleej Saihat,Al-Hazm,2-1,Final
+25,06/03/2026,14:00,Al-Ahli Jeddah,Al-Ittihad FC,3-1,Final
+25,06/03/2026,14:00,Al-Hilal Saudi FC,Al Najma,4-0,Final
+25,06/03/2026,14:00,Al Taawon,Al-Fateh,3-2,Final
+25,07/03/2026,14:00,Al-Ettifaq,Al Shabab,1-1,Final
+25,07/03/2026,14:00,Al-Nassr,NEOM,1-0,Final
+25,07/03/2026,14:00,Al Okhdood,Al-Fayha,0-5,Final
+25,07/03/2026,14:00,Al Kholood,Al-Qadisiyah FC,1-4,Final
+26,12/03/2026,14:00,Al-Hazm,Al Kholood,2-1,Final
+26,12/03/2026,14:00,Al Najma,Damac,1-3,Final
+26,12/03/2026,14:00,NEOM,Al Taawon,2-2,Final
+26,13/03/2026,14:00,Al-Qadisiyah FC,Al-Ahli Jeddah,3-2,Final
+26,13/03/2026,14:00,Al-Fayha,Al-Ettifaq,1-0,Final
+26,13/03/2026,14:00,Al Riyadh,Al-Ittihad FC,3-1,Final
+26,14/03/2026,14:00,Al Khaleej Saihat,Al-Nassr,0-5,Final
+26,14/03/2026,14:00,Al-Fateh,Al-Hilal Saudi FC,0-1,Final
+26,14/03/2026,14:00,Al Shabab,Al Okhdood,2-0,Final
+27,03/04/2026,11:00,Al Kholood,Al Khaleej Saihat,,
+27,03/04/2026,11:15,Al-Ittihad FC,Al-Hazm,,
+27,03/04/2026,13:00,Al-Nassr,Al Najma,,
+27,04/04/2026,11:15,Al-Ahli Jeddah,Damac,,
+27,04/04/2026,11:30,NEOM,Al-Fayha,,
+27,04/04/2026,13:00,Al-Hilal Saudi FC,Al Taawon,,
+27,05/04/2026,10:55,Al Okhdood,Al-Fateh,,
+27,05/04/2026,13:00,Al-Ettifaq,Al-Qadisiyah FC,,
+27,05/04/2026,13:00,Al Riyadh,Al Shabab,,
+29,08/04/2026,10:55,Al-Fayha,Al-Ahli Jeddah,,
+29,08/04/2026,13:00,Al-Hilal Saudi FC,Al Kholood,,
+29,08/04/2026,13:00,Al-Ittihad FC,NEOM,,
+28,09/04/2026,11:00,Damac,Al-Qadisiyah FC,,
+28,09/04/2026,13:00,Al-Ettifaq,Al Riyadh,,
+28,10/04/2026,13:00,Al Shabab,Al-Ittihad FC,,
+28,11/04/2026,10:40,Al Khaleej Saihat,Al-Hilal Saudi FC,,
+28,11/04/2026,11:00,Al Taawon,Al Kholood,,
+28,11/04/2026,11:00,Al Najma,NEOM,,
+28,11/04/2026,11:05,Al-Hazm,Al-Fayha,,
+28,11/04/2026,11:20,Al-Ahli Jeddah,Al-Fateh,,
+28,11/04/2026,13:00,Al Okhdood,Al-Nassr,,
+29,14/04/2026,13:00,Al-Qadisiyah FC,Al Shabab,,
+29,15/04/2026,13:00,Al-Nassr,Al-Ettifaq,,
+29,23/04/2026,11:10,Al Najma,Al Taawon,,
+29,23/04/2026,13:00,Damac,Al Okhdood,,
+29,24/04/2026,10:45,Al-Fateh,Al Khaleej Saihat,,
+29,24/04/2026,11:10,Al-Hazm,Al Riyadh,,
+30,28/04/2026,12:00,Al Khaleej Saihat,Al Najma,,
+30,28/04/2026,12:00,Al-Hilal Saudi FC,Damac,,
+30,28/04/2026,12:00,Al Taawon,Al-Ittihad FC,,
+30,28/04/2026,12:00,Al-Nassr,Al-Ahli Jeddah,,
+30,28/04/2026,12:00,Al Shabab,Al-Fateh,,
+30,28/04/2026,12:00,Al Okhdood,Al-Ettifaq,,
+30,28/04/2026,12:00,Al Kholood,Al-Fayha,,
+30,28/04/2026,12:00,Al Riyadh,Al-Qadisiyah FC,,
+30,28/04/2026,12:00,NEOM,Al-Hazm,,
+31,02/05/2026,12:00,Al-Ahli Jeddah,Al Okhdood,,
+31,02/05/2026,12:00,Al-Fateh,NEOM,,
+31,02/05/2026,12:00,Al-Qadisiyah FC,Al-Nassr,,
+31,02/05/2026,12:00,Al-Ettifaq,Al Najma,,
+31,02/05/2026,12:00,Al-Ittihad FC,Al Kholood,,
+31,02/05/2026,12:00,Al Shabab,Al Taawon,,
+31,02/05/2026,12:00,Al-Fayha,Al Riyadh,,
+31,02/05/2026,12:00,Al-Hazm,Al-Hilal Saudi FC,,
+31,02/05/2026,12:00,Damac,Al Khaleej Saihat,,
+32,07/05/2026,12:00,Al Khaleej Saihat,Al-Ettifaq,,
+32,07/05/2026,12:00,Al Taawon,Al-Ahli Jeddah,,
+32,07/05/2026,12:00,Al-Ittihad FC,Damac,,
+32,07/05/2026,12:00,Al-Nassr,Al-Hilal Saudi FC,,
+32,07/05/2026,12:00,Al-Fayha,Al-Qadisiyah FC,,
+32,07/05/2026,12:00,Al Najma,Al-Hazm,,
+32,07/05/2026,12:00,Al Kholood,Al Okhdood,,
+32,07/05/2026,12:00,Al Riyadh,Al-Fateh,,
+32,07/05/2026,12:00,NEOM,Al Shabab,,
+33,13/05/2026,12:00,Al-Ahli Jeddah,Al Kholood,,
+33,13/05/2026,12:00,Al-Fateh,Al Najma,,
+33,13/05/2026,12:00,Al-Hilal Saudi FC,NEOM,,
+33,13/05/2026,12:00,Al-Qadisiyah FC,Al-Hazm,,
+33,13/05/2026,12:00,Al-Ettifaq,Al-Ittihad FC,,
+33,13/05/2026,12:00,Al Taawon,Al Riyadh,,
+33,13/05/2026,12:00,Al Shabab,Al-Nassr,,
+33,13/05/2026,12:00,Damac,Al-Fayha,,
+33,13/05/2026,12:00,Al Okhdood,Al Khaleej Saihat,,
+34,21/05/2026,12:00,Al Khaleej Saihat,Al-Ahli Jeddah,,
+34,21/05/2026,12:00,Al-Ittihad FC,Al-Qadisiyah FC,,
+34,21/05/2026,12:00,Al-Nassr,Damac,,
+34,21/05/2026,12:00,Al-Fayha,Al-Hilal Saudi FC,,
+34,21/05/2026,12:00,Al-Hazm,Al Taawon,,
+34,21/05/2026,12:00,Al Najma,Al Shabab,,
+34,21/05/2026,12:00,Al Kholood,Al-Fateh,,
+34,21/05/2026,12:00,Al Riyadh,Al Okhdood,,
+34,21/05/2026,12:00,NEOM,Al-Ettifaq,,

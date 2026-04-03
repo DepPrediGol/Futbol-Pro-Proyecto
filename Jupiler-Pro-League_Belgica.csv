@@ -1,0 +1,313 @@
+matchday,date,time,home_team,away_team,result,status
+1,25/07/2025,13:45,Antwerp,Union St. Gilloise,1-1,Final
+1,26/07/2025,09:00,Dender,Cercle Brugge,0-0,Final
+1,26/07/2025,11:15,Zulte Waregem,KV Mechelen,1-1,Final
+1,26/07/2025,13:45,RAAL La Louvière,Standard Liege,0-2,Final
+1,27/07/2025,06:30,Anderlecht,KVC Westerlo,5-2,Final
+1,27/07/2025,09:00,OH Leuven,Charleroi,2-2,Final
+1,27/07/2025,11:30,Club Brugge KV,Genk,2-1,Final
+1,27/07/2025,12:15,St. Truiden,Gent,3-1,Final
+2,01/08/2025,13:45,KV Mechelen,Club Brugge KV,2-1,Final
+2,02/08/2025,09:00,KVC Westerlo,Zulte Waregem,3-1,Final
+2,02/08/2025,11:15,Standard Liege,Dender,1-1,Final
+2,02/08/2025,13:45,Gent,RAAL La Louvière,1-0,Final
+2,03/08/2025,06:30,Genk,Antwerp,1-1,Final
+2,03/08/2025,09:00,Cercle Brugge,Anderlecht,0-2,Final
+2,03/08/2025,11:30,Union St. Gilloise,OH Leuven,5-0,Final
+2,03/08/2025,12:15,Charleroi,St. Truiden,1-1,Final
+3,08/08/2025,13:45,St. Truiden,Dender,2-0,Final
+3,09/08/2025,09:00,Club Brugge KV,Cercle Brugge,2-0,Final
+3,09/08/2025,11:15,KVC Westerlo,KV Mechelen,0-1,Final
+3,09/08/2025,13:45,Gent,Union St. Gilloise,2-3,Final
+3,10/08/2025,06:30,RAAL La Louvière,Charleroi,1-0,Final
+3,10/08/2025,09:00,Anderlecht,Zulte Waregem,2-3,Final
+3,10/08/2025,11:30,Standard Liege,Genk,2-1,Final
+3,10/08/2025,12:15,Antwerp,OH Leuven,3-1,Final
+4,15/08/2025,13:45,OH Leuven,Genk,1-2,Final
+4,16/08/2025,09:00,Zulte Waregem,Club Brugge KV,0-1,Final
+4,16/08/2025,11:15,KV Mechelen,Gent,1-1,Final
+4,16/08/2025,13:45,Union St. Gilloise,Standard Liege,3-0,Final
+4,17/08/2025,06:30,Dender,Anderlecht,0-2,Final
+4,17/08/2025,09:00,St. Truiden,RAAL La Louvière,2-1,Final
+4,17/08/2025,11:30,Charleroi,Antwerp,1-1,Final
+4,17/08/2025,12:15,Cercle Brugge,KVC Westerlo,4-1,Final
+5,23/08/2025,11:15,Standard Liege,Cercle Brugge,0-3,Final
+5,23/08/2025,13:45,Zulte Waregem,St. Truiden,0-2,Final
+5,24/08/2025,06:30,Antwerp,KV Mechelen,2-1,Final
+5,24/08/2025,11:30,RAAL La Louvière,Union St. Gilloise,0-0,Final
+5,24/08/2025,12:15,Dender,OH Leuven,0-1,Final
+6,29/08/2025,13:45,Cercle Brugge,St. Truiden,1-1,Final
+6,30/08/2025,09:00,KV Mechelen,RAAL La Louvière,3-2,Final
+6,30/08/2025,11:15,KVC Westerlo,Antwerp,2-0,Final
+6,30/08/2025,13:45,Charleroi,Dender,3-1,Final
+6,31/08/2025,06:30,Gent,Club Brugge KV,1-1,Final
+6,31/08/2025,09:00,OH Leuven,Standard Liege,1-0,Final
+6,31/08/2025,11:30,Union St. Gilloise,Anderlecht,2-0,Final
+6,31/08/2025,12:15,Genk,Zulte Waregem,3-2,Final
+7,12/09/2025,13:45,Standard Liege,KV Mechelen,1-1,Final
+7,13/09/2025,09:00,Zulte Waregem,OH Leuven,2-0,Final
+7,13/09/2025,11:15,Dender,Union St. Gilloise,0-1,Final
+7,13/09/2025,13:45,RAAL La Louvière,Club Brugge KV,1-0,Final
+7,14/09/2025,06:30,Antwerp,Gent,1-2,Final
+7,14/09/2025,09:00,Cercle Brugge,Charleroi,2-3,Final
+7,14/09/2025,11:30,Anderlecht,Genk,1-1,Final
+7,14/09/2025,12:15,St. Truiden,KVC Westerlo,0-3,Final
+5,17/09/2025,13:30,Genk,Charleroi,0-1,Final
+8,19/09/2025,13:45,Gent,Dender,3-0,Final
+8,20/09/2025,09:00,OH Leuven,RAAL La Louvière,1-2,Final
+8,20/09/2025,11:15,Charleroi,Zulte Waregem,1-2,Final
+8,20/09/2025,13:45,Anderlecht,Antwerp,0-0,Final
+8,21/09/2025,06:30,Genk,Union St. Gilloise,1-2,Final
+8,21/09/2025,09:00,KVC Westerlo,Standard Liege,0-2,Final
+8,21/09/2025,11:30,Club Brugge KV,St. Truiden,2-0,Final
+8,21/09/2025,12:15,KV Mechelen,Cercle Brugge,0-0,Final
+5,23/09/2025,13:30,Anderlecht,Gent,1-0,Final
+5,24/09/2025,13:30,Club Brugge KV,KVC Westerlo,5-5,Final
+9,26/09/2025,13:45,OH Leuven,Anderlecht,1-1,Final
+9,27/09/2025,09:00,Zulte Waregem,Antwerp,2-0,Final
+9,27/09/2025,11:15,Standard Liege,Club Brugge KV,1-2,Final
+9,27/09/2025,13:45,Union St. Gilloise,KVC Westerlo,2-0,Final
+9,28/09/2025,06:30,St. Truiden,Genk,1-2,Final
+9,28/09/2025,09:00,Cercle Brugge,Gent,2-4,Final
+9,28/09/2025,11:30,Charleroi,KV Mechelen,0-2,Final
+9,28/09/2025,12:15,Dender,RAAL La Louvière,0-0,Final
+10,03/10/2025,13:45,Gent,Charleroi,2-1,Final
+10,04/10/2025,09:00,KV Mechelen,St. Truiden,1-3,Final
+10,04/10/2025,11:15,RAAL La Louvière,Zulte Waregem,0-0,Final
+10,04/10/2025,13:45,Antwerp,Cercle Brugge,1-1,Final
+10,05/10/2025,06:30,Anderlecht,Standard Liege,1-0,Final
+10,05/10/2025,09:00,Genk,Dender,2-1,Final
+10,05/10/2025,11:30,Club Brugge KV,Union St. Gilloise,1-0,Final
+10,05/10/2025,12:15,KVC Westerlo,OH Leuven,2-0,Final
+11,18/10/2025,09:00,RAAL La Louvière,KVC Westerlo,0-0,Final
+11,18/10/2025,11:15,OH Leuven,Club Brugge KV,0-1,Final
+11,18/10/2025,13:45,Union St. Gilloise,Charleroi,3-1,Final
+11,19/10/2025,06:30,Cercle Brugge,Genk,2-2,Final
+11,19/10/2025,09:00,Dender,KV Mechelen,1-3,Final
+11,19/10/2025,11:30,St. Truiden,Anderlecht,2-2,Final
+11,19/10/2025,12:15,Zulte Waregem,Gent,4-1,Final
+11,20/10/2025,08:00,Standard Liege,Antwerp,1-0,Final
+12,24/10/2025,13:45,Charleroi,Anderlecht,1-0,Final
+12,25/10/2025,09:00,KVC Westerlo,Dender,1-1,Final
+12,25/10/2025,11:15,KV Mechelen,OH Leuven,1-1,Final
+12,25/10/2025,13:45,Gent,Standard Liege,4-0,Final
+12,26/10/2025,07:30,Antwerp,Club Brugge KV,0-1,Final
+12,26/10/2025,10:00,Cercle Brugge,Zulte Waregem,1-1,Final
+12,26/10/2025,12:30,Genk,RAAL La Louvière,1-1,Final
+12,26/10/2025,13:15,Union St. Gilloise,St. Truiden,2-0,Final
+13,31/10/2025,14:45,Standard Liege,Charleroi,3-1,Final
+13,01/11/2025,10:00,Zulte Waregem,Union St. Gilloise,1-4,Final
+13,01/11/2025,12:15,Club Brugge KV,Dender,2-1,Final
+13,01/11/2025,14:45,Anderlecht,KV Mechelen,3-1,Final
+13,02/11/2025,07:30,KVC Westerlo,Genk,0-1,Final
+13,02/11/2025,10:00,OH Leuven,Gent,4-0,Final
+13,02/11/2025,12:30,St. Truiden,Antwerp,1-0,Final
+13,02/11/2025,13:15,RAAL La Louvière,Cercle Brugge,2-1,Final
+14,07/11/2025,14:45,Dender,Zulte Waregem,2-2,Final
+14,08/11/2025,10:00,Cercle Brugge,OH Leuven,1-2,Final
+14,08/11/2025,12:15,Charleroi,KVC Westerlo,2-0,Final
+14,08/11/2025,14:45,Antwerp,RAAL La Louvière,3-1,Final
+14,09/11/2025,07:30,Anderlecht,Club Brugge KV,1-0,Final
+14,09/11/2025,10:00,St. Truiden,Standard Liege,1-0,Final
+14,09/11/2025,12:30,Gent,Genk,1-1,Final
+14,09/11/2025,13:15,KV Mechelen,Union St. Gilloise,1-1,Final
+15,21/11/2025,14:45,Standard Liege,Zulte Waregem,0-0,Final
+15,22/11/2025,10:00,Union St. Gilloise,Cercle Brugge,2-0,Final
+15,22/11/2025,12:15,KVC Westerlo,Gent,0-0,Final
+15,22/11/2025,14:45,Club Brugge KV,Charleroi,1-0,Final
+15,23/11/2025,07:30,Genk,KV Mechelen,0-1,Final
+15,23/11/2025,10:00,Antwerp,Dender,1-2,Final
+15,23/11/2025,12:30,RAAL La Louvière,Anderlecht,0-1,Final
+15,23/11/2025,13:15,OH Leuven,St. Truiden,1-2,Final
+16,28/11/2025,14:45,KV Mechelen,Standard Liege,0-1,Final
+16,29/11/2025,10:00,Dender,KVC Westerlo,2-2,Final
+16,29/11/2025,12:15,Zulte Waregem,Cercle Brugge,1-1,Final
+16,29/11/2025,14:45,Charleroi,RAAL La Louvière,0-0,Final
+16,30/11/2025,07:30,Club Brugge KV,Antwerp,0-1,Final
+16,30/11/2025,10:00,Genk,OH Leuven,2-1,Final
+16,30/11/2025,12:30,Anderlecht,Union St. Gilloise,1-0,Final
+16,30/11/2025,13:15,Gent,St. Truiden,1-2,Final
+17,05/12/2025,14:45,RAAL La Louvière,Dender,1-2,Final
+17,06/12/2025,10:00,Cercle Brugge,Standard Liege,1-2,Final
+17,06/12/2025,12:15,Union St. Gilloise,Gent,1-1,Final
+17,06/12/2025,14:45,St. Truiden,Club Brugge KV,3-2,Final
+17,07/12/2025,07:30,KV Mechelen,Charleroi,1-0,Final
+17,07/12/2025,10:00,KVC Westerlo,Anderlecht,4-0,Final
+17,07/12/2025,12:30,Antwerp,Genk,3-0,Final
+17,07/12/2025,13:15,OH Leuven,Zulte Waregem,1-1,Final
+18,12/12/2025,14:45,Standard Liege,OH Leuven,0-1,Final
+18,13/12/2025,10:00,Cercle Brugge,KV Mechelen,2-3,Final
+18,13/12/2025,12:15,Zulte Waregem,RAAL La Louvière,2-2,Final
+18,13/12/2025,14:45,Anderlecht,St. Truiden,2-1,Final
+18,14/12/2025,07:30,Gent,Antwerp,0-2,Final
+18,14/12/2025,10:00,Dender,Club Brugge KV,1-5,Final
+18,14/12/2025,12:30,Charleroi,Union St. Gilloise,1-1,Final
+18,14/12/2025,13:15,Genk,KVC Westerlo,1-1,Final
+19,19/12/2025,14:45,Charleroi,Genk,2-2,Final
+19,20/12/2025,10:00,Dender,Standard Liege,0-1,Final
+19,20/12/2025,12:15,KVC Westerlo,RAAL La Louvière,2-1,Final
+19,20/12/2025,14:45,Union St. Gilloise,Zulte Waregem,2-0,Final
+19,21/12/2025,07:30,Club Brugge KV,Gent,2-1,Final
+19,21/12/2025,10:00,St. Truiden,KV Mechelen,1-0,Final
+19,21/12/2025,12:30,Antwerp,Anderlecht,2-2,Final
+19,21/12/2025,13:15,OH Leuven,Cercle Brugge,0-2,Final
+20,26/12/2025,07:30,Genk,Club Brugge KV,3-5,Final
+20,26/12/2025,10:00,Cercle Brugge,Union St. Gilloise,1-1,Final
+20,26/12/2025,12:30,Standard Liege,St. Truiden,1-2,Final
+20,26/12/2025,14:45,Anderlecht,Charleroi,1-2,Final
+20,27/12/2025,07:30,Antwerp,Zulte Waregem,2-1,Final
+20,27/12/2025,10:00,RAAL La Louvière,OH Leuven,0-0,Final
+20,27/12/2025,12:15,KV Mechelen,Dender,1-1,Final
+20,27/12/2025,14:45,Gent,KVC Westerlo,2-0,Final
+21,16/01/2026,14:45,Club Brugge KV,RAAL La Louvière,2-3,Final
+21,17/01/2026,10:00,Zulte Waregem,Genk,2-1,Final
+21,17/01/2026,12:15,KVC Westerlo,Cercle Brugge,0-2,Final
+21,17/01/2026,14:45,Union St. Gilloise,KV Mechelen,1-0,Final
+21,18/01/2026,07:30,Gent,Anderlecht,4-2,Final
+21,18/01/2026,10:00,Dender,Antwerp,1-0,Final
+21,18/01/2026,12:30,Charleroi,Standard Liege,2-0,Final
+21,18/01/2026,13:15,St. Truiden,OH Leuven,1-0,Final
+22,23/01/2026,14:45,Standard Liege,Gent,0-4,Final
+22,24/01/2026,10:00,RAAL La Louvière,St. Truiden,1-2,Final
+22,24/01/2026,12:15,Club Brugge KV,Zulte Waregem,4-3,Final
+22,24/01/2026,14:45,OH Leuven,Union St. Gilloise,0-0,Final
+22,25/01/2026,07:30,Antwerp,Charleroi,0-2,Final
+22,25/01/2026,10:00,Genk,Cercle Brugge,1-1,Final
+22,25/01/2026,12:30,Anderlecht,Dender,0-0,Final
+22,25/01/2026,13:15,KV Mechelen,KVC Westerlo,1-1,Final
+23,30/01/2026,14:45,RAAL La Louvière,Gent,1-1,Final
+23,31/01/2026,10:00,Cercle Brugge,Antwerp,0-4,Final
+23,31/01/2026,12:15,Zulte Waregem,KVC Westerlo,0-1,Final
+23,31/01/2026,14:45,St. Truiden,Charleroi,0-2,Final
+23,01/02/2026,07:30,Standard Liege,Anderlecht,2-0,Final
+23,01/02/2026,10:00,Dender,Genk,1-2,Final
+23,01/02/2026,12:30,Union St. Gilloise,Club Brugge KV,1-0,Final
+23,01/02/2026,13:15,OH Leuven,KV Mechelen,2-2,Final
+24,06/02/2026,14:45,KVC Westerlo,St. Truiden,0-4,Final
+24,07/02/2026,10:00,Zulte Waregem,Dender,1-0,Final
+24,07/02/2026,12:15,Charleroi,Cercle Brugge,3-4,Final
+24,07/02/2026,14:45,Gent,OH Leuven,1-3,Final
+24,08/02/2026,07:30,Genk,Anderlecht,2-0,Final
+24,08/02/2026,10:00,Union St. Gilloise,RAAL La Louvière,2-1,Final
+24,08/02/2026,12:30,Club Brugge KV,Standard Liege,3-0,Final
+24,08/02/2026,13:15,KV Mechelen,Antwerp,2-0,Final
+25,13/02/2026,14:45,KV Mechelen,Genk,2-3,Final
+25,14/02/2026,10:00,OH Leuven,Dender,3-2,Final
+25,14/02/2026,12:15,Charleroi,Gent,2-3,Final
+25,14/02/2026,14:45,Standard Liege,Union St. Gilloise,1-1,Final
+25,15/02/2026,07:30,Cercle Brugge,Club Brugge KV,1-2,Final
+25,15/02/2026,10:00,Antwerp,KVC Westerlo,0-2,Final
+25,15/02/2026,12:30,Anderlecht,RAAL La Louvière,0-0,Final
+25,15/02/2026,13:15,St. Truiden,Zulte Waregem,3-2,Final
+26,20/02/2026,14:45,Gent,Cercle Brugge,0-1,Final
+26,21/02/2026,10:00,Dender,St. Truiden,1-4,Final
+26,21/02/2026,12:15,Club Brugge KV,OH Leuven,2-1,Final
+26,21/02/2026,14:45,Union St. Gilloise,Antwerp,2-1,Final
+26,22/02/2026,07:30,Genk,Standard Liege,0-3,Final
+26,22/02/2026,10:00,RAAL La Louvière,KV Mechelen,0-2,Final
+26,22/02/2026,12:30,Zulte Waregem,Anderlecht,2-4,Final
+26,22/02/2026,13:15,KVC Westerlo,Charleroi,2-1,Final
+27,27/02/2026,14:45,Standard Liege,RAAL La Louvière,1-1,Final
+27,28/02/2026,10:00,KV Mechelen,Zulte Waregem,2-1,Final
+27,28/02/2026,12:15,Antwerp,St. Truiden,1-0,Final
+27,28/02/2026,14:45,Anderlecht,OH Leuven,5-1,Final
+27,01/03/2026,07:30,Genk,Gent,3-0,Final
+27,01/03/2026,10:00,KVC Westerlo,Union St. Gilloise,0-0,Final
+27,01/03/2026,12:30,Charleroi,Club Brugge KV,1-2,Final
+27,01/03/2026,13:15,Cercle Brugge,Dender,0-0,Final
+28,06/03/2026,14:45,RAAL La Louvière,Antwerp,0-0,Final
+28,07/03/2026,10:00,OH Leuven,KVC Westerlo,0-1,Final
+28,07/03/2026,12:15,Dender,Charleroi,2-2,Final
+28,07/03/2026,14:45,Union St. Gilloise,Genk,2-1,Final
+28,08/03/2026,07:30,Club Brugge KV,Anderlecht,2-2,Final
+28,08/03/2026,10:00,Gent,KV Mechelen,3-1,Final
+28,08/03/2026,12:30,Zulte Waregem,Standard Liege,0-1,Final
+28,08/03/2026,13:15,St. Truiden,Cercle Brugge,2-1,Final
+29,13/03/2026,14:45,Gent,Zulte Waregem,2-0,Final
+29,14/03/2026,10:00,Charleroi,OH Leuven,0-2,Final
+29,14/03/2026,12:15,Union St. Gilloise,Dender,2-0,Final
+29,14/03/2026,14:45,KVC Westerlo,Club Brugge KV,1-2,Final
+29,15/03/2026,07:30,Genk,St. Truiden,1-0,Final
+29,15/03/2026,10:00,Antwerp,Standard Liege,1-1,Final
+29,15/03/2026,12:30,KV Mechelen,Anderlecht,1-0,Final
+29,15/03/2026,13:15,Cercle Brugge,RAAL La Louvière,1-3,Final
+30,22/03/2026,12:30,OH Leuven,Antwerp,1-0,Final
+30,22/03/2026,12:30,Anderlecht,Cercle Brugge,2-3,Final
+30,22/03/2026,12:30,Club Brugge KV,KV Mechelen,4-1,Final
+30,22/03/2026,12:30,Zulte Waregem,Charleroi,1-0,Final
+30,22/03/2026,12:30,Standard Liege,KVC Westerlo,0-0,Final
+30,22/03/2026,12:30,St. Truiden,Union St. Gilloise,1-3,Final
+30,22/03/2026,12:30,RAAL La Louvière,Genk,5-5,Final
+30,22/03/2026,12:30,Dender,Gent,1-3,Final
+31,03/04/2026,13:45,Antwerp,Genk,,
+31,04/04/2026,09:00,Zulte Waregem,Cercle Brugge,,
+31,04/04/2026,11:15,OH Leuven,Standard Liege,,
+31,04/04/2026,13:45,Union St. Gilloise,St. Truiden,,
+31,05/04/2026,11:30,KVC Westerlo,Charleroi,,
+31,06/04/2026,06:30,Club Brugge KV,Anderlecht,,
+31,06/04/2026,09:00,RAAL La Louvière,Dender,,
+31,06/04/2026,11:30,Gent,KV Mechelen,,
+32,10/04/2026,13:45,Charleroi,Antwerp,,
+32,11/04/2026,09:00,Cercle Brugge,RAAL La Louvière,,
+32,11/04/2026,11:15,Standard Liege,KVC Westerlo,,
+32,11/04/2026,13:45,St. Truiden,Club Brugge KV,,
+32,12/04/2026,06:30,KV Mechelen,Union St. Gilloise,,
+32,12/04/2026,09:00,Genk,OH Leuven,,
+32,12/04/2026,11:30,Anderlecht,Gent,,
+32,12/04/2026,12:15,Dender,Zulte Waregem,,
+33,18/04/2026,09:00,Antwerp,OH Leuven,,
+33,18/04/2026,11:15,KVC Westerlo,Genk,,
+33,18/04/2026,11:15,Charleroi,Standard Liege,,
+33,18/04/2026,13:45,KV Mechelen,Anderlecht,,
+33,19/04/2026,06:30,Gent,St. Truiden,,
+33,19/04/2026,09:00,Dender,Cercle Brugge,,
+33,19/04/2026,11:30,Union St. Gilloise,Club Brugge KV,,
+33,19/04/2026,12:15,RAAL La Louvière,Zulte Waregem,,
+34,21/04/2026,13:30,OH Leuven,KVC Westerlo,,
+34,21/04/2026,13:30,Standard Liege,Antwerp,,
+34,21/04/2026,13:30,Genk,Charleroi,,
+34,22/04/2026,13:30,Club Brugge KV,KV Mechelen,,
+34,22/04/2026,13:30,Union St. Gilloise,Gent,,
+34,23/04/2026,13:30,St. Truiden,Anderlecht,,
+34,24/04/2026,13:45,Cercle Brugge,Dender,,
+35,25/04/2026,09:00,OH Leuven,Charleroi,,
+35,25/04/2026,11:15,Genk,Standard Liege,,
+35,25/04/2026,13:45,KVC Westerlo,Antwerp,,
+35,26/04/2026,06:30,Gent,Club Brugge KV,,
+35,26/04/2026,09:00,KV Mechelen,St. Truiden,,
+35,26/04/2026,11:30,Anderlecht,Union St. Gilloise,,
+34,26/04/2026,12:15,Zulte Waregem,RAAL La Louvière,,
+35,01/05/2026,13:45,Cercle Brugge,Zulte Waregem,,
+36,02/05/2026,09:00,KVC Westerlo,OH Leuven,,
+36,02/05/2026,11:15,Charleroi,Genk,,
+36,02/05/2026,13:45,St. Truiden,Union St. Gilloise,,
+36,03/05/2026,06:30,KV Mechelen,Gent,,
+36,03/05/2026,09:00,Antwerp,Standard Liege,,
+36,03/05/2026,11:30,Anderlecht,Club Brugge KV,,
+35,03/05/2026,12:15,Dender,RAAL La Louvière,,
+37,08/05/2026,13:45,Standard Liege,OH Leuven,,
+36,09/05/2026,09:00,Zulte Waregem,Dender,,
+36,09/05/2026,09:00,RAAL La Louvière,Cercle Brugge,,
+37,09/05/2026,13:45,Club Brugge KV,St. Truiden,,
+37,10/05/2026,06:30,Gent,Anderlecht,,
+37,10/05/2026,09:00,Antwerp,Charleroi,,
+37,10/05/2026,11:30,Union St. Gilloise,KV Mechelen,,
+37,10/05/2026,12:15,Genk,KVC Westerlo,,
+38,15/05/2026,13:45,OH Leuven,Antwerp,,
+38,16/05/2026,09:00,Charleroi,KVC Westerlo,,
+38,16/05/2026,11:15,Standard Liege,Genk,,
+38,16/05/2026,13:45,St. Truiden,Gent,,
+38,17/05/2026,06:30,Anderlecht,KV Mechelen,,
+38,17/05/2026,11:30,Club Brugge KV,Union St. Gilloise,,
+39,19/05/2026,13:30,KVC Westerlo,Standard Liege,,
+39,19/05/2026,13:30,Charleroi,OH Leuven,,
+39,19/05/2026,13:30,Genk,Antwerp,,
+39,21/05/2026,13:30,KV Mechelen,Club Brugge KV,,
+39,21/05/2026,13:30,Anderlecht,St. Truiden,,
+39,21/05/2026,13:30,Gent,Union St. Gilloise,,
+40,23/05/2026,13:45,OH Leuven,Genk,,
+40,23/05/2026,13:45,Standard Liege,Charleroi,,
+40,23/05/2026,13:45,Antwerp,KVC Westerlo,,
+40,24/05/2026,11:30,Club Brugge KV,Gent,,
+40,24/05/2026,11:30,St. Truiden,KV Mechelen,,
+40,24/05/2026,11:30,Union St. Gilloise,Anderlecht,,

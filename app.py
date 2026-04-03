@@ -63,7 +63,7 @@ def color_letras_historial(val):
     return 'color: black;'
 
 def extraer_goles(resultado_str):
-    if pd.isna(resultado_str): return None
+    if pd.isna(resultado_str) or str(resultado_str).strip() == "": return None
     numeros = re.findall(r'\d+', str(resultado_str).replace(':', '-'))
     return (int(numeros[0]), int(numeros[1])) if len(numeros) >= 2 else None
 
@@ -119,28 +119,28 @@ def cargar_datos_completos():
             df = pd.read_csv(arc)
             ln = os.path.basename(arc).replace('.csv','')
             if ln not in ligas: ligas.append(ln)
-            df['Jornada'] = pd.to_numeric(df['Jornada'], errors='coerce').fillna(0).astype(int)
-            df['Fecha_dt'] = pd.to_datetime(df['Fecha'], dayfirst=True, errors='coerce')
+            df['matchday'] = pd.to_numeric(df['matchday'], errors='coerce').fillna(0).astype(int)
+            df['Fecha_dt'] = pd.to_datetime(df['date'], dayfirst=True, errors='coerce')
             
             for _, fila in df.iterrows():
-                loc, vis = fila['Equipo Local'], fila['Equipo Visitante']
+                loc, vis = fila['home_team'], fila['away_team']
                 if loc not in fz: fz[loc] = 1.2
                 if vis not in fz: fz[vis] = 1.2
-                g = extraer_goles(fila.get('Resultado'))
+                g = extraer_goles(fila.get('result'))
                 if g:
                     fz[loc] += 0.20 if g[0] > g[1] else 0.05
                     fz[vis] += 0.20 if g[1] > g[0] else 0.05
 
             for _, f in df.iterrows():
-                pl, pe, pv, po15, po25, pb = obtener_probabilidades(fz.get(f['Equipo Local'],1.2), fz.get(f['Equipo Visitante'],1.2))
-                g = extraer_goles(f.get('Resultado'))
+                pl, pe, pv, po15, po25, pb = obtener_probabilidades(fz.get(f['home_team'],1.2), fz.get(f['away_team'],1.2))
+                g = extraer_goles(f.get('result'))
                 
                 if g:
                     p1x, px2 = pl+pe, pv+pe
                     pk = "1X" if p1x >= px2 else "X2"
                     historicos.append({
-                        'Fecha': f['Fecha'], 'Liga': ln, 'Jornada': f['Jornada'],
-                        'Equipo Local': f['Equipo Local'], 'Equipo Visitante': f['Equipo Visitante'], 
+                        'Fecha': f['date'], 'Liga': ln, 'Jornada': f['matchday'],
+                        'Equipo Local': f['home_team'], 'Equipo Visitante': f['away_team'], 
                         'Marcador': f"{g[0]} - {g[1]}", 'G_L': g[0], 'G_V': g[1],
                         'Doble Oportunidad': f"{pk} {'✅' if (g[0]>=g[1] if pk=='1X' else g[1]>=g[0]) else '❌'} ({max(p1x,px2):.0%})",
                         'Over 1.5': f"{'✅' if (g[0]+g[1])>1.5 else '❌'} ({po15:.0%})", 
@@ -149,9 +149,9 @@ def cargar_datos_completos():
                     })
                 else:
                     actuales.append({
-                        'Fecha': f['Fecha'], 'Fecha_dt': f['Fecha_dt'], 'Jornada': f['Jornada'], 'Liga': ln, 
-                        'Local': f['Equipo Local'], 'Visitante': f['Equipo Visitante'],
-                        'Partido': f"{f['Equipo Local']} vs {f['Equipo Visitante']}",
+                        'Fecha': f['date'], 'Fecha_dt': f['Fecha_dt'], 'Jornada': f['matchday'], 'Liga': ln, 
+                        'Local': f['home_team'], 'Visitante': f['away_team'],
+                        'Partido': f"{f['home_team']} vs {f['away_team']}",
                         '1X': pl+pe, 'X2': pv+pe, 'Over 1.5': po15, 'Over 2.5': po25, 'BTTS': pb
                     })
         except: continue

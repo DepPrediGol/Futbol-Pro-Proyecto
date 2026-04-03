@@ -1,0 +1,307 @@
+matchday,date,time,home_team,away_team,result,status
+1,01/08/2025,13:30,FC Schalke 04,Hertha BSC,2-1,Final
+1,02/08/2025,06:00,SV Darmstadt 98,VfL Bochum,4-1,Final
+1,02/08/2025,06:00,SC Paderborn 07,Holstein Kiel,2-1,Final
+1,02/08/2025,06:00,Karlsruher SC,Preußen Münster,3-2,Final
+1,02/08/2025,06:00,SV Elversberg,1. FC Nürnberg,1-0,Final
+1,02/08/2025,13:30,Arminia Bielefeld,Fortuna Düsseldorf,5-1,Final
+1,03/08/2025,06:30,Hannover 96,1. FC Kaiserslautern,1-0,Final
+1,03/08/2025,06:30,SpVgg Greuther Fürth,Dynamo Dresden,3-2,Final
+1,03/08/2025,06:30,1. FC Magdeburg,Eintracht Braunschweig,0-1,Final
+2,08/08/2025,11:30,1. FC Nürnberg,SV Darmstadt 98,0-1,Final
+2,08/08/2025,11:30,Preußen Münster,SC Paderborn 07,1-1,Final
+2,09/08/2025,06:00,Fortuna Düsseldorf,Hannover 96,0-2,Final
+2,09/08/2025,06:00,Dynamo Dresden,1. FC Magdeburg,1-2,Final
+2,09/08/2025,06:00,Eintracht Braunschweig,SpVgg Greuther Fürth,3-2,Final
+2,09/08/2025,13:30,1. FC Kaiserslautern,FC Schalke 04,1-0,Final
+2,10/08/2025,06:30,Hertha BSC,Karlsruher SC,0-0,Final
+2,10/08/2025,06:30,VfL Bochum,SV Elversberg,2-0,Final
+2,10/08/2025,06:30,Holstein Kiel,Arminia Bielefeld,0-2,Final
+3,22/08/2025,11:30,Preußen Münster,1. FC Nürnberg,2-1,Final
+3,22/08/2025,11:30,SV Elversberg,1. FC Kaiserslautern,2-1,Final
+3,23/08/2025,06:00,Hannover 96,1. FC Magdeburg,3-1,Final
+3,23/08/2025,06:00,SC Paderborn 07,Fortuna Düsseldorf,1-2,Final
+3,23/08/2025,06:00,Karlsruher SC,Eintracht Braunschweig,2-0,Final
+3,23/08/2025,13:30,FC Schalke 04,VfL Bochum,2-1,Final
+3,24/08/2025,06:30,SpVgg Greuther Fürth,Holstein Kiel,0-2,Final
+3,24/08/2025,06:30,SV Darmstadt 98,Hertha BSC,0-0,Final
+3,24/08/2025,06:30,Arminia Bielefeld,Dynamo Dresden,1-2,Final
+4,29/08/2025,11:30,Hertha BSC,SV Elversberg,0-2,Final
+4,29/08/2025,11:30,1. FC Nürnberg,SC Paderborn 07,0-0,Final
+4,30/08/2025,06:00,VfL Bochum,Preußen Münster,1-2,Final
+4,30/08/2025,06:00,Holstein Kiel,Hannover 96,1-2,Final
+4,30/08/2025,06:00,Eintracht Braunschweig,Arminia Bielefeld,1-1,Final
+4,30/08/2025,13:30,Fortuna Düsseldorf,Karlsruher SC,0-0,Final
+4,31/08/2025,06:30,1. FC Magdeburg,SpVgg Greuther Fürth,4-5,Final
+4,31/08/2025,06:30,Dynamo Dresden,FC Schalke 04,0-1,Final
+4,31/08/2025,06:30,1. FC Kaiserslautern,SV Darmstadt 98,3-1,Final
+5,12/09/2025,11:30,SC Paderborn 07,VfL Bochum,1-0,Final
+5,12/09/2025,11:30,Arminia Bielefeld,1. FC Magdeburg,2-0,Final
+5,13/09/2025,06:00,FC Schalke 04,Holstein Kiel,0-1,Final
+5,13/09/2025,06:00,SV Darmstadt 98,Eintracht Braunschweig,2-1,Final
+5,13/09/2025,06:00,Karlsruher SC,1. FC Nürnberg,2-1,Final
+5,13/09/2025,13:30,Hannover 96,Hertha BSC,0-3,Final
+5,14/09/2025,06:30,SpVgg Greuther Fürth,1. FC Kaiserslautern,0-3,Final
+5,14/09/2025,06:30,Preußen Münster,Fortuna Düsseldorf,1-2,Final
+5,14/09/2025,06:30,SV Elversberg,Dynamo Dresden,2-2,Final
+6,19/09/2025,11:30,Arminia Bielefeld,SpVgg Greuther Fürth,1-3,Final
+6,19/09/2025,11:30,1. FC Kaiserslautern,Preußen Münster,4-1,Final
+6,20/09/2025,06:00,Hertha BSC,SC Paderborn 07,0-2,Final
+6,20/09/2025,06:00,1. FC Magdeburg,FC Schalke 04,0-2,Final
+6,20/09/2025,06:00,Eintracht Braunschweig,SV Elversberg,1-4,Final
+6,20/09/2025,13:30,1. FC Nürnberg,VfL Bochum,2-1,Final
+6,21/09/2025,06:30,Fortuna Düsseldorf,SV Darmstadt 98,0-3,Final
+6,21/09/2025,06:30,Dynamo Dresden,Hannover 96,2-2,Final
+6,21/09/2025,06:30,Holstein Kiel,Karlsruher SC,3-0,Final
+7,26/09/2025,11:30,FC Schalke 04,SpVgg Greuther Fürth,1-0,Final
+7,26/09/2025,11:30,SV Darmstadt 98,Dynamo Dresden,2-0,Final
+7,27/09/2025,06:00,SC Paderborn 07,1. FC Kaiserslautern,2-0,Final
+7,27/09/2025,06:00,Karlsruher SC,1. FC Magdeburg,1-0,Final
+7,27/09/2025,06:00,SV Elversberg,Holstein Kiel,1-0,Final
+7,27/09/2025,13:30,VfL Bochum,Fortuna Düsseldorf,0-1,Final
+7,28/09/2025,06:30,Hannover 96,Arminia Bielefeld,3-1,Final
+7,28/09/2025,06:30,1. FC Nürnberg,Hertha BSC,0-3,Final
+7,28/09/2025,06:30,Preußen Münster,Eintracht Braunschweig,3-1,Final
+8,03/10/2025,11:30,Fortuna Düsseldorf,1. FC Nürnberg,2-3,Final
+8,03/10/2025,11:30,Eintracht Braunschweig,SC Paderborn 07,1-2,Final
+8,04/10/2025,06:00,Hertha BSC,Preußen Münster,2-1,Final
+8,04/10/2025,06:00,Holstein Kiel,SV Darmstadt 98,1-1,Final
+8,04/10/2025,06:00,1. FC Kaiserslautern,VfL Bochum,3-2,Final
+8,04/10/2025,13:30,Dynamo Dresden,Karlsruher SC,3-3,Final
+8,05/10/2025,06:30,SpVgg Greuther Fürth,Hannover 96,2-2,Final
+8,05/10/2025,06:30,1. FC Magdeburg,SV Elversberg,0-4,Final
+8,05/10/2025,06:30,Arminia Bielefeld,FC Schalke 04,1-2,Final
+9,17/10/2025,11:30,Fortuna Düsseldorf,Eintracht Braunschweig,1-2,Final
+9,17/10/2025,11:30,Hannover 96,FC Schalke 04,0-3,Final
+9,18/10/2025,06:00,SC Paderborn 07,Arminia Bielefeld,4-3,Final
+9,18/10/2025,06:00,Karlsruher SC,1. FC Kaiserslautern,2-3,Final
+9,18/10/2025,06:00,Preußen Münster,Dynamo Dresden,2-2,Final
+9,18/10/2025,13:30,VfL Bochum,Hertha BSC,3-2,Final
+9,19/10/2025,06:30,1. FC Nürnberg,Holstein Kiel,1-1,Final
+9,19/10/2025,06:30,SV Darmstadt 98,1. FC Magdeburg,0-0,Final
+9,19/10/2025,06:30,SV Elversberg,SpVgg Greuther Fürth,6-0,Final
+10,24/10/2025,11:30,FC Schalke 04,SV Darmstadt 98,1-0,Final
+10,24/10/2025,11:30,SpVgg Greuther Fürth,Karlsruher SC,1-4,Final
+10,25/10/2025,06:00,Dynamo Dresden,SC Paderborn 07,1-2,Final
+10,25/10/2025,06:00,Arminia Bielefeld,SV Elversberg,2-0,Final
+10,25/10/2025,06:00,Holstein Kiel,VfL Bochum,1-1,Final
+10,25/10/2025,13:30,Hertha BSC,Fortuna Düsseldorf,1-0,Final
+10,26/10/2025,07:30,1. FC Magdeburg,Preußen Münster,2-0,Final
+10,26/10/2025,07:30,Eintracht Braunschweig,Hannover 96,0-3,Final
+10,26/10/2025,07:30,1. FC Kaiserslautern,1. FC Nürnberg,1-1,Final
+11,31/10/2025,12:30,Preußen Münster,Holstein Kiel,2-1,Final
+11,31/10/2025,12:30,SV Elversberg,Hannover 96,2-2,Final
+11,01/11/2025,07:00,Hertha BSC,Dynamo Dresden,2-0,Final
+11,01/11/2025,07:00,1. FC Nürnberg,Eintracht Braunschweig,2-1,Final
+11,01/11/2025,07:00,Karlsruher SC,FC Schalke 04,2-1,Final
+11,01/11/2025,14:30,SV Darmstadt 98,Arminia Bielefeld,2-2,Final
+11,02/11/2025,07:30,Fortuna Düsseldorf,1. FC Kaiserslautern,1-1,Final
+11,02/11/2025,07:30,VfL Bochum,1. FC Magdeburg,2-0,Final
+11,02/11/2025,07:30,SC Paderborn 07,SpVgg Greuther Fürth,2-1,Final
+12,07/11/2025,12:30,SpVgg Greuther Fürth,Preußen Münster,1-0,Final
+12,07/11/2025,12:30,Dynamo Dresden,1. FC Nürnberg,1-2,Final
+12,08/11/2025,07:00,Hannover 96,SV Darmstadt 98,2-3,Final
+12,08/11/2025,07:00,FC Schalke 04,SV Elversberg,1-0,Final
+12,08/11/2025,07:00,Arminia Bielefeld,Karlsruher SC,4-0,Final
+12,08/11/2025,14:30,1. FC Kaiserslautern,Hertha BSC,0-1,Final
+12,09/11/2025,07:30,1. FC Magdeburg,SC Paderborn 07,0-1,Final
+12,09/11/2025,07:30,Holstein Kiel,Fortuna Düsseldorf,1-0,Final
+12,09/11/2025,07:30,Eintracht Braunschweig,VfL Bochum,0-2,Final
+13,21/11/2025,12:30,Hertha BSC,Eintracht Braunschweig,1-0,Final
+13,21/11/2025,12:30,VfL Bochum,Dynamo Dresden,1-2,Final
+13,22/11/2025,07:00,Fortuna Düsseldorf,1. FC Magdeburg,2-1,Final
+13,22/11/2025,07:00,SC Paderborn 07,Hannover 96,0-2,Final
+13,22/11/2025,07:00,Preußen Münster,FC Schalke 04,0-0,Final
+13,22/11/2025,14:30,SV Darmstadt 98,SpVgg Greuther Fürth,4-2,Final
+13,23/11/2025,07:30,1. FC Nürnberg,Arminia Bielefeld,2-0,Final
+13,23/11/2025,07:30,1. FC Kaiserslautern,Holstein Kiel,4-1,Final
+13,23/11/2025,07:30,Karlsruher SC,SV Elversberg,2-3,Final
+14,28/11/2025,12:30,Hannover 96,Karlsruher SC,3-0,Final
+14,28/11/2025,12:30,FC Schalke 04,SC Paderborn 07,2-1,Final
+14,29/11/2025,07:00,SpVgg Greuther Fürth,VfL Bochum,0-3,Final
+14,29/11/2025,07:00,Holstein Kiel,Hertha BSC,0-1,Final
+14,29/11/2025,07:00,Eintracht Braunschweig,1. FC Kaiserslautern,2-0,Final
+14,29/11/2025,14:30,1. FC Magdeburg,1. FC Nürnberg,3-0,Final
+14,30/11/2025,07:30,Dynamo Dresden,Fortuna Düsseldorf,2-1,Final
+14,30/11/2025,07:30,Arminia Bielefeld,Preußen Münster,1-2,Final
+14,30/11/2025,07:30,SV Elversberg,SV Darmstadt 98,0-0,Final
+15,05/12/2025,12:30,Fortuna Düsseldorf,FC Schalke 04,0-2,Final
+15,05/12/2025,12:30,Preußen Münster,Hannover 96,2-2,Final
+15,06/12/2025,07:00,VfL Bochum,Arminia Bielefeld,1-0,Final
+15,06/12/2025,07:00,SC Paderborn 07,SV Elversberg,1-2,Final
+15,06/12/2025,07:00,1. FC Kaiserslautern,Dynamo Dresden,3-1,Final
+15,06/12/2025,14:30,SV Darmstadt 98,Karlsruher SC,3-2,Final
+15,07/12/2025,07:30,Hertha BSC,1. FC Magdeburg,0-2,Final
+15,07/12/2025,07:30,1. FC Nürnberg,SpVgg Greuther Fürth,2-2,Final
+15,07/12/2025,07:30,Eintracht Braunschweig,Holstein Kiel,1-1,Final
+16,12/12/2025,12:30,SpVgg Greuther Fürth,Hertha BSC,3-3,Final
+16,12/12/2025,12:30,Dynamo Dresden,Eintracht Braunschweig,2-3,Final
+16,13/12/2025,07:00,1. FC Magdeburg,Holstein Kiel,3-3,Final
+16,13/12/2025,07:00,Arminia Bielefeld,1. FC Kaiserslautern,0-0,Final
+16,13/12/2025,07:00,Karlsruher SC,SC Paderborn 07,0-4,Final
+16,13/12/2025,14:30,Hannover 96,VfL Bochum,0-0,Final
+16,14/12/2025,07:30,FC Schalke 04,1. FC Nürnberg,1-0,Final
+16,14/12/2025,07:30,SV Darmstadt 98,Preußen Münster,1-0,Final
+16,14/12/2025,07:30,SV Elversberg,Fortuna Düsseldorf,1-0,Final
+17,19/12/2025,12:30,Hertha BSC,Arminia Bielefeld,1-1,Final
+17,19/12/2025,12:30,SC Paderborn 07,SV Darmstadt 98,2-2,Final
+17,20/12/2025,07:00,Fortuna Düsseldorf,SpVgg Greuther Fürth,2-1,Final
+17,20/12/2025,07:00,VfL Bochum,Karlsruher SC,2-2,Final
+17,20/12/2025,07:00,1. FC Kaiserslautern,1. FC Magdeburg,2-3,Final
+17,20/12/2025,14:30,Holstein Kiel,Dynamo Dresden,2-1,Final
+17,21/12/2025,07:30,1. FC Nürnberg,Hannover 96,2-1,Final
+17,21/12/2025,07:30,Eintracht Braunschweig,FC Schalke 04,2-1,Final
+17,21/12/2025,07:30,Preußen Münster,SV Elversberg,1-1,Final
+18,16/01/2026,12:30,Fortuna Düsseldorf,Arminia Bielefeld,1-0,Final
+18,16/01/2026,12:30,Eintracht Braunschweig,1. FC Magdeburg,0-3,Final
+18,17/01/2026,07:00,1. FC Nürnberg,SV Elversberg,3-2,Final
+18,17/01/2026,07:00,Dynamo Dresden,SpVgg Greuther Fürth,2-0,Final
+18,17/01/2026,07:00,Preußen Münster,Karlsruher SC,0-2,Final
+18,17/01/2026,14:30,Hertha BSC,FC Schalke 04,0-0,Final
+18,18/01/2026,07:30,VfL Bochum,SV Darmstadt 98,3-3,Final
+18,18/01/2026,07:30,Holstein Kiel,SC Paderborn 07,2-0,Final
+18,18/01/2026,07:30,1. FC Kaiserslautern,Hannover 96,3-1,Final
+19,23/01/2026,12:30,SV Darmstadt 98,1. FC Nürnberg,2-0,Final
+19,23/01/2026,12:30,Arminia Bielefeld,Holstein Kiel,2-2,Final
+19,24/01/2026,07:00,Hannover 96,Fortuna Düsseldorf,2-1,Final
+19,24/01/2026,07:00,SpVgg Greuther Fürth,Eintracht Braunschweig,0-0,Final
+19,24/01/2026,07:00,Karlsruher SC,Hertha BSC,2-2,Final
+19,24/01/2026,14:30,1. FC Magdeburg,Dynamo Dresden,1-2,Final
+19,25/01/2026,07:30,FC Schalke 04,1. FC Kaiserslautern,2-2,Final
+19,25/01/2026,07:30,SC Paderborn 07,Preußen Münster,2-1,Final
+19,25/01/2026,07:30,SV Elversberg,VfL Bochum,1-1,Final
+20,30/01/2026,12:30,1. FC Nürnberg,Preußen Münster,1-1,Final
+20,30/01/2026,12:30,1. FC Magdeburg,Hannover 96,1-2,Final
+20,31/01/2026,07:00,VfL Bochum,FC Schalke 04,2-0,Final
+20,31/01/2026,07:00,Holstein Kiel,SpVgg Greuther Fürth,1-2,Final
+20,31/01/2026,07:00,Eintracht Braunschweig,Karlsruher SC,1-0,Final
+20,31/01/2026,14:30,1. FC Kaiserslautern,SV Elversberg,1-3,Final
+20,01/02/2026,07:30,Fortuna Düsseldorf,SC Paderborn 07,2-1,Final
+20,01/02/2026,07:30,Hertha BSC,SV Darmstadt 98,2-2,Final
+20,01/02/2026,07:30,Dynamo Dresden,Arminia Bielefeld,1-1,Final
+21,06/02/2026,12:30,SpVgg Greuther Fürth,1. FC Magdeburg,4-5,Final
+21,06/02/2026,12:30,Preußen Münster,VfL Bochum,1-1,Final
+21,07/02/2026,07:00,FC Schalke 04,Dynamo Dresden,2-2,Final
+21,07/02/2026,07:00,SC Paderborn 07,1. FC Nürnberg,2-1,Final
+21,07/02/2026,07:00,SV Elversberg,Hertha BSC,0-3,Final
+21,07/02/2026,14:30,SV Darmstadt 98,1. FC Kaiserslautern,4-0,Final
+21,08/02/2026,07:30,Hannover 96,Holstein Kiel,3-1,Final
+21,08/02/2026,07:30,Arminia Bielefeld,Eintracht Braunschweig,3-2,Final
+21,08/02/2026,07:30,Karlsruher SC,Fortuna Düsseldorf,1-1,Final
+22,13/02/2026,12:30,Fortuna Düsseldorf,Preußen Münster,0-0,Final
+22,13/02/2026,12:30,1. FC Nürnberg,Karlsruher SC,5-1,Final
+22,14/02/2026,07:00,Hertha BSC,Hannover 96,2-3,Final
+22,14/02/2026,07:00,Eintracht Braunschweig,SV Darmstadt 98,2-2,Final
+22,14/02/2026,07:00,1. FC Kaiserslautern,SpVgg Greuther Fürth,1-0,Final
+22,14/02/2026,14:30,Dynamo Dresden,SV Elversberg,1-2,Final
+22,15/02/2026,07:30,VfL Bochum,SC Paderborn 07,0-0,Final
+22,15/02/2026,07:30,1. FC Magdeburg,Arminia Bielefeld,0-2,Final
+22,15/02/2026,07:30,Holstein Kiel,FC Schalke 04,1-2,Final
+23,20/02/2026,12:30,VfL Bochum,1. FC Nürnberg,1-1,Final
+23,20/02/2026,12:30,SpVgg Greuther Fürth,Arminia Bielefeld,2-1,Final
+23,21/02/2026,07:00,SV Darmstadt 98,Fortuna Düsseldorf,2-1,Final
+23,21/02/2026,07:00,Karlsruher SC,Holstein Kiel,3-1,Final
+23,21/02/2026,07:00,SV Elversberg,Eintracht Braunschweig,3-1,Final
+23,21/02/2026,14:30,FC Schalke 04,1. FC Magdeburg,5-3,Final
+23,22/02/2026,07:30,Hannover 96,Dynamo Dresden,0-0,Final
+23,22/02/2026,07:30,SC Paderborn 07,Hertha BSC,5-2,Final
+23,22/02/2026,07:30,Preußen Münster,1. FC Kaiserslautern,2-3,Final
+24,27/02/2026,12:30,Fortuna Düsseldorf,VfL Bochum,2-1,Final
+24,27/02/2026,12:30,Dynamo Dresden,SV Darmstadt 98,3-1,Final
+24,28/02/2026,07:00,Arminia Bielefeld,Hannover 96,0-1,Final
+24,28/02/2026,07:00,Holstein Kiel,SV Elversberg,1-1,Final
+24,28/02/2026,07:00,1. FC Kaiserslautern,SC Paderborn 07,1-2,Final
+24,28/02/2026,14:30,SpVgg Greuther Fürth,FC Schalke 04,1-1,Final
+24,01/03/2026,07:30,Hertha BSC,1. FC Nürnberg,2-1,Final
+24,01/03/2026,07:30,1. FC Magdeburg,Karlsruher SC,1-3,Final
+24,01/03/2026,07:30,Eintracht Braunschweig,Preußen Münster,1-2,Final
+25,06/03/2026,12:30,FC Schalke 04,Arminia Bielefeld,1-0,Final
+25,06/03/2026,12:30,SV Elversberg,1. FC Magdeburg,1-0,Final
+25,07/03/2026,07:00,1. FC Nürnberg,Fortuna Düsseldorf,0-1,Final
+25,07/03/2026,07:00,SV Darmstadt 98,Holstein Kiel,2-0,Final
+25,07/03/2026,07:00,SC Paderborn 07,Eintracht Braunschweig,1-1,Final
+25,07/03/2026,14:30,VfL Bochum,1. FC Kaiserslautern,3-2,Final
+25,08/03/2026,07:30,Hannover 96,SpVgg Greuther Fürth,1-2,Final
+25,08/03/2026,07:30,Karlsruher SC,Dynamo Dresden,3-3,Final
+25,08/03/2026,07:30,Preußen Münster,Hertha BSC,1-2,Final
+26,13/03/2026,12:30,SpVgg Greuther Fürth,SV Elversberg,2-0,Final
+26,13/03/2026,12:30,1. FC Magdeburg,SV Darmstadt 98,1-1,Final
+26,14/03/2026,07:00,Arminia Bielefeld,SC Paderborn 07,2-2,Final
+26,14/03/2026,07:00,Holstein Kiel,1. FC Nürnberg,2-3,Final
+26,14/03/2026,07:00,Eintracht Braunschweig,Fortuna Düsseldorf,1-0,Final
+26,14/03/2026,14:30,Hertha BSC,VfL Bochum,1-1,Final
+26,15/03/2026,07:30,FC Schalke 04,Hannover 96,2-2,Final
+26,15/03/2026,07:30,Dynamo Dresden,Preußen Münster,6-0,Final
+26,15/03/2026,07:30,1. FC Kaiserslautern,Karlsruher SC,3-0,Final
+27,20/03/2026,12:30,Hannover 96,Eintracht Braunschweig,1-0,Final
+27,20/03/2026,12:30,Karlsruher SC,SpVgg Greuther Fürth,3-1,Final
+27,21/03/2026,07:00,1. FC Nürnberg,1. FC Kaiserslautern,3-0,Final
+27,21/03/2026,07:00,SC Paderborn 07,Dynamo Dresden,2-1,Final
+27,21/03/2026,07:00,SV Elversberg,Arminia Bielefeld,3-1,Final
+27,21/03/2026,14:30,SV Darmstadt 98,FC Schalke 04,1-1,Final
+27,22/03/2026,07:30,Fortuna Düsseldorf,Hertha BSC,2-5,Final
+27,22/03/2026,07:30,VfL Bochum,Holstein Kiel,2-3,Final
+27,22/03/2026,07:30,Preußen Münster,1. FC Magdeburg,1-3,Final
+28,04/04/2026,06:00,1. FC Magdeburg,VfL Bochum,,
+28,04/04/2026,06:00,Arminia Bielefeld,SV Darmstadt 98,,
+28,04/04/2026,06:00,1. FC Kaiserslautern,Fortuna Düsseldorf,,
+28,04/04/2026,13:30,Dynamo Dresden,Hertha BSC,,
+28,05/04/2026,06:30,Hannover 96,SV Elversberg,,
+28,05/04/2026,06:30,FC Schalke 04,Karlsruher SC,,
+28,05/04/2026,06:30,SpVgg Greuther Fürth,SC Paderborn 07,,
+28,05/04/2026,06:30,Holstein Kiel,Preußen Münster,,
+28,05/04/2026,06:30,Eintracht Braunschweig,1. FC Nürnberg,,
+29,10/04/2026,11:30,Fortuna Düsseldorf,Holstein Kiel,,
+29,10/04/2026,11:30,Karlsruher SC,Arminia Bielefeld,,
+29,11/04/2026,06:00,Hertha BSC,1. FC Kaiserslautern,,
+29,11/04/2026,06:00,1. FC Nürnberg,Dynamo Dresden,,
+29,11/04/2026,06:00,Preußen Münster,SpVgg Greuther Fürth,,
+29,11/04/2026,13:30,SV Darmstadt 98,Hannover 96,,
+29,12/04/2026,06:30,VfL Bochum,Eintracht Braunschweig,,
+29,12/04/2026,06:30,SC Paderborn 07,1. FC Magdeburg,,
+29,12/04/2026,06:30,SV Elversberg,FC Schalke 04,,
+30,17/04/2026,11:30,Holstein Kiel,1. FC Kaiserslautern,,
+30,17/04/2026,11:30,SV Elversberg,Karlsruher SC,,
+30,18/04/2026,06:00,1. FC Magdeburg,Fortuna Düsseldorf,,
+30,18/04/2026,06:00,Dynamo Dresden,VfL Bochum,,
+30,18/04/2026,06:00,Arminia Bielefeld,1. FC Nürnberg,,
+30,18/04/2026,13:30,Hannover 96,SC Paderborn 07,,
+30,19/04/2026,06:30,FC Schalke 04,Preußen Münster,,
+30,19/04/2026,06:30,SpVgg Greuther Fürth,SV Darmstadt 98,,
+30,19/04/2026,06:30,Eintracht Braunschweig,Hertha BSC,,
+31,24/04/2026,11:30,Fortuna Düsseldorf,Dynamo Dresden,,
+31,24/04/2026,11:30,1. FC Kaiserslautern,Eintracht Braunschweig,,
+31,25/04/2026,06:00,Hertha BSC,Holstein Kiel,,
+31,25/04/2026,06:00,Karlsruher SC,Hannover 96,,
+31,25/04/2026,06:00,Preußen Münster,Arminia Bielefeld,,
+31,25/04/2026,13:30,SV Darmstadt 98,SV Elversberg,,
+31,26/04/2026,06:30,1. FC Nürnberg,1. FC Magdeburg,,
+31,26/04/2026,06:30,VfL Bochum,SpVgg Greuther Fürth,,
+31,26/04/2026,06:30,SC Paderborn 07,FC Schalke 04,,
+32,02/05/2026,06:00,Dynamo Dresden,1. FC Kaiserslautern,,
+32,02/05/2026,06:00,Arminia Bielefeld,VfL Bochum,,
+32,02/05/2026,06:00,Holstein Kiel,Eintracht Braunschweig,,
+32,02/05/2026,13:30,FC Schalke 04,Fortuna Düsseldorf,,
+32,03/05/2026,06:30,Hannover 96,Preußen Münster,,
+32,03/05/2026,06:30,SpVgg Greuther Fürth,1. FC Nürnberg,,
+32,03/05/2026,06:30,1. FC Magdeburg,Hertha BSC,,
+32,03/05/2026,06:30,Karlsruher SC,SV Darmstadt 98,,
+32,03/05/2026,06:30,SV Elversberg,SC Paderborn 07,,
+33,08/05/2026,11:30,SC Paderborn 07,Karlsruher SC,,
+33,08/05/2026,11:30,1. FC Kaiserslautern,Arminia Bielefeld,,
+33,09/05/2026,06:00,VfL Bochum,Hannover 96,,
+33,09/05/2026,06:00,Holstein Kiel,1. FC Magdeburg,,
+33,09/05/2026,06:00,Eintracht Braunschweig,Dynamo Dresden,,
+33,09/05/2026,13:30,1. FC Nürnberg,FC Schalke 04,,
+33,10/05/2026,06:30,Fortuna Düsseldorf,SV Elversberg,,
+33,10/05/2026,06:30,Hertha BSC,SpVgg Greuther Fürth,,
+33,10/05/2026,06:30,Preußen Münster,SV Darmstadt 98,,
+34,17/05/2026,08:30,Hannover 96,1. FC Nürnberg,,
+34,17/05/2026,08:30,FC Schalke 04,Eintracht Braunschweig,,
+34,17/05/2026,08:30,SpVgg Greuther Fürth,Fortuna Düsseldorf,,
+34,17/05/2026,08:30,1. FC Magdeburg,1. FC Kaiserslautern,,
+34,17/05/2026,08:30,SV Darmstadt 98,SC Paderborn 07,,
+34,17/05/2026,08:30,Dynamo Dresden,Holstein Kiel,,
+34,17/05/2026,08:30,Arminia Bielefeld,Hertha BSC,,
+34,17/05/2026,08:30,Karlsruher SC,VfL Bochum,,
+34,17/05/2026,08:30,SV Elversberg,Preußen Münster,,

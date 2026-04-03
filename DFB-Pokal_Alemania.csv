@@ -1,0 +1,63 @@
+matchday,date,time,home_team,away_team,result,status
+1,15/08/2025,11:00,SG Sonnenhof Grossaspach,Bayer Leverkusen,0-4,Final
+1,15/08/2025,11:00,FC Saarbrücken,1. FC Magdeburg,1-3,Final
+1,15/08/2025,11:00,FC Gutersloh,Union Berlin,0-5,Final
+1,15/08/2025,13:45,Arminia Bielefeld,Werder Bremen,1-0,Final
+1,16/08/2025,06:00,BFC Dynamo,VfL Bochum,1-3,Final
+1,16/08/2025,06:00,Pirmasens,Hamburger SV,1-2,Final
+1,16/08/2025,08:30,SV Sandhausen,RB Leipzig,2-4,Final
+1,16/08/2025,08:30,Hansa Rostock,1899 Hoffenheim,0-4,Final
+1,16/08/2025,08:30,Eintracht Norderstedt,FC St. Pauli,0-0,Final
+1,16/08/2025,08:30,Illertissen,1. FC Nürnberg,3-3,Final
+1,16/08/2025,08:30,Bahlinger SC,1. FC Heidenheim,0-5,Final
+1,16/08/2025,08:30,Hemelingen,VfL Wolfsburg,0-9,Final
+1,16/08/2025,11:00,Energie Cottbus,Hannover 96,1-0,Final
+1,16/08/2025,11:00,Sportfreunde Lotte,SC Freiburg,0-2,Final
+1,16/08/2025,11:00,VfB Lübeck,SV Darmstadt 98,1-2,Final
+1,17/08/2025,06:00,FC Viktoria Köln,SC Paderborn 07,1-3,Final
+1,17/08/2025,06:00,FV Engers 07,Eintracht Frankfurt,0-5,Final
+1,17/08/2025,08:30,SSV Jahn Regensburg,1. FC Köln,1-2,Final
+1,17/08/2025,08:30,Atlas Delmenhorst,Borussia Mönchengladbach,2-3,Final
+1,17/08/2025,08:30,Lokomotive Leipzig,FC Schalke 04,0-1,Final
+1,17/08/2025,08:30,ZFC Meuselwitz,Karlsruher SC,0-5,Final
+1,17/08/2025,08:30,BW Lohne,SpVgg Greuther Fürth,0-2,Final
+1,17/08/2025,08:30,RSV Eintracht,1. FC Kaiserslautern,0-7,Final
+1,17/08/2025,11:00,Hallescher FC,FC Augsburg,0-2,Final
+1,17/08/2025,11:00,FC 08 Homburg,Holstein Kiel,0-2,Final
+1,17/08/2025,11:00,SSV ULM 1846,SV Elversberg,0-1,Final
+1,18/08/2025,11:00,Dynamo Dresden,FSV Mainz 05,0-1,Final
+1,18/08/2025,11:00,Preußen Münster,Hertha BSC,0-0,Final
+1,18/08/2025,11:00,FC Schweinfurt 05,Fortuna Düsseldorf,2-4,Final
+1,18/08/2025,13:45,Rot-Weiß Essen,Borussia Dortmund,0-1,Final
+1,26/08/2025,13:45,Eintracht Braunschweig,VfB Stuttgart,3-3,Final
+1,27/08/2025,13:45,SV Wehen,Bayern München,2-3,Final
+2,28/10/2025,12:30,Hertha BSC,SV Elversberg,3-0,Final
+2,28/10/2025,12:30,VfL Wolfsburg,Holstein Kiel,0-1,Final
+2,28/10/2025,12:30,Eintracht Frankfurt,Borussia Dortmund,1-1,Final
+2,28/10/2025,12:30,1. FC Heidenheim,Hamburger SV,0-1,Final
+2,28/10/2025,14:45,Borussia Mönchengladbach,Karlsruher SC,3-1,Final
+2,28/10/2025,14:45,FC Augsburg,VfL Bochum,0-1,Final
+2,28/10/2025,14:45,FC St. Pauli,1899 Hoffenheim,1-1,Final
+2,28/10/2025,14:45,Energie Cottbus,RB Leipzig,1-4,Final
+2,29/10/2025,12:00,FSV Mainz 05,VfB Stuttgart,0-2,Final
+2,29/10/2025,12:00,SpVgg Greuther Fürth,1. FC Kaiserslautern,0-1,Final
+2,29/10/2025,12:00,SC Paderborn 07,Bayer Leverkusen,2-4,Final
+2,29/10/2025,12:00,Illertissen,1. FC Magdeburg,0-3,Final
+2,29/10/2025,14:45,Fortuna Düsseldorf,SC Freiburg,1-3,Final
+2,29/10/2025,14:45,SV Darmstadt 98,FC Schalke 04,4-0,Final
+2,29/10/2025,14:45,Union Berlin,Arminia Bielefeld,2-1,Final
+2,29/10/2025,14:45,1. FC Köln,Bayern München,1-4,Final
+16,02/12/2025,12:00,Hertha BSC,1. FC Kaiserslautern,6-1,Final
+16,02/12/2025,12:00,Borussia Mönchengladbach,FC St. Pauli,1-2,Final
+16,02/12/2025,15:00,Borussia Dortmund,Bayer Leverkusen,0-1,Final
+16,02/12/2025,15:00,RB Leipzig,1. FC Magdeburg,3-1,Final
+16,03/12/2025,12:00,SC Freiburg,SV Darmstadt 98,2-0,Final
+16,03/12/2025,12:00,VfL Bochum,VfB Stuttgart,0-2,Final
+16,03/12/2025,14:45,Hamburger SV,Holstein Kiel,0-0,Final
+16,03/12/2025,14:45,Union Berlin,Bayern München,2-3,Final
+,03/02/2026,14:45,Bayer Leverkusen,FC St. Pauli,3-0,Final
+,04/02/2026,14:45,Holstein Kiel,VfB Stuttgart,0-3,Final
+,10/02/2026,14:45,Hertha BSC,SC Freiburg,0-0,Final
+,11/02/2026,14:45,Bayern München,RB Leipzig,2-0,Final
+,21/04/2026,08:30,Bayer Leverkusen,Bayern München,,
+,21/04/2026,08:30,VfB Stuttgart,SC Freiburg,,

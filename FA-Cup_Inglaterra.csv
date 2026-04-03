@@ -1,0 +1,870 @@
+matchday,date,time,home_team,away_team,result,status
+,01/08/2025,13:45,Pickering Town,Penrith AFC,3-2,Final
+,01/08/2025,13:45,Bootle,1874 Northwich,4-0,Final
+,01/08/2025,13:45,Enfield 1893,Wormley Rovers,0-0,Final
+,01/08/2025,13:45,Roman Glass St George,Nailsea & Tickenham,7-0,Final
+,01/08/2025,13:45,Stone Old Alleynians,Sutton Coldfield Town,0-2,Final
+,01/08/2025,14:00,Belper United,Uttoxeter Town,2-1,Final
+,01/08/2025,14:00,Wokingham Town,Brislington,3-2,Final
+,02/08/2025,06:00,Hamworthy Recreation,Hartley Wintney,1-2,Final
+,02/08/2025,08:00,Guernsey,Bedfont Sports,1-1,Final
+,02/08/2025,09:00,Bury,South Liverpool,6-0,Final
+,02/08/2025,09:00,Haringey Borough,Halstead Town,3-1,Final
+,02/08/2025,09:00,Leatherhead,Phoenix Sports,2-2,Final
+,02/08/2025,09:00,Westfields,Atherstone Town,2-4,Final
+,02/08/2025,09:00,Barking,Grays Athletic,1-2,Final
+,02/08/2025,09:00,Bedworth United,Brocton,2-1,Final
+,02/08/2025,09:00,Bideford,Wellington AFC,4-1,Final
+,02/08/2025,09:00,Cinderford Town,Amersham Town,0-1,Final
+,02/08/2025,09:00,East Grinstead Town,Eastbourne United,1-4,Final
+,02/08/2025,09:00,Glossop North End,St Helens,1-1,Final
+,02/08/2025,09:00,Histon,Thetford Town,2-2,Final
+,02/08/2025,09:00,Hythe Town,Littlehampton Town,2-5,Final
+,02/08/2025,09:00,Melksham Town,AFC Portchester,2-2,Final
+,02/08/2025,09:00,Newcastle Town,Stourport Swifts,4-0,Final
+,02/08/2025,09:00,Northwood,Egham Town,0-1,Final
+,02/08/2025,09:00,Paulton Rovers,Hamble Club,1-0,Final
+,02/08/2025,09:00,South Park,Newhaven,2-1,Final
+,02/08/2025,09:00,Thatcham Town,Petersfield Town,2-0,Final
+,02/08/2025,09:00,Willand Rovers,Barnstaple Town,0-2,Final
+,02/08/2025,09:00,Witham Town,Frenford,1-1,Final
+,02/08/2025,09:00,AFC Kempston Rovers,Arlesey Town,1-5,Final
+,02/08/2025,09:00,Biggleswade,Welwyn Garden City,2-2,Final
+,02/08/2025,09:00,Brighouse Town,Frickley Athletic,1-0,Final
+,02/08/2025,09:00,Cirencester Town,Reading City,0-0,Final
+,02/08/2025,09:00,City of Liverpool,Euxton Villa,2-1,Final
+,02/08/2025,09:00,Coleshill Town,Nuneaton Town,2-1,Final
+,02/08/2025,09:00,Daventry Town,Leicester Nirvana,3-2,Final
+,02/08/2025,09:00,Haywards Heath Town,Ashford United,0-1,Final
+,02/08/2025,09:00,Hertford Town,London Lions,3-1,Final
+,02/08/2025,09:00,Hullbridge Sports,Basildon United,3-1,Final
+,02/08/2025,09:00,Kidlington,Clevedon Town,0-0,Final
+,02/08/2025,09:00,Kidsgrove Athletic,Rugby Borough,1-0,Final
+,02/08/2025,09:00,Lincoln United,Northampton ON Chenecks,3-0,Final
+,02/08/2025,09:00,Maldon & Tiptree,Buckhurst Hill,5-0,Final
+,02/08/2025,09:00,Mangotsfield United,Bristol Manor Farm,1-1,Final
+,02/08/2025,09:00,Marske United,Carlisle City,2-0,Final
+,02/08/2025,09:00,Moneyfields,Brockenhurst,2-1,Final
+,02/08/2025,09:00,North Leigh,Risborough Rangers,1-2,Final
+,02/08/2025,09:00,Runcorn Linnets,Clitheroe,1-0,Final
+,02/08/2025,09:00,Sheffield,Albion Sports,1-1,Final
+,02/08/2025,09:00,St Neots Town,Great Yarmouth Town,7-1,Final
+,02/08/2025,09:00,Three Bridges,Shoreham,5-2,Final
+,02/08/2025,09:00,Trafford,Barnoldswick Town,2-1,Final
+,02/08/2025,09:00,Ware,Welwyn,5-0,Final
+,02/08/2025,09:00,AFC Rushden & Diamonds,Grimsby Borough,0-1,Final
+,02/08/2025,09:00,Beaconsfield Town,Larkhall Athletic,0-1,Final
+,02/08/2025,09:00,Grantham Town,Newark Town,1-2,Final
+,02/08/2025,09:00,Stafford Rangers,Lutterworth Town,0-1,Final
+,02/08/2025,09:00,Witton Albion,Cheadle Town,4-1,Final
+,02/08/2025,09:00,Bradford (Park Avenue),Mossley,1-0,Final
+,02/08/2025,09:00,AFC Croydon Athletic,Roffey,3-0,Final
+,02/08/2025,09:00,AFC Stoneham,Fleet Town,2-0,Final
+,02/08/2025,09:00,AFC Wulfrunians,Shepshed Dynamo,2-3,Final
+,02/08/2025,09:00,Abbey Hey,AFC Liverpool,1-1,Final
+,02/08/2025,09:00,Abbey Rangers,Corinthian-Casuals,2-4,Final
+,02/08/2025,09:00,Andover New Street,New Milton Town,0-1,Final
+,02/08/2025,09:00,Ardley United,Aylesbury United,1-0,Final
+,02/08/2025,09:00,Aylesbury Vale Dynamos,Abingdon United,1-1,Final
+,02/08/2025,09:00,Badshot Lea,Steyning Town,3-6,Final
+,02/08/2025,09:00,Baffins Milton Rovers,Shaftesbury Town,1-1,Final
+,02/08/2025,09:00,Baldock Town,Little Oakley,1-1,Final
+,02/08/2025,09:00,Balham,Faversham Town,1-1,Final
+,02/08/2025,09:00,Bashley,East Cowes Victoria,1-0,Final
+,02/08/2025,09:00,Bearsted,Hackney Wick,1-2,Final
+,02/08/2025,09:00,Bexhill United,Sheerwater,3-1,Final
+,02/08/2025,09:00,Biggleswade United,Newport Pagnell Town,5-1,Final
+,02/08/2025,09:00,Binfield,Winslow United,4-1,Final
+,02/08/2025,09:00,Bishop Auckland,Whickham,2-2,Final
+,02/08/2025,09:00,Boldmere St. Michaels,Abbey Hulton,1-3,Final
+,02/08/2025,09:00,Bottesford Town,Melton Town,3-0,Final
+,02/08/2025,09:00,Bradford Town,Bournemouth FC,3-1,Final
+,02/08/2025,09:00,Broadbridge Heath,Cobham,1-3,Final
+,02/08/2025,09:00,Burnham,Holyport,3-2,Final
+,02/08/2025,09:00,Charnock Richard,Burscough,1-0,Final
+,02/08/2025,09:00,Christchurch,Bemerton Heath Harleq.,3-0,Final
+,02/08/2025,09:00,Cockfosters,Kings Langley,2-2,Final
+,02/08/2025,09:00,Colney Heath,Woodford Town,0-4,Final
+,02/08/2025,09:00,Cowes Sports,Laverstock & Ford,2-2,Final
+,02/08/2025,09:00,Cribbs,Easington Sports,2-0,Final
+,02/08/2025,09:00,Deeping Rangers,Wellingborough Town,0-3,Final
+,02/08/2025,09:00,Dunstable Town,Great Wakering Rovers,1-3,Final
+,02/08/2025,09:00,Eastbourne Town,Ashford Town (Middlesex),2-2,Final
+,02/08/2025,09:00,Edgware Town,British Airways,2-0,Final
+,02/08/2025,09:00,Erith Town,Sporting Bengal United,0-0,Final
+,02/08/2025,09:00,Eynesbury Rovers,Potton United,4-1,Final
+,02/08/2025,09:00,Fakenham Town,Wroxham,1-1,Final
+,02/08/2025,09:00,Fisher,Camberley Town,3-1,Final
+,02/08/2025,09:00,Garforth Town,West Auckland Town,2-3,Final
+,02/08/2025,09:00,Gorleston,Hadleigh United,5-1,Final
+,02/08/2025,09:00,Guildford City,Sutton Common Rovers,1-1,Final
+,02/08/2025,09:00,Guisborough Town,Consett,2-2,Final
+,02/08/2025,09:00,Hallen,Highworth Town,1-0,Final
+,02/08/2025,09:00,Handsworth Parramore,Silsden,1-4,Final
+,02/08/2025,09:00,Hanley Town,Lichfield City,3-1,Final
+,02/08/2025,09:00,Harpenden Town,Concord Rangers,1-1,Final
+,02/08/2025,09:00,Harwich & Parkeston,AFC Dunstable,2-4,Final
+,02/08/2025,09:00,Hassocks,Rayners Lane,1-0,Final
+,02/08/2025,09:00,Haverhill Rovers,Wisbech Town,3-2,Final
+,02/08/2025,09:00,Heanor Town,Dudley Town,1-3,Final
+,02/08/2025,09:00,Hollands & Blair,Herne Bay,1-0,Final
+,02/08/2025,09:00,Horley Town,Corinthian,0-0,Final
+,02/08/2025,09:00,Hythe & Dibden,Portland United,3-1,Final
+,02/08/2025,09:00,Irlam,Thackley,4-0,Final
+,02/08/2025,09:00,Kirkley & Pakefield,Cambridge City,0-1,Final
+,02/08/2025,09:00,Knaresborough Town,Bridlington Town,0-0,Final
+,02/08/2025,09:00,Lancing,Crawley Down Gatwick,1-0,Final
+,02/08/2025,09:00,Leighton Town,Benfleet,1-1,Final
+,02/08/2025,09:00,Leverstock Green,Ilford,0-1,Final
+,02/08/2025,09:00,Lingfield,Whitstable Town,2-7,Final
+,02/08/2025,09:00,Liversedge,Wythenshawe Amateurs,0-3,Final
+,02/08/2025,09:00,Longlevens,Fairford Town,1-5,Final
+,02/08/2025,09:00,Loughborough University,Barton Town Old Boys,1-1,Final
+,02/08/2025,09:00,Lydney Town,Royal Wootton,3-3,Final
+,02/08/2025,09:00,March Town United,Soham Town Rangers,0-0,Final
+,02/08/2025,09:00,Mildenhall Town,Downham Town,1-1,Final
+,02/08/2025,09:00,Mulbarton Wanderers,Dereham Town,3-1,Final
+,02/08/2025,09:00,Newcastle Benfield,Pontefract Collieries,2-3,Final
+,02/08/2025,09:00,North Shields,Newcastle Blue Star,0-2,Final
+,02/08/2025,09:00,Oadby Town,Newark Flowserve,1-4,Final
+,02/08/2025,09:00,Pagham,Horsham YMCA,2-3,Final
+,02/08/2025,09:00,Peacehaven & Telscombe,Harefield United,2-2,Final
+,02/08/2025,09:00,Penistone Church,Padiham,1-4,Final
+,02/08/2025,09:00,Punjab United,Crowborough Athletic,2-2,Final
+,02/08/2025,09:00,Racing Club Warwick,Droitwich Spa,2-1,Final
+,02/08/2025,09:00,Raynes Park Vale,Forest Row,2-1,Final
+,02/08/2025,09:00,Redhill,North Greenford United,0-4,Final
+,02/08/2025,09:00,Romulus,Coventry Sphinx,0-2,Final
+,02/08/2025,09:00,Rusthall,Westfield (Surrey),2-5,Final
+,02/08/2025,09:00,Saffron Walden Town,Harlow Town,0-0,Final
+,02/08/2025,09:00,Saltash United,Torpoint Athletic,1-6,Final
+,02/08/2025,09:00,Sheppey United,Metropolitan Police,3-1,Final
+,02/08/2025,09:00,Sherwood Colliery,Bugbrooke St Michaels,4-1,Final
+,02/08/2025,09:00,Shildon AFC,Ashington AFC,3-1,Final
+,02/08/2025,09:00,Stanway Rovers,Romford,1-0,Final
+,02/08/2025,09:00,Stotfold,Redbridge,0-4,Final
+,02/08/2025,09:00,Stowmarket Town,Ely City,1-2,Final
+,02/08/2025,09:00,Street,Brixham,2-2,Final
+,02/08/2025,09:00,Tadley Calleva,Millbrook FC,4-1,Final
+,02/08/2025,09:00,Takeley,Crawley Green,5-2,Final
+,02/08/2025,09:00,Tavistock,St Austell,5-0,Final
+,02/08/2025,09:00,Thornaby,Tadcaster Albion,3-2,Final
+,02/08/2025,09:00,Thornbury Town,Virginia Water,2-2,Final
+,02/08/2025,09:00,Tividale,Clay Cross,1-3,Final
+,02/08/2025,09:00,Tring Athletic,West Essex,5-0,Final
+,02/08/2025,09:00,Tunbridge Wells,Holmesdale,1-1,Final
+,02/08/2025,09:00,Varndeanians,Tooting & Mitcham United,1-2,Final
+,02/08/2025,09:00,Walthamstow,Brantham Athletic,1-1,Final
+,02/08/2025,09:00,Westbury United,Sherborne Town,7-0,Final
+,02/08/2025,09:00,Whitchurch Alport,Litherland Remyca,3-0,Final
+,02/08/2025,09:00,White Ensign,Sawbridgeworth Town,0-2,Final
+,02/08/2025,09:00,Whitley Bay,Heaton Stannington,0-1,Final
+,02/08/2025,09:00,Winsford United,West Didsbury & Chorlton,1-1,Final
+,02/08/2025,09:00,Chadderton,Stockport Town,2-1,Final
+,02/08/2025,09:00,Crook Town AFC,Kendal Town,1-3,Final
+,02/08/2025,09:00,Harrowby United,Bourne Town,1-2,Final
+,02/08/2025,09:00,Hinckley AFC,Highgate United,4-2,Final
+,02/08/2025,09:00,Ipswich Wanderers,Lakenheath,2-1,Final
+,02/08/2025,09:00,Milton United,Didcot Town,0-6,Final
+,02/08/2025,09:00,Parkgate,Eccleshill United,1-0,Final
+,02/08/2025,09:00,West Allotment Celtic,Northallerton Town,1-1,Final
+,02/08/2025,09:00,Alton Town,Wincanton Town,5-0,Final
+,02/08/2025,09:00,Corsham Town,Slimbridge,0-1,Final
+,02/08/2025,09:00,Downton,Fareham Town,0-2,Final
+,02/08/2025,09:00,Blackstones,AFC Mansfield,2-1,Final
+,02/08/2025,09:00,Hucknall Town,Yaxley,3-2,Final
+,02/08/2025,09:00,Oldland Abbotonians,Wallingford & Crowmarsh,2-0,Final
+,02/08/2025,09:00,St Blazey,Buckland Athletic,1-2,Final
+,02/08/2025,09:00,Atherton Laburnum Rovers,Ossett United,1-0,Final
+,02/08/2025,09:00,Birtley Town,Beverley Town,3-1,Final
+,02/08/2025,09:00,Rossington Main,Moulton,4-1,Final
+,02/08/2025,09:00,Shifnal Town FC,Coventry United,0-1,Final
+,02/08/2025,09:00,Kennington,Tower Hamlets,0-4,Final
+,02/08/2025,09:00,Athletic Newham,Sevenoaks Town,1-3,Final
+,02/08/2025,09:00,Eastwood Community,Gresley,2-2,Final
+,02/08/2025,09:00,Milton Keynes Irish,Heybridge Swifts,3-2,Final
+,02/08/2025,09:00,Mousehole,Bridgwater Town,4-0,Final
+,02/08/2025,09:00,Redcar Athletic,North Ferriby,2-0,Final
+,02/08/2025,09:00,Skegness Town,Godmanchester Rovers,2-0,Final
+,02/08/2025,09:00,Wythenshawe Town,Prestwich Heys,2-4,Final
+,02/08/2025,09:00,Golcar United,Ramsbottom United,1-2,Final
+,02/08/2025,09:00,Falmouth Town,Helston Athletic,2-1,Final
+,02/08/2025,09:00,Hereford Pegasus,Lye Town,0-2,Final
+,02/08/2025,09:00,Midhurst & Easebourne,Knaphill,0-1,Final
+,02/08/2025,09:00,Worcester Raiders,Ashby Ivanhoe,1-0,Final
+,02/08/2025,09:00,Aylestone Park,Sileby Rangers,1-4,Final
+,02/08/2025,09:00,Harleston Town,Walsham Le Willows,2-4,Final
+,02/08/2025,09:00,Hartpury University,Tuffley Rovers,1-2,Final
+,02/08/2025,09:00,Heacham,Newmarket Town,1-2,Final
+,02/08/2025,09:00,Pilkington,Longridge Town,2-2,Final
+,02/08/2025,09:00,Snodland Town,Broadfields United,4-0,Final
+,02/08/2025,09:00,Blyth Town,Horden CW,1-2,Final
+,02/08/2025,09:00,Cornard United,Woodbridge Town,2-2,Final
+,02/08/2025,09:00,Easington Colliery,Boro Rangers,3-1,Final
+,02/08/2025,09:00,Larkfield & New Hythe,Epsom & Ewell FC,0-3,Final
+,02/08/2025,09:00,Pershore Town,Darlaston Town,2-1,Final
+,02/08/2025,09:00,Portishead Town,Windsor & Eton,4-3,Final
+,02/08/2025,09:00,Sporting Club Inkberrow,Studley,2-2,Final
+,02/08/2025,09:00,Wick,VCD Athletic,2-3,Final
+,02/08/2025,09:00,AFC Whyteleafe,Chipstead,5-0,Final
+,02/08/2025,09:00,Boston Town,Kimberley Miners Welfare,2-0,Final
+,02/08/2025,09:00,Coton Green,Rugby Town,2-1,Final
+,02/08/2025,09:00,Eversley & Cal,Horndean,0-1,Final
+,02/08/2025,09:00,Faversham SF,Glebe,0-4,Final
+,02/08/2025,09:00,Horbury Town,Wombwell Town,0-0,Final
+,02/08/2025,09:00,Newquay,Shepton Mallet,2-2,Final
+,02/08/2025,09:00,Seaford Town,Sutton Athletic,1-0,Final
+,02/08/2025,09:00,Sidmouth Town,Ivybridge Town,3-1,Final
+,02/08/2025,09:30,Jersey Bulls,Erith & Belvedere,5-0,Final
+,03/08/2025,07:00,Stansfeld,Harrow Borough,0-4,Final
+,03/08/2025,09:00,Hallam,Lower Breck,3-1,Final
+,03/08/2025,09:00,Little Common,Southall,1-1,Final
+,03/08/2025,09:00,Hilltop,Deal Town,2-2,Final
+,03/08/2025,10:00,Northwich Victoria,Campion,0-2,Final
+,04/08/2025,13:45,Phoenix Sports,Leatherhead,0-3,Final
+,04/08/2025,13:45,Sutton Common Rovers,Guildford City,1-0,Final
+,04/08/2025,13:45,Studley,Sporting Club Inkberrow,2-3,Final
+,05/08/2025,13:30,Harefield United,Peacehaven & Telscombe,3-2,Final
+,05/08/2025,13:30,Shepton Mallet,Newquay,0-2,Final
+,05/08/2025,13:30,Brixham,Street,2-0,Final
+,05/08/2025,13:30,Laverstock & Ford,Cowes Sports,2-1,Final
+,05/08/2025,13:45,Bedfont Sports,Guernsey,0-0,Cancelado
+,05/08/2025,13:45,Ashford Town (Middlesex),Eastbourne Town,3-2,Final
+,05/08/2025,13:45,Bristol Manor Farm,Mangotsfield United,0-1,Final
+,05/08/2025,13:45,Faversham Town,Balham,5-1,Final
+,05/08/2025,13:45,Harlow Town,Saffron Walden Town,2-1,Final
+,05/08/2025,13:45,Soham Town Rangers,March Town United,1-4,Final
+,05/08/2025,13:45,Welwyn Garden City,Biggleswade,2-0,Final
+,05/08/2025,13:45,Kings Langley,Cockfosters,2-4,Final
+,05/08/2025,13:45,Concord Rangers,Harpenden Town,0-0,Final
+,05/08/2025,13:45,AFC Portchester,Melksham Town,3-1,Final
+,05/08/2025,13:45,Abingdon United,Aylesbury Vale Dynamos,1-2,Final
+,05/08/2025,13:45,Albion Sports,Sheffield,2-3,Final
+,05/08/2025,13:45,Barton Town Old Boys,Loughborough University,2-1,Final
+,05/08/2025,13:45,Brantham Athletic,Walthamstow,4-1,Final
+,05/08/2025,13:45,Bridlington Town,Knaresborough Town,2-1,Final
+,05/08/2025,13:45,Consett,Guisborough Town,0-2,Final
+,05/08/2025,13:45,Corinthian,Horley Town,3-3,Final
+,05/08/2025,13:45,Crowborough Athletic,Punjab United,3-2,Final
+,05/08/2025,13:45,Deal Town,Hilltop,4-1,Final
+,05/08/2025,13:45,Gresley,Eastwood Community,0-0,Final
+,05/08/2025,13:45,Longridge Town,Pilkington,8-1,Final
+,05/08/2025,13:45,Northallerton Town,West Allotment Celtic,3-0,Final
+,05/08/2025,13:45,Reading City,Cirencester Town,2-0,Final
+,05/08/2025,13:45,Shaftesbury Town,Baffins Milton Rovers,5-0,Final
+,05/08/2025,13:45,Thetford Town,Histon,0-1,Final
+,05/08/2025,13:45,Virginia Water,Thornbury Town,3-2,Final
+,05/08/2025,13:45,Woodbridge Town,Cornard United,4-2,Final
+,05/08/2025,13:45,Wroxham,Fakenham Town,2-0,Final
+,05/08/2025,13:45,Benfleet,Leighton Town,0-1,Final
+,05/08/2025,13:45,Little Oakley,Baldock Town,1-0,Final
+,05/08/2025,13:45,Downham Town,Mildenhall Town,1-1,Final
+,05/08/2025,13:45,Frenford,Witham Town,0-3,Final
+,05/08/2025,13:45,St Helens,Glossop North End,3-1,Final
+,05/08/2025,13:45,Wormley Rovers,Enfield 1893,2-3,Final
+,05/08/2025,13:45,Wombwell Town,Horbury Town,4-0,Final
+,05/08/2025,14:00,Welwyn,Ware,,Cancelado
+,06/08/2025,13:30,Clevedon Town,Kidlington,2-0,Final
+,06/08/2025,13:45,AFC Liverpool,Abbey Hey,2-1,Final
+,06/08/2025,13:45,Royal Wootton,Lydney Town,3-0,Final
+,06/08/2025,13:45,Southall,Little Common,3-0,Final
+,06/08/2025,13:45,Sporting Bengal United,Erith Town,2-4,Final
+,06/08/2025,13:45,West Didsbury & Chorlton,Winsford United,2-1,Final
+,06/08/2025,13:45,Whickham,Bishop Auckland,0-5,Final
+,06/08/2025,13:45,Holmesdale,Tunbridge Wells,1-0,Final
+,15/08/2025,13:45,Pickering Town,Easington Colliery,0-0,Final
+,15/08/2025,13:45,Atherton Collieries,Prestwich Heys,2-0,Final
+,15/08/2025,13:45,Christchurch,Tadley Calleva,0-3,Final
+,15/08/2025,13:45,Lye Town,Racing Club Warwick,0-2,Final
+,15/08/2025,13:45,Epsom & Ewell FC,South Park,2-2,Final
+,16/08/2025,06:00,Jersey Bulls,Fisher,2-0,Final
+,16/08/2025,09:00,Haringey Borough,Stanway Rovers,1-5,Final
+,16/08/2025,09:00,Hitchin Town,Grays Athletic,1-1,Final
+,16/08/2025,09:00,Leatherhead,Westfield (Surrey),0-1,Final
+,16/08/2025,09:00,Nantwich Town,Charnock Richard,1-0,Final
+,16/08/2025,09:00,Merstham,Faversham Town,2-4,Final
+,16/08/2025,09:00,Ashford United,Holmesdale,4-1,Final
+,16/08/2025,09:00,Barnstaple Town,Tavistock,1-2,Final
+,16/08/2025,09:00,Bedfont Sports,Kingstonian,2-0,Final
+,16/08/2025,09:00,Bedworth United,Atherstone Town,0-2,Final
+,16/08/2025,09:00,Frome Town,Newquay,2-1,Final
+,16/08/2025,09:00,Great Wakering Rovers,Redbridge,0-0,Final
+,16/08/2025,09:00,Hastings United,Harrow Borough,1-0,Final
+,16/08/2025,09:00,Histon,Woodbridge Town,5-2,Final
+,16/08/2025,09:00,Pontefract Collieries,Blyth Spartans,1-0,Final
+,16/08/2025,09:00,Sutton Coldfield Town,Newcastle Town,3-1,Final
+,16/08/2025,09:00,Tilbury,AFC Dunstable,1-0,Final
+,16/08/2025,09:00,Tooting & Mitcham United,AFC Croydon Athletic,0-1,Final
+,16/08/2025,09:00,VCD Athletic,Sittingbourne,0-1,Final
+,16/08/2025,09:00,Witham Town,Tring Athletic,4-0,Final
+,16/08/2025,09:00,Ashford Town (Middlesex),Snodland Town,3-2,Final
+,16/08/2025,09:00,Barton Rovers,Brantham Athletic,2-0,Final
+,16/08/2025,09:00,Belper Town,Kidsgrove Athletic,1-2,Final
+,16/08/2025,09:00,Daventry Town,Bottesford Town,1-2,Final
+,16/08/2025,09:00,Harlow Town,Woodford Town,1-1,Final
+,16/08/2025,09:00,Hertford Town,Harpenden Town,5-3,Final
+,16/08/2025,09:00,Mangotsfield United,Cribbs,3-0,Final
+,16/08/2025,09:00,Marlow,Binfield,2-1,Final
+,16/08/2025,09:00,Moneyfields,AFC Portchester,1-2,Final
+,16/08/2025,09:00,Sheffield,Bootle,0-3,Final
+,16/08/2025,09:00,Three Bridges,Horsham YMCA,4-1,Final
+,16/08/2025,09:00,Trafford,Campion,3-0,Final
+,16/08/2025,09:00,Ware,Ilford,2-2,Final
+,16/08/2025,09:00,Welwyn Garden City,Waltham Abbey,2-2,Final
+,16/08/2025,09:00,Winchester City,Bashley,1-1,Final
+,16/08/2025,09:00,Basford United,Hucknall Town,5-0,Final
+,16/08/2025,09:00,Brightlingsea Regent,Hullbridge Sports,2-1,Final
+,16/08/2025,09:00,Corinthian-Casuals,Sevenoaks Town,3-5,Final
+,16/08/2025,09:00,Hayes & Yeading United,Sutton Common Rovers,2-1,Final
+,16/08/2025,09:00,Lowestoft Town,St Neots Town,3-2,Final
+,16/08/2025,09:00,Mickleover Sports,Matlock Town,0-2,Final
+,16/08/2025,09:00,Stalybridge Celtic,Bury,1-1,Final
+,16/08/2025,09:00,Witton Albion,AFC Liverpool,4-1,Final
+,16/08/2025,09:00,Bradford (Park Avenue),Avro,1-3,Final
+,16/08/2025,09:00,AFC Stoneham,Paulton Rovers,1-0,Final
+,16/08/2025,09:00,Ardley United,Burnham,1-2,Final
+,16/08/2025,09:00,Ascot United,Glebe,2-1,Final
+,16/08/2025,09:00,Aylesbury Vale Dynamos,Oldland Abbotonians,2-1,Final
+,16/08/2025,09:00,Barton Town Old Boys,Carlton Town,1-6,Final
+,16/08/2025,09:00,Bexhill United,Raynes Park Vale,0-3,Final
+,16/08/2025,09:00,Bishop Auckland,Horden CW,2-1,Final
+,16/08/2025,09:00,Bradford Town,Westbury United,0-1,Final
+,16/08/2025,09:00,Clevedon Town,Thame United,1-3,Final
+,16/08/2025,09:00,Cobham,Margate,2-2,Final
+,16/08/2025,09:00,Cockfosters,Little Oakley,2-0,Final
+,16/08/2025,09:00,Congleton Town,Padiham,3-0,Final
+,16/08/2025,09:00,Corinthian,Egham Town,2-2,Final
+,16/08/2025,09:00,Coventry Sphinx,Dudley Town,3-0,Final
+,16/08/2025,09:00,Crowborough Athletic,Deal Town,0-1,Final
+,16/08/2025,09:00,Edgware Town,Whitstable Town,0-9,Final
+,16/08/2025,09:00,Ely City,Haverhill Rovers,0-1,Final
+,16/08/2025,09:00,Erith Town,Southall,1-1,Final
+,16/08/2025,09:00,Exmouth,Buckland Athletic,2-1,Final
+,16/08/2025,09:00,Fairford Town,Roman Glass St George,2-0,Final
+,16/08/2025,09:00,Fareham Town,Hartley Wintney,1-0,Final
+,16/08/2025,09:00,Flackwell Heath,Tuffley Rovers,1-0,Final
+,16/08/2025,09:00,Gorleston,Walsham Le Willows,2-2,Final
+,16/08/2025,09:00,Guisborough Town,Redcar Athletic,0-0,Final
+,16/08/2025,09:00,Hadley,Maldon & Tiptree,1-2,Final
+,16/08/2025,09:00,Hallen,Bishop's Cleeve,0-4,Final
+,16/08/2025,09:00,Hassocks,Beckenham Town,0-1,Final
+,16/08/2025,09:00,Horndean,Laverstock & Ford,0-2,Final
+,16/08/2025,09:00,Hythe & Dibden,New Milton Town,1-0,Final
+,16/08/2025,09:00,Irlam,Chadderton,0-1,Final
+,16/08/2025,09:00,Knaphill,Hollands & Blair,1-1,Final
+,16/08/2025,09:00,Lancing,Harefield United,3-0,Final
+,16/08/2025,09:00,Leighton Town,Biggleswade United,3-1,Final
+,16/08/2025,09:00,Longridge Town,AFC Emley,5-1,Final
+,16/08/2025,09:00,Lutterworth Town,Chasetown,0-1,Final
+,16/08/2025,09:00,Malvern Town,Worcester Raiders,2-4,Final
+,16/08/2025,09:00,March Town United,Ipswich Wanderers,2-0,Final
+,16/08/2025,09:00,Mildenhall Town,Wroxham,1-0,Final
+,16/08/2025,09:00,Mulbarton Wanderers,Cambridge City,2-0,Final
+,16/08/2025,09:00,Newmarket Town,Felixstowe & Walton Utd,1-1,Final
+,16/08/2025,09:00,Newton Aycliffe,Newcastle Blue Star,2-3,Final
+,16/08/2025,09:00,Northallerton Town,Kendal Town,2-2,Final
+,16/08/2025,09:00,Reading City,Didcot Town,1-2,Final
+,16/08/2025,09:00,Royal Wootton,Amersham Town,3-1,Final
+,16/08/2025,09:00,Sawbridgeworth Town,Eynesbury Rovers,1-3,Final
+,16/08/2025,09:00,Shaftesbury Town,Thatcham Town,4-0,Final
+,16/08/2025,09:00,Sheppey United,Eastbourne United,9-0,Final
+,16/08/2025,09:00,Shepshed Dynamo,Clay Cross,2-0,Final
+,16/08/2025,09:00,Sherwood Colliery,Anstey Nomads,3-1,Final
+,16/08/2025,09:00,Silsden,Ramsbottom United,1-1,Final
+,16/08/2025,09:00,Sporting Khalsa,Sporting Club Inkberrow,5-1,Final
+,16/08/2025,09:00,Steyning Town,Hendon,2-1,Final
+,16/08/2025,09:00,Takeley,Bowers & Pitsea,0-0,Final
+,16/08/2025,09:00,Thornaby,Dunston UTS,1-2,Final
+,16/08/2025,09:00,Tower Hamlets,Hanworth Villa,3-2,Final
+,16/08/2025,09:00,Wellingborough Town,Bourne Town,1-2,Final
+,16/08/2025,09:00,West Auckland Town,Bridlington Town,2-2,Final
+,16/08/2025,09:00,West Didsbury & Chorlton,Brighouse Town,1-0,Final
+,16/08/2025,09:00,Whitchurch Alport,Runcorn Linnets,0-3,Final
+,16/08/2025,09:00,Heaton Stannington,Marske United,3-0,Final
+,16/08/2025,09:00,Hinckley AFC,Long Eaton United,0-3,Final
+,16/08/2025,09:00,Risborough Rangers,Virginia Water,3-0,Final
+,16/08/2025,09:00,Sileby Rangers,Corby Town,0-2,Final
+,16/08/2025,09:00,Alton Town,Swindon Supermarine,1-1,Final
+,16/08/2025,09:00,Blackstones,Grimsby Borough,1-2,Final
+,16/08/2025,09:00,Birtley Town,Shildon AFC,2-2,Final
+,16/08/2025,09:00,Rossington Main,Newark Town,3-2,Final
+,16/08/2025,09:00,Newark Flowserve,Boston Town,0-0,Final
+,16/08/2025,09:00,Brixham,Mousehole,4-3,Final
+,16/08/2025,09:00,Milton Keynes Irish,Arlesey Town,0-2,Final
+,16/08/2025,09:00,Skegness Town,Lincoln United,1-1,Final
+,16/08/2025,09:00,Belper United,Hanley Town,2-5,Final
+,16/08/2025,09:00,Falmouth Town,Bideford,2-1,Final
+,16/08/2025,09:00,Pershore Town,Coleshill Town,0-3,Final
+,16/08/2025,09:00,Portishead Town,Slimbridge,2-6,Final
+,16/08/2025,09:00,St Helens,Atherton Laburnum Rovers,0-2,Final
+,16/08/2025,09:00,Abbey Hulton,Coventry United,4-3,Final
+,16/08/2025,09:00,Coton Green,Eastwood Community,0-4,Final
+,16/08/2025,09:00,Seaford Town,AFC Whyteleafe,0-2,Final
+,16/08/2025,09:00,Sidmouth Town,Torpoint Athletic,2-4,Final
+,16/08/2025,09:00,Wombwell Town,Parkgate,2-1,Final
+,17/08/2025,08:00,Hackney Wick,Bognor Regis Town,3-1,Final
+,17/08/2025,08:00,Hallam,City of Liverpool,3-0,Final
+,17/08/2025,09:00,Enfield 1893,Biggleswade Town,4-2,Final
+,17/08/2025,09:00,Littlehampton Town,North Greenford United,3-0,Final
+,17/08/2025,09:00,Wokingham Town,Larkhall Athletic,2-0,Final
+,18/08/2025,13:45,Swindon Supermarine,Alton Town,2-0,Final
+,19/08/2025,13:30,Shildon AFC,Birtley Town,5-2,Final
+,19/08/2025,13:45,Bury,Stalybridge Celtic,0-2,Final
+,19/08/2025,13:45,Kendal Town,Northallerton Town,3-1,Final
+,19/08/2025,13:45,South Park,Epsom & Ewell FC,1-2,Final
+,19/08/2025,13:45,Waltham Abbey,Welwyn Garden City,3-1,Final
+,19/08/2025,13:45,Felixstowe & Walton Utd,Newmarket Town,0-2,Final
+,19/08/2025,13:45,Lincoln United,Skegness Town,1-2,Final
+,19/08/2025,13:45,Ramsbottom United,Silsden,2-2,Final
+,19/08/2025,13:45,Margate,Cobham,1-0,Final
+,19/08/2025,13:45,Bowers & Pitsea,Takeley,2-0,Final
+,19/08/2025,13:45,Bashley,Winchester City,0-1,Final
+,19/08/2025,13:45,Redbridge,Great Wakering Rovers,1-0,Final
+,19/08/2025,13:45,Walsham Le Willows,Gorleston,1-1,Final
+,19/08/2025,13:45,Wythenshawe Amateurs,Vauxhall Motors,2-0,Final
+,19/08/2025,13:45,Boston Town,Newark Flowserve,4-1,Final
+,19/08/2025,14:00,Bridlington Town,West Auckland Town,1-2,Final
+,20/08/2025,13:30,Redcar Athletic,Guisborough Town,1-0,Final
+,20/08/2025,13:45,Grays Athletic,Hitchin Town,0-1,Final
+,20/08/2025,13:45,Hollands & Blair,Knaphill,0-1,Final
+,20/08/2025,13:45,Ilford,Ware,1-1,Final
+,20/08/2025,13:45,Southall,Erith Town,1-4,Final
+,20/08/2025,13:45,Woodford Town,Harlow Town,3-2,Final
+,20/08/2025,13:45,Easington Colliery,Pickering Town,0-2,Final
+,26/08/2025,13:45,Egham Town,Corinthian,4-0,Final
+1,29/08/2025,13:45,Aveley,Hashtag United,3-0,Final
+1,29/08/2025,13:45,Faversham Town,Hastings United,2-2,Final
+1,29/08/2025,14:00,Pickering Town,Redcar Athletic,5-2,Final
+1,30/08/2025,06:30,Tadley Calleva,Weymouth,4-2,Final
+1,30/08/2025,08:15,Burnham,Jersey Bulls,0-3,Final
+1,30/08/2025,09:00,Widnes,Congleton Town,,Cancelado
+1,30/08/2025,09:00,Havant & Wville,Chichester City,0-1,Final
+1,30/08/2025,09:00,Billericay Town,Barton Rovers,4-1,Final
+1,30/08/2025,09:00,Hyde United,Prescot Cables,2-2,Final
+1,30/08/2025,09:00,Stamford,Coventry Sphinx,1-0,Final
+1,30/08/2025,09:00,AFC Sudbury,Mildenhall Town,4-0,Final
+1,30/08/2025,09:00,Bedfont Sports,Littlehampton Town,4-3,Final
+1,30/08/2025,09:00,Berkhamsted,St Ives Town,2-0,Final
+1,30/08/2025,09:00,Brentwood Town,Leighton Town,2-1,Final
+1,30/08/2025,09:00,Corby Town,Gainsborough Trinity,1-2,Final
+1,30/08/2025,09:00,Didcot Town,Poole Town,1-1,Final
+1,30/08/2025,09:00,Histon,Mulbarton Wanderers,2-3,Final
+1,30/08/2025,09:00,Ilkeston Town,Spalding United,1-2,Final
+1,30/08/2025,09:00,Kendal Town,Dunston UTS,0-1,Final
+1,30/08/2025,09:00,Sittingbourne,Croydon Athletic,1-2,Final
+1,30/08/2025,09:00,Sutton Coldfield Town,Abbey Hulton,2-2,Final
+1,30/08/2025,09:00,Uxbridge,Welling United,1-2,Final
+1,30/08/2025,09:00,Westfield (Surrey),Sheppey United,2-0,Final
+1,30/08/2025,09:00,Witham Town,Lowestoft Town,3-2,Final
+1,30/08/2025,09:00,Workington,Stalybridge Celtic,2-3,Final
+1,30/08/2025,09:00,Ashford Town (Middlesex),Whyteleafe,3-2,Final
+1,30/08/2025,09:00,Carlton Town,Cleethorpes Town,3-0,Final
+1,30/08/2025,09:00,Chertsey Town,Thame United,2-1,Final
+1,30/08/2025,09:00,Coleshill Town,Worcester Raiders,2-1,Final
+1,30/08/2025,09:00,Evesham United,Bromsgrove Sporting,5-2,Final
+1,30/08/2025,09:00,Halesowen Town,Stratford Town,1-1,Final
+1,30/08/2025,09:00,Kidsgrove Athletic,Racing Club Warwick,1-2,Final
+1,30/08/2025,09:00,Maldon & Tiptree,Canvey Island,2-0,Final
+1,30/08/2025,09:00,Mangotsfield United,Banbury United,0-1,Final
+1,30/08/2025,09:00,Ramsgate,Cray Valley PM,1-2,Final
+1,30/08/2025,09:00,Slimbridge,Dorchester Town,0-1,Final
+1,30/08/2025,09:00,Three Bridges,Walton & Hersham,0-2,Final
+1,30/08/2025,09:00,Trafford,Stockton Town,2-1,Final
+1,30/08/2025,09:00,Winchester City,Fareham Town,0-0,Final
+1,30/08/2025,09:00,Alvechurch,Barwell,4-2,Final
+1,30/08/2025,09:00,Brightlingsea Regent,Bury Town,2-3,Final
+1,30/08/2025,09:00,Carshalton Athletic,Wingate & Finchley,0-0,Final
+1,30/08/2025,09:00,Cheshunt,Leiston,1-2,Final
+1,30/08/2025,09:00,Cray Wanderers,Hanwell Town,2-2,Final
+1,30/08/2025,09:00,Folkestone Invicta,Sevenoaks Town,3-0,Final
+1,30/08/2025,09:00,Gosport Borough,Basingstoke Town,2-1,Final
+1,30/08/2025,09:00,Hayes & Yeading United,Whitehawk,1-1,Final
+1,30/08/2025,09:00,Hednesford Town,Basford United,3-1,Final
+1,30/08/2025,09:00,Lancaster City,Whitby Town,1-2,Final
+1,30/08/2025,09:00,Matlock Town,Bottesford Town,4-1,Final
+1,30/08/2025,09:00,Morpeth Town,Pontefract Collieries,2-1,Final
+1,30/08/2025,09:00,Needham Market,Tilbury,4-2,Final
+1,30/08/2025,09:00,Potters Bar Town,Hitchin Town,2-2,Final
+1,30/08/2025,09:00,Redditch United,Skegness Town,5-0,Final
+1,30/08/2025,09:00,Rushall Olympic,Atherstone Town,5-1,Final
+1,30/08/2025,09:00,Tiverton Town,Taunton Town,3-4,Final
+1,30/08/2025,09:00,Warrington Town,Bamber Bridge,0-3,Final
+1,30/08/2025,09:00,Witton Albion,Shildon AFC,3-3,Final
+1,30/08/2025,09:00,Bowers & Pitsea,Hertford Town,1-2,Final
+1,30/08/2025,09:00,Dulwich Hamlet,Whitstable Town,2-3,Final
+1,30/08/2025,09:00,Gloucester City,AFC Portchester,1-1,Final
+1,30/08/2025,09:00,Hungerford Town,AFC Stoneham,3-0,Final
+1,30/08/2025,09:00,Avro,Nantwich Town,1-1,Final
+1,30/08/2025,09:00,Aylesbury Vale Dynamos,St Albans City,1-3,Final
+1,30/08/2025,09:00,Beckenham Town,Egham Town,2-3,Final
+1,30/08/2025,09:00,Bishop Auckland,Chadderton,1-3,Final
+1,30/08/2025,09:00,Bishop's Cleeve,Wimborne Town,2-5,Final
+1,30/08/2025,09:00,Chatham Town,Marlow,4-0,Final
+1,30/08/2025,09:00,Deal Town,Cobham,2-0,Final
+1,30/08/2025,09:00,Enfield 1893,Ilford,3-1,Final
+1,30/08/2025,09:00,Erith Town,Farnham Town,0-3,Final
+1,30/08/2025,09:00,Eynesbury Rovers,Arlesey Town,3-1,Final
+1,30/08/2025,09:00,Fairford Town,Sholing,0-2,Final
+1,30/08/2025,09:00,Flackwell Heath,Lewes,2-1,Final
+1,30/08/2025,09:00,Hanley Town,Stourbridge,0-2,Final
+1,30/08/2025,09:00,Harborough Town,Leek Town,0-0,Final
+1,30/08/2025,09:00,Haverhill Rovers,Waltham Abbey,0-3,Final
+1,30/08/2025,09:00,Hebburn Town,Longridge Town,1-0,Final
+1,30/08/2025,09:00,Hythe & Dibden,Laverstock & Ford,1-2,Final
+1,30/08/2025,09:00,Knaphill,Hackney Wick,1-2,Final
+1,30/08/2025,09:00,Long Eaton United,Kettering Town,1-4,Final
+1,30/08/2025,09:00,March Town United,Gorleston,1-3,Final
+1,30/08/2025,09:00,Newmarket,Woodford Town,2-3,Final
+1,30/08/2025,09:00,Plymouth Parkway,Frome Town,0-4,Final
+1,30/08/2025,09:00,Quorn,Sherwood Colliery,8-0,Final
+1,30/08/2025,09:00,Raynes Park Vale,Ashford United,0-2,Final
+1,30/08/2025,09:00,Redbridge,Royston Town,1-2,Final
+1,30/08/2025,09:00,Royal Wootton,Torpoint Athletic,1-3,Final
+1,30/08/2025,09:00,Rylands,Guiseley AFC,1-4,Final
+1,30/08/2025,09:00,Shaftesbury Town,Exmouth,1-1,Final
+1,30/08/2025,09:00,Silsden,Bootle,0-0,Final
+1,30/08/2025,09:00,Stanway Rovers,Cockfosters,2-1,Final
+1,30/08/2025,09:00,Steyning Town,Lancing,5-0,Final
+1,30/08/2025,09:00,Tavistock,Swindon Supermarine,1-4,Final
+1,30/08/2025,09:00,Tower Hamlets,Ascot United,4-1,Final
+1,30/08/2025,09:00,West Auckland Town,Wythenshawe Amateurs,3-1,Final
+1,30/08/2025,09:00,West Didsbury & Chorlton,Runcorn Linnets,0-2,Final
+1,30/08/2025,09:00,Westbury United,Yate Town,2-2,Final
+1,30/08/2025,09:00,Worcester City,Chasetown,1-1,Final
+1,30/08/2025,09:00,Epsom & Ewell FC,Risborough Rangers,2-1,Final
+1,30/08/2025,09:00,Atherton Laburnum Rovers,Atherton Collieries,5-2,Final
+1,30/08/2025,09:00,Rossington Main,United of Manchester,0-4,Final
+1,30/08/2025,09:00,Eastwood Community,Grimsby Borough,1-2,Final
+1,30/08/2025,09:00,Falmouth Town,Brixham,0-5,Final
+1,30/08/2025,09:00,Real Bedford,Bishop's Stortford,1-1,Final
+1,30/08/2025,09:00,Bourne Town,Shepshed Dynamo,0-0,Final
+1,30/08/2025,09:00,Newcastle Blue Star,Heaton Stannington,1-0,Final
+1,30/08/2025,09:00,Boston Town,Sporting Khalsa,1-1,Final
+1,30/08/2025,09:00,Wombwell Town,Stocksbridge Park Steels,1-3,Final
+1,30/08/2025,12:30,Bracknell Town,Dartford,2-2,Final
+1,31/08/2025,08:00,Hallam,Ashton United,2-2,Final
+1,31/08/2025,09:00,Wokingham Town,Burgess Hill Town,1-5,Final
+1,01/09/2025,13:45,Abbey Hulton,Sutton Coldfield Town,2-2,Final
+1,02/09/2025,13:45,Hitchin Town,Potters Bar Town,2-0,Final
+1,02/09/2025,13:45,Dartford,Bracknell Town,0-2,Final
+1,02/09/2025,13:45,Nantwich Town,Avro,2-0,Final
+1,02/09/2025,13:45,Hastings United,Faversham Town,0-3,Final
+1,02/09/2025,13:45,Leek Town,Harborough Town,0-3,Final
+1,02/09/2025,13:45,Chasetown,Worcester City,3-2,Final
+1,02/09/2025,13:45,Hanwell Town,Cray Wanderers,1-0,Final
+1,02/09/2025,13:45,Prescot Cables,Hyde United,0-1,Final
+1,02/09/2025,13:45,Bishop's Stortford,Real Bedford,1-0,Final
+1,02/09/2025,13:45,Poole Town,Didcot Town,2-1,Final
+1,02/09/2025,13:45,Stratford Town,Halesowen Town,0-3,Final
+1,02/09/2025,13:45,Wingate & Finchley,Carshalton Athletic,3-2,Final
+1,02/09/2025,13:45,Yate Town,Westbury United,2-3,Final
+1,02/09/2025,13:45,AFC Portchester,Gloucester City,0-2,Final
+1,02/09/2025,13:45,Bootle,Silsden,4-2,Final
+1,02/09/2025,13:45,Fareham Town,Winchester City,1-0,Final
+1,02/09/2025,13:45,Shepshed Dynamo,Bourne Town,2-1,Final
+1,02/09/2025,13:45,Shildon AFC,Witton Albion,0-3,Final
+1,02/09/2025,13:45,Sporting Khalsa,Boston Town,2-0,Final
+1,03/09/2025,13:45,Whitehawk,Hayes & Yeading United,3-2,Final
+1,03/09/2025,13:45,Ashton United,Hallam,2-0,Final
+1,03/09/2025,13:45,Exmouth,Shaftesbury Town,0-2,Final
+2,12/09/2025,14:00,Folkestone Invicta,Maidstone Utd,2-0,Final
+2,13/09/2025,06:30,Pickering Town,Runcorn Linnets,0-2,Final
+2,13/09/2025,09:00,Macclesfield,Atherton Laburnum Rovers,3-0,Final
+2,13/09/2025,09:00,Maidenhead,Faversham Town,0-1,Final
+2,13/09/2025,09:00,AFC Fylde,Bamber Bridge,4-1,Final
+2,13/09/2025,09:00,Ebbsfleet United,Ashford Town (Middlesex),5-0,Final
+2,13/09/2025,09:00,Billericay Town,Berkhamsted,3-0,Final
+2,13/09/2025,09:00,Hampton & Richmond,Croydon Athletic,4-2,Final
+2,13/09/2025,09:00,Hitchin Town,St Albans City,1-2,Final
+2,13/09/2025,09:00,AFC Telford United,Kidderminster Harriers,3-1,Final
+2,13/09/2025,09:00,Chelmsford City,Hertford Town,6-0,Final
+2,13/09/2025,09:00,Gainsborough Trinity,Rushall Olympic,2-1,Final
+2,13/09/2025,09:00,Hyde United,Whitby Town,2-0,Final
+2,13/09/2025,09:00,Nantwich Town,Trafford,3-1,Final
+2,13/09/2025,09:00,Chesham United,King's Lynn Town,1-4,Final
+2,13/09/2025,09:00,Curzon Ashton,Hebburn Town,4-1,Final
+2,13/09/2025,09:00,Eastbourne Borough,Epsom & Ewell FC,4-0,Final
+2,13/09/2025,09:00,Taunton Town,Weston-super-Mare,1-1,Final
+2,13/09/2025,09:00,Whitehawk,Walton & Hersham,0-2,Final
+2,13/09/2025,09:00,AFC Sudbury,Aveley,1-2,Final
+2,13/09/2025,09:00,Ashford United,Chatham Town,0-3,Final
+2,13/09/2025,09:00,Burgess Hill Town,Farnham Town,1-3,Final
+2,13/09/2025,09:00,Sutton Coldfield Town,Stourbridge,3-1,Final
+2,13/09/2025,09:00,Waltham Abbey,Gorleston,2-0,Final
+2,13/09/2025,09:00,Westfield (Surrey),Horsham,2-2,Final
+2,13/09/2025,09:00,AFC Totton,Torquay,2-0,Final
+2,13/09/2025,09:00,Bedford Town,Dagenham & Redbridge,1-1,Final
+2,13/09/2025,09:00,Bracknell Town,Tadley Calleva,2-0,Final
+2,13/09/2025,09:00,Bury Town,Woodford Town,1-1,Final
+2,13/09/2025,09:00,Chasetown,Banbury United,0-0,Final
+2,13/09/2025,09:00,Chertsey Town,Cray Valley PM,2-3,Final
+2,13/09/2025,09:00,Coleshill Town,Hednesford Town,0-7,Final
+2,13/09/2025,09:00,Dunston UTS,Stocksbridge Park Steels,1-0,Final
+2,13/09/2025,09:00,Hanwell Town,Bedfont Sports,0-1,Final
+2,13/09/2025,09:00,Maldon & Tiptree,Stanway Rovers,2-0,Final
+2,13/09/2025,09:00,Spalding United,Alfreton Town,3-0,Final
+2,13/09/2025,09:00,Whitstable Town,Chichester City,1-1,Final
+2,13/09/2025,09:00,Alvechurch,Leamington,3-0,Final
+2,13/09/2025,09:00,Ashton United,Scarborough Athletic,2-0,Final
+2,13/09/2025,09:00,Buxton,Redditch United,3-0,Final
+2,13/09/2025,09:00,Farnborough,Dover,4-1,Final
+2,13/09/2025,09:00,Gosport Borough,Poole Town,0-3,Final
+2,13/09/2025,09:00,Leiston,Hackney Wick,4-1,Final
+2,13/09/2025,09:00,Matlock Town,Carlton Town,3-0,Final
+2,13/09/2025,09:00,Merthyr Town,Torpoint Athletic,4-0,Final
+2,13/09/2025,09:00,Morpeth Town,Witton Albion,2-1,Final
+2,13/09/2025,09:00,Needham Market,Eynesbury Rovers,4-2,Final
+2,13/09/2025,09:00,Peterborough Sports,AFC Hornchurch,2-1,Final
+2,13/09/2025,09:00,Radcliffe,Southport,1-1,Final
+2,13/09/2025,09:00,Royston Town,Brentwood Town,1-0,Final
+2,13/09/2025,09:00,Salisbury,Laverstock & Ford,4-1,Final
+2,13/09/2025,09:00,South Shields,Guiseley AFC,2-1,Final
+2,13/09/2025,09:00,Stalybridge Celtic,Chester,1-2,Final
+2,13/09/2025,09:00,United of Manchester,Chadderton,0-1,Final
+2,13/09/2025,09:00,Wimborne Town,Bath City,2-1,Final
+2,13/09/2025,09:00,Gloucester City,Chippenham Town,1-2,Final
+2,13/09/2025,09:00,Dorking Wanderers,Wingate & Finchley,7-2,Final
+2,13/09/2025,09:00,Hemel Hempstead Town,Bishop's Stortford,4-1,Final
+2,13/09/2025,09:00,Hungerford Town,Swindon Supermarine,3-0,Final
+2,13/09/2025,09:00,Welling United,Slough Town,1-1,Final
+2,13/09/2025,09:00,Bootle,Darlington 1883,1-3,Final
+2,13/09/2025,09:00,Congleton Town,Chorley,0-1,Final
+2,13/09/2025,09:00,Deal Town,Egham Town,2-1,Final
+2,13/09/2025,09:00,Enfield 1893,Enfield Town,0-3,Final
+2,13/09/2025,09:00,Fareham Town,Sholing,0-3,Final
+2,13/09/2025,09:00,Grimsby Borough,Halesowen Town,1-1,Final
+2,13/09/2025,09:00,Harborough Town,Worksop Town,3-2,Final
+2,13/09/2025,09:00,Mulbarton Wanderers,Witham Town,0-0,Final
+2,13/09/2025,09:00,Quorn,Kettering Town,2-1,Final
+2,13/09/2025,09:00,Racing Club Warwick,Evesham United,3-3,Final
+2,13/09/2025,09:00,Shaftesbury Town,Frome Town,1-1,Final
+2,13/09/2025,09:00,Shepshed Dynamo,Stamford,0-2,Final
+2,13/09/2025,09:00,Steyning Town,Tonbridge Angels,2-2,Final
+2,13/09/2025,09:00,Tower Hamlets,Flackwell Heath,0-2,Final
+2,13/09/2025,09:00,West Auckland Town,Spennymoor Town,0-1,Final
+2,13/09/2025,09:00,Westbury United,Oxford City,3-2,Final
+2,13/09/2025,09:00,Brixham,Dorchester Town,1-3,Final
+2,13/09/2025,09:00,Jersey Bulls,Worthing,2-2,Final
+2,13/09/2025,09:00,Newcastle Blue Star,Marine,0-2,Final
+2,16/09/2025,13:45,Dagenham & Redbridge,Bedford Town,1-0,Final
+2,16/09/2025,13:45,Southport,Radcliffe,3-2,Final
+2,16/09/2025,13:45,Slough Town,Welling United,1-0,Final
+2,16/09/2025,13:45,Weston-super-Mare,Taunton Town,3-0,Final
+2,16/09/2025,13:45,Witham Town,Mulbarton Wanderers,2-0,Final
+2,16/09/2025,13:45,Chichester City,Whitstable Town,0-1,Final
+2,16/09/2025,13:45,Evesham United,Racing Club Warwick,1-0,Final
+2,16/09/2025,13:45,Halesowen Town,Grimsby Borough,6-1,Final
+2,16/09/2025,13:45,Banbury United,Chasetown,1-1,Final
+2,16/09/2025,13:45,Horsham,Westfield (Surrey),6-0,Final
+2,16/09/2025,13:45,Worthing,Jersey Bulls,5-0,Final
+2,16/09/2025,13:45,Tonbridge Angels,Steyning Town,6-1,Final
+2,17/09/2025,13:45,Frome Town,Shaftesbury Town,1-1,Final
+2,17/09/2025,13:45,Woodford Town,Bury Town,1-0,Final
+2,23/09/2025,13:45,Sporting Khalsa,Hereford,2-3,Final
+3,27/09/2025,06:30,Westbury United,Farnborough,0-1,Final
+3,27/09/2025,09:00,Macclesfield,Nantwich Town,2-0,Final
+3,27/09/2025,09:00,Chester,Curzon Ashton,5-1,Final
+3,27/09/2025,09:00,AFC Fylde,Darlington 1883,2-2,Final
+3,27/09/2025,09:00,Ebbsfleet United,Faversham Town,2-1,Final
+3,27/09/2025,09:00,AFC Telford United,Evesham United,4-1,Final
+3,27/09/2025,09:00,Hyde United,Matlock Town,1-0,Final
+3,27/09/2025,09:00,Spennymoor Town,Chadderton,3-0,Final
+3,27/09/2025,09:00,Bedfont Sports,Slough Town,1-2,Final
+3,27/09/2025,09:00,Sutton Coldfield Town,Stamford,0-1,Final
+3,27/09/2025,09:00,Waltham Abbey,Maldon & Tiptree,2-4,Final
+3,27/09/2025,09:00,AFC Totton,Frome Town,4-2,Final
+3,27/09/2025,09:00,Cray Valley PM,Tonbridge Angels,0-0,Final
+3,27/09/2025,09:00,Dunston UTS,Gainsborough Trinity,1-2,Final
+3,27/09/2025,09:00,Halesowen Town,Aveley,0-0,Final
+3,27/09/2025,09:00,Marine,Buxton,2-3,Final
+3,27/09/2025,09:00,Runcorn Linnets,Ashton United,1-1,Final
+3,27/09/2025,09:00,Sholing,Eastbourne Borough,1-2,Final
+3,27/09/2025,09:00,Spalding United,Dagenham & Redbridge,2-1,Final
+3,27/09/2025,09:00,Whitstable Town,Hungerford Town,2-0,Final
+3,27/09/2025,09:00,Alvechurch,Chelmsford City,1-2,Final
+3,27/09/2025,09:00,Enfield Town,Quorn,5-1,Final
+3,27/09/2025,09:00,Hednesford Town,Billericay Town,0-0,Final
+3,27/09/2025,09:00,Horsham,Folkestone Invicta,2-3,Final
+3,27/09/2025,09:00,Leiston,Banbury United,0-3,Final
+3,27/09/2025,09:00,Merthyr Town,Hampton & Richmond,0-1,Final
+3,27/09/2025,09:00,Morpeth Town,Southport,1-3,Final
+3,27/09/2025,09:00,Needham Market,Witham Town,2-1,Final
+3,27/09/2025,09:00,Poole Town,Weston-super-Mare,0-2,Final
+3,27/09/2025,09:00,Royston Town,King's Lynn Town,1-5,Final
+3,27/09/2025,09:00,Salisbury,Dorking Wanderers,1-1,Final
+3,27/09/2025,09:00,South Shields,Chorley,4-1,Final
+3,27/09/2025,09:00,Wimborne Town,Worthing,0-3,Final
+3,27/09/2025,09:00,Hemel Hempstead Town,Hereford,2-2,Final
+3,27/09/2025,09:00,Chatham Town,Deal Town,3-1,Final
+3,27/09/2025,09:00,Farnham Town,Dorchester Town,3-0,Final
+3,27/09/2025,09:00,Flackwell Heath,Bracknell Town,1-1,Final
+3,27/09/2025,09:00,Harborough Town,Peterborough Sports,4-1,Final
+3,27/09/2025,09:00,Walton & Hersham,Chippenham Town,0-2,Final
+3,27/09/2025,09:00,Woodford Town,St Albans City,0-1,Final
+3,29/09/2025,13:45,Aveley,Halesowen Town,1-0,Final
+3,30/09/2025,13:45,Billericay Town,Hednesford Town,2-0,Final
+3,30/09/2025,13:45,Hereford,Hemel Hempstead Town,0-3,Final
+3,30/09/2025,13:45,Bracknell Town,Flackwell Heath,0-3,Final
+3,30/09/2025,13:45,Ashton United,Runcorn Linnets,1-2,Final
+3,30/09/2025,13:45,Dorking Wanderers,Salisbury,4-2,Final
+3,30/09/2025,13:45,Tonbridge Angels,Cray Valley PM,5-0,Final
+3,30/09/2025,13:45,Darlington 1883,AFC Fylde,3-1,Final
+3,11/10/2025,06:30,Farnham Town,Sutton Utd,3-3,Final
+3,11/10/2025,09:00,Rochdale,York,1-2,Final
+3,11/10/2025,09:00,Scunthorpe,King's Lynn Town,4-2,Final
+3,11/10/2025,09:00,Southend,Folkestone Invicta,4-1,Final
+3,11/10/2025,09:00,Carlisle,Boston United,5-2,Final
+3,11/10/2025,09:00,Morecambe,Chester,1-1,Final
+3,11/10/2025,09:00,Macclesfield,Stamford,1-0,Final
+3,11/10/2025,09:00,Southport,FC Halifax Town,1-3,Final
+3,11/10/2025,09:00,Braintree,Farnborough,2-0,Final
+3,11/10/2025,09:00,Woking,Brackley Town,1-1,Final
+3,11/10/2025,09:00,Ebbsfleet United,Solihull Moors,2-0,Final
+3,11/10/2025,09:00,Hampton & Richmond,Eastleigh,0-2,Final
+3,11/10/2025,09:00,Slough Town,Enfield Town,3-2,Final
+3,11/10/2025,09:00,Weston-super-Mare,Needham Market,1-0,Final
+3,11/10/2025,09:00,Chelmsford City,Chippenham Town,4-3,Final
+3,11/10/2025,09:00,Gainsborough Trinity,Hartlepool,1-1,Final
+3,11/10/2025,09:00,Altrincham,Harborough Town,2-2,Final
+3,11/10/2025,09:00,Eastbourne Borough,Boreham Wood,0-3,Final
+3,11/10/2025,09:00,Spennymoor Town,Billericay Town,1-0,Final
+3,11/10/2025,09:00,Aveley,Gateshead,0-3,Final
+3,11/10/2025,09:00,AFC Totton,Truro City,1-1,Final
+3,11/10/2025,09:00,Maldon & Tiptree,Flackwell Heath,1-0,Final
+3,11/10/2025,09:00,Runcorn Linnets,Buxton,0-1,Final
+3,11/10/2025,09:00,Banbury United,St Albans City,1-1,Final
+3,11/10/2025,09:00,South Shields,Spalding United,4-0,Final
+3,11/10/2025,09:00,Tamworth,Hyde United,1-0,Final
+3,11/10/2025,09:00,Dorking Wanderers,Aldershot Town,2-3,Final
+3,11/10/2025,09:00,Hemel Hempstead Town,Yeovil Town,2-1,Final
+3,11/10/2025,09:00,Tonbridge Angels,Chatham Town,1-3,Final
+3,11/10/2025,09:00,Wealdstone,Whitstable Town,5-1,Final
+3,11/10/2025,09:00,Darlington 1883,AFC Telford United,0-6,Final
+3,13/10/2025,13:30,Worthing,Forest Green,1-4,Final
+3,14/10/2025,13:45,Hartlepool,Gainsborough Trinity,1-3,Final
+3,14/10/2025,13:45,Chester,Morecambe,2-0,Final
+3,14/10/2025,13:45,Sutton Utd,Farnham Town,3-2,Final
+3,14/10/2025,13:45,Truro City,AFC Totton,1-1,Final
+3,14/10/2025,13:45,Brackley Town,Woking,6-2,Final
+3,14/10/2025,13:45,St Albans City,Banbury United,1-0,Final
+3,14/10/2025,13:45,Harborough Town,Altrincham,0-3,Final
+1,31/10/2025,14:30,Luton,Forest Green,4-3,Final
+1,01/11/2025,07:00,Chelmsford City,Braintree,4-1,Final
+1,01/11/2025,10:00,Reading,Carlisle,2-3,Final
+1,01/11/2025,10:00,Wigan,Hemel Hempstead Town,1-1,Final
+1,01/11/2025,10:00,Bolton,Huddersfield,2-1,Final
+1,01/11/2025,10:00,Rotherham,Swindon Town,1-2,Final
+1,01/11/2025,10:00,Barnsley,York,3-2,Final
+1,01/11/2025,10:00,Burton Albion,St Albans City,6-0,Final
+1,01/11/2025,10:00,AFC Wimbledon,Gateshead,0-2,Final
+1,01/11/2025,10:00,Fleetwood Town,Barnet,2-1,Final
+1,01/11/2025,10:00,Oldham,Northampton,3-1,Final
+1,01/11/2025,10:00,Peterborough,Cardiff,1-0,Final
+1,01/11/2025,10:00,Blackpool,Scunthorpe,1-0,Final
+1,01/11/2025,10:00,Wycombe,Plymouth,2-0,Final
+1,01/11/2025,10:00,Colchester,Milton Keynes Dons,2-3,Final
+1,01/11/2025,10:00,Crewe,Doncaster,1-2,Final
+1,01/11/2025,10:00,Grimsby,Ebbsfleet United,3-1,Final
+1,01/11/2025,10:00,Newport County,Gillingham,1-1,Final
+1,01/11/2025,10:00,Stevenage,Chesterfield,0-1,Final
+1,01/11/2025,10:00,Cambridge United,Chester,3-0,Final
+1,01/11/2025,10:00,Cheltenham,Bradford,1-0,Final
+1,01/11/2025,10:00,Mansfield Town,Harrogate Town,3-2,Final
+1,01/11/2025,10:00,Macclesfield,AFC Totton,6-3,Final
+1,01/11/2025,10:00,Tranmere,Stockport County,1-3,Final
+1,01/11/2025,10:00,Boreham Wood,Crawley Town,3-0,Final
+1,01/11/2025,10:00,Bromley,Bristol Rovers,1-2,Final
+1,01/11/2025,10:00,Sutton Utd,AFC Telford United,2-1,Final
+1,01/11/2025,10:00,FC Halifax Town,Exeter City,0-2,Final
+1,01/11/2025,10:00,Salford City,Lincoln,1-1,Final
+1,01/11/2025,10:00,Slough Town,Altrincham,2-1,Final
+1,01/11/2025,10:00,Weston-super-Mare,Aldershot Town,2-1,Final
+1,01/11/2025,10:00,Spennymoor Town,Barrow,0-2,Final
+1,01/11/2025,10:00,Buxton,Chatham Town,2-1,Final
+1,01/11/2025,10:00,Wealdstone,Southend,1-0,Final
+1,01/11/2025,12:30,Brackley Town,Notts County,2-2,Final
+1,02/11/2025,07:00,South Shields,Shrewsbury,1-3,Final
+1,02/11/2025,09:15,Eastleigh,Walsall,0-3,Final
+1,02/11/2025,10:00,Port Vale,Maldon & Tiptree,5-1,Final
+1,02/11/2025,12:15,Gainsborough Trinity,Accrington ST,1-2,Final
+1,03/11/2025,14:30,Tamworth,Leyton Orient,0-1,Final
+128,05/12/2025,14:30,Salford City,Leyton Orient,4-0,Final
+128,06/12/2025,10:00,Wigan,Barrow,2-2,Final
+128,06/12/2025,10:00,Fleetwood Town,Luton,2-2,Final
+128,06/12/2025,10:00,Milton Keynes Dons,Oldham,3-1,Final
+128,06/12/2025,10:00,Peterborough,Barnsley,0-1,Final
+128,06/12/2025,10:00,Port Vale,Bristol Rovers,1-0,Final
+128,06/12/2025,10:00,Swindon Town,Bolton,4-0,Final
+128,06/12/2025,10:00,Accrington ST,Mansfield Town,1-1,Final
+128,06/12/2025,10:00,Exeter City,Wycombe,4-0,Final
+128,06/12/2025,10:00,Grimsby,Wealdstone,4-0,Final
+128,06/12/2025,10:00,Cheltenham,Buxton,6-2,Final
+128,06/12/2025,10:00,Stockport County,Cambridge United,0-0,Final
+128,06/12/2025,10:00,Chelmsford City,Weston-super-Mare,0-2,Final
+128,06/12/2025,12:15,Sutton Utd,Shrewsbury,1-2,Final
+128,06/12/2025,14:30,Chesterfield,Doncaster,1-2,Final
+128,07/12/2025,07:30,Slough Town,Macclesfield,1-3,Final
+128,07/12/2025,09:30,Boreham Wood,Newport County,3-0,Final
+128,07/12/2025,10:30,Gateshead,Walsall,0-2,Final
+128,07/12/2025,12:30,Blackpool,Carlisle,4-1,Final
+128,08/12/2025,14:30,Brackley Town,Burton Albion,1-3,Final
+64,09/01/2026,14:30,Preston,Wigan,0-1,Final
+64,09/01/2026,14:30,Milton Keynes Dons,Oxford United,1-1,Final
+64,09/01/2026,14:30,Port Vale,Fleetwood Town,1-0,Final
+64,09/01/2026,14:30,Wrexham,Nottingham Forest,3-3,Final
+64,10/01/2026,07:15,Wolves,Shrewsbury,6-1,Final
+64,10/01/2026,07:15,Everton,Sunderland,1-1,Final
+64,10/01/2026,07:15,Cheltenham,Leicester,0-2,Final
+64,10/01/2026,07:15,Macclesfield,Crystal Palace,2-1,Final
+64,10/01/2026,10:00,Newcastle,Bournemouth,2-2,Final
+64,10/01/2026,10:00,Fulham,Middlesbrough,3-1,Final
+64,10/01/2026,10:00,Burnley,Millwall,5-1,Final
+64,10/01/2026,10:00,Manchester City,Exeter City,10-1,Final
+64,10/01/2026,10:00,Ipswich,Blackpool,2-1,Final
+64,10/01/2026,10:00,Sheffield Wednesday,Brentford,0-2,Final
+64,10/01/2026,10:00,Stoke City,Coventry,1-0,Final
+64,10/01/2026,10:00,Doncaster,Southampton,2-3,Final
+64,10/01/2026,10:00,Boreham Wood,Burton Albion,0-5,Final
+64,10/01/2026,12:45,Tottenham,Aston Villa,1-2,Final
+64,10/01/2026,12:45,Bristol City,Watford,5-1,Final
+64,10/01/2026,12:45,Grimsby,Weston-super-Mare,3-2,Final
+64,10/01/2026,12:45,Cambridge United,Birmingham,2-3,Final
+64,10/01/2026,15:00,Charlton,Chelsea,1-5,Final
+64,11/01/2026,07:00,Derby,Leeds,1-3,Final
+64,11/01/2026,09:00,Portsmouth,Arsenal,1-4,Final
+64,11/01/2026,09:30,West Ham,QPR,2-1,Final
+64,11/01/2026,09:30,Sheffield Utd,Mansfield Town,3-4,Final
+64,11/01/2026,09:30,Hull City,Blackburn,0-0,Final
+64,11/01/2026,09:30,Norwich,Walsall,5-1,Final
+64,11/01/2026,09:30,Swansea,West Brom,1-1,Final
+64,11/01/2026,11:30,Manchester United,Brighton,1-2,Final
+64,12/01/2026,14:45,Liverpool,Barnsley,4-1,Final
+64,20/01/2026,14:45,Salford City,Swindon Town,3-2,Final
+32,13/02/2026,14:45,Hull City,Chelsea,0-4,Final
+32,13/02/2026,14:45,Wrexham,Ipswich,1-0,Final
+32,14/02/2026,07:15,Burton Albion,West Ham,0-1,Final
+32,14/02/2026,10:00,Southampton,Leicester,2-1,Final
+32,14/02/2026,10:00,Burnley,Mansfield Town,1-2,Final
+32,14/02/2026,10:00,Manchester City,Salford City,2-0,Final
+32,14/02/2026,10:00,Norwich,West Brom,3-1,Final
+32,14/02/2026,12:45,Aston Villa,Newcastle,1-3,Final
+32,14/02/2026,15:00,Liverpool,Brighton,3-0,Final
+32,15/02/2026,07:00,Birmingham,Leeds,1-1,Final
+32,15/02/2026,08:30,Grimsby,Wolves,0-1,Final
+32,15/02/2026,09:00,Stoke City,Fulham,1-2,Final
+32,15/02/2026,09:00,Oxford United,Sunderland,0-1,Final
+32,15/02/2026,11:30,Arsenal,Wigan,4-0,Final
+32,16/02/2026,14:30,Macclesfield,Brentford,0-1,Final
+32,03/03/2026,14:45,Port Vale,Bristol City,1-0,Final
+16,06/03/2026,15:00,Wolves,Liverpool,1-3,Final
+16,07/03/2026,07:15,Mansfield Town,Arsenal,1-2,Final
+16,07/03/2026,12:45,Wrexham,Chelsea,2-4,Final
+16,07/03/2026,15:00,Newcastle,Manchester City,1-3,Final
+16,08/03/2026,07:00,Fulham,Southampton,0-1,Final
+16,08/03/2026,08:30,Port Vale,Sunderland,1-0,Final
+16,08/03/2026,11:30,Leeds,Norwich,3-0,Final
+16,09/03/2026,14:30,West Ham,Brentford,2-2,Final
+,04/04/2026,06:45,Manchester City,Liverpool,,
+,04/04/2026,11:15,Chelsea,Port Vale,,
+,04/04/2026,14:00,Southampton,Arsenal,,
+,05/04/2026,10:30,West Ham,Leeds,,

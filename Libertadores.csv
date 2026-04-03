@@ -1,0 +1,127 @@
+matchday,date,time,home_team,away_team,result,status
+1,03/02/2026,19:30,The Strongest,Deportivo Tachira FC,2-1,Final
+1,04/02/2026,19:30,2 de Mayo,Alianza Lima,1-0,Final
+1,05/02/2026,19:30,Juventud,Universidad Catolica,0-1,Final
+1,10/02/2026,19:30,Deportivo Tachira FC,The Strongest,1-0,Final
+1,11/02/2026,19:30,Alianza Lima,2 de Mayo,1-1,Final
+1,12/02/2026,19:30,Universidad Catolica,Juventud,3-4,Final
+2,17/02/2026,17:00,Carabobo FC,Huachipato,1-0,Final
+2,17/02/2026,19:30,Liverpool Montevideo,Independiente Medellin,1-2,Final
+2,17/02/2026,19:30,2 de Mayo,Sporting Cristal,2-2,Final
+2,18/02/2026,17:00,O'Higgins,Bahia,1-0,Final
+2,18/02/2026,19:30,Barcelona SC,Argentinos JRS,0-1,Final
+2,18/02/2026,19:30,Nacional Potosí,Botafogo,1-0,Final
+2,19/02/2026,17:00,Juventud,Club Guarani,0-0,Final
+2,19/02/2026,19:30,Deportivo Tachira FC,Deportes Tolima,0-1,Final
+2,24/02/2026,17:00,Huachipato,Carabobo FC,1-2,Final
+2,24/02/2026,19:30,Independiente Medellin,Liverpool Montevideo,0-0,Final
+2,24/02/2026,19:30,Sporting Cristal,2 de Mayo,0-0,Final
+2,25/02/2026,17:00,Bahia,O'Higgins,2-1,Final
+2,25/02/2026,19:30,Botafogo,Nacional Potosí,2-0,Final
+2,25/02/2026,19:30,Argentinos JRS,Barcelona SC,0-1,Final
+2,26/02/2026,17:00,Club Guarani,Juventud,1-2,Final
+2,26/02/2026,19:30,Deportes Tolima,Deportivo Tachira FC,0-1,Final
+3,03/03/2026,19:30,Barcelona SC,Botafogo,1-1,Final
+3,04/03/2026,17:00,Carabobo FC,Sporting Cristal,0-1,Final
+3,04/03/2026,19:30,O'Higgins,Deportes Tolima,1-0,Final
+3,05/03/2026,19:30,Juventud,Independiente Medellin,1-1,Final
+3,10/03/2026,19:30,Botafogo,Barcelona SC,0-1,Final
+3,11/03/2026,17:00,Sporting Cristal,Carabobo FC,1-2,Final
+3,11/03/2026,19:30,Deportes Tolima,O'Higgins,2-0,Final
+3,12/03/2026,19:30,Independiente Medellin,Juventud,2-1,Final
+1,07/04/2026,17:00,Independ. Rivadavia,Bolívar,,
+1,07/04/2026,17:00,Deportivo La Guaira,Fluminense,,
+1,07/04/2026,19:00,Barcelona SC,Cruzeiro,,
+1,07/04/2026,19:00,Always Ready,LDU de Quito,,
+1,07/04/2026,19:30,U. Catolica,Boca Juniors,,
+1,07/04/2026,21:00,Deportes Tolima,Universitario,,
+1,08/04/2026,17:00,Coquimbo Unido,Club Nacional,,
+1,08/04/2026,17:00,Mirassol,Lanus,,
+1,08/04/2026,19:00,Independiente Medellin,Estudiantes L.P.,,
+1,08/04/2026,19:30,Junior,Palmeiras,,
+1,08/04/2026,19:30,Cusco,Flamengo,,
+1,08/04/2026,21:00,Sporting Cristal,Cerro Porteno,,
+1,09/04/2026,17:00,Rosario Central,Independiente del Valle,,
+1,09/04/2026,17:00,UCV,Libertad Asuncion,,
+1,09/04/2026,19:00,Platense,Corinthians,,
+1,09/04/2026,21:00,Santa Fe,Penarol,,
+2,14/04/2026,17:00,Estudiantes L.P.,Cusco,,
+2,14/04/2026,17:00,Cerro Porteno,Junior,,
+2,14/04/2026,17:00,Club Nacional,Deportes Tolima,,
+2,14/04/2026,19:00,Boca Juniors,Barcelona SC,,
+2,14/04/2026,19:00,Bolívar,Deportivo La Guaira,,
+2,14/04/2026,21:00,LDU de Quito,Mirassol,,
+2,15/04/2026,17:00,Cruzeiro,U. Catolica,,
+2,15/04/2026,17:00,Libertad Asuncion,Rosario Central,,
+2,15/04/2026,19:30,Fluminense,Independ. Rivadavia,,
+2,15/04/2026,19:30,Corinthians,Santa Fe,,
+2,15/04/2026,21:00,Independiente del Valle,UCV,,
+2,15/04/2026,21:00,Universitario,Coquimbo Unido,,
+2,16/04/2026,17:00,Palmeiras,Sporting Cristal,,
+2,16/04/2026,17:00,Lanus,Always Ready,,
+2,16/04/2026,19:30,Flamengo,Independiente Medellin,,
+2,16/04/2026,19:30,Penarol,Platense,,
+3,28/04/2026,17:00,Lanus,LDU de Quito,,
+3,28/04/2026,17:00,Libertad Asuncion,Independiente del Valle,,
+3,28/04/2026,19:00,UCV,Rosario Central,,
+3,28/04/2026,19:30,Cruzeiro,Boca Juniors,,
+3,28/04/2026,21:00,Deportes Tolima,Coquimbo Unido,,
+3,28/04/2026,21:00,Sporting Cristal,Junior,,
+3,29/04/2026,17:00,Platense,Santa Fe,,
+3,29/04/2026,17:00,Mirassol,Always Ready,,
+3,29/04/2026,19:00,Barcelona SC,U. Catolica,,
+3,29/04/2026,19:30,Estudiantes L.P.,Flamengo,,
+3,29/04/2026,19:30,Cerro Porteno,Palmeiras,,
+3,29/04/2026,21:00,Universitario,Club Nacional,,
+3,30/04/2026,17:00,Independ. Rivadavia,Deportivo La Guaira,,
+3,30/04/2026,17:00,Bolívar,Fluminense,,
+3,30/04/2026,19:00,Corinthians,Penarol,,
+3,30/04/2026,21:00,Independiente Medellin,Cusco,,
+4,05/05/2026,17:00,Rosario Central,Libertad Asuncion,,
+4,05/05/2026,17:00,Sporting Cristal,Palmeiras,,
+4,05/05/2026,19:00,Barcelona SC,Boca Juniors,,
+4,05/05/2026,19:00,UCV,Independiente del Valle,,
+4,05/05/2026,19:30,Always Ready,Lanus,,
+4,06/05/2026,17:00,Deportivo La Guaira,Bolívar,,
+4,06/05/2026,17:00,Cusco,Estudiantes L.P.,,
+4,06/05/2026,19:30,Independ. Rivadavia,Fluminense,,
+4,06/05/2026,19:30,Santa Fe,Corinthians,,
+4,06/05/2026,21:00,Deportes Tolima,Club Nacional,,
+4,06/05/2026,21:00,U. Catolica,Cruzeiro,,
+4,07/05/2026,17:00,Platense,Penarol,,
+4,07/05/2026,17:00,Mirassol,LDU de Quito,,
+4,07/05/2026,19:00,Coquimbo Unido,Universitario,,
+4,07/05/2026,19:30,Independiente Medellin,Flamengo,,
+4,07/05/2026,21:00,Junior,Cerro Porteno,,
+5,19/05/2026,17:00,Fluminense,Bolívar,,
+5,19/05/2026,17:00,Rosario Central,UCV,,
+5,19/05/2026,17:00,Coquimbo Unido,Deportes Tolima,,
+5,19/05/2026,19:00,Santa Fe,Platense,,
+5,19/05/2026,19:00,Always Ready,Mirassol,,
+5,19/05/2026,19:30,Boca Juniors,Cruzeiro,,
+5,19/05/2026,21:00,Independiente del Valle,Libertad Asuncion,,
+5,20/05/2026,17:00,Club Nacional,Universitario,,
+5,20/05/2026,19:30,Palmeiras,Cerro Porteno,,
+5,20/05/2026,19:30,Flamengo,Estudiantes L.P.,,
+5,20/05/2026,19:30,LDU de Quito,Lanus,,
+5,20/05/2026,21:00,Junior,Sporting Cristal,,
+5,20/05/2026,21:00,Cusco,Independiente Medellin,,
+5,21/05/2026,17:00,Deportivo La Guaira,Independ. Rivadavia,,
+5,21/05/2026,19:30,Penarol,Corinthians,,
+5,21/05/2026,19:30,U. Catolica,Barcelona SC,,
+6,26/05/2026,17:00,Lanus,Mirassol,,
+6,26/05/2026,17:00,LDU de Quito,Always Ready,,
+6,26/05/2026,19:30,Flamengo,Cusco,,
+6,26/05/2026,19:30,Estudiantes L.P.,Independiente Medellin,,
+6,26/05/2026,19:30,Club Nacional,Coquimbo Unido,,
+6,26/05/2026,19:30,Universitario,Deportes Tolima,,
+6,27/05/2026,17:00,Independiente del Valle,Rosario Central,,
+6,27/05/2026,17:00,Libertad Asuncion,UCV,,
+6,27/05/2026,19:30,Fluminense,Deportivo La Guaira,,
+6,27/05/2026,19:30,Corinthians,Platense,,
+6,27/05/2026,19:30,Penarol,Santa Fe,,
+6,27/05/2026,19:30,Bolívar,Independ. Rivadavia,,
+6,28/05/2026,17:00,Palmeiras,Junior,,
+6,28/05/2026,17:00,Cerro Porteno,Sporting Cristal,,
+6,28/05/2026,19:30,Cruzeiro,Barcelona SC,,
+6,28/05/2026,19:30,Boca Juniors,U. Catolica,,

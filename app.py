@@ -202,7 +202,7 @@ with t1:
         if len(fechas) > 0:
             f_prox = min(fechas)
             df_t4 = df_p[df_p['Fecha_dt'] == f_prox].copy()
-            st.markdown(f"### 🏆 TOP 4 POR MERCADO ({f_prox.strftime('%d/%m/%Y')})")
+            st.markdown(f"### 🏆 TOP 4 ({f_prox.strftime('%d/%m/%Y')})")
             mks = [('1X', '🛡️ Doble Oportunidad'), ('Over 1.5', '🥅 Over 1.5'), ('Over 2.5', '⚽ Over 2.5'), ('Btts', '🤝 Btts')]
             cols = st.columns(4)
             

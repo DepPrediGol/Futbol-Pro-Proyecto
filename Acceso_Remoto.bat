@@ -1,14 +1,13 @@
 @echo off
-cd /d "C:\BOT_APUESTAS_PRO\Bet_Pro_Futbol"
-title SINCRONIZADOR PREDI-GOL PRO
-color 0B
+TITLE ACTUALIZADOR BET PRO FUTBOL
+:: Navegar a la carpeta donde reside este archivo .bat
+cd /d "%~dp0"
 
 echo ===========================================
 echo       ACTUALIZANDO WEB
 echo ===========================================
-echo.
 
-:: Ejecuta el script que organiza y sube todo
+:: Ejecutar el script usando la ruta relativa
 python Sincronizar_Nube.py
 
 echo.

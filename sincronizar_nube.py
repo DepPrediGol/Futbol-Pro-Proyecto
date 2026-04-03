@@ -13,20 +13,21 @@ def sincronizar():
     # [2/3] Subiendo cambios a la nube
     print("[2/3] Subiendo cambios a la nube...")
     try:
-        # Añadir todos los archivos actuales al commit
+        # Añadir todos los archivos
         subprocess.run(["git", "add", "."], check=True)
         
-        # Crear el mensaje con la hora actual
-        mensaje_commit = f"Auto-Update: {datetime.now().strftime('%H:%M:%S')}"
-        subprocess.run(["git", "commit", "-m", mensaje_commit], check=True)
-        
-        # Empujar a GitHub
-        subprocess.run(["git", "push", "origin", "main"], check=True)
-        print("✅ ¡GitHub actualizado!")
-        
+        # Revisar si hay cambios reales antes de hacer el commit
+        status = subprocess.run(["git", "status", "--porcelain"], capture_output=True, text=True).stdout
+        if not status:
+            print("⚠️ No se detectaron cambios nuevos en los archivos.")
+        else:
+            mensaje_commit = f"Auto-Update: {datetime.now().strftime('%H:%M:%S')}"
+            subprocess.run(["git", "commit", "-m", mensaje_commit], check=True)
+            subprocess.run(["git", "push", "origin", "main"], check=True)
+            print("✅ ¡GitHub actualizado con éxito!")
+            
     except subprocess.CalledProcessError as e:
         print(f"❌ Error en la sincronización: {e}")
-        return
 
     print("\n[3/3] ¡PROCESO TERMINADO!")
     print("Revisa tu web: https://betproleague.streamlit.app/")

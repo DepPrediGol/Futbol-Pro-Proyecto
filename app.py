@@ -27,18 +27,25 @@ st.markdown("""
     .main .block-container { background-color: rgba(255, 255, 255, 0.95); border-radius: 10px; padding: 30px; margin-top: 20px; }
     h1, h2, h3, h4, p, span, div, label, .stMetric { color: #000000 !important; font-weight: bold; }
     
+    /* AJUSTE TOP 4: Cuadros parejos y alineados */
     .stButton > button {
         width: 100% !important;
         background-color: white !important;
         color: black !important;
         border: 1px solid #ddd !important;
         border-radius: 12px !important;
-        padding: 15px !important;
+        padding: 10px !important;
         box-shadow: 2px 2px 8px rgba(0,0,0,0.1) !important;
         transition: all 0.3s ease !important;
-        height: auto !important;
-        min-height: 120px !important;
+        height: 150px !important; /* Altura fija para simetría total */
+        min-height: 150px !important;
         white-space: pre-line !important;
+        display: flex !important;
+        flex-direction: column !important;
+        justify-content: center !important;
+        align-items: center !important;
+        text-align: center !important;
+        font-size: 0.9rem !important;
     }
     .stButton > button:hover {
         border-color: #28a745 !important;
@@ -86,28 +93,50 @@ def obtener_probabilidades(e_l, e_v):
             if gl > 0 and gv > 0: p_btts += p
     return p_l, p_e, p_v, p_o15, p_o25, p_btts
 
-# --- 4. VENTANA MODAL ---
+# --- 4. VENTANA MODAL CORREGIDA ---
 @st.dialog("📊 ANÁLISIS DETALLADO", width="large")
 def ventana_analisis(r, df_h):
     st.title(f"⚽ {r['Match']}")
     st.subheader(f"🏆 {r['League']} | 📅 {r['Date']}")
     st.divider()
     
-    for eq in [r['Home team'], r['Away team']]:
-        st.markdown(f"#### 📈 Rendimiento Reciente: {eq}")
-        df_eq = df_h[(df_h['Home team'] == eq) | (df_h['Away team'] == eq)].iloc[::-1].head(5)
-        
-        if not df_eq.empty:
-            c1, c2, c3 = st.columns(3)
-            m_1x = (df_eq['Double chance'].str.contains('✅').sum() / len(df_eq))
-            m_o15 = (df_eq['Over 1.5'].str.contains('✅').sum() / len(df_eq))
-            m_btts = (df_eq['Btts'].str.contains('✅').sum() / len(df_eq))
+    col1, col2 = st.columns(2)
+    
+    equipos = [('Home team', r['Home team'], col1), ('Away team', r['Away team'], col2)]
+    
+    for label, eq, columna in equipos:
+        with columna:
+            st.markdown(f"#### 📈 Rendimiento Reciente: {eq}")
+            # Filtramos historial donde aparece el equipo
+            df_eq = df_h[(df_h['Home team'] == eq) | (df_h['Away team'] == eq)].iloc[::-1].head(5).copy()
             
-            c1.metric("Efectividad 1X/X2", f"{m_1x:.0%}")
-            c2.metric("Efectividad O1.5", f"{m_o15:.0%}")
-            c3.metric("Efectividad BTTS", f"{m_btts:.0%}")
-            st.dataframe(df_eq, use_container_width=True, hide_index=True)
-        st.divider()
+            if not df_eq.empty:
+                # Lógica de aciertos personalizada por equipo
+                def check_acierto_eq(fila_historial, equipo_buscado):
+                    res = extraer_goles(fila_historial['Result'])
+                    if not res: return False
+                    # Si el equipo buscado es Local en el historial: gana o empata
+                    if fila_historial['Home team'] == equipo_buscado:
+                        return res[0] >= res[1]
+                    # Si el equipo buscado es Visitante en el historial: gana o empata
+                    else:
+                        return res[1] >= res[0]
+
+                exitos_dc = sum(df_eq.apply(lambda x: check_acierto_eq(x, eq), axis=1))
+                m_1x = exitos_dc / len(df_eq)
+                m_o15 = (df_eq['Over 1.5'].str.contains('✅').sum() / len(df_eq))
+                m_btts = (df_eq['Btts'].str.contains('✅').sum() / len(df_eq))
+                
+                c_m1, c_m2, c_m3 = st.columns(3)
+                c_m1.metric("Efectividad DC", f"{m_1x:.0%}")
+                c_m2.metric("Efectividad O1.5", f"{m_o15:.0%}")
+                c_m3.metric("Efectividad BTTS", f"{m_btts:.0%}")
+                
+                # Limpiamos visualmente el dataframe para el modal
+                st.dataframe(df_eq[['Date', 'Result', 'Double chance', 'Over 1.5', 'Btts']], use_container_width=True, hide_index=True)
+            else:
+                st.info("Sin datos históricos.")
+    st.divider()
 
 # --- 5. CARGA Y PROCESAMIENTO ---
 @st.cache_data(ttl=300)

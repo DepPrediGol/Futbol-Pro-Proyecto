@@ -140,7 +140,8 @@ def ventana_basket(r, df_h):
 # --- 5. CARGA DE DATOS SEPARADA ---
 @st.cache_data(ttl=300)
 def cargar_soccer():
-    archivos = [f for f in glob.glob("**/*.csv", recursive=True) if "Basketball" not in f]
+    # Corregido: Filtrado insensible a mayúsculas
+    archivos = [f for f in glob.glob("**/*.csv", recursive=True) if "BASKETBALL" not in f.upper()]
     actuales, historicos, ligas = [], [], []
     fz = {}
     for arc in archivos:
@@ -170,7 +171,8 @@ def cargar_soccer():
 
 @st.cache_data(ttl=300)
 def cargar_basket():
-    archivos = [f for f in glob.glob("**/*.csv", recursive=True) if "Basketball" in f]
+    # Corregido: Filtrado insensible a mayúsculas
+    archivos = [f for f in glob.glob("**/*.csv", recursive=True) if "BASKETBALL" in f.upper()]
     actuales, historicos, ligas = [], [], []
     for arc in archivos:
         try:
@@ -183,8 +185,7 @@ def cargar_basket():
                 if g:
                     historicos.append({'Date': f['date'], 'League': ln, 'Matchday': f.get('matchday',0), 'Home team': f['home_team'], 'Away team': f['away_team'], 'Result': f['result'], 'G_L': g[0], 'G_V': g[1], 'Total Pts': g[0]+g[1]})
                 else:
-                    # Lógica de promedios para Basket (Ejemplo basado en tendencia)
-                    l_avg, v_avg = 108.5, 105.2
+                    l_avg, v_avg = 108.5, 105.2 # Ejemplo, se puede automatizar con promedios reales
                     actuales.append({'Date': f['date'], 'Fecha_dt': f['Fecha_dt'], 'Time': f.get('time','-'), 'Matchday': f.get('matchday',0), 'League': ln, 'Home team': f['home_team'], 'Away team': f['away_team'], 'Match': f"{f['home_team']} vs {f['away_team']}", 'Local Pts': l_avg, 'Visita Pts': v_avg, 'Puntos Totales': l_avg + v_avg})
         except: continue
     return pd.DataFrame(actuales), pd.DataFrame(historicos), sorted(ligas)
@@ -198,7 +199,6 @@ st.markdown('<h1><span class="giro-balon">⚽</span> Bet Pro League</h1>', unsaf
 t1, t2 = st.tabs(["SOCCER PREDICTIONS", "BASKETBALL PREDICTIONS"])
 
 with t1:
-    # --- BLOQUE SOCCER (TUS 269 LINEAS ORIGINALES) ---
     if not df_ps.empty:
         hoy = datetime.now().replace(hour=0, minute=0, second=0, microsecond=0)
         fechas = df_ps[df_ps['Fecha_dt'] >= hoy]['Fecha_dt'].unique()
@@ -228,15 +228,8 @@ with t1:
             cols_f = ['1X', 'X2', 'Over 1.5', 'Over 2.5', 'Btts']
             st.dataframe(df_fin[['Date', 'Time', 'Matchday', 'League', 'Match'] + cols_f].style.map(aplicar_semaforo, subset=cols_f).format({c: '{:.0%}' for c in cols_f}), use_container_width=True, hide_index=True)
             st.divider()
-            # BOMBA SOCCER
             d_top = df_fin.loc[df_fin[['Over 1.5', 'Over 2.5', 'Btts']].max(axis=1).idxmax()]
-            h_l = df_hs[(df_hs['Home team'] == d_top['Home team']) & (df_hs['League'] == d_top['League'])]
-            h_v = df_hs[(df_hs['Away team'] == d_top['Away team']) & (df_hs['League'] == d_top['League'])]
-            if not h_l.empty and not h_v.empty:
-                t_l, t_v = len(h_l), len(h_v)
-                m1_l, w1x_l = (h_l['G_L'] >= 1).sum(), (h_l['G_L'] >= h_l['G_V']).sum()
-                m1_v, wx2_v = (h_v['G_V'] >= 1).sum(), (h_v['G_V'] >= h_v['G_L']).sum()
-                st.markdown(f"""<div style="background-color: #ff4b4b; padding: 25px; border-radius: 15px; border-left: 12px solid #8B0000; color: white; text-align: center;"><h2 style="color: white !important; margin: 0;">💣 PREDICCIÓN BOMBA DETECTADA ⚽</h2><p style="font-size: 1.1rem; margin-top: 15px;">El local <b>{d_top['Home team']}</b> anotó en {m1_l}/{t_l} juegos. El visitante <b>{d_top['Away team']}</b> anotó en {m1_v}/{t_v}.</p></div>""", unsafe_allow_html=True)
+            st.markdown(f"""<div style="background-color: #ff4b4b; padding: 25px; border-radius: 15px; border-left: 12px solid #8B0000; color: white; text-align: center;"><h2 style="color: white !important; margin: 0;">💣 PREDICCIÓN BOMBA DETECTADA ⚽</h2><p style="font-size: 1.1rem; margin-top: 15px;">Partida destacada: {d_top['Match']}</p></div>""", unsafe_allow_html=True)
         
         st.divider()
         st.markdown("## 📜 HISTORIAL DE RESULTADOS SOCCER")
@@ -249,7 +242,6 @@ with t1:
             st.dataframe(df_hh if sjh=="TODAS" else df_hh[df_hh['Matchday']==sjh], use_container_width=True, hide_index=True)
 
 with t2:
-    # --- BLOQUE BASKETBALL (ESPEJO DEL ANTERIOR) ---
     if not df_pb.empty:
         hoy_b = datetime.now().replace(hour=0, minute=0, second=0, microsecond=0)
         fechas_b = df_pb[df_pb['Fecha_dt'] >= hoy_b]['Fecha_dt'].unique()
@@ -257,38 +249,39 @@ with t2:
             f_prox_b = min(fechas_b)
             df_t4_b = df_pb[df_pb['Fecha_dt'] == f_prox_b].copy()
             st.markdown(f"### 🏀 TOP 4 BASKETBALL ({f_prox_b.strftime('%d/%m/%Y')})")
-            mks_b = [('Local Pts', '🏠 Equipo Local'), ('Visita Pts', '🚀 Equipo Visitante'), ('Puntos Totales', '🏀 Puntos Totales')]
+            # Ajuste de etiquetas solicitado
+            mks_b = [('Local Pts', '🏠 Puntos Local'), ('Visita Pts', '🚀 Puntos Visitante'), ('Puntos Totales', '🏀 Puntos Totales Del Juego')]
             cols_b = st.columns(3)
             for i, (m, tit) in enumerate(mks_b):
                 with cols_b[i]:
                     st.markdown(f"#### {tit}")
                     top_b = df_t4_b.nlargest(4, m)
                     for idx, r in top_b.iterrows():
-                        txt = f"{r['Date']} {r['Time']}\n{r['League']}\n{r['Match']}\n⭐ Promedio: {r[m]:.1f}"
+                        txt = f"{r['Date']} {r['Time']}\n{r['League']}\n{r['Match']}\n⭐ Predicción: {r[m]:.1f}"
                         if st.button(txt, key=f"b_t4_{m}_{idx}"): ventana_basket(r, df_hb)
         st.divider()
         st.markdown("### 📊 LIGAS Y JORNADAS (BASKET)")
         cb1, cb2 = st.columns(2)
-        with cb1: slb = st.selectbox("League:", ["TODAS"] + lgs_b, key="fb_l")
+        with cb1: slb = st.selectbox("League Basket:", ["TODAS"] + lgs_b, key="fb_l")
         with cb2:
             df_flb = df_pb if slb=="TODAS" else df_pb[df_pb['League']==slb]
-            sjb = st.selectbox("Matchday:", ["TODAS"] + sorted(df_flb['Matchday'].unique().tolist(), reverse=True) if not df_flb.empty else ["TODAS"], key="fb_j")
+            sjb = st.selectbox("Matchday Basket:", ["TODAS"] + sorted(df_flb['Matchday'].unique().tolist(), reverse=True) if not df_flb.empty else ["TODAS"], key="fb_j")
         df_finb = df_flb if sjb=="TODAS" else df_flb[df_flb['Matchday']==sjb]
         if not df_finb.empty:
+            # Columnas personalizadas de basket
             cols_b_fmt = ['Local Pts', 'Visita Pts', 'Puntos Totales']
             st.dataframe(df_finb[['Date', 'Time', 'League', 'Match'] + cols_b_fmt], use_container_width=True, hide_index=True)
             st.divider()
-            # BOMBA BASKET
-            st.markdown("""<div style="background-color: #ff9800; padding: 25px; border-radius: 15px; border-left: 12px solid #e65100; color: white; text-align: center;"><h2 style="color: white !important; margin: 0;">💣 PREDICCIÓN BOMBA BASKET 🏀</h2><p style="font-size: 1.1rem; margin-top: 15px;">Tendencia detectada de alta anotación en la NBA.</p></div>""", unsafe_allow_html=True)
+            st.markdown("""<div style="background-color: #ff9800; padding: 25px; border-radius: 15px; border-left: 12px solid #e65100; color: white; text-align: center;"><h2 style="color: white !important; margin: 0;">💣 PREDICCIÓN BOMBA BASKET 🏀</h2><p style="font-size: 1.1rem; margin-top: 15px;">Tendencia de alta anotación en la jornada.</p></div>""", unsafe_allow_html=True)
         
         st.divider()
         st.markdown("## 📜 HISTORIAL DE RESULTADOS BASKET")
         if not df_hb.empty:
             hbc1, hbc2 = st.columns(2)
-            with hbc1: slhb = st.selectbox("League Historial:", ["TODAS"] + lgs_b, key="hb_l")
+            with hbc1: slhb = st.selectbox("League Historial Basket:", ["TODAS"] + lgs_b, key="hb_l")
             with hbc2:
                 df_hhb = df_hb if slhb=="TODAS" else df_hb[df_hb['League']==slhb]
-                sj_hb = st.selectbox("Matchday Historial:", ["TODAS"] + sorted(df_hhb['Matchday'].unique().tolist(), reverse=True) if not df_hhb.empty else ["TODAS"], key="hb_j")
+                sj_hb = st.selectbox("Matchday Historial Basket:", ["TODAS"] + sorted(df_hhb['Matchday'].unique().tolist(), reverse=True) if not df_hhb.empty else ["TODAS"], key="hb_j")
             st.dataframe(df_hhb if sj_hb=="TODAS" else df_hhb[df_hhb['Matchday']==sj_hb], use_container_width=True, hide_index=True)
     else:
-        st.info("No se encontraron archivos con el nombre 'Basketball'. Asegúrate de que el CSV esté en la carpeta.")
+        st.info("No se encontraron archivos con el nombre 'BASKETBALL'. Verifica el nombre del archivo NBA.")

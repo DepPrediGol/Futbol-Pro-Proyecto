@@ -1,241 +1,241 @@
 matchday,date,time,home_team,away_team,result,status
 1,01/08/2025,,Kolos Kovalivka,Kryvbas Kryvyi Rih,2-1,Final
 1,01/08/2025,,Rukh Lviv,SK Poltava,2-1,Final
-1,02/08/2025,,NK Veres,Dinamo Kiev,0-1,Final
+1,02/08/2025,,NK Veres,Din. Kiev,0-1,Final
 1,02/08/2025,,Zorya Lugansk,FC LNZ Cherkasy,0-0,Final
-1,03/08/2025,,FC Kudrivka,FK Oleksandriya,3-1,Final
+1,03/08/2025,,FC Kudrivka,Oleksandriya,3-1,Final
 1,03/08/2025,,Epitsentr Kamianets-Podilskyi,Shajtar Donetsk,0-1,Final
-1,03/08/2025,,Karpaty Lviv,Polissya Zhytomyr,0-2,Final
-1,04/08/2025,,Metalist 1925 Kharkiv,FK Obolon,0-0,Final
+1,03/08/2025,,Karpaty,Polissya Zhytomyr,0-2,Final
+1,04/08/2025,,Metalist 1925,Obolon,0-0,Final
 2,08/08/2025,,SK Poltava,NK Veres,1-0,Final
-2,08/08/2025,,Rukh Lviv,Dinamo Kiev,1-5,Final
-2,09/08/2025,,Kryvbas Kryvyi Rih,Metalist 1925 Kharkiv,2-0,Final
+2,08/08/2025,,Rukh Lviv,Din. Kiev,1-5,Final
+2,09/08/2025,,Kryvbas Kryvyi Rih,Metalist 1925,2-0,Final
 2,09/08/2025,,FC LNZ Cherkasy,Epitsentr Kamianets-Podilskyi,1-0,Final
-2,10/08/2025,,FK Obolon,FK Oleksandriya,1-0,Final
+2,10/08/2025,,Obolon,Oleksandriya,1-0,Final
 2,10/08/2025,,Polissya Zhytomyr,Kolos Kovalivka,0-1,Final
-2,10/08/2025,,Karpaty Lviv,Shajtar Donetsk,3-3,Final
+2,10/08/2025,,Karpaty,Shajtar Donetsk,3-3,Final
 2,11/08/2025,,Zorya Lugansk,FC Kudrivka,2-1,Final
-3,15/08/2025,,Rukh Lviv,FK Obolon,1-2,Final
-3,16/08/2025,,FK Oleksandriya,Metalist 1925 Kharkiv,1-4,Final
-3,16/08/2025,,Kolos Kovalivka,Karpaty Lviv,1-1,Final
-3,16/08/2025,,Epitsentr Kamianets-Podilskyi,Dinamo Kiev,1-4,Final
+3,15/08/2025,,Rukh Lviv,Obolon,1-2,Final
+3,16/08/2025,,Oleksandriya,Metalist 1925,1-4,Final
+3,16/08/2025,,Kolos Kovalivka,Karpaty,1-1,Final
+3,16/08/2025,,Epitsentr Kamianets-Podilskyi,Din. Kiev,1-4,Final
 3,17/08/2025,,FC Kudrivka,SK Poltava,3-1,Final
 3,17/08/2025,,NK Veres,Shajtar Donetsk,0-2,Final
 3,17/08/2025,,Polissya Zhytomyr,FC LNZ Cherkasy,0-2,Final
 3,18/08/2025,,Zorya Lugansk,Kryvbas Kryvyi Rih,2-3,Final
 4,29/08/2025,,SK Poltava,Zorya Lugansk,1-4,Final
-4,29/08/2025,,FC Kudrivka,Karpaty Lviv,2-2,Final
-4,30/08/2025,,Kryvbas Kryvyi Rih,FK Obolon,2-1,Final
+4,29/08/2025,,FC Kudrivka,Karpaty,2-2,Final
+4,30/08/2025,,Kryvbas Kryvyi Rih,Obolon,2-1,Final
 4,30/08/2025,,Kolos Kovalivka,Epitsentr Kamianets-Podilskyi,1-0,Final
-4,30/08/2025,,Metalist 1925 Kharkiv,Rukh Lviv,2-0,Final
+4,30/08/2025,,Metalist 1925,Rukh Lviv,2-0,Final
 4,31/08/2025,,FC LNZ Cherkasy,NK Veres,0-2,Final
-4,31/08/2025,,Dinamo Kiev,Polissya Zhytomyr,4-1,Final
-4,31/08/2025,,Shajtar Donetsk,FK Oleksandriya,2-0,Final
-5,12/09/2025,,FK Oleksandriya,FC LNZ Cherkasy,4-1,Final
+4,31/08/2025,,Din. Kiev,Polissya Zhytomyr,4-1,Final
+4,31/08/2025,,Shajtar Donetsk,Oleksandriya,2-0,Final
+5,12/09/2025,,Oleksandriya,FC LNZ Cherkasy,4-1,Final
 5,12/09/2025,,NK Veres,FC Kudrivka,2-0,Final
 5,13/09/2025,,Rukh Lviv,Epitsentr Kamianets-Podilskyi,0-1,Final
-5,13/09/2025,,FK Obolon,Dinamo Kiev,2-2,Final
-5,13/09/2025,,Metalist 1925 Kharkiv,Shajtar Donetsk,1-1,Final
+5,13/09/2025,,Obolon,Din. Kiev,2-2,Final
+5,13/09/2025,,Metalist 1925,Shajtar Donetsk,1-1,Final
 5,14/09/2025,,Kryvbas Kryvyi Rih,Polissya Zhytomyr,0-1,Final
 5,14/09/2025,,Zorya Lugansk,Kolos Kovalivka,1-3,Final
-5,14/09/2025,,Karpaty Lviv,SK Poltava,1-1,Final
+5,14/09/2025,,Karpaty,SK Poltava,1-1,Final
 6,20/09/2025,,Kolos Kovalivka,NK Veres,0-0,Final
 6,20/09/2025,,Polissya Zhytomyr,FC Kudrivka,2-0,Final
-6,21/09/2025,,SK Poltava,Metalist 1925 Kharkiv,0-2,Final
+6,21/09/2025,,SK Poltava,Metalist 1925,0-2,Final
 6,21/09/2025,,FC LNZ Cherkasy,Rukh Lviv,1-0,Final
 6,21/09/2025,,Epitsentr Kamianets-Podilskyi,Kryvbas Kryvyi Rih,4-5,Final
-6,22/09/2025,,FK Obolon,Karpaty Lviv,0-2,Final
-6,22/09/2025,,Dinamo Kiev,FK Oleksandriya,2-2,Final
+6,22/09/2025,,Obolon,Karpaty,0-2,Final
+6,22/09/2025,,Din. Kiev,Oleksandriya,2-2,Final
 6,22/09/2025,,Shajtar Donetsk,Zorya Lugansk,1-0,Final
 7,26/09/2025,,FC Kudrivka,Epitsentr Kamianets-Podilskyi,2-1,Final
-7,27/09/2025,,FK Oleksandriya,SK Poltava,1-0,Final
-7,27/09/2025,,Zorya Lugansk,FK Obolon,0-0,Final
-7,27/09/2025,,Karpaty Lviv,Dinamo Kiev,3-3,Final
+7,27/09/2025,,Oleksandriya,SK Poltava,1-0,Final
+7,27/09/2025,,Zorya Lugansk,Obolon,0-0,Final
+7,27/09/2025,,Karpaty,Din. Kiev,3-3,Final
 7,28/09/2025,,FC LNZ Cherkasy,Kryvbas Kryvyi Rih,0-0,Final
-7,28/09/2025,,Metalist 1925 Kharkiv,Kolos Kovalivka,1-0,Final
+7,28/09/2025,,Metalist 1925,Kolos Kovalivka,1-0,Final
 7,28/09/2025,,Rukh Lviv,Shajtar Donetsk,0-4,Final
 7,29/09/2025,,NK Veres,Polissya Zhytomyr,1-4,Final
 8,03/10/2025,,Kolos Kovalivka,Rukh Lviv,0-2,Final
 8,03/10/2025,,Epitsentr Kamianets-Podilskyi,Zorya Lugansk,1-2,Final
-8,04/10/2025,,FK Oleksandriya,Karpaty Lviv,0-2,Final
-8,04/10/2025,,FK Obolon,NK Veres,1-1,Final
+8,04/10/2025,,Oleksandriya,Karpaty,0-2,Final
+8,04/10/2025,,Obolon,NK Veres,1-1,Final
 8,04/10/2025,,Polissya Zhytomyr,SK Poltava,4-0,Final
 8,05/10/2025,,Kryvbas Kryvyi Rih,FC Kudrivka,3-1,Final
-8,05/10/2025,,Dinamo Kiev,Metalist 1925 Kharkiv,1-1,Final
+8,05/10/2025,,Din. Kiev,Metalist 1925,1-1,Final
 8,05/10/2025,,Shajtar Donetsk,FC LNZ Cherkasy,1-4,Final
-9,17/10/2025,,SK Poltava,FK Obolon,1-2,Final
+9,17/10/2025,,SK Poltava,Obolon,1-2,Final
 9,18/10/2025,,Rukh Lviv,Kryvbas Kryvyi Rih,1-2,Final
-9,18/10/2025,,Zorya Lugansk,Dinamo Kiev,1-1,Final
+9,18/10/2025,,Zorya Lugansk,Din. Kiev,1-1,Final
 9,18/10/2025,,Polissya Zhytomyr,Shajtar Donetsk,0-0,Final
 9,19/10/2025,,FC LNZ Cherkasy,Kolos Kovalivka,1-0,Final
-9,19/10/2025,,NK Veres,FK Oleksandriya,1-1,Final
-9,19/10/2025,,Karpaty Lviv,Epitsentr Kamianets-Podilskyi,1-3,Final
-9,20/10/2025,,FC Kudrivka,Metalist 1925 Kharkiv,1-1,Final
-10,24/10/2025,,FK Oleksandriya,Epitsentr Kamianets-Podilskyi,0-1,Final
+9,19/10/2025,,NK Veres,Oleksandriya,1-1,Final
+9,19/10/2025,,Karpaty,Epitsentr Kamianets-Podilskyi,1-3,Final
+9,20/10/2025,,FC Kudrivka,Metalist 1925,1-1,Final
+10,24/10/2025,,Oleksandriya,Epitsentr Kamianets-Podilskyi,0-1,Final
 10,24/10/2025,,NK Veres,Zorya Lugansk,0-0,Final
-10,25/10/2025,,Metalist 1925 Kharkiv,FC LNZ Cherkasy,0-1,Final
-10,25/10/2025,,Karpaty Lviv,Rukh Lviv,0-0,Final
-10,25/10/2025,,FK Obolon,Polissya Zhytomyr,0-4,Final
+10,25/10/2025,,Metalist 1925,FC LNZ Cherkasy,0-1,Final
+10,25/10/2025,,Karpaty,Rukh Lviv,0-0,Final
+10,25/10/2025,,Obolon,Polissya Zhytomyr,0-4,Final
 10,26/10/2025,,SK Poltava,Kolos Kovalivka,2-2,Final
 10,26/10/2025,,Shajtar Donetsk,FC Kudrivka,4-0,Final
-10,26/10/2025,,Dinamo Kiev,Kryvbas Kryvyi Rih,4-0,Final
-11,31/10/2025,,FC Kudrivka,FK Obolon,1-0,Final
+10,26/10/2025,,Din. Kiev,Kryvbas Kryvyi Rih,4-0,Final
+11,31/10/2025,,FC Kudrivka,Obolon,1-0,Final
 11,01/11/2025,,Kryvbas Kryvyi Rih,SK Poltava,2-2,Final
-11,01/11/2025,,Kolos Kovalivka,FK Oleksandriya,1-1,Final
+11,01/11/2025,,Kolos Kovalivka,Oleksandriya,1-1,Final
 11,01/11/2025,,Epitsentr Kamianets-Podilskyi,NK Veres,2-3,Final
 11,02/11/2025,,Zorya Lugansk,Rukh Lviv,1-0,Final
-11,02/11/2025,,Shajtar Donetsk,Dinamo Kiev,3-1,Final
-11,03/11/2025,,FC LNZ Cherkasy,Karpaty Lviv,0-1,Final
-11,03/11/2025,,Polissya Zhytomyr,Metalist 1925 Kharkiv,0-0,Final
-12,07/11/2025,,Epitsentr Kamianets-Podilskyi,FK Obolon,1-2,Final
+11,02/11/2025,,Shajtar Donetsk,Din. Kiev,3-1,Final
+11,03/11/2025,,FC LNZ Cherkasy,Karpaty,0-1,Final
+11,03/11/2025,,Polissya Zhytomyr,Metalist 1925,0-0,Final
+12,07/11/2025,,Epitsentr Kamianets-Podilskyi,Obolon,1-2,Final
 12,07/11/2025,,FC Kudrivka,Kolos Kovalivka,1-3,Final
-12,08/11/2025,,Metalist 1925 Kharkiv,Zorya Lugansk,1-3,Final
+12,08/11/2025,,Metalist 1925,Zorya Lugansk,1-3,Final
 12,08/11/2025,,NK Veres,Rukh Lviv,1-0,Final
-12,08/11/2025,,Karpaty Lviv,Kryvbas Kryvyi Rih,1-0,Final
-12,09/11/2025,,FK Oleksandriya,Polissya Zhytomyr,0-3,Final
-12,09/11/2025,,Dinamo Kiev,FC LNZ Cherkasy,0-1,Final
+12,08/11/2025,,Karpaty,Kryvbas Kryvyi Rih,1-0,Final
+12,09/11/2025,,Oleksandriya,Polissya Zhytomyr,0-3,Final
+12,09/11/2025,,Din. Kiev,FC LNZ Cherkasy,0-1,Final
 12,09/11/2025,,Shajtar Donetsk,SK Poltava,7-1,Final
 13,21/11/2025,,SK Poltava,FC LNZ Cherkasy,0-2,Final
-13,22/11/2025,,Karpaty Lviv,Metalist 1925 Kharkiv,1-2,Final
-13,22/11/2025,,Kolos Kovalivka,Dinamo Kiev,2-1,Final
-13,22/11/2025,,FK Obolon,Shajtar Donetsk,0-6,Final
+13,22/11/2025,,Karpaty,Metalist 1925,1-2,Final
+13,22/11/2025,,Kolos Kovalivka,Din. Kiev,2-1,Final
+13,22/11/2025,,Obolon,Shajtar Donetsk,0-6,Final
 13,23/11/2025,,Kryvbas Kryvyi Rih,NK Veres,2-2,Final
 13,23/11/2025,,Polissya Zhytomyr,Epitsentr Kamianets-Podilskyi,0-0,Final
 13,23/11/2025,,Rukh Lviv,FC Kudrivka,4-2,Final
-13,24/11/2025,,Zorya Lugansk,FK Oleksandriya,2-2,Final
-14,28/11/2025,,FK Obolon,Kolos Kovalivka,0-0,Final
+13,24/11/2025,,Zorya Lugansk,Oleksandriya,2-2,Final
+14,28/11/2025,,Obolon,Kolos Kovalivka,0-0,Final
 14,29/11/2025,,FC LNZ Cherkasy,FC Kudrivka,1-0,Final
-14,29/11/2025,,NK Veres,Karpaty Lviv,0-0,Final
-14,30/11/2025,,FK Oleksandriya,Rukh Lviv,0-1,Final
-14,30/11/2025,,Epitsentr Kamianets-Podilskyi,Metalist 1925 Kharkiv,0-0,Final
+14,29/11/2025,,NK Veres,Karpaty,0-0,Final
+14,30/11/2025,,Oleksandriya,Rukh Lviv,0-1,Final
+14,30/11/2025,,Epitsentr Kamianets-Podilskyi,Metalist 1925,0-0,Final
 14,30/11/2025,,Polissya Zhytomyr,Zorya Lugansk,2-0,Final
-14,01/12/2025,,Dinamo Kiev,SK Poltava,1-2,Final
+14,01/12/2025,,Din. Kiev,SK Poltava,1-2,Final
 14,01/12/2025,,Shajtar Donetsk,Kryvbas Kryvyi Rih,2-2,Final
-15,05/12/2025,,Zorya Lugansk,Karpaty Lviv,1-0,Final
-15,06/12/2025,,FC LNZ Cherkasy,FK Obolon,3-0,Final
+15,05/12/2025,,Zorya Lugansk,Karpaty,1-0,Final
+15,06/12/2025,,FC LNZ Cherkasy,Obolon,3-0,Final
 15,06/12/2025,,Kolos Kovalivka,Shajtar Donetsk,0-0,Final
-15,06/12/2025,,FC Kudrivka,Dinamo Kiev,1-2,Final
-15,07/12/2025,,Kryvbas Kryvyi Rih,FK Oleksandriya,3-0,Final
-15,07/12/2025,,Metalist 1925 Kharkiv,NK Veres,,
+15,06/12/2025,,FC Kudrivka,Din. Kiev,1-2,Final
+15,07/12/2025,,Kryvbas Kryvyi Rih,Oleksandriya,3-0,Final
+15,07/12/2025,,Metalist 1925,NK Veres,,
 15,07/12/2025,,Rukh Lviv,Polissya Zhytomyr,1-0,Final
 15,08/12/2025,,SK Poltava,Epitsentr Kamianets-Podilskyi,0-3,Final
-16,12/12/2025,,FK Oleksandriya,FC Kudrivka,1-1,Final
-16,12/12/2025,,FK Obolon,Metalist 1925 Kharkiv,1-3,Final
+16,12/12/2025,,Oleksandriya,FC Kudrivka,1-1,Final
+16,12/12/2025,,Obolon,Metalist 1925,1-3,Final
 16,13/12/2025,,Kryvbas Kryvyi Rih,Kolos Kovalivka,1-1,Final
 16,13/12/2025,,FC LNZ Cherkasy,Zorya Lugansk,2-0,Final
-16,13/12/2025,,Polissya Zhytomyr,Karpaty Lviv,3-2,Final
+16,13/12/2025,,Polissya Zhytomyr,Karpaty,3-2,Final
 16,14/12/2025,,SK Poltava,Rukh Lviv,1-2,Final
-16,14/12/2025,,Dinamo Kiev,NK Veres,3-0,Final
+16,14/12/2025,,Din. Kiev,NK Veres,3-0,Final
 16,14/12/2025,,Shajtar Donetsk,Epitsentr Kamianets-Podilskyi,5-0,Final
 17,20/02/2026,,NK Veres,SK Poltava,3-2,Final
-17,20/02/2026,,Dinamo Kiev,Rukh Lviv,1-0,Final
+17,20/02/2026,,Din. Kiev,Rukh Lviv,1-0,Final
 17,21/02/2026,,Epitsentr Kamianets-Podilskyi,FC LNZ Cherkasy,0-2,Final
-17,21/02/2026,,Metalist 1925 Kharkiv,Kryvbas Kryvyi Rih,0-0,Final
+17,21/02/2026,,Metalist 1925,Kryvbas Kryvyi Rih,0-0,Final
 17,22/02/2026,,Kolos Kovalivka,Polissya Zhytomyr,0-2,Final
-17,22/02/2026,,Shajtar Donetsk,Karpaty Lviv,3-0,Final
-17,23/02/2026,,FK Oleksandriya,FK Obolon,0-3,Final
+17,22/02/2026,,Shajtar Donetsk,Karpaty,3-0,Final
+17,23/02/2026,,Oleksandriya,Obolon,0-3,Final
 17,23/02/2026,,FC Kudrivka,Zorya Lugansk,2-2,Final
-18,27/02/2026,,Dinamo Kiev,Epitsentr Kamianets-Podilskyi,4-0,Final
+18,27/02/2026,,Din. Kiev,Epitsentr Kamianets-Podilskyi,4-0,Final
 18,27/02/2026,,Shajtar Donetsk,NK Veres,1-0,Final
 18,28/02/2026,,FC LNZ Cherkasy,Polissya Zhytomyr,1-3,Final
-18,28/02/2026,,Metalist 1925 Kharkiv,FK Oleksandriya,1-0,Final
+18,28/02/2026,,Metalist 1925,Oleksandriya,1-0,Final
 18,01/03/2026,,Kryvbas Kryvyi Rih,Zorya Lugansk,3-1,Final
-18,01/03/2026,,FK Obolon,Rukh Lviv,1-0,Final
-18,01/03/2026,,Karpaty Lviv,Kolos Kovalivka,0-1,Final
+18,01/03/2026,,Obolon,Rukh Lviv,1-0,Final
+18,01/03/2026,,Karpaty,Kolos Kovalivka,0-1,Final
 18,02/03/2026,,SK Poltava,FC Kudrivka,0-2,Final
-19,06/03/2026,,FK Oleksandriya,Shajtar Donetsk,0-1,Final
+19,06/03/2026,,Oleksandriya,Shajtar Donetsk,0-1,Final
 19,07/03/2026,,Epitsentr Kamianets-Podilskyi,Kolos Kovalivka,4-0,Final
-19,07/03/2026,,FK Obolon,Kryvbas Kryvyi Rih,0-0,Final
+19,07/03/2026,,Obolon,Kryvbas Kryvyi Rih,0-0,Final
 19,08/03/2026,,Zorya Lugansk,SK Poltava,4-0,Final
-19,08/03/2026,,Karpaty Lviv,FC Kudrivka,1-1,Final
-19,08/03/2026,,Polissya Zhytomyr,Dinamo Kiev,1-2,Final
-19,09/03/2026,,Rukh Lviv,Metalist 1925 Kharkiv,0-3,Final
+19,08/03/2026,,Karpaty,FC Kudrivka,1-1,Final
+19,08/03/2026,,Polissya Zhytomyr,Din. Kiev,1-2,Final
+19,09/03/2026,,Rukh Lviv,Metalist 1925,0-3,Final
 19,09/03/2026,,NK Veres,FC LNZ Cherkasy,0-3,Final
-20,13/03/2026,,SK Poltava,Karpaty Lviv,0-4,Final
-20,13/03/2026,,Dinamo Kiev,FK Obolon,2-1,Final
-20,14/03/2026,,FC LNZ Cherkasy,FK Oleksandriya,2-0,Final
+20,13/03/2026,,SK Poltava,Karpaty,0-4,Final
+20,13/03/2026,,Din. Kiev,Obolon,2-1,Final
+20,14/03/2026,,FC LNZ Cherkasy,Oleksandriya,2-0,Final
 20,14/03/2026,,FC Kudrivka,NK Veres,0-0,Final
 20,14/03/2026,,Polissya Zhytomyr,Kryvbas Kryvyi Rih,2-0,Final
 20,15/03/2026,,Epitsentr Kamianets-Podilskyi,Rukh Lviv,2-0,Final
 20,15/03/2026,,Kolos Kovalivka,Zorya Lugansk,1-1,Final
-20,15/03/2026,,Shajtar Donetsk,Metalist 1925 Kharkiv,1-0,Final
+20,15/03/2026,,Shajtar Donetsk,Metalist 1925,1-0,Final
 21,18/03/2026,,FC Kudrivka,Polissya Zhytomyr,0-2,Final
-21,19/03/2026,,FK Oleksandriya,Dinamo Kiev,0-5,Final
-21,19/03/2026,,Metalist 1925 Kharkiv,SK Poltava,2-0,Final
+21,19/03/2026,,Oleksandriya,Din. Kiev,0-5,Final
+21,19/03/2026,,Metalist 1925,SK Poltava,2-0,Final
 21,21/03/2026,,Zorya Lugansk,Shajtar Donetsk,,
 21,21/03/2026,,Kryvbas Kryvyi Rih,Epitsentr Kamianets-Podilskyi,2-1,Final
 21,21/03/2026,,Rukh Lviv,FC LNZ Cherkasy,1-2,Final
 21,22/03/2026,,NK Veres,Kolos Kovalivka,0-1,Final
-21,22/03/2026,,Karpaty Lviv,FK Obolon,4-0,Final
-22,03/04/2026,,SK Poltava,En vivo,0-1,Final
-22,04/04/2026,,Kolos Kovalivka,Metalist 1925 Kharkiv,,
-22,04/04/2026,,Dinamo Kiev,Karpaty Lviv,,
+21,22/03/2026,,Karpaty,Obolon,4-0,Final
+22,03/04/2026,,SK Poltava,Oleksandriya,3-3,Final
+22,04/04/2026,,Kolos Kovalivka,Metalist 1925,,
+22,04/04/2026,,Din. Kiev,Karpaty,,
 22,05/04/2026,,Kryvbas Kryvyi Rih,FC LNZ Cherkasy,,
-22,05/04/2026,,FK Obolon,Zorya Lugansk,,
+22,05/04/2026,,Obolon,Zorya Lugansk,,
 22,05/04/2026,,Shajtar Donetsk,Rukh Lviv,,
 22,05/04/2026,,Polissya Zhytomyr,NK Veres,,
 22,06/04/2026,,Epitsentr Kamianets-Podilskyi,FC Kudrivka,,
 23,10/04/2026,,SK Poltava,Polissya Zhytomyr,,
 23,10/04/2026,,Rukh Lviv,Kolos Kovalivka,,
-23,11/04/2026,,Karpaty Lviv,FK Oleksandriya,,
-23,11/04/2026,,Metalist 1925 Kharkiv,Dinamo Kiev,,
-23,11/04/2026,,NK Veres,FK Obolon,,
+23,11/04/2026,,Karpaty,Oleksandriya,,
+23,11/04/2026,,Metalist 1925,Din. Kiev,,
+23,11/04/2026,,NK Veres,Obolon,,
 23,12/04/2026,,FC Kudrivka,Kryvbas Kryvyi Rih,,
 23,12/04/2026,,Zorya Lugansk,Epitsentr Kamianets-Podilskyi,,
 23,13/04/2026,,FC LNZ Cherkasy,Shajtar Donetsk,,
-24,17/04/2026,,Dinamo Kiev,Zorya Lugansk,,
-24,17/04/2026,,FK Obolon,SK Poltava,,
+24,17/04/2026,,Din. Kiev,Zorya Lugansk,,
+24,17/04/2026,,Obolon,SK Poltava,,
 24,18/04/2026,,Kolos Kovalivka,FC LNZ Cherkasy,,
-24,18/04/2026,,Metalist 1925 Kharkiv,FC Kudrivka,,
+24,18/04/2026,,Metalist 1925,FC Kudrivka,,
 24,19/04/2026,,Kryvbas Kryvyi Rih,Rukh Lviv,,
-24,19/04/2026,,Epitsentr Kamianets-Podilskyi,Karpaty Lviv,,
-24,20/04/2026,,FK Oleksandriya,NK Veres,,
+24,19/04/2026,,Epitsentr Kamianets-Podilskyi,Karpaty,,
+24,20/04/2026,,Oleksandriya,NK Veres,,
 24,20/04/2026,,Shajtar Donetsk,Polissya Zhytomyr,,
 25,25/04/2026,,Kolos Kovalivka,SK Poltava,,
-25,25/04/2026,,Epitsentr Kamianets-Podilskyi,FK Oleksandriya,,
-25,25/04/2026,,Rukh Lviv,Karpaty Lviv,,
+25,25/04/2026,,Epitsentr Kamianets-Podilskyi,Oleksandriya,,
+25,25/04/2026,,Rukh Lviv,Karpaty,,
 25,25/04/2026,,Zorya Lugansk,NK Veres,,
-25,25/04/2026,,FC LNZ Cherkasy,Metalist 1925 Kharkiv,,
+25,25/04/2026,,FC LNZ Cherkasy,Metalist 1925,,
 25,25/04/2026,,FC Kudrivka,Shajtar Donetsk,,
-25,25/04/2026,,Polissya Zhytomyr,FK Obolon,,
-25,25/04/2026,,Kryvbas Kryvyi Rih,Dinamo Kiev,,
-26,02/05/2026,,FK Oleksandriya,Kolos Kovalivka,,
-26,02/05/2026,,Karpaty Lviv,FC LNZ Cherkasy,,
+25,25/04/2026,,Polissya Zhytomyr,Obolon,,
+25,25/04/2026,,Kryvbas Kryvyi Rih,Din. Kiev,,
+26,02/05/2026,,Oleksandriya,Kolos Kovalivka,,
+26,02/05/2026,,Karpaty,FC LNZ Cherkasy,,
 26,02/05/2026,,NK Veres,Epitsentr Kamianets-Podilskyi,,
-26,02/05/2026,,Dinamo Kiev,Shajtar Donetsk,,
+26,02/05/2026,,Din. Kiev,Shajtar Donetsk,,
 26,02/05/2026,,Rukh Lviv,Zorya Lugansk,,
-26,02/05/2026,,Metalist 1925 Kharkiv,Polissya Zhytomyr,,
-26,02/05/2026,,FK Obolon,FC Kudrivka,,
+26,02/05/2026,,Metalist 1925,Polissya Zhytomyr,,
+26,02/05/2026,,Obolon,FC Kudrivka,,
 26,02/05/2026,,SK Poltava,Kryvbas Kryvyi Rih,,
-27,09/05/2026,,Kryvbas Kryvyi Rih,Karpaty Lviv,,
+27,09/05/2026,,Kryvbas Kryvyi Rih,Karpaty,,
 27,09/05/2026,,Rukh Lviv,NK Veres,,
 27,09/05/2026,,Kolos Kovalivka,FC Kudrivka,,
-27,09/05/2026,,FC LNZ Cherkasy,Dinamo Kiev,,
-27,09/05/2026,,FK Obolon,Epitsentr Kamianets-Podilskyi,,
+27,09/05/2026,,FC LNZ Cherkasy,Din. Kiev,,
+27,09/05/2026,,Obolon,Epitsentr Kamianets-Podilskyi,,
 27,09/05/2026,,SK Poltava,Shajtar Donetsk,,
-27,09/05/2026,,Polissya Zhytomyr,FK Oleksandriya,,
-27,09/05/2026,,Zorya Lugansk,Metalist 1925 Kharkiv,,
+27,09/05/2026,,Polissya Zhytomyr,Oleksandriya,,
+27,09/05/2026,,Zorya Lugansk,Metalist 1925,,
 28,16/05/2026,,NK Veres,Kryvbas Kryvyi Rih,,
-28,16/05/2026,,Dinamo Kiev,Kolos Kovalivka,,
+28,16/05/2026,,Din. Kiev,Kolos Kovalivka,,
 28,16/05/2026,,FC LNZ Cherkasy,SK Poltava,,
 28,16/05/2026,,Epitsentr Kamianets-Podilskyi,Polissya Zhytomyr,,
-28,16/05/2026,,Shajtar Donetsk,FK Obolon,,
+28,16/05/2026,,Shajtar Donetsk,Obolon,,
 28,16/05/2026,,FC Kudrivka,Rukh Lviv,,
-28,16/05/2026,,Metalist 1925 Kharkiv,Karpaty Lviv,,
-28,16/05/2026,,FK Oleksandriya,Zorya Lugansk,,
-29,23/05/2026,,Kolos Kovalivka,FK Obolon,,
+28,16/05/2026,,Metalist 1925,Karpaty,,
+28,16/05/2026,,Oleksandriya,Zorya Lugansk,,
+29,23/05/2026,,Kolos Kovalivka,Obolon,,
 29,23/05/2026,,FC Kudrivka,FC LNZ Cherkasy,,
-29,23/05/2026,,Metalist 1925 Kharkiv,Epitsentr Kamianets-Podilskyi,,
+29,23/05/2026,,Metalist 1925,Epitsentr Kamianets-Podilskyi,,
 29,23/05/2026,,Kryvbas Kryvyi Rih,Shajtar Donetsk,,
-29,23/05/2026,,Rukh Lviv,FK Oleksandriya,,
+29,23/05/2026,,Rukh Lviv,Oleksandriya,,
 29,23/05/2026,,Zorya Lugansk,Polissya Zhytomyr,,
-29,23/05/2026,,SK Poltava,Dinamo Kiev,,
-29,23/05/2026,,Karpaty Lviv,NK Veres,,
-30,29/05/2026,,FK Obolon,FC LNZ Cherkasy,,
+29,23/05/2026,,SK Poltava,Din. Kiev,,
+29,23/05/2026,,Karpaty,NK Veres,,
+30,29/05/2026,,Obolon,FC LNZ Cherkasy,,
 30,29/05/2026,,Epitsentr Kamianets-Podilskyi,SK Poltava,,
 30,29/05/2026,,Shajtar Donetsk,Kolos Kovalivka,,
 30,29/05/2026,,Polissya Zhytomyr,Rukh Lviv,,
-30,29/05/2026,,NK Veres,Metalist 1925 Kharkiv,,
-30,29/05/2026,,Dinamo Kiev,FC Kudrivka,,
-30,29/05/2026,,Karpaty Lviv,Zorya Lugansk,,
-30,29/05/2026,,FK Oleksandriya,Kryvbas Kryvyi Rih,,
+30,29/05/2026,,NK Veres,Metalist 1925,,
+30,29/05/2026,,Din. Kiev,FC Kudrivka,,
+30,29/05/2026,,Karpaty,Zorya Lugansk,,
+30,29/05/2026,,Oleksandriya,Kryvbas Kryvyi Rih,,

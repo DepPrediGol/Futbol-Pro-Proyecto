@@ -1,307 +1,307 @@
 matchday,date,time,home_team,away_team,result,status
-1,18/07/2025,,Jagiellonia Białystok,Bruk-Bet Termalica Nieciecza,0-4,Final
-1,18/07/2025,,Lech Poznań,KS Cracovia,1-4,Final
+1,18/07/2025,,Jagiellonia,Nieciecza,0-4,Final
+1,18/07/2025,,Poznań,KS Cracovia,1-4,Final
 1,19/07/2025,,Widzew Łódź,Zagłębie Lubin,1-0,Final
 1,19/07/2025,,Wisła Płock,Korona Kielce,2-0,Final
-1,19/07/2025,,GKS Katowice,Raków Częstochowa,0-1,Final
+1,19/07/2025,,GKS Katowice,Raków,0-1,Final
 1,20/07/2025,,Górnik Zabrze,Lechia Gdańsk,2-1,Final
 1,20/07/2025,,Motor Lublin,Arka Gdynia,1-0,Final
-1,20/07/2025,,Radomiak Radom,Pogoń Szczecin,5-1,Final
-1,14/12/2025,,Legia Warszawa,Piast Gliwice,0-1,Final
-2,25/07/2025,,KS Cracovia,Bruk-Bet Termalica Nieciecza,2-0,Final
+1,20/07/2025,,Radomiak Radom,Pogon Szczecin,5-1,Final
+1,14/12/2025,,Legia,Gliwice,0-1,Final
+2,25/07/2025,,KS Cracovia,Nieciecza,2-0,Final
 2,25/07/2025,,Arka Gdynia,Radomiak Radom,1-1,Final
-2,26/07/2025,,Piast Gliwice,Górnik Zabrze,0-1,Final
-2,26/07/2025,,Pogoń Szczecin,Motor Lublin,4-1,Final
-2,26/07/2025,,Lechia Gdańsk,Lech Poznań,3-4,Final
-2,27/07/2025,,Raków Częstochowa,Wisła Płock,1-2,Final
-2,27/07/2025,,Jagiellonia Białystok,Widzew Łódź,3-2,Final
-2,27/07/2025,,Korona Kielce,Legia Warszawa,0-2,Final
+2,26/07/2025,,Gliwice,Górnik Zabrze,0-1,Final
+2,26/07/2025,,Pogon Szczecin,Motor Lublin,4-1,Final
+2,26/07/2025,,Lechia Gdańsk,Poznań,3-4,Final
+2,27/07/2025,,Raków,Wisła Płock,1-2,Final
+2,27/07/2025,,Jagiellonia,Widzew Łódź,3-2,Final
+2,27/07/2025,,Korona Kielce,Legia,0-2,Final
 2,28/07/2025,,GKS Katowice,Zagłębie Lubin,2-2,Final
 3,01/08/2025,,Zagłębie Lubin,Korona Kielce,1-1,Final
-3,01/08/2025,,Wisła Płock,Piast Gliwice,2-0,Final
-3,02/08/2025,,Bruk-Bet Termalica Nieciecza,Pogoń Szczecin,1-1,Final
+3,01/08/2025,,Wisła Płock,Gliwice,2-0,Final
+3,02/08/2025,,Nieciecza,Pogon Szczecin,1-1,Final
 3,02/08/2025,,Widzew Łódź,GKS Katowice,3-0,Final
-3,02/08/2025,,Lech Poznań,Górnik Zabrze,2-1,Final
+3,02/08/2025,,Poznań,Górnik Zabrze,2-1,Final
 3,03/08/2025,,KS Cracovia,Lechia Gdańsk,2-2,Final
-3,03/08/2025,,Radomiak Radom,Raków Częstochowa,3-1,Final
-3,03/08/2025,,Legia Warszawa,Arka Gdynia,0-0,Final
-3,14/12/2025,,Motor Lublin,Jagiellonia Białystok,1-1,Final
+3,03/08/2025,,Radomiak Radom,Raków,3-1,Final
+3,03/08/2025,,Legia,Arka Gdynia,0-0,Final
+3,14/12/2025,,Motor Lublin,Jagiellonia,1-1,Final
 4,08/08/2025,,Korona Kielce,Radomiak Radom,3-0,Final
-4,08/08/2025,,Górnik Zabrze,Bruk-Bet Termalica Nieciecza,0-1,Final
-4,09/08/2025,,Arka Gdynia,Pogoń Szczecin,2-1,Final
+4,08/08/2025,,Górnik Zabrze,Nieciecza,0-1,Final
+4,09/08/2025,,Arka Gdynia,Pogon Szczecin,2-1,Final
 4,09/08/2025,,Widzew Łódź,Wisła Płock,1-1,Final
-4,10/08/2025,,Jagiellonia Białystok,KS Cracovia,5-2,Final
-4,10/08/2025,,Legia Warszawa,GKS Katowice,3-1,Final
+4,10/08/2025,,Jagiellonia,KS Cracovia,5-2,Final
+4,10/08/2025,,Legia,GKS Katowice,3-1,Final
 4,11/08/2025,,Lechia Gdańsk,Motor Lublin,3-3,Final
-4,14/12/2025,,Raków Częstochowa,Zagłębie Lubin,0-1,Final
-4,03/02/2026,,Piast Gliwice,Lech Poznań,1-0,Final
+4,14/12/2025,,Raków,Zagłębie Lubin,0-1,Final
+4,03/02/2026,,Gliwice,Poznań,1-0,Final
 5,15/08/2025,,Zagłębie Lubin,Lechia Gdańsk,6-2,Final
 5,15/08/2025,,KS Cracovia,Widzew Łódź,1-0,Final
-5,16/08/2025,,Motor Lublin,Piast Gliwice,0-0,Final
+5,16/08/2025,,Motor Lublin,Gliwice,0-0,Final
 5,16/08/2025,,GKS Katowice,Arka Gdynia,4-1,Final
-5,16/08/2025,,Lech Poznań,Korona Kielce,1-1,Final
-5,17/08/2025,,Pogoń Szczecin,Górnik Zabrze,0-3,Final
-5,17/08/2025,,Radomiak Radom,Jagiellonia Białystok,1-2,Final
-5,17/08/2025,,Bruk-Bet Termalica Nieciecza,Raków Częstochowa,2-3,Final
-5,17/08/2025,,Wisła Płock,Legia Warszawa,1-0,Final
-6,22/08/2025,,Radomiak Radom,Bruk-Bet Termalica Nieciecza,1-1,Final
-6,22/08/2025,,Widzew Łódź,Pogoń Szczecin,1-2,Final
+5,16/08/2025,,Poznań,Korona Kielce,1-1,Final
+5,17/08/2025,,Pogon Szczecin,Górnik Zabrze,0-3,Final
+5,17/08/2025,,Radomiak Radom,Jagiellonia,1-2,Final
+5,17/08/2025,,Nieciecza,Raków,2-3,Final
+5,17/08/2025,,Wisła Płock,Legia,1-0,Final
+6,22/08/2025,,Radomiak Radom,Nieciecza,1-1,Final
+6,22/08/2025,,Widzew Łódź,Pogon Szczecin,1-2,Final
 6,23/08/2025,,Korona Kielce,Motor Lublin,2-0,Final
 6,23/08/2025,,Górnik Zabrze,GKS Katowice,3-0,Final
-6,24/08/2025,,Piast Gliwice,KS Cracovia,0-0,Final
+6,24/08/2025,,Gliwice,KS Cracovia,0-0,Final
 6,24/08/2025,,Lechia Gdańsk,Arka Gdynia,1-0,Final
 6,25/08/2025,,Wisła Płock,Zagłębie Lubin,2-1,Final
-6,24/09/2025,,Raków Częstochowa,Lech Poznań,2-2,Final
-6,24/09/2025,,Legia Warszawa,Jagiellonia Białystok,0-0,Final
+6,24/09/2025,,Raków,Poznań,2-2,Final
+6,24/09/2025,,Legia,Jagiellonia,0-0,Final
 7,29/08/2025,,Arka Gdynia,Wisła Płock,1-0,Final
 7,29/08/2025,,GKS Katowice,Radomiak Radom,3-2,Final
-7,30/08/2025,,Bruk-Bet Termalica Nieciecza,Korona Kielce,1-3,Final
-7,30/08/2025,,Zagłębie Lubin,Piast Gliwice,2-2,Final
+7,30/08/2025,,Nieciecza,Korona Kielce,1-3,Final
+7,30/08/2025,,Zagłębie Lubin,Gliwice,2-2,Final
 7,30/08/2025,,Górnik Zabrze,Motor Lublin,0-1,Final
-7,31/08/2025,,Jagiellonia Białystok,Lechia Gdańsk,2-0,Final
-7,31/08/2025,,Lech Poznań,Widzew Łódź,2-1,Final
-7,31/08/2025,,KS Cracovia,Legia Warszawa,2-1,Final
-7,31/08/2025,,Pogoń Szczecin,Raków Częstochowa,2-0,Final
+7,31/08/2025,,Jagiellonia,Lechia Gdańsk,2-0,Final
+7,31/08/2025,,Poznań,Widzew Łódź,2-1,Final
+7,31/08/2025,,KS Cracovia,Legia,2-1,Final
+7,31/08/2025,,Pogon Szczecin,Raków,2-0,Final
 8,12/09/2025,,Lechia Gdańsk,GKS Katowice,2-0,Final
-8,12/09/2025,,Lech Poznań,Zagłębie Lubin,1-2,Final
-8,13/09/2025,,Korona Kielce,Pogoń Szczecin,1-0,Final
-8,13/09/2025,,Piast Gliwice,Jagiellonia Białystok,1-1,Final
-8,14/09/2025,,Motor Lublin,Bruk-Bet Termalica Nieciecza,1-1,Final
-8,14/09/2025,,Legia Warszawa,Radomiak Radom,4-1,Final
+8,12/09/2025,,Poznań,Zagłębie Lubin,1-2,Final
+8,13/09/2025,,Korona Kielce,Pogon Szczecin,1-0,Final
+8,13/09/2025,,Gliwice,Jagiellonia,1-1,Final
+8,14/09/2025,,Motor Lublin,Nieciecza,1-1,Final
+8,14/09/2025,,Legia,Radomiak Radom,4-1,Final
 8,14/09/2025,,Widzew Łódź,Arka Gdynia,2-0,Final
-8,15/09/2025,,Raków Częstochowa,Górnik Zabrze,0-1,Final
+8,15/09/2025,,Raków,Górnik Zabrze,0-1,Final
 8,04/12/2025,,Wisła Płock,KS Cracovia,0-0,Final
 9,19/09/2025,,GKS Katowice,KS Cracovia,0-3,Final
-9,19/09/2025,,Wisła Płock,Jagiellonia Białystok,0-1,Final
-9,20/09/2025,,Radomiak Radom,Piast Gliwice,1-0,Final
+9,19/09/2025,,Wisła Płock,Jagiellonia,0-1,Final
+9,20/09/2025,,Radomiak Radom,Gliwice,1-0,Final
 9,20/09/2025,,Arka Gdynia,Korona Kielce,0-0,Final
-9,20/09/2025,,Bruk-Bet Termalica Nieciecza,Lech Poznań,0-2,Final
-9,20/09/2025,,Raków Częstochowa,Legia Warszawa,1-1,Final
+9,20/09/2025,,Nieciecza,Poznań,0-2,Final
+9,20/09/2025,,Raków,Legia,1-1,Final
 9,21/09/2025,,Zagłębie Lubin,Motor Lublin,2-2,Final
-9,21/09/2025,,Pogoń Szczecin,Lechia Gdańsk,3-4,Final
+9,21/09/2025,,Pogon Szczecin,Lechia Gdańsk,3-4,Final
 9,21/09/2025,,Górnik Zabrze,Widzew Łódź,3-2,Final
 10,26/09/2025,,Wisła Płock,GKS Katowice,1-1,Final
 10,27/09/2025,,Korona Kielce,Lechia Gdańsk,3-0,Final
-10,27/09/2025,,Piast Gliwice,Bruk-Bet Termalica Nieciecza,4-2,Final
+10,27/09/2025,,Gliwice,Nieciecza,4-2,Final
 10,27/09/2025,,KS Cracovia,Górnik Zabrze,1-1,Final
-10,28/09/2025,,Widzew Łódź,Raków Częstochowa,0-1,Final
-10,28/09/2025,,Lech Poznań,Jagiellonia Białystok,2-2,Final
-10,28/09/2025,,Legia Warszawa,Pogoń Szczecin,1-0,Final
+10,28/09/2025,,Widzew Łódź,Raków,0-1,Final
+10,28/09/2025,,Poznań,Jagiellonia,2-2,Final
+10,28/09/2025,,Legia,Pogon Szczecin,1-0,Final
 10,29/09/2025,,Zagłębie Lubin,Arka Gdynia,4-0,Final
 10,29/09/2025,,Motor Lublin,Radomiak Radom,2-2,Final
 11,03/10/2025,,Lechia Gdańsk,Wisła Płock,1-1,Final
-11,03/10/2025,,Pogoń Szczecin,Piast Gliwice,2-1,Final
-11,04/10/2025,,Bruk-Bet Termalica Nieciecza,Widzew Łódź,2-4,Final
+11,03/10/2025,,Pogon Szczecin,Gliwice,2-1,Final
+11,04/10/2025,,Nieciecza,Widzew Łódź,2-4,Final
 11,04/10/2025,,Radomiak Radom,Zagłębie Lubin,3-1,Final
 11,04/10/2025,,Arka Gdynia,KS Cracovia,2-1,Final
-11,05/10/2025,,Jagiellonia Białystok,Korona Kielce,3-1,Final
-11,05/10/2025,,Raków Częstochowa,Motor Lublin,2-0,Final
-11,05/10/2025,,GKS Katowice,Lech Poznań,0-1,Final
-11,05/10/2025,,Górnik Zabrze,Legia Warszawa,3-1,Final
+11,05/10/2025,,Jagiellonia,Korona Kielce,3-1,Final
+11,05/10/2025,,Raków,Motor Lublin,2-0,Final
+11,05/10/2025,,GKS Katowice,Poznań,0-1,Final
+11,05/10/2025,,Górnik Zabrze,Legia,3-1,Final
 12,17/10/2025,,Motor Lublin,GKS Katowice,2-5,Final
 12,17/10/2025,,Widzew Łódź,Radomiak Radom,3-2,Final
 12,18/10/2025,,Korona Kielce,Górnik Zabrze,1-1,Final
-12,18/10/2025,,Jagiellonia Białystok,Arka Gdynia,4-0,Final
-12,18/10/2025,,KS Cracovia,Raków Częstochowa,2-0,Final
-12,19/10/2025,,Piast Gliwice,Lechia Gdańsk,1-2,Final
-12,19/10/2025,,Lech Poznań,Pogoń Szczecin,2-2,Final
-12,19/10/2025,,Zagłębie Lubin,Legia Warszawa,3-1,Final
-12,20/10/2025,,Wisła Płock,Bruk-Bet Termalica Nieciecza,3-1,Final
-13,24/10/2025,,Bruk-Bet Termalica Nieciecza,Zagłębie Lubin,1-1,Final
+12,18/10/2025,,Jagiellonia,Arka Gdynia,4-0,Final
+12,18/10/2025,,KS Cracovia,Raków,2-0,Final
+12,19/10/2025,,Gliwice,Lechia Gdańsk,1-2,Final
+12,19/10/2025,,Poznań,Pogon Szczecin,2-2,Final
+12,19/10/2025,,Zagłębie Lubin,Legia,3-1,Final
+12,20/10/2025,,Wisła Płock,Nieciecza,3-1,Final
+13,24/10/2025,,Nieciecza,Zagłębie Lubin,1-1,Final
 13,24/10/2025,,Motor Lublin,Widzew Łódź,3-0,Final
-13,25/10/2025,,Arka Gdynia,Piast Gliwice,2-1,Final
-13,25/10/2025,,Pogoń Szczecin,KS Cracovia,2-1,Final
+13,25/10/2025,,Arka Gdynia,Gliwice,2-1,Final
+13,25/10/2025,,Pogon Szczecin,KS Cracovia,2-1,Final
 13,25/10/2025,,GKS Katowice,Korona Kielce,1-0,Final
-13,26/10/2025,,Raków Częstochowa,Lechia Gdańsk,2-1,Final
-13,26/10/2025,,Górnik Zabrze,Jagiellonia Białystok,2-1,Final
-13,26/10/2025,,Legia Warszawa,Lech Poznań,0-0,Final
+13,26/10/2025,,Raków,Lechia Gdańsk,2-1,Final
+13,26/10/2025,,Górnik Zabrze,Jagiellonia,2-1,Final
+13,26/10/2025,,Legia,Poznań,0-0,Final
 13,27/10/2025,,Radomiak Radom,Wisła Płock,1-1,Final
-14,31/10/2025,,Bruk-Bet Termalica Nieciecza,GKS Katowice,0-3,Final
-14,31/10/2025,,Piast Gliwice,Korona Kielce,0-0,Final
+14,31/10/2025,,Nieciecza,GKS Katowice,0-3,Final
+14,31/10/2025,,Gliwice,Korona Kielce,0-0,Final
 14,02/11/2025,,Górnik Zabrze,Arka Gdynia,5-1,Final
-14,02/11/2025,,Lech Poznań,Motor Lublin,2-2,Final
-14,02/11/2025,,Jagiellonia Białystok,Raków Częstochowa,1-2,Final
-14,02/11/2025,,Widzew Łódź,Legia Warszawa,1-1,Final
+14,02/11/2025,,Poznań,Motor Lublin,2-2,Final
+14,02/11/2025,,Jagiellonia,Raków,1-2,Final
+14,02/11/2025,,Widzew Łódź,Legia,1-1,Final
 14,03/11/2025,,Lechia Gdańsk,Radomiak Radom,1-2,Final
-14,03/11/2025,,Wisła Płock,Pogoń Szczecin,2-0,Final
+14,03/11/2025,,Wisła Płock,Pogon Szczecin,2-0,Final
 14,03/11/2025,,KS Cracovia,Zagłębie Lubin,0-0,Final
 15,07/11/2025,,Radomiak Radom,KS Cracovia,3-0,Final
 15,07/11/2025,,Zagłębie Lubin,Górnik Zabrze,2-0,Final
 15,08/11/2025,,Lechia Gdańsk,Widzew Łódź,2-1,Final
 15,08/11/2025,,Motor Lublin,Wisła Płock,1-1,Final
-15,08/11/2025,,GKS Katowice,Piast Gliwice,1-3,Final
-15,09/11/2025,,Korona Kielce,Raków Częstochowa,1-4,Final
-15,09/11/2025,,Legia Warszawa,Bruk-Bet Termalica Nieciecza,1-2,Final
-15,09/11/2025,,Pogoń Szczecin,Jagiellonia Białystok,1-2,Final
-15,09/11/2025,,Arka Gdynia,Lech Poznań,3-1,Final
-16,21/11/2025,,Bruk-Bet Termalica Nieciecza,Arka Gdynia,2-0,Final
+15,08/11/2025,,GKS Katowice,Gliwice,1-3,Final
+15,09/11/2025,,Korona Kielce,Raków,1-4,Final
+15,09/11/2025,,Legia,Nieciecza,1-2,Final
+15,09/11/2025,,Pogon Szczecin,Jagiellonia,1-2,Final
+15,09/11/2025,,Arka Gdynia,Poznań,3-1,Final
+16,21/11/2025,,Nieciecza,Arka Gdynia,2-0,Final
 16,21/11/2025,,Górnik Zabrze,Wisła Płock,1-1,Final
 16,22/11/2025,,KS Cracovia,Motor Lublin,1-2,Final
-16,22/11/2025,,Raków Częstochowa,Piast Gliwice,1-3,Final
-16,22/11/2025,,Legia Warszawa,Lechia Gdańsk,2-2,Final
-16,23/11/2025,,Lech Poznań,Radomiak Radom,4-1,Final
+16,22/11/2025,,Raków,Gliwice,1-3,Final
+16,22/11/2025,,Legia,Lechia Gdańsk,2-2,Final
+16,23/11/2025,,Poznań,Radomiak Radom,4-1,Final
 16,23/11/2025,,Widzew Łódź,Korona Kielce,1-3,Final
-16,24/11/2025,,Pogoń Szczecin,Zagłębie Lubin,5-1,Final
-16,17/03/2026,,Jagiellonia Białystok,GKS Katowice,2-1,Final
-17,28/11/2025,,Piast Gliwice,Widzew Łódź,0-2,Final
+16,24/11/2025,,Pogon Szczecin,Zagłębie Lubin,5-1,Final
+16,17/03/2026,,Jagiellonia,GKS Katowice,2-1,Final
+17,28/11/2025,,Gliwice,Widzew Łódź,0-2,Final
 17,28/11/2025,,Radomiak Radom,Górnik Zabrze,4-0,Final
-17,29/11/2025,,Lechia Gdańsk,Bruk-Bet Termalica Nieciecza,5-1,Final
+17,29/11/2025,,Lechia Gdańsk,Nieciecza,5-1,Final
 17,29/11/2025,,Korona Kielce,KS Cracovia,0-1,Final
-17,29/11/2025,,GKS Katowice,Pogoń Szczecin,2-0,Final
-17,30/11/2025,,Arka Gdynia,Raków Częstochowa,1-4,Final
-17,30/11/2025,,Zagłębie Lubin,Jagiellonia Białystok,0-0,Final
-17,30/11/2025,,Wisła Płock,Lech Poznań,0-0,Final
-17,01/12/2025,,Motor Lublin,Legia Warszawa,1-1,Final
+17,29/11/2025,,GKS Katowice,Pogon Szczecin,2-0,Final
+17,30/11/2025,,Arka Gdynia,Raków,1-4,Final
+17,30/11/2025,,Zagłębie Lubin,Jagiellonia,0-0,Final
+17,30/11/2025,,Wisła Płock,Poznań,0-0,Final
+17,01/12/2025,,Motor Lublin,Legia,1-1,Final
 18,05/12/2025,,Lechia Gdańsk,Górnik Zabrze,5-2,Final
 18,06/12/2025,,Arka Gdynia,Motor Lublin,1-0,Final
-18,06/12/2025,,Pogoń Szczecin,Radomiak Radom,2-2,Final
+18,06/12/2025,,Pogon Szczecin,Radomiak Radom,2-2,Final
 18,06/12/2025,,Zagłębie Lubin,Widzew Łódź,2-1,Final
-18,06/12/2025,,Piast Gliwice,Legia Warszawa,2-0,Final
-18,07/12/2025,,Bruk-Bet Termalica Nieciecza,Jagiellonia Białystok,2-1,Final
-18,07/12/2025,,KS Cracovia,Lech Poznań,2-2,Final
-18,07/12/2025,,Raków Częstochowa,GKS Katowice,1-0,Final
+18,06/12/2025,,Gliwice,Legia,2-0,Final
+18,07/12/2025,,Nieciecza,Jagiellonia,2-1,Final
+18,07/12/2025,,KS Cracovia,Poznań,2-2,Final
+18,07/12/2025,,Raków,GKS Katowice,1-0,Final
 18,08/12/2025,,Korona Kielce,Wisła Płock,1-1,Final
 19,30/01/2026,,Zagłębie Lubin,GKS Katowice,0-2,Final
-19,31/01/2026,,Górnik Zabrze,Piast Gliwice,2-1,Final
-19,31/01/2026,,Widzew Łódź,Jagiellonia Białystok,1-3,Final
-19,31/01/2026,,Lech Poznań,Lechia Gdańsk,1-3,Final
-19,01/02/2026,,Motor Lublin,Pogoń Szczecin,2-1,Final
-19,01/02/2026,,Wisła Płock,Raków Częstochowa,2-1,Final
-19,01/02/2026,,Legia Warszawa,Korona Kielce,1-2,Final
-19,02/02/2026,,Bruk-Bet Termalica Nieciecza,KS Cracovia,0-1,Final
+19,31/01/2026,,Górnik Zabrze,Gliwice,2-1,Final
+19,31/01/2026,,Widzew Łódź,Jagiellonia,1-3,Final
+19,31/01/2026,,Poznań,Lechia Gdańsk,1-3,Final
+19,01/02/2026,,Motor Lublin,Pogon Szczecin,2-1,Final
+19,01/02/2026,,Wisła Płock,Raków,2-1,Final
+19,01/02/2026,,Legia,Korona Kielce,1-2,Final
+19,02/02/2026,,Nieciecza,KS Cracovia,0-1,Final
 19,05/03/2026,,Radomiak Radom,Arka Gdynia,3-1,Final
 20,06/02/2026,,Korona Kielce,Zagłębie Lubin,1-2,Final
 20,06/02/2026,,Lechia Gdańsk,KS Cracovia,1-1,Final
-20,07/02/2026,,Arka Gdynia,Legia Warszawa,2-2,Final
-20,07/02/2026,,Jagiellonia Białystok,Motor Lublin,4-1,Final
-20,07/02/2026,,Górnik Zabrze,Lech Poznań,0-1,Final
-20,08/02/2026,,Pogoń Szczecin,Bruk-Bet Termalica Nieciecza,1-1,Final
-20,08/02/2026,,Raków Częstochowa,Radomiak Radom,0-0,Final
+20,07/02/2026,,Arka Gdynia,Legia,2-2,Final
+20,07/02/2026,,Jagiellonia,Motor Lublin,4-1,Final
+20,07/02/2026,,Górnik Zabrze,Poznań,0-1,Final
+20,08/02/2026,,Pogon Szczecin,Nieciecza,1-1,Final
+20,08/02/2026,,Raków,Radomiak Radom,0-0,Final
 20,08/02/2026,,GKS Katowice,Widzew Łódź,1-0,Final
-20,09/02/2026,,Piast Gliwice,Wisła Płock,1-0,Final
+20,09/02/2026,,Gliwice,Wisła Płock,1-0,Final
 21,13/02/2026,,Radomiak Radom,Korona Kielce,0-2,Final
-21,13/02/2026,,GKS Katowice,Legia Warszawa,1-1,Final
-21,14/02/2026,,KS Cracovia,Jagiellonia Białystok,0-0,Final
-21,14/02/2026,,Zagłębie Lubin,Raków Częstochowa,0-0,Final
+21,13/02/2026,,GKS Katowice,Legia,1-1,Final
+21,14/02/2026,,KS Cracovia,Jagiellonia,0-0,Final
+21,14/02/2026,,Zagłębie Lubin,Raków,0-0,Final
 21,14/02/2026,,Wisła Płock,Widzew Łódź,0-2,Final
 21,15/02/2026,,Motor Lublin,Lechia Gdańsk,2-3,Final
-21,15/02/2026,,Pogoń Szczecin,Arka Gdynia,1-0,Final
-21,15/02/2026,,Lech Poznań,Piast Gliwice,3-0,Final
-21,16/02/2026,,Bruk-Bet Termalica Nieciecza,Górnik Zabrze,1-1,Final
-22,20/02/2026,,Piast Gliwice,Motor Lublin,1-2,Final
+21,15/02/2026,,Pogon Szczecin,Arka Gdynia,1-0,Final
+21,15/02/2026,,Poznań,Gliwice,3-0,Final
+21,16/02/2026,,Nieciecza,Górnik Zabrze,1-1,Final
+22,20/02/2026,,Gliwice,Motor Lublin,1-2,Final
 22,20/02/2026,,Widzew Łódź,KS Cracovia,0-0,Final
-22,21/02/2026,,Raków Częstochowa,Bruk-Bet Termalica Nieciecza,1-0,Final
-22,21/02/2026,,Górnik Zabrze,Pogoń Szczecin,0-1,Final
-22,21/02/2026,,Legia Warszawa,Wisła Płock,2-1,Final
+22,21/02/2026,,Raków,Nieciecza,1-0,Final
+22,21/02/2026,,Górnik Zabrze,Pogon Szczecin,0-1,Final
+22,21/02/2026,,Legia,Wisła Płock,2-1,Final
 22,22/02/2026,,Arka Gdynia,GKS Katowice,2-1,Final
-22,22/02/2026,,Jagiellonia Białystok,Radomiak Radom,1-1,Final
-22,22/02/2026,,Korona Kielce,Lech Poznań,1-2,Final
+22,22/02/2026,,Jagiellonia,Radomiak Radom,1-1,Final
+22,22/02/2026,,Korona Kielce,Poznań,1-2,Final
 22,23/02/2026,,Lechia Gdańsk,Zagłębie Lubin,0-2,Final
-23,27/02/2026,,KS Cracovia,Piast Gliwice,2-3,Final
+23,27/02/2026,,KS Cracovia,Gliwice,2-3,Final
 23,27/02/2026,,Arka Gdynia,Lechia Gdańsk,2-2,Final
-23,28/02/2026,,Pogoń Szczecin,Widzew Łódź,1-0,Final
+23,28/02/2026,,Pogon Szczecin,Widzew Łódź,1-0,Final
 23,28/02/2026,,Motor Lublin,Korona Kielce,2-0,Final
 23,28/02/2026,,GKS Katowice,Górnik Zabrze,3-1,Final
-23,01/03/2026,,Bruk-Bet Termalica Nieciecza,Radomiak Radom,1-1,Final
-23,01/03/2026,,Jagiellonia Białystok,Legia Warszawa,2-2,Final
-23,01/03/2026,,Lech Poznań,Raków Częstochowa,4-3,Final
+23,01/03/2026,,Nieciecza,Radomiak Radom,1-1,Final
+23,01/03/2026,,Jagiellonia,Legia,2-2,Final
+23,01/03/2026,,Poznań,Raków,4-3,Final
 23,02/03/2026,,Zagłębie Lubin,Wisła Płock,2-0,Final
-24,06/03/2026,,Lechia Gdańsk,Jagiellonia Białystok,3-0,Final
-24,07/03/2026,,Korona Kielce,Bruk-Bet Termalica Nieciecza,2-1,Final
-24,07/03/2026,,Piast Gliwice,Zagłębie Lubin,1-3,Final
-24,07/03/2026,,Widzew Łódź,Lech Poznań,2-1,Final
+24,06/03/2026,,Lechia Gdańsk,Jagiellonia,3-0,Final
+24,07/03/2026,,Korona Kielce,Nieciecza,2-1,Final
+24,07/03/2026,,Gliwice,Zagłębie Lubin,1-3,Final
+24,07/03/2026,,Widzew Łódź,Poznań,2-1,Final
 24,08/03/2026,,Motor Lublin,Górnik Zabrze,0-0,Final
 24,08/03/2026,,Radomiak Radom,GKS Katowice,0-1,Final
-24,08/03/2026,,Raków Częstochowa,Pogoń Szczecin,2-0,Final
-24,08/03/2026,,Legia Warszawa,KS Cracovia,1-0,Final
+24,08/03/2026,,Raków,Pogon Szczecin,2-0,Final
+24,08/03/2026,,Legia,KS Cracovia,1-0,Final
 24,09/03/2026,,Wisła Płock,Arka Gdynia,0-3,Final
-25,13/03/2026,,Bruk-Bet Termalica Nieciecza,Motor Lublin,1-2,Final
-25,13/03/2026,,Radomiak Radom,Legia Warszawa,1-1,Final
-25,14/03/2026,,Jagiellonia Białystok,Piast Gliwice,1-2,Final
+25,13/03/2026,,Nieciecza,Motor Lublin,1-2,Final
+25,13/03/2026,,Radomiak Radom,Legia,1-1,Final
+25,14/03/2026,,Jagiellonia,Gliwice,1-2,Final
 25,14/03/2026,,GKS Katowice,Lechia Gdańsk,2-0,Final
 25,14/03/2026,,KS Cracovia,Wisła Płock,1-2,Final
 25,15/03/2026,,Arka Gdynia,Widzew Łódź,0-0,Final
-25,15/03/2026,,Zagłębie Lubin,Lech Poznań,0-1,Final
-25,15/03/2026,,Górnik Zabrze,Raków Częstochowa,3-1,Final
-25,16/03/2026,,Pogoń Szczecin,Korona Kielce,2-1,Final
-26,20/03/2026,,Piast Gliwice,Radomiak Radom,3-1,Final
+25,15/03/2026,,Zagłębie Lubin,Poznań,0-1,Final
+25,15/03/2026,,Górnik Zabrze,Raków,3-1,Final
+25,16/03/2026,,Pogon Szczecin,Korona Kielce,2-1,Final
+26,20/03/2026,,Gliwice,Radomiak Radom,3-1,Final
 26,20/03/2026,,Motor Lublin,Zagłębie Lubin,1-0,Final
 26,21/03/2026,,KS Cracovia,GKS Katowice,1-0,Final
-26,21/03/2026,,Lechia Gdańsk,Pogoń Szczecin,2-1,Final
-26,21/03/2026,,Jagiellonia Białystok,Wisła Płock,1-2,Final
+26,21/03/2026,,Lechia Gdańsk,Pogon Szczecin,2-1,Final
+26,21/03/2026,,Jagiellonia,Wisła Płock,1-2,Final
 26,22/03/2026,,Korona Kielce,Arka Gdynia,3-0,Final
-26,22/03/2026,,Lech Poznań,Bruk-Bet Termalica Nieciecza,4-1,Final
+26,22/03/2026,,Poznań,Nieciecza,4-1,Final
 26,22/03/2026,,Widzew Łódź,Górnik Zabrze,0-0,Final
-26,22/03/2026,,Legia Warszawa,Raków Częstochowa,1-1,Final
+26,22/03/2026,,Legia,Raków,1-1,Final
 27,04/04/2026,,GKS Katowice,Wisła Płock,,
-27,04/04/2026,,Raków Częstochowa,Widzew Łódź,,
+27,04/04/2026,,Raków,Widzew Łódź,,
 27,04/04/2026,,Górnik Zabrze,KS Cracovia,,
-27,04/04/2026,,Jagiellonia Białystok,Lech Poznań,,
-27,06/04/2026,,Bruk-Bet Termalica Nieciecza,Piast Gliwice,,
+27,04/04/2026,,Jagiellonia,Poznań,,
+27,06/04/2026,,Nieciecza,Gliwice,,
 27,06/04/2026,,Radomiak Radom,Motor Lublin,,
-27,06/04/2026,,Pogoń Szczecin,Legia Warszawa,,
+27,06/04/2026,,Pogon Szczecin,Legia,,
 27,06/04/2026,,Lechia Gdańsk,Korona Kielce,,
 27,07/04/2026,,Arka Gdynia,Zagłębie Lubin,,
 28,10/04/2026,,Wisła Płock,Lechia Gdańsk,,
-28,10/04/2026,,Korona Kielce,Jagiellonia Białystok,,
-28,11/04/2026,,Widzew Łódź,Bruk-Bet Termalica Nieciecza,,
+28,10/04/2026,,Korona Kielce,Jagiellonia,,
+28,11/04/2026,,Widzew Łódź,Nieciecza,,
 28,11/04/2026,,Zagłębie Lubin,Radomiak Radom,,
-28,11/04/2026,,Legia Warszawa,Górnik Zabrze,,
+28,11/04/2026,,Legia,Górnik Zabrze,,
 28,12/04/2026,,KS Cracovia,Arka Gdynia,,
-28,12/04/2026,,Motor Lublin,Raków Częstochowa,,
-28,12/04/2026,,Lech Poznań,GKS Katowice,,
-28,13/04/2026,,Piast Gliwice,Pogoń Szczecin,,
+28,12/04/2026,,Motor Lublin,Raków,,
+28,12/04/2026,,Poznań,GKS Katowice,,
+28,13/04/2026,,Gliwice,Pogon Szczecin,,
 29,17/04/2026,,GKS Katowice,Motor Lublin,,
-29,17/04/2026,,Legia Warszawa,Zagłębie Lubin,,
+29,17/04/2026,,Legia,Zagłębie Lubin,,
 29,18/04/2026,,Radomiak Radom,Widzew Łódź,,
 29,18/04/2026,,Górnik Zabrze,Korona Kielce,,
-29,18/04/2026,,Pogoń Szczecin,Lech Poznań,,
-29,19/04/2026,,Bruk-Bet Termalica Nieciecza,Wisła Płock,,
-29,19/04/2026,,Raków Częstochowa,KS Cracovia,,
-29,19/04/2026,,Arka Gdynia,Jagiellonia Białystok,,
-29,20/04/2026,,Lechia Gdańsk,Piast Gliwice,,
-30,24/04/2026,,Zagłębie Lubin,Bruk-Bet Termalica Nieciecza,,
-30,24/04/2026,,Jagiellonia Białystok,Górnik Zabrze,,
+29,18/04/2026,,Pogon Szczecin,Poznań,,
+29,19/04/2026,,Nieciecza,Wisła Płock,,
+29,19/04/2026,,Raków,KS Cracovia,,
+29,19/04/2026,,Arka Gdynia,Jagiellonia,,
+29,20/04/2026,,Lechia Gdańsk,Gliwice,,
+30,24/04/2026,,Zagłębie Lubin,Nieciecza,,
+30,24/04/2026,,Jagiellonia,Górnik Zabrze,,
 30,25/04/2026,,Korona Kielce,GKS Katowice,,
-30,25/04/2026,,Lechia Gdańsk,Raków Częstochowa,,
-30,25/04/2026,,KS Cracovia,Pogoń Szczecin,,
+30,25/04/2026,,Lechia Gdańsk,Raków,,
+30,25/04/2026,,KS Cracovia,Pogon Szczecin,,
 30,26/04/2026,,Wisła Płock,Radomiak Radom,,
 30,26/04/2026,,Widzew Łódź,Motor Lublin,,
-30,26/04/2026,,Lech Poznań,Legia Warszawa,,
-30,27/04/2026,,Piast Gliwice,Arka Gdynia,,
+30,26/04/2026,,Poznań,Legia,,
+30,27/04/2026,,Gliwice,Arka Gdynia,,
 31,02/05/2026,,Arka Gdynia,Górnik Zabrze,,
-31,02/05/2026,,GKS Katowice,Bruk-Bet Termalica Nieciecza,,
-31,02/05/2026,,Korona Kielce,Piast Gliwice,,
-31,02/05/2026,,Legia Warszawa,Widzew Łódź,,
-31,02/05/2026,,Motor Lublin,Lech Poznań,,
-31,02/05/2026,,Pogoń Szczecin,Wisła Płock,,
+31,02/05/2026,,GKS Katowice,Nieciecza,,
+31,02/05/2026,,Korona Kielce,Gliwice,,
+31,02/05/2026,,Legia,Widzew Łódź,,
+31,02/05/2026,,Motor Lublin,Poznań,,
+31,02/05/2026,,Pogon Szczecin,Wisła Płock,,
 31,02/05/2026,,Radomiak Radom,Lechia Gdańsk,,
-31,02/05/2026,,Raków Częstochowa,Jagiellonia Białystok,,
+31,02/05/2026,,Raków,Jagiellonia,,
 31,02/05/2026,,Zagłębie Lubin,KS Cracovia,,
 32,09/05/2026,,Górnik Zabrze,Zagłębie Lubin,,
-32,09/05/2026,,Jagiellonia Białystok,Pogoń Szczecin,,
+32,09/05/2026,,Jagiellonia,Pogon Szczecin,,
 32,09/05/2026,,KS Cracovia,Radomiak Radom,,
-32,09/05/2026,,Lech Poznań,Arka Gdynia,,
-32,09/05/2026,,Piast Gliwice,GKS Katowice,,
-32,09/05/2026,,Raków Częstochowa,Korona Kielce,,
-32,09/05/2026,,Bruk-Bet Termalica Nieciecza,Legia Warszawa,,
+32,09/05/2026,,Poznań,Arka Gdynia,,
+32,09/05/2026,,Gliwice,GKS Katowice,,
+32,09/05/2026,,Raków,Korona Kielce,,
+32,09/05/2026,,Nieciecza,Legia,,
 32,09/05/2026,,Widzew Łódź,Lechia Gdańsk,,
 32,09/05/2026,,Wisła Płock,Motor Lublin,,
-33,16/05/2026,,Arka Gdynia,Bruk-Bet Termalica Nieciecza,,
-33,16/05/2026,,GKS Katowice,Jagiellonia Białystok,,
+33,16/05/2026,,Arka Gdynia,Nieciecza,,
+33,16/05/2026,,GKS Katowice,Jagiellonia,,
 33,16/05/2026,,Korona Kielce,Widzew Łódź,,
-33,16/05/2026,,Lechia Gdańsk,Legia Warszawa,,
+33,16/05/2026,,Lechia Gdańsk,Legia,,
 33,16/05/2026,,Motor Lublin,KS Cracovia,,
-33,16/05/2026,,Piast Gliwice,Raków Częstochowa,,
-33,16/05/2026,,Radomiak Radom,Lech Poznań,,
+33,16/05/2026,,Gliwice,Raków,,
+33,16/05/2026,,Radomiak Radom,Poznań,,
 33,16/05/2026,,Wisła Płock,Górnik Zabrze,,
-33,16/05/2026,,Zagłębie Lubin,Pogoń Szczecin,,
+33,16/05/2026,,Zagłębie Lubin,Pogon Szczecin,,
 34,23/05/2026,,Górnik Zabrze,Radomiak Radom,,
-34,23/05/2026,,Jagiellonia Białystok,Zagłębie Lubin,,
+34,23/05/2026,,Jagiellonia,Zagłębie Lubin,,
 34,23/05/2026,,KS Cracovia,Korona Kielce,,
-34,23/05/2026,,Lech Poznań,Wisła Płock,,
-34,23/05/2026,,Legia Warszawa,Motor Lublin,,
-34,23/05/2026,,Pogoń Szczecin,GKS Katowice,,
-34,23/05/2026,,Raków Częstochowa,Arka Gdynia,,
-34,23/05/2026,,Bruk-Bet Termalica Nieciecza,Lechia Gdańsk,,
-34,23/05/2026,,Widzew Łódź,Piast Gliwice,,
+34,23/05/2026,,Poznań,Wisła Płock,,
+34,23/05/2026,,Legia,Motor Lublin,,
+34,23/05/2026,,Pogon Szczecin,GKS Katowice,,
+34,23/05/2026,,Raków,Arka Gdynia,,
+34,23/05/2026,,Nieciecza,Lechia Gdańsk,,
+34,23/05/2026,,Widzew Łódź,Gliwice,,

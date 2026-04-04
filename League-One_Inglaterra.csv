@@ -466,16 +466,16 @@ matchday,date,time,home_team,away_team,result,status
 40,28/03/2026,10:00,Exeter City,Leyton Orient,0-0,Final
 40,28/03/2026,10:00,Stockport County,AFC Wimbledon,3-0,Final
 41,02/04/2026,13:45,Wigan,Leyton Orient,0-0,Final
-41,03/04/2026,06:30,Doncaster,Mansfield Town,0-2,En vivo
-41,03/04/2026,09:00,Huddersfield,Reading,,
-41,03/04/2026,09:00,Rotherham,Stevenage,,
-41,03/04/2026,09:00,Burton Albion,Barnsley,,
-41,03/04/2026,09:00,Bradford,Northampton,,
-41,03/04/2026,09:00,Blackpool,Exeter City,,
-41,03/04/2026,09:00,Plymouth,Bolton,,
-41,03/04/2026,09:00,Luton,Peterborough,,
-41,03/04/2026,09:00,Lincoln,AFC Wimbledon,,
-41,03/04/2026,09:00,Stockport County,Wycombe,,
+41,03/04/2026,06:30,Doncaster,Mansfield Town,0-2,Final
+41,03/04/2026,09:00,Huddersfield,Reading,1-1,Final
+41,03/04/2026,09:00,Rotherham,Stevenage,0-0,Final
+41,03/04/2026,09:00,Burton Albion,Barnsley,1-1,Final
+41,03/04/2026,09:00,Bradford,Northampton,1-0,Final
+41,03/04/2026,09:00,Blackpool,Exeter City,1-0,Final
+41,03/04/2026,09:00,Plymouth,Bolton,1-2,Final
+41,03/04/2026,09:00,Luton,Peterborough,2-1,Final
+41,03/04/2026,09:00,Lincoln,AFC Wimbledon,1-0,Final
+41,03/04/2026,09:00,Stockport County,Wycombe,3-0,Final
 42,06/04/2026,09:00,Reading,Lincoln,,
 42,06/04/2026,09:00,Bolton,Stockport County,,
 42,06/04/2026,09:00,Barnsley,Plymouth,,

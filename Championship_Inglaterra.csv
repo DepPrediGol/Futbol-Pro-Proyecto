@@ -466,17 +466,17 @@ matchday,date,time,home_team,away_team,result,status
 39,21/03/2026,10:00,QPR,Portsmouth,6-1,Final
 39,21/03/2026,10:00,Charlton,Norwich,0-1,Final
 39,21/03/2026,12:15,Swansea,Coventry,0-3,Final
-40,03/04/2026,06:30,Middlesbrough,Millwall,1-2,En vivo
-40,03/04/2026,09:00,Leicester,Preston,,
-40,03/04/2026,09:00,Birmingham,Blackburn,,
-40,03/04/2026,09:00,West Brom,Wrexham,,
-40,03/04/2026,09:00,Sheffield Utd,Swansea,,
-40,03/04/2026,09:00,Norwich,Portsmouth,,
-40,03/04/2026,09:00,QPR,Watford,,
-40,03/04/2026,09:00,Stoke City,Sheffield Wednesday,,
-40,03/04/2026,09:00,Charlton,Bristol City,,
-40,03/04/2026,09:00,Oxford United,Hull City,,
-40,03/04/2026,14:00,Coventry,Derby,,
+40,03/04/2026,06:30,Middlesbrough,Millwall,1-2,Final
+40,03/04/2026,09:00,Leicester,Preston,2-2,Final
+40,03/04/2026,09:00,Birmingham,Blackburn,0-1,Final
+40,03/04/2026,09:00,West Brom,Wrexham,2-2,Final
+40,03/04/2026,09:00,Sheffield Utd,Swansea,3-3,Final
+40,03/04/2026,09:00,Norwich,Portsmouth,1-1,Final
+40,03/04/2026,09:00,QPR,Watford,2-1,Final
+40,03/04/2026,09:00,Stoke City,Sheffield Wednesday,2-0,Final
+40,03/04/2026,09:00,Charlton,Bristol City,1-2,Final
+40,03/04/2026,09:00,Oxford United,Hull City,1-1,Final
+40,03/04/2026,14:00,Coventry,Derby,3-2,Final
 41,06/04/2026,06:30,Portsmouth,Oxford United,,
 41,06/04/2026,07:00,Millwall,Norwich,,
 41,06/04/2026,09:00,Watford,Charlton,,

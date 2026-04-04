@@ -474,17 +474,17 @@ matchday,date,time,home_team,away_team,result,status
 40,28/03/2026,10:00,Barrow,Bromley,2-1,Final
 40,28/03/2026,10:00,Salford City,Milton Keynes Dons,1-0,Final
 41,02/04/2026,14:00,Cambridge United,Swindon Town,1-1,Final
-41,03/04/2026,09:00,Bristol Rovers,Fleetwood Town,,
-41,03/04/2026,09:00,Walsall,Gillingham,,
-41,03/04/2026,09:00,Chesterfield,Cheltenham,,
-41,03/04/2026,09:00,Milton Keynes Dons,Barrow,,
-41,03/04/2026,09:00,Shrewsbury,Tranmere,,
-41,03/04/2026,09:00,Accrington ST,Crewe,,
-41,03/04/2026,09:00,Colchester,Oldham,,
-41,03/04/2026,09:00,Grimsby,Harrogate Town,,
-41,03/04/2026,09:00,Newport County,Crawley Town,,
-41,03/04/2026,09:00,Barnet,Bromley,,
-41,03/04/2026,09:00,Salford City,Notts County,,
+41,03/04/2026,09:00,Bristol Rovers,Fleetwood Town,1-0,Final
+41,03/04/2026,09:00,Walsall,Gillingham,2-2,Final
+41,03/04/2026,09:00,Chesterfield,Cheltenham,1-0,Final
+41,03/04/2026,09:00,Milton Keynes Dons,Barrow,0-0,Final
+41,03/04/2026,09:00,Shrewsbury,Tranmere,1-0,Final
+41,03/04/2026,09:00,Accrington ST,Crewe,2-0,Final
+41,03/04/2026,09:00,Colchester,Oldham,1-3,Final
+41,03/04/2026,09:00,Grimsby,Harrogate Town,1-3,Final
+41,03/04/2026,09:00,Newport County,Crawley Town,0-2,Final
+41,03/04/2026,09:00,Barnet,Bromley,2-2,Final
+41,03/04/2026,09:00,Salford City,Notts County,2-1,Final
 42,06/04/2026,09:00,Fleetwood Town,Barnet,,
 42,06/04/2026,09:00,Gillingham,Accrington ST,,
 42,06/04/2026,09:00,Oldham,Milton Keynes Dons,,

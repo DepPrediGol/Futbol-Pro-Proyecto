@@ -1,241 +1,241 @@
 matchday,date,time,home_team,away_team,result,status
-1,19/07/2025,,FK Čukarički,FK Napredak,1-0,Final
-1,19/07/2025,,Estrella Roja de Belgrado,FK Javor,4-0,Final
-1,20/07/2025,,Mladost Lučani,IMT Beograd,1-1,Final
-1,20/07/2025,,Vojvodina,Radnik Surdulica,2-0,Final
-1,20/07/2025,,TSC Bačka Topola,Radnički Niš,2-1,Final
-1,20/07/2025,,Železničar Pančevo,Partizan,0-1,Final
-1,21/07/2025,,OFK Beograd,Spartak Subotica,1-3,Final
-1,24/09/2025,,FK Novi Pazar,FK Radnički 1923,1-1,Final
-2,26/07/2025,,Radnički Niš,Mladost Lučani,3-1,Final
-2,26/07/2025,,Radnik Surdulica,TSC Bačka Topola,0-0,Final
-2,26/07/2025,,Estrella Roja de Belgrado,OFK Beograd,7-1,Final
-2,27/07/2025,,FK Napredak,FK Novi Pazar,2-2,Final
+1,19/07/2025,,FK Čukarički,Napredak,1-0,Final
+1,19/07/2025,,Estrella Roja,FK Javor,4-0,Final
+1,20/07/2025,,Ml. Lučani,IMT Beograd,1-1,Final
+1,20/07/2025,,Vojvodina,Surdulica,2-0,Final
+1,20/07/2025,,Bačka Topola,Radnički Niš,2-1,Final
+1,20/07/2025,,Žel. Pančevo,Partizan,0-1,Final
+1,21/07/2025,,OFK Beograd,Sp. Subotica,1-3,Final
+1,24/09/2025,,FK Novi Pazar,Radnički 1923,1-1,Final
+2,26/07/2025,,Radnički Niš,Ml. Lučani,3-1,Final
+2,26/07/2025,,Surdulica,Bačka Topola,0-0,Final
+2,26/07/2025,,Estrella Roja,OFK Beograd,7-1,Final
+2,27/07/2025,,Napredak,FK Novi Pazar,2-2,Final
 2,27/07/2025,,IMT Beograd,FK Čukarički,1-3,Final
-2,27/07/2025,,FK Radnički 1923,Železničar Pančevo,1-1,Final
-2,27/07/2025,,Spartak Subotica,Vojvodina,1-3,Final
+2,27/07/2025,,Radnički 1923,Žel. Pančevo,1-1,Final
+2,27/07/2025,,Sp. Subotica,Vojvodina,1-3,Final
 2,05/11/2025,,FK Javor,Partizan,2-3,Final
-3,02/08/2025,,Mladost Lučani,Radnik Surdulica,1-0,Final
+3,02/08/2025,,Ml. Lučani,Surdulica,1-0,Final
 3,02/08/2025,,OFK Beograd,FK Javor,1-0,Final
-3,02/08/2025,,TSC Bačka Topola,Spartak Subotica,2-0,Final
+3,02/08/2025,,Bačka Topola,Sp. Subotica,2-0,Final
 3,03/08/2025,,FK Čukarički,Radnički Niš,1-1,Final
-3,03/08/2025,,Partizan,FK Radnički 1923,2-1,Final
+3,03/08/2025,,Partizan,Radnički 1923,2-1,Final
 3,04/08/2025,,FK Novi Pazar,IMT Beograd,1-2,Final
-3,04/08/2025,,Železničar Pančevo,FK Napredak,0-0,Final
-3,30/10/2025,,Vojvodina,Estrella Roja de Belgrado,3-2,Final
-4,09/08/2025,,Radnik Surdulica,FK Čukarički,3-1,Final
-4,09/08/2025,,Estrella Roja de Belgrado,TSC Bačka Topola,1-0,Final
-4,09/08/2025,,Spartak Subotica,Mladost Lučani,1-1,Final
+3,04/08/2025,,Žel. Pančevo,Napredak,0-0,Final
+3,30/10/2025,,Vojvodina,Estrella Roja,3-2,Final
+4,09/08/2025,,Surdulica,FK Čukarički,3-1,Final
+4,09/08/2025,,Estrella Roja,Bačka Topola,1-0,Final
+4,09/08/2025,,Sp. Subotica,Ml. Lučani,1-1,Final
 4,09/08/2025,,OFK Beograd,Vojvodina,1-2,Final
 4,10/08/2025,,Radnički Niš,FK Novi Pazar,2-3,Final
-4,10/08/2025,,FK Napredak,Partizan,2-7,Final
-4,11/08/2025,,FK Javor,FK Radnički 1923,2-2,Final
-4,11/08/2025,,IMT Beograd,Železničar Pančevo,1-4,Final
-5,15/08/2025,,FK Čukarički,Spartak Subotica,2-1,Final
-5,15/08/2025,,Mladost Lučani,Estrella Roja de Belgrado,1-4,Final
-5,16/08/2025,,FK Novi Pazar,Radnik Surdulica,2-0,Final
+4,10/08/2025,,Napredak,Partizan,2-7,Final
+4,11/08/2025,,FK Javor,Radnički 1923,2-2,Final
+4,11/08/2025,,IMT Beograd,Žel. Pančevo,1-4,Final
+5,15/08/2025,,FK Čukarički,Sp. Subotica,2-1,Final
+5,15/08/2025,,Ml. Lučani,Estrella Roja,1-4,Final
+5,16/08/2025,,FK Novi Pazar,Surdulica,2-0,Final
 5,16/08/2025,,Vojvodina,FK Javor,2-2,Final
-5,17/08/2025,,FK Radnički 1923,FK Napredak,0-0,Final
-5,17/08/2025,,TSC Bačka Topola,OFK Beograd,1-3,Final
-5,17/08/2025,,Železničar Pančevo,Radnički Niš,3-0,Final
+5,17/08/2025,,Radnički 1923,Napredak,0-0,Final
+5,17/08/2025,,Bačka Topola,OFK Beograd,1-3,Final
+5,17/08/2025,,Žel. Pančevo,Radnički Niš,3-0,Final
 5,18/08/2025,,Partizan,IMT Beograd,5-1,Final
-6,22/08/2025,,FK Javor,FK Napredak,0-0,Final
-6,23/08/2025,,OFK Beograd,Mladost Lučani,1-1,Final
-6,23/08/2025,,Vojvodina,TSC Bačka Topola,2-0,Final
-6,24/08/2025,,Radnik Surdulica,Železničar Pančevo,1-2,Final
-6,24/08/2025,,IMT Beograd,FK Radnički 1923,2-0,Final
+6,22/08/2025,,FK Javor,Napredak,0-0,Final
+6,23/08/2025,,OFK Beograd,Ml. Lučani,1-1,Final
+6,23/08/2025,,Vojvodina,Bačka Topola,2-0,Final
+6,24/08/2025,,Surdulica,Žel. Pančevo,1-2,Final
+6,24/08/2025,,IMT Beograd,Radnički 1923,2-0,Final
 6,24/08/2025,,Radnički Niš,Partizan,2-2,Final
-6,24/08/2025,,Spartak Subotica,FK Novi Pazar,1-1,Final
-6,04/12/2025,,Estrella Roja de Belgrado,FK Čukarički,3-0,Final
+6,24/08/2025,,Sp. Subotica,FK Novi Pazar,1-1,Final
+6,04/12/2025,,Estrella Roja,FK Čukarički,3-0,Final
 7,29/08/2025,,FK Čukarički,OFK Beograd,1-3,Final
-7,30/08/2025,,TSC Bačka Topola,FK Javor,2-2,Final
-7,30/08/2025,,Partizan,Radnik Surdulica,2-0,Final
-7,30/08/2025,,Mladost Lučani,Vojvodina,0-0,Final
-7,31/08/2025,,FK Novi Pazar,Estrella Roja de Belgrado,1-5,Final
-7,31/08/2025,,FK Napredak,IMT Beograd,3-1,Final
-7,31/08/2025,,FK Radnički 1923,Radnički Niš,1-0,Final
-7,31/08/2025,,Železničar Pančevo,Spartak Subotica,1-1,Final
+7,30/08/2025,,Bačka Topola,FK Javor,2-2,Final
+7,30/08/2025,,Partizan,Surdulica,2-0,Final
+7,30/08/2025,,Ml. Lučani,Vojvodina,0-0,Final
+7,31/08/2025,,FK Novi Pazar,Estrella Roja,1-5,Final
+7,31/08/2025,,Napredak,IMT Beograd,3-1,Final
+7,31/08/2025,,Radnički 1923,Radnički Niš,1-0,Final
+7,31/08/2025,,Žel. Pančevo,Sp. Subotica,1-1,Final
 8,13/09/2025,,FK Javor,IMT Beograd,2-0,Final
-8,13/09/2025,,Radnik Surdulica,FK Radnički 1923,2-3,Final
+8,13/09/2025,,Surdulica,Radnički 1923,2-3,Final
 8,13/09/2025,,OFK Beograd,FK Novi Pazar,0-2,Final
 8,13/09/2025,,Vojvodina,FK Čukarički,3-1,Final
-8,14/09/2025,,Radnički Niš,FK Napredak,3-0,Final
-8,14/09/2025,,Estrella Roja de Belgrado,Železničar Pančevo,7-1,Final
-8,14/09/2025,,TSC Bačka Topola,Mladost Lučani,1-0,Final
-8,14/09/2025,,Spartak Subotica,Partizan,2-5,Final
-9,19/09/2025,,FK Napredak,Radnik Surdulica,1-3,Final
-9,20/09/2025,,FK Radnički 1923,Spartak Subotica,2-0,Final
+8,14/09/2025,,Radnički Niš,Napredak,3-0,Final
+8,14/09/2025,,Estrella Roja,Žel. Pančevo,7-1,Final
+8,14/09/2025,,Bačka Topola,Ml. Lučani,1-0,Final
+8,14/09/2025,,Sp. Subotica,Partizan,2-5,Final
+9,19/09/2025,,Napredak,Surdulica,1-3,Final
+9,20/09/2025,,Radnički 1923,Sp. Subotica,2-0,Final
 9,20/09/2025,,FK Novi Pazar,Vojvodina,1-0,Final
-9,20/09/2025,,Partizan,Estrella Roja de Belgrado,1-2,Final
-9,20/09/2025,,Železničar Pančevo,OFK Beograd,1-3,Final
+9,20/09/2025,,Partizan,Estrella Roja,1-2,Final
+9,20/09/2025,,Žel. Pančevo,OFK Beograd,1-3,Final
 9,21/09/2025,,IMT Beograd,Radnički Niš,1-0,Final
-9,21/09/2025,,FK Čukarički,TSC Bačka Topola,4-2,Final
-9,21/09/2025,,Mladost Lučani,FK Javor,2-1,Final
-10,26/09/2025,,Radnik Surdulica,IMT Beograd,2-0,Final
+9,21/09/2025,,FK Čukarički,Bačka Topola,4-2,Final
+9,21/09/2025,,Ml. Lučani,FK Javor,2-1,Final
+10,26/09/2025,,Surdulica,IMT Beograd,2-0,Final
 10,27/09/2025,,FK Javor,Radnički Niš,2-1,Final
 10,27/09/2025,,OFK Beograd,Partizan,0-2,Final
-10,27/09/2025,,Vojvodina,Železničar Pančevo,1-1,Final
-10,28/09/2025,,TSC Bačka Topola,FK Novi Pazar,1-0,Final
-10,28/09/2025,,Mladost Lučani,FK Čukarički,1-1,Final
-10,28/09/2025,,Spartak Subotica,FK Napredak,2-1,Final
-10,28/09/2025,,Estrella Roja de Belgrado,FK Radnički 1923,2-1,Final
-11,03/10/2025,,Radnički Niš,Radnik Surdulica,4-2,Final
-11,04/10/2025,,FK Novi Pazar,Mladost Lučani,1-0,Final
-11,04/10/2025,,FK Radnički 1923,OFK Beograd,0-2,Final
-11,04/10/2025,,Železničar Pančevo,TSC Bačka Topola,1-0,Final
+10,27/09/2025,,Vojvodina,Žel. Pančevo,1-1,Final
+10,28/09/2025,,Bačka Topola,FK Novi Pazar,1-0,Final
+10,28/09/2025,,Ml. Lučani,FK Čukarički,1-1,Final
+10,28/09/2025,,Sp. Subotica,Napredak,2-1,Final
+10,28/09/2025,,Estrella Roja,Radnički 1923,2-1,Final
+11,03/10/2025,,Radnički Niš,Surdulica,4-2,Final
+11,04/10/2025,,FK Novi Pazar,Ml. Lučani,1-0,Final
+11,04/10/2025,,Radnički 1923,OFK Beograd,0-2,Final
+11,04/10/2025,,Žel. Pančevo,Bačka Topola,1-0,Final
 11,04/10/2025,,Partizan,Vojvodina,1-0,Final
 11,05/10/2025,,FK Čukarički,FK Javor,1-0,Final
-11,05/10/2025,,IMT Beograd,Spartak Subotica,1-0,Final
-11,05/10/2025,,FK Napredak,Estrella Roja de Belgrado,0-3,Final
-12,18/10/2025,,OFK Beograd,FK Napredak,4-0,Final
-12,18/10/2025,,FK Javor,Radnik Surdulica,3-2,Final
-12,18/10/2025,,Vojvodina,FK Radnički 1923,4-1,Final
-12,18/10/2025,,TSC Bačka Topola,Partizan,0-1,Final
+11,05/10/2025,,IMT Beograd,Sp. Subotica,1-0,Final
+11,05/10/2025,,Napredak,Estrella Roja,0-3,Final
+12,18/10/2025,,OFK Beograd,Napredak,4-0,Final
+12,18/10/2025,,FK Javor,Surdulica,3-2,Final
+12,18/10/2025,,Vojvodina,Radnički 1923,4-1,Final
+12,18/10/2025,,Bačka Topola,Partizan,0-1,Final
 12,19/10/2025,,FK Čukarički,FK Novi Pazar,1-1,Final
-12,19/10/2025,,Mladost Lučani,Železničar Pančevo,2-1,Final
-12,19/10/2025,,Estrella Roja de Belgrado,IMT Beograd,6-1,Final
-12,19/10/2025,,Spartak Subotica,Radnički Niš,2-0,Final
-13,24/10/2025,,FK Napredak,Vojvodina,1-4,Final
+12,19/10/2025,,Ml. Lučani,Žel. Pančevo,2-1,Final
+12,19/10/2025,,Estrella Roja,IMT Beograd,6-1,Final
+12,19/10/2025,,Sp. Subotica,Radnički Niš,2-0,Final
+13,24/10/2025,,Napredak,Vojvodina,1-4,Final
 13,24/10/2025,,FK Novi Pazar,FK Javor,1-2,Final
-13,24/10/2025,,Partizan,Mladost Lučani,3-0,Final
+13,24/10/2025,,Partizan,Ml. Lučani,3-0,Final
 13,25/10/2025,,IMT Beograd,OFK Beograd,1-1,Final
-13,25/10/2025,,FK Radnički 1923,TSC Bačka Topola,2-1,Final
-13,25/10/2025,,Radnik Surdulica,Spartak Subotica,2-0,Final
-13,25/10/2025,,Železničar Pančevo,FK Čukarički,1-0,Final
-13,26/10/2025,,Radnički Niš,Estrella Roja de Belgrado,0-0,Final
-14,01/11/2025,,FK Javor,Spartak Subotica,1-1,Final
+13,25/10/2025,,Radnički 1923,Bačka Topola,2-1,Final
+13,25/10/2025,,Surdulica,Sp. Subotica,2-0,Final
+13,25/10/2025,,Žel. Pančevo,FK Čukarički,1-0,Final
+13,26/10/2025,,Radnički Niš,Estrella Roja,0-0,Final
+14,01/11/2025,,FK Javor,Sp. Subotica,1-1,Final
 14,01/11/2025,,FK Čukarički,Partizan,4-1,Final
-14,02/11/2025,,FK Novi Pazar,Železničar Pančevo,1-0,Final
-14,02/11/2025,,TSC Bačka Topola,FK Napredak,1-1,Final
+14,02/11/2025,,FK Novi Pazar,Žel. Pančevo,1-0,Final
+14,02/11/2025,,Bačka Topola,Napredak,1-1,Final
 14,02/11/2025,,Vojvodina,IMT Beograd,1-3,Final
-14,02/11/2025,,Estrella Roja de Belgrado,Radnik Surdulica,1-1,Final
+14,02/11/2025,,Estrella Roja,Surdulica,1-1,Final
 14,03/11/2025,,OFK Beograd,Radnički Niš,0-1,Final
-14,03/12/2025,,Mladost Lučani,FK Radnički 1923,0-2,Final
-15,08/11/2025,,Radnik Surdulica,OFK Beograd,1-0,Final
-15,08/11/2025,,FK Napredak,Mladost Lučani,0-1,Final
+14,03/12/2025,,Ml. Lučani,Radnički 1923,0-2,Final
+15,08/11/2025,,Surdulica,OFK Beograd,1-0,Final
+15,08/11/2025,,Napredak,Ml. Lučani,0-1,Final
 15,08/11/2025,,Radnički Niš,Vojvodina,0-1,Final
-15,09/11/2025,,Železničar Pančevo,FK Javor,2-0,Final
-15,09/11/2025,,Spartak Subotica,Estrella Roja de Belgrado,2-3,Final
-15,09/11/2025,,IMT Beograd,TSC Bačka Topola,1-1,Final
+15,09/11/2025,,Žel. Pančevo,FK Javor,2-0,Final
+15,09/11/2025,,Sp. Subotica,Estrella Roja,2-3,Final
+15,09/11/2025,,IMT Beograd,Bačka Topola,1-1,Final
 15,09/11/2025,,Partizan,FK Novi Pazar,2-0,Final
-15,17/12/2025,,FK Radnički 1923,FK Čukarički,3-2,Final
-16,21/11/2025,,Radnik Surdulica,Vojvodina,3-1,Final
-16,22/11/2025,,FK Napredak,FK Čukarički,1-1,Final
-16,22/11/2025,,Partizan,Železničar Pančevo,1-3,Final
-16,22/11/2025,,Spartak Subotica,OFK Beograd,2-2,Final
-16,23/11/2025,,IMT Beograd,Mladost Lučani,1-3,Final
-16,23/11/2025,,Radnički Niš,TSC Bačka Topola,1-1,Final
-16,23/11/2025,,FK Javor,Estrella Roja de Belgrado,1-0,Final
-16,23/11/2025,,FK Radnički 1923,FK Novi Pazar,0-0,Final
+15,17/12/2025,,Radnički 1923,FK Čukarički,3-2,Final
+16,21/11/2025,,Surdulica,Vojvodina,3-1,Final
+16,22/11/2025,,Napredak,FK Čukarički,1-1,Final
+16,22/11/2025,,Partizan,Žel. Pančevo,1-3,Final
+16,22/11/2025,,Sp. Subotica,OFK Beograd,2-2,Final
+16,23/11/2025,,IMT Beograd,Ml. Lučani,1-3,Final
+16,23/11/2025,,Radnički Niš,Bačka Topola,1-1,Final
+16,23/11/2025,,FK Javor,Estrella Roja,1-0,Final
+16,23/11/2025,,Radnički 1923,FK Novi Pazar,0-0,Final
 17,28/11/2025,,FK Čukarički,IMT Beograd,1-1,Final
-17,29/11/2025,,Železničar Pančevo,FK Radnički 1923,1-0,Final
-17,29/11/2025,,Mladost Lučani,Radnički Niš,2-1,Final
-17,29/11/2025,,Vojvodina,Spartak Subotica,2-0,Final
-17,29/11/2025,,FK Novi Pazar,FK Napredak,2-1,Final
+17,29/11/2025,,Žel. Pančevo,Radnički 1923,1-0,Final
+17,29/11/2025,,Ml. Lučani,Radnički Niš,2-1,Final
+17,29/11/2025,,Vojvodina,Sp. Subotica,2-0,Final
+17,29/11/2025,,FK Novi Pazar,Napredak,2-1,Final
 17,29/11/2025,,Partizan,FK Javor,4-0,Final
-17,30/11/2025,,TSC Bačka Topola,Radnik Surdulica,0-2,Final
-17,30/11/2025,,OFK Beograd,Estrella Roja de Belgrado,3-4,Final
+17,30/11/2025,,Bačka Topola,Surdulica,0-2,Final
+17,30/11/2025,,OFK Beograd,Estrella Roja,3-4,Final
 18,06/12/2025,,FK Javor,OFK Beograd,0-1,Final
-18,07/12/2025,,FK Napredak,Železničar Pančevo,2-1,Final
+18,07/12/2025,,Napredak,Žel. Pančevo,2-1,Final
 18,07/12/2025,,IMT Beograd,FK Novi Pazar,2-3,Final
-18,07/12/2025,,FK Radnički 1923,Partizan,2-4,Final
-18,07/12/2025,,Estrella Roja de Belgrado,Vojvodina,0-1,Final
-18,08/12/2025,,Radnik Surdulica,Mladost Lučani,0-0,Final
+18,07/12/2025,,Radnički 1923,Partizan,2-4,Final
+18,07/12/2025,,Estrella Roja,Vojvodina,0-1,Final
+18,08/12/2025,,Surdulica,Ml. Lučani,0-0,Final
 18,08/12/2025,,Radnički Niš,FK Čukarički,1-2,Final
-18,08/12/2025,,Spartak Subotica,TSC Bačka Topola,1-2,Final
-19,13/12/2025,,FK Čukarički,Radnik Surdulica,1-1,Final
-19,13/12/2025,,FK Radnički 1923,FK Javor,1-1,Final
+18,08/12/2025,,Sp. Subotica,Bačka Topola,1-2,Final
+19,13/12/2025,,FK Čukarički,Surdulica,1-1,Final
+19,13/12/2025,,Radnički 1923,FK Javor,1-1,Final
 19,13/12/2025,,Vojvodina,OFK Beograd,0-0,Final
-19,13/12/2025,,Železničar Pančevo,IMT Beograd,1-0,Final
-19,13/12/2025,,Partizan,FK Napredak,3-2,Final
-19,14/12/2025,,Mladost Lučani,Spartak Subotica,0-0,Final
+19,13/12/2025,,Žel. Pančevo,IMT Beograd,1-0,Final
+19,13/12/2025,,Partizan,Napredak,3-2,Final
+19,14/12/2025,,Ml. Lučani,Sp. Subotica,0-0,Final
 19,14/12/2025,,FK Novi Pazar,Radnički Niš,1-0,Final
-19,15/12/2025,,TSC Bačka Topola,Estrella Roja de Belgrado,0-0,Final
-20,20/12/2025,,Radnički Niš,Železničar Pančevo,1-0,Final
+19,15/12/2025,,Bačka Topola,Estrella Roja,0-0,Final
+20,20/12/2025,,Radnički Niš,Žel. Pančevo,1-0,Final
 20,20/12/2025,,FK Javor,Vojvodina,1-2,Final
-20,20/12/2025,,Estrella Roja de Belgrado,Mladost Lučani,4-0,Final
+20,20/12/2025,,Estrella Roja,Ml. Lučani,4-0,Final
 20,20/12/2025,,IMT Beograd,Partizan,1-0,Final
-20,21/12/2025,,OFK Beograd,TSC Bačka Topola,0-1,Final
-20,21/12/2025,,Spartak Subotica,FK Čukarički,1-3,Final
-20,21/12/2025,,Radnik Surdulica,FK Novi Pazar,1-0,Final
-20,22/12/2025,,FK Napredak,FK Radnički 1923,0-1,Final
-21,31/01/2026,,FK Napredak,FK Javor,1-2,Final
-21,31/01/2026,,FK Radnički 1923,IMT Beograd,3-1,Final
+20,21/12/2025,,OFK Beograd,Bačka Topola,0-1,Final
+20,21/12/2025,,Sp. Subotica,FK Čukarički,1-3,Final
+20,21/12/2025,,Surdulica,FK Novi Pazar,1-0,Final
+20,22/12/2025,,Napredak,Radnički 1923,0-1,Final
+21,31/01/2026,,Napredak,FK Javor,1-2,Final
+21,31/01/2026,,Radnički 1923,IMT Beograd,3-1,Final
 21,31/01/2026,,Partizan,Radnički Niš,0-0,Final
-21,31/01/2026,,Železničar Pančevo,Radnik Surdulica,1-0,Final
-21,01/02/2026,,Mladost Lučani,OFK Beograd,0-0,Final
-21,01/02/2026,,FK Novi Pazar,Spartak Subotica,2-2,Final
-21,01/02/2026,,FK Čukarički,Estrella Roja de Belgrado,1-3,Final
-21,01/02/2026,,TSC Bačka Topola,Vojvodina,0-2,Final
-22,07/02/2026,,FK Javor,TSC Bačka Topola,0-0,Final
-22,07/02/2026,,Radnik Surdulica,Partizan,2-3,Final
-22,07/02/2026,,Estrella Roja de Belgrado,FK Novi Pazar,5-0,Final
-22,08/02/2026,,Radnički Niš,FK Radnički 1923,2-1,Final
-22,08/02/2026,,IMT Beograd,FK Napredak,2-0,Final
-22,08/02/2026,,Spartak Subotica,Železničar Pančevo,0-3,Final
-22,08/02/2026,,Vojvodina,Mladost Lučani,5-0,Final
+21,31/01/2026,,Žel. Pančevo,Surdulica,1-0,Final
+21,01/02/2026,,Ml. Lučani,OFK Beograd,0-0,Final
+21,01/02/2026,,FK Novi Pazar,Sp. Subotica,2-2,Final
+21,01/02/2026,,FK Čukarički,Estrella Roja,1-3,Final
+21,01/02/2026,,Bačka Topola,Vojvodina,0-2,Final
+22,07/02/2026,,FK Javor,Bačka Topola,0-0,Final
+22,07/02/2026,,Surdulica,Partizan,2-3,Final
+22,07/02/2026,,Estrella Roja,FK Novi Pazar,5-0,Final
+22,08/02/2026,,Radnički Niš,Radnički 1923,2-1,Final
+22,08/02/2026,,IMT Beograd,Napredak,2-0,Final
+22,08/02/2026,,Sp. Subotica,Žel. Pančevo,0-3,Final
+22,08/02/2026,,Vojvodina,Ml. Lučani,5-0,Final
 22,09/02/2026,,OFK Beograd,FK Čukarički,2-0,Final
-23,14/02/2026,,FK Napredak,Radnički Niš,2-4,Final
-23,14/02/2026,,Partizan,Spartak Subotica,2-1,Final
+23,14/02/2026,,Napredak,Radnički Niš,2-4,Final
+23,14/02/2026,,Partizan,Sp. Subotica,2-1,Final
 23,14/02/2026,,FK Čukarički,Vojvodina,2-3,Final
-23,14/02/2026,,Železničar Pančevo,Estrella Roja de Belgrado,0-3,Final
+23,14/02/2026,,Žel. Pančevo,Estrella Roja,0-3,Final
 23,15/02/2026,,FK Novi Pazar,OFK Beograd,2-1,Final
-23,15/02/2026,,FK Radnički 1923,Radnik Surdulica,0-0,Final
-23,15/02/2026,,Mladost Lučani,TSC Bačka Topola,1-3,Final
+23,15/02/2026,,Radnički 1923,Surdulica,0-0,Final
+23,15/02/2026,,Ml. Lučani,Bačka Topola,1-3,Final
 23,16/02/2026,,IMT Beograd,FK Javor,1-0,Final
-24,21/02/2026,,OFK Beograd,Železničar Pančevo,0-0,Final
-24,21/02/2026,,Radnik Surdulica,FK Napredak,2-1,Final
+24,21/02/2026,,OFK Beograd,Žel. Pančevo,0-0,Final
+24,21/02/2026,,Surdulica,Napredak,2-1,Final
 24,21/02/2026,,Vojvodina,FK Novi Pazar,0-3,Final
 24,22/02/2026,,Radnički Niš,IMT Beograd,2-1,Final
-24,22/02/2026,,Spartak Subotica,FK Radnički 1923,3-3,Final
-24,22/02/2026,,Estrella Roja de Belgrado,Partizan,3-0,Final
-24,22/02/2026,,TSC Bačka Topola,FK Čukarički,1-1,Final
-24,23/02/2026,,FK Javor,Mladost Lučani,0-0,Final
-25,28/02/2026,,FK Novi Pazar,TSC Bačka Topola,2-0,Final
-25,28/02/2026,,FK Čukarički,Mladost Lučani,3-1,Final
-25,28/02/2026,,Železničar Pančevo,Vojvodina,2-0,Final
+24,22/02/2026,,Sp. Subotica,Radnički 1923,3-3,Final
+24,22/02/2026,,Estrella Roja,Partizan,3-0,Final
+24,22/02/2026,,Bačka Topola,FK Čukarički,1-1,Final
+24,23/02/2026,,FK Javor,Ml. Lučani,0-0,Final
+25,28/02/2026,,FK Novi Pazar,Bačka Topola,2-0,Final
+25,28/02/2026,,FK Čukarički,Ml. Lučani,3-1,Final
+25,28/02/2026,,Žel. Pančevo,Vojvodina,2-0,Final
 25,28/02/2026,,Partizan,OFK Beograd,1-2,Final
 25,01/03/2026,,Radnički Niš,FK Javor,1-0,Final
-25,01/03/2026,,FK Napredak,Spartak Subotica,1-1,Final
-25,01/03/2026,,FK Radnički 1923,Estrella Roja de Belgrado,0-2,Final
-25,02/03/2026,,IMT Beograd,Radnik Surdulica,0-0,Final
-26,07/03/2026,,TSC Bačka Topola,Železničar Pančevo,0-0,Final
+25,01/03/2026,,Napredak,Sp. Subotica,1-1,Final
+25,01/03/2026,,Radnički 1923,Estrella Roja,0-2,Final
+25,02/03/2026,,IMT Beograd,Surdulica,0-0,Final
+26,07/03/2026,,Bačka Topola,Žel. Pančevo,0-0,Final
 26,07/03/2026,,FK Javor,FK Čukarički,1-0,Final
-26,08/03/2026,,Radnik Surdulica,Radnički Niš,2-2,Final
-26,08/03/2026,,Estrella Roja de Belgrado,FK Napredak,4-0,Final
-26,08/03/2026,,Spartak Subotica,IMT Beograd,0-1,Final
+26,08/03/2026,,Surdulica,Radnički Niš,2-2,Final
+26,08/03/2026,,Estrella Roja,Napredak,4-0,Final
+26,08/03/2026,,Sp. Subotica,IMT Beograd,0-1,Final
 26,08/03/2026,,Vojvodina,Partizan,3-0,Final
-26,09/03/2026,,Mladost Lučani,FK Novi Pazar,0-2,Final
-26,09/03/2026,,OFK Beograd,FK Radnički 1923,0-0,Final
-27,14/03/2026,,Radnik Surdulica,FK Javor,1-1,Final
-27,14/03/2026,,Radnički Niš,Spartak Subotica,0-2,Final
-27,14/03/2026,,Partizan,TSC Bačka Topola,2-1,Final
+26,09/03/2026,,Ml. Lučani,FK Novi Pazar,0-2,Final
+26,09/03/2026,,OFK Beograd,Radnički 1923,0-0,Final
+27,14/03/2026,,Surdulica,FK Javor,1-1,Final
+27,14/03/2026,,Radnički Niš,Sp. Subotica,0-2,Final
+27,14/03/2026,,Partizan,Bačka Topola,2-1,Final
 27,15/03/2026,,FK Novi Pazar,FK Čukarički,1-1,Final
-27,15/03/2026,,Železničar Pančevo,Mladost Lučani,5-0,Final
-27,15/03/2026,,IMT Beograd,Estrella Roja de Belgrado,1-2,Final
-27,15/03/2026,,FK Radnički 1923,Vojvodina,0-1,Final
-27,16/03/2026,,FK Napredak,OFK Beograd,2-2,Final
-28,20/03/2026,,Spartak Subotica,Radnik Surdulica,1-3,Final
+27,15/03/2026,,Žel. Pančevo,Ml. Lučani,5-0,Final
+27,15/03/2026,,IMT Beograd,Estrella Roja,1-2,Final
+27,15/03/2026,,Radnički 1923,Vojvodina,0-1,Final
+27,16/03/2026,,Napredak,OFK Beograd,2-2,Final
+28,20/03/2026,,Sp. Subotica,Surdulica,1-3,Final
 28,21/03/2026,,FK Javor,FK Novi Pazar,0-0,Final
-28,21/03/2026,,Estrella Roja de Belgrado,Radnički Niš,2-0,Final
-28,21/03/2026,,Vojvodina,FK Napredak,4-1,Final
-28,21/03/2026,,Mladost Lučani,Partizan,1-1,Final
+28,21/03/2026,,Estrella Roja,Radnički Niš,2-0,Final
+28,21/03/2026,,Vojvodina,Napredak,4-1,Final
+28,21/03/2026,,Ml. Lučani,Partizan,1-1,Final
 28,22/03/2026,,OFK Beograd,IMT Beograd,3-3,Final
-28,22/03/2026,,TSC Bačka Topola,FK Radnički 1923,0-0,Final
-28,22/03/2026,,FK Čukarički,Železničar Pančevo,3-2,Final
-29,03/04/2026,,Radnički Niš,OFK Beograd,,
-29,03/04/2026,,FK Napredak,TSC Bačka Topola,,
-29,04/04/2026,,Železničar Pančevo,FK Novi Pazar,,
-29,04/04/2026,,FK Radnički 1923,Mladost Lučani,,
-29,04/04/2026,,Spartak Subotica,FK Javor,,
+28,22/03/2026,,Bačka Topola,Radnički 1923,0-0,Final
+28,22/03/2026,,FK Čukarički,Žel. Pančevo,3-2,Final
+29,03/04/2026,,Radnički Niš,OFK Beograd,1-2,Final
+29,03/04/2026,,Napredak,Bačka Topola,1-2,Final
+29,04/04/2026,,Žel. Pančevo,FK Novi Pazar,,
+29,04/04/2026,,Radnički 1923,Ml. Lučani,,
+29,04/04/2026,,Sp. Subotica,FK Javor,,
 29,04/04/2026,,IMT Beograd,Vojvodina,,
-29,05/04/2026,,Radnik Surdulica,Estrella Roja de Belgrado,,
+29,05/04/2026,,Surdulica,Estrella Roja,,
 29,05/04/2026,,Partizan,FK Čukarički,,
-30,08/04/2026,,FK Čukarički,FK Radnički 1923,,
-30,08/04/2026,,FK Javor,Železničar Pančevo,,
-30,08/04/2026,,Mladost Lučani,FK Napredak,,
+30,08/04/2026,,FK Čukarički,Radnički 1923,,
+30,08/04/2026,,FK Javor,Žel. Pančevo,,
+30,08/04/2026,,Ml. Lučani,Napredak,,
 30,08/04/2026,,Vojvodina,Radnički Niš,,
 30,08/04/2026,,FK Novi Pazar,Partizan,,
-30,08/04/2026,,OFK Beograd,Radnik Surdulica,,
-30,08/04/2026,,Estrella Roja de Belgrado,Spartak Subotica,,
-30,08/04/2026,,TSC Bačka Topola,IMT Beograd,,
+30,08/04/2026,,OFK Beograd,Surdulica,,
+30,08/04/2026,,Estrella Roja,Sp. Subotica,,
+30,08/04/2026,,Bačka Topola,IMT Beograd,,

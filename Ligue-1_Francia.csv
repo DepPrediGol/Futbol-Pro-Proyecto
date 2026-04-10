@@ -242,14 +242,14 @@ matchday,date,time,home_team,away_team,result,status
 27,22/03/2026,11:15,Paris FC,Le Havre,3-2,Final
 27,22/03/2026,14:45,Nantes,Strasbourg,2-3,Final
 28,03/04/2026,13:45,Paris Saint Germain,Toulouse,3-1,Final
-28,04/04/2026,10:00,Strasbourg,Nice,,
-28,04/04/2026,12:00,Stade Brestois 29,Rennes,,
-28,04/04/2026,14:05,Lille,Lens,,
-28,05/04/2026,08:00,Angers,Lyon,,
-28,05/04/2026,10:15,Lorient,Paris FC,,
-28,05/04/2026,10:15,Le Havre,Auxerre,,
-28,05/04/2026,10:15,Metz,Nantes,,
-28,05/04/2026,13:45,Monaco,Marseille,,
+28,04/04/2026,10:00,Strasbourg,Nice,3-1,Final
+28,04/04/2026,12:00,Stade Brestois 29,Rennes,3-4,Final
+28,04/04/2026,14:05,Lille,Lens,3-0,Final
+28,05/04/2026,08:00,Angers,Lyon,0-0,Final
+28,05/04/2026,10:15,Lorient,Paris FC,1-1,Final
+28,05/04/2026,10:15,Le Havre,Auxerre,1-1,Final
+28,05/04/2026,10:15,Metz,Nantes,0-0,Final
+28,05/04/2026,13:45,Monaco,Marseille,2-1,Final
 29,10/04/2026,12:00,Paris FC,Monaco,,
 29,10/04/2026,14:05,Marseille,Metz,,
 29,11/04/2026,10:00,Lens,Paris Saint Germain,,

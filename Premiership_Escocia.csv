@@ -185,15 +185,15 @@ matchday,date,time,home_team,away_team,result,status
 1,21/03/2026,10:00,Falkirk,ST Mirren,1-2,Final
 1,21/03/2026,12:45,Rangers,Aberdeen,4-1,Final
 1,22/03/2026,07:30,Dundee Utd,Celtic,2-0,Final
-132,04/04/2026,09:00,Hibernian,Kilmarnock,,
-132,04/04/2026,09:00,ST Mirren,Aberdeen,,
-132,04/04/2026,09:00,Motherwell,Falkirk,,
-132,04/04/2026,09:00,Rangers,Dundee Utd,,
-1,05/04/2026,08:00,Livingston,Heart Of Midlothian,,
-1,05/04/2026,10:30,Dundee,Celtic,,
-1,11/04/2026,09:00,Celtic,ST Mirren,,
-1,11/04/2026,09:00,Kilmarnock,Dundee,,
-1,11/04/2026,09:00,Aberdeen,Hibernian,,
-1,11/04/2026,09:00,Heart Of Midlothian,Motherwell,,
-1,11/04/2026,09:00,Dundee Utd,Livingston,,
-1,12/04/2026,06:00,Falkirk,Rangers,,
+132,04/04/2026,09:00,Hibernian,Kilmarnock,3-0,Final
+132,04/04/2026,09:00,ST Mirren,Aberdeen,2-0,Final
+132,04/04/2026,09:00,Motherwell,Falkirk,2-3,Final
+132,04/04/2026,09:00,Rangers,Dundee Utd,4-2,Final
+132,05/04/2026,08:00,Livingston,Heart Of Midlothian,2-2,Final
+132,05/04/2026,10:30,Dundee,Celtic,1-2,Final
+133,11/04/2026,09:00,Celtic,ST Mirren,,
+133,11/04/2026,09:00,Kilmarnock,Dundee,,
+133,11/04/2026,09:00,Aberdeen,Hibernian,,
+133,11/04/2026,09:00,Heart Of Midlothian,Motherwell,,
+133,11/04/2026,09:00,Dundee Utd,Livingston,,
+133,12/04/2026,06:00,Falkirk,Rangers,,

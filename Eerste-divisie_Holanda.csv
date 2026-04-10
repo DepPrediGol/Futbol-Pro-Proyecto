@@ -339,18 +339,17 @@ matchday,date,time,home_team,away_team,result,status
 34,03/04/2026,13:00,MVV,Waalwijk,1-3,Final
 34,03/04/2026,13:00,Jong AZ,Helmond Sport,2-0,Final
 34,03/04/2026,13:00,Almere City FC,FC OSS,3-2,Final
-34,03/04/2026,13:00,Den Bosch,Jong Utrecht,,
 34,03/04/2026,13:00,FC Eindhoven,De Graafschap,2-2,Final
-35,06/04/2026,05:15,Helmond Sport,Waalwijk,,
-35,06/04/2026,07:30,Almere City FC,Den Bosch,,
-35,06/04/2026,09:45,ADO Den Haag,FC Eindhoven,,
-35,06/04/2026,09:45,De Graafschap,Jong AZ,,
-35,06/04/2026,09:45,Vitesse,Jong Ajax,,
-35,06/04/2026,09:45,Emmen,MVV,,
-35,06/04/2026,09:45,Roda,Willem II,,
-35,06/04/2026,09:45,Cambuur,Dordrecht,,
-35,06/04/2026,09:45,FC OSS,Jong Utrecht,,
-35,06/04/2026,13:00,Jong PSV U21,VVV Venlo,,
+35,06/04/2026,05:15,Helmond Sport,Waalwijk,2-2,Final
+35,06/04/2026,07:30,Almere City FC,Den Bosch,1-2,Final
+35,06/04/2026,09:45,ADO Den Haag,FC Eindhoven,4-0,Final
+35,06/04/2026,09:45,De Graafschap,Jong AZ,5-0,Final
+35,06/04/2026,09:45,Vitesse,Jong Ajax,6-1,Final
+35,06/04/2026,09:45,Emmen,MVV,2-1,Final
+35,06/04/2026,09:45,Roda,Willem II,0-1,Final
+35,06/04/2026,09:45,Cambuur,Dordrecht,1-1,Final
+35,06/04/2026,09:45,FC OSS,Jong Utrecht,3-1,Final
+35,06/04/2026,13:00,Jong PSV U21,VVV Venlo,1-0,Final
 36,10/04/2026,13:00,MVV,Helmond Sport,,
 36,10/04/2026,13:00,Waalwijk,Emmen,,
 36,10/04/2026,13:00,Den Bosch,Cambuur,,
@@ -371,6 +370,7 @@ matchday,date,time,home_team,away_team,result,status
 37,17/04/2026,13:00,FC OSS,Den Bosch,,
 37,17/04/2026,13:00,Helmond Sport,VVV Venlo,,
 37,17/04/2026,13:00,Jong Utrecht,FC Eindhoven,,
+34,20/04/2026,13:00,Den Bosch,Jong Utrecht,,
 38,24/04/2026,13:00,VVV Venlo,Almere City FC,,
 38,24/04/2026,13:00,Emmen,De Graafschap,,
 38,24/04/2026,13:00,Dordrecht,Willem II,,

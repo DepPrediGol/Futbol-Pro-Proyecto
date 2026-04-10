@@ -318,16 +318,16 @@ matchday,date,time,home_team,away_team,result,status
 32,22/03/2026,09:00,Sudtirol,Frosinone,1-3,Final
 32,22/03/2026,11:15,Sampdoria,Avellino,2-1,Final
 32,22/03/2026,13:30,Virtus Entella,Reggiana,3-0,Final
-33,05/04/2026,10:15,Frosinone,Padova,,
-33,05/04/2026,12:30,Palermo,Avellino,,
-33,06/04/2026,05:30,Cesena,Sudtirol,,
-33,06/04/2026,08:00,Bari,Modena,,
-33,06/04/2026,08:00,Venezia,Juve Stabia,,
-33,06/04/2026,08:00,Reggiana,Pescara,,
-33,06/04/2026,08:00,Catanzaro,Monza,,
-33,06/04/2026,08:00,Mantova,Virtus Entella,,
-33,06/04/2026,10:15,Sampdoria,Empoli,,
-33,06/04/2026,12:30,Carrarese,Spezia,,
+33,05/04/2026,10:15,Frosinone,Padova,2-0,Final
+33,05/04/2026,12:30,Palermo,Avellino,2-0,Final
+33,06/04/2026,05:30,Cesena,Sudtirol,1-1,Final
+33,06/04/2026,08:00,Bari,Modena,3-1,Final
+33,06/04/2026,08:00,Venezia,Juve Stabia,3-1,Final
+33,06/04/2026,08:00,Reggiana,Pescara,1-3,Final
+33,06/04/2026,08:00,Catanzaro,Monza,1-1,Final
+33,06/04/2026,08:00,Mantova,Virtus Entella,1-0,Final
+33,06/04/2026,10:15,Sampdoria,Empoli,1-0,Final
+33,06/04/2026,12:30,Carrarese,Spezia,3-1,Final
 34,10/04/2026,13:30,Frosinone,Palermo,,
 34,11/04/2026,08:00,Pescara,Sampdoria,,
 34,11/04/2026,08:00,Virtus Entella,Venezia,,

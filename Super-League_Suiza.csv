@@ -185,12 +185,12 @@ matchday,date,time,home_team,away_team,result,status
 31,22/03/2026,,FC Winterthur,FC Basel 1893,0-2,Final
 31,22/03/2026,,FC Luzern,FC Lausanne-Sport,4-0,Final
 31,22/03/2026,,BSC Young Boys,FC Lugano,1-1,Final
-32,04/04/2026,,FC Lausanne-Sport,FC Winterthur,,
-32,04/04/2026,,FC Lugano,FC Thun Berner Oberland,,
-32,04/04/2026,,FC Basel 1893,BSC Young Boys,,
-32,06/04/2026,,Grasshopper Club Zürich,FC Sion,,
-32,06/04/2026,,FC St. Gallen,FC Zürich,,
-32,06/04/2026,,Servette FC,FC Luzern,,
+32,04/04/2026,,FC Lausanne-Sport,FC Winterthur,2-1,Final
+32,04/04/2026,,FC Lugano,FC Thun Berner Oberland,1-0,Final
+32,04/04/2026,,FC Basel 1893,BSC Young Boys,3-3,Final
+32,06/04/2026,,Grasshopper Club Zürich,FC Sion,0-4,Final
+32,06/04/2026,,FC St. Gallen,FC Zürich,2-1,Final
+32,06/04/2026,,Servette FC,FC Luzern,3-0,Final
 33,11/04/2026,,FC Winterthur,Grasshopper Club Zürich,,
 33,11/04/2026,,FC Zürich,FC Lugano,,
 33,11/04/2026,,FC Thun Berner Oberland,FC Basel 1893,,

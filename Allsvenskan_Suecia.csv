@@ -1,12 +1,12 @@
 matchday,date,time,home_team,away_team,result,status
-1,04/04/2026,,Degerfors IF,IK Sirius,,
-1,04/04/2026,,Hammarby IF,Mjällby AIF,,
-1,05/04/2026,,AIK Solna,Halmstads BK,,
-1,05/04/2026,,Kalmar FF,Västerås SK,,
-1,05/04/2026,,Örgryte IS,Malmö FF,,
-1,06/04/2026,,BK Häcken,IF Brommapojkarna,,
-1,06/04/2026,,IF Elfsborg,IFK Göteborg,,
-1,06/04/2026,,GAIS Göteborg,Djurgårdens IF,,
+1,04/04/2026,,Degerfors IF,IK Sirius,0-3,Final
+1,04/04/2026,,Hammarby IF,Mjällby AIF,3-0,Final
+1,05/04/2026,,AIK Solna,Halmstads BK,2-1,Final
+1,05/04/2026,,Kalmar FF,Västerås SK,0-1,Final
+1,05/04/2026,,Örgryte IS,Malmö FF,1-1,Final
+1,06/04/2026,,BK Häcken,IF Brommapojkarna,2-2,Final
+1,06/04/2026,,IF Elfsborg,IFK Göteborg,2-0,Final
+1,06/04/2026,,GAIS Göteborg,Djurgårdens IF,0-1,Final
 2,11/04/2026,,IFK Göteborg,BK Häcken,,
 2,11/04/2026,,Mjällby AIF,Örgryte IS,,
 2,11/04/2026,,Västerås SK,IF Elfsborg,,

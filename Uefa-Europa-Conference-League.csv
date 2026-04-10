@@ -395,10 +395,10 @@ matchday,date,time,home_team,away_team,result,status
 16,19/03/2026,15:00,Shakhtar Donetsk,Lech Poznan,1-2,Final
 16,19/03/2026,15:00,Sparta Praha,AZ Alkmaar,0-4,Final
 16,19/03/2026,15:00,Rayo Vallecano,Samsunspor,0-1,Final
-,09/04/2026,11:45,Rayo Vallecano,AEK Athens FC,,
-,09/04/2026,14:00,Crystal Palace,Fiorentina,,
-,09/04/2026,14:00,FSV Mainz 05,Strasbourg,,
-,09/04/2026,14:00,Shakhtar Donetsk,AZ Alkmaar,,
+,09/04/2026,11:45,Rayo Vallecano,AEK Athens FC,3-0,Final
+,09/04/2026,14:00,Crystal Palace,Fiorentina,3-0,Final
+,09/04/2026,14:00,FSV Mainz 05,Strasbourg,2-0,Final
+,09/04/2026,14:00,Shakhtar Donetsk,AZ Alkmaar,3-0,Final
 ,16/04/2026,11:45,AZ Alkmaar,Shakhtar Donetsk,,
 ,16/04/2026,14:00,Strasbourg,FSV Mainz 05,,
 ,16/04/2026,14:00,Fiorentina,Crystal Palace,,

@@ -243,14 +243,14 @@ matchday,date,time,home_team,away_team,result,status
 27,22/03/2026,13:00,Benfica B,Farense,1-0,Final
 20,29/03/2026,09:30,União de Leiria,Pacos Ferreira,2-0,Final
 28,03/04/2026,09:30,Oliveirense,Portimonense,1-2,Final
-28,04/04/2026,05:00,Farense,Feirense,,
-28,04/04/2026,05:00,Sporting CP B,Penafiel,,
-28,04/04/2026,08:00,Pacos Ferreira,Maritimo,,
-28,04/04/2026,12:00,Academico Viseu,Felgueiras 1932,,
-28,05/04/2026,12:00,União de Leiria,Lusitânia Lourosa,,
-28,06/04/2026,12:00,FC Porto B,Chaves,,
-28,06/04/2026,12:00,Torreense,Leixoes,,
-28,07/04/2026,12:00,Vizela,Benfica B,,
+28,04/04/2026,05:00,Farense,Feirense,0-1,Final
+28,04/04/2026,05:00,Sporting CP B,Penafiel,1-2,Final
+28,04/04/2026,08:00,Pacos Ferreira,Maritimo,0-0,Final
+28,04/04/2026,12:00,Academico Viseu,Felgueiras 1932,0-1,Final
+28,05/04/2026,12:00,União de Leiria,Lusitânia Lourosa,0-0,Final
+28,06/04/2026,12:00,FC Porto B,Chaves,3-0,Final
+28,06/04/2026,12:00,Torreense,Leixoes,1-1,Final
+28,07/04/2026,12:00,Vizela,Benfica B,1-2,Final
 29,10/04/2026,12:45,Felgueiras 1932,Pacos Ferreira,,
 29,11/04/2026,05:00,Penafiel,Academico Viseu,,
 29,11/04/2026,08:00,Farense,Sporting CP B,,

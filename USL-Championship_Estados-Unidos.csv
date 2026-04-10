@@ -45,18 +45,18 @@ matchday,date,time,home_team,away_team,result,status
 ,28/03/2026,21:00,Sacramento Republic,El Paso Locomotive,1-2,Final
 ,28/03/2026,21:30,Las Vegas Lights,Monterey Bay,1-0,Final
 ,29/03/2026,15:00,San Antonio,Lexington,2-0,Final
-,04/04/2026,15:00,Miami FC,Hartford Athletic,,
-,04/04/2026,15:00,Louisville City,Charleston Battery,,
-,04/04/2026,15:00,Rhode Island,Detroit City,,
-,04/04/2026,16:00,Colorado Springs,Lexington,,
-,04/04/2026,16:00,Loudoun United,Birmingham Legion,,
-,04/04/2026,18:00,Indy Eleven,Pittsburgh Riverhounds,,
-,04/04/2026,18:30,Sporting JAX,Tampa Bay Rowdies,,
-,04/04/2026,20:00,El Paso Locomotive,Las Vegas Lights,,
-,04/04/2026,21:00,Monterey Bay,San Antonio,,
-,04/04/2026,21:00,Orange County SC,New Mexico United,,
-,04/04/2026,21:00,Sacramento Republic,Phoenix Rising,,
-,08/04/2026,21:00,Orange County SC,San Antonio,,
+,04/04/2026,15:00,Miami FC,Hartford Athletic,0-0,Final
+,04/04/2026,15:00,Louisville City,Charleston Battery,0-2,Final
+,04/04/2026,15:00,Rhode Island,Detroit City,0-0,Final
+,04/04/2026,16:00,Colorado Springs,Lexington,1-1,Final
+,04/04/2026,16:00,Loudoun United,Birmingham Legion,2-2,Final
+,04/04/2026,18:00,Indy Eleven,Pittsburgh Riverhounds,1-1,Final
+,04/04/2026,18:30,Sporting JAX,Tampa Bay Rowdies,0-1,Final
+,04/04/2026,20:00,El Paso Locomotive,Las Vegas Lights,3-2,Final
+,04/04/2026,21:00,Monterey Bay,San Antonio,0-0,Final
+,04/04/2026,21:00,Orange County SC,New Mexico United,0-1,Final
+,04/04/2026,21:00,Sacramento Republic,Phoenix Rising,2-0,Final
+,08/04/2026,21:00,Orange County SC,San Antonio,2-0,Final
 ,10/04/2026,17:30,Loudoun United,Louisville City,,
 ,11/04/2026,15:00,Detroit City,Sporting JAX,,
 ,11/04/2026,18:00,Brooklyn,Charleston Battery,,

@@ -29,21 +29,21 @@ matchday,date,time,home_team,away_team,result,status
 3,11/03/2026,17:00,Sporting Cristal,Carabobo FC,1-2,Final
 3,11/03/2026,19:30,Deportes Tolima,O'Higgins,2-0,Final
 3,12/03/2026,19:30,Independiente Medellin,Juventud,2-1,Final
-1,07/04/2026,17:00,Independ. Rivadavia,Bolívar,,
-1,07/04/2026,17:00,Deportivo La Guaira,Fluminense,,
-1,07/04/2026,19:00,Barcelona SC,Cruzeiro,,
-1,07/04/2026,19:00,Always Ready,LDU de Quito,,
-1,07/04/2026,19:30,U. Catolica,Boca Juniors,,
-1,07/04/2026,21:00,Deportes Tolima,Universitario,,
-1,08/04/2026,17:00,Coquimbo Unido,Club Nacional,,
-1,08/04/2026,17:00,Mirassol,Lanus,,
-1,08/04/2026,19:00,Independiente Medellin,Estudiantes L.P.,,
-1,08/04/2026,19:30,Junior,Palmeiras,,
-1,08/04/2026,19:30,Cusco,Flamengo,,
-1,08/04/2026,21:00,Sporting Cristal,Cerro Porteno,,
-1,09/04/2026,17:00,Rosario Central,Independiente del Valle,,
-1,09/04/2026,17:00,UCV,Libertad Asuncion,,
-1,09/04/2026,19:00,Platense,Corinthians,,
+1,07/04/2026,17:00,Independ. Rivadavia,Bolívar,1-0,Final
+1,07/04/2026,17:00,Deportivo La Guaira,Fluminense,0-0,Final
+1,07/04/2026,19:00,Barcelona SC,Cruzeiro,0-1,Final
+1,07/04/2026,19:00,Always Ready,LDU de Quito,0-1,Final
+1,07/04/2026,19:30,U. Catolica,Boca Juniors,1-2,Final
+1,07/04/2026,21:00,Deportes Tolima,Universitario,0-0,Final
+1,08/04/2026,17:00,Coquimbo Unido,Club Nacional,1-1,Final
+1,08/04/2026,17:00,Mirassol,Lanus,1-0,Final
+1,08/04/2026,19:00,Independiente Medellin,Estudiantes L.P.,1-1,Final
+1,08/04/2026,19:30,Junior,Palmeiras,1-1,Final
+1,08/04/2026,19:30,Cusco,Flamengo,0-2,Final
+1,08/04/2026,21:00,Sporting Cristal,Cerro Porteno,1-0,Final
+1,09/04/2026,17:00,Rosario Central,Independiente del Valle,0-0,Final
+1,09/04/2026,17:00,UCV,Libertad Asuncion,3-1,Final
+1,09/04/2026,19:00,Platense,Corinthians,0-0,En vivo
 1,09/04/2026,21:00,Santa Fe,Penarol,,
 2,14/04/2026,17:00,Estudiantes L.P.,Cusco,,
 2,14/04/2026,17:00,Cerro Porteno,Junior,,

@@ -276,16 +276,16 @@ matchday,date,time,home_team,away_team,result,status
 12,22/03/2026,18:00,Pachuca,Toluca,1-1,Final
 12,22/03/2026,18:00,Santos Laguna,Puebla,2-1,Final
 12,22/03/2026,20:06,FC Juarez,Tigres UANL,2-1,Final
-13,03/04/2026,20:00,Puebla,FC Juarez,0-0,En vivo
-13,03/04/2026,22:00,Necaxa,Mazatlán,,
-13,03/04/2026,22:06,Club Tijuana,Tigres UANL,,
-13,04/04/2026,18:00,Monterrey,Atletico San Luis,,
-13,04/04/2026,18:00,Club Queretaro,Toluca,,
-13,04/04/2026,20:00,Leon,Atlas,,
-13,04/04/2026,20:00,Cruz Azul,Pachuca,,
-13,04/04/2026,22:00,Santos Laguna,Club America,,
-13,05/04/2026,21:07,Guadalajara Chivas,U.N.A.M. - Pumas,,
-7,07/04/2026,19:00,Club Queretaro,FC Juarez,,
+13,03/04/2026,20:00,Puebla,FC Juarez,1-1,Final
+13,03/04/2026,22:00,Necaxa,Mazatlán,2-1,Final
+13,03/04/2026,22:06,Club Tijuana,Tigres UANL,1-0,Final
+13,04/04/2026,18:00,Monterrey,Atletico San Luis,1-2,Final
+13,04/04/2026,18:00,Club Queretaro,Toluca,1-0,Final
+13,04/04/2026,20:05,Cruz Azul,Pachuca,1-2,Final
+13,04/04/2026,20:06,Leon,Atlas,2-0,Final
+13,04/04/2026,22:10,Santos Laguna,Club America,1-1,Final
+13,05/04/2026,21:07,Guadalajara Chivas,U.N.A.M. - Pumas,2-2,Final
+7,07/04/2026,19:00,Club Queretaro,FC Juarez,1-1,Final
 14,10/04/2026,20:00,Puebla,Leon,,
 14,10/04/2026,22:06,FC Juarez,Club Tijuana,,
 14,11/04/2026,18:00,Tigres UANL,Guadalajara Chivas,,

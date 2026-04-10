@@ -485,18 +485,18 @@ matchday,date,time,home_team,away_team,result,status
 41,03/04/2026,09:00,Newport County,Crawley Town,0-2,Final
 41,03/04/2026,09:00,Barnet,Bromley,2-2,Final
 41,03/04/2026,09:00,Salford City,Notts County,2-1,Final
-42,06/04/2026,09:00,Fleetwood Town,Barnet,,
-42,06/04/2026,09:00,Gillingham,Accrington ST,,
-42,06/04/2026,09:00,Oldham,Milton Keynes Dons,,
-42,06/04/2026,09:00,Swindon Town,Walsall,,
-42,06/04/2026,09:00,Crawley Town,Grimsby,,
-42,06/04/2026,09:00,Crewe,Salford City,,
-42,06/04/2026,09:00,Cheltenham,Cambridge United,,
-42,06/04/2026,09:00,Notts County,Newport County,,
-42,06/04/2026,09:00,Tranmere,Colchester,,
-42,06/04/2026,09:00,Barrow,Chesterfield,,
-42,06/04/2026,09:00,Harrogate Town,Bristol Rovers,,
-42,07/04/2026,14:00,Bromley,Shrewsbury,,
+42,06/04/2026,09:00,Fleetwood Town,Barnet,2-5,Final
+42,06/04/2026,09:00,Gillingham,Accrington ST,2-0,Final
+42,06/04/2026,09:00,Oldham,Milton Keynes Dons,1-1,Final
+42,06/04/2026,09:00,Swindon Town,Walsall,2-1,Final
+42,06/04/2026,09:00,Crawley Town,Grimsby,0-2,Final
+42,06/04/2026,09:00,Crewe,Salford City,1-0,Final
+42,06/04/2026,09:00,Cheltenham,Cambridge United,1-1,Final
+42,06/04/2026,09:00,Notts County,Newport County,3-1,Final
+42,06/04/2026,09:00,Tranmere,Colchester,0-1,Final
+42,06/04/2026,09:00,Barrow,Chesterfield,0-1,Final
+42,06/04/2026,09:00,Harrogate Town,Bristol Rovers,2-3,Final
+42,07/04/2026,14:00,Bromley,Shrewsbury,2-1,Final
 43,10/04/2026,13:45,Colchester,Swindon Town,,
 43,11/04/2026,06:30,Bristol Rovers,Crawley Town,,
 43,11/04/2026,06:30,Milton Keynes Dons,Bromley,,
@@ -527,18 +527,18 @@ matchday,date,time,home_team,away_team,result,status
 44,18/04/2026,09:00,Harrogate Town,Colchester,,
 25,21/04/2026,13:45,Cambridge United,Grimsby,,
 40,21/04/2026,13:45,Cheltenham,Tranmere,,
+45,23/04/2026,14:00,Salford City,Bromley,,
+45,25/04/2026,06:30,Milton Keynes Dons,Tranmere,,
+45,25/04/2026,06:30,Grimsby,Swindon Town,,
 45,25/04/2026,09:00,Bristol Rovers,Cheltenham,,
 45,25/04/2026,09:00,Walsall,Harrogate Town,,
 45,25/04/2026,09:00,Chesterfield,Crewe,,
-45,25/04/2026,09:00,Milton Keynes Dons,Tranmere,,
 45,25/04/2026,09:00,Shrewsbury,Fleetwood Town,,
 45,25/04/2026,09:00,Accrington ST,Crawley Town,,
 45,25/04/2026,09:00,Colchester,Notts County,,
-45,25/04/2026,09:00,Grimsby,Swindon Town,,
 45,25/04/2026,09:00,Newport County,Oldham,,
 45,25/04/2026,09:00,Barnet,Gillingham,,
 45,25/04/2026,09:00,Cambridge United,Barrow,,
-45,25/04/2026,09:00,Salford City,Bromley,,
 46,02/05/2026,09:00,Fleetwood Town,Milton Keynes Dons,,
 46,02/05/2026,09:00,Gillingham,Shrewsbury,,
 46,02/05/2026,09:00,Oldham,Accrington ST,,

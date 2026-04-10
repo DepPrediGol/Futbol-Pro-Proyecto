@@ -299,16 +299,16 @@ matchday,date,time,home_team,away_team,result,status
 30,22/03/2026,09:00,Bologna,Lazio,0-2,Final
 30,22/03/2026,12:00,AS Roma,Lecce,1-0,Final
 30,22/03/2026,14:45,Fiorentina,Inter,1-1,Final
-31,04/04/2026,08:00,Sassuolo,Cagliari,,
-31,04/04/2026,11:00,Hellas Verona,Fiorentina,,
-31,04/04/2026,13:45,Lazio,Parma,,
-31,05/04/2026,08:00,Cremonese,Bologna,,
-31,05/04/2026,11:00,Pisa,Torino,,
-31,05/04/2026,13:45,Inter,AS Roma,,
-31,06/04/2026,05:30,Udinese,como,,
-31,06/04/2026,08:00,Lecce,Atalanta,,
-31,06/04/2026,11:00,Juventus,Genoa,,
-31,06/04/2026,13:45,Napoli,AC Milan,,
+31,04/04/2026,08:00,Sassuolo,Cagliari,2-1,Final
+31,04/04/2026,11:00,Hellas Verona,Fiorentina,0-1,Final
+31,04/04/2026,13:45,Lazio,Parma,1-1,Final
+31,05/04/2026,08:00,Cremonese,Bologna,1-2,Final
+31,05/04/2026,11:00,Pisa,Torino,0-1,Final
+31,05/04/2026,13:45,Inter,AS Roma,5-2,Final
+31,06/04/2026,05:30,Udinese,como,0-0,Final
+31,06/04/2026,08:00,Lecce,Atalanta,0-3,Final
+31,06/04/2026,11:00,Juventus,Genoa,2-0,Final
+31,06/04/2026,13:45,Napoli,AC Milan,1-0,Final
 32,10/04/2026,13:45,AS Roma,Pisa,,
 32,11/04/2026,08:00,Cagliari,Cremonese,,
 32,11/04/2026,08:00,Torino,Hellas Verona,,

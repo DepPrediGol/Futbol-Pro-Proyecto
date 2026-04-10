@@ -143,12 +143,12 @@ matchday,date,time,home_team,away_team,result,status
 15,02/04/2026,18:20,Jaguares,Millonarios,1-0,Final
 15,02/04/2026,20:30,Once Caldas,Independiente Medellin,1-1,Final
 15,03/04/2026,18:20,Fortaleza FC,Internacional de Bogota,1-1,Final
-15,03/04/2026,20:30,Junior,Deportivo Cali,,
-10,04/04/2026,19:30,Deportes Tolima,Santa Fe,,
-16,05/04/2026,17:00,Cucuta,America de Cali,,
-6,06/04/2026,15:30,Deportivo Pereira,Alianza Valledupar,,
-2,06/04/2026,20:10,Atletico Nacional,Jaguares,,
-7,07/04/2026,16:00,Águilas Doradas,Bucaramanga,,
+15,03/04/2026,20:30,Junior,Deportivo Cali,1-2,Final
+10,04/04/2026,19:30,Deportes Tolima,Santa Fe,2-2,Final
+16,05/04/2026,16:00,Cucuta,America de Cali,2-0,Final
+6,06/04/2026,15:30,Deportivo Pereira,Alianza Valledupar,2-3,Final
+2,06/04/2026,20:10,Atletico Nacional,Jaguares,2-1,Final
+7,07/04/2026,16:00,Águilas Doradas,Bucaramanga,2-1,Final
 16,10/04/2026,15:30,Deportivo Pereira,Once Caldas,,
 16,10/04/2026,20:05,Deportivo Pasto,Deportes Tolima,,
 16,11/04/2026,16:00,Águilas Doradas,Junior,,
@@ -162,20 +162,20 @@ matchday,date,time,home_team,away_team,result,status
 17,18/04/2026,18:10,Deportes Tolima,Deportivo Pereira,,
 17,18/04/2026,20:30,Fortaleza FC,Águilas Doradas,,
 17,19/04/2026,14:00,Santa Fe,Cucuta,,
-17,19/04/2026,16:10,America de Cali,Millonarios,,
+17,19/04/2026,16:10,Alianza Valledupar,Independiente Medellin,,
 17,19/04/2026,18:20,Junior,Llaneros,,
-17,19/04/2026,20:30,Alianza Valledupar,Independiente Medellin,,
+17,19/04/2026,20:30,America de Cali,Millonarios,,
 17,20/04/2026,18:20,Once Caldas,Internacional de Bogota,,
 17,20/04/2026,20:30,Atletico Nacional,Bucaramanga,,
 10,22/04/2026,18:20,Independiente Medellin,Chico,,
 5,22/04/2026,20:30,Fortaleza FC,America de Cali,,
 18,23/04/2026,18:00,Deportivo Pasto,Santa Fe,,
 18,23/04/2026,20:00,Millonarios,Deportes Tolima,,
-18,24/04/2026,18:20,Cucuta,Junior,,
+18,24/04/2026,16:00,Cucuta,Junior,,
 18,25/04/2026,14:00,Bucaramanga,Jaguares,,
-18,25/04/2026,16:00,Independiente Medellin,Fortaleza FC,,
+18,25/04/2026,16:00,Deportivo Pereira,Atletico Nacional,,
 18,25/04/2026,18:10,Deportivo Cali,America de Cali,,
-18,25/04/2026,20:30,Deportivo Pereira,Atletico Nacional,,
+18,25/04/2026,20:30,Independiente Medellin,Fortaleza FC,,
 18,26/04/2026,16:00,Águilas Doradas,Once Caldas,,
 18,26/04/2026,18:10,Llaneros,Alianza Valledupar,,
 18,26/04/2026,20:20,Internacional de Bogota,Chico,,

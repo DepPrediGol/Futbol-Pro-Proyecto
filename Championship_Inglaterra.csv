@@ -477,18 +477,18 @@ matchday,date,time,home_team,away_team,result,status
 40,03/04/2026,09:00,Charlton,Bristol City,1-2,Final
 40,03/04/2026,09:00,Oxford United,Hull City,1-1,Final
 40,03/04/2026,14:00,Coventry,Derby,3-2,Final
-41,06/04/2026,06:30,Portsmouth,Oxford United,,
-41,06/04/2026,07:00,Millwall,Norwich,,
-41,06/04/2026,09:00,Watford,Charlton,,
-41,06/04/2026,09:00,Bristol City,Sheffield Utd,,
-41,06/04/2026,09:00,Ipswich,Birmingham,,
-41,06/04/2026,09:00,Preston,QPR,,
-41,06/04/2026,09:00,Blackburn,West Brom,,
-41,06/04/2026,09:00,Derby,Stoke City,,
-41,06/04/2026,09:00,Sheffield Wednesday,Leicester,,
-41,06/04/2026,11:30,Swansea,Middlesbrough,,
-41,06/04/2026,14:00,Hull City,Coventry,,
-41,07/04/2026,14:00,Wrexham,Southampton,,
+41,06/04/2026,06:30,Portsmouth,Oxford United,2-2,Final
+41,06/04/2026,07:00,Millwall,Norwich,1-2,Final
+41,06/04/2026,09:00,Watford,Charlton,1-1,Final
+41,06/04/2026,09:00,Bristol City,Sheffield Utd,1-0,Final
+41,06/04/2026,09:00,Ipswich,Birmingham,2-1,Final
+41,06/04/2026,09:00,Preston,QPR,1-1,Final
+41,06/04/2026,09:00,Blackburn,West Brom,0-0,Final
+41,06/04/2026,09:00,Derby,Stoke City,2-0,Final
+41,06/04/2026,09:00,Sheffield Wednesday,Leicester,1-1,Final
+41,06/04/2026,11:30,Swansea,Middlesbrough,2-2,Final
+41,06/04/2026,14:00,Hull City,Coventry,0-0,Final
+41,07/04/2026,14:00,Wrexham,Southampton,1-5,Final
 42,10/04/2026,14:00,West Brom,Millwall,,
 42,11/04/2026,06:30,Norwich,Ipswich,,
 42,11/04/2026,06:30,QPR,Bristol City,,
@@ -521,23 +521,23 @@ matchday,date,time,home_team,away_team,result,status
 44,21/04/2026,13:45,Stoke City,Millwall,,
 44,21/04/2026,13:45,Oxford United,Wrexham,,
 44,21/04/2026,13:45,Coventry,Portsmouth,,
+44,21/04/2026,13:45,Leicester,Hull City,,
 44,22/04/2026,13:45,Middlesbrough,Sheffield Wednesday,,
-44,22/04/2026,13:45,Leicester,Hull City,,
 44,22/04/2026,13:45,Birmingham,Preston,,
 44,22/04/2026,13:45,Sheffield Utd,Blackburn,,
 44,22/04/2026,13:45,Charlton,Ipswich,,
-45,25/04/2026,09:00,Southampton,Blackburn,,
-45,25/04/2026,09:00,Leicester,Millwall,,
+45,24/04/2026,14:00,Leicester,Millwall,,
+45,25/04/2026,06:30,West Brom,Ipswich,,
+45,25/04/2026,06:30,Middlesbrough,Watford,,
+45,25/04/2026,06:30,Charlton,Hull City,,
 45,25/04/2026,09:00,Birmingham,Bristol City,,
-45,25/04/2026,09:00,West Brom,Ipswich,,
 45,25/04/2026,09:00,Sheffield Utd,Preston,,
-45,25/04/2026,09:00,Middlesbrough,Watford,,
 45,25/04/2026,09:00,Norwich,Swansea,,
 45,25/04/2026,09:00,QPR,Derby,,
 45,25/04/2026,09:00,Stoke City,Portsmouth,,
-45,25/04/2026,09:00,Charlton,Hull City,,
 45,25/04/2026,09:00,Oxford United,Sheffield Wednesday,,
-45,25/04/2026,09:00,Coventry,Wrexham,,
+45,25/04/2026,11:15,Southampton,Blackburn,,
+45,26/04/2026,06:00,Coventry,Wrexham,,
 40,28/04/2026,13:45,Southampton,Ipswich,,
 46,02/05/2026,06:30,Watford,Coventry,,
 46,02/05/2026,06:30,Bristol City,Stoke City,,

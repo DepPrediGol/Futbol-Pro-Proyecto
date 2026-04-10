@@ -193,28 +193,28 @@ matchday,date,time,home_team,away_team,result,status
 24,18/03/2026,,USM Alger,ES Sétif,2-0,Final
 25,03/04/2026,,MB Rouissat,Olympique Akbou,1-1,Final
 25,03/04/2026,,CS Constantine,MC Oran,0-1,Final
-25,05/04/2026,,USM Khenchela,Paradou AC,,
-25,05/04/2026,,ES Sétif,ES Ben Aknoun,,
-25,05/04/2026,,CR Bélouizdad,ES Mostaganem,,
-25,05/04/2026,,ASO Chlef,USM Alger,,
-25,05/04/2026,,MC El Bayadh,JS Kabylie,,
-25,05/04/2026,,JS Saoura,MC Alger,,
-26,09/04/2026,,MC Oran,MB Rouissat,,
-26,09/04/2026,,MC Alger,MC El Bayadh,,
+25,05/04/2026,,USM Khenchela,Paradou AC,1-0,Final
+25,05/04/2026,,ES Sétif,ES Ben Aknoun,1-1,Final
+25,05/04/2026,,CR Bélouizdad,ES Mostaganem,7-0,Final
+25,05/04/2026,,ASO Chlef,USM Alger,2-1,Final
+25,05/04/2026,,MC El Bayadh,JS Kabylie,1-1,Final
+25,05/04/2026,,JS Saoura,MC Alger,2-1,Final
+26,09/04/2026,,MC Oran,MB Rouissat,2-1,Final
+26,09/04/2026,,MC Alger,MC El Bayadh,3-0,Final
 26,10/04/2026,,USM Alger,CR Bélouizdad,,
-26,10/04/2026,,Olympique Akbou,ES Sétif,,
-26,10/04/2026,,Paradou AC,JS Saoura,,
 26,10/04/2026,,ES Mostaganem,USM Khenchela,,
 26,10/04/2026,,ES Ben Aknoun,ASO Chlef,,
 26,10/04/2026,,JS Kabylie,CS Constantine,,
-27,17/04/2026,,USM Alger,ES Mostaganem,,
+26,11/04/2026,,Olympique Akbou,ES Sétif,,
+26,11/04/2026,,Paradou AC,JS Saoura,,
+27,16/04/2026,,USM Alger,ES Mostaganem,,
+27,16/04/2026,,CR Bélouizdad,ES Ben Aknoun,,
+27,16/04/2026,,CS Constantine,MC Alger,,
+27,17/04/2026,,MB Rouissat,JS Kabylie,,
 27,17/04/2026,,MC El Bayadh,Paradou AC,,
 27,17/04/2026,,ES Sétif,MC Oran,,
 27,17/04/2026,,ASO Chlef,Olympique Akbou,,
 27,17/04/2026,,JS Saoura,USM Khenchela,,
-27,17/04/2026,,CR Bélouizdad,ES Ben Aknoun,,
-27,17/04/2026,,MB Rouissat,JS Kabylie,,
-27,17/04/2026,,CS Constantine,MC Alger,,
 28,09/05/2026,,MC Oran,ASO Chlef,,
 28,09/05/2026,,MC Alger,MB Rouissat,,
 28,09/05/2026,,ES Ben Aknoun,USM Alger,,

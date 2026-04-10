@@ -89,16 +89,16 @@ matchday,date,time,home_team,away_team,result,status
 9,02/04/2026,17:00,Santos,Remo,2-0,Final
 9,02/04/2026,19:30,RB Bragantino,Flamengo,3-0,Final
 9,02/04/2026,19:30,Palmeiras,Gremio,2-1,Final
-10,04/04/2026,16:30,Sao Paulo,Cruzeiro,,
-10,04/04/2026,18:30,Coritiba,Fluminense,,
-10,04/04/2026,19:00,Vasco DA Gama,Botafogo,,
-10,05/04/2026,14:00,Chapecoense-sc,Vitoria,,
-10,05/04/2026,15:30,Atletico-MG,Atletico Paranaense,,
-10,05/04/2026,15:30,Flamengo,Santos,,
-10,05/04/2026,17:30,Bahia,Palmeiras,,
-10,05/04/2026,17:30,Corinthians,Internacional,,
-10,05/04/2026,18:00,Mirassol,RB Bragantino,,
-10,05/04/2026,18:30,Gremio,Remo,,
+10,04/04/2026,16:30,Sao Paulo,Cruzeiro,4-1,Final
+10,04/04/2026,18:30,Coritiba,Fluminense,1-1,Final
+10,04/04/2026,19:00,Vasco DA Gama,Botafogo,1-2,Final
+10,05/04/2026,14:00,Chapecoense-sc,Vitoria,1-1,Final
+10,05/04/2026,15:30,Atletico-MG,Atletico Paranaense,2-1,Final
+10,05/04/2026,15:30,Flamengo,Santos,3-1,Final
+10,05/04/2026,17:30,Bahia,Palmeiras,1-2,Final
+10,05/04/2026,17:30,Corinthians,Internacional,0-1,Final
+10,05/04/2026,18:00,Mirassol,RB Bragantino,0-1,Final
+10,05/04/2026,18:30,Gremio,Remo,0-0,Final
 11,11/04/2026,14:30,Remo,Vasco DA Gama,,
 11,11/04/2026,14:30,Vitoria,Sao Paulo,,
 11,11/04/2026,16:30,Fluminense,Flamengo,,

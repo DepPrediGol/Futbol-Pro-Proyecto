@@ -110,10 +110,10 @@ def ventana_analisis(r, df_h):
             m_o25 = (df_eq['Over 2.5'].str.contains('✅').sum() / len(df_eq))
             m_btts = (df_eq['Btts'].str.contains('✅').sum() / len(df_eq))
             
-            c1.metric(f"Efec. {('1X' if nombre_rol=='Local' else 'X2')}", f"{m_1x:.0%}")
-            c2.metric("Efec. Over 1.5", f"{m_o15:.0%}")
-            c3.metric("Efec. Over 2.5", f"{m_o25:.0%}")
-            c4.metric("Efec. Btts", f"{m_btts:.0%}")
+            c1.metric(f"Efectividad. {('1X' if nombre_rol=='Local' else 'X2')}", f"{m_1x:.0%}")
+            c2.metric("Efectividad. Over 1.5", f"{m_o15:.0%}")
+            c3.metric("Efectividad. Over 2.5", f"{m_o25:.0%}")
+            c4.metric("Efectividad. Btts", f"{m_btts:.0%}")
             
             # Estructura de tabla igual al Historial
             cols_mostrar = ['Date', 'Time', 'Matchday', 'League', 'Match', 'Result', '1X', 'X2', 'Over 1.5', 'Over 2.5', 'Btts']

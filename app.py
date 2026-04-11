@@ -92,7 +92,7 @@ def obtener_probabilidades(e_l, e_v):
             if gl > 0 and gv > 0: p_btts += p
     return p_l, p_e, p_v, p_o15, p_o25, p_btts
 
-# --- 4. VENTANA MODAL ---
+# --- 4. VENTANA MODAL ACTUALIZADA ---
 @st.dialog("📊 ANÁLISIS DETALLADO", width="large")
 def ventana_analisis(r, df_h):
     st.title(f"⚽ {r['Match']}")
@@ -100,27 +100,27 @@ def ventana_analisis(r, df_h):
     st.divider()
     roles = [(r['Home team'], 'Home team', 'Local'), (r['Away team'], 'Away team', 'Visitante')]
     for eq, col_rol, nombre_rol in roles:
-        st.markdown(f"#### 📈 Últimos 10 partidos como {nombre_rol}: {eq}")
+        st.markdown(f"#### 📈 Últimos partidos como {nombre_rol}: {eq}")
         df_eq = df_h[df_h[col_rol] == eq].iloc[::-1].head(10).copy()
         if not df_eq.empty:
-            for idx, fila in df_eq.iterrows():
-                g = extraer_goles(fila['Result'])
-                if g:
-                    if fila['Home team'] == eq:
-                        check = "✅" if g[0] >= g[1] else "❌"
-                        df_eq.at[idx, 'Double chance'] = f"1X {check}"
-                    else:
-                        check = "✅" if g[1] >= g[0] else "❌"
-                        df_eq.at[idx, 'Double chance'] = f"X2 {check}"
-            c1, c2, c3 = st.columns(3)
-            m_1x = (df_eq['Double chance'].str.contains('✅').sum() / len(df_eq))
+            # Métricas superiores ajustadas
+            c1, c2, c3, c4 = st.columns(4)
+            m_1x = (df_eq['1X'].str.contains('✅').sum() / len(df_eq))
             m_o15 = (df_eq['Over 1.5'].str.contains('✅').sum() / len(df_eq))
+            m_o25 = (df_eq['Over 2.5'].str.contains('✅').sum() / len(df_eq))
             m_btts = (df_eq['Btts'].str.contains('✅').sum() / len(df_eq))
-            c1.metric(f"Efectividad {('1X' if nombre_rol=='Local' else 'X2')}", f"{m_1x:.0%}")
-            c2.metric("Efectividad O1.5", f"{m_o15:.0%}")
-            c3.metric("Efectividad BTTS", f"{m_btts:.0%}")
-            cols_mostrar = ['Date', 'Home team', 'Away team', 'Result', 'Double chance', 'Over 1.5', 'Over 2.5', 'Btts']
-            st.dataframe(df_eq[cols_mostrar].style.map(color_letras_historial, subset=['Double chance', 'Over 1.5', 'Over 2.5', 'Btts']), use_container_width=True, hide_index=True)
+            
+            c1.metric(f"Efec. {('1X' if nombre_rol=='Local' else 'X2')}", f"{m_1x:.0%}")
+            c2.metric("Efec. Over 1.5", f"{m_o15:.0%}")
+            c3.metric("Efec. Over 2.5", f"{m_o25:.0%}")
+            c4.metric("Efec. Btts", f"{m_btts:.0%}")
+            
+            # Estructura de tabla igual al Historial
+            cols_mostrar = ['Date', 'Time', 'Matchday', 'League', 'Match', 'Result', '1X', 'X2', 'Over 1.5', 'Over 2.5', 'Btts']
+            st.dataframe(
+                df_eq[cols_mostrar].style.map(color_letras_historial, subset=['1X', 'X2', 'Over 1.5', 'Over 2.5', 'Btts']), 
+                use_container_width=True, hide_index=True
+            )
         else:
             st.info(f"No hay historial suficiente para {eq} como {nombre_rol}.")
         st.divider()
@@ -167,16 +167,12 @@ def cargar_datos_completos():
                 
                 g = extraer_goles(f.get('result'))
                 if g:
-                    pk = "1X" if p1x >= px2 else "X2"
                     historicos.append({
                         'Date': f['date'], 'Time': f.get('time','-'), 'Matchday': f['matchday'], 'League': ln, 
                         'Home team': f['home_team'], 'Away team': f['away_team'],
                         'Match': f"{f['home_team']} vs {f['away_team']}",
                         'Result': f"{g[0]} - {g[1]}", 'G_L': g[0], 'G_V': g[1],
-                        '1X': f"{'✅' if g[0]>=g[1] else '❌'} {p1x:.0%}",
-                        'X2': f"{'✅' if g[1]>=g[0] else '❌'} px2:.0%", # Ajustado abajo en post-procesamiento
-                        '1X_p': p1x, 'X2_p': px2, # Auxiliares para lógica
-                        'Double chance': f"{pk} {'✅' if (g[0]>=g[1] if pk=='1X' else g[1]>=g[0]) else '❌'} ({max(p1x,px2):.0%})",
+                        '1X_p': p1x, 'X2_p': px2, 
                         'Over 1.5': f"{'✅' if (g[0]+g[1])>1.5 else '❌'} {po15:.0%}", 
                         'Over 2.5': f"{'✅' if (g[0]+g[1])>2.5 else '❌'} {po25:.0%}", 
                         'Btts': f"{'✅' if (g[0]>0 and g[1]>0) else '❌'} {pb:.0%}"
@@ -193,7 +189,7 @@ def cargar_datos_completos():
 
 df_p, df_h, lgs = cargar_datos_completos()
 
-# Corrección de visualización para historial (Doble Oportunidad individual)
+# Post-procesamiento de historial para iconos en 1X y X2
 if not df_h.empty:
     for idx, row in df_h.iterrows():
         g_l, g_v = row['G_L'], row['G_V']

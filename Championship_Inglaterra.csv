@@ -489,17 +489,17 @@ matchday,date,time,home_team,away_team,result,status
 41,06/04/2026,11:30,Swansea,Middlesbrough,2-2,Final
 41,06/04/2026,14:00,Hull City,Coventry,0-0,Final
 41,07/04/2026,14:00,Wrexham,Southampton,1-5,Final
-42,10/04/2026,14:00,West Brom,Millwall,,
-42,11/04/2026,06:30,Norwich,Ipswich,,
-42,11/04/2026,06:30,QPR,Bristol City,,
-42,11/04/2026,06:30,Coventry,Sheffield Wednesday,,
-42,11/04/2026,09:00,Southampton,Derby,,
-42,11/04/2026,09:00,Leicester,Swansea,,
-42,11/04/2026,09:00,Sheffield Utd,Hull City,,
-42,11/04/2026,09:00,Middlesbrough,Portsmouth,,
-42,11/04/2026,09:00,Stoke City,Blackburn,,
-42,11/04/2026,09:00,Charlton,Preston,,
-42,11/04/2026,09:00,Oxford United,Watford,,
+42,10/04/2026,14:00,West Brom,Millwall,0-0,Final
+42,11/04/2026,06:30,Norwich,Ipswich,0-2,Final
+42,11/04/2026,06:30,QPR,Bristol City,0-0,Final
+42,11/04/2026,06:30,Coventry,Sheffield Wednesday,0-0,Final
+42,11/04/2026,09:00,Southampton,Derby,0-1,En vivo
+42,11/04/2026,09:00,Leicester,Swansea,0-0,En vivo
+42,11/04/2026,09:00,Sheffield Utd,Hull City,0-1,En vivo
+42,11/04/2026,09:00,Middlesbrough,Portsmouth,0-0,En vivo
+42,11/04/2026,09:00,Stoke City,Blackburn,0-1,En vivo
+42,11/04/2026,09:00,Charlton,Preston,1-1,En vivo
+42,11/04/2026,09:00,Oxford United,Watford,1-0,En vivo
 42,12/04/2026,06:00,Birmingham,Wrexham,,
 26,14/04/2026,14:00,Portsmouth,Ipswich,,
 43,17/04/2026,14:00,Blackburn,Coventry,,

@@ -497,18 +497,18 @@ matchday,date,time,home_team,away_team,result,status
 42,06/04/2026,09:00,Barrow,Chesterfield,0-1,Final
 42,06/04/2026,09:00,Harrogate Town,Bristol Rovers,2-3,Final
 42,07/04/2026,14:00,Bromley,Shrewsbury,2-1,Final
-43,10/04/2026,13:45,Colchester,Swindon Town,,
-43,11/04/2026,06:30,Bristol Rovers,Crawley Town,,
-43,11/04/2026,06:30,Milton Keynes Dons,Bromley,,
-43,11/04/2026,09:00,Walsall,Cheltenham,,
-43,11/04/2026,09:00,Chesterfield,Tranmere,,
-43,11/04/2026,09:00,Shrewsbury,Oldham,,
-43,11/04/2026,09:00,Accrington ST,Fleetwood Town,,
-43,11/04/2026,09:00,Grimsby,Crewe,,
-43,11/04/2026,09:00,Newport County,Harrogate Town,,
-43,11/04/2026,09:00,Barnet,Barrow,,
-43,11/04/2026,09:00,Cambridge United,Notts County,,
-43,11/04/2026,09:00,Salford City,Gillingham,,
+43,10/04/2026,13:45,Colchester,Swindon Town,3-0,Final
+43,11/04/2026,06:30,Bristol Rovers,Crawley Town,3-1,Final
+43,11/04/2026,06:30,Milton Keynes Dons,Bromley,2-1,Final
+43,11/04/2026,09:00,Walsall,Cheltenham,0-0,En vivo
+43,11/04/2026,09:00,Chesterfield,Tranmere,0-0,En vivo
+43,11/04/2026,09:00,Shrewsbury,Oldham,1-0,En vivo
+43,11/04/2026,09:00,Accrington ST,Fleetwood Town,0-1,En vivo
+43,11/04/2026,09:00,Grimsby,Crewe,1-0,En vivo
+43,11/04/2026,09:00,Newport County,Harrogate Town,1-1,En vivo
+43,11/04/2026,09:00,Barnet,Barrow,0-1,En vivo
+43,11/04/2026,09:00,Cambridge United,Notts County,3-0,En vivo
+43,11/04/2026,09:00,Salford City,Gillingham,0-0,En vivo
 25,14/04/2026,13:45,Colchester,Accrington ST,,
 29,14/04/2026,13:45,Cheltenham,Gillingham,,
 29,14/04/2026,13:45,Barrow,Oldham,,

@@ -251,11 +251,11 @@ matchday,date,time,home_team,away_team,result,status
 28,04/04/2026,11:30,VfB Stuttgart,Borussia Dortmund,0-2,Final
 28,05/04/2026,08:30,Union Berlin,FC St. Pauli,1-1,Final
 28,05/04/2026,10:30,Eintracht Frankfurt,1. FC Köln,2-2,Final
-29,10/04/2026,13:30,FC Augsburg,1899 Hoffenheim,,
-29,11/04/2026,08:30,VfL Wolfsburg,Eintracht Frankfurt,,
-29,11/04/2026,08:30,Borussia Dortmund,Bayer Leverkusen,,
-29,11/04/2026,08:30,RB Leipzig,Borussia Mönchengladbach,,
-29,11/04/2026,08:30,1. FC Heidenheim,Union Berlin,,
+29,10/04/2026,13:30,FC Augsburg,1899 Hoffenheim,2-2,Final
+29,11/04/2026,08:30,VfL Wolfsburg,Eintracht Frankfurt,0-2,En vivo
+29,11/04/2026,08:30,Borussia Dortmund,Bayer Leverkusen,0-1,En vivo
+29,11/04/2026,08:30,RB Leipzig,Borussia Mönchengladbach,0-0,En vivo
+29,11/04/2026,08:30,1. FC Heidenheim,Union Berlin,2-0,En vivo
 29,11/04/2026,11:30,FC St. Pauli,Bayern München,,
 29,12/04/2026,08:30,1. FC Köln,Werder Bremen,,
 29,12/04/2026,10:30,VfB Stuttgart,Hamburger SV,,

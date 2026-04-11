@@ -260,13 +260,13 @@ matchday,date,time,home_team,away_team,result,status
 29,04/04/2026,07:00,Reims,Boulogne,0-0,Final
 29,04/04/2026,13:00,Nancy,Saint Etienne,1-1,Final
 29,06/04/2026,13:45,Le Mans,PAU,4-0,Final
-30,10/04/2026,13:00,Amiens,PAU,,
-30,10/04/2026,13:00,Guingamp,Grenoble,,
-30,10/04/2026,13:00,Clermont Foot,Nancy,,
-30,10/04/2026,13:00,Laval,Reims,,
-30,10/04/2026,13:00,Annecy,Montpellier,,
-30,11/04/2026,07:00,RED Star FC 93,Bastia,,
-30,11/04/2026,07:00,Boulogne,Le Mans,,
+30,10/04/2026,13:00,Amiens,PAU,0-1,Final
+30,10/04/2026,13:00,Guingamp,Grenoble,1-1,Final
+30,10/04/2026,13:00,Clermont Foot,Nancy,2-2,Final
+30,10/04/2026,13:00,Laval,Reims,2-2,Final
+30,10/04/2026,13:00,Annecy,Montpellier,0-0,Final
+30,11/04/2026,07:00,RED Star FC 93,Bastia,4-3,Final
+30,11/04/2026,07:00,Boulogne,Le Mans,0-0,Final
 30,11/04/2026,13:00,Saint Etienne,Dunkerque,,
 30,13/04/2026,13:45,Rodez,Estac Troyes,,
 31,17/04/2026,13:00,Montpellier,Grenoble,,

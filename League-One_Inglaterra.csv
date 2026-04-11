@@ -488,16 +488,16 @@ matchday,date,time,home_team,away_team,result,status
 42,06/04/2026,09:00,Leyton Orient,Huddersfield,1-2,Final
 42,06/04/2026,09:00,Mansfield Town,Burton Albion,0-0,Final
 42,07/04/2026,13:45,Port Vale,Rotherham,1-0,Final
-43,11/04/2026,06:30,Cardiff,Bolton,,
-43,11/04/2026,06:30,Plymouth,Exeter City,,
-43,11/04/2026,06:30,Lincoln,Leyton Orient,,
-43,11/04/2026,09:00,Huddersfield,Wycombe,,
-43,11/04/2026,09:00,Wigan,Mansfield Town,,
-43,11/04/2026,09:00,Rotherham,Barnsley,,
-43,11/04/2026,09:00,Burton Albion,AFC Wimbledon,,
-43,11/04/2026,09:00,Bradford,Stevenage,,
-43,11/04/2026,09:00,Doncaster,Reading,,
-43,11/04/2026,09:00,Blackpool,Peterborough,,
+43,11/04/2026,06:30,Cardiff,Bolton,2-0,Final
+43,11/04/2026,06:30,Plymouth,Exeter City,2-2,Final
+43,11/04/2026,06:30,Lincoln,Leyton Orient,2-1,Final
+43,11/04/2026,09:00,Huddersfield,Wycombe,0-1,En vivo
+43,11/04/2026,09:00,Wigan,Mansfield Town,1-1,En vivo
+43,11/04/2026,09:00,Rotherham,Barnsley,0-1,En vivo
+43,11/04/2026,09:00,Burton Albion,AFC Wimbledon,0-0,En vivo
+43,11/04/2026,09:00,Bradford,Stevenage,0-0,En vivo
+43,11/04/2026,09:00,Doncaster,Reading,0-0,En vivo
+43,11/04/2026,09:00,Blackpool,Peterborough,1-1,En vivo
 25,14/04/2026,13:45,Port Vale,Barnsley,,
 32,14/04/2026,13:45,Wigan,Rotherham,,
 32,14/04/2026,13:45,Leyton Orient,Mansfield Town,,

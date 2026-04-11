@@ -319,13 +319,13 @@ matchday,date,time,home_team,away_team,result,status
 32,08/04/2026,12:00,FC Saarbrücken,Alemannia Aachen,1-1,Final
 32,08/04/2026,12:00,Verl,Hansa Rostock,1-2,Final
 32,08/04/2026,12:00,Stuttgart II,SSV ULM 1846,1-1,Final
-33,10/04/2026,12:00,Hoffenheim II,FC Schweinfurt 05,,
-33,11/04/2026,07:00,FC Viktoria Köln,SV Wehen,,
-33,11/04/2026,07:00,Rot-Weiß Essen,FC Ingolstadt 04,,
-33,11/04/2026,07:00,Alemannia Aachen,Stuttgart II,,
-33,11/04/2026,07:00,Waldhof Mannheim,MSV Duisburg,,
-33,11/04/2026,07:00,Havelse,FC Saarbrücken,,
-33,11/04/2026,09:30,Hansa Rostock,SSV ULM 1846,,
+33,10/04/2026,12:00,Hoffenheim II,FC Schweinfurt 05,1-1,Final
+33,11/04/2026,07:00,FC Viktoria Köln,SV Wehen,2-1,Final
+33,11/04/2026,07:00,Rot-Weiß Essen,FC Ingolstadt 04,4-1,Final
+33,11/04/2026,07:00,Alemannia Aachen,Stuttgart II,3-1,Final
+33,11/04/2026,07:00,Waldhof Mannheim,MSV Duisburg,1-4,Final
+33,11/04/2026,07:00,Havelse,FC Saarbrücken,2-0,Final
+33,11/04/2026,09:30,Hansa Rostock,SSV ULM 1846,0-0,En vivo
 33,12/04/2026,06:30,VfL Osnabrück,Energie Cottbus,,
 33,12/04/2026,09:30,Erzgebirge Aue,Verl,,
 33,12/04/2026,12:30,TSV 1860 Munich,SSV Jahn Regensburg,,

@@ -511,17 +511,17 @@ matchday,date,time,home_team,away_team,result,status
 43,06/04/2026,09:00,Truro City,Forest Green,1-1,Final
 43,06/04/2026,09:00,Brackley Town,Boston United,1-1,Final
 43,06/04/2026,09:00,Wealdstone,Aldershot Town,3-0,Final
-44,11/04/2026,06:30,Boreham Wood,Hartlepool,,
-44,11/04/2026,06:30,Tamworth,York,,
-44,11/04/2026,09:00,Scunthorpe,Brackley Town,,
-44,11/04/2026,09:00,Southend,Solihull Moors,,
-44,11/04/2026,09:00,Carlisle,Sutton Utd,,
-44,11/04/2026,09:00,Yeovil Town,FC Halifax Town,,
-44,11/04/2026,09:00,Forest Green,Braintree,,
-44,11/04/2026,09:00,Aldershot Town,Gateshead,,
-44,11/04/2026,09:00,Woking,Morecambe,,
-44,11/04/2026,09:00,Altrincham,Eastleigh,,
-44,11/04/2026,09:00,Boston United,Truro City,,
+44,11/04/2026,06:30,Boreham Wood,Hartlepool,3-0,Final
+44,11/04/2026,06:30,Tamworth,York,0-1,Final
+44,11/04/2026,09:00,Scunthorpe,Brackley Town,1-0,En vivo
+44,11/04/2026,09:00,Southend,Solihull Moors,0-0,En vivo
+44,11/04/2026,09:00,Carlisle,Sutton Utd,3-0,En vivo
+44,11/04/2026,09:00,Yeovil Town,FC Halifax Town,0-0,En vivo
+44,11/04/2026,09:00,Forest Green,Braintree,1-0,En vivo
+44,11/04/2026,09:00,Aldershot Town,Gateshead,0-1,En vivo
+44,11/04/2026,09:00,Woking,Morecambe,2-1,En vivo
+44,11/04/2026,09:00,Altrincham,Eastleigh,1-0,En vivo
+44,11/04/2026,09:00,Boston United,Truro City,1-0,En vivo
 44,11/04/2026,11:30,Rochdale,Wealdstone,,
 32,14/04/2026,13:45,Aldershot Town,Southend,,
 35,14/04/2026,13:45,Woking,Solihull Moors,,

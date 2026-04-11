@@ -92,7 +92,7 @@ def obtener_probabilidades(e_l, e_v):
             if gl > 0 and gv > 0: p_btts += p
     return p_l, p_e, p_v, p_o15, p_o25, p_btts
 
-# --- 4. VENTANA MODAL ACTUALIZADA ---
+# --- 4. VENTANA MODAL ---
 @st.dialog("📊 ANÁLISIS DETALLADO", width="large")
 def ventana_analisis(r, df_h):
     st.title(f"⚽ {r['Match']}")
@@ -103,7 +103,7 @@ def ventana_analisis(r, df_h):
         st.markdown(f"#### 📈 Últimos partidos como {nombre_rol}: {eq}")
         df_eq = df_h[df_h[col_rol] == eq].iloc[::-1].head(10).copy()
         if not df_eq.empty:
-            # Métricas superiores ajustadas
+            # Métricas superiores ajustadas con el punto solicitado
             c1, c2, c3, c4 = st.columns(4)
             m_1x = (df_eq['1X'].str.contains('✅').sum() / len(df_eq))
             m_o15 = (df_eq['Over 1.5'].str.contains('✅').sum() / len(df_eq))
@@ -115,7 +115,6 @@ def ventana_analisis(r, df_h):
             c3.metric("Efectividad. Over 2.5", f"{m_o25:.0%}")
             c4.metric("Efectividad. Btts", f"{m_btts:.0%}")
             
-            # Estructura de tabla igual al Historial
             cols_mostrar = ['Date', 'Time', 'Matchday', 'League', 'Match', 'Result', '1X', 'X2', 'Over 1.5', 'Over 2.5', 'Btts']
             st.dataframe(
                 df_eq[cols_mostrar].style.map(color_letras_historial, subset=['1X', 'X2', 'Over 1.5', 'Over 2.5', 'Btts']), 
@@ -189,7 +188,6 @@ def cargar_datos_completos():
 
 df_p, df_h, lgs = cargar_datos_completos()
 
-# Post-procesamiento de historial para iconos en 1X y X2
 if not df_h.empty:
     for idx, row in df_h.iterrows():
         g_l, g_v = row['G_L'], row['G_V']

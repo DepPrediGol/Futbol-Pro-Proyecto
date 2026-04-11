@@ -106,14 +106,12 @@ def ventana_analisis(r, df_h):
             for idx, fila in df_eq.iterrows():
                 g = extraer_goles(fila['Result'])
                 if g:
-                    match_prob = re.search(r'\((\d+)%\)', str(fila['Double chance']))
-                    prob_str = f" ({match_prob.group(1)}%)" if match_prob else ""
                     if fila['Home team'] == eq:
                         check = "✅" if g[0] >= g[1] else "❌"
-                        df_eq.at[idx, 'Double chance'] = f"1X {check}{prob_str}"
+                        df_eq.at[idx, 'Double chance'] = f"1X {check}"
                     else:
                         check = "✅" if g[1] >= g[0] else "❌"
-                        df_eq.at[idx, 'Double chance'] = f"X2 {check}{prob_str}"
+                        df_eq.at[idx, 'Double chance'] = f"X2 {check}"
             c1, c2, c3 = st.columns(3)
             m_1x = (df_eq['Double chance'].str.contains('✅').sum() / len(df_eq))
             m_o15 = (df_eq['Over 1.5'].str.contains('✅').sum() / len(df_eq))
@@ -175,11 +173,13 @@ def cargar_datos_completos():
                         'Home team': f['home_team'], 'Away team': f['away_team'],
                         'Match': f"{f['home_team']} vs {f['away_team']}",
                         'Result': f"{g[0]} - {g[1]}", 'G_L': g[0], 'G_V': g[1],
-                        '1X': p1x, 'X2': px2, 'Over 1.5': po15, 'Over 2.5': po25, 'Btts': pb,
+                        '1X': f"{'✅' if g[0]>=g[1] else '❌'} {p1x:.0%}",
+                        'X2': f"{'✅' if g[1]>=g[0] else '❌'} px2:.0%", # Ajustado abajo en post-procesamiento
+                        '1X_p': p1x, 'X2_p': px2, # Auxiliares para lógica
                         'Double chance': f"{pk} {'✅' if (g[0]>=g[1] if pk=='1X' else g[1]>=g[0]) else '❌'} ({max(p1x,px2):.0%})",
-                        'v_O1.5': f"{'✅' if (g[0]+g[1])>1.5 else '❌'}", 
-                        'v_O2.5': f"{'✅' if (g[0]+g[1])>2.5 else '❌'}", 
-                        'v_Btts': f"{'✅' if (g[0]>0 and g[1]>0) else '❌'}"
+                        'Over 1.5': f"{'✅' if (g[0]+g[1])>1.5 else '❌'} {po15:.0%}", 
+                        'Over 2.5': f"{'✅' if (g[0]+g[1])>2.5 else '❌'} {po25:.0%}", 
+                        'Btts': f"{'✅' if (g[0]>0 and g[1]>0) else '❌'} {pb:.0%}"
                     })
                 else:
                     actuales.append({
@@ -192,6 +192,13 @@ def cargar_datos_completos():
     return pd.DataFrame(actuales), pd.DataFrame(historicos), sorted(ligas)
 
 df_p, df_h, lgs = cargar_datos_completos()
+
+# Corrección de visualización para historial (Doble Oportunidad individual)
+if not df_h.empty:
+    for idx, row in df_h.iterrows():
+        g_l, g_v = row['G_L'], row['G_V']
+        df_h.at[idx, '1X'] = f"{'✅' if g_l >= g_v else '❌'} {row['1X_p']:.0%}"
+        df_h.at[idx, 'X2'] = f"{'✅' if g_v >= g_l else '❌'} {row['X2_p']:.0%}"
 
 # --- 6. INTERFAZ FINAL ---
 st.markdown('<h1><span class="giro-balon">⚽</span> Bet Pro League</h1>', unsafe_allow_html=True)
@@ -256,7 +263,7 @@ with t1:
                     </div>
                 </div>
                 """, unsafe_allow_html=True)
-        else: st.info("No hay predicciones futuras para el día de hoy.")
+        else: st.info("No hay predicciones futuras para esta selección.")
     
     st.divider()
     st.markdown("## 📜 HISTORIAL DE RESULTADOS")
@@ -269,13 +276,9 @@ with t1:
         df_res = df_hh if sjh=="TODAS" else df_hh[df_hh['Matchday']==sjh]
         
         if not df_res.empty:
-            # Columnas idénticas al cuadro superior + Result
             cols_h = ['Date', 'Time', 'Matchday', 'League', 'Match', 'Result', '1X', 'X2', 'Over 1.5', 'Over 2.5', 'Btts']
-            cols_fmt = ['1X', 'X2', 'Over 1.5', 'Over 2.5', 'Btts']
-            
             st.dataframe(
-                df_res[cols_h].style.map(aplicar_semaforo, subset=cols_fmt)
-                .format({c: '{:.0%}' for c in cols_fmt}), 
+                df_res[cols_h].style.map(color_letras_historial, subset=['1X', 'X2', 'Over 1.5', 'Over 2.5', 'Btts']), 
                 use_container_width=True, hide_index=True
             )
 

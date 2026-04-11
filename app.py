@@ -171,15 +171,13 @@ def cargar_datos_completos():
                 if g:
                     pk = "1X" if p1x >= px2 else "X2"
                     historicos.append({
-                        'Date': f['date'], 'Time': f.get('time','-'), 'Matchday': f['matchday'], 'League': ln, 
-                        'Home team': f['home_team'], 'Away team': f['away_team'],
-                        'Match': f"{f['home_team']} vs {f['away_team']}",
+                        'Date': f['date'], 'League': ln, 'Matchday': f['matchday'],
+                        'Home team': f['home_team'], 'Away team': f['away_team'], 
                         'Result': f"{g[0]} - {g[1]}", 'G_L': g[0], 'G_V': g[1],
-                        '1X': p1x, 'X2': px2, 'Over 1.5': po15, 'Over 2.5': po25, 'Btts': pb,
                         'Double chance': f"{pk} {'✅' if (g[0]>=g[1] if pk=='1X' else g[1]>=g[0]) else '❌'} ({max(p1x,px2):.0%})",
-                        'v_O1.5': f"{'✅' if (g[0]+g[1])>1.5 else '❌'}", 
-                        'v_O2.5': f"{'✅' if (g[0]+g[1])>2.5 else '❌'}", 
-                        'v_Btts': f"{'✅' if (g[0]>0 and g[1]>0) else '❌'}"
+                        'Over 1.5': f"{'✅' if (g[0]+g[1])>1.5 else '❌'} ({po15:.0%})", 
+                        'Over 2.5': f"{'✅' if (g[0]+g[1])>2.5 else '❌'} ({po25:.0%})", 
+                        'Btts': f"{'✅' if (g[0]>0 and g[1]>0) else '❌'} ({pb:.0%})"
                     })
                 else:
                     actuales.append({
@@ -230,15 +228,25 @@ with t1:
             st.dataframe(df_fin[['Date', 'Time', 'Matchday', 'League', 'Match'] + cols_fmt].style.map(aplicar_semaforo, subset=cols_fmt).format({c: '{:.0%}' for c in cols_fmt}), use_container_width=True, hide_index=True)
             st.divider()
             
-            # --- PREDICCIÓN BOMBA ---
+            # --- PREDICCIÓN BOMBA REFORMULADA ---
             d_top = df_fin.loc[df_fin[['Over 1.5', 'Over 2.5', 'Btts']].max(axis=1).idxmax()]
             loc, vis = d_top['Home team'], d_top['Away team']
             h_l_home = df_h[(df_h['Home team'] == loc) & (df_h['League'] == d_top['League'])]
             h_v_away = df_h[(df_h['Away team'] == vis) & (df_h['League'] == d_top['League'])]
             
             if not h_l_home.empty and not h_v_away.empty:
-                t_l, m1_l, m2_l, w1x_l = len(h_l_home), (h_l_home['G_L'] >= 1).sum(), (h_l_home['G_L'] >= 2).sum(), (h_l_home['G_L'] >= h_l_home['G_V']).sum()
-                t_v, m1_v, m2_v, wx2_v = len(h_v_away), (h_v_away['G_V'] >= 1).sum(), (h_v_away['G_V'] >= 2).sum(), (h_v_away['G_V'] >= h_v_away['G_L']).sum()
+                # Datos Local
+                t_l = len(h_l_home)
+                m1_l = (h_l_home['G_L'] >= 1).sum()
+                m2_l = (h_l_home['G_L'] >= 2).sum()
+                w1x_l = (h_l_home['G_L'] >= h_l_home['G_V']).sum()
+                
+                # Datos Visitante (Simetría solicitada)
+                t_v = len(h_v_away)
+                m1_v = (h_v_away['G_V'] >= 1).sum()
+                m2_v = (h_v_away['G_V'] >= 2).sum()
+                wx2_v = (h_v_away['G_V'] >= h_v_away['G_L']).sum()
+                
                 etiqueta_texto = f"1X: {d_top['1X']:.0%}" if d_top['1X'] >= d_top['X2'] else f"X2: {d_top['X2']:.0%}"
                 
                 st.markdown(f"""
@@ -256,7 +264,8 @@ with t1:
                     </div>
                 </div>
                 """, unsafe_allow_html=True)
-        else: st.info("No hay predicciones futuras para el día de hoy.")
+        else:
+            st.info("No hay predicciones futuras para el día de hoy.")
     
     st.divider()
     st.markdown("## 📜 HISTORIAL DE RESULTADOS")
@@ -267,17 +276,9 @@ with t1:
             df_hh = df_h if slh=="TODAS" else df_h[df_h['League']==slh]
             sjh = st.selectbox("Matchday Historial:", ["TODAS"] + sorted(df_hh['Matchday'].unique().tolist(), reverse=True) if not df_hh.empty else ["TODAS"], key="h_j")
         df_res = df_hh if sjh=="TODAS" else df_hh[df_hh['Matchday']==sjh]
-        
         if not df_res.empty:
-            # Columnas idénticas al cuadro superior + Result
-            cols_h = ['Date', 'Time', 'Matchday', 'League', 'Match', 'Result', '1X', 'X2', 'Over 1.5', 'Over 2.5', 'Btts']
-            cols_fmt = ['1X', 'X2', 'Over 1.5', 'Over 2.5', 'Btts']
-            
-            st.dataframe(
-                df_res[cols_h].style.map(aplicar_semaforo, subset=cols_fmt)
-                .format({c: '{:.0%}' for c in cols_fmt}), 
-                use_container_width=True, hide_index=True
-            )
+            cols_h = ['Date', 'Matchday', 'League', 'Home team', 'Away team', 'Result', 'Double chance', 'Over 1.5', 'Over 2.5', 'Btts']
+            st.dataframe(df_res[cols_h].style.map(color_letras_historial, subset=['Double chance', 'Over 1.5', 'Over 2.5', 'Btts']), use_container_width=True, hide_index=True)
 
 with t2:
     st.markdown("## 🏀 BASKETBALL PREDICTIONS")

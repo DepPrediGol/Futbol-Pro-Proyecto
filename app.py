@@ -228,27 +228,33 @@ with t1:
             st.dataframe(df_fin[['Date', 'Time', 'Matchday', 'League', 'Match'] + cols_fmt].style.map(aplicar_semaforo, subset=cols_fmt).format({c: '{:.0%}' for c in cols_fmt}), use_container_width=True, hide_index=True)
             st.divider()
             
-            # --- RESTAURACIÓN DE PREDICCIÓN BOMBA DETALLADA ---
+            # --- PREDICCIÓN BOMBA REFORMULADA ---
             d_top = df_fin.loc[df_fin[['Over 1.5', 'Over 2.5', 'Btts']].max(axis=1).idxmax()]
             loc, vis = d_top['Home team'], d_top['Away team']
             h_l_home = df_h[(df_h['Home team'] == loc) & (df_h['League'] == d_top['League'])]
             h_v_away = df_h[(df_h['Away team'] == vis) & (df_h['League'] == d_top['League'])]
             
             if not h_l_home.empty and not h_v_away.empty:
-                t_l, t_v = len(h_l_home), len(h_v_away)
+                # Datos Local
+                t_l = len(h_l_home)
                 m1_l = (h_l_home['G_L'] >= 1).sum()
                 m2_l = (h_l_home['G_L'] >= 2).sum()
                 w1x_l = (h_l_home['G_L'] >= h_l_home['G_V']).sum()
+                
+                # Datos Visitante (Simetría solicitada)
+                t_v = len(h_v_away)
                 m1_v = (h_v_away['G_V'] >= 1).sum()
+                m2_v = (h_v_away['G_V'] >= 2).sum()
                 wx2_v = (h_v_away['G_V'] >= h_v_away['G_L']).sum()
+                
                 etiqueta_texto = f"1X: {d_top['1X']:.0%}" if d_top['1X'] >= d_top['X2'] else f"X2: {d_top['X2']:.0%}"
                 
                 st.markdown(f"""
                 <div style="background-color: #ff4b4b; padding: 25px; border-radius: 15px; border-left: 12px solid #8B0000; color: white; text-align: center;">
                     <h2 style="color: white !important; margin: 0;">💣 PREDICCIÓN BOMBA DETECTADA 💣</h2>
                     <p style="font-size: 1.1rem; line-height: 1.6; margin-top: 15px;">
-                        El equipo local <b>{loc}</b> lleva {m1_l} de {t_l} marcando al menos 1 gol en casa y de esos {m1_l} partidos {m2_l} ha marcado 2 o más goles, 
-                        ha ganado o empatado en {w1x_l} de {t_l} encuentros como local. El visitante <b>{vis}</b> ha marcado en {m1_v} de {t_v} partidos y ganado/empatado en {wx2_v} de {t_v} juegos.
+                        El equipo local <b>{loc}</b> lleva {m1_l} de {t_l} partidos marcando al menos 1 gol en casa y de esos {m1_l} partidos {m2_l} ha marcado 2 o más goles, ha ganado o empatado en {w1x_l} de {t_l} encuentros como local. 
+                        El equipo visitante <b>{vis}</b> lleva {m1_v} de {t_v} partidos marcando al menos 1 gol como visitante y de esos {m1_v} partidos {m2_v} ha marcado 2 o más goles, ha ganado o empatado en {wx2_v} de {t_v} encuentros como visitante.
                     </p>
                     <div style="display: grid; grid-template-columns: repeat(2, 1fr); gap: 10px; margin-top: 20px;">
                         <div style="background: white; color: #ff4b4b; padding: 10px; border-radius: 10px;">🛡️ <b>{etiqueta_texto}</b></div>

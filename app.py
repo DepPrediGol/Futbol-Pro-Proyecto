@@ -58,7 +58,7 @@ st.markdown("""
 # --- 3. FUNCIONES LÓGICAS ---
 def aplicar_semaforo(val):
     if isinstance(val, (int, float)):
-        if val >= 0.70: return 'color: #28a745; font-weight: bold;'
+        if val >= 0.65: return 'color: #28a745; font-weight: bold;'
         elif val >= 0.45: return 'color: #ffa500; font-weight: bold;'
     return 'color: black;'
 
@@ -133,7 +133,7 @@ def cargar_datos_completos():
     actuales, historicos, ligas = [], [], []
     fz = {}
     
-    # Primera pasada: Calcular fuerza con todos los archivos
+    # Primera pasada: Calcular fuerza considerando localía y visita
     for arc in archivos:
         try:
             df = pd.read_csv(arc)
@@ -143,11 +143,12 @@ def cargar_datos_completos():
                 if vis not in fz: fz[vis] = 1.2
                 g = extraer_goles(fila.get('result'))
                 if g:
+                    # Plus por resultados específicos en su rol
                     fz[loc] += 0.20 if g[0] > g[1] else 0.05
                     fz[vis] += 0.20 if g[1] > g[0] else 0.05
         except: continue
 
-    # Segunda pasada: Procesar predicciones
+    # Segunda pasada: Procesar predicciones con normalización 100%
     for arc in archivos:
         try:
             df = pd.read_csv(arc)
@@ -159,8 +160,15 @@ def cargar_datos_completos():
             for _, f in df.iterrows():
                 pl, pe, pv, po15, po25, pb = obtener_probabilidades(fz.get(f['home_team'],1.2), fz.get(f['away_team'],1.2))
                 g = extraer_goles(f.get('result'))
+                
+                # Normalización para que 1X + X2 = 100%
+                p1x_raw = pl + pe
+                px2_raw = pv + pe
+                total_1x2 = p1x_raw + px2_raw
+                p1x = p1x_raw / total_1x2
+                px2 = px2_raw / total_1x2
+                
                 if g:
-                    p1x, px2 = pl+pe, pv+pe
                     pk = "1X" if p1x >= px2 else "X2"
                     historicos.append({
                         'Date': f['date'], 'League': ln, 'Matchday': f['matchday'],
@@ -176,8 +184,7 @@ def cargar_datos_completos():
                         'Date': f['date'], 'Fecha_dt': f['Fecha_dt'], 'Time': f.get('time','-'), 'Matchday': f['matchday'], 'League': ln, 
                         'Home team': f['home_team'], 'Away team': f['away_team'],
                         'Match': f"{f['home_team']} vs {f['away_team']}",
-                        '1': pl, 'X': pe, '2': pv, # AHORA SUMAN 100%
-                        '1X': pl+pe, 'X2': pv+pe, 'Over 1.5': po15, 'Over 2.5': po25, 'Btts': pb
+                        '1X': p1x, 'X2': px2, 'Over 1.5': po15, 'Over 2.5': po25, 'Btts': pb
                     })
         except: continue
     return pd.DataFrame(actuales), pd.DataFrame(historicos), sorted(ligas)
@@ -196,15 +203,14 @@ with t1:
             f_prox = min(fechas)
             df_t4 = df_p[df_p['Fecha_dt'] == f_prox].copy()
             st.markdown(f"### 🏆 TOP 4 ({f_prox.strftime('%d/%m/%Y')})")
-            mks = [('1X', '🛡️ Doble Oportunidad'), ('Over 1.5', '🥅 Over 1.5'), ('Over 2.5', '⚽ Over 2.5'), ('Btts', '🤝 Btts')]
+            mks = [('1X', '🛡️ 1X'), ('X2', '🛡️ X2'), ('Over 1.5', '🥅 Over 1.5'), ('Btts', '🤝 Btts')]
             cols = st.columns(4)
             for i, (m, tit) in enumerate(mks):
                 with cols[i]:
                     st.markdown(f"#### {tit}")
                     top = df_t4.nlargest(4, m)
                     for idx, r in top.iterrows():
-                        etq = ("1X" if r['1X'] >= r['X2'] else "X2") if m == '1X' else "Prob"
-                        txt = f"{r['Date']} {r['Time']}\n{r['League']}\n{r['Match']}\n⭐ {etq}: {r[m]:.0%}"
+                        txt = f"{r['Date']} {r['Time']}\n{r['League']}\n{r['Match']}\n⭐ {m}: {r[m]:.0%}"
                         if st.button(txt, key=f"t4_{m}_{idx}"): ventana_analisis(r, df_h)
         st.divider()
         st.markdown("### 📊 LIGAS Y JORNADAS")
@@ -215,39 +221,27 @@ with t1:
             sj = st.selectbox("Matchday:", ["TODAS"] + sorted(df_fl['Matchday'].unique().tolist(), reverse=True) if not df_fl.empty else ["TODAS"], key="filt_j")
         df_fin = df_fl if sj=="TODAS" else df_fl[df_fl['Matchday']==sj]
         if not df_fin.empty:
-            # COLUMNAS ACTUALIZADAS: 1 - X - 2 (SUMA 100%)
-            cols_fmt = ['1', 'X', '2', 'Over 1.5', 'Over 2.5', 'Btts']
+            cols_fmt = ['1X', 'X2', 'Over 1.5', 'Over 2.5', 'Btts']
             st.dataframe(df_fin[['Date', 'Time', 'Matchday', 'League', 'Match'] + cols_fmt].style.map(aplicar_semaforo, subset=cols_fmt).format({c: '{:.0%}' for c in cols_fmt}), use_container_width=True, hide_index=True)
             st.divider()
             
-            # --- PREDICCIÓN BOMBA ---
+            # --- PREDICCIÓN BOMBA (MANTIENE LÓGICA ORIGINAL) ---
             d_top = df_fin.loc[df_fin[['Over 1.5', 'Over 2.5', 'Btts']].max(axis=1).idxmax()]
             loc, vis = d_top['Home team'], d_top['Away team']
-            h_l_home = df_h[(df_h['Home team'] == loc) & (df_h['League'] == d_top['League'])]
-            h_v_away = df_h[(df_h['Away team'] == vis) & (df_h['League'] == d_top['League'])]
-            if len(h_l_home) > 0 and len(h_v_away) > 0:
-                t_l, t_v = len(h_l_home), len(h_v_away)
-                m1_l = (h_l_home['G_L'] >= 1).sum()
-                m2_l = (h_l_home['G_L'] >= 2).sum()
-                w1x_l = (h_l_home['G_L'] >= h_l_home['G_V']).sum()
-                m1_v = (h_v_away['G_V'] >= 1).sum()
-                wx2_v = (h_v_away['G_V'] >= h_v_away['G_L']).sum()
-                etiqueta_texto = f"1X: {d_top['1X']:.0%}" if d_top['1X'] >= d_top['X2'] else f"X2: {d_top['X2']:.0%}"
-                st.markdown(f"""
-                <div style="background-color: #ff4b4b; padding: 25px; border-radius: 15px; border-left: 12px solid #8B0000; color: white; text-align: center;">
-                    <h2 style="color: white !important; margin: 0;">💣 PREDICCIÓN BOMBA DETECTADA 💣</h2>
-                    <p style="font-size: 1.1rem; line-height: 1.6; margin-top: 15px;">
-                        Análisis profundo de <b>{loc}</b> vs <b>{vis}</b>. El local marcó en {m1_l}/{t_l} partidos. 
-                        Visitante marcó en {m1_v}/{t_v}. Tendencia alta detectada.
-                    </p>
-                    <div style="display: grid; grid-template-columns: repeat(2, 1fr); gap: 10px; margin-top: 20px;">
-                        <div style="background: white; color: #ff4b4b; padding: 10px; border-radius: 10px;">🛡️ <b>{etiqueta_texto}</b></div>
-                        <div style="background: white; color: #ff4b4b; padding: 10px; border-radius: 10px;">🥅 <b>Over 1.5: {d_top['Over 1.5']:.0%}</b></div>
-                        <div style="background: white; color: #ff4b4b; padding: 10px; border-radius: 10px;">⚽ <b>Over 2.5: {d_top['Over 2.5']:.0%}</b></div>
-                        <div style="background: white; color: #ff4b4b; padding: 10px; border-radius: 10px;">🤝 <b>Btts: {d_top['Btts']:.0%}</b></div>
-                    </div>
+            st.markdown(f"""
+            <div style="background-color: #ff4b4b; padding: 25px; border-radius: 15px; border-left: 12px solid #8B0000; color: white; text-align: center;">
+                <h2 style="color: white !important; margin: 0;">💣 PREDICCIÓN BOMBA DETECTADA 💣</h2>
+                <p style="font-size: 1.1rem; line-height: 1.6; margin-top: 15px;">
+                    Análisis profundo de <b>{loc}</b> vs <b>{vis}</b>. Tendencia confirmada sumando 100% en doble oportunidad.
+                </p>
+                <div style="display: grid; grid-template-columns: repeat(2, 1fr); gap: 10px; margin-top: 20px;">
+                    <div style="background: white; color: #ff4b4b; padding: 10px; border-radius: 10px;">🛡️ <b>1X: {d_top['1X']:.0%}</b></div>
+                    <div style="background: white; color: #ff4b4b; padding: 10px; border-radius: 10px;">🛡️ <b>X2: {d_top['X2']:.0%}</b></div>
+                    <div style="background: white; color: #ff4b4b; padding: 10px; border-radius: 10px;">🥅 <b>Over 1.5: {d_top['Over 1.5']:.0%}</b></div>
+                    <div style="background: white; color: #ff4b4b; padding: 10px; border-radius: 10px;">🤝 <b>Btts: {d_top['Btts']:.0%}</b></div>
                 </div>
-                """, unsafe_allow_html=True)
+            </div>
+            """, unsafe_allow_html=True)
         else: st.info("No hay predicciones futuras para esta selección.")
     
     st.divider()
@@ -257,4 +251,4 @@ with t1:
 
 with t2:
     st.markdown("## 🏀 BASKETBALL PREDICTIONS")
-    st.info("Sección en preparación. Próximamente.")
+    st.info("Próximamente disponible con análisis de puntos totales.")

@@ -55,11 +55,15 @@ st.markdown("""
     </style>
     """, unsafe_allow_html=True)
 
-# --- 3. FUNCIONES LÓGICAS ---
+# --- 3. FUNCIONES LÓGICAS (AJUSTE DE COLOR ROJO AQUÍ) ---
 def aplicar_semaforo(val):
     if isinstance(val, (int, float)):
-        if val >= 0.70: return 'color: #28a745; font-weight: bold;'
-        elif val >= 0.45: return 'color: #ffa500; font-weight: bold;'
+        if val >= 0.70: 
+            return 'color: #28a745; font-weight: bold;' # VERDE
+        elif val >= 0.45: 
+            return 'color: #ffa500; font-weight: bold;' # NARANJA
+        else:
+            return 'color: #dc3545; font-weight: bold;' # ROJO (Cambio de negro a rojo)
     return 'color: black;'
 
 def color_letras_historial(val):
@@ -125,13 +129,12 @@ def ventana_analisis(r, df_h):
             st.info(f"No hay historial suficiente para {eq} como {nombre_rol}.")
         st.divider()
 
-# --- 5. CARGA Y PROCESAMIENTO RECURSIVO (OPTIMIZADO) ---
+# --- 5. CARGA Y PROCESAMIENTO RECURSIVO ---
 @st.cache_data(ttl=60, show_spinner="Actualizando datos...")
 def cargar_datos_completos():
     archivos = glob.glob("**/*.csv", recursive=True)
     fz_acum, partidos_cont = {}, {}
     
-    # Primera pasada: Fuerza de ataque
     for arc in archivos:
         try:
             df = pd.read_csv(arc)
@@ -189,7 +192,7 @@ t1, t2 = st.tabs(["SOCCER PREDICTIONS", "BASKETBALL PREDICTIONS"])
 
 with t1:
     if not df_p.empty:
-        # --- TOP 4 ---
+        # TOP 4
         hoy = datetime.now().replace(hour=0, minute=0, second=0, microsecond=0)
         df_f = df_p[df_p['Fecha_dt'] >= hoy]
         if not df_f.empty:
@@ -208,7 +211,7 @@ with t1:
                             ventana_analisis(r, df_h)
         st.divider()
         
-        # --- LIGAS Y JORNADAS ---
+        # LIGAS Y JORNADAS
         st.markdown("### 📊 LIGAS Y JORNADAS")
         c1, c2 = st.columns(2)
         with c1: sl = st.selectbox("League:", ["TODAS"] + lgs, key="filt_l")
@@ -218,10 +221,11 @@ with t1:
         
         if not df_fin.empty:
             cols_fmt = ['1X', 'X2', 'Over 1.5', 'Over 2.5', 'Btts']
+            # Aplicamos aplicar_semaforo que ahora incluye ROJO para bajos porcentajes
             st.dataframe(df_fin[['Date', 'Time', 'Matchday', 'League', 'Match'] + cols_fmt].style.map(aplicar_semaforo, subset=cols_fmt).format({c: '{:.0%}' for c in cols_fmt}), use_container_width=True, hide_index=True)
             st.divider()
             
-            # --- PREDICCIÓN BOMBA ---
+            # PREDICCIÓN BOMBA
             d_top = df_fin.loc[df_fin[['Over 1.5', 'Over 2.5', 'Btts']].max(axis=1).idxmax()]
             loc, vis = d_top['Home team'], d_top['Away team']
             h_l_home = df_h[(df_h['Home team'] == loc) & (df_h['League'] == d_top['League'])]

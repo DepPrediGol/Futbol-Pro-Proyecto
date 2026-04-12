@@ -248,13 +248,13 @@ matchday,date,time,home_team,away_team,result,status
 31,06/04/2026,09:00,RAAL La Louvière,Dender,0-1,Final
 31,06/04/2026,11:30,Gent,KV Mechelen,1-1,Final
 32,10/04/2026,13:45,Charleroi,Antwerp,2-1,Final
-32,11/04/2026,09:00,Cercle Brugge,RAAL La Louvière,1-0,En vivo
-32,11/04/2026,11:15,Standard Liege,KVC Westerlo,,
-32,11/04/2026,13:45,St. Truiden,Club Brugge KV,,
-32,12/04/2026,06:30,KV Mechelen,Union St. Gilloise,,
-32,12/04/2026,09:00,Genk,OH Leuven,,
-32,12/04/2026,11:30,Anderlecht,Gent,,
-32,12/04/2026,12:15,Dender,Zulte Waregem,,
+32,11/04/2026,09:00,Cercle Brugge,RAAL La Louvière,3-0,Final
+32,11/04/2026,11:15,Standard Liege,KVC Westerlo,1-2,Final
+32,11/04/2026,13:45,St. Truiden,Club Brugge KV,1-2,Final
+32,12/04/2026,06:30,KV Mechelen,Union St. Gilloise,0-1,Final
+32,12/04/2026,09:00,Genk,OH Leuven,0-0,Final
+32,12/04/2026,11:30,Anderlecht,Gent,3-1,Final
+32,12/04/2026,12:15,Dender,Zulte Waregem,1-2,Final
 33,18/04/2026,09:00,Antwerp,OH Leuven,,
 33,18/04/2026,11:15,KVC Westerlo,Genk,,
 33,18/04/2026,11:15,Charleroi,Standard Liege,,

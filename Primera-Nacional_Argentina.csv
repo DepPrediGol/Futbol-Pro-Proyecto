@@ -125,21 +125,21 @@ matchday,date,time,home_team,away_team,result,status
 8,05/04/2026,18:00,Atletico DE Rafaela,Club Atlético Güemes,1-2,Final
 8,07/04/2026,19:00,Atlanta,Nueva Chicago,1-2,Final
 7,08/04/2026,18:00,Midland,Acassuso,1-0,Final
-9,11/04/2026,13:30,Almagro,Patronato,,
-9,11/04/2026,13:30,San Miguel,Deportivo Moron,,
-9,11/04/2026,13:30,San Telmo,Godoy Cruz,,
-9,11/04/2026,17:00,Colon Santa Fe,Racing Cordoba,,
-9,12/04/2026,13:30,Acassuso,Los Andes,,
-9,12/04/2026,13:30,Chacarita Juniors,Gimnasia Y Tiro,,
-9,12/04/2026,13:30,Defensores De Belgrano,Ciudad de Bolívar,,
-9,12/04/2026,13:30,Ferro Carril Oeste,CA Estudiantes,,
-9,12/04/2026,13:30,Temperley,Quilmes,,
-9,12/04/2026,14:00,Agropecuario,Gimnasia Jujuy,,
-9,12/04/2026,14:00,Deportivo Madryn,Almirante Brown,,
-9,12/04/2026,15:00,Central Norte,Atletico Mitre,,
-9,12/04/2026,15:00,Chaco For Ever,All Boys,,
-9,12/04/2026,15:00,Club Atlético Güemes,San Martin Tucuman,,
+9,11/04/2026,13:30,Almagro,Patronato,0-1,Final
+9,11/04/2026,13:30,San Miguel,Deportivo Moron,2-1,Final
+9,11/04/2026,13:30,San Telmo,Godoy Cruz,2-0,Final
+9,12/04/2026,13:00,Acassuso,Los Andes,0-1,Final
+9,12/04/2026,13:00,Chacarita Juniors,Gimnasia Y Tiro,2-0,Final
+9,12/04/2026,13:00,Defensores De Belgrano,Ciudad de Bolívar,0-0,Final
+9,12/04/2026,13:00,Ferro Carril Oeste,CA Estudiantes,0-1,Final
+9,12/04/2026,13:00,Temperley,Quilmes,3-3,Final
+9,12/04/2026,14:00,Agropecuario,Gimnasia Jujuy,1-2,En vivo
+9,12/04/2026,14:00,Deportivo Madryn,Almirante Brown,2-1,Final
+9,12/04/2026,15:00,Central Norte,Atletico Mitre,0-0,En vivo
+9,12/04/2026,15:00,Chaco For Ever,All Boys,0-0,En vivo
+9,12/04/2026,15:00,Club Atlético Güemes,San Martin Tucuman,0-1,En vivo
 9,12/04/2026,16:30,Deportivo Maipu,Colegiales,,
+9,12/04/2026,17:00,Colon Santa Fe,Racing Cordoba,,
 9,13/04/2026,13:00,Tristan Suarez,Atletico DE Rafaela,,
 9,13/04/2026,17:00,Nueva Chicago,Midland,,
 9,13/04/2026,19:00,San Martin S.J.,Atlanta,,

@@ -151,9 +151,9 @@ matchday,date,time,home_team,away_team,result,status
 7,07/04/2026,16:00,Águilas Doradas,Bucaramanga,2-1,Final
 16,10/04/2026,15:30,Deportivo Pereira,Once Caldas,0-0,Final
 16,10/04/2026,20:05,Deportivo Pasto,Deportes Tolima,1-0,Final
-16,11/04/2026,16:00,Águilas Doradas,Junior,,
-16,11/04/2026,20:20,Independiente Medellin,Atletico Nacional,,
-16,12/04/2026,14:00,Millonarios,Santa Fe,,
+16,11/04/2026,16:00,Águilas Doradas,Junior,0-3,Final
+16,11/04/2026,20:20,Independiente Medellin,Atletico Nacional,2-3,Final
+16,12/04/2026,14:00,Millonarios,Santa Fe,1-1,Final
 9,12/04/2026,16:10,Deportivo Cali,Llaneros,,
 16,12/04/2026,18:20,Bucaramanga,Chico,,
 16,12/04/2026,20:30,Internacional de Bogota,Alianza Valledupar,,

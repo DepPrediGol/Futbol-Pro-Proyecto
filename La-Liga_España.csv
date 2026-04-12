@@ -301,13 +301,13 @@ matchday,date,time,home_team,away_team,result,status
 30,06/04/2026,14:00,Girona,Villarreal,1-0,Final
 31,10/04/2026,14:00,Real Madrid,Girona,1-1,Final
 31,11/04/2026,07:00,Real Sociedad,Alaves,3-3,Final
-31,11/04/2026,09:15,Elche,Valencia,0-0,En vivo
-31,11/04/2026,11:30,Barcelona,Espanyol,,
-31,11/04/2026,14:00,Sevilla,Atletico Madrid,,
-31,12/04/2026,07:00,Osasuna,Real Betis,,
-31,12/04/2026,09:15,Mallorca,Rayo Vallecano,,
-31,12/04/2026,11:30,Celta Vigo,Oviedo,,
-31,12/04/2026,14:00,Athletic Club,Villarreal,,
+31,11/04/2026,09:15,Elche,Valencia,1-0,Final
+31,11/04/2026,11:30,Barcelona,Espanyol,4-1,Final
+31,11/04/2026,14:00,Sevilla,Atletico Madrid,2-1,Final
+31,12/04/2026,07:00,Osasuna,Real Betis,1-1,Final
+31,12/04/2026,09:15,Mallorca,Rayo Vallecano,3-0,Final
+31,12/04/2026,11:30,Celta Vigo,Oviedo,0-3,Final
+31,12/04/2026,14:00,Athletic Club,Villarreal,1-2,Final
 31,13/04/2026,14:00,Levante,Getafe,,
 33,21/04/2026,12:00,Athletic Club,Osasuna,,
 33,21/04/2026,12:00,Mallorca,Valencia,,

@@ -88,19 +88,19 @@ matchday,date,time,home_team,away_team,result,status
 6,04/04/2026,21:30,Los Angeles Galaxy,Minnesota United FC,1-2,Final
 6,04/04/2026,21:30,Vancouver Whitecaps,Portland Timbers,3-2,Final
 6,04/04/2026,21:30,San Jose Earthquakes,San Diego,3-0,Final
-7,11/04/2026,12:00,Toronto FC,FC Cincinnati,,
-7,11/04/2026,13:30,Austin,Los Angeles Galaxy,,
-7,11/04/2026,13:30,CF Montreal,Philadelphia Union,,
-7,11/04/2026,15:45,Portland Timbers,Los Angeles FC,,
-7,11/04/2026,18:30,Inter Miami,New York Red Bulls,,
-7,11/04/2026,18:30,Vancouver Whitecaps,New York City FC,,
-7,11/04/2026,18:30,Charlotte,Nashville SC,,
-7,11/04/2026,18:30,New England Revolution,DC United,,
-7,11/04/2026,19:30,Chicago Fire,Atlanta United FC,,
-7,11/04/2026,19:30,FC Dallas,St. Louis City,,
-7,11/04/2026,19:30,Sporting Kansas City,San Jose Earthquakes,,
-7,11/04/2026,20:30,Colorado Rapids,Houston Dynamo,,
-7,11/04/2026,21:30,San Diego,Minnesota United FC,,
+7,11/04/2026,12:00,Toronto FC,FC Cincinnati,1-1,Final
+7,11/04/2026,13:30,Austin,Los Angeles Galaxy,1-2,Final
+7,11/04/2026,13:30,CF Montreal,Philadelphia Union,1-2,Final
+7,11/04/2026,15:45,Portland Timbers,Los Angeles FC,2-1,Final
+7,11/04/2026,18:30,Inter Miami,New York Red Bulls,2-2,Final
+7,11/04/2026,18:30,Vancouver Whitecaps,New York City FC,2-0,Final
+7,11/04/2026,18:30,Charlotte,Nashville SC,1-2,Final
+7,11/04/2026,18:30,New England Revolution,DC United,1-0,Final
+7,11/04/2026,19:30,Chicago Fire,Atlanta United FC,1-0,Final
+7,11/04/2026,19:30,FC Dallas,St. Louis City,1-1,Final
+7,11/04/2026,19:30,Sporting Kansas City,San Jose Earthquakes,1-3,Final
+7,11/04/2026,20:30,Colorado Rapids,Houston Dynamo,6-2,Final
+7,11/04/2026,21:30,San Diego,Minnesota United FC,1-2,Final
 7,12/04/2026,18:00,Columbus Crew,Orlando City SC,,
 8,17/04/2026,21:30,Vancouver Whitecaps,Sporting Kansas City,,
 8,18/04/2026,12:00,Toronto FC,Austin,,

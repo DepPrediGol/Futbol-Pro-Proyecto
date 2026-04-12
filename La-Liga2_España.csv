@@ -374,15 +374,15 @@ matchday,date,time,home_team,away_team,result,status
 34,06/04/2026,12:00,Castellón,Granada CF,3-2,Final
 34,06/04/2026,13:30,Sporting Gijon,Real Sociedad II,1-0,Final
 35,10/04/2026,13:30,AD Ceuta FC,Real Sociedad II,0-0,Final
-35,11/04/2026,09:15,Leganes,Albacete,0-0,En vivo
-35,11/04/2026,09:15,Burgos,Sporting Gijon,0-0,En vivo
-35,11/04/2026,11:30,Malaga,Las Palmas,,
-35,11/04/2026,14:00,Cordoba,Zaragoza,,
-35,12/04/2026,07:00,Granada CF,Cultural Leonesa,,
-35,12/04/2026,09:15,Huesca,Deportivo La Coruna,,
-35,12/04/2026,11:30,Cadiz,FC Andorra,,
-35,12/04/2026,11:30,Mirandes,Castellón,,
-35,12/04/2026,14:00,Racing Santander,Almeria,,
+35,11/04/2026,09:15,Leganes,Albacete,2-1,Final
+35,11/04/2026,09:15,Burgos,Sporting Gijon,1-0,Final
+35,11/04/2026,11:30,Malaga,Las Palmas,2-0,Final
+35,11/04/2026,14:00,Cordoba,Zaragoza,1-0,Final
+35,12/04/2026,07:00,Granada CF,Cultural Leonesa,1-0,Final
+35,12/04/2026,09:15,Huesca,Deportivo La Coruna,1-1,Final
+35,12/04/2026,11:30,Cadiz,FC Andorra,0-1,Final
+35,12/04/2026,11:30,Mirandes,Castellón,2-2,Final
+35,12/04/2026,14:00,Racing Santander,Almeria,5-1,Final
 35,13/04/2026,13:30,Valladolid,Eibar,,
 36,17/04/2026,13:30,Real Sociedad II,Racing Santander,,
 36,17/04/2026,14:00,Las Palmas,Leganes,,

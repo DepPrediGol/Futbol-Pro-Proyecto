@@ -251,13 +251,13 @@ matchday,date,time,home_team,away_team,result,status
 28,06/04/2026,12:45,Arouca,Estoril,3-2,Final
 28,06/04/2026,14:45,Casa Pia,Benfica,1-1,Final
 29,10/04/2026,14:45,Famalicao,Moreirense,1-1,Final
-29,11/04/2026,09:30,AVS,Guimaraes,0-0,En vivo
-29,11/04/2026,12:00,Santa Clara,Rio Ave,,
-29,11/04/2026,14:30,Estrela,Sporting CP,,
-29,12/04/2026,09:30,Alverca,Casa Pia,,
-29,12/04/2026,12:00,Benfica,Nacional,,
-29,12/04/2026,12:00,SC Braga,Arouca,,
-29,12/04/2026,14:30,Estoril,FC Porto,,
+29,11/04/2026,09:30,AVS,Guimaraes,1-1,Final
+29,11/04/2026,12:00,Santa Clara,Rio Ave,0-2,Final
+29,11/04/2026,14:30,Estrela,Sporting CP,0-1,Final
+29,12/04/2026,09:30,Alverca,Casa Pia,3-1,Final
+29,12/04/2026,12:00,Benfica,Nacional,2-0,Final
+29,12/04/2026,12:00,SC Braga,Arouca,1-0,Final
+29,12/04/2026,14:30,Estoril,FC Porto,0-2,En vivo
 29,13/04/2026,14:15,Tondela,GIL Vicente,,
 30,17/04/2026,14:45,Rio Ave,AVS,,
 30,18/04/2026,09:30,Nacional,Alverca,,

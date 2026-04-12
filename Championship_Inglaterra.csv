@@ -493,14 +493,14 @@ matchday,date,time,home_team,away_team,result,status
 42,11/04/2026,06:30,Norwich,Ipswich,0-2,Final
 42,11/04/2026,06:30,QPR,Bristol City,0-0,Final
 42,11/04/2026,06:30,Coventry,Sheffield Wednesday,0-0,Final
-42,11/04/2026,09:00,Southampton,Derby,0-1,En vivo
-42,11/04/2026,09:00,Leicester,Swansea,0-0,En vivo
-42,11/04/2026,09:00,Sheffield Utd,Hull City,0-1,En vivo
-42,11/04/2026,09:00,Middlesbrough,Portsmouth,0-0,En vivo
-42,11/04/2026,09:00,Stoke City,Blackburn,0-1,En vivo
-42,11/04/2026,09:00,Charlton,Preston,1-1,En vivo
-42,11/04/2026,09:00,Oxford United,Watford,1-0,En vivo
-42,12/04/2026,06:00,Birmingham,Wrexham,,
+42,11/04/2026,09:00,Southampton,Derby,2-1,Final
+42,11/04/2026,09:00,Leicester,Swansea,0-1,Final
+42,11/04/2026,09:00,Sheffield Utd,Hull City,2-1,Final
+42,11/04/2026,09:00,Middlesbrough,Portsmouth,0-1,Final
+42,11/04/2026,09:00,Stoke City,Blackburn,1-1,Final
+42,11/04/2026,09:00,Charlton,Preston,1-2,Final
+42,11/04/2026,09:00,Oxford United,Watford,2-0,Final
+42,12/04/2026,06:00,Birmingham,Wrexham,2-0,Final
 26,14/04/2026,14:00,Portsmouth,Ipswich,,
 43,17/04/2026,14:00,Blackburn,Coventry,,
 43,18/04/2026,06:30,Millwall,QPR,,

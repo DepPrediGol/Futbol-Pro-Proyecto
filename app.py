@@ -9,76 +9,106 @@ from datetime import datetime, timedelta
 # --- 1. CONFIGURACIÓN ---
 st.set_page_config(page_title="Bet Pro League", layout="wide", page_icon="⚽")
 
-# --- 2. ESTILOS, PRIVACIDAD Y RESPONSIVE ---
+# --- 2. CSS AVANZADO (ANTI-MODO OSCURO Y ESTILOS) ---
 st.markdown("""
     <style>
-    @media (max-width: 640px) {
-        .main .block-container { padding: 10px !important; margin-top: 0px !important; }
-        h1 { font-size: 1.5rem !important; }
-    }
-    header {visibility: hidden !important;}
-    footer {display: none !important;}
-    [data-testid="stStatusWidget"], .stAppDeployButton { display: none !important; visibility: hidden !important; }
+    /* Forzar fondo general */
     .stApp { 
         background-image: url("https://images.unsplash.com/photo-1556056504-5c7696c4c28d?q=80&w=2076&auto=format&fit=crop"); 
         background-attachment: fixed; background-size: cover; 
     }
-    .main .block-container { background-color: rgba(255, 255, 255, 0.95); border-radius: 10px; padding: 30px; margin-top: 20px; }
-    h1, h2, h3, h4, p, span, div, label, .stMetric { color: #000000 !important; font-weight: bold; }
     
+    /* Contenedor principal: siempre blanco */
+    .main .block-container { 
+        background-color: rgba(255, 255, 255, 0.98) !important; 
+        border-radius: 15px; padding: 30px; margin-top: 20px;
+        color: black !important;
+    }
+
+    /* FORZAR TEXTO NEGRO EN TODO EL PANEL */
+    h1, h2, h3, h4, h5, h6, p, span, label, .stMetric, [data-testid="stHeader"] {
+        color: #000000 !important;
+        font-weight: bold !important;
+    }
+
+    /* SELECTORES (FILTROS) - FORZAR BLANCO */
+    div[data-baseweb="select"] > div {
+        background-color: white !important;
+        color: black !important;
+        border: 1px solid #28a745 !important;
+    }
+    div[data-testid="stSelectbox"] label p {
+        color: black !important;
+        font-size: 1.1rem !important;
+    }
+    /* Lista desplegable de los filtros */
+    div[data-baseweb="popover"] div {
+        background-color: white !important;
+        color: black !important;
+    }
+
+    /* TABLAS (DATAFRAMES) - FORZAR FONDO CLARO */
+    div[data-testid="stDataFrame"] {
+        background-color: white !important;
+        border: 1px solid #ddd !important;
+        border-radius: 10px;
+        padding: 5px;
+    }
+
+    /* BOTONES DEL TOP 4 */
     div.stButton > button {
         width: 100% !important;
         height: 180px !important;
-        min-height: 180px !important;
-        max-height: 180px !important;
         background-color: white !important;
         color: black !important;
-        border: 1px solid #ddd !important;
-        border-radius: 12px !important;
-        padding: 10px !important;
-        box-shadow: 2px 2px 8px rgba(0,0,0,0.1) !important;
-        display: flex !important;
-        flex-direction: column !important;
-        justify-content: center !important;
-        align-items: center !important;
-        text-align: center !important;
-        font-size: 0.85rem !important;
-        white-space: pre-line !important;
-        overflow: hidden !important;
+        border: 2px solid #eee !important;
+        border-radius: 15px !important;
+        box-shadow: 0px 4px 10px rgba(0,0,0,0.1) !important;
+        font-size: 0.9rem !important;
+        font-weight: bold !important;
+        transition: all 0.3s ease;
     }
     div.stButton > button:hover {
         border-color: #28a745 !important;
-        transform: translateY(-3px) !important;
+        transform: translateY(-5px);
+        box-shadow: 0px 6px 15px rgba(0,0,0,0.2) !important;
     }
+
+    /* TABS (Pestañas) */
+    button[data-baseweb="tab"] {
+        color: black !important;
+        font-weight: bold !important;
+    }
+
+    /* Ocultar elementos de Streamlit */
+    header {visibility: hidden !important;}
+    footer {display: none !important;}
+    [data-testid="stStatusWidget"], .stAppDeployButton { display: none !important; }
+
     .giro-balon { display: inline-block; animation: rotacion 3s infinite linear; }
     @keyframes rotacion { from { transform: rotate(0deg); } to { transform: rotate(360deg); } }
     </style>
     """, unsafe_allow_html=True)
 
-# --- 3. FUNCIONES LÓGICAS (AJUSTE DE COLOR ROJO AQUÍ) ---
+# --- 3. FUNCIONES LÓGICAS ---
 def aplicar_semaforo(val):
     if isinstance(val, (int, float)):
-        if val >= 0.70: 
-            return 'color: #28a745; font-weight: bold;' # VERDE
-        elif val >= 0.45: 
-            return 'color: #ffa500; font-weight: bold;' # NARANJA
-        else:
-            return 'color: #dc3545; font-weight: bold;' # ROJO (Cambio de negro a rojo)
+        if val >= 0.70: return 'color: #28a745; font-weight: bold;'
+        elif val >= 0.45: return 'color: #ffa500; font-weight: bold;'
+        else: return 'color: #dc3545; font-weight: bold;'
     return 'color: black;'
 
 def color_letras_historial(val):
-    val_str = str(val)
-    if '✅' in val_str: return 'color: #28a745; font-weight: bold;'
-    if '❌' in val_str: return 'color: #dc3545; font-weight: bold;'
+    v = str(val)
+    if '✅' in v: return 'color: #28a745; font-weight: bold;'
+    if '❌' in v: return 'color: #dc3545; font-weight: bold;'
     return 'color: black;'
 
 def extraer_goles(resultado_str):
     if pd.isna(resultado_str): return None
-    res_limpio = str(resultado_str).strip()
-    if res_limpio == "" or res_limpio.lower() == "nan": return None
-    res_limpio = re.sub(r'\(.*?\)', '', res_limpio).strip()
-    numeros = re.findall(r'\d+', res_limpio.replace(':', '-'))
-    return (int(numeros[0]), int(numeros[1])) if len(numeros) >= 2 else None
+    res = re.sub(r'\(.*?\)', '', str(resultado_str)).strip()
+    nums = re.findall(r'\d+', res.replace(':', '-'))
+    return (int(nums[0]), int(nums[1])) if len(nums) >= 2 else None
 
 def calcular_poisson(media, x):
     if media <= 0: return 0.001
@@ -98,70 +128,36 @@ def obtener_probabilidades(e_l, e_v):
             if gl > 0 and gv > 0: p_btts += p
     return p_l, p_e, p_v, p_o15, p_o25, p_btts
 
-# --- 4. VENTANA MODAL ---
-@st.dialog("📊 ANÁLISIS DETALLADO", width="large")
-def ventana_analisis(r, df_h):
-    st.title(f"⚽ {r['Match']}")
-    st.subheader(f"🏆 {r['League']} | 📅 {r['Date']}")
-    st.divider()
-    roles = [(r['Home team'], 'Home team', 'Local'), (r['Away team'], 'Away team', 'Visitante')]
-    for eq, col_rol, nombre_rol in roles:
-        st.markdown(f"#### 📈 Últimos partidos como {nombre_rol}: {eq}")
-        df_eq = df_h[df_h[col_rol] == eq].iloc[::-1].head(10).copy()
-        if not df_eq.empty:
-            c1, c2, c3, c4 = st.columns(4)
-            m_1x = (df_eq['1X'].str.contains('✅').sum() / len(df_eq))
-            m_o15 = (df_eq['Over 1.5'].str.contains('✅').sum() / len(df_eq))
-            m_o25 = (df_eq['Over 2.5'].str.contains('✅').sum() / len(df_eq))
-            m_btts = (df_eq['Btts'].str.contains('✅').sum() / len(df_eq))
-            
-            c1.metric(f"Efectividad. {('1X' if nombre_rol=='Local' else 'X2')}", f"{m_1x:.0%}")
-            c2.metric("Efectividad. Over 1.5", f"{m_o15:.0%}")
-            c3.metric("Efectividad. Over 2.5", f"{m_o25:.0%}")
-            c4.metric("Efectividad. Btts", f"{m_btts:.0%}")
-            
-            cols_mostrar = ['Date', 'Time', 'Matchday', 'League', 'Match', 'Result', '1X', 'X2', 'Over 1.5', 'Over 2.5', 'Btts']
-            st.dataframe(
-                df_eq[cols_mostrar].style.map(color_letras_historial, subset=['1X', 'X2', 'Over 1.5', 'Over 2.5', 'Btts']), 
-                use_container_width=True, hide_index=True
-            )
-        else:
-            st.info(f"No hay historial suficiente para {eq} como {nombre_rol}.")
-        st.divider()
-
-# --- 5. CARGA Y PROCESAMIENTO RECURSIVO ---
-@st.cache_data(ttl=60, show_spinner="Actualizando datos...")
-def cargar_datos_completos():
+# --- 4. CARGA DE DATOS (OPTIMIZADA) ---
+@st.cache_data(ttl=60)
+def cargar_todo():
     archivos = glob.glob("**/*.csv", recursive=True)
-    fz_acum, partidos_cont = {}, {}
-    
+    fz_acum, part_cont = {}, {}
     for arc in archivos:
         try:
             df = pd.read_csv(arc)
-            for _, fila in df.iterrows():
-                loc, vis = fila['home_team'], fila['away_team']
-                g = extraer_goles(fila.get('result'))
+            for _, f in df.iterrows():
+                l, v = f['home_team'], f['away_team']
+                g = extraer_goles(f.get('result'))
                 if g:
-                    fz_acum[loc] = fz_acum.get(loc, 0) + g[0]
-                    fz_acum[vis] = fz_acum.get(vis, 0) + g[1]
-                    partidos_cont[loc] = partidos_cont.get(loc, 0) + 1
-                    partidos_cont[vis] = partidos_cont.get(vis, 0) + 1
+                    fz_acum[l] = fz_acum.get(l, 0) + g[0]
+                    fz_acum[v] = fz_acum.get(v, 0) + g[1]
+                    part_cont[l] = part_cont.get(l, 0) + 1
+                    part_cont[v] = part_cont.get(v, 0) + 1
         except: continue
-
-    fz = {eq: (fz_acum[eq] / partidos_cont[eq] if partidos_cont[eq] > 0 else 1.2) for eq in fz_acum}
-
+    
+    fz = {eq: (fz_acum[eq]/part_cont[eq]) if part_cont.get(eq,0)>0 else 1.2 for eq in fz_acum}
     actuales, historicos, ligas = [], [], []
+
     for arc in archivos:
         try:
             df = pd.read_csv(arc)
             ln = os.path.basename(arc).replace('.csv','')
             if ln not in ligas: ligas.append(ln)
-            
             for _, f in df.iterrows():
                 pl, pe, pv, po15, po25, pb = obtener_probabilidades(fz.get(f['home_team'],1.2), fz.get(f['away_team'],1.2))
-                total_p = (pl + pe) + (pv + pe)
-                p1x, px2 = (pl + pe)/total_p if total_p > 0 else 0.5, (pv + pe)/total_p if total_p > 0 else 0.5
-                
+                total = pl+pe+pv+pe
+                p1x, px2 = (pl+pe)/total, (pv+pe)/total
                 g = extraer_goles(f.get('result'))
                 if g:
                     historicos.append({
@@ -184,9 +180,26 @@ def cargar_datos_completos():
         except: continue
     return pd.DataFrame(actuales), pd.DataFrame(historicos), sorted(ligas)
 
-df_p, df_h, lgs = cargar_datos_completos()
+df_p, df_h, lgs = cargar_todo()
 
-# --- 6. INTERFAZ FINAL ---
+# --- 5. VENTANA MODAL ---
+@st.dialog("📊 ANÁLISIS DETALLADO", width="large")
+def ventana_analisis(r, df_h):
+    st.markdown(f"## ⚽ {r['Match']}")
+    st.divider()
+    for eq, col, nom in [(r['Home team'], 'Home team', 'Local'), (r['Away team'], 'Away team', 'Visitante')]:
+        st.markdown(f"#### 📈 Últimos 10 partidos como {nom}: {eq}")
+        df_eq = df_h[df_h[col] == eq].iloc[::-1].head(10)
+        if not df_eq.empty:
+            c = st.columns(4)
+            c[0].metric(f"Efectividad {('1X' if nom=='Local' else 'X2')}", f"{(df_eq['1X' if nom=='Local' else 'X2'].str.contains('✅').sum()/len(df_eq)):.0%}")
+            c[1].metric("Over 1.5", f"{(df_eq['Over 1.5'].str.contains('✅').sum()/len(df_eq)):.0%}")
+            c[2].metric("Over 2.5", f"{(df_eq['Over 2.5'].str.contains('✅').sum()/len(df_eq)):.0%}")
+            c[3].metric("Btts", f"{(df_eq['Btts'].str.contains('✅').sum()/len(df_eq)):.0%}")
+            st.dataframe(df_eq[['Date', 'Time', 'Matchday', 'Match', 'Result', '1X', 'X2', 'Over 1.5', 'Over 2.5', 'Btts']].style.map(color_letras_historial, subset=['1X', 'X2', 'Over 1.5', 'Over 2.5', 'Btts']), use_container_width=True, hide_index=True)
+        st.divider()
+
+# --- 6. INTERFAZ ---
 st.markdown('<h1><span class="giro-balon">⚽</span> Bet Pro League</h1>', unsafe_allow_html=True)
 t1, t2 = st.tabs(["SOCCER PREDICTIONS", "BASKETBALL PREDICTIONS"])
 
@@ -211,43 +224,42 @@ with t1:
                             ventana_analisis(r, df_h)
         st.divider()
         
-        # LIGAS Y JORNADAS
+        # FILTROS
         st.markdown("### 📊 LIGAS Y JORNADAS")
         c1, c2 = st.columns(2)
-        with c1: sl = st.selectbox("League:", ["TODAS"] + lgs, key="filt_l")
+        with c1: sl = st.selectbox("Seleccione Liga:", ["TODAS"] + lgs, key="l_act")
         df_fl = df_p if sl=="TODAS" else df_p[df_p['League']==sl]
-        with c2: sj = st.selectbox("Matchday:", ["TODAS"] + sorted(df_fl['Matchday'].unique().tolist(), reverse=True) if not df_fl.empty else ["TODAS"], key="filt_j")
+        with c2: sj = st.selectbox("Seleccione Jornada:", ["TODAS"] + sorted(df_fl['Matchday'].unique().tolist(), reverse=True) if not df_fl.empty else ["TODAS"], key="j_act")
         df_fin = df_fl if sj=="TODAS" else df_fl[df_fl['Matchday']==sj]
         
         if not df_fin.empty:
-            cols_fmt = ['1X', 'X2', 'Over 1.5', 'Over 2.5', 'Btts']
-            # Aplicamos aplicar_semaforo que ahora incluye ROJO para bajos porcentajes
-            st.dataframe(df_fin[['Date', 'Time', 'Matchday', 'League', 'Match'] + cols_fmt].style.map(aplicar_semaforo, subset=cols_fmt).format({c: '{:.0%}' for c in cols_fmt}), use_container_width=True, hide_index=True)
+            cols_f = ['1X', 'X2', 'Over 1.5', 'Over 2.5', 'Btts']
+            st.dataframe(df_fin[['Date', 'Time', 'Matchday', 'League', 'Match'] + cols_f].style.map(aplicar_semaforo, subset=cols_f).format({c: '{:.0%}' for c in cols_f}), use_container_width=True, hide_index=True)
             st.divider()
             
-            # PREDICCIÓN BOMBA
-            d_top = df_fin.loc[df_fin[['Over 1.5', 'Over 2.5', 'Btts']].max(axis=1).idxmax()]
-            loc, vis = d_top['Home team'], d_top['Away team']
-            h_l_home = df_h[(df_h['Home team'] == loc) & (df_h['League'] == d_top['League'])]
-            h_v_away = df_h[(df_h['Away team'] == vis) & (df_h['League'] == d_top['League'])]
+            # --- PREDICCIÓN BOMBA (RESTAURADA AL 100%) ---
+            d_b = df_fin.loc[df_fin[['Over 1.5', 'Over 2.5', 'Btts']].max(axis=1).idxmax()]
+            loc, vis = d_b['Home team'], d_b['Away team']
+            h_l = df_h[(df_h['Home team'] == loc) & (df_h['League'] == d_b['League'])]
+            h_v = df_h[(df_h['Away team'] == vis) & (df_h['League'] == d_b['League'])]
             
-            if not h_l_home.empty and not h_v_away.empty:
-                t_l, m1_l, m2_l, w1x_l = len(h_l_home), (h_l_home['G_L'] >= 1).sum(), (h_l_home['G_L'] >= 2).sum(), (h_l_home['1X'].str.contains('✅')).sum()
-                t_v, m1_v, m2_v, wx2_v = len(h_v_away), (h_v_away['G_V'] >= 1).sum(), (h_v_away['G_V'] >= 2).sum(), (h_v_away['X2'].str.contains('✅')).sum()
-                etiqueta = f"1X: {d_top['1X']:.0%}" if d_top['1X'] >= d_top['X2'] else f"X2: {d_top['X2']:.0%}"
+            if not h_l.empty and not h_v.empty:
+                t_l, m1_l, m2_l, w_l = len(h_l), (h_l['G_L']>=1).sum(), (h_l['G_L']>=2).sum(), (h_l['1X'].str.contains('✅')).sum()
+                t_v, m1_v, m2_v, w_v = len(h_v), (h_v['G_V']>=1).sum(), (h_v['G_V']>=2).sum(), (h_v['X2'].str.contains('✅')).sum()
+                etq_b = f"1X: {d_b['1X']:.0%}" if d_b['1X'] >= d_b['X2'] else f"X2: {d_b['X2']:.0%}"
                 
                 st.markdown(f"""
-                <div style="background-color: #ff4b4b; padding: 25px; border-radius: 15px; border-left: 12px solid #8B0000; color: white; text-align: center;">
-                    <h2 style="color: white !important; margin: 0;">💣 PREDICCIÓN BOMBA DETECTADA 💣</h2>
-                    <p style="font-size: 1.1rem; line-height: 1.6; margin-top: 15px;">
-                        El equipo local <b>{loc}</b> lleva {m1_l} de {t_l} partidos marcando al menos 1 gol en casa y de esos {m1_l} partidos {m2_l} ha marcado 2 o más goles, ha ganado o empatado en {w1x_l} de {t_l} encuentros como local. 
-                        El equipo visitante <b>{vis}</b> lleva {m1_v} de {t_v} partidos marcando al menos 1 gol como visitante y de esos {m1_v} partidos {m2_v} ha marcado 2 o más goles, ha ganado o empatado en {wx2_v} de {t_v} encuentros como visitante.
+                <div style="background-color: #ff4b4b; padding: 30px; border-radius: 15px; border-left: 15px solid #8B0000; color: white !important;">
+                    <h2 style="color: white !important; margin: 0; text-align: center;">💣 PREDICCIÓN BOMBA DETECTADA 💣</h2>
+                    <p style="font-size: 1.2rem; line-height: 1.6; margin-top: 20px; text-align: justify; color: white !important;">
+                        El equipo local <b>{loc}</b> lleva <b>{m1_l} de {t_l}</b> partidos marcando al menos 1 gol en casa, y de esos partidos, en <b>{m2_l}</b> ha marcado 2 o más goles. Además, ha logrado ganar o empatar (1X) en <b>{w_l} de {t_l}</b> encuentros en su estadio. <br><br>
+                        Por otro lado, el visitante <b>{vis}</b> ha marcado al menos 1 gol en <b>{m1_v} de {t_v}</b> salidas, logrando 2 o más goles en <b>{m2_v}</b> de ellas. Ha mantenido su doble oportunidad (X2) en <b>{w_v} de {t_v}</b> partidos como visitante.
                     </p>
-                    <div style="display: grid; grid-template-columns: repeat(2, 1fr); gap: 10px; margin-top: 20px;">
-                        <div style="background: white; color: #ff4b4b; padding: 10px; border-radius: 10px;">🛡️ <b>{etiqueta}</b></div>
-                        <div style="background: white; color: #ff4b4b; padding: 10px; border-radius: 10px;">🥅 <b>Over 1.5: {d_top['Over 1.5']:.0%}</b></div>
-                        <div style="background: white; color: #ff4b4b; padding: 10px; border-radius: 10px;">⚽ <b>Over 2.5: {d_top['Over 2.5']:.0%}</b></div>
-                        <div style="background: white; color: #ff4b4b; padding: 10px; border-radius: 10px;">🤝 <b>Btts: {d_top['Btts']:.0%}</b></div>
+                    <div style="display: grid; grid-template-columns: repeat(4, 1fr); gap: 15px; margin-top: 25px;">
+                        <div style="background: white; color: #ff4b4b; padding: 15px; border-radius: 12px; text-align: center; font-weight: bold;">🛡️ {etq_b}</div>
+                        <div style="background: white; color: #ff4b4b; padding: 15px; border-radius: 12px; text-align: center; font-weight: bold;">🥅 Over 1.5: {d_b['Over 1.5']:.0%}</div>
+                        <div style="background: white; color: #ff4b4b; padding: 15px; border-radius: 12px; text-align: center; font-weight: bold;">⚽ Over 2.5: {d_b['Over 2.5']:.0%}</div>
+                        <div style="background: white; color: #ff4b4b; padding: 15px; border-radius: 12px; text-align: center; font-weight: bold;">🤝 Btts: {d_b['Btts']:.0%}</div>
                     </div>
                 </div>
                 """, unsafe_allow_html=True)
@@ -255,14 +267,13 @@ with t1:
     st.divider()
     st.markdown("## 📜 HISTORIAL DE RESULTADOS")
     if not df_h.empty:
-        h1, h2 = st.columns(2)
-        with h1: slh = st.selectbox("League Historial:", ["TODAS"] + lgs, key="h_l")
+        c1h, c2h = st.columns(2)
+        with c1h: slh = st.selectbox("Liga Historial:", ["TODAS"] + lgs, key="l_his")
         df_hh = df_h if slh=="TODAS" else df_h[df_h['League']==slh]
-        with h2: sjh = st.selectbox("Matchday Historial:", ["TODAS"] + sorted(df_hh['Matchday'].unique().tolist(), reverse=True) if not df_hh.empty else ["TODAS"], key="h_j")
+        with c2h: sjh = st.selectbox("Jornada Historial:", ["TODAS"] + sorted(df_hh['Matchday'].unique().tolist(), reverse=True) if not df_hh.empty else ["TODAS"], key="j_his")
         df_res = df_hh if sjh=="TODAS" else df_hh[df_hh['Matchday']==sjh]
-        
         st.dataframe(df_res[['Date', 'Time', 'Matchday', 'League', 'Match', 'Result', '1X', 'X2', 'Over 1.5', 'Over 2.5', 'Btts']].style.map(color_letras_historial, subset=['1X', 'X2', 'Over 1.5', 'Over 2.5', 'Btts']), use_container_width=True, hide_index=True)
 
 with t2:
     st.markdown("## 🏀 BASKETBALL PREDICTIONS")
-    st.info("Próximamente.")
+    st.info("Módulo de baloncesto en desarrollo.")

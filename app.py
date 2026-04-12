@@ -9,53 +9,67 @@ from datetime import datetime, timedelta
 # --- 1. CONFIGURACIÓN ---
 st.set_page_config(page_title="Bet Pro League", layout="wide", page_icon="⚽")
 
-# --- 2. CSS AVANZADO (ANTI-MODO OSCURO Y ESTILOS) ---
+# --- 2. CSS DEFINITIVO (ANTI-MODO OSCURO TOTAL) ---
 st.markdown("""
     <style>
-    /* Forzar fondo general */
+    /* 1. Forzar que el navegador crea que siempre estamos en modo claro */
+    :root {
+        color-scheme: light !important;
+    }
+
+    /* 2. Fondo general con imagen */
     .stApp { 
         background-image: url("https://images.unsplash.com/photo-1556056504-5c7696c4c28d?q=80&w=2076&auto=format&fit=crop"); 
         background-attachment: fixed; background-size: cover; 
     }
     
-    /* Contenedor principal: siempre blanco */
+    /* 3. Contenedor principal siempre blanco */
     .main .block-container { 
         background-color: rgba(255, 255, 255, 0.98) !important; 
         border-radius: 15px; padding: 30px; margin-top: 20px;
-        color: black !important;
+        box-shadow: 0px 10px 30px rgba(0,0,0,0.3);
     }
 
-    /* FORZAR TEXTO NEGRO EN TODO EL PANEL */
-    h1, h2, h3, h4, h5, h6, p, span, label, .stMetric, [data-testid="stHeader"] {
+    /* 4. FORZAR TEXTO NEGRO EN TODO EL PANEL */
+    h1, h2, h3, h4, h5, h6, p, span, label, .stMetric, [data-testid="stHeader"], .stMarkdown {
         color: #000000 !important;
         font-weight: bold !important;
     }
 
-    /* SELECTORES (FILTROS) - FORZAR BLANCO */
+    /* 5. TABLAS (LIGAS, JORNADAS E HISTORIAL) - FONDO BLANCO FORZADO */
+    div[data-testid="stDataFrame"], div[data-testid="stTable"], .stDataFrame {
+        background-color: white !important;
+        border: 2px solid #eeeeee !important;
+        border-radius: 10px !important;
+    }
+    
+    /* Forzar que las celdas de la tabla sean blancas */
+    div[data-testid="stDataFrame"] div[role="grid"] {
+        background-color: white !important;
+    }
+
+    /* 6. CUADRO DE ANÁLISIS DETALLADO (DIALOG/MODAL) */
+    div[role="dialog"], div[data-testid="stDialog"] {
+        background-color: white !important;
+        color: black !important;
+    }
+    div[role="dialog"] h2, div[role="dialog"] p, div[role="dialog"] span {
+        color: black !important;
+    }
+
+    /* 7. SELECTORES (FILTROS) - SIEMPRE BLANCOS */
     div[data-baseweb="select"] > div {
         background-color: white !important;
         color: black !important;
-        border: 1px solid #28a745 !important;
+        border: 2px solid #28a745 !important;
     }
-    div[data-testid="stSelectbox"] label p {
-        color: black !important;
-        font-size: 1.1rem !important;
-    }
-    /* Lista desplegable de los filtros */
-    div[data-baseweb="popover"] div {
+    /* Texto de las opciones al desplegar */
+    div[data-baseweb="popover"] {
         background-color: white !important;
         color: black !important;
     }
 
-    /* TABLAS (DATAFRAMES) - FORZAR FONDO CLARO */
-    div[data-testid="stDataFrame"] {
-        background-color: white !important;
-        border: 1px solid #ddd !important;
-        border-radius: 10px;
-        padding: 5px;
-    }
-
-    /* BOTONES DEL TOP 4 */
+    /* 8. BOTONES DEL TOP 4 */
     div.stButton > button {
         width: 100% !important;
         height: 180px !important;
@@ -66,21 +80,13 @@ st.markdown("""
         box-shadow: 0px 4px 10px rgba(0,0,0,0.1) !important;
         font-size: 0.9rem !important;
         font-weight: bold !important;
-        transition: all 0.3s ease;
     }
     div.stButton > button:hover {
         border-color: #28a745 !important;
-        transform: translateY(-5px);
         box-shadow: 0px 6px 15px rgba(0,0,0,0.2) !important;
     }
 
-    /* TABS (Pestañas) */
-    button[data-baseweb="tab"] {
-        color: black !important;
-        font-weight: bold !important;
-    }
-
-    /* Ocultar elementos de Streamlit */
+    /* Ocultar basura de Streamlit */
     header {visibility: hidden !important;}
     footer {display: none !important;}
     [data-testid="stStatusWidget"], .stAppDeployButton { display: none !important; }
@@ -128,7 +134,7 @@ def obtener_probabilidades(e_l, e_v):
             if gl > 0 and gv > 0: p_btts += p
     return p_l, p_e, p_v, p_o15, p_o25, p_btts
 
-# --- 4. CARGA DE DATOS (OPTIMIZADA) ---
+# --- 4. CARGA DE DATOS ---
 @st.cache_data(ttl=60)
 def cargar_todo():
     archivos = glob.glob("**/*.csv", recursive=True)
@@ -182,7 +188,7 @@ def cargar_todo():
 
 df_p, df_h, lgs = cargar_todo()
 
-# --- 5. VENTANA MODAL ---
+# --- 5. VENTANA MODAL (ANALISIS DETALLADO) ---
 @st.dialog("📊 ANÁLISIS DETALLADO", width="large")
 def ventana_analisis(r, df_h):
     st.markdown(f"## ⚽ {r['Match']}")
@@ -237,7 +243,7 @@ with t1:
             st.dataframe(df_fin[['Date', 'Time', 'Matchday', 'League', 'Match'] + cols_f].style.map(aplicar_semaforo, subset=cols_f).format({c: '{:.0%}' for c in cols_f}), use_container_width=True, hide_index=True)
             st.divider()
             
-            # --- PREDICCIÓN BOMBA (RESTAURADA AL 100%) ---
+            # PREDICCIÓN BOMBA (RESTRICTA Y COMPLETA)
             d_b = df_fin.loc[df_fin[['Over 1.5', 'Over 2.5', 'Btts']].max(axis=1).idxmax()]
             loc, vis = d_b['Home team'], d_b['Away team']
             h_l = df_h[(df_h['Home team'] == loc) & (df_h['League'] == d_b['League'])]
@@ -249,11 +255,11 @@ with t1:
                 etq_b = f"1X: {d_b['1X']:.0%}" if d_b['1X'] >= d_b['X2'] else f"X2: {d_b['X2']:.0%}"
                 
                 st.markdown(f"""
-                <div style="background-color: #ff4b4b; padding: 30px; border-radius: 15px; border-left: 15px solid #8B0000; color: white !important;">
+                <div style="background-color: #ff4b4b; padding: 30px; border-radius: 15px; border-left: 15px solid #8B0000;">
                     <h2 style="color: white !important; margin: 0; text-align: center;">💣 PREDICCIÓN BOMBA DETECTADA 💣</h2>
-                    <p style="font-size: 1.2rem; line-height: 1.6; margin-top: 20px; text-align: justify; color: white !important;">
-                        El equipo local <b>{loc}</b> lleva <b>{m1_l} de {t_l}</b> partidos marcando al menos 1 gol en casa, y de esos partidos, en <b>{m2_l}</b> ha marcado 2 o más goles. Además, ha logrado ganar o empatar (1X) en <b>{w_l} de {t_l}</b> encuentros en su estadio. <br><br>
-                        Por otro lado, el visitante <b>{vis}</b> ha marcado al menos 1 gol en <b>{m1_v} de {t_v}</b> salidas, logrando 2 o más goles en <b>{m2_v}</b> de ellas. Ha mantenido su doble oportunidad (X2) en <b>{w_v} de {t_v}</b> partidos como visitante.
+                    <p style="font-size: 1.2rem; line-height: 1.6; margin-top: 20px; color: white !important;">
+                        El equipo local <b>{loc}</b> lleva <b>{m1_l} de {t_l}</b> partidos marcando al menos 1 gol en casa, y en <b>{m2_l}</b> ha marcado 2 o más goles. Ha ganado o empatado en <b>{w_l} de {t_l}</b> encuentros como local. <br><br>
+                        El visitante <b>{vis}</b> ha marcado al menos 1 gol en <b>{m1_v} de {t_v}</b> salidas, con 2 o más goles en <b>{m2_v}</b> de ellas. Ha mantenido su doble oportunidad en <b>{w_v} de {t_v}</b> encuentros.
                     </p>
                     <div style="display: grid; grid-template-columns: repeat(4, 1fr); gap: 15px; margin-top: 25px;">
                         <div style="background: white; color: #ff4b4b; padding: 15px; border-radius: 12px; text-align: center; font-weight: bold;">🛡️ {etq_b}</div>

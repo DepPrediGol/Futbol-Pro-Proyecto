@@ -10,7 +10,7 @@ from datetime import datetime
 # --- 1. CONFIGURACIÓN DE PÁGINA ---
 st.set_page_config(page_title="Bet Pro Futbol AI", layout="wide", page_icon="⚽")
 
-# --- 2. CSS PARA CORREGIR MODO OSCURO Y BOTÓN DE CIERRE ---
+# --- 2. CSS PARA CORREGIR MODO OSCURO, CALENDARIO Y BOTÓN DE CIERRE ---
 st.markdown("""
     <style>
     :root { color-scheme: light !important; }
@@ -30,6 +30,22 @@ st.markdown("""
     h1, h2, h3, h4, h5, h6, p, span, label, .stMetric, [data-testid="stHeader"] {
         color: #000000 !important;
         font-weight: bold !important;
+    }
+
+    /* ARREGLO ESPECÍFICO PARA CALENDARIO (MODO OSCURO) */
+    div[data-baseweb="calendar"] {
+        background-color: white !important;
+        color: black !important;
+    }
+    div[data-baseweb="calendar"] button {
+        color: black !important;
+    }
+    div[data-baseweb="popover"] {
+        background-color: white !important;
+    }
+    input[role="combobox"] {
+        color: black !important;
+        background-color: white !important;
     }
 
     /* BOTÓN "X" DE CIERRE VISIBLE */
@@ -153,7 +169,6 @@ def cargar_todo():
                 p1x, px2 = (pl+pe)/total, (pv+pe)/total
                 g = extraer_goles(f.get('result'))
                 
-                # Convertir fecha a datetime para filtrado
                 fecha_dt = pd.to_datetime(f['date'], dayfirst=True, errors='coerce')
                 
                 if g:
@@ -222,14 +237,16 @@ with t1:
                             ventana_analisis(r, df_h)
         st.divider()
         
-        # FILTROS - AQUI AÑADIMOS EL DE FECHA
+        # FILTROS - FECHA PRIMERO + ARREGLO VISIBILIDAD
         st.markdown("### 📊 LIGAS Y JORNADAS")
-        c1, cf, c2 = st.columns([1, 1, 1])
-        with c1: sl = st.selectbox("Seleccione Liga:", ["TODAS"] + lgs, key="l_act")
+        cf, c1, c2 = st.columns([1, 1, 1])
         with cf: sf = st.date_input("Filtrar por Fecha:", value=None, key="f_act")
+        with c1: sl = st.selectbox("Seleccione Liga:", ["TODAS"] + lgs, key="l_act")
+        
         df_fl = df_p if sl=="TODAS" else df_p[df_p['League']==sl]
-        if sf: # Aplicar filtro de fecha si se selecciona
+        if sf: 
             df_fl = df_fl[df_fl['Fecha_dt'].dt.date == sf]
+            
         with c2: sj = st.selectbox("Seleccione Jornada:", ["TODAS"] + sorted(df_fl['Matchday'].unique().tolist(), reverse=True) if not df_fl.empty else ["TODAS"], key="j_act")
         df_fin = df_fl if sj=="TODAS" else df_fl[df_fl['Matchday']==sj]
         
@@ -268,12 +285,14 @@ with t1:
     st.divider()
     st.markdown("## 📜 HISTORIAL DE RESULTADOS")
     if not df_h.empty:
-        c1h, cfh, c2h = st.columns([1, 1, 1])
-        with c1h: slh = st.selectbox("Liga Historial:", ["TODAS"] + lgs, key="l_his")
+        cfh, c1h, c2h = st.columns([1, 1, 1])
         with cfh: sfh = st.date_input("Fecha Historial:", value=None, key="f_his")
+        with c1h: slh = st.selectbox("Liga Historial:", ["TODAS"] + lgs, key="l_his")
+        
         df_hh = df_h if slh=="TODAS" else df_h[df_h['League']==slh]
-        if sfh: # Aplicar filtro de fecha en historial
+        if sfh: 
             df_hh = df_hh[df_hh['Fecha_dt'].dt.date == sfh]
+            
         with c2h: sjh = st.selectbox("Jornada Historial:", ["TODAS"] + sorted(df_hh['Matchday'].unique().tolist(), reverse=True) if not df_hh.empty else ["TODAS"], key="j_his")
         df_res = df_hh if sjh=="TODAS" else df_hh[df_hh['Matchday']==sjh]
         st.dataframe(df_res[['Date', 'Time', 'Matchday', 'League', 'Match', 'Result', '1X', 'X2', 'Over 1.5', 'Over 2.5', 'Btts']].style.map(color_letras_historial, subset=['1X', 'X2', 'Over 1.5', 'Over 2.5', 'Btts']), use_container_width=True, hide_index=True)

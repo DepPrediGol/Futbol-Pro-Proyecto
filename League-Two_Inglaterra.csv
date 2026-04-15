@@ -509,10 +509,10 @@ matchday,date,time,home_team,away_team,result,status
 43,11/04/2026,09:00,Barnet,Barrow,3-2,Final
 43,11/04/2026,09:00,Cambridge United,Notts County,4-0,Final
 43,11/04/2026,09:00,Salford City,Gillingham,0-0,Final
-25,14/04/2026,13:45,Colchester,Accrington ST,,
-29,14/04/2026,13:45,Cheltenham,Gillingham,,
-29,14/04/2026,13:45,Barrow,Oldham,,
-40,14/04/2026,13:45,Chesterfield,Grimsby,,
+25,14/04/2026,13:45,Colchester,Accrington ST,2-1,Final
+29,14/04/2026,13:45,Cheltenham,Gillingham,2-1,Final
+29,14/04/2026,13:45,Barrow,Oldham,3-2,Final
+40,14/04/2026,13:45,Chesterfield,Grimsby,2-1,Final
 44,16/04/2026,14:00,Bromley,Cambridge United,,
 44,18/04/2026,06:30,Swindon Town,Accrington ST,,
 44,18/04/2026,06:30,Barrow,Walsall,,

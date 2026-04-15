@@ -162,11 +162,11 @@ matchday,date,time,home_team,away_team,result,status
 21,18/03/2026,10:00,FC Kudrivka,Polissya Zhytomyr,0-2,Final
 21,19/03/2026,10:00,FK Oleksandriya,Dinamo Kiev,0-5,Final
 21,19/03/2026,10:00,Metalist 1925 Kharkiv,SK Poltava,2-0,Final
-21,21/03/2026,10:00,Zorya Lugansk,Shajtar Donetsk,,
 21,21/03/2026,10:00,Kryvbas Kryvyi Rih,Epitsentr Kamianets-Podilskyi,2-1,Final
 21,21/03/2026,10:00,Rukh Lviv,FC LNZ Cherkasy,1-2,Final
 21,22/03/2026,10:00,NK Veres,Kolos Kovalivka,0-1,Final
 21,22/03/2026,10:00,Karpaty Lviv,FK Obolon,4-0,Final
+21,23/04/2026,10:00,Zorya Lugansk,Shajtar Donetsk,,
 22,03/04/2026,10:00,SK Poltava,FK Oleksandriya,3-3,Final
 22,04/04/2026,10:00,Kolos Kovalivka,Metalist 1925 Kharkiv,0-0,Final
 22,04/04/2026,10:00,Dinamo Kiev,Karpaty Lviv,0-1,Final
@@ -182,7 +182,7 @@ matchday,date,time,home_team,away_team,result,status
 23,11/04/2026,10:00,NK Veres,FK Obolon,2-0,Final
 23,12/04/2026,05:00,FC Kudrivka,Kryvbas Kryvyi Rih,1-2,Final
 23,12/04/2026,07:30,Zorya Lugansk,Epitsentr Kamianets-Podilskyi,1-0,Final
-23,13/04/2026,05:00,FC LNZ Cherkasy,Shajtar Donetsk,,
+23,13/04/2026,05:00,FC LNZ Cherkasy,Shajtar Donetsk,2-2,Final
 24,17/04/2026,07:30,Dinamo Kiev,Zorya Lugansk,,
 24,17/04/2026,10:00,FK Obolon,SK Poltava,,
 24,18/04/2026,05:00,Kolos Kovalivka,FC LNZ Cherkasy,,
@@ -192,13 +192,13 @@ matchday,date,time,home_team,away_team,result,status
 24,20/04/2026,05:00,FK Oleksandriya,NK Veres,,
 24,20/04/2026,10:00,Shajtar Donetsk,Polissya Zhytomyr,,
 25,25/04/2026,10:00,Kolos Kovalivka,SK Poltava,,
-25,25/04/2026,10:00,Epitsentr Kamianets-Podilskyi,FK Oleksandriya,,
 25,25/04/2026,10:00,Rukh Lviv,Karpaty Lviv,,
-25,25/04/2026,10:00,Zorya Lugansk,NK Veres,,
-25,25/04/2026,10:00,FC LNZ Cherkasy,Metalist 1925 Kharkiv,,
-25,25/04/2026,10:00,FC Kudrivka,Shajtar Donetsk,,
-25,25/04/2026,10:00,Polissya Zhytomyr,FK Obolon,,
-25,25/04/2026,10:00,Kryvbas Kryvyi Rih,Dinamo Kiev,,
+25,26/04/2026,10:00,Kryvbas Kryvyi Rih,Dinamo Kiev,,
+25,26/04/2026,10:00,FC LNZ Cherkasy,Metalist 1925 Kharkiv,,
+25,26/04/2026,10:00,FC Kudrivka,Shajtar Donetsk,,
+25,26/04/2026,10:00,Polissya Zhytomyr,FK Obolon,,
+25,27/04/2026,10:00,Epitsentr Kamianets-Podilskyi,FK Oleksandriya,,
+25,27/04/2026,10:00,Zorya Lugansk,NK Veres,,
 26,02/05/2026,10:00,FK Oleksandriya,Kolos Kovalivka,,
 26,02/05/2026,10:00,Karpaty Lviv,FC LNZ Cherkasy,,
 26,02/05/2026,10:00,NK Veres,Epitsentr Kamianets-Podilskyi,,

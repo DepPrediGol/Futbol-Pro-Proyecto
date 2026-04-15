@@ -501,7 +501,8 @@ matchday,date,time,home_team,away_team,result,status
 42,11/04/2026,09:00,Charlton,Preston,1-2,Final
 42,11/04/2026,09:00,Oxford United,Watford,2-0,Final
 42,12/04/2026,06:00,Birmingham,Wrexham,2-0,Final
-26,14/04/2026,14:00,Portsmouth,Ipswich,,
+26,14/04/2026,14:00,Portsmouth,Ipswich,2-0,Final
+45,14/04/2026,14:00,Southampton,Blackburn,3-0,Final
 43,17/04/2026,14:00,Blackburn,Coventry,,
 43,18/04/2026,06:30,Millwall,QPR,,
 43,18/04/2026,06:30,Derby,Oxford United,,
@@ -536,7 +537,6 @@ matchday,date,time,home_team,away_team,result,status
 45,25/04/2026,09:00,QPR,Derby,,
 45,25/04/2026,09:00,Stoke City,Portsmouth,,
 45,25/04/2026,09:00,Oxford United,Sheffield Wednesday,,
-45,25/04/2026,11:15,Southampton,Blackburn,,
 45,26/04/2026,06:00,Coventry,Wrexham,,
 40,28/04/2026,13:45,Southampton,Ipswich,,
 46,02/05/2026,06:30,Watford,Coventry,,

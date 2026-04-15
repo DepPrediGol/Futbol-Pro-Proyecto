@@ -498,11 +498,11 @@ matchday,date,time,home_team,away_team,result,status
 43,11/04/2026,09:00,Bradford,Stevenage,0-1,Final
 43,11/04/2026,09:00,Doncaster,Reading,1-0,Final
 43,11/04/2026,09:00,Blackpool,Peterborough,3-1,Final
-25,14/04/2026,13:45,Port Vale,Barnsley,,
-32,14/04/2026,13:45,Wigan,Rotherham,,
-32,14/04/2026,13:45,Leyton Orient,Mansfield Town,,
-40,14/04/2026,13:45,Huddersfield,Cardiff,,
-40,14/04/2026,13:45,Bolton,Stevenage,,
+25,14/04/2026,13:45,Port Vale,Barnsley,0-0,Final
+32,14/04/2026,13:45,Wigan,Rotherham,3-0,Final
+32,14/04/2026,13:45,Leyton Orient,Mansfield Town,0-0,Final
+40,14/04/2026,13:45,Huddersfield,Cardiff,1-1,Final
+40,14/04/2026,13:45,Bolton,Stevenage,5-1,Final
 16,15/04/2026,13:45,AFC Wimbledon,Stockport County,,
 43,15/04/2026,13:45,Luton,Northampton,,
 36,16/04/2026,13:45,Peterborough,Port Vale,,

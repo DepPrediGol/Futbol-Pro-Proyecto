@@ -357,9 +357,9 @@ matchday,date,time,home_team,away_team,result,status
 36,11/04/2026,09:30,VVV Venlo,De Graafschap,3-3,Final
 36,12/04/2026,05:15,Dordrecht,ADO Den Haag,1-0,Final
 36,12/04/2026,09:45,Willem II,Almere City FC,2-1,Final
-36,13/04/2026,13:00,Jong AZ,Jong PSV U21,,
-36,13/04/2026,13:00,Jong Ajax,FC OSS,,
-36,13/04/2026,13:00,Jong Utrecht,Vitesse,,
+36,13/04/2026,13:00,Jong AZ,Jong PSV U21,0-2,Final
+36,13/04/2026,13:00,Jong Ajax,FC OSS,1-2,Final
+36,13/04/2026,13:00,Jong Utrecht,Vitesse,0-3,Final
 37,17/04/2026,13:00,Willem II,Jong AZ,,
 37,17/04/2026,13:00,ADO Den Haag,Waalwijk,,
 37,17/04/2026,13:00,De Graafschap,Cambuur,,

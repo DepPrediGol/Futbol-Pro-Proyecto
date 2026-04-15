@@ -106,9 +106,9 @@ matchday,date,time,home_team,away_team,result,status
 11,11/04/2026,18:30,Internacional,Gremio,0-0,Final
 11,12/04/2026,09:00,Atletico Paranaense,Chapecoense-sc,2-0,Final
 11,12/04/2026,14:00,Botafogo,Coritiba,2-2,Final
-11,12/04/2026,16:00,Fluminense,Flamengo,0-0,En vivo
-11,12/04/2026,16:30,Corinthians,Palmeiras,,
-11,12/04/2026,16:30,Cruzeiro,RB Bragantino,,
+11,12/04/2026,16:00,Fluminense,Flamengo,1-2,Final
+11,12/04/2026,16:30,Corinthians,Palmeiras,0-0,Final
+11,12/04/2026,16:30,Cruzeiro,RB Bragantino,2-1,Final
 12,18/04/2026,16:30,Chapecoense-sc,Botafogo,,
 12,18/04/2026,16:30,Vasco DA Gama,Sao Paulo,,
 12,18/04/2026,18:00,Vitoria,Corinthians,,
@@ -130,8 +130,8 @@ matchday,date,time,home_team,away_team,result,status
 13,26/04/2026,18:30,Atletico-MG,Flamengo,,
 13,26/04/2026,18:30,Fluminense,Chapecoense-sc,,
 14,02/05/2026,14:00,Botafogo,Remo,,
-14,02/05/2026,14:00,Vitoria,Coritiba,,
 14,02/05/2026,16:30,Palmeiras,Santos,,
+14,02/05/2026,16:30,Vitoria,Coritiba,,
 14,02/05/2026,18:30,Atletico Paranaense,Gremio,,
 14,02/05/2026,19:00,Cruzeiro,Atletico-MG,,
 14,03/05/2026,14:00,Flamengo,Vasco DA Gama,,

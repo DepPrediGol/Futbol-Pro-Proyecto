@@ -41,7 +41,7 @@ matchday,date,time,home_team,away_team,result,status
 ,28/05/2026,17:00,Atlético Mineiro,Academia Puerto Cabello,,
 ,08/04/2026,19:30,O'Higgins,Millonarios,2-0,Final
 ,08/04/2026,19:30,Boston River,São Paulo FC,0-1,Final
-,15/04/2026,19:00,São Paulo FC,O'Higgins,,
+,15/04/2026,19:00,São Paulo FC,O'Higgins,2-0,Final
 ,16/04/2026,19:00,Millonarios,Boston River,,
 ,29/04/2026,19:00,Millonarios,São Paulo FC,,
 ,29/04/2026,19:00,O'Higgins,Boston River,,
@@ -53,7 +53,7 @@ matchday,date,time,home_team,away_team,result,status
 ,27/05/2026,19:00,São Paulo FC,Boston River,,
 ,09/04/2026,19:00,Deportivo Recoleta,San Lorenzo,1-1,Final
 ,09/04/2026,17:00,Deportivo Cuenca,Santos FC,1-0,Final
-,15/04/2026,19:30,Santos FC,Deportivo Recoleta,,
+,15/04/2026,19:30,Santos FC,51.,1-1,Final
 ,17/04/2026,17:00,San Lorenzo,Deportivo Cuenca,,
 ,29/04/2026,19:30,San Lorenzo,Santos FC,,
 ,29/04/2026,19:00,Deportivo Recoleta,Deportivo Cuenca,,
@@ -77,8 +77,8 @@ matchday,date,time,home_team,away_team,result,status
 ,28/05/2026,17:00,Caracas FC,Botafogo - RJ,,
 ,09/04/2026,15:00,Deportivo Riestra,Palestino,0-0,Final
 ,09/04/2026,19:00,Montevideo City Torque,Grêmio Porto Alegre,1-0,Final
-,15/04/2026,17:00,Grêmio Porto Alegre,Deportivo Riestra,,
-,15/04/2026,19:30,Palestino,Montevideo City Torque,,
+,15/04/2026,17:00,Grêmio Porto Alegre,Deportivo Riestra,1-0,Final
+,15/04/2026,19:30,Palestino,55.,0-1,Final
 ,30/04/2026,21:00,Deportivo Riestra,Montevideo City Torque,,
 ,30/04/2026,17:00,Palestino,Grêmio Porto Alegre,,
 ,06/05/2026,17:00,Deportivo Riestra,Grêmio Porto Alegre,,
@@ -89,7 +89,7 @@ matchday,date,time,home_team,away_team,result,status
 ,27/05/2026,19:30,Grêmio Porto Alegre,Montevideo City Torque,,
 ,08/04/2026,19:30,Barracas Central,Vasco da Gama - RJ,0-0,Final
 ,09/04/2026,17:00,Audax Italiano,Club Olimpia,0-2,Final
-,15/04/2026,17:00,Vasco da Gama - RJ,Audax Italiano,,
+,15/04/2026,17:00,Vasco da Gama - RJ,78.,1-1,Final
 ,16/04/2026,17:00,Club Olimpia,Barracas Central,,
 ,29/04/2026,17:00,Barracas Central,Audax Italiano,,
 ,01/05/2026,17:00,Vasco da Gama - RJ,Club Olimpia,,
@@ -111,12 +111,3 @@ matchday,date,time,home_team,away_team,result,status
 ,22/05/2026,17:00,Blooming,Carabobo FC,,
 ,28/05/2026,17:00,Red Bull Bragantino,Carabobo FC,,
 ,28/05/2026,19:30,River Plate,Blooming,,
-,21/07/2026,,N.,N.,,
-,28/07/2026,,N.,N.,,
-,11/08/2026,,N.,N.,,
-,18/08/2026,,N.,N.,,
-,08/09/2026,,N.,N.,,
-,15/09/2026,,N.,N.,,
-,13/10/2026,,N.,N.,,
-,20/10/2026,,N.,N.,,
-,21/11/2026,,N.,N.,,

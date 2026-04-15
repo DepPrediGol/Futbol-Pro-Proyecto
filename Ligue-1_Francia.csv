@@ -252,12 +252,10 @@ matchday,date,time,home_team,away_team,result,status
 28,05/04/2026,13:45,Monaco,Marseille,2-1,Final
 29,10/04/2026,12:00,Paris FC,Monaco,4-1,Final
 29,10/04/2026,14:05,Marseille,Metz,3-1,Final
-29,11/04/2026,10:00,Lens,Paris Saint Germain,,
 29,11/04/2026,12:00,Auxerre,Nantes,0-0,Final
 29,11/04/2026,14:05,Rennes,Angers,2-1,Final
 29,12/04/2026,10:15,Nice,Le Havre,1-1,Final
 29,12/04/2026,10:15,Toulouse,Lille,0-4,Final
-29,12/04/2026,10:15,Stade Brestois 29,Strasbourg,,
 29,12/04/2026,13:45,Lyon,Lorient,2-0,Final
 30,17/04/2026,13:45,Lens,Toulouse,,
 30,18/04/2026,10:00,Lorient,Marseille,,
@@ -278,15 +276,15 @@ matchday,date,time,home_team,away_team,result,status
 31,26/04/2026,10:15,Le Havre,Metz,,
 31,26/04/2026,10:15,Paris FC,Lille,,
 31,26/04/2026,13:45,Marseille,Nice,,
-32,03/05/2026,10:00,Lille,Le Havre,,
-32,03/05/2026,10:00,Lyon,Rennes,,
-32,03/05/2026,10:00,Nantes,Marseille,,
-32,03/05/2026,10:00,Nice,Lens,,
-32,03/05/2026,10:00,Paris Saint Germain,Lorient,,
-32,03/05/2026,10:00,Strasbourg,Toulouse,,
-32,03/05/2026,10:00,Auxerre,Angers,,
-32,03/05/2026,10:00,Metz,Monaco,,
-32,03/05/2026,10:00,Paris FC,Stade Brestois 29,,
+32,01/05/2026,13:45,Nantes,Marseille,,
+32,02/05/2026,10:00,Paris Saint Germain,Lorient,,
+32,02/05/2026,12:00,Metz,Monaco,,
+32,02/05/2026,14:05,Nice,Lens,,
+32,03/05/2026,08:00,Lille,Le Havre,,
+32,03/05/2026,10:15,Strasbourg,Toulouse,,
+32,03/05/2026,10:15,Auxerre,Angers,,
+32,03/05/2026,10:15,Paris FC,Stade Brestois 29,,
+32,03/05/2026,13:45,Lyon,Rennes,,
 33,09/05/2026,14:00,Angers,Strasbourg,,
 33,09/05/2026,14:00,Paris Saint Germain,Stade Brestois 29,,
 33,09/05/2026,14:00,Monaco,Lille,,
@@ -296,6 +294,8 @@ matchday,date,time,home_team,away_team,result,status
 33,09/05/2026,14:00,Le Havre,Marseille,,
 33,09/05/2026,14:00,Metz,Lorient,,
 33,09/05/2026,14:00,Lens,Nantes,,
+29,13/05/2026,10:00,Stade Brestois 29,Strasbourg,,
+29,13/05/2026,10:00,Lens,Paris Saint Germain,,
 34,16/05/2026,14:00,Lille,Auxerre,,
 34,16/05/2026,14:00,Lyon,Lens,,
 34,16/05/2026,14:00,Marseille,Rennes,,

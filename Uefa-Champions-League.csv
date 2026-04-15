@@ -271,8 +271,8 @@ matchday,date,time,home_team,away_team,result,status
 ,07/04/2026,14:00,Real Madrid,Bayern München,1-2,Final
 ,08/04/2026,14:00,Paris Saint Germain,Liverpool,2-0,Final
 ,08/04/2026,14:00,Barcelona,Atletico Madrid,0-2,Final
-,14/04/2026,14:00,Liverpool,Paris Saint Germain,,
-,14/04/2026,14:00,Atletico Madrid,Barcelona,,
+,14/04/2026,14:00,Liverpool,Paris Saint Germain,0-2,Final
+,14/04/2026,14:00,Atletico Madrid,Barcelona,1-2,Final
 ,15/04/2026,14:00,Arsenal,Sporting CP,,
 ,15/04/2026,14:00,Bayern München,Real Madrid,,
 1,27/04/2026,19:00,TBD Home (Semi-finals #1),TBD Away (Semi-finals #1),,

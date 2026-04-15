@@ -152,6 +152,10 @@ def cargar_todo():
                 total = pl+pe+pv+pe
                 p1x, px2 = (pl+pe)/total, (pv+pe)/total
                 g = extraer_goles(f.get('result'))
+                
+                # Convertir fecha a datetime para filtrado
+                fecha_dt = pd.to_datetime(f['date'], dayfirst=True, errors='coerce')
+                
                 if g:
                     historicos.append({
                         'Date': f['date'], 'Time': f.get('time','-'), 'Matchday': int(f.get('matchday',0)), 'League': ln, 
@@ -161,13 +165,14 @@ def cargar_todo():
                         'X2': f"{'✅' if g[1]>=g[0] else '❌'} {px2:.0%}",
                         'Over 1.5': f"{'✅' if (g[0]+g[1])>1.5 else '❌'} {po15:.0%}",
                         'Over 2.5': f"{'✅' if (g[0]+g[1])>2.5 else '❌'} {po25:.0%}",
-                        'Btts': f"{'✅' if (g[0]>0 and g[1]>0) else '❌'} {pb:.0%}"
+                        'Btts': f"{'✅' if (g[0]>0 and g[1]>0) else '❌'} {pb:.0%}",
+                        'Fecha_dt': fecha_dt
                     })
                 else:
                     actuales.append({
                         'Date': f['date'], 'Time': f.get('time','-'), 'Matchday': int(f.get('matchday',0)), 'League': ln, 
                         'Home team': f['home_team'], 'Away team': f['away_team'], 'Match': f"{f['home_team']} vs {f['away_team']}",
-                        'Fecha_dt': pd.to_datetime(f['date'], dayfirst=True, errors='coerce'),
+                        'Fecha_dt': fecha_dt,
                         '1X': p1x, 'X2': px2, 'Over 1.5': po15, 'Over 2.5': po25, 'Btts': pb
                     })
         except: continue
@@ -217,11 +222,14 @@ with t1:
                             ventana_analisis(r, df_h)
         st.divider()
         
-        # FILTROS
+        # FILTROS - AQUI AÑADIMOS EL DE FECHA
         st.markdown("### 📊 LIGAS Y JORNADAS")
-        c1, c2 = st.columns(2)
+        c1, cf, c2 = st.columns([1, 1, 1])
         with c1: sl = st.selectbox("Seleccione Liga:", ["TODAS"] + lgs, key="l_act")
+        with cf: sf = st.date_input("Filtrar por Fecha:", value=None, key="f_act")
         df_fl = df_p if sl=="TODAS" else df_p[df_p['League']==sl]
+        if sf: # Aplicar filtro de fecha si se selecciona
+            df_fl = df_fl[df_fl['Fecha_dt'].dt.date == sf]
         with c2: sj = st.selectbox("Seleccione Jornada:", ["TODAS"] + sorted(df_fl['Matchday'].unique().tolist(), reverse=True) if not df_fl.empty else ["TODAS"], key="j_act")
         df_fin = df_fl if sj=="TODAS" else df_fl[df_fl['Matchday']==sj]
         
@@ -260,9 +268,12 @@ with t1:
     st.divider()
     st.markdown("## 📜 HISTORIAL DE RESULTADOS")
     if not df_h.empty:
-        c1h, c2h = st.columns(2)
+        c1h, cfh, c2h = st.columns([1, 1, 1])
         with c1h: slh = st.selectbox("Liga Historial:", ["TODAS"] + lgs, key="l_his")
+        with cfh: sfh = st.date_input("Fecha Historial:", value=None, key="f_his")
         df_hh = df_h if slh=="TODAS" else df_h[df_h['League']==slh]
+        if sfh: # Aplicar filtro de fecha en historial
+            df_hh = df_hh[df_hh['Fecha_dt'].dt.date == sfh]
         with c2h: sjh = st.selectbox("Jornada Historial:", ["TODAS"] + sorted(df_hh['Matchday'].unique().tolist(), reverse=True) if not df_hh.empty else ["TODAS"], key="j_his")
         df_res = df_hh if sjh=="TODAS" else df_hh[df_hh['Matchday']==sjh]
         st.dataframe(df_res[['Date', 'Time', 'Matchday', 'League', 'Match', 'Result', '1X', 'X2', 'Over 1.5', 'Over 2.5', 'Btts']].style.map(color_letras_historial, subset=['1X', 'X2', 'Over 1.5', 'Over 2.5', 'Btts']), use_container_width=True, hide_index=True)

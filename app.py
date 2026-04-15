@@ -10,9 +10,10 @@ from datetime import datetime
 # --- 1. CONFIGURACIÓN DE PÁGINA ---
 st.set_page_config(page_title="Bet Pro Futbol AI", layout="wide", page_icon="⚽")
 
-# --- 2. CSS REFORZADO (CALENDARIO, FILTROS Y MODO OSCURO) ---
+# --- 2. CSS ULTRA-REFORZADO (CALENDARIO, FILTROS Y MODO OSCURO) ---
 st.markdown("""
     <style>
+    /* Forzar esquema claro en toda la app */
     :root { color-scheme: light !important; }
 
     .stApp { 
@@ -26,37 +27,42 @@ st.markdown("""
         box-shadow: 0px 10px 30px rgba(0,0,0,0.4);
     }
 
-    /* FORZAR TEXTO NEGRO GLOBAL */
+    /* TEXTO NEGRO EN TODA LA INTERFAZ */
     h1, h2, h3, h4, h5, h6, p, span, label, .stMetric, [data-testid="stHeader"] {
         color: #000000 !important;
         font-weight: bold !important;
     }
 
-    /* ARREGLO RADICAL PARA EL CALENDARIO Y DATE INPUT */
-    div[data-testid="stDateInput"] > div {
+    /* ARREGLO PARA EL INPUT DE FECHA Y EL CALENDARIO DESPLEGABLE */
+    /* 1. El cuadro de texto donde aparece la fecha */
+    div[data-testid="stDateInput"] div[role="combobox"], 
+    div[data-testid="stDateInput"] input {
         background-color: white !important;
         color: black !important;
         border: 2px solid #28a745 !important;
-        border-radius: 8px !important;
     }
-    
-    /* Forzar visibilidad del dropdown del calendario */
-    div[data-baseweb="popover"], div[data-baseweb="calendar"] {
+
+    /* 2. El calendario flotante (Popover) */
+    div[data-baseweb="popover"], 
+    div[data-baseweb="calendar"],
+    div[data-baseweb="calendar"] * {
         background-color: white !important;
         color: black !important;
     }
-    
-    /* Días del calendario */
-    div[data-baseweb="calendar"] button {
+
+    /* 3. Días específicos y botones del calendario */
+    div[data-baseweb="calendar"] [role="gridcell"] {
         color: black !important;
-        background-color: transparent !important;
+    }
+    div[data-baseweb="calendar"] button:enabled {
+        color: black !important;
     }
     div[data-baseweb="calendar"] button:hover {
         background-color: #28a745 !important;
         color: white !important;
     }
 
-    /* BOTÓN "X" DE CIERRE */
+    /* BOTÓN "X" DE CIERRE (MODALES) */
     button[aria-label="Close"] {
         color: black !important;
         background-color: #f0f0f0 !important;
@@ -64,10 +70,9 @@ st.markdown("""
         border-radius: 50% !important;
         width: 40px !important;
         height: 40px !important;
-        z-index: 9999 !important;
     }
 
-    /* TABLAS Y SELECTORES */
+    /* TABLAS Y OTROS SELECTORES */
     div[data-testid="stDataFrame"], div[role="dialog"] {
         background-color: white !important;
         color: black !important;
@@ -251,7 +256,7 @@ with t1:
             st.dataframe(df_fin[['Date', 'Time', 'Matchday', 'League', 'Match'] + cols_f].style.map(aplicar_semaforo, subset=cols_f).format({c: '{:.0%}' for c in cols_f}), use_container_width=True, hide_index=True)
             st.divider()
             
-            # PREDICCIÓN BOMBA
+            # PREDICCIÓN BOMBA COMPLETA
             d_b = df_fin.loc[df_fin[['Over 1.5', 'Over 2.5', 'Btts']].max(axis=1).idxmax()]
             loc, vis = d_b['Home team'], d_b['Away team']
             h_l = df_h[(df_h['Home team'] == loc) & (df_h['League'] == d_b['League'])]
@@ -292,3 +297,7 @@ with t1:
         with c2h: sjh = st.selectbox("Jornada Historial:", ["TODAS"] + sorted(df_hh['Matchday'].unique().tolist(), reverse=True) if not df_hh.empty else ["TODAS"], key="j_his")
         df_res = df_hh if sjh=="TODAS" else df_hh[df_hh['Matchday']==sjh]
         st.dataframe(df_res[['Date', 'Time', 'Matchday', 'League', 'Match', 'Result', '1X', 'X2', 'Over 1.5', 'Over 2.5', 'Btts']].style.map(color_letras_historial, subset=['1X', 'X2', 'Over 1.5', 'Over 2.5', 'Btts']), use_container_width=True, hide_index=True)
+
+with t2:
+    st.markdown("## 🏀 BASKETBALL PREDICTIONS")
+    st.info("Módulo de baloncesto en desarrollo.")

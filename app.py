@@ -10,7 +10,7 @@ from datetime import datetime
 # --- 1. CONFIGURACIÓN DE PÁGINA ---
 st.set_page_config(page_title="Bet Pro Futbol AI", layout="wide", page_icon="⚽")
 
-# --- 2. CSS ULTRA-REFORZADO (CALENDARIO, FILTROS Y MODO OSCURO) ---
+# --- 2. CSS ULTRA-AGRESIVO PARA CALENDARIO Y FILTROS ---
 st.markdown("""
     <style>
     :root { color-scheme: light !important; }
@@ -26,53 +26,47 @@ st.markdown("""
         box-shadow: 0px 10px 30px rgba(0,0,0,0.4);
     }
 
+    /* FORZAR TEXTO NEGRO EN ETIQUETAS Y MÉTRICAS */
     h1, h2, h3, h4, h5, h6, p, span, label, .stMetric, [data-testid="stHeader"] {
         color: #000000 !important;
         font-weight: bold !important;
     }
 
-    /* ARREGLO PARA CALENDARIO EN MODO OSCURO */
-    div[data-testid="stDateInput"] div[role="combobox"], 
+    /* --- CORRECCIÓN DEFINITIVA CALENDARIO (MODO OSCURO) --- */
+    /* Input del calendario */
     div[data-testid="stDateInput"] input {
         background-color: white !important;
         color: black !important;
-        border: 2px solid #28a745 !important;
+        -webkit-text-fill-color: black !important;
     }
 
+    /* Contenedor del desplegable del calendario */
     div[data-baseweb="popover"], div[data-baseweb="calendar"] {
         background-color: white !important;
         color: black !important;
+        border: 1px solid #28a745 !important;
     }
 
-    div[data-baseweb="calendar"] button {
+    /* Días, meses y flechas dentro del calendario */
+    div[data-baseweb="calendar"] button, 
+    div[data-baseweb="calendar"] div {
         color: black !important;
     }
 
+    /* Hover en los días */
     div[data-baseweb="calendar"] button:hover {
         background-color: #28a745 !important;
         color: white !important;
     }
 
-    button[aria-label="Close"] {
-        color: black !important;
-        background-color: #f0f0f0 !important;
-        border: 2px solid #333 !important;
-        border-radius: 50% !important;
-        width: 40px !important;
-        height: 40px !important;
-    }
-
-    div[data-testid="stDataFrame"], div[role="dialog"] {
-        background-color: white !important;
-        color: black !important;
-    }
-
+    /* SELECTORES DE LIGA Y JORNADA */
     div[data-baseweb="select"] > div {
         background-color: white !important;
         color: black !important;
         border: 2px solid #28a745 !important;
     }
 
+    /* BOTONES Y OTROS */
     div.stButton > button {
         width: 100% !important;
         height: 180px !important;
@@ -158,7 +152,6 @@ def cargar_todo():
                 total = pl+pe+pv+pe
                 p1x, px2 = (pl+pe)/total, (pv+pe)/total
                 g = extraer_goles(f.get('result'))
-                
                 fecha_dt = pd.to_datetime(f['date'], dayfirst=True, errors='coerce')
                 
                 match_data = {
@@ -227,10 +220,10 @@ with t1:
                             ventana_analisis(r, df_h)
         st.divider()
         
-        # FILTROS
+        # FILTROS - ORDEN SOLICITADO
         st.markdown("### 📊 LIGAS Y JORNADAS")
         cf, c1, c2 = st.columns([1, 1, 1])
-        with cf: sf = st.date_input("Filtrar por Fecha:", value=None, key="f_act")
+        with cf: sf = st.date_input("Filtrar por Fecha:", value=None, key="f_act_soccer")
         with c1: sl = st.selectbox("Seleccione Liga:", ["TODAS"] + lgs, key="l_act")
         
         df_fl = df_p if sl=="TODAS" else df_p[df_p['League']==sl]
@@ -245,31 +238,25 @@ with t1:
             st.dataframe(df_fin[['Date', 'Time', 'Matchday', 'League', 'Match'] + cols_f].style.map(aplicar_semaforo, subset=cols_f).format({c: '{:.0%}' for c in cols_f}), use_container_width=True, hide_index=True)
             st.divider()
             
-            # PREDICCIÓN BOMBA AJUSTADA AL FORMATO SOLICITADO
+            # PREDICCIÓN BOMBA
             d_b = df_fin.loc[df_fin[['Over 1.5', 'Over 2.5', 'Btts']].max(axis=1).idxmax()]
             loc, vis = d_b['Home team'], d_b['Away team']
             h_l = df_h[(df_h['Home team'] == loc) & (df_h['League'] == d_b['League'])]
             h_v = df_h[(df_h['Away team'] == vis) & (df_h['League'] == d_b['League'])]
             
             if not h_l.empty and not h_v.empty:
-                # Cálculos Local
-                t_l = len(h_l)
-                g1_l = (h_l['G_L'] >= 1).sum()
-                g2_l = (h_l['G_L'] >= 2).sum()
-                w_l = (h_l['G_L'] >= h_l['G_V']).sum() # Ganado o empatado
+                t_l, g1_l, g2_l = len(h_l), (h_l['G_L'] >= 1).sum(), (h_l['G_L'] >= 2).sum()
+                w_l = (h_l['G_L'] >= h_l['G_V']).sum()
                 
-                # Cálculos Visitante
-                t_v = len(h_v)
-                g1_v = (h_v['G_V'] >= 1).sum()
-                g2_v = (h_v['G_V'] >= 2).sum()
-                w_v = (h_v['G_V'] >= h_v['G_L']).sum() # Ganado o empatado
+                t_v, g1_v, g2_v = len(h_v), (h_v['G_V'] >= 1).sum(), (h_v['G_V'] >= 2).sum()
+                w_v = (h_v['G_V'] >= h_v['G_L']).sum()
 
                 etq_b = f"1X: {d_b['1X']:.0%}" if d_b['1X'] >= d_b['X2'] else f"X2: {d_b['X2']:.0%}"
                 
                 st.markdown(f"""
                 <div style="background-color: #ff4b4b; padding: 30px; border-radius: 15px; border-left: 15px solid #8B0000;">
                     <h2 style="color: white !important; margin: 0; text-align: center;">💣 PREDICCIÓN BOMBA DETECTADA 💣</h2>
-                    <p style="font-size: 1.15rem; line-height: 1.6; margin-top: 20px; color: white !important; text-align: justify;">
+                    <p style="font-size: 1.15rem; line-height: 1.6; margin-top: 20px; color: white !important;">
                         El equipo local <b>{loc}</b> lleva <b>{g1_l} de {t_l}</b> partidos marcando al menos 1 gol en casa y de esos <b>{g1_l}</b> partidos <b>{g2_l}</b> ha marcado 2 o más goles, ha ganado o empatado en <b>{w_l} de {t_l}</b> encuentros como local. 
                         El equipo visitante <b>{vis}</b>, lleva <b>{g1_v} de {t_v}</b> partidos marcando al menos 1 gol como visitante y de esos <b>{g1_v}</b> partidos <b>{g2_v}</b> ha marcado 2 o más goles, ha ganado o empatado en <b>{w_v} de {t_v}</b> encuentros como visitante.
                     </p>

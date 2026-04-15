@@ -10,7 +10,7 @@ from datetime import datetime
 # --- 1. CONFIGURACIÓN DE PÁGINA ---
 st.set_page_config(page_title="Bet Pro Futbol AI", layout="wide", page_icon="⚽")
 
-# --- 2. CSS PARA CORREGIR MODO OSCURO, CALENDARIO Y BOTÓN DE CIERRE ---
+# --- 2. CSS REFORZADO (CALENDARIO, FILTROS Y MODO OSCURO) ---
 st.markdown("""
     <style>
     :root { color-scheme: light !important; }
@@ -26,29 +26,37 @@ st.markdown("""
         box-shadow: 0px 10px 30px rgba(0,0,0,0.4);
     }
 
-    /* FORZAR TEXTO NEGRO */
+    /* FORZAR TEXTO NEGRO GLOBAL */
     h1, h2, h3, h4, h5, h6, p, span, label, .stMetric, [data-testid="stHeader"] {
         color: #000000 !important;
         font-weight: bold !important;
     }
 
-    /* ARREGLO ESPECÍFICO PARA CALENDARIO (MODO OSCURO) */
-    div[data-baseweb="calendar"] {
+    /* ARREGLO RADICAL PARA EL CALENDARIO Y DATE INPUT */
+    div[data-testid="stDateInput"] > div {
+        background-color: white !important;
+        color: black !important;
+        border: 2px solid #28a745 !important;
+        border-radius: 8px !important;
+    }
+    
+    /* Forzar visibilidad del dropdown del calendario */
+    div[data-baseweb="popover"], div[data-baseweb="calendar"] {
         background-color: white !important;
         color: black !important;
     }
+    
+    /* Días del calendario */
     div[data-baseweb="calendar"] button {
         color: black !important;
+        background-color: transparent !important;
     }
-    div[data-baseweb="popover"] {
-        background-color: white !important;
-    }
-    input[role="combobox"] {
-        color: black !important;
-        background-color: white !important;
+    div[data-baseweb="calendar"] button:hover {
+        background-color: #28a745 !important;
+        color: white !important;
     }
 
-    /* BOTÓN "X" DE CIERRE VISIBLE */
+    /* BOTÓN "X" DE CIERRE */
     button[aria-label="Close"] {
         color: black !important;
         background-color: #f0f0f0 !important;
@@ -56,20 +64,11 @@ st.markdown("""
         border-radius: 50% !important;
         width: 40px !important;
         height: 40px !important;
-        top: 15px !important;
-        right: 15px !important;
-        display: flex !important;
-        justify-content: center !important;
-        align-items: center !important;
         z-index: 9999 !important;
     }
-    button[aria-label="Close"]:hover {
-        background-color: #ff4b4b !important;
-        color: white !important;
-    }
 
-    /* TABLAS Y MODALES SIEMPRE BLANCOS */
-    div[data-testid="stDataFrame"], div[role="dialog"], div[data-testid="stDialog"], div[role="grid"] {
+    /* TABLAS Y SELECTORES */
+    div[data-testid="stDataFrame"], div[role="dialog"] {
         background-color: white !important;
         color: black !important;
     }
@@ -80,7 +79,6 @@ st.markdown("""
         border: 2px solid #28a745 !important;
     }
 
-    /* BOTONES TOP 4 */
     div.stButton > button {
         width: 100% !important;
         height: 180px !important;
@@ -88,9 +86,7 @@ st.markdown("""
         color: black !important;
         border: 2px solid #eee !important;
         border-radius: 15px !important;
-        font-weight: bold !important;
     }
-    div.stButton > button:hover { border-color: #28a745 !important; }
 
     header {visibility: hidden !important;}
     footer {display: none !important;}
@@ -171,31 +167,31 @@ def cargar_todo():
                 
                 fecha_dt = pd.to_datetime(f['date'], dayfirst=True, errors='coerce')
                 
+                match_data = {
+                    'Date': f['date'], 'Time': f.get('time','-'), 'Matchday': int(f.get('matchday',0)), 'League': ln, 
+                    'Home team': f['home_team'], 'Away team': f['away_team'], 'Match': f"{f['home_team']} vs {f['away_team']}",
+                    'Fecha_dt': fecha_dt, '1X_raw': p1x, 'X2_raw': px2, 'O15_raw': po15, 'O25_raw': po25, 'Btts_raw': pb
+                }
+
                 if g:
-                    historicos.append({
-                        'Date': f['date'], 'Time': f.get('time','-'), 'Matchday': int(f.get('matchday',0)), 'League': ln, 
-                        'Home team': f['home_team'], 'Away team': f['away_team'], 'Match': f"{f['home_team']} vs {f['away_team']}",
+                    match_data.update({
                         'Result': f"{g[0]} - {g[1]}", 'G_L': g[0], 'G_V': g[1],
                         '1X': f"{'✅' if g[0]>=g[1] else '❌'} {p1x:.0%}",
                         'X2': f"{'✅' if g[1]>=g[0] else '❌'} {px2:.0%}",
                         'Over 1.5': f"{'✅' if (g[0]+g[1])>1.5 else '❌'} {po15:.0%}",
                         'Over 2.5': f"{'✅' if (g[0]+g[1])>2.5 else '❌'} {po25:.0%}",
-                        'Btts': f"{'✅' if (g[0]>0 and g[1]>0) else '❌'} {pb:.0%}",
-                        'Fecha_dt': fecha_dt
+                        'Btts': f"{'✅' if (g[0]>0 and g[1]>0) else '❌'} {pb:.0%}"
                     })
+                    historicos.append(match_data)
                 else:
-                    actuales.append({
-                        'Date': f['date'], 'Time': f.get('time','-'), 'Matchday': int(f.get('matchday',0)), 'League': ln, 
-                        'Home team': f['home_team'], 'Away team': f['away_team'], 'Match': f"{f['home_team']} vs {f['away_team']}",
-                        'Fecha_dt': fecha_dt,
-                        '1X': p1x, 'X2': px2, 'Over 1.5': po15, 'Over 2.5': po25, 'Btts': pb
-                    })
+                    match_data.update({'1X': p1x, 'X2': px2, 'Over 1.5': po15, 'Over 2.5': po25, 'Btts': pb})
+                    actuales.append(match_data)
         except: continue
     return pd.DataFrame(actuales), pd.DataFrame(historicos), sorted(ligas)
 
 df_p, df_h, lgs = cargar_todo()
 
-# --- 5. VENTANA MODAL (ANALISIS DETALLADO) ---
+# --- 5. VENTANA MODAL ---
 @st.dialog("📊 ANÁLISIS DETALLADO", width="large")
 def ventana_analisis(r, df_h):
     st.markdown(f"## ⚽ {r['Match']}")
@@ -237,7 +233,7 @@ with t1:
                             ventana_analisis(r, df_h)
         st.divider()
         
-        # FILTROS - FECHA PRIMERO + ARREGLO VISIBILIDAD
+        # FILTROS REORGANIZADOS: FECHA (IZQ), LIGA (CENTRO), JORNADA (DER)
         st.markdown("### 📊 LIGAS Y JORNADAS")
         cf, c1, c2 = st.columns([1, 1, 1])
         with cf: sf = st.date_input("Filtrar por Fecha:", value=None, key="f_act")
@@ -255,7 +251,7 @@ with t1:
             st.dataframe(df_fin[['Date', 'Time', 'Matchday', 'League', 'Match'] + cols_f].style.map(aplicar_semaforo, subset=cols_f).format({c: '{:.0%}' for c in cols_f}), use_container_width=True, hide_index=True)
             st.divider()
             
-            # PREDICCIÓN BOMBA COMPLETA
+            # PREDICCIÓN BOMBA
             d_b = df_fin.loc[df_fin[['Over 1.5', 'Over 2.5', 'Btts']].max(axis=1).idxmax()]
             loc, vis = d_b['Home team'], d_b['Away team']
             h_l = df_h[(df_h['Home team'] == loc) & (df_h['League'] == d_b['League'])]
@@ -296,7 +292,3 @@ with t1:
         with c2h: sjh = st.selectbox("Jornada Historial:", ["TODAS"] + sorted(df_hh['Matchday'].unique().tolist(), reverse=True) if not df_hh.empty else ["TODAS"], key="j_his")
         df_res = df_hh if sjh=="TODAS" else df_hh[df_hh['Matchday']==sjh]
         st.dataframe(df_res[['Date', 'Time', 'Matchday', 'League', 'Match', 'Result', '1X', 'X2', 'Over 1.5', 'Over 2.5', 'Btts']].style.map(color_letras_historial, subset=['1X', 'X2', 'Over 1.5', 'Over 2.5', 'Btts']), use_container_width=True, hide_index=True)
-
-with t2:
-    st.markdown("## 🏀 BASKETBALL PREDICTIONS")
-    st.info("Módulo de baloncesto en desarrollo.")

@@ -6,7 +6,7 @@ matchday,date,time,home_team,away_team,result,status
 1,15/03/2026,11:00,KFUM Oslo,IK Start,2-0,Final
 1,15/03/2026,11:00,Vålerenga IF,Sandefjord Fotball,1-0,Final
 1,15/03/2026,11:00,Tromsø IL,Fredrikstad FK,4-0,Final
-1,15/04/2026,12:00,Sarpsborg 08,FK Bodø/Glimt,,
+1,15/04/2026,12:00,Sarpsborg 08,FK Bodø/Glimt,1-1,Final
 2,21/03/2026,11:00,IK Start,Aalesunds FK,1-1,Final
 2,21/03/2026,11:00,Viking FK,Molde FK,4-1,Final
 2,22/03/2026,11:00,FK Bodø/Glimt,Hamarkameratene,,
@@ -111,7 +111,7 @@ matchday,date,time,home_team,away_team,result,status
 14,18/07/2026,10:00,Molde FK,SK Brann,,
 14,18/07/2026,10:00,Vålerenga IF,Aalesunds FK,,
 14,18/07/2026,10:00,Viking FK,Sandefjord Fotball,,
-15,15/04/2026,12:00,Tromsø IL,Lillestrøm SK,,
+15,15/04/2026,12:00,Tromsø IL,Lillestrøm SK,0-0,Final
 15,26/07/2026,10:00,Aalesunds FK,Viking FK,,
 15,26/07/2026,10:00,SK Brann,Vålerenga IF,,
 15,26/07/2026,10:00,KFUM Oslo,Molde FK,,

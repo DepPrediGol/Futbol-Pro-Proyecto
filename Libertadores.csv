@@ -48,19 +48,19 @@ matchday,date,time,home_team,away_team,result,status
 2,14/04/2026,17:00,Estudiantes L.P.,Cusco,2-1,Final
 2,14/04/2026,17:00,Cerro Porteno,Junior,1-0,Final
 2,14/04/2026,17:00,Club Nacional,Deportes Tolima,3-1,Final
-2,14/04/2026,19:00,Boca Juniors,Barcelona SC,1-0,En vivo
-2,14/04/2026,19:00,Bolívar,Deportivo La Guaira,0-1,En vivo
-2,14/04/2026,21:00,LDU de Quito,Mirassol,,
-2,14/04/2026,21:00,Universitario,Coquimbo Unido,,
-2,15/04/2026,17:00,Cruzeiro,U. Catolica,,
-2,15/04/2026,17:00,Libertad Asuncion,Rosario Central,,
-2,15/04/2026,19:30,Fluminense,Independ. Rivadavia,,
-2,15/04/2026,19:30,Corinthians,Santa Fe,,
-2,15/04/2026,21:00,Independiente del Valle,UCV,,
-2,16/04/2026,17:00,Palmeiras,Sporting Cristal,,
-2,16/04/2026,17:00,Lanus,Always Ready,,
-2,16/04/2026,19:30,Flamengo,Independiente Medellin,,
-2,16/04/2026,19:30,Penarol,Platense,,
+2,14/04/2026,19:00,Boca Juniors,Barcelona SC,3-0,Final
+2,14/04/2026,19:00,Bolívar,Deportivo La Guaira,1-1,Final
+2,14/04/2026,21:00,LDU de Quito,Mirassol,2-0,Final
+2,14/04/2026,21:00,Universitario,Coquimbo Unido,0-2,Final
+2,15/04/2026,17:00,Cruzeiro,U. Catolica,1-2,Final
+2,15/04/2026,17:00,Libertad Asuncion,Rosario Central,0-1,Final
+2,15/04/2026,19:30,Fluminense,Independ. Rivadavia,1-2,Final
+2,15/04/2026,19:30,Corinthians,Santa Fe,2-0,Final
+2,15/04/2026,21:00,Independiente del Valle,UCV,3-1,Final
+2,16/04/2026,17:00,Palmeiras,Sporting Cristal,2-1,Final
+2,16/04/2026,17:00,Lanus,Always Ready,1-0,Final
+2,16/04/2026,19:30,Flamengo,Independiente Medellin,3-1,En vivo
+2,16/04/2026,19:30,Penarol,Platense,1-2,En vivo
 3,28/04/2026,17:00,Lanus,LDU de Quito,,
 3,28/04/2026,17:00,Libertad Asuncion,Independiente del Valle,,
 3,28/04/2026,19:00,UCV,Rosario Central,,

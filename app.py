@@ -13,26 +13,23 @@ st.set_page_config(page_title="Bet Pro Futbol AI", layout="wide", page_icon="⚽
 # --- 2. CSS PERSONALIZADO (FILTRO CLARO / MODALES OSCUROS) ---
 st.markdown("""
     <style>
-    /* Fondo de la app */
     .stApp { 
         background-image: url("https://images.unsplash.com/photo-1556056504-5c7696c4c28d?q=80&w=2076&auto=format&fit=crop"); 
         background-attachment: fixed; background-size: cover; 
     }
     
-    /* Contenedor principal blanco */
     .main .block-container { 
         background-color: rgba(255, 255, 255, 0.98) !important; 
         border-radius: 15px; padding: 40px; margin-top: 25px;
         box-shadow: 0px 10px 30px rgba(0,0,0,0.4);
     }
 
-    /* Texto general en negro para el fondo blanco */
     h1, h2, h3, h4, h5, h6, p, span, label, .stMetric {
         color: #000000 !important;
         font-weight: bold !important;
     }
 
-    /* --- FILTRO DE FECHA Y CALENDARIO (SIEMPRE CLARO) --- */
+    /* CALENDARIO VISIBLE (FONDO BLANCO, LETRAS NEGRAS) */
     div[data-testid="stDateInput"] input {
         background-color: white !important;
         color: black !important;
@@ -40,7 +37,6 @@ st.markdown("""
         -webkit-text-fill-color: black !important;
     }
 
-    /* El popover del calendario flotante */
     div[data-baseweb="popover"], div[data-baseweb="calendar"] {
         background-color: white !important;
         color: black !important;
@@ -49,28 +45,25 @@ st.markdown("""
         color: black !important;
     }
 
-    /* --- MODALES / ANÁLISIS DETALLADO (OSCURO) --- */
+    /* MODALES OSCUROS */
     div[role="dialog"] {
         background-color: #1e1e1e !important;
         color: white !important;
         border: 1px solid #444 !important;
     }
     
-    /* Forzar texto blanco dentro del modal */
     div[role="dialog"] h1, div[role="dialog"] h2, div[role="dialog"] h3, 
     div[role="dialog"] h4, div[role="dialog"] p, div[role="dialog"] span,
     div[role="dialog"] .stMetric div {
         color: white !important;
     }
 
-    /* Estilo de los selectores de liga/jornada */
     div[data-baseweb="select"] > div {
         background-color: white !important;
         color: black !important;
         border: 2px solid #28a745 !important;
     }
 
-    /* Botones de partidos */
     div.stButton > button {
         width: 100% !important;
         height: 180px !important;
@@ -99,7 +92,7 @@ def color_letras_historial(val):
     v = str(val)
     if '✅' in v: return 'color: #28a745; font-weight: bold;'
     if '❌' in v: return 'color: #dc3545; font-weight: bold;'
-    return 'color: white;' # Letras blancas porque el modal es oscuro
+    return 'color: white;'
 
 def extraer_goles(resultado_str):
     if pd.isna(resultado_str): return None
@@ -196,7 +189,6 @@ def ventana_analisis(r, df_h):
             c[1].metric("Over 1.5", f"{(df_eq['Over 1.5'].str.contains('✅').sum()/len(df_eq)):.0%}")
             c[2].metric("Over 2.5", f"{(df_eq['Over 2.5'].str.contains('✅').sum()/len(df_eq)):.0%}")
             c[3].metric("Btts", f"{(df_eq['Btts'].str.contains('✅').sum()/len(df_eq)):.0%}")
-            # El subset de estilo usa color blanco/verde/rojo para que resalte en el fondo oscuro
             st.dataframe(df_eq[['Date', 'Time', 'Matchday', 'Match', 'Result', '1X', 'X2', 'Over 1.5', 'Over 2.5', 'Btts']].style.map(color_letras_historial, subset=['1X', 'X2', 'Over 1.5', 'Over 2.5', 'Btts']), use_container_width=True, hide_index=True)
         st.divider()
 
@@ -206,7 +198,7 @@ t1, t2 = st.tabs(["SOCCER PREDICTIONS", "BASKETBALL PREDICTIONS"])
 
 with t1:
     if not df_p.empty:
-        # TOP 4
+        # TOP 4 CON KEY ÚNICA (CORRECCIÓN DE ERROR)
         hoy = datetime.now().replace(hour=0, minute=0, second=0, microsecond=0)
         df_f = df_p[df_p['Fecha_dt'] >= hoy]
         if not df_f.empty:
@@ -218,14 +210,15 @@ with t1:
             for i, (m, tit) in enumerate(mks):
                 with cols[i]:
                     st.markdown(f"#### {tit}")
-                    top = df_t4.nlargest(4, m)
-                    for _, r in top.iterrows():
+                    top = df_t4.nlargest(4, m).reset_index(drop=True)
+                    for idx, r in top.iterrows():
                         etq = ("1X" if r['1X'] >= r['X2'] else "X2") if m == '1X' else "Prob"
-                        if st.button(f"{r['Date']} {r['Time']}\n{r['League']}\n{r['Match']}\n⭐ {etq}: {r[m]:.0%}", key=f"t4_{m}_{r['Match']}"):
+                        # Añadimos idx y m a la key para que sea irrepetible
+                        if st.button(f"{r['Date']} {r['Time']}\n{r['League']}\n{r['Match']}\n⭐ {etq}: {r[m]:.0%}", key=f"t4_{m}_{idx}_{r['Match']}"):
                             ventana_analisis(r, df_h)
         st.divider()
         
-        # FILTROS - ORDEN SOLICITADO (FECHA IZQUIERDA)
+        # FILTROS REORGANIZADOS
         st.markdown("### 📊 LIGAS Y JORNADAS")
         cf, c1, c2 = st.columns([1, 1, 1])
         with cf: sf = st.date_input("Filtrar por Fecha:", value=None, key="f_act_soccer")
@@ -287,3 +280,7 @@ with t1:
         with c2h: sjh = st.selectbox("Jornada Historial:", ["TODAS"] + sorted(df_hh['Matchday'].unique().tolist(), reverse=True) if not df_hh.empty else ["TODAS"], key="j_his")
         df_res = df_hh if sjh=="TODAS" else df_hh[df_hh['Matchday']==sjh]
         st.dataframe(df_res[['Date', 'Time', 'Matchday', 'League', 'Match', 'Result', '1X', 'X2', 'Over 1.5', 'Over 2.5', 'Btts']].style.map(color_letras_historial, subset=['1X', 'X2', 'Over 1.5', 'Over 2.5', 'Btts']), use_container_width=True, hide_index=True)
+
+with t2:
+    st.markdown("## 🏀 BASKETBALL PREDICTIONS")
+    st.info("Módulo de baloncesto en desarrollo.")

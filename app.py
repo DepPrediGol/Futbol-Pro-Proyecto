@@ -29,20 +29,12 @@ st.markdown("""
         font-weight: bold !important;
     }
 
-    /* CALENDARIO VISIBLE (FONDO BLANCO, LETRAS NEGRAS) */
+    /* CALENDARIO VISIBLE */
     div[data-testid="stDateInput"] input {
         background-color: white !important;
         color: black !important;
         border: 2px solid #28a745 !important;
         -webkit-text-fill-color: black !important;
-    }
-
-    div[data-baseweb="popover"], div[data-baseweb="calendar"] {
-        background-color: white !important;
-        color: black !important;
-    }
-    div[data-baseweb="calendar"] button, div[data-baseweb="calendar"] div {
-        color: black !important;
     }
 
     /* MODALES OSCUROS */
@@ -56,12 +48,6 @@ st.markdown("""
     div[role="dialog"] h4, div[role="dialog"] p, div[role="dialog"] span,
     div[role="dialog"] .stMetric div {
         color: white !important;
-    }
-
-    div[data-baseweb="select"] > div {
-        background-color: white !important;
-        color: black !important;
-        border: 2px solid #28a745 !important;
     }
 
     div.stButton > button {
@@ -118,7 +104,7 @@ def obtener_probabilidades(e_l, e_v):
             if gl > 0 and gv > 0: p_btts += p
     return p_l, p_e, p_v, p_o15, p_o25, p_btts
 
-# --- 4. CARGA DE DATOS ---
+# --- 4. CARGA DE DATOS (CORREGIDA PARA HORA EXACTA) ---
 @st.cache_data(ttl=60)
 def cargar_todo():
     archivos = glob.glob("**/*.csv", recursive=True)
@@ -149,10 +135,18 @@ def cargar_todo():
                 total = pl+pe+pv+pe
                 p1x, px2 = (pl+pe)/total, (pv+pe)/total
                 g = extraer_goles(f.get('result'))
-                fecha_dt = pd.to_datetime(f['date'], dayfirst=True, errors='coerce')
+                
+                # --- NUEVA LÓGICA: COMBINAR FECHA Y HORA ---
+                fecha_str = str(f['date'])
+                hora_str = str(f.get('time','00:00'))
+                try:
+                    # Combinamos ambos strings para tener precisión de minutos
+                    fecha_dt = pd.to_datetime(f"{fecha_str} {hora_str}", dayfirst=True)
+                except:
+                    fecha_dt = pd.to_datetime(fecha_str, dayfirst=True)
                 
                 match_data = {
-                    'Date': f['date'], 'Time': f.get('time','-'), 'Matchday': int(f.get('matchday',0)), 'League': ln, 
+                    'Date': f['date'], 'Time': hora_str, 'Matchday': int(f.get('matchday',0)), 'League': ln, 
                     'Home team': f['home_team'], 'Away team': f['away_team'], 'Match': f"{f['home_team']} vs {f['away_team']}",
                     'Fecha_dt': fecha_dt
                 }
@@ -198,13 +192,21 @@ t1, t2 = st.tabs(["SOCCER PREDICTIONS", "BASKETBALL PREDICTIONS"])
 
 with t1:
     if not df_p.empty:
-        # TOP 4 CON KEY ÚNICA (CORRECCIÓN DE ERROR)
-        hoy = datetime.now().replace(hour=0, minute=0, second=0, microsecond=0)
-        df_f = df_p[df_p['Fecha_dt'] >= hoy]
+        # --- FILTRO TOP 4 POR HORA ACTUAL ---
+        ahora = datetime.now()
+        
+        # Filtramos partidos que ocurren hoy o después, pero cuya HORA sea mayor a la actual
+        df_f = df_p[df_p['Fecha_dt'] > ahora].copy()
+        
         if not df_f.empty:
-            f_prox = df_f['Fecha_dt'].min()
-            df_t4 = df_f[df_f['Fecha_dt'] == f_prox].copy()
-            st.markdown(f"### 🏆 TOP 4 ({f_prox.strftime('%d/%m/%Y')})")
+            # Ordenamos por los partidos más cercanos cronológicamente
+            df_f = df_f.sort_values('Fecha_dt')
+            f_prox_dia = df_f['Fecha_dt'].min().date()
+            
+            # Seleccionamos el top de lo que queda por jugar en el día más próximo
+            df_t4 = df_f[df_f['Fecha_dt'].dt.date == f_prox_dia].copy()
+            
+            st.markdown(f"### 🏆 TOP 4 PRÓXIMOS ({f_prox_dia.strftime('%d/%m/%Y')})")
             mks = [('1X', '🛡️ Doble Oportunidad'), ('Over 1.5', '🥅 Over 1.5'), ('Over 2.5', '⚽ Over 2.5'), ('Btts', '🤝 Btts')]
             cols = st.columns(4)
             for i, (m, tit) in enumerate(mks):
@@ -213,9 +215,11 @@ with t1:
                     top = df_t4.nlargest(4, m).reset_index(drop=True)
                     for idx, r in top.iterrows():
                         etq = ("1X" if r['1X'] >= r['X2'] else "X2") if m == '1X' else "Prob"
-                        # Añadimos idx y m a la key para que sea irrepetible
                         if st.button(f"{r['Date']} {r['Time']}\n{r['League']}\n{r['Match']}\n⭐ {etq}: {r[m]:.0%}", key=f"t4_{m}_{idx}_{r['Match']}"):
                             ventana_analisis(r, df_h)
+        else:
+            st.info("No hay más partidos programados para el resto del día.")
+        
         st.divider()
         
         # FILTROS REORGANIZADOS
@@ -237,6 +241,7 @@ with t1:
             st.divider()
             
             # PREDICCIÓN BOMBA
+            # (Se mantiene tu lógica de predicción bomba)
             d_b = df_fin.loc[df_fin[['Over 1.5', 'Over 2.5', 'Btts']].max(axis=1).idxmax()]
             loc, vis = d_b['Home team'], d_b['Away team']
             h_l = df_h[(df_h['Home team'] == loc) & (df_h['League'] == d_b['League'])]

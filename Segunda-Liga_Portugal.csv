@@ -260,24 +260,24 @@ matchday,date,time,home_team,away_team,result,status
 29,12/04/2026,08:00,Maritimo,Portimonense,1-0,Final
 29,12/04/2026,09:30,Leixoes,Oliveirense,2-0,Final
 29,13/04/2026,12:00,Lusitânia Lourosa,FC Porto B,1-1,Final
-30,17/04/2026,12:45,Academico Viseu,Feirense,,
-30,18/04/2026,05:00,Pacos Ferreira,Chaves,,
-30,18/04/2026,08:00,União de Leiria,Penafiel,,
-30,18/04/2026,12:00,Torreense,Maritimo,,
-30,19/04/2026,05:00,Portimonense,Lusitânia Lourosa,,
-30,19/04/2026,08:00,Vizela,Farense,,
+30,17/04/2026,12:45,Academico Viseu,Feirense,3-0,Final
+30,18/04/2026,05:00,Pacos Ferreira,Chaves,4-3,Final
+30,18/04/2026,08:00,União de Leiria,Penafiel,4-2,Final
+30,18/04/2026,12:00,Torreense,Maritimo,1-0,Final
+30,19/04/2026,05:00,Portimonense,Lusitânia Lourosa,3-2,Final
+30,19/04/2026,08:00,Vizela,Farense,0-2,Final
 30,20/04/2026,12:45,FC Porto B,Leixoes,,
 30,20/04/2026,12:45,Sporting CP B,Felgueiras 1932,,
 30,22/04/2026,12:00,Oliveirense,Benfica B,,
+31,26/04/2026,05:00,Lusitânia Lourosa,Pacos Ferreira,,
+31,26/04/2026,08:00,Vizela,Sporting CP B,,
+31,26/04/2026,09:30,Penafiel,FC Porto B,,
 31,26/04/2026,10:00,Feirense,Torreense,,
 31,26/04/2026,10:00,Chaves,Oliveirense,,
-31,26/04/2026,10:00,Benfica B,Maritimo,,
 31,26/04/2026,10:00,Farense,Academico Viseu,,
-31,26/04/2026,10:00,Penafiel,FC Porto B,,
 31,26/04/2026,10:00,Leixoes,Portimonense,,
-31,26/04/2026,10:00,Vizela,Sporting CP B,,
 31,26/04/2026,10:00,Felgueiras 1932,União de Leiria,,
-31,26/04/2026,10:00,Lusitânia Lourosa,Pacos Ferreira,,
+31,26/04/2026,12:00,Benfica B,Maritimo,,
 32,03/05/2026,10:00,Maritimo,Leixoes,,
 32,03/05/2026,10:00,Portimonense,Chaves,,
 32,03/05/2026,10:00,Oliveirense,Lusitânia Lourosa,,

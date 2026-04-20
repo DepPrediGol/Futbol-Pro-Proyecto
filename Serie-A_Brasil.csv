@@ -109,16 +109,16 @@ matchday,date,time,home_team,away_team,result,status
 11,12/04/2026,16:00,Fluminense,Flamengo,1-2,Final
 11,12/04/2026,16:30,Corinthians,Palmeiras,0-0,Final
 11,12/04/2026,16:30,Cruzeiro,RB Bragantino,2-1,Final
-12,18/04/2026,16:30,Chapecoense-sc,Botafogo,,
-12,18/04/2026,16:30,Vasco DA Gama,Sao Paulo,,
-12,18/04/2026,18:00,Vitoria,Corinthians,,
-12,18/04/2026,18:30,Cruzeiro,Gremio,,
-12,19/04/2026,09:00,Internacional,Mirassol,,
-12,19/04/2026,14:00,Coritiba,Atletico-MG,,
-12,19/04/2026,14:00,Santos,Fluminense,,
-12,19/04/2026,16:30,RB Bragantino,Remo,,
-12,19/04/2026,16:30,Palmeiras,Atletico Paranaense,,
-12,19/04/2026,17:30,Flamengo,Bahia,,
+12,18/04/2026,16:30,Chapecoense-sc,Botafogo,1-4,Final
+12,18/04/2026,16:30,Vasco DA Gama,Sao Paulo,2-1,Final
+12,18/04/2026,18:00,Vitoria,Corinthians,0-0,Final
+12,18/04/2026,18:30,Cruzeiro,Gremio,2-0,Final
+12,19/04/2026,09:00,Internacional,Mirassol,1-2,Final
+12,19/04/2026,14:00,Coritiba,Atletico-MG,2-0,Final
+12,19/04/2026,14:00,Santos,Fluminense,2-3,Final
+12,19/04/2026,16:30,RB Bragantino,Remo,4-2,Final
+12,19/04/2026,16:30,Palmeiras,Atletico Paranaense,1-0,Final
+12,19/04/2026,17:30,Flamengo,Bahia,2-0,Final
 13,25/04/2026,16:30,Bahia,Santos,,
 13,25/04/2026,16:30,Botafogo,Internacional,,
 13,25/04/2026,16:30,Remo,Cruzeiro,,

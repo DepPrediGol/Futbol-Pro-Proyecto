@@ -251,14 +251,14 @@ matchday,date,time,home_team,away_team,result,status
 28,12/04/2026,07:45,Motor Lublin,Raków Częstochowa,1-1,Final
 28,12/04/2026,10:30,Lech Poznań,GKS Katowice,3-3,Final
 28,13/04/2026,12:00,Piast Gliwice,Pogoń Szczecin,0-2,Final
-29,17/04/2026,11:00,GKS Katowice,Motor Lublin,,
-29,17/04/2026,13:30,Legia Warszawa,Zagłębie Lubin,,
-29,18/04/2026,07:45,Radomiak Radom,Widzew Łódź,,
-29,18/04/2026,10:30,Górnik Zabrze,Korona Kielce,,
-29,18/04/2026,13:15,Pogoń Szczecin,Lech Poznań,,
-29,19/04/2026,05:15,Bruk-Bet Termalica Nieciecza,Wisła Płock,,
-29,19/04/2026,07:45,Raków Częstochowa,KS Cracovia,,
-29,19/04/2026,10:30,Arka Gdynia,Jagiellonia Białystok,,
+29,17/04/2026,11:00,GKS Katowice,Motor Lublin,3-2,Final
+29,17/04/2026,13:30,Legia Warszawa,Zagłębie Lubin,1-0,Final
+29,18/04/2026,07:45,Radomiak Radom,Widzew Łódź,2-1,Final
+29,18/04/2026,10:30,Górnik Zabrze,Korona Kielce,1-0,Final
+29,18/04/2026,13:15,Pogoń Szczecin,Lech Poznań,1-2,Final
+29,19/04/2026,05:15,Bruk-Bet Termalica Nieciecza,Wisła Płock,1-3,Final
+29,19/04/2026,07:45,Raków Częstochowa,KS Cracovia,4-1,Final
+29,19/04/2026,10:30,Arka Gdynia,Jagiellonia Białystok,0-3,Final
 29,20/04/2026,12:00,Lechia Gdańsk,Piast Gliwice,,
 30,24/04/2026,11:00,Zagłębie Lubin,Bruk-Bet Termalica Nieciecza,,
 30,24/04/2026,13:30,Jagiellonia Białystok,Górnik Zabrze,,
@@ -287,15 +287,15 @@ matchday,date,time,home_team,away_team,result,status
 32,10/05/2026,11:00,Wisła Płock,Motor Lublin,,
 32,10/05/2026,11:00,Bruk-Bet Termalica Nieciecza,Legia Warszawa,,
 32,11/05/2026,11:00,KS Cracovia,Radomiak Radom,,
-33,16/05/2026,11:00,Arka Gdynia,Bruk-Bet Termalica Nieciecza,,
-33,16/05/2026,11:00,GKS Katowice,Jagiellonia Białystok,,
-33,16/05/2026,11:00,Korona Kielce,Widzew Łódź,,
-33,16/05/2026,11:00,Lechia Gdańsk,Legia Warszawa,,
+33,15/05/2026,11:00,Zagłębie Lubin,Pogoń Szczecin,,
+33,15/05/2026,11:00,Korona Kielce,Widzew Łódź,,
 33,16/05/2026,11:00,Motor Lublin,KS Cracovia,,
-33,16/05/2026,11:00,Piast Gliwice,Raków Częstochowa,,
-33,16/05/2026,11:00,Radomiak Radom,Lech Poznań,,
 33,16/05/2026,11:00,Wisła Płock,Górnik Zabrze,,
-33,16/05/2026,11:00,Zagłębie Lubin,Pogoń Szczecin,,
+33,16/05/2026,11:00,Radomiak Radom,Lech Poznań,,
+33,17/05/2026,11:00,Piast Gliwice,Raków Częstochowa,,
+33,17/05/2026,11:00,GKS Katowice,Jagiellonia Białystok,,
+33,17/05/2026,11:00,Lechia Gdańsk,Legia Warszawa,,
+33,18/05/2026,11:00,Arka Gdynia,Bruk-Bet Termalica Nieciecza,,
 34,23/05/2026,11:00,Górnik Zabrze,Radomiak Radom,,
 34,23/05/2026,11:00,Jagiellonia Białystok,Zagłębie Lubin,,
 34,23/05/2026,11:00,KS Cracovia,Korona Kielce,,

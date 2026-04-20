@@ -228,7 +228,6 @@ matchday,date,time,home_team,away_team,result,status
 26,14/03/2026,13:00,GIL Vicente,Alverca,2-2,Final
 26,14/03/2026,15:30,Arouca,Benfica,1-2,Final
 26,15/03/2026,10:30,Nacional,Estoril,0-1,Final
-26,15/03/2026,10:30,Sporting CP,Tondela,,Aplazado
 26,15/03/2026,10:30,AVS,Santa Clara,0-1,Final
 26,15/03/2026,13:00,Rio Ave,Estrela,2-1,Final
 26,15/03/2026,15:30,FC Porto,Moreirense,3-0,Final
@@ -259,25 +258,26 @@ matchday,date,time,home_team,away_team,result,status
 29,12/04/2026,12:00,SC Braga,Arouca,1-0,Final
 29,12/04/2026,14:30,Estoril,FC Porto,1-3,Final
 29,13/04/2026,14:15,Tondela,GIL Vicente,2-2,Final
-30,17/04/2026,14:45,Rio Ave,AVS,,
-30,18/04/2026,09:30,Nacional,Alverca,,
-30,18/04/2026,12:00,Casa Pia,Santa Clara,,
-30,18/04/2026,14:30,GIL Vicente,Guimaraes,,
-30,19/04/2026,09:30,Arouca,Estrela,,
-30,19/04/2026,12:00,Sporting CP,Benfica,,
-30,19/04/2026,14:30,FC Porto,Tondela,,
-30,19/04/2026,14:30,SC Braga,Famalicao,,
+30,17/04/2026,14:45,Rio Ave,AVS,2-2,Final
+30,18/04/2026,09:30,Nacional,Alverca,1-0,Final
+30,18/04/2026,12:00,Casa Pia,Santa Clara,0-0,Final
+30,18/04/2026,14:30,GIL Vicente,Guimaraes,0-1,Final
+30,19/04/2026,09:30,Arouca,Estrela,1-0,Final
+30,19/04/2026,12:15,Sporting CP,Benfica,1-2,Final
+30,19/04/2026,14:30,FC Porto,Tondela,2-0,Final
+30,19/04/2026,14:30,SC Braga,Famalicao,2-2,Final
 30,20/04/2026,14:15,Moreirense,Estoril,,
-26,23/04/2026,14:15,Casa Pia,SC Braga,,
-31,26/04/2026,11:00,Benfica,Moreirense,,
-31,26/04/2026,11:00,Tondela,Nacional,,
-31,26/04/2026,11:00,Guimaraes,Rio Ave,,
-31,26/04/2026,11:00,Santa Clara,SC Braga,,
-31,26/04/2026,11:00,Estoril,Famalicao,,
-31,26/04/2026,11:00,GIL Vicente,Casa Pia,,
-31,26/04/2026,11:00,Alverca,Arouca,,
-31,26/04/2026,11:00,Estrela,FC Porto,,
-31,26/04/2026,11:00,AVS,Sporting CP,,
+26,23/04/2026,13:00,Casa Pia,SC Braga,,
+31,24/04/2026,14:15,Alverca,Arouca,,
+31,25/04/2026,09:30,Tondela,Nacional,,
+31,25/04/2026,12:00,Benfica,Moreirense,,
+31,25/04/2026,14:30,Guimaraes,Rio Ave,,
+31,26/04/2026,09:30,Estoril,Famalicao,,
+31,26/04/2026,12:00,Santa Clara,SC Braga,,
+31,26/04/2026,12:00,Estrela,FC Porto,,
+31,26/04/2026,14:30,AVS,Sporting CP,,
+31,27/04/2026,14:15,GIL Vicente,Casa Pia,,
+26,29/04/2026,14:15,Sporting CP,Tondela,,
 32,03/05/2026,11:00,FC Porto,Alverca,,
 32,03/05/2026,11:00,Moreirense,Estrela,,
 32,03/05/2026,11:00,SC Braga,Estoril,,

@@ -514,17 +514,17 @@ matchday,date,time,home_team,away_team,result,status
 29,14/04/2026,13:45,Barrow,Oldham,3-2,Final
 40,14/04/2026,13:45,Chesterfield,Grimsby,2-1,Final
 44,16/04/2026,14:00,Bromley,Cambridge United,0-0,Final
-44,18/04/2026,06:30,Swindon Town,Accrington ST,,
-44,18/04/2026,06:30,Barrow,Walsall,,
-44,18/04/2026,09:00,Fleetwood Town,Chesterfield,,
-44,18/04/2026,09:00,Gillingham,Grimsby,,
-44,18/04/2026,09:00,Oldham,Salford City,,
-44,18/04/2026,09:00,Crawley Town,Shrewsbury,,
-44,18/04/2026,09:00,Crewe,Milton Keynes Dons,,
-44,18/04/2026,09:00,Cheltenham,Newport County,,
-44,18/04/2026,09:00,Notts County,Barnet,,
-44,18/04/2026,09:00,Tranmere,Bristol Rovers,,
-44,18/04/2026,09:00,Harrogate Town,Colchester,,
+44,18/04/2026,06:30,Swindon Town,Accrington ST,2-2,Final
+44,18/04/2026,06:30,Barrow,Walsall,1-3,Final
+44,18/04/2026,09:00,Fleetwood Town,Chesterfield,1-1,Final
+44,18/04/2026,09:00,Gillingham,Grimsby,1-4,Final
+44,18/04/2026,09:00,Oldham,Salford City,1-2,Final
+44,18/04/2026,09:00,Crawley Town,Shrewsbury,0-0,Final
+44,18/04/2026,09:00,Crewe,Milton Keynes Dons,1-3,Final
+44,18/04/2026,09:00,Cheltenham,Newport County,1-0,Final
+44,18/04/2026,09:00,Notts County,Barnet,1-2,Final
+44,18/04/2026,09:00,Tranmere,Bristol Rovers,1-2,Final
+44,18/04/2026,09:00,Harrogate Town,Colchester,1-0,Final
 25,21/04/2026,13:45,Cambridge United,Grimsby,,
 40,21/04/2026,13:45,Cheltenham,Tranmere,,
 45,23/04/2026,14:00,Salford City,Bromley,,

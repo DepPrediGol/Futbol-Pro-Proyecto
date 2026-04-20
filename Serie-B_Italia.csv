@@ -339,16 +339,16 @@ matchday,date,time,home_team,away_team,result,status
 34,12/04/2026,10:15,Spezia,Mantova,0-2,Final
 34,12/04/2026,12:30,Reggiana,Carrarese,2-0,Final
 31,14/04/2026,12:00,Catanzaro,Modena,2-2,Final
-35,17/04/2026,13:30,Sampdoria,Monza,,
-35,18/04/2026,08:00,Bari,Venezia,,
-35,18/04/2026,08:00,Spezia,Sudtirol,,
-35,18/04/2026,08:00,Modena,Frosinone,,
-35,18/04/2026,08:00,Mantova,Avellino,,
-35,18/04/2026,10:15,Palermo,Cesena,,
-35,18/04/2026,12:30,Juve Stabia,Catanzaro,,
-35,19/04/2026,08:00,Carrarese,Pescara,,
-35,19/04/2026,10:15,Padova,Reggiana,,
-35,19/04/2026,12:30,Empoli,Virtus Entella,,
+35,17/04/2026,13:30,Sampdoria,Monza,0-3,Final
+35,18/04/2026,08:00,Bari,Venezia,0-3,Final
+35,18/04/2026,08:00,Spezia,Sudtirol,6-1,Final
+35,18/04/2026,08:00,Modena,Frosinone,1-2,Final
+35,18/04/2026,08:00,Mantova,Avellino,0-2,Final
+35,18/04/2026,10:15,Palermo,Cesena,2-0,Final
+35,18/04/2026,12:30,Juve Stabia,Catanzaro,1-1,Final
+35,19/04/2026,08:00,Carrarese,Pescara,2-2,Final
+35,19/04/2026,10:15,Padova,Reggiana,1-0,Final
+35,19/04/2026,12:30,Empoli,Virtus Entella,1-1,Final
 36,24/04/2026,12:00,Monza,Modena,,
 36,24/04/2026,14:00,Avellino,Bari,,
 36,25/04/2026,05:30,Catanzaro,Spezia,,

@@ -503,18 +503,18 @@ matchday,date,time,home_team,away_team,result,status
 42,12/04/2026,06:00,Birmingham,Wrexham,2-0,Final
 26,14/04/2026,14:00,Portsmouth,Ipswich,2-0,Final
 45,14/04/2026,14:00,Southampton,Blackburn,3-0,Final
-43,17/04/2026,14:00,Blackburn,Coventry,,
-43,18/04/2026,06:30,Millwall,QPR,,
-43,18/04/2026,06:30,Derby,Oxford United,,
-43,18/04/2026,06:30,Portsmouth,Leicester,,
-43,18/04/2026,09:00,Watford,Sheffield Utd,,
-43,18/04/2026,09:00,Bristol City,Norwich,,
-43,18/04/2026,09:00,Preston,West Brom,,
-43,18/04/2026,09:00,Hull City,Birmingham,,
-43,18/04/2026,09:00,Sheffield Wednesday,Charlton,,
-43,18/04/2026,09:00,Swansea,Southampton,,
-43,18/04/2026,09:00,Wrexham,Stoke City,,
-43,19/04/2026,06:00,Ipswich,Middlesbrough,,
+43,17/04/2026,14:00,Blackburn,Coventry,1-1,Final
+43,18/04/2026,06:30,Millwall,QPR,2-0,Final
+43,18/04/2026,06:30,Derby,Oxford United,1-0,Final
+43,18/04/2026,06:30,Portsmouth,Leicester,1-0,Final
+43,18/04/2026,09:00,Watford,Sheffield Utd,0-2,Final
+43,18/04/2026,09:00,Bristol City,Norwich,2-4,Final
+43,18/04/2026,09:00,Preston,West Brom,0-2,Final
+43,18/04/2026,09:00,Hull City,Birmingham,1-1,Final
+43,18/04/2026,09:00,Sheffield Wednesday,Charlton,1-1,Final
+43,18/04/2026,09:00,Swansea,Southampton,1-2,Final
+43,18/04/2026,09:00,Wrexham,Stoke City,2-0,Final
+43,19/04/2026,06:00,Ipswich,Middlesbrough,2-2,Final
 44,21/04/2026,13:45,Southampton,Bristol City,,
 44,21/04/2026,13:45,West Brom,Watford,,
 44,21/04/2026,13:45,Norwich,Derby,,

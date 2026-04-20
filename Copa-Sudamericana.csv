@@ -30,7 +30,7 @@ matchday,date,time,home_team,away_team,result,status
 ,09/04/2026,21:00,Academia Puerto Cabello,Atlético Mineiro,2-1,Final
 ,10/04/2026,19:30,Juventud de Las Piedras,Cienciano,1-1,Final
 ,17/04/2026,17:00,Atlético Mineiro,Juventud de Las Piedras,2-1,Final
-,17/04/2026,17:00,Cienciano,12.,1-0,Final
+,17/04/2026,17:00,Cienciano,Academia Puerto Cabello,2-0,Final
 ,30/04/2026,19:00,Juventud de Las Piedras,Academia Puerto Cabello,,
 ,30/04/2026,19:00,Cienciano,Atlético Mineiro,,
 ,06/05/2026,19:00,Juventud de Las Piedras,Atlético Mineiro,,
@@ -54,7 +54,7 @@ matchday,date,time,home_team,away_team,result,status
 ,09/04/2026,19:00,Deportivo Recoleta,San Lorenzo,1-1,Final
 ,09/04/2026,17:00,Deportivo Cuenca,Santos FC,1-0,Final
 ,15/04/2026,19:30,Santos FC,Deportivo Recoleta,1-1,Final
-,17/04/2026,17:00,San Lorenzo,86.,2-0,Final
+,17/04/2026,17:00,San Lorenzo,Deportivo Cuenca,2-0,Final
 ,29/04/2026,19:30,San Lorenzo,Santos FC,,
 ,29/04/2026,19:00,Deportivo Recoleta,Deportivo Cuenca,,
 ,06/05/2026,21:00,Deportivo Recoleta,Santos FC,,
@@ -102,7 +102,7 @@ matchday,date,time,home_team,away_team,result,status
 ,09/04/2026,21:00,Blooming,River Plate,1-1,Final
 ,10/04/2026,17:00,Carabobo FC,Red Bull Bragantino,1-0,Final
 ,16/04/2026,19:30,River Plate,Carabobo FC,1-0,Final
-,17/04/2026,17:00,Red Bull Bragantino,83.,2-2,Final
+,17/04/2026,17:00,Red Bull Bragantino,Blooming,3-2,Final
 ,01/05/2026,19:00,Carabobo FC,Blooming,,
 ,01/05/2026,19:30,Red Bull Bragantino,River Plate,,
 ,08/05/2026,19:30,Blooming,Red Bull Bragantino,,
@@ -111,12 +111,3 @@ matchday,date,time,home_team,away_team,result,status
 ,22/05/2026,17:00,Blooming,Carabobo FC,,
 ,28/05/2026,17:00,Red Bull Bragantino,Carabobo FC,,
 ,28/05/2026,19:30,River Plate,Blooming,,
-,21/07/2026,,N.,N.,,
-,28/07/2026,,N.,N.,,
-,11/08/2026,,N.,N.,,
-,18/08/2026,,N.,N.,,
-,08/09/2026,,N.,N.,,
-,15/09/2026,,N.,N.,,
-,13/10/2026,,N.,N.,,
-,20/10/2026,,N.,N.,,
-,21/11/2026,,N.,N.,,

@@ -260,14 +260,14 @@ matchday,date,time,home_team,away_team,result,status
 29,12/04/2026,12:00,Galatasaray,Kocaelispor,1-1,Final
 29,13/04/2026,12:00,Rizespor,Gaziantep FK,2-1,Final
 29,13/04/2026,12:00,Eyüpspor,Samsunspor,1-2,Final
-30,17/04/2026,12:00,Fenerbahçe,Rizespor,,
-30,17/04/2026,12:00,Antalyaspor,Konyaspor,,
-30,18/04/2026,06:30,Fatih Karagümrük,Eyüpspor,,
-30,18/04/2026,09:00,Kocaelispor,Göztepe,,
-30,18/04/2026,12:00,Gençlerbirliği S.K.,Galatasaray,,
-30,19/04/2026,06:30,Kasımpaşa,Alanyaspor,,
-30,19/04/2026,09:00,Samsunspor,Beşiktaş,,
-30,19/04/2026,12:00,Trabzonspor,Başakşehir,,
+30,17/04/2026,12:00,Fenerbahçe,Rizespor,2-2,Final
+30,17/04/2026,12:00,Antalyaspor,Konyaspor,0-2,Final
+30,18/04/2026,06:30,Fatih Karagümrük,Eyüpspor,1-2,Final
+30,18/04/2026,09:00,Kocaelispor,Göztepe,1-1,Final
+30,18/04/2026,12:00,Gençlerbirliği S.K.,Galatasaray,1-2,Final
+30,19/04/2026,06:30,Kasımpaşa,Alanyaspor,1-0,Final
+30,19/04/2026,09:00,Samsunspor,Beşiktaş,2-1,Final
+30,19/04/2026,12:00,Trabzonspor,Başakşehir,1-1,Final
 30,20/04/2026,12:00,Gaziantep FK,Kayserispor,,
 31,24/04/2026,12:00,Başakşehir,Kasımpaşa,,
 31,25/04/2026,06:30,Eyüpspor,Gaziantep FK,,

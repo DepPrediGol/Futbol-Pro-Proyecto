@@ -143,12 +143,12 @@ matchday,date,time,home_team,away_team,result,status
 24,11/04/2026,03:00,Western Sydney Wanderers,Sydney FC,0-2,Final
 24,12/04/2026,00:00,Melbourne City FC,Wellington Phoenix,2-0,Final
 24,12/04/2026,04:00,Perth Glory,Macarthur FC,3-1,Final
-25,17/04/2026,04:35,Melbourne Victory,Newcastle United Jets,,
-25,18/04/2026,00:00,Wellington Phoenix,Western Sydney Wanderers,,
-25,18/04/2026,02:00,Brisbane Roar,Melbourne City FC,,
-25,18/04/2026,04:35,Sydney FC,Perth Glory,,
-25,19/04/2026,22:00,Auckland FC,Central Coast Mariners,,
-25,19/04/2026,00:30,Adelaide United,Macarthur FC,,
+25,17/04/2026,04:35,Melbourne Victory,Newcastle United Jets,2-2,Final
+25,18/04/2026,00:00,Wellington Phoenix,Western Sydney Wanderers,2-1,Final
+25,18/04/2026,02:00,Brisbane Roar,Melbourne City FC,2-3,Final
+25,18/04/2026,04:35,Sydney FC,Perth Glory,0-0,Final
+25,19/04/2026,22:00,Auckland FC,Central Coast Mariners,0-1,Final
+25,19/04/2026,00:30,Adelaide United,Macarthur FC,3-1,Final
 26,24/04/2026,04:35,Macarthur FC,Wellington Phoenix,,
 26,25/04/2026,02:00,Newcastle United Jets,Central Coast Mariners,,
 26,25/04/2026,04:35,Western Sydney Wanderers,Melbourne Victory,,

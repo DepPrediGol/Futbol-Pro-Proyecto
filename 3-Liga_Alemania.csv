@@ -329,16 +329,16 @@ matchday,date,time,home_team,away_team,result,status
 33,12/04/2026,06:30,VfL Osnabrück,Energie Cottbus,1-0,Final
 33,12/04/2026,09:30,Erzgebirge Aue,Verl,1-1,Final
 33,12/04/2026,12:30,TSV 1860 Munich,SSV Jahn Regensburg,2-2,Final
-34,17/04/2026,12:00,SSV Jahn Regensburg,Alemannia Aachen,,
-34,18/04/2026,07:00,FC Ingolstadt 04,VfL Osnabrück,,
-34,18/04/2026,07:00,MSV Duisburg,Hoffenheim II,,
-34,18/04/2026,07:00,FC Schweinfurt 05,Hansa Rostock,,
-34,18/04/2026,07:00,FC Saarbrücken,TSV 1860 Munich,,
-34,18/04/2026,07:00,Verl,FC Viktoria Köln,,
-34,18/04/2026,09:30,SSV ULM 1846,Havelse,,
-34,19/04/2026,06:30,Energie Cottbus,Rot-Weiß Essen,,
-34,19/04/2026,09:30,Stuttgart II,Erzgebirge Aue,,
-34,19/04/2026,12:30,SV Wehen,Waldhof Mannheim,,
+34,17/04/2026,12:00,SSV Jahn Regensburg,Alemannia Aachen,1-3,Final
+34,18/04/2026,07:00,FC Ingolstadt 04,VfL Osnabrück,0-1,Final
+34,18/04/2026,07:00,MSV Duisburg,Hoffenheim II,3-1,Final
+34,18/04/2026,07:00,FC Schweinfurt 05,Hansa Rostock,0-0,Final
+34,18/04/2026,07:00,FC Saarbrücken,TSV 1860 Munich,0-0,Final
+34,18/04/2026,07:00,Verl,FC Viktoria Köln,2-0,Final
+34,18/04/2026,09:30,SSV ULM 1846,Havelse,2-1,Final
+34,19/04/2026,06:30,Energie Cottbus,Rot-Weiß Essen,5-3,Final
+34,19/04/2026,09:30,Stuttgart II,Erzgebirge Aue,2-2,Final
+34,19/04/2026,12:30,SV Wehen,Waldhof Mannheim,3-3,Final
 35,24/04/2026,12:00,Alemannia Aachen,MSV Duisburg,,
 35,25/04/2026,07:00,Erzgebirge Aue,SV Wehen,,
 35,25/04/2026,07:00,TSV 1860 Munich,SSV ULM 1846,,

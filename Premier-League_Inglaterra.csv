@@ -319,15 +319,15 @@ matchday,date,time,home_team,away_team,result,status
 32,12/04/2026,08:00,Sunderland,Tottenham,1-0,Final
 32,12/04/2026,10:30,Chelsea,Manchester City,0-3,Final
 32,13/04/2026,14:00,Manchester United,Leeds,1-2,Final
-33,18/04/2026,06:30,Brentford,Fulham,,
-33,18/04/2026,09:00,Newcastle,Bournemouth,,
-33,18/04/2026,09:00,Leeds,Wolves,,
-33,18/04/2026,11:30,Tottenham,Brighton,,
-33,18/04/2026,14:00,Chelsea,Manchester United,,
-33,19/04/2026,08:00,Everton,Liverpool,,
-33,19/04/2026,08:00,Nottingham Forest,Burnley,,
-33,19/04/2026,08:00,Aston Villa,Sunderland,,
-33,19/04/2026,10:30,Manchester City,Arsenal,,
+33,18/04/2026,06:30,Brentford,Fulham,0-0,Final
+33,18/04/2026,09:00,Newcastle,Bournemouth,1-2,Final
+33,18/04/2026,09:00,Leeds,Wolves,3-0,Final
+33,18/04/2026,11:30,Tottenham,Brighton,2-2,Final
+33,18/04/2026,14:00,Chelsea,Manchester United,0-1,Final
+33,19/04/2026,08:00,Everton,Liverpool,1-2,Final
+33,19/04/2026,08:00,Nottingham Forest,Burnley,4-1,Final
+33,19/04/2026,08:00,Aston Villa,Sunderland,4-3,Final
+33,19/04/2026,10:30,Manchester City,Arsenal,2-1,Final
 33,20/04/2026,14:00,Crystal Palace,West Ham,,
 34,21/04/2026,14:00,Brighton,Chelsea,,
 34,22/04/2026,14:00,Bournemouth,Leeds,,
@@ -340,22 +340,22 @@ matchday,date,time,home_team,away_team,result,status
 34,25/04/2026,11:30,Arsenal,Newcastle,,
 34,27/04/2026,14:00,Manchester United,Brentford,,
 35,01/05/2026,14:00,Leeds,Burnley,,
-35,02/05/2026,06:30,Aston Villa,Tottenham,,
 35,02/05/2026,09:00,Newcastle,Brighton,,
-35,02/05/2026,09:00,Bournemouth,Crystal Palace,,
 35,02/05/2026,09:00,Wolves,Sunderland,,
 35,02/05/2026,09:00,Brentford,West Ham,,
 35,02/05/2026,11:30,Arsenal,Fulham,,
+35,03/05/2026,08:00,Bournemouth,Crystal Palace,,
 35,03/05/2026,09:30,Manchester United,Liverpool,,
+35,03/05/2026,13:00,Aston Villa,Tottenham,,
 35,04/05/2026,09:00,Chelsea,Nottingham Forest,,
 35,04/05/2026,14:00,Everton,Manchester City,,
 36,09/05/2026,06:30,Liverpool,Chelsea,,
 36,09/05/2026,09:00,Fulham,Bournemouth,,
-36,09/05/2026,09:00,Burnley,Aston Villa,,
 36,09/05/2026,09:00,Brighton,Wolves,,
-36,09/05/2026,09:00,Crystal Palace,Everton,,
 36,09/05/2026,09:00,Sunderland,Manchester United,,
 36,09/05/2026,11:30,Manchester City,Brentford,,
+36,10/05/2026,08:00,Burnley,Aston Villa,,
+36,10/05/2026,08:00,Crystal Palace,Everton,,
 36,10/05/2026,08:00,Nottingham Forest,Newcastle,,
 36,10/05/2026,10:30,West Ham,Arsenal,,
 36,11/05/2026,14:00,Tottenham,Leeds,,

@@ -526,18 +526,18 @@ matchday,date,time,home_team,away_team,result,status
 32,14/04/2026,13:45,Aldershot Town,Southend,0-2,Final
 35,14/04/2026,13:45,Woking,Solihull Moors,0-0,Final
 41,14/04/2026,13:45,Wealdstone,Boston United,1-1,Final
-45,18/04/2026,06:30,FC Halifax Town,Southend,,
-45,18/04/2026,09:00,Hartlepool,Forest Green,,
-45,18/04/2026,09:00,Morecambe,Boreham Wood,,
-45,18/04/2026,09:00,Eastleigh,Tamworth,,
-45,18/04/2026,09:00,Gateshead,Woking,,
-45,18/04/2026,09:00,Solihull Moors,Boston United,,
-45,18/04/2026,09:00,Sutton Utd,Altrincham,,
-45,18/04/2026,09:00,Truro City,Carlisle,,
-45,18/04/2026,09:00,Brackley Town,Aldershot Town,,
-45,18/04/2026,09:00,Wealdstone,Scunthorpe,,
-45,18/04/2026,11:30,York,Yeovil Town,,
-45,18/04/2026,11:30,Braintree,Rochdale,,
+45,18/04/2026,06:30,FC Halifax Town,Southend,2-6,Final
+45,18/04/2026,09:00,Hartlepool,Forest Green,2-1,Final
+45,18/04/2026,09:00,Morecambe,Boreham Wood,0-3,Final
+45,18/04/2026,09:00,Eastleigh,Tamworth,1-1,Final
+45,18/04/2026,09:00,Gateshead,Woking,0-3,Final
+45,18/04/2026,09:00,Solihull Moors,Boston United,0-3,Final
+45,18/04/2026,09:00,Sutton Utd,Altrincham,1-2,Final
+45,18/04/2026,09:00,Truro City,Carlisle,0-1,Final
+45,18/04/2026,09:00,Brackley Town,Aldershot Town,2-1,Final
+45,18/04/2026,09:00,Wealdstone,Scunthorpe,1-1,Final
+45,18/04/2026,11:30,York,Yeovil Town,3-0,Final
+45,18/04/2026,11:30,Braintree,Rochdale,1-2,Final
 41,21/04/2026,13:45,Hartlepool,Southend,,
 46,25/04/2026,06:30,Rochdale,York,,
 46,25/04/2026,06:30,Scunthorpe,Eastleigh,,

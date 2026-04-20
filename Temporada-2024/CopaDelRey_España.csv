@@ -1,0 +1,127 @@
+matchday,date,time,home_team,away_team,result,status
+,11/10/2023,12:30,Pradejón,Atlético Lugones,1-2,Final
+,11/10/2023,13:00,Mijas Las Lagunas,Chiclana,0-1,Final
+,11/10/2023,14:00,Ceuta 6 de Junio,Buñol,0-3,Final
+,12/10/2023,05:00,Hernán Cortés,Sauzal,3-1,Final
+,12/10/2023,09:30,Turégano,Santurtzi,3-1,Final
+,12/10/2023,10:00,Rubí,Rotlet Molinar,0-0,Final
+,12/10/2023,10:00,Tardienta,Zirauki,2-1,Final
+,12/10/2023,10:30,Melilla CD,Deportivo Murcia,1-3,Final
+,12/10/2023,10:30,Monte,Boiro,0-1,Final
+,12/10/2023,10:30,Quintanar,Unión Zona Norte,1-0,Final
+1,31/10/2023,14:00,Mensajero,Espanyol,0-2,Final
+1,31/10/2023,14:00,Varea,Levante,0-3,Final
+1,31/10/2023,14:45,Cacereño,Castellón,2-3,Final
+1,31/10/2023,15:00,CF Talavera,Almeria,0-2,Final
+1,31/10/2023,15:00,Lorca Deportiva,Eibar,0-4,Final
+1,31/10/2023,15:00,Manacor,Las Palmas,0-3,Final
+1,01/11/2023,06:00,Ucam Murcia,Linares Deportivo,0-0,Final
+1,01/11/2023,06:00,Badalona,Cadiz,0-0,Final
+1,01/11/2023,06:00,Compostela,Tenerife,0-1,Final
+1,01/11/2023,06:00,Navalcarnero,Alcorcon,0-1,Final
+1,01/11/2023,06:00,Peña Deportiva,Valladolid,1-5,Final
+1,01/11/2023,06:00,San Roque Lepe,Girona,1-2,Final
+1,01/11/2023,06:00,Azuaga,FC Cartagena,0-0,Final
+1,01/11/2023,06:00,Llerenense,Leganes,0-2,Final
+1,01/11/2023,06:00,Náxara,Melilla,1-2,Final
+1,01/11/2023,06:00,Barbastro,Ponferradina,1-0,Final
+1,01/11/2023,06:00,Atlético Lugones,Rayo Vallecano,0-6,Final
+1,01/11/2023,09:30,Turégano,Celta Vigo,0-4,Final
+1,01/11/2023,09:30,Quintanar,Sevilla,0-3,Final
+1,01/11/2023,10:00,Antoniano,Lugo,0-1,Final
+1,01/11/2023,10:00,Atlético Astorga,FC Andorra,1-0,Final
+1,01/11/2023,10:00,Valle Egüés,Teruel,1-0,Final
+1,01/11/2023,10:30,Real Jaén,Eldense,2-3,Final
+1,01/11/2023,10:30,Real Avilés,Arenteiro,0-1,Final
+1,01/11/2023,11:00,Covadonga,Deportivo La Coruna,1-3,Final
+1,01/11/2023,11:00,Ursaria,Cayón,1-2,Final
+1,01/11/2023,11:30,Guijuelo,Sporting Gijon,0-3,Final
+1,01/11/2023,11:30,Zamora,Racing Santander,2-2,Final
+1,01/11/2023,11:30,Arandina,Real Murcia,1-0,Final
+1,01/11/2023,11:30,Manchego,Antequera,1-3,Final
+1,01/11/2023,12:00,Europa Fc,Elche,0-2,Final
+1,01/11/2023,12:00,Barakaldo,Malaga,0-0,Final
+1,01/11/2023,12:00,Gernika,Unionistas de Salamanca,0-2,Final
+1,01/11/2023,12:00,Tudelano,Recreativo Huelva,1-0,Final
+1,01/11/2023,12:00,Yeclano,Sanluqueño,2-0,Final
+1,01/11/2023,12:00,Orihuela,Gimnastic,0-0,Final
+1,01/11/2023,12:00,Terrassa,Albacete,1-0,Final
+1,01/11/2023,12:00,Utebo,Mirandes,1-2,Final
+1,01/11/2023,12:30,Buñol,Real Sociedad,0-1,Final
+1,01/11/2023,12:30,Boiro,Mallorca,0-4,Final
+1,01/11/2023,12:30,Tardienta,Getafe,0-12,Final
+1,01/11/2023,13:00,Águilas,Huesca,0-1,Final
+1,01/11/2023,13:30,Andratx,Tarazona,3-2,Final
+1,01/11/2023,14:00,Marbella,Racing Ferrol,1-3,Final
+1,01/11/2023,14:00,Manresa,Oviedo,1-2,Final
+1,01/11/2023,14:30,Hernán Cortés,Real Betis,1-12,Final
+1,01/11/2023,15:30,Rubí,Athletic Club,1-2,Final
+1,02/11/2023,13:00,Arosa,Granada CF,0-3,Final
+1,02/11/2023,13:00,Chiclana,Villarreal,0-5,Final
+1,02/11/2023,14:00,UD Logroñés,Valencia,0-2,Final
+1,02/11/2023,14:30,Hércules,Burgos,1-2,Final
+1,02/11/2023,14:30,Villanovense,Ibiza,2-1,Final
+1,02/11/2023,15:00,Deportivo Murcia,Alaves,0-10,Final
+1,08/11/2023,12:00,Gimnástica Segoviana,Sestao River,3-4,Final
+1,14/11/2023,14:00,Atzeneta,Zaragoza,2-1,Final
+2,22/11/2023,15:00,Zamora,Villarreal,1-2,Final
+2,05/12/2023,13:00,Atzeneta,Getafe,1-2,Final
+2,05/12/2023,15:00,Espanyol,Valladolid,3-1,Final
+2,05/12/2023,15:00,Castellón,Oviedo,2-1,Final
+2,05/12/2023,15:00,Arosa,Valencia,0-1,Final
+2,06/12/2023,06:00,Deportivo La Coruna,Tenerife,2-3,Final
+2,06/12/2023,06:00,Alcorcon,FC Cartagena,0-0,Final
+2,06/12/2023,06:00,Yeclano,Rayo Vallecano,0-2,Final
+2,06/12/2023,06:00,Antequera,Huesca,0-2,Final
+2,06/12/2023,06:00,Barbastro,Almeria,1-0,Final
+2,06/12/2023,10:00,Unionistas de Salamanca,Sporting Gijon,2-0,Final
+2,06/12/2023,10:00,Andratx,Real Sociedad,0-1,Final
+2,06/12/2023,10:00,Arenteiro,Burgos,1-3,Final
+2,06/12/2023,10:00,Terrassa,Alaves,0-1,Final
+2,06/12/2023,11:00,Malaga,Eldense,1-0,Final
+2,06/12/2023,13:00,Levante,Amorebieta,0-1,Final
+2,06/12/2023,13:00,Lugo,Mirandes,2-0,Final
+2,06/12/2023,13:00,Villanovense,Real Betis,1-2,Final
+2,06/12/2023,13:00,Valle Egüés,Mallorca,0-3,Final
+2,06/12/2023,15:00,Tudelano,Las Palmas,1-2,Final
+2,06/12/2023,15:00,Atlético Astorga,Sevilla,0-2,Final
+2,07/12/2023,13:00,Arandina,Cadiz,2-1,Final
+2,07/12/2023,14:00,Melilla,Eibar,1-1,Final
+2,07/12/2023,14:00,Linares Deportivo,Elche,1-3,Final
+2,07/12/2023,14:00,Racing Ferrol,Leganes,1-0,Final
+2,07/12/2023,15:00,Orihuela,Girona,2-5,Final
+2,07/12/2023,15:00,Sestao River,Celta Vigo,1-2,Final
+2,07/12/2023,15:00,Cayón,Athletic Club,0-3,Final
+32,06/01/2024,10:00,Lugo,Atletico Madrid,1-3,Final
+32,06/01/2024,11:00,Espanyol,Getafe,0-1,Final
+32,06/01/2024,12:00,Elche,Girona,0-2,Final
+32,06/01/2024,13:00,Huesca,Rayo Vallecano,0-2,Final
+32,06/01/2024,14:00,Alaves,Real Betis,1-0,Final
+32,06/01/2024,15:30,Arandina,Real Madrid,1-3,Final
+32,07/01/2024,06:00,Amorebieta,Celta Vigo,2-4,Final
+32,07/01/2024,06:00,Burgos,Mallorca,0-3,Final
+32,07/01/2024,10:00,Castellón,Osasuna,0-1,Final
+32,07/01/2024,10:00,Racing Ferrol,Sevilla,1-2,Final
+32,07/01/2024,13:00,Eibar,Athletic Club,0-3,Final
+32,07/01/2024,13:00,FC Cartagena,Valencia,1-2,Final
+32,07/01/2024,15:00,Malaga,Real Sociedad,0-1,Final
+32,07/01/2024,15:00,Barbastro,Barcelona,2-3,Final
+32,07/01/2024,16:00,Tenerife,Las Palmas,2-0,Final
+32,08/01/2024,12:00,Unionistas de Salamanca,Villarreal,1-1,Final
+16,16/01/2024,14:00,Getafe,Sevilla,1-3,Final
+16,16/01/2024,15:00,Athletic Club,Alaves,2-0,Final
+16,16/01/2024,16:00,Tenerife,Mallorca,0-1,Final
+16,17/01/2024,14:00,Valencia,Celta Vigo,1-3,Final
+16,17/01/2024,15:00,Osasuna,Real Sociedad,0-2,Final
+16,17/01/2024,15:30,Girona,Rayo Vallecano,3-1,Final
+16,18/01/2024,13:30,Unionistas de Salamanca,Barcelona,1-3,Final
+16,18/01/2024,15:30,Atletico Madrid,Real Madrid,4-2,Final
+,23/01/2024,15:30,Celta Vigo,Real Sociedad,1-2,Final
+,24/01/2024,13:30,Mallorca,Girona,3-2,Final
+,24/01/2024,15:30,Athletic Club,Barcelona,4-2,Final
+,25/01/2024,15:00,Atletico Madrid,Sevilla,1-0,Final
+,06/02/2024,15:00,Mallorca,Real Sociedad,0-0,Final
+,07/02/2024,15:30,Atletico Madrid,Athletic Club,0-1,Final
+,27/02/2024,15:30,Real Sociedad,Mallorca,1-1,Final
+,29/02/2024,15:30,Athletic Club,Atletico Madrid,3-0,Final
+,06/04/2024,15:00,Athletic Club,Mallorca,1-1,Final

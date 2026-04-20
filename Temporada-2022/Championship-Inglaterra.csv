@@ -1,0 +1,553 @@
+matchday,date,time,home_team,away_team,result,status
+1,06/08/2021,03:00,AFC Bournemouth,West Bromwich Albion,2-2,Final
+1,07/08/2021,03:00,Blackburn Rovers,Swansea City,2-1,Final
+1,07/08/2021,03:00,Bristol City,Blackpool FC,1-1,Final
+1,07/08/2021,03:00,Cardiff City,Barnsley FC,1-1,Final
+1,07/08/2021,03:00,Derby County,Huddersfield Town,1-1,Final
+1,07/08/2021,03:00,Luton Town,Peterborough United,3-0,Final
+1,07/08/2021,03:00,Preston North End,Hull City,1-4,Final
+1,07/08/2021,03:00,Queens Park Rangers,Millwall FC,1-1,Final
+1,07/08/2021,03:00,Stoke City,Reading FC,3-2,Final
+1,07/08/2021,03:00,Sheffield United,Birmingham City,0-1,Final
+1,08/08/2021,03:00,Fulham FC,Middlesbrough FC,1-1,Final
+1,08/08/2021,03:00,Coventry City,Nottingham Forest,2-1,Final
+2,14/08/2021,03:00,Peterborough United,Derby County,2-1,Final
+2,14/08/2021,03:00,Birmingham City,Stoke City,0-0,Final
+2,14/08/2021,03:00,Blackpool FC,Cardiff City,0-2,Final
+2,14/08/2021,03:00,Barnsley FC,Coventry City,1-0,Final
+2,14/08/2021,03:00,Middlesbrough FC,Bristol City,2-1,Final
+2,14/08/2021,03:00,Millwall FC,Blackburn Rovers,1-1,Final
+2,14/08/2021,03:00,Reading FC,Preston North End,2-1,Final
+2,14/08/2021,03:00,Huddersfield Town,Fulham FC,1-5,Final
+2,14/08/2021,03:00,Hull City,Queens Park Rangers,0-3,Final
+2,14/08/2021,03:00,Nottingham Forest,AFC Bournemouth,1-2,Final
+2,14/08/2021,03:00,West Bromwich Albion,Luton Town,3-2,Final
+2,14/08/2021,03:00,Swansea City,Sheffield United,0-0,Final
+3,17/08/2021,03:00,Blackpool FC,Coventry City,0-1,Final
+3,17/08/2021,03:00,Barnsley FC,Luton Town,0-1,Final
+3,17/08/2021,03:00,Millwall FC,Fulham FC,1-2,Final
+3,17/08/2021,03:00,Huddersfield Town,Preston North End,1-0,Final
+3,17/08/2021,03:00,Peterborough United,Cardiff City,2-2,Final
+3,17/08/2021,03:00,Swansea City,Stoke City,1-3,Final
+3,17/08/2021,03:00,Reading FC,Bristol City,2-3,Final
+3,18/08/2021,03:00,Birmingham City,AFC Bournemouth,0-2,Final
+3,18/08/2021,03:00,Middlesbrough FC,Queens Park Rangers,2-3,Final
+3,18/08/2021,03:00,Hull City,Derby County,0-1,Final
+3,18/08/2021,03:00,Nottingham Forest,Blackburn Rovers,1-2,Final
+3,18/08/2021,03:00,West Bromwich Albion,Sheffield United,4-0,Final
+4,20/08/2021,03:00,Bristol City,Swansea City,0-1,Final
+4,21/08/2021,03:00,Queens Park Rangers,Barnsley FC,2-2,Final
+4,21/08/2021,03:00,AFC Bournemouth,Blackpool FC,2-2,Final
+4,21/08/2021,03:00,Blackburn Rovers,West Bromwich Albion,1-2,Final
+4,21/08/2021,03:00,Cardiff City,Millwall FC,3-1,Final
+4,21/08/2021,03:00,Coventry City,Reading FC,2-1,Final
+4,21/08/2021,03:00,Derby County,Middlesbrough FC,0-0,Final
+4,21/08/2021,03:00,Fulham FC,Hull City,2-0,Final
+4,21/08/2021,03:00,Luton Town,Birmingham City,0-5,Final
+4,21/08/2021,03:00,Preston North End,Peterborough United,1-0,Final
+4,21/08/2021,03:00,Sheffield United,Huddersfield Town,1-2,Final
+4,21/08/2021,03:00,Stoke City,Nottingham Forest,1-0,Final
+5,28/08/2021,03:00,Cardiff City,Bristol City,1-2,Final
+5,28/08/2021,03:00,Derby County,Nottingham Forest,1-1,Final
+5,28/08/2021,03:00,Barnsley FC,Birmingham City,1-1,Final
+5,28/08/2021,03:00,Fulham FC,Stoke City,3-0,Final
+5,28/08/2021,03:00,Middlesbrough FC,Blackburn Rovers,1-1,Final
+5,28/08/2021,03:00,Millwall FC,Blackpool FC,2-1,Final
+5,28/08/2021,03:00,Huddersfield Town,Reading FC,4-0,Final
+5,28/08/2021,03:00,Hull City,AFC Bournemouth,0-0,Final
+5,28/08/2021,03:00,Luton Town,Sheffield United,0-0,Final
+5,28/08/2021,03:00,Preston North End,Swansea City,3-1,Final
+5,28/08/2021,03:00,Queens Park Rangers,Coventry City,2-0,Final
+5,28/08/2021,03:00,Peterborough United,West Bromwich Albion,0-1,Final
+6,10/09/2021,03:00,Birmingham City,Derby County,2-0,Final
+6,11/09/2021,03:00,AFC Bournemouth,Barnsley FC,3-0,Final
+6,11/09/2021,03:00,Blackburn Rovers,Luton Town,2-2,Final
+6,11/09/2021,03:00,Blackpool FC,Fulham FC,1-0,Final
+6,11/09/2021,03:00,Bristol City,Preston North End,0-0,Final
+6,11/09/2021,03:00,Coventry City,Middlesbrough FC,2-0,Final
+6,11/09/2021,03:00,Reading FC,Queens Park Rangers,3-3,Final
+6,11/09/2021,03:00,Sheffield United,Peterborough United,6-2,Final
+6,11/09/2021,03:00,Stoke City,Huddersfield Town,2-1,Final
+6,11/09/2021,03:00,Swansea City,Hull City,0-0,Final
+6,11/09/2021,03:00,West Bromwich Albion,Millwall FC,1-1,Final
+6,12/09/2021,03:00,Nottingham Forest,Cardiff City,1-2,Final
+7,14/09/2021,03:00,AFC Bournemouth,Queens Park Rangers,2-1,Final
+7,14/09/2021,03:00,Blackburn Rovers,Hull City,2-0,Final
+7,14/09/2021,03:00,Blackpool FC,Huddersfield Town,0-3,Final
+7,14/09/2021,03:00,Sheffield United,Preston North End,2-2,Final
+7,14/09/2021,03:00,Reading FC,Peterborough United,3-1,Final
+7,14/09/2021,03:00,West Bromwich Albion,Derby County,0-0,Final
+7,15/09/2021,03:00,Birmingham City,Fulham FC,1-4,Final
+7,15/09/2021,03:00,Bristol City,Luton Town,1-1,Final
+7,15/09/2021,03:00,Coventry City,Cardiff City,1-0,Final
+7,15/09/2021,03:00,Nottingham Forest,Middlesbrough FC,0-2,Final
+7,15/09/2021,03:00,Swansea City,Millwall FC,0-0,Final
+7,15/09/2021,03:00,Stoke City,Barnsley FC,1-1,Final
+8,18/09/2021,03:00,Hull City,Sheffield United,1-3,Final
+8,18/09/2021,03:00,Cardiff City,AFC Bournemouth,0-1,Final
+8,18/09/2021,03:00,Derby County,Stoke City,2-1,Final
+8,18/09/2021,03:00,Barnsley FC,Blackburn Rovers,0-0,Final
+8,18/09/2021,03:00,Fulham FC,Reading FC,1-2,Final
+8,18/09/2021,03:00,Middlesbrough FC,Blackpool FC,1-2,Final
+8,18/09/2021,03:00,Millwall FC,Coventry City,1-1,Final
+8,18/09/2021,03:00,Huddersfield Town,Nottingham Forest,0-2,Final
+8,18/09/2021,03:00,Luton Town,Swansea City,3-3,Final
+8,18/09/2021,03:00,Peterborough United,Birmingham City,3-0,Final
+8,18/09/2021,03:00,Preston North End,West Bromwich Albion,1-1,Final
+8,18/09/2021,03:00,Queens Park Rangers,Bristol City,1-2,Final
+9,24/09/2021,03:00,Coventry City,Peterborough United,3-0,Final
+9,24/09/2021,03:00,West Bromwich Albion,Queens Park Rangers,2-1,Final
+9,25/09/2021,03:00,Reading FC,Middlesbrough FC,1-0,Final
+9,25/09/2021,03:00,AFC Bournemouth,Luton Town,2-1,Final
+9,25/09/2021,03:00,Birmingham City,Preston North End,0-0,Final
+9,25/09/2021,03:00,Blackburn Rovers,Cardiff City,5-1,Final
+9,25/09/2021,03:00,Blackpool FC,Barnsley FC,1-0,Final
+9,25/09/2021,03:00,Bristol City,Fulham FC,1-1,Final
+9,25/09/2021,03:00,Nottingham Forest,Millwall FC,1-1,Final
+9,25/09/2021,03:00,Sheffield United,Derby County,1-0,Final
+9,25/09/2021,03:00,Stoke City,Hull City,2-0,Final
+9,25/09/2021,03:00,Swansea City,Huddersfield Town,1-0,Final
+10,28/09/2021,03:00,Cardiff City,West Bromwich Albion,0-4,Final
+10,28/09/2021,03:00,Middlesbrough FC,Sheffield United,2-0,Final
+10,28/09/2021,03:00,Huddersfield Town,Blackburn Rovers,3-2,Final
+10,28/09/2021,03:00,Hull City,Blackpool FC,1-1,Final
+10,28/09/2021,03:00,Preston North End,Stoke City,1-1,Final
+10,28/09/2021,03:00,Queens Park Rangers,Birmingham City,2-0,Final
+10,29/09/2021,03:00,Derby County,Reading FC,1-0,Final
+10,29/09/2021,03:00,Barnsley FC,Nottingham Forest,1-3,Final
+10,29/09/2021,03:00,Fulham FC,Swansea City,3-1,Final
+10,29/09/2021,03:00,Millwall FC,Bristol City,1-0,Final
+10,29/09/2021,03:00,Luton Town,Coventry City,5-0,Final
+10,29/09/2021,03:00,Peterborough United,AFC Bournemouth,0-0,Final
+11,01/10/2021,03:00,Stoke City,West Bromwich Albion,1-0,Final
+11,02/10/2021,03:00,Coventry City,Fulham FC,4-1,Final
+11,02/10/2021,03:00,AFC Bournemouth,Sheffield United,2-1,Final
+11,02/10/2021,03:00,Birmingham City,Nottingham Forest,0-3,Final
+11,02/10/2021,03:00,Blackpool FC,Blackburn Rovers,2-1,Final
+11,02/10/2021,03:00,Cardiff City,Reading FC,0-1,Final
+11,02/10/2021,03:00,Derby County,Swansea City,0-0,Final
+11,02/10/2021,03:00,Barnsley FC,Millwall FC,0-1,Final
+11,02/10/2021,03:00,Hull City,Middlesbrough FC,2-0,Final
+11,02/10/2021,03:00,Luton Town,Huddersfield Town,0-0,Final
+11,02/10/2021,03:00,Peterborough United,Bristol City,2-3,Final
+11,02/10/2021,03:00,Queens Park Rangers,Preston North End,3-2,Final
+12,15/10/2021,03:00,West Bromwich Albion,Birmingham City,1-0,Final
+12,16/10/2021,03:00,Fulham FC,Queens Park Rangers,4-1,Final
+12,16/10/2021,03:00,Blackburn Rovers,Coventry City,2-2,Final
+12,16/10/2021,03:00,Bristol City,AFC Bournemouth,0-2,Final
+12,16/10/2021,03:00,Middlesbrough FC,Peterborough United,2-0,Final
+12,16/10/2021,03:00,Millwall FC,Luton Town,0-2,Final
+12,16/10/2021,03:00,Reading FC,Barnsley FC,1-0,Final
+12,16/10/2021,03:00,Huddersfield Town,Hull City,2-0,Final
+12,16/10/2021,03:00,Nottingham Forest,Blackpool FC,2-1,Final
+12,16/10/2021,03:00,Preston North End,Derby County,0-0,Final
+12,16/10/2021,03:00,Sheffield United,Stoke City,2-1,Final
+12,17/10/2021,03:00,Swansea City,Cardiff City,3-0,Final
+13,19/10/2021,03:00,Bristol City,Nottingham Forest,1-2,Final
+13,19/10/2021,03:00,Derby County,Luton Town,2-2,Final
+13,19/10/2021,03:00,Queens Park Rangers,Blackburn Rovers,1-0,Final
+13,19/10/2021,03:00,Sheffield United,Millwall FC,1-2,Final
+13,19/10/2021,03:00,Stoke City,AFC Bournemouth,0-1,Final
+13,20/10/2021,03:00,Fulham FC,Cardiff City,2-0,Final
+13,20/10/2021,03:00,Middlesbrough FC,Barnsley FC,2-0,Final
+13,20/10/2021,03:00,Huddersfield Town,Birmingham City,0-0,Final
+13,20/10/2021,03:00,Hull City,Peterborough United,1-2,Final
+13,20/10/2021,03:00,Preston North End,Coventry City,2-1,Final
+13,20/10/2021,03:00,Swansea City,West Bromwich Albion,2-1,Final
+13,20/10/2021,03:00,Reading FC,Blackpool FC,2-3,Final
+14,23/10/2021,03:00,Cardiff City,Middlesbrough FC,0-2,Final
+14,23/10/2021,03:00,AFC Bournemouth,Huddersfield Town,3-0,Final
+14,23/10/2021,03:00,Birmingham City,Swansea City,2-1,Final
+14,23/10/2021,03:00,Blackburn Rovers,Reading FC,2-0,Final
+14,23/10/2021,03:00,Blackpool FC,Preston North End,2-0,Final
+14,23/10/2021,03:00,Coventry City,Derby County,1-1,Final
+14,23/10/2021,03:00,Millwall FC,Stoke City,2-1,Final
+14,23/10/2021,03:00,Luton Town,Hull City,1-0,Final
+14,23/10/2021,03:00,Peterborough United,Queens Park Rangers,2-1,Final
+14,23/10/2021,03:00,West Bromwich Albion,Bristol City,3-0,Final
+14,24/10/2021,03:00,Barnsley FC,Sheffield United,2-3,Final
+14,24/10/2021,03:00,Nottingham Forest,Fulham FC,0-4,Final
+15,29/10/2021,03:00,Queens Park Rangers,Nottingham Forest,1-1,Final
+15,30/10/2021,03:00,Fulham FC,West Bromwich Albion,3-0,Final
+15,30/10/2021,03:00,Bristol City,Barnsley FC,2-1,Final
+15,30/10/2021,03:00,Derby County,Blackburn Rovers,1-2,Final
+15,30/10/2021,03:00,Middlesbrough FC,Birmingham City,0-2,Final
+15,30/10/2021,03:00,Huddersfield Town,Millwall FC,1-0,Final
+15,30/10/2021,03:00,Hull City,Coventry City,0-1,Final
+15,30/10/2021,03:00,Preston North End,Luton Town,2-0,Final
+15,30/10/2021,03:00,Sheffield United,Blackpool FC,0-1,Final
+15,30/10/2021,03:00,Stoke City,Cardiff City,3-3,Final
+15,30/10/2021,03:00,Swansea City,Peterborough United,3-0,Final
+15,30/10/2021,03:00,Reading FC,AFC Bournemouth,0-2,Final
+16,02/11/2021,03:00,Birmingham City,Bristol City,3-0,Final
+16,02/11/2021,03:00,Coventry City,Swansea City,1-2,Final
+16,02/11/2021,03:00,Millwall FC,Reading FC,1-0,Final
+16,02/11/2021,03:00,Luton Town,Middlesbrough FC,3-1,Final
+16,02/11/2021,03:00,Nottingham Forest,Sheffield United,1-1,Final
+16,02/11/2021,03:00,Peterborough United,Huddersfield Town,1-1,Final
+16,03/11/2021,03:00,AFC Bournemouth,Preston North End,1-2,Final
+16,03/11/2021,03:00,Blackburn Rovers,Fulham FC,0-7,Final
+16,03/11/2021,03:00,Blackpool FC,Stoke City,0-1,Final
+16,03/11/2021,03:00,Cardiff City,Queens Park Rangers,0-1,Final
+16,03/11/2021,03:00,Barnsley FC,Derby County,2-1,Final
+16,03/11/2021,03:00,West Bromwich Albion,Hull City,1-0,Final
+17,06/11/2021,03:00,AFC Bournemouth,Swansea City,4-0,Final
+17,06/11/2021,03:00,Blackburn Rovers,Sheffield United,3-1,Final
+17,06/11/2021,03:00,Cardiff City,Huddersfield Town,2-1,Final
+17,06/11/2021,03:00,Coventry City,Bristol City,3-2,Final
+17,06/11/2021,03:00,Barnsley FC,Hull City,0-2,Final
+17,06/11/2021,03:00,Millwall FC,Derby County,1-1,Final
+17,06/11/2021,03:00,Luton Town,Stoke City,0-1,Final
+17,06/11/2021,03:00,Nottingham Forest,Preston North End,3-0,Final
+17,06/11/2021,03:00,Peterborough United,Fulham FC,0-1,Final
+17,06/11/2021,03:00,West Bromwich Albion,Middlesbrough FC,1-1,Final
+17,06/11/2021,03:00,Birmingham City,Reading FC,1-2,Final
+17,06/11/2021,03:00,Blackpool FC,Queens Park Rangers,1-1,Final
+18,19/11/2021,03:00,Queens Park Rangers,Luton Town,2-0,Final
+18,20/11/2021,03:00,Sheffield United,Coventry City,0-0,Final
+18,20/11/2021,03:00,Bristol City,Blackburn Rovers,1-1,Final
+18,20/11/2021,03:00,Fulham FC,Barnsley FC,4-1,Final
+18,20/11/2021,03:00,Middlesbrough FC,Millwall FC,1-1,Final
+18,20/11/2021,03:00,Reading FC,Nottingham Forest,1-1,Final
+18,20/11/2021,03:00,Huddersfield Town,West Bromwich Albion,1-0,Final
+18,20/11/2021,03:00,Hull City,Birmingham City,2-0,Final
+18,20/11/2021,03:00,Preston North End,Cardiff City,1-2,Final
+18,20/11/2021,03:00,Stoke City,Peterborough United,2-0,Final
+18,20/11/2021,03:00,Swansea City,Blackpool FC,1-1,Final
+18,21/11/2021,03:00,Derby County,AFC Bournemouth,3-2,Final
+19,23/11/2021,03:00,Blackpool FC,West Bromwich Albion,0-0,Final
+19,23/11/2021,03:00,Coventry City,Birmingham City,0-0,Final
+19,23/11/2021,03:00,Middlesbrough FC,Preston North End,1-2,Final
+19,23/11/2021,03:00,Nottingham Forest,Luton Town,0-0,Final
+19,23/11/2021,03:00,Reading FC,Sheffield United,0-1,Final
+19,24/11/2021,03:00,Fulham FC,Derby County,0-0,Final
+19,24/11/2021,03:00,Blackburn Rovers,Peterborough United,4-0,Final
+19,24/11/2021,03:00,Bristol City,Stoke City,1-0,Final
+19,24/11/2021,03:00,Cardiff City,Hull City,0-1,Final
+19,24/11/2021,03:00,Barnsley FC,Swansea City,0-2,Final
+19,24/11/2021,03:00,Millwall FC,AFC Bournemouth,1-1,Final
+19,24/11/2021,03:00,Queens Park Rangers,Huddersfield Town,1-0,Final
+20,26/11/2021,03:00,West Bromwich Albion,Nottingham Forest,0-0,Final
+20,27/11/2021,03:00,Preston North End,Fulham FC,1-1,Final
+20,27/11/2021,03:00,AFC Bournemouth,Coventry City,2-2,Final
+20,27/11/2021,03:00,Birmingham City,Blackpool FC,1-0,Final
+20,27/11/2021,03:00,Huddersfield Town,Middlesbrough FC,1-2,Final
+20,27/11/2021,03:00,Hull City,Millwall FC,2-1,Final
+20,27/11/2021,03:00,Luton Town,Cardiff City,1-2,Final
+20,27/11/2021,03:00,Peterborough United,Barnsley FC,0-0,Final
+20,27/11/2021,03:00,Stoke City,Blackburn Rovers,0-1,Final
+20,27/11/2021,03:00,Swansea City,Reading FC,2-3,Final
+20,28/11/2021,03:00,Sheffield United,Bristol City,2-0,Final
+20,29/11/2021,03:00,Derby County,Queens Park Rangers,1-2,Final
+21,03/12/2021,03:00,Fulham FC,AFC Bournemouth,1-1,Final
+21,04/12/2021,03:00,Coventry City,West Bromwich Albion,1-2,Final
+21,04/12/2021,03:00,Blackburn Rovers,Preston North End,1-0,Final
+21,04/12/2021,03:00,Blackpool FC,Luton Town,0-3,Final
+21,04/12/2021,03:00,Bristol City,Derby County,1-0,Final
+21,04/12/2021,03:00,Cardiff City,Sheffield United,2-3,Final
+21,04/12/2021,03:00,Barnsley FC,Huddersfield Town,1-1,Final
+21,04/12/2021,03:00,Middlesbrough FC,Swansea City,1-0,Final
+21,04/12/2021,03:00,Millwall FC,Birmingham City,3-1,Final
+21,04/12/2021,03:00,Reading FC,Hull City,1-1,Final
+21,04/12/2021,03:00,Nottingham Forest,Peterborough United,2-0,Final
+21,05/12/2021,03:00,Queens Park Rangers,Stoke City,0-2,Final
+22,11/12/2021,03:00,Huddersfield Town,Coventry City,1-1,Final
+22,11/12/2021,03:00,AFC Bournemouth,Blackburn Rovers,0-2,Final
+22,11/12/2021,03:00,Birmingham City,Cardiff City,2-2,Final
+22,11/12/2021,03:00,Derby County,Blackpool FC,1-0,Final
+22,11/12/2021,03:00,Hull City,Bristol City,2-2,Final
+22,11/12/2021,03:00,Luton Town,Fulham FC,1-1,Final
+22,11/12/2021,03:00,Peterborough United,Millwall FC,2-1,Final
+22,11/12/2021,03:00,Preston North End,Barnsley FC,2-1,Final
+22,11/12/2021,03:00,Stoke City,Middlesbrough FC,0-0,Final
+22,11/12/2021,03:00,Swansea City,Nottingham Forest,1-4,Final
+22,11/12/2021,03:00,West Bromwich Albion,Reading FC,1-0,Final
+22,05/04/2022,03:00,Sheffield United,Queens Park Rangers,1-0,Final
+23,17/12/2021,03:00,Barnsley FC,West Bromwich Albion,0-0,Final
+23,18/12/2021,03:00,Middlesbrough FC,AFC Bournemouth,1-0,Final
+23,18/12/2021,03:00,Blackburn Rovers,Birmingham City,4-0,Final
+23,18/12/2021,03:00,Blackpool FC,Peterborough United,3-1,Final
+23,18/12/2021,03:00,Bristol City,Huddersfield Town,2-3,Final
+23,18/12/2021,03:00,Nottingham Forest,Hull City,2-1,Final
+23,20/12/2021,03:00,Fulham FC,Sheffield United,0-1,Final
+23,19/01/2022,03:00,Reading FC,Luton Town,0-2,Final
+23,25/01/2022,03:00,Coventry City,Stoke City,1-0,Final
+23,25/01/2022,03:00,Queens Park Rangers,Swansea City,0-0,Final
+23,01/02/2022,03:00,Millwall FC,Preston North End,0-0,Final
+23,01/03/2022,03:00,Cardiff City,Derby County,1-0,Final
+24,26/12/2021,03:00,Middlesbrough FC,Nottingham Forest,2-0,Final
+24,26/12/2021,03:00,Huddersfield Town,Blackpool FC,3-2,Final
+24,27/12/2021,03:00,Derby County,West Bromwich Albion,1-0,Final
+24,27/12/2021,03:00,Queens Park Rangers,AFC Bournemouth,0-1,Final
+24,18/01/2022,03:00,Fulham FC,Birmingham City,6-2,Final
+24,18/01/2022,03:00,Preston North End,Sheffield United,2-2,Final
+24,19/01/2022,03:00,Hull City,Blackburn Rovers,2-0,Final
+24,25/01/2022,03:00,Luton Town,Bristol City,2-1,Final
+24,15/02/2022,03:00,Cardiff City,Coventry City,2-0,Final
+24,16/02/2022,03:00,Peterborough United,Reading FC,0-0,Final
+24,08/03/2022,03:00,Barnsley FC,Stoke City,1-1,Final
+24,05/04/2022,03:00,Millwall FC,Swansea City,0-1,Final
+25,29/12/2021,03:00,Blackburn Rovers,Barnsley FC,2-1,Final
+25,29/12/2021,03:00,Blackpool FC,Middlesbrough FC,1-2,Final
+25,29/12/2021,03:00,Coventry City,Millwall FC,0-1,Final
+25,30/12/2021,03:00,AFC Bournemouth,Cardiff City,3-0,Final
+25,30/12/2021,03:00,Bristol City,Queens Park Rangers,1-2,Final
+25,30/12/2021,03:00,Nottingham Forest,Huddersfield Town,0-1,Final
+25,30/12/2021,03:00,Stoke City,Derby County,1-2,Final
+25,11/01/2022,03:00,Reading FC,Fulham FC,0-7,Final
+25,25/01/2022,03:00,Birmingham City,Peterborough United,2-2,Final
+25,26/01/2022,03:00,West Bromwich Albion,Preston North End,0-2,Final
+25,01/02/2022,03:00,Swansea City,Luton Town,0-1,Final
+25,15/02/2022,03:00,Sheffield United,Hull City,0-0,Final
+26,01/01/2022,03:00,Blackpool FC,Hull City,1-0,Final
+26,02/01/2022,03:00,Bristol City,Millwall FC,3-2,Final
+26,02/01/2022,03:00,Birmingham City,Queens Park Rangers,1-2,Final
+26,02/01/2022,03:00,West Bromwich Albion,Cardiff City,1-1,Final
+26,02/01/2022,03:00,Blackburn Rovers,Huddersfield Town,0-0,Final
+26,03/01/2022,03:00,Reading FC,Derby County,2-2,Final
+26,03/01/2022,03:00,Stoke City,Preston North End,1-2,Final
+26,25/01/2022,03:00,Nottingham Forest,Barnsley FC,3-0,Final
+26,08/03/2022,03:00,AFC Bournemouth,Peterborough United,1-1,Final
+26,08/03/2022,03:00,Coventry City,Luton Town,0-1,Final
+26,08/03/2022,03:00,Sheffield United,Middlesbrough FC,4-1,Final
+26,08/03/2022,03:00,Swansea City,Fulham FC,1-5,Final
+27,15/01/2022,03:00,Cardiff City,Blackburn Rovers,0-1,Final
+27,15/01/2022,03:00,Luton Town,AFC Bournemouth,3-2,Final
+27,15/01/2022,03:00,Derby County,Sheffield United,2-0,Final
+27,15/01/2022,03:00,Fulham FC,Bristol City,6-2,Final
+27,15/01/2022,03:00,Middlesbrough FC,Reading FC,2-1,Final
+27,15/01/2022,03:00,Millwall FC,Nottingham Forest,0-1,Final
+27,15/01/2022,03:00,Huddersfield Town,Swansea City,1-1,Final
+27,15/01/2022,03:00,Peterborough United,Coventry City,1-4,Final
+27,15/01/2022,03:00,Preston North End,Birmingham City,1-1,Final
+27,15/01/2022,03:00,Queens Park Rangers,West Bromwich Albion,1-0,Final
+27,16/01/2022,03:00,Hull City,Stoke City,0-2,Final
+27,26/04/2022,03:00,Barnsley FC,Blackpool FC,0-2,Final
+28,22/01/2022,03:00,Bristol City,Cardiff City,3-2,Final
+28,22/01/2022,03:00,Nottingham Forest,Derby County,2-1,Final
+28,22/01/2022,03:00,AFC Bournemouth,Hull City,0-1,Final
+28,22/01/2022,03:00,Birmingham City,Barnsley FC,2-1,Final
+28,22/01/2022,03:00,Blackpool FC,Millwall FC,1-0,Final
+28,22/01/2022,03:00,Coventry City,Queens Park Rangers,1-2,Final
+28,22/01/2022,03:00,Reading FC,Huddersfield Town,3-4,Final
+28,22/01/2022,03:00,Sheffield United,Luton Town,2-0,Final
+28,22/01/2022,03:00,Stoke City,Fulham FC,2-3,Final
+28,22/01/2022,03:00,Swansea City,Preston North End,1-0,Final
+28,22/01/2022,03:00,West Bromwich Albion,Peterborough United,3-0,Final
+28,24/01/2022,03:00,Blackburn Rovers,Middlesbrough FC,1-0,Final
+29,28/01/2022,03:00,Huddersfield Town,Stoke City,1-1,Final
+29,29/01/2022,03:00,Barnsley FC,AFC Bournemouth,0-1,Final
+29,29/01/2022,03:00,Fulham FC,Blackpool FC,1-1,Final
+29,29/01/2022,03:00,Middlesbrough FC,Coventry City,1-0,Final
+29,29/01/2022,03:00,Millwall FC,West Bromwich Albion,2-0,Final
+29,29/01/2022,03:00,Hull City,Swansea City,2-0,Final
+29,29/01/2022,03:00,Luton Town,Blackburn Rovers,0-0,Final
+29,29/01/2022,03:00,Preston North End,Bristol City,2-2,Final
+29,29/01/2022,03:00,Queens Park Rangers,Reading FC,4-0,Final
+29,29/01/2022,03:00,Peterborough United,Sheffield United,0-2,Final
+29,30/01/2022,03:00,Derby County,Birmingham City,2-2,Final
+29,30/01/2022,03:00,Cardiff City,Nottingham Forest,2-1,Final
+30,02/02/2022,03:00,Barnsley FC,Cardiff City,0-1,Final
+30,02/02/2022,03:00,Huddersfield Town,Derby County,2-0,Final
+30,04/02/2022,03:00,Birmingham City,Sheffield United,1-2,Final
+30,05/02/2022,03:00,Blackpool FC,Bristol City,3-1,Final
+30,05/02/2022,03:00,Hull City,Preston North End,0-1,Final
+30,05/02/2022,03:00,Swansea City,Blackburn Rovers,1-0,Final
+30,15/02/2022,03:00,Millwall FC,Queens Park Rangers,2-0,Final
+30,05/04/2022,03:00,Peterborough United,Luton Town,1-1,Final
+30,05/04/2022,03:00,Reading FC,Stoke City,2-1,Final
+30,06/04/2022,03:00,Middlesbrough FC,Fulham FC,0-1,Final
+30,06/04/2022,03:00,Nottingham Forest,Coventry City,2-0,Final
+30,06/04/2022,03:00,West Bromwich Albion,AFC Bournemouth,2-0,Final
+31,08/02/2022,03:00,Coventry City,Blackpool FC,1-1,Final
+31,08/02/2022,03:00,Derby County,Hull City,3-1,Final
+31,08/02/2022,03:00,Fulham FC,Millwall FC,3-0,Final
+31,08/02/2022,03:00,Luton Town,Barnsley FC,2-1,Final
+31,08/02/2022,03:00,Stoke City,Swansea City,3-0,Final
+31,09/02/2022,03:00,Cardiff City,Peterborough United,4-0,Final
+31,09/02/2022,03:00,AFC Bournemouth,Birmingham City,3-1,Final
+31,09/02/2022,03:00,Blackburn Rovers,Nottingham Forest,0-2,Final
+31,09/02/2022,03:00,Bristol City,Reading FC,2-1,Final
+31,09/02/2022,03:00,Preston North End,Huddersfield Town,0-0,Final
+31,09/02/2022,03:00,Queens Park Rangers,Middlesbrough FC,2-2,Final
+31,09/02/2022,03:00,Sheffield United,West Bromwich Albion,2-0,Final
+32,12/02/2022,03:00,Huddersfield Town,Sheffield United,0-0,Final
+32,12/02/2022,03:00,Birmingham City,Luton Town,3-0,Final
+32,12/02/2022,03:00,Blackpool FC,AFC Bournemouth,1-2,Final
+32,12/02/2022,03:00,Barnsley FC,Queens Park Rangers,1-0,Final
+32,12/02/2022,03:00,Middlesbrough FC,Derby County,4-1,Final
+32,12/02/2022,03:00,Millwall FC,Cardiff City,2-1,Final
+32,12/02/2022,03:00,Reading FC,Coventry City,2-3,Final
+32,12/02/2022,03:00,Hull City,Fulham FC,0-1,Final
+32,12/02/2022,03:00,Nottingham Forest,Stoke City,2-2,Final
+32,12/02/2022,03:00,Peterborough United,Preston North End,0-1,Final
+32,13/02/2022,03:00,Swansea City,Bristol City,3-1,Final
+32,14/02/2022,03:00,West Bromwich Albion,Blackburn Rovers,0-0,Final
+33,19/02/2022,03:00,Fulham FC,Huddersfield Town,1-2,Final
+33,19/02/2022,03:00,Bristol City,Middlesbrough FC,2-1,Final
+33,19/02/2022,03:00,Cardiff City,Blackpool FC,1-1,Final
+33,19/02/2022,03:00,Coventry City,Barnsley FC,1-0,Final
+33,19/02/2022,03:00,Derby County,Peterborough United,1-0,Final
+33,19/02/2022,03:00,Luton Town,West Bromwich Albion,2-0,Final
+33,19/02/2022,03:00,Preston North End,Reading FC,2-3,Final
+33,19/02/2022,03:00,Queens Park Rangers,Hull City,1-1,Final
+33,19/02/2022,03:00,Sheffield United,Swansea City,4-0,Final
+33,19/02/2022,03:00,Stoke City,Birmingham City,2-2,Final
+33,08/03/2022,03:00,Blackburn Rovers,Millwall FC,0-0,Final
+33,03/05/2022,03:00,AFC Bournemouth,Nottingham Forest,1-0,Final
+34,22/02/2022,03:00,Bristol City,Coventry City,1-2,Final
+34,22/02/2022,03:00,Middlesbrough FC,West Bromwich Albion,2-1,Final
+34,22/02/2022,03:00,Hull City,Barnsley FC,0-2,Final
+34,22/02/2022,03:00,Preston North End,Nottingham Forest,0-0,Final
+34,22/02/2022,03:00,Reading FC,Birmingham City,2-1,Final
+34,23/02/2022,03:00,Derby County,Millwall FC,1-2,Final
+34,23/02/2022,03:00,Fulham FC,Peterborough United,2-1,Final
+34,23/02/2022,03:00,Huddersfield Town,Cardiff City,2-1,Final
+34,23/02/2022,03:00,Queens Park Rangers,Blackpool FC,2-1,Final
+34,23/02/2022,03:00,Sheffield United,Blackburn Rovers,1-0,Final
+34,23/02/2022,03:00,Stoke City,Luton Town,1-2,Final
+34,26/04/2022,03:00,Swansea City,AFC Bournemouth,3-3,Final
+35,26/02/2022,03:00,Blackburn Rovers,Queens Park Rangers,1-0,Final
+35,26/02/2022,03:00,AFC Bournemouth,Stoke City,2-1,Final
+35,26/02/2022,03:00,Birmingham City,Huddersfield Town,0-2,Final
+35,26/02/2022,03:00,Blackpool FC,Reading FC,4-1,Final
+35,26/02/2022,03:00,Cardiff City,Fulham FC,0-1,Final
+35,26/02/2022,03:00,Coventry City,Preston North End,1-1,Final
+35,26/02/2022,03:00,Barnsley FC,Middlesbrough FC,3-2,Final
+35,26/02/2022,03:00,Millwall FC,Sheffield United,1-0,Final
+35,26/02/2022,03:00,Luton Town,Derby County,1-0,Final
+35,26/02/2022,03:00,Nottingham Forest,Bristol City,2-0,Final
+35,26/02/2022,03:00,Peterborough United,Hull City,0-3,Final
+35,28/02/2022,03:00,West Bromwich Albion,Swansea City,0-2,Final
+36,04/03/2022,03:00,Huddersfield Town,Peterborough United,3-0,Final
+36,04/03/2022,03:00,Sheffield United,Nottingham Forest,1-1,Final
+36,05/03/2022,03:00,Fulham FC,Blackburn Rovers,2-0,Final
+36,05/03/2022,03:00,Bristol City,Birmingham City,1-2,Final
+36,05/03/2022,03:00,Derby County,Barnsley FC,2-0,Final
+36,05/03/2022,03:00,Middlesbrough FC,Luton Town,2-1,Final
+36,05/03/2022,03:00,Reading FC,Millwall FC,0-1,Final
+36,05/03/2022,03:00,Hull City,West Bromwich Albion,0-2,Final
+36,05/03/2022,03:00,Preston North End,AFC Bournemouth,2-1,Final
+36,05/03/2022,03:00,Queens Park Rangers,Cardiff City,1-2,Final
+36,05/03/2022,03:00,Stoke City,Blackpool FC,0-1,Final
+36,05/03/2022,03:00,Swansea City,Coventry City,3-1,Final
+37,11/03/2022,03:00,West Bromwich Albion,Huddersfield Town,2-2,Final
+37,12/03/2022,03:00,Barnsley FC,Fulham FC,1-1,Final
+37,12/03/2022,03:00,AFC Bournemouth,Derby County,2-0,Final
+37,12/03/2022,03:00,Birmingham City,Hull City,0-0,Final
+37,12/03/2022,03:00,Blackburn Rovers,Bristol City,0-1,Final
+37,12/03/2022,03:00,Blackpool FC,Swansea City,1-0,Final
+37,12/03/2022,03:00,Cardiff City,Preston North End,0-0,Final
+37,12/03/2022,03:00,Coventry City,Sheffield United,4-1,Final
+37,12/03/2022,03:00,Millwall FC,Middlesbrough FC,0-0,Final
+37,12/03/2022,03:00,Nottingham Forest,Reading FC,4-0,Final
+37,12/03/2022,03:00,Peterborough United,Stoke City,2-2,Final
+37,13/03/2022,03:00,Luton Town,Queens Park Rangers,1-2,Final
+38,15/03/2022,03:00,AFC Bournemouth,Reading FC,1-1,Final
+38,15/03/2022,03:00,Birmingham City,Middlesbrough FC,0-2,Final
+38,15/03/2022,03:00,Blackburn Rovers,Derby County,3-1,Final
+38,15/03/2022,03:00,Barnsley FC,Bristol City,2-0,Final
+38,15/03/2022,03:00,West Bromwich Albion,Fulham FC,1-0,Final
+38,16/03/2022,03:00,Nottingham Forest,Queens Park Rangers,3-1,Final
+38,16/03/2022,03:00,Blackpool FC,Sheffield United,0-0,Final
+38,16/03/2022,03:00,Cardiff City,Stoke City,2-1,Final
+38,16/03/2022,03:00,Coventry City,Hull City,0-2,Final
+38,16/03/2022,03:00,Millwall FC,Huddersfield Town,2-0,Final
+38,16/03/2022,03:00,Luton Town,Preston North End,4-0,Final
+38,16/03/2022,03:00,Peterborough United,Swansea City,2-3,Final
+39,19/03/2022,03:00,Derby County,Coventry City,1-1,Final
+39,19/03/2022,03:00,Sheffield United,Barnsley FC,2-0,Final
+39,19/03/2022,03:00,Bristol City,West Bromwich Albion,2-2,Final
+39,19/03/2022,03:00,Reading FC,Blackburn Rovers,1-0,Final
+39,19/03/2022,03:00,Huddersfield Town,AFC Bournemouth,0-3,Final
+39,19/03/2022,03:00,Hull City,Luton Town,1-3,Final
+39,19/03/2022,03:00,Stoke City,Millwall FC,2-0,Final
+39,19/03/2022,03:00,Swansea City,Birmingham City,0-0,Final
+39,20/03/2022,03:00,Queens Park Rangers,Peterborough United,1-3,Final
+39,05/04/2022,03:00,Preston North End,Blackpool FC,1-0,Final
+39,26/04/2022,03:00,Fulham FC,Nottingham Forest,0-1,Final
+39,27/04/2022,03:00,Middlesbrough FC,Cardiff City,2-0,Final
+40,01/04/2022,03:00,Hull City,Huddersfield Town,0-1,Final
+40,02/04/2022,03:00,Blackpool FC,Nottingham Forest,1-4,Final
+40,02/04/2022,03:00,AFC Bournemouth,Bristol City,3-2,Final
+40,02/04/2022,03:00,Cardiff City,Swansea City,0-4,Final
+40,02/04/2022,03:00,Coventry City,Blackburn Rovers,2-2,Final
+40,02/04/2022,03:00,Derby County,Preston North End,1-0,Final
+40,02/04/2022,03:00,Barnsley FC,Reading FC,1-1,Final
+40,02/04/2022,03:00,Luton Town,Millwall FC,2-2,Final
+40,02/04/2022,03:00,Peterborough United,Middlesbrough FC,0-4,Final
+40,02/04/2022,03:00,Queens Park Rangers,Fulham FC,0-2,Final
+40,02/04/2022,03:00,Stoke City,Sheffield United,1-0,Final
+40,03/04/2022,03:00,Birmingham City,West Bromwich Albion,1-0,Final
+41,09/04/2022,03:00,Sheffield United,AFC Bournemouth,0-0,Final
+41,09/04/2022,03:00,Blackburn Rovers,Blackpool FC,1-1,Final
+41,09/04/2022,03:00,Bristol City,Peterborough United,1-1,Final
+41,09/04/2022,03:00,Middlesbrough FC,Hull City,0-1,Final
+41,09/04/2022,03:00,Millwall FC,Barnsley FC,4-1,Final
+41,09/04/2022,03:00,Reading FC,Cardiff City,1-2,Final
+41,09/04/2022,03:00,Nottingham Forest,Birmingham City,2-0,Final
+41,09/04/2022,03:00,Preston North End,Queens Park Rangers,2-1,Final
+41,09/04/2022,03:00,Swansea City,Derby County,2-1,Final
+41,09/04/2022,03:00,West Bromwich Albion,Stoke City,1-3,Final
+41,10/04/2022,03:00,Fulham FC,Coventry City,1-3,Final
+41,11/04/2022,03:00,Huddersfield Town,Luton Town,2-0,Final
+42,15/04/2022,03:00,Luton Town,Nottingham Forest,1-0,Final
+42,15/04/2022,03:00,AFC Bournemouth,Middlesbrough FC,0-0,Final
+42,15/04/2022,03:00,Birmingham City,Coventry City,2-4,Final
+42,15/04/2022,03:00,Hull City,Cardiff City,2-1,Final
+42,15/04/2022,03:00,Peterborough United,Blackburn Rovers,2-1,Final
+42,15/04/2022,03:00,Preston North End,Millwall FC,1-1,Final
+42,15/04/2022,03:00,Sheffield United,Reading FC,1-2,Final
+42,15/04/2022,03:00,Stoke City,Bristol City,0-1,Final
+42,15/04/2022,03:00,Swansea City,Barnsley FC,1-1,Final
+42,15/04/2022,03:00,West Bromwich Albion,Blackpool FC,2-1,Final
+42,15/04/2022,03:00,Huddersfield Town,Queens Park Rangers,2-2,Final
+42,15/04/2022,03:00,Derby County,Fulham FC,2-1,Final
+43,18/04/2022,03:00,Middlesbrough FC,Huddersfield Town,0-2,Final
+43,18/04/2022,03:00,Blackburn Rovers,Stoke City,0-1,Final
+43,18/04/2022,03:00,Blackpool FC,Birmingham City,6-1,Final
+43,18/04/2022,03:00,Cardiff City,Luton Town,0-1,Final
+43,18/04/2022,03:00,Coventry City,AFC Bournemouth,0-3,Final
+43,18/04/2022,03:00,Barnsley FC,Peterborough United,0-2,Final
+43,18/04/2022,03:00,Millwall FC,Hull City,2-1,Final
+43,18/04/2022,03:00,Reading FC,Swansea City,4-4,Final
+43,18/04/2022,03:00,Queens Park Rangers,Derby County,1-0,Final
+43,18/04/2022,03:00,Bristol City,Sheffield United,1-1,Final
+43,18/04/2022,03:00,Nottingham Forest,West Bromwich Albion,4-0,Final
+43,19/04/2022,03:00,Fulham FC,Preston North End,3-0,Final
+44,22/04/2022,03:00,Huddersfield Town,Barnsley FC,2-1,Final
+44,23/04/2022,03:00,Luton Town,Blackpool FC,1-1,Final
+44,23/04/2022,03:00,AFC Bournemouth,Fulham FC,1-1,Final
+44,23/04/2022,03:00,Birmingham City,Millwall FC,2-2,Final
+44,23/04/2022,03:00,Derby County,Bristol City,1-3,Final
+44,23/04/2022,03:00,Hull City,Reading FC,3-0,Final
+44,23/04/2022,03:00,Peterborough United,Nottingham Forest,0-1,Final
+44,23/04/2022,03:00,Sheffield United,Cardiff City,1-0,Final
+44,23/04/2022,03:00,Stoke City,Queens Park Rangers,1-0,Final
+44,23/04/2022,03:00,Swansea City,Middlesbrough FC,1-1,Final
+44,23/04/2022,03:00,West Bromwich Albion,Coventry City,0-0,Final
+44,25/04/2022,03:00,Preston North End,Blackburn Rovers,1-4,Final
+45,29/04/2022,03:00,Queens Park Rangers,Sheffield United,1-3,Final
+45,30/04/2022,03:00,Barnsley FC,Preston North End,1-3,Final
+45,30/04/2022,03:00,Blackburn Rovers,AFC Bournemouth,0-3,Final
+45,30/04/2022,03:00,Blackpool FC,Derby County,0-2,Final
+45,30/04/2022,03:00,Bristol City,Hull City,5-0,Final
+45,30/04/2022,03:00,Cardiff City,Birmingham City,1-1,Final
+45,30/04/2022,03:00,Coventry City,Huddersfield Town,1-2,Final
+45,30/04/2022,03:00,Middlesbrough FC,Stoke City,3-1,Final
+45,30/04/2022,03:00,Millwall FC,Peterborough United,3-0,Final
+45,30/04/2022,03:00,Reading FC,West Bromwich Albion,0-1,Final
+45,30/04/2022,03:00,Nottingham Forest,Swansea City,5-1,Final
+45,02/05/2022,03:00,Fulham FC,Luton Town,7-0,Final
+46,07/05/2022,03:00,AFC Bournemouth,Millwall FC,1-0,Final
+46,07/05/2022,03:00,Birmingham City,Blackburn Rovers,1-2,Final
+46,07/05/2022,03:00,Derby County,Cardiff City,0-1,Final
+46,07/05/2022,03:00,Huddersfield Town,Bristol City,2-0,Final
+46,07/05/2022,03:00,Hull City,Nottingham Forest,1-1,Final
+46,07/05/2022,03:00,Luton Town,Reading FC,1-0,Final
+46,07/05/2022,03:00,Peterborough United,Blackpool FC,5-0,Final
+46,07/05/2022,03:00,Preston North End,Middlesbrough FC,4-1,Final
+46,07/05/2022,03:00,Sheffield United,Fulham FC,4-0,Final
+46,07/05/2022,03:00,Stoke City,Coventry City,1-1,Final
+46,07/05/2022,03:00,Swansea City,Queens Park Rangers,0-1,Final
+46,07/05/2022,03:00,West Bromwich Albion,Barnsley FC,4-0,Final

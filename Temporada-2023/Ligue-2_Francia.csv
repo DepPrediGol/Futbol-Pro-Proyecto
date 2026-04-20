@@ -1,0 +1,381 @@
+matchday,date,time,home_team,away_team,result,status
+1,30/07/2022,03:00,Dijon FCO,AS Saint-Étienne,2-1,Final
+1,30/07/2022,03:00,Havre AC,Grenoble Foot 38,0-0,Final
+1,30/07/2022,03:00,EA Guingamp,Pau FC,4-0,Final
+1,30/07/2022,03:00,FC Annecy,Chamois Niortais,1-2,Final
+1,30/07/2022,03:00,FC Metz,Amiens SC,3-0,Final
+1,30/07/2022,03:00,Nîmes Olympique,SM Caen,0-1,Final
+1,30/07/2022,03:00,SC Bastia,Stade Lavallois,0-2,Final
+1,30/07/2022,03:00,US Quevilly-Rouen,Rodez AF,0-0,Final
+1,30/07/2022,03:00,Girondins Bordeaux,Valenciennes FC,0-0,Final
+1,01/08/2022,03:00,FC Sochaux,Paris FC,0-0,Final
+2,06/08/2022,03:00,AS Saint-Étienne,Nîmes Olympique,1-1,Final
+2,06/08/2022,03:00,Chamois Niortais,SC Bastia,1-4,Final
+2,06/08/2022,03:00,Paris FC,US Quevilly-Rouen,2-1,Final
+2,06/08/2022,03:00,Pau FC,Dijon FCO,0-0,Final
+2,06/08/2022,03:00,Valenciennes FC,Havre AC,1-0,Final
+2,06/08/2022,03:00,Grenoble Foot 38,FC Sochaux,1-0,Final
+2,06/08/2022,03:00,Amiens SC,FC Annecy,1-0,Final
+2,06/08/2022,03:00,Stade Lavallois,EA Guingamp,1-2,Final
+2,06/08/2022,03:00,Rodez AF,Girondins Bordeaux,0-3,Final
+2,08/08/2022,03:00,SM Caen,FC Metz,1-0,Final
+3,13/08/2022,03:00,EA Guingamp,Paris FC,0-0,Final
+3,13/08/2022,03:00,Havre AC,Pau FC,1-1,Final
+3,13/08/2022,03:00,Dijon FCO,SM Caen,2-2,Final
+3,13/08/2022,03:00,FC Annecy,Stade Lavallois,0-1,Final
+3,13/08/2022,03:00,FC Metz,Valenciennes FC,2-0,Final
+3,13/08/2022,03:00,FC Sochaux,Amiens SC,0-1,Final
+3,13/08/2022,03:00,Nîmes Olympique,Rodez AF,1-0,Final
+3,13/08/2022,03:00,SC Bastia,Grenoble Foot 38,3-0,Final
+3,13/08/2022,03:00,Girondins Bordeaux,Chamois Niortais,1-0,Final
+3,15/08/2022,03:00,US Quevilly-Rouen,AS Saint-Étienne,2-2,Final
+4,20/08/2022,03:00,AS Saint-Étienne,Havre AC,0-6,Final
+4,20/08/2022,03:00,Dijon FCO,Nîmes Olympique,2-1,Final
+4,20/08/2022,03:00,Chamois Niortais,Paris FC,2-1,Final
+4,20/08/2022,03:00,Pau FC,FC Sochaux,0-3,Final
+4,20/08/2022,03:00,Valenciennes FC,US Quevilly-Rouen,0-0,Final
+4,20/08/2022,03:00,Rodez AF,FC Annecy,2-2,Final
+4,20/08/2022,03:00,Amiens SC,SC Bastia,3-1,Final
+4,20/08/2022,03:00,SM Caen,EA Guingamp,4-1,Final
+4,20/08/2022,03:00,Stade Lavallois,FC Metz,3-3,Final
+4,22/08/2022,03:00,Grenoble Foot 38,Girondins Bordeaux,0-0,Final
+5,27/08/2022,03:00,FC Metz,Dijon FCO,1-2,Final
+5,27/08/2022,03:00,Girondins Bordeaux,EA Guingamp,0-1,Final
+5,27/08/2022,03:00,Havre AC,Amiens SC,1-1,Final
+5,27/08/2022,03:00,FC Annecy,Grenoble Foot 38,0-0,Final
+5,27/08/2022,03:00,Paris FC,SM Caen,1-1,Final
+5,27/08/2022,03:00,FC Sochaux,Chamois Niortais,3-0,Final
+5,27/08/2022,03:00,Valenciennes FC,AS Saint-Étienne,2-2,Final
+5,27/08/2022,03:00,Nîmes Olympique,Stade Lavallois,1-0,Final
+5,27/08/2022,03:00,SC Bastia,Rodez AF,0-2,Final
+5,27/08/2022,03:00,US Quevilly-Rouen,Pau FC,2-1,Final
+6,30/08/2022,03:00,AS Saint-Étienne,SC Bastia,5-0,Final
+6,30/08/2022,03:00,Dijon FCO,FC Annecy,0-2,Final
+6,30/08/2022,03:00,EA Guingamp,FC Sochaux,1-2,Final
+6,30/08/2022,03:00,Chamois Niortais,Valenciennes FC,0-1,Final
+6,30/08/2022,03:00,Grenoble Foot 38,Nîmes Olympique,3-2,Final
+6,30/08/2022,03:00,Rodez AF,FC Metz,1-4,Final
+6,30/08/2022,03:00,Amiens SC,Paris FC,1-1,Final
+6,30/08/2022,03:00,SM Caen,Pau FC,1-1,Final
+6,30/08/2022,03:00,Stade Lavallois,Havre AC,1-3,Final
+6,30/08/2022,03:00,Girondins Bordeaux,US Quevilly-Rouen,4-0,Final
+7,02/09/2022,03:00,Havre AC,SM Caen,2-1,Final
+7,02/09/2022,03:00,FC Metz,FC Annecy,0-0,Final
+7,02/09/2022,03:00,FC Sochaux,Stade Lavallois,4-1,Final
+7,02/09/2022,03:00,Valenciennes FC,Nîmes Olympique,3-2,Final
+7,02/09/2022,03:00,Amiens SC,Grenoble Foot 38,1-0,Final
+7,02/09/2022,03:00,SC Bastia,Dijon FCO,1-0,Final
+7,02/09/2022,03:00,US Quevilly-Rouen,Chamois Niortais,3-3,Final
+7,03/09/2022,03:00,Paris FC,Girondins Bordeaux,1-3,Final
+7,05/09/2022,03:00,Pau FC,AS Saint-Étienne,2-2,Final
+7,04/10/2022,03:00,EA Guingamp,Rodez AF,0-0,Final
+8,10/09/2022,03:00,AS Saint-Étienne,Girondins Bordeaux,2-0,Final
+8,10/09/2022,03:00,Dijon FCO,FC Sochaux,0-2,Final
+8,10/09/2022,03:00,FC Annecy,US Quevilly-Rouen,1-0,Final
+8,10/09/2022,03:00,Chamois Niortais,Havre AC,0-1,Final
+8,10/09/2022,03:00,Grenoble Foot 38,Paris FC,1-2,Final
+8,10/09/2022,03:00,Nîmes Olympique,SC Bastia,0-0,Final
+8,10/09/2022,03:00,Rodez AF,Valenciennes FC,1-1,Final
+8,10/09/2022,03:00,SM Caen,Amiens SC,3-1,Final
+8,10/09/2022,03:00,Stade Lavallois,Pau FC,0-1,Final
+8,12/09/2022,03:00,FC Metz,EA Guingamp,3-6,Final
+9,17/09/2022,03:00,EA Guingamp,AS Saint-Étienne,2-1,Final
+9,17/09/2022,03:00,Girondins Bordeaux,Dijon FCO,2-1,Final
+9,17/09/2022,03:00,Havre AC,FC Annecy,2-0,Final
+9,17/09/2022,03:00,Paris FC,Rodez AF,1-2,Final
+9,17/09/2022,03:00,Pau FC,Valenciennes FC,1-0,Final
+9,17/09/2022,03:00,FC Sochaux,Nîmes Olympique,3-1,Final
+9,17/09/2022,03:00,Grenoble Foot 38,SM Caen,1-0,Final
+9,17/09/2022,03:00,Amiens SC,Chamois Niortais,3-0,Final
+9,17/09/2022,03:00,SC Bastia,FC Metz,1-0,Final
+9,17/09/2022,03:00,US Quevilly-Rouen,Stade Lavallois,1-3,Final
+10,01/10/2022,03:00,AS Saint-Étienne,Grenoble Foot 38,2-2,Final
+10,01/10/2022,03:00,Dijon FCO,Havre AC,0-0,Final
+10,01/10/2022,03:00,FC Annecy,SC Bastia,0-2,Final
+10,01/10/2022,03:00,Chamois Niortais,EA Guingamp,0-0,Final
+10,01/10/2022,03:00,FC Metz,Pau FC,1-0,Final
+10,01/10/2022,03:00,Valenciennes FC,FC Sochaux,2-1,Final
+10,01/10/2022,03:00,Nîmes Olympique,Paris FC,0-1,Final
+10,01/10/2022,03:00,Rodez AF,Amiens SC,0-1,Final
+10,01/10/2022,03:00,SM Caen,US Quevilly-Rouen,0-1,Final
+10,03/10/2022,03:00,Stade Lavallois,Girondins Bordeaux,1-2,Final
+11,08/10/2022,03:00,Girondins Bordeaux,FC Metz,2-0,Final
+11,08/10/2022,03:00,Havre AC,SC Bastia,3-0,Final
+11,08/10/2022,03:00,EA Guingamp,FC Annecy,0-4,Final
+11,08/10/2022,03:00,Paris FC,Valenciennes FC,0-1,Final
+11,08/10/2022,03:00,Pau FC,Rodez AF,2-2,Final
+11,08/10/2022,03:00,Grenoble Foot 38,Stade Lavallois,3-2,Final
+11,08/10/2022,03:00,Amiens SC,Dijon FCO,2-1,Final
+11,08/10/2022,03:00,SM Caen,Chamois Niortais,1-0,Final
+11,08/10/2022,03:00,US Quevilly-Rouen,Nîmes Olympique,3-1,Final
+11,10/10/2022,03:00,FC Sochaux,AS Saint-Étienne,2-1,Final
+12,15/10/2022,03:00,AS Saint-Étienne,Paris FC,0-2,Final
+12,15/10/2022,03:00,Dijon FCO,US Quevilly-Rouen,0-0,Final
+12,15/10/2022,03:00,FC Annecy,Pau FC,0-2,Final
+12,15/10/2022,03:00,Chamois Niortais,Grenoble Foot 38,0-3,Final
+12,15/10/2022,03:00,FC Metz,FC Sochaux,0-0,Final
+12,15/10/2022,03:00,Valenciennes FC,EA Guingamp,1-0,Final
+12,15/10/2022,03:00,Nîmes Olympique,Amiens SC,2-0,Final
+12,15/10/2022,03:00,Rodez AF,Havre AC,1-1,Final
+12,15/10/2022,03:00,Stade Lavallois,SM Caen,4-0,Final
+12,17/10/2022,03:00,SC Bastia,Girondins Bordeaux,1-1,Final
+13,22/10/2022,03:00,Amiens SC,AS Saint-Étienne,0-1,Final
+13,22/10/2022,03:00,EA Guingamp,SC Bastia,1-1,Final
+13,22/10/2022,03:00,Chamois Niortais,Dijon FCO,2-1,Final
+13,22/10/2022,03:00,Paris FC,Stade Lavallois,0-0,Final
+13,22/10/2022,03:00,Pau FC,Nîmes Olympique,1-0,Final
+13,22/10/2022,03:00,FC Sochaux,US Quevilly-Rouen,2-2,Final
+13,22/10/2022,03:00,Grenoble Foot 38,Valenciennes FC,1-0,Final
+13,22/10/2022,03:00,SM Caen,Rodez AF,2-0,Final
+13,22/10/2022,03:00,Girondins Bordeaux,FC Annecy,1-0,Final
+13,24/10/2022,03:00,Havre AC,FC Metz,2-0,Final
+14,05/11/2022,03:00,Nîmes Olympique,Girondins Bordeaux,1-0,Final
+14,05/11/2022,03:00,Dijon FCO,EA Guingamp,1-1,Final
+14,05/11/2022,03:00,FC Annecy,FC Sochaux,2-1,Final
+14,05/11/2022,03:00,Pau FC,Amiens SC,2-1,Final
+14,05/11/2022,03:00,Valenciennes FC,SM Caen,1-1,Final
+14,05/11/2022,03:00,Rodez AF,Grenoble Foot 38,0-1,Final
+14,05/11/2022,03:00,SC Bastia,Paris FC,0-1,Final
+14,05/11/2022,03:00,Stade Lavallois,Chamois Niortais,2-1,Final
+14,05/11/2022,03:00,US Quevilly-Rouen,Havre AC,0-1,Final
+14,07/11/2022,03:00,FC Metz,AS Saint-Étienne,3-2,Final
+15,12/11/2022,03:00,AS Saint-Étienne,Rodez AF,0-2,Final
+15,12/11/2022,03:00,EA Guingamp,Havre AC,0-1,Final
+15,12/11/2022,03:00,Chamois Niortais,Nîmes Olympique,1-1,Final
+15,12/11/2022,03:00,Paris FC,FC Metz,1-4,Final
+15,12/11/2022,03:00,FC Sochaux,SC Bastia,1-0,Final
+15,12/11/2022,03:00,Grenoble Foot 38,Dijon FCO,0-0,Final
+15,12/11/2022,03:00,Amiens SC,US Quevilly-Rouen,0-2,Final
+15,12/11/2022,03:00,SM Caen,FC Annecy,0-0,Final
+15,12/11/2022,03:00,Stade Lavallois,Valenciennes FC,1-0,Final
+15,12/11/2022,03:00,Girondins Bordeaux,Pau FC,1-1,Final
+16,26/12/2022,03:00,FC Annecy,AS Saint-Étienne,2-1,Final
+16,26/12/2022,03:00,Havre AC,Girondins Bordeaux,1-0,Final
+16,26/12/2022,03:00,Dijon FCO,Stade Lavallois,5-0,Final
+16,26/12/2022,03:00,FC Metz,Chamois Niortais,0-0,Final
+16,26/12/2022,03:00,Pau FC,Paris FC,0-1,Final
+16,26/12/2022,03:00,FC Sochaux,Rodez AF,1-0,Final
+16,26/12/2022,03:00,Valenciennes FC,Amiens SC,1-1,Final
+16,26/12/2022,03:00,Nîmes Olympique,EA Guingamp,1-2,Final
+16,26/12/2022,03:00,SC Bastia,SM Caen,1-0,Final
+16,26/12/2022,03:00,US Quevilly-Rouen,Grenoble Foot 38,2-0,Final
+17,30/12/2022,03:00,Girondins Bordeaux,FC Sochaux,2-1,Final
+17,30/12/2022,03:00,AS Saint-Étienne,SM Caen,1-1,Final
+17,30/12/2022,03:00,EA Guingamp,US Quevilly-Rouen,0-2,Final
+17,30/12/2022,03:00,FC Annecy,Nîmes Olympique,0-0,Final
+17,30/12/2022,03:00,Chamois Niortais,Pau FC,2-1,Final
+17,30/12/2022,03:00,Paris FC,Havre AC,0-0,Final
+17,30/12/2022,03:00,Grenoble Foot 38,FC Metz,0-1,Final
+17,30/12/2022,03:00,Rodez AF,Dijon FCO,2-1,Final
+17,30/12/2022,03:00,SC Bastia,Valenciennes FC,1-0,Final
+17,30/12/2022,03:00,Stade Lavallois,Amiens SC,0-3,Final
+18,10/01/2023,03:00,Havre AC,FC Sochaux,1-0,Final
+18,10/01/2023,03:00,AS Saint-Étienne,Stade Lavallois,1-0,Final
+18,10/01/2023,03:00,Paris FC,Dijon FCO,2-1,Final
+18,10/01/2023,03:00,Pau FC,Grenoble Foot 38,0-0,Final
+18,10/01/2023,03:00,Valenciennes FC,FC Annecy,2-2,Final
+18,10/01/2023,03:00,Nîmes Olympique,FC Metz,1-4,Final
+18,10/01/2023,03:00,Rodez AF,Chamois Niortais,1-1,Final
+18,10/01/2023,03:00,Amiens SC,EA Guingamp,1-1,Final
+18,10/01/2023,03:00,US Quevilly-Rouen,SC Bastia,1-1,Final
+18,10/01/2023,03:00,SM Caen,Girondins Bordeaux,2-2,Final
+19,13/01/2023,03:00,Havre AC,Nîmes Olympique,3-1,Final
+19,13/01/2023,03:00,Dijon FCO,Valenciennes FC,2-1,Final
+19,13/01/2023,03:00,EA Guingamp,Grenoble Foot 38,2-4,Final
+19,13/01/2023,03:00,FC Annecy,Paris FC,2-0,Final
+19,13/01/2023,03:00,FC Metz,US Quevilly-Rouen,2-0,Final
+19,13/01/2023,03:00,SC Bastia,Pau FC,1-0,Final
+19,13/01/2023,03:00,Stade Lavallois,Rodez AF,3-1,Final
+19,13/01/2023,03:00,Girondins Bordeaux,Amiens SC,1-1,Final
+19,16/01/2023,03:00,Chamois Niortais,AS Saint-Étienne,0-1,Final
+19,20/01/2023,03:00,FC Sochaux,SM Caen,1-2,Final
+20,28/01/2023,03:00,AS Saint-Étienne,FC Sochaux,2-3,Final
+20,28/01/2023,03:00,Pau FC,FC Annecy,2-2,Final
+20,28/01/2023,03:00,Valenciennes FC,FC Metz,1-1,Final
+20,28/01/2023,03:00,Grenoble Foot 38,SC Bastia,0-1,Final
+20,28/01/2023,03:00,Nîmes Olympique,Chamois Niortais,3-2,Final
+20,28/01/2023,03:00,Rodez AF,EA Guingamp,0-1,Final
+20,28/01/2023,03:00,Amiens SC,Havre AC,1-1,Final
+20,28/01/2023,03:00,SM Caen,Stade Lavallois,0-0,Final
+20,28/01/2023,03:00,US Quevilly-Rouen,Paris FC,3-1,Final
+20,28/01/2023,03:00,Dijon FCO,Girondins Bordeaux,0-3,Final
+21,31/01/2023,03:00,EA Guingamp,Nîmes Olympique,1-2,Final
+21,31/01/2023,03:00,FC Annecy,SM Caen,2-0,Final
+21,31/01/2023,03:00,Chamois Niortais,Amiens SC,1-3,Final
+21,31/01/2023,03:00,FC Metz,Rodez AF,1-1,Final
+21,31/01/2023,03:00,Paris FC,Pau FC,0-1,Final
+21,31/01/2023,03:00,FC Sochaux,Valenciennes FC,4-0,Final
+21,31/01/2023,03:00,Grenoble Foot 38,US Quevilly-Rouen,1-0,Final
+21,31/01/2023,03:00,SC Bastia,AS Saint-Étienne,2-0,Final
+21,31/01/2023,03:00,Stade Lavallois,Dijon FCO,1-0,Final
+21,31/01/2023,03:00,Girondins Bordeaux,Havre AC,1-2,Final
+22,03/02/2023,03:00,Havre AC,Paris FC,0-0,Final
+22,03/02/2023,03:00,Dijon FCO,Chamois Niortais,0-1,Final
+22,03/02/2023,03:00,Valenciennes FC,Stade Lavallois,3-1,Final
+22,03/02/2023,03:00,Nîmes Olympique,Grenoble Foot 38,0-2,Final
+22,03/02/2023,03:00,Rodez AF,FC Sochaux,1-2,Final
+22,03/02/2023,03:00,SM Caen,SC Bastia,3-1,Final
+22,03/02/2023,03:00,US Quevilly-Rouen,EA Guingamp,2-0,Final
+22,03/02/2023,03:00,Pau FC,Girondins Bordeaux,0-2,Final
+22,04/02/2023,03:00,AS Saint-Étienne,FC Annecy,3-2,Final
+22,06/02/2023,03:00,Amiens SC,FC Metz,0-2,Final
+23,11/02/2023,03:00,AS Saint-Étienne,Dijon FCO,2-0,Final
+23,11/02/2023,03:00,EA Guingamp,Valenciennes FC,3-1,Final
+23,11/02/2023,03:00,FC Sochaux,Havre AC,1-1,Final
+23,11/02/2023,03:00,Grenoble Foot 38,Pau FC,1-1,Final
+23,11/02/2023,03:00,Rodez AF,Nîmes Olympique,1-1,Final
+23,11/02/2023,03:00,SC Bastia,US Quevilly-Rouen,0-1,Final
+23,11/02/2023,03:00,Stade Lavallois,FC Annecy,1-1,Final
+23,11/02/2023,03:00,Chamois Niortais,Girondins Bordeaux,3-1,Final
+23,13/02/2023,03:00,FC Metz,SM Caen,0-0,Final
+23,14/03/2023,03:00,Paris FC,Amiens SC,3-0,Final
+24,18/02/2023,03:00,Girondins Bordeaux,Paris FC,2-1,Final
+24,18/02/2023,03:00,Havre AC,Chamois Niortais,1-0,Final
+24,18/02/2023,03:00,Dijon FCO,FC Metz,0-0,Final
+24,18/02/2023,03:00,FC Annecy,Amiens SC,2-0,Final
+24,18/02/2023,03:00,Pau FC,Stade Lavallois,0-1,Final
+24,18/02/2023,03:00,Valenciennes FC,Rodez AF,0-0,Final
+24,18/02/2023,03:00,SC Bastia,EA Guingamp,1-1,Final
+24,18/02/2023,03:00,SM Caen,Grenoble Foot 38,2-1,Final
+24,18/02/2023,03:00,US Quevilly-Rouen,FC Sochaux,0-0,Final
+24,20/02/2023,03:00,Nîmes Olympique,AS Saint-Étienne,1-2,Final
+25,25/02/2023,03:00,Grenoble Foot 38,Havre AC,0-0,Final
+25,25/02/2023,03:00,AS Saint-Étienne,Pau FC,2-0,Final
+25,25/02/2023,03:00,EA Guingamp,SM Caen,1-2,Final
+25,25/02/2023,03:00,FC Metz,Nîmes Olympique,2-0,Final
+25,25/02/2023,03:00,Paris FC,Chamois Niortais,3-0,Final
+25,25/02/2023,03:00,FC Sochaux,FC Annecy,5-1,Final
+25,25/02/2023,03:00,Valenciennes FC,Dijon FCO,2-2,Final
+25,25/02/2023,03:00,Rodez AF,SC Bastia,0-2,Final
+25,25/02/2023,03:00,Stade Lavallois,US Quevilly-Rouen,0-1,Final
+25,27/02/2023,03:00,Amiens SC,Girondins Bordeaux,1-2,Final
+26,04/03/2023,03:00,Girondins Bordeaux,AS Saint-Étienne,1-1,Final
+26,04/03/2023,03:00,Havre AC,Stade Lavallois,2-1,Final
+26,04/03/2023,03:00,Dijon FCO,Grenoble Foot 38,1-0,Final
+26,04/03/2023,03:00,FC Annecy,FC Metz,0-3,Final
+26,04/03/2023,03:00,Chamois Niortais,Rodez AF,2-3,Final
+26,04/03/2023,03:00,Paris FC,EA Guingamp,1-2,Final
+26,04/03/2023,03:00,Amiens SC,Pau FC,1-0,Final
+26,04/03/2023,03:00,SC Bastia,Nîmes Olympique,4-2,Final
+26,04/03/2023,03:00,US Quevilly-Rouen,Valenciennes FC,1-1,Final
+26,06/03/2023,03:00,SM Caen,FC Sochaux,0-0,Final
+27,11/03/2023,03:00,FC Sochaux,Girondins Bordeaux,1-1,Final
+27,11/03/2023,03:00,AS Saint-Étienne,Amiens SC,1-1,Final
+27,11/03/2023,03:00,EA Guingamp,Dijon FCO,2-0,Final
+27,11/03/2023,03:00,Pau FC,Chamois Niortais,1-0,Final
+27,11/03/2023,03:00,Valenciennes FC,SC Bastia,2-2,Final
+27,11/03/2023,03:00,Grenoble Foot 38,FC Annecy,2-1,Final
+27,11/03/2023,03:00,Nîmes Olympique,US Quevilly-Rouen,2-0,Final
+27,11/03/2023,03:00,Rodez AF,SM Caen,3-2,Final
+27,11/03/2023,03:00,Stade Lavallois,Paris FC,1-2,Final
+27,13/03/2023,03:00,FC Metz,Havre AC,1-1,Final
+28,18/03/2023,03:00,Havre AC,AS Saint-Étienne,2-2,Final
+28,18/03/2023,03:00,Dijon FCO,Pau FC,0-1,Final
+28,18/03/2023,03:00,FC Annecy,EA Guingamp,1-1,Final
+28,18/03/2023,03:00,Chamois Niortais,Stade Lavallois,3-2,Final
+28,18/03/2023,03:00,Paris FC,SC Bastia,0-1,Final
+28,18/03/2023,03:00,FC Sochaux,Grenoble Foot 38,1-0,Final
+28,18/03/2023,03:00,Amiens SC,Rodez AF,1-3,Final
+28,18/03/2023,03:00,SM Caen,Valenciennes FC,2-1,Final
+28,18/03/2023,03:00,US Quevilly-Rouen,FC Metz,1-2,Final
+28,18/03/2023,03:00,Girondins Bordeaux,Nîmes Olympique,1-0,Final
+29,01/04/2023,03:00,AS Saint-Étienne,Chamois Niortais,2-0,Final
+29,01/04/2023,03:00,FC Metz,Stade Lavallois,1-0,Final
+29,01/04/2023,03:00,Pau FC,Havre AC,0-1,Final
+29,01/04/2023,03:00,Valenciennes FC,Paris FC,4-5,Final
+29,01/04/2023,03:00,Grenoble Foot 38,Amiens SC,2-1,Final
+29,01/04/2023,03:00,Nîmes Olympique,FC Annecy,4-0,Final
+29,01/04/2023,03:00,Rodez AF,US Quevilly-Rouen,1-0,Final
+29,01/04/2023,03:00,SC Bastia,FC Sochaux,3-2,Final
+29,01/04/2023,03:00,SM Caen,Dijon FCO,2-1,Final
+29,03/04/2023,03:00,EA Guingamp,Girondins Bordeaux,0-1,Final
+30,08/04/2023,03:00,Girondins Bordeaux,SC Bastia,2-0,Final
+30,08/04/2023,03:00,Havre AC,EA Guingamp,0-0,Final
+30,08/04/2023,03:00,Dijon FCO,Rodez AF,1-0,Final
+30,08/04/2023,03:00,Chamois Niortais,FC Sochaux,0-3,Final
+30,08/04/2023,03:00,Paris FC,AS Saint-Étienne,2-4,Final
+30,08/04/2023,03:00,Pau FC,FC Metz,1-1,Final
+30,08/04/2023,03:00,Amiens SC,Nîmes Olympique,1-0,Final
+30,08/04/2023,03:00,Stade Lavallois,Grenoble Foot 38,0-1,Final
+30,08/04/2023,03:00,US Quevilly-Rouen,SM Caen,2-1,Final
+30,10/04/2023,03:00,FC Annecy,Valenciennes FC,2-1,Final
+31,15/04/2023,03:00,FC Metz,Girondins Bordeaux,3-0,Final
+31,15/04/2023,03:00,EA Guingamp,Amiens SC,3-1,Final
+31,15/04/2023,03:00,FC Sochaux,Pau FC,2-3,Final
+31,15/04/2023,03:00,Valenciennes FC,Chamois Niortais,0-0,Final
+31,15/04/2023,03:00,Nîmes Olympique,Havre AC,0-1,Final
+31,15/04/2023,03:00,Rodez AF,Stade Lavallois,1-0,Final
+31,15/04/2023,03:00,SC Bastia,FC Annecy,3-0,Final
+31,15/04/2023,03:00,SM Caen,Paris FC,3-1,Final
+31,15/04/2023,03:00,US Quevilly-Rouen,Dijon FCO,2-2,Final
+31,17/04/2023,03:00,Grenoble Foot 38,AS Saint-Étienne,0-2,Final
+32,22/04/2023,03:00,AS Saint-Étienne,FC Metz,1-3,Final
+32,22/04/2023,03:00,Havre AC,US Quevilly-Rouen,0-0,Final
+32,22/04/2023,03:00,Dijon FCO,SC Bastia,1-1,Final
+32,22/04/2023,03:00,FC Annecy,Rodez AF,0-3,Final
+32,22/04/2023,03:00,Chamois Niortais,SM Caen,1-2,Final
+32,22/04/2023,03:00,Paris FC,Nîmes Olympique,3-0,Final
+32,22/04/2023,03:00,Pau FC,EA Guingamp,2-1,Final
+32,22/04/2023,03:00,Amiens SC,Valenciennes FC,0-2,Final
+32,22/04/2023,03:00,Stade Lavallois,FC Sochaux,2-1,Final
+32,24/04/2023,03:00,Girondins Bordeaux,Grenoble Foot 38,3-0,Final
+33,29/04/2023,03:00,SM Caen,Havre AC,1-2,Final
+33,29/04/2023,03:00,EA Guingamp,Stade Lavallois,3-1,Final
+33,29/04/2023,03:00,FC Metz,Paris FC,1-1,Final
+33,29/04/2023,03:00,Grenoble Foot 38,Chamois Niortais,2-0,Final
+33,29/04/2023,03:00,Nîmes Olympique,Pau FC,3-2,Final
+33,29/04/2023,03:00,Rodez AF,AS Saint-Étienne,1-1,Final
+33,29/04/2023,03:00,SC Bastia,Amiens SC,1-1,Final
+33,29/04/2023,03:00,US Quevilly-Rouen,FC Annecy,2-2,Final
+33,29/04/2023,03:00,Valenciennes FC,Girondins Bordeaux,0-2,Final
+33,01/05/2023,03:00,FC Sochaux,Dijon FCO,0-2,Final
+34,06/05/2023,03:00,Girondins Bordeaux,SM Caen,1-0,Final
+34,06/05/2023,03:00,AS Saint-Étienne,EA Guingamp,3-2,Final
+34,06/05/2023,03:00,FC Annecy,Dijon FCO,1-1,Final
+34,06/05/2023,03:00,Chamois Niortais,FC Metz,1-3,Final
+34,06/05/2023,03:00,Paris FC,Grenoble Foot 38,1-0,Final
+34,06/05/2023,03:00,Pau FC,US Quevilly-Rouen,3-4,Final
+34,06/05/2023,03:00,Nîmes Olympique,Valenciennes FC,3-3,Final
+34,06/05/2023,03:00,Amiens SC,FC Sochaux,1-0,Final
+34,06/05/2023,03:00,Stade Lavallois,SC Bastia,2-1,Final
+34,08/05/2023,03:00,Havre AC,Rodez AF,1-0,Final
+35,13/05/2023,03:00,US Quevilly-Rouen,Girondins Bordeaux,0-0,Final
+35,13/05/2023,03:00,Dijon FCO,Amiens SC,3-0,Final
+35,13/05/2023,03:00,FC Metz,Grenoble Foot 38,1-0,Final
+35,13/05/2023,03:00,FC Sochaux,EA Guingamp,0-1,Final
+35,13/05/2023,03:00,Valenciennes FC,Pau FC,1-1,Final
+35,13/05/2023,03:00,Rodez AF,Paris FC,0-0,Final
+35,13/05/2023,03:00,SC Bastia,Chamois Niortais,2-1,Final
+35,13/05/2023,03:00,SM Caen,Nîmes Olympique,4-2,Final
+35,13/05/2023,03:00,Stade Lavallois,AS Saint-Étienne,2-1,Final
+35,15/05/2023,03:00,FC Annecy,Havre AC,1-0,Final
+36,19/05/2023,03:00,Grenoble Foot 38,Rodez AF,1-1,Final
+36,20/05/2023,03:00,Girondins Bordeaux,Stade Lavallois,3-0,Final
+36,20/05/2023,03:00,AS Saint-Étienne,US Quevilly-Rouen,4-2,Final
+36,20/05/2023,03:00,EA Guingamp,FC Metz,1-1,Final
+36,20/05/2023,03:00,Chamois Niortais,FC Annecy,2-2,Final
+36,20/05/2023,03:00,Paris FC,FC Sochaux,2-1,Final
+36,20/05/2023,03:00,Pau FC,SC Bastia,2-6,Final
+36,20/05/2023,03:00,Nîmes Olympique,Dijon FCO,1-2,Final
+36,20/05/2023,03:00,Amiens SC,SM Caen,1-3,Final
+36,22/05/2023,03:00,Havre AC,Valenciennes FC,0-2,Final
+37,26/05/2023,03:00,Dijon FCO,Paris FC,1-1,Final
+37,26/05/2023,03:00,EA Guingamp,Chamois Niortais,2-0,Final
+37,26/05/2023,03:00,FC Sochaux,FC Metz,0-1,Final
+37,26/05/2023,03:00,Valenciennes FC,Grenoble Foot 38,1-0,Final
+37,26/05/2023,03:00,Rodez AF,Pau FC,2-3,Final
+37,26/05/2023,03:00,SC Bastia,Havre AC,1-1,Final
+37,26/05/2023,03:00,SM Caen,AS Saint-Étienne,2-2,Final
+37,26/05/2023,03:00,Stade Lavallois,Nîmes Olympique,2-0,Final
+37,26/05/2023,03:00,US Quevilly-Rouen,Amiens SC,1-3,Final
+37,26/05/2023,03:00,FC Annecy,Girondins Bordeaux,1-0,Final
+38,02/06/2023,03:00,Havre AC,Dijon FCO,1-0,Final
+38,02/06/2023,03:00,AS Saint-Étienne,Valenciennes FC,2-0,Final
+38,02/06/2023,03:00,Chamois Niortais,US Quevilly-Rouen,3-3,Final
+38,02/06/2023,03:00,FC Metz,SC Bastia,3-2,Final
+38,02/06/2023,03:00,Paris FC,FC Annecy,1-0,Final
+38,02/06/2023,03:00,Pau FC,SM Caen,1-0,Final
+38,02/06/2023,03:00,Grenoble Foot 38,EA Guingamp,0-2,Final
+38,02/06/2023,03:00,Nîmes Olympique,FC Sochaux,3-1,Final
+38,02/06/2023,03:00,Amiens SC,Stade Lavallois,1-2,Final
+38,02/06/2023,03:00,Girondins Bordeaux,Rodez AF,0-3,Final

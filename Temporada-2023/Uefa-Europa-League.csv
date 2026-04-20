@@ -1,0 +1,142 @@
+matchday,date,time,home_team,away_team,result,status
+1,08/09/2022,03:00,FC Zürich,Arsenal FC,1-2,Final
+1,08/09/2022,03:00,PSV Eindhoven,FK Bodø/Glimt,1-1,Final
+2,15/09/2022,03:00,FK Bodø/Glimt,FC Zürich,2-1,Final
+3,06/10/2022,03:00,FC Zürich,PSV Eindhoven,1-5,Final
+3,06/10/2022,03:00,Arsenal FC,FK Bodø/Glimt,3-0,Final
+4,13/10/2022,03:00,FK Bodø/Glimt,Arsenal FC,0-1,Final
+4,13/10/2022,03:00,PSV Eindhoven,FC Zürich,5-0,Final
+2,20/10/2022,03:00,Arsenal FC,PSV Eindhoven,1-0,Final
+5,27/10/2022,03:00,PSV Eindhoven,Arsenal FC,2-0,Final
+5,27/10/2022,03:00,FC Zürich,FK Bodø/Glimt,2-1,Final
+6,03/11/2022,03:00,Arsenal FC,FC Zürich,1-0,Final
+6,03/11/2022,03:00,FK Bodø/Glimt,PSV Eindhoven,1-2,Final
+1,08/09/2022,03:00,Fenerbahçe,Dinamo Kiev,2-1,Final
+1,08/09/2022,03:00,AEK Larnaca,Stade Rennais,1-2,Final
+2,15/09/2022,03:00,Dinamo Kiev,AEK Larnaca,0-1,Final
+2,15/09/2022,03:00,Stade Rennais,Fenerbahçe,2-2,Final
+3,06/10/2022,03:00,Stade Rennais,Dinamo Kiev,2-1,Final
+3,06/10/2022,03:00,Fenerbahçe,AEK Larnaca,2-0,Final
+4,13/10/2022,03:00,Dinamo Kiev,Stade Rennais,0-1,Final
+4,13/10/2022,03:00,AEK Larnaca,Fenerbahçe,1-2,Final
+5,27/10/2022,03:00,AEK Larnaca,Dinamo Kiev,3-3,Final
+5,27/10/2022,03:00,Fenerbahçe,Stade Rennais,3-3,Final
+6,03/11/2022,03:00,Dinamo Kiev,Fenerbahçe,0-2,Final
+6,03/11/2022,03:00,Stade Rennais,AEK Larnaca,1-1,Final
+1,08/09/2022,03:00,PFC Ludogorets Razgrad,AS Roma,2-1,Final
+1,08/09/2022,03:00,HJK Helsinki,Real Betis,0-2,Final
+2,15/09/2022,03:00,AS Roma,HJK Helsinki,3-0,Final
+2,15/09/2022,03:00,Real Betis,PFC Ludogorets Razgrad,3-2,Final
+3,06/10/2022,03:00,HJK Helsinki,PFC Ludogorets Razgrad,1-1,Final
+3,06/10/2022,03:00,AS Roma,Real Betis,1-2,Final
+4,13/10/2022,03:00,Real Betis,AS Roma,1-1,Final
+4,13/10/2022,03:00,PFC Ludogorets Razgrad,HJK Helsinki,2-0,Final
+5,27/10/2022,03:00,PFC Ludogorets Razgrad,Real Betis,0-1,Final
+5,27/10/2022,03:00,HJK Helsinki,AS Roma,1-2,Final
+6,03/11/2022,03:00,AS Roma,PFC Ludogorets Razgrad,3-1,Final
+6,03/11/2022,03:00,Real Betis,HJK Helsinki,3-0,Final
+1,08/09/2022,03:00,Malmö FF,Sporting Braga,0-2,Final
+1,08/09/2022,03:00,Union Berlín,Union Saint-Gilloise,0-1,Final
+2,15/09/2022,03:00,Sporting Braga,Union Berlín,1-0,Final
+2,15/09/2022,03:00,Union Saint-Gilloise,Malmö FF,3-2,Final
+3,06/10/2022,03:00,Malmö FF,Union Berlín,0-1,Final
+3,06/10/2022,03:00,Sporting Braga,Union Saint-Gilloise,1-2,Final
+4,13/10/2022,03:00,Union Saint-Gilloise,Sporting Braga,3-3,Final
+4,13/10/2022,03:00,Union Berlín,Malmö FF,1-0,Final
+5,27/10/2022,03:00,Union Berlín,Sporting Braga,1-0,Final
+5,27/10/2022,03:00,Malmö FF,Union Saint-Gilloise,0-2,Final
+6,03/11/2022,03:00,Sporting Braga,Malmö FF,2-1,Final
+6,03/11/2022,03:00,Union Saint-Gilloise,Union Berlín,0-1,Final
+1,08/09/2022,03:00,Manchester United,Real Sociedad,0-1,Final
+1,08/09/2022,03:00,Omonia Nikosia,FC Sheriff,0-3,Final
+2,15/09/2022,03:00,Real Sociedad,Omonia Nikosia,2-1,Final
+2,15/09/2022,03:00,FC Sheriff,Manchester United,0-2,Final
+3,06/10/2022,03:00,FC Sheriff,Real Sociedad,0-2,Final
+3,06/10/2022,03:00,Omonia Nikosia,Manchester United,2-3,Final
+4,13/10/2022,03:00,Manchester United,Omonia Nikosia,1-0,Final
+4,13/10/2022,03:00,Real Sociedad,FC Sheriff,3-0,Final
+5,27/10/2022,03:00,Manchester United,FC Sheriff,3-0,Final
+5,27/10/2022,03:00,Omonia Nikosia,Real Sociedad,0-2,Final
+6,03/11/2022,03:00,FC Sheriff,Omonia Nikosia,1-0,Final
+6,03/11/2022,03:00,Real Sociedad,Manchester United,0-1,Final
+1,08/09/2022,03:00,Lazio Roma,Feyenoord,4-2,Final
+1,08/09/2022,03:00,Sturm Graz,FC Midtjylland,1-0,Final
+2,15/09/2022,03:00,FC Midtjylland,Lazio Roma,5-1,Final
+2,15/09/2022,03:00,Feyenoord,Sturm Graz,6-0,Final
+3,06/10/2022,03:00,Sturm Graz,Lazio Roma,0-0,Final
+3,06/10/2022,03:00,FC Midtjylland,Feyenoord,2-2,Final
+4,13/10/2022,03:00,Feyenoord,FC Midtjylland,2-2,Final
+4,13/10/2022,03:00,Lazio Roma,Sturm Graz,2-2,Final
+5,27/10/2022,03:00,Lazio Roma,FC Midtjylland,2-1,Final
+5,27/10/2022,03:00,Sturm Graz,Feyenoord,1-0,Final
+6,03/11/2022,03:00,Feyenoord,Lazio Roma,1-0,Final
+6,03/11/2022,03:00,FC Midtjylland,Sturm Graz,2-0,Final
+1,08/09/2022,03:00,FC Nantes,Olympiakos Piraeus,2-1,Final
+1,08/09/2022,03:00,SC Friburgo,Qarabağ FK,2-1,Final
+2,15/09/2022,03:00,Olympiakos Piraeus,SC Friburgo,0-3,Final
+2,15/09/2022,03:00,Qarabağ FK,FC Nantes,3-0,Final
+3,06/10/2022,03:00,Olympiakos Piraeus,Qarabağ FK,0-3,Final
+3,06/10/2022,03:00,SC Friburgo,FC Nantes,2-0,Final
+4,13/10/2022,03:00,Qarabağ FK,Olympiakos Piraeus,0-0,Final
+4,13/10/2022,03:00,FC Nantes,SC Friburgo,0-4,Final
+5,27/10/2022,03:00,SC Friburgo,Olympiakos Piraeus,1-1,Final
+5,27/10/2022,03:00,FC Nantes,Qarabağ FK,2-1,Final
+6,03/11/2022,03:00,Olympiakos Piraeus,FC Nantes,0-2,Final
+6,03/11/2022,03:00,Qarabağ FK,SC Friburgo,1-1,Final
+1,08/09/2022,03:00,Estrella Roja de Belgrado,AS Monaco,0-1,Final
+1,08/09/2022,03:00,Ferencvárosi TC,Trabzonspor,3-2,Final
+2,15/09/2022,03:00,Trabzonspor,Estrella Roja de Belgrado,2-1,Final
+2,15/09/2022,03:00,AS Monaco,Ferencvárosi TC,0-1,Final
+3,06/10/2022,03:00,Estrella Roja de Belgrado,Ferencvárosi TC,4-1,Final
+3,06/10/2022,03:00,AS Monaco,Trabzonspor,3-1,Final
+4,13/10/2022,03:00,Ferencvárosi TC,Estrella Roja de Belgrado,2-1,Final
+4,13/10/2022,03:00,Trabzonspor,AS Monaco,4-0,Final
+5,27/10/2022,03:00,Estrella Roja de Belgrado,Trabzonspor,2-1,Final
+5,27/10/2022,03:00,Ferencvárosi TC,AS Monaco,1-1,Final
+6,03/11/2022,03:00,AS Monaco,Estrella Roja de Belgrado,4-1,Final
+6,03/11/2022,03:00,Trabzonspor,Ferencvárosi TC,1-0,Final
+6,16/02/2023,03:00,FC Barcelona,Manchester United,2-2,Final
+6,16/02/2023,03:00,Shajtar Donetsk,Stade Rennais,2-1,Final
+6,16/02/2023,03:00,AFC Ajax,Union Berlín,0-0,Final
+6,16/02/2023,03:00,Red Bull Salzburgo,AS Roma,1-0,Final
+6,16/02/2023,03:00,Juventus,FC Nantes,1-1,Final
+6,16/02/2023,03:00,Sporting CP,FC Midtjylland,1-1,Final
+6,16/02/2023,03:00,Bayer Leverkusen,AS Monaco,2-3,Final
+6,16/02/2023,03:00,Sevilla FC,PSV Eindhoven,3-0,Final
+6,23/02/2023,03:00,FC Nantes,Juventus,0-3,Final
+6,23/02/2023,03:00,FC Midtjylland,Sporting CP,0-4,Final
+6,23/02/2023,03:00,AS Monaco,Bayer Leverkusen,3-5,Final
+6,23/02/2023,03:00,PSV Eindhoven,Sevilla FC,2-0,Final
+6,23/02/2023,03:00,Manchester United,FC Barcelona,2-1,Final
+6,23/02/2023,03:00,Stade Rennais,Shajtar Donetsk,4-5,Final
+6,23/02/2023,03:00,Union Berlín,AFC Ajax,3-1,Final
+6,23/02/2023,03:00,AS Roma,Red Bull Salzburgo,2-0,Final
+6,09/03/2023,03:00,Union Berlín,Union Saint-Gilloise,3-3,Final
+6,09/03/2023,03:00,Bayer Leverkusen,Ferencvárosi TC,2-0,Final
+6,09/03/2023,03:00,Sporting CP,Arsenal FC,2-2,Final
+6,09/03/2023,03:00,AS Roma,Real Sociedad,2-0,Final
+6,09/03/2023,03:00,Sevilla FC,Fenerbahçe,2-0,Final
+6,09/03/2023,03:00,Juventus,SC Friburgo,1-0,Final
+6,09/03/2023,03:00,Manchester United,Real Betis,4-1,Final
+6,09/03/2023,03:00,Shajtar Donetsk,Feyenoord,1-1,Final
+6,16/03/2023,03:00,Fenerbahçe,Sevilla FC,1-0,Final
+6,16/03/2023,03:00,SC Friburgo,Juventus,0-2,Final
+6,16/03/2023,03:00,Real Betis,Manchester United,0-1,Final
+6,16/03/2023,03:00,Feyenoord,Shajtar Donetsk,7-1,Final
+6,16/03/2023,03:00,Union Saint-Gilloise,Union Berlín,3-0,Final
+6,16/03/2023,03:00,Ferencvárosi TC,Bayer Leverkusen,0-2,Final
+6,16/03/2023,03:00,Arsenal FC,Sporting CP,3-5,Final
+6,16/03/2023,03:00,Real Sociedad,AS Roma,0-0,Final
+6,13/04/2023,03:00,Feyenoord,AS Roma,1-0,Final
+6,13/04/2023,03:00,Manchester United,Sevilla FC,2-2,Final
+6,13/04/2023,03:00,Juventus,Sporting CP,1-0,Final
+6,13/04/2023,03:00,Bayer Leverkusen,Union Saint-Gilloise,1-1,Final
+6,20/04/2023,03:00,Sevilla FC,Manchester United,3-0,Final
+6,20/04/2023,03:00,Sporting CP,Juventus,1-1,Final
+6,20/04/2023,03:00,Union Saint-Gilloise,Bayer Leverkusen,1-4,Final
+6,20/04/2023,03:00,AS Roma,Feyenoord,4-1,Final
+6,11/05/2023,03:00,Juventus,Sevilla FC,1-1,Final
+6,11/05/2023,03:00,AS Roma,Bayer Leverkusen,1-0,Final
+6,18/05/2023,03:00,Sevilla FC,Juventus,2-1,Final
+6,18/05/2023,03:00,Bayer Leverkusen,AS Roma,0-0,Final
+6,31/05/2023,03:00,Sevilla FC,AS Roma,4-1,Final

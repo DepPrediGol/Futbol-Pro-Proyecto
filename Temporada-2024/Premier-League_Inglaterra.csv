@@ -1,0 +1,381 @@
+matchday,date,time,home_team,away_team,result,status
+1,11/08/2023,03:00,Burnley FC,Manchester City,0-3,Final
+1,12/08/2023,03:00,Arsenal FC,Nottingham Forest,2-1,Final
+1,12/08/2023,03:00,AFC Bournemouth,West Ham United,1-1,Final
+1,12/08/2023,03:00,Brighton & Hove Albion,Luton Town,4-1,Final
+1,12/08/2023,03:00,Everton FC,Fulham FC,0-1,Final
+1,12/08/2023,03:00,Sheffield United,Crystal Palace,0-1,Final
+1,12/08/2023,03:00,Newcastle United,Aston Villa,5-1,Final
+1,13/08/2023,03:00,Brentford FC,Tottenham Hotspur,2-2,Final
+1,13/08/2023,03:00,Chelsea FC,Liverpool FC,1-1,Final
+1,14/08/2023,03:00,Manchester United,Wolverhampton Wanderers,1-0,Final
+2,18/08/2023,03:00,Nottingham Forest,Sheffield United,2-1,Final
+2,19/08/2023,03:00,Fulham FC,Brentford FC,0-3,Final
+2,19/08/2023,03:00,Liverpool FC,AFC Bournemouth,3-1,Final
+2,19/08/2023,03:00,Wolverhampton Wanderers,Brighton & Hove Albion,1-4,Final
+2,19/08/2023,03:00,Tottenham Hotspur,Manchester United,2-0,Final
+2,19/08/2023,03:00,Manchester City,Newcastle United,1-0,Final
+2,20/08/2023,03:00,Aston Villa,Everton FC,4-0,Final
+2,20/08/2023,03:00,West Ham United,Chelsea FC,3-1,Final
+2,21/08/2023,03:00,Crystal Palace,Arsenal FC,0-1,Final
+2,03/10/2023,03:00,Luton Town,Burnley FC,1-2,Final
+3,25/08/2023,03:00,Chelsea FC,Luton Town,3-0,Final
+3,26/08/2023,03:00,AFC Bournemouth,Tottenham Hotspur,0-2,Final
+3,26/08/2023,03:00,Arsenal FC,Fulham FC,2-2,Final
+3,26/08/2023,03:00,Brentford FC,Crystal Palace,1-1,Final
+3,26/08/2023,03:00,Everton FC,Wolverhampton Wanderers,0-1,Final
+3,26/08/2023,03:00,Manchester United,Nottingham Forest,3-2,Final
+3,26/08/2023,03:00,Brighton & Hove Albion,West Ham United,1-3,Final
+3,27/08/2023,03:00,Burnley FC,Aston Villa,1-3,Final
+3,27/08/2023,03:00,Sheffield United,Manchester City,1-2,Final
+3,27/08/2023,03:00,Newcastle United,Liverpool FC,1-2,Final
+4,01/09/2023,03:00,Luton Town,West Ham United,1-2,Final
+4,02/09/2023,03:00,Sheffield United,Everton FC,2-2,Final
+4,02/09/2023,03:00,Brentford FC,AFC Bournemouth,2-2,Final
+4,02/09/2023,03:00,Burnley FC,Tottenham Hotspur,2-5,Final
+4,02/09/2023,03:00,Chelsea FC,Nottingham Forest,0-1,Final
+4,02/09/2023,03:00,Manchester City,Fulham FC,5-1,Final
+4,02/09/2023,03:00,Brighton & Hove Albion,Newcastle United,3-1,Final
+4,03/09/2023,03:00,Crystal Palace,Wolverhampton Wanderers,3-2,Final
+4,03/09/2023,03:00,Liverpool FC,Aston Villa,3-0,Final
+4,03/09/2023,03:00,Arsenal FC,Manchester United,3-1,Final
+5,16/09/2023,03:00,Wolverhampton Wanderers,Liverpool FC,1-3,Final
+5,16/09/2023,03:00,Aston Villa,Crystal Palace,3-1,Final
+5,16/09/2023,03:00,Fulham FC,Luton Town,1-0,Final
+5,16/09/2023,03:00,Manchester United,Brighton & Hove Albion,1-3,Final
+5,16/09/2023,03:00,Tottenham Hotspur,Sheffield United,2-1,Final
+5,16/09/2023,03:00,West Ham United,Manchester City,1-3,Final
+5,16/09/2023,03:00,Newcastle United,Brentford FC,1-0,Final
+5,17/09/2023,03:00,AFC Bournemouth,Chelsea FC,0-0,Final
+5,17/09/2023,03:00,Everton FC,Arsenal FC,0-1,Final
+5,18/09/2023,03:00,Nottingham Forest,Burnley FC,1-1,Final
+6,23/09/2023,03:00,Crystal Palace,Fulham FC,0-0,Final
+6,23/09/2023,03:00,Luton Town,Wolverhampton Wanderers,1-1,Final
+6,23/09/2023,03:00,Manchester City,Nottingham Forest,2-0,Final
+6,23/09/2023,03:00,Brentford FC,Everton FC,1-3,Final
+6,23/09/2023,03:00,Burnley FC,Manchester United,0-1,Final
+6,24/09/2023,03:00,Arsenal FC,Tottenham Hotspur,2-2,Final
+6,24/09/2023,03:00,Brighton & Hove Albion,AFC Bournemouth,3-1,Final
+6,24/09/2023,03:00,Chelsea FC,Aston Villa,0-1,Final
+6,24/09/2023,03:00,Liverpool FC,West Ham United,3-1,Final
+6,24/09/2023,03:00,Sheffield United,Newcastle United,0-8,Final
+7,30/09/2023,03:00,Aston Villa,Brighton & Hove Albion,6-1,Final
+7,30/09/2023,03:00,AFC Bournemouth,Arsenal FC,0-4,Final
+7,30/09/2023,03:00,Everton FC,Luton Town,1-2,Final
+7,30/09/2023,03:00,Manchester United,Crystal Palace,0-1,Final
+7,30/09/2023,03:00,Newcastle United,Burnley FC,2-0,Final
+7,30/09/2023,03:00,West Ham United,Sheffield United,2-0,Final
+7,30/09/2023,03:00,Wolverhampton Wanderers,Manchester City,2-1,Final
+7,30/09/2023,03:00,Tottenham Hotspur,Liverpool FC,2-1,Final
+7,01/10/2023,03:00,Nottingham Forest,Brentford FC,1-1,Final
+7,02/10/2023,03:00,Fulham FC,Chelsea FC,0-2,Final
+8,07/10/2023,03:00,Luton Town,Tottenham Hotspur,0-1,Final
+8,07/10/2023,03:00,Burnley FC,Chelsea FC,1-4,Final
+8,07/10/2023,03:00,Everton FC,AFC Bournemouth,3-0,Final
+8,07/10/2023,03:00,Fulham FC,Sheffield United,3-1,Final
+8,07/10/2023,03:00,Manchester United,Brentford FC,2-1,Final
+8,07/10/2023,03:00,Crystal Palace,Nottingham Forest,0-0,Final
+8,08/10/2023,03:00,Brighton & Hove Albion,Liverpool FC,2-2,Final
+8,08/10/2023,03:00,West Ham United,Newcastle United,2-2,Final
+8,08/10/2023,03:00,Wolverhampton Wanderers,Aston Villa,1-1,Final
+8,08/10/2023,03:00,Arsenal FC,Manchester City,1-0,Final
+9,21/10/2023,03:00,Liverpool FC,Everton FC,2-0,Final
+9,21/10/2023,03:00,AFC Bournemouth,Wolverhampton Wanderers,1-2,Final
+9,21/10/2023,03:00,Brentford FC,Burnley FC,3-0,Final
+9,21/10/2023,03:00,Manchester City,Brighton & Hove Albion,2-1,Final
+9,21/10/2023,03:00,Newcastle United,Crystal Palace,4-0,Final
+9,21/10/2023,03:00,Nottingham Forest,Luton Town,2-2,Final
+9,21/10/2023,03:00,Chelsea FC,Arsenal FC,2-2,Final
+9,21/10/2023,03:00,Sheffield United,Manchester United,1-2,Final
+9,22/10/2023,03:00,Aston Villa,West Ham United,4-1,Final
+9,23/10/2023,03:00,Tottenham Hotspur,Fulham FC,2-0,Final
+10,27/10/2023,03:00,Crystal Palace,Tottenham Hotspur,1-2,Final
+10,28/10/2023,03:00,Chelsea FC,Brentford FC,0-2,Final
+10,28/10/2023,03:00,AFC Bournemouth,Burnley FC,2-1,Final
+10,28/10/2023,03:00,Arsenal FC,Sheffield United,5-0,Final
+10,28/10/2023,03:00,Wolverhampton Wanderers,Newcastle United,2-2,Final
+10,29/10/2023,03:00,West Ham United,Everton FC,0-1,Final
+10,29/10/2023,03:00,Aston Villa,Luton Town,3-1,Final
+10,29/10/2023,03:00,Brighton & Hove Albion,Fulham FC,1-1,Final
+10,29/10/2023,03:00,Liverpool FC,Nottingham Forest,3-0,Final
+10,29/10/2023,03:00,Manchester United,Manchester City,0-3,Final
+11,04/11/2023,03:00,Fulham FC,Manchester United,0-1,Final
+11,04/11/2023,03:00,Brentford FC,West Ham United,3-2,Final
+11,04/11/2023,03:00,Burnley FC,Crystal Palace,0-2,Final
+11,04/11/2023,03:00,Everton FC,Brighton & Hove Albion,1-1,Final
+11,04/11/2023,03:00,Manchester City,AFC Bournemouth,6-1,Final
+11,04/11/2023,03:00,Sheffield United,Wolverhampton Wanderers,2-1,Final
+11,04/11/2023,03:00,Newcastle United,Arsenal FC,1-0,Final
+11,05/11/2023,03:00,Nottingham Forest,Aston Villa,2-0,Final
+11,05/11/2023,03:00,Luton Town,Liverpool FC,1-1,Final
+11,06/11/2023,03:00,Tottenham Hotspur,Chelsea FC,1-4,Final
+12,11/11/2023,03:00,Wolverhampton Wanderers,Tottenham Hotspur,2-1,Final
+12,11/11/2023,03:00,Arsenal FC,Burnley FC,3-1,Final
+12,11/11/2023,03:00,Crystal Palace,Everton FC,2-3,Final
+12,11/11/2023,03:00,Manchester United,Luton Town,1-0,Final
+12,11/11/2023,03:00,AFC Bournemouth,Newcastle United,2-0,Final
+12,12/11/2023,03:00,Aston Villa,Fulham FC,3-1,Final
+12,12/11/2023,03:00,Brighton & Hove Albion,Sheffield United,1-1,Final
+12,12/11/2023,03:00,Liverpool FC,Brentford FC,3-0,Final
+12,12/11/2023,03:00,West Ham United,Nottingham Forest,3-2,Final
+12,12/11/2023,03:00,Chelsea FC,Manchester City,4-4,Final
+13,25/11/2023,03:00,Manchester City,Liverpool FC,1-1,Final
+13,25/11/2023,03:00,Burnley FC,West Ham United,1-2,Final
+13,25/11/2023,03:00,Luton Town,Crystal Palace,2-1,Final
+13,25/11/2023,03:00,Newcastle United,Chelsea FC,4-1,Final
+13,25/11/2023,03:00,Nottingham Forest,Brighton & Hove Albion,2-3,Final
+13,25/11/2023,03:00,Sheffield United,AFC Bournemouth,1-3,Final
+13,25/11/2023,03:00,Brentford FC,Arsenal FC,0-1,Final
+13,26/11/2023,03:00,Tottenham Hotspur,Aston Villa,1-2,Final
+13,26/11/2023,03:00,Everton FC,Manchester United,0-3,Final
+13,27/11/2023,03:00,Fulham FC,Wolverhampton Wanderers,3-2,Final
+14,02/12/2023,03:00,Arsenal FC,Wolverhampton Wanderers,2-1,Final
+14,02/12/2023,03:00,Brentford FC,Luton Town,3-1,Final
+14,02/12/2023,03:00,Burnley FC,Sheffield United,5-0,Final
+14,02/12/2023,03:00,Nottingham Forest,Everton FC,0-1,Final
+14,02/12/2023,03:00,Newcastle United,Manchester United,1-0,Final
+14,03/12/2023,03:00,AFC Bournemouth,Aston Villa,2-2,Final
+14,03/12/2023,03:00,Chelsea FC,Brighton & Hove Albion,3-2,Final
+14,03/12/2023,03:00,Liverpool FC,Fulham FC,4-3,Final
+14,03/12/2023,03:00,West Ham United,Crystal Palace,1-1,Final
+14,03/12/2023,03:00,Manchester City,Tottenham Hotspur,3-3,Final
+15,05/12/2023,03:00,Wolverhampton Wanderers,Burnley FC,1-0,Final
+15,05/12/2023,03:00,Luton Town,Arsenal FC,3-4,Final
+15,06/12/2023,03:00,Brighton & Hove Albion,Brentford FC,2-1,Final
+15,06/12/2023,03:00,Fulham FC,Nottingham Forest,5-0,Final
+15,06/12/2023,03:00,Sheffield United,Liverpool FC,0-2,Final
+15,06/12/2023,03:00,Crystal Palace,AFC Bournemouth,0-2,Final
+15,06/12/2023,03:00,Aston Villa,Manchester City,1-0,Final
+15,06/12/2023,03:00,Manchester United,Chelsea FC,2-1,Final
+15,07/12/2023,03:00,Everton FC,Newcastle United,3-0,Final
+15,07/12/2023,03:00,Tottenham Hotspur,West Ham United,1-2,Final
+16,09/12/2023,03:00,Crystal Palace,Liverpool FC,1-2,Final
+16,09/12/2023,03:00,Brighton & Hove Albion,Burnley FC,1-1,Final
+16,09/12/2023,03:00,Manchester United,AFC Bournemouth,0-3,Final
+16,09/12/2023,03:00,Sheffield United,Brentford FC,1-0,Final
+16,09/12/2023,03:00,Wolverhampton Wanderers,Nottingham Forest,1-1,Final
+16,09/12/2023,03:00,Aston Villa,Arsenal FC,1-0,Final
+16,10/12/2023,03:00,Everton FC,Chelsea FC,2-0,Final
+16,10/12/2023,03:00,Fulham FC,West Ham United,5-0,Final
+16,10/12/2023,03:00,Luton Town,Manchester City,1-2,Final
+16,10/12/2023,03:00,Tottenham Hotspur,Newcastle United,4-1,Final
+17,15/12/2023,03:00,Nottingham Forest,Tottenham Hotspur,0-2,Final
+17,16/12/2023,03:00,Chelsea FC,Sheffield United,2-0,Final
+17,16/12/2023,03:00,Manchester City,Crystal Palace,2-2,Final
+17,16/12/2023,03:00,Newcastle United,Fulham FC,3-0,Final
+17,16/12/2023,03:00,Burnley FC,Everton FC,0-2,Final
+17,17/12/2023,03:00,Arsenal FC,Brighton & Hove Albion,2-0,Final
+17,17/12/2023,03:00,Brentford FC,Aston Villa,1-2,Final
+17,17/12/2023,03:00,West Ham United,Wolverhampton Wanderers,3-0,Final
+17,17/12/2023,03:00,Liverpool FC,Manchester United,0-0,Final
+17,13/03/2024,03:00,AFC Bournemouth,Luton Town,4-3,Final
+18,21/12/2023,03:00,Crystal Palace,Brighton & Hove Albion,1-1,Final
+18,22/12/2023,03:00,Aston Villa,Sheffield United,1-1,Final
+18,23/12/2023,03:00,West Ham United,Manchester United,2-0,Final
+18,23/12/2023,03:00,Fulham FC,Burnley FC,0-2,Final
+18,23/12/2023,03:00,Luton Town,Newcastle United,1-0,Final
+18,23/12/2023,03:00,Nottingham Forest,AFC Bournemouth,2-3,Final
+18,23/12/2023,03:00,Tottenham Hotspur,Everton FC,2-1,Final
+18,23/12/2023,03:00,Liverpool FC,Arsenal FC,1-1,Final
+18,24/12/2023,03:00,Wolverhampton Wanderers,Chelsea FC,2-1,Final
+18,20/02/2024,03:00,Manchester City,Brentford FC,1-0,Final
+19,26/12/2023,03:00,Newcastle United,Nottingham Forest,1-3,Final
+19,26/12/2023,03:00,AFC Bournemouth,Fulham FC,3-0,Final
+19,26/12/2023,03:00,Sheffield United,Luton Town,2-3,Final
+19,26/12/2023,03:00,Burnley FC,Liverpool FC,0-2,Final
+19,26/12/2023,03:00,Manchester United,Aston Villa,3-2,Final
+19,27/12/2023,03:00,Brentford FC,Wolverhampton Wanderers,1-4,Final
+19,27/12/2023,03:00,Chelsea FC,Crystal Palace,2-1,Final
+19,27/12/2023,03:00,Everton FC,Manchester City,1-3,Final
+19,28/12/2023,03:00,Brighton & Hove Albion,Tottenham Hotspur,4-2,Final
+19,28/12/2023,03:00,Arsenal FC,West Ham United,0-2,Final
+20,30/12/2023,03:00,Luton Town,Chelsea FC,2-3,Final
+20,30/12/2023,03:00,Aston Villa,Burnley FC,3-2,Final
+20,30/12/2023,03:00,Crystal Palace,Brentford FC,3-1,Final
+20,30/12/2023,03:00,Manchester City,Sheffield United,2-0,Final
+20,30/12/2023,03:00,Wolverhampton Wanderers,Everton FC,3-0,Final
+20,30/12/2023,03:00,Nottingham Forest,Manchester United,2-1,Final
+20,31/12/2023,03:00,Fulham FC,Arsenal FC,2-1,Final
+20,31/12/2023,03:00,Tottenham Hotspur,AFC Bournemouth,3-1,Final
+20,01/01/2024,03:00,Liverpool FC,Newcastle United,4-2,Final
+20,02/01/2024,03:00,West Ham United,Brighton & Hove Albion,0-0,Final
+21,12/01/2024,03:00,Burnley FC,Luton Town,1-1,Final
+21,13/01/2024,03:00,Chelsea FC,Fulham FC,1-0,Final
+21,13/01/2024,03:00,Newcastle United,Manchester City,2-3,Final
+21,14/01/2024,03:00,Everton FC,Aston Villa,0-0,Final
+21,14/01/2024,03:00,Manchester United,Tottenham Hotspur,2-2,Final
+21,20/01/2024,03:00,Arsenal FC,Crystal Palace,5-0,Final
+21,20/01/2024,03:00,Brentford FC,Nottingham Forest,3-2,Final
+21,21/01/2024,03:00,Sheffield United,West Ham United,2-2,Final
+21,21/01/2024,03:00,AFC Bournemouth,Liverpool FC,0-4,Final
+21,22/01/2024,03:00,Brighton & Hove Albion,Wolverhampton Wanderers,0-0,Final
+22,30/01/2024,03:00,Nottingham Forest,Arsenal FC,1-2,Final
+22,30/01/2024,03:00,Luton Town,Brighton & Hove Albion,4-0,Final
+22,30/01/2024,03:00,Fulham FC,Everton FC,0-0,Final
+22,30/01/2024,03:00,Crystal Palace,Sheffield United,3-2,Final
+22,30/01/2024,03:00,Aston Villa,Newcastle United,1-3,Final
+22,31/01/2024,03:00,Manchester City,Burnley FC,3-1,Final
+22,31/01/2024,03:00,Tottenham Hotspur,Brentford FC,3-2,Final
+22,31/01/2024,03:00,Liverpool FC,Chelsea FC,4-1,Final
+22,01/02/2024,03:00,West Ham United,AFC Bournemouth,1-1,Final
+22,01/02/2024,03:00,Wolverhampton Wanderers,Manchester United,3-4,Final
+23,03/02/2024,03:00,Everton FC,Tottenham Hotspur,2-2,Final
+23,03/02/2024,03:00,Brighton & Hove Albion,Crystal Palace,4-1,Final
+23,03/02/2024,03:00,Burnley FC,Fulham FC,2-2,Final
+23,03/02/2024,03:00,Newcastle United,Luton Town,4-4,Final
+23,03/02/2024,03:00,Sheffield United,Aston Villa,0-5,Final
+23,04/02/2024,03:00,AFC Bournemouth,Nottingham Forest,1-1,Final
+23,04/02/2024,03:00,Chelsea FC,Wolverhampton Wanderers,2-4,Final
+23,04/02/2024,03:00,Manchester United,West Ham United,3-0,Final
+23,04/02/2024,03:00,Arsenal FC,Liverpool FC,3-1,Final
+23,05/02/2024,03:00,Brentford FC,Manchester City,1-3,Final
+24,10/02/2024,03:00,Manchester City,Everton FC,2-0,Final
+24,10/02/2024,03:00,Fulham FC,AFC Bournemouth,3-1,Final
+24,10/02/2024,03:00,Liverpool FC,Burnley FC,3-1,Final
+24,10/02/2024,03:00,Luton Town,Sheffield United,1-3,Final
+24,10/02/2024,03:00,Tottenham Hotspur,Brighton & Hove Albion,2-1,Final
+24,10/02/2024,03:00,Wolverhampton Wanderers,Brentford FC,0-2,Final
+24,10/02/2024,03:00,Nottingham Forest,Newcastle United,2-3,Final
+24,11/02/2024,03:00,West Ham United,Arsenal FC,0-6,Final
+24,11/02/2024,03:00,Aston Villa,Manchester United,1-2,Final
+24,12/02/2024,03:00,Crystal Palace,Chelsea FC,1-3,Final
+25,17/02/2024,03:00,Brentford FC,Liverpool FC,1-4,Final
+25,17/02/2024,03:00,Burnley FC,Arsenal FC,0-5,Final
+25,17/02/2024,03:00,Fulham FC,Aston Villa,1-2,Final
+25,17/02/2024,03:00,Newcastle United,AFC Bournemouth,2-2,Final
+25,17/02/2024,03:00,Nottingham Forest,West Ham United,2-0,Final
+25,17/02/2024,03:00,Tottenham Hotspur,Wolverhampton Wanderers,1-2,Final
+25,17/02/2024,03:00,Manchester City,Chelsea FC,1-1,Final
+25,18/02/2024,03:00,Sheffield United,Brighton & Hove Albion,0-5,Final
+25,18/02/2024,03:00,Luton Town,Manchester United,1-2,Final
+25,19/02/2024,03:00,Everton FC,Crystal Palace,1-1,Final
+26,21/02/2024,03:00,Liverpool FC,Luton Town,4-1,Final
+26,24/02/2024,03:00,Aston Villa,Nottingham Forest,4-2,Final
+26,24/02/2024,03:00,Brighton & Hove Albion,Everton FC,1-1,Final
+26,24/02/2024,03:00,Crystal Palace,Burnley FC,3-0,Final
+26,24/02/2024,03:00,Manchester United,Fulham FC,1-2,Final
+26,24/02/2024,03:00,AFC Bournemouth,Manchester City,0-1,Final
+26,24/02/2024,03:00,Arsenal FC,Newcastle United,4-1,Final
+26,25/02/2024,03:00,Wolverhampton Wanderers,Sheffield United,1-0,Final
+26,26/02/2024,03:00,West Ham United,Brentford FC,4-2,Final
+26,02/05/2024,03:00,Chelsea FC,Tottenham Hotspur,2-0,Final
+27,02/03/2024,03:00,Brentford FC,Chelsea FC,2-2,Final
+27,02/03/2024,03:00,Everton FC,West Ham United,1-3,Final
+27,02/03/2024,03:00,Fulham FC,Brighton & Hove Albion,3-0,Final
+27,02/03/2024,03:00,Newcastle United,Wolverhampton Wanderers,3-0,Final
+27,02/03/2024,03:00,Nottingham Forest,Liverpool FC,0-1,Final
+27,02/03/2024,03:00,Tottenham Hotspur,Crystal Palace,3-1,Final
+27,02/03/2024,03:00,Luton Town,Aston Villa,2-3,Final
+27,03/03/2024,03:00,Burnley FC,AFC Bournemouth,0-2,Final
+27,03/03/2024,03:00,Manchester City,Manchester United,3-1,Final
+27,04/03/2024,03:00,Sheffield United,Arsenal FC,0-6,Final
+28,09/03/2024,03:00,Manchester United,Everton FC,2-0,Final
+28,09/03/2024,03:00,AFC Bournemouth,Sheffield United,2-2,Final
+28,09/03/2024,03:00,Crystal Palace,Luton Town,1-1,Final
+28,09/03/2024,03:00,Wolverhampton Wanderers,Fulham FC,2-1,Final
+28,09/03/2024,03:00,Arsenal FC,Brentford FC,2-1,Final
+28,10/03/2024,03:00,Aston Villa,Tottenham Hotspur,0-4,Final
+28,10/03/2024,03:00,Brighton & Hove Albion,Nottingham Forest,1-0,Final
+28,10/03/2024,03:00,West Ham United,Burnley FC,2-2,Final
+28,10/03/2024,03:00,Liverpool FC,Manchester City,1-1,Final
+28,11/03/2024,03:00,Chelsea FC,Newcastle United,3-2,Final
+29,16/03/2024,03:00,Burnley FC,Brentford FC,2-1,Final
+29,16/03/2024,03:00,Luton Town,Nottingham Forest,1-1,Final
+29,16/03/2024,03:00,Fulham FC,Tottenham Hotspur,3-0,Final
+29,17/03/2024,03:00,West Ham United,Aston Villa,1-1,Final
+29,23/04/2024,03:00,Arsenal FC,Chelsea FC,5-0,Final
+29,24/04/2024,03:00,Wolverhampton Wanderers,AFC Bournemouth,0-1,Final
+29,24/04/2024,03:00,Crystal Palace,Newcastle United,2-0,Final
+29,24/04/2024,03:00,Everton FC,Liverpool FC,2-0,Final
+29,24/04/2024,03:00,Manchester United,Sheffield United,4-2,Final
+29,25/04/2024,03:00,Brighton & Hove Albion,Manchester City,0-4,Final
+30,30/03/2024,03:00,Newcastle United,West Ham United,4-3,Final
+30,30/03/2024,03:00,AFC Bournemouth,Everton FC,2-1,Final
+30,30/03/2024,03:00,Chelsea FC,Burnley FC,2-2,Final
+30,30/03/2024,03:00,Nottingham Forest,Crystal Palace,1-1,Final
+30,30/03/2024,03:00,Sheffield United,Fulham FC,3-3,Final
+30,30/03/2024,03:00,Tottenham Hotspur,Luton Town,2-1,Final
+30,30/03/2024,03:00,Aston Villa,Wolverhampton Wanderers,2-0,Final
+30,30/03/2024,03:00,Brentford FC,Manchester United,1-1,Final
+30,31/03/2024,03:00,Liverpool FC,Brighton & Hove Albion,2-1,Final
+30,31/03/2024,03:00,Manchester City,Arsenal FC,0-0,Final
+31,02/04/2024,03:00,Nottingham Forest,Fulham FC,3-1,Final
+31,02/04/2024,03:00,Newcastle United,Everton FC,1-1,Final
+31,02/04/2024,03:00,AFC Bournemouth,Crystal Palace,1-0,Final
+31,02/04/2024,03:00,Burnley FC,Wolverhampton Wanderers,1-1,Final
+31,02/04/2024,03:00,West Ham United,Tottenham Hotspur,1-1,Final
+31,03/04/2024,03:00,Arsenal FC,Luton Town,2-0,Final
+31,03/04/2024,03:00,Brentford FC,Brighton & Hove Albion,0-0,Final
+31,03/04/2024,03:00,Manchester City,Aston Villa,4-1,Final
+31,04/04/2024,03:00,Liverpool FC,Sheffield United,3-1,Final
+31,04/04/2024,03:00,Chelsea FC,Manchester United,4-3,Final
+32,06/04/2024,03:00,Crystal Palace,Manchester City,2-4,Final
+32,06/04/2024,03:00,Aston Villa,Brentford FC,3-3,Final
+32,06/04/2024,03:00,Everton FC,Burnley FC,1-0,Final
+32,06/04/2024,03:00,Fulham FC,Newcastle United,0-1,Final
+32,06/04/2024,03:00,Luton Town,AFC Bournemouth,2-1,Final
+32,06/04/2024,03:00,Wolverhampton Wanderers,West Ham United,1-2,Final
+32,06/04/2024,03:00,Brighton & Hove Albion,Arsenal FC,0-3,Final
+32,07/04/2024,03:00,Manchester United,Liverpool FC,2-2,Final
+32,07/04/2024,03:00,Sheffield United,Chelsea FC,2-2,Final
+32,07/04/2024,03:00,Tottenham Hotspur,Nottingham Forest,3-1,Final
+33,13/04/2024,03:00,Newcastle United,Tottenham Hotspur,4-0,Final
+33,13/04/2024,03:00,Brentford FC,Sheffield United,2-0,Final
+33,13/04/2024,03:00,Burnley FC,Brighton & Hove Albion,1-1,Final
+33,13/04/2024,03:00,Manchester City,Luton Town,5-1,Final
+33,13/04/2024,03:00,Nottingham Forest,Wolverhampton Wanderers,2-2,Final
+33,13/04/2024,03:00,AFC Bournemouth,Manchester United,2-2,Final
+33,14/04/2024,03:00,Liverpool FC,Crystal Palace,0-1,Final
+33,14/04/2024,03:00,West Ham United,Fulham FC,0-2,Final
+33,14/04/2024,03:00,Arsenal FC,Aston Villa,0-2,Final
+33,15/04/2024,03:00,Chelsea FC,Everton FC,6-0,Final
+34,20/04/2024,03:00,Luton Town,Brentford FC,1-5,Final
+34,20/04/2024,03:00,Sheffield United,Burnley FC,1-4,Final
+34,20/04/2024,03:00,Wolverhampton Wanderers,Arsenal FC,0-2,Final
+34,21/04/2024,03:00,Everton FC,Nottingham Forest,2-0,Final
+34,21/04/2024,03:00,Aston Villa,AFC Bournemouth,3-1,Final
+34,21/04/2024,03:00,Crystal Palace,West Ham United,5-2,Final
+34,21/04/2024,03:00,Fulham FC,Liverpool FC,1-3,Final
+34,14/05/2024,03:00,Tottenham Hotspur,Manchester City,0-2,Final
+34,15/05/2024,03:00,Brighton & Hove Albion,Chelsea FC,1-2,Final
+34,15/05/2024,03:00,Manchester United,Newcastle United,3-2,Final
+35,27/04/2024,03:00,West Ham United,Liverpool FC,2-2,Final
+35,27/04/2024,03:00,Fulham FC,Crystal Palace,1-1,Final
+35,27/04/2024,03:00,Manchester United,Burnley FC,1-1,Final
+35,27/04/2024,03:00,Newcastle United,Sheffield United,5-1,Final
+35,27/04/2024,03:00,Wolverhampton Wanderers,Luton Town,2-1,Final
+35,27/04/2024,03:00,Everton FC,Brentford FC,1-0,Final
+35,27/04/2024,03:00,Aston Villa,Chelsea FC,2-2,Final
+35,28/04/2024,03:00,AFC Bournemouth,Brighton & Hove Albion,3-0,Final
+35,28/04/2024,03:00,Tottenham Hotspur,Arsenal FC,2-3,Final
+35,28/04/2024,03:00,Nottingham Forest,Manchester City,0-2,Final
+36,03/05/2024,03:00,Luton Town,Everton FC,1-1,Final
+36,04/05/2024,03:00,Arsenal FC,AFC Bournemouth,3-0,Final
+36,04/05/2024,03:00,Brentford FC,Fulham FC,0-0,Final
+36,04/05/2024,03:00,Burnley FC,Newcastle United,1-4,Final
+36,04/05/2024,03:00,Sheffield United,Nottingham Forest,1-3,Final
+36,04/05/2024,03:00,Manchester City,Wolverhampton Wanderers,5-1,Final
+36,05/05/2024,03:00,Brighton & Hove Albion,Aston Villa,1-0,Final
+36,05/05/2024,03:00,Chelsea FC,West Ham United,5-0,Final
+36,05/05/2024,03:00,Liverpool FC,Tottenham Hotspur,4-2,Final
+36,06/05/2024,03:00,Crystal Palace,Manchester United,4-0,Final
+37,11/05/2024,03:00,Fulham FC,Manchester City,0-4,Final
+37,11/05/2024,03:00,AFC Bournemouth,Brentford FC,1-2,Final
+37,11/05/2024,03:00,Everton FC,Sheffield United,1-0,Final
+37,11/05/2024,03:00,Newcastle United,Brighton & Hove Albion,1-1,Final
+37,11/05/2024,03:00,Tottenham Hotspur,Burnley FC,2-1,Final
+37,11/05/2024,03:00,West Ham United,Luton Town,3-1,Final
+37,11/05/2024,03:00,Wolverhampton Wanderers,Crystal Palace,1-3,Final
+37,11/05/2024,03:00,Nottingham Forest,Chelsea FC,2-3,Final
+37,12/05/2024,03:00,Manchester United,Arsenal FC,0-1,Final
+37,13/05/2024,03:00,Aston Villa,Liverpool FC,3-3,Final
+38,19/05/2024,03:00,Arsenal FC,Everton FC,2-1,Final
+38,19/05/2024,03:00,Brentford FC,Newcastle United,2-4,Final
+38,19/05/2024,03:00,Brighton & Hove Albion,Manchester United,0-2,Final
+38,19/05/2024,03:00,Burnley FC,Nottingham Forest,1-2,Final
+38,19/05/2024,03:00,Chelsea FC,AFC Bournemouth,2-1,Final
+38,19/05/2024,03:00,Crystal Palace,Aston Villa,5-0,Final
+38,19/05/2024,03:00,Liverpool FC,Wolverhampton Wanderers,2-0,Final
+38,19/05/2024,03:00,Luton Town,Fulham FC,2-4,Final
+38,19/05/2024,03:00,Manchester City,West Ham United,3-1,Final
+38,19/05/2024,03:00,Sheffield United,Tottenham Hotspur,0-3,Final

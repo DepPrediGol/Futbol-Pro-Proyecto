@@ -1,0 +1,401 @@
+matchday,date,time,home_team,away_team,result,status
+1,25/01/2023,03:00,Atlético Bucaramanga,Envigado FC,0-0,Final
+1,25/01/2023,03:00,Unión Magdalena,Atlético Huila,2-1,Final
+1,25/01/2023,03:00,Águilas Doradas,Atlético Junior,1-1,Final
+1,26/01/2023,03:00,Boyacá Chicó,Alianza FC,2-0,Final
+1,27/01/2023,03:00,Deportes Tolima,América de Cali,2-1,Final
+1,27/01/2023,03:00,Atlético Nacional,Once Caldas,1-0,Final
+1,27/01/2023,03:00,Jaguares de Córdoba,Santa Fe,2-2,Final
+1,16/02/2023,03:00,Internacional de Bogotá,Independiente Medellín,2-1,Final
+1,02/03/2023,03:00,Deportivo Cali,Deportivo Pereira,0-1,Final
+1,23/03/2023,03:00,Millonarios,Deportivo Pasto,2-0,Final
+2,28/01/2023,03:00,Envigado FC,Internacional de Bogotá,1-1,Final
+2,28/01/2023,03:00,Atlético Huila,Atlético Bucaramanga,1-2,Final
+2,29/01/2023,03:00,Atlético Nacional,Águilas Doradas,0-0,Final
+2,29/01/2023,03:00,Deportivo Pereira,Millonarios,2-3,Final
+2,30/01/2023,03:00,Atlético Junior,Independiente Medellín,1-1,Final
+2,31/01/2023,03:00,Once Caldas,Deportes Tolima,1-1,Final
+2,31/01/2023,03:00,Boyacá Chicó,Jaguares de Córdoba,1-0,Final
+2,01/02/2023,03:00,América de Cali,Unión Magdalena,4-0,Final
+2,10/03/2023,03:00,Alianza FC,Deportivo Pasto,3-1,Final
+2,22/03/2023,03:00,Santa Fe,Deportivo Cali,3-0,Final
+3,04/02/2023,03:00,Deportivo Pereira,Atlético Huila,2-1,Final
+3,04/02/2023,03:00,Independiente Medellín,Santa Fe,1-1,Final
+3,04/02/2023,03:00,Jaguares de Córdoba,Atlético Nacional,2-1,Final
+3,05/02/2023,03:00,Deportivo Pasto,América de Cali,2-4,Final
+3,05/02/2023,03:00,Deportivo Cali,Once Caldas,0-0,Final
+3,05/02/2023,03:00,Atlético Bucaramanga,Atlético Junior,1-0,Final
+3,06/02/2023,03:00,Unión Magdalena,Envigado FC,1-1,Final
+3,07/02/2023,03:00,Águilas Doradas,Deportes Tolima,4-2,Final
+3,24/03/2023,03:00,Internacional de Bogotá,Boyacá Chicó,2-2,Final
+3,11/05/2023,03:00,Millonarios,Alianza FC,3-1,Final
+4,10/02/2023,03:00,Atlético Junior,Unión Magdalena,0-0,Final
+4,11/02/2023,03:00,Alianza FC,Atlético Huila,2-0,Final
+4,11/02/2023,03:00,Jaguares de Córdoba,Atlético Bucaramanga,1-1,Final
+4,11/02/2023,03:00,Envigado FC,Independiente Medellín,2-1,Final
+4,12/02/2023,03:00,Once Caldas,Águilas Doradas,1-2,Final
+4,12/02/2023,03:00,América de Cali,Internacional de Bogotá,1-1,Final
+4,12/02/2023,03:00,Boyacá Chicó,Deportivo Pereira,3-1,Final
+4,13/02/2023,03:00,Atlético Nacional,Deportivo Cali,1-1,Final
+4,15/02/2023,03:00,Santa Fe,Deportivo Pasto,0-2,Final
+4,30/03/2023,03:00,Deportes Tolima,Millonarios,1-1,Final
+5,18/02/2023,03:00,Atlético Huila,Deportes Tolima,0-0,Final
+5,18/02/2023,03:00,Envigado FC,Alianza FC,0-0,Final
+5,18/02/2023,03:00,Independiente Medellín,América de Cali,0-1,Final
+5,19/02/2023,03:00,Millonarios,Jaguares de Córdoba,2-1,Final
+5,19/02/2023,03:00,Deportivo Pasto,Atlético Junior,1-0,Final
+5,19/02/2023,03:00,Deportivo Pereira,Once Caldas,3-1,Final
+5,19/02/2023,03:00,Internacional de Bogotá,Santa Fe,0-1,Final
+5,20/02/2023,03:00,Atlético Bucaramanga,Atlético Nacional,1-1,Final
+5,21/02/2023,03:00,Deportivo Cali,Águilas Doradas,1-1,Final
+5,11/05/2023,03:00,Unión Magdalena,Boyacá Chicó,0-0,Final
+6,25/02/2023,03:00,Águilas Doradas,Atlético Bucaramanga,1-0,Final
+6,25/02/2023,03:00,Atlético Junior,Internacional de Bogotá,1-0,Final
+6,26/02/2023,03:00,Jaguares de Córdoba,Deportivo Pereira,2-0,Final
+6,26/02/2023,03:00,América de Cali,Envigado FC,1-0,Final
+6,26/02/2023,03:00,Santa Fe,Unión Magdalena,0-0,Final
+6,26/02/2023,03:00,Once Caldas,Millonarios,1-0,Final
+6,27/02/2023,03:00,Deportes Tolima,Deportivo Cali,1-2,Final
+6,27/02/2023,03:00,Alianza FC,Independiente Medellín,0-1,Final
+6,27/02/2023,03:00,Atlético Nacional,Atlético Huila,3-1,Final
+6,28/02/2023,03:00,Boyacá Chicó,Deportivo Pasto,1-1,Final
+7,04/03/2023,03:00,Atlético Bucaramanga,Once Caldas,0-1,Final
+7,04/03/2023,03:00,Internacional de Bogotá,Alianza FC,1-1,Final
+7,04/03/2023,03:00,Envigado FC,Santa Fe,3-2,Final
+7,05/03/2023,03:00,Unión Magdalena,Jaguares de Córdoba,1-1,Final
+7,05/03/2023,03:00,Independiente Medellín,Águilas Doradas,3-0,Final
+7,05/03/2023,03:00,Millonarios,Deportivo Cali,2-0,Final
+7,05/03/2023,03:00,Deportivo Pasto,Atlético Nacional,0-1,Final
+7,06/03/2023,03:00,Deportivo Pereira,Deportes Tolima,1-1,Final
+7,07/03/2023,03:00,Atlético Huila,Boyacá Chicó,3-2,Final
+7,24/03/2023,03:00,América de Cali,Atlético Junior,2-0,Final
+8,11/03/2023,03:00,Jaguares de Córdoba,Atlético Huila,1-2,Final
+8,11/03/2023,03:00,Deportivo Cali,Atlético Bucaramanga,1-1,Final
+8,12/03/2023,03:00,Atlético Nacional,Millonarios,0-0,Final
+8,12/03/2023,03:00,Boyacá Chicó,Independiente Medellín,2-0,Final
+8,12/03/2023,03:00,Águilas Doradas,Deportivo Pereira,2-1,Final
+8,13/03/2023,03:00,Atlético Junior,Envigado FC,1-2,Final
+8,13/03/2023,03:00,Alianza FC,Unión Magdalena,2-1,Final
+8,14/03/2023,03:00,Once Caldas,Deportivo Pasto,0-1,Final
+8,15/03/2023,03:00,Deportes Tolima,Internacional de Bogotá,1-0,Final
+8,15/03/2023,03:00,Santa Fe,América de Cali,2-0,Final
+9,18/03/2023,03:00,Deportivo Pereira,Atlético Nacional,0-2,Final
+9,18/03/2023,03:00,Envigado FC,Boyacá Chicó,0-1,Final
+9,18/03/2023,03:00,Internacional de Bogotá,Unión Magdalena,0-0,Final
+9,19/03/2023,03:00,Deportivo Pasto,Deportivo Cali,2-1,Final
+9,19/03/2023,03:00,Atlético Junior,Santa Fe,1-1,Final
+9,19/03/2023,03:00,América de Cali,Alianza FC,1-0,Final
+9,19/03/2023,03:00,Millonarios,Águilas Doradas,2-2,Final
+9,20/03/2023,03:00,Independiente Medellín,Jaguares de Córdoba,1-0,Final
+9,21/03/2023,03:00,Atlético Bucaramanga,Deportes Tolima,1-1,Final
+9,21/03/2023,03:00,Atlético Huila,Once Caldas,2-1,Final
+10,25/03/2023,03:00,Águilas Doradas,Envigado FC,1-0,Final
+10,25/03/2023,03:00,Once Caldas,Deportivo Pereira,1-1,Final
+10,25/03/2023,03:00,Alianza FC,Atlético Bucaramanga,2-0,Final
+10,26/03/2023,03:00,Atlético Nacional,Independiente Medellín,1-1,Final
+10,26/03/2023,03:00,Deportes Tolima,Atlético Huila,2-1,Final
+10,26/03/2023,03:00,Unión Magdalena,Atlético Junior,2-2,Final
+10,27/03/2023,03:00,Deportivo Cali,América de Cali,1-1,Final
+10,27/03/2023,03:00,Santa Fe,Millonarios,1-2,Final
+10,28/03/2023,03:00,Jaguares de Córdoba,Deportivo Pasto,0-1,Final
+10,29/03/2023,03:00,Boyacá Chicó,Internacional de Bogotá,3-1,Final
+11,01/04/2023,03:00,Deportivo Pasto,Deportivo Pereira,0-0,Final
+11,01/04/2023,03:00,Santa Fe,Boyacá Chicó,1-0,Final
+11,01/04/2023,03:00,Envigado FC,Once Caldas,0-0,Final
+11,01/04/2023,03:00,Independiente Medellín,Deportes Tolima,1-1,Final
+11,02/04/2023,03:00,Internacional de Bogotá,Atlético Nacional,0-0,Final
+11,02/04/2023,03:00,Atlético Bucaramanga,Millonarios,0-2,Final
+11,02/04/2023,03:00,América de Cali,Jaguares de Córdoba,0-0,Final
+11,03/04/2023,03:00,Unión Magdalena,Águilas Doradas,3-1,Final
+11,03/04/2023,03:00,Atlético Huila,Deportivo Cali,1-0,Final
+11,04/04/2023,03:00,Atlético Junior,Alianza FC,1-0,Final
+12,08/04/2023,03:00,Águilas Doradas,Atlético Huila,2-1,Final
+12,08/04/2023,03:00,Once Caldas,Unión Magdalena,1-1,Final
+12,08/04/2023,03:00,Jaguares de Córdoba,Envigado FC,2-0,Final
+12,09/04/2023,03:00,Deportivo Cali,Internacional de Bogotá,0-0,Final
+12,09/04/2023,03:00,Millonarios,Independiente Medellín,2-1,Final
+12,09/04/2023,03:00,Deportivo Pereira,Atlético Bucaramanga,1-1,Final
+12,10/04/2023,03:00,Alianza FC,Santa Fe,3-1,Final
+12,11/04/2023,03:00,Atlético Nacional,Atlético Junior,0-1,Final
+12,11/04/2023,03:00,Deportes Tolima,Deportivo Pasto,3-1,Final
+12,20/04/2023,03:00,Boyacá Chicó,América de Cali,1-1,Final
+13,11/04/2023,03:00,Internacional de Bogotá,Once Caldas,4-1,Final
+13,12/04/2023,03:00,Atlético Huila,Millonarios,1-1,Final
+13,12/04/2023,03:00,América de Cali,Águilas Doradas,1-3,Final
+13,12/04/2023,03:00,Unión Magdalena,Deportivo Pereira,0-3,Final
+13,13/04/2023,03:00,Independiente Medellín,Deportivo Cali,3-0,Final
+13,13/04/2023,03:00,Envigado FC,Deportes Tolima,2-1,Final
+13,14/04/2023,03:00,Deportivo Pasto,Atlético Bucaramanga,1-0,Final
+13,14/04/2023,03:00,Atlético Junior,Boyacá Chicó,1-1,Final
+13,15/04/2023,03:00,Alianza FC,Jaguares de Córdoba,3-0,Final
+13,12/05/2023,03:00,Santa Fe,Atlético Nacional,0-2,Final
+14,16/04/2023,03:00,Deportivo Cali,Unión Magdalena,2-1,Final
+14,16/04/2023,03:00,Deportivo Pereira,Santa Fe,2-2,Final
+14,16/04/2023,03:00,Atlético Bucaramanga,Independiente Medellín,1-2,Final
+14,16/04/2023,03:00,Deportes Tolima,Atlético Junior,0-1,Final
+14,17/04/2023,03:00,Águilas Doradas,Boyacá Chicó,2-0,Final
+14,18/04/2023,03:00,Atlético Huila,Deportivo Pasto,1-1,Final
+14,19/04/2023,03:00,Once Caldas,Alianza FC,1-2,Final
+14,19/04/2023,03:00,Jaguares de Córdoba,Internacional de Bogotá,1-1,Final
+14,05/05/2023,03:00,Millonarios,Envigado FC,1-1,Final
+14,05/05/2023,03:00,Atlético Nacional,América de Cali,2-1,Final
+15,22/04/2023,03:00,Deportivo Pasto,Águilas Doradas,0-0,Final
+15,22/04/2023,03:00,Internacional de Bogotá,Atlético Huila,2-1,Final
+15,22/04/2023,03:00,Alianza FC,Deportivo Cali,0-3,Final
+15,23/04/2023,03:00,Atlético Junior,Jaguares de Córdoba,1-0,Final
+15,23/04/2023,03:00,Santa Fe,Atlético Bucaramanga,3-0,Final
+15,23/04/2023,03:00,Envigado FC,Atlético Nacional,0-0,Final
+15,24/04/2023,03:00,Unión Magdalena,Millonarios,1-1,Final
+15,24/04/2023,03:00,Boyacá Chicó,Deportes Tolima,2-0,Final
+15,25/04/2023,03:00,América de Cali,Deportivo Pereira,2-1,Final
+15,12/05/2023,03:00,Independiente Medellín,Once Caldas,2-2,Final
+16,25/04/2023,03:00,Atlético Bucaramanga,Alianza FC,1-1,Final
+16,26/04/2023,03:00,Deportivo Pasto,Internacional de Bogotá,1-1,Final
+16,26/04/2023,03:00,Atlético Huila,Independiente Medellín,2-3,Final
+16,26/04/2023,03:00,Once Caldas,Boyacá Chicó,1-1,Final
+16,26/04/2023,03:00,Deportes Tolima,Jaguares de Córdoba,1-1,Final
+16,27/04/2023,03:00,Águilas Doradas,Santa Fe,3-1,Final
+16,27/04/2023,03:00,Atlético Nacional,Unión Magdalena,2-0,Final
+16,27/04/2023,03:00,Deportivo Pereira,Envigado FC,0-0,Final
+16,28/04/2023,03:00,Deportivo Cali,Atlético Junior,3-2,Final
+16,28/04/2023,03:00,Millonarios,América de Cali,4-3,Final
+17,29/04/2023,03:00,Santa Fe,Deportes Tolima,2-0,Final
+17,29/04/2023,03:00,Unión Magdalena,Deportivo Pasto,2-1,Final
+17,30/04/2023,03:00,Alianza FC,Águilas Doradas,2-1,Final
+17,30/04/2023,03:00,Independiente Medellín,Atlético Nacional,1-3,Final
+17,30/04/2023,03:00,Internacional de Bogotá,Deportivo Pereira,2-0,Final
+17,30/04/2023,03:00,Atlético Junior,Millonarios,1-0,Final
+17,01/05/2023,03:00,América de Cali,Deportivo Cali,5-2,Final
+17,01/05/2023,03:00,Boyacá Chicó,Atlético Bucaramanga,0-0,Final
+17,01/05/2023,03:00,Envigado FC,Atlético Huila,0-1,Final
+17,02/05/2023,03:00,Jaguares de Córdoba,Once Caldas,1-0,Final
+18,06/05/2023,03:00,Águilas Doradas,Internacional de Bogotá,1-1,Final
+18,06/05/2023,03:00,Atlético Bucaramanga,Unión Magdalena,3-0,Final
+18,07/05/2023,03:00,Deportes Tolima,Alianza FC,2-1,Final
+18,07/05/2023,03:00,Once Caldas,Atlético Junior,2-0,Final
+18,07/05/2023,03:00,Deportivo Pereira,Independiente Medellín,3-1,Final
+18,07/05/2023,03:00,Atlético Nacional,Boyacá Chicó,3-1,Final
+18,08/05/2023,03:00,Millonarios,Santa Fe,1-0,Final
+18,08/05/2023,03:00,Deportivo Pasto,Jaguares de Córdoba,4-0,Final
+18,09/05/2023,03:00,Deportivo Cali,Envigado FC,2-0,Final
+18,09/05/2023,03:00,Atlético Huila,América de Cali,0-2,Final
+19,12/05/2023,03:00,Envigado FC,Águilas Doradas,1-2,Final
+19,13/05/2023,03:00,Jaguares de Córdoba,Deportivo Cali,1-1,Final
+19,13/05/2023,03:00,Internacional de Bogotá,Atlético Bucaramanga,1-0,Final
+19,13/05/2023,03:00,Unión Magdalena,Deportes Tolima,1-1,Final
+19,14/05/2023,03:00,Boyacá Chicó,Millonarios,1-1,Final
+19,14/05/2023,03:00,Atlético Junior,Deportivo Pereira,0-0,Final
+19,14/05/2023,03:00,Independiente Medellín,Deportivo Pasto,1-0,Final
+19,14/05/2023,03:00,América de Cali,Once Caldas,0-0,Final
+19,15/05/2023,03:00,Alianza FC,Atlético Nacional,2-1,Final
+19,15/05/2023,03:00,Santa Fe,Atlético Huila,5-0,Final
+20,18/05/2023,03:00,Águilas Doradas,Jaguares de Córdoba,3-0,Final
+20,18/05/2023,03:00,Atlético Bucaramanga,América de Cali,2-1,Final
+20,18/05/2023,03:00,Deportivo Cali,Boyacá Chicó,0-0,Final
+20,18/05/2023,03:00,Atlético Huila,Atlético Junior,0-2,Final
+20,18/05/2023,03:00,Independiente Medellín,Unión Magdalena,4-0,Final
+20,18/05/2023,03:00,Millonarios,Internacional de Bogotá,0-0,Final
+20,18/05/2023,03:00,Once Caldas,Santa Fe,3-1,Final
+20,18/05/2023,03:00,Deportivo Pasto,Envigado FC,2-1,Final
+20,18/05/2023,03:00,Deportivo Pereira,Alianza FC,2-1,Final
+20,18/05/2023,03:00,Deportes Tolima,Atlético Nacional,2-2,Final
+21,14/07/2023,03:00,Envigado FC,Atlético Bucaramanga,1-3,Final
+21,15/07/2023,03:00,Atlético Huila,Unión Magdalena,2-1,Final
+21,15/07/2023,03:00,Independiente Medellín,Internacional de Bogotá,2-2,Final
+21,16/07/2023,03:00,Atlético Junior,Águilas Doradas,0-1,Final
+21,16/07/2023,03:00,Deportivo Pasto,Millonarios,0-0,Final
+21,17/07/2023,03:00,América de Cali,Deportes Tolima,1-0,Final
+21,17/07/2023,03:00,Once Caldas,Atlético Nacional,1-1,Final
+21,18/07/2023,03:00,Deportivo Pereira,Deportivo Cali,0-2,Final
+21,20/07/2023,03:00,Santa Fe,Jaguares de Córdoba,1-0,Final
+21,06/09/2023,03:00,Alianza FC,Boyacá Chicó,1-1,Final
+22,21/07/2023,03:00,Deportes Tolima,Once Caldas,3-1,Final
+22,22/07/2023,03:00,Internacional de Bogotá,Envigado FC,1-1,Final
+22,22/07/2023,03:00,Deportivo Pasto,Alianza FC,1-1,Final
+22,23/07/2023,03:00,Millonarios,Deportivo Pereira,0-0,Final
+22,23/07/2023,03:00,Atlético Bucaramanga,Atlético Huila,1-0,Final
+22,24/07/2023,03:00,Independiente Medellín,Atlético Junior,1-0,Final
+22,25/07/2023,03:00,Jaguares de Córdoba,Boyacá Chicó,2-1,Final
+22,31/08/2023,03:00,Unión Magdalena,América de Cali,0-0,Final
+22,31/08/2023,03:00,Águilas Doradas,Atlético Nacional,2-0,Final
+22,07/09/2023,03:00,Deportivo Cali,Santa Fe,2-2,Final
+23,29/07/2023,03:00,Deportes Tolima,Águilas Doradas,1-1,Final
+23,30/07/2023,03:00,Alianza FC,Millonarios,1-0,Final
+23,30/07/2023,03:00,Atlético Nacional,Jaguares de Córdoba,2-1,Final
+23,30/07/2023,03:00,Once Caldas,Deportivo Cali,4-0,Final
+23,31/07/2023,03:00,América de Cali,Deportivo Pasto,1-1,Final
+23,31/07/2023,03:00,Atlético Huila,Deportivo Pereira,2-0,Final
+23,31/07/2023,03:00,Envigado FC,Unión Magdalena,0-0,Final
+23,01/08/2023,03:00,Boyacá Chicó,Internacional de Bogotá,0-2,Final
+23,01/08/2023,03:00,Atlético Junior,Atlético Bucaramanga,1-1,Final
+23,03/08/2023,03:00,Santa Fe,Independiente Medellín,1-0,Final
+24,05/08/2023,03:00,Atlético Huila,Alianza FC,0-0,Final
+24,05/08/2023,03:00,Águilas Doradas,Once Caldas,2-1,Final
+24,05/08/2023,03:00,Unión Magdalena,Atlético Junior,0-0,Final
+24,06/08/2023,03:00,Deportivo Pereira,Boyacá Chicó,1-1,Final
+24,06/08/2023,03:00,Independiente Medellín,Envigado FC,1-0,Final
+24,06/08/2023,03:00,Internacional de Bogotá,América de Cali,1-1,Final
+24,07/08/2023,03:00,Deportivo Cali,Atlético Nacional,1-1,Final
+24,07/08/2023,03:00,Deportivo Pasto,Santa Fe,2-0,Final
+24,08/08/2023,03:00,Atlético Bucaramanga,Jaguares de Córdoba,3-0,Final
+24,08/08/2023,03:00,Millonarios,Deportes Tolima,1-0,Final
+25,11/08/2023,03:00,Alianza FC,Envigado FC,3-1,Final
+25,12/08/2023,03:00,Águilas Doradas,Deportivo Cali,1-0,Final
+25,12/08/2023,03:00,Deportes Tolima,Atlético Huila,1-0,Final
+25,12/08/2023,03:00,Santa Fe,Internacional de Bogotá,1-1,Final
+25,13/08/2023,03:00,Atlético Junior,Deportivo Pasto,0-0,Final
+25,13/08/2023,03:00,Once Caldas,Deportivo Pereira,1-0,Final
+25,13/08/2023,03:00,América de Cali,Independiente Medellín,1-3,Final
+25,14/08/2023,03:00,Jaguares de Córdoba,Millonarios,2-0,Final
+25,14/08/2023,03:00,Atlético Nacional,Atlético Bucaramanga,2-1,Final
+25,15/08/2023,03:00,Boyacá Chicó,Unión Magdalena,0-0,Final
+26,19/08/2023,03:00,Deportivo Pereira,Jaguares de Córdoba,3-0,Final
+26,20/08/2023,03:00,Unión Magdalena,Santa Fe,2-2,Final
+26,20/08/2023,03:00,Internacional de Bogotá,Atlético Junior,0-0,Final
+26,20/08/2023,03:00,Deportivo Pasto,Boyacá Chicó,1-1,Final
+26,21/08/2023,03:00,Independiente Medellín,Alianza FC,2-1,Final
+26,21/08/2023,03:00,Atlético Huila,Atlético Nacional,0-1,Final
+26,21/08/2023,03:00,Atlético Bucaramanga,Águilas Doradas,1-1,Final
+26,22/08/2023,03:00,Millonarios,Once Caldas,2-1,Final
+26,06/09/2023,03:00,Envigado FC,América de Cali,0-0,Final
+26,12/10/2023,03:00,Deportivo Cali,Deportes Tolima,2-0,Final
+27,23/08/2023,03:00,Jaguares de Córdoba,Unión Magdalena,0-1,Final
+27,23/08/2023,03:00,Alianza FC,Internacional de Bogotá,1-0,Final
+27,24/08/2023,03:00,Santa Fe,Envigado FC,2-0,Final
+27,24/08/2023,03:00,Atlético Junior,América de Cali,4-3,Final
+27,24/08/2023,03:00,Boyacá Chicó,Atlético Huila,1-1,Final
+27,25/08/2023,03:00,Atlético Nacional,Deportivo Pasto,2-0,Final
+27,25/08/2023,03:00,Deportivo Cali,Millonarios,0-0,Final
+27,26/08/2023,03:00,Once Caldas,Atlético Bucaramanga,1-0,Final
+27,26/08/2023,03:00,Águilas Doradas,Independiente Medellín,1-1,Final
+27,07/09/2023,03:00,Deportes Tolima,Deportivo Pereira,2-3,Final
+28,26/08/2023,03:00,Envigado FC,Atlético Junior,1-2,Final
+28,27/08/2023,03:00,Unión Magdalena,Alianza FC,2-0,Final
+28,27/08/2023,03:00,Internacional de Bogotá,Deportes Tolima,0-0,Final
+28,27/08/2023,03:00,Millonarios,Atlético Nacional,1-0,Final
+28,28/08/2023,03:00,América de Cali,Santa Fe,2-0,Final
+28,28/08/2023,03:00,Atlético Huila,Jaguares de Córdoba,0-0,Final
+28,29/08/2023,03:00,Independiente Medellín,Boyacá Chicó,1-1,Final
+28,29/08/2023,03:00,Atlético Bucaramanga,Deportivo Cali,1-0,Final
+28,30/08/2023,03:00,Deportivo Pasto,Once Caldas,1-0,Final
+28,12/10/2023,03:00,Deportivo Pereira,Águilas Doradas,0-0,Final
+29,02/09/2023,03:00,Boyacá Chicó,Envigado FC,1-0,Final
+29,02/09/2023,03:00,Deportes Tolima,Atlético Bucaramanga,0-0,Final
+29,02/09/2023,03:00,Jaguares de Córdoba,Independiente Medellín,1-1,Final
+29,03/09/2023,03:00,Santa Fe,Atlético Junior,1-0,Final
+29,03/09/2023,03:00,Alianza FC,América de Cali,2-3,Final
+29,03/09/2023,03:00,Atlético Nacional,Deportivo Pereira,2-0,Final
+29,04/09/2023,03:00,Águilas Doradas,Millonarios,2-0,Final
+29,04/09/2023,03:00,Deportivo Cali,Deportivo Pasto,4-0,Final
+29,05/09/2023,03:00,Unión Magdalena,Internacional de Bogotá,1-0,Final
+29,05/09/2023,03:00,Once Caldas,Atlético Huila,1-2,Final
+30,09/09/2023,03:00,Deportivo Pasto,Jaguares de Córdoba,1-0,Final
+30,09/09/2023,03:00,Internacional de Bogotá,Boyacá Chicó,0-0,Final
+30,10/09/2023,03:00,Atlético Junior,Unión Magdalena,7-1,Final
+30,10/09/2023,03:00,Independiente Medellín,Atlético Nacional,1-0,Final
+30,10/09/2023,03:00,Deportivo Pereira,Once Caldas,1-2,Final
+30,11/09/2023,03:00,América de Cali,Deportivo Cali,3-0,Final
+30,11/09/2023,03:00,Millonarios,Santa Fe,2-4,Final
+30,11/09/2023,03:00,Envigado FC,Águilas Doradas,2-2,Final
+30,12/09/2023,03:00,Atlético Huila,Deportes Tolima,3-0,Final
+30,12/09/2023,03:00,Atlético Bucaramanga,Alianza FC,0-1,Final
+31,13/09/2023,03:00,Deportivo Pereira,Deportivo Pasto,2-1,Final
+31,14/09/2023,03:00,Boyacá Chicó,Santa Fe,1-1,Final
+31,14/09/2023,03:00,Jaguares de Córdoba,América de Cali,0-1,Final
+31,14/09/2023,03:00,Atlético Nacional,Internacional de Bogotá,5-0,Final
+31,14/09/2023,03:00,Deportes Tolima,Independiente Medellín,1-1,Final
+31,15/09/2023,03:00,Águilas Doradas,Unión Magdalena,2-1,Final
+31,15/09/2023,03:00,Deportivo Cali,Atlético Huila,1-0,Final
+31,15/09/2023,03:00,Alianza FC,Atlético Junior,1-5,Final
+31,16/09/2023,03:00,Once Caldas,Envigado FC,0-0,Final
+31,16/09/2023,03:00,Millonarios,Atlético Bucaramanga,3-0,Final
+32,17/09/2023,03:00,América de Cali,Boyacá Chicó,5-0,Final
+32,17/09/2023,03:00,Santa Fe,Alianza FC,0-1,Final
+32,18/09/2023,03:00,Atlético Junior,Atlético Nacional,1-1,Final
+32,18/09/2023,03:00,Atlético Huila,Águilas Doradas,1-1,Final
+32,18/09/2023,03:00,Deportivo Pasto,Deportes Tolima,1-2,Final
+32,18/09/2023,03:00,Envigado FC,Jaguares de Córdoba,1-0,Final
+32,18/09/2023,03:00,Unión Magdalena,Once Caldas,1-1,Final
+32,19/09/2023,03:00,Atlético Bucaramanga,Deportivo Pereira,1-1,Final
+32,19/09/2023,03:00,Independiente Medellín,Millonarios,1-1,Final
+32,20/09/2023,03:00,Internacional de Bogotá,Deportivo Cali,1-1,Final
+33,20/09/2023,03:00,Boyacá Chicó,Atlético Junior,2-1,Final
+33,21/09/2023,03:00,Águilas Doradas,América de Cali,2-2,Final
+33,21/09/2023,03:00,Atlético Nacional,Santa Fe,3-0,Final
+33,21/09/2023,03:00,Deportivo Pereira,Unión Magdalena,1-2,Final
+33,22/09/2023,03:00,Deportes Tolima,Envigado FC,2-0,Final
+33,22/09/2023,03:00,Atlético Bucaramanga,Deportivo Pasto,0-2,Final
+33,22/09/2023,03:00,Millonarios,Atlético Huila,2-1,Final
+33,22/09/2023,03:00,Jaguares de Córdoba,Alianza FC,0-0,Final
+33,23/09/2023,03:00,Once Caldas,Internacional de Bogotá,1-1,Final
+33,23/09/2023,03:00,Deportivo Cali,Independiente Medellín,2-2,Final
+34,23/09/2023,03:00,Boyacá Chicó,Águilas Doradas,0-1,Final
+34,24/09/2023,03:00,América de Cali,Atlético Nacional,4-1,Final
+34,25/09/2023,03:00,Santa Fe,Deportivo Pereira,1-0,Final
+34,25/09/2023,03:00,Atlético Junior,Deportes Tolima,0-1,Final
+34,25/09/2023,03:00,Envigado FC,Millonarios,1-2,Final
+34,25/09/2023,03:00,Internacional de Bogotá,Jaguares de Córdoba,2-0,Final
+34,26/09/2023,03:00,Alianza FC,Once Caldas,2-1,Final
+34,26/09/2023,03:00,Independiente Medellín,Atlético Bucaramanga,2-0,Final
+34,27/09/2023,03:00,Unión Magdalena,Deportivo Cali,3-4,Final
+34,27/09/2023,03:00,Deportivo Pasto,Atlético Huila,1-0,Final
+35,30/09/2023,03:00,Jaguares de Córdoba,Atlético Junior,0-0,Final
+35,30/09/2023,03:00,Deportes Tolima,Boyacá Chicó,2-0,Final
+35,30/09/2023,03:00,Atlético Bucaramanga,Santa Fe,1-1,Final
+35,01/10/2023,03:00,Atlético Nacional,Envigado FC,3-0,Final
+35,01/10/2023,03:00,Águilas Doradas,Deportivo Pasto,3-0,Final
+35,01/10/2023,03:00,Deportivo Pereira,América de Cali,2-4,Final
+35,01/10/2023,03:00,Once Caldas,Independiente Medellín,2-2,Final
+35,02/10/2023,03:00,Deportivo Cali,Alianza FC,1-0,Final
+35,03/10/2023,03:00,Atlético Huila,Internacional de Bogotá,1-1,Final
+35,19/10/2023,03:00,Millonarios,Unión Magdalena,1-1,Final
+36,07/10/2023,03:00,Jaguares de Córdoba,Deportes Tolima,0-1,Final
+36,07/10/2023,03:00,Atlético Junior,Deportivo Cali,3-2,Final
+36,07/10/2023,03:00,Envigado FC,Deportivo Pereira,2-3,Final
+36,08/10/2023,03:00,Unión Magdalena,Atlético Nacional,2-1,Final
+36,08/10/2023,03:00,Santa Fe,Águilas Doradas,0-5,Final
+36,08/10/2023,03:00,Internacional de Bogotá,Deportivo Pasto,1-0,Final
+36,09/10/2023,03:00,Independiente Medellín,Atlético Huila,2-0,Final
+36,09/10/2023,03:00,Boyacá Chicó,Once Caldas,2-1,Final
+36,11/10/2023,03:00,Alianza FC,Atlético Bucaramanga,1-0,Final
+36,31/10/2023,03:00,América de Cali,Millonarios,1-0,Final
+37,14/10/2023,03:00,Deportivo Pasto,Unión Magdalena,3-1,Final
+37,14/10/2023,03:00,Once Caldas,Jaguares de Córdoba,0-0,Final
+37,14/10/2023,03:00,Deportivo Pereira,Internacional de Bogotá,1-0,Final
+37,15/10/2023,03:00,Atlético Nacional,Independiente Medellín,1-2,Final
+37,15/10/2023,03:00,Millonarios,Atlético Junior,1-0,Final
+37,15/10/2023,03:00,Águilas Doradas,Alianza FC,3-0,Final
+37,16/10/2023,03:00,Deportivo Cali,América de Cali,0-0,Final
+37,16/10/2023,03:00,Deportes Tolima,Santa Fe,1-0,Final
+37,17/10/2023,03:00,Atlético Huila,Envigado FC,3-3,Final
+37,17/10/2023,03:00,Atlético Bucaramanga,Boyacá Chicó,1-0,Final
+38,20/10/2023,03:00,Envigado FC,Deportivo Cali,3-0,Final
+38,21/10/2023,03:00,Jaguares de Córdoba,Deportivo Pasto,1-0,Final
+38,21/10/2023,03:00,Internacional de Bogotá,Águilas Doradas,1-1,Final
+38,21/10/2023,03:00,Santa Fe,Millonarios,2-3,Final
+38,22/10/2023,03:00,Unión Magdalena,Atlético Bucaramanga,1-2,Final
+38,22/10/2023,03:00,Atlético Junior,Once Caldas,1-0,Final
+38,22/10/2023,03:00,Boyacá Chicó,Atlético Nacional,1-3,Final
+38,23/10/2023,03:00,Independiente Medellín,Deportivo Pereira,1-0,Final
+38,23/10/2023,03:00,Alianza FC,Deportes Tolima,0-1,Final
+38,24/10/2023,03:00,América de Cali,Atlético Huila,1-0,Final
+39,25/10/2023,03:00,Águilas Doradas,Envigado FC,3-1,Final
+39,25/10/2023,03:00,Deportivo Cali,Jaguares de Córdoba,2-0,Final
+39,25/10/2023,03:00,Atlético Bucaramanga,Internacional de Bogotá,2-3,Final
+39,26/10/2023,03:00,Deportivo Pereira,Atlético Junior,0-2,Final
+39,26/10/2023,03:00,Millonarios,Boyacá Chicó,1-1,Final
+39,26/10/2023,03:00,Deportivo Pasto,Independiente Medellín,0-0,Final
+39,27/10/2023,03:00,Once Caldas,América de Cali,1-1,Final
+39,27/10/2023,03:00,Atlético Nacional,Alianza FC,2-0,Final
+39,28/10/2023,03:00,Atlético Huila,Santa Fe,2-2,Final
+39,28/10/2023,03:00,Deportes Tolima,Unión Magdalena,2-1,Final
+40,08/11/2023,03:00,Boyacá Chicó,Deportivo Cali,1-1,Final
+40,08/11/2023,03:00,Envigado FC,Deportivo Pasto,1-1,Final
+40,08/11/2023,03:00,Atlético Junior,Atlético Huila,2-0,Final
+40,08/11/2023,03:00,Alianza FC,Deportivo Pereira,2-1,Final
+40,08/11/2023,03:00,Santa Fe,Once Caldas,0-1,Final
+40,09/11/2023,03:00,América de Cali,Atlético Bucaramanga,1-2,Final
+40,09/11/2023,03:00,Atlético Nacional,Deportes Tolima,2-3,Final
+40,09/11/2023,03:00,Jaguares de Córdoba,Águilas Doradas,0-1,Final
+40,09/11/2023,03:00,Internacional de Bogotá,Millonarios,2-1,Final
+40,09/11/2023,03:00,Unión Magdalena,Independiente Medellín,0-4,Final

@@ -1,0 +1,243 @@
+matchday,date,time,home_team,away_team,result,status
+1,25/02/2023,03:00,Deportivo Cuenca,LDU Quito,2-0,Final
+1,25/02/2023,03:00,Independiente del Valle,Mushuc Runa,3-1,Final
+1,25/02/2023,03:00,Guayaquil City,Cumbayá,1-1,Final
+1,26/02/2023,03:00,Gualaceo SC,Barcelona,2-1,Final
+1,26/02/2023,03:00,Técnico Universitario,Universidad Católica,4-1,Final
+1,26/02/2023,03:00,Aucas,El Nacional,0-2,Final
+1,27/02/2023,03:00,Emelec,Libertad de Loja,2-0,Final
+1,28/02/2023,03:00,Delfín SC,Orense SC,1-1,Final
+2,04/03/2023,03:00,Libertad de Loja,Deportivo Cuenca,3-1,Final
+2,04/03/2023,03:00,El Nacional,Técnico Universitario,3-2,Final
+2,04/03/2023,03:00,LDU Quito,Aucas,1-1,Final
+2,05/03/2023,03:00,Barcelona,Delfín SC,5-0,Final
+2,05/03/2023,03:00,Mushuc Runa,Gualaceo SC,2-1,Final
+2,05/03/2023,03:00,Universidad Católica,Guayaquil City,3-0,Final
+2,06/03/2023,03:00,Orense SC,Emelec,2-1,Final
+2,07/03/2023,03:00,Cumbayá,Independiente del Valle,1-0,Final
+3,18/03/2023,03:00,Gualaceo SC,Orense SC,2-1,Final
+3,18/03/2023,03:00,Delfín SC,Libertad de Loja,3-2,Final
+3,18/03/2023,03:00,Guayaquil City,Mushuc Runa,4-1,Final
+3,19/03/2023,03:00,Independiente del Valle,Barcelona,1-0,Final
+3,19/03/2023,03:00,Aucas,Universidad Católica,4-1,Final
+3,19/03/2023,03:00,El Nacional,LDU Quito,0-2,Final
+3,20/03/2023,03:00,Emelec,Técnico Universitario,1-0,Final
+3,21/03/2023,03:00,Deportivo Cuenca,Cumbayá,1-0,Final
+4,01/04/2023,03:00,Universidad Católica,Independiente del Valle,2-3,Final
+4,01/04/2023,03:00,LDU Quito,Gualaceo SC,6-1,Final
+4,01/04/2023,03:00,Libertad de Loja,Aucas,2-2,Final
+4,01/04/2023,03:00,Barcelona,Mushuc Runa,1-0,Final
+4,02/04/2023,03:00,Delfín SC,Emelec,3-2,Final
+4,02/04/2023,03:00,Técnico Universitario,Deportivo Cuenca,3-0,Final
+4,02/04/2023,03:00,Cumbayá,El Nacional,2-0,Final
+4,03/04/2023,03:00,Orense SC,Guayaquil City,3-2,Final
+5,08/04/2023,03:00,Orense SC,Deportivo Cuenca,2-0,Final
+5,08/04/2023,03:00,Gualaceo SC,Técnico Universitario,1-1,Final
+5,08/04/2023,03:00,El Nacional,Universidad Católica,1-2,Final
+5,09/04/2023,03:00,Independiente del Valle,Delfín SC,3-0,Final
+5,09/04/2023,03:00,Mushuc Runa,Libertad de Loja,2-1,Final
+5,09/04/2023,03:00,Guayaquil City,LDU Quito,1-2,Final
+5,10/04/2023,03:00,Aucas,Emelec,2-1,Final
+5,11/04/2023,03:00,Barcelona,Cumbayá,4-1,Final
+6,15/04/2023,03:00,Libertad de Loja,Independiente del Valle,0-0,Final
+6,15/04/2023,03:00,Técnico Universitario,Aucas,0-1,Final
+6,15/04/2023,03:00,Deportivo Cuenca,Guayaquil City,4-1,Final
+6,16/04/2023,03:00,LDU Quito,Barcelona,0-1,Final
+6,16/04/2023,03:00,Cumbayá,Gualaceo SC,1-0,Final
+6,16/04/2023,03:00,Delfín SC,Mushuc Runa,3-0,Final
+6,17/04/2023,03:00,Emelec,El Nacional,1-2,Final
+6,18/04/2023,03:00,Universidad Católica,Orense SC,1-1,Final
+7,22/04/2023,03:00,Guayaquil City,Delfín SC,2-1,Final
+7,22/04/2023,03:00,Gualaceo SC,Universidad Católica,1-0,Final
+7,22/04/2023,03:00,Independiente del Valle,Técnico Universitario,1-0,Final
+7,23/04/2023,03:00,Orense SC,LDU Quito,2-1,Final
+7,23/04/2023,03:00,El Nacional,Libertad de Loja,4-2,Final
+7,23/04/2023,03:00,Barcelona,Deportivo Cuenca,2-1,Final
+7,24/04/2023,03:00,Mushuc Runa,Emelec,0-0,Final
+7,25/04/2023,03:00,Aucas,Cumbayá,2-1,Final
+8,29/04/2023,03:00,Aucas,Guayaquil City,1-0,Final
+8,29/04/2023,03:00,Emelec,Independiente del Valle,2-3,Final
+8,29/04/2023,03:00,Deportivo Cuenca,Gualaceo SC,1-2,Final
+8,29/04/2023,03:00,Universidad Católica,LDU Quito,0-4,Final
+8,30/04/2023,03:00,Técnico Universitario,Barcelona,2-2,Final
+8,30/04/2023,03:00,Cumbayá,Mushuc Runa,1-1,Final
+8,30/04/2023,03:00,Libertad de Loja,Orense SC,0-0,Final
+8,01/05/2023,03:00,Delfín SC,El Nacional,2-0,Final
+9,06/05/2023,03:00,Orense SC,Técnico Universitario,2-1,Final
+9,06/05/2023,03:00,Universidad Católica,Deportivo Cuenca,1-0,Final
+9,06/05/2023,03:00,Guayaquil City,Libertad de Loja,1-1,Final
+9,07/05/2023,03:00,Gualaceo SC,Independiente del Valle,1-2,Final
+9,07/05/2023,03:00,Mushuc Runa,El Nacional,0-1,Final
+9,07/05/2023,03:00,Cumbayá,Emelec,0-0,Final
+9,08/05/2023,03:00,Barcelona,Aucas,5-1,Final
+9,09/05/2023,03:00,LDU Quito,Delfín SC,1-1,Final
+10,13/05/2023,03:00,Deportivo Cuenca,Mushuc Runa,3-0,Final
+10,13/05/2023,03:00,El Nacional,Orense SC,3-1,Final
+10,13/05/2023,03:00,Aucas,Gualaceo SC,1-0,Final
+10,14/05/2023,03:00,Libertad de Loja,Barcelona,2-2,Final
+10,14/05/2023,03:00,Delfín SC,Universidad Católica,0-0,Final
+10,14/05/2023,03:00,Independiente del Valle,Guayaquil City,4-0,Final
+10,15/05/2023,03:00,Emelec,LDU Quito,1-1,Final
+10,16/05/2023,03:00,Técnico Universitario,Cumbayá,0-0,Final
+11,20/05/2023,03:00,LDU Quito,Técnico Universitario,2-1,Final
+11,20/05/2023,03:00,Barcelona,Orense SC,2-0,Final
+11,20/05/2023,03:00,Mushuc Runa,Aucas,0-0,Final
+11,20/05/2023,03:00,Deportivo Cuenca,Independiente del Valle,1-2,Final
+11,21/05/2023,03:00,Universidad Católica,Emelec,3-2,Final
+11,21/05/2023,03:00,Gualaceo SC,Libertad de Loja,1-1,Final
+11,21/05/2023,03:00,Cumbayá,Delfín SC,0-1,Final
+11,22/05/2023,03:00,Guayaquil City,El Nacional,3-1,Final
+12,27/05/2023,03:00,Libertad de Loja,Universidad Católica,2-2,Final
+12,27/05/2023,03:00,Técnico Universitario,Mushuc Runa,1-0,Final
+12,27/05/2023,03:00,Orense SC,Cumbayá,1-0,Final
+12,28/05/2023,03:00,Delfín SC,Gualaceo SC,1-0,Final
+12,28/05/2023,03:00,Aucas,Deportivo Cuenca,0-2,Final
+12,28/05/2023,03:00,Independiente del Valle,LDU Quito,2-3,Final
+12,29/05/2023,03:00,El Nacional,Barcelona,4-1,Final
+12,30/05/2023,03:00,Emelec,Guayaquil City,0-0,Final
+13,03/06/2023,03:00,Independiente del Valle,Aucas,2-0,Final
+13,03/06/2023,03:00,LDU Quito,Libertad de Loja,4-2,Final
+13,03/06/2023,03:00,Mushuc Runa,Orense SC,3-1,Final
+13,04/06/2023,03:00,Barcelona,Emelec,1-3,Final
+13,04/06/2023,03:00,Cumbayá,Universidad Católica,0-1,Final
+13,04/06/2023,03:00,Técnico Universitario,Guayaquil City,3-0,Final
+13,05/06/2023,03:00,Gualaceo SC,El Nacional,3-4,Final
+13,06/06/2023,03:00,Deportivo Cuenca,Delfín SC,4-0,Final
+14,10/06/2023,03:00,Universidad Católica,Mushuc Runa,3-2,Final
+14,10/06/2023,03:00,Libertad de Loja,Técnico Universitario,1-0,Final
+14,10/06/2023,03:00,LDU Quito,Cumbayá,0-0,Final
+14,11/06/2023,03:00,El Nacional,Deportivo Cuenca,3-1,Final
+14,11/06/2023,03:00,Delfín SC,Aucas,2-0,Final
+14,11/06/2023,03:00,Guayaquil City,Barcelona,1-2,Final
+14,12/06/2023,03:00,Orense SC,Independiente del Valle,0-2,Final
+14,13/06/2023,03:00,Emelec,Gualaceo SC,0-0,Final
+15,17/06/2023,03:00,Independiente del Valle,El Nacional,3-4,Final
+15,17/06/2023,03:00,Cumbayá,Libertad de Loja,2-1,Final
+15,17/06/2023,03:00,Gualaceo SC,Guayaquil City,2-1,Final
+15,18/06/2023,03:00,Mushuc Runa,LDU Quito,2-2,Final
+15,18/06/2023,03:00,Deportivo Cuenca,Emelec,3-2,Final
+15,19/06/2023,03:00,Barcelona,Universidad Católica,1-2,Final
+15,20/06/2023,03:00,Técnico Universitario,Delfín SC,3-0,Final
+15,24/06/2023,03:00,Aucas,Orense SC,2-0,Final
+16,05/08/2023,03:00,Libertad de Loja,Emelec,0-0,Final
+16,05/08/2023,03:00,Universidad Católica,Técnico Universitario,0-0,Final
+16,05/08/2023,03:00,Orense SC,Delfín SC,0-0,Final
+16,06/08/2023,03:00,El Nacional,Aucas,2-2,Final
+16,06/08/2023,03:00,Mushuc Runa,Independiente del Valle,1-0,Final
+16,06/08/2023,03:00,Cumbayá,Guayaquil City,2-2,Final
+16,07/08/2023,03:00,Barcelona,Gualaceo SC,2-0,Final
+16,08/08/2023,03:00,LDU Quito,Deportivo Cuenca,2-0,Final
+17,12/08/2023,03:00,Guayaquil City,Universidad Católica,0-0,Final
+17,12/08/2023,03:00,Gualaceo SC,Mushuc Runa,0-0,Final
+17,12/08/2023,03:00,Deportivo Cuenca,Libertad de Loja,2-1,Final
+17,12/08/2023,03:00,Técnico Universitario,El Nacional,3-3,Final
+17,13/08/2023,03:00,Delfín SC,Barcelona,1-1,Final
+17,13/08/2023,03:00,Independiente del Valle,Cumbayá,2-0,Final
+17,13/08/2023,03:00,Emelec,Orense SC,0-0,Final
+17,14/08/2023,03:00,Aucas,LDU Quito,0-0,Final
+18,16/08/2023,03:00,Mushuc Runa,Guayaquil City,3-0,Final
+18,17/08/2023,03:00,Orense SC,Gualaceo SC,2-0,Final
+18,17/08/2023,03:00,Libertad de Loja,Delfín SC,1-3,Final
+18,17/08/2023,03:00,Universidad Católica,Aucas,2-2,Final
+18,18/08/2023,03:00,Técnico Universitario,Emelec,0-0,Final
+18,18/08/2023,03:00,Cumbayá,Deportivo Cuenca,1-1,Final
+18,19/08/2023,03:00,LDU Quito,El Nacional,0-0,Final
+18,19/08/2023,03:00,Barcelona,Independiente del Valle,1-1,Final
+19,26/08/2023,03:00,El Nacional,Cumbayá,2-2,Final
+19,26/08/2023,03:00,Independiente del Valle,Universidad Católica,0-1,Final
+19,26/08/2023,03:00,Guayaquil City,Orense SC,1-0,Final
+19,27/08/2023,03:00,Mushuc Runa,Barcelona,2-2,Final
+19,27/08/2023,03:00,Aucas,Libertad de Loja,1-2,Final
+19,27/08/2023,03:00,Emelec,Delfín SC,0-1,Final
+19,28/08/2023,03:00,Gualaceo SC,LDU Quito,1-3,Final
+19,29/08/2023,03:00,Deportivo Cuenca,Técnico Universitario,1-1,Final
+20,02/09/2023,03:00,Delfín SC,Independiente del Valle,1-0,Final
+20,02/09/2023,03:00,Libertad de Loja,Mushuc Runa,0-1,Final
+20,02/09/2023,03:00,Universidad Católica,El Nacional,1-1,Final
+20,03/09/2023,03:00,Emelec,Aucas,0-0,Final
+20,03/09/2023,03:00,Deportivo Cuenca,Orense SC,1-0,Final
+20,03/09/2023,03:00,Técnico Universitario,Gualaceo SC,4-0,Final
+20,04/09/2023,03:00,Cumbayá,Barcelona,2-2,Final
+20,05/09/2023,03:00,LDU Quito,Guayaquil City,2-0,Final
+21,16/09/2023,03:00,Orense SC,Universidad Católica,1-2,Final
+21,16/09/2023,03:00,Mushuc Runa,Delfín SC,2-0,Final
+21,16/09/2023,03:00,Guayaquil City,Deportivo Cuenca,0-0,Final
+21,17/09/2023,03:00,El Nacional,Emelec,1-1,Final
+21,17/09/2023,03:00,Aucas,Técnico Universitario,2-4,Final
+21,17/09/2023,03:00,Independiente del Valle,Libertad de Loja,2-0,Final
+21,18/09/2023,03:00,Barcelona,LDU Quito,1-0,Final
+21,19/09/2023,03:00,Gualaceo SC,Cumbayá,0-3,Final
+22,23/09/2023,03:00,LDU Quito,Orense SC,1-0,Final
+22,23/09/2023,03:00,Universidad Católica,Gualaceo SC,0-0,Final
+22,23/09/2023,03:00,Emelec,Mushuc Runa,3-1,Final
+22,24/09/2023,03:00,Técnico Universitario,Independiente del Valle,2-2,Final
+22,24/09/2023,03:00,Cumbayá,Aucas,1-1,Final
+22,24/09/2023,03:00,Delfín SC,Guayaquil City,1-0,Final
+22,25/09/2023,03:00,Deportivo Cuenca,Barcelona,1-2,Final
+22,26/09/2023,03:00,Libertad de Loja,El Nacional,0-1,Final
+23,30/09/2023,03:00,Gualaceo SC,Deportivo Cuenca,1-1,Final
+23,30/09/2023,03:00,Mushuc Runa,Cumbayá,1-1,Final
+23,30/09/2023,03:00,El Nacional,Delfín SC,2-2,Final
+23,01/10/2023,03:00,Independiente del Valle,Emelec,2-1,Final
+23,01/10/2023,03:00,Guayaquil City,Aucas,0-1,Final
+23,01/10/2023,03:00,Orense SC,Libertad de Loja,3-0,Final
+23,02/10/2023,03:00,Barcelona,Técnico Universitario,1-0,Final
+23,02/11/2023,03:00,LDU Quito,Universidad Católica,1-0,Final
+24,07/10/2023,03:00,Deportivo Cuenca,Universidad Católica,2-3,Final
+24,07/10/2023,03:00,Técnico Universitario,Orense SC,2-1,Final
+24,07/10/2023,03:00,Emelec,Cumbayá,3-0,Final
+24,08/10/2023,03:00,Aucas,Barcelona,3-2,Final
+24,08/10/2023,03:00,El Nacional,Mushuc Runa,2-0,Final
+24,08/10/2023,03:00,Independiente del Valle,Gualaceo SC,2-0,Final
+24,09/10/2023,03:00,Delfín SC,LDU Quito,0-0,Final
+24,10/10/2023,03:00,Libertad de Loja,Guayaquil City,1-0,Final
+25,21/10/2023,03:00,Orense SC,El Nacional,1-1,Final
+25,21/10/2023,03:00,Cumbayá,Técnico Universitario,0-1,Final
+25,21/10/2023,03:00,Mushuc Runa,Deportivo Cuenca,1-1,Final
+25,22/10/2023,03:00,Barcelona,Libertad de Loja,1-0,Final
+25,22/10/2023,03:00,Gualaceo SC,Aucas,1-2,Final
+25,22/10/2023,03:00,Guayaquil City,Independiente del Valle,0-2,Final
+25,23/10/2023,03:00,LDU Quito,Emelec,1-0,Final
+25,24/10/2023,03:00,Universidad Católica,Delfín SC,2-2,Final
+26,28/10/2023,03:00,Libertad de Loja,Gualaceo SC,3-0,Final
+26,28/10/2023,03:00,Independiente del Valle,Deportivo Cuenca,2-0,Final
+26,29/10/2023,03:00,Emelec,Universidad Católica,2-1,Final
+26,29/10/2023,03:00,Delfín SC,Cumbayá,4-0,Final
+26,29/10/2023,03:00,Aucas,Mushuc Runa,4-0,Final
+26,30/10/2023,03:00,Orense SC,Barcelona,2-3,Final
+26,31/10/2023,03:00,El Nacional,Guayaquil City,2-0,Final
+26,09/11/2023,03:00,Técnico Universitario,LDU Quito,0-2,Final
+27,04/11/2023,03:00,Deportivo Cuenca,Aucas,0-0,Final
+27,04/11/2023,03:00,Gualaceo SC,Delfín SC,2-2,Final
+27,04/11/2023,03:00,Guayaquil City,Emelec,0-0,Final
+27,05/11/2023,03:00,LDU Quito,Independiente del Valle,2-0,Final
+27,05/11/2023,03:00,Mushuc Runa,Técnico Universitario,1-0,Final
+27,05/11/2023,03:00,Cumbayá,Orense SC,0-1,Final
+27,06/11/2023,03:00,Barcelona,El Nacional,3-2,Final
+27,07/11/2023,03:00,Universidad Católica,Libertad de Loja,0-0,Final
+28,11/11/2023,03:00,Orense SC,Mushuc Runa,1-0,Final
+28,11/11/2023,03:00,Universidad Católica,Cumbayá,1-0,Final
+28,11/11/2023,03:00,Guayaquil City,Técnico Universitario,1-0,Final
+28,12/11/2023,03:00,Aucas,Independiente del Valle,2-0,Final
+28,12/11/2023,03:00,El Nacional,Gualaceo SC,4-2,Final
+28,12/11/2023,03:00,Libertad de Loja,LDU Quito,0-2,Final
+28,13/11/2023,03:00,Emelec,Barcelona,0-0,Final
+28,14/11/2023,03:00,Delfín SC,Deportivo Cuenca,0-0,Final
+29,26/11/2023,03:00,Aucas,Delfín SC,0-0,Final
+29,26/11/2023,03:00,Deportivo Cuenca,El Nacional,1-0,Final
+29,26/11/2023,03:00,Independiente del Valle,Orense SC,2-2,Final
+29,26/11/2023,03:00,Mushuc Runa,Universidad Católica,0-2,Final
+29,27/11/2023,03:00,Barcelona,Guayaquil City,2-1,Final
+29,27/11/2023,03:00,Cumbayá,LDU Quito,1-2,Final
+29,27/11/2023,03:00,Gualaceo SC,Emelec,0-2,Final
+29,27/11/2023,03:00,Técnico Universitario,Libertad de Loja,1-1,Final
+30,02/12/2023,03:00,El Nacional,Independiente del Valle,2-1,Final
+30,02/12/2023,03:00,Guayaquil City,Gualaceo SC,0-2,Final
+30,02/12/2023,03:00,Libertad de Loja,Cumbayá,3-1,Final
+30,03/12/2023,03:00,LDU Quito,Mushuc Runa,3-1,Final
+30,04/12/2023,03:00,Delfín SC,Técnico Universitario,2-2,Final
+30,04/12/2023,03:00,Emelec,Deportivo Cuenca,2-1,Final
+30,04/12/2023,03:00,Orense SC,Aucas,1-2,Final
+30,04/12/2023,03:00,Universidad Católica,Barcelona,0-1,Final
+31,10/12/2023,03:00,Independiente del Valle,LDU Quito,0-0,Final
+31,17/12/2023,03:00,LDU Quito,Independiente del Valle,3-0,Final

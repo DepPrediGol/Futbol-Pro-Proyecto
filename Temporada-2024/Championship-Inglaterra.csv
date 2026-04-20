@@ -1,0 +1,553 @@
+matchday,date,time,home_team,away_team,result,status
+1,04/08/2023,03:00,Sheffield Wednesday,Southampton FC,1-2,Final
+1,05/08/2023,03:00,Blackburn Rovers,West Bromwich Albion,2-1,Final
+1,05/08/2023,03:00,Bristol City,Preston North End,1-1,Final
+1,05/08/2023,03:00,Middlesbrough FC,Millwall FC,0-1,Final
+1,05/08/2023,03:00,Norwich City,Hull City,2-1,Final
+1,05/08/2023,03:00,Plymouth Argyle,Huddersfield Town,3-1,Final
+1,05/08/2023,03:00,Watford FC,Queens Park Rangers,4-0,Final
+1,05/08/2023,03:00,Stoke City,Rotherham United,4-1,Final
+1,05/08/2023,03:00,Swansea City,Birmingham City,1-1,Final
+1,06/08/2023,03:00,Leicester City,Coventry City,2-1,Final
+1,06/08/2023,03:00,Leeds United,Cardiff City,2-2,Final
+1,06/08/2023,03:00,Sunderland AFC,Ipswich Town,1-2,Final
+2,12/08/2023,03:00,Coventry City,Middlesbrough FC,3-0,Final
+2,12/08/2023,03:00,Birmingham City,Leeds United,1-0,Final
+2,12/08/2023,03:00,Cardiff City,Queens Park Rangers,1-2,Final
+2,12/08/2023,03:00,Millwall FC,Bristol City,0-1,Final
+2,12/08/2023,03:00,Southampton FC,Norwich City,4-4,Final
+2,12/08/2023,03:00,Watford FC,Plymouth Argyle,0-0,Final
+2,12/08/2023,03:00,Huddersfield Town,Leicester City,0-1,Final
+2,12/08/2023,03:00,Hull City,Sheffield Wednesday,4-2,Final
+2,12/08/2023,03:00,Ipswich Town,Stoke City,2-0,Final
+2,12/08/2023,03:00,Preston North End,Sunderland AFC,2-1,Final
+2,12/08/2023,03:00,Rotherham United,Blackburn Rovers,2-2,Final
+2,12/08/2023,03:00,West Bromwich Albion,Swansea City,3-2,Final
+3,18/08/2023,03:00,Leeds United,West Bromwich Albion,1-1,Final
+3,19/08/2023,03:00,Plymouth Argyle,Southampton FC,1-2,Final
+3,19/08/2023,03:00,Sunderland AFC,Rotherham United,2-1,Final
+3,19/08/2023,03:00,Blackburn Rovers,Hull City,1-2,Final
+3,19/08/2023,03:00,Bristol City,Birmingham City,0-2,Final
+3,19/08/2023,03:00,Middlesbrough FC,Huddersfield Town,1-1,Final
+3,19/08/2023,03:00,Leicester City,Cardiff City,2-1,Final
+3,19/08/2023,03:00,Queens Park Rangers,Ipswich Town,0-1,Final
+3,19/08/2023,03:00,Sheffield Wednesday,Preston North End,0-1,Final
+3,19/08/2023,03:00,Stoke City,Watford FC,1-0,Final
+3,19/08/2023,03:00,Swansea City,Coventry City,1-1,Final
+3,20/08/2023,03:00,Norwich City,Millwall FC,3-1,Final
+4,25/08/2023,03:00,Hull City,Bristol City,1-1,Final
+4,26/08/2023,03:00,Birmingham City,Plymouth Argyle,2-1,Final
+4,26/08/2023,03:00,Cardiff City,Sheffield Wednesday,2-1,Final
+4,26/08/2023,03:00,Coventry City,Sunderland AFC,0-0,Final
+4,26/08/2023,03:00,Millwall FC,Stoke City,1-0,Final
+4,26/08/2023,03:00,Southampton FC,Queens Park Rangers,2-1,Final
+4,26/08/2023,03:00,Huddersfield Town,Norwich City,0-4,Final
+4,26/08/2023,03:00,Ipswich Town,Leeds United,3-4,Final
+4,26/08/2023,03:00,Preston North End,Swansea City,2-1,Final
+4,26/08/2023,03:00,Rotherham United,Leicester City,1-2,Final
+4,26/08/2023,03:00,West Bromwich Albion,Middlesbrough FC,4-2,Final
+4,27/08/2023,03:00,Watford FC,Blackburn Rovers,0-1,Final
+5,02/09/2023,03:00,Sunderland AFC,Southampton FC,5-0,Final
+5,02/09/2023,03:00,Birmingham City,Millwall FC,1-1,Final
+5,02/09/2023,03:00,Swansea City,Bristol City,1-2,Final
+5,02/09/2023,03:00,Coventry City,Watford FC,3-3,Final
+5,02/09/2023,03:00,Middlesbrough FC,Queens Park Rangers,0-2,Final
+5,02/09/2023,03:00,Ipswich Town,Cardiff City,3-2,Final
+5,02/09/2023,03:00,Leeds United,Sheffield Wednesday,0-0,Final
+5,02/09/2023,03:00,Leicester City,Hull City,0-1,Final
+5,02/09/2023,03:00,Plymouth Argyle,Blackburn Rovers,3-0,Final
+5,02/09/2023,03:00,Rotherham United,Norwich City,2-1,Final
+5,02/09/2023,03:00,Stoke City,Preston North End,0-2,Final
+5,02/09/2023,03:00,West Bromwich Albion,Huddersfield Town,1-2,Final
+6,15/09/2023,03:00,Hull City,Coventry City,1-1,Final
+6,15/09/2023,03:00,Southampton FC,Leicester City,1-4,Final
+6,16/09/2023,03:00,Blackburn Rovers,Middlesbrough FC,2-1,Final
+6,16/09/2023,03:00,Bristol City,West Bromwich Albion,0-0,Final
+6,16/09/2023,03:00,Watford FC,Birmingham City,2-0,Final
+6,16/09/2023,03:00,Huddersfield Town,Rotherham United,2-0,Final
+6,16/09/2023,03:00,Norwich City,Stoke City,1-0,Final
+6,16/09/2023,03:00,Preston North End,Plymouth Argyle,2-1,Final
+6,16/09/2023,03:00,Queens Park Rangers,Sunderland AFC,1-3,Final
+6,16/09/2023,03:00,Sheffield Wednesday,Ipswich Town,0-1,Final
+6,16/09/2023,03:00,Cardiff City,Swansea City,2-0,Final
+6,17/09/2023,03:00,Millwall FC,Leeds United,0-3,Final
+7,19/09/2023,03:00,Bristol City,Plymouth Argyle,4-1,Final
+7,19/09/2023,03:00,Cardiff City,Coventry City,3-2,Final
+7,19/09/2023,03:00,Southampton FC,Ipswich Town,0-1,Final
+7,19/09/2023,03:00,Preston North End,Birmingham City,2-1,Final
+7,19/09/2023,03:00,Queens Park Rangers,Swansea City,1-1,Final
+7,19/09/2023,03:00,Sheffield Wednesday,Middlesbrough FC,1-1,Final
+7,20/09/2023,03:00,Blackburn Rovers,Sunderland AFC,1-3,Final
+7,20/09/2023,03:00,Millwall FC,Rotherham United,3-0,Final
+7,20/09/2023,03:00,Watford FC,West Bromwich Albion,2-2,Final
+7,20/09/2023,03:00,Huddersfield Town,Stoke City,2-2,Final
+7,20/09/2023,03:00,Hull City,Leeds United,0-0,Final
+7,20/09/2023,03:00,Norwich City,Leicester City,0-2,Final
+8,22/09/2023,03:00,Birmingham City,Queens Park Rangers,0-0,Final
+8,23/09/2023,03:00,Middlesbrough FC,Southampton FC,2-1,Final
+8,23/09/2023,03:00,Ipswich Town,Blackburn Rovers,4-3,Final
+8,23/09/2023,03:00,Leeds United,Watford FC,3-0,Final
+8,23/09/2023,03:00,Leicester City,Bristol City,1-0,Final
+8,23/09/2023,03:00,Plymouth Argyle,Norwich City,6-2,Final
+8,23/09/2023,03:00,Rotherham United,Preston North End,1-1,Final
+8,23/09/2023,03:00,Swansea City,Sheffield Wednesday,3-0,Final
+8,23/09/2023,03:00,West Bromwich Albion,Millwall FC,0-0,Final
+8,24/09/2023,03:00,Stoke City,Hull City,1-3,Final
+8,24/09/2023,03:00,Sunderland AFC,Cardiff City,0-1,Final
+8,25/09/2023,03:00,Coventry City,Huddersfield Town,1-1,Final
+9,29/09/2023,03:00,Sheffield Wednesday,Sunderland AFC,0-3,Final
+9,30/09/2023,03:00,Southampton FC,Leeds United,3-1,Final
+9,30/09/2023,03:00,Millwall FC,Swansea City,0-3,Final
+9,30/09/2023,03:00,Bristol City,Stoke City,2-3,Final
+9,30/09/2023,03:00,Cardiff City,Rotherham United,2-0,Final
+9,30/09/2023,03:00,Watford FC,Middlesbrough FC,2-3,Final
+9,30/09/2023,03:00,Huddersfield Town,Ipswich Town,1-1,Final
+9,30/09/2023,03:00,Hull City,Plymouth Argyle,1-1,Final
+9,30/09/2023,03:00,Norwich City,Birmingham City,2-0,Final
+9,30/09/2023,03:00,Preston North End,West Bromwich Albion,0-4,Final
+9,30/09/2023,03:00,Queens Park Rangers,Coventry City,1-3,Final
+9,01/10/2023,03:00,Blackburn Rovers,Leicester City,1-4,Final
+10,03/10/2023,03:00,Birmingham City,Huddersfield Town,4-1,Final
+10,03/10/2023,03:00,Middlesbrough FC,Cardiff City,2-0,Final
+10,03/10/2023,03:00,Ipswich Town,Hull City,3-0,Final
+10,03/10/2023,03:00,Plymouth Argyle,Millwall FC,0-2,Final
+10,03/10/2023,03:00,Stoke City,Southampton FC,0-1,Final
+10,03/10/2023,03:00,West Bromwich Albion,Sheffield Wednesday,1-0,Final
+10,04/10/2023,03:00,Sunderland AFC,Watford FC,2-0,Final
+10,04/10/2023,03:00,Coventry City,Blackburn Rovers,1-0,Final
+10,04/10/2023,03:00,Leeds United,Queens Park Rangers,1-0,Final
+10,04/10/2023,03:00,Leicester City,Preston North End,3-0,Final
+10,04/10/2023,03:00,Swansea City,Norwich City,2-1,Final
+10,04/10/2023,03:00,Rotherham United,Bristol City,1-2,Final
+11,06/10/2023,03:00,Birmingham City,West Bromwich Albion,3-1,Final
+11,07/10/2023,03:00,Sunderland AFC,Middlesbrough FC,0-4,Final
+11,07/10/2023,03:00,Cardiff City,Watford FC,1-1,Final
+11,07/10/2023,03:00,Coventry City,Norwich City,1-1,Final
+11,07/10/2023,03:00,Millwall FC,Hull City,2-2,Final
+11,07/10/2023,03:00,Southampton FC,Rotherham United,1-1,Final
+11,07/10/2023,03:00,Ipswich Town,Preston North End,4-2,Final
+11,07/10/2023,03:00,Leeds United,Bristol City,2-1,Final
+11,07/10/2023,03:00,Leicester City,Stoke City,2-0,Final
+11,07/10/2023,03:00,Plymouth Argyle,Swansea City,1-3,Final
+11,07/10/2023,03:00,Queens Park Rangers,Blackburn Rovers,0-4,Final
+11,07/10/2023,03:00,Sheffield Wednesday,Huddersfield Town,0-0,Final
+12,21/10/2023,03:00,Preston North End,Millwall FC,1-1,Final
+12,21/10/2023,03:00,Blackburn Rovers,Cardiff City,1-0,Final
+12,21/10/2023,03:00,Bristol City,Coventry City,1-0,Final
+12,21/10/2023,03:00,Middlesbrough FC,Birmingham City,1-0,Final
+12,21/10/2023,03:00,Watford FC,Sheffield Wednesday,1-0,Final
+12,21/10/2023,03:00,Huddersfield Town,Queens Park Rangers,2-1,Final
+12,21/10/2023,03:00,Hull City,Southampton FC,1-2,Final
+12,21/10/2023,03:00,Norwich City,Leeds United,2-3,Final
+12,21/10/2023,03:00,Stoke City,Sunderland AFC,2-1,Final
+12,21/10/2023,03:00,Swansea City,Leicester City,1-3,Final
+12,21/10/2023,03:00,West Bromwich Albion,Plymouth Argyle,0-0,Final
+12,07/11/2023,03:00,Rotherham United,Ipswich Town,2-2,Final
+13,24/10/2023,03:00,Millwall FC,Blackburn Rovers,1-2,Final
+13,24/10/2023,03:00,Huddersfield Town,Cardiff City,0-4,Final
+13,24/10/2023,03:00,Norwich City,Middlesbrough FC,1-2,Final
+13,24/10/2023,03:00,Swansea City,Watford FC,0-1,Final
+13,24/10/2023,03:00,Leicester City,Sunderland AFC,1-0,Final
+13,24/10/2023,03:00,West Bromwich Albion,Queens Park Rangers,2-0,Final
+13,25/10/2023,03:00,Birmingham City,Hull City,0-2,Final
+13,25/10/2023,03:00,Bristol City,Ipswich Town,0-1,Final
+13,25/10/2023,03:00,Plymouth Argyle,Sheffield Wednesday,3-0,Final
+13,25/10/2023,03:00,Preston North End,Southampton FC,2-2,Final
+13,25/10/2023,03:00,Rotherham United,Coventry City,2-0,Final
+13,25/10/2023,03:00,Stoke City,Leeds United,1-0,Final
+14,28/10/2023,03:00,Southampton FC,Birmingham City,3-1,Final
+14,28/10/2023,03:00,Leeds United,Huddersfield Town,4-1,Final
+14,28/10/2023,03:00,Sunderland AFC,Norwich City,3-1,Final
+14,28/10/2023,03:00,Blackburn Rovers,Swansea City,0-1,Final
+14,28/10/2023,03:00,Cardiff City,Bristol City,2-0,Final
+14,28/10/2023,03:00,Middlesbrough FC,Stoke City,0-2,Final
+14,28/10/2023,03:00,Watford FC,Millwall FC,2-2,Final
+14,28/10/2023,03:00,Hull City,Preston North End,1-0,Final
+14,28/10/2023,03:00,Ipswich Town,Plymouth Argyle,3-2,Final
+14,28/10/2023,03:00,Queens Park Rangers,Leicester City,1-2,Final
+14,29/10/2023,03:00,Sheffield Wednesday,Rotherham United,2-0,Final
+14,30/10/2023,03:00,Coventry City,West Bromwich Albion,0-2,Final
+15,03/11/2023,03:00,Leicester City,Leeds United,0-1,Final
+15,04/11/2023,03:00,Birmingham City,Ipswich Town,2-2,Final
+15,04/11/2023,03:00,Bristol City,Sheffield Wednesday,1-0,Final
+15,04/11/2023,03:00,Millwall FC,Southampton FC,0-1,Final
+15,04/11/2023,03:00,Huddersfield Town,Watford FC,0-0,Final
+15,04/11/2023,03:00,Plymouth Argyle,Middlesbrough FC,3-3,Final
+15,04/11/2023,03:00,Preston North End,Coventry City,3-2,Final
+15,04/11/2023,03:00,Rotherham United,Queens Park Rangers,1-1,Final
+15,04/11/2023,03:00,Stoke City,Cardiff City,0-0,Final
+15,04/11/2023,03:00,Swansea City,Sunderland AFC,0-0,Final
+15,04/11/2023,03:00,West Bromwich Albion,Hull City,3-1,Final
+15,05/11/2023,03:00,Norwich City,Blackburn Rovers,1-3,Final
+16,10/11/2023,03:00,Blackburn Rovers,Preston North End,1-2,Final
+16,11/11/2023,03:00,Sunderland AFC,Birmingham City,3-1,Final
+16,11/11/2023,03:00,Cardiff City,Norwich City,2-3,Final
+16,11/11/2023,03:00,Coventry City,Stoke City,0-0,Final
+16,11/11/2023,03:00,Middlesbrough FC,Leicester City,1-0,Final
+16,11/11/2023,03:00,Southampton FC,West Bromwich Albion,2-1,Final
+16,11/11/2023,03:00,Watford FC,Rotherham United,5-0,Final
+16,11/11/2023,03:00,Hull City,Huddersfield Town,1-0,Final
+16,11/11/2023,03:00,Ipswich Town,Swansea City,3-2,Final
+16,11/11/2023,03:00,Leeds United,Plymouth Argyle,2-1,Final
+16,11/11/2023,03:00,Queens Park Rangers,Bristol City,0-0,Final
+16,11/11/2023,03:00,Sheffield Wednesday,Millwall FC,0-4,Final
+17,24/11/2023,03:00,Rotherham United,Leeds United,1-1,Final
+17,25/11/2023,03:00,Birmingham City,Sheffield Wednesday,2-1,Final
+17,25/11/2023,03:00,Bristol City,Middlesbrough FC,3-2,Final
+17,25/11/2023,03:00,Millwall FC,Coventry City,0-3,Final
+17,25/11/2023,03:00,Huddersfield Town,Southampton FC,1-1,Final
+17,25/11/2023,03:00,Leicester City,Watford FC,2-0,Final
+17,25/11/2023,03:00,Norwich City,Queens Park Rangers,1-0,Final
+17,25/11/2023,03:00,Plymouth Argyle,Sunderland AFC,2-0,Final
+17,25/11/2023,03:00,Preston North End,Cardiff City,1-2,Final
+17,25/11/2023,03:00,Stoke City,Blackburn Rovers,0-3,Final
+17,25/11/2023,03:00,Swansea City,Hull City,2-2,Final
+17,25/11/2023,03:00,West Bromwich Albion,Ipswich Town,2-0,Final
+18,28/11/2023,03:00,Cardiff City,West Bromwich Albion,0-1,Final
+18,28/11/2023,03:00,Coventry City,Plymouth Argyle,1-0,Final
+18,28/11/2023,03:00,Middlesbrough FC,Preston North End,4-0,Final
+18,28/11/2023,03:00,Hull City,Rotherham United,4-1,Final
+18,28/11/2023,03:00,Queens Park Rangers,Stoke City,4-2,Final
+18,28/11/2023,03:00,Watford FC,Norwich City,3-2,Final
+18,29/11/2023,03:00,Sunderland AFC,Huddersfield Town,1-2,Final
+18,29/11/2023,03:00,Blackburn Rovers,Birmingham City,4-2,Final
+18,29/11/2023,03:00,Southampton FC,Bristol City,1-0,Final
+18,29/11/2023,03:00,Leeds United,Swansea City,3-1,Final
+18,29/11/2023,03:00,Sheffield Wednesday,Leicester City,1-1,Final
+18,29/11/2023,03:00,Ipswich Town,Millwall FC,3-1,Final
+19,01/12/2023,03:00,Preston North End,Queens Park Rangers,0-2,Final
+19,02/12/2023,03:00,West Bromwich Albion,Leicester City,1-2,Final
+19,02/12/2023,03:00,Birmingham City,Rotherham United,0-0,Final
+19,02/12/2023,03:00,Millwall FC,Sunderland AFC,1-1,Final
+19,02/12/2023,03:00,Southampton FC,Cardiff City,2-0,Final
+19,02/12/2023,03:00,Hull City,Watford FC,1-2,Final
+19,02/12/2023,03:00,Ipswich Town,Coventry City,2-1,Final
+19,02/12/2023,03:00,Leeds United,Middlesbrough FC,3-2,Final
+19,02/12/2023,03:00,Plymouth Argyle,Stoke City,2-1,Final
+19,02/12/2023,03:00,Sheffield Wednesday,Blackburn Rovers,3-1,Final
+19,02/12/2023,03:00,Swansea City,Huddersfield Town,1-1,Final
+19,03/12/2023,03:00,Bristol City,Norwich City,1-2,Final
+20,08/12/2023,03:00,Coventry City,Birmingham City,2-0,Final
+20,09/12/2023,03:00,Sunderland AFC,West Bromwich Albion,2-1,Final
+20,09/12/2023,03:00,Blackburn Rovers,Leeds United,0-2,Final
+20,09/12/2023,03:00,Cardiff City,Millwall FC,1-0,Final
+20,09/12/2023,03:00,Middlesbrough FC,Ipswich Town,0-2,Final
+20,09/12/2023,03:00,Watford FC,Southampton FC,1-1,Final
+20,09/12/2023,03:00,Huddersfield Town,Bristol City,1-1,Final
+20,09/12/2023,03:00,Leicester City,Plymouth Argyle,4-0,Final
+20,09/12/2023,03:00,Norwich City,Preston North End,0-0,Final
+20,09/12/2023,03:00,Queens Park Rangers,Hull City,2-0,Final
+20,09/12/2023,03:00,Rotherham United,Swansea City,1-2,Final
+20,09/12/2023,03:00,Stoke City,Sheffield Wednesday,0-1,Final
+21,12/12/2023,03:00,Blackburn Rovers,Bristol City,2-1,Final
+21,12/12/2023,03:00,Watford FC,Ipswich Town,1-2,Final
+21,12/12/2023,03:00,Huddersfield Town,Preston North End,1-3,Final
+21,12/12/2023,03:00,Rotherham United,West Bromwich Albion,0-2,Final
+21,12/12/2023,03:00,Stoke City,Swansea City,1-1,Final
+21,12/12/2023,03:00,Sunderland AFC,Leeds United,1-0,Final
+21,13/12/2023,03:00,Cardiff City,Birmingham City,0-1,Final
+21,13/12/2023,03:00,Coventry City,Southampton FC,1-1,Final
+21,13/12/2023,03:00,Leicester City,Millwall FC,3-2,Final
+21,13/12/2023,03:00,Norwich City,Sheffield Wednesday,3-1,Final
+21,13/12/2023,03:00,Queens Park Rangers,Plymouth Argyle,0-0,Final
+21,13/12/2023,03:00,Middlesbrough FC,Hull City,1-2,Final
+22,16/12/2023,03:00,Ipswich Town,Norwich City,2-2,Final
+22,16/12/2023,03:00,Bristol City,Sunderland AFC,1-0,Final
+22,16/12/2023,03:00,Millwall FC,Huddersfield Town,1-1,Final
+22,16/12/2023,03:00,Southampton FC,Blackburn Rovers,4-0,Final
+22,16/12/2023,03:00,Hull City,Cardiff City,3-0,Final
+22,16/12/2023,03:00,Leeds United,Coventry City,1-1,Final
+22,16/12/2023,03:00,Plymouth Argyle,Rotherham United,3-2,Final
+22,16/12/2023,03:00,Preston North End,Watford FC,1-5,Final
+22,16/12/2023,03:00,Sheffield Wednesday,Queens Park Rangers,2-1,Final
+22,16/12/2023,03:00,Swansea City,Middlesbrough FC,1-2,Final
+22,17/12/2023,03:00,West Bromwich Albion,Stoke City,1-1,Final
+22,18/12/2023,03:00,Birmingham City,Leicester City,2-3,Final
+23,22/12/2023,03:00,Bristol City,Hull City,3-2,Final
+23,22/12/2023,03:00,Swansea City,Preston North End,2-1,Final
+23,23/12/2023,03:00,Leeds United,Ipswich Town,4-0,Final
+23,23/12/2023,03:00,Sunderland AFC,Coventry City,0-3,Final
+23,23/12/2023,03:00,Blackburn Rovers,Watford FC,1-2,Final
+23,23/12/2023,03:00,Middlesbrough FC,West Bromwich Albion,1-0,Final
+23,23/12/2023,03:00,Leicester City,Rotherham United,3-0,Final
+23,23/12/2023,03:00,Norwich City,Huddersfield Town,2-0,Final
+23,23/12/2023,03:00,Plymouth Argyle,Birmingham City,3-3,Final
+23,23/12/2023,03:00,Queens Park Rangers,Southampton FC,0-1,Final
+23,23/12/2023,03:00,Sheffield Wednesday,Cardiff City,1-2,Final
+23,23/12/2023,03:00,Stoke City,Millwall FC,0-0,Final
+24,26/12/2023,03:00,Preston North End,Leeds United,2-1,Final
+24,26/12/2023,03:00,Millwall FC,Queens Park Rangers,2-0,Final
+24,26/12/2023,03:00,Cardiff City,Plymouth Argyle,2-2,Final
+24,26/12/2023,03:00,Coventry City,Sheffield Wednesday,2-0,Final
+24,26/12/2023,03:00,Southampton FC,Swansea City,5-0,Final
+24,26/12/2023,03:00,Watford FC,Bristol City,1-4,Final
+24,26/12/2023,03:00,Huddersfield Town,Blackburn Rovers,3-0,Final
+24,26/12/2023,03:00,Hull City,Sunderland AFC,0-1,Final
+24,26/12/2023,03:00,Rotherham United,Middlesbrough FC,1-0,Final
+24,26/12/2023,03:00,West Bromwich Albion,Norwich City,1-0,Final
+24,26/12/2023,03:00,Birmingham City,Stoke City,1-3,Final
+24,26/12/2023,03:00,Ipswich Town,Leicester City,1-1,Final
+25,29/12/2023,03:00,Southampton FC,Plymouth Argyle,2-1,Final
+25,29/12/2023,03:00,Birmingham City,Bristol City,0-0,Final
+25,29/12/2023,03:00,Cardiff City,Leicester City,0-2,Final
+25,29/12/2023,03:00,Coventry City,Swansea City,2-2,Final
+25,29/12/2023,03:00,Millwall FC,Norwich City,1-0,Final
+25,29/12/2023,03:00,Watford FC,Stoke City,1-1,Final
+25,29/12/2023,03:00,Huddersfield Town,Middlesbrough FC,1-2,Final
+25,29/12/2023,03:00,Hull City,Blackburn Rovers,3-2,Final
+25,29/12/2023,03:00,Ipswich Town,Queens Park Rangers,0-0,Final
+25,29/12/2023,03:00,Preston North End,Sheffield Wednesday,0-1,Final
+25,29/12/2023,03:00,Rotherham United,Sunderland AFC,1-1,Final
+25,29/12/2023,03:00,West Bromwich Albion,Leeds United,1-0,Final
+26,01/01/2024,03:00,Sunderland AFC,Preston North End,2-0,Final
+26,01/01/2024,03:00,Blackburn Rovers,Rotherham United,2-2,Final
+26,01/01/2024,03:00,Bristol City,Millwall FC,0-1,Final
+26,01/01/2024,03:00,Middlesbrough FC,Coventry City,1-3,Final
+26,01/01/2024,03:00,Leeds United,Birmingham City,3-0,Final
+26,01/01/2024,03:00,Leicester City,Huddersfield Town,4-1,Final
+26,01/01/2024,03:00,Norwich City,Southampton FC,1-1,Final
+26,01/01/2024,03:00,Plymouth Argyle,Watford FC,3-3,Final
+26,01/01/2024,03:00,Queens Park Rangers,Cardiff City,1-2,Final
+26,01/01/2024,03:00,Stoke City,Ipswich Town,0-0,Final
+26,01/01/2024,03:00,Swansea City,West Bromwich Albion,1-0,Final
+26,01/01/2024,03:00,Sheffield Wednesday,Hull City,3-1,Final
+27,12/01/2024,03:00,Hull City,Norwich City,1-2,Final
+27,13/01/2024,03:00,Coventry City,Leicester City,3-1,Final
+27,13/01/2024,03:00,Birmingham City,Swansea City,2-2,Final
+27,13/01/2024,03:00,Cardiff City,Leeds United,0-3,Final
+27,13/01/2024,03:00,Millwall FC,Middlesbrough FC,1-3,Final
+27,13/01/2024,03:00,Southampton FC,Sheffield Wednesday,4-0,Final
+27,13/01/2024,03:00,Huddersfield Town,Plymouth Argyle,1-1,Final
+27,13/01/2024,03:00,Preston North End,Bristol City,2-0,Final
+27,13/01/2024,03:00,Rotherham United,Stoke City,0-1,Final
+27,13/01/2024,03:00,West Bromwich Albion,Blackburn Rovers,4-1,Final
+27,13/01/2024,03:00,Ipswich Town,Sunderland AFC,2-1,Final
+27,14/01/2024,03:00,Queens Park Rangers,Watford FC,1-2,Final
+28,19/01/2024,03:00,Sunderland AFC,Hull City,0-1,Final
+28,20/01/2024,03:00,Swansea City,Southampton FC,1-3,Final
+28,20/01/2024,03:00,Blackburn Rovers,Huddersfield Town,1-1,Final
+28,20/01/2024,03:00,Bristol City,Watford FC,1-1,Final
+28,20/01/2024,03:00,Middlesbrough FC,Rotherham United,1-1,Final
+28,20/01/2024,03:00,Norwich City,West Bromwich Albion,2-0,Final
+28,20/01/2024,03:00,Plymouth Argyle,Cardiff City,3-1,Final
+28,20/01/2024,03:00,Queens Park Rangers,Millwall FC,2-0,Final
+28,20/01/2024,03:00,Sheffield Wednesday,Coventry City,1-2,Final
+28,20/01/2024,03:00,Stoke City,Birmingham City,1-2,Final
+28,21/01/2024,03:00,Leeds United,Preston North End,2-1,Final
+28,22/01/2024,03:00,Leicester City,Ipswich Town,1-1,Final
+29,24/01/2024,03:00,Leeds United,Norwich City,1-0,Final
+29,27/01/2024,03:00,Sunderland AFC,Stoke City,3-1,Final
+29,27/01/2024,03:00,Millwall FC,Preston North End,1-1,Final
+29,28/01/2024,03:00,Queens Park Rangers,Huddersfield Town,1-1,Final
+29,30/01/2024,03:00,Coventry City,Bristol City,2-2,Final
+29,30/01/2024,03:00,Leicester City,Swansea City,3-1,Final
+29,31/01/2024,03:00,Sheffield Wednesday,Watford FC,0-0,Final
+29,20/02/2024,03:00,Cardiff City,Blackburn Rovers,0-0,Final
+29,20/02/2024,03:00,Southampton FC,Hull City,1-2,Final
+29,20/02/2024,03:00,Ipswich Town,Rotherham United,4-3,Final
+29,20/02/2024,03:00,Plymouth Argyle,West Bromwich Albion,0-3,Final
+29,12/03/2024,03:00,Birmingham City,Middlesbrough FC,0-1,Final
+30,02/02/2024,03:00,Bristol City,Leeds United,0-1,Final
+30,03/02/2024,03:00,Blackburn Rovers,Queens Park Rangers,1-2,Final
+30,03/02/2024,03:00,Watford FC,Cardiff City,0-1,Final
+30,03/02/2024,03:00,Huddersfield Town,Sheffield Wednesday,4-0,Final
+30,03/02/2024,03:00,Hull City,Millwall FC,1-0,Final
+30,03/02/2024,03:00,Norwich City,Coventry City,2-1,Final
+30,03/02/2024,03:00,Preston North End,Ipswich Town,3-2,Final
+30,03/02/2024,03:00,Rotherham United,Southampton FC,0-2,Final
+30,03/02/2024,03:00,Stoke City,Leicester City,0-5,Final
+30,03/02/2024,03:00,Swansea City,Plymouth Argyle,0-1,Final
+30,03/02/2024,03:00,West Bromwich Albion,Birmingham City,1-0,Final
+30,04/02/2024,03:00,Middlesbrough FC,Sunderland AFC,1-1,Final
+31,09/02/2024,03:00,Sheffield Wednesday,Birmingham City,2-0,Final
+31,10/02/2024,03:00,Ipswich Town,West Bromwich Albion,2-2,Final
+31,10/02/2024,03:00,Sunderland AFC,Plymouth Argyle,3-1,Final
+31,10/02/2024,03:00,Blackburn Rovers,Stoke City,3-1,Final
+31,10/02/2024,03:00,Cardiff City,Preston North End,0-2,Final
+31,10/02/2024,03:00,Middlesbrough FC,Bristol City,1-2,Final
+31,10/02/2024,03:00,Southampton FC,Huddersfield Town,5-3,Final
+31,10/02/2024,03:00,Watford FC,Leicester City,1-2,Final
+31,10/02/2024,03:00,Hull City,Swansea City,0-1,Final
+31,10/02/2024,03:00,Leeds United,Rotherham United,3-0,Final
+31,10/02/2024,03:00,Queens Park Rangers,Norwich City,2-2,Final
+31,11/02/2024,03:00,Coventry City,Millwall FC,2-1,Final
+32,13/02/2024,03:00,Birmingham City,Blackburn Rovers,1-0,Final
+32,13/02/2024,03:00,Leicester City,Sheffield Wednesday,2-0,Final
+32,13/02/2024,03:00,Norwich City,Watford FC,4-2,Final
+32,13/02/2024,03:00,Rotherham United,Hull City,1-2,Final
+32,13/02/2024,03:00,Swansea City,Leeds United,0-4,Final
+32,13/02/2024,03:00,Bristol City,Southampton FC,3-1,Final
+32,13/02/2024,03:00,West Bromwich Albion,Cardiff City,2-0,Final
+32,14/02/2024,03:00,Huddersfield Town,Sunderland AFC,1-0,Final
+32,14/02/2024,03:00,Plymouth Argyle,Coventry City,2-2,Final
+32,14/02/2024,03:00,Preston North End,Middlesbrough FC,2-1,Final
+32,14/02/2024,03:00,Stoke City,Queens Park Rangers,1-0,Final
+32,14/02/2024,03:00,Millwall FC,Ipswich Town,0-4,Final
+33,16/02/2024,03:00,West Bromwich Albion,Southampton FC,0-2,Final
+33,17/02/2024,03:00,Plymouth Argyle,Leeds United,0-2,Final
+33,17/02/2024,03:00,Birmingham City,Sunderland AFC,2-1,Final
+33,17/02/2024,03:00,Bristol City,Queens Park Rangers,0-1,Final
+33,17/02/2024,03:00,Millwall FC,Sheffield Wednesday,0-2,Final
+33,17/02/2024,03:00,Huddersfield Town,Hull City,1-2,Final
+33,17/02/2024,03:00,Leicester City,Middlesbrough FC,1-2,Final
+33,17/02/2024,03:00,Norwich City,Cardiff City,4-1,Final
+33,17/02/2024,03:00,Preston North End,Blackburn Rovers,2-2,Final
+33,17/02/2024,03:00,Rotherham United,Watford FC,0-1,Final
+33,17/02/2024,03:00,Stoke City,Coventry City,0-1,Final
+33,17/02/2024,03:00,Swansea City,Ipswich Town,1-2,Final
+34,23/02/2024,03:00,Coventry City,Preston North End,0-3,Final
+34,23/02/2024,03:00,Leeds United,Leicester City,3-1,Final
+34,24/02/2024,03:00,Hull City,West Bromwich Albion,1-1,Final
+34,24/02/2024,03:00,Sunderland AFC,Swansea City,1-2,Final
+34,24/02/2024,03:00,Blackburn Rovers,Norwich City,1-1,Final
+34,24/02/2024,03:00,Cardiff City,Stoke City,2-1,Final
+34,24/02/2024,03:00,Middlesbrough FC,Plymouth Argyle,0-2,Final
+34,24/02/2024,03:00,Southampton FC,Millwall FC,1-2,Final
+34,24/02/2024,03:00,Watford FC,Huddersfield Town,1-2,Final
+34,24/02/2024,03:00,Ipswich Town,Birmingham City,3-1,Final
+34,24/02/2024,03:00,Queens Park Rangers,Rotherham United,2-1,Final
+34,24/02/2024,03:00,Sheffield Wednesday,Bristol City,2-1,Final
+35,01/03/2024,03:00,West Bromwich Albion,Coventry City,2-1,Final
+35,02/03/2024,03:00,Bristol City,Cardiff City,0-1,Final
+35,02/03/2024,03:00,Huddersfield Town,Leeds United,1-1,Final
+35,02/03/2024,03:00,Birmingham City,Southampton FC,3-4,Final
+35,02/03/2024,03:00,Millwall FC,Watford FC,1-0,Final
+35,02/03/2024,03:00,Leicester City,Queens Park Rangers,1-2,Final
+35,02/03/2024,03:00,Norwich City,Sunderland AFC,1-0,Final
+35,02/03/2024,03:00,Plymouth Argyle,Ipswich Town,0-2,Final
+35,02/03/2024,03:00,Preston North End,Hull City,0-0,Final
+35,02/03/2024,03:00,Rotherham United,Sheffield Wednesday,0-1,Final
+35,02/03/2024,03:00,Stoke City,Middlesbrough FC,2-0,Final
+35,02/03/2024,03:00,Swansea City,Blackburn Rovers,2-1,Final
+36,05/03/2024,03:00,Sunderland AFC,Leicester City,0-1,Final
+36,05/03/2024,03:00,Blackburn Rovers,Millwall FC,1-1,Final
+36,05/03/2024,03:00,Coventry City,Rotherham United,5-0,Final
+36,05/03/2024,03:00,Hull City,Birmingham City,1-1,Final
+36,05/03/2024,03:00,Leeds United,Stoke City,1-0,Final
+36,05/03/2024,03:00,Sheffield Wednesday,Plymouth Argyle,1-0,Final
+36,05/03/2024,03:00,Ipswich Town,Bristol City,3-2,Final
+36,06/03/2024,03:00,Cardiff City,Huddersfield Town,1-0,Final
+36,06/03/2024,03:00,Middlesbrough FC,Norwich City,3-1,Final
+36,06/03/2024,03:00,Watford FC,Swansea City,1-1,Final
+36,06/03/2024,03:00,Queens Park Rangers,West Bromwich Albion,2-2,Final
+36,16/04/2024,03:00,Southampton FC,Preston North End,3-0,Final
+37,08/03/2024,03:00,Sheffield Wednesday,Leeds United,0-2,Final
+37,09/03/2024,03:00,Cardiff City,Ipswich Town,2-1,Final
+37,09/03/2024,03:00,Blackburn Rovers,Plymouth Argyle,1-1,Final
+37,09/03/2024,03:00,Millwall FC,Birmingham City,1-0,Final
+37,09/03/2024,03:00,Southampton FC,Sunderland AFC,4-2,Final
+37,09/03/2024,03:00,Watford FC,Coventry City,1-2,Final
+37,09/03/2024,03:00,Hull City,Leicester City,2-2,Final
+37,09/03/2024,03:00,Norwich City,Rotherham United,5-0,Final
+37,09/03/2024,03:00,Preston North End,Stoke City,1-2,Final
+37,09/03/2024,03:00,Queens Park Rangers,Middlesbrough FC,0-2,Final
+37,10/03/2024,03:00,Huddersfield Town,West Bromwich Albion,1-4,Final
+37,10/03/2024,03:00,Bristol City,Swansea City,1-0,Final
+38,16/03/2024,03:00,Swansea City,Cardiff City,2-0,Final
+38,16/03/2024,03:00,Sunderland AFC,Queens Park Rangers,0-0,Final
+38,16/03/2024,03:00,Birmingham City,Watford FC,0-1,Final
+38,16/03/2024,03:00,Middlesbrough FC,Blackburn Rovers,0-0,Final
+38,16/03/2024,03:00,Ipswich Town,Sheffield Wednesday,6-0,Final
+38,16/03/2024,03:00,Plymouth Argyle,Preston North End,0-1,Final
+38,16/03/2024,03:00,Rotherham United,Huddersfield Town,0-0,Final
+38,16/03/2024,03:00,Stoke City,Norwich City,0-3,Final
+38,16/03/2024,03:00,West Bromwich Albion,Bristol City,2-0,Final
+38,17/03/2024,03:00,Leeds United,Millwall FC,2-0,Final
+38,23/04/2024,03:00,Leicester City,Southampton FC,5-0,Final
+38,24/04/2024,03:00,Coventry City,Hull City,2-3,Final
+39,29/03/2024,03:00,Bristol City,Leicester City,1-0,Final
+39,29/03/2024,03:00,Millwall FC,West Bromwich Albion,1-1,Final
+39,29/03/2024,03:00,Cardiff City,Sunderland AFC,0-2,Final
+39,29/03/2024,03:00,Southampton FC,Middlesbrough FC,1-1,Final
+39,29/03/2024,03:00,Huddersfield Town,Coventry City,1-3,Final
+39,29/03/2024,03:00,Hull City,Stoke City,0-2,Final
+39,29/03/2024,03:00,Norwich City,Plymouth Argyle,2-1,Final
+39,29/03/2024,03:00,Preston North End,Rotherham United,3-0,Final
+39,29/03/2024,03:00,Queens Park Rangers,Birmingham City,2-1,Final
+39,29/03/2024,03:00,Sheffield Wednesday,Swansea City,1-1,Final
+39,29/03/2024,03:00,Blackburn Rovers,Ipswich Town,0-1,Final
+39,29/03/2024,03:00,Watford FC,Leeds United,2-2,Final
+40,01/04/2024,03:00,Leicester City,Norwich City,3-1,Final
+40,01/04/2024,03:00,Sunderland AFC,Blackburn Rovers,1-5,Final
+40,01/04/2024,03:00,Birmingham City,Preston North End,1-0,Final
+40,01/04/2024,03:00,Coventry City,Cardiff City,1-2,Final
+40,01/04/2024,03:00,Middlesbrough FC,Sheffield Wednesday,2-0,Final
+40,01/04/2024,03:00,Plymouth Argyle,Bristol City,0-1,Final
+40,01/04/2024,03:00,Rotherham United,Millwall FC,2-1,Final
+40,01/04/2024,03:00,Stoke City,Huddersfield Town,1-1,Final
+40,01/04/2024,03:00,Swansea City,Queens Park Rangers,0-1,Final
+40,01/04/2024,03:00,West Bromwich Albion,Watford FC,2-2,Final
+40,01/04/2024,03:00,Ipswich Town,Southampton FC,3-2,Final
+40,01/04/2024,03:00,Leeds United,Hull City,3-1,Final
+41,05/04/2024,03:00,Rotherham United,Plymouth Argyle,0-1,Final
+41,06/04/2024,03:00,Norwich City,Ipswich Town,1-0,Final
+41,06/04/2024,03:00,Sunderland AFC,Bristol City,0-0,Final
+41,06/04/2024,03:00,Blackburn Rovers,Southampton FC,0-0,Final
+41,06/04/2024,03:00,Cardiff City,Hull City,1-3,Final
+41,06/04/2024,03:00,Coventry City,Leeds United,2-1,Final
+41,06/04/2024,03:00,Middlesbrough FC,Swansea City,2-0,Final
+41,06/04/2024,03:00,Watford FC,Preston North End,0-0,Final
+41,06/04/2024,03:00,Huddersfield Town,Millwall FC,1-0,Final
+41,06/04/2024,03:00,Leicester City,Birmingham City,2-1,Final
+41,06/04/2024,03:00,Queens Park Rangers,Sheffield Wednesday,0-2,Final
+41,06/04/2024,03:00,Stoke City,West Bromwich Albion,2-2,Final
+42,09/04/2024,03:00,Millwall FC,Leicester City,1-0,Final
+42,09/04/2024,03:00,Southampton FC,Coventry City,2-1,Final
+42,09/04/2024,03:00,Plymouth Argyle,Queens Park Rangers,1-1,Final
+42,09/04/2024,03:00,Preston North End,Huddersfield Town,4-1,Final
+42,09/04/2024,03:00,Sheffield Wednesday,Norwich City,2-2,Final
+42,09/04/2024,03:00,Leeds United,Sunderland AFC,0-0,Final
+42,10/04/2024,03:00,Birmingham City,Cardiff City,0-1,Final
+42,10/04/2024,03:00,Bristol City,Blackburn Rovers,5-0,Final
+42,10/04/2024,03:00,Hull City,Middlesbrough FC,2-2,Final
+42,10/04/2024,03:00,Ipswich Town,Watford FC,0-0,Final
+42,10/04/2024,03:00,Swansea City,Stoke City,3-0,Final
+42,10/04/2024,03:00,West Bromwich Albion,Rotherham United,2-0,Final
+43,12/04/2024,03:00,Plymouth Argyle,Leicester City,1-0,Final
+43,13/04/2024,03:00,Leeds United,Blackburn Rovers,0-1,Final
+43,13/04/2024,03:00,Birmingham City,Coventry City,3-0,Final
+43,13/04/2024,03:00,Bristol City,Huddersfield Town,1-1,Final
+43,13/04/2024,03:00,Millwall FC,Cardiff City,3-1,Final
+43,13/04/2024,03:00,Southampton FC,Watford FC,3-2,Final
+43,13/04/2024,03:00,Hull City,Queens Park Rangers,3-0,Final
+43,13/04/2024,03:00,Ipswich Town,Middlesbrough FC,1-1,Final
+43,13/04/2024,03:00,Preston North End,Norwich City,0-1,Final
+43,13/04/2024,03:00,Sheffield Wednesday,Stoke City,1-1,Final
+43,13/04/2024,03:00,Swansea City,Rotherham United,1-0,Final
+43,13/04/2024,03:00,West Bromwich Albion,Sunderland AFC,0-1,Final
+44,20/04/2024,03:00,Leicester City,West Bromwich Albion,2-1,Final
+44,20/04/2024,03:00,Sunderland AFC,Millwall FC,0-1,Final
+44,20/04/2024,03:00,Cardiff City,Southampton FC,2-1,Final
+44,20/04/2024,03:00,Watford FC,Hull City,0-0,Final
+44,20/04/2024,03:00,Huddersfield Town,Swansea City,0-4,Final
+44,20/04/2024,03:00,Norwich City,Bristol City,1-1,Final
+44,20/04/2024,03:00,Rotherham United,Birmingham City,0-0,Final
+44,20/04/2024,03:00,Stoke City,Plymouth Argyle,3-0,Final
+44,20/04/2024,03:00,Queens Park Rangers,Preston North End,1-0,Final
+44,21/04/2024,03:00,Blackburn Rovers,Sheffield Wednesday,1-3,Final
+44,22/04/2024,03:00,Middlesbrough FC,Leeds United,3-4,Final
+44,30/04/2024,03:00,Coventry City,Ipswich Town,1-2,Final
+45,26/04/2024,03:00,Queens Park Rangers,Leeds United,4-0,Final
+45,27/04/2024,03:00,Blackburn Rovers,Coventry City,0-0,Final
+45,27/04/2024,03:00,Bristol City,Rotherham United,2-0,Final
+45,27/04/2024,03:00,Cardiff City,Middlesbrough FC,1-4,Final
+45,27/04/2024,03:00,Millwall FC,Plymouth Argyle,1-0,Final
+45,27/04/2024,03:00,Southampton FC,Stoke City,0-1,Final
+45,27/04/2024,03:00,Watford FC,Sunderland AFC,1-0,Final
+45,27/04/2024,03:00,Huddersfield Town,Birmingham City,1-1,Final
+45,27/04/2024,03:00,Norwich City,Swansea City,2-2,Final
+45,27/04/2024,03:00,Sheffield Wednesday,West Bromwich Albion,3-0,Final
+45,27/04/2024,03:00,Hull City,Ipswich Town,3-3,Final
+45,29/04/2024,03:00,Preston North End,Leicester City,0-3,Final
+46,04/05/2024,03:00,Swansea City,Millwall FC,0-1,Final
+46,04/05/2024,03:00,Sunderland AFC,Sheffield Wednesday,0-2,Final
+46,04/05/2024,03:00,Birmingham City,Norwich City,1-0,Final
+46,04/05/2024,03:00,Coventry City,Queens Park Rangers,1-2,Final
+46,04/05/2024,03:00,Middlesbrough FC,Watford FC,3-1,Final
+46,04/05/2024,03:00,Ipswich Town,Huddersfield Town,2-0,Final
+46,04/05/2024,03:00,Leeds United,Southampton FC,1-2,Final
+46,04/05/2024,03:00,Leicester City,Blackburn Rovers,0-2,Final
+46,04/05/2024,03:00,Plymouth Argyle,Hull City,1-0,Final
+46,04/05/2024,03:00,Rotherham United,Cardiff City,5-2,Final
+46,04/05/2024,03:00,Stoke City,Bristol City,4-0,Final
+46,04/05/2024,03:00,West Bromwich Albion,Preston North End,3-0,Final

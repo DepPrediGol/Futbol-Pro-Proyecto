@@ -1,0 +1,326 @@
+matchday,date,time,home_team,away_team,result,status
+1,17/07/2021,03:00,Unión de Santa Fe,Boca Juniors,1-1,Final
+1,17/07/2021,03:00,Sarmiento de Junín,Estudiantes,0-3,Final
+1,17/07/2021,03:00,Aldosivi,Patronato de Paraná,0-2,Final
+1,17/07/2021,03:00,Lanús,Atlético Tucumán,4-2,Final
+1,17/07/2021,03:00,Newell's Old Boys,Talleres de Córdoba,3-2,Final
+1,17/07/2021,03:00,Gimnasia de La Plata,Platense,2-2,Final
+1,18/07/2021,03:00,Vélez Sarsfield,Racing Club,0-0,Final
+1,18/07/2021,03:00,Huracán,Defensa y Justicia,2-1,Final
+1,18/07/2021,03:00,Arsenal de Sarandí,San Lorenzo,1-1,Final
+1,18/07/2021,03:00,River Plate,Colón de Santa Fe,1-2,Final
+1,19/07/2021,03:00,Independiente,Argentinos Juniors,0-0,Final
+1,19/07/2021,03:00,Central Córdoba SdE,Banfield,1-1,Final
+1,20/07/2021,03:00,Godoy Cruz,Rosario Central,2-1,Final
+2,24/07/2021,03:00,Atlético Tucumán,Huracán,1-0,Final
+2,24/07/2021,03:00,Platense,Aldosivi,0-1,Final
+2,24/07/2021,03:00,Colón de Santa Fe,Lanús,1-4,Final
+2,24/07/2021,03:00,San Lorenzo,Central Córdoba SdE,1-0,Final
+2,24/07/2021,03:00,Racing Club,Gimnasia de La Plata,0-0,Final
+2,25/07/2021,03:00,Banfield,Boca Juniors,0-0,Final
+2,25/07/2021,03:00,Patronato de Paraná,Sarmiento de Junín,2-0,Final
+2,25/07/2021,03:00,Defensa y Justicia,Godoy Cruz,1-2,Final
+2,25/07/2021,03:00,Rosario Central,Vélez Sarsfield,1-0,Final
+2,25/07/2021,03:00,River Plate,Unión de Santa Fe,4-0,Final
+2,26/07/2021,03:00,Estudiantes,Independiente,0-1,Final
+2,26/07/2021,03:00,Talleres de Córdoba,Arsenal de Sarandí,2-0,Final
+2,27/07/2021,03:00,Argentinos Juniors,Newell's Old Boys,1-0,Final
+3,27/07/2021,03:00,Huracán,Colón de Santa Fe,1-1,Final
+3,27/07/2021,03:00,Aldosivi,Racing Club,0-2,Final
+3,28/07/2021,03:00,Boca Juniors,San Lorenzo,0-2,Final
+3,28/07/2021,03:00,Godoy Cruz,Atlético Tucumán,1-2,Final
+3,28/07/2021,03:00,Unión de Santa Fe,Banfield,0-1,Final
+3,28/07/2021,03:00,Sarmiento de Junín,Platense,1-0,Final
+3,28/07/2021,03:00,Vélez Sarsfield,Defensa y Justicia,0-0,Final
+3,28/07/2021,03:00,Independiente,Patronato de Paraná,2-0,Final
+3,29/07/2021,03:00,Lanús,River Plate,0-3,Final
+3,29/07/2021,03:00,Central Córdoba SdE,Talleres de Córdoba,2-1,Final
+3,29/07/2021,03:00,Arsenal de Sarandí,Argentinos Juniors,1-0,Final
+3,29/07/2021,03:00,Gimnasia de La Plata,Rosario Central,1-0,Final
+3,30/07/2021,03:00,Newell's Old Boys,Estudiantes,4-2,Final
+4,31/07/2021,03:00,Colón de Santa Fe,Godoy Cruz,1-0,Final
+4,31/07/2021,03:00,Lanús,Unión de Santa Fe,1-1,Final
+4,31/07/2021,03:00,Racing Club,Sarmiento de Junín,1-0,Final
+4,01/08/2021,03:00,Platense,Independiente,1-1,Final
+4,01/08/2021,03:00,Defensa y Justicia,Gimnasia de La Plata,3-2,Final
+4,01/08/2021,03:00,Talleres de Córdoba,Boca Juniors,0-0,Final
+4,01/08/2021,03:00,River Plate,Huracán,1-1,Final
+4,02/08/2021,03:00,San Lorenzo,Banfield,1-1,Final
+4,02/08/2021,03:00,Argentinos Juniors,Central Córdoba SdE,1-1,Final
+4,02/08/2021,03:00,Patronato de Paraná,Newell's Old Boys,0-0,Final
+4,03/08/2021,03:00,Estudiantes,Arsenal de Sarandí,4-0,Final
+4,03/08/2021,03:00,Rosario Central,Aldosivi,1-2,Final
+4,03/08/2021,03:00,Atlético Tucumán,Vélez Sarsfield,0-0,Final
+5,07/08/2021,03:00,Sarmiento de Junín,Rosario Central,1-0,Final
+5,07/08/2021,03:00,Newell's Old Boys,Platense,1-0,Final
+5,07/08/2021,03:00,Banfield,Talleres de Córdoba,0-1,Final
+5,07/08/2021,03:00,Unión de Santa Fe,San Lorenzo,4-0,Final
+5,07/08/2021,03:00,Huracán,Lanús,0-1,Final
+5,08/08/2021,03:00,Godoy Cruz,River Plate,2-1,Final
+5,08/08/2021,03:00,Gimnasia de La Plata,Atlético Tucumán,1-0,Final
+5,08/08/2021,03:00,Vélez Sarsfield,Colón de Santa Fe,0-1,Final
+5,08/08/2021,03:00,Boca Juniors,Argentinos Juniors,1-1,Final
+5,09/08/2021,03:00,Independiente,Racing Club,1-0,Final
+5,09/08/2021,03:00,Arsenal de Sarandí,Patronato de Paraná,2-2,Final
+5,09/08/2021,03:00,Aldosivi,Defensa y Justicia,1-0,Final
+5,10/08/2021,03:00,Central Córdoba SdE,Estudiantes,1-2,Final
+6,14/08/2021,03:00,Colón de Santa Fe,Gimnasia de La Plata,1-0,Final
+6,14/08/2021,03:00,Huracán,Unión de Santa Fe,0-0,Final
+6,14/08/2021,03:00,Atlético Tucumán,Aldosivi,2-2,Final
+6,14/08/2021,03:00,Argentinos Juniors,Banfield,2-0,Final
+6,14/08/2021,03:00,River Plate,Vélez Sarsfield,2-0,Final
+6,15/08/2021,03:00,Rosario Central,Independiente,1-2,Final
+6,15/08/2021,03:00,Patronato de Paraná,Central Córdoba SdE,1-0,Final
+6,15/08/2021,03:00,Platense,Arsenal de Sarandí,2-1,Final
+6,15/08/2021,03:00,Estudiantes,Boca Juniors,1-0,Final
+6,16/08/2021,03:00,Racing Club,Newell's Old Boys,2-0,Final
+6,16/08/2021,03:00,Talleres de Córdoba,San Lorenzo,2-0,Final
+6,17/08/2021,03:00,Defensa y Justicia,Sarmiento de Junín,4-2,Final
+6,17/08/2021,03:00,Lanús,Godoy Cruz,3-1,Final
+7,20/08/2021,03:00,Aldosivi,Colón de Santa Fe,3-0,Final
+7,21/08/2021,03:00,Banfield,Estudiantes,1-1,Final
+7,21/08/2021,03:00,Sarmiento de Junín,Atlético Tucumán,3-0,Final
+7,21/08/2021,03:00,Independiente,Defensa y Justicia,0-0,Final
+7,21/08/2021,03:00,Central Córdoba SdE,Platense,2-2,Final
+7,21/08/2021,03:00,Godoy Cruz,Huracán,1-1,Final
+7,21/08/2021,03:00,Vélez Sarsfield,Lanús,5-1,Final
+7,21/08/2021,03:00,Arsenal de Sarandí,Racing Club,0-3,Final
+7,22/08/2021,03:00,Boca Juniors,Patronato de Paraná,1-0,Final
+7,22/08/2021,03:00,Unión de Santa Fe,Talleres de Córdoba,1-2,Final
+7,22/08/2021,03:00,Newell's Old Boys,Rosario Central,1-1,Final
+7,22/08/2021,03:00,San Lorenzo,Argentinos Juniors,0-1,Final
+7,23/08/2021,03:00,Gimnasia de La Plata,River Plate,1-1,Final
+8,24/08/2021,03:00,Patronato de Paraná,Banfield,1-1,Final
+8,24/08/2021,03:00,Colón de Santa Fe,Sarmiento de Junín,1-1,Final
+8,24/08/2021,03:00,Atlético Tucumán,Independiente,2-0,Final
+8,25/08/2021,03:00,Racing Club,Central Córdoba SdE,0-0,Final
+8,25/08/2021,03:00,Rosario Central,Arsenal de Sarandí,4-0,Final
+8,25/08/2021,03:00,Lanús,Gimnasia de La Plata,2-0,Final
+8,25/08/2021,03:00,Defensa y Justicia,Newell's Old Boys,2-0,Final
+8,25/08/2021,03:00,Huracán,Vélez Sarsfield,1-1,Final
+8,26/08/2021,03:00,Platense,Boca Juniors,1-3,Final
+8,26/08/2021,03:00,Godoy Cruz,Unión de Santa Fe,1-2,Final
+8,26/08/2021,03:00,Argentinos Juniors,Talleres de Córdoba,1-2,Final
+8,26/08/2021,03:00,Estudiantes,San Lorenzo,2-0,Final
+8,27/08/2021,03:00,River Plate,Aldosivi,2-0,Final
+9,28/08/2021,03:00,Gimnasia de La Plata,Huracán,0-0,Final
+9,28/08/2021,03:00,Banfield,Platense,2-4,Final
+9,29/08/2021,03:00,Independiente,Colón de Santa Fe,3-0,Final
+9,29/08/2021,03:00,Arsenal de Sarandí,Defensa y Justicia,0-0,Final
+9,29/08/2021,03:00,Aldosivi,Lanús,2-3,Final
+9,29/08/2021,03:00,Central Córdoba SdE,Rosario Central,2-4,Final
+9,29/08/2021,03:00,Vélez Sarsfield,Godoy Cruz,3-0,Final
+9,30/08/2021,03:00,Boca Juniors,Racing Club,0-0,Final
+9,30/08/2021,03:00,Newell's Old Boys,Atlético Tucumán,1-2,Final
+9,30/08/2021,03:00,Unión de Santa Fe,Argentinos Juniors,1-0,Final
+9,30/08/2021,03:00,San Lorenzo,Patronato de Paraná,3-0,Final
+9,31/08/2021,03:00,Sarmiento de Junín,River Plate,1-2,Final
+9,31/08/2021,03:00,Talleres de Córdoba,Estudiantes,2-0,Final
+10,04/09/2021,03:00,Defensa y Justicia,Central Córdoba SdE,1-1,Final
+10,04/09/2021,03:00,Huracán,Aldosivi,2-0,Final
+10,04/09/2021,03:00,Atlético Tucumán,Arsenal de Sarandí,0-0,Final
+10,04/09/2021,03:00,Lanús,Sarmiento de Junín,1-1,Final
+10,04/09/2021,03:00,Colón de Santa Fe,Newell's Old Boys,1-1,Final
+10,04/09/2021,03:00,Platense,San Lorenzo,1-1,Final
+10,05/09/2021,03:00,Rosario Central,Boca Juniors,1-2,Final
+10,05/09/2021,03:00,Patronato de Paraná,Talleres de Córdoba,0-0,Final
+10,05/09/2021,03:00,Godoy Cruz,Gimnasia de La Plata,4-0,Final
+10,06/09/2021,03:00,Racing Club,Banfield,0-0,Final
+10,06/09/2021,03:00,River Plate,Independiente,1-1,Final
+10,06/09/2021,03:00,Estudiantes,Argentinos Juniors,1-1,Final
+10,07/09/2021,03:00,Vélez Sarsfield,Unión de Santa Fe,4-0,Final
+11,13/09/2021,03:00,Aldosivi,Godoy Cruz,1-4,Final
+11,13/09/2021,03:00,Sarmiento de Junín,Huracán,0-0,Final
+11,13/09/2021,03:00,Independiente,Lanús,0-1,Final
+11,13/09/2021,03:00,San Lorenzo,Racing Club,1-1,Final
+11,14/09/2021,03:00,Gimnasia de La Plata,Vélez Sarsfield,0-0,Final
+11,14/09/2021,03:00,Talleres de Córdoba,Platense,2-1,Final
+11,14/09/2021,03:00,Arsenal de Sarandí,Colón de Santa Fe,0-0,Final
+11,14/09/2021,03:00,Central Córdoba SdE,Atlético Tucumán,2-0,Final
+11,15/09/2021,03:00,Boca Juniors,Defensa y Justicia,0-0,Final
+11,15/09/2021,03:00,Unión de Santa Fe,Estudiantes,0-2,Final
+11,15/09/2021,03:00,Argentinos Juniors,Patronato de Paraná,1-1,Final
+11,15/09/2021,03:00,Banfield,Rosario Central,1-2,Final
+11,16/09/2021,03:00,Newell's Old Boys,River Plate,1-4,Final
+12,18/09/2021,03:00,Godoy Cruz,Sarmiento de Junín,1-1,Final
+12,18/09/2021,03:00,Vélez Sarsfield,Aldosivi,3-2,Final
+12,18/09/2021,03:00,Racing Club,Talleres de Córdoba,1-2,Final
+12,19/09/2021,03:00,Atlético Tucumán,Boca Juniors,1-2,Final
+12,19/09/2021,03:00,Patronato de Paraná,Estudiantes,1-2,Final
+12,19/09/2021,03:00,Colón de Santa Fe,Central Córdoba SdE,1-0,Final
+12,19/09/2021,03:00,Platense,Argentinos Juniors,0-0,Final
+12,19/09/2021,03:00,Huracán,Independiente,0-1,Final
+12,20/09/2021,03:00,River Plate,Arsenal de Sarandí,1-0,Final
+12,20/09/2021,03:00,Gimnasia de La Plata,Unión de Santa Fe,1-0,Final
+12,20/09/2021,03:00,Lanús,Newell's Old Boys,1-2,Final
+12,20/09/2021,03:00,Rosario Central,San Lorenzo,1-0,Final
+12,21/09/2021,03:00,Defensa y Justicia,Banfield,0-0,Final
+13,25/09/2021,03:00,Sarmiento de Junín,Vélez Sarsfield,0-1,Final
+13,25/09/2021,03:00,Estudiantes,Platense,1-1,Final
+13,25/09/2021,03:00,Aldosivi,Gimnasia de La Plata,1-3,Final
+13,25/09/2021,03:00,Arsenal de Sarandí,Lanús,1-0,Final
+13,25/09/2021,03:00,Talleres de Córdoba,Rosario Central,4-1,Final
+13,25/09/2021,03:00,Banfield,Atlético Tucumán,2-0,Final
+13,26/09/2021,03:00,Central Córdoba SdE,River Plate,1-3,Final
+13,26/09/2021,03:00,Unión de Santa Fe,Patronato de Paraná,2-0,Final
+13,26/09/2021,03:00,San Lorenzo,Defensa y Justicia,2-1,Final
+13,26/09/2021,03:00,Independiente,Godoy Cruz,1-4,Final
+13,27/09/2021,03:00,Boca Juniors,Colón de Santa Fe,1-0,Final
+13,27/09/2021,03:00,Argentinos Juniors,Racing Club,2-0,Final
+13,28/09/2021,03:00,Newell's Old Boys,Huracán,0-1,Final
+14,02/10/2021,03:00,Aldosivi,Unión de Santa Fe,1-2,Final
+14,02/10/2021,03:00,Lanús,Central Córdoba SdE,2-1,Final
+14,02/10/2021,03:00,Godoy Cruz,Newell's Old Boys,2-2,Final
+14,02/10/2021,03:00,Platense,Patronato de Paraná,0-0,Final
+14,02/10/2021,03:00,Huracán,Arsenal de Sarandí,1-0,Final
+14,02/10/2021,03:00,Atlético Tucumán,San Lorenzo,0-0,Final
+14,03/10/2021,03:00,Vélez Sarsfield,Independiente,3-3,Final
+14,03/10/2021,03:00,Gimnasia de La Plata,Sarmiento de Junín,0-1,Final
+14,03/10/2021,03:00,Rosario Central,Argentinos Juniors,0-1,Final
+14,03/10/2021,03:00,River Plate,Boca Juniors,2-1,Final
+14,04/10/2021,03:00,Racing Club,Estudiantes,1-1,Final
+14,04/10/2021,03:00,Defensa y Justicia,Talleres de Córdoba,3-0,Final
+14,05/10/2021,03:00,Colón de Santa Fe,Banfield,0-0,Final
+15,08/10/2021,03:00,Unión de Santa Fe,Platense,1-2,Final
+15,08/10/2021,03:00,Central Córdoba SdE,Huracán,1-2,Final
+15,09/10/2021,03:00,Estudiantes,Rosario Central,2-2,Final
+15,09/10/2021,03:00,Newell's Old Boys,Vélez Sarsfield,1-2,Final
+15,09/10/2021,03:00,Argentinos Juniors,Defensa y Justicia,0-2,Final
+15,09/10/2021,03:00,Sarmiento de Junín,Aldosivi,3-0,Final
+15,09/10/2021,03:00,Patronato de Paraná,Racing Club,1-2,Final
+15,09/10/2021,03:00,Banfield,River Plate,0-1,Final
+15,10/10/2021,03:00,Boca Juniors,Lanús,4-2,Final
+15,11/10/2021,03:00,Arsenal de Sarandí,Godoy Cruz,0-0,Final
+15,11/10/2021,03:00,San Lorenzo,Colón de Santa Fe,1-2,Final
+15,12/10/2021,03:00,Independiente,Gimnasia de La Plata,1-1,Final
+15,12/10/2021,03:00,Talleres de Córdoba,Atlético Tucumán,2-0,Final
+16,15/10/2021,03:00,Godoy Cruz,Central Córdoba SdE,0-0,Final
+16,15/10/2021,03:00,Rosario Central,Patronato de Paraná,3-2,Final
+16,16/10/2021,03:00,Racing Club,Platense,0-1,Final
+16,16/10/2021,03:00,Defensa y Justicia,Estudiantes,2-1,Final
+16,16/10/2021,03:00,Vélez Sarsfield,Arsenal de Sarandí,0-0,Final
+16,16/10/2021,03:00,Sarmiento de Junín,Unión de Santa Fe,3-4,Final
+16,16/10/2021,03:00,Gimnasia de La Plata,Newell's Old Boys,1-0,Final
+16,16/10/2021,03:00,Lanús,Banfield,1-1,Final
+16,17/10/2021,03:00,Huracán,Boca Juniors,0-3,Final
+16,17/10/2021,03:00,Atlético Tucumán,Argentinos Juniors,4-3,Final
+16,17/10/2021,03:00,Colón de Santa Fe,Talleres de Córdoba,1-0,Final
+16,17/10/2021,03:00,Aldosivi,Independiente,1-0,Final
+16,18/10/2021,03:00,River Plate,San Lorenzo,3-1,Final
+17,19/10/2021,03:00,Platense,Rosario Central,1-1,Final
+17,19/10/2021,03:00,Unión de Santa Fe,Racing Club,1-1,Final
+17,20/10/2021,03:00,Patronato de Paraná,Defensa y Justicia,3-3,Final
+17,20/10/2021,03:00,Central Córdoba SdE,Vélez Sarsfield,1-2,Final
+17,20/10/2021,03:00,Arsenal de Sarandí,Gimnasia de La Plata,0-1,Final
+17,20/10/2021,03:00,San Lorenzo,Lanús,1-3,Final
+17,21/10/2021,03:00,Banfield,Huracán,1-4,Final
+17,21/10/2021,03:00,Estudiantes,Atlético Tucumán,1-1,Final
+17,21/10/2021,03:00,Boca Juniors,Godoy Cruz,2-1,Final
+17,21/10/2021,03:00,Argentinos Juniors,Colón de Santa Fe,3-1,Final
+17,21/10/2021,03:00,Newell's Old Boys,Aldosivi,0-0,Final
+17,22/10/2021,03:00,Independiente,Sarmiento de Junín,1-1,Final
+17,22/10/2021,03:00,Talleres de Córdoba,River Plate,0-2,Final
+18,23/10/2021,03:00,Gimnasia de La Plata,Central Córdoba SdE,2-2,Final
+18,23/10/2021,03:00,Defensa y Justicia,Platense,2-1,Final
+18,24/10/2021,03:00,Rosario Central,Racing Club,2-1,Final
+18,24/10/2021,03:00,Godoy Cruz,Banfield,2-1,Final
+18,24/10/2021,03:00,Colón de Santa Fe,Estudiantes,2-1,Final
+18,24/10/2021,03:00,Huracán,San Lorenzo,2-1,Final
+18,25/10/2021,03:00,Vélez Sarsfield,Boca Juniors,2-0,Final
+18,25/10/2021,03:00,Aldosivi,Arsenal de Sarandí,2-1,Final
+18,25/10/2021,03:00,Sarmiento de Junín,Newell's Old Boys,2-1,Final
+18,25/10/2021,03:00,Atlético Tucumán,Patronato de Paraná,2-2,Final
+18,25/10/2021,03:00,Lanús,Talleres de Córdoba,3-3,Final
+18,26/10/2021,03:00,River Plate,Argentinos Juniors,3-0,Final
+18,26/10/2021,03:00,Independiente,Unión de Santa Fe,1-0,Final
+19,30/10/2021,03:00,Racing Club,Defensa y Justicia,1-2,Final
+19,30/10/2021,03:00,Argentinos Juniors,Lanús,0-1,Final
+19,30/10/2021,03:00,Arsenal de Sarandí,Sarmiento de Junín,1-0,Final
+19,30/10/2021,03:00,Platense,Atlético Tucumán,4-1,Final
+19,30/10/2021,03:00,Banfield,Vélez Sarsfield,2-1,Final
+19,30/10/2021,03:00,Talleres de Córdoba,Huracán,1-0,Final
+19,31/10/2021,03:00,Boca Juniors,Gimnasia de La Plata,0-1,Final
+19,31/10/2021,03:00,San Lorenzo,Godoy Cruz,1-0,Final
+19,31/10/2021,03:00,Unión de Santa Fe,Rosario Central,3-1,Final
+19,31/10/2021,03:00,Newell's Old Boys,Independiente,1-0,Final
+19,01/11/2021,03:00,Estudiantes,River Plate,1-1,Final
+19,01/11/2021,03:00,Patronato de Paraná,Colón de Santa Fe,2-0,Final
+19,02/11/2021,03:00,Central Córdoba SdE,Aldosivi,0-0,Final
+20,05/11/2021,03:00,Defensa y Justicia,Rosario Central,3-0,Final
+20,06/11/2021,03:00,Lanús,Estudiantes,1-1,Final
+20,06/11/2021,03:00,Godoy Cruz,Talleres de Córdoba,0-2,Final
+20,06/11/2021,03:00,Colón de Santa Fe,Platense,3-0,Final
+20,06/11/2021,03:00,Independiente,Arsenal de Sarandí,3-0,Final
+20,07/11/2021,03:00,Atlético Tucumán,Racing Club,0-2,Final
+20,07/11/2021,03:00,Sarmiento de Junín,Central Córdoba SdE,1-3,Final
+20,07/11/2021,03:00,Gimnasia de La Plata,Banfield,0-1,Final
+20,07/11/2021,03:00,Vélez Sarsfield,San Lorenzo,2-1,Final
+20,08/11/2021,03:00,River Plate,Patronato de Paraná,5-0,Final
+20,08/11/2021,03:00,Newell's Old Boys,Unión de Santa Fe,1-0,Final
+20,08/11/2021,03:00,Huracán,Argentinos Juniors,1-1,Final
+20,09/11/2021,03:00,Aldosivi,Boca Juniors,0-3,Final
+21,18/11/2021,03:00,Unión de Santa Fe,Defensa y Justicia,2-3,Final
+21,18/11/2021,03:00,Patronato de Paraná,Lanús,3-2,Final
+21,19/11/2021,03:00,Banfield,Aldosivi,0-2,Final
+21,19/11/2021,03:00,Estudiantes,Huracán,4-1,Final
+21,19/11/2021,03:00,San Lorenzo,Gimnasia de La Plata,0-1,Final
+21,20/11/2021,03:00,Argentinos Juniors,Godoy Cruz,0-0,Final
+21,20/11/2021,03:00,Talleres de Córdoba,Vélez Sarsfield,1-1,Final
+21,20/11/2021,03:00,Rosario Central,Atlético Tucumán,3-1,Final
+21,20/11/2021,03:00,Boca Juniors,Sarmiento de Junín,2-0,Final
+21,21/11/2021,03:00,Central Córdoba SdE,Independiente,1-0,Final
+21,21/11/2021,03:00,Arsenal de Sarandí,Newell's Old Boys,3-1,Final
+21,21/11/2021,03:00,Racing Club,Colón de Santa Fe,1-2,Final
+21,22/11/2021,03:00,Platense,River Plate,0-1,Final
+22,23/11/2021,03:00,Huracán,Patronato de Paraná,1-0,Final
+22,23/11/2021,03:00,Gimnasia de La Plata,Talleres de Córdoba,5-2,Final
+22,23/11/2021,03:00,Aldosivi,San Lorenzo,2-0,Final
+22,24/11/2021,03:00,Godoy Cruz,Estudiantes,1-3,Final
+22,24/11/2021,03:00,Vélez Sarsfield,Argentinos Juniors,2-0,Final
+22,24/11/2021,03:00,Sarmiento de Junín,Banfield,0-0,Final
+22,24/11/2021,03:00,Newell's Old Boys,Central Córdoba SdE,1-0,Final
+22,24/11/2021,03:00,Atlético Tucumán,Defensa y Justicia,0-4,Final
+22,25/11/2021,03:00,Independiente,Boca Juniors,1-0,Final
+22,25/11/2021,03:00,Arsenal de Sarandí,Unión de Santa Fe,0-1,Final
+22,25/11/2021,03:00,Lanús,Platense,3-3,Final
+22,25/11/2021,03:00,Colón de Santa Fe,Rosario Central,1-4,Final
+22,26/11/2021,03:00,River Plate,Racing Club,4-0,Final
+23,27/11/2021,03:00,Talleres de Córdoba,Aldosivi,2-0,Final
+23,27/11/2021,03:00,Patronato de Paraná,Godoy Cruz,0-3,Final
+23,28/11/2021,03:00,Estudiantes,Vélez Sarsfield,1-0,Final
+23,28/11/2021,03:00,Rosario Central,River Plate,2-2,Final
+23,28/11/2021,03:00,Argentinos Juniors,Gimnasia de La Plata,3-0,Final
+23,28/11/2021,03:00,Defensa y Justicia,Colón de Santa Fe,1-1,Final
+23,29/11/2021,03:00,Unión de Santa Fe,Atlético Tucumán,3-0,Final
+23,29/11/2021,03:00,Racing Club,Lanús,3-1,Final
+23,30/11/2021,03:00,Central Córdoba SdE,Arsenal de Sarandí,5-0,Final
+23,30/11/2021,03:00,Platense,Huracán,4-2,Final
+23,30/11/2021,03:00,San Lorenzo,Sarmiento de Junín,1-0,Final
+23,30/11/2021,03:00,Boca Juniors,Newell's Old Boys,0-0,Final
+23,01/12/2021,03:00,Banfield,Independiente,4-1,Final
+24,03/12/2021,03:00,Central Córdoba SdE,Unión de Santa Fe,2-0,Final
+24,03/12/2021,03:00,Colón de Santa Fe,Atlético Tucumán,3-0,Final
+24,04/12/2021,03:00,Vélez Sarsfield,Patronato de Paraná,0-0,Final
+24,04/12/2021,03:00,Arsenal de Sarandí,Boca Juniors,1-1,Final
+24,04/12/2021,03:00,Sarmiento de Junín,Talleres de Córdoba,1-2,Final
+24,04/12/2021,03:00,Godoy Cruz,Platense,2-2,Final
+24,05/12/2021,03:00,Huracán,Racing Club,1-0,Final
+24,05/12/2021,03:00,Lanús,Rosario Central,2-2,Final
+24,05/12/2021,03:00,Gimnasia de La Plata,Estudiantes,4-4,Final
+24,05/12/2021,03:00,Independiente,San Lorenzo,1-1,Final
+24,06/12/2021,03:00,River Plate,Defensa y Justicia,2-3,Final
+24,06/12/2021,03:00,Aldosivi,Argentinos Juniors,3-2,Final
+24,07/12/2021,03:00,Newell's Old Boys,Banfield,0-0,Final
+25,10/12/2021,03:00,Platense,Vélez Sarsfield,3-2,Final
+25,11/12/2021,03:00,Estudiantes,Aldosivi,2-3,Final
+25,11/12/2021,03:00,Argentinos Juniors,Sarmiento de Junín,2-0,Final
+25,11/12/2021,03:00,Patronato de Paraná,Gimnasia de La Plata,0-0,Final
+25,11/12/2021,03:00,Racing Club,Godoy Cruz,2-1,Final
+25,11/12/2021,03:00,Rosario Central,Huracán,1-4,Final
+25,11/12/2021,03:00,Unión de Santa Fe,Colón de Santa Fe,3-0,Final
+25,11/12/2021,03:00,Atlético Tucumán,River Plate,1-1,Final
+25,12/12/2021,03:00,Boca Juniors,Central Córdoba SdE,8-1,Final
+25,12/12/2021,03:00,San Lorenzo,Newell's Old Boys,3-2,Final
+25,12/12/2021,03:00,Defensa y Justicia,Lanús,2-1,Final
+25,13/12/2021,03:00,Talleres de Córdoba,Independiente,1-2,Final
+25,14/12/2021,03:00,Banfield,Arsenal de Sarandí,0-0,Final

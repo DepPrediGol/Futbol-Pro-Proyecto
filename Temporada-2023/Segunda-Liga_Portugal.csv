@@ -1,0 +1,309 @@
+matchday,date,time,home_team,away_team,result,status
+1,06/08/2022,05:00,Farense,Torreense,2-1,Final
+1,06/08/2022,08:00,Nacional,Tondela,0-1,Final
+1,06/08/2022,08:00,Oliveirense,Mafra,3-1,Final
+1,06/08/2022,09:30,Trofense,Belenenses,3-2,Final
+1,06/08/2022,12:00,Benfica B,Academico Viseu,1-1,Final
+1,07/08/2022,05:00,Feirense,Estrela,1-1,Final
+1,07/08/2022,09:30,Moreirense,Vilafranquense,1-0,Final
+1,07/08/2022,12:00,FC Porto B,SC Covilha,0-1,Final
+1,08/08/2022,12:00,Penafiel,Leixoes,0-0,Final
+2,12/08/2022,12:00,Tondela,Benfica B,1-1,Final
+2,13/08/2022,05:00,SC Covilha,Feirense,0-2,Final
+2,13/08/2022,09:30,Torreense,Nacional,0-2,Final
+2,13/08/2022,09:30,Estrela,Farense,1-1,Final
+2,14/08/2022,05:00,Academico Viseu,Moreirense,1-3,Final
+2,14/08/2022,09:30,Belenenses,FC Porto B,2-3,Final
+2,14/08/2022,09:30,Vilafranquense,Oliveirense,2-1,Final
+2,15/08/2022,12:00,Mafra,Penafiel,3-0,Final
+2,15/08/2022,14:30,Leixoes,Trofense,1-0,Final
+3,17/08/2022,05:00,Benfica B,Estrela,1-2,Final
+3,19/08/2022,12:00,Tondela,SC Covilha,1-1,Final
+3,20/08/2022,05:00,Farense,Academico Viseu,2-2,Final
+3,20/08/2022,09:30,Moreirense,Torreense,3-0,Final
+3,20/08/2022,12:00,Trofense,Vilafranquense,1-3,Final
+3,21/08/2022,05:00,Feirense,Leixoes,1-1,Final
+3,21/08/2022,08:00,Nacional,Mafra,0-2,Final
+3,21/08/2022,09:30,FC Porto B,Oliveirense,2-0,Final
+3,22/08/2022,12:00,Penafiel,Belenenses,3-3,Final
+4,26/08/2022,12:00,Vilafranquense,Feirense,1-0,Final
+4,27/08/2022,05:00,Academico Viseu,Tondela,2-2,Final
+4,27/08/2022,08:00,Belenenses,Moreirense,2-3,Final
+4,27/08/2022,09:30,SC Covilha,Penafiel,0-2,Final
+4,28/08/2022,05:00,Leixoes,Nacional,3-0,Final
+4,28/08/2022,08:00,Torreense,Benfica B,0-0,Final
+4,28/08/2022,09:30,Estrela,FC Porto B,1-1,Final
+4,28/08/2022,12:00,Oliveirense,Trofense,1-1,Final
+4,29/08/2022,12:00,Mafra,Farense,0-3,Final
+5,03/09/2022,05:00,Benfica B,Leixoes,2-1,Final
+5,03/09/2022,05:00,Academico Viseu,Torreense,1-2,Final
+5,03/09/2022,08:00,Moreirense,Oliveirense,4-1,Final
+5,03/09/2022,09:30,FC Porto B,Vilafranquense,0-1,Final
+5,04/09/2022,05:00,Penafiel,Trofense,3-0,Final
+5,04/09/2022,08:00,Feirense,Mafra,0-0,Final
+5,04/09/2022,09:30,Nacional,Belenenses,1-3,Final
+5,04/09/2022,09:30,Farense,SC Covilha,2-2,Final
+5,05/09/2022,12:00,Tondela,Estrela,1-1,Final
+6,09/09/2022,12:00,Oliveirense,Penafiel,1-1,Final
+6,10/09/2022,05:00,Vilafranquense,Benfica B,3-2,Final
+6,10/09/2022,09:30,Mafra,FC Porto B,0-1,Final
+6,11/09/2022,05:00,Belenenses,Feirense,1-1,Final
+6,11/09/2022,05:00,SC Covilha,Nacional,1-2,Final
+6,11/09/2022,08:00,Leixoes,Farense,0-1,Final
+6,11/09/2022,09:30,Torreense,Tondela,0-3,Final
+6,11/09/2022,12:00,Trofense,Moreirense,0-3,Final
+6,12/09/2022,12:00,Estrela,Academico Viseu,2-1,Final
+7,16/09/2022,12:00,Tondela,Belenenses,3-1,Final
+7,17/09/2022,05:00,Academico Viseu,Mafra,2-0,Final
+7,17/09/2022,08:00,Penafiel,Moreirense,1-1,Final
+7,17/09/2022,09:30,FC Porto B,Torreense,2-0,Final
+7,18/09/2022,05:00,Benfica B,SC Covilha,4-0,Final
+7,18/09/2022,05:00,Farense,Vilafranquense,2-1,Final
+7,18/09/2022,08:00,Nacional,Trofense,0-1,Final
+7,18/09/2022,09:30,Estrela,Leixoes,2-2,Final
+7,19/09/2022,12:00,Feirense,Oliveirense,3-2,Final
+8,07/10/2022,12:00,Belenenses,Farense,2-3,Final
+8,08/10/2022,05:00,Leixoes,FC Porto B,0-0,Final
+8,08/10/2022,06:45,Oliveirense,Benfica B,2-2,Final
+8,08/10/2022,09:30,Vilafranquense,Penafiel,0-1,Final
+8,08/10/2022,14:30,Torreense,Estrela,1-0,Final
+8,09/10/2022,05:00,SC Covilha,Academico Viseu,2-3,Final
+8,09/10/2022,08:00,Moreirense,Nacional,3-1,Final
+8,09/10/2022,09:30,Mafra,Tondela,1-1,Final
+8,10/10/2022,12:00,Trofense,Feirense,0-3,Final
+9,15/10/2022,12:00,Estrela,SC Covilha,2-1,Final
+9,18/10/2022,12:00,Benfica B,Mafra,5-1,Final
+9,18/10/2022,12:00,Torreense,Belenenses,0-1,Final
+9,18/10/2022,14:30,Feirense,Moreirense,1-2,Final
+9,19/10/2022,09:30,Academico Viseu,Leixoes,2-2,Final
+9,19/10/2022,09:30,FC Porto B,Penafiel,0-0,Final
+9,19/10/2022,12:00,Nacional,Vilafranquense,1-1,Final
+9,19/10/2022,14:30,Tondela,Oliveirense,1-3,Final
+10,22/10/2022,05:00,SC Covilha,Torreense,0-3,Final
+10,22/10/2022,14:30,Belenenses,Benfica B,0-2,Final
+10,23/10/2022,05:00,Trofense,FC Porto B,0-3,Final
+10,23/10/2022,08:00,Oliveirense,Nacional,0-0,Final
+10,23/10/2022,08:00,Penafiel,Feirense,0-1,Final
+10,23/10/2022,09:30,Moreirense,Farense,3-2,Final
+10,23/10/2022,09:30,Mafra,Estrela,2-2,Final
+10,23/10/2022,12:00,Vilafranquense,Academico Viseu,1-3,Final
+10,24/10/2022,12:00,Leixoes,Tondela,1-1,Final
+11,29/10/2022,05:00,Torreense,Mafra,0-1,Final
+11,29/10/2022,06:45,Nacional,Penafiel,1-1,Final
+11,29/10/2022,06:45,FC Porto B,Feirense,0-0,Final
+11,29/10/2022,08:00,Benfica B,Moreirense,2-1,Final
+11,30/10/2022,06:00,Academico Viseu,Belenenses,2-1,Final
+11,30/10/2022,09:00,Farense,Oliveirense,2-0,Final
+11,30/10/2022,10:30,SC Covilha,Leixoes,1-2,Final
+11,30/10/2022,13:00,Tondela,Trofense,0-0,Final
+11,31/10/2022,13:00,Estrela,Vilafranquense,1-1,Final
+12,04/11/2022,13:00,Mafra,SC Covilha,3-2,Final
+12,05/11/2022,06:00,Moreirense,FC Porto B,3-2,Final
+12,05/11/2022,09:00,Leixoes,Torreense,1-0,Final
+12,05/11/2022,09:00,Vilafranquense,Tondela,1-1,Final
+12,05/11/2022,10:30,Penafiel,Farense,0-2,Final
+12,05/11/2022,13:00,Oliveirense,Academico Viseu,1-1,Final
+12,06/11/2022,06:00,Feirense,Nacional,1-1,Final
+12,06/11/2022,10:30,Belenenses,Estrela,1-3,Final
+12,07/11/2022,13:00,Trofense,Benfica B,1-2,Final
+13,11/11/2022,15:15,Torreense,Vilafranquense,0-1,Final
+13,12/11/2022,06:00,Estrela,Oliveirense,1-0,Final
+13,12/11/2022,09:00,Farense,Feirense,0-0,Final
+13,12/11/2022,13:00,Nacional,FC Porto B,4-0,Final
+13,12/11/2022,13:00,Benfica B,Penafiel,1-2,Final
+13,13/11/2022,06:00,Academico Viseu,Trofense,3-1,Final
+13,13/11/2022,09:00,SC Covilha,Belenenses,1-1,Final
+13,14/11/2022,13:00,Tondela,Moreirense,1-1,Final
+13,14/11/2022,13:00,Mafra,Leixoes,1-1,Final
+9,16/11/2022,15:15,Farense,Trofense,3-1,Final
+14,23/12/2022,14:00,Vilafranquense,Mafra,3-3,Final
+14,23/12/2022,16:15,Feirense,Tondela,1-1,Final
+14,28/12/2022,12:00,FC Porto B,Farense,4-0,Final
+14,29/12/2022,12:00,Belenenses,Leixoes,2-0,Final
+14,29/12/2022,14:00,Nacional,Benfica B,2-0,Final
+14,30/12/2022,12:00,Oliveirense,SC Covilha,2-0,Final
+14,30/12/2022,14:00,Trofense,Torreense,0-1,Final
+14,31/12/2022,06:00,Penafiel,Academico Viseu,1-2,Final
+14,31/12/2022,09:00,Moreirense,Estrela,0-0,Final
+15,05/01/2023,13:00,Leixoes,Moreirense,0-1,Final
+15,07/01/2023,06:00,Academico Viseu,FC Porto B,2-1,Final
+15,07/01/2023,09:00,Farense,Nacional,1-0,Final
+15,07/01/2023,10:30,Mafra,Belenenses,0-1,Final
+15,07/01/2023,10:30,Torreense,Oliveirense,1-1,Final
+15,08/01/2023,06:00,SC Covilha,Vilafranquense,0-0,Final
+15,08/01/2023,09:00,Benfica B,Feirense,3-6,Final
+15,08/01/2023,09:00,Estrela,Trofense,2-2,Final
+15,09/01/2023,15:15,Tondela,Penafiel,0-1,Final
+16,13/01/2023,13:00,Moreirense,Mafra,4-2,Final
+16,14/01/2023,06:00,Penafiel,Torreense,0-0,Final
+16,14/01/2023,09:00,Trofense,SC Covilha,2-0,Final
+16,14/01/2023,10:30,Vilafranquense,Leixoes,2-0,Final
+16,15/01/2023,06:00,Feirense,Academico Viseu,1-1,Final
+16,15/01/2023,09:00,Nacional,Estrela,0-1,Final
+16,15/01/2023,10:30,Farense,Benfica B,5-2,Final
+16,15/01/2023,10:30,FC Porto B,Tondela,1-1,Final
+16,15/01/2023,13:00,Oliveirense,Belenenses,2-1,Final
+17,21/01/2023,06:00,Academico Viseu,Nacional,1-1,Final
+17,21/01/2023,07:45,Belenenses,Vilafranquense,0-3,Final
+17,21/01/2023,10:30,Leixoes,Oliveirense,1-2,Final
+17,21/01/2023,10:30,Mafra,Trofense,1-0,Final
+17,22/01/2023,06:00,SC Covilha,Moreirense,0-0,Final
+17,22/01/2023,09:00,Tondela,Farense,1-0,Final
+17,22/01/2023,09:00,Benfica B,FC Porto B,2-2,Final
+17,22/01/2023,10:30,Estrela,Penafiel,3-0,Final
+17,23/01/2023,13:00,Torreense,Feirense,4-2,Final
+18,29/01/2023,06:00,Torreense,Farense,1-0,Final
+18,29/01/2023,07:45,SC Covilha,FC Porto B,1-2,Final
+18,29/01/2023,09:00,Tondela,Nacional,1-0,Final
+18,29/01/2023,09:00,Vilafranquense,Moreirense,1-2,Final
+18,29/01/2023,10:30,Mafra,Oliveirense,2-3,Final
+18,29/01/2023,10:30,Estrela,Feirense,4-1,Final
+18,29/01/2023,13:00,Leixoes,Penafiel,2-1,Final
+18,30/01/2023,13:00,Belenenses,Trofense,1-1,Final
+18,31/01/2023,13:00,Academico Viseu,Benfica B,2-0,Final
+19,03/02/2023,15:15,Farense,Estrela,2-2,Final
+19,04/02/2023,06:00,Oliveirense,Vilafranquense,2-2,Final
+19,04/02/2023,09:00,Moreirense,Academico Viseu,1-0,Final
+19,04/02/2023,10:30,Nacional,Torreense,3-1,Final
+19,04/02/2023,10:30,FC Porto B,Belenenses,1-2,Final
+19,05/02/2023,06:00,Penafiel,Mafra,1-0,Final
+19,05/02/2023,09:00,Benfica B,Tondela,2-1,Final
+19,05/02/2023,09:00,Trofense,Leixoes,0-1,Final
+19,06/02/2023,13:00,Feirense,SC Covilha,0-2,Final
+20,10/02/2023,13:00,Torreense,Moreirense,1-0,Final
+20,11/02/2023,06:00,Leixoes,Feirense,0-1,Final
+20,11/02/2023,09:00,Estrela,Benfica B,2-1,Final
+20,11/02/2023,10:30,SC Covilha,Tondela,1-0,Final
+20,11/02/2023,10:30,Vilafranquense,Trofense,0-1,Final
+20,12/02/2023,06:00,Oliveirense,FC Porto B,2-1,Final
+20,12/02/2023,09:00,Academico Viseu,Farense,2-0,Final
+20,13/02/2023,13:00,Belenenses,Penafiel,2-2,Final
+20,13/02/2023,13:00,Mafra,Nacional,3-3,Final
+21,17/02/2023,13:00,Tondela,Academico Viseu,1-1,Final
+21,18/02/2023,06:00,Penafiel,SC Covilha,1-1,Final
+21,18/02/2023,09:00,Trofense,Oliveirense,2-1,Final
+21,18/02/2023,10:30,Feirense,Vilafranquense,1-2,Final
+21,18/02/2023,10:30,FC Porto B,Estrela,1-2,Final
+21,19/02/2023,06:00,Nacional,Leixoes,1-2,Final
+21,19/02/2023,09:00,Moreirense,Belenenses,4-1,Final
+21,19/02/2023,10:30,Benfica B,Torreense,1-2,Final
+21,19/02/2023,10:30,Farense,Mafra,1-0,Final
+22,24/02/2023,13:00,Trofense,Penafiel,1-2,Final
+22,25/02/2023,06:00,Torreense,Academico Viseu,1-2,Final
+22,25/02/2023,09:00,Leixoes,Benfica B,1-1,Final
+22,25/02/2023,10:30,Oliveirense,Moreirense,2-2,Final
+22,26/02/2023,06:00,Mafra,Feirense,1-1,Final
+22,26/02/2023,06:00,Vilafranquense,FC Porto B,1-2,Final
+22,26/02/2023,09:00,Belenenses,Nacional,0-1,Final
+22,26/02/2023,09:00,SC Covilha,Farense,1-0,Final
+22,26/02/2023,10:30,Estrela,Tondela,0-0,Final
+23,04/03/2023,06:00,Benfica B,Vilafranquense,0-2,Final
+23,04/03/2023,06:00,Penafiel,Oliveirense,1-1,Final
+23,04/03/2023,09:00,Moreirense,Trofense,1-0,Final
+23,04/03/2023,10:30,Tondela,Torreense,1-1,Final
+23,05/03/2023,06:00,Farense,Leixoes,1-0,Final
+23,05/03/2023,09:00,Nacional,SC Covilha,2-0,Final
+23,05/03/2023,09:00,Academico Viseu,Estrela,1-1,Final
+23,05/03/2023,10:30,Feirense,Belenenses,0-1,Final
+23,05/03/2023,10:30,FC Porto B,Mafra,1-1,Final
+24,10/03/2023,13:00,Moreirense,Penafiel,3-1,Final
+24,11/03/2023,06:00,Vilafranquense,Farense,1-1,Final
+24,11/03/2023,09:00,Torreense,FC Porto B,3-0,Final
+24,11/03/2023,09:00,Trofense,Nacional,2-2,Final
+24,11/03/2023,10:30,Oliveirense,Feirense,0-1,Final
+24,12/03/2023,06:00,SC Covilha,Benfica B,2-1,Final
+24,12/03/2023,09:00,Mafra,Academico Viseu,2-0,Final
+24,12/03/2023,10:30,Belenenses,Tondela,0-2,Final
+24,12/03/2023,10:30,Leixoes,Estrela,1-1,Final
+25,18/03/2023,06:00,Estrela,Torreense,1-0,Final
+25,18/03/2023,09:00,Feirense,Trofense,1-0,Final
+25,18/03/2023,10:30,Nacional,Moreirense,0-2,Final
+25,19/03/2023,06:00,Tondela,Mafra,1-2,Final
+25,19/03/2023,06:00,Benfica B,Oliveirense,2-0,Final
+25,19/03/2023,07:45,Academico Viseu,SC Covilha,1-0,Final
+25,19/03/2023,09:00,Penafiel,Vilafranquense,1-1,Final
+25,19/03/2023,10:30,Farense,Belenenses,4-0,Final
+25,19/03/2023,10:30,FC Porto B,Leixoes,4-0,Final
+26,01/04/2023,05:00,Trofense,Farense,2-1,Final
+26,01/04/2023,06:45,Mafra,Benfica B,1-1,Final
+26,01/04/2023,08:00,Moreirense,Feirense,0-0,Final
+26,01/04/2023,09:30,Oliveirense,Tondela,0-0,Final
+26,02/04/2023,05:00,Belenenses,Torreense,1-3,Final
+26,02/04/2023,05:00,Leixoes,Academico Viseu,2-3,Final
+26,02/04/2023,08:00,SC Covilha,Estrela,0-2,Final
+26,02/04/2023,09:30,Vilafranquense,Nacional,4-0,Final
+26,03/04/2023,12:00,Penafiel,FC Porto B,1-2,Final
+27,07/04/2023,05:00,Nacional,Oliveirense,0-3,Final
+27,07/04/2023,08:00,Farense,Moreirense,3-1,Final
+27,07/04/2023,09:30,Estrela,Mafra,2-2,Final
+27,08/04/2023,05:00,Benfica B,Belenenses,0-1,Final
+27,08/04/2023,05:00,Academico Viseu,Vilafranquense,2-0,Final
+27,08/04/2023,08:00,Tondela,Leixoes,2-3,Final
+27,08/04/2023,09:30,Feirense,Penafiel,2-1,Final
+27,08/04/2023,09:30,FC Porto B,Trofense,4-2,Final
+27,08/04/2023,09:30,Torreense,SC Covilha,3-1,Final
+28,14/04/2023,12:00,Oliveirense,Farense,1-2,Final
+28,15/04/2023,05:00,Belenenses,Academico Viseu,1-1,Final
+28,15/04/2023,08:00,Trofense,Tondela,1-2,Final
+28,15/04/2023,09:30,Leixoes,SC Covilha,3-2,Final
+28,15/04/2023,09:30,Mafra,Torreense,1-0,Final
+28,16/04/2023,05:00,Moreirense,Benfica B,7-4,Final
+28,16/04/2023,08:00,Feirense,FC Porto B,3-0,Final
+28,16/04/2023,09:30,Penafiel,Nacional,3-0,Final
+28,17/04/2023,14:15,Vilafranquense,Estrela,0-1,Final
+29,21/04/2023,12:00,Nacional,Feirense,0-0,Final
+29,22/04/2023,05:00,Academico Viseu,Oliveirense,1-4,Final
+29,22/04/2023,08:00,Torreense,Leixoes,2-0,Final
+29,22/04/2023,09:30,Farense,Penafiel,2-1,Final
+29,23/04/2023,05:00,Tondela,Vilafranquense,1-0,Final
+29,23/04/2023,08:00,Estrela,Belenenses,2-0,Final
+29,23/04/2023,09:30,FC Porto B,Moreirense,0-0,Final
+29,24/04/2023,12:00,Benfica B,Trofense,0-0,Final
+29,24/04/2023,12:00,SC Covilha,Mafra,1-2,Final
+30,28/04/2023,12:00,Oliveirense,Estrela,1-2,Final
+30,29/04/2023,05:00,Feirense,Farense,1-2,Final
+30,29/04/2023,05:00,Vilafranquense,Torreense,2-0,Final
+30,29/04/2023,08:00,Moreirense,Tondela,2-1,Final
+30,30/04/2023,05:00,Belenenses,SC Covilha,0-1,Final
+30,30/04/2023,05:00,Leixoes,Mafra,0-2,Final
+30,30/04/2023,06:45,FC Porto B,Nacional,1-1,Final
+30,30/04/2023,08:00,Penafiel,Benfica B,0-3,Final
+30,30/04/2023,09:30,Trofense,Academico Viseu,1-0,Final
+31,05/05/2023,12:00,Leixoes,Belenenses,0-2,Final
+31,06/05/2023,05:00,Mafra,Vilafranquense,2-1,Final
+31,06/05/2023,08:00,SC Covilha,Oliveirense,2-1,Final
+31,06/05/2023,09:30,Tondela,Feirense,1-1,Final
+31,06/05/2023,12:00,Estrela,Moreirense,2-4,Final
+31,07/05/2023,05:00,Benfica B,Nacional,1-2,Final
+31,07/05/2023,05:00,Torreense,Trofense,0-0,Final
+31,07/05/2023,08:00,Academico Viseu,Penafiel,0-0,Final
+31,07/05/2023,09:30,Farense,FC Porto B,2-0,Final
+32,12/05/2023,12:00,Trofense,Estrela,2-2,Final
+32,13/05/2023,05:00,Belenenses,Mafra,2-2,Final
+32,13/05/2023,08:00,Feirense,Benfica B,1-2,Final
+32,14/05/2023,05:00,Nacional,Farense,0-1,Final
+32,14/05/2023,08:00,Penafiel,Tondela,1-0,Final
+32,14/05/2023,09:30,Moreirense,Leixoes,4-2,Final
+32,14/05/2023,09:30,FC Porto B,Academico Viseu,3-1,Final
+32,14/05/2023,12:00,Vilafranquense,SC Covilha,0-0,Final
+32,15/05/2023,12:00,Oliveirense,Torreense,3-1,Final
+33,19/05/2023,12:00,Benfica B,Farense,0-1,Final
+33,19/05/2023,12:00,Leixoes,Vilafranquense,2-0,Final
+33,20/05/2023,05:00,SC Covilha,Trofense,0-2,Final
+33,20/05/2023,08:00,Academico Viseu,Feirense,2-1,Final
+33,20/05/2023,09:30,Belenenses,Oliveirense,2-1,Final
+33,21/05/2023,05:00,Estrela,Nacional,0-1,Final
+33,21/05/2023,08:00,Mafra,Moreirense,0-2,Final
+33,21/05/2023,09:30,Torreense,Penafiel,5-1,Final
+33,22/05/2023,12:00,Tondela,FC Porto B,0-1,Final
+34,25/05/2023,14:15,Moreirense,SC Covilha,6-4,Final
+34,26/05/2023,12:00,Feirense,Torreense,4-1,Final
+34,27/05/2023,05:00,Penafiel,Estrela,2-4,Final
+34,27/05/2023,06:45,FC Porto B,Benfica B,3-1,Final
+34,28/05/2023,05:00,Oliveirense,Leixoes,4-3,Final
+34,28/05/2023,09:30,Nacional,Academico Viseu,3-2,Final
+34,28/05/2023,09:30,Vilafranquense,Belenenses,1-1,Final
+34,28/05/2023,09:30,Trofense,Mafra,1-2,Final
+34,28/05/2023,12:00,Farense,Tondela,3-1,Final
+35,03/06/2023,12:00,Vilaverdense,Belenenses,1-1,Final
+35,11/06/2023,11:00,Belenenses,Vilaverdense,0-1,Final

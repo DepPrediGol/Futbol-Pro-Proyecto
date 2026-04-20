@@ -1,0 +1,381 @@
+matchday,date,time,home_team,away_team,result,status
+1,13/08/2022,03:00,AC Milan,Udinese Calcio,4-2,Final
+1,13/08/2022,03:00,Sampdoria,Atalanta,0-2,Final
+1,13/08/2022,03:00,AC Monza,Torino FC,1-2,Final
+1,13/08/2022,03:00,US Lecce,Inter,1-2,Final
+1,14/08/2022,03:00,ACF Fiorentina,US Cremonese,3-2,Final
+1,14/08/2022,03:00,Lazio Roma,Bologna FC,2-1,Final
+1,14/08/2022,03:00,Spezia Calcio,Empoli FC,1-0,Final
+1,14/08/2022,03:00,US Salernitana 1919,AS Roma,0-1,Final
+1,15/08/2022,03:00,Hellas Verona,SSC Napoli,2-5,Final
+1,15/08/2022,03:00,Juventus,Sassuolo Calcio,3-0,Final
+2,20/08/2022,03:00,Torino FC,Lazio Roma,0-0,Final
+2,20/08/2022,03:00,Udinese Calcio,US Salernitana 1919,0-0,Final
+2,20/08/2022,03:00,Inter,Spezia Calcio,3-0,Final
+2,20/08/2022,03:00,Sassuolo Calcio,US Lecce,1-0,Final
+2,21/08/2022,03:00,Empoli FC,ACF Fiorentina,0-0,Final
+2,21/08/2022,03:00,SSC Napoli,AC Monza,4-0,Final
+2,21/08/2022,03:00,Atalanta,AC Milan,1-1,Final
+2,21/08/2022,03:00,Bologna FC,Hellas Verona,1-1,Final
+2,22/08/2022,03:00,AS Roma,US Cremonese,1-0,Final
+2,22/08/2022,03:00,Sampdoria,Juventus,0-0,Final
+3,26/08/2022,03:00,AC Monza,Udinese Calcio,1-2,Final
+3,26/08/2022,03:00,Lazio Roma,Inter,3-1,Final
+3,27/08/2022,03:00,Juventus,AS Roma,1-1,Final
+3,27/08/2022,03:00,US Cremonese,Torino FC,1-2,Final
+3,27/08/2022,03:00,AC Milan,Bologna FC,2-0,Final
+3,27/08/2022,03:00,Spezia Calcio,Sassuolo Calcio,2-2,Final
+3,28/08/2022,03:00,Hellas Verona,Atalanta,0-1,Final
+3,28/08/2022,03:00,US Salernitana 1919,Sampdoria,4-0,Final
+3,28/08/2022,03:00,ACF Fiorentina,SSC Napoli,0-0,Final
+3,28/08/2022,03:00,US Lecce,Empoli FC,1-1,Final
+4,30/08/2022,03:00,Sassuolo Calcio,AC Milan,0-0,Final
+4,30/08/2022,03:00,AS Roma,AC Monza,3-0,Final
+4,30/08/2022,03:00,Inter,US Cremonese,3-1,Final
+4,31/08/2022,03:00,Empoli FC,Hellas Verona,1-1,Final
+4,31/08/2022,03:00,Sampdoria,Lazio Roma,1-1,Final
+4,31/08/2022,03:00,Udinese Calcio,ACF Fiorentina,1-0,Final
+4,31/08/2022,03:00,Juventus,Spezia Calcio,2-0,Final
+4,31/08/2022,03:00,SSC Napoli,US Lecce,1-1,Final
+4,01/09/2022,03:00,Atalanta,Torino FC,3-1,Final
+4,01/09/2022,03:00,Bologna FC,US Salernitana 1919,1-1,Final
+5,03/09/2022,03:00,ACF Fiorentina,Juventus,1-1,Final
+5,03/09/2022,03:00,AC Milan,Inter,3-2,Final
+5,03/09/2022,03:00,Lazio Roma,SSC Napoli,1-2,Final
+5,04/09/2022,03:00,US Cremonese,Sassuolo Calcio,0-0,Final
+5,04/09/2022,03:00,Spezia Calcio,Bologna FC,2-2,Final
+5,04/09/2022,03:00,Hellas Verona,Sampdoria,2-1,Final
+5,04/09/2022,03:00,Udinese Calcio,AS Roma,4-0,Final
+5,05/09/2022,03:00,AC Monza,Atalanta,0-2,Final
+5,05/09/2022,03:00,US Salernitana 1919,Empoli FC,2-2,Final
+5,05/09/2022,03:00,Torino FC,US Lecce,1-0,Final
+6,10/09/2022,03:00,SSC Napoli,Spezia Calcio,1-0,Final
+6,10/09/2022,03:00,Inter,Torino FC,1-0,Final
+6,10/09/2022,03:00,Sampdoria,AC Milan,1-2,Final
+6,11/09/2022,03:00,Atalanta,US Cremonese,1-1,Final
+6,11/09/2022,03:00,Bologna FC,ACF Fiorentina,2-1,Final
+6,11/09/2022,03:00,Sassuolo Calcio,Udinese Calcio,1-3,Final
+6,11/09/2022,03:00,US Lecce,AC Monza,1-1,Final
+6,11/09/2022,03:00,Lazio Roma,Hellas Verona,2-0,Final
+6,11/09/2022,03:00,Juventus,US Salernitana 1919,2-2,Final
+6,12/09/2022,03:00,Empoli FC,AS Roma,1-2,Final
+7,16/09/2022,03:00,US Salernitana 1919,US Lecce,1-2,Final
+7,17/09/2022,03:00,Bologna FC,Empoli FC,0-1,Final
+7,17/09/2022,03:00,Spezia Calcio,Sampdoria,2-1,Final
+7,17/09/2022,03:00,Torino FC,Sassuolo Calcio,0-1,Final
+7,18/09/2022,03:00,Udinese Calcio,Inter,3-1,Final
+7,18/09/2022,03:00,ACF Fiorentina,Hellas Verona,2-0,Final
+7,18/09/2022,03:00,AC Monza,Juventus,1-0,Final
+7,18/09/2022,03:00,US Cremonese,Lazio Roma,0-4,Final
+7,18/09/2022,03:00,AS Roma,Atalanta,0-1,Final
+7,18/09/2022,03:00,AC Milan,SSC Napoli,1-2,Final
+8,01/10/2022,03:00,SSC Napoli,Torino FC,3-1,Final
+8,01/10/2022,03:00,Inter,AS Roma,1-2,Final
+8,01/10/2022,03:00,Empoli FC,AC Milan,1-3,Final
+8,02/10/2022,03:00,Lazio Roma,Spezia Calcio,4-0,Final
+8,02/10/2022,03:00,Sampdoria,AC Monza,0-3,Final
+8,02/10/2022,03:00,Sassuolo Calcio,US Salernitana 1919,5-0,Final
+8,02/10/2022,03:00,US Lecce,US Cremonese,1-1,Final
+8,02/10/2022,03:00,Atalanta,ACF Fiorentina,1-0,Final
+8,02/10/2022,03:00,Juventus,Bologna FC,3-0,Final
+8,03/10/2022,03:00,Hellas Verona,Udinese Calcio,1-2,Final
+9,08/10/2022,03:00,Sassuolo Calcio,Inter,1-2,Final
+9,08/10/2022,03:00,AC Milan,Juventus,2-0,Final
+9,08/10/2022,03:00,Bologna FC,Sampdoria,1-1,Final
+9,09/10/2022,03:00,Torino FC,Empoli FC,1-1,Final
+9,09/10/2022,03:00,AC Monza,Spezia Calcio,2-0,Final
+9,09/10/2022,03:00,Udinese Calcio,Atalanta,2-2,Final
+9,09/10/2022,03:00,US Salernitana 1919,Hellas Verona,2-1,Final
+9,09/10/2022,03:00,US Cremonese,SSC Napoli,1-4,Final
+9,09/10/2022,03:00,AS Roma,US Lecce,2-1,Final
+9,10/10/2022,03:00,ACF Fiorentina,Lazio Roma,0-4,Final
+10,15/10/2022,03:00,Empoli FC,AC Monza,1-0,Final
+10,15/10/2022,03:00,Torino FC,Juventus,0-1,Final
+10,15/10/2022,03:00,Atalanta,Sassuolo Calcio,2-1,Final
+10,16/10/2022,03:00,Inter,US Salernitana 1919,2-0,Final
+10,16/10/2022,03:00,Lazio Roma,Udinese Calcio,0-0,Final
+10,16/10/2022,03:00,Spezia Calcio,US Cremonese,2-2,Final
+10,16/10/2022,03:00,SSC Napoli,Bologna FC,3-2,Final
+10,16/10/2022,03:00,Hellas Verona,AC Milan,1-2,Final
+10,17/10/2022,03:00,Sampdoria,AS Roma,0-1,Final
+10,17/10/2022,03:00,US Lecce,ACF Fiorentina,1-1,Final
+11,21/10/2022,03:00,Juventus,Empoli FC,4-0,Final
+11,22/10/2022,03:00,US Salernitana 1919,Spezia Calcio,1-0,Final
+11,22/10/2022,03:00,AC Milan,AC Monza,4-1,Final
+11,22/10/2022,03:00,ACF Fiorentina,Inter,3-4,Final
+11,23/10/2022,03:00,Udinese Calcio,Torino FC,1-2,Final
+11,23/10/2022,03:00,Bologna FC,US Lecce,2-0,Final
+11,23/10/2022,03:00,Atalanta,Lazio Roma,0-2,Final
+11,23/10/2022,03:00,AS Roma,SSC Napoli,0-1,Final
+11,24/10/2022,03:00,US Cremonese,Sampdoria,0-1,Final
+11,24/10/2022,03:00,Sassuolo Calcio,Hellas Verona,2-1,Final
+12,29/10/2022,03:00,SSC Napoli,Sassuolo Calcio,4-0,Final
+12,29/10/2022,03:00,US Lecce,Juventus,0-1,Final
+12,29/10/2022,03:00,Inter,Sampdoria,3-0,Final
+12,30/10/2022,03:00,Empoli FC,Atalanta,0-2,Final
+12,30/10/2022,03:00,Spezia Calcio,ACF Fiorentina,1-2,Final
+12,30/10/2022,03:00,US Cremonese,Udinese Calcio,0-0,Final
+12,30/10/2022,03:00,Lazio Roma,US Salernitana 1919,1-3,Final
+12,30/10/2022,03:00,Torino FC,AC Milan,2-1,Final
+12,31/10/2022,03:00,Hellas Verona,AS Roma,1-3,Final
+12,31/10/2022,03:00,AC Monza,Bologna FC,1-2,Final
+13,04/11/2022,03:00,Udinese Calcio,US Lecce,1-1,Final
+13,05/11/2022,03:00,Empoli FC,Sassuolo Calcio,1-0,Final
+13,05/11/2022,03:00,US Salernitana 1919,US Cremonese,2-2,Final
+13,05/11/2022,03:00,Atalanta,SSC Napoli,1-2,Final
+13,05/11/2022,03:00,AC Milan,Spezia Calcio,2-1,Final
+13,06/11/2022,03:00,Bologna FC,Torino FC,2-1,Final
+13,06/11/2022,03:00,Sampdoria,ACF Fiorentina,0-2,Final
+13,06/11/2022,03:00,AC Monza,Hellas Verona,2-0,Final
+13,06/11/2022,03:00,AS Roma,Lazio Roma,0-1,Final
+13,06/11/2022,03:00,Juventus,Inter,2-0,Final
+14,08/11/2022,03:00,Spezia Calcio,Udinese Calcio,1-1,Final
+14,08/11/2022,03:00,SSC Napoli,Empoli FC,2-0,Final
+14,08/11/2022,03:00,US Cremonese,AC Milan,0-0,Final
+14,09/11/2022,03:00,Sassuolo Calcio,AS Roma,1-1,Final
+14,09/11/2022,03:00,US Lecce,Atalanta,2-1,Final
+14,09/11/2022,03:00,ACF Fiorentina,US Salernitana 1919,2-1,Final
+14,09/11/2022,03:00,Torino FC,Sampdoria,2-0,Final
+14,09/11/2022,03:00,Inter,Bologna FC,6-1,Final
+14,10/11/2022,03:00,Hellas Verona,Juventus,0-1,Final
+14,10/11/2022,03:00,Lazio Roma,AC Monza,1-0,Final
+15,11/11/2022,03:00,Empoli FC,US Cremonese,2-0,Final
+15,12/11/2022,03:00,SSC Napoli,Udinese Calcio,3-2,Final
+15,12/11/2022,03:00,Sampdoria,US Lecce,0-2,Final
+15,12/11/2022,03:00,Bologna FC,Sassuolo Calcio,3-0,Final
+15,13/11/2022,03:00,Atalanta,Inter,2-3,Final
+15,13/11/2022,03:00,AS Roma,Torino FC,1-1,Final
+15,13/11/2022,03:00,Hellas Verona,Spezia Calcio,1-2,Final
+15,13/11/2022,03:00,AC Monza,US Salernitana 1919,3-0,Final
+15,13/11/2022,03:00,AC Milan,ACF Fiorentina,2-1,Final
+15,13/11/2022,03:00,Juventus,Lazio Roma,3-0,Final
+16,04/01/2023,03:00,Sassuolo Calcio,Sampdoria,1-2,Final
+16,04/01/2023,03:00,US Salernitana 1919,AC Milan,1-2,Final
+16,04/01/2023,03:00,Torino FC,Hellas Verona,1-1,Final
+16,04/01/2023,03:00,Spezia Calcio,Atalanta,2-2,Final
+16,04/01/2023,03:00,AS Roma,Bologna FC,1-0,Final
+16,04/01/2023,03:00,US Lecce,Lazio Roma,2-1,Final
+16,04/01/2023,03:00,ACF Fiorentina,AC Monza,1-1,Final
+16,04/01/2023,03:00,US Cremonese,Juventus,0-1,Final
+16,04/01/2023,03:00,Inter,SSC Napoli,1-0,Final
+16,04/01/2023,03:00,Udinese Calcio,Empoli FC,1-1,Final
+17,07/01/2023,03:00,ACF Fiorentina,Sassuolo Calcio,2-1,Final
+17,07/01/2023,03:00,Juventus,Udinese Calcio,1-0,Final
+17,07/01/2023,03:00,AC Monza,Inter,2-2,Final
+17,08/01/2023,03:00,US Salernitana 1919,Torino FC,1-1,Final
+17,08/01/2023,03:00,Lazio Roma,Empoli FC,2-2,Final
+17,08/01/2023,03:00,Spezia Calcio,US Lecce,0-0,Final
+17,08/01/2023,03:00,Sampdoria,SSC Napoli,0-2,Final
+17,08/01/2023,03:00,AC Milan,AS Roma,2-2,Final
+17,09/01/2023,03:00,Hellas Verona,US Cremonese,2-0,Final
+17,09/01/2023,03:00,Bologna FC,Atalanta,1-2,Final
+18,13/01/2023,03:00,SSC Napoli,Juventus,5-1,Final
+18,14/01/2023,03:00,US Cremonese,AC Monza,2-3,Final
+18,14/01/2023,03:00,US Lecce,AC Milan,2-2,Final
+18,14/01/2023,03:00,Inter,Hellas Verona,1-0,Final
+18,15/01/2023,03:00,Sassuolo Calcio,Lazio Roma,0-2,Final
+18,15/01/2023,03:00,Torino FC,Spezia Calcio,0-1,Final
+18,15/01/2023,03:00,Udinese Calcio,Bologna FC,1-2,Final
+18,15/01/2023,03:00,Atalanta,US Salernitana 1919,8-2,Final
+18,15/01/2023,03:00,AS Roma,ACF Fiorentina,2-0,Final
+18,16/01/2023,03:00,Empoli FC,Sampdoria,1-0,Final
+19,21/01/2023,03:00,Hellas Verona,US Lecce,2-0,Final
+19,21/01/2023,03:00,US Salernitana 1919,SSC Napoli,0-2,Final
+19,21/01/2023,03:00,ACF Fiorentina,Torino FC,0-1,Final
+19,22/01/2023,03:00,Sampdoria,Udinese Calcio,0-1,Final
+19,22/01/2023,03:00,AC Monza,Sassuolo Calcio,1-1,Final
+19,22/01/2023,03:00,Spezia Calcio,AS Roma,0-2,Final
+19,22/01/2023,03:00,Juventus,Atalanta,3-3,Final
+19,23/01/2023,03:00,Bologna FC,US Cremonese,1-1,Final
+19,23/01/2023,03:00,Inter,Empoli FC,0-1,Final
+19,24/01/2023,03:00,Lazio Roma,AC Milan,4-0,Final
+20,27/01/2023,03:00,Bologna FC,Spezia Calcio,2-0,Final
+20,27/01/2023,03:00,US Lecce,US Salernitana 1919,1-2,Final
+20,28/01/2023,03:00,Empoli FC,Torino FC,2-2,Final
+20,28/01/2023,03:00,US Cremonese,Inter,1-2,Final
+20,28/01/2023,03:00,Atalanta,Sampdoria,2-0,Final
+20,29/01/2023,03:00,AC Milan,Sassuolo Calcio,2-5,Final
+20,29/01/2023,03:00,Juventus,AC Monza,0-2,Final
+20,29/01/2023,03:00,Lazio Roma,ACF Fiorentina,1-1,Final
+20,29/01/2023,03:00,SSC Napoli,AS Roma,2-1,Final
+20,30/01/2023,03:00,Udinese Calcio,Hellas Verona,1-1,Final
+21,04/02/2023,03:00,US Cremonese,US Lecce,0-2,Final
+21,04/02/2023,03:00,AS Roma,Empoli FC,2-0,Final
+21,04/02/2023,03:00,Sassuolo Calcio,Atalanta,1-0,Final
+21,05/02/2023,03:00,Spezia Calcio,SSC Napoli,0-3,Final
+21,05/02/2023,03:00,Torino FC,Udinese Calcio,1-0,Final
+21,05/02/2023,03:00,ACF Fiorentina,Bologna FC,1-2,Final
+21,05/02/2023,03:00,Inter,AC Milan,1-0,Final
+21,06/02/2023,03:00,Hellas Verona,Lazio Roma,1-1,Final
+21,06/02/2023,03:00,AC Monza,Sampdoria,2-2,Final
+21,07/02/2023,03:00,US Salernitana 1919,Juventus,0-3,Final
+22,10/02/2023,03:00,AC Milan,Torino FC,1-0,Final
+22,11/02/2023,03:00,Empoli FC,Spezia Calcio,2-2,Final
+22,11/02/2023,03:00,US Lecce,AS Roma,1-1,Final
+22,11/02/2023,03:00,Lazio Roma,Atalanta,0-2,Final
+22,12/02/2023,03:00,Udinese Calcio,Sassuolo Calcio,2-2,Final
+22,12/02/2023,03:00,Bologna FC,AC Monza,0-1,Final
+22,12/02/2023,03:00,Juventus,ACF Fiorentina,1-0,Final
+22,12/02/2023,03:00,SSC Napoli,US Cremonese,3-0,Final
+22,13/02/2023,03:00,Hellas Verona,US Salernitana 1919,1-0,Final
+22,13/02/2023,03:00,Sampdoria,Inter,0-0,Final
+23,17/02/2023,03:00,Sassuolo Calcio,SSC Napoli,0-2,Final
+23,18/02/2023,03:00,Sampdoria,Bologna FC,1-2,Final
+23,18/02/2023,03:00,AC Monza,AC Milan,0-1,Final
+23,18/02/2023,03:00,Inter,Udinese Calcio,3-1,Final
+23,19/02/2023,03:00,Atalanta,US Lecce,1-2,Final
+23,19/02/2023,03:00,ACF Fiorentina,Empoli FC,1-1,Final
+23,19/02/2023,03:00,US Salernitana 1919,Lazio Roma,0-2,Final
+23,19/02/2023,03:00,Spezia Calcio,Juventus,0-2,Final
+23,19/02/2023,03:00,AS Roma,Hellas Verona,1-0,Final
+23,20/02/2023,03:00,Torino FC,US Cremonese,2-2,Final
+24,25/02/2023,03:00,Empoli FC,SSC Napoli,0-2,Final
+24,25/02/2023,03:00,US Lecce,Sassuolo Calcio,0-1,Final
+24,26/02/2023,03:00,Bologna FC,Inter,1-0,Final
+24,26/02/2023,03:00,US Salernitana 1919,AC Monza,3-0,Final
+24,26/02/2023,03:00,Udinese Calcio,Spezia Calcio,2-2,Final
+24,26/02/2023,03:00,AC Milan,Atalanta,2-0,Final
+24,27/02/2023,03:00,Hellas Verona,ACF Fiorentina,0-3,Final
+24,27/02/2023,03:00,Lazio Roma,Sampdoria,1-0,Final
+24,28/02/2023,03:00,US Cremonese,AS Roma,2-1,Final
+24,28/02/2023,03:00,Juventus,Torino FC,4-2,Final
+25,03/03/2023,03:00,SSC Napoli,Lazio Roma,0-1,Final
+25,04/03/2023,03:00,AC Monza,Empoli FC,2-1,Final
+25,04/03/2023,03:00,Atalanta,Udinese Calcio,0-0,Final
+25,04/03/2023,03:00,ACF Fiorentina,AC Milan,2-1,Final
+25,05/03/2023,03:00,Spezia Calcio,Hellas Verona,0-0,Final
+25,05/03/2023,03:00,Sampdoria,US Salernitana 1919,0-0,Final
+25,05/03/2023,03:00,Inter,US Lecce,2-0,Final
+25,05/03/2023,03:00,AS Roma,Juventus,1-0,Final
+25,06/03/2023,03:00,Sassuolo Calcio,US Cremonese,3-2,Final
+25,06/03/2023,03:00,Torino FC,Bologna FC,1-0,Final
+26,10/03/2023,03:00,Spezia Calcio,Inter,2-1,Final
+26,11/03/2023,03:00,Empoli FC,Udinese Calcio,0-1,Final
+26,11/03/2023,03:00,SSC Napoli,Atalanta,2-0,Final
+26,11/03/2023,03:00,Bologna FC,Lazio Roma,0-0,Final
+26,12/03/2023,03:00,US Lecce,Torino FC,0-2,Final
+26,12/03/2023,03:00,Hellas Verona,AC Monza,1-1,Final
+26,12/03/2023,03:00,US Cremonese,ACF Fiorentina,0-2,Final
+26,12/03/2023,03:00,AS Roma,Sassuolo Calcio,3-4,Final
+26,12/03/2023,03:00,Juventus,Sampdoria,4-2,Final
+26,13/03/2023,03:00,AC Milan,US Salernitana 1919,1-1,Final
+27,17/03/2023,03:00,Sassuolo Calcio,Spezia Calcio,1-0,Final
+27,17/03/2023,03:00,Atalanta,Empoli FC,2-1,Final
+27,18/03/2023,03:00,AC Monza,US Cremonese,1-1,Final
+27,18/03/2023,03:00,US Salernitana 1919,Bologna FC,2-2,Final
+27,18/03/2023,03:00,Udinese Calcio,AC Milan,3-1,Final
+27,19/03/2023,03:00,Sampdoria,Hellas Verona,3-1,Final
+27,19/03/2023,03:00,ACF Fiorentina,US Lecce,1-0,Final
+27,19/03/2023,03:00,Torino FC,SSC Napoli,0-4,Final
+27,19/03/2023,03:00,Lazio Roma,AS Roma,1-0,Final
+27,19/03/2023,03:00,Inter,Juventus,0-1,Final
+28,01/04/2023,03:00,US Cremonese,Atalanta,1-3,Final
+28,01/04/2023,03:00,Inter,ACF Fiorentina,0-1,Final
+28,01/04/2023,03:00,Juventus,Hellas Verona,1-0,Final
+28,02/04/2023,03:00,Bologna FC,Udinese Calcio,3-0,Final
+28,02/04/2023,03:00,Spezia Calcio,US Salernitana 1919,1-1,Final
+28,02/04/2023,03:00,AC Monza,Lazio Roma,0-2,Final
+28,02/04/2023,03:00,AS Roma,Sampdoria,3-0,Final
+28,02/04/2023,03:00,SSC Napoli,AC Milan,0-4,Final
+28,03/04/2023,03:00,Empoli FC,US Lecce,1-0,Final
+28,03/04/2023,03:00,Sassuolo Calcio,Torino FC,1-1,Final
+29,07/04/2023,03:00,US Salernitana 1919,Inter,1-1,Final
+29,07/04/2023,03:00,US Lecce,SSC Napoli,1-2,Final
+29,07/04/2023,03:00,AC Milan,Empoli FC,0-0,Final
+29,08/04/2023,03:00,Udinese Calcio,AC Monza,2-2,Final
+29,08/04/2023,03:00,ACF Fiorentina,Spezia Calcio,1-1,Final
+29,08/04/2023,03:00,Atalanta,Bologna FC,0-2,Final
+29,08/04/2023,03:00,Sampdoria,US Cremonese,2-3,Final
+29,08/04/2023,03:00,Torino FC,AS Roma,0-1,Final
+29,08/04/2023,03:00,Hellas Verona,Sassuolo Calcio,2-1,Final
+29,08/04/2023,03:00,Lazio Roma,Juventus,2-1,Final
+30,14/04/2023,03:00,US Cremonese,Empoli FC,1-0,Final
+30,14/04/2023,03:00,Spezia Calcio,Lazio Roma,0-3,Final
+30,15/04/2023,03:00,Bologna FC,AC Milan,1-1,Final
+30,15/04/2023,03:00,SSC Napoli,Hellas Verona,0-0,Final
+30,15/04/2023,03:00,Inter,AC Monza,0-1,Final
+30,16/04/2023,03:00,US Lecce,Sampdoria,1-1,Final
+30,16/04/2023,03:00,Torino FC,US Salernitana 1919,1-1,Final
+30,16/04/2023,03:00,Sassuolo Calcio,Juventus,1-0,Final
+30,16/04/2023,03:00,AS Roma,Udinese Calcio,3-0,Final
+30,17/04/2023,03:00,ACF Fiorentina,Atalanta,1-1,Final
+31,21/04/2023,03:00,Hellas Verona,Bologna FC,2-1,Final
+31,22/04/2023,03:00,US Salernitana 1919,Sassuolo Calcio,3-0,Final
+31,22/04/2023,03:00,Lazio Roma,Torino FC,0-1,Final
+31,22/04/2023,03:00,Sampdoria,Spezia Calcio,1-1,Final
+31,23/04/2023,03:00,Empoli FC,Inter,0-3,Final
+31,23/04/2023,03:00,AC Monza,ACF Fiorentina,3-2,Final
+31,23/04/2023,03:00,Udinese Calcio,US Cremonese,3-0,Final
+31,23/04/2023,03:00,AC Milan,US Lecce,2-0,Final
+31,23/04/2023,03:00,Juventus,SSC Napoli,0-1,Final
+31,24/04/2023,03:00,Atalanta,AS Roma,3-1,Final
+32,28/04/2023,03:00,US Lecce,Udinese Calcio,1-0,Final
+32,28/04/2023,03:00,Spezia Calcio,AC Monza,0-2,Final
+32,29/04/2023,03:00,AS Roma,AC Milan,1-1,Final
+32,29/04/2023,03:00,Torino FC,Atalanta,1-2,Final
+32,30/04/2023,03:00,Inter,Lazio Roma,3-1,Final
+32,30/04/2023,03:00,Sassuolo Calcio,Empoli FC,2-1,Final
+32,30/04/2023,03:00,SSC Napoli,US Salernitana 1919,1-1,Final
+32,30/04/2023,03:00,US Cremonese,Hellas Verona,1-1,Final
+32,30/04/2023,03:00,ACF Fiorentina,Sampdoria,5-0,Final
+32,30/04/2023,03:00,Bologna FC,Juventus,1-1,Final
+33,03/05/2023,03:00,Atalanta,Spezia Calcio,3-2,Final
+33,03/05/2023,03:00,Juventus,US Lecce,2-1,Final
+33,03/05/2023,03:00,Sampdoria,Torino FC,0-2,Final
+33,03/05/2023,03:00,US Salernitana 1919,ACF Fiorentina,3-3,Final
+33,03/05/2023,03:00,AC Milan,US Cremonese,1-1,Final
+33,03/05/2023,03:00,Hellas Verona,Inter,0-6,Final
+33,03/05/2023,03:00,Lazio Roma,Sassuolo Calcio,2-0,Final
+33,03/05/2023,03:00,AC Monza,AS Roma,1-1,Final
+33,04/05/2023,03:00,Empoli FC,Bologna FC,3-1,Final
+33,04/05/2023,03:00,Udinese Calcio,SSC Napoli,1-1,Final
+34,06/05/2023,03:00,AC Milan,Lazio Roma,2-0,Final
+34,06/05/2023,03:00,AS Roma,Inter,0-2,Final
+34,06/05/2023,03:00,US Cremonese,Spezia Calcio,2-0,Final
+34,07/05/2023,03:00,Atalanta,Juventus,0-2,Final
+34,07/05/2023,03:00,Torino FC,AC Monza,1-1,Final
+34,07/05/2023,03:00,SSC Napoli,ACF Fiorentina,1-0,Final
+34,07/05/2023,03:00,US Lecce,Hellas Verona,0-1,Final
+34,08/05/2023,03:00,Empoli FC,US Salernitana 1919,2-1,Final
+34,08/05/2023,03:00,Udinese Calcio,Sampdoria,2-0,Final
+34,08/05/2023,03:00,Sassuolo Calcio,Bologna FC,1-1,Final
+35,12/05/2023,03:00,Lazio Roma,US Lecce,2-2,Final
+35,13/05/2023,03:00,US Salernitana 1919,Atalanta,1-0,Final
+35,13/05/2023,03:00,Spezia Calcio,AC Milan,2-0,Final
+35,13/05/2023,03:00,Inter,Sassuolo Calcio,4-2,Final
+35,14/05/2023,03:00,Hellas Verona,Torino FC,0-1,Final
+35,14/05/2023,03:00,ACF Fiorentina,Udinese Calcio,2-0,Final
+35,14/05/2023,03:00,AC Monza,SSC Napoli,2-0,Final
+35,14/05/2023,03:00,Bologna FC,AS Roma,0-0,Final
+35,14/05/2023,03:00,Juventus,US Cremonese,2-0,Final
+35,15/05/2023,03:00,Sampdoria,Empoli FC,1-1,Final
+36,19/05/2023,03:00,Sassuolo Calcio,AC Monza,1-2,Final
+36,20/05/2023,03:00,US Cremonese,Bologna FC,1-5,Final
+36,20/05/2023,03:00,Atalanta,Hellas Verona,3-1,Final
+36,20/05/2023,03:00,AC Milan,Sampdoria,5-1,Final
+36,21/05/2023,03:00,US Lecce,Spezia Calcio,0-0,Final
+36,21/05/2023,03:00,Torino FC,ACF Fiorentina,1-1,Final
+36,21/05/2023,03:00,SSC Napoli,Inter,3-1,Final
+36,21/05/2023,03:00,Udinese Calcio,Lazio Roma,0-1,Final
+36,22/05/2023,03:00,AS Roma,US Salernitana 1919,2-2,Final
+36,22/05/2023,03:00,Empoli FC,Juventus,4-1,Final
+37,26/05/2023,03:00,Sampdoria,Sassuolo Calcio,2-2,Final
+37,27/05/2023,03:00,Spezia Calcio,Torino FC,0-4,Final
+37,27/05/2023,03:00,US Salernitana 1919,Udinese Calcio,3-2,Final
+37,27/05/2023,03:00,ACF Fiorentina,AS Roma,2-1,Final
+37,27/05/2023,03:00,Inter,Atalanta,3-2,Final
+37,28/05/2023,03:00,Hellas Verona,Empoli FC,1-1,Final
+37,28/05/2023,03:00,Bologna FC,SSC Napoli,2-2,Final
+37,28/05/2023,03:00,AC Monza,US Lecce,0-1,Final
+37,28/05/2023,03:00,Lazio Roma,US Cremonese,3-2,Final
+37,28/05/2023,03:00,Juventus,AC Milan,0-1,Final
+38,02/06/2023,03:00,Sassuolo Calcio,ACF Fiorentina,1-3,Final
+38,03/06/2023,03:00,Torino FC,Inter,0-1,Final
+38,03/06/2023,03:00,Empoli FC,Lazio Roma,0-2,Final
+38,03/06/2023,03:00,US Cremonese,US Salernitana 1919,2-0,Final
+38,04/06/2023,03:00,SSC Napoli,Sampdoria,2-0,Final
+38,04/06/2023,03:00,AC Milan,Hellas Verona,3-1,Final
+38,04/06/2023,03:00,AS Roma,Spezia Calcio,2-1,Final
+38,04/06/2023,03:00,Atalanta,AC Monza,5-2,Final
+38,04/06/2023,03:00,Udinese Calcio,Juventus,0-1,Final
+38,04/06/2023,03:00,US Lecce,Bologna FC,2-3,Final

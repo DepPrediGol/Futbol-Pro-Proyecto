@@ -1,0 +1,381 @@
+matchday,date,time,home_team,away_team,result,status
+1,16/08/2024,03:00,Brescia Calcio,Palermo FC,1-0,Final
+1,17/08/2024,03:00,SSC Bari,Juve Stabia,1-3,Final
+1,17/08/2024,03:00,Pisa SC,Spezia Calcio,2-2,Final
+1,17/08/2024,03:00,US Salernitana 1919,AS Cittadella,2-1,Final
+1,17/08/2024,03:00,FC Südtirol,Modena FC,2-1,Final
+1,18/08/2024,03:00,US Catanzaro,Sassuolo Calcio,1-1,Final
+1,18/08/2024,03:00,Cesena FC,Carrarese Calcio,2-1,Final
+1,18/08/2024,03:00,Cosenza Calcio,US Cremonese,1-0,Final
+1,18/08/2024,03:00,Frosinone Calcio,Sampdoria,2-2,Final
+1,18/08/2024,03:00,AC Reggiana 1919,Mantova 1911,2-2,Final
+2,23/08/2024,03:00,Modena FC,SSC Bari,2-1,Final
+2,24/08/2024,03:00,FC Südtirol,US Salernitana 1919,3-2,Final
+2,24/08/2024,03:00,Brescia Calcio,AS Cittadella,0-1,Final
+2,24/08/2024,03:00,US Cremonese,Carrarese Calcio,1-0,Final
+2,24/08/2024,03:00,Pisa SC,Palermo FC,2-0,Final
+2,24/08/2024,03:00,Sampdoria,AC Reggiana 1919,0-1,Final
+2,24/08/2024,03:00,Sassuolo Calcio,Cesena FC,2-1,Final
+2,24/08/2024,03:00,Spezia Calcio,Frosinone Calcio,2-1,Final
+2,25/08/2024,03:00,US Catanzaro,Juve Stabia,0-0,Final
+2,25/08/2024,03:00,Mantova 1911,Cosenza Calcio,3-2,Final
+3,27/08/2024,03:00,SSC Bari,Sassuolo Calcio,1-1,Final
+3,27/08/2024,03:00,Carrarese Calcio,FC Südtirol,2-0,Final
+3,27/08/2024,03:00,AS Cittadella,Pisa SC,0-3,Final
+3,27/08/2024,03:00,US Cremonese,Palermo FC,0-1,Final
+3,27/08/2024,03:00,Frosinone Calcio,Modena FC,1-1,Final
+3,27/08/2024,03:00,AC Reggiana 1919,Brescia Calcio,2-0,Final
+3,27/08/2024,03:00,US Salernitana 1919,Sampdoria,3-2,Final
+3,28/08/2024,03:00,Cesena FC,US Catanzaro,2-0,Final
+3,28/08/2024,03:00,Cosenza Calcio,Spezia Calcio,0-0,Final
+3,28/08/2024,03:00,Juve Stabia,Mantova 1911,1-0,Final
+4,31/08/2024,03:00,Sampdoria,SSC Bari,0-0,Final
+4,31/08/2024,03:00,Modena FC,AS Cittadella,0-1,Final
+4,31/08/2024,03:00,Pisa SC,AC Reggiana 1919,2-1,Final
+4,31/08/2024,03:00,Sassuolo Calcio,US Cremonese,1-4,Final
+4,31/08/2024,03:00,FC Südtirol,Brescia Calcio,1-2,Final
+4,01/09/2024,03:00,US Catanzaro,Carrarese Calcio,3-1,Final
+4,01/09/2024,03:00,Frosinone Calcio,Juve Stabia,0-0,Final
+4,01/09/2024,03:00,Mantova 1911,US Salernitana 1919,1-0,Final
+4,01/09/2024,03:00,Palermo FC,Cosenza Calcio,1-1,Final
+4,01/09/2024,03:00,Spezia Calcio,Cesena FC,2-1,Final
+5,13/09/2024,03:00,Cesena FC,Modena FC,2-2,Final
+5,14/09/2024,03:00,SSC Bari,Mantova 1911,2-0,Final
+5,14/09/2024,03:00,Brescia Calcio,Frosinone Calcio,4-0,Final
+5,14/09/2024,03:00,AS Cittadella,US Catanzaro,0-0,Final
+5,14/09/2024,03:00,US Cremonese,Spezia Calcio,1-1,Final
+5,14/09/2024,03:00,Juve Stabia,Palermo FC,1-3,Final
+5,15/09/2024,03:00,Carrarese Calcio,Sassuolo Calcio,0-2,Final
+5,15/09/2024,03:00,Cosenza Calcio,Sampdoria,2-1,Final
+5,15/09/2024,03:00,AC Reggiana 1919,FC Südtirol,1-3,Final
+5,15/09/2024,03:00,US Salernitana 1919,Pisa SC,2-3,Final
+6,20/09/2024,03:00,US Catanzaro,US Cremonese,1-2,Final
+6,21/09/2024,03:00,Cosenza Calcio,Sassuolo Calcio,0-1,Final
+6,21/09/2024,03:00,Palermo FC,Cesena FC,0-0,Final
+6,21/09/2024,03:00,Pisa SC,Brescia Calcio,2-1,Final
+6,21/09/2024,03:00,AC Reggiana 1919,US Salernitana 1919,0-0,Final
+6,21/09/2024,03:00,Sampdoria,FC Südtirol,1-0,Final
+6,21/09/2024,03:00,Modena FC,Juve Stabia,3-0,Final
+6,22/09/2024,03:00,Frosinone Calcio,SSC Bari,0-3,Final
+6,22/09/2024,03:00,Mantova 1911,AS Cittadella,1-0,Final
+6,22/09/2024,03:00,Spezia Calcio,Carrarese Calcio,4-2,Final
+7,27/09/2024,03:00,AS Cittadella,Frosinone Calcio,1-2,Final
+7,28/09/2024,03:00,SSC Bari,Cosenza Calcio,1-1,Final
+7,28/09/2024,03:00,Carrarese Calcio,AC Reggiana 1919,0-0,Final
+7,28/09/2024,03:00,Sassuolo Calcio,Spezia Calcio,0-0,Final
+7,29/09/2024,03:00,Cesena FC,Mantova 1911,4-2,Final
+7,29/09/2024,03:00,Juve Stabia,Pisa SC,2-0,Final
+7,29/09/2024,03:00,Modena FC,Sampdoria,1-3,Final
+7,29/09/2024,03:00,US Salernitana 1919,US Catanzaro,0-0,Final
+7,30/09/2024,03:00,FC Südtirol,Palermo FC,1-3,Final
+7,30/09/2024,03:00,Brescia Calcio,US Cremonese,3-2,Final
+8,04/10/2024,03:00,Sampdoria,Juve Stabia,1-2,Final
+8,05/10/2024,03:00,Frosinone Calcio,Carrarese Calcio,0-1,Final
+8,05/10/2024,03:00,Pisa SC,Cesena FC,3-1,Final
+8,05/10/2024,03:00,Sassuolo Calcio,AS Cittadella,6-1,Final
+8,05/10/2024,03:00,Spezia Calcio,AC Reggiana 1919,1-0,Final
+8,06/10/2024,03:00,US Catanzaro,Modena FC,2-2,Final
+8,06/10/2024,03:00,Cosenza Calcio,FC Südtirol,0-2,Final
+8,06/10/2024,03:00,US Cremonese,SSC Bari,1-1,Final
+8,06/10/2024,03:00,Mantova 1911,Brescia Calcio,1-1,Final
+8,06/10/2024,03:00,Palermo FC,US Salernitana 1919,0-1,Final
+9,18/10/2024,03:00,SSC Bari,US Catanzaro,1-1,Final
+9,19/10/2024,03:00,AS Cittadella,Cosenza Calcio,0-0,Final
+9,19/10/2024,03:00,Modena FC,Palermo FC,2-2,Final
+9,19/10/2024,03:00,US Salernitana 1919,Spezia Calcio,0-2,Final
+9,19/10/2024,03:00,FC Südtirol,Pisa SC,1-2,Final
+9,19/10/2024,03:00,Brescia Calcio,Sassuolo Calcio,2-5,Final
+9,20/10/2024,03:00,Carrarese Calcio,Mantova 1911,1-1,Final
+9,20/10/2024,03:00,Juve Stabia,US Cremonese,1-2,Final
+9,20/10/2024,03:00,AC Reggiana 1919,Frosinone Calcio,2-0,Final
+9,20/10/2024,03:00,Cesena FC,Sampdoria,3-5,Final
+10,25/10/2024,03:00,Spezia Calcio,SSC Bari,0-0,Final
+10,26/10/2024,03:00,Cesena FC,Brescia Calcio,2-0,Final
+10,26/10/2024,03:00,Cosenza Calcio,Juve Stabia,1-1,Final
+10,26/10/2024,03:00,US Cremonese,US Salernitana 1919,2-1,Final
+10,26/10/2024,03:00,Palermo FC,AC Reggiana 1919,2-0,Final
+10,26/10/2024,03:00,Carrarese Calcio,AS Cittadella,3-0,Final
+10,26/10/2024,03:00,Sassuolo Calcio,Modena FC,2-0,Final
+10,27/10/2024,03:00,US Catanzaro,FC Südtirol,3-0,Final
+10,27/10/2024,03:00,Frosinone Calcio,Pisa SC,0-0,Final
+10,27/10/2024,03:00,Sampdoria,Mantova 1911,1-0,Final
+11,29/10/2024,03:00,SSC Bari,Carrarese Calcio,0-0,Final
+11,29/10/2024,03:00,Brescia Calcio,Spezia Calcio,1-1,Final
+11,29/10/2024,03:00,Juve Stabia,Sassuolo Calcio,2-2,Final
+11,29/10/2024,03:00,Modena FC,US Cremonese,2-2,Final
+11,29/10/2024,03:00,AC Reggiana 1919,Cosenza Calcio,0-1,Final
+11,29/10/2024,03:00,US Salernitana 1919,Cesena FC,1-1,Final
+11,30/10/2024,03:00,FC Südtirol,Frosinone Calcio,1-1,Final
+11,30/10/2024,03:00,AS Cittadella,Sampdoria,0-0,Final
+11,30/10/2024,03:00,Mantova 1911,Palermo FC,0-0,Final
+11,30/10/2024,03:00,Pisa SC,US Catanzaro,0-0,Final
+12,02/11/2024,03:00,SSC Bari,AC Reggiana 1919,2-2,Final
+12,02/11/2024,03:00,Carrarese Calcio,Juve Stabia,0-0,Final
+12,02/11/2024,03:00,Spezia Calcio,Modena FC,1-0,Final
+12,03/11/2024,03:00,US Catanzaro,Frosinone Calcio,0-0,Final
+12,03/11/2024,03:00,Cesena FC,FC Südtirol,1-0,Final
+12,03/11/2024,03:00,Cosenza Calcio,US Salernitana 1919,1-1,Final
+12,03/11/2024,03:00,US Cremonese,Pisa SC,1-3,Final
+12,03/11/2024,03:00,Palermo FC,AS Cittadella,0-1,Final
+12,03/11/2024,03:00,Sampdoria,Brescia Calcio,0-1,Final
+12,03/11/2024,03:00,Sassuolo Calcio,Mantova 1911,1-0,Final
+13,08/11/2024,03:00,Frosinone Calcio,Palermo FC,1-1,Final
+13,09/11/2024,03:00,Brescia Calcio,Cosenza Calcio,2-3,Final
+13,09/11/2024,03:00,Modena FC,Carrarese Calcio,2-0,Final
+13,09/11/2024,03:00,Pisa SC,Sampdoria,3-0,Final
+13,09/11/2024,03:00,FC Südtirol,Sassuolo Calcio,0-1,Final
+13,09/11/2024,03:00,Mantova 1911,US Cremonese,1-0,Final
+13,10/11/2024,03:00,AS Cittadella,Cesena FC,0-2,Final
+13,10/11/2024,03:00,Juve Stabia,Spezia Calcio,0-3,Final
+13,10/11/2024,03:00,AC Reggiana 1919,US Catanzaro,2-2,Final
+13,10/11/2024,03:00,US Salernitana 1919,SSC Bari,0-2,Final
+14,22/11/2024,03:00,Cosenza Calcio,Modena FC,1-1,Final
+14,23/11/2024,03:00,Carrarese Calcio,Pisa SC,1-0,Final
+14,23/11/2024,03:00,US Catanzaro,Mantova 1911,2-2,Final
+14,23/11/2024,03:00,Juve Stabia,Brescia Calcio,0-0,Final
+14,23/11/2024,03:00,Sassuolo Calcio,US Salernitana 1919,4-0,Final
+14,23/11/2024,03:00,Cesena FC,AC Reggiana 1919,1-1,Final
+14,24/11/2024,03:00,SSC Bari,AS Cittadella,3-2,Final
+14,24/11/2024,03:00,US Cremonese,Frosinone Calcio,1-0,Final
+14,24/11/2024,03:00,Spezia Calcio,FC Südtirol,3-0,Final
+14,24/11/2024,03:00,Palermo FC,Sampdoria,1-1,Final
+15,29/11/2024,03:00,AC Reggiana 1919,Sassuolo Calcio,0-2,Final
+15,30/11/2024,03:00,Brescia Calcio,SSC Bari,1-1,Final
+15,30/11/2024,03:00,AS Cittadella,Juve Stabia,2-2,Final
+15,30/11/2024,03:00,Sampdoria,US Catanzaro,3-3,Final
+15,30/11/2024,03:00,FC Südtirol,US Cremonese,0-4,Final
+15,30/11/2024,03:00,Mantova 1911,Modena FC,0-0,Final
+15,01/12/2024,03:00,Frosinone Calcio,Cesena FC,3-2,Final
+15,01/12/2024,03:00,Palermo FC,Spezia Calcio,2-0,Final
+15,01/12/2024,03:00,Pisa SC,Cosenza Calcio,2-2,Final
+15,01/12/2024,03:00,US Salernitana 1919,Carrarese Calcio,4-1,Final
+16,06/12/2024,03:00,Juve Stabia,FC Südtirol,2-1,Final
+16,07/12/2024,03:00,SSC Bari,Cesena FC,1-0,Final
+16,07/12/2024,03:00,Carrarese Calcio,Palermo FC,1-0,Final
+16,07/12/2024,03:00,Mantova 1911,Pisa SC,2-3,Final
+16,07/12/2024,03:00,Modena FC,US Salernitana 1919,1-1,Final
+16,07/12/2024,03:00,Cosenza Calcio,Frosinone Calcio,0-1,Final
+16,08/12/2024,03:00,US Catanzaro,Brescia Calcio,2-1,Final
+16,08/12/2024,03:00,US Cremonese,AC Reggiana 1919,0-2,Final
+16,08/12/2024,03:00,Spezia Calcio,AS Cittadella,5-0,Final
+16,08/12/2024,03:00,Sassuolo Calcio,Sampdoria,5-1,Final
+17,13/12/2024,03:00,Pisa SC,SSC Bari,2-0,Final
+17,14/12/2024,03:00,Cesena FC,Cosenza Calcio,2-1,Final
+17,14/12/2024,03:00,Frosinone Calcio,Sassuolo Calcio,1-2,Final
+17,14/12/2024,03:00,AC Reggiana 1919,Modena FC,0-1,Final
+17,14/12/2024,03:00,FC Südtirol,Mantova 1911,2-2,Final
+17,14/12/2024,03:00,Sampdoria,Spezia Calcio,0-0,Final
+17,15/12/2024,03:00,Brescia Calcio,Carrarese Calcio,0-0,Final
+17,15/12/2024,03:00,AS Cittadella,US Cremonese,0-0,Final
+17,15/12/2024,03:00,Palermo FC,US Catanzaro,1-2,Final
+17,15/12/2024,03:00,US Salernitana 1919,Juve Stabia,1-2,Final
+18,20/12/2024,03:00,US Salernitana 1919,Brescia Calcio,0-0,Final
+18,21/12/2024,03:00,SSC Bari,FC Südtirol,0-1,Final
+18,21/12/2024,03:00,Carrarese Calcio,Cosenza Calcio,1-0,Final
+18,21/12/2024,03:00,Mantova 1911,Frosinone Calcio,3-1,Final
+18,21/12/2024,03:00,Sassuolo Calcio,Palermo FC,2-1,Final
+18,21/12/2024,03:00,US Catanzaro,Spezia Calcio,0-1,Final
+18,21/12/2024,03:00,AS Cittadella,AC Reggiana 1919,3-1,Final
+18,21/12/2024,03:00,Modena FC,Pisa SC,1-0,Final
+18,22/12/2024,03:00,Juve Stabia,Cesena FC,1-0,Final
+18,22/12/2024,03:00,US Cremonese,Sampdoria,1-1,Final
+19,26/12/2024,03:00,Pisa SC,Sassuolo Calcio,3-1,Final
+19,26/12/2024,03:00,Brescia Calcio,Modena FC,3-3,Final
+19,26/12/2024,03:00,Cesena FC,US Cremonese,0-1,Final
+19,26/12/2024,03:00,Cosenza Calcio,US Catanzaro,1-1,Final
+19,26/12/2024,03:00,Frosinone Calcio,US Salernitana 1919,2-0,Final
+19,26/12/2024,03:00,AC Reggiana 1919,Juve Stabia,2-1,Final
+19,26/12/2024,03:00,Spezia Calcio,Mantova 1911,1-1,Final
+19,26/12/2024,03:00,FC Südtirol,AS Cittadella,1-2,Final
+19,26/12/2024,03:00,Palermo FC,SSC Bari,1-0,Final
+19,26/12/2024,03:00,Sampdoria,Carrarese Calcio,1-1,Final
+20,29/12/2024,03:00,US Cremonese,Brescia Calcio,1-1,Final
+20,29/12/2024,03:00,SSC Bari,Spezia Calcio,2-0,Final
+20,29/12/2024,03:00,Carrarese Calcio,Cesena FC,2-0,Final
+20,29/12/2024,03:00,Mantova 1911,AC Reggiana 1919,0-2,Final
+20,29/12/2024,03:00,Modena FC,FC Südtirol,0-0,Final
+20,29/12/2024,03:00,Sassuolo Calcio,Cosenza Calcio,2-1,Final
+20,29/12/2024,03:00,US Catanzaro,US Salernitana 1919,1-0,Final
+20,29/12/2024,03:00,AS Cittadella,Palermo FC,2-1,Final
+20,29/12/2024,03:00,Juve Stabia,Frosinone Calcio,1-1,Final
+20,29/12/2024,03:00,Sampdoria,Pisa SC,0-1,Final
+21,12/01/2025,03:00,US Salernitana 1919,Sassuolo Calcio,1-2,Final
+21,12/01/2025,03:00,Cosenza Calcio,Mantova 1911,2-2,Final
+21,12/01/2025,03:00,Frosinone Calcio,US Cremonese,0-3,Final
+21,12/01/2025,03:00,Palermo FC,Modena FC,2-0,Final
+21,12/01/2025,03:00,AC Reggiana 1919,SSC Bari,0-0,Final
+21,12/01/2025,03:00,Spezia Calcio,Juve Stabia,1-1,Final
+21,12/01/2025,03:00,FC Südtirol,US Catanzaro,1-1,Final
+21,12/01/2025,03:00,Cesena FC,AS Cittadella,0-0,Final
+21,12/01/2025,03:00,Brescia Calcio,Sampdoria,1-1,Final
+21,13/01/2025,03:00,Pisa SC,Carrarese Calcio,2-1,Final
+22,17/01/2025,03:00,Sampdoria,Cesena FC,1-2,Final
+22,18/01/2025,03:00,AS Cittadella,Mantova 1911,1-2,Final
+22,18/01/2025,03:00,US Cremonese,Cosenza Calcio,3-1,Final
+22,18/01/2025,03:00,Modena FC,Frosinone Calcio,1-1,Final
+22,18/01/2025,03:00,US Salernitana 1919,AC Reggiana 1919,2-1,Final
+22,18/01/2025,03:00,SSC Bari,Brescia Calcio,2-2,Final
+22,19/01/2025,03:00,US Catanzaro,Pisa SC,0-0,Final
+22,19/01/2025,03:00,Palermo FC,Juve Stabia,1-0,Final
+22,19/01/2025,03:00,Sassuolo Calcio,FC Südtirol,5-3,Final
+22,19/01/2025,03:00,Carrarese Calcio,Spezia Calcio,0-4,Final
+23,24/01/2025,03:00,Spezia Calcio,Sassuolo Calcio,2-1,Final
+23,25/01/2025,03:00,Cesena FC,SSC Bari,1-1,Final
+23,25/01/2025,03:00,Cosenza Calcio,AS Cittadella,0-1,Final
+23,25/01/2025,03:00,Frosinone Calcio,FC Südtirol,0-3,Final
+23,25/01/2025,03:00,Juve Stabia,Carrarese Calcio,2-1,Final
+23,25/01/2025,03:00,Mantova 1911,Sampdoria,2-2,Final
+23,26/01/2025,03:00,Brescia Calcio,US Catanzaro,2-3,Final
+23,26/01/2025,03:00,Pisa SC,US Salernitana 1919,1-0,Final
+23,26/01/2025,03:00,AC Reggiana 1919,Palermo FC,2-1,Final
+23,26/01/2025,03:00,US Cremonese,Modena FC,2-2,Final
+24,31/01/2025,03:00,Palermo FC,Pisa SC,1-2,Final
+24,01/02/2025,03:00,US Catanzaro,Cesena FC,4-2,Final
+24,01/02/2025,03:00,AS Cittadella,Spezia Calcio,0-2,Final
+24,01/02/2025,03:00,Sampdoria,Cosenza Calcio,1-0,Final
+24,01/02/2025,03:00,Sassuolo Calcio,Juve Stabia,2-0,Final
+24,01/02/2025,03:00,Modena FC,Mantova 1911,3-1,Final
+24,02/02/2025,03:00,Carrarese Calcio,Brescia Calcio,1-2,Final
+24,02/02/2025,03:00,US Salernitana 1919,US Cremonese,1-0,Final
+24,02/02/2025,03:00,FC Südtirol,AC Reggiana 1919,2-0,Final
+24,02/02/2025,03:00,SSC Bari,Frosinone Calcio,2-1,Final
+25,07/02/2025,03:00,Brescia Calcio,US Salernitana 1919,0-0,Final
+25,08/02/2025,03:00,Cosenza Calcio,Carrarese Calcio,1-0,Final
+25,08/02/2025,03:00,Frosinone Calcio,US Catanzaro,1-1,Final
+25,08/02/2025,03:00,Mantova 1911,Sassuolo Calcio,0-3,Final
+25,08/02/2025,03:00,Pisa SC,AS Cittadella,0-1,Final
+25,08/02/2025,03:00,Sampdoria,Modena FC,1-0,Final
+25,09/02/2025,03:00,US Cremonese,FC Südtirol,3-1,Final
+25,09/02/2025,03:00,AC Reggiana 1919,Cesena FC,0-1,Final
+25,09/02/2025,03:00,Spezia Calcio,Palermo FC,2-2,Final
+25,09/02/2025,03:00,Juve Stabia,SSC Bari,3-1,Final
+26,14/02/2025,03:00,US Catanzaro,AS Cittadella,1-0,Final
+26,15/02/2025,03:00,Carrarese Calcio,US Salernitana 1919,3-2,Final
+26,15/02/2025,03:00,Modena FC,Spezia Calcio,1-1,Final
+26,15/02/2025,03:00,Sassuolo Calcio,Brescia Calcio,2-0,Final
+26,15/02/2025,03:00,FC Südtirol,Sampdoria,2-1,Final
+26,15/02/2025,03:00,SSC Bari,US Cremonese,1-1,Final
+26,16/02/2025,03:00,Frosinone Calcio,AC Reggiana 1919,1-1,Final
+26,16/02/2025,03:00,Juve Stabia,Cosenza Calcio,3-0,Final
+26,16/02/2025,03:00,Palermo FC,Mantova 1911,2-2,Final
+26,16/02/2025,03:00,Cesena FC,Pisa SC,1-1,Final
+27,21/02/2025,03:00,Sampdoria,Sassuolo Calcio,0-0,Final
+27,22/02/2025,03:00,AS Cittadella,Modena FC,0-2,Final
+27,22/02/2025,03:00,Mantova 1911,SSC Bari,0-1,Final
+27,22/02/2025,03:00,Pisa SC,Juve Stabia,3-1,Final
+27,22/02/2025,03:00,AC Reggiana 1919,Carrarese Calcio,2-2,Final
+27,22/02/2025,03:00,US Cremonese,Cesena FC,1-2,Final
+27,23/02/2025,03:00,Brescia Calcio,FC Südtirol,0-0,Final
+27,23/02/2025,03:00,Cosenza Calcio,Palermo FC,0-3,Final
+27,23/02/2025,03:00,Spezia Calcio,US Catanzaro,0-1,Final
+27,23/02/2025,03:00,US Salernitana 1919,Frosinone Calcio,1-1,Final
+28,28/02/2025,03:00,FC Südtirol,Spezia Calcio,1-1,Final
+28,01/03/2025,03:00,Carrarese Calcio,US Cremonese,2-2,Final
+28,01/03/2025,03:00,Cesena FC,US Salernitana 1919,2-0,Final
+28,01/03/2025,03:00,Frosinone Calcio,Mantova 1911,2-1,Final
+28,01/03/2025,03:00,Juve Stabia,AS Cittadella,0-1,Final
+28,01/03/2025,03:00,Sassuolo Calcio,Pisa SC,1-0,Final
+28,02/03/2025,03:00,US Catanzaro,AC Reggiana 1919,1-1,Final
+28,02/03/2025,03:00,Modena FC,Cosenza Calcio,1-1,Final
+28,02/03/2025,03:00,Palermo FC,Brescia Calcio,1-0,Final
+28,02/03/2025,03:00,SSC Bari,Sampdoria,1-1,Final
+29,07/03/2025,03:00,Cosenza Calcio,AC Reggiana 1919,1-0,Final
+29,08/03/2025,03:00,Carrarese Calcio,Frosinone Calcio,0-1,Final
+29,08/03/2025,03:00,US Cremonese,US Catanzaro,4-0,Final
+29,08/03/2025,03:00,Mantova 1911,Juve Stabia,1-1,Final
+29,08/03/2025,03:00,US Salernitana 1919,Modena FC,1-0,Final
+29,08/03/2025,03:00,Sampdoria,Palermo FC,1-1,Final
+29,08/03/2025,03:00,Brescia Calcio,Cesena FC,1-1,Final
+29,09/03/2025,03:00,Sassuolo Calcio,SSC Bari,1-1,Final
+29,09/03/2025,03:00,Spezia Calcio,Pisa SC,3-2,Final
+29,09/03/2025,03:00,AS Cittadella,FC Südtirol,1-5,Final
+30,14/03/2025,03:00,Palermo FC,US Cremonese,2-3,Final
+30,15/03/2025,03:00,Cesena FC,Spezia Calcio,0-0,Final
+30,15/03/2025,03:00,AS Cittadella,Sassuolo Calcio,1-2,Final
+30,15/03/2025,03:00,Frosinone Calcio,Brescia Calcio,2-1,Final
+30,15/03/2025,03:00,Juve Stabia,Modena FC,2-1,Final
+30,15/03/2025,03:00,SSC Bari,US Salernitana 1919,0-0,Final
+30,16/03/2025,03:00,Pisa SC,Mantova 1911,3-1,Final
+30,16/03/2025,03:00,AC Reggiana 1919,Sampdoria,2-2,Final
+30,16/03/2025,03:00,FC Südtirol,Carrarese Calcio,2-2,Final
+30,16/03/2025,03:00,US Catanzaro,Cosenza Calcio,4-0,Final
+31,28/03/2025,03:00,Spezia Calcio,Brescia Calcio,0-1,Final
+31,29/03/2025,03:00,Cosenza Calcio,Pisa SC,0-3,Final
+31,29/03/2025,03:00,Mantova 1911,FC Südtirol,2-0,Final
+31,29/03/2025,03:00,Modena FC,US Catanzaro,2-1,Final
+31,29/03/2025,03:00,Sampdoria,Frosinone Calcio,0-3,Final
+31,29/03/2025,03:00,US Cremonese,AS Cittadella,2-2,Final
+31,29/03/2025,03:00,Sassuolo Calcio,AC Reggiana 1919,5-1,Final
+31,30/03/2025,03:00,Carrarese Calcio,SSC Bari,2-1,Final
+31,30/03/2025,03:00,Cesena FC,Juve Stabia,1-2,Final
+31,30/03/2025,03:00,US Salernitana 1919,Palermo FC,1-2,Final
+32,04/04/2025,03:00,AC Reggiana 1919,US Cremonese,1-2,Final
+32,05/04/2025,03:00,Brescia Calcio,Mantova 1911,1-2,Final
+32,05/04/2025,03:00,AS Cittadella,Carrarese Calcio,0-0,Final
+32,05/04/2025,03:00,Frosinone Calcio,Cosenza Calcio,2-2,Final
+32,05/04/2025,03:00,FC Südtirol,Cesena FC,1-1,Final
+32,05/04/2025,03:00,Pisa SC,Modena FC,1-2,Final
+32,05/04/2025,03:00,Juve Stabia,US Salernitana 1919,1-0,Final
+32,06/04/2025,03:00,US Catanzaro,SSC Bari,3-3,Final
+32,06/04/2025,03:00,Palermo FC,Sassuolo Calcio,5-3,Final
+32,06/04/2025,03:00,Spezia Calcio,Sampdoria,2-0,Final
+33,11/04/2025,03:00,SSC Bari,Palermo FC,2-1,Final
+33,12/04/2025,03:00,Carrarese Calcio,US Catanzaro,2-2,Final
+33,12/04/2025,03:00,Cosenza Calcio,Brescia Calcio,1-1,Final
+33,12/04/2025,03:00,AC Reggiana 1919,Pisa SC,0-2,Final
+33,12/04/2025,03:00,US Salernitana 1919,FC Südtirol,2-1,Final
+33,12/04/2025,03:00,Sampdoria,AS Cittadella,1-0,Final
+33,12/04/2025,03:00,Modena FC,Sassuolo Calcio,1-3,Final
+33,13/04/2025,03:00,Cesena FC,Frosinone Calcio,1-1,Final
+33,13/04/2025,03:00,US Cremonese,Juve Stabia,1-1,Final
+33,13/04/2025,03:00,Mantova 1911,Spezia Calcio,2-2,Final
+34,13/05/2025,03:00,Brescia Calcio,AC Reggiana 1919,2-1,Final
+34,13/05/2025,03:00,AS Cittadella,US Salernitana 1919,0-2,Final
+34,13/05/2025,03:00,Juve Stabia,Sampdoria,0-0,Final
+34,13/05/2025,03:00,Mantova 1911,US Catanzaro,0-0,Final
+34,13/05/2025,03:00,Modena FC,Cesena FC,0-1,Final
+34,13/05/2025,03:00,Palermo FC,Carrarese Calcio,1-1,Final
+34,13/05/2025,03:00,Pisa SC,US Cremonese,2-1,Final
+34,13/05/2025,03:00,Sassuolo Calcio,Frosinone Calcio,0-1,Final
+34,13/05/2025,03:00,Spezia Calcio,Cosenza Calcio,3-1,Final
+34,13/05/2025,03:00,FC Südtirol,SSC Bari,0-0,Final
+35,25/04/2025,03:00,Frosinone Calcio,Spezia Calcio,2-2,Final
+35,25/04/2025,03:00,SSC Bari,Modena FC,1-2,Final
+35,25/04/2025,03:00,Brescia Calcio,Pisa SC,1-2,Final
+35,25/04/2025,03:00,Carrarese Calcio,Sampdoria,1-0,Final
+35,25/04/2025,03:00,AC Reggiana 1919,AS Cittadella,2-1,Final
+35,25/04/2025,03:00,US Salernitana 1919,Cosenza Calcio,3-1,Final
+35,25/04/2025,03:00,US Cremonese,Mantova 1911,4-2,Final
+35,25/04/2025,03:00,Cesena FC,Sassuolo Calcio,0-2,Final
+35,27/04/2025,03:00,US Catanzaro,Palermo FC,1-3,Final
+35,27/04/2025,03:00,FC Südtirol,Juve Stabia,2-0,Final
+36,01/05/2025,03:00,Juve Stabia,US Catanzaro,2-0,Final
+36,01/05/2025,03:00,Cosenza Calcio,SSC Bari,1-0,Final
+36,01/05/2025,03:00,Mantova 1911,Cesena FC,3-0,Final
+36,01/05/2025,03:00,Modena FC,AC Reggiana 1919,2-3,Final
+36,01/05/2025,03:00,Palermo FC,FC Südtirol,1-2,Final
+36,01/05/2025,03:00,Pisa SC,Frosinone Calcio,1-0,Final
+36,01/05/2025,03:00,Sampdoria,US Cremonese,0-0,Final
+36,01/05/2025,03:00,Spezia Calcio,US Salernitana 1919,2-0,Final
+36,01/05/2025,03:00,AS Cittadella,Brescia Calcio,0-1,Final
+36,01/05/2025,03:00,Sassuolo Calcio,Carrarese Calcio,2-0,Final
+37,04/05/2025,03:00,SSC Bari,Pisa SC,1-0,Final
+37,04/05/2025,03:00,Brescia Calcio,Juve Stabia,0-0,Final
+37,04/05/2025,03:00,Carrarese Calcio,Modena FC,2-1,Final
+37,04/05/2025,03:00,US Catanzaro,Sampdoria,2-2,Final
+37,04/05/2025,03:00,Cesena FC,Palermo FC,2-1,Final
+37,04/05/2025,03:00,Frosinone Calcio,AS Cittadella,1-1,Final
+37,04/05/2025,03:00,AC Reggiana 1919,Spezia Calcio,2-1,Final
+37,04/05/2025,03:00,US Salernitana 1919,Mantova 1911,2-0,Final
+37,04/05/2025,03:00,FC Südtirol,Cosenza Calcio,2-1,Final
+37,04/05/2025,03:00,US Cremonese,Sassuolo Calcio,1-1,Final
+38,09/05/2025,03:00,AS Cittadella,SSC Bari,3-1,Final
+38,09/05/2025,03:00,Cosenza Calcio,Cesena FC,0-1,Final
+38,09/05/2025,03:00,Juve Stabia,AC Reggiana 1919,1-2,Final
+38,09/05/2025,03:00,Mantova 1911,Carrarese Calcio,2-1,Final
+38,09/05/2025,03:00,Modena FC,Brescia Calcio,2-2,Final
+38,09/05/2025,03:00,Palermo FC,Frosinone Calcio,2-0,Final
+38,09/05/2025,03:00,Pisa SC,FC Südtirol,3-3,Final
+38,09/05/2025,03:00,Sampdoria,US Salernitana 1919,1-0,Final
+38,09/05/2025,03:00,Sassuolo Calcio,US Catanzaro,0-2,Final
+38,09/05/2025,03:00,Spezia Calcio,US Cremonese,2-3,Final

@@ -1,0 +1,181 @@
+matchday,date,time,home_team,away_team,result,status
+1,26/08/2023,03:00,Egnatia Rrogozhine,KF Skënderbeu,0-1,Final
+1,26/08/2023,03:00,FK Vllaznia,FK Kukësi,3-1,Final
+1,27/08/2023,03:00,KF Laçi,Erzeni Shijak,3-3,Final
+1,27/08/2023,03:00,FC Dinamo City,KF Tiranë,2-3,Final
+1,07/12/2023,03:00,FK Partizani,KF Teuta Durrës,1-1,Final
+2,01/09/2023,03:00,Erzeni Shijak,FK Vllaznia,2-2,Final
+2,01/09/2023,03:00,KF Skënderbeu,FC Dinamo City,1-0,Final
+2,02/09/2023,03:00,KF Teuta Durrës,KF Tiranë,2-2,Final
+2,03/09/2023,03:00,FK Kukësi,Egnatia Rrogozhine,0-4,Final
+2,03/09/2023,03:00,FK Partizani,KF Laçi,1-0,Final
+3,13/09/2023,03:00,Egnatia Rrogozhine,Erzeni Shijak,4-3,Final
+3,13/09/2023,03:00,FC Dinamo City,FK Kukësi,2-1,Final
+3,14/09/2023,03:00,KF Tiranë,KF Skënderbeu,3-1,Final
+3,14/09/2023,03:00,FK Vllaznia,FK Partizani,0-0,Final
+3,15/09/2023,03:00,KF Laçi,KF Teuta Durrës,6-1,Final
+4,17/09/2023,03:00,Erzeni Shijak,FC Dinamo City,2-1,Final
+4,18/09/2023,03:00,FK Kukësi,KF Tiranë,1-2,Final
+4,18/09/2023,03:00,FK Partizani,Egnatia Rrogozhine,1-1,Final
+4,19/09/2023,03:00,KF Laçi,FK Vllaznia,2-1,Final
+4,19/09/2023,03:00,KF Teuta Durrës,KF Skënderbeu,1-0,Final
+5,22/09/2023,03:00,KF Tiranë,Erzeni Shijak,0-1,Final
+5,22/09/2023,03:00,FC Dinamo City,FK Partizani,1-3,Final
+5,23/09/2023,03:00,Egnatia Rrogozhine,KF Laçi,2-1,Final
+5,23/09/2023,03:00,KF Skënderbeu,FK Kukësi,0-1,Final
+5,23/09/2023,03:00,FK Vllaznia,KF Teuta Durrës,2-0,Final
+6,27/09/2023,03:00,Erzeni Shijak,KF Skënderbeu,1-2,Final
+6,27/09/2023,03:00,FK Vllaznia,Egnatia Rrogozhine,0-2,Final
+6,27/09/2023,03:00,KF Teuta Durrës,FK Kukësi,0-0,Final
+6,28/09/2023,03:00,KF Laçi,FC Dinamo City,0-1,Final
+6,19/10/2023,03:00,FK Partizani,KF Tiranë,2-1,Final
+7,01/10/2023,03:00,Egnatia Rrogozhine,KF Teuta Durrës,0-1,Final
+7,01/10/2023,03:00,KF Skënderbeu,FK Partizani,1-0,Final
+7,02/10/2023,03:00,FK Kukësi,Erzeni Shijak,2-1,Final
+7,02/10/2023,03:00,FC Dinamo City,FK Vllaznia,1-1,Final
+7,03/10/2023,03:00,KF Tiranë,KF Laçi,0-3,Final
+8,06/10/2023,03:00,Egnatia Rrogozhine,FC Dinamo City,3-0,Final
+8,07/10/2023,03:00,FK Vllaznia,KF Tiranë,0-1,Final
+8,08/10/2023,03:00,KF Laçi,KF Skënderbeu,2-0,Final
+8,08/10/2023,03:00,FK Partizani,FK Kukësi,4-3,Final
+8,08/10/2023,03:00,KF Teuta Durrës,Erzeni Shijak,0-1,Final
+9,21/10/2023,03:00,KF Skënderbeu,FK Vllaznia,0-2,Final
+9,22/10/2023,03:00,FK Kukësi,KF Laçi,1-0,Final
+9,22/10/2023,03:00,FC Dinamo City,KF Teuta Durrës,2-3,Final
+9,23/10/2023,03:00,KF Tiranë,Egnatia Rrogozhine,2-3,Final
+9,23/10/2023,03:00,Erzeni Shijak,FK Partizani,1-2,Final
+10,27/10/2023,03:00,FK Kukësi,FK Vllaznia,1-0,Final
+10,27/10/2023,03:00,Erzeni Shijak,KF Laçi,0-0,Final
+10,28/10/2023,03:00,KF Tiranë,FC Dinamo City,1-1,Final
+10,28/10/2023,03:00,KF Teuta Durrës,FK Partizani,0-1,Final
+10,28/10/2023,03:00,KF Skënderbeu,Egnatia Rrogozhine,1-1,Final
+11,31/10/2023,03:00,Egnatia Rrogozhine,FK Kukësi,2-1,Final
+11,31/10/2023,03:00,FC Dinamo City,KF Skënderbeu,2-1,Final
+11,01/11/2023,03:00,KF Laçi,FK Partizani,0-1,Final
+11,01/11/2023,03:00,KF Tiranë,KF Teuta Durrës,2-0,Final
+11,01/11/2023,03:00,FK Vllaznia,Erzeni Shijak,1-1,Final
+12,04/11/2023,03:00,Erzeni Shijak,Egnatia Rrogozhine,0-1,Final
+12,05/11/2023,03:00,FK Kukësi,FC Dinamo City,0-0,Final
+12,05/11/2023,03:00,KF Teuta Durrës,KF Laçi,1-1,Final
+12,05/11/2023,03:00,KF Skënderbeu,KF Tiranë,1-1,Final
+12,06/11/2023,03:00,FK Partizani,FK Vllaznia,4-1,Final
+13,11/11/2023,03:00,Egnatia Rrogozhine,FK Partizani,1-1,Final
+13,23/11/2023,03:00,FC Dinamo City,Erzeni Shijak,1-0,Final
+13,23/11/2023,03:00,KF Tiranë,FK Kukësi,3-2,Final
+13,24/11/2023,03:00,FK Vllaznia,KF Laçi,0-0,Final
+13,24/11/2023,03:00,KF Skënderbeu,KF Teuta Durrës,3-1,Final
+14,27/11/2023,03:00,Erzeni Shijak,KF Tiranë,1-0,Final
+14,27/11/2023,03:00,FK Partizani,FC Dinamo City,0-0,Final
+14,28/11/2023,03:00,KF Laçi,Egnatia Rrogozhine,0-2,Final
+14,28/11/2023,03:00,FK Kukësi,KF Skënderbeu,2-2,Final
+14,28/11/2023,03:00,KF Teuta Durrës,FK Vllaznia,0-1,Final
+15,02/12/2023,03:00,Egnatia Rrogozhine,FK Vllaznia,3-0,Final
+15,02/12/2023,03:00,KF Skënderbeu,Erzeni Shijak,1-0,Final
+15,03/12/2023,03:00,FK Kukësi,KF Teuta Durrës,0-0,Final
+15,03/12/2023,03:00,FC Dinamo City,KF Laçi,2-0,Final
+15,03/12/2023,03:00,KF Tiranë,FK Partizani,1-1,Final
+16,10/12/2023,03:00,KF Laçi,KF Tiranë,2-2,Final
+16,10/12/2023,03:00,Erzeni Shijak,FK Kukësi,0-0,Final
+16,10/12/2023,03:00,FK Vllaznia,FC Dinamo City,3-1,Final
+16,11/12/2023,03:00,KF Teuta Durrës,Egnatia Rrogozhine,2-2,Final
+16,11/12/2023,03:00,FK Partizani,KF Skënderbeu,1-1,Final
+17,16/12/2023,03:00,FK Kukësi,FK Partizani,1-1,Final
+17,16/12/2023,03:00,FC Dinamo City,Egnatia Rrogozhine,1-2,Final
+17,17/12/2023,03:00,KF Tiranë,FK Vllaznia,0-1,Final
+17,17/12/2023,03:00,Erzeni Shijak,KF Teuta Durrës,0-0,Final
+17,17/12/2023,03:00,KF Skënderbeu,KF Laçi,0-1,Final
+18,22/12/2023,03:00,KF Teuta Durrës,FC Dinamo City,1-2,Final
+18,22/12/2023,03:00,FK Vllaznia,KF Skënderbeu,5-0,Final
+18,23/12/2023,03:00,KF Laçi,FK Kukësi,1-1,Final
+18,24/12/2023,03:00,Egnatia Rrogozhine,KF Tiranë,0-5,Final
+18,24/12/2023,03:00,FK Partizani,Erzeni Shijak,1-2,Final
+19,12/01/2024,03:00,FC Dinamo City,KF Tiranë,2-3,Final
+19,13/01/2024,03:00,Egnatia Rrogozhine,KF Skënderbeu,1-0,Final
+19,13/01/2024,03:00,FK Partizani,KF Teuta Durrës,1-0,Final
+19,14/01/2024,03:00,KF Laçi,Erzeni Shijak,0-0,Final
+19,14/01/2024,03:00,FK Vllaznia,FK Kukësi,1-0,Final
+20,19/01/2024,03:00,FK Kukësi,Egnatia Rrogozhine,1-4,Final
+20,19/01/2024,03:00,KF Teuta Durrës,KF Tiranë,2-2,Final
+20,20/01/2024,03:00,Erzeni Shijak,FK Vllaznia,0-1,Final
+20,20/01/2024,03:00,FK Partizani,KF Laçi,1-2,Final
+20,21/02/2024,03:00,KF Skënderbeu,FC Dinamo City,0-1,Final
+21,28/01/2024,03:00,KF Laçi,KF Teuta Durrës,1-1,Final
+21,28/01/2024,03:00,FK Vllaznia,FK Partizani,1-1,Final
+21,28/01/2024,03:00,KF Tiranë,KF Skënderbeu,3-4,Final
+21,29/01/2024,03:00,Egnatia Rrogozhine,Erzeni Shijak,3-2,Final
+21,29/01/2024,03:00,FC Dinamo City,FK Kukësi,3-2,Final
+22,03/02/2024,03:00,FK Kukësi,KF Tiranë,2-3,Final
+22,03/02/2024,03:00,FK Partizani,Egnatia Rrogozhine,1-1,Final
+22,03/02/2024,03:00,KF Teuta Durrës,KF Skënderbeu,3-0,Final
+22,04/02/2024,03:00,KF Laçi,FK Vllaznia,1-1,Final
+22,04/02/2024,03:00,Erzeni Shijak,FC Dinamo City,0-4,Final
+23,10/02/2024,03:00,Egnatia Rrogozhine,KF Laçi,0-0,Final
+23,10/02/2024,03:00,FK Vllaznia,KF Teuta Durrës,2-1,Final
+23,10/02/2024,03:00,FC Dinamo City,FK Partizani,2-1,Final
+23,11/02/2024,03:00,KF Tiranë,Erzeni Shijak,1-1,Final
+23,11/02/2024,03:00,KF Skënderbeu,FK Kukësi,1-0,Final
+24,16/02/2024,03:00,KF Teuta Durrës,FK Kukësi,1-0,Final
+24,16/02/2024,03:00,FK Partizani,KF Tiranë,2-1,Final
+24,17/02/2024,03:00,KF Laçi,FC Dinamo City,1-1,Final
+24,17/02/2024,03:00,Erzeni Shijak,KF Skënderbeu,0-3,Final
+24,17/02/2024,03:00,FK Vllaznia,Egnatia Rrogozhine,2-1,Final
+25,25/02/2024,03:00,Egnatia Rrogozhine,KF Teuta Durrës,0-0,Final
+25,25/02/2024,03:00,FK Kukësi,Erzeni Shijak,1-2,Final
+25,25/02/2024,03:00,KF Skënderbeu,FK Partizani,1-0,Final
+25,26/02/2024,03:00,FC Dinamo City,FK Vllaznia,0-1,Final
+25,26/02/2024,03:00,KF Tiranë,KF Laçi,1-1,Final
+26,01/03/2024,03:00,KF Laçi,KF Skënderbeu,0-1,Final
+26,01/03/2024,03:00,Egnatia Rrogozhine,FC Dinamo City,1-1,Final
+26,01/03/2024,03:00,FK Partizani,FK Kukësi,3-0,Final
+26,02/03/2024,03:00,FK Vllaznia,KF Tiranë,3-1,Final
+26,02/03/2024,03:00,KF Teuta Durrës,Erzeni Shijak,3-0,Final
+27,10/03/2024,03:00,Erzeni Shijak,FK Partizani,0-4,Final
+27,10/03/2024,03:00,KF Tiranë,Egnatia Rrogozhine,1-1,Final
+27,11/03/2024,03:00,FK Kukësi,KF Laçi,1-0,Final
+27,11/03/2024,03:00,KF Skënderbeu,FK Vllaznia,0-1,Final
+27,03/04/2024,03:00,FC Dinamo City,KF Teuta Durrës,1-0,Final
+28,16/03/2024,03:00,Erzeni Shijak,KF Laçi,0-0,Final
+28,16/03/2024,03:00,KF Teuta Durrës,FK Partizani,1-0,Final
+28,16/03/2024,03:00,KF Skënderbeu,Egnatia Rrogozhine,2-0,Final
+28,17/03/2024,03:00,FK Kukësi,FK Vllaznia,2-0,Final
+28,17/03/2024,03:00,KF Tiranë,FC Dinamo City,3-2,Final
+29,29/03/2024,03:00,Egnatia Rrogozhine,FK Kukësi,1-0,Final
+29,29/03/2024,03:00,FK Vllaznia,Erzeni Shijak,1-1,Final
+29,29/03/2024,03:00,KF Tiranë,KF Teuta Durrës,1-2,Final
+29,30/03/2024,03:00,KF Laçi,FK Partizani,1-1,Final
+29,30/03/2024,03:00,FC Dinamo City,KF Skënderbeu,2-0,Final
+30,07/04/2024,03:00,FK Kukësi,FC Dinamo City,1-1,Final
+30,07/04/2024,03:00,KF Teuta Durrës,KF Laçi,0-1,Final
+30,07/04/2024,03:00,FK Partizani,FK Vllaznia,0-0,Final
+30,08/04/2024,03:00,Erzeni Shijak,Egnatia Rrogozhine,1-0,Final
+30,08/04/2024,03:00,KF Skënderbeu,KF Tiranë,0-0,Final
+31,13/04/2024,03:00,KF Tiranë,FK Kukësi,1-0,Final
+31,13/04/2024,03:00,FK Vllaznia,KF Laçi,1-2,Final
+31,13/04/2024,03:00,KF Skënderbeu,KF Teuta Durrës,0-1,Final
+31,14/04/2024,03:00,Egnatia Rrogozhine,FK Partizani,2-1,Final
+31,14/04/2024,03:00,FC Dinamo City,Erzeni Shijak,2-0,Final
+32,19/04/2024,03:00,Erzeni Shijak,KF Tiranë,0-2,Final
+32,19/04/2024,03:00,FK Kukësi,KF Skënderbeu,0-2,Final
+32,20/04/2024,03:00,KF Laçi,Egnatia Rrogozhine,1-2,Final
+32,20/04/2024,03:00,KF Teuta Durrës,FK Vllaznia,0-0,Final
+32,20/04/2024,03:00,FK Partizani,FC Dinamo City,2-0,Final
+33,27/04/2024,03:00,FC Dinamo City,KF Laçi,0-0,Final
+33,27/04/2024,03:00,KF Skënderbeu,Erzeni Shijak,1-0,Final
+33,28/04/2024,03:00,Egnatia Rrogozhine,FK Vllaznia,0-1,Final
+33,28/04/2024,03:00,FK Kukësi,KF Teuta Durrës,0-2,Final
+33,28/04/2024,03:00,KF Tiranë,FK Partizani,1-2,Final
+34,04/05/2024,03:00,KF Teuta Durrës,Egnatia Rrogozhine,1-0,Final
+34,04/05/2024,03:00,FK Vllaznia,FC Dinamo City,1-0,Final
+34,04/05/2024,03:00,KF Laçi,KF Tiranë,1-0,Final
+34,04/05/2024,03:00,FK Partizani,KF Skënderbeu,1-0,Final
+34,04/05/2024,03:00,Erzeni Shijak,FK Kukësi,3-3,Final
+35,08/05/2024,03:00,FK Kukësi,FK Partizani,0-1,Final
+35,08/05/2024,03:00,KF Skënderbeu,KF Laçi,1-1,Final
+35,08/05/2024,03:00,KF Tiranë,FK Vllaznia,0-0,Final
+35,08/05/2024,03:00,FC Dinamo City,Egnatia Rrogozhine,0-1,Final
+35,08/05/2024,03:00,Erzeni Shijak,KF Teuta Durrës,0-3,Final
+36,11/05/2024,03:00,KF Teuta Durrës,FC Dinamo City,1-0,Final
+36,11/05/2024,03:00,Egnatia Rrogozhine,KF Tiranë,0-3,Final
+36,11/05/2024,03:00,FK Vllaznia,KF Skënderbeu,1-5,Final
+36,11/05/2024,03:00,KF Laçi,FK Kukësi,2-0,Final
+36,11/05/2024,03:00,FK Partizani,Erzeni Shijak,4-0,Final

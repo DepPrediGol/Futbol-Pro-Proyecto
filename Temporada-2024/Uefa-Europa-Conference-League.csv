@@ -1,0 +1,142 @@
+matchday,date,time,home_team,away_team,result,status
+1,20/09/2023,03:00,Lille OSC,Olimpija Ljubljana,2-0,Final
+1,21/09/2023,03:00,Slovan Bratislava,KÍ Klaksvík,2-1,Final
+2,05/10/2023,03:00,KÍ Klaksvík,Lille OSC,0-0,Final
+2,05/10/2023,03:00,Olimpija Ljubljana,Slovan Bratislava,0-1,Final
+3,26/10/2023,03:00,KÍ Klaksvík,Olimpija Ljubljana,3-0,Final
+3,26/10/2023,03:00,Lille OSC,Slovan Bratislava,2-1,Final
+4,09/11/2023,03:00,Olimpija Ljubljana,KÍ Klaksvík,2-0,Final
+4,09/11/2023,03:00,Slovan Bratislava,Lille OSC,1-1,Final
+5,30/11/2023,03:00,KÍ Klaksvík,Slovan Bratislava,1-2,Final
+5,30/11/2023,03:00,Olimpija Ljubljana,Lille OSC,0-2,Final
+6,14/12/2023,03:00,Lille OSC,KÍ Klaksvík,3-0,Final
+6,14/12/2023,03:00,Slovan Bratislava,Olimpija Ljubljana,1-2,Final
+1,21/09/2023,03:00,Maccabi Tel Aviv,Breiðablik,3-2,Final
+1,21/09/2023,03:00,Zorya Lugansk,KAA Gent,1-1,Final
+2,05/10/2023,03:00,Breiðablik,Zorya Lugansk,0-1,Final
+2,05/10/2023,03:00,KAA Gent,Maccabi Tel Aviv,2-0,Final
+3,26/10/2023,03:00,KAA Gent,Breiðablik,5-0,Final
+4,09/11/2023,03:00,Breiðablik,KAA Gent,2-3,Final
+4,09/11/2023,03:00,Zorya Lugansk,Maccabi Tel Aviv,1-3,Final
+3,25/11/2023,03:00,Maccabi Tel Aviv,Zorya Lugansk,3-2,Final
+5,30/11/2023,03:00,Breiðablik,Maccabi Tel Aviv,1-2,Final
+5,30/11/2023,03:00,KAA Gent,Zorya Lugansk,4-1,Final
+6,14/12/2023,03:00,Maccabi Tel Aviv,KAA Gent,3-1,Final
+6,14/12/2023,03:00,Zorya Lugansk,Breiðablik,4-0,Final
+1,21/09/2023,03:00,Dinamo Zagreb,FK Astana,5-1,Final
+1,21/09/2023,03:00,Viktoria Plzeň,KF Ballkani,1-0,Final
+2,05/10/2023,03:00,FK Astana,Viktoria Plzeň,1-2,Final
+2,05/10/2023,03:00,KF Ballkani,Dinamo Zagreb,2-0,Final
+3,26/10/2023,03:00,KF Ballkani,FK Astana,1-2,Final
+3,26/10/2023,03:00,Dinamo Zagreb,Viktoria Plzeň,0-1,Final
+4,09/11/2023,03:00,FK Astana,KF Ballkani,0-0,Final
+4,09/11/2023,03:00,Viktoria Plzeň,Dinamo Zagreb,1-0,Final
+5,30/11/2023,03:00,FK Astana,Dinamo Zagreb,0-2,Final
+5,30/11/2023,03:00,KF Ballkani,Viktoria Plzeň,0-1,Final
+6,14/12/2023,03:00,Dinamo Zagreb,KF Ballkani,3-0,Final
+6,14/12/2023,03:00,Viktoria Plzeň,FK Astana,3-0,Final
+1,21/09/2023,03:00,Club Brugge KV,Beşiktaş,1-1,Final
+1,21/09/2023,03:00,FC Lugano,FK Bodø/Glimt,0-0,Final
+2,05/10/2023,03:00,Beşiktaş,FC Lugano,2-3,Final
+2,05/10/2023,03:00,FK Bodø/Glimt,Club Brugge KV,0-1,Final
+3,26/10/2023,03:00,FC Lugano,Club Brugge KV,1-3,Final
+3,26/10/2023,03:00,FK Bodø/Glimt,Beşiktaş,3-1,Final
+4,09/11/2023,03:00,Beşiktaş,FK Bodø/Glimt,1-2,Final
+4,09/11/2023,03:00,Club Brugge KV,FC Lugano,2-0,Final
+5,30/11/2023,03:00,Beşiktaş,Club Brugge KV,0-5,Final
+5,30/11/2023,03:00,FK Bodø/Glimt,FC Lugano,5-2,Final
+6,14/12/2023,03:00,Club Brugge KV,FK Bodø/Glimt,3-1,Final
+6,14/12/2023,03:00,FC Lugano,Beşiktaş,0-2,Final
+1,21/09/2023,03:00,Legia Warszawa,Aston Villa,3-2,Final
+1,21/09/2023,03:00,Zrinjski Mostar,AZ Alkmaar,4-3,Final
+2,05/10/2023,03:00,Aston Villa,Zrinjski Mostar,1-0,Final
+2,05/10/2023,03:00,AZ Alkmaar,Legia Warszawa,1-0,Final
+3,26/10/2023,03:00,AZ Alkmaar,Aston Villa,1-4,Final
+3,26/10/2023,03:00,Zrinjski Mostar,Legia Warszawa,1-2,Final
+4,09/11/2023,03:00,Legia Warszawa,Zrinjski Mostar,2-0,Final
+4,09/11/2023,03:00,Aston Villa,AZ Alkmaar,2-1,Final
+5,30/11/2023,03:00,AZ Alkmaar,Zrinjski Mostar,1-0,Final
+5,30/11/2023,03:00,Aston Villa,Legia Warszawa,2-1,Final
+6,14/12/2023,03:00,Legia Warszawa,AZ Alkmaar,2-0,Final
+6,14/12/2023,03:00,Zrinjski Mostar,Aston Villa,1-1,Final
+1,21/09/2023,03:00,Ferencvárosi TC,FK Čukarički,3-1,Final
+1,21/09/2023,03:00,KRC Genk,ACF Fiorentina,2-2,Final
+2,05/10/2023,03:00,ACF Fiorentina,Ferencvárosi TC,2-2,Final
+2,05/10/2023,03:00,FK Čukarički,KRC Genk,0-2,Final
+3,26/10/2023,03:00,ACF Fiorentina,FK Čukarički,6-0,Final
+3,26/10/2023,03:00,KRC Genk,Ferencvárosi TC,0-0,Final
+4,09/11/2023,03:00,Ferencvárosi TC,KRC Genk,1-1,Final
+4,09/11/2023,03:00,FK Čukarički,ACF Fiorentina,0-1,Final
+5,30/11/2023,03:00,ACF Fiorentina,KRC Genk,2-1,Final
+5,30/11/2023,03:00,FK Čukarički,Ferencvárosi TC,1-2,Final
+6,14/12/2023,03:00,Ferencvárosi TC,ACF Fiorentina,1-1,Final
+6,14/12/2023,03:00,KRC Genk,FK Čukarički,2-0,Final
+1,21/09/2023,03:00,Eintracht Francfort,Aberdeen FC,2-1,Final
+1,21/09/2023,03:00,HJK Helsinki,PAOK Saloniki,2-3,Final
+2,05/10/2023,03:00,Aberdeen FC,HJK Helsinki,1-1,Final
+2,05/10/2023,03:00,PAOK Saloniki,Eintracht Francfort,2-1,Final
+3,26/10/2023,03:00,Aberdeen FC,PAOK Saloniki,2-3,Final
+3,26/10/2023,03:00,Eintracht Francfort,HJK Helsinki,6-0,Final
+4,09/11/2023,03:00,HJK Helsinki,Eintracht Francfort,0-1,Final
+4,09/11/2023,03:00,PAOK Saloniki,Aberdeen FC,2-2,Final
+5,30/11/2023,03:00,HJK Helsinki,Aberdeen FC,2-2,Final
+5,30/11/2023,03:00,Eintracht Francfort,PAOK Saloniki,1-2,Final
+6,14/12/2023,03:00,Aberdeen FC,Eintracht Francfort,2-0,Final
+6,14/12/2023,03:00,PAOK Saloniki,HJK Helsinki,4-2,Final
+1,21/09/2023,03:00,Fenerbahçe,FC Nordsjælland,3-1,Final
+1,21/09/2023,03:00,PFC Ludogorets Razgrad,Spartak Trnava,4-0,Final
+2,05/10/2023,03:00,FC Nordsjælland,PFC Ludogorets Razgrad,7-1,Final
+2,05/10/2023,03:00,Spartak Trnava,Fenerbahçe,1-2,Final
+3,26/10/2023,03:00,Fenerbahçe,PFC Ludogorets Razgrad,3-1,Final
+3,26/10/2023,03:00,Spartak Trnava,FC Nordsjælland,0-2,Final
+4,09/11/2023,03:00,FC Nordsjælland,Spartak Trnava,1-1,Final
+4,09/11/2023,03:00,PFC Ludogorets Razgrad,Fenerbahçe,2-0,Final
+5,30/11/2023,03:00,FC Nordsjælland,Fenerbahçe,6-1,Final
+5,30/11/2023,03:00,Spartak Trnava,PFC Ludogorets Razgrad,1-2,Final
+6,14/12/2023,03:00,Fenerbahçe,Spartak Trnava,4-0,Final
+6,14/12/2023,03:00,PFC Ludogorets Razgrad,FC Nordsjælland,1-0,Final
+6,15/02/2024,03:00,Sturm Graz,Slovan Bratislava,4-1,Final
+6,15/02/2024,03:00,Union Saint-Gilloise,Eintracht Francfort,2-2,Final
+6,15/02/2024,03:00,Olympiakos Piraeus,Ferencvárosi TC,1-0,Final
+6,15/02/2024,03:00,Molde FK,Legia Warszawa,3-2,Final
+6,15/02/2024,03:00,Servette FC,PFC Ludogorets Razgrad,0-0,Final
+6,15/02/2024,03:00,Real Betis,Dinamo Zagreb,0-1,Final
+6,15/02/2024,03:00,AFC Ajax,FK Bodø/Glimt,2-2,Final
+6,15/02/2024,03:00,Maccabi Haifa,KAA Gent,1-0,Final
+6,21/02/2024,03:00,KAA Gent,Maccabi Haifa,1-1,Final
+6,22/02/2024,03:00,PFC Ludogorets Razgrad,Servette FC,0-1,Final
+6,22/02/2024,03:00,Dinamo Zagreb,Real Betis,1-1,Final
+6,22/02/2024,03:00,FK Bodø/Glimt,AFC Ajax,1-2,Final
+6,22/02/2024,03:00,Slovan Bratislava,Sturm Graz,0-1,Final
+6,22/02/2024,03:00,Eintracht Francfort,Union Saint-Gilloise,1-2,Final
+6,22/02/2024,03:00,Ferencvárosi TC,Olympiakos Piraeus,0-1,Final
+6,22/02/2024,03:00,Legia Warszawa,Molde FK,0-3,Final
+6,07/03/2024,03:00,AFC Ajax,Aston Villa,0-0,Final
+6,07/03/2024,03:00,Molde FK,Club Brugge KV,2-1,Final
+6,07/03/2024,03:00,Sturm Graz,Lille OSC,0-3,Final
+6,07/03/2024,03:00,Olympiakos Piraeus,Maccabi Tel Aviv,1-4,Final
+6,07/03/2024,03:00,Servette FC,Viktoria Plzeň,0-0,Final
+6,07/03/2024,03:00,Union Saint-Gilloise,Fenerbahçe,0-3,Final
+6,07/03/2024,03:00,Dinamo Zagreb,PAOK Saloniki,2-0,Final
+6,07/03/2024,03:00,Maccabi Haifa,ACF Fiorentina,3-4,Final
+6,14/03/2024,03:00,Viktoria Plzeň,Servette FC,3-1,Final
+6,14/03/2024,03:00,Fenerbahçe,Union Saint-Gilloise,0-1,Final
+6,14/03/2024,03:00,PAOK Saloniki,Dinamo Zagreb,5-1,Final
+6,14/03/2024,03:00,ACF Fiorentina,Maccabi Haifa,1-1,Final
+6,14/03/2024,03:00,Aston Villa,AFC Ajax,4-0,Final
+6,14/03/2024,03:00,Club Brugge KV,Molde FK,3-0,Final
+6,14/03/2024,03:00,Lille OSC,Sturm Graz,1-1,Final
+6,14/03/2024,03:00,Maccabi Tel Aviv,Olympiakos Piraeus,1-6,Final
+6,11/04/2024,03:00,Olympiakos Piraeus,Fenerbahçe,3-2,Final
+6,11/04/2024,03:00,Viktoria Plzeň,ACF Fiorentina,0-0,Final
+6,11/04/2024,03:00,Club Brugge KV,PAOK Saloniki,1-0,Final
+6,11/04/2024,03:00,Aston Villa,Lille OSC,2-1,Final
+6,18/04/2024,03:00,Lille OSC,Aston Villa,3-4,Final
+6,18/04/2024,03:00,ACF Fiorentina,Viktoria Plzeň,2-0,Final
+6,18/04/2024,03:00,PAOK Saloniki,Club Brugge KV,0-2,Final
+6,18/04/2024,03:00,Fenerbahçe,Olympiakos Piraeus,2-3,Final
+6,02/05/2024,03:00,Aston Villa,Olympiakos Piraeus,2-4,Final
+6,02/05/2024,03:00,ACF Fiorentina,Club Brugge KV,3-2,Final
+6,08/05/2024,03:00,Club Brugge KV,ACF Fiorentina,1-1,Final
+6,09/05/2024,03:00,Olympiakos Piraeus,Aston Villa,2-0,Final
+6,29/05/2024,03:00,Olympiakos Piraeus,ACF Fiorentina,1-0,Final

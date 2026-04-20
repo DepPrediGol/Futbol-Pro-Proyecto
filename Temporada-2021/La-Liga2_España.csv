@@ -1,0 +1,463 @@
+matchday,date,time,home_team,away_team,result,status
+1,12/09/2020,03:00,SD Ponferradina,CD Castellón,1-2,Final
+1,12/09/2020,03:00,CD Leganés,UD Las Palmas,1-0,Final
+1,12/09/2020,03:00,Sporting Gijón,UD Logroñés,1-0,Final
+1,12/09/2020,03:00,Espanyol Barcelona,Albacete,3-0,Final
+1,13/09/2020,03:00,Real Oviedo,FC Cartagena,0-0,Final
+1,13/09/2020,03:00,RCD Mallorca,Rayo Vallecano,0-1,Final
+1,13/09/2020,03:00,CD Mirandés,AD Alcorcón,0-0,Final
+1,13/09/2020,03:00,CF Fuenlabrada,CD Lugo,2-0,Final
+1,13/09/2020,03:00,CD Tenerife,Málaga CF,2-0,Final
+1,04/11/2020,03:00,Real Zaragoza,Girona FC,2-2,Final
+1,05/11/2020,03:00,CE Sabadell,UD Almería,1-2,Final
+2,19/09/2020,03:00,CD Mirandés,Real Oviedo,1-1,Final
+2,19/09/2020,03:00,AD Alcorcón,CD Tenerife,2-0,Final
+2,19/09/2020,03:00,CD Castellón,Málaga CF,0-1,Final
+2,19/09/2020,03:00,Rayo Vallecano,CE Sabadell,2-1,Final
+2,20/09/2020,03:00,CD Lugo,CD Leganés,2-1,Final
+2,20/09/2020,03:00,Espanyol Barcelona,RCD Mallorca,0-0,Final
+2,20/09/2020,03:00,Albacete,SD Ponferradina,0-2,Final
+2,20/09/2020,03:00,FC Cartagena,Sporting Gijón,0-1,Final
+2,20/09/2020,03:00,UD Las Palmas,CF Fuenlabrada,3-3,Final
+2,09/12/2020,03:00,UD Almería,Real Zaragoza,1-0,Final
+2,10/12/2020,03:00,Girona FC,UD Logroñés,2-0,Final
+3,26/09/2020,03:00,Real Zaragoza,UD Las Palmas,2-2,Final
+3,26/09/2020,03:00,Málaga CF,AD Alcorcón,1-0,Final
+3,26/09/2020,03:00,Sporting Gijón,Girona FC,2-0,Final
+3,26/09/2020,03:00,UD Logroñés,CD Castellón,1-1,Final
+3,26/09/2020,03:00,CF Fuenlabrada,Albacete,1-0,Final
+3,27/09/2020,03:00,CD Lugo,UD Almería,0-2,Final
+3,27/09/2020,03:00,RCD Mallorca,CE Sabadell,1-0,Final
+3,27/09/2020,03:00,CD Tenerife,CD Mirandés,1-2,Final
+3,27/09/2020,03:00,Real Oviedo,Espanyol Barcelona,0-2,Final
+3,27/09/2020,03:00,SD Ponferradina,Rayo Vallecano,3-0,Final
+3,27/09/2020,03:00,CD Leganés,FC Cartagena,3-1,Final
+4,03/10/2020,03:00,AD Alcorcón,Real Zaragoza,0-3,Final
+4,03/10/2020,03:00,CD Mirandés,SD Ponferradina,0-1,Final
+4,03/10/2020,03:00,Albacete,Real Oviedo,1-1,Final
+4,03/10/2020,03:00,RCD Mallorca,CD Tenerife,2-0,Final
+4,03/10/2020,03:00,UD Las Palmas,UD Logroñés,2-1,Final
+4,03/10/2020,03:00,Rayo Vallecano,Málaga CF,4-0,Final
+4,04/10/2020,03:00,Girona FC,CF Fuenlabrada,0-1,Final
+4,04/10/2020,03:00,CE Sabadell,Espanyol Barcelona,0-1,Final
+4,04/10/2020,03:00,CD Castellón,CD Leganés,2-0,Final
+4,04/10/2020,03:00,UD Almería,Sporting Gijón,0-1,Final
+4,04/10/2020,03:00,FC Cartagena,CD Lugo,2-1,Final
+5,10/10/2020,03:00,CE Sabadell,CD Mirandés,0-2,Final
+5,10/10/2020,03:00,Espanyol Barcelona,AD Alcorcón,1-0,Final
+5,10/10/2020,03:00,UD Logroñés,UD Almería,1-0,Final
+5,10/10/2020,03:00,CD Tenerife,Rayo Vallecano,1-0,Final
+5,11/10/2020,03:00,CD Lugo,RCD Mallorca,0-1,Final
+5,11/10/2020,03:00,CF Fuenlabrada,CD Castellón,1-1,Final
+5,11/10/2020,03:00,CD Leganés,Girona FC,0-1,Final
+5,11/10/2020,03:00,Málaga CF,UD Las Palmas,0-0,Final
+5,11/10/2020,03:00,Real Zaragoza,Albacete,1-0,Final
+5,11/10/2020,03:00,SD Ponferradina,FC Cartagena,0-2,Final
+5,11/10/2020,03:00,Real Oviedo,Sporting Gijón,1-0,Final
+6,17/10/2020,03:00,Albacete,CE Sabadell,3-0,Final
+6,17/10/2020,03:00,FC Cartagena,CF Fuenlabrada,1-1,Final
+6,17/10/2020,03:00,UD Las Palmas,UD Almería,2-0,Final
+6,17/10/2020,03:00,CD Castellón,CD Lugo,0-1,Final
+6,17/10/2020,03:00,UD Logroñés,CD Leganés,0-1,Final
+6,18/10/2020,03:00,Rayo Vallecano,Espanyol Barcelona,1-0,Final
+6,18/10/2020,03:00,CD Mirandés,RCD Mallorca,0-0,Final
+6,18/10/2020,03:00,Real Zaragoza,Málaga CF,1-2,Final
+6,18/10/2020,03:00,Girona FC,Real Oviedo,1-0,Final
+6,18/10/2020,03:00,Sporting Gijón,CD Tenerife,1-1,Final
+6,05/11/2020,03:00,AD Alcorcón,SD Ponferradina,0-1,Final
+7,21/10/2020,03:00,Espanyol Barcelona,CD Mirandés,2-0,Final
+7,21/10/2020,03:00,CD Lugo,Girona FC,3-0,Final
+7,21/10/2020,03:00,SD Ponferradina,CD Tenerife,1-0,Final
+7,21/10/2020,03:00,UD Las Palmas,CD Castellón,2-1,Final
+7,21/10/2020,03:00,CF Fuenlabrada,UD Logroñés,0-0,Final
+7,21/10/2020,03:00,UD Almería,FC Cartagena,1-1,Final
+7,22/10/2020,03:00,CD Leganés,Real Zaragoza,1-0,Final
+7,22/10/2020,03:00,RCD Mallorca,Albacete,0-0,Final
+7,22/10/2020,03:00,Real Oviedo,Rayo Vallecano,0-0,Final
+7,22/10/2020,03:00,Málaga CF,Sporting Gijón,1-0,Final
+7,09/12/2020,03:00,CE Sabadell,AD Alcorcón,1-1,Final
+8,24/10/2020,03:00,FC Cartagena,UD Las Palmas,3-0,Final
+8,24/10/2020,03:00,UD Logroñés,CD Lugo,2-3,Final
+8,24/10/2020,03:00,CD Castellón,Girona FC,0-1,Final
+8,24/10/2020,03:00,UD Almería,CF Fuenlabrada,3-0,Final
+8,25/10/2020,03:00,Sporting Gijón,SD Ponferradina,2-1,Final
+8,25/10/2020,03:00,CD Leganés,Real Oviedo,2-1,Final
+8,25/10/2020,03:00,CD Tenerife,Espanyol Barcelona,0-0,Final
+8,25/10/2020,03:00,Albacete,Rayo Vallecano,2-1,Final
+8,25/10/2020,03:00,Málaga CF,CD Mirandés,1-1,Final
+8,25/10/2020,03:00,Real Zaragoza,CE Sabadell,0-0,Final
+8,26/10/2020,03:00,AD Alcorcón,RCD Mallorca,0-2,Final
+9,27/10/2020,03:00,Girona FC,FC Cartagena,2-1,Final
+9,28/10/2020,03:00,Albacete,UD Las Palmas,1-1,Final
+9,28/10/2020,03:00,CD Castellón,UD Almería,1-2,Final
+9,28/10/2020,03:00,Espanyol Barcelona,SD Ponferradina,2-0,Final
+9,28/10/2020,03:00,Real Oviedo,UD Logroñés,2-3,Final
+9,29/10/2020,03:00,AD Alcorcón,Sporting Gijón,1-2,Final
+9,29/10/2020,03:00,CD Mirandés,Real Zaragoza,1-0,Final
+9,29/10/2020,03:00,CD Tenerife,CD Lugo,1-1,Final
+9,29/10/2020,03:00,RCD Mallorca,Málaga CF,3-1,Final
+9,29/10/2020,03:00,Rayo Vallecano,CF Fuenlabrada,2-0,Final
+9,29/10/2020,03:00,CE Sabadell,CD Leganés,1-0,Final
+10,31/10/2020,03:00,FC Cartagena,Albacete,3-1,Final
+10,31/10/2020,03:00,UD Las Palmas,Real Oviedo,1-2,Final
+10,01/11/2020,03:00,CD Leganés,CD Mirandés,1-0,Final
+10,01/11/2020,03:00,Real Zaragoza,RCD Mallorca,0-0,Final
+10,01/11/2020,03:00,CF Fuenlabrada,CD Tenerife,1-1,Final
+10,01/11/2020,03:00,SD Ponferradina,CE Sabadell,0-3,Final
+10,01/11/2020,03:00,CD Lugo,Rayo Vallecano,1-0,Final
+10,01/11/2020,03:00,UD Almería,Girona FC,0-0,Final
+10,02/11/2020,03:00,UD Logroñés,AD Alcorcón,1-0,Final
+10,02/11/2020,03:00,Sporting Gijón,CD Castellón,1-0,Final
+10,02/11/2020,03:00,Málaga CF,Espanyol Barcelona,0-3,Final
+11,06/11/2020,03:00,Albacete,CD Leganés,0-0,Final
+11,07/11/2020,03:00,FC Cartagena,UD Logroñés,0-1,Final
+11,07/11/2020,03:00,CD Mirandés,Sporting Gijón,1-0,Final
+11,07/11/2020,03:00,Espanyol Barcelona,CD Lugo,2-1,Final
+11,08/11/2020,03:00,CE Sabadell,Málaga CF,1-2,Final
+11,08/11/2020,03:00,AD Alcorcón,CF Fuenlabrada,0-3,Final
+11,08/11/2020,03:00,Rayo Vallecano,UD Almería,0-1,Final
+11,08/11/2020,03:00,RCD Mallorca,SD Ponferradina,3-0,Final
+11,08/11/2020,03:00,Real Oviedo,CD Castellón,4-0,Final
+11,08/11/2020,03:00,CD Tenerife,Real Zaragoza,1-0,Final
+11,09/11/2020,03:00,Girona FC,UD Las Palmas,1-1,Final
+12,13/11/2020,03:00,Real Zaragoza,Real Oviedo,1-2,Final
+12,14/11/2020,03:00,CF Fuenlabrada,Espanyol Barcelona,1-1,Final
+12,14/11/2020,03:00,UD Almería,CD Mirandés,2-1,Final
+12,14/11/2020,03:00,CD Lugo,Albacete,1-0,Final
+12,14/11/2020,03:00,Girona FC,RCD Mallorca,0-1,Final
+12,15/11/2020,03:00,CD Leganés,AD Alcorcón,1-0,Final
+12,15/11/2020,03:00,SD Ponferradina,Málaga CF,1-1,Final
+12,15/11/2020,03:00,CD Castellón,FC Cartagena,2-1,Final
+12,15/11/2020,03:00,UD Logroñés,CE Sabadell,1-0,Final
+12,15/11/2020,03:00,UD Las Palmas,CD Tenerife,1-0,Final
+12,16/11/2020,03:00,Sporting Gijón,Rayo Vallecano,1-1,Final
+13,20/11/2020,03:00,AD Alcorcón,CD Lugo,1-0,Final
+13,20/11/2020,03:00,Espanyol Barcelona,Girona FC,1-2,Final
+13,21/11/2020,03:00,Málaga CF,CD Leganés,1-2,Final
+13,21/11/2020,03:00,CD Mirandés,FC Cartagena,4-1,Final
+13,21/11/2020,03:00,Rayo Vallecano,CD Castellón,2-1,Final
+13,21/11/2020,03:00,Real Oviedo,CF Fuenlabrada,1-1,Final
+13,22/11/2020,03:00,CE Sabadell,UD Las Palmas,3-1,Final
+13,22/11/2020,03:00,RCD Mallorca,Sporting Gijón,0-0,Final
+13,22/11/2020,03:00,CD Tenerife,UD Logroñés,0-1,Final
+13,22/11/2020,03:00,SD Ponferradina,Real Zaragoza,2-1,Final
+13,23/11/2020,03:00,Albacete,UD Almería,1-2,Final
+14,24/11/2020,03:00,CD Castellón,AD Alcorcón,0-2,Final
+14,24/11/2020,03:00,Girona FC,Málaga CF,0-1,Final
+14,24/11/2020,03:00,CD Lugo,Real Oviedo,0-0,Final
+14,25/11/2020,03:00,Real Zaragoza,Rayo Vallecano,1-2,Final
+14,25/11/2020,03:00,Sporting Gijón,CE Sabadell,3-1,Final
+14,25/11/2020,03:00,UD Las Palmas,CD Mirandés,0-2,Final
+14,25/11/2020,03:00,FC Cartagena,RCD Mallorca,1-2,Final
+14,25/11/2020,03:00,CF Fuenlabrada,SD Ponferradina,1-1,Final
+14,26/11/2020,03:00,CD Leganés,Espanyol Barcelona,2-0,Final
+14,26/11/2020,03:00,UD Logroñés,Albacete,2-0,Final
+14,26/11/2020,03:00,UD Almería,CD Tenerife,2-0,Final
+15,27/11/2020,03:00,AD Alcorcón,Girona FC,1-0,Final
+15,27/11/2020,03:00,Málaga CF,CD Lugo,2-2,Final
+15,28/11/2020,03:00,CE Sabadell,CF Fuenlabrada,1-2,Final
+15,28/11/2020,03:00,Rayo Vallecano,FC Cartagena,0-0,Final
+15,28/11/2020,03:00,CD Mirandés,CD Castellón,1-1,Final
+15,29/11/2020,03:00,Albacete,CD Tenerife,0-2,Final
+15,29/11/2020,03:00,Espanyol Barcelona,Real Zaragoza,2-0,Final
+15,29/11/2020,03:00,RCD Mallorca,UD Logroñés,4-0,Final
+15,29/11/2020,03:00,SD Ponferradina,CD Leganés,3-2,Final
+15,29/11/2020,03:00,UD Las Palmas,Sporting Gijón,3-2,Final
+15,30/11/2020,03:00,Real Oviedo,UD Almería,1-2,Final
+16,01/12/2020,03:00,CF Fuenlabrada,Málaga CF,0-2,Final
+16,01/12/2020,03:00,Girona FC,CD Mirandés,1-0,Final
+16,02/12/2020,03:00,CD Leganés,Rayo Vallecano,1-0,Final
+16,02/12/2020,03:00,FC Cartagena,Espanyol Barcelona,1-3,Final
+16,02/12/2020,03:00,UD Logroñés,SD Ponferradina,1-2,Final
+16,02/12/2020,03:00,CD Castellón,Real Zaragoza,1-0,Final
+16,02/12/2020,03:00,CD Lugo,UD Las Palmas,1-1,Final
+16,03/12/2020,03:00,CD Tenerife,CE Sabadell,1-2,Final
+16,03/12/2020,03:00,Real Oviedo,AD Alcorcón,1-1,Final
+16,03/12/2020,03:00,UD Almería,RCD Mallorca,0-1,Final
+16,03/12/2020,03:00,Sporting Gijón,Albacete,0-0,Final
+17,05/12/2020,03:00,Rayo Vallecano,UD Logroñés,2-1,Final
+17,05/12/2020,03:00,SD Ponferradina,UD Las Palmas,0-0,Final
+17,05/12/2020,03:00,CD Mirandés,CD Lugo,0-0,Final
+17,05/12/2020,03:00,Málaga CF,FC Cartagena,1-2,Final
+17,06/12/2020,03:00,AD Alcorcón,UD Almería,0-1,Final
+17,06/12/2020,03:00,Espanyol Barcelona,Sporting Gijón,2-0,Final
+17,06/12/2020,03:00,Albacete,Girona FC,0-2,Final
+17,06/12/2020,03:00,CE Sabadell,Real Oviedo,0-1,Final
+17,06/12/2020,03:00,Real Zaragoza,CF Fuenlabrada,1-0,Final
+17,07/12/2020,03:00,CD Tenerife,CD Leganés,0-0,Final
+17,07/12/2020,03:00,RCD Mallorca,CD Castellón,3-1,Final
+18,11/12/2020,03:00,CD Lugo,SD Ponferradina,1-0,Final
+18,11/12/2020,03:00,Real Oviedo,CD Tenerife,4-2,Final
+18,12/12/2020,03:00,CD Leganés,RCD Mallorca,0-1,Final
+18,12/12/2020,03:00,CD Castellón,Albacete,3-0,Final
+18,12/12/2020,03:00,CF Fuenlabrada,CD Mirandés,0-1,Final
+18,13/12/2020,03:00,UD Logroñés,Espanyol Barcelona,0-3,Final
+18,13/12/2020,03:00,UD Almería,Málaga CF,3-1,Final
+18,13/12/2020,03:00,UD Las Palmas,AD Alcorcón,0-0,Final
+18,13/12/2020,03:00,FC Cartagena,CE Sabadell,1-2,Final
+18,13/12/2020,03:00,Sporting Gijón,Real Zaragoza,1-0,Final
+18,14/12/2020,03:00,Girona FC,Rayo Vallecano,0-0,Final
+19,18/12/2020,03:00,SD Ponferradina,Real Oviedo,1-0,Final
+19,19/12/2020,03:00,CE Sabadell,CD Castellón,1-1,Final
+19,19/12/2020,03:00,RCD Mallorca,CF Fuenlabrada,2-3,Final
+19,19/12/2020,03:00,Real Zaragoza,CD Lugo,1-0,Final
+19,20/12/2020,03:00,AD Alcorcón,FC Cartagena,2-1,Final
+19,20/12/2020,03:00,Espanyol Barcelona,UD Almería,2-1,Final
+19,20/12/2020,03:00,Rayo Vallecano,UD Las Palmas,2-0,Final
+19,20/12/2020,03:00,Málaga CF,UD Logroñés,0-0,Final
+19,21/12/2020,03:00,CD Mirandés,Albacete,0-2,Final
+19,21/12/2020,03:00,Sporting Gijón,CD Leganés,1-1,Final
+19,21/12/2020,03:00,CD Tenerife,Girona FC,2-0,Final
+20,02/01/2021,03:00,CF Fuenlabrada,CD Leganés,0-0,Final
+20,02/01/2021,03:00,Rayo Vallecano,AD Alcorcón,2-1,Final
+20,02/01/2021,03:00,UD Logroñés,CD Mirandés,2-1,Final
+20,02/01/2021,03:00,FC Cartagena,Real Zaragoza,1-1,Final
+20,03/01/2021,03:00,CD Castellón,CD Tenerife,0-1,Final
+20,03/01/2021,03:00,UD Las Palmas,Espanyol Barcelona,1-0,Final
+20,03/01/2021,03:00,Albacete,Málaga CF,1-1,Final
+20,03/01/2021,03:00,UD Almería,SD Ponferradina,3-1,Final
+20,03/01/2021,03:00,Real Oviedo,RCD Mallorca,2-2,Final
+20,04/01/2021,03:00,Girona FC,CE Sabadell,0-0,Final
+20,04/01/2021,03:00,CD Lugo,Sporting Gijón,0-0,Final
+21,08/01/2021,03:00,Real Zaragoza,UD Logroñés,2-0,Final
+21,09/01/2021,03:00,Málaga CF,Real Oviedo,1-1,Final
+21,10/01/2021,03:00,RCD Mallorca,UD Las Palmas,0-1,Final
+21,10/01/2021,03:00,CD Tenerife,FC Cartagena,3-0,Final
+21,10/01/2021,03:00,Espanyol Barcelona,CD Castellón,2-0,Final
+21,11/01/2021,03:00,SD Ponferradina,Girona FC,1-1,Final
+21,11/01/2021,03:00,Sporting Gijón,CF Fuenlabrada,2-1,Final
+21,11/01/2021,03:00,CE Sabadell,CD Lugo,1-1,Final
+21,19/01/2021,03:00,CD Mirandés,Rayo Vallecano,0-2,Final
+21,26/01/2021,03:00,AD Alcorcón,Albacete,1-2,Final
+21,17/02/2021,03:00,CD Leganés,UD Almería,2-1,Final
+22,22/01/2021,03:00,CF Fuenlabrada,AD Alcorcón,0-0,Final
+22,22/01/2021,03:00,Albacete,Real Zaragoza,1-0,Final
+22,23/01/2021,03:00,Rayo Vallecano,RCD Mallorca,1-3,Final
+22,23/01/2021,03:00,CD Lugo,CD Tenerife,2-0,Final
+22,23/01/2021,03:00,Girona FC,Espanyol Barcelona,1-0,Final
+22,23/01/2021,03:00,Málaga CF,SD Ponferradina,0-2,Final
+22,24/01/2021,03:00,UD Almería,CE Sabadell,2-2,Final
+22,24/01/2021,03:00,UD Logroñés,Real Oviedo,0-0,Final
+22,24/01/2021,03:00,CD Castellón,Sporting Gijón,2-0,Final
+22,24/01/2021,03:00,UD Las Palmas,CD Leganés,2-1,Final
+22,25/01/2021,03:00,FC Cartagena,CD Mirandés,0-2,Final
+23,29/01/2021,03:00,Real Zaragoza,SD Ponferradina,1-0,Final
+23,30/01/2021,03:00,Real Oviedo,Albacete,0-1,Final
+23,30/01/2021,03:00,AD Alcorcón,Málaga CF,0-1,Final
+23,30/01/2021,03:00,RCD Mallorca,Girona FC,1-0,Final
+23,30/01/2021,03:00,UD Almería,CD Castellón,3-1,Final
+23,31/01/2021,03:00,Sporting Gijón,FC Cartagena,0-0,Final
+23,31/01/2021,03:00,Espanyol Barcelona,Rayo Vallecano,2-3,Final
+23,31/01/2021,03:00,CD Mirandés,UD Las Palmas,2-0,Final
+23,31/01/2021,03:00,CD Tenerife,CF Fuenlabrada,1-1,Final
+23,01/02/2021,03:00,CD Leganés,CD Lugo,3-2,Final
+23,01/02/2021,03:00,CE Sabadell,UD Logroñés,0-0,Final
+24,05/02/2021,03:00,Albacete,RCD Mallorca,0-1,Final
+24,06/02/2021,03:00,FC Cartagena,Real Oviedo,2-0,Final
+24,06/02/2021,03:00,UD Logroñés,Sporting Gijón,0-4,Final
+24,06/02/2021,03:00,CF Fuenlabrada,UD Almería,1-1,Final
+24,07/02/2021,03:00,Girona FC,CD Leganés,0-2,Final
+24,07/02/2021,03:00,Málaga CF,Real Zaragoza,1-2,Final
+24,07/02/2021,03:00,CD Castellón,CD Mirandés,0-1,Final
+24,07/02/2021,03:00,Rayo Vallecano,CD Tenerife,0-1,Final
+24,07/02/2021,03:00,UD Las Palmas,CE Sabadell,0-1,Final
+24,08/02/2021,03:00,SD Ponferradina,AD Alcorcón,2-0,Final
+24,08/02/2021,03:00,CD Lugo,Espanyol Barcelona,1-1,Final
+25,12/02/2021,03:00,CE Sabadell,Real Zaragoza,1-1,Final
+25,13/02/2021,03:00,FC Cartagena,Rayo Vallecano,2-2,Final
+25,13/02/2021,03:00,CD Mirandés,Girona FC,3-3,Final
+25,13/02/2021,03:00,CD Tenerife,SD Ponferradina,1-0,Final
+25,14/02/2021,03:00,RCD Mallorca,Espanyol Barcelona,1-2,Final
+25,14/02/2021,03:00,UD Almería,UD Las Palmas,3-1,Final
+25,14/02/2021,03:00,AD Alcorcón,UD Logroñés,1-0,Final
+25,14/02/2021,03:00,CD Leganés,Albacete,3-1,Final
+25,14/02/2021,03:00,Sporting Gijón,Málaga CF,1-0,Final
+25,15/02/2021,03:00,CD Castellón,CF Fuenlabrada,1-2,Final
+25,15/02/2021,03:00,Real Oviedo,CD Lugo,3-1,Final
+26,19/02/2021,03:00,SD Ponferradina,CD Mirandés,1-0,Final
+26,20/02/2021,03:00,Espanyol Barcelona,CE Sabadell,1-0,Final
+26,20/02/2021,03:00,Albacete,Sporting Gijón,0-1,Final
+26,20/02/2021,03:00,UD Las Palmas,FC Cartagena,2-0,Final
+26,21/02/2021,03:00,CD Leganés,CD Tenerife,1-0,Final
+26,21/02/2021,03:00,RCD Mallorca,UD Almería,2-0,Final
+26,21/02/2021,03:00,Girona FC,CD Castellón,2-1,Final
+26,21/02/2021,03:00,CD Lugo,UD Logroñés,1-1,Final
+26,21/02/2021,03:00,Málaga CF,Rayo Vallecano,2-0,Final
+26,22/02/2021,03:00,CF Fuenlabrada,Real Oviedo,2-2,Final
+26,22/02/2021,03:00,Real Zaragoza,AD Alcorcón,0-1,Final
+27,26/02/2021,03:00,CE Sabadell,Albacete,0-0,Final
+27,26/02/2021,03:00,FC Cartagena,CD Leganés,1-0,Final
+27,27/02/2021,03:00,Rayo Vallecano,SD Ponferradina,1-1,Final
+27,27/02/2021,03:00,UD Almería,CD Lugo,4-1,Final
+27,27/02/2021,03:00,CD Castellón,UD Las Palmas,4-0,Final
+27,27/02/2021,03:00,UD Logroñés,RCD Mallorca,0-1,Final
+27,28/02/2021,03:00,CF Fuenlabrada,Girona FC,1-1,Final
+27,28/02/2021,03:00,Sporting Gijón,Espanyol Barcelona,1-1,Final
+27,28/02/2021,03:00,CD Tenerife,AD Alcorcón,3-1,Final
+27,28/02/2021,03:00,Real Oviedo,Real Zaragoza,1-0,Final
+27,01/03/2021,03:00,CD Mirandés,Málaga CF,1-0,Final
+28,05/03/2021,03:00,Espanyol Barcelona,Real Oviedo,1-1,Final
+28,06/03/2021,03:00,Real Zaragoza,CD Tenerife,1-0,Final
+28,06/03/2021,03:00,CD Leganés,CD Castellón,0-0,Final
+28,06/03/2021,03:00,UD Las Palmas,Rayo Vallecano,1-1,Final
+28,06/03/2021,03:00,Albacete,UD Logroñés,1-1,Final
+28,07/03/2021,03:00,Málaga CF,CE Sabadell,2-0,Final
+28,07/03/2021,03:00,SD Ponferradina,Sporting Gijón,2-2,Final
+28,07/03/2021,03:00,RCD Mallorca,FC Cartagena,2-1,Final
+28,07/03/2021,03:00,Girona FC,UD Almería,0-1,Final
+28,08/03/2021,03:00,AD Alcorcón,CD Mirandés,4-0,Final
+28,08/03/2021,03:00,CD Lugo,CF Fuenlabrada,0-0,Final
+29,12/03/2021,03:00,FC Cartagena,SD Ponferradina,1-1,Final
+29,12/03/2021,03:00,Rayo Vallecano,Real Zaragoza,3-2,Final
+29,13/03/2021,03:00,CF Fuenlabrada,UD Las Palmas,1-2,Final
+29,13/03/2021,03:00,Girona FC,CD Lugo,1-1,Final
+29,13/03/2021,03:00,CD Castellón,CE Sabadell,2-1,Final
+29,13/03/2021,03:00,CD Mirandés,Espanyol Barcelona,2-2,Final
+29,14/03/2021,03:00,UD Logroñés,Málaga CF,0-1,Final
+29,14/03/2021,03:00,Sporting Gijón,RCD Mallorca,2-0,Final
+29,14/03/2021,03:00,CD Tenerife,Albacete,2-0,Final
+29,14/03/2021,03:00,Real Oviedo,CD Leganés,1-3,Final
+29,15/03/2021,03:00,UD Almería,AD Alcorcón,0-0,Final
+30,19/03/2021,03:00,UD Las Palmas,Girona FC,1-2,Final
+30,20/03/2021,03:00,CE Sabadell,Sporting Gijón,1-1,Final
+30,20/03/2021,03:00,RCD Mallorca,Real Oviedo,0-0,Final
+30,20/03/2021,03:00,CD Leganés,CF Fuenlabrada,0-2,Final
+30,20/03/2021,03:00,Espanyol Barcelona,UD Logroñés,4-0,Final
+30,21/03/2021,03:00,SD Ponferradina,UD Almería,2-1,Final
+30,21/03/2021,03:00,Málaga CF,CD Tenerife,1-1,Final
+30,21/03/2021,03:00,CD Lugo,CD Castellón,0-0,Final
+30,21/03/2021,03:00,AD Alcorcón,Rayo Vallecano,0-3,Final
+30,22/03/2021,03:00,Albacete,FC Cartagena,2-0,Final
+30,22/03/2021,03:00,Real Zaragoza,CD Mirandés,1-0,Final
+31,26/03/2021,03:00,Sporting Gijón,AD Alcorcón,0-0,Final
+31,26/03/2021,03:00,CD Castellón,Espanyol Barcelona,1-3,Final
+31,27/03/2021,03:00,Real Oviedo,SD Ponferradina,1-1,Final
+31,27/03/2021,03:00,UD Almería,CD Leganés,1-1,Final
+31,27/03/2021,03:00,FC Cartagena,Málaga CF,1-1,Final
+31,27/03/2021,03:00,UD Logroñés,Real Zaragoza,1-1,Final
+31,28/03/2021,03:00,CD Lugo,CE Sabadell,0-1,Final
+31,28/03/2021,03:00,Girona FC,Albacete,2-1,Final
+31,28/03/2021,03:00,CD Tenerife,UD Las Palmas,1-1,Final
+31,29/03/2021,03:00,CF Fuenlabrada,RCD Mallorca,4-1,Final
+31,14/04/2021,03:00,Rayo Vallecano,CD Mirandés,0-1,Final
+32,30/03/2021,03:00,AD Alcorcón,Real Oviedo,1-1,Final
+32,30/03/2021,03:00,Málaga CF,UD Almería,0-3,Final
+32,30/03/2021,03:00,SD Ponferradina,UD Logroñés,2-2,Final
+32,30/03/2021,03:00,Rayo Vallecano,Sporting Gijón,0-1,Final
+32,31/03/2021,03:00,Albacete,CD Castellón,0-1,Final
+32,31/03/2021,03:00,CE Sabadell,Girona FC,2-2,Final
+32,01/04/2021,03:00,Espanyol Barcelona,CF Fuenlabrada,4-0,Final
+32,01/04/2021,03:00,RCD Mallorca,CD Leganés,1-0,Final
+32,01/04/2021,03:00,UD Las Palmas,CD Lugo,6-1,Final
+32,01/04/2021,03:00,Real Zaragoza,FC Cartagena,0-0,Final
+32,21/04/2021,03:00,CD Mirandés,CD Tenerife,0-0,Final
+33,02/04/2021,03:00,UD Almería,Rayo Vallecano,0-1,Final
+33,03/04/2021,03:00,UD Logroñés,CD Tenerife,1-0,Final
+33,03/04/2021,03:00,Girona FC,SD Ponferradina,3-1,Final
+33,03/04/2021,03:00,CD Castellón,Real Oviedo,1-0,Final
+33,04/04/2021,03:00,Sporting Gijón,CD Mirandés,1-2,Final
+33,04/04/2021,03:00,Albacete,Espanyol Barcelona,0-3,Final
+33,04/04/2021,03:00,CD Leganés,CE Sabadell,2-1,Final
+33,04/04/2021,03:00,CD Lugo,Málaga CF,0-1,Final
+33,04/04/2021,03:00,UD Las Palmas,RCD Mallorca,1-1,Final
+33,05/04/2021,03:00,FC Cartagena,AD Alcorcón,2-1,Final
+33,05/04/2021,03:00,CF Fuenlabrada,Real Zaragoza,0-1,Final
+34,09/04/2021,03:00,CD Tenerife,Sporting Gijón,1-0,Final
+34,10/04/2021,03:00,SD Ponferradina,CF Fuenlabrada,0-0,Final
+34,10/04/2021,03:00,Real Oviedo,UD Las Palmas,0-0,Final
+34,10/04/2021,03:00,Rayo Vallecano,Girona FC,2-1,Final
+34,11/04/2021,03:00,Málaga CF,Albacete,2-0,Final
+34,11/04/2021,03:00,Real Zaragoza,UD Almería,2-1,Final
+34,11/04/2021,03:00,CD Mirandés,UD Logroñés,0-1,Final
+34,11/04/2021,03:00,RCD Mallorca,CD Lugo,2-0,Final
+34,11/04/2021,03:00,CE Sabadell,FC Cartagena,1-1,Final
+34,11/04/2021,03:00,Espanyol Barcelona,CD Leganés,2-1,Final
+34,12/04/2021,03:00,AD Alcorcón,CD Castellón,2-1,Final
+35,16/04/2021,03:00,CF Fuenlabrada,CE Sabadell,2-2,Final
+35,16/04/2021,03:00,Girona FC,Real Zaragoza,3-0,Final
+35,17/04/2021,03:00,CD Lugo,AD Alcorcón,1-3,Final
+35,17/04/2021,03:00,CD Castellón,RCD Mallorca,1-0,Final
+35,17/04/2021,03:00,Sporting Gijón,Real Oviedo,0-1,Final
+35,17/04/2021,03:00,UD Las Palmas,Málaga CF,1-1,Final
+35,18/04/2021,03:00,Albacete,CD Mirandés,1-0,Final
+35,18/04/2021,03:00,UD Logroñés,Rayo Vallecano,0-0,Final
+35,18/04/2021,03:00,FC Cartagena,CD Tenerife,0-0,Final
+35,19/04/2021,03:00,CD Leganés,SD Ponferradina,1-1,Final
+35,19/04/2021,03:00,UD Almería,Espanyol Barcelona,1-1,Final
+36,23/04/2021,03:00,Real Zaragoza,Sporting Gijón,0-0,Final
+36,24/04/2021,03:00,Málaga CF,CF Fuenlabrada,0-1,Final
+36,24/04/2021,03:00,UD Logroñés,FC Cartagena,0-1,Final
+36,24/04/2021,03:00,Espanyol Barcelona,UD Las Palmas,4-0,Final
+36,24/04/2021,03:00,SD Ponferradina,CD Lugo,2-0,Final
+36,25/04/2021,03:00,Real Oviedo,Girona FC,0-1,Final
+36,25/04/2021,03:00,CD Mirandés,UD Almería,1-1,Final
+36,25/04/2021,03:00,AD Alcorcón,CD Leganés,1-2,Final
+36,25/04/2021,03:00,CD Tenerife,CD Castellón,1-1,Final
+36,26/04/2021,03:00,Rayo Vallecano,Albacete,2-2,Final
+36,26/04/2021,03:00,CE Sabadell,RCD Mallorca,1-0,Final
+37,30/04/2021,03:00,CD Lugo,Real Zaragoza,2-2,Final
+37,01/05/2021,03:00,Girona FC,CD Tenerife,1-0,Final
+37,01/05/2021,03:00,RCD Mallorca,CD Mirandés,2-1,Final
+37,01/05/2021,03:00,UD Almería,Real Oviedo,2-2,Final
+37,02/05/2021,03:00,CF Fuenlabrada,FC Cartagena,2-1,Final
+37,02/05/2021,03:00,Espanyol Barcelona,Málaga CF,3-0,Final
+37,02/05/2021,03:00,CD Castellón,UD Logroñés,0-0,Final
+37,02/05/2021,03:00,CD Leganés,Sporting Gijón,0-0,Final
+37,02/05/2021,03:00,UD Las Palmas,SD Ponferradina,2-0,Final
+37,03/05/2021,03:00,CE Sabadell,Rayo Vallecano,2-0,Final
+37,03/05/2021,03:00,Albacete,AD Alcorcón,0-1,Final
+38,07/05/2021,03:00,CD Tenerife,UD Almería,0-1,Final
+38,08/05/2021,03:00,Real Zaragoza,Espanyol Barcelona,0-0,Final
+38,08/05/2021,03:00,SD Ponferradina,Albacete,0-1,Final
+38,08/05/2021,03:00,AD Alcorcón,UD Las Palmas,0-0,Final
+38,08/05/2021,03:00,Málaga CF,RCD Mallorca,1-1,Final
+38,09/05/2021,03:00,CD Mirandés,CF Fuenlabrada,2-1,Final
+38,09/05/2021,03:00,Real Oviedo,CE Sabadell,2-1,Final
+38,09/05/2021,03:00,FC Cartagena,CD Castellón,1-0,Final
+38,09/05/2021,03:00,UD Logroñés,Girona FC,1-4,Final
+38,10/05/2021,03:00,Rayo Vallecano,CD Leganés,1-1,Final
+38,10/05/2021,03:00,Sporting Gijón,CD Lugo,1-0,Final
+39,14/05/2021,03:00,Espanyol Barcelona,FC Cartagena,0-2,Final
+39,15/05/2021,03:00,CD Castellón,SD Ponferradina,0-2,Final
+39,15/05/2021,03:00,CD Lugo,CD Mirandés,2-1,Final
+39,15/05/2021,03:00,UD Almería,Albacete,1-1,Final
+39,15/05/2021,03:00,UD Las Palmas,Real Zaragoza,0-2,Final
+39,16/05/2021,03:00,CE Sabadell,CD Tenerife,0-2,Final
+39,16/05/2021,03:00,CF Fuenlabrada,Rayo Vallecano,1-2,Final
+39,16/05/2021,03:00,RCD Mallorca,AD Alcorcón,2-0,Final
+39,16/05/2021,03:00,CD Leganés,UD Logroñés,3-0,Final
+39,17/05/2021,03:00,Real Oviedo,Málaga CF,1-0,Final
+39,17/05/2021,03:00,Girona FC,Sporting Gijón,1-0,Final
+40,18/05/2021,03:00,FC Cartagena,UD Almería,3-2,Final
+40,18/05/2021,03:00,Albacete,CD Lugo,1-1,Final
+40,18/05/2021,03:00,SD Ponferradina,Espanyol Barcelona,1-4,Final
+40,19/05/2021,03:00,AD Alcorcón,CE Sabadell,2-0,Final
+40,19/05/2021,03:00,UD Logroñés,CF Fuenlabrada,1-0,Final
+40,19/05/2021,03:00,CD Mirandés,CD Leganés,0-0,Final
+40,19/05/2021,03:00,CD Tenerife,RCD Mallorca,0-1,Final
+40,20/05/2021,03:00,Málaga CF,Girona FC,0-1,Final
+40,20/05/2021,03:00,Sporting Gijón,UD Las Palmas,1-0,Final
+40,20/05/2021,03:00,Rayo Vallecano,Real Oviedo,4-1,Final
+40,20/05/2021,03:00,Real Zaragoza,CD Castellón,3-0,Final
+41,23/05/2021,03:00,Espanyol Barcelona,CD Tenerife,1-1,Final
+41,23/05/2021,03:00,RCD Mallorca,Real Zaragoza,2-1,Final
+41,24/05/2021,03:00,Real Oviedo,CD Mirandés,1-1,Final
+41,24/05/2021,03:00,CD Castellón,Rayo Vallecano,0-2,Final
+41,24/05/2021,03:00,CD Leganés,Málaga CF,1-0,Final
+41,24/05/2021,03:00,CD Lugo,FC Cartagena,2-1,Final
+41,24/05/2021,03:00,Girona FC,AD Alcorcón,1-0,Final
+41,24/05/2021,03:00,CF Fuenlabrada,Sporting Gijón,0-0,Final
+41,24/05/2021,03:00,CE Sabadell,SD Ponferradina,2-0,Final
+41,24/05/2021,03:00,UD Almería,UD Logroñés,2-1,Final
+41,24/05/2021,03:00,UD Las Palmas,Albacete,3-2,Final
+42,29/05/2021,03:00,CD Tenerife,Real Oviedo,2-2,Final
+42,30/05/2021,03:00,Albacete,CF Fuenlabrada,1-2,Final
+42,30/05/2021,03:00,AD Alcorcón,Espanyol Barcelona,1-0,Final
+42,30/05/2021,03:00,CD Mirandés,CE Sabadell,0-2,Final
+42,30/05/2021,03:00,FC Cartagena,Girona FC,1-1,Final
+42,30/05/2021,03:00,Málaga CF,CD Castellón,3-0,Final
+42,30/05/2021,03:00,Rayo Vallecano,CD Lugo,0-1,Final
+42,30/05/2021,03:00,Real Zaragoza,CD Leganés,0-5,Final
+42,30/05/2021,03:00,SD Ponferradina,RCD Mallorca,2-2,Final
+42,30/05/2021,03:00,Sporting Gijón,UD Almería,0-2,Final
+42,30/05/2021,03:00,UD Logroñés,UD Las Palmas,0-1,Final

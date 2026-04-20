@@ -1,0 +1,463 @@
+matchday,date,time,home_team,away_team,result,status
+1,13/08/2021,03:00,SD Huesca,SD Eibar,2-0,Final
+1,13/08/2021,03:00,Real Zaragoza,UD Ibiza,0-0,Final
+1,14/08/2021,03:00,Real Sociedad B,CD Leganés,1-0,Final
+1,14/08/2021,03:00,Girona FC,SD Amorebieta,2-0,Final
+1,14/08/2021,03:00,SD Ponferradina,AD Alcorcón,1-0,Final
+1,15/08/2021,03:00,Sporting Gijón,Burgos CF,1-0,Final
+1,15/08/2021,03:00,Real Oviedo,CD Lugo,2-2,Final
+1,15/08/2021,03:00,CF Fuenlabrada,CD Tenerife,1-2,Final
+1,15/08/2021,03:00,UD Las Palmas,Real Valladolid,1-1,Final
+1,16/08/2021,03:00,Málaga CF,CD Mirandés,0-0,Final
+1,16/08/2021,03:00,FC Cartagena,UD Almería,1-3,Final
+2,20/08/2021,03:00,Real Valladolid,Real Zaragoza,2-0,Final
+2,20/08/2021,03:00,UD Almería,Real Oviedo,2-1,Final
+2,21/08/2021,03:00,CD Lugo,Real Sociedad B,0-0,Final
+2,21/08/2021,03:00,CD Tenerife,Sporting Gijón,0-0,Final
+2,21/08/2021,03:00,AD Alcorcón,CF Fuenlabrada,0-2,Final
+2,22/08/2021,03:00,UD Ibiza,Málaga CF,2-2,Final
+2,22/08/2021,03:00,Girona FC,UD Las Palmas,0-0,Final
+2,22/08/2021,03:00,SD Eibar,SD Ponferradina,0-1,Final
+2,22/08/2021,03:00,SD Huesca,FC Cartagena,2-0,Final
+2,23/08/2021,03:00,CD Mirandés,SD Amorebieta,2-0,Final
+2,23/08/2021,03:00,CD Leganés,Burgos CF,0-0,Final
+3,27/08/2021,03:00,UD Las Palmas,SD Huesca,2-1,Final
+3,27/08/2021,03:00,Málaga CF,AD Alcorcón,1-0,Final
+3,28/08/2021,03:00,Sporting Gijón,CD Mirandés,2-1,Final
+3,28/08/2021,03:00,CD Leganés,UD Ibiza,1-2,Final
+3,28/08/2021,03:00,Real Oviedo,CD Tenerife,0-0,Final
+3,28/08/2021,03:00,SD Ponferradina,Girona FC,2-1,Final
+3,29/08/2021,03:00,SD Amorebieta,UD Almería,2-1,Final
+3,29/08/2021,03:00,CD Lugo,Real Valladolid,0-2,Final
+3,29/08/2021,03:00,Real Sociedad B,CF Fuenlabrada,0-0,Final
+3,29/08/2021,03:00,Burgos CF,SD Eibar,0-1,Final
+3,30/08/2021,03:00,Real Zaragoza,FC Cartagena,0-1,Final
+4,03/09/2021,03:00,Girona FC,Sporting Gijón,1-2,Final
+4,04/09/2021,03:00,SD Eibar,CD Leganés,1-1,Final
+4,04/09/2021,03:00,CD Tenerife,SD Ponferradina,2-0,Final
+4,04/09/2021,03:00,FC Cartagena,Real Sociedad B,1-0,Final
+4,04/09/2021,03:00,CF Fuenlabrada,CD Lugo,1-1,Final
+4,04/09/2021,03:00,UD Almería,Málaga CF,2-0,Final
+4,05/09/2021,03:00,Burgos CF,Real Valladolid,3-0,Final
+4,05/09/2021,03:00,UD Ibiza,SD Amorebieta,1-1,Final
+4,05/09/2021,03:00,AD Alcorcón,Real Zaragoza,1-2,Final
+4,05/09/2021,03:00,CD Mirandés,UD Las Palmas,4-2,Final
+4,06/09/2021,03:00,SD Huesca,Real Oviedo,1-2,Final
+5,10/09/2021,03:00,Sporting Gijón,CD Leganés,2-1,Final
+5,11/09/2021,03:00,SD Amorebieta,Burgos CF,2-2,Final
+5,11/09/2021,03:00,Real Sociedad B,SD Eibar,2-3,Final
+5,11/09/2021,03:00,UD Las Palmas,UD Ibiza,1-1,Final
+5,11/09/2021,03:00,CD Mirandés,AD Alcorcón,1-3,Final
+5,12/09/2021,03:00,Real Oviedo,FC Cartagena,2-0,Final
+5,12/09/2021,03:00,Real Valladolid,CD Tenerife,0-2,Final
+5,12/09/2021,03:00,SD Ponferradina,UD Almería,1-0,Final
+5,12/09/2021,03:00,CF Fuenlabrada,Real Zaragoza,1-1,Final
+5,12/09/2021,03:00,Málaga CF,Girona FC,2-0,Final
+5,13/09/2021,03:00,CD Lugo,SD Huesca,3-2,Final
+6,17/09/2021,03:00,AD Alcorcón,UD Almería,0-4,Final
+6,18/09/2021,03:00,UD Ibiza,Real Oviedo,1-1,Final
+6,18/09/2021,03:00,CD Leganés,SD Amorebieta,1-0,Final
+6,18/09/2021,03:00,Real Zaragoza,Real Sociedad B,1-1,Final
+6,18/09/2021,03:00,Girona FC,Real Valladolid,1-0,Final
+6,18/09/2021,03:00,FC Cartagena,CD Lugo,2-1,Final
+6,19/09/2021,03:00,SD Huesca,CF Fuenlabrada,0-0,Final
+6,19/09/2021,03:00,SD Ponferradina,Málaga CF,4-0,Final
+6,19/09/2021,03:00,CD Tenerife,CD Mirandés,1-2,Final
+6,19/09/2021,03:00,SD Eibar,Sporting Gijón,3-2,Final
+6,20/09/2021,03:00,Burgos CF,UD Las Palmas,0-0,Final
+7,24/09/2021,03:00,Real Sociedad B,SD Huesca,0-2,Final
+7,24/09/2021,03:00,UD Almería,CD Tenerife,3-1,Final
+7,25/09/2021,03:00,UD Ibiza,Burgos CF,2-0,Final
+7,25/09/2021,03:00,SD Amorebieta,SD Eibar,1-1,Final
+7,25/09/2021,03:00,UD Las Palmas,SD Ponferradina,2-1,Final
+7,26/09/2021,03:00,CD Mirandés,CD Leganés,1-2,Final
+7,26/09/2021,03:00,Sporting Gijón,Málaga CF,2-1,Final
+7,26/09/2021,03:00,Real Oviedo,Girona FC,0-0,Final
+7,26/09/2021,03:00,CD Lugo,Real Zaragoza,1-1,Final
+7,26/09/2021,03:00,Real Valladolid,AD Alcorcón,2-0,Final
+7,27/09/2021,03:00,CF Fuenlabrada,FC Cartagena,2-1,Final
+8,01/10/2021,03:00,SD Ponferradina,Real Valladolid,2-2,Final
+8,02/10/2021,03:00,SD Amorebieta,Sporting Gijón,1-1,Final
+8,02/10/2021,03:00,SD Huesca,CD Tenerife,1-2,Final
+8,02/10/2021,03:00,Real Zaragoza,Real Oviedo,0-0,Final
+8,02/10/2021,03:00,AD Alcorcón,Real Sociedad B,1-4,Final
+8,03/10/2021,03:00,SD Eibar,UD Ibiza,3-1,Final
+8,03/10/2021,03:00,Málaga CF,CF Fuenlabrada,1-0,Final
+8,03/10/2021,03:00,Burgos CF,CD Mirandés,1-0,Final
+8,03/10/2021,03:00,UD Las Palmas,FC Cartagena,4-1,Final
+8,03/10/2021,03:00,CD Leganés,CD Lugo,1-1,Final
+8,04/10/2021,03:00,Girona FC,UD Almería,1-2,Final
+9,08/10/2021,03:00,Real Valladolid,Málaga CF,1-1,Final
+9,09/10/2021,03:00,CD Lugo,Girona FC,1-0,Final
+9,09/10/2021,03:00,CD Mirandés,SD Eibar,3-3,Final
+9,09/10/2021,03:00,UD Almería,UD Las Palmas,1-1,Final
+9,09/10/2021,03:00,Real Oviedo,Sporting Gijón,1-1,Final
+9,10/10/2021,03:00,Real Sociedad B,SD Ponferradina,1-1,Final
+9,10/10/2021,03:00,FC Cartagena,UD Ibiza,5-1,Final
+9,10/10/2021,03:00,AD Alcorcón,Burgos CF,1-0,Final
+9,10/10/2021,03:00,CD Tenerife,SD Amorebieta,2-1,Final
+9,10/10/2021,03:00,CF Fuenlabrada,CD Leganés,2-1,Final
+9,11/10/2021,03:00,Real Zaragoza,SD Huesca,0-0,Final
+10,15/10/2021,03:00,SD Eibar,UD Almería,1-0,Final
+10,16/10/2021,03:00,SD Amorebieta,FC Cartagena,2-3,Final
+10,16/10/2021,03:00,Girona FC,SD Huesca,1-3,Final
+10,16/10/2021,03:00,UD Las Palmas,CD Tenerife,2-1,Final
+10,16/10/2021,03:00,Málaga CF,Real Zaragoza,1-1,Final
+10,16/10/2021,03:00,Sporting Gijón,AD Alcorcón,1-0,Final
+10,17/10/2021,03:00,UD Ibiza,CD Mirandés,0-2,Final
+10,17/10/2021,03:00,CD Leganés,Real Valladolid,0-2,Final
+10,17/10/2021,03:00,Burgos CF,CD Lugo,1-1,Final
+10,17/10/2021,03:00,Real Sociedad B,Real Oviedo,1-1,Final
+10,17/10/2021,03:00,SD Ponferradina,CF Fuenlabrada,0-0,Final
+11,19/10/2021,03:00,FC Cartagena,Sporting Gijón,1-0,Final
+11,19/10/2021,03:00,SD Huesca,Málaga CF,0-0,Final
+11,19/10/2021,03:00,CD Tenerife,SD Eibar,0-1,Final
+11,20/10/2021,03:00,CF Fuenlabrada,SD Amorebieta,0-0,Final
+11,20/10/2021,03:00,Real Valladolid,UD Ibiza,1-1,Final
+11,20/10/2021,03:00,AD Alcorcón,CD Leganés,3-3,Final
+11,20/10/2021,03:00,CD Lugo,UD Las Palmas,2-0,Final
+11,21/10/2021,03:00,UD Almería,Real Sociedad B,3-1,Final
+11,21/10/2021,03:00,Real Zaragoza,SD Ponferradina,1-1,Final
+11,21/10/2021,03:00,CD Mirandés,Girona FC,1-2,Final
+11,21/10/2021,03:00,Real Oviedo,Burgos CF,1-3,Final
+12,22/10/2021,03:00,SD Eibar,FC Cartagena,2-1,Final
+12,23/10/2021,03:00,UD Ibiza,CF Fuenlabrada,3-1,Final
+12,23/10/2021,03:00,Sporting Gijón,Real Valladolid,1-2,Final
+12,23/10/2021,03:00,Málaga CF,CD Lugo,1-0,Final
+12,23/10/2021,03:00,CD Leganés,CD Tenerife,1-2,Final
+12,24/10/2021,03:00,SD Amorebieta,Real Sociedad B,1-2,Final
+12,24/10/2021,03:00,CD Mirandés,UD Almería,1-4,Final
+12,24/10/2021,03:00,Burgos CF,SD Huesca,3-1,Final
+12,24/10/2021,03:00,SD Ponferradina,Real Oviedo,1-2,Final
+12,24/10/2021,03:00,UD Las Palmas,AD Alcorcón,3-0,Final
+12,25/10/2021,03:00,Girona FC,Real Zaragoza,1-1,Final
+13,29/10/2021,03:00,Real Sociedad B,UD Las Palmas,0-1,Final
+13,29/10/2021,03:00,UD Almería,CD Leganés,1-0,Final
+13,30/10/2021,03:00,SD Huesca,SD Amorebieta,1-1,Final
+13,30/10/2021,03:00,CD Lugo,Sporting Gijón,1-1,Final
+13,30/10/2021,03:00,FC Cartagena,SD Ponferradina,0-1,Final
+13,31/10/2021,03:00,CF Fuenlabrada,Girona FC,1-2,Final
+13,31/10/2021,03:00,Real Oviedo,Málaga CF,2-1,Final
+13,31/10/2021,03:00,Real Valladolid,SD Eibar,2-0,Final
+13,31/10/2021,03:00,Real Zaragoza,CD Mirandés,1-1,Final
+13,01/11/2021,03:00,AD Alcorcón,UD Ibiza,0-2,Final
+13,01/11/2021,03:00,CD Tenerife,Burgos CF,4-0,Final
+14,02/11/2021,03:00,SD Ponferradina,SD Huesca,1-1,Final
+14,02/11/2021,03:00,Sporting Gijón,UD Almería,0-1,Final
+14,02/11/2021,03:00,CD Leganés,FC Cartagena,1-1,Final
+14,03/11/2021,03:00,SD Amorebieta,Real Valladolid,4-1,Final
+14,03/11/2021,03:00,CD Mirandés,CD Lugo,3-2,Final
+14,03/11/2021,03:00,SD Eibar,Real Oviedo,1-0,Final
+14,03/11/2021,03:00,UD Las Palmas,CF Fuenlabrada,2-1,Final
+14,04/11/2021,03:00,Burgos CF,Real Zaragoza,0-1,Final
+14,04/11/2021,03:00,Girona FC,AD Alcorcón,3-1,Final
+14,04/11/2021,03:00,Málaga CF,Real Sociedad B,2-1,Final
+14,04/11/2021,03:00,UD Ibiza,CD Tenerife,0-0,Final
+15,05/11/2021,03:00,SD Huesca,CD Leganés,0-2,Final
+15,06/11/2021,03:00,CD Lugo,SD Ponferradina,1-2,Final
+15,06/11/2021,03:00,Real Oviedo,UD Las Palmas,1-1,Final
+15,06/11/2021,03:00,Real Valladolid,CD Mirandés,3-1,Final
+15,06/11/2021,03:00,CF Fuenlabrada,SD Eibar,0-0,Final
+15,07/11/2021,03:00,AD Alcorcón,SD Amorebieta,2-2,Final
+15,07/11/2021,03:00,Real Zaragoza,Sporting Gijón,2-0,Final
+15,07/11/2021,03:00,FC Cartagena,Málaga CF,3-1,Final
+15,07/11/2021,03:00,UD Almería,Burgos CF,2-0,Final
+15,07/11/2021,03:00,Real Sociedad B,UD Ibiza,0-1,Final
+15,08/11/2021,03:00,CD Tenerife,Girona FC,2-1,Final
+16,12/11/2021,03:00,Sporting Gijón,Real Sociedad B,0-1,Final
+16,13/11/2021,03:00,Real Valladolid,CF Fuenlabrada,3-0,Final
+16,13/11/2021,03:00,CD Mirandés,SD Huesca,0-1,Final
+16,13/11/2021,03:00,SD Eibar,AD Alcorcón,2-1,Final
+16,13/11/2021,03:00,UD Las Palmas,Real Zaragoza,2-3,Final
+16,14/11/2021,03:00,SD Amorebieta,CD Lugo,1-3,Final
+16,14/11/2021,03:00,Girona FC,FC Cartagena,2-0,Final
+16,14/11/2021,03:00,UD Ibiza,UD Almería,0-1,Final
+16,14/11/2021,03:00,Burgos CF,SD Ponferradina,1-0,Final
+16,14/11/2021,03:00,CD Leganés,Real Oviedo,0-0,Final
+16,15/11/2021,03:00,Málaga CF,CD Tenerife,1-0,Final
+17,19/11/2021,03:00,CF Fuenlabrada,CD Mirandés,1-1,Final
+17,20/11/2021,03:00,Real Oviedo,SD Amorebieta,2-0,Final
+17,20/11/2021,03:00,Málaga CF,UD Las Palmas,2-1,Final
+17,20/11/2021,03:00,UD Almería,Real Valladolid,3-1,Final
+17,21/11/2021,03:00,FC Cartagena,Burgos CF,1-0,Final
+17,21/11/2021,03:00,CD Lugo,SD Eibar,2-2,Final
+17,21/11/2021,03:00,CD Tenerife,AD Alcorcón,1-0,Final
+17,21/11/2021,03:00,SD Huesca,UD Ibiza,0-0,Final
+17,21/11/2021,03:00,SD Ponferradina,Sporting Gijón,4-1,Final
+17,22/11/2021,03:00,Real Sociedad B,Girona FC,1-2,Final
+17,22/11/2021,03:00,Real Zaragoza,CD Leganés,0-2,Final
+18,26/11/2021,03:00,AD Alcorcón,CD Lugo,1-1,Final
+18,26/11/2021,03:00,CD Mirandés,Real Oviedo,1-1,Final
+18,27/11/2021,03:00,Burgos CF,Málaga CF,3-0,Final
+18,27/11/2021,03:00,Sporting Gijón,CF Fuenlabrada,1-1,Final
+18,27/11/2021,03:00,UD Almería,SD Huesca,0-0,Final
+18,27/11/2021,03:00,Real Valladolid,FC Cartagena,2-0,Final
+18,28/11/2021,03:00,CD Leganés,UD Las Palmas,4-1,Final
+18,28/11/2021,03:00,SD Amorebieta,Real Zaragoza,1-1,Final
+18,28/11/2021,03:00,UD Ibiza,SD Ponferradina,0-1,Final
+18,28/11/2021,03:00,CD Tenerife,Real Sociedad B,2-0,Final
+18,29/11/2021,03:00,SD Eibar,Girona FC,4-2,Final
+19,03/12/2021,03:00,SD Huesca,Real Valladolid,3-2,Final
+19,04/12/2021,03:00,CF Fuenlabrada,UD Almería,1-1,Final
+19,05/12/2021,03:00,SD Ponferradina,CD Mirandés,2-1,Final
+19,05/12/2021,03:00,Málaga CF,SD Amorebieta,1-2,Final
+19,05/12/2021,03:00,CD Lugo,UD Ibiza,0-0,Final
+19,05/12/2021,03:00,Real Oviedo,AD Alcorcón,3-1,Final
+19,05/12/2021,03:00,Real Sociedad B,Burgos CF,0-1,Final
+19,05/12/2021,03:00,UD Las Palmas,Sporting Gijón,1-0,Final
+19,06/12/2021,03:00,Real Zaragoza,SD Eibar,1-0,Final
+19,06/12/2021,03:00,FC Cartagena,CD Tenerife,1-1,Final
+19,06/12/2021,03:00,Girona FC,CD Leganés,3-0,Final
+20,10/12/2021,03:00,Sporting Gijón,SD Huesca,1-1,Final
+20,11/12/2021,03:00,Burgos CF,CF Fuenlabrada,2-0,Final
+20,11/12/2021,03:00,UD Ibiza,Girona FC,1-1,Final
+20,11/12/2021,03:00,UD Almería,Real Zaragoza,3-0,Final
+20,11/12/2021,03:00,SD Eibar,Málaga CF,2-2,Final
+20,11/12/2021,03:00,CD Tenerife,CD Lugo,1-1,Final
+20,12/12/2021,03:00,CD Leganés,SD Ponferradina,1-1,Final
+20,12/12/2021,03:00,Real Valladolid,Real Oviedo,2-1,Final
+20,12/12/2021,03:00,AD Alcorcón,FC Cartagena,1-1,Final
+20,12/12/2021,03:00,SD Amorebieta,UD Las Palmas,1-1,Final
+20,13/12/2021,03:00,CD Mirandés,Real Sociedad B,2-0,Final
+21,17/12/2021,03:00,Girona FC,Burgos CF,3-1,Final
+21,18/12/2021,03:00,Málaga CF,CD Leganés,0-2,Final
+21,18/12/2021,03:00,UD Ibiza,Sporting Gijón,0-2,Final
+21,18/12/2021,03:00,UD Las Palmas,SD Eibar,0-1,Final
+21,19/12/2021,03:00,CF Fuenlabrada,Real Oviedo,0-0,Final
+21,19/12/2021,03:00,Real Zaragoza,CD Tenerife,0-2,Final
+21,19/12/2021,03:00,SD Ponferradina,SD Amorebieta,1-1,Final
+21,19/12/2021,03:00,FC Cartagena,CD Mirandés,3-0,Final
+21,19/12/2021,03:00,Real Sociedad B,Real Valladolid,0-2,Final
+21,19/12/2021,03:00,SD Huesca,AD Alcorcón,0-0,Final
+21,19/01/2022,03:00,CD Lugo,UD Almería,2-1,Final
+22,31/12/2021,03:00,Real Oviedo,SD Ponferradina,2-0,Final
+22,31/12/2021,03:00,Burgos CF,SD Amorebieta,2-2,Final
+22,31/12/2021,03:00,SD Eibar,Real Sociedad B,3-2,Final
+22,02/01/2022,03:00,Real Valladolid,CD Leganés,1-0,Final
+22,02/01/2022,03:00,UD Almería,FC Cartagena,0-1,Final
+22,02/01/2022,03:00,Sporting Gijón,CD Lugo,1-1,Final
+22,02/01/2022,03:00,CD Mirandés,Real Zaragoza,2-0,Final
+22,02/01/2022,03:00,SD Huesca,Girona FC,0-1,Final
+22,02/01/2022,03:00,CF Fuenlabrada,UD Ibiza,1-2,Final
+22,02/01/2022,03:00,CD Tenerife,UD Las Palmas,0-1,Final
+22,03/01/2022,03:00,AD Alcorcón,Málaga CF,0-1,Final
+23,07/01/2022,03:00,SD Amorebieta,CD Tenerife,1-1,Final
+23,08/01/2022,03:00,FC Cartagena,SD Huesca,0-3,Final
+23,08/01/2022,03:00,UD Ibiza,AD Alcorcón,6-2,Final
+23,08/01/2022,03:00,Real Valladolid,Burgos CF,1-0,Final
+23,08/01/2022,03:00,CD Leganés,Real Sociedad B,1-1,Final
+23,09/01/2022,03:00,Girona FC,CF Fuenlabrada,2-1,Final
+23,09/01/2022,03:00,CD Lugo,CD Mirandés,2-1,Final
+23,09/01/2022,03:00,Málaga CF,Sporting Gijón,2-2,Final
+23,09/01/2022,03:00,SD Ponferradina,Real Zaragoza,0-0,Final
+23,09/01/2022,03:00,UD Las Palmas,UD Almería,1-1,Final
+23,10/01/2022,03:00,Real Oviedo,SD Eibar,1-1,Final
+24,21/01/2022,03:00,CD Tenerife,Real Oviedo,4-0,Final
+24,22/01/2022,03:00,Real Zaragoza,Real Valladolid,0-0,Final
+24,22/01/2022,03:00,CF Fuenlabrada,UD Las Palmas,3-2,Final
+24,22/01/2022,03:00,Málaga CF,UD Ibiza,0-5,Final
+24,23/01/2022,03:00,Burgos CF,CD Leganés,4-0,Final
+24,23/01/2022,03:00,Sporting Gijón,SD Amorebieta,2-1,Final
+24,23/01/2022,03:00,Girona FC,CD Lugo,1-1,Final
+24,23/01/2022,03:00,SD Huesca,SD Ponferradina,1-2,Final
+24,23/01/2022,03:00,AD Alcorcón,CD Mirandés,0-0,Final
+24,24/01/2022,03:00,Real Sociedad B,FC Cartagena,1-2,Final
+24,24/01/2022,03:00,UD Almería,SD Eibar,0-2,Final
+25,28/01/2022,03:00,Real Valladolid,Sporting Gijón,1-0,Final
+25,29/01/2022,03:00,SD Amorebieta,Girona FC,1-0,Final
+25,29/01/2022,03:00,CD Lugo,Burgos CF,1-0,Final
+25,29/01/2022,03:00,SD Eibar,SD Huesca,2-1,Final
+25,29/01/2022,03:00,Real Oviedo,UD Almería,2-0,Final
+25,30/01/2022,03:00,CD Leganés,AD Alcorcón,1-0,Final
+25,30/01/2022,03:00,FC Cartagena,CF Fuenlabrada,3-0,Final
+25,30/01/2022,03:00,CD Mirandés,Málaga CF,3-0,Final
+25,30/01/2022,03:00,UD Las Palmas,Real Sociedad B,0-0,Final
+25,30/01/2022,03:00,SD Ponferradina,CD Tenerife,1-2,Final
+25,31/01/2022,03:00,UD Ibiza,Real Zaragoza,2-2,Final
+26,04/02/2022,03:00,Burgos CF,AD Alcorcón,3-1,Final
+26,04/02/2022,03:00,UD Almería,UD Ibiza,2-0,Final
+26,05/02/2022,03:00,Real Sociedad B,CD Lugo,1-1,Final
+26,05/02/2022,03:00,Real Zaragoza,Málaga CF,1-1,Final
+26,05/02/2022,03:00,Girona FC,SD Ponferradina,3-0,Final
+26,05/02/2022,03:00,Sporting Gijón,SD Eibar,0-1,Final
+26,06/02/2022,03:00,SD Amorebieta,Real Oviedo,1-1,Final
+26,06/02/2022,03:00,CF Fuenlabrada,Real Valladolid,0-0,Final
+26,06/02/2022,03:00,FC Cartagena,UD Las Palmas,0-2,Final
+26,06/02/2022,03:00,SD Huesca,CD Mirandés,4-0,Final
+26,06/02/2022,03:00,CD Tenerife,CD Leganés,0-0,Final
+27,11/02/2022,03:00,CD Leganés,Real Zaragoza,2-1,Final
+27,12/02/2022,03:00,CD Mirandés,Sporting Gijón,0-3,Final
+27,12/02/2022,03:00,UD Ibiza,FC Cartagena,2-1,Final
+27,12/02/2022,03:00,Real Valladolid,Girona FC,2-2,Final
+27,12/02/2022,03:00,Málaga CF,UD Almería,0-1,Final
+27,13/02/2022,03:00,SD Eibar,CF Fuenlabrada,0-0,Final
+27,13/02/2022,03:00,Real Oviedo,SD Huesca,3-3,Final
+27,13/02/2022,03:00,AD Alcorcón,CD Tenerife,0-2,Final
+27,13/02/2022,03:00,CD Lugo,SD Amorebieta,1-1,Final
+27,13/02/2022,03:00,UD Las Palmas,Burgos CF,0-2,Final
+27,14/02/2022,03:00,SD Ponferradina,Real Sociedad B,3-2,Final
+28,18/02/2022,03:00,FC Cartagena,Real Valladolid,2-3,Final
+28,19/02/2022,03:00,Real Zaragoza,UD Las Palmas,2-1,Final
+28,19/02/2022,03:00,CD Tenerife,UD Ibiza,2-0,Final
+28,19/02/2022,03:00,Girona FC,SD Eibar,0-1,Final
+28,19/02/2022,03:00,Real Sociedad B,Málaga CF,2-0,Final
+28,20/02/2022,03:00,CF Fuenlabrada,AD Alcorcón,2-2,Final
+28,20/02/2022,03:00,Burgos CF,Real Oviedo,0-1,Final
+28,20/02/2022,03:00,SD Huesca,CD Lugo,1-0,Final
+28,20/02/2022,03:00,Sporting Gijón,SD Ponferradina,2-3,Final
+28,20/02/2022,03:00,UD Almería,CD Mirandés,2-1,Final
+28,21/02/2022,03:00,SD Amorebieta,CD Leganés,1-3,Final
+29,25/02/2022,03:00,UD Almería,CF Fuenlabrada,3-1,Final
+29,26/02/2022,03:00,CD Mirandés,CD Tenerife,2-1,Final
+29,26/02/2022,03:00,UD Ibiza,SD Huesca,2-1,Final
+29,26/02/2022,03:00,Real Oviedo,Real Sociedad B,0-1,Final
+29,26/02/2022,03:00,UD Las Palmas,CD Lugo,2-2,Final
+29,27/02/2022,03:00,SD Eibar,Burgos CF,2-0,Final
+29,27/02/2022,03:00,Sporting Gijón,Real Zaragoza,1-2,Final
+29,27/02/2022,03:00,CD Leganés,Girona FC,1-1,Final
+29,27/02/2022,03:00,Real Valladolid,SD Amorebieta,5-1,Final
+29,27/02/2022,03:00,AD Alcorcón,SD Ponferradina,2-2,Final
+29,28/02/2022,03:00,Málaga CF,FC Cartagena,1-1,Final
+30,04/03/2022,03:00,Real Zaragoza,UD Almería,2-0,Final
+30,05/03/2022,03:00,CF Fuenlabrada,Burgos CF,1-2,Final
+30,05/03/2022,03:00,SD Huesca,UD Las Palmas,0-0,Final
+30,05/03/2022,03:00,CD Tenerife,Real Valladolid,1-4,Final
+30,06/03/2022,03:00,CD Lugo,AD Alcorcón,1-0,Final
+30,06/03/2022,03:00,SD Ponferradina,UD Ibiza,1-1,Final
+30,06/03/2022,03:00,SD Amorebieta,Málaga CF,1-2,Final
+30,06/03/2022,03:00,CD Leganés,CD Mirandés,2-0,Final
+30,06/03/2022,03:00,FC Cartagena,SD Eibar,4-1,Final
+30,06/03/2022,03:00,Girona FC,Real Oviedo,2-1,Final
+30,07/03/2022,03:00,Real Sociedad B,Sporting Gijón,2-1,Final
+31,11/03/2022,03:00,Real Zaragoza,CF Fuenlabrada,2-1,Final
+31,12/03/2022,03:00,CD Mirandés,FC Cartagena,2-1,Final
+31,12/03/2022,03:00,UD Ibiza,CD Leganés,1-1,Final
+31,12/03/2022,03:00,UD Almería,CD Lugo,3-3,Final
+31,12/03/2022,03:00,UD Las Palmas,Girona FC,1-3,Final
+31,12/03/2022,03:00,Málaga CF,SD Ponferradina,0-0,Final
+31,13/03/2022,03:00,Burgos CF,Real Sociedad B,0-0,Final
+31,13/03/2022,03:00,SD Eibar,SD Amorebieta,1-0,Final
+31,13/03/2022,03:00,Sporting Gijón,CD Tenerife,1-2,Final
+31,13/03/2022,03:00,AD Alcorcón,SD Huesca,1-0,Final
+31,13/03/2022,03:00,Real Oviedo,Real Valladolid,3-0,Final
+32,18/03/2022,03:00,SD Huesca,Burgos CF,1-0,Final
+32,19/03/2022,03:00,Real Sociedad B,CD Mirandés,1-3,Final
+32,19/03/2022,03:00,FC Cartagena,Real Zaragoza,3-0,Final
+32,19/03/2022,03:00,CF Fuenlabrada,Málaga CF,1-0,Final
+32,19/03/2022,03:00,CD Lugo,Real Oviedo,1-1,Final
+32,19/03/2022,03:00,Real Valladolid,UD Las Palmas,0-1,Final
+32,19/03/2022,03:00,Girona FC,UD Ibiza,5-1,Final
+32,20/03/2022,03:00,SD Amorebieta,AD Alcorcón,0-0,Final
+32,20/03/2022,03:00,SD Ponferradina,SD Eibar,2-2,Final
+32,20/03/2022,03:00,CD Leganés,Sporting Gijón,1-1,Final
+32,21/03/2022,03:00,CD Tenerife,UD Almería,0-1,Final
+33,25/03/2022,03:00,Real Zaragoza,SD Amorebieta,1-1,Final
+33,26/03/2022,03:00,UD Ibiza,Real Sociedad B,2-2,Final
+33,26/03/2022,03:00,SD Eibar,CD Lugo,1-0,Final
+33,26/03/2022,03:00,Sporting Gijón,FC Cartagena,4-1,Final
+33,26/03/2022,03:00,Real Oviedo,CF Fuenlabrada,3-0,Final
+33,27/03/2022,03:00,CD Mirandés,SD Ponferradina,3-1,Final
+33,27/03/2022,03:00,Burgos CF,CD Tenerife,1-0,Final
+33,27/03/2022,03:00,AD Alcorcón,Real Valladolid,1-2,Final
+33,27/03/2022,03:00,Málaga CF,SD Huesca,0-2,Final
+33,27/03/2022,03:00,UD Almería,Girona FC,0-1,Final
+33,28/03/2022,03:00,UD Las Palmas,CD Leganés,4-2,Final
+34,01/04/2022,03:00,Girona FC,Málaga CF,1-0,Final
+34,02/04/2022,03:00,Real Sociedad B,AD Alcorcón,2-4,Final
+34,02/04/2022,03:00,Real Valladolid,CD Lugo,4-1,Final
+34,02/04/2022,03:00,SD Amorebieta,UD Ibiza,3-1,Final
+34,02/04/2022,03:00,CD Tenerife,Real Zaragoza,1-1,Final
+34,03/04/2022,03:00,FC Cartagena,Real Oviedo,1-2,Final
+34,03/04/2022,03:00,Burgos CF,Sporting Gijón,0-0,Final
+34,03/04/2022,03:00,SD Ponferradina,UD Las Palmas,1-2,Final
+34,03/04/2022,03:00,SD Eibar,CD Mirandés,1-1,Final
+34,03/04/2022,03:00,SD Huesca,UD Almería,1-1,Final
+34,04/04/2022,03:00,CD Leganés,CF Fuenlabrada,3-2,Final
+35,08/04/2022,03:00,CD Lugo,FC Cartagena,1-0,Final
+35,09/04/2022,03:00,Real Sociedad B,CD Tenerife,1-2,Final
+35,09/04/2022,03:00,AD Alcorcón,Sporting Gijón,1-1,Final
+35,09/04/2022,03:00,Málaga CF,Real Valladolid,2-2,Final
+35,09/04/2022,03:00,UD Las Palmas,SD Amorebieta,1-0,Final
+35,10/04/2022,03:00,CF Fuenlabrada,SD Huesca,2-3,Final
+35,10/04/2022,03:00,Real Zaragoza,Girona FC,1-0,Final
+35,10/04/2022,03:00,CD Mirandés,Burgos CF,3-1,Final
+35,10/04/2022,03:00,UD Ibiza,SD Eibar,2-0,Final
+35,10/04/2022,03:00,Real Oviedo,CD Leganés,1-0,Final
+35,11/04/2022,03:00,UD Almería,SD Ponferradina,3-0,Final
+36,15/04/2022,03:00,SD Eibar,UD Las Palmas,2-2,Final
+36,15/04/2022,03:00,SD Amorebieta,CD Mirandés,1-0,Final
+36,16/04/2022,03:00,CD Leganés,Málaga CF,0-3,Final
+36,16/04/2022,03:00,Real Valladolid,UD Almería,2-2,Final
+36,16/04/2022,03:00,Sporting Gijón,Real Oviedo,0-1,Final
+36,16/04/2022,03:00,FC Cartagena,AD Alcorcón,3-1,Final
+36,17/04/2022,03:00,SD Ponferradina,CD Lugo,3-1,Final
+36,17/04/2022,03:00,Burgos CF,UD Ibiza,2-1,Final
+36,17/04/2022,03:00,CD Tenerife,CF Fuenlabrada,3-1,Final
+36,17/04/2022,03:00,SD Huesca,Real Zaragoza,1-1,Final
+36,18/04/2022,03:00,Girona FC,Real Sociedad B,2-0,Final
+37,22/04/2022,03:00,CD Tenerife,SD Huesca,0-0,Final
+37,23/04/2022,03:00,Real Sociedad B,SD Amorebieta,2-1,Final
+37,23/04/2022,03:00,FC Cartagena,Girona FC,3-0,Final
+37,23/04/2022,03:00,CF Fuenlabrada,SD Ponferradina,2-3,Final
+37,23/04/2022,03:00,Málaga CF,SD Eibar,1-3,Final
+37,24/04/2022,03:00,AD Alcorcón,Real Oviedo,1-2,Final
+37,24/04/2022,03:00,CD Mirandés,Real Valladolid,0-1,Final
+37,24/04/2022,03:00,UD Ibiza,UD Las Palmas,1-1,Final
+37,24/04/2022,03:00,CD Lugo,CD Leganés,0-0,Final
+37,24/04/2022,03:00,Real Zaragoza,Burgos CF,0-0,Final
+37,25/04/2022,03:00,UD Almería,Sporting Gijón,1-0,Final
+38,29/04/2022,03:00,UD Las Palmas,Málaga CF,2-1,Final
+38,30/04/2022,03:00,Real Oviedo,CD Mirandés,3-0,Final
+38,30/04/2022,03:00,SD Eibar,Real Zaragoza,2-0,Final
+38,30/04/2022,03:00,Burgos CF,UD Almería,0-2,Final
+38,01/05/2022,03:00,SD Amorebieta,CF Fuenlabrada,2-1,Final
+38,01/05/2022,03:00,AD Alcorcón,Girona FC,0-1,Final
+38,01/05/2022,03:00,Sporting Gijón,UD Ibiza,0-1,Final
+38,01/05/2022,03:00,CD Lugo,CD Tenerife,0-2,Final
+38,01/05/2022,03:00,SD Ponferradina,FC Cartagena,4-2,Final
+38,02/05/2022,03:00,CD Leganés,SD Huesca,2-1,Final
+38,02/05/2022,03:00,Real Valladolid,Real Sociedad B,1-2,Final
+39,06/05/2022,03:00,UD Las Palmas,CD Mirandés,1-0,Final
+39,07/05/2022,03:00,CF Fuenlabrada,Real Sociedad B,1-2,Final
+39,07/05/2022,03:00,SD Huesca,Sporting Gijón,1-1,Final
+39,07/05/2022,03:00,Málaga CF,Real Oviedo,0-0,Final
+39,07/05/2022,03:00,UD Almería,SD Amorebieta,3-0,Final
+39,07/05/2022,03:00,SD Ponferradina,Burgos CF,3-1,Final
+39,08/05/2022,03:00,FC Cartagena,CD Leganés,0-0,Final
+39,08/05/2022,03:00,SD Eibar,Real Valladolid,0-2,Final
+39,08/05/2022,03:00,UD Ibiza,CD Lugo,1-1,Final
+39,08/05/2022,03:00,Real Zaragoza,AD Alcorcón,0-3,Final
+39,09/05/2022,03:00,Girona FC,CD Tenerife,0-1,Final
+40,13/05/2022,03:00,Real Sociedad B,UD Almería,0-2,Final
+40,14/05/2022,03:00,SD Amorebieta,SD Huesca,1-0,Final
+40,14/05/2022,03:00,Burgos CF,FC Cartagena,1-1,Final
+40,14/05/2022,03:00,CD Lugo,CF Fuenlabrada,1-3,Final
+40,14/05/2022,03:00,Real Valladolid,SD Ponferradina,2-0,Final
+40,14/05/2022,03:00,CD Leganés,SD Eibar,2-3,Final
+40,15/05/2022,03:00,AD Alcorcón,UD Las Palmas,0-2,Final
+40,15/05/2022,03:00,CD Mirandés,UD Ibiza,4-0,Final
+40,15/05/2022,03:00,Sporting Gijón,Girona FC,2-1,Final
+40,15/05/2022,03:00,CD Tenerife,Málaga CF,0-2,Final
+40,16/05/2022,03:00,Real Oviedo,Real Zaragoza,3-3,Final
+41,20/05/2022,03:00,Real Zaragoza,CD Lugo,1-0,Final
+41,21/05/2022,03:00,FC Cartagena,SD Amorebieta,5-0,Final
+41,21/05/2022,03:00,Málaga CF,Burgos CF,0-1,Final
+41,21/05/2022,03:00,CF Fuenlabrada,Sporting Gijón,0-0,Final
+41,21/05/2022,03:00,SD Huesca,Real Sociedad B,3-2,Final
+41,21/05/2022,03:00,Girona FC,CD Mirandés,2-0,Final
+41,21/05/2022,03:00,UD Ibiza,Real Valladolid,1-2,Final
+41,21/05/2022,03:00,SD Eibar,CD Tenerife,2-0,Final
+41,21/05/2022,03:00,SD Ponferradina,CD Leganés,0-3,Final
+41,21/05/2022,03:00,UD Almería,AD Alcorcón,1-1,Final
+41,21/05/2022,03:00,UD Las Palmas,Real Oviedo,2-1,Final
+42,27/05/2022,03:00,CD Mirandés,CF Fuenlabrada,5-1,Final
+42,27/05/2022,03:00,Real Sociedad B,Real Zaragoza,1-2,Final
+42,28/05/2022,03:00,SD Amorebieta,SD Ponferradina,1-0,Final
+42,28/05/2022,03:00,CD Lugo,Málaga CF,1-0,Final
+42,29/05/2022,03:00,AD Alcorcón,SD Eibar,1-0,Final
+42,29/05/2022,03:00,Burgos CF,Girona FC,0-0,Final
+42,29/05/2022,03:00,CD Leganés,UD Almería,2-2,Final
+42,29/05/2022,03:00,CD Tenerife,FC Cartagena,1-2,Final
+42,29/05/2022,03:00,Real Oviedo,UD Ibiza,3-2,Final
+42,29/05/2022,03:00,Real Valladolid,SD Huesca,3-0,Final
+42,29/05/2022,03:00,Sporting Gijón,UD Las Palmas,0-1,Final

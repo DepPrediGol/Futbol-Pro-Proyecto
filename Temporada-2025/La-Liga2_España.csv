@@ -1,0 +1,463 @@
+matchday,date,time,home_team,away_team,result,status
+1,15/08/2024,03:00,Granada CF,Albacete,1-2,Final
+1,16/08/2024,03:00,CD Mirandés,Córdoba CF,1-0,Final
+1,16/08/2024,03:00,Cádiz CF,Real Zaragoza,0-4,Final
+1,17/08/2024,03:00,Racing Ferrol,Málaga CF,2-2,Final
+1,17/08/2024,03:00,SD Eibar,CD Castellón,1-0,Final
+1,17/08/2024,03:00,Deportivo La Coruña,Real Oviedo,0-1,Final
+1,18/08/2024,03:00,Racing Santander,UD Almería,2-2,Final
+1,18/08/2024,03:00,Sporting Gijón,Levante UD,1-2,Final
+1,18/08/2024,03:00,Burgos CF,FC Cartagena,3-1,Final
+1,18/08/2024,03:00,Elche CF,SD Huesca,0-1,Final
+1,19/08/2024,03:00,CD Eldense,CD Tenerife,2-1,Final
+2,23/08/2024,03:00,Racing Santander,SD Eibar,2-2,Final
+2,23/08/2024,03:00,SD Huesca,Deportivo La Coruña,2-1,Final
+2,24/08/2024,03:00,Racing Ferrol,Granada CF,0-1,Final
+2,24/08/2024,03:00,Sporting Gijón,CD Eldense,0-0,Final
+2,24/08/2024,03:00,Levante UD,Cádiz CF,1-1,Final
+2,24/08/2024,03:00,Málaga CF,CD Mirandés,1-1,Final
+2,24/08/2024,03:00,CD Tenerife,UD Almería,0-1,Final
+2,25/08/2024,03:00,Albacete,Elche CF,1-0,Final
+2,25/08/2024,03:00,CD Castellón,Real Oviedo,0-0,Final
+2,26/08/2024,03:00,FC Cartagena,Real Zaragoza,1-2,Final
+2,26/08/2024,03:00,Córdoba CF,Burgos CF,2-2,Final
+3,30/08/2024,03:00,Granada CF,SD Huesca,1-3,Final
+3,30/08/2024,03:00,Real Oviedo,Racing Santander,1-3,Final
+3,31/08/2024,03:00,Cádiz CF,CD Tenerife,2-2,Final
+3,31/08/2024,03:00,UD Almería,Sporting Gijón,1-1,Final
+3,31/08/2024,03:00,Málaga CF,Albacete,2-1,Final
+3,01/09/2024,03:00,Burgos CF,CD Castellón,0-2,Final
+3,01/09/2024,03:00,Deportivo La Coruña,Racing Ferrol,1-0,Final
+3,01/09/2024,03:00,CD Mirandés,Real Zaragoza,0-0,Final
+3,01/09/2024,03:00,CD Eldense,FC Cartagena,1-2,Final
+3,02/09/2024,03:00,SD Eibar,Levante UD,2-2,Final
+3,02/09/2024,03:00,Elche CF,Córdoba CF,3-1,Final
+4,06/09/2024,03:00,CD Tenerife,Racing Santander,0-1,Final
+4,07/09/2024,03:00,Granada CF,Deportivo La Coruña,1-1,Final
+4,07/09/2024,03:00,SD Huesca,Burgos CF,0-1,Final
+4,07/09/2024,03:00,Sporting Gijón,Real Oviedo,3-1,Final
+4,07/09/2024,03:00,Córdoba CF,Málaga CF,0-0,Final
+4,08/09/2024,03:00,Racing Ferrol,CD Mirandés,0-0,Final
+4,08/09/2024,03:00,FC Cartagena,Levante UD,0-1,Final
+4,08/09/2024,03:00,CD Eldense,UD Almería,1-0,Final
+4,08/09/2024,03:00,Real Zaragoza,Elche CF,3-0,Final
+4,09/09/2024,03:00,Albacete,SD Eibar,0-1,Final
+4,09/09/2024,03:00,CD Castellón,Cádiz CF,1-3,Final
+5,13/09/2024,03:00,Córdoba CF,Deportivo La Coruña,2-0,Final
+5,14/09/2024,03:00,SD Eibar,CD Tenerife,1-0,Final
+5,14/09/2024,03:00,Levante UD,CD Eldense,3-1,Final
+5,14/09/2024,03:00,Racing Santander,Sporting Gijón,1-0,Final
+5,14/09/2024,03:00,Málaga CF,SD Huesca,1-0,Final
+5,15/09/2024,03:00,CD Mirandés,Albacete,2-0,Final
+5,15/09/2024,03:00,Real Oviedo,FC Cartagena,1-0,Final
+5,15/09/2024,03:00,Burgos CF,Real Zaragoza,1-0,Final
+5,15/09/2024,03:00,Cádiz CF,Racing Ferrol,0-0,Final
+5,15/09/2024,03:00,Elche CF,Granada CF,2-2,Final
+5,16/09/2024,03:00,UD Almería,CD Castellón,2-5,Final
+6,20/09/2024,03:00,Granada CF,Málaga CF,2-2,Final
+6,21/09/2024,03:00,Racing Ferrol,Albacete,1-4,Final
+6,21/09/2024,03:00,CD Eldense,Real Oviedo,1-1,Final
+6,21/09/2024,03:00,Deportivo La Coruña,Burgos CF,0-2,Final
+6,21/09/2024,03:00,Real Zaragoza,Levante UD,2-1,Final
+6,22/09/2024,03:00,CD Tenerife,Sporting Gijón,1-1,Final
+6,22/09/2024,03:00,CD Castellón,Racing Santander,0-1,Final
+6,22/09/2024,03:00,FC Cartagena,Cádiz CF,1-2,Final
+6,22/09/2024,03:00,Elche CF,CD Mirandés,1-0,Final
+6,22/09/2024,03:00,UD Almería,SD Eibar,2-2,Final
+6,23/09/2024,03:00,SD Huesca,Córdoba CF,4-1,Final
+7,27/09/2024,03:00,Albacete,Deportivo La Coruña,2-5,Final
+7,28/09/2024,03:00,Cádiz CF,CD Eldense,1-2,Final
+7,28/09/2024,03:00,CD Mirandés,SD Huesca,1-0,Final
+7,28/09/2024,03:00,Sporting Gijón,Real Zaragoza,1-0,Final
+7,28/09/2024,03:00,Málaga CF,Elche CF,0-3,Final
+7,29/09/2024,03:00,Levante UD,UD Almería,4-2,Final
+7,29/09/2024,03:00,Burgos CF,Granada CF,2-2,Final
+7,29/09/2024,03:00,CD Castellón,CD Tenerife,2-1,Final
+7,29/09/2024,03:00,Córdoba CF,Racing Ferrol,3-1,Final
+7,29/09/2024,03:00,Real Oviedo,SD Eibar,1-0,Final
+7,30/09/2024,03:00,Racing Santander,FC Cartagena,1-2,Final
+8,04/10/2024,03:00,SD Huesca,Cádiz CF,3-1,Final
+8,05/10/2024,03:00,Racing Ferrol,Elche CF,1-0,Final
+8,05/10/2024,03:00,SD Eibar,Sporting Gijón,1-3,Final
+8,05/10/2024,03:00,CD Mirandés,Granada CF,0-1,Final
+8,05/10/2024,03:00,UD Almería,Burgos CF,2-0,Final
+8,05/10/2024,03:00,Real Zaragoza,Racing Santander,2-3,Final
+8,05/10/2024,03:00,CD Tenerife,FC Cartagena,2-0,Final
+8,06/10/2024,03:00,Deportivo La Coruña,Málaga CF,0-0,Final
+8,06/10/2024,03:00,CD Eldense,CD Castellón,2-3,Final
+8,06/10/2024,03:00,Levante UD,Real Oviedo,0-0,Final
+8,06/10/2024,03:00,Albacete,Córdoba CF,1-1,Final
+9,11/10/2024,03:00,CD Tenerife,Real Zaragoza,2-3,Final
+9,12/10/2024,03:00,FC Cartagena,Racing Ferrol,0-1,Final
+9,12/10/2024,03:00,Cádiz CF,Málaga CF,2-2,Final
+9,12/10/2024,03:00,SD Eibar,CD Eldense,1-0,Final
+9,13/10/2024,03:00,SD Huesca,Albacete,2-2,Final
+9,13/10/2024,03:00,Real Oviedo,UD Almería,3-2,Final
+9,13/10/2024,03:00,Racing Santander,Levante UD,1-0,Final
+9,13/10/2024,03:00,Burgos CF,CD Mirandés,0-1,Final
+9,13/10/2024,03:00,Granada CF,Córdoba CF,1-0,Final
+9,13/10/2024,03:00,Elche CF,Deportivo La Coruña,0-0,Final
+9,14/10/2024,03:00,Sporting Gijón,CD Castellón,2-1,Final
+10,18/10/2024,03:00,Córdoba CF,FC Cartagena,2-1,Final
+10,19/10/2024,03:00,Deportivo La Coruña,CD Eldense,1-1,Final
+10,19/10/2024,03:00,Málaga CF,Real Oviedo,0-0,Final
+10,19/10/2024,03:00,CD Castellón,Levante UD,2-0,Final
+10,19/10/2024,03:00,Granada CF,CD Tenerife,4-0,Final
+10,19/10/2024,03:00,CD Mirandés,SD Eibar,1-0,Final
+10,20/10/2024,03:00,Cádiz CF,Racing Santander,0-1,Final
+10,20/10/2024,03:00,Racing Ferrol,SD Huesca,0-0,Final
+10,20/10/2024,03:00,Elche CF,Sporting Gijón,2-1,Final
+10,20/10/2024,03:00,Real Zaragoza,UD Almería,1-2,Final
+10,21/10/2024,03:00,Albacete,Burgos CF,2-0,Final
+11,22/10/2024,03:00,Real Oviedo,CD Mirandés,4-1,Final
+11,22/10/2024,03:00,CD Castellón,Granada CF,2-3,Final
+11,23/10/2024,03:00,CD Eldense,Real Zaragoza,2-3,Final
+11,23/10/2024,03:00,SD Eibar,Cádiz CF,1-0,Final
+11,23/10/2024,03:00,FC Cartagena,Elche CF,0-0,Final
+11,23/10/2024,03:00,Racing Santander,Córdoba CF,2-0,Final
+11,24/10/2024,03:00,UD Almería,Albacete,3-1,Final
+11,24/10/2024,03:00,Levante UD,Deportivo La Coruña,2-1,Final
+11,24/10/2024,03:00,Burgos CF,Racing Ferrol,1-1,Final
+11,24/10/2024,03:00,Sporting Gijón,SD Huesca,2-1,Final
+11,24/10/2024,03:00,CD Tenerife,Málaga CF,0-0,Final
+12,26/10/2024,03:00,Cádiz CF,Real Oviedo,2-0,Final
+12,26/10/2024,03:00,CD Mirandés,FC Cartagena,3-1,Final
+12,26/10/2024,03:00,Córdoba CF,CD Eldense,2-0,Final
+12,26/10/2024,03:00,Real Zaragoza,CD Castellón,1-2,Final
+12,27/10/2024,03:00,Málaga CF,SD Eibar,1-0,Final
+12,27/10/2024,03:00,Deportivo La Coruña,Racing Santander,1-2,Final
+12,27/10/2024,03:00,Elche CF,Burgos CF,1-0,Final
+12,27/10/2024,03:00,Albacete,Sporting Gijón,3-3,Final
+12,27/10/2024,03:00,SD Huesca,UD Almería,2-2,Final
+12,27/10/2024,03:00,Granada CF,Levante UD,1-2,Final
+12,28/10/2024,03:00,Racing Ferrol,CD Tenerife,1-1,Final
+13,02/11/2024,03:00,SD Eibar,Elche CF,0-2,Final
+13,02/11/2024,03:00,FC Cartagena,Deportivo La Coruña,1-5,Final
+13,02/11/2024,03:00,Sporting Gijón,Cádiz CF,2-0,Final
+13,02/11/2024,03:00,Racing Santander,Albacete,1-1,Final
+13,02/11/2024,03:00,Real Zaragoza,Granada CF,2-1,Final
+13,03/11/2024,03:00,Real Oviedo,Burgos CF,3-1,Final
+13,03/11/2024,03:00,CD Tenerife,CD Mirandés,1-0,Final
+13,20/11/2024,03:00,CD Eldense,SD Huesca,2-1,Final
+13,26/11/2024,03:00,UD Almería,Córdoba CF,4-0,Final
+13,27/11/2024,03:00,CD Castellón,Racing Ferrol,0-0,Final
+13,27/11/2024,03:00,Levante UD,Málaga CF,4-2,Final
+14,08/11/2024,03:00,Elche CF,UD Almería,1-2,Final
+14,09/11/2024,03:00,CD Mirandés,Cádiz CF,2-2,Final
+14,09/11/2024,03:00,SD Huesca,Real Zaragoza,1-1,Final
+14,09/11/2024,03:00,Granada CF,CD Eldense,3-2,Final
+14,09/11/2024,03:00,Málaga CF,FC Cartagena,1-0,Final
+14,10/11/2024,03:00,Córdoba CF,CD Castellón,2-2,Final
+14,10/11/2024,03:00,Burgos CF,Sporting Gijón,0-2,Final
+14,10/11/2024,03:00,Racing Ferrol,Racing Santander,1-2,Final
+14,10/11/2024,03:00,Albacete,Real Oviedo,2-2,Final
+14,11/11/2024,03:00,Deportivo La Coruña,SD Eibar,1-0,Final
+14,07/01/2025,03:00,CD Tenerife,Levante UD,0-3,Final
+15,16/11/2024,03:00,SD Eibar,Racing Ferrol,2-0,Final
+15,16/11/2024,03:00,CD Castellón,CD Mirandés,1-3,Final
+15,16/11/2024,03:00,CD Eldense,Albacete,2-0,Final
+15,16/11/2024,03:00,Racing Santander,Burgos CF,2-0,Final
+15,16/11/2024,03:00,Levante UD,Elche CF,1-1,Final
+15,16/11/2024,03:00,Sporting Gijón,Granada CF,1-2,Final
+15,17/11/2024,03:00,Cádiz CF,Córdoba CF,2-0,Final
+15,17/11/2024,03:00,Real Oviedo,CD Tenerife,3-1,Final
+15,17/11/2024,03:00,UD Almería,Deportivo La Coruña,2-1,Final
+15,17/11/2024,03:00,FC Cartagena,SD Huesca,1-0,Final
+15,17/11/2024,03:00,Real Zaragoza,Málaga CF,0-0,Final
+16,22/11/2024,03:00,Racing Ferrol,Levante UD,0-0,Final
+16,23/11/2024,03:00,FC Cartagena,UD Almería,1-2,Final
+16,23/11/2024,03:00,Granada CF,Cádiz CF,0-0,Final
+16,23/11/2024,03:00,Burgos CF,SD Eibar,1-0,Final
+16,23/11/2024,03:00,Córdoba CF,Real Zaragoza,2-2,Final
+16,23/11/2024,03:00,Málaga CF,Racing Santander,0-0,Final
+16,24/11/2024,03:00,Albacete,CD Tenerife,2-1,Final
+16,24/11/2024,03:00,Deportivo La Coruña,Sporting Gijón,1-1,Final
+16,24/11/2024,03:00,CD Mirandés,CD Eldense,1-0,Final
+16,24/11/2024,03:00,SD Huesca,CD Castellón,1-1,Final
+16,24/11/2024,03:00,Elche CF,Real Oviedo,4-0,Final
+17,29/11/2024,03:00,Real Oviedo,SD Huesca,0-3,Final
+17,30/11/2024,03:00,UD Almería,Granada CF,2-1,Final
+17,30/11/2024,03:00,Real Zaragoza,Albacete,0-1,Final
+17,30/11/2024,03:00,Cádiz CF,Deportivo La Coruña,2-4,Final
+17,30/11/2024,03:00,Racing Santander,CD Mirandés,0-1,Final
+17,30/11/2024,03:00,CD Tenerife,Elche CF,1-1,Final
+17,01/12/2024,03:00,CD Castellón,Málaga CF,2-0,Final
+17,01/12/2024,03:00,CD Eldense,Racing Ferrol,0-0,Final
+17,01/12/2024,03:00,Levante UD,Burgos CF,3-1,Final
+17,01/12/2024,03:00,Sporting Gijón,Córdoba CF,2-0,Final
+17,02/12/2024,03:00,SD Eibar,FC Cartagena,1-0,Final
+18,06/12/2024,03:00,CD Mirandés,Levante UD,2-1,Final
+18,07/12/2024,03:00,Elche CF,Cádiz CF,2-1,Final
+18,07/12/2024,03:00,Granada CF,Racing Santander,3-0,Final
+18,07/12/2024,03:00,Deportivo La Coruña,Real Zaragoza,1-1,Final
+18,07/12/2024,03:00,SD Huesca,SD Eibar,2-1,Final
+18,08/12/2024,03:00,Racing Ferrol,Real Oviedo,1-5,Final
+18,08/12/2024,03:00,Málaga CF,UD Almería,1-1,Final
+18,08/12/2024,03:00,Albacete,CD Castellón,0-0,Final
+18,08/12/2024,03:00,Burgos CF,CD Eldense,1-0,Final
+18,08/12/2024,03:00,Córdoba CF,CD Tenerife,3-0,Final
+18,09/12/2024,03:00,FC Cartagena,Sporting Gijón,1-0,Final
+19,13/12/2024,03:00,UD Almería,CD Mirandés,1-0,Final
+19,14/12/2024,03:00,Levante UD,Córdoba CF,2-2,Final
+19,14/12/2024,03:00,Cádiz CF,Albacete,1-0,Final
+19,14/12/2024,03:00,CD Castellón,FC Cartagena,4-1,Final
+19,14/12/2024,03:00,SD Eibar,Real Zaragoza,2-1,Final
+19,14/12/2024,03:00,CD Eldense,Elche CF,0-0,Final
+19,14/12/2024,03:00,Real Oviedo,Granada CF,2-0,Final
+19,15/12/2024,03:00,Sporting Gijón,Racing Ferrol,1-3,Final
+19,15/12/2024,03:00,Burgos CF,Málaga CF,0-0,Final
+19,15/12/2024,03:00,Racing Santander,SD Huesca,0-1,Final
+19,29/01/2025,03:00,CD Tenerife,Deportivo La Coruña,0-0,Final
+20,17/12/2024,03:00,Albacete,Levante UD,0-0,Final
+20,17/12/2024,03:00,Granada CF,FC Cartagena,4-1,Final
+20,17/12/2024,03:00,Córdoba CF,SD Eibar,2-1,Final
+20,17/12/2024,03:00,Real Zaragoza,Real Oviedo,2-3,Final
+20,18/12/2024,03:00,Racing Ferrol,UD Almería,1-4,Final
+20,18/12/2024,03:00,CD Mirandés,Sporting Gijón,1-1,Final
+20,18/12/2024,03:00,Málaga CF,CD Eldense,3-0,Final
+20,19/12/2024,03:00,Elche CF,Racing Santander,3-0,Final
+20,19/12/2024,03:00,Cádiz CF,Burgos CF,1-1,Final
+20,19/12/2024,03:00,SD Huesca,CD Tenerife,1-0,Final
+20,19/12/2024,03:00,Deportivo La Coruña,CD Castellón,5-1,Final
+21,20/12/2024,03:00,FC Cartagena,Albacete,0-0,Final
+21,21/12/2024,03:00,SD Eibar,Granada CF,1-1,Final
+21,21/12/2024,03:00,Real Oviedo,Córdoba CF,2-3,Final
+21,21/12/2024,03:00,Real Zaragoza,Racing Ferrol,1-0,Final
+21,21/12/2024,03:00,Sporting Gijón,Málaga CF,1-3,Final
+21,22/12/2024,03:00,Burgos CF,CD Tenerife,1-0,Final
+21,22/12/2024,03:00,CD Castellón,Elche CF,0-2,Final
+21,22/12/2024,03:00,UD Almería,Cádiz CF,1-1,Final
+21,22/12/2024,03:00,Racing Santander,CD Eldense,2-2,Final
+21,22/12/2024,03:00,Deportivo La Coruña,CD Mirandés,0-4,Final
+21,22/12/2024,03:00,Levante UD,SD Huesca,1-1,Final
+22,10/01/2025,03:00,Granada CF,Burgos CF,0-0,Final
+22,11/01/2025,03:00,Racing Ferrol,FC Cartagena,0-0,Final
+22,11/01/2025,03:00,Albacete,Racing Santander,2-2,Final
+22,11/01/2025,03:00,SD Huesca,CD Mirandés,1-0,Final
+22,11/01/2025,03:00,CD Tenerife,CD Castellón,2-0,Final
+22,11/01/2025,03:00,Málaga CF,Deportivo La Coruña,1-1,Final
+22,11/01/2025,03:00,Real Oviedo,Sporting Gijón,1-1,Final
+22,12/01/2025,03:00,Córdoba CF,UD Almería,0-3,Final
+22,12/01/2025,03:00,Cádiz CF,Levante UD,0-0,Final
+22,12/01/2025,03:00,Elche CF,Real Zaragoza,1-0,Final
+22,13/01/2025,03:00,CD Eldense,SD Eibar,1-3,Final
+23,17/01/2025,03:00,FC Cartagena,Real Oviedo,0-1,Final
+23,18/01/2025,03:00,CD Eldense,Cádiz CF,1-4,Final
+23,18/01/2025,03:00,SD Eibar,Albacete,1-1,Final
+23,18/01/2025,03:00,Sporting Gijón,Elche CF,1-1,Final
+23,18/01/2025,03:00,Levante UD,Granada CF,3-1,Final
+23,19/01/2025,03:00,Burgos CF,Deportivo La Coruña,0-1,Final
+23,19/01/2025,03:00,Racing Santander,Racing Ferrol,6-0,Final
+23,19/01/2025,03:00,CD Castellón,Córdoba CF,1-2,Final
+23,19/01/2025,03:00,Real Zaragoza,CD Tenerife,2-2,Final
+23,19/01/2025,03:00,UD Almería,SD Huesca,0-0,Final
+23,20/01/2025,03:00,CD Mirandés,Málaga CF,3-2,Final
+24,24/01/2025,03:00,Elche CF,SD Eibar,2-0,Final
+24,25/01/2025,03:00,Córdoba CF,Racing Santander,1-2,Final
+24,25/01/2025,03:00,Deportivo La Coruña,Levante UD,1-2,Final
+24,25/01/2025,03:00,SD Huesca,FC Cartagena,4-0,Final
+24,25/01/2025,03:00,CD Tenerife,CD Eldense,0-1,Final
+24,26/01/2025,03:00,Granada CF,Sporting Gijón,3-1,Final
+24,26/01/2025,03:00,Albacete,UD Almería,2-1,Final
+24,26/01/2025,03:00,Real Oviedo,CD Castellón,1-0,Final
+24,26/01/2025,03:00,Málaga CF,Real Zaragoza,1-2,Final
+24,27/01/2025,03:00,Cádiz CF,CD Mirandés,3-1,Final
+24,05/03/2025,03:00,Racing Ferrol,Burgos CF,0-1,Final
+25,31/01/2025,03:00,CD Eldense,Granada CF,0-3,Final
+25,01/02/2025,03:00,CD Mirandés,Elche CF,3-0,Final
+25,01/02/2025,03:00,Sporting Gijón,Burgos CF,2-0,Final
+25,01/02/2025,03:00,UD Almería,Real Oviedo,1-1,Final
+25,01/02/2025,03:00,Racing Santander,Málaga CF,2-1,Final
+25,02/02/2025,03:00,CD Castellón,SD Huesca,0-1,Final
+25,02/02/2025,03:00,SD Eibar,Deportivo La Coruña,0-1,Final
+25,02/02/2025,03:00,FC Cartagena,Córdoba CF,0-1,Final
+25,02/02/2025,03:00,Real Zaragoza,Cádiz CF,0-0,Final
+25,02/02/2025,03:00,CD Tenerife,Albacete,3-1,Final
+25,03/02/2025,03:00,Levante UD,Racing Ferrol,0-1,Final
+26,07/02/2025,03:00,Albacete,Real Zaragoza,2-1,Final
+26,08/02/2025,03:00,Racing Ferrol,CD Castellón,1-3,Final
+26,08/02/2025,03:00,Granada CF,CD Mirandés,0-0,Final
+26,08/02/2025,03:00,Sporting Gijón,SD Eibar,0-0,Final
+26,08/02/2025,03:00,Málaga CF,Levante UD,1-1,Final
+26,09/02/2025,03:00,Elche CF,CD Tenerife,2-0,Final
+26,09/02/2025,03:00,Burgos CF,Racing Santander,2-1,Final
+26,09/02/2025,03:00,Córdoba CF,SD Huesca,1-2,Final
+26,09/02/2025,03:00,Cádiz CF,FC Cartagena,5-2,Final
+26,09/02/2025,03:00,Deportivo La Coruña,UD Almería,3-1,Final
+26,10/02/2025,03:00,Real Oviedo,CD Eldense,0-0,Final
+27,14/02/2025,03:00,CD Mirandés,Racing Ferrol,4-1,Final
+27,15/02/2025,03:00,CD Castellón,SD Eibar,2-0,Final
+27,15/02/2025,03:00,FC Cartagena,Málaga CF,0-1,Final
+27,15/02/2025,03:00,Racing Santander,Cádiz CF,2-3,Final
+27,15/02/2025,03:00,CD Tenerife,Córdoba CF,2-3,Final
+27,16/02/2025,03:00,Levante UD,Sporting Gijón,0-0,Final
+27,16/02/2025,03:00,CD Eldense,Deportivo La Coruña,2-0,Final
+27,16/02/2025,03:00,SD Huesca,Granada CF,1-1,Final
+27,16/02/2025,03:00,Real Zaragoza,Burgos CF,0-1,Final
+27,16/02/2025,03:00,Real Oviedo,Albacete,1-0,Final
+27,17/02/2025,03:00,UD Almería,Elche CF,1-1,Final
+28,21/02/2025,03:00,Málaga CF,CD Tenerife,1-0,Final
+28,22/02/2025,03:00,Racing Ferrol,Córdoba CF,0-1,Final
+28,22/02/2025,03:00,Burgos CF,Real Oviedo,1-2,Final
+28,22/02/2025,03:00,SD Eibar,Racing Santander,2-2,Final
+28,22/02/2025,03:00,Granada CF,Real Zaragoza,2-2,Final
+28,22/02/2025,03:00,Sporting Gijón,UD Almería,1-1,Final
+28,23/02/2025,03:00,Deportivo La Coruña,SD Huesca,0-0,Final
+28,23/02/2025,03:00,Elche CF,FC Cartagena,2-1,Final
+28,23/02/2025,03:00,Albacete,CD Eldense,0-1,Final
+28,23/02/2025,03:00,Levante UD,CD Mirandés,1-0,Final
+28,23/02/2025,03:00,Cádiz CF,CD Castellón,0-0,Final
+29,28/02/2025,03:00,FC Cartagena,SD Eibar,0-2,Final
+29,01/03/2025,03:00,CD Castellón,Burgos CF,2-1,Final
+29,01/03/2025,03:00,SD Huesca,Racing Ferrol,3-1,Final
+29,01/03/2025,03:00,Real Zaragoza,Sporting Gijón,1-1,Final
+29,01/03/2025,03:00,UD Almería,Málaga CF,2-2,Final
+29,02/03/2025,03:00,Córdoba CF,Granada CF,5-0,Final
+29,02/03/2025,03:00,Real Oviedo,Deportivo La Coruña,1-2,Final
+29,02/03/2025,03:00,Albacete,Cádiz CF,3-0,Final
+29,02/03/2025,03:00,CD Eldense,Levante UD,1-2,Final
+29,02/03/2025,03:00,Racing Santander,Elche CF,2-0,Final
+29,03/03/2025,03:00,CD Mirandés,CD Tenerife,2-0,Final
+30,07/03/2025,03:00,SD Eibar,UD Almería,1-0,Final
+30,07/03/2025,03:00,Deportivo La Coruña,Córdoba CF,1-1,Final
+30,08/03/2025,03:00,CD Mirandés,Real Oviedo,1-0,Final
+30,08/03/2025,03:00,Elche CF,CD Castellón,3-1,Final
+30,08/03/2025,03:00,Sporting Gijón,Racing Santander,1-1,Final
+30,08/03/2025,03:00,Real Zaragoza,CD Eldense,2-4,Final
+30,09/03/2025,03:00,CD Tenerife,SD Huesca,2-0,Final
+30,09/03/2025,03:00,Málaga CF,Cádiz CF,0-2,Final
+30,09/03/2025,03:00,Levante UD,FC Cartagena,3-0,Final
+30,09/03/2025,03:00,Granada CF,Racing Ferrol,3-0,Final
+30,10/03/2025,03:00,Burgos CF,Albacete,1-0,Final
+31,14/03/2025,03:00,Real Oviedo,Elche CF,1-1,Final
+31,15/03/2025,03:00,Racing Ferrol,SD Eibar,0-0,Final
+31,15/03/2025,03:00,Albacete,Málaga CF,2-0,Final
+31,15/03/2025,03:00,FC Cartagena,Burgos CF,0-1,Final
+31,15/03/2025,03:00,UD Almería,Real Zaragoza,4-1,Final
+31,15/03/2025,03:00,Córdoba CF,Sporting Gijón,1-1,Final
+31,16/03/2025,03:00,CD Eldense,CD Mirandés,2-2,Final
+31,16/03/2025,03:00,SD Huesca,Levante UD,1-2,Final
+31,16/03/2025,03:00,Racing Santander,CD Tenerife,2-1,Final
+31,16/03/2025,03:00,Cádiz CF,Granada CF,1-0,Final
+31,17/03/2025,03:00,CD Castellón,Deportivo La Coruña,2-2,Final
+32,21/03/2025,03:00,Burgos CF,UD Almería,3-1,Final
+32,22/03/2025,03:00,Elche CF,CD Eldense,2-0,Final
+32,22/03/2025,03:00,CD Mirandés,Racing Santander,2-1,Final
+32,22/03/2025,03:00,Málaga CF,Racing Ferrol,2-0,Final
+32,22/03/2025,03:00,Granada CF,Real Oviedo,1-0,Final
+32,23/03/2025,03:00,Levante UD,CD Castellón,3-2,Final
+32,23/03/2025,03:00,SD Eibar,SD Huesca,2-1,Final
+32,23/03/2025,03:00,Sporting Gijón,Albacete,0-2,Final
+32,23/03/2025,03:00,CD Tenerife,Cádiz CF,2-1,Final
+32,23/03/2025,03:00,Deportivo La Coruña,FC Cartagena,2-2,Final
+32,24/03/2025,03:00,Real Zaragoza,Córdoba CF,1-1,Final
+33,28/03/2025,03:00,CD Tenerife,Granada CF,2-1,Final
+33,29/03/2025,03:00,CD Eldense,Burgos CF,0-0,Final
+33,29/03/2025,03:00,Racing Ferrol,Deportivo La Coruña,0-1,Final
+33,29/03/2025,03:00,FC Cartagena,CD Castellón,2-2,Final
+33,29/03/2025,03:00,Racing Santander,Real Zaragoza,2-0,Final
+33,29/03/2025,03:00,UD Almería,Levante UD,1-0,Final
+33,30/03/2025,03:00,Córdoba CF,Elche CF,1-2,Final
+33,30/03/2025,03:00,Real Oviedo,Málaga CF,2-1,Final
+33,30/03/2025,03:00,Albacete,CD Mirandés,3-2,Final
+33,30/03/2025,03:00,SD Huesca,Sporting Gijón,3-2,Final
+33,31/03/2025,03:00,Cádiz CF,SD Eibar,0-0,Final
+34,04/04/2025,03:00,CD Castellón,Albacete,2-2,Final
+34,05/04/2025,03:00,SD Eibar,Real Oviedo,1-1,Final
+34,05/04/2025,03:00,FC Cartagena,CD Eldense,0-1,Final
+34,05/04/2025,03:00,Granada CF,UD Almería,3-1,Final
+34,05/04/2025,03:00,Sporting Gijón,CD Tenerife,1-3,Final
+34,06/04/2025,03:00,Real Zaragoza,CD Mirandés,1-0,Final
+34,06/04/2025,03:00,Levante UD,Racing Santander,3-1,Final
+34,06/04/2025,03:00,Burgos CF,SD Huesca,2-1,Final
+34,06/04/2025,03:00,Málaga CF,Córdoba CF,0-1,Final
+34,06/04/2025,03:00,Deportivo La Coruña,Cádiz CF,1-0,Final
+34,07/04/2025,03:00,Elche CF,Racing Ferrol,1-0,Final
+35,11/04/2025,03:00,Córdoba CF,Levante UD,2-2,Final
+35,12/04/2025,03:00,Real Zaragoza,SD Eibar,2-2,Final
+35,12/04/2025,03:00,Cádiz CF,Elche CF,0-1,Final
+35,12/04/2025,03:00,CD Tenerife,Burgos CF,0-0,Final
+35,12/04/2025,03:00,Real Oviedo,Racing Ferrol,3-0,Final
+35,13/04/2025,03:00,Albacete,Granada CF,0-2,Final
+35,13/04/2025,03:00,Racing Santander,CD Castellón,1-1,Final
+35,13/04/2025,03:00,CD Eldense,Sporting Gijón,1-2,Final
+35,13/04/2025,03:00,CD Mirandés,Deportivo La Coruña,2-2,Final
+35,13/04/2025,03:00,UD Almería,FC Cartagena,2-1,Final
+35,14/04/2025,03:00,SD Huesca,Málaga CF,1-0,Final
+36,18/04/2025,03:00,Sporting Gijón,CD Mirandés,3-1,Final
+36,18/04/2025,03:00,CD Castellón,UD Almería,4-1,Final
+36,19/04/2025,03:00,Racing Ferrol,CD Eldense,1-0,Final
+36,19/04/2025,03:00,SD Huesca,Racing Santander,1-3,Final
+36,19/04/2025,03:00,Levante UD,Real Zaragoza,5-2,Final
+36,19/04/2025,03:00,Burgos CF,Cádiz CF,2-2,Final
+36,20/04/2025,03:00,FC Cartagena,Granada CF,2-3,Final
+36,20/04/2025,03:00,Córdoba CF,Real Oviedo,0-0,Final
+36,20/04/2025,03:00,Elche CF,Albacete,2-2,Final
+36,20/04/2025,03:00,Deportivo La Coruña,CD Tenerife,0-0,Final
+36,21/04/2025,03:00,SD Eibar,Málaga CF,2-2,Final
+37,25/04/2025,03:00,Cádiz CF,Sporting Gijón,1-0,Final
+37,26/04/2025,03:00,Albacete,FC Cartagena,3-1,Final
+37,26/04/2025,03:00,CD Eldense,Córdoba CF,1-1,Final
+37,26/04/2025,03:00,Real Oviedo,Levante UD,1-0,Final
+37,26/04/2025,03:00,CD Mirandés,Burgos CF,2-1,Final
+37,26/04/2025,03:00,Granada CF,Elche CF,1-1,Final
+37,27/04/2025,03:00,Racing Santander,Deportivo La Coruña,2-1,Final
+37,27/04/2025,03:00,Málaga CF,CD Castellón,1-0,Final
+37,27/04/2025,03:00,CD Tenerife,SD Eibar,1-1,Final
+37,27/04/2025,03:00,Real Zaragoza,SD Huesca,1-1,Final
+37,29/04/2025,03:00,UD Almería,Racing Ferrol,2-1,Final
+38,02/05/2025,03:00,Córdoba CF,Cádiz CF,4-2,Final
+38,03/05/2025,03:00,SD Huesca,Real Oviedo,1-2,Final
+38,03/05/2025,03:00,SD Eibar,CD Mirandés,0-1,Final
+38,03/05/2025,03:00,Málaga CF,Granada CF,1-0,Final
+38,03/05/2025,03:00,Burgos CF,Elche CF,0-1,Final
+38,04/05/2025,03:00,Levante UD,CD Tenerife,1-1,Final
+38,04/05/2025,03:00,Racing Ferrol,Real Zaragoza,1-2,Final
+38,04/05/2025,03:00,UD Almería,CD Eldense,5-0,Final
+38,04/05/2025,03:00,FC Cartagena,Racing Santander,1-0,Final
+38,04/05/2025,03:00,Deportivo La Coruña,Albacete,5-1,Final
+38,05/05/2025,03:00,CD Castellón,Sporting Gijón,4-3,Final
+39,09/05/2025,03:00,Cádiz CF,UD Almería,2-1,Final
+39,10/05/2025,03:00,CD Mirandés,CD Castellón,3-2,Final
+39,10/05/2025,03:00,Sporting Gijón,Deportivo La Coruña,2-1,Final
+39,10/05/2025,03:00,Burgos CF,Córdoba CF,3-2,Final
+39,10/05/2025,03:00,Elche CF,Levante UD,1-3,Final
+39,10/05/2025,03:00,Real Zaragoza,FC Cartagena,3-2,Final
+39,11/05/2025,03:00,Racing Santander,Real Oviedo,1-1,Final
+39,11/05/2025,03:00,Albacete,SD Huesca,3-2,Final
+39,11/05/2025,03:00,CD Eldense,Málaga CF,1-0,Final
+39,11/05/2025,03:00,CD Tenerife,Racing Ferrol,0-0,Final
+39,12/05/2025,03:00,Granada CF,SD Eibar,0-2,Final
+40,16/05/2025,03:00,Levante UD,Albacete,1-0,Final
+40,17/05/2025,03:00,Deportivo La Coruña,Granada CF,2-3,Final
+40,17/05/2025,03:00,SD Eibar,Burgos CF,1-0,Final
+40,17/05/2025,03:00,FC Cartagena,CD Tenerife,1-0,Final
+40,17/05/2025,03:00,SD Huesca,Elche CF,2-1,Final
+40,17/05/2025,03:00,Málaga CF,Sporting Gijón,2-1,Final
+40,18/05/2025,03:00,Racing Ferrol,Cádiz CF,1-0,Final
+40,18/05/2025,03:00,CD Castellón,CD Eldense,1-1,Final
+40,18/05/2025,03:00,Real Oviedo,Real Zaragoza,1-0,Final
+40,18/05/2025,03:00,UD Almería,Racing Santander,2-0,Final
+40,19/05/2025,03:00,Córdoba CF,CD Mirandés,1-2,Final
+41,24/05/2025,03:00,Albacete,Racing Ferrol,2-0,Final
+41,25/05/2025,03:00,Burgos CF,Levante UD,2-3,Final
+41,25/05/2025,03:00,Cádiz CF,SD Huesca,4-0,Final
+41,25/05/2025,03:00,Elche CF,Málaga CF,2-0,Final
+41,25/05/2025,03:00,CD Eldense,Racing Santander,3-3,Final
+41,25/05/2025,03:00,CD Mirandés,UD Almería,0-0,Final
+41,25/05/2025,03:00,Sporting Gijón,FC Cartagena,3-2,Final
+41,25/05/2025,03:00,Granada CF,CD Castellón,2-1,Final
+41,25/05/2025,03:00,SD Eibar,Córdoba CF,4-1,Final
+41,25/05/2025,03:00,Real Zaragoza,Deportivo La Coruña,1-0,Final
+41,25/05/2025,03:00,CD Tenerife,Real Oviedo,0-1,Final
+42,30/05/2025,03:00,CD Castellón,Real Zaragoza,4-1,Final
+42,31/05/2025,03:00,Racing Ferrol,Sporting Gijón,0-2,Final
+42,31/05/2025,03:00,Málaga CF,Burgos CF,2-2,Final
+42,01/06/2025,03:00,UD Almería,CD Tenerife,2-0,Final
+42,01/06/2025,03:00,FC Cartagena,CD Mirandés,1-3,Final
+42,01/06/2025,03:00,Deportivo La Coruña,Elche CF,0-4,Final
+42,01/06/2025,03:00,Real Oviedo,Cádiz CF,2-1,Final
+42,01/06/2025,03:00,Levante UD,SD Eibar,1-0,Final
+42,01/06/2025,03:00,SD Huesca,CD Eldense,3-2,Final
+42,01/06/2025,03:00,Racing Santander,Granada CF,2-1,Final
+42,01/06/2025,03:00,Córdoba CF,Albacete,1-1,Final

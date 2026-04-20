@@ -1,0 +1,307 @@
+matchday,date,time,home_team,away_team,result,status
+1,16/08/2024,03:00,AC Ajaccio,Rodez AF,1-0,Final
+1,16/08/2024,03:00,Clermont Foot 63,Pau FC,2-2,Final
+1,16/08/2024,03:00,EA Guingamp,ESTAC Troyes,4-0,Final
+1,16/08/2024,03:00,Grenoble Foot 38,Stade Lavallois,2-1,Final
+1,16/08/2024,03:00,Amiens SC,Red Star FC,3-0,Final
+1,16/08/2024,03:00,USL Dunkerque,FC Annecy,0-2,Final
+1,17/08/2024,03:00,SM Caen,Paris FC,0-2,Final
+1,19/08/2024,03:00,FC Martigues,FC Lorient,0-1,Final
+1,19/08/2024,03:00,FC Metz,SC Bastia,1-1,Final
+2,23/08/2024,03:00,FC Annecy,FC Martigues,2-4,Final
+2,23/08/2024,03:00,Paris FC,USL Dunkerque,3-2,Final
+2,23/08/2024,03:00,Pau FC,SM Caen,1-0,Final
+2,23/08/2024,03:00,ESTAC Troyes,Clermont Foot 63,0-1,Final
+2,23/08/2024,03:00,Rodez AF,FC Metz,1-3,Final
+2,23/08/2024,03:00,SC Bastia,Amiens SC,1-0,Final
+2,23/08/2024,03:00,Stade Lavallois,EA Guingamp,0-1,Final
+2,24/08/2024,03:00,FC Lorient,Grenoble Foot 38,2-0,Final
+2,26/08/2024,03:00,Red Star FC,AC Ajaccio,1-0,Final
+3,30/08/2024,03:00,AC Ajaccio,ESTAC Troyes,2-1,Final
+3,30/08/2024,03:00,Clermont Foot 63,Paris FC,0-1,Final
+3,30/08/2024,03:00,EA Guingamp,Red Star FC,3-4,Final
+3,30/08/2024,03:00,FC Martigues,SC Bastia,0-1,Final
+3,30/08/2024,03:00,Grenoble Foot 38,Pau FC,1-1,Final
+3,30/08/2024,03:00,SM Caen,FC Annecy,1-1,Final
+3,30/08/2024,03:00,USL Dunkerque,Rodez AF,1-0,Final
+3,31/08/2024,03:00,FC Metz,Stade Lavallois,1-1,Final
+3,31/08/2024,03:00,Amiens SC,FC Lorient,1-0,Final
+4,13/09/2024,03:00,Clermont Foot 63,USL Dunkerque,0-1,Final
+4,13/09/2024,03:00,FC Annecy,Amiens SC,3-0,Final
+4,13/09/2024,03:00,FC Lorient,Red Star FC,2-1,Final
+4,13/09/2024,03:00,Pau FC,FC Martigues,3-0,Final
+4,13/09/2024,03:00,Rodez AF,EA Guingamp,1-2,Final
+4,13/09/2024,03:00,SC Bastia,ESTAC Troyes,0-0,Final
+4,13/09/2024,03:00,Stade Lavallois,AC Ajaccio,1-1,Final
+4,14/09/2024,03:00,Paris FC,FC Metz,1-2,Final
+4,16/09/2024,03:00,Grenoble Foot 38,SM Caen,3-1,Final
+5,20/09/2024,03:00,EA Guingamp,FC Annecy,2-2,Final
+5,20/09/2024,03:00,FC Martigues,Grenoble Foot 38,0-4,Final
+5,20/09/2024,03:00,Red Star FC,Stade Lavallois,0-3,Final
+5,20/09/2024,03:00,ESTAC Troyes,Rodez AF,0-3,Final
+5,20/09/2024,03:00,Amiens SC,Clermont Foot 63,1-0,Final
+5,20/09/2024,03:00,SC Bastia,Paris FC,2-1,Final
+5,20/09/2024,03:00,SM Caen,AC Ajaccio,1-0,Final
+5,20/09/2024,03:00,USL Dunkerque,Pau FC,3-2,Final
+5,21/09/2024,03:00,FC Metz,FC Lorient,1-1,Final
+6,24/09/2024,03:00,AC Ajaccio,Grenoble Foot 38,2-0,Final
+6,24/09/2024,03:00,Clermont Foot 63,Red Star FC,1-1,Final
+6,24/09/2024,03:00,FC Annecy,ESTAC Troyes,1-0,Final
+6,24/09/2024,03:00,FC Metz,FC Martigues,6-0,Final
+6,24/09/2024,03:00,Paris FC,EA Guingamp,2-0,Final
+6,24/09/2024,03:00,Pau FC,FC Lorient,1-0,Final
+6,24/09/2024,03:00,Rodez AF,Stade Lavallois,1-3,Final
+6,24/09/2024,03:00,SM Caen,Amiens SC,2-1,Final
+6,24/09/2024,03:00,USL Dunkerque,SC Bastia,2-1,Final
+7,27/09/2024,03:00,FC Lorient,AC Ajaccio,3-0,Final
+7,27/09/2024,03:00,FC Martigues,USL Dunkerque,1-1,Final
+7,27/09/2024,03:00,Grenoble Foot 38,Clermont Foot 63,3-0,Final
+7,27/09/2024,03:00,Amiens SC,Rodez AF,2-1,Final
+7,27/09/2024,03:00,SC Bastia,FC Annecy,2-2,Final
+7,27/09/2024,03:00,Stade Lavallois,Pau FC,3-1,Final
+7,28/09/2024,03:00,Red Star FC,Paris FC,1-3,Final
+7,28/09/2024,03:00,ESTAC Troyes,FC Metz,2-1,Final
+7,30/09/2024,03:00,EA Guingamp,SM Caen,3-1,Final
+8,04/10/2024,03:00,FC Annecy,Red Star FC,1-0,Final
+8,04/10/2024,03:00,Paris FC,Stade Lavallois,1-0,Final
+8,04/10/2024,03:00,Rodez AF,Grenoble Foot 38,2-1,Final
+8,04/10/2024,03:00,USL Dunkerque,ESTAC Troyes,2-1,Final
+8,05/10/2024,03:00,AC Ajaccio,FC Martigues,1-1,Final
+8,05/10/2024,03:00,Clermont Foot 63,EA Guingamp,4-1,Final
+8,05/10/2024,03:00,SM Caen,FC Lorient,1-2,Final
+8,05/10/2024,03:00,FC Metz,Amiens SC,3-2,Final
+8,22/10/2024,03:00,Pau FC,SC Bastia,1-1,Final
+9,18/10/2024,03:00,EA Guingamp,Pau FC,0-1,Final
+9,18/10/2024,03:00,FC Martigues,Rodez AF,0-2,Final
+9,18/10/2024,03:00,Red Star FC,SM Caen,2-2,Final
+9,18/10/2024,03:00,Grenoble Foot 38,FC Metz,2-0,Final
+9,18/10/2024,03:00,SC Bastia,Clermont Foot 63,0-0,Final
+9,18/10/2024,03:00,Stade Lavallois,USL Dunkerque,3-2,Final
+9,19/10/2024,03:00,Amiens SC,AC Ajaccio,3-1,Final
+9,19/10/2024,03:00,FC Lorient,FC Annecy,4-2,Final
+9,21/10/2024,03:00,ESTAC Troyes,Paris FC,0-3,Final
+10,25/10/2024,03:00,Clermont Foot 63,FC Martigues,0-1,Final
+10,25/10/2024,03:00,FC Annecy,Stade Lavallois,2-0,Final
+10,25/10/2024,03:00,FC Metz,EA Guingamp,1-0,Final
+10,25/10/2024,03:00,Pau FC,Amiens SC,0-2,Final
+10,25/10/2024,03:00,Rodez AF,FC Lorient,3-3,Final
+10,25/10/2024,03:00,USL Dunkerque,Red Star FC,2-0,Final
+10,26/10/2024,03:00,Paris FC,Grenoble Foot 38,2-1,Final
+10,26/10/2024,03:00,SM Caen,ESTAC Troyes,0-1,Final
+10,03/12/2024,03:00,AC Ajaccio,SC Bastia,0-0,Final
+11,29/10/2024,03:00,EA Guingamp,AC Ajaccio,1-0,Final
+11,29/10/2024,03:00,FC Lorient,USL Dunkerque,4-2,Final
+11,29/10/2024,03:00,FC Martigues,SM Caen,0-3,Final
+11,29/10/2024,03:00,Red Star FC,FC Metz,1-0,Final
+11,29/10/2024,03:00,ESTAC Troyes,Pau FC,3-0,Final
+11,29/10/2024,03:00,Grenoble Foot 38,FC Annecy,0-0,Final
+11,29/10/2024,03:00,Amiens SC,Paris FC,0-0,Final
+11,29/10/2024,03:00,SC Bastia,Rodez AF,2-2,Final
+11,29/10/2024,03:00,Stade Lavallois,Clermont Foot 63,1-2,Final
+12,01/11/2024,03:00,Clermont Foot 63,FC Lorient,2-1,Final
+12,01/11/2024,03:00,FC Annecy,Pau FC,2-0,Final
+12,01/11/2024,03:00,FC Martigues,Red Star FC,0-1,Final
+12,01/11/2024,03:00,Paris FC,Rodez AF,3-3,Final
+12,01/11/2024,03:00,ESTAC Troyes,Stade Lavallois,0-0,Final
+12,01/11/2024,03:00,USL Dunkerque,Amiens SC,3-1,Final
+12,02/11/2024,03:00,SM Caen,SC Bastia,2-0,Final
+12,02/11/2024,03:00,EA Guingamp,Grenoble Foot 38,3-0,Final
+12,04/11/2024,03:00,AC Ajaccio,FC Metz,0-1,Final
+13,08/11/2024,03:00,AC Ajaccio,Clermont Foot 63,2-0,Final
+13,08/11/2024,03:00,Red Star FC,ESTAC Troyes,0-3,Final
+13,08/11/2024,03:00,Grenoble Foot 38,USL Dunkerque,0-1,Final
+13,08/11/2024,03:00,Rodez AF,FC Annecy,5-1,Final
+13,08/11/2024,03:00,Amiens SC,FC Martigues,1-1,Final
+13,08/11/2024,03:00,Stade Lavallois,SC Bastia,2-2,Final
+13,09/11/2024,03:00,FC Lorient,EA Guingamp,3-1,Final
+13,09/11/2024,03:00,Pau FC,Paris FC,0-0,Final
+13,09/11/2024,03:00,FC Metz,SM Caen,1-0,Final
+14,22/11/2024,03:00,Clermont Foot 63,FC Metz,1-1,Final
+14,22/11/2024,03:00,EA Guingamp,Amiens SC,3-0,Final
+14,22/11/2024,03:00,FC Martigues,Stade Lavallois,0-3,Final
+14,22/11/2024,03:00,Pau FC,Red Star FC,4-1,Final
+14,22/11/2024,03:00,ESTAC Troyes,Grenoble Foot 38,0-0,Final
+14,22/11/2024,03:00,SM Caen,Rodez AF,3-3,Final
+14,23/11/2024,03:00,Paris FC,FC Annecy,0-0,Final
+14,23/11/2024,03:00,SC Bastia,FC Lorient,0-0,Final
+14,25/11/2024,03:00,USL Dunkerque,AC Ajaccio,1-0,Final
+15,06/12/2024,03:00,FC Annecy,Clermont Foot 63,2-0,Final
+15,06/12/2024,03:00,FC Lorient,ESTAC Troyes,2-0,Final
+15,06/12/2024,03:00,FC Martigues,EA Guingamp,0-1,Final
+15,06/12/2024,03:00,Red Star FC,SC Bastia,0-0,Final
+15,06/12/2024,03:00,Rodez AF,Pau FC,1-0,Final
+15,06/12/2024,03:00,Stade Lavallois,SM Caen,1-0,Final
+15,07/12/2024,03:00,Grenoble Foot 38,Amiens SC,0-2,Final
+15,07/12/2024,03:00,AC Ajaccio,Paris FC,0-2,Final
+15,09/12/2024,03:00,FC Metz,USL Dunkerque,2-0,Final
+16,13/12/2024,03:00,Clermont Foot 63,Rodez AF,1-1,Final
+16,13/12/2024,03:00,Pau FC,AC Ajaccio,1-0,Final
+16,13/12/2024,03:00,ESTAC Troyes,FC Martigues,4-0,Final
+16,13/12/2024,03:00,Amiens SC,Stade Lavallois,1-3,Final
+16,13/12/2024,03:00,SC Bastia,EA Guingamp,3-1,Final
+16,14/12/2024,03:00,FC Lorient,Paris FC,2-0,Final
+16,14/12/2024,03:00,Red Star FC,Grenoble Foot 38,3-1,Final
+16,14/12/2024,03:00,FC Annecy,FC Metz,0-0,Final
+16,16/12/2024,03:00,USL Dunkerque,SM Caen,3-1,Final
+17,03/01/2025,03:00,AC Ajaccio,FC Annecy,1-2,Final
+17,03/01/2025,03:00,Paris FC,FC Martigues,1-2,Final
+17,03/01/2025,03:00,Grenoble Foot 38,SC Bastia,3-2,Final
+17,03/01/2025,03:00,Rodez AF,Red Star FC,0-2,Final
+17,03/01/2025,03:00,Amiens SC,ESTAC Troyes,0-3,Final
+17,03/01/2025,03:00,SM Caen,Clermont Foot 63,0-1,Final
+17,04/01/2025,03:00,EA Guingamp,USL Dunkerque,1-1,Final
+17,04/01/2025,03:00,FC Metz,Pau FC,0-0,Final
+17,04/01/2025,03:00,Stade Lavallois,FC Lorient,2-0,Final
+18,10/01/2025,03:00,FC Annecy,EA Guingamp,1-4,Final
+18,10/01/2025,03:00,FC Martigues,Clermont Foot 63,0-1,Final
+18,10/01/2025,03:00,Pau FC,USL Dunkerque,1-1,Final
+18,10/01/2025,03:00,Rodez AF,ESTAC Troyes,2-1,Final
+18,10/01/2025,03:00,Stade Lavallois,Red Star FC,1-1,Final
+18,11/01/2025,03:00,Paris FC,Amiens SC,1-0,Final
+18,11/01/2025,03:00,SC Bastia,AC Ajaccio,4-0,Final
+18,11/01/2025,03:00,SM Caen,Grenoble Foot 38,0-1,Final
+18,11/01/2025,03:00,FC Lorient,FC Metz,0-0,Final
+19,17/01/2025,03:00,AC Ajaccio,SM Caen,2-1,Final
+19,17/01/2025,03:00,EA Guingamp,Rodez AF,3-0,Final
+19,17/01/2025,03:00,Red Star FC,Pau FC,1-3,Final
+19,17/01/2025,03:00,Grenoble Foot 38,FC Martigues,1-0,Final
+19,17/01/2025,03:00,Amiens SC,SC Bastia,1-0,Final
+19,18/01/2025,03:00,Clermont Foot 63,Stade Lavallois,1-1,Final
+19,18/01/2025,03:00,FC Metz,Paris FC,3-1,Final
+19,18/01/2025,03:00,USL Dunkerque,FC Lorient,0-1,Final
+19,20/01/2025,03:00,ESTAC Troyes,FC Annecy,0-1,Final
+20,24/01/2025,03:00,FC Martigues,Amiens SC,3-0,Final
+20,24/01/2025,03:00,FC Metz,Grenoble Foot 38,3-0,Final
+20,24/01/2025,03:00,Rodez AF,AC Ajaccio,1-2,Final
+20,24/01/2025,03:00,SC Bastia,Pau FC,1-1,Final
+20,24/01/2025,03:00,SM Caen,EA Guingamp,0-1,Final
+20,24/01/2025,03:00,Stade Lavallois,ESTAC Troyes,1-0,Final
+20,25/01/2025,03:00,Paris FC,Red Star FC,4-1,Final
+20,25/01/2025,03:00,FC Lorient,Clermont Foot 63,3-2,Final
+20,27/01/2025,03:00,FC Annecy,USL Dunkerque,0-2,Final
+21,31/01/2025,03:00,Clermont Foot 63,AC Ajaccio,0-1,Final
+21,31/01/2025,03:00,Pau FC,Stade Lavallois,1-1,Final
+21,31/01/2025,03:00,Grenoble Foot 38,Rodez AF,2-1,Final
+21,31/01/2025,03:00,Amiens SC,FC Annecy,1-0,Final
+21,31/01/2025,03:00,SC Bastia,FC Metz,1-1,Final
+21,31/01/2025,03:00,USL Dunkerque,FC Martigues,0-1,Final
+21,01/02/2025,03:00,Red Star FC,FC Lorient,1-2,Final
+21,01/02/2025,03:00,ESTAC Troyes,SM Caen,3-0,Final
+21,01/02/2025,03:00,EA Guingamp,Paris FC,0-1,Final
+22,07/02/2025,03:00,FC Martigues,ESTAC Troyes,1-2,Final
+22,07/02/2025,03:00,Paris FC,Pau FC,3-1,Final
+22,07/02/2025,03:00,Grenoble Foot 38,Red Star FC,0-0,Final
+22,07/02/2025,03:00,Rodez AF,SC Bastia,0-2,Final
+22,07/02/2025,03:00,Stade Lavallois,FC Annecy,0-1,Final
+22,08/02/2025,03:00,AC Ajaccio,EA Guingamp,0-3,Final
+22,08/02/2025,03:00,FC Lorient,Amiens SC,3-1,Final
+22,08/02/2025,03:00,FC Metz,Clermont Foot 63,3-1,Final
+22,10/02/2025,03:00,SM Caen,USL Dunkerque,0-2,Final
+23,14/02/2025,03:00,AC Ajaccio,Stade Lavallois,3-0,Final
+23,14/02/2025,03:00,Clermont Foot 63,SC Bastia,1-1,Final
+23,14/02/2025,03:00,Pau FC,Rodez AF,0-5,Final
+23,14/02/2025,03:00,Red Star FC,FC Martigues,1-0,Final
+23,14/02/2025,03:00,ESTAC Troyes,FC Lorient,0-1,Final
+23,14/02/2025,03:00,Amiens SC,Grenoble Foot 38,1-4,Final
+23,15/02/2025,03:00,USL Dunkerque,Paris FC,1-0,Final
+23,15/02/2025,03:00,EA Guingamp,FC Metz,0-3,Final
+23,17/02/2025,03:00,FC Annecy,SM Caen,1-0,Final
+24,21/02/2025,03:00,FC Martigues,FC Annecy,2-0,Final
+24,21/02/2025,03:00,Paris FC,ESTAC Troyes,1-0,Final
+24,21/02/2025,03:00,Grenoble Foot 38,EA Guingamp,1-1,Final
+24,21/02/2025,03:00,Rodez AF,Amiens SC,1-1,Final
+24,21/02/2025,03:00,SC Bastia,Red Star FC,1-0,Final
+24,21/02/2025,03:00,USL Dunkerque,Clermont Foot 63,3-0,Final
+24,22/02/2025,03:00,FC Lorient,Stade Lavallois,0-1,Final
+24,22/02/2025,03:00,SM Caen,Pau FC,2-2,Final
+24,22/02/2025,03:00,FC Metz,AC Ajaccio,0-1,Final
+25,28/02/2025,03:00,Clermont Foot 63,SM Caen,0-1,Final
+25,28/02/2025,03:00,FC Annecy,Paris FC,2-3,Final
+25,28/02/2025,03:00,Pau FC,Grenoble Foot 38,1-0,Final
+25,28/02/2025,03:00,ESTAC Troyes,SC Bastia,2-0,Final
+25,28/02/2025,03:00,Stade Lavallois,FC Martigues,0-1,Final
+25,01/03/2025,03:00,Red Star FC,EA Guingamp,3-1,Final
+25,01/03/2025,03:00,Amiens SC,FC Metz,1-2,Final
+25,01/03/2025,03:00,FC Lorient,Rodez AF,3-1,Final
+25,03/03/2025,03:00,AC Ajaccio,USL Dunkerque,1-2,Final
+26,07/03/2025,03:00,EA Guingamp,Clermont Foot 63,3-1,Final
+26,07/03/2025,03:00,Pau FC,ESTAC Troyes,0-2,Final
+26,07/03/2025,03:00,Red Star FC,Amiens SC,2-0,Final
+26,07/03/2025,03:00,Grenoble Foot 38,AC Ajaccio,2-2,Final
+26,07/03/2025,03:00,SC Bastia,FC Martigues,1-0,Final
+26,07/03/2025,03:00,SM Caen,Stade Lavallois,0-1,Final
+26,08/03/2025,03:00,Paris FC,FC Lorient,3-2,Final
+26,08/03/2025,03:00,FC Metz,FC Annecy,5-1,Final
+26,10/03/2025,03:00,Rodez AF,USL Dunkerque,5-1,Final
+27,14/03/2025,03:00,AC Ajaccio,Red Star FC,2-1,Final
+27,14/03/2025,03:00,Clermont Foot 63,Grenoble Foot 38,0-0,Final
+27,14/03/2025,03:00,FC Annecy,Rodez AF,1-1,Final
+27,14/03/2025,03:00,FC Martigues,Pau FC,2-2,Final
+27,14/03/2025,03:00,ESTAC Troyes,EA Guingamp,0-1,Final
+27,14/03/2025,03:00,Amiens SC,SM Caen,2-1,Final
+27,15/03/2025,03:00,Stade Lavallois,Paris FC,3-0,Final
+27,15/03/2025,03:00,USL Dunkerque,FC Metz,2-3,Final
+27,15/03/2025,03:00,FC Lorient,SC Bastia,4-0,Final
+28,28/03/2025,03:00,Clermont Foot 63,Amiens SC,1-1,Final
+28,28/03/2025,03:00,FC Martigues,AC Ajaccio,2-0,Final
+28,28/03/2025,03:00,FC Metz,ESTAC Troyes,2-1,Final
+28,28/03/2025,03:00,Pau FC,FC Annecy,1-0,Final
+28,28/03/2025,03:00,Red Star FC,Rodez AF,1-1,Final
+28,28/03/2025,03:00,SC Bastia,USL Dunkerque,2-0,Final
+28,29/03/2025,03:00,Grenoble Foot 38,FC Lorient,1-2,Final
+28,29/03/2025,03:00,EA Guingamp,Stade Lavallois,2-0,Final
+28,31/03/2025,03:00,Paris FC,SM Caen,4-2,Final
+29,04/04/2025,03:00,AC Ajaccio,Amiens SC,2-1,Final
+29,04/04/2025,03:00,FC Annecy,SC Bastia,1-1,Final
+29,04/04/2025,03:00,Paris FC,Clermont Foot 63,2-0,Final
+29,04/04/2025,03:00,Rodez AF,FC Martigues,1-0,Final
+29,04/04/2025,03:00,Stade Lavallois,Grenoble Foot 38,1-2,Final
+29,05/04/2025,03:00,SM Caen,FC Metz,2-2,Final
+29,05/04/2025,03:00,FC Lorient,Pau FC,5-0,Final
+29,05/04/2025,03:00,ESTAC Troyes,Red Star FC,2-2,Final
+29,07/04/2025,03:00,USL Dunkerque,EA Guingamp,3-1,Final
+30,11/04/2025,03:00,FC Martigues,FC Metz,1-4,Final
+30,11/04/2025,03:00,Pau FC,Clermont Foot 63,2-2,Final
+30,11/04/2025,03:00,Red Star FC,FC Annecy,0-1,Final
+30,11/04/2025,03:00,ESTAC Troyes,AC Ajaccio,0-0,Final
+30,11/04/2025,03:00,Rodez AF,SM Caen,2-2,Final
+30,11/04/2025,03:00,Amiens SC,USL Dunkerque,1-0,Final
+30,12/04/2025,03:00,EA Guingamp,FC Lorient,1-2,Final
+30,12/04/2025,03:00,Grenoble Foot 38,Paris FC,1-2,Final
+30,14/04/2025,03:00,SC Bastia,Stade Lavallois,5-2,Final
+31,18/04/2025,03:00,AC Ajaccio,Pau FC,1-1,Final
+31,18/04/2025,03:00,Clermont Foot 63,ESTAC Troyes,0-2,Final
+31,18/04/2025,03:00,Amiens SC,EA Guingamp,3-2,Final
+31,18/04/2025,03:00,SM Caen,FC Martigues,0-3,Final
+31,18/04/2025,03:00,Stade Lavallois,Rodez AF,2-1,Final
+31,18/04/2025,03:00,USL Dunkerque,Grenoble Foot 38,2-0,Final
+31,19/04/2025,03:00,Paris FC,SC Bastia,1-0,Final
+31,19/04/2025,03:00,FC Metz,Red Star FC,2-2,Final
+31,21/04/2025,03:00,FC Annecy,FC Lorient,0-0,Final
+32,25/04/2025,03:00,EA Guingamp,FC Martigues,2-1,Final
+32,25/04/2025,03:00,FC Annecy,AC Ajaccio,2-0,Final
+32,25/04/2025,03:00,Red Star FC,Clermont Foot 63,1-1,Final
+32,25/04/2025,03:00,ESTAC Troyes,USL Dunkerque,1-0,Final
+32,25/04/2025,03:00,SC Bastia,Grenoble Foot 38,2-3,Final
+32,25/04/2025,03:00,Stade Lavallois,Amiens SC,1-0,Final
+32,26/04/2025,03:00,Rodez AF,Paris FC,1-1,Final
+32,26/04/2025,03:00,FC Lorient,SM Caen,4-0,Final
+32,26/04/2025,03:00,Pau FC,FC Metz,2-1,Final
+33,02/05/2025,03:00,AC Ajaccio,FC Lorient,2-1,Final
+33,02/05/2025,03:00,Clermont Foot 63,FC Annecy,3-2,Final
+33,02/05/2025,03:00,EA Guingamp,SC Bastia,2-2,Final
+33,02/05/2025,03:00,FC Martigues,Paris FC,1-1,Final
+33,02/05/2025,03:00,FC Metz,Rodez AF,3-3,Final
+33,02/05/2025,03:00,Grenoble Foot 38,ESTAC Troyes,3-1,Final
+33,02/05/2025,03:00,Amiens SC,Pau FC,4-2,Final
+33,02/05/2025,03:00,SM Caen,Red Star FC,1-1,Final
+33,02/05/2025,03:00,USL Dunkerque,Stade Lavallois,0-0,Final
+34,10/05/2025,03:00,FC Annecy,Grenoble Foot 38,3-1,Final
+34,10/05/2025,03:00,FC Lorient,FC Martigues,5-1,Final
+34,10/05/2025,03:00,Paris FC,AC Ajaccio,2-0,Final
+34,10/05/2025,03:00,Pau FC,EA Guingamp,1-3,Final
+34,10/05/2025,03:00,Red Star FC,USL Dunkerque,1-1,Final
+34,10/05/2025,03:00,ESTAC Troyes,Amiens SC,1-0,Final
+34,10/05/2025,03:00,Rodez AF,Clermont Foot 63,1-1,Final
+34,10/05/2025,03:00,SC Bastia,SM Caen,2-1,Final
+34,10/05/2025,03:00,Stade Lavallois,FC Metz,2-3,Final

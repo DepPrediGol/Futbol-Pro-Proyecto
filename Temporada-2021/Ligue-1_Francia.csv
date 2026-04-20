@@ -1,0 +1,381 @@
+matchday,date,time,home_team,away_team,result,status
+1,21/08/2020,03:00,Girondins Bordeaux,FC Nantes,0-0,Final
+1,22/08/2020,03:00,Dijon FCO,Angers SCO,0-1,Final
+1,22/08/2020,03:00,Lille OSC,Stade Rennais,1-1,Final
+1,23/08/2020,03:00,AS Monaco,Stade de Reims,2-2,Final
+1,23/08/2020,03:00,FC Lorient,Racing Strasbourg,3-1,Final
+1,23/08/2020,03:00,Nîmes Olympique,Stade Brestois 29,4-0,Final
+1,23/08/2020,03:00,OGC Nice,RC Lens,2-1,Final
+1,15/09/2020,03:00,Montpellier HSC,Olympique Lyonnais,2-1,Final
+1,16/09/2020,03:00,Paris Saint-Germain,FC Metz,1-0,Final
+1,17/09/2020,03:00,Olympique Marseille,AS Saint-Étienne,0-2,Final
+2,28/08/2020,03:00,Olympique Lyonnais,Dijon FCO,4-1,Final
+2,29/08/2020,03:00,Stade Rennais,Montpellier HSC,2-1,Final
+2,29/08/2020,03:00,Racing Strasbourg,OGC Nice,0-2,Final
+2,30/08/2020,03:00,Stade de Reims,Lille OSC,0-1,Final
+2,30/08/2020,03:00,Angers SCO,Girondins Bordeaux,0-2,Final
+2,30/08/2020,03:00,FC Metz,AS Monaco,0-1,Final
+2,30/08/2020,03:00,FC Nantes,Nîmes Olympique,2-1,Final
+2,30/08/2020,03:00,AS Saint-Étienne,FC Lorient,2-0,Final
+2,30/08/2020,03:00,Stade Brestois 29,Olympique Marseille,2-3,Final
+2,10/09/2020,03:00,RC Lens,Paris Saint-Germain,1-0,Final
+3,11/09/2020,03:00,Girondins Bordeaux,Olympique Lyonnais,0-0,Final
+3,12/09/2020,03:00,Montpellier HSC,OGC Nice,3-1,Final
+3,12/09/2020,03:00,AS Saint-Étienne,Racing Strasbourg,2-0,Final
+3,13/09/2020,03:00,Lille OSC,FC Metz,1-0,Final
+3,13/09/2020,03:00,Angers SCO,Stade de Reims,1-0,Final
+3,13/09/2020,03:00,Dijon FCO,Stade Brestois 29,0-2,Final
+3,13/09/2020,03:00,FC Lorient,RC Lens,2-3,Final
+3,13/09/2020,03:00,Nîmes Olympique,Stade Rennais,2-4,Final
+3,13/09/2020,03:00,AS Monaco,FC Nantes,2-1,Final
+3,13/09/2020,03:00,Paris Saint-Germain,Olympique Marseille,0-1,Final
+4,18/09/2020,03:00,Olympique Lyonnais,Nîmes Olympique,0-0,Final
+4,19/09/2020,03:00,RC Lens,Girondins Bordeaux,2-1,Final
+4,19/09/2020,03:00,Stade Rennais,AS Monaco,2-1,Final
+4,20/09/2020,03:00,OGC Nice,Paris Saint-Germain,0-3,Final
+4,20/09/2020,03:00,Stade Brestois 29,FC Lorient,3-2,Final
+4,20/09/2020,03:00,FC Metz,Stade de Reims,2-1,Final
+4,20/09/2020,03:00,Montpellier HSC,Angers SCO,4-1,Final
+4,20/09/2020,03:00,Racing Strasbourg,Dijon FCO,1-0,Final
+4,20/09/2020,03:00,FC Nantes,AS Saint-Étienne,2-2,Final
+4,20/09/2020,03:00,Olympique Marseille,Lille OSC,1-1,Final
+5,25/09/2020,03:00,Lille OSC,FC Nantes,2-0,Final
+5,26/09/2020,03:00,AS Saint-Étienne,Stade Rennais,0-3,Final
+5,26/09/2020,03:00,Olympique Marseille,FC Metz,1-1,Final
+5,27/09/2020,03:00,Girondins Bordeaux,OGC Nice,0-0,Final
+5,27/09/2020,03:00,Angers SCO,Stade Brestois 29,3-2,Final
+5,27/09/2020,03:00,Dijon FCO,Montpellier HSC,2-2,Final
+5,27/09/2020,03:00,AS Monaco,Racing Strasbourg,3-2,Final
+5,27/09/2020,03:00,Nîmes Olympique,RC Lens,1-1,Final
+5,27/09/2020,03:00,FC Lorient,Olympique Lyonnais,1-1,Final
+5,27/09/2020,03:00,Stade de Reims,Paris Saint-Germain,0-2,Final
+6,02/10/2020,03:00,Paris Saint-Germain,Angers SCO,6-1,Final
+6,03/10/2020,03:00,RC Lens,AS Saint-Étienne,2-0,Final
+6,03/10/2020,03:00,OGC Nice,FC Nantes,2-1,Final
+6,04/10/2020,03:00,Montpellier HSC,Nîmes Olympique,0-1,Final
+6,04/10/2020,03:00,Girondins Bordeaux,Dijon FCO,3-0,Final
+6,04/10/2020,03:00,Stade Brestois 29,AS Monaco,1-0,Final
+6,04/10/2020,03:00,FC Metz,FC Lorient,3-1,Final
+6,04/10/2020,03:00,Racing Strasbourg,Lille OSC,0-3,Final
+6,04/10/2020,03:00,Stade Rennais,Stade de Reims,2-2,Final
+6,04/10/2020,03:00,Olympique Lyonnais,Olympique Marseille,1-1,Final
+7,16/10/2020,03:00,Dijon FCO,Stade Rennais,1-1,Final
+7,16/10/2020,03:00,Nîmes Olympique,Paris Saint-Germain,0-4,Final
+7,17/10/2020,03:00,Stade de Reims,FC Lorient,1-3,Final
+7,17/10/2020,03:00,Olympique Marseille,Girondins Bordeaux,3-1,Final
+7,18/10/2020,03:00,Racing Strasbourg,Olympique Lyonnais,2-3,Final
+7,18/10/2020,03:00,Angers SCO,FC Metz,1-1,Final
+7,18/10/2020,03:00,AS Monaco,Montpellier HSC,1-1,Final
+7,18/10/2020,03:00,FC Nantes,Stade Brestois 29,3-1,Final
+7,18/10/2020,03:00,AS Saint-Étienne,OGC Nice,1-3,Final
+7,18/10/2020,03:00,Lille OSC,RC Lens,4-0,Final
+8,23/10/2020,03:00,Stade Rennais,Angers SCO,1-2,Final
+8,24/10/2020,03:00,FC Lorient,Olympique Marseille,0-1,Final
+8,24/10/2020,03:00,Paris Saint-Germain,Dijon FCO,4-0,Final
+8,25/10/2020,03:00,Girondins Bordeaux,Nîmes Olympique,2-0,Final
+8,25/10/2020,03:00,Stade Brestois 29,Racing Strasbourg,0-3,Final
+8,25/10/2020,03:00,FC Metz,AS Saint-Étienne,2-0,Final
+8,25/10/2020,03:00,Montpellier HSC,Stade de Reims,0-4,Final
+8,25/10/2020,03:00,OGC Nice,Lille OSC,1-1,Final
+8,25/10/2020,03:00,Olympique Lyonnais,AS Monaco,4-1,Final
+8,25/11/2020,03:00,RC Lens,FC Nantes,1-1,Final
+9,31/10/2020,03:00,Stade Rennais,Stade Brestois 29,2-1,Final
+9,31/10/2020,03:00,FC Nantes,Paris Saint-Germain,0-3,Final
+9,01/11/2020,03:00,AS Saint-Étienne,Montpellier HSC,0-1,Final
+9,01/11/2020,03:00,Angers SCO,OGC Nice,0-3,Final
+9,01/11/2020,03:00,Dijon FCO,FC Lorient,0-0,Final
+9,01/11/2020,03:00,Nîmes Olympique,FC Metz,0-1,Final
+9,01/11/2020,03:00,Stade de Reims,Racing Strasbourg,2-1,Final
+9,01/11/2020,03:00,AS Monaco,Girondins Bordeaux,4-0,Final
+9,01/11/2020,03:00,Lille OSC,Olympique Lyonnais,1-1,Final
+9,20/01/2021,03:00,Olympique Marseille,RC Lens,0-1,Final
+10,06/11/2020,03:00,Racing Strasbourg,Olympique Marseille,0-1,Final
+10,07/11/2020,03:00,Girondins Bordeaux,Montpellier HSC,0-2,Final
+10,07/11/2020,03:00,Paris Saint-Germain,Stade Rennais,3-0,Final
+10,08/11/2020,03:00,Stade Brestois 29,Lille OSC,3-2,Final
+10,08/11/2020,03:00,RC Lens,Stade de Reims,4-4,Final
+10,08/11/2020,03:00,FC Lorient,FC Nantes,0-2,Final
+10,08/11/2020,03:00,FC Metz,Dijon FCO,1-1,Final
+10,08/11/2020,03:00,Nîmes Olympique,Angers SCO,1-5,Final
+10,08/11/2020,03:00,OGC Nice,AS Monaco,1-2,Final
+10,08/11/2020,03:00,Olympique Lyonnais,AS Saint-Étienne,2-1,Final
+11,20/11/2020,03:00,Stade Rennais,Girondins Bordeaux,0-1,Final
+11,20/11/2020,03:00,AS Monaco,Paris Saint-Germain,3-2,Final
+11,21/11/2020,03:00,Stade Brestois 29,AS Saint-Étienne,4-1,Final
+11,22/11/2020,03:00,FC Nantes,FC Metz,1-1,Final
+11,22/11/2020,03:00,Dijon FCO,RC Lens,0-1,Final
+11,22/11/2020,03:00,Montpellier HSC,Racing Strasbourg,4-3,Final
+11,22/11/2020,03:00,Stade de Reims,Nîmes Olympique,0-1,Final
+11,22/11/2020,03:00,Angers SCO,Olympique Lyonnais,0-1,Final
+11,22/11/2020,03:00,Lille OSC,FC Lorient,4-0,Final
+11,17/02/2021,03:00,Olympique Marseille,OGC Nice,3-2,Final
+12,27/11/2020,03:00,Racing Strasbourg,Stade Rennais,1-1,Final
+12,28/11/2020,03:00,Olympique Marseille,FC Nantes,3-1,Final
+12,28/11/2020,03:00,Paris Saint-Germain,Girondins Bordeaux,2-2,Final
+12,29/11/2020,03:00,Olympique Lyonnais,Stade de Reims,3-0,Final
+12,29/11/2020,03:00,RC Lens,Angers SCO,1-3,Final
+12,29/11/2020,03:00,FC Lorient,Montpellier HSC,0-1,Final
+12,29/11/2020,03:00,FC Metz,Stade Brestois 29,0-2,Final
+12,29/11/2020,03:00,AS Monaco,Nîmes Olympique,3-0,Final
+12,29/11/2020,03:00,OGC Nice,Dijon FCO,1-3,Final
+12,29/11/2020,03:00,AS Saint-Étienne,Lille OSC,1-1,Final
+13,04/12/2020,03:00,Nîmes Olympique,Olympique Marseille,0-2,Final
+13,05/12/2020,03:00,Stade Rennais,RC Lens,0-2,Final
+13,05/12/2020,03:00,Montpellier HSC,Paris Saint-Germain,1-3,Final
+13,06/12/2020,03:00,Lille OSC,AS Monaco,2-1,Final
+13,06/12/2020,03:00,Angers SCO,FC Lorient,2-0,Final
+13,06/12/2020,03:00,Girondins Bordeaux,Stade Brestois 29,1-0,Final
+13,06/12/2020,03:00,Dijon FCO,AS Saint-Étienne,0-0,Final
+13,06/12/2020,03:00,FC Nantes,Racing Strasbourg,0-4,Final
+13,06/12/2020,03:00,Stade de Reims,OGC Nice,0-0,Final
+13,06/12/2020,03:00,FC Metz,Olympique Lyonnais,1-3,Final
+14,11/12/2020,03:00,AS Saint-Étienne,Angers SCO,0-0,Final
+14,12/12/2020,03:00,Olympique Marseille,AS Monaco,2-1,Final
+14,12/12/2020,03:00,RC Lens,Montpellier HSC,2-3,Final
+14,13/12/2020,03:00,OGC Nice,Stade Rennais,0-1,Final
+14,13/12/2020,03:00,Stade Brestois 29,Stade de Reims,2-1,Final
+14,13/12/2020,03:00,FC Lorient,Nîmes Olympique,3-0,Final
+14,13/12/2020,03:00,FC Nantes,Dijon FCO,1-1,Final
+14,13/12/2020,03:00,Racing Strasbourg,FC Metz,2-2,Final
+14,13/12/2020,03:00,Lille OSC,Girondins Bordeaux,2-1,Final
+14,13/12/2020,03:00,Paris Saint-Germain,Olympique Lyonnais,0-1,Final
+15,16/12/2020,03:00,Angers SCO,Racing Strasbourg,0-2,Final
+15,16/12/2020,03:00,Dijon FCO,Lille OSC,0-2,Final
+15,16/12/2020,03:00,Montpellier HSC,FC Metz,0-2,Final
+15,16/12/2020,03:00,Nîmes Olympique,OGC Nice,0-2,Final
+15,16/12/2020,03:00,Stade de Reims,FC Nantes,3-2,Final
+15,16/12/2020,03:00,Girondins Bordeaux,AS Saint-Étienne,1-2,Final
+15,16/12/2020,03:00,Olympique Lyonnais,Stade Brestois 29,2-2,Final
+15,16/12/2020,03:00,AS Monaco,RC Lens,0-3,Final
+15,16/12/2020,03:00,Paris Saint-Germain,FC Lorient,2-0,Final
+15,16/12/2020,03:00,Stade Rennais,Olympique Marseille,2-1,Final
+16,19/12/2020,03:00,FC Metz,RC Lens,2-0,Final
+16,19/12/2020,03:00,Olympique Marseille,Stade de Reims,1-1,Final
+16,19/12/2020,03:00,OGC Nice,Olympique Lyonnais,1-4,Final
+16,20/12/2020,03:00,Stade Brestois 29,Montpellier HSC,2-2,Final
+16,20/12/2020,03:00,Dijon FCO,AS Monaco,0-1,Final
+16,20/12/2020,03:00,FC Nantes,Angers SCO,1-1,Final
+16,20/12/2020,03:00,AS Saint-Étienne,Nîmes Olympique,2-2,Final
+16,20/12/2020,03:00,Racing Strasbourg,Girondins Bordeaux,0-2,Final
+16,20/12/2020,03:00,FC Lorient,Stade Rennais,0-3,Final
+16,20/12/2020,03:00,Lille OSC,Paris Saint-Germain,0-0,Final
+17,23/12/2020,03:00,Girondins Bordeaux,Stade de Reims,1-3,Final
+17,23/12/2020,03:00,RC Lens,Stade Brestois 29,2-1,Final
+17,23/12/2020,03:00,OGC Nice,FC Lorient,2-2,Final
+17,23/12/2020,03:00,Nîmes Olympique,Dijon FCO,1-3,Final
+17,23/12/2020,03:00,Stade Rennais,FC Metz,1-0,Final
+17,23/12/2020,03:00,Angers SCO,Olympique Marseille,2-1,Final
+17,23/12/2020,03:00,Olympique Lyonnais,FC Nantes,3-0,Final
+17,23/12/2020,03:00,AS Monaco,AS Saint-Étienne,2-2,Final
+17,23/12/2020,03:00,Montpellier HSC,Lille OSC,2-3,Final
+17,23/12/2020,03:00,Paris Saint-Germain,Racing Strasbourg,4-0,Final
+18,06/01/2021,03:00,Stade Brestois 29,OGC Nice,2-0,Final
+18,06/01/2021,03:00,FC Lorient,AS Monaco,2-5,Final
+18,06/01/2021,03:00,FC Metz,Girondins Bordeaux,0-0,Final
+18,06/01/2021,03:00,FC Nantes,Stade Rennais,0-0,Final
+18,06/01/2021,03:00,Racing Strasbourg,Nîmes Olympique,5-0,Final
+18,06/01/2021,03:00,Lille OSC,Angers SCO,1-2,Final
+18,06/01/2021,03:00,Olympique Lyonnais,RC Lens,3-2,Final
+18,06/01/2021,03:00,Olympique Marseille,Montpellier HSC,3-1,Final
+18,06/01/2021,03:00,Stade de Reims,Dijon FCO,0-0,Final
+18,06/01/2021,03:00,AS Saint-Étienne,Paris Saint-Germain,1-1,Final
+19,09/01/2021,03:00,Girondins Bordeaux,FC Lorient,2-1,Final
+19,09/01/2021,03:00,Dijon FCO,Olympique Marseille,0-0,Final
+19,09/01/2021,03:00,RC Lens,Racing Strasbourg,0-1,Final
+19,09/01/2021,03:00,FC Metz,OGC Nice,1-1,Final
+19,09/01/2021,03:00,AS Monaco,Angers SCO,3-0,Final
+19,09/01/2021,03:00,Montpellier HSC,FC Nantes,1-1,Final
+19,09/01/2021,03:00,Nîmes Olympique,Lille OSC,0-1,Final
+19,09/01/2021,03:00,Paris Saint-Germain,Stade Brestois 29,3-0,Final
+19,09/01/2021,03:00,Stade de Reims,AS Saint-Étienne,3-1,Final
+19,09/01/2021,03:00,Stade Rennais,Olympique Lyonnais,2-2,Final
+20,15/01/2021,03:00,Montpellier HSC,AS Monaco,2-3,Final
+20,16/01/2021,03:00,Olympique Marseille,Nîmes Olympique,1-2,Final
+20,16/01/2021,03:00,Angers SCO,Paris Saint-Germain,0-1,Final
+20,17/01/2021,03:00,Stade Brestois 29,Stade Rennais,1-2,Final
+20,17/01/2021,03:00,FC Nantes,RC Lens,1-1,Final
+20,17/01/2021,03:00,OGC Nice,Girondins Bordeaux,0-3,Final
+20,17/01/2021,03:00,Racing Strasbourg,AS Saint-Étienne,1-0,Final
+20,17/01/2021,03:00,Lille OSC,Stade de Reims,2-1,Final
+20,17/01/2021,03:00,Olympique Lyonnais,FC Metz,0-1,Final
+20,27/01/2021,03:00,FC Lorient,Dijon FCO,3-2,Final
+21,22/01/2021,03:00,Paris Saint-Germain,Montpellier HSC,4-0,Final
+21,23/01/2021,03:00,RC Lens,OGC Nice,0-1,Final
+21,23/01/2021,03:00,AS Monaco,Olympique Marseille,3-1,Final
+21,24/01/2021,03:00,Girondins Bordeaux,Angers SCO,2-1,Final
+21,24/01/2021,03:00,Dijon FCO,Racing Strasbourg,1-1,Final
+21,24/01/2021,03:00,FC Metz,FC Nantes,2-0,Final
+21,24/01/2021,03:00,Stade de Reims,Stade Brestois 29,1-0,Final
+21,24/01/2021,03:00,Stade Rennais,Lille OSC,0-1,Final
+21,24/01/2021,03:00,AS Saint-Étienne,Olympique Lyonnais,0-5,Final
+21,24/02/2021,03:00,Nîmes Olympique,FC Lorient,1-0,Final
+22,29/01/2021,03:00,Olympique Lyonnais,Girondins Bordeaux,2-1,Final
+22,30/01/2021,03:00,Montpellier HSC,RC Lens,1-2,Final
+22,31/01/2021,03:00,OGC Nice,AS Saint-Étienne,0-1,Final
+22,31/01/2021,03:00,Angers SCO,Nîmes Olympique,3-1,Final
+22,31/01/2021,03:00,Stade Brestois 29,FC Metz,2-4,Final
+22,31/01/2021,03:00,FC Lorient,Paris Saint-Germain,3-2,Final
+22,31/01/2021,03:00,Racing Strasbourg,Stade de Reims,0-1,Final
+22,31/01/2021,03:00,Lille OSC,Dijon FCO,1-0,Final
+22,31/01/2021,03:00,FC Nantes,AS Monaco,1-2,Final
+22,10/03/2021,03:00,Olympique Marseille,Stade Rennais,1-0,Final
+23,03/02/2021,03:00,Girondins Bordeaux,Lille OSC,0-3,Final
+23,03/02/2021,03:00,FC Metz,Montpellier HSC,1-1,Final
+23,03/02/2021,03:00,Stade de Reims,Angers SCO,0-0,Final
+23,03/02/2021,03:00,Stade Rennais,FC Lorient,1-1,Final
+23,03/02/2021,03:00,Racing Strasbourg,Stade Brestois 29,2-2,Final
+23,03/02/2021,03:00,Dijon FCO,Olympique Lyonnais,0-1,Final
+23,03/02/2021,03:00,RC Lens,Olympique Marseille,2-2,Final
+23,03/02/2021,03:00,Paris Saint-Germain,Nîmes Olympique,3-0,Final
+23,03/02/2021,03:00,AS Saint-Étienne,FC Nantes,1-1,Final
+23,03/02/2021,03:00,AS Monaco,OGC Nice,2-1,Final
+24,06/02/2021,03:00,FC Lorient,Stade de Reims,1-0,Final
+24,06/02/2021,03:00,Olympique Lyonnais,Racing Strasbourg,3-0,Final
+24,06/02/2021,03:00,RC Lens,Stade Rennais,0-0,Final
+24,07/02/2021,03:00,Stade Brestois 29,Girondins Bordeaux,2-1,Final
+24,07/02/2021,03:00,Montpellier HSC,Dijon FCO,4-2,Final
+24,07/02/2021,03:00,OGC Nice,Angers SCO,3-0,Final
+24,07/02/2021,03:00,Nîmes Olympique,AS Monaco,3-4,Final
+24,07/02/2021,03:00,AS Saint-Étienne,FC Metz,1-0,Final
+24,07/02/2021,03:00,FC Nantes,Lille OSC,0-2,Final
+24,07/02/2021,03:00,Olympique Marseille,Paris Saint-Germain,0-2,Final
+25,13/02/2021,03:00,Paris Saint-Germain,OGC Nice,2-1,Final
+25,13/02/2021,03:00,Stade de Reims,RC Lens,1-1,Final
+25,13/02/2021,03:00,Olympique Lyonnais,Montpellier HSC,1-2,Final
+25,14/02/2021,03:00,AS Monaco,FC Lorient,2-2,Final
+25,14/02/2021,03:00,Angers SCO,FC Nantes,1-3,Final
+25,14/02/2021,03:00,Dijon FCO,Nîmes Olympique,0-2,Final
+25,14/02/2021,03:00,FC Metz,Racing Strasbourg,1-2,Final
+25,14/02/2021,03:00,Stade Rennais,AS Saint-Étienne,0-2,Final
+25,14/02/2021,03:00,Lille OSC,Stade Brestois 29,0-0,Final
+25,14/02/2021,03:00,Girondins Bordeaux,Olympique Marseille,0-0,Final
+26,19/02/2021,03:00,Stade Brestois 29,Olympique Lyonnais,2-3,Final
+26,20/02/2021,03:00,AS Saint-Étienne,Stade de Reims,1-1,Final
+26,20/02/2021,03:00,FC Nantes,Olympique Marseille,1-1,Final
+26,21/02/2021,03:00,Montpellier HSC,Stade Rennais,2-1,Final
+26,21/02/2021,03:00,RC Lens,Dijon FCO,2-1,Final
+26,21/02/2021,03:00,OGC Nice,FC Metz,1-2,Final
+26,21/02/2021,03:00,Nîmes Olympique,Girondins Bordeaux,2-0,Final
+26,21/02/2021,03:00,Racing Strasbourg,Angers SCO,0-0,Final
+26,21/02/2021,03:00,FC Lorient,Lille OSC,1-4,Final
+26,21/02/2021,03:00,Paris Saint-Germain,AS Monaco,0-2,Final
+27,26/02/2021,03:00,Stade Rennais,OGC Nice,1-2,Final
+27,27/02/2021,03:00,Girondins Bordeaux,FC Metz,1-2,Final
+27,27/02/2021,03:00,Dijon FCO,Paris Saint-Germain,0-4,Final
+27,28/02/2021,03:00,AS Monaco,Stade Brestois 29,2-0,Final
+27,28/02/2021,03:00,Angers SCO,RC Lens,2-2,Final
+27,28/02/2021,03:00,FC Lorient,AS Saint-Étienne,2-1,Final
+27,28/02/2021,03:00,Nîmes Olympique,FC Nantes,1-1,Final
+27,28/02/2021,03:00,Stade de Reims,Montpellier HSC,0-0,Final
+27,28/02/2021,03:00,Lille OSC,Racing Strasbourg,1-1,Final
+27,28/02/2021,03:00,Olympique Marseille,Olympique Lyonnais,1-1,Final
+28,03/03/2021,03:00,Stade Brestois 29,Dijon FCO,3-1,Final
+28,03/03/2021,03:00,Olympique Lyonnais,Stade Rennais,1-0,Final
+28,03/03/2021,03:00,FC Metz,Angers SCO,0-1,Final
+28,03/03/2021,03:00,OGC Nice,Nîmes Olympique,2-1,Final
+28,03/03/2021,03:00,AS Saint-Étienne,RC Lens,2-3,Final
+28,03/03/2021,03:00,Girondins Bordeaux,Paris Saint-Germain,0-1,Final
+28,03/03/2021,03:00,Lille OSC,Olympique Marseille,2-0,Final
+28,03/03/2021,03:00,Montpellier HSC,FC Lorient,1-1,Final
+28,03/03/2021,03:00,FC Nantes,Stade de Reims,1-2,Final
+28,03/03/2021,03:00,Racing Strasbourg,AS Monaco,1-0,Final
+29,12/03/2021,03:00,Stade de Reims,Olympique Lyonnais,1-1,Final
+29,13/03/2021,03:00,Angers SCO,AS Saint-Étienne,0-1,Final
+29,13/03/2021,03:00,Olympique Marseille,Stade Brestois 29,3-1,Final
+29,14/03/2021,03:00,Nîmes Olympique,Montpellier HSC,1-1,Final
+29,14/03/2021,03:00,Dijon FCO,Girondins Bordeaux,1-3,Final
+29,14/03/2021,03:00,RC Lens,FC Metz,2-2,Final
+29,14/03/2021,03:00,FC Lorient,OGC Nice,1-1,Final
+29,14/03/2021,03:00,Stade Rennais,Racing Strasbourg,1-0,Final
+29,14/03/2021,03:00,AS Monaco,Lille OSC,0-0,Final
+29,14/03/2021,03:00,Paris Saint-Germain,FC Nantes,1-2,Final
+30,19/03/2021,03:00,AS Saint-Étienne,AS Monaco,0-4,Final
+30,20/03/2021,03:00,FC Metz,Stade Rennais,1-3,Final
+30,20/03/2021,03:00,OGC Nice,Olympique Marseille,3-0,Final
+30,21/03/2021,03:00,Racing Strasbourg,RC Lens,1-2,Final
+30,21/03/2021,03:00,Stade Brestois 29,Angers SCO,0-0,Final
+30,21/03/2021,03:00,Dijon FCO,Stade de Reims,0-1,Final
+30,21/03/2021,03:00,Montpellier HSC,Girondins Bordeaux,3-1,Final
+30,21/03/2021,03:00,FC Nantes,FC Lorient,1-1,Final
+30,21/03/2021,03:00,Lille OSC,Nîmes Olympique,1-2,Final
+30,21/03/2021,03:00,Olympique Lyonnais,Paris Saint-Germain,2-4,Final
+31,03/04/2021,03:00,AS Monaco,FC Metz,4-0,Final
+31,03/04/2021,03:00,Paris Saint-Germain,Lille OSC,0-1,Final
+31,03/04/2021,03:00,RC Lens,Olympique Lyonnais,1-1,Final
+31,04/04/2021,03:00,Angers SCO,Montpellier HSC,1-1,Final
+31,04/04/2021,03:00,Girondins Bordeaux,Racing Strasbourg,2-3,Final
+31,04/04/2021,03:00,FC Lorient,Stade Brestois 29,1-0,Final
+31,04/04/2021,03:00,FC Nantes,OGC Nice,1-2,Final
+31,04/04/2021,03:00,Stade de Reims,Stade Rennais,2-2,Final
+31,04/04/2021,03:00,Nîmes Olympique,AS Saint-Étienne,0-2,Final
+31,04/04/2021,03:00,Olympique Marseille,Dijon FCO,2-0,Final
+32,09/04/2021,03:00,FC Metz,Lille OSC,0-2,Final
+32,10/04/2021,03:00,Racing Strasbourg,Paris Saint-Germain,1-4,Final
+32,10/04/2021,03:00,Montpellier HSC,Olympique Marseille,3-3,Final
+32,11/04/2021,03:00,Stade Rennais,FC Nantes,1-0,Final
+32,11/04/2021,03:00,Stade Brestois 29,Nîmes Olympique,1-1,Final
+32,11/04/2021,03:00,RC Lens,FC Lorient,4-1,Final
+32,11/04/2021,03:00,OGC Nice,Stade de Reims,0-0,Final
+32,11/04/2021,03:00,AS Saint-Étienne,Girondins Bordeaux,4-1,Final
+32,11/04/2021,03:00,AS Monaco,Dijon FCO,3-0,Final
+32,11/04/2021,03:00,Olympique Lyonnais,Angers SCO,3-0,Final
+33,16/04/2021,03:00,Lille OSC,Montpellier HSC,1-1,Final
+33,17/04/2021,03:00,Angers SCO,Stade Rennais,0-3,Final
+33,17/04/2021,03:00,Olympique Marseille,FC Lorient,3-2,Final
+33,18/04/2021,03:00,Paris Saint-Germain,AS Saint-Étienne,3-2,Final
+33,18/04/2021,03:00,Stade Brestois 29,RC Lens,1-1,Final
+33,18/04/2021,03:00,Dijon FCO,OGC Nice,2-0,Final
+33,18/04/2021,03:00,Nîmes Olympique,Racing Strasbourg,1-1,Final
+33,18/04/2021,03:00,Stade de Reims,FC Metz,0-0,Final
+33,18/04/2021,03:00,Girondins Bordeaux,AS Monaco,0-3,Final
+33,18/04/2021,03:00,FC Nantes,Olympique Lyonnais,1-2,Final
+34,23/04/2021,03:00,Stade de Reims,Olympique Marseille,1-3,Final
+34,24/04/2021,03:00,AS Saint-Étienne,Stade Brestois 29,1-2,Final
+34,24/04/2021,03:00,FC Metz,Paris Saint-Germain,1-3,Final
+34,25/04/2021,03:00,OGC Nice,Montpellier HSC,3-1,Final
+34,25/04/2021,03:00,RC Lens,Nîmes Olympique,2-1,Final
+34,25/04/2021,03:00,FC Lorient,Girondins Bordeaux,4-1,Final
+34,25/04/2021,03:00,Stade Rennais,Dijon FCO,5-1,Final
+34,25/04/2021,03:00,Racing Strasbourg,FC Nantes,1-2,Final
+34,25/04/2021,03:00,Angers SCO,AS Monaco,0-1,Final
+34,25/04/2021,03:00,Olympique Lyonnais,Lille OSC,2-3,Final
+35,30/04/2021,03:00,Olympique Marseille,Racing Strasbourg,1-1,Final
+35,01/05/2021,03:00,Paris Saint-Germain,RC Lens,2-1,Final
+35,01/05/2021,03:00,Lille OSC,OGC Nice,2-0,Final
+35,02/05/2021,03:00,Girondins Bordeaux,Stade Rennais,1-0,Final
+35,02/05/2021,03:00,Stade Brestois 29,FC Nantes,1-4,Final
+35,02/05/2021,03:00,Dijon FCO,FC Metz,1-5,Final
+35,02/05/2021,03:00,FC Lorient,Angers SCO,2-0,Final
+35,02/05/2021,03:00,Nîmes Olympique,Stade de Reims,2-2,Final
+35,02/05/2021,03:00,Montpellier HSC,AS Saint-Étienne,1-2,Final
+35,02/05/2021,03:00,AS Monaco,Olympique Lyonnais,2-3,Final
+36,07/05/2021,03:00,RC Lens,Lille OSC,0-3,Final
+36,08/05/2021,03:00,FC Nantes,Girondins Bordeaux,3-0,Final
+36,08/05/2021,03:00,Olympique Lyonnais,FC Lorient,4-1,Final
+36,09/05/2021,03:00,AS Saint-Étienne,Olympique Marseille,1-0,Final
+36,09/05/2021,03:00,Angers SCO,Dijon FCO,3-0,Final
+36,09/05/2021,03:00,FC Metz,Nîmes Olympique,0-3,Final
+36,09/05/2021,03:00,OGC Nice,Stade Brestois 29,3-2,Final
+36,09/05/2021,03:00,Racing Strasbourg,Montpellier HSC,2-3,Final
+36,09/05/2021,03:00,Stade de Reims,AS Monaco,0-1,Final
+36,09/05/2021,03:00,Stade Rennais,Paris Saint-Germain,1-1,Final
+37,16/05/2021,03:00,Girondins Bordeaux,RC Lens,3-0,Final
+37,16/05/2021,03:00,Dijon FCO,FC Nantes,0-4,Final
+37,16/05/2021,03:00,Lille OSC,AS Saint-Étienne,0-0,Final
+37,16/05/2021,03:00,FC Lorient,FC Metz,2-1,Final
+37,16/05/2021,03:00,Olympique Marseille,Angers SCO,3-2,Final
+37,16/05/2021,03:00,AS Monaco,Stade Rennais,2-1,Final
+37,16/05/2021,03:00,Montpellier HSC,Stade Brestois 29,0-0,Final
+37,16/05/2021,03:00,OGC Nice,Racing Strasbourg,0-2,Final
+37,16/05/2021,03:00,Nîmes Olympique,Olympique Lyonnais,2-5,Final
+37,16/05/2021,03:00,Paris Saint-Germain,Stade de Reims,4-0,Final
+38,23/05/2021,03:00,Angers SCO,Lille OSC,1-2,Final
+38,23/05/2021,03:00,Stade Brestois 29,Paris Saint-Germain,0-2,Final
+38,23/05/2021,03:00,RC Lens,AS Monaco,0-0,Final
+38,23/05/2021,03:00,Olympique Lyonnais,OGC Nice,2-3,Final
+38,23/05/2021,03:00,FC Metz,Olympique Marseille,1-1,Final
+38,23/05/2021,03:00,FC Nantes,Montpellier HSC,1-2,Final
+38,23/05/2021,03:00,Stade de Reims,Girondins Bordeaux,1-2,Final
+38,23/05/2021,03:00,Stade Rennais,Nîmes Olympique,2-0,Final
+38,23/05/2021,03:00,AS Saint-Étienne,Dijon FCO,0-1,Final
+38,23/05/2021,03:00,Racing Strasbourg,FC Lorient,1-1,Final

@@ -1,0 +1,142 @@
+matchday,date,time,home_team,away_team,result,status
+1,14/09/2021,03:00,Maccabi Tel Aviv,FC Alashkert,4-1,Final
+1,16/09/2021,03:00,HJK Helsinki,LASK,0-2,Final
+2,30/09/2021,03:00,FC Alashkert,HJK Helsinki,2-4,Final
+2,30/09/2021,03:00,LASK,Maccabi Tel Aviv,1-1,Final
+3,21/10/2021,03:00,HJK Helsinki,Maccabi Tel Aviv,0-5,Final
+3,21/10/2021,03:00,FC Alashkert,LASK,0-3,Final
+4,04/11/2021,03:00,LASK,FC Alashkert,2-0,Final
+4,04/11/2021,03:00,Maccabi Tel Aviv,HJK Helsinki,3-0,Final
+5,25/11/2021,03:00,HJK Helsinki,FC Alashkert,1-0,Final
+5,25/11/2021,03:00,Maccabi Tel Aviv,LASK,0-1,Final
+6,09/12/2021,03:00,FC Alashkert,Maccabi Tel Aviv,1-1,Final
+6,09/12/2021,03:00,LASK,HJK Helsinki,3-0,Final
+1,16/09/2021,03:00,FC Flora,KAA Gent,0-1,Final
+1,16/09/2021,03:00,Anorthosis Famagusta,Partizan,0-2,Final
+2,30/09/2021,03:00,KAA Gent,Anorthosis Famagusta,2-0,Final
+2,30/09/2021,03:00,Partizan,FC Flora,2-0,Final
+3,21/10/2021,03:00,Anorthosis Famagusta,FC Flora,2-2,Final
+3,21/10/2021,03:00,Partizan,KAA Gent,0-1,Final
+4,04/11/2021,03:00,FC Flora,Anorthosis Famagusta,2-2,Final
+4,04/11/2021,03:00,KAA Gent,Partizan,1-1,Final
+5,25/11/2021,03:00,FC Flora,Partizan,1-0,Final
+5,25/11/2021,03:00,Anorthosis Famagusta,KAA Gent,1-0,Final
+6,09/12/2021,03:00,Partizan,Anorthosis Famagusta,1-1,Final
+6,09/12/2021,03:00,KAA Gent,FC Flora,1-0,Final
+1,16/09/2021,03:00,AS Roma,CSKA Sofia,5-1,Final
+1,16/09/2021,03:00,FK Bodø/Glimt,Zorya Lugansk,3-1,Final
+2,30/09/2021,03:00,Zorya Lugansk,AS Roma,0-3,Final
+2,30/09/2021,03:00,CSKA Sofia,FK Bodø/Glimt,0-0,Final
+3,21/10/2021,03:00,FK Bodø/Glimt,AS Roma,6-1,Final
+3,21/10/2021,03:00,CSKA Sofia,Zorya Lugansk,0-1,Final
+4,04/11/2021,03:00,Zorya Lugansk,CSKA Sofia,2-0,Final
+4,04/11/2021,03:00,AS Roma,FK Bodø/Glimt,2-2,Final
+5,25/11/2021,03:00,AS Roma,Zorya Lugansk,4-0,Final
+5,25/11/2021,03:00,FK Bodø/Glimt,CSKA Sofia,2-0,Final
+6,09/12/2021,03:00,CSKA Sofia,AS Roma,2-3,Final
+6,09/12/2021,03:00,Zorya Lugansk,FK Bodø/Glimt,1-1,Final
+1,16/09/2021,03:00,Randers FC,AZ Alkmaar,2-2,Final
+1,16/09/2021,03:00,FK Jablonec,CFR Cluj,1-0,Final
+2,30/09/2021,03:00,AZ Alkmaar,FK Jablonec,1-0,Final
+2,30/09/2021,03:00,CFR Cluj,Randers FC,1-1,Final
+3,21/10/2021,03:00,CFR Cluj,AZ Alkmaar,0-1,Final
+3,21/10/2021,03:00,FK Jablonec,Randers FC,2-2,Final
+4,04/11/2021,03:00,AZ Alkmaar,CFR Cluj,2-0,Final
+4,04/11/2021,03:00,Randers FC,FK Jablonec,2-2,Final
+5,25/11/2021,03:00,FK Jablonec,AZ Alkmaar,1-1,Final
+5,25/11/2021,03:00,Randers FC,CFR Cluj,2-1,Final
+6,09/12/2021,03:00,AZ Alkmaar,Randers FC,1-0,Final
+6,09/12/2021,03:00,CFR Cluj,FK Jablonec,2-0,Final
+1,14/09/2021,03:00,Maccabi Haifa,Feyenoord,0-0,Final
+1,16/09/2021,03:00,Slavia Praha,Union Berlín,3-1,Final
+2,30/09/2021,03:00,Union Berlín,Maccabi Haifa,3-0,Final
+2,30/09/2021,03:00,Feyenoord,Slavia Praha,2-1,Final
+3,21/10/2021,03:00,Feyenoord,Union Berlín,3-1,Final
+3,21/10/2021,03:00,Maccabi Haifa,Slavia Praha,1-0,Final
+4,04/11/2021,03:00,Union Berlín,Feyenoord,1-2,Final
+4,04/11/2021,03:00,Slavia Praha,Maccabi Haifa,1-0,Final
+5,25/11/2021,03:00,Maccabi Haifa,Union Berlín,0-1,Final
+5,25/11/2021,03:00,Slavia Praha,Feyenoord,2-2,Final
+6,09/12/2021,03:00,Union Berlín,Slavia Praha,1-1,Final
+6,09/12/2021,03:00,Feyenoord,Maccabi Haifa,2-1,Final
+1,16/09/2021,03:00,Slovan Bratislava,FC København,1-3,Final
+1,16/09/2021,03:00,Lincoln Red Imps,PAOK Saloniki,0-2,Final
+2,30/09/2021,03:00,FC København,Lincoln Red Imps,3-1,Final
+2,30/09/2021,03:00,PAOK Saloniki,Slovan Bratislava,1-1,Final
+3,21/10/2021,03:00,FC København,PAOK Saloniki,1-2,Final
+3,21/10/2021,03:00,Slovan Bratislava,Lincoln Red Imps,2-0,Final
+4,04/11/2021,03:00,Lincoln Red Imps,Slovan Bratislava,1-4,Final
+4,04/11/2021,03:00,PAOK Saloniki,FC København,1-2,Final
+5,25/11/2021,03:00,Lincoln Red Imps,FC København,0-4,Final
+5,25/11/2021,03:00,Slovan Bratislava,PAOK Saloniki,0-0,Final
+6,09/12/2021,03:00,FC København,Slovan Bratislava,2-0,Final
+6,09/12/2021,03:00,PAOK Saloniki,Lincoln Red Imps,2-0,Final
+1,16/09/2021,03:00,NŠ Mura,Vitesse,0-2,Final
+1,16/09/2021,03:00,Stade Rennais,Tottenham Hotspur,2-2,Final
+2,30/09/2021,03:00,Tottenham Hotspur,NŠ Mura,5-1,Final
+2,30/09/2021,03:00,Vitesse,Stade Rennais,1-2,Final
+3,21/10/2021,03:00,NŠ Mura,Stade Rennais,1-2,Final
+3,21/10/2021,03:00,Vitesse,Tottenham Hotspur,1-0,Final
+4,04/11/2021,03:00,Stade Rennais,NŠ Mura,1-0,Final
+4,04/11/2021,03:00,Tottenham Hotspur,Vitesse,3-2,Final
+5,25/11/2021,03:00,NŠ Mura,Tottenham Hotspur,2-1,Final
+5,25/11/2021,03:00,Stade Rennais,Vitesse,3-3,Final
+6,09/12/2021,03:00,Tottenham Hotspur,Stade Rennais,0-3,Final
+6,09/12/2021,03:00,Vitesse,NŠ Mura,3-1,Final
+1,16/09/2021,03:00,FK Kairat,Omonia Nikosia,0-0,Final
+1,16/09/2021,03:00,Qarabağ FK,FC Basel 1893,0-0,Final
+2,30/09/2021,03:00,FC Basel 1893,FK Kairat,4-2,Final
+2,30/09/2021,03:00,Omonia Nikosia,Qarabağ FK,1-4,Final
+3,21/10/2021,03:00,Qarabağ FK,FK Kairat,2-1,Final
+3,21/10/2021,03:00,FC Basel 1893,Omonia Nikosia,3-1,Final
+4,04/11/2021,03:00,FK Kairat,Qarabağ FK,1-2,Final
+4,04/11/2021,03:00,Omonia Nikosia,FC Basel 1893,1-1,Final
+5,25/11/2021,03:00,FK Kairat,FC Basel 1893,2-3,Final
+5,25/11/2021,03:00,Qarabağ FK,Omonia Nikosia,2-2,Final
+6,09/12/2021,03:00,FC Basel 1893,Qarabağ FK,3-0,Final
+6,09/12/2021,03:00,Omonia Nikosia,FK Kairat,0-0,Final
+6,17/02/2022,03:00,PSV Eindhoven,Maccabi Tel Aviv,1-0,Final
+6,17/02/2022,03:00,Fenerbahçe,Slavia Praha,2-3,Final
+6,17/02/2022,03:00,FC Midtjylland,PAOK Saloniki,1-0,Final
+6,17/02/2022,03:00,Rapid Wien,Vitesse,2-1,Final
+6,17/02/2022,03:00,Olympique Marseille,Qarabağ FK,3-1,Final
+6,17/02/2022,03:00,Leicester City,Randers FC,4-1,Final
+6,17/02/2022,03:00,Celtic FC,FK Bodø/Glimt,1-3,Final
+6,17/02/2022,03:00,AC Sparta Praha,Partizan,0-1,Final
+6,24/02/2022,03:00,Qarabağ FK,Olympique Marseille,0-3,Final
+6,24/02/2022,03:00,Maccabi Tel Aviv,PSV Eindhoven,1-1,Final
+6,24/02/2022,03:00,Randers FC,Leicester City,1-3,Final
+6,24/02/2022,03:00,FK Bodø/Glimt,Celtic FC,2-0,Final
+6,24/02/2022,03:00,Partizan,AC Sparta Praha,2-1,Final
+6,24/02/2022,03:00,Slavia Praha,Fenerbahçe,3-2,Final
+6,24/02/2022,03:00,PAOK Saloniki,FC Midtjylland,5-3,Final
+6,24/02/2022,03:00,Vitesse,Rapid Wien,2-0,Final
+6,10/03/2022,03:00,PAOK Saloniki,KAA Gent,1-0,Final
+6,10/03/2022,03:00,Vitesse,AS Roma,0-1,Final
+6,10/03/2022,03:00,Slavia Praha,LASK,4-1,Final
+6,10/03/2022,03:00,Partizan,Feyenoord,2-5,Final
+6,10/03/2022,03:00,Olympique Marseille,FC Basel 1893,2-1,Final
+6,10/03/2022,03:00,Leicester City,Stade Rennais,2-0,Final
+6,10/03/2022,03:00,PSV Eindhoven,FC København,4-4,Final
+6,10/03/2022,03:00,FK Bodø/Glimt,AZ Alkmaar,2-1,Final
+6,17/03/2022,03:00,FC Basel 1893,Olympique Marseille,1-2,Final
+6,17/03/2022,03:00,Stade Rennais,Leicester City,2-1,Final
+6,17/03/2022,03:00,FC København,PSV Eindhoven,0-4,Final
+6,17/03/2022,03:00,AZ Alkmaar,FK Bodø/Glimt,2-2,Final
+6,17/03/2022,03:00,KAA Gent,PAOK Saloniki,1-2,Final
+6,17/03/2022,03:00,AS Roma,Vitesse,1-1,Final
+6,17/03/2022,03:00,LASK,Slavia Praha,4-3,Final
+6,17/03/2022,03:00,Feyenoord,Partizan,3-1,Final
+6,07/04/2022,03:00,Feyenoord,Slavia Praha,3-3,Final
+6,07/04/2022,03:00,FK Bodø/Glimt,AS Roma,2-1,Final
+6,07/04/2022,03:00,Olympique Marseille,PAOK Saloniki,2-1,Final
+6,07/04/2022,03:00,Leicester City,PSV Eindhoven,0-0,Final
+6,14/04/2022,03:00,PSV Eindhoven,Leicester City,1-2,Final
+6,14/04/2022,03:00,AS Roma,FK Bodø/Glimt,4-0,Final
+6,14/04/2022,03:00,Slavia Praha,Feyenoord,1-3,Final
+6,14/04/2022,03:00,PAOK Saloniki,Olympique Marseille,0-1,Final
+6,28/04/2022,03:00,Leicester City,AS Roma,1-1,Final
+6,28/04/2022,03:00,Feyenoord,Olympique Marseille,3-2,Final
+6,05/05/2022,03:00,AS Roma,Leicester City,1-0,Final
+6,05/05/2022,03:00,Olympique Marseille,Feyenoord,0-0,Final
+6,25/05/2022,03:00,AS Roma,Feyenoord,1-0,Final

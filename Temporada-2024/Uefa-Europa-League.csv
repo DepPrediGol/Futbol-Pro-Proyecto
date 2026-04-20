@@ -1,0 +1,142 @@
+matchday,date,time,home_team,away_team,result,status
+1,21/09/2023,03:00,Olympiakos Piraeus,SC Friburgo,2-3,Final
+1,21/09/2023,03:00,West Ham United,TSC Bačka Topola,3-1,Final
+2,05/10/2023,03:00,SC Friburgo,West Ham United,1-2,Final
+2,05/10/2023,03:00,TSC Bačka Topola,Olympiakos Piraeus,2-2,Final
+3,26/10/2023,03:00,Olympiakos Piraeus,West Ham United,2-1,Final
+3,26/10/2023,03:00,TSC Bačka Topola,SC Friburgo,1-3,Final
+4,09/11/2023,03:00,SC Friburgo,TSC Bačka Topola,5-0,Final
+4,09/11/2023,03:00,West Ham United,Olympiakos Piraeus,1-0,Final
+5,30/11/2023,03:00,SC Friburgo,Olympiakos Piraeus,5-0,Final
+5,30/11/2023,03:00,TSC Bačka Topola,West Ham United,0-1,Final
+6,14/12/2023,03:00,Olympiakos Piraeus,TSC Bačka Topola,5-2,Final
+6,14/12/2023,03:00,West Ham United,SC Friburgo,2-0,Final
+1,21/09/2023,03:00,AFC Ajax,Olympique Marseille,3-3,Final
+1,21/09/2023,03:00,Brighton & Hove Albion,AEK Athen,2-3,Final
+2,05/10/2023,03:00,AEK Athen,AFC Ajax,1-1,Final
+2,05/10/2023,03:00,Olympique Marseille,Brighton & Hove Albion,2-2,Final
+3,26/10/2023,03:00,Olympique Marseille,AEK Athen,3-1,Final
+3,26/10/2023,03:00,Brighton & Hove Albion,AFC Ajax,2-0,Final
+4,09/11/2023,03:00,AFC Ajax,Brighton & Hove Albion,0-2,Final
+4,09/11/2023,03:00,AEK Athen,Olympique Marseille,0-2,Final
+5,30/11/2023,03:00,AEK Athen,Brighton & Hove Albion,0-1,Final
+5,30/11/2023,03:00,Olympique Marseille,AFC Ajax,4-3,Final
+6,14/12/2023,03:00,AFC Ajax,AEK Athen,3-1,Final
+6,14/12/2023,03:00,Brighton & Hove Albion,Olympique Marseille,1-0,Final
+1,21/09/2023,03:00,AC Sparta Praha,Aris Limassol,3-2,Final
+1,21/09/2023,03:00,Rangers FC,Real Betis,1-0,Final
+2,05/10/2023,03:00,Aris Limassol,Rangers FC,2-1,Final
+2,05/10/2023,03:00,Real Betis,AC Sparta Praha,2-1,Final
+3,26/10/2023,03:00,AC Sparta Praha,Rangers FC,0-0,Final
+3,26/10/2023,03:00,Aris Limassol,Real Betis,0-1,Final
+4,09/11/2023,03:00,Rangers FC,AC Sparta Praha,2-1,Final
+4,09/11/2023,03:00,Real Betis,Aris Limassol,4-1,Final
+5,30/11/2023,03:00,AC Sparta Praha,Real Betis,1-0,Final
+5,30/11/2023,03:00,Rangers FC,Aris Limassol,1-1,Final
+6,14/12/2023,03:00,Aris Limassol,AC Sparta Praha,1-3,Final
+6,14/12/2023,03:00,Real Betis,Rangers FC,2-3,Final
+1,21/09/2023,03:00,Atalanta,Raków Częstochowa,2-0,Final
+1,21/09/2023,03:00,Sturm Graz,Sporting CP,1-2,Final
+2,05/10/2023,03:00,Raków Częstochowa,Sturm Graz,0-1,Final
+2,05/10/2023,03:00,Sporting CP,Atalanta,1-2,Final
+3,26/10/2023,03:00,Raków Częstochowa,Sporting CP,1-1,Final
+3,26/10/2023,03:00,Sturm Graz,Atalanta,2-2,Final
+4,09/11/2023,03:00,Atalanta,Sturm Graz,1-0,Final
+4,09/11/2023,03:00,Sporting CP,Raków Częstochowa,2-1,Final
+5,30/11/2023,03:00,Atalanta,Sporting CP,1-1,Final
+5,30/11/2023,03:00,Sturm Graz,Raków Częstochowa,0-1,Final
+6,14/12/2023,03:00,Raków Częstochowa,Atalanta,0-4,Final
+6,14/12/2023,03:00,Sporting CP,Sturm Graz,3-0,Final
+1,21/09/2023,03:00,Union Saint-Gilloise,Toulouse FC,1-1,Final
+1,21/09/2023,03:00,LASK,Liverpool FC,1-3,Final
+2,05/10/2023,03:00,Liverpool FC,Union Saint-Gilloise,2-0,Final
+2,05/10/2023,03:00,Toulouse FC,LASK,1-0,Final
+3,26/10/2023,03:00,Liverpool FC,Toulouse FC,5-1,Final
+3,26/10/2023,03:00,Union Saint-Gilloise,LASK,2-1,Final
+4,09/11/2023,03:00,Toulouse FC,Liverpool FC,3-2,Final
+4,09/11/2023,03:00,LASK,Union Saint-Gilloise,3-0,Final
+5,30/11/2023,03:00,Liverpool FC,LASK,4-0,Final
+5,30/11/2023,03:00,Toulouse FC,Union Saint-Gilloise,0-0,Final
+6,14/12/2023,03:00,Union Saint-Gilloise,Liverpool FC,2-1,Final
+6,14/12/2023,03:00,LASK,Toulouse FC,1-2,Final
+1,21/09/2023,03:00,Stade Rennais,Maccabi Haifa,3-0,Final
+1,21/09/2023,03:00,Panathinaikos,Villarreal CF,2-0,Final
+2,05/10/2023,03:00,Villarreal CF,Stade Rennais,1-0,Final
+2,05/10/2023,03:00,Maccabi Haifa,Panathinaikos,0-0,Final
+3,26/10/2023,03:00,Panathinaikos,Stade Rennais,1-2,Final
+4,09/11/2023,03:00,Stade Rennais,Panathinaikos,3-1,Final
+4,09/11/2023,03:00,Maccabi Haifa,Villarreal CF,1-2,Final
+5,30/11/2023,03:00,Maccabi Haifa,Stade Rennais,0-3,Final
+5,30/11/2023,03:00,Villarreal CF,Panathinaikos,3-2,Final
+3,06/12/2023,03:00,Villarreal CF,Maccabi Haifa,0-0,Final
+6,14/12/2023,03:00,Stade Rennais,Villarreal CF,2-3,Final
+6,14/12/2023,03:00,Panathinaikos,Maccabi Haifa,1-2,Final
+1,21/09/2023,03:00,FC Sheriff,AS Roma,1-2,Final
+1,21/09/2023,03:00,Servette FC,Slavia Praha,0-2,Final
+2,05/10/2023,03:00,AS Roma,Servette FC,4-0,Final
+2,05/10/2023,03:00,Slavia Praha,FC Sheriff,6-0,Final
+3,26/10/2023,03:00,AS Roma,Slavia Praha,2-0,Final
+3,26/10/2023,03:00,FC Sheriff,Servette FC,1-1,Final
+4,09/11/2023,03:00,Slavia Praha,AS Roma,2-0,Final
+4,09/11/2023,03:00,Servette FC,FC Sheriff,2-1,Final
+5,30/11/2023,03:00,Servette FC,AS Roma,1-1,Final
+5,30/11/2023,03:00,FC Sheriff,Slavia Praha,2-3,Final
+6,14/12/2023,03:00,AS Roma,FC Sheriff,3-0,Final
+6,14/12/2023,03:00,Slavia Praha,Servette FC,4-0,Final
+1,21/09/2023,03:00,Bayer Leverkusen,BK Häcken,4-0,Final
+1,21/09/2023,03:00,Qarabağ FK,Molde FK,1-0,Final
+2,05/10/2023,03:00,Molde FK,Bayer Leverkusen,1-2,Final
+2,05/10/2023,03:00,BK Häcken,Qarabağ FK,0-1,Final
+3,26/10/2023,03:00,Molde FK,BK Häcken,5-1,Final
+3,26/10/2023,03:00,Bayer Leverkusen,Qarabağ FK,5-1,Final
+4,09/11/2023,03:00,Qarabağ FK,Bayer Leverkusen,0-1,Final
+4,09/11/2023,03:00,BK Häcken,Molde FK,1-3,Final
+5,30/11/2023,03:00,BK Häcken,Bayer Leverkusen,0-2,Final
+5,30/11/2023,03:00,Molde FK,Qarabağ FK,2-2,Final
+6,14/12/2023,03:00,Bayer Leverkusen,Molde FK,5-1,Final
+6,14/12/2023,03:00,Qarabağ FK,BK Häcken,2-1,Final
+6,15/02/2024,03:00,Feyenoord,AS Roma,1-1,Final
+6,15/02/2024,03:00,BSC Young Boys,Sporting CP,1-3,Final
+6,15/02/2024,03:00,Galatasaray,AC Sparta Praha,3-2,Final
+6,15/02/2024,03:00,Shajtar Donetsk,Olympique Marseille,2-2,Final
+6,15/02/2024,03:00,AC Milan,Stade Rennais,3-0,Final
+6,15/02/2024,03:00,RC Lens,SC Friburgo,0-0,Final
+6,15/02/2024,03:00,SL Benfica,Toulouse FC,2-1,Final
+6,15/02/2024,03:00,Sporting Braga,Qarabağ FK,2-4,Final
+6,22/02/2024,03:00,Stade Rennais,AC Milan,3-2,Final
+6,22/02/2024,03:00,SC Friburgo,RC Lens,3-2,Final
+6,22/02/2024,03:00,Toulouse FC,SL Benfica,0-0,Final
+6,22/02/2024,03:00,Qarabağ FK,Sporting Braga,2-3,Final
+6,22/02/2024,03:00,AS Roma,Feyenoord,4-2,Final
+6,22/02/2024,03:00,Sporting CP,BSC Young Boys,1-1,Final
+6,22/02/2024,03:00,AC Sparta Praha,Galatasaray,4-1,Final
+6,22/02/2024,03:00,Olympique Marseille,Shajtar Donetsk,3-1,Final
+6,06/03/2024,03:00,Sporting CP,Atalanta,1-1,Final
+6,07/03/2024,03:00,AC Sparta Praha,Liverpool FC,1-5,Final
+6,07/03/2024,03:00,AS Roma,Brighton & Hove Albion,4-0,Final
+6,07/03/2024,03:00,Qarabağ FK,Bayer Leverkusen,2-2,Final
+6,07/03/2024,03:00,Olympique Marseille,Villarreal CF,4-0,Final
+6,07/03/2024,03:00,SL Benfica,Rangers FC,2-2,Final
+6,07/03/2024,03:00,SC Friburgo,West Ham United,1-0,Final
+6,07/03/2024,03:00,AC Milan,Slavia Praha,4-2,Final
+6,14/03/2024,03:00,Villarreal CF,Olympique Marseille,3-1,Final
+6,14/03/2024,03:00,Rangers FC,SL Benfica,0-1,Final
+6,14/03/2024,03:00,West Ham United,SC Friburgo,5-0,Final
+6,14/03/2024,03:00,Slavia Praha,AC Milan,1-3,Final
+6,14/03/2024,03:00,Liverpool FC,AC Sparta Praha,6-1,Final
+6,14/03/2024,03:00,Brighton & Hove Albion,AS Roma,1-0,Final
+6,14/03/2024,03:00,Atalanta,Sporting CP,2-1,Final
+6,14/03/2024,03:00,Bayer Leverkusen,Qarabağ FK,3-2,Final
+6,11/04/2024,03:00,AC Milan,AS Roma,0-1,Final
+6,11/04/2024,03:00,Liverpool FC,Atalanta,0-3,Final
+6,11/04/2024,03:00,Bayer Leverkusen,West Ham United,2-0,Final
+6,11/04/2024,03:00,SL Benfica,Olympique Marseille,2-1,Final
+6,18/04/2024,03:00,AS Roma,AC Milan,2-1,Final
+6,18/04/2024,03:00,Atalanta,Liverpool FC,0-1,Final
+6,18/04/2024,03:00,West Ham United,Bayer Leverkusen,1-1,Final
+6,18/04/2024,03:00,Olympique Marseille,SL Benfica,4-2,Final
+6,02/05/2024,03:00,Olympique Marseille,Atalanta,1-1,Final
+6,02/05/2024,03:00,AS Roma,Bayer Leverkusen,0-2,Final
+6,09/05/2024,03:00,Atalanta,Olympique Marseille,3-0,Final
+6,09/05/2024,03:00,Bayer Leverkusen,AS Roma,2-2,Final
+6,22/05/2024,03:00,Atalanta,Bayer Leverkusen,3-0,Final

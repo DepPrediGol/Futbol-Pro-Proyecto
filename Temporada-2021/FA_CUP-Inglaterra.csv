@@ -1,0 +1,124 @@
+matchday,date,time,home_team,away_team,result,status
+,06/11/2020,03:00,Harrogate Town,Skelmersdale United,4-1,Final
+,07/11/2020,03:00,Tonbridge Angels,Bradford City,0-7,Final
+,07/11/2020,03:00,Exeter City,AFC Fylde,2-1,Final
+,07/11/2020,03:00,Leyton Orient,Newport County,1-2,Final
+,07/11/2020,03:00,Sunderland AFC,Mansfield Town,0-1,Final
+,07/11/2020,03:00,Bolton Wanderers,Crewe Alexandra,2-3,Final
+,07/11/2020,03:00,Oxford United,Peterborough United,1-2,Final
+,07/11/2020,03:00,Walsall FC,Bristol Rovers,1-2,Final
+,07/11/2020,03:00,Rochdale AFC,Stockport County,1-2,Final
+,07/11/2020,03:00,Swindon Town,Darlington FC,1-2,Final
+,07/11/2020,03:00,Tranmere Rovers,Accrington Stanley,2-1,Final
+,07/11/2020,03:00,Bromley FC,Yeovil Town,0-1,Final
+,07/11/2020,03:00,Cheltenham Town,South Shields FC,3-1,Final
+,07/11/2020,03:00,Stevenage FC,Concord Rangers,5-4,Final
+,07/11/2020,03:00,Gillingham FC,Woking FC,3-2,Final
+,07/11/2020,03:00,Charlton Athletic,Plymouth Argyle,0-1,Final
+,07/11/2020,03:00,Salford City,Hartlepool United,2-0,Final
+,07/11/2020,03:00,Hull City,Fleetwood Town,2-0,Final
+,07/11/2020,03:00,Colchester United,Marine AFC,3-5,Final
+,07/11/2020,03:00,Dagenham & Redbridge,Grimsby Town,3-1,Final
+,07/11/2020,03:00,Cambridge United,Shrewsbury Town,0-2,Final
+,07/11/2020,03:00,Boreham Wood,Southend United,4-3,Final
+,07/11/2020,03:00,Ipswich Town,Portsmouth FC,2-3,Final
+,07/11/2020,03:00,Lincoln City,Forest Green Rovers,6-2,Final
+,07/11/2020,03:00,Banbury United FC,Canvey Island,1-2,Final
+,07/11/2020,03:00,Port Vale FC,King's Lynn,0-1,Final
+,07/11/2020,03:00,Brackley Town,Bishop's Stortford,3-2,Final
+,07/11/2020,03:00,United of Manchester,Doncaster Rovers,1-5,Final
+,08/11/2020,03:00,Scunthorpe United,Solihull Moors,2-3,Final
+,08/11/2020,03:00,Havant & Waterlooville,Cray Valley (PM),1-0,Final
+,08/11/2020,03:00,Barnet FC,Burton Albion,1-0,Final
+,08/11/2020,03:00,Wigan Athletic,Chorley FC,2-3,Final
+,08/11/2020,03:00,Maldon & Tiptree FC,Morecambe FC,0-1,Final
+,08/11/2020,03:00,Torquay United,Crawley Town,5-6,Final
+,08/11/2020,03:00,Hayes & Yeading United,Carlisle United,3-4,Final
+,08/11/2020,03:00,Eastleigh FC,Milton Keynes Dons,3-4,Final
+,08/11/2020,03:00,Hampton & Richmond Borough,Oldham Athletic,2-3,Final
+,08/11/2020,03:00,Eastbourne Borough,Blackpool FC,0-3,Final
+,09/11/2020,03:00,Oxford City,Northampton Town,2-1,Final
+,26/11/2020,03:00,Barrow AFC,AFC Wimbledon,2-4,Final
+,27/11/2020,03:00,Tranmere Rovers,Brackley Town,1-0,Final
+,28/11/2020,03:00,Morecambe FC,Solihull Moors,4-2,Final
+,28/11/2020,03:00,Newport County,Salford City,3-0,Final
+,28/11/2020,03:00,Gillingham FC,Exeter City,2-3,Final
+,28/11/2020,03:00,Harrogate Town,Blackpool FC,0-4,Final
+,28/11/2020,03:00,Plymouth Argyle,Lincoln City,2-0,Final
+,28/11/2020,03:00,Portsmouth FC,King's Lynn,6-1,Final
+,28/11/2020,03:00,Cheltenham Town,Crewe Alexandra,2-1,Final
+,28/11/2020,03:00,Bradford City,Oldham Athletic,1-2,Final
+,28/11/2020,03:00,Peterborough United,Chorley FC,1-2,Final
+,29/11/2020,03:00,Stevenage FC,Hull City,6-5,Final
+,29/11/2020,03:00,AFC Wimbledon,Crawley Town,1-2,Final
+,29/11/2020,03:00,Stockport County,Yeovil Town,3-2,Final
+,29/11/2020,03:00,Shrewsbury Town,Oxford City,1-0,Final
+,29/11/2020,03:00,Mansfield Town,Dagenham & Redbridge,2-1,Final
+,29/11/2020,03:00,Carlisle United,Doncaster Rovers,1-2,Final
+,29/11/2020,03:00,Barnet FC,Milton Keynes Dons,0-1,Final
+,29/11/2020,03:00,Bristol Rovers,Darlington FC,6-0,Final
+,29/11/2020,03:00,Marine AFC,Havant & Waterlooville,1-0,Final
+,30/11/2020,03:00,Canvey Island,Boreham Wood,0-3,Final
+,08/01/2021,03:00,Wolverhampton Wanderers,Crystal Palace,1-0,Final
+,08/01/2021,03:00,Aston Villa,Liverpool FC,1-4,Final
+,09/01/2021,03:00,Everton FC,Rotherham United,2-1,Final
+,09/01/2021,03:00,Nottingham Forest,Cardiff City,1-0,Final
+,09/01/2021,03:00,Boreham Wood,Millwall FC,0-2,Final
+,09/01/2021,03:00,Luton Town,Reading FC,1-0,Final
+,09/01/2021,03:00,Norwich City,Coventry City,2-0,Final
+,09/01/2021,03:00,Chorley FC,Derby County,2-0,Final
+,09/01/2021,03:00,AFC Bournemouth,Oldham Athletic,4-1,Final
+,09/01/2021,03:00,Stevenage FC,Swansea City,0-2,Final
+,09/01/2021,03:00,Bristol Rovers,Sheffield United,2-3,Final
+,09/01/2021,03:00,Blackburn Rovers,Doncaster Rovers,0-1,Final
+,09/01/2021,03:00,Stoke City,Leicester City,0-4,Final
+,09/01/2021,03:00,Wycombe Wanderers,Preston North End,4-1,Final
+,09/01/2021,03:00,Burnley FC,Milton Keynes Dons,4-3,Final
+,09/01/2021,03:00,Queens Park Rangers,Fulham FC,0-2,Final
+,09/01/2021,03:00,Exeter City,Sheffield Wednesday,0-2,Final
+,09/01/2021,03:00,Blackpool FC,West Bromwich Albion,3-2,Final
+,09/01/2021,03:00,Arsenal FC,Newcastle United,2-0,Final
+,09/01/2021,03:00,Huddersfield Town,Plymouth Argyle,2-3,Final
+,09/01/2021,03:00,Brentford FC,Middlesbrough FC,2-1,Final
+,09/01/2021,03:00,Manchester United,Watford FC,1-0,Final
+,10/01/2021,03:00,Barnsley FC,Tranmere Rovers,2-0,Final
+,10/01/2021,03:00,Crawley Town,Leeds United,3-0,Final
+,10/01/2021,03:00,Bristol City,Portsmouth FC,2-1,Final
+,10/01/2021,03:00,Manchester City,Birmingham City,3-0,Final
+,10/01/2021,03:00,Chelsea FC,Morecambe FC,4-0,Final
+,10/01/2021,03:00,Cheltenham Town,Mansfield Town,2-1,Final
+,10/01/2021,03:00,Marine AFC,Tottenham Hotspur,0-5,Final
+,10/01/2021,03:00,Newport County,Brighton & Hove Albion,3-4,Final
+,11/01/2021,03:00,Stockport County,West Ham United,0-1,Final
+,19/01/2021,03:00,Southampton FC,Shrewsbury Town,2-0,Final
+,22/01/2021,03:00,Chorley FC,Wolverhampton Wanderers,0-1,Final
+,23/01/2021,03:00,Southampton FC,Arsenal FC,1-0,Final
+,23/01/2021,03:00,Swansea City,Nottingham Forest,5-1,Final
+,23/01/2021,03:00,Barnsley FC,Norwich City,1-0,Final
+,23/01/2021,03:00,Millwall FC,Bristol City,0-3,Final
+,23/01/2021,03:00,Brighton & Hove Albion,Blackpool FC,2-1,Final
+,23/01/2021,03:00,Sheffield United,Plymouth Argyle,2-1,Final
+,23/01/2021,03:00,West Ham United,Doncaster Rovers,4-0,Final
+,23/01/2021,03:00,Cheltenham Town,Manchester City,1-3,Final
+,24/01/2021,03:00,Chelsea FC,Luton Town,3-1,Final
+,24/01/2021,03:00,Fulham FC,Burnley FC,0-3,Final
+,24/01/2021,03:00,Brentford FC,Leicester City,1-3,Final
+,24/01/2021,03:00,Manchester United,Liverpool FC,3-2,Final
+,24/01/2021,03:00,Everton FC,Sheffield Wednesday,3-0,Final
+,25/01/2021,03:00,Wycombe Wanderers,Tottenham Hotspur,1-4,Final
+,26/01/2021,03:00,AFC Bournemouth,Crawley Town,2-1,Final
+,09/02/2021,03:00,Burnley FC,AFC Bournemouth,0-2,Final
+,09/02/2021,03:00,Manchester United,West Ham United,1-0,Final
+,10/02/2021,03:00,Swansea City,Manchester City,1-3,Final
+,10/02/2021,03:00,Sheffield United,Bristol City,1-0,Final
+,10/02/2021,03:00,Leicester City,Brighton & Hove Albion,1-0,Final
+,10/02/2021,03:00,Everton FC,Tottenham Hotspur,5-4,Final
+,11/02/2021,03:00,Wolverhampton Wanderers,Southampton FC,0-2,Final
+,11/02/2021,03:00,Barnsley FC,Chelsea FC,0-1,Final
+,20/03/2021,03:00,AFC Bournemouth,Southampton FC,0-3,Final
+,20/03/2021,03:00,Everton FC,Manchester City,0-2,Final
+,21/03/2021,03:00,Chelsea FC,Sheffield United,2-0,Final
+,21/03/2021,03:00,Leicester City,Manchester United,3-1,Final
+,17/04/2021,03:00,Chelsea FC,Manchester City,1-0,Final
+,18/04/2021,03:00,Leicester City,Southampton FC,1-0,Final
+,15/05/2021,03:00,Chelsea FC,Leicester City,0-1,Final

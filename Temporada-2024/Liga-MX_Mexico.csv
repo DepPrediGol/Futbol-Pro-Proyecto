@@ -1,0 +1,307 @@
+matchday,date,time,home_team,away_team,result,status
+1,01/07/2023,03:00,CF América,FC Juárez,1-2,Final
+1,01/07/2023,03:00,Mazatlán FC,CF Pachuca,1-1,Final
+1,01/07/2023,03:00,Club Tijuana,Pumas UNAM,2-3,Final
+1,02/07/2023,03:00,Atlético San Luis,CF Monterrey,1-1,Final
+1,02/07/2023,03:00,UANL Tigres,Puebla FC,1-1,Final
+1,02/07/2023,03:00,Atlas Guadalajara,Cruz Azul,2-0,Final
+1,02/07/2023,03:00,Deportivo Toluca,Club Necaxa,0-0,Final
+1,03/07/2023,03:00,Santos Laguna,Gallos Blancos,0-2,Final
+1,04/07/2023,03:00,Club León,Deportivo Guadalajara,1-2,Final
+2,08/07/2023,03:00,Puebla FC,Santos Laguna,2-3,Final
+2,08/07/2023,03:00,Club Necaxa,Club Tijuana,1-1,Final
+2,09/07/2023,03:00,Cruz Azul,Deportivo Toluca,0-2,Final
+2,09/07/2023,03:00,Deportivo Guadalajara,Atlético San Luis,3-1,Final
+2,09/07/2023,03:00,FC Juárez,UANL Tigres,1-1,Final
+2,09/07/2023,03:00,Pumas UNAM,Mazatlán FC,0-0,Final
+2,10/07/2023,03:00,CF Monterrey,Atlas Guadalajara,1-0,Final
+2,11/07/2023,03:00,Club León,CF Pachuca,4-0,Final
+2,21/09/2023,03:00,Gallos Blancos,CF América,1-2,Final
+3,14/07/2023,03:00,Santos Laguna,Atlas Guadalajara,0-0,Final
+3,14/07/2023,03:00,Deportivo Guadalajara,Club Necaxa,2-0,Final
+3,15/07/2023,03:00,Mazatlán FC,CF Monterrey,0-3,Final
+3,15/07/2023,03:00,Club Tijuana,Cruz Azul,2-1,Final
+3,16/07/2023,03:00,Atlético San Luis,Gallos Blancos,4-1,Final
+3,16/07/2023,03:00,CF América,Puebla FC,3-0,Final
+3,16/07/2023,03:00,UANL Tigres,Club León,1-0,Final
+3,16/07/2023,03:00,Deportivo Toluca,FC Juárez,2-4,Final
+3,17/07/2023,03:00,CF Pachuca,Pumas UNAM,1-1,Final
+4,19/08/2023,03:00,Club León,Mazatlán FC,2-1,Final
+4,19/08/2023,03:00,Pumas UNAM,Deportivo Toluca,1-1,Final
+4,19/08/2023,03:00,Puebla FC,Atlético San Luis,1-2,Final
+4,19/08/2023,03:00,FC Juárez,Deportivo Guadalajara,1-1,Final
+4,21/08/2023,03:00,Cruz Azul,Santos Laguna,2-2,Final
+4,21/08/2023,03:00,Gallos Blancos,CF Pachuca,1-1,Final
+4,21/08/2023,03:00,CF América,Atlas Guadalajara,1-1,Final
+4,21/08/2023,03:00,Club Necaxa,UANL Tigres,0-3,Final
+4,26/10/2023,03:00,CF Monterrey,Club Tijuana,3-1,Final
+5,23/08/2023,03:00,Deportivo Guadalajara,Club Tijuana,1-0,Final
+5,23/08/2023,03:00,Mazatlán FC,Puebla FC,1-0,Final
+5,23/08/2023,03:00,FC Juárez,Pumas UNAM,4-1,Final
+5,24/08/2023,03:00,CF América,Club Necaxa,3-2,Final
+5,24/08/2023,03:00,CF Pachuca,Cruz Azul,1-0,Final
+5,24/08/2023,03:00,Atlético San Luis,Club León,3-0,Final
+5,31/08/2023,03:00,Deportivo Toluca,CF Monterrey,1-0,Final
+5,31/08/2023,03:00,Gallos Blancos,Atlas Guadalajara,1-2,Final
+5,31/08/2023,03:00,UANL Tigres,Santos Laguna,3-2,Final
+6,26/08/2023,03:00,Puebla FC,FC Juárez,1-0,Final
+6,26/08/2023,03:00,Club Tijuana,Mazatlán FC,1-1,Final
+6,27/08/2023,03:00,Atlas Guadalajara,Deportivo Toluca,0-0,Final
+6,27/08/2023,03:00,CF América,Club León,1-1,Final
+6,27/08/2023,03:00,Santos Laguna,Deportivo Guadalajara,2-1,Final
+6,28/08/2023,03:00,Club Necaxa,Gallos Blancos,0-1,Final
+6,28/08/2023,03:00,Pumas UNAM,UANL Tigres,2-1,Final
+6,28/08/2023,03:00,CF Monterrey,Cruz Azul,1-2,Final
+6,29/08/2023,03:00,CF Pachuca,Atlético San Luis,0-2,Final
+7,02/09/2023,03:00,FC Juárez,Mazatlán FC,3-1,Final
+7,02/09/2023,03:00,Puebla FC,Club Tijuana,3-0,Final
+7,03/09/2023,03:00,Club León,Club Necaxa,1-1,Final
+7,03/09/2023,03:00,Santos Laguna,Pumas UNAM,2-1,Final
+7,03/09/2023,03:00,UANL Tigres,Gallos Blancos,5-0,Final
+7,03/09/2023,03:00,Cruz Azul,CF América,2-3,Final
+7,03/09/2023,03:00,Deportivo Toluca,CF Pachuca,5-0,Final
+7,04/09/2023,03:00,Deportivo Guadalajara,CF Monterrey,1-2,Final
+7,04/09/2023,03:00,Atlético San Luis,Atlas Guadalajara,2-0,Final
+8,16/09/2023,03:00,Mazatlán FC,Cruz Azul,2-2,Final
+8,16/09/2023,03:00,Club Tijuana,Deportivo Toluca,2-1,Final
+8,17/09/2023,03:00,Club Necaxa,FC Juárez,1-1,Final
+8,17/09/2023,03:00,CF Monterrey,Club León,3-1,Final
+8,17/09/2023,03:00,CF América,Deportivo Guadalajara,4-0,Final
+8,17/09/2023,03:00,Pumas UNAM,Atlético San Luis,3-2,Final
+8,18/09/2023,03:00,Gallos Blancos,Puebla FC,1-1,Final
+8,18/09/2023,03:00,Atlas Guadalajara,UANL Tigres,2-0,Final
+8,19/09/2023,03:00,CF Pachuca,Santos Laguna,3-2,Final
+9,23/09/2023,03:00,Atlético San Luis,Mazatlán FC,3-2,Final
+9,23/09/2023,03:00,FC Juárez,Atlas Guadalajara,1-2,Final
+9,23/09/2023,03:00,Puebla FC,Pumas UNAM,0-2,Final
+9,24/09/2023,03:00,Deportivo Guadalajara,CF Pachuca,0-0,Final
+9,24/09/2023,03:00,Club León,Club Tijuana,1-0,Final
+9,24/09/2023,03:00,UANL Tigres,CF Monterrey,3-0,Final
+9,24/09/2023,03:00,Deportivo Toluca,CF América,1-1,Final
+9,25/09/2023,03:00,Cruz Azul,Gallos Blancos,1-3,Final
+9,25/09/2023,03:00,Santos Laguna,Club Necaxa,2-5,Final
+10,29/09/2023,03:00,Atlas Guadalajara,Puebla FC,2-3,Final
+10,30/09/2023,03:00,Gallos Blancos,Club León,1-1,Final
+10,30/09/2023,03:00,Atlético San Luis,Cruz Azul,1-2,Final
+10,30/09/2023,03:00,Club Tijuana,FC Juárez,5-1,Final
+10,01/10/2023,03:00,CF Pachuca,Club Necaxa,1-1,Final
+10,01/10/2023,03:00,CF América,Pumas UNAM,1-0,Final
+10,01/10/2023,03:00,Mazatlán FC,UANL Tigres,2-3,Final
+10,02/10/2023,03:00,Deportivo Toluca,Deportivo Guadalajara,1-1,Final
+10,09/11/2023,03:00,CF Monterrey,Santos Laguna,3-0,Final
+11,27/09/2023,03:00,Deportivo Guadalajara,Mazatlán FC,1-3,Final
+11,04/10/2023,03:00,Puebla FC,CF Monterrey,1-1,Final
+11,04/10/2023,03:00,CF América,CF Pachuca,4-0,Final
+11,05/10/2023,03:00,Club Necaxa,Cruz Azul,1-3,Final
+11,05/10/2023,03:00,Pumas UNAM,Gallos Blancos,4-0,Final
+11,05/10/2023,03:00,UANL Tigres,Deportivo Toluca,2-2,Final
+11,05/10/2023,03:00,Santos Laguna,Club Tijuana,2-1,Final
+11,25/10/2023,03:00,Club León,Atlas Guadalajara,1-1,Final
+11,26/10/2023,03:00,FC Juárez,Atlético San Luis,3-2,Final
+12,07/10/2023,03:00,Mazatlán FC,CF América,1-2,Final
+12,08/10/2023,03:00,CF Monterrey,FC Juárez,3-1,Final
+12,08/10/2023,03:00,Deportivo Guadalajara,Atlas Guadalajara,4-1,Final
+12,08/10/2023,03:00,CF Pachuca,UANL Tigres,1-1,Final
+12,08/10/2023,03:00,Cruz Azul,Pumas UNAM,1-4,Final
+12,08/10/2023,03:00,Deportivo Toluca,Gallos Blancos,3-1,Final
+12,09/10/2023,03:00,Club Necaxa,Puebla FC,1-2,Final
+12,09/10/2023,03:00,Santos Laguna,Club León,0-2,Final
+12,09/10/2023,03:00,Club Tijuana,Atlético San Luis,2-1,Final
+13,21/10/2023,03:00,Atlas Guadalajara,Mazatlán FC,1-3,Final
+13,21/10/2023,03:00,FC Juárez,CF Pachuca,0-1,Final
+13,21/10/2023,03:00,Puebla FC,Deportivo Guadalajara,0-2,Final
+13,22/10/2023,03:00,Club León,Deportivo Toluca,1-0,Final
+13,22/10/2023,03:00,CF América,Santos Laguna,4-3,Final
+13,22/10/2023,03:00,Gallos Blancos,Club Tijuana,1-0,Final
+13,22/10/2023,03:00,UANL Tigres,Cruz Azul,2-1,Final
+13,22/10/2023,03:00,Pumas UNAM,CF Monterrey,0-1,Final
+13,23/10/2023,03:00,Atlético San Luis,Club Necaxa,4-0,Final
+14,28/10/2023,03:00,Club Necaxa,Pumas UNAM,1-0,Final
+14,28/10/2023,03:00,Mazatlán FC,Gallos Blancos,3-0,Final
+14,29/10/2023,03:00,Cruz Azul,Club León,1-0,Final
+14,29/10/2023,03:00,CF Pachuca,Puebla FC,1-1,Final
+14,29/10/2023,03:00,Deportivo Guadalajara,UANL Tigres,0-4,Final
+14,29/10/2023,03:00,CF Monterrey,CF América,0-3,Final
+14,29/10/2023,03:00,Deportivo Toluca,Atlético San Luis,3-1,Final
+14,30/10/2023,03:00,Santos Laguna,FC Juárez,5-1,Final
+14,30/10/2023,03:00,Club Tijuana,Atlas Guadalajara,2-0,Final
+15,01/11/2023,03:00,Deportivo Toluca,Puebla FC,0-1,Final
+15,01/11/2023,03:00,Gallos Blancos,Deportivo Guadalajara,1-2,Final
+15,01/11/2023,03:00,CF Monterrey,Club Necaxa,3-0,Final
+15,01/11/2023,03:00,Club León,Pumas UNAM,1-1,Final
+15,02/11/2023,03:00,Atlas Guadalajara,CF Pachuca,0-2,Final
+15,02/11/2023,03:00,Cruz Azul,FC Juárez,2-0,Final
+15,02/11/2023,03:00,Atlético San Luis,CF América,0-1,Final
+15,02/11/2023,03:00,Mazatlán FC,Santos Laguna,3-1,Final
+15,02/11/2023,03:00,Club Tijuana,UANL Tigres,2-0,Final
+16,04/11/2023,03:00,Puebla FC,Club León,5-4,Final
+16,04/11/2023,03:00,UANL Tigres,Atlético San Luis,2-2,Final
+16,05/11/2023,03:00,CF América,Club Tijuana,3-0,Final
+16,05/11/2023,03:00,Deportivo Guadalajara,Cruz Azul,1-0,Final
+16,05/11/2023,03:00,CF Pachuca,CF Monterrey,0-2,Final
+16,05/11/2023,03:00,Pumas UNAM,Atlas Guadalajara,3-0,Final
+16,05/11/2023,03:00,Club Necaxa,Mazatlán FC,4-0,Final
+16,06/11/2023,03:00,Santos Laguna,Deportivo Toluca,3-1,Final
+16,06/11/2023,03:00,FC Juárez,Gallos Blancos,0-3,Final
+17,11/11/2023,03:00,Atlas Guadalajara,Club Necaxa,0-0,Final
+17,11/11/2023,03:00,Mazatlán FC,Deportivo Toluca,1-0,Final
+17,11/11/2023,03:00,Club Tijuana,CF Pachuca,2-3,Final
+17,12/11/2023,03:00,Atlético San Luis,Santos Laguna,0-2,Final
+17,12/11/2023,03:00,Gallos Blancos,CF Monterrey,0-0,Final
+17,12/11/2023,03:00,Pumas UNAM,Deportivo Guadalajara,1-0,Final
+17,12/11/2023,03:00,UANL Tigres,CF América,0-0,Final
+17,13/11/2023,03:00,Cruz Azul,Puebla FC,1-2,Final
+17,13/11/2023,03:00,Club León,FC Juárez,2-1,Final
+18,13/01/2024,03:00,Gallos Blancos,Deportivo Toluca,2-2,Final
+18,13/01/2024,03:00,Mazatlán FC,Atlético San Luis,0-1,Final
+18,14/01/2024,03:00,Cruz Azul,CF Pachuca,0-1,Final
+18,14/01/2024,03:00,Deportivo Guadalajara,Santos Laguna,1-1,Final
+18,14/01/2024,03:00,CF Monterrey,Puebla FC,2-0,Final
+18,14/01/2024,03:00,Club Tijuana,CF América,0-2,Final
+18,14/01/2024,03:00,Pumas UNAM,FC Juárez,1-0,Final
+18,15/01/2024,03:00,Club Necaxa,Atlas Guadalajara,2-1,Final
+18,18/01/2024,03:00,Club León,UANL Tigres,1-2,Final
+19,20/01/2024,03:00,Puebla FC,Club Necaxa,1-2,Final
+19,20/01/2024,03:00,Atlético San Luis,Pumas UNAM,3-1,Final
+19,20/01/2024,03:00,FC Juárez,Cruz Azul,0-0,Final
+19,21/01/2024,03:00,Deportivo Toluca,Mazatlán FC,4-1,Final
+19,21/01/2024,03:00,CF América,Gallos Blancos,2-0,Final
+19,21/01/2024,03:00,Atlas Guadalajara,Club Tijuana,0-0,Final
+19,22/01/2024,03:00,UANL Tigres,Deportivo Guadalajara,1-0,Final
+19,22/01/2024,03:00,Santos Laguna,CF Monterrey,0-2,Final
+19,08/02/2024,03:00,CF Pachuca,Club León,3-2,Final
+20,27/01/2024,03:00,Puebla FC,Deportivo Toluca,1-1,Final
+20,27/01/2024,03:00,Club Tijuana,Deportivo Guadalajara,1-1,Final
+20,28/01/2024,03:00,Cruz Azul,Mazatlán FC,2-1,Final
+20,28/01/2024,03:00,Club León,Santos Laguna,3-2,Final
+20,28/01/2024,03:00,CF Monterrey,Atlético San Luis,3-1,Final
+20,28/01/2024,03:00,Club Necaxa,CF América,0-0,Final
+20,29/01/2024,03:00,Pumas UNAM,CF Pachuca,3-1,Final
+20,29/01/2024,03:00,Atlas Guadalajara,FC Juárez,2-1,Final
+20,29/01/2024,03:00,Gallos Blancos,UANL Tigres,1-1,Final
+21,25/01/2024,03:00,Atlético San Luis,UANL Tigres,1-2,Final
+21,25/01/2024,03:00,CF Monterrey,Gallos Blancos,1-1,Final
+21,25/01/2024,03:00,FC Juárez,CF América,0-2,Final
+21,31/01/2024,03:00,Cruz Azul,Club Tijuana,1-0,Final
+21,31/01/2024,03:00,Mazatlán FC,Club León,2-2,Final
+21,31/01/2024,03:00,Santos Laguna,Puebla FC,3-0,Final
+21,31/01/2024,03:00,Deportivo Guadalajara,Deportivo Toluca,3-2,Final
+21,01/02/2024,03:00,CF Pachuca,Atlas Guadalajara,4-3,Final
+21,01/02/2024,03:00,Pumas UNAM,Club Necaxa,2-2,Final
+22,03/02/2024,03:00,Gallos Blancos,Cruz Azul,1-3,Final
+22,03/02/2024,03:00,Puebla FC,Mazatlán FC,3-2,Final
+22,04/02/2024,03:00,Deportivo Toluca,Club León,4-1,Final
+22,04/02/2024,03:00,FC Juárez,Club Necaxa,2-2,Final
+22,04/02/2024,03:00,UANL Tigres,Pumas UNAM,2-2,Final
+22,04/02/2024,03:00,CF Pachuca,Club Tijuana,3-2,Final
+22,04/02/2024,03:00,CF América,CF Monterrey,1-1,Final
+22,05/02/2024,03:00,Atlas Guadalajara,Santos Laguna,3-0,Final
+22,05/02/2024,03:00,Atlético San Luis,Deportivo Guadalajara,0-2,Final
+23,10/02/2024,03:00,Mazatlán FC,Atlas Guadalajara,2-0,Final
+23,10/02/2024,03:00,Club Tijuana,Gallos Blancos,1-1,Final
+23,11/02/2024,03:00,Club Necaxa,Deportivo Toluca,3-3,Final
+23,11/02/2024,03:00,Deportivo Guadalajara,FC Juárez,2-1,Final
+23,11/02/2024,03:00,Club León,CF América,0-1,Final
+23,11/02/2024,03:00,Cruz Azul,Atlético San Luis,3-0,Final
+23,11/02/2024,03:00,CF Monterrey,CF Pachuca,3-2,Final
+23,11/02/2024,03:00,Santos Laguna,UANL Tigres,0-3,Final
+23,11/02/2024,03:00,Pumas UNAM,Puebla FC,3-0,Final
+24,17/02/2024,03:00,Gallos Blancos,Club Necaxa,1-1,Final
+24,17/02/2024,03:00,Mazatlán FC,Deportivo Guadalajara,2-2,Final
+24,18/02/2024,03:00,Atlético San Luis,Club Tijuana,3-3,Final
+24,18/02/2024,03:00,CF Pachuca,CF América,2-1,Final
+24,18/02/2024,03:00,Cruz Azul,UANL Tigres,1-0,Final
+24,18/02/2024,03:00,Atlas Guadalajara,Club León,0-1,Final
+24,19/02/2024,03:00,Pumas UNAM,Santos Laguna,3-0,Final
+24,19/02/2024,03:00,CF Monterrey,Deportivo Toluca,0-0,Final
+24,24/03/2024,03:00,FC Juárez,Puebla FC,4-3,Final
+25,24/02/2024,03:00,Puebla FC,Gallos Blancos,0-2,Final
+25,24/02/2024,03:00,Club Necaxa,CF Pachuca,1-1,Final
+25,24/02/2024,03:00,FC Juárez,CF Monterrey,0-3,Final
+25,25/02/2024,03:00,Club León,Atlético San Luis,1-0,Final
+25,25/02/2024,03:00,UANL Tigres,Atlas Guadalajara,1-1,Final
+25,25/02/2024,03:00,Deportivo Guadalajara,Pumas UNAM,3-1,Final
+25,25/02/2024,03:00,CF América,Cruz Azul,1-0,Final
+25,25/02/2024,03:00,Deportivo Toluca,Club Tijuana,2-0,Final
+25,26/02/2024,03:00,Santos Laguna,Mazatlán FC,1-0,Final
+26,15/02/2024,03:00,Atlas Guadalajara,Pumas UNAM,0-0,Final
+26,21/02/2024,03:00,Puebla FC,CF Pachuca,1-4,Final
+26,21/02/2024,03:00,Club Necaxa,Deportivo Guadalajara,1-0,Final
+26,22/02/2024,03:00,Deportivo Toluca,Santos Laguna,1-0,Final
+26,22/02/2024,03:00,Club León,Cruz Azul,2-3,Final
+26,22/02/2024,03:00,CF América,Mazatlán FC,2-2,Final
+26,28/02/2024,03:00,Gallos Blancos,Atlético San Luis,4-1,Final
+26,29/02/2024,03:00,UANL Tigres,FC Juárez,1-0,Final
+26,29/02/2024,03:00,Club Tijuana,CF Monterrey,1-1,Final
+27,02/03/2024,03:00,Gallos Blancos,Santos Laguna,0-1,Final
+27,02/03/2024,03:00,Atlético San Luis,Puebla FC,4-0,Final
+27,02/03/2024,03:00,Mazatlán FC,Club Necaxa,2-1,Final
+27,03/03/2024,03:00,Deportivo Toluca,UANL Tigres,2-1,Final
+27,03/03/2024,03:00,CF Pachuca,FC Juárez,3-2,Final
+27,03/03/2024,03:00,Cruz Azul,Deportivo Guadalajara,3-0,Final
+27,03/03/2024,03:00,Atlas Guadalajara,CF América,1-5,Final
+27,04/03/2024,03:00,CF Monterrey,Pumas UNAM,3-0,Final
+27,04/03/2024,03:00,Club Tijuana,Club León,1-1,Final
+28,09/03/2024,03:00,Puebla FC,Atlas Guadalajara,2-2,Final
+28,09/03/2024,03:00,Club Necaxa,Atlético San Luis,3-1,Final
+28,09/03/2024,03:00,FC Juárez,Deportivo Toluca,1-1,Final
+28,10/03/2024,03:00,Deportivo Guadalajara,Club León,1-2,Final
+28,10/03/2024,03:00,CF Pachuca,Gallos Blancos,1-2,Final
+28,10/03/2024,03:00,Santos Laguna,Cruz Azul,3-0,Final
+28,10/03/2024,03:00,CF América,UANL Tigres,2-0,Final
+28,10/03/2024,03:00,Pumas UNAM,Club Tijuana,3-3,Final
+28,11/03/2024,03:00,CF Monterrey,Mazatlán FC,2-1,Final
+29,16/03/2024,03:00,Gallos Blancos,FC Juárez,1-0,Final
+29,16/03/2024,03:00,Club Tijuana,Santos Laguna,2-2,Final
+29,17/03/2024,03:00,Cruz Azul,Club Necaxa,1-2,Final
+29,17/03/2024,03:00,Club León,Puebla FC,2-1,Final
+29,17/03/2024,03:00,UANL Tigres,Mazatlán FC,5-1,Final
+29,17/03/2024,03:00,Deportivo Guadalajara,CF América,0-0,Final
+29,18/03/2024,03:00,Atlas Guadalajara,CF Monterrey,1-2,Final
+29,18/03/2024,03:00,Deportivo Toluca,Pumas UNAM,3-0,Final
+29,18/03/2024,03:00,Atlético San Luis,CF Pachuca,2-1,Final
+30,30/03/2024,03:00,Puebla FC,UANL Tigres,2-3,Final
+30,30/03/2024,03:00,CF América,Atlético San Luis,2-1,Final
+30,30/03/2024,03:00,Mazatlán FC,Club Tijuana,2-0,Final
+30,31/03/2024,03:00,CF Pachuca,Deportivo Toluca,2-3,Final
+30,31/03/2024,03:00,CF Monterrey,Deportivo Guadalajara,0-2,Final
+30,31/03/2024,03:00,Pumas UNAM,Cruz Azul,0-0,Final
+30,01/04/2024,03:00,Atlas Guadalajara,Gallos Blancos,2-3,Final
+30,01/04/2024,03:00,Club Necaxa,Club León,1-2,Final
+30,01/04/2024,03:00,FC Juárez,Santos Laguna,2-1,Final
+31,06/04/2024,03:00,Mazatlán FC,Pumas UNAM,0-4,Final
+31,06/04/2024,03:00,Club Tijuana,Club Necaxa,2-3,Final
+31,07/04/2024,03:00,Club León,Gallos Blancos,0-2,Final
+31,07/04/2024,03:00,UANL Tigres,CF Pachuca,0-3,Final
+31,07/04/2024,03:00,Deportivo Guadalajara,Puebla FC,3-2,Final
+31,07/04/2024,03:00,Cruz Azul,CF Monterrey,2-1,Final
+31,07/04/2024,03:00,Santos Laguna,CF América,1-1,Final
+31,07/04/2024,03:00,Deportivo Toluca,Atlas Guadalajara,4-1,Final
+31,08/04/2024,03:00,Atlético San Luis,FC Juárez,2-3,Final
+32,13/04/2024,03:00,Gallos Blancos,Mazatlán FC,0-2,Final
+32,13/04/2024,03:00,Club Necaxa,Santos Laguna,2-0,Final
+32,13/04/2024,03:00,Puebla FC,Cruz Azul,0-1,Final
+32,14/04/2024,03:00,CF Pachuca,Deportivo Guadalajara,0-1,Final
+32,14/04/2024,03:00,CF América,Deportivo Toluca,5-1,Final
+32,14/04/2024,03:00,CF Monterrey,UANL Tigres,3-3,Final
+32,15/04/2024,03:00,Atlas Guadalajara,Atlético San Luis,2-1,Final
+32,15/04/2024,03:00,Pumas UNAM,Club León,1-0,Final
+32,15/04/2024,03:00,FC Juárez,Club Tijuana,0-1,Final
+33,20/04/2024,03:00,Mazatlán FC,FC Juárez,0-2,Final
+33,20/04/2024,03:00,Atlético San Luis,Deportivo Toluca,1-5,Final
+33,20/04/2024,03:00,Club Tijuana,Puebla FC,3-1,Final
+33,21/04/2024,03:00,Club León,CF Monterrey,2-0,Final
+33,21/04/2024,03:00,UANL Tigres,Club Necaxa,5-2,Final
+33,21/04/2024,03:00,Deportivo Guadalajara,Gallos Blancos,2-0,Final
+33,21/04/2024,03:00,Santos Laguna,CF Pachuca,0-2,Final
+33,21/04/2024,03:00,Pumas UNAM,CF América,2-1,Final
+33,22/04/2024,03:00,Cruz Azul,Atlas Guadalajara,2-2,Final
+34,27/04/2024,03:00,Puebla FC,CF América,1-2,Final
+34,27/04/2024,03:00,Gallos Blancos,Pumas UNAM,1-1,Final
+34,28/04/2024,03:00,FC Juárez,Club León,1-1,Final
+34,28/04/2024,03:00,UANL Tigres,Club Tijuana,4-1,Final
+34,28/04/2024,03:00,Deportivo Toluca,Cruz Azul,0-1,Final
+34,28/04/2024,03:00,CF Pachuca,Mazatlán FC,1-1,Final
+34,28/04/2024,03:00,Atlas Guadalajara,Deportivo Guadalajara,0-1,Final
+34,29/04/2024,03:00,Club Necaxa,CF Monterrey,2-5,Final
+34,29/04/2024,03:00,Santos Laguna,Atlético San Luis,0-3,Final

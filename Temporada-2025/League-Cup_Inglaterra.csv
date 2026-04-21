@@ -1,0 +1,94 @@
+matchday,date,time,home_team,away_team,result,status
+1,13/08/2024,13:30,Carlisle,Stoke City,0-2,Final
+1,13/08/2024,13:30,Leyton Orient,Newport County,4-1,Final
+1,13/08/2024,13:30,Stockport County,Blackburn,1-6,Final
+1,13/08/2024,13:45,Huddersfield,Morecambe,3-0,Final
+1,13/08/2024,13:45,Watford,Milton Keynes Dons,5-0,Final
+2,13/08/2024,13:45,Cardiff,Bristol Rovers,2-0,Final
+2,13/08/2024,13:45,Bristol City,Coventry,0-1,Final
+2,13/08/2024,13:45,Preston,Sunderland,2-0,Final
+2,13/08/2024,13:45,Wigan,Barnsley,1-1,Final
+2,13/08/2024,13:45,Bolton,Mansfield Town,1-1,Final
+3,13/08/2024,13:45,Derby,Chesterfield,2-1,Final
+3,13/08/2024,13:45,Norwich,Stevenage,4-3,Final
+3,13/08/2024,13:45,Rotherham,Crewe,2-1,Final
+3,13/08/2024,13:45,Swansea,Gillingham,3-1,Final
+3,13/08/2024,13:45,Burton Albion,Blackpool,0-4,Final
+4,13/08/2024,13:45,Charlton,Birmingham,0-1,Final
+4,13/08/2024,13:45,Fleetwood Town,West Brom,2-1,Final
+4,13/08/2024,13:45,Northampton,Wycombe,0-2,Final
+4,13/08/2024,13:45,Oxford United,Peterborough,2-0,Final
+4,13/08/2024,13:45,Walsall,Exeter City,1-1,Final
+5,13/08/2024,13:45,Shrewsbury,Notts County,3-3,Final
+5,13/08/2024,13:45,Portsmouth,Millwall,0-1,Final
+5,13/08/2024,13:45,Colchester,Reading,2-2,Final
+5,13/08/2024,13:45,Crawley Town,Swindon Town,4-2,Final
+5,13/08/2024,13:45,Grimsby,Bradford,1-1,Final
+6,13/08/2024,13:45,Cambridge United,QPR,1-2,Final
+6,13/08/2024,13:45,Lincoln,Harrogate Town,1-2,Final
+6,13/08/2024,13:45,Tranmere,Accrington ST,3-0,Final
+6,13/08/2024,13:45,Barrow,Port Vale,3-2,Final
+6,13/08/2024,13:45,Bromley,AFC Wimbledon,1-2,Final
+7,13/08/2024,13:45,Salford City,Doncaster,0-2,Final
+7,13/08/2024,14:00,Sheffield Utd,Wrexham,4-2,Final
+7,14/08/2024,13:45,Hull City,Sheffield Wednesday,1-2,Final
+7,14/08/2024,13:45,Plymouth,Cheltenham,3-0,Final
+7,14/08/2024,14:00,Leeds,Middlesbrough,0-3,Final
+8,27/08/2024,13:15,Middlesbrough,Stoke City,0-5,Final
+8,27/08/2024,13:45,Watford,Plymouth,2-0,Final
+8,27/08/2024,13:45,Everton,Doncaster,3-0,Final
+8,27/08/2024,13:45,Leicester,Tranmere,4-0,Final
+8,27/08/2024,13:45,Brighton,Crawley Town,4-0,Final
+9,27/08/2024,13:45,Millwall,Leyton Orient,0-1,Final
+9,27/08/2024,13:45,Blackburn,Blackpool,1-2,Final
+9,27/08/2024,13:45,QPR,Luton,1-1,Final
+9,27/08/2024,13:45,Barnsley,Sheffield Utd,1-0,Final
+9,27/08/2024,13:45,Fleetwood Town,Rotherham,2-1,Final
+10,27/08/2024,13:45,Walsall,Huddersfield,3-2,Final
+10,27/08/2024,13:45,Coventry,Oxford United,1-0,Final
+10,27/08/2024,13:45,Shrewsbury,Bolton,0-2,Final
+10,27/08/2024,13:45,Grimsby,Sheffield Wednesday,1-5,Final
+10,27/08/2024,13:45,Barrow,Derby,0-0,Final
+11,27/08/2024,13:45,Harrogate Town,Preston,0-5,Final
+11,27/08/2024,14:00,Crystal Palace,Norwich,4-0,Final
+11,27/08/2024,14:00,Birmingham,Fulham,0-2,Final
+11,28/08/2024,13:30,Wolves,Burnley,2-0,Final
+11,28/08/2024,13:45,Cardiff,Southampton,3-5,Final
+12,28/08/2024,13:45,West Ham,Bournemouth,1-0,Final
+12,28/08/2024,13:45,Swansea,Wycombe,0-1,Final
+12,28/08/2024,13:45,AFC Wimbledon,Ipswich,2-2,Final
+12,28/08/2024,13:45,Colchester,Brentford,0-1,Final
+12,28/08/2024,14:00,Nottingham Forest,Newcastle,1-1,Final
+13,17/09/2024,13:30,Stoke City,Fleetwood Town,1-1,Final
+13,17/09/2024,13:45,Everton,Southampton,1-1,Final
+13,17/09/2024,13:45,Brentford,Leyton Orient,3-1,Final
+13,17/09/2024,13:45,Preston,Fulham,1-1,Final
+13,17/09/2024,13:45,QPR,Crystal Palace,1-2,Final
+14,17/09/2024,13:45,Blackpool,Sheffield Wednesday,0-1,Final
+14,17/09/2024,14:00,Manchester United,Barnsley,7-0,Final
+14,18/09/2024,13:45,Brighton,Wolves,3-2,Final
+14,18/09/2024,14:00,Coventry,Tottenham,1-2,Final
+14,24/09/2024,13:45,Chelsea,Barrow,5-0,Final
+15,24/09/2024,13:45,Manchester City,Watford,2-1,Final
+15,24/09/2024,13:45,Walsall,Leicester,0-0,Final
+15,24/09/2024,14:00,Wycombe,Aston Villa,1-2,Final
+15,25/09/2024,13:45,Arsenal,Bolton,5-1,Final
+15,25/09/2024,14:00,Liverpool,West Ham,5-1,Final
+16,01/10/2024,13:45,Newcastle,AFC Wimbledon,1-0,Final
+16,29/10/2024,14:45,Southampton,Stoke City,3-2,Final
+16,29/10/2024,15:00,Brentford,Sheffield Wednesday,1-1,Final
+16,30/10/2024,14:30,Brighton,Liverpool,2-3,Final
+16,30/10/2024,14:45,Manchester United,Leicester,5-2,Final
+17,30/10/2024,14:45,Newcastle,Chelsea,2-0,Final
+17,30/10/2024,14:45,Preston,Arsenal,0-3,Final
+17,30/10/2024,14:45,Aston Villa,Crystal Palace,1-2,Final
+17,30/10/2024,15:15,Tottenham,Manchester City,2-1,Final
+17,18/12/2024,14:30,Arsenal,Crystal Palace,3-2,Final
+18,18/12/2024,14:45,Newcastle,Brentford,3-1,Final
+18,18/12/2024,15:00,Southampton,Liverpool,1-2,Final
+18,19/12/2024,15:00,Tottenham,Manchester United,4-3,Final
+18,07/01/2025,15:00,Arsenal,Newcastle,0-2,Final
+18,08/01/2025,15:00,Tottenham,Liverpool,1-0,Final
+19,05/02/2025,15:00,Newcastle,Arsenal,2-0,Final
+19,06/02/2025,15:00,Liverpool,Tottenham,4-0,Final
+19,16/03/2025,11:30,Liverpool,Newcastle,1-2,Final

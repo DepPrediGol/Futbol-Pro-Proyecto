@@ -1,0 +1,307 @@
+matchday,date,time,home_team,away_team,result,status
+1,22/08/2024,03:00,Al Taawoun,Al Fayha,1-0,Final
+1,22/08/2024,03:00,Al Wehda,Al Riyadh,3-3,Final
+1,22/08/2024,03:00,Al Nassr,Al Ra’ed,1-1,Final
+1,23/08/2024,03:00,Damac FC,Al Khaleej,0-1,Final
+1,23/08/2024,03:00,Al Ahli SFC,Al Orobah,2-0,Final
+1,23/08/2024,03:00,Al Qadsiah,Al Fateh,3-0,Final
+1,24/08/2024,03:00,Al Kholood,Al Ittihad,0-1,Final
+1,24/08/2024,03:00,Al Okhdood,Al Hilal,0-3,Final
+1,24/08/2024,03:00,Al Shabab,Al Ettifaq,0-1,Final
+2,27/08/2024,03:00,Al Fateh,Al Ahli SFC,1-0,Final
+2,27/08/2024,03:00,Al Ra’ed,Al Qadsiah,0-1,Final
+2,27/08/2024,03:00,Al Fayha,Al Nassr,1-4,Final
+2,28/08/2024,03:00,Al Ettifaq,Al Okhdood,1-0,Final
+2,28/08/2024,03:00,Al Hilal,Damac FC,3-2,Final
+2,28/08/2024,03:00,Al Wehda,Al Orobah,2-1,Final
+2,29/08/2024,03:00,Al Riyadh,Al Kholood,3-1,Final
+2,29/08/2024,03:00,Al Khaleej,Al Shabab,0-1,Final
+2,29/08/2024,03:00,Al Ittihad,Al Taawoun,2-1,Final
+3,13/09/2024,03:00,Al Taawoun,Al Khaleej,2-0,Final
+3,13/09/2024,03:00,Damac FC,Al Okhdood,3-1,Final
+3,13/09/2024,03:00,Al Nassr,Al Ahli SFC,1-1,Final
+3,14/09/2024,03:00,Al Fateh,Al Ettifaq,1-2,Final
+3,14/09/2024,03:00,Al Fayha,Al Ra’ed,0-5,Final
+3,14/09/2024,03:00,Al Riyadh,Al Hilal,0-3,Final
+3,15/09/2024,03:00,Al Qadsiah,Al Shabab,0-1,Final
+3,15/09/2024,03:00,Al Kholood,Al Orobah,3-3,Final
+3,15/09/2024,03:00,Al Ittihad,Al Wehda,7-1,Final
+4,19/09/2024,03:00,Al Okhdood,Al Qadsiah,0-0,Final
+4,19/09/2024,03:00,Al Orobah,Al Fateh,1-0,Final
+4,19/09/2024,03:00,Al Wehda,Al Kholood,0-1,Final
+4,20/09/2024,03:00,Al Khaleej,Al Fayha,0-0,Final
+4,20/09/2024,03:00,Al Ahli SFC,Damac FC,4-2,Final
+4,20/09/2024,03:00,Al Ettifaq,Al Nassr,0-3,Final
+4,21/09/2024,03:00,Al Shabab,Al Taawoun,1-0,Final
+4,21/09/2024,03:00,Al Ra’ed,Al Riyadh,1-2,Final
+4,21/09/2024,03:00,Al Hilal,Al Ittihad,3-1,Final
+5,27/09/2024,03:00,Al Nassr,Al Wehda,2-0,Final
+5,27/09/2024,03:00,Al Qadsiah,Al Ahli SFC,1-0,Final
+5,27/09/2024,03:00,Al Ittihad,Al Khaleej,4-1,Final
+5,28/09/2024,03:00,Al Fateh,Al Okhdood,2-4,Final
+5,28/09/2024,03:00,Al Orobah,Damac FC,1-0,Final
+5,28/09/2024,03:00,Al Kholood,Al Hilal,2-4,Final
+5,29/09/2024,03:00,Al Fayha,Al Riyadh,2-0,Final
+5,29/09/2024,03:00,Al Taawoun,Al Ettifaq,1-1,Final
+5,29/09/2024,03:00,Al Shabab,Al Ra’ed,2-1,Final
+6,03/10/2024,03:00,Al Ettifaq,Al Ra’ed,0-1,Final
+6,03/10/2024,03:00,Al Okhdood,Al Ittihad,1-2,Final
+6,03/10/2024,03:00,Al Wehda,Al Fayha,2-2,Final
+6,04/10/2024,03:00,Al Khaleej,Al Kholood,1-0,Final
+6,04/10/2024,03:00,Al Riyadh,Al Qadsiah,2-1,Final
+6,04/10/2024,03:00,Damac FC,Al Shabab,1-0,Final
+6,05/10/2024,03:00,Al Nassr,Al Orobah,3-0,Final
+6,05/10/2024,03:00,Al Taawoun,Al Fateh,2-0,Final
+6,05/10/2024,03:00,Al Ahli SFC,Al Hilal,1-2,Final
+7,18/10/2024,03:00,Al Khaleej,Al Ahli SFC,0-3,Final
+7,18/10/2024,03:00,Al Hilal,Al Fayha,3-0,Final
+7,18/10/2024,03:00,Al Shabab,Al Nassr,1-2,Final
+7,19/10/2024,03:00,Al Ra’ed,Al Wehda,2-2,Final
+7,19/10/2024,03:00,Damac FC,Al Taawoun,2-2,Final
+7,19/10/2024,03:00,Al Ittihad,Al Qadsiah,3-1,Final
+7,20/10/2024,03:00,Al Fateh,Al Kholood,1-1,Final
+7,20/10/2024,03:00,Al Okhdood,Al Riyadh,0-1,Final
+7,20/10/2024,03:00,Al Ettifaq,Al Orobah,2-3,Final
+8,24/10/2024,03:00,Al Orobah,Al Shabab,0-3,Final
+8,24/10/2024,03:00,Al Riyadh,Al Ittihad,0-1,Final
+8,24/10/2024,03:00,Al Wehda,Al Khaleej,1-3,Final
+8,25/10/2024,03:00,Al Qadsiah,Damac FC,2-1,Final
+8,25/10/2024,03:00,Al Kholood,Al Nassr,3-3,Final
+8,25/10/2024,03:00,Al Ahli SFC,Al Okhdood,1-1,Final
+8,26/10/2024,03:00,Al Fayha,Al Ettifaq,1-1,Final
+8,26/10/2024,03:00,Al Ra’ed,Al Fateh,2-1,Final
+8,26/10/2024,03:00,Al Hilal,Al Taawoun,2-0,Final
+9,31/10/2024,03:00,Al Shabab,Al Wehda,3-1,Final
+9,31/10/2024,03:00,Al Okhdood,Al Orobah,4-0,Final
+9,31/10/2024,03:00,Al Ittihad,Al Ahli SFC,1-0,Final
+9,01/11/2024,03:00,Al Khaleej,Al Ra’ed,4-0,Final
+9,01/11/2024,03:00,Damac FC,Al Riyadh,2-2,Final
+9,01/11/2024,03:00,Al Nassr,Al Hilal,1-1,Final
+9,02/11/2024,03:00,Al Fateh,Al Fayha,1-1,Final
+9,02/11/2024,03:00,Al Taawoun,Al Kholood,1-1,Final
+9,02/11/2024,03:00,Al Ettifaq,Al Qadsiah,0-2,Final
+10,07/11/2024,03:00,Al Qadsiah,Al Fayha,2-0,Final
+10,07/11/2024,03:00,Al Kholood,Al Shabab,0-2,Final
+10,07/11/2024,03:00,Al Orobah,Al Ittihad,0-2,Final
+10,08/11/2024,03:00,Al Hilal,Al Ettifaq,3-1,Final
+10,08/11/2024,03:00,Al Ahli SFC,Al Ra’ed,2-0,Final
+10,08/11/2024,03:00,Al Riyadh,Al Nassr,0-1,Final
+10,09/11/2024,03:00,Al Fateh,Al Khaleej,1-2,Final
+10,09/11/2024,03:00,Al Wehda,Damac FC,2-3,Final
+10,09/11/2024,03:00,Al Taawoun,Al Okhdood,1-0,Final
+11,22/11/2024,03:00,Al Fayha,Al Ahli SFC,0-1,Final
+11,22/11/2024,03:00,Al Okhdood,Al Shabab,1-1,Final
+11,22/11/2024,03:00,Al Nassr,Al Qadsiah,1-2,Final
+11,23/11/2024,03:00,Al Ra’ed,Al Orobah,3-1,Final
+11,23/11/2024,03:00,Al Wehda,Al Taawoun,1-0,Final
+11,23/11/2024,03:00,Al Khaleej,Al Hilal,3-2,Final
+11,24/11/2024,03:00,Damac FC,Al Kholood,2-1,Final
+11,24/11/2024,03:00,Al Riyadh,Al Ettifaq,0-0,Final
+11,24/11/2024,03:00,Al Ittihad,Al Fateh,2-0,Final
+12,28/11/2024,03:00,Al Fayha,Al Orobah,0-1,Final
+12,28/11/2024,03:00,Al Okhdood,Al Kholood,1-2,Final
+12,28/11/2024,03:00,Al Fateh,Al Riyadh,1-2,Final
+12,29/11/2024,03:00,Al Qadsiah,Al Khaleej,1-0,Final
+12,29/11/2024,03:00,Al Nassr,Damac FC,2-0,Final
+12,29/11/2024,03:00,Al Ahli SFC,Al Wehda,1-0,Final
+12,30/11/2024,03:00,Al Ra’ed,Al Taawoun,0-1,Final
+12,30/11/2024,03:00,Al Ettifaq,Al Ittihad,0-4,Final
+12,30/11/2024,03:00,Al Shabab,Al Hilal,1-2,Final
+13,05/12/2024,03:00,Damac FC,Al Fayha,2-2,Final
+13,05/12/2024,03:00,Al Wehda,Al Okhdood,2-3,Final
+13,05/12/2024,03:00,Al Shabab,Al Fateh,2-2,Final
+13,06/12/2024,03:00,Al Kholood,Al Qadsiah,0-3,Final
+13,06/12/2024,03:00,Al Orobah,Al Riyadh,0-1,Final
+13,06/12/2024,03:00,Al Ittihad,Al Nassr,2-1,Final
+13,07/12/2024,03:00,Al Khaleej,Al Ettifaq,1-2,Final
+13,07/12/2024,03:00,Al Taawoun,Al Ahli SFC,2-4,Final
+13,07/12/2024,03:00,Al Hilal,Al Ra’ed,3-2,Final
+14,09/01/2025,03:00,Al Fateh,Al Wehda,1-2,Final
+14,09/01/2025,03:00,Al Riyadh,Al Khaleej,2-2,Final
+14,09/01/2025,03:00,Al Nassr,Al Okhdood,3-1,Final
+14,10/01/2025,03:00,Al Ettifaq,Al Kholood,2-3,Final
+14,10/01/2025,03:00,Al Ra’ed,Damac FC,0-2,Final
+14,10/01/2025,03:00,Al Ahli SFC,Al Shabab,3-2,Final
+14,11/01/2025,03:00,Al Orobah,Al Hilal,0-5,Final
+14,11/01/2025,03:00,Al Qadsiah,Al Taawoun,0-3,Final
+14,11/01/2025,03:00,Al Fayha,Al Ittihad,1-1,Final
+15,15/01/2025,03:00,Al Shabab,Al Riyadh,2-1,Final
+15,15/01/2025,03:00,Damac FC,Al Ettifaq,0-3,Final
+15,15/01/2025,03:00,Al Kholood,Al Ahli SFC,1-0,Final
+15,16/01/2025,03:00,Al Okhdood,Al Fayha,1-2,Final
+15,16/01/2025,03:00,Al Hilal,Al Fateh,9-0,Final
+15,16/01/2025,03:00,Al Ittihad,Al Ra’ed,4-1,Final
+15,17/01/2025,03:00,Al Khaleej,Al Orobah,3-0,Final
+15,17/01/2025,03:00,Al Wehda,Al Qadsiah,0-3,Final
+15,17/01/2025,03:00,Al Taawoun,Al Nassr,1-1,Final
+16,20/01/2025,03:00,Al Fayha,Al Kholood,1-0,Final
+16,20/01/2025,03:00,Al Ra’ed,Al Okhdood,0-2,Final
+16,20/01/2025,03:00,Al Ettifaq,Al Ahli SFC,1-2,Final
+16,21/01/2025,03:00,Al Khaleej,Al Nassr,1-3,Final
+16,21/01/2025,03:00,Al Riyadh,Al Taawoun,1-0,Final
+16,21/01/2025,03:00,Al Hilal,Al Wehda,4-1,Final
+16,22/01/2025,03:00,Al Orobah,Al Qadsiah,0-2,Final
+16,22/01/2025,03:00,Al Fateh,Damac FC,2-1,Final
+16,22/01/2025,03:00,Al Ittihad,Al Shabab,2-1,Final
+17,25/01/2025,03:00,Al Kholood,Al Ra’ed,2-1,Final
+17,25/01/2025,03:00,Al Wehda,Al Ettifaq,2-2,Final
+17,26/01/2025,03:00,Al Taawoun,Al Orobah,0-0,Final
+17,26/01/2025,03:00,Al Okhdood,Al Khaleej,1-2,Final
+17,26/01/2025,03:00,Al Ahli SFC,Al Riyadh,5-0,Final
+17,26/01/2025,03:00,Al Nassr,Al Fateh,3-1,Final
+17,27/01/2025,03:00,Damac FC,Al Ittihad,2-1,Final
+17,27/01/2025,03:00,Al Shabab,Al Fayha,2-1,Final
+17,27/01/2025,03:00,Al Qadsiah,Al Hilal,2-1,Final
+18,30/01/2025,03:00,Al Orobah,Al Ahli SFC,0-2,Final
+18,30/01/2025,03:00,Al Riyadh,Al Wehda,1-0,Final
+18,30/01/2025,03:00,Al Ra’ed,Al Nassr,1-2,Final
+18,31/01/2025,03:00,Al Fayha,Al Taawoun,0-0,Final
+18,31/01/2025,03:00,Al Hilal,Al Okhdood,4-0,Final
+18,31/01/2025,03:00,Al Ettifaq,Al Shabab,3-1,Final
+18,01/02/2025,03:00,Al Khaleej,Damac FC,1-1,Final
+18,01/02/2025,03:00,Al Fateh,Al Qadsiah,1-1,Final
+18,01/02/2025,03:00,Al Ittihad,Al Kholood,4-3,Final
+19,06/02/2025,03:00,Al Qadsiah,Al Ra’ed,2-0,Final
+19,06/02/2025,03:00,Al Shabab,Al Khaleej,5-1,Final
+19,06/02/2025,03:00,Al Taawoun,Al Ittihad,1-2,Final
+19,07/02/2025,03:00,Al Orobah,Al Wehda,4-2,Final
+19,07/02/2025,03:00,Al Nassr,Al Fayha,3-0,Final
+19,07/02/2025,03:00,Al Ahli SFC,Al Fateh,2-0,Final
+19,08/02/2025,03:00,Al Kholood,Al Riyadh,3-2,Final
+19,08/02/2025,03:00,Al Okhdood,Al Ettifaq,0-2,Final
+19,08/02/2025,03:00,Damac FC,Al Hilal,2-2,Final
+20,13/02/2025,03:00,Al Okhdood,Damac FC,0-0,Final
+20,13/02/2025,03:00,Al Shabab,Al Qadsiah,2-3,Final
+20,13/02/2025,03:00,Al Ahli SFC,Al Nassr,2-3,Final
+20,14/02/2025,03:00,Al Orobah,Al Kholood,2-0,Final
+20,14/02/2025,03:00,Al Ettifaq,Al Fateh,1-2,Final
+20,14/02/2025,03:00,Al Hilal,Al Riyadh,1-1,Final
+20,15/02/2025,03:00,Al Khaleej,Al Taawoun,0-1,Final
+20,15/02/2025,03:00,Al Ra’ed,Al Fayha,0-2,Final
+20,15/02/2025,03:00,Al Wehda,Al Ittihad,1-4,Final
+21,20/02/2025,03:00,Al Fateh,Al Orobah,1-0,Final
+21,20/02/2025,03:00,Al Fayha,Al Khaleej,0-0,Final
+21,20/02/2025,03:00,Al Riyadh,Al Ra’ed,1-3,Final
+21,21/02/2025,03:00,Damac FC,Al Ahli SFC,0-2,Final
+21,21/02/2025,03:00,Al Qadsiah,Al Okhdood,2-0,Final
+21,21/02/2025,03:00,Al Nassr,Al Ettifaq,2-3,Final
+21,22/02/2025,03:00,Al Kholood,Al Wehda,1-0,Final
+21,22/02/2025,03:00,Al Taawoun,Al Shabab,2-2,Final
+21,22/02/2025,03:00,Al Ittihad,Al Hilal,4-1,Final
+22,24/02/2025,03:00,Al Okhdood,Al Fateh,1-3,Final
+22,24/02/2025,03:00,Damac FC,Al Orobah,1-2,Final
+22,25/02/2025,03:00,Al Ra’ed,Al Shabab,1-2,Final
+22,25/02/2025,03:00,Al Hilal,Al Kholood,5-1,Final
+22,25/02/2025,03:00,Al Wehda,Al Nassr,0-2,Final
+22,25/02/2025,03:00,Al Ahli SFC,Al Qadsiah,4-1,Final
+22,26/02/2025,03:00,Al Ettifaq,Al Taawoun,1-0,Final
+22,26/02/2025,03:00,Al Riyadh,Al Fayha,0-0,Final
+22,26/02/2025,03:00,Al Khaleej,Al Ittihad,1-1,Final
+23,28/02/2025,03:00,Al Orobah,Al Nassr,0-3,Final
+23,28/02/2025,03:00,Al Hilal,Al Ahli SFC,2-3,Final
+23,28/02/2025,03:00,Al Shabab,Damac FC,2-0,Final
+23,01/03/2025,03:00,Al Fayha,Al Wehda,0-0,Final
+23,01/03/2025,03:00,Al Kholood,Al Khaleej,2-1,Final
+23,01/03/2025,03:00,Al Fateh,Al Taawoun,1-2,Final
+23,02/03/2025,03:00,Al Ra’ed,Al Ettifaq,1-1,Final
+23,02/03/2025,03:00,Al Ittihad,Al Okhdood,1-1,Final
+23,02/03/2025,03:00,Al Qadsiah,Al Riyadh,1-0,Final
+24,06/03/2025,03:00,Al Qadsiah,Al Ittihad,1-1,Final
+24,06/03/2025,03:00,Al Kholood,Al Fateh,2-1,Final
+24,06/03/2025,03:00,Al Wehda,Al Ra’ed,3-1,Final
+24,07/03/2025,03:00,Al Ahli SFC,Al Khaleej,2-2,Final
+24,07/03/2025,03:00,Al Fayha,Al Hilal,0-2,Final
+24,07/03/2025,03:00,Al Nassr,Al Shabab,2-2,Final
+24,08/03/2025,03:00,Al Riyadh,Al Okhdood,1-0,Final
+24,08/03/2025,03:00,Al Orobah,Al Ettifaq,1-2,Final
+24,08/03/2025,03:00,Al Taawoun,Damac FC,3-0,Final
+25,13/03/2025,03:00,Al Ittihad,Al Riyadh,2-1,Final
+25,13/03/2025,03:00,Al Shabab,Al Orobah,6-0,Final
+25,13/03/2025,03:00,Al Fateh,Al Ra’ed,3-1,Final
+25,14/03/2025,03:00,Al Khaleej,Al Wehda,0-2,Final
+25,14/03/2025,03:00,Damac FC,Al Qadsiah,1-0,Final
+25,14/03/2025,03:00,Al Nassr,Al Kholood,3-1,Final
+25,15/03/2025,03:00,Al Ettifaq,Al Fayha,0-2,Final
+25,15/03/2025,03:00,Al Taawoun,Al Hilal,0-2,Final
+25,15/03/2025,03:00,Al Okhdood,Al Ahli SFC,2-1,Final
+26,04/04/2025,03:00,Al Kholood,Al Taawoun,0-2,Final
+26,04/04/2025,03:00,Al Orobah,Al Okhdood,0-1,Final
+26,04/04/2025,03:00,Al Hilal,Al Nassr,1-3,Final
+26,05/04/2025,03:00,Al Qadsiah,Al Ettifaq,1-1,Final
+26,05/04/2025,03:00,Al Riyadh,Damac FC,0-0,Final
+26,05/04/2025,03:00,Al Ahli SFC,Al Ittihad,2-2,Final
+26,06/04/2025,03:00,Al Fayha,Al Fateh,1-1,Final
+26,06/04/2025,03:00,Al Ra’ed,Al Khaleej,1-2,Final
+26,06/04/2025,03:00,Al Wehda,Al Shabab,1-3,Final
+27,10/04/2025,03:00,Al Shabab,Al Kholood,2-0,Final
+27,10/04/2025,03:00,Damac FC,Al Wehda,0-1,Final
+27,10/04/2025,03:00,Al Ittihad,Al Orobah,2-0,Final
+27,11/04/2025,03:00,Al Okhdood,Al Taawoun,1-1,Final
+27,11/04/2025,03:00,Al Ra’ed,Al Ahli SFC,0-2,Final
+27,11/04/2025,03:00,Al Ettifaq,Al Hilal,1-1,Final
+27,12/04/2025,03:00,Al Khaleej,Al Fateh,1-5,Final
+27,12/04/2025,03:00,Al Fayha,Al Qadsiah,2-1,Final
+27,12/04/2025,03:00,Al Nassr,Al Riyadh,2-1,Final
+28,17/04/2025,03:00,Al Ettifaq,Al Riyadh,1-0,Final
+28,17/04/2025,03:00,Al Hilal,Al Khaleej,3-0,Final
+28,17/04/2025,03:00,Al Shabab,Al Okhdood,0-0,Final
+28,17/04/2025,03:00,Al Fateh,Al Ittihad,2-0,Final
+28,18/04/2025,03:00,Al Kholood,Damac FC,1-3,Final
+28,18/04/2025,03:00,Al Ahli SFC,Al Fayha,5-0,Final
+28,18/04/2025,03:00,Al Qadsiah,Al Nassr,2-1,Final
+28,19/04/2025,03:00,Al Orobah,Al Ra’ed,0-4,Final
+28,19/04/2025,03:00,Al Taawoun,Al Wehda,0-2,Final
+29,21/04/2025,03:00,Al Hilal,Al Shabab,2-2,Final
+29,21/04/2025,03:00,Al Ittihad,Al Ettifaq,3-2,Final
+29,22/04/2025,03:00,Damac FC,Al Nassr,2-3,Final
+29,22/04/2025,03:00,Al Wehda,Al Ahli SFC,2-3,Final
+29,23/04/2025,03:00,Al Riyadh,Al Fateh,2-2,Final
+29,23/04/2025,03:00,Al Kholood,Al Okhdood,0-1,Final
+29,23/04/2025,03:00,Al Khaleej,Al Qadsiah,1-1,Final
+29,24/04/2025,03:00,Al Orobah,Al Fayha,2-2,Final
+29,24/04/2025,03:00,Al Taawoun,Al Ra’ed,4-3,Final
+30,01/05/2025,03:00,Al Okhdood,Al Wehda,1-2,Final
+30,01/05/2025,03:00,Al Riyadh,Al Orobah,2-4,Final
+30,01/05/2025,03:00,Al Fateh,Al Shabab,3-1,Final
+30,02/05/2025,03:00,Al Ettifaq,Al Khaleej,2-1,Final
+30,02/05/2025,03:00,Al Fayha,Damac FC,2-1,Final
+30,02/05/2025,03:00,Al Qadsiah,Al Kholood,4-1,Final
+30,07/05/2025,03:00,Al Ra’ed,Al Hilal,3-5,Final
+30,07/05/2025,03:00,Al Ahli SFC,Al Taawoun,2-0,Final
+30,07/05/2025,03:00,Al Nassr,Al Ittihad,2-3,Final
+31,10/05/2025,03:00,Al Kholood,Al Ettifaq,1-0,Final
+31,10/05/2025,03:00,Al Wehda,Al Fateh,1-0,Final
+31,10/05/2025,03:00,Al Khaleej,Al Riyadh,1-2,Final
+31,11/05/2025,03:00,Al Shabab,Al Ahli SFC,3-1,Final
+31,11/05/2025,03:00,Damac FC,Al Ra’ed,1-0,Final
+31,11/05/2025,03:00,Al Taawoun,Al Qadsiah,0-1,Final
+31,11/05/2025,03:00,Al Ittihad,Al Fayha,3-0,Final
+31,12/05/2025,03:00,Al Hilal,Al Orobah,4-0,Final
+31,12/05/2025,03:00,Al Okhdood,Al Nassr,0-9,Final
+32,15/05/2025,03:00,Al Qadsiah,Al Wehda,3-1,Final
+32,15/05/2025,03:00,Al Riyadh,Al Shabab,1-3,Final
+32,15/05/2025,03:00,Al Ra’ed,Al Ittihad,1-3,Final
+32,16/05/2025,03:00,Al Fateh,Al Hilal,3-4,Final
+32,16/05/2025,03:00,Al Orobah,Al Khaleej,1-2,Final
+32,16/05/2025,03:00,Al Nassr,Al Taawoun,1-1,Final
+32,17/05/2025,03:00,Al Ettifaq,Damac FC,0-0,Final
+32,17/05/2025,03:00,Al Fayha,Al Okhdood,2-0,Final
+32,17/05/2025,03:00,Al Ahli SFC,Al Kholood,4-1,Final
+33,20/05/2025,03:00,Al Qadsiah,Al Orobah,3-1,Final
+33,20/05/2025,03:00,Al Taawoun,Al Riyadh,3-2,Final
+33,20/05/2025,03:00,Al Shabab,Al Ittihad,2-3,Final
+33,21/05/2025,03:00,Al Nassr,Al Khaleej,2-0,Final
+33,21/05/2025,03:00,Al Kholood,Al Fayha,2-0,Final
+33,21/05/2025,03:00,Al Wehda,Al Hilal,1-1,Final
+33,22/05/2025,03:00,Al Okhdood,Al Ra’ed,1-0,Final
+33,22/05/2025,03:00,Damac FC,Al Fateh,0-1,Final
+33,22/05/2025,03:00,Al Ahli SFC,Al Ettifaq,1-3,Final
+34,26/05/2025,03:00,Al Khaleej,Al Okhdood,2-3,Final
+34,26/05/2025,03:00,Al Fateh,Al Nassr,3-2,Final
+34,26/05/2025,03:00,Al Ittihad,Damac FC,1-0,Final
+34,26/05/2025,03:00,Al Ra’ed,Al Kholood,1-2,Final
+34,26/05/2025,03:00,Al Orobah,Al Taawoun,3-2,Final
+34,26/05/2025,03:00,Al Fayha,Al Shabab,0-2,Final
+34,26/05/2025,03:00,Al Hilal,Al Qadsiah,2-0,Final
+34,26/05/2025,03:00,Al Riyadh,Al Ahli SFC,0-1,Final
+34,26/05/2025,03:00,Al Ettifaq,Al Wehda,2-1,Final

@@ -1,0 +1,307 @@
+matchday,date,time,home_team,away_team,result,status
+1,19/07/2024,03:00,Jagiellonia Białystok,Puszcza Niepołomice,2-0,Final
+1,19/07/2024,03:00,Śląsk Wrocław,Lechia Gdańsk,1-1,Final
+1,20/07/2024,03:00,GKS Katowice,Radomiak Radom,1-2,Final
+1,20/07/2024,03:00,Pogoń Szczecin,Korona Kielce,3-0,Final
+1,20/07/2024,03:00,Legia Warszawa,Zagłębie Lubin,2-0,Final
+1,21/07/2024,03:00,KS Cracovia,Piast Gliwice,1-1,Final
+1,21/07/2024,03:00,Lech Poznań,Górnik Zabrze,2-0,Final
+1,21/07/2024,03:00,Motor Lublin,Raków Częstochowa,0-2,Final
+1,22/07/2024,03:00,FKS Stal Mielec,Widzew Łódź,1-1,Final
+2,26/07/2024,03:00,Puszcza Niepołomice,Górnik Zabrze,2-2,Final
+2,26/07/2024,03:00,Lechia Gdańsk,Motor Lublin,0-2,Final
+2,27/07/2024,03:00,FKS Stal Mielec,GKS Katowice,0-1,Final
+2,27/07/2024,03:00,Radomiak Radom,Jagiellonia Białystok,2-3,Final
+2,27/07/2024,03:00,Widzew Łódź,Lech Poznań,2-1,Final
+2,28/07/2024,03:00,Zagłębie Lubin,Pogoń Szczecin,2-2,Final
+2,28/07/2024,03:00,Piast Gliwice,Śląsk Wrocław,2-0,Final
+2,28/07/2024,03:00,Korona Kielce,Legia Warszawa,0-1,Final
+2,29/07/2024,03:00,Raków Częstochowa,KS Cracovia,0-1,Final
+3,02/08/2024,03:00,Zagłębie Lubin,Puszcza Niepołomice,1-0,Final
+3,02/08/2024,03:00,Górnik Zabrze,Pogoń Szczecin,1-0,Final
+3,03/08/2024,03:00,GKS Katowice,Raków Częstochowa,0-1,Final
+3,03/08/2024,03:00,Jagiellonia Białystok,FKS Stal Mielec,2-0,Final
+3,03/08/2024,03:00,Lech Poznań,Lechia Gdańsk,3-1,Final
+3,04/08/2024,03:00,Motor Lublin,Korona Kielce,1-1,Final
+3,04/08/2024,03:00,Legia Warszawa,Piast Gliwice,1-2,Final
+3,05/08/2024,03:00,KS Cracovia,Widzew Łódź,1-3,Final
+3,14/12/2024,03:00,Śląsk Wrocław,Radomiak Radom,1-2,Final
+4,09/08/2024,03:00,Radomiak Radom,Górnik Zabrze,1-2,Final
+4,09/08/2024,03:00,Raków Częstochowa,Lech Poznań,0-0,Final
+4,10/08/2024,03:00,Korona Kielce,KS Cracovia,0-2,Final
+4,10/08/2024,03:00,Pogoń Szczecin,FKS Stal Mielec,1-0,Final
+4,11/08/2024,03:00,Lechia Gdańsk,Zagłębie Lubin,1-1,Final
+4,11/08/2024,03:00,Puszcza Niepołomice,Legia Warszawa,2-2,Final
+4,11/08/2024,03:00,Widzew Łódź,Śląsk Wrocław,0-0,Final
+4,12/08/2024,03:00,Piast Gliwice,GKS Katowice,2-2,Final
+4,25/09/2024,03:00,Motor Lublin,Jagiellonia Białystok,0-2,Final
+5,16/08/2024,03:00,Puszcza Niepołomice,Lechia Gdańsk,4-1,Final
+5,16/08/2024,03:00,GKS Katowice,Motor Lublin,0-0,Final
+5,17/08/2024,03:00,Jagiellonia Białystok,KS Cracovia,2-4,Final
+5,17/08/2024,03:00,Zagłębie Lubin,Lech Poznań,0-1,Final
+5,17/08/2024,03:00,Pogoń Szczecin,Widzew Łódź,2-0,Final
+5,18/08/2024,03:00,Śląsk Wrocław,Korona Kielce,1-1,Final
+5,18/08/2024,03:00,Legia Warszawa,Radomiak Radom,4-1,Final
+5,18/08/2024,03:00,Górnik Zabrze,Raków Częstochowa,0-0,Final
+5,19/08/2024,03:00,FKS Stal Mielec,Piast Gliwice,2-0,Final
+6,23/08/2024,03:00,Widzew Łódź,Radomiak Radom,3-2,Final
+6,23/08/2024,03:00,Lechia Gdańsk,Raków Częstochowa,1-2,Final
+6,24/08/2024,03:00,Motor Lublin,Puszcza Niepołomice,0-0,Final
+6,24/08/2024,03:00,KS Cracovia,Górnik Zabrze,3-2,Final
+6,24/08/2024,03:00,Piast Gliwice,Zagłębie Lubin,1-0,Final
+6,25/08/2024,03:00,GKS Katowice,Jagiellonia Białystok,3-1,Final
+6,25/08/2024,03:00,Lech Poznań,Pogoń Szczecin,2-0,Final
+6,25/08/2024,03:00,Śląsk Wrocław,Legia Warszawa,1-1,Final
+6,26/08/2024,03:00,Korona Kielce,FKS Stal Mielec,2-1,Final
+7,30/08/2024,03:00,Raków Częstochowa,Piast Gliwice,0-1,Final
+7,30/08/2024,03:00,FKS Stal Mielec,Lech Poznań,0-2,Final
+7,31/08/2024,03:00,Puszcza Niepołomice,Korona Kielce,0-0,Final
+7,31/08/2024,03:00,Zagłębie Lubin,GKS Katowice,1-0,Final
+7,31/08/2024,03:00,Radomiak Radom,KS Cracovia,2-1,Final
+7,01/09/2024,03:00,Górnik Zabrze,Lechia Gdańsk,2-3,Final
+7,01/09/2024,03:00,Legia Warszawa,Motor Lublin,5-2,Final
+7,01/09/2024,03:00,Pogoń Szczecin,Śląsk Wrocław,5-3,Final
+7,01/09/2024,03:00,Jagiellonia Białystok,Widzew Łódź,1-0,Final
+8,13/09/2024,03:00,Motor Lublin,Górnik Zabrze,1-0,Final
+8,13/09/2024,03:00,GKS Katowice,Widzew Łódź,2-2,Final
+8,14/09/2024,03:00,Lechia Gdańsk,Radomiak Radom,1-0,Final
+8,14/09/2024,03:00,KS Cracovia,Pogoń Szczecin,2-1,Final
+8,14/09/2024,03:00,Lech Poznań,Jagiellonia Białystok,5-0,Final
+8,15/09/2024,03:00,Piast Gliwice,Puszcza Niepołomice,1-1,Final
+8,15/09/2024,03:00,Korona Kielce,Zagłębie Lubin,2-0,Final
+8,15/09/2024,03:00,Legia Warszawa,Raków Częstochowa,0-1,Final
+8,23/10/2024,03:00,Śląsk Wrocław,FKS Stal Mielec,2-1,Final
+9,20/09/2024,03:00,Radomiak Radom,Korona Kielce,4-0,Final
+9,20/09/2024,03:00,Pogoń Szczecin,Legia Warszawa,1-0,Final
+9,21/09/2024,03:00,Puszcza Niepołomice,KS Cracovia,1-2,Final
+9,21/09/2024,03:00,Jagiellonia Białystok,Lechia Gdańsk,3-2,Final
+9,21/09/2024,03:00,Widzew Łódź,Piast Gliwice,1-0,Final
+9,21/09/2024,03:00,Górnik Zabrze,GKS Katowice,3-0,Final
+9,22/09/2024,03:00,FKS Stal Mielec,Motor Lublin,1-0,Final
+9,22/09/2024,03:00,Raków Częstochowa,Zagłębie Lubin,5-1,Final
+9,22/09/2024,03:00,Lech Poznań,Śląsk Wrocław,1-0,Final
+10,27/09/2024,03:00,GKS Katowice,Pogoń Szczecin,3-1,Final
+10,27/09/2024,03:00,Lechia Gdańsk,Widzew Łódź,1-1,Final
+10,28/09/2024,03:00,Raków Częstochowa,Puszcza Niepołomice,2-0,Final
+10,28/09/2024,03:00,Motor Lublin,Śląsk Wrocław,2-1,Final
+10,28/09/2024,03:00,Legia Warszawa,Górnik Zabrze,1-1,Final
+10,29/09/2024,03:00,Zagłębie Lubin,Radomiak Radom,1-0,Final
+10,29/09/2024,03:00,Korona Kielce,Lech Poznań,2-3,Final
+10,29/09/2024,03:00,Piast Gliwice,Jagiellonia Białystok,0-1,Final
+10,30/09/2024,03:00,KS Cracovia,FKS Stal Mielec,1-1,Final
+11,04/10/2024,03:00,Puszcza Niepołomice,GKS Katowice,0-6,Final
+11,04/10/2024,03:00,Widzew Łódź,Korona Kielce,0-1,Final
+11,05/10/2024,03:00,FKS Stal Mielec,Lechia Gdańsk,2-1,Final
+11,05/10/2024,03:00,Radomiak Radom,Raków Częstochowa,0-2,Final
+11,05/10/2024,03:00,Górnik Zabrze,Zagłębie Lubin,0-1,Final
+11,05/10/2024,03:00,Lech Poznań,Motor Lublin,1-2,Final
+11,06/10/2024,03:00,Śląsk Wrocław,KS Cracovia,2-4,Final
+11,06/10/2024,03:00,Pogoń Szczecin,Piast Gliwice,1-0,Final
+11,06/10/2024,03:00,Jagiellonia Białystok,Legia Warszawa,1-1,Final
+12,18/10/2024,03:00,Korona Kielce,Piast Gliwice,0-2,Final
+12,18/10/2024,03:00,Lechia Gdańsk,Legia Warszawa,0-2,Final
+12,19/10/2024,03:00,Motor Lublin,Widzew Łódź,3-4,Final
+12,19/10/2024,03:00,Zagłębie Lubin,Jagiellonia Białystok,1-3,Final
+12,19/10/2024,03:00,KS Cracovia,Lech Poznań,0-2,Final
+12,20/10/2024,03:00,GKS Katowice,Śląsk Wrocław,0-0,Final
+12,20/10/2024,03:00,Górnik Zabrze,FKS Stal Mielec,3-1,Final
+12,20/10/2024,03:00,Raków Częstochowa,Pogoń Szczecin,1-0,Final
+12,21/10/2024,03:00,Radomiak Radom,Puszcza Niepołomice,2-0,Final
+13,25/10/2024,03:00,Piast Gliwice,Lechia Gdańsk,3-3,Final
+13,25/10/2024,03:00,Pogoń Szczecin,Puszcza Niepołomice,2-1,Final
+13,26/10/2024,03:00,KS Cracovia,Motor Lublin,6-2,Final
+13,26/10/2024,03:00,Śląsk Wrocław,Raków Częstochowa,0-0,Final
+13,26/10/2024,03:00,Lech Poznań,Radomiak Radom,2-1,Final
+13,27/10/2024,03:00,FKS Stal Mielec,Zagłębie Lubin,2-2,Final
+13,27/10/2024,03:00,Jagiellonia Białystok,Korona Kielce,3-1,Final
+13,27/10/2024,03:00,Widzew Łódź,Górnik Zabrze,0-2,Final
+13,27/10/2024,03:00,Legia Warszawa,GKS Katowice,4-1,Final
+14,02/11/2024,03:00,Raków Częstochowa,FKS Stal Mielec,1-0,Final
+14,02/11/2024,03:00,Motor Lublin,Pogoń Szczecin,4-2,Final
+14,02/11/2024,03:00,Puszcza Niepołomice,Lech Poznań,2-0,Final
+14,03/11/2024,03:00,Radomiak Radom,Piast Gliwice,1-1,Final
+14,03/11/2024,03:00,Górnik Zabrze,Jagiellonia Białystok,0-2,Final
+14,03/11/2024,03:00,Lechia Gdańsk,KS Cracovia,1-2,Final
+14,03/11/2024,03:00,Legia Warszawa,Widzew Łódź,2-1,Final
+14,04/11/2024,03:00,GKS Katowice,Korona Kielce,1-2,Final
+14,04/11/2024,03:00,Zagłębie Lubin,Śląsk Wrocław,3-0,Final
+15,08/11/2024,03:00,Piast Gliwice,Motor Lublin,2-3,Final
+15,08/11/2024,03:00,Pogoń Szczecin,Radomiak Radom,0-1,Final
+15,09/11/2024,03:00,Korona Kielce,Lechia Gdańsk,0-0,Final
+15,09/11/2024,03:00,KS Cracovia,GKS Katowice,3-4,Final
+15,09/11/2024,03:00,Widzew Łódź,Zagłębie Lubin,2-0,Final
+15,09/11/2024,03:00,Śląsk Wrocław,Górnik Zabrze,0-1,Final
+15,10/11/2024,03:00,FKS Stal Mielec,Puszcza Niepołomice,2-0,Final
+15,10/11/2024,03:00,Jagiellonia Białystok,Raków Częstochowa,2-2,Final
+15,10/11/2024,03:00,Lech Poznań,Legia Warszawa,5-2,Final
+16,22/11/2024,03:00,Zagłębie Lubin,Motor Lublin,1-2,Final
+16,22/11/2024,03:00,Jagiellonia Białystok,Śląsk Wrocław,2-2,Final
+16,23/11/2024,03:00,Lechia Gdańsk,Pogoń Szczecin,0-3,Final
+16,23/11/2024,03:00,Lech Poznań,GKS Katowice,2-0,Final
+16,23/11/2024,03:00,Legia Warszawa,KS Cracovia,3-2,Final
+16,24/11/2024,03:00,Radomiak Radom,FKS Stal Mielec,1-2,Final
+16,24/11/2024,03:00,Raków Częstochowa,Korona Kielce,1-1,Final
+16,24/11/2024,03:00,Górnik Zabrze,Piast Gliwice,1-0,Final
+16,25/11/2024,03:00,Puszcza Niepołomice,Widzew Łódź,2-0,Final
+17,29/11/2024,03:00,KS Cracovia,Zagłębie Lubin,1-1,Final
+17,29/11/2024,03:00,Piast Gliwice,Lech Poznań,0-0,Final
+17,30/11/2024,03:00,Śląsk Wrocław,Puszcza Niepołomice,0-1,Final
+17,30/11/2024,03:00,GKS Katowice,Lechia Gdańsk,2-0,Final
+17,30/11/2024,03:00,Widzew Łódź,Raków Częstochowa,2-3,Final
+17,01/12/2024,03:00,Korona Kielce,Górnik Zabrze,2-4,Final
+17,01/12/2024,03:00,Pogoń Szczecin,Jagiellonia Białystok,1-1,Final
+17,01/12/2024,03:00,FKS Stal Mielec,Legia Warszawa,2-2,Final
+17,02/12/2024,03:00,Motor Lublin,Radomiak Radom,1-0,Final
+18,06/12/2024,03:00,Radomiak Radom,GKS Katowice,1-1,Final
+18,06/12/2024,03:00,Górnik Zabrze,Lech Poznań,2-1,Final
+18,07/12/2024,03:00,Lechia Gdańsk,Śląsk Wrocław,1-0,Final
+18,07/12/2024,03:00,Widzew Łódź,FKS Stal Mielec,2-1,Final
+18,07/12/2024,03:00,Raków Częstochowa,Motor Lublin,2-2,Final
+18,08/12/2024,03:00,Piast Gliwice,KS Cracovia,0-0,Final
+18,08/12/2024,03:00,Puszcza Niepołomice,Jagiellonia Białystok,1-1,Final
+18,08/12/2024,03:00,Zagłębie Lubin,Legia Warszawa,0-3,Final
+18,09/12/2024,03:00,Korona Kielce,Pogoń Szczecin,0-0,Final
+19,31/01/2025,03:00,GKS Katowice,FKS Stal Mielec,1-0,Final
+19,31/01/2025,03:00,Lech Poznań,Widzew Łódź,4-1,Final
+19,01/02/2025,03:00,Motor Lublin,Lechia Gdańsk,1-1,Final
+19,01/02/2025,03:00,KS Cracovia,Raków Częstochowa,0-0,Final
+19,01/02/2025,03:00,Pogoń Szczecin,Zagłębie Lubin,1-0,Final
+19,02/02/2025,03:00,Górnik Zabrze,Puszcza Niepołomice,1-1,Final
+19,02/02/2025,03:00,Jagiellonia Białystok,Radomiak Radom,5-0,Final
+19,02/02/2025,03:00,Legia Warszawa,Korona Kielce,1-1,Final
+19,03/02/2025,03:00,Śląsk Wrocław,Piast Gliwice,1-3,Final
+20,07/02/2025,03:00,FKS Stal Mielec,Jagiellonia Białystok,2-1,Final
+20,07/02/2025,03:00,Pogoń Szczecin,Górnik Zabrze,3-0,Final
+20,08/02/2025,03:00,Radomiak Radom,Śląsk Wrocław,1-1,Final
+20,08/02/2025,03:00,Raków Częstochowa,GKS Katowice,1-2,Final
+20,08/02/2025,03:00,Piast Gliwice,Legia Warszawa,1-0,Final
+20,09/02/2025,03:00,Korona Kielce,Motor Lublin,1-0,Final
+20,09/02/2025,03:00,Widzew Łódź,KS Cracovia,1-1,Final
+20,09/02/2025,03:00,Lechia Gdańsk,Lech Poznań,1-0,Final
+20,10/02/2025,03:00,Puszcza Niepołomice,Zagłębie Lubin,1-2,Final
+21,14/02/2025,03:00,KS Cracovia,Korona Kielce,1-1,Final
+21,14/02/2025,03:00,Lech Poznań,Raków Częstochowa,0-1,Final
+21,15/02/2025,03:00,Śląsk Wrocław,Widzew Łódź,3-0,Final
+21,15/02/2025,03:00,Górnik Zabrze,Radomiak Radom,3-2,Final
+21,15/02/2025,03:00,Legia Warszawa,Puszcza Niepołomice,2-0,Final
+21,16/02/2025,03:00,FKS Stal Mielec,Pogoń Szczecin,1-2,Final
+21,16/02/2025,03:00,GKS Katowice,Piast Gliwice,0-0,Final
+21,16/02/2025,03:00,Jagiellonia Białystok,Motor Lublin,3-0,Final
+21,17/02/2025,03:00,Zagłębie Lubin,Lechia Gdańsk,1-3,Final
+22,21/02/2025,03:00,Piast Gliwice,FKS Stal Mielec,2-2,Final
+22,21/02/2025,03:00,Raków Częstochowa,Górnik Zabrze,1-0,Final
+22,22/02/2025,03:00,Korona Kielce,Śląsk Wrocław,2-0,Final
+22,22/02/2025,03:00,Widzew Łódź,Pogoń Szczecin,0-4,Final
+22,22/02/2025,03:00,Radomiak Radom,Legia Warszawa,3-1,Final
+22,23/02/2025,03:00,Lechia Gdańsk,Puszcza Niepołomice,0-2,Final
+22,23/02/2025,03:00,KS Cracovia,Jagiellonia Białystok,2-2,Final
+22,23/02/2025,03:00,Lech Poznań,Zagłębie Lubin,3-1,Final
+22,24/02/2025,03:00,Motor Lublin,GKS Katowice,3-2,Final
+23,28/02/2025,03:00,Radomiak Radom,Widzew Łódź,1-1,Final
+23,28/02/2025,03:00,Górnik Zabrze,KS Cracovia,0-1,Final
+23,01/03/2025,03:00,FKS Stal Mielec,Korona Kielce,0-1,Final
+23,01/03/2025,03:00,Pogoń Szczecin,Lech Poznań,0-3,Final
+23,01/03/2025,03:00,Zagłębie Lubin,Piast Gliwice,0-1,Final
+23,02/03/2025,03:00,Puszcza Niepołomice,Motor Lublin,0-1,Final
+23,02/03/2025,03:00,Legia Warszawa,Śląsk Wrocław,3-1,Final
+23,02/03/2025,03:00,Jagiellonia Białystok,GKS Katowice,1-0,Final
+23,03/03/2025,03:00,Raków Częstochowa,Lechia Gdańsk,3-1,Final
+24,07/03/2025,03:00,Korona Kielce,Puszcza Niepołomice,2-1,Final
+24,07/03/2025,03:00,Śląsk Wrocław,Pogoń Szczecin,1-1,Final
+24,08/03/2025,03:00,KS Cracovia,Radomiak Radom,1-2,Final
+24,08/03/2025,03:00,Piast Gliwice,Raków Częstochowa,0-3,Final
+24,08/03/2025,03:00,Lech Poznań,FKS Stal Mielec,3-1,Final
+24,09/03/2025,03:00,GKS Katowice,Zagłębie Lubin,1-0,Final
+24,09/03/2025,03:00,Lechia Gdańsk,Górnik Zabrze,1-2,Final
+24,09/03/2025,03:00,Widzew Łódź,Jagiellonia Białystok,0-1,Final
+24,10/03/2025,03:00,Motor Lublin,Legia Warszawa,3-3,Final
+25,14/03/2025,03:00,Radomiak Radom,Lechia Gdańsk,2-1,Final
+25,14/03/2025,03:00,Pogoń Szczecin,KS Cracovia,5-2,Final
+25,15/03/2025,03:00,FKS Stal Mielec,Śląsk Wrocław,1-4,Final
+25,15/03/2025,03:00,Górnik Zabrze,Motor Lublin,4-0,Final
+25,15/03/2025,03:00,Widzew Łódź,GKS Katowice,1-0,Final
+25,16/03/2025,03:00,Puszcza Niepołomice,Piast Gliwice,2-1,Final
+25,16/03/2025,03:00,Zagłębie Lubin,Korona Kielce,1-1,Final
+25,16/03/2025,03:00,Raków Częstochowa,Legia Warszawa,3-2,Final
+25,16/03/2025,03:00,Jagiellonia Białystok,Lech Poznań,2-1,Final
+26,28/03/2025,03:00,Piast Gliwice,Widzew Łódź,0-2,Final
+26,28/03/2025,03:00,Legia Warszawa,Pogoń Szczecin,0-0,Final
+26,29/03/2025,03:00,KS Cracovia,Puszcza Niepołomice,3-1,Final
+26,29/03/2025,03:00,Lechia Gdańsk,Jagiellonia Białystok,1-0,Final
+26,29/03/2025,03:00,Śląsk Wrocław,Lech Poznań,3-1,Final
+26,30/03/2025,03:00,Korona Kielce,Radomiak Radom,1-3,Final
+26,30/03/2025,03:00,Motor Lublin,FKS Stal Mielec,4-1,Final
+26,30/03/2025,03:00,GKS Katowice,Górnik Zabrze,2-1,Final
+26,31/03/2025,03:00,Zagłębie Lubin,Raków Częstochowa,0-2,Final
+27,04/04/2025,03:00,FKS Stal Mielec,KS Cracovia,1-1,Final
+27,04/04/2025,03:00,Widzew Łódź,Lechia Gdańsk,2-0,Final
+27,05/04/2025,03:00,Radomiak Radom,Zagłębie Lubin,0-1,Final
+27,05/04/2025,03:00,Śląsk Wrocław,Motor Lublin,1-1,Final
+27,05/04/2025,03:00,Lech Poznań,Korona Kielce,2-0,Final
+27,06/04/2025,03:00,Jagiellonia Białystok,Piast Gliwice,1-1,Final
+27,06/04/2025,03:00,Górnik Zabrze,Legia Warszawa,1-2,Final
+27,06/04/2025,03:00,Pogoń Szczecin,GKS Katowice,4-0,Final
+27,07/04/2025,03:00,Puszcza Niepołomice,Raków Częstochowa,1-1,Final
+28,11/04/2025,03:00,Zagłębie Lubin,Górnik Zabrze,2-1,Final
+28,11/04/2025,03:00,Korona Kielce,Widzew Łódź,2-1,Final
+28,12/04/2025,03:00,GKS Katowice,Puszcza Niepołomice,3-1,Final
+28,12/04/2025,03:00,KS Cracovia,Śląsk Wrocław,2-4,Final
+28,12/04/2025,03:00,Raków Częstochowa,Radomiak Radom,2-1,Final
+28,13/04/2025,03:00,Piast Gliwice,Pogoń Szczecin,2-1,Final
+28,13/04/2025,03:00,Motor Lublin,Lech Poznań,1-2,Final
+28,13/04/2025,03:00,Legia Warszawa,Jagiellonia Białystok,0-1,Final
+28,14/04/2025,03:00,Lechia Gdańsk,FKS Stal Mielec,3-2,Final
+29,19/04/2025,03:00,Piast Gliwice,Korona Kielce,1-1,Final
+29,19/04/2025,03:00,Śląsk Wrocław,GKS Katowice,0-2,Final
+29,19/04/2025,03:00,Widzew Łódź,Motor Lublin,1-2,Final
+29,19/04/2025,03:00,Pogoń Szczecin,Raków Częstochowa,1-0,Final
+29,21/04/2025,03:00,Puszcza Niepołomice,Radomiak Radom,2-2,Final
+29,21/04/2025,03:00,Jagiellonia Białystok,Zagłębie Lubin,1-3,Final
+29,21/04/2025,03:00,Legia Warszawa,Lechia Gdańsk,2-1,Final
+29,21/04/2025,03:00,Lech Poznań,KS Cracovia,2-1,Final
+29,22/04/2025,03:00,FKS Stal Mielec,Górnik Zabrze,0-0,Final
+30,25/04/2025,03:00,Puszcza Niepołomice,Pogoń Szczecin,4-5,Final
+30,25/04/2025,03:00,Raków Częstochowa,Śląsk Wrocław,3-0,Final
+30,26/04/2025,03:00,Lechia Gdańsk,Piast Gliwice,3-1,Final
+30,26/04/2025,03:00,Motor Lublin,KS Cracovia,0-1,Final
+30,26/04/2025,03:00,GKS Katowice,Legia Warszawa,1-3,Final
+30,27/04/2025,03:00,Korona Kielce,Jagiellonia Białystok,3-1,Final
+30,27/04/2025,03:00,Górnik Zabrze,Widzew Łódź,0-0,Final
+30,27/04/2025,03:00,Radomiak Radom,Lech Poznań,2-2,Final
+30,28/04/2025,03:00,Zagłębie Lubin,FKS Stal Mielec,2-2,Final
+31,03/05/2025,03:00,FKS Stal Mielec,Raków Częstochowa,0-2,Final
+31,03/05/2025,03:00,Śląsk Wrocław,Zagłębie Lubin,3-1,Final
+31,03/05/2025,03:00,Lech Poznań,Puszcza Niepołomice,8-1,Final
+31,04/05/2025,03:00,Piast Gliwice,Radomiak Radom,0-0,Final
+31,04/05/2025,03:00,KS Cracovia,Lechia Gdańsk,0-2,Final
+31,04/05/2025,03:00,Jagiellonia Białystok,Górnik Zabrze,1-1,Final
+31,05/05/2025,03:00,Korona Kielce,GKS Katowice,2-1,Final
+31,14/05/2025,03:00,Pogoń Szczecin,Motor Lublin,3-0,Final
+31,15/05/2025,03:00,Widzew Łódź,Legia Warszawa,0-2,Final
+32,09/05/2025,03:00,Motor Lublin,Piast Gliwice,1-4,Final
+32,09/05/2025,03:00,Górnik Zabrze,Śląsk Wrocław,2-0,Final
+32,10/05/2025,03:00,Radomiak Radom,Pogoń Szczecin,2-0,Final
+32,10/05/2025,03:00,Zagłębie Lubin,Widzew Łódź,2-1,Final
+32,10/05/2025,03:00,Raków Częstochowa,Jagiellonia Białystok,1-2,Final
+32,11/05/2025,03:00,Lechia Gdańsk,Korona Kielce,3-2,Final
+32,11/05/2025,03:00,GKS Katowice,KS Cracovia,2-1,Final
+32,11/05/2025,03:00,Legia Warszawa,Lech Poznań,0-1,Final
+32,12/05/2025,03:00,Puszcza Niepołomice,FKS Stal Mielec,2-3,Final
+33,16/05/2025,03:00,FKS Stal Mielec,Radomiak Radom,2-2,Final
+33,16/05/2025,03:00,Śląsk Wrocław,Jagiellonia Białystok,1-1,Final
+33,17/05/2025,03:00,Pogoń Szczecin,Lechia Gdańsk,3-3,Final
+33,17/05/2025,03:00,Piast Gliwice,Górnik Zabrze,2-0,Final
+33,17/05/2025,03:00,Korona Kielce,Raków Częstochowa,1-1,Final
+33,18/05/2025,03:00,Motor Lublin,Zagłębie Lubin,1-0,Final
+33,18/05/2025,03:00,KS Cracovia,Legia Warszawa,3-1,Final
+33,18/05/2025,03:00,GKS Katowice,Lech Poznań,2-2,Final
+33,19/05/2025,03:00,Widzew Łódź,Puszcza Niepołomice,2-0,Final
+34,24/05/2025,03:00,Górnik Zabrze,Korona Kielce,1-1,Final
+34,24/05/2025,03:00,Jagiellonia Białystok,Pogoń Szczecin,1-1,Final
+34,24/05/2025,03:00,Zagłębie Lubin,KS Cracovia,1-2,Final
+34,24/05/2025,03:00,Lech Poznań,Piast Gliwice,1-0,Final
+34,24/05/2025,03:00,Lechia Gdańsk,GKS Katowice,2-3,Final
+34,24/05/2025,03:00,Legia Warszawa,FKS Stal Mielec,2-2,Final
+34,24/05/2025,03:00,Puszcza Niepołomice,Śląsk Wrocław,1-1,Final
+34,24/05/2025,03:00,Radomiak Radom,Motor Lublin,2-3,Final
+34,24/05/2025,03:00,Raków Częstochowa,Widzew Łódź,2-1,Final

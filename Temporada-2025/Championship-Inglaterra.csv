@@ -1,0 +1,553 @@
+matchday,date,time,home_team,away_team,result,status
+1,09/08/2024,03:00,Blackburn Rovers,Derby County,4-2,Final
+1,09/08/2024,03:00,Preston North End,Sheffield United,0-2,Final
+1,10/08/2024,03:00,Cardiff City,Sunderland AFC,0-2,Final
+1,10/08/2024,03:00,Hull City,Bristol City,1-1,Final
+1,10/08/2024,03:00,Leeds United,Portsmouth FC,3-3,Final
+1,10/08/2024,03:00,Middlesbrough FC,Swansea City,1-0,Final
+1,10/08/2024,03:00,Millwall FC,Watford FC,2-3,Final
+1,10/08/2024,03:00,Oxford United,Norwich City,2-0,Final
+1,10/08/2024,03:00,Queens Park Rangers,West Bromwich Albion,1-3,Final
+1,10/08/2024,03:00,Stoke City,Coventry City,1-0,Final
+1,11/08/2024,03:00,Sheffield Wednesday,Plymouth Argyle,4-0,Final
+1,12/08/2024,03:00,Luton Town,Burnley FC,1-4,Final
+2,16/08/2024,03:00,Coventry City,Oxford United,3-2,Final
+2,17/08/2024,03:00,Derby County,Middlesbrough FC,1-0,Final
+2,17/08/2024,03:00,Portsmouth FC,Luton Town,0-0,Final
+2,17/08/2024,03:00,West Bromwich Albion,Leeds United,0-0,Final
+2,17/08/2024,03:00,Bristol City,Millwall FC,4-3,Final
+2,17/08/2024,03:00,Burnley FC,Cardiff City,5-0,Final
+2,17/08/2024,03:00,Norwich City,Blackburn Rovers,2-2,Final
+2,17/08/2024,03:00,Plymouth Argyle,Hull City,1-1,Final
+2,17/08/2024,03:00,Sheffield United,Queens Park Rangers,2-2,Final
+2,17/08/2024,03:00,Swansea City,Preston North End,3-0,Final
+2,17/08/2024,03:00,Watford FC,Stoke City,3-0,Final
+2,18/08/2024,03:00,Sunderland AFC,Sheffield Wednesday,4-0,Final
+3,23/08/2024,03:00,Sheffield Wednesday,Leeds United,0-2,Final
+3,24/08/2024,03:00,Bristol City,Coventry City,1-1,Final
+3,24/08/2024,03:00,Hull City,Millwall FC,0-0,Final
+3,24/08/2024,03:00,Queens Park Rangers,Plymouth Argyle,1-1,Final
+3,24/08/2024,03:00,Blackburn Rovers,Oxford United,2-1,Final
+3,24/08/2024,03:00,Middlesbrough FC,Portsmouth FC,2-2,Final
+3,24/08/2024,03:00,Norwich City,Sheffield United,1-1,Final
+3,24/08/2024,03:00,Preston North End,Luton Town,1-0,Final
+3,24/08/2024,03:00,Stoke City,West Bromwich Albion,1-2,Final
+3,24/08/2024,03:00,Sunderland AFC,Burnley FC,1-0,Final
+3,24/08/2024,03:00,Watford FC,Derby County,2-1,Final
+3,25/08/2024,03:00,Swansea City,Cardiff City,1-1,Final
+4,30/08/2024,03:00,Luton Town,Queens Park Rangers,1-2,Final
+4,31/08/2024,03:00,Burnley FC,Blackburn Rovers,1-1,Final
+4,31/08/2024,03:00,Cardiff City,Middlesbrough FC,0-2,Final
+4,31/08/2024,03:00,Coventry City,Norwich City,0-1,Final
+4,31/08/2024,03:00,Derby County,Bristol City,3-0,Final
+4,31/08/2024,03:00,Leeds United,Hull City,2-0,Final
+4,31/08/2024,03:00,Millwall FC,Sheffield Wednesday,3-0,Final
+4,31/08/2024,03:00,Oxford United,Preston North End,3-1,Final
+4,31/08/2024,03:00,Plymouth Argyle,Stoke City,0-1,Final
+4,31/08/2024,03:00,Portsmouth FC,Sunderland AFC,1-3,Final
+4,31/08/2024,03:00,West Bromwich Albion,Swansea City,1-0,Final
+4,01/09/2024,03:00,Sheffield United,Watford FC,1-0,Final
+5,13/09/2024,03:00,Hull City,Sheffield United,0-2,Final
+5,14/09/2024,03:00,Leeds United,Burnley FC,0-1,Final
+5,14/09/2024,03:00,Millwall FC,Luton Town,0-1,Final
+5,14/09/2024,03:00,Oxford United,Stoke City,1-0,Final
+5,14/09/2024,03:00,Blackburn Rovers,Bristol City,3-0,Final
+5,14/09/2024,03:00,Derby County,Cardiff City,1-0,Final
+5,14/09/2024,03:00,Middlesbrough FC,Preston North End,1-1,Final
+5,14/09/2024,03:00,Plymouth Argyle,Sunderland AFC,3-2,Final
+5,14/09/2024,03:00,Sheffield Wednesday,Queens Park Rangers,1-1,Final
+5,14/09/2024,03:00,Swansea City,Norwich City,1-0,Final
+5,14/09/2024,03:00,Watford FC,Coventry City,1-1,Final
+5,15/09/2024,03:00,Portsmouth FC,West Bromwich Albion,0-3,Final
+6,20/09/2024,03:00,Stoke City,Hull City,1-3,Final
+6,21/09/2024,03:00,Norwich City,Watford FC,4-1,Final
+6,21/09/2024,03:00,Queens Park Rangers,Millwall FC,1-1,Final
+6,21/09/2024,03:00,Sunderland AFC,Middlesbrough FC,1-0,Final
+6,21/09/2024,03:00,Bristol City,Oxford United,2-1,Final
+6,21/09/2024,03:00,Burnley FC,Portsmouth FC,2-1,Final
+6,21/09/2024,03:00,Cardiff City,Leeds United,0-2,Final
+6,21/09/2024,03:00,Coventry City,Swansea City,1-2,Final
+6,21/09/2024,03:00,Luton Town,Sheffield Wednesday,2-1,Final
+6,21/09/2024,03:00,Sheffield United,Derby County,1-0,Final
+6,21/09/2024,03:00,West Bromwich Albion,Plymouth Argyle,1-0,Final
+6,22/09/2024,03:00,Preston North End,Blackburn Rovers,0-0,Final
+7,27/09/2024,03:00,Plymouth Argyle,Luton Town,3-1,Final
+7,28/09/2024,03:00,Blackburn Rovers,Queens Park Rangers,2-0,Final
+7,28/09/2024,03:00,Derby County,Norwich City,2-3,Final
+7,28/09/2024,03:00,Sheffield Wednesday,West Bromwich Albion,3-2,Final
+7,28/09/2024,03:00,Hull City,Cardiff City,4-1,Final
+7,28/09/2024,03:00,Leeds United,Coventry City,3-0,Final
+7,28/09/2024,03:00,Middlesbrough FC,Stoke City,2-0,Final
+7,28/09/2024,03:00,Millwall FC,Preston North End,3-1,Final
+7,28/09/2024,03:00,Oxford United,Burnley FC,0-0,Final
+7,28/09/2024,03:00,Portsmouth FC,Sheffield United,0-0,Final
+7,28/09/2024,03:00,Watford FC,Sunderland AFC,2-1,Final
+7,29/09/2024,03:00,Swansea City,Bristol City,1-1,Final
+8,01/10/2024,03:00,Burnley FC,Plymouth Argyle,1-0,Final
+8,01/10/2024,03:00,Cardiff City,Millwall FC,1-0,Final
+8,01/10/2024,03:00,Coventry City,Blackburn Rovers,3-0,Final
+8,01/10/2024,03:00,Luton Town,Oxford United,2-2,Final
+8,01/10/2024,03:00,Queens Park Rangers,Hull City,1-3,Final
+8,01/10/2024,03:00,Sunderland AFC,Derby County,2-0,Final
+8,01/10/2024,03:00,Norwich City,Leeds United,1-1,Final
+8,01/10/2024,03:00,West Bromwich Albion,Middlesbrough FC,0-1,Final
+8,02/10/2024,03:00,Sheffield United,Swansea City,1-0,Final
+8,02/10/2024,03:00,Preston North End,Watford FC,3-0,Final
+8,02/10/2024,03:00,Stoke City,Portsmouth FC,6-1,Final
+8,02/10/2024,03:00,Bristol City,Sheffield Wednesday,0-0,Final
+9,04/10/2024,03:00,Sunderland AFC,Leeds United,2-2,Final
+9,05/10/2024,03:00,Burnley FC,Preston North End,0-0,Final
+9,05/10/2024,03:00,Norwich City,Hull City,4-0,Final
+9,05/10/2024,03:00,Portsmouth FC,Oxford United,1-1,Final
+9,05/10/2024,03:00,Coventry City,Sheffield Wednesday,1-2,Final
+9,05/10/2024,03:00,Derby County,Queens Park Rangers,2-0,Final
+9,05/10/2024,03:00,Plymouth Argyle,Blackburn Rovers,2-1,Final
+9,05/10/2024,03:00,Sheffield United,Luton Town,2-0,Final
+9,05/10/2024,03:00,Swansea City,Stoke City,0-0,Final
+9,05/10/2024,03:00,Watford FC,Middlesbrough FC,2-1,Final
+9,05/10/2024,03:00,West Bromwich Albion,Millwall FC,0-0,Final
+9,06/10/2024,03:00,Bristol City,Cardiff City,1-1,Final
+10,18/10/2024,03:00,Leeds United,Sheffield United,2-0,Final
+10,19/10/2024,03:00,Cardiff City,Plymouth Argyle,5-0,Final
+10,19/10/2024,03:00,Luton Town,Watford FC,3-0,Final
+10,19/10/2024,03:00,Oxford United,West Bromwich Albion,1-1,Final
+10,19/10/2024,03:00,Preston North End,Coventry City,1-0,Final
+10,19/10/2024,03:00,Blackburn Rovers,Swansea City,1-0,Final
+10,19/10/2024,03:00,Middlesbrough FC,Bristol City,0-2,Final
+10,19/10/2024,03:00,Millwall FC,Derby County,1-1,Final
+10,19/10/2024,03:00,Queens Park Rangers,Portsmouth FC,1-2,Final
+10,19/10/2024,03:00,Sheffield Wednesday,Burnley FC,0-2,Final
+10,19/10/2024,03:00,Stoke City,Norwich City,1-1,Final
+10,20/10/2024,03:00,Hull City,Sunderland AFC,0-1,Final
+11,22/10/2024,03:00,Cardiff City,Portsmouth FC,2-0,Final
+11,22/10/2024,03:00,Leeds United,Watford FC,2-1,Final
+11,22/10/2024,03:00,Oxford United,Derby County,1-1,Final
+11,22/10/2024,03:00,Preston North End,Norwich City,2-2,Final
+11,22/10/2024,03:00,Sheffield Wednesday,Swansea City,0-0,Final
+11,22/10/2024,03:00,Stoke City,Bristol City,2-2,Final
+11,22/10/2024,03:00,Queens Park Rangers,Coventry City,1-1,Final
+11,23/10/2024,03:00,Hull City,Burnley FC,1-1,Final
+11,23/10/2024,03:00,Blackburn Rovers,West Bromwich Albion,0-0,Final
+11,23/10/2024,03:00,Luton Town,Sunderland AFC,1-2,Final
+11,23/10/2024,03:00,Millwall FC,Plymouth Argyle,1-0,Final
+11,23/10/2024,03:00,Middlesbrough FC,Sheffield United,1-0,Final
+12,25/10/2024,03:00,Portsmouth FC,Sheffield Wednesday,1-2,Final
+12,26/10/2024,03:00,Bristol City,Leeds United,0-0,Final
+12,26/10/2024,03:00,Coventry City,Luton Town,3-2,Final
+12,26/10/2024,03:00,Watford FC,Blackburn Rovers,1-0,Final
+12,26/10/2024,03:00,Burnley FC,Queens Park Rangers,0-0,Final
+12,26/10/2024,03:00,Derby County,Hull City,1-1,Final
+12,26/10/2024,03:00,Plymouth Argyle,Preston North End,3-3,Final
+12,26/10/2024,03:00,Sheffield United,Stoke City,2-0,Final
+12,26/10/2024,03:00,Sunderland AFC,Oxford United,2-0,Final
+12,26/10/2024,03:00,Swansea City,Millwall FC,0-1,Final
+12,26/10/2024,03:00,West Bromwich Albion,Cardiff City,0-0,Final
+12,27/10/2024,03:00,Norwich City,Middlesbrough FC,3-3,Final
+13,01/11/2024,03:00,Luton Town,West Bromwich Albion,1-1,Final
+13,02/11/2024,03:00,Blackburn Rovers,Sheffield United,0-2,Final
+13,02/11/2024,03:00,Oxford United,Swansea City,1-2,Final
+13,02/11/2024,03:00,Stoke City,Derby County,2-1,Final
+13,02/11/2024,03:00,Cardiff City,Norwich City,2-1,Final
+13,02/11/2024,03:00,Hull City,Portsmouth FC,1-1,Final
+13,02/11/2024,03:00,Leeds United,Plymouth Argyle,3-0,Final
+13,02/11/2024,03:00,Middlesbrough FC,Coventry City,0-3,Final
+13,02/11/2024,03:00,Preston North End,Bristol City,1-3,Final
+13,02/11/2024,03:00,Queens Park Rangers,Sunderland AFC,0-0,Final
+13,02/11/2024,03:00,Sheffield Wednesday,Watford FC,2-6,Final
+13,03/11/2024,03:00,Millwall FC,Burnley FC,1-0,Final
+14,05/11/2024,03:00,Bristol City,Sheffield United,1-2,Final
+14,05/11/2024,03:00,Oxford United,Hull City,1-0,Final
+14,05/11/2024,03:00,Queens Park Rangers,Middlesbrough FC,1-4,Final
+14,05/11/2024,03:00,Sheffield Wednesday,Norwich City,2-0,Final
+14,05/11/2024,03:00,Plymouth Argyle,Portsmouth FC,1-0,Final
+14,05/11/2024,03:00,Swansea City,Watford FC,1-0,Final
+14,06/11/2024,03:00,Millwall FC,Leeds United,1-0,Final
+14,06/11/2024,03:00,Blackburn Rovers,Stoke City,0-2,Final
+14,06/11/2024,03:00,Coventry City,Derby County,1-2,Final
+14,06/11/2024,03:00,Luton Town,Cardiff City,1-0,Final
+14,06/11/2024,03:00,Preston North End,Sunderland AFC,0-0,Final
+14,07/11/2024,03:00,West Bromwich Albion,Burnley FC,0-0,Final
+15,08/11/2024,03:00,Watford FC,Oxford United,1-0,Final
+15,09/11/2024,03:00,Cardiff City,Blackburn Rovers,1-3,Final
+15,09/11/2024,03:00,Middlesbrough FC,Luton Town,5-1,Final
+15,09/11/2024,03:00,Stoke City,Millwall FC,1-1,Final
+15,09/11/2024,03:00,Derby County,Plymouth Argyle,1-1,Final
+15,09/11/2024,03:00,Leeds United,Queens Park Rangers,2-0,Final
+15,09/11/2024,03:00,Norwich City,Bristol City,0-2,Final
+15,09/11/2024,03:00,Portsmouth FC,Preston North End,3-1,Final
+15,09/11/2024,03:00,Sunderland AFC,Coventry City,2-2,Final
+15,10/11/2024,03:00,Sheffield United,Sheffield Wednesday,1-0,Final
+15,10/11/2024,03:00,Hull City,West Bromwich Albion,1-2,Final
+15,10/11/2024,03:00,Burnley FC,Swansea City,1-0,Final
+16,22/11/2024,03:00,Plymouth Argyle,Watford FC,2-2,Final
+16,23/11/2024,03:00,Bristol City,Burnley FC,0-1,Final
+16,23/11/2024,03:00,Coventry City,Sheffield United,2-2,Final
+16,23/11/2024,03:00,Sheffield Wednesday,Cardiff City,1-1,Final
+16,23/11/2024,03:00,Luton Town,Hull City,1-0,Final
+16,23/11/2024,03:00,Millwall FC,Sunderland AFC,1-1,Final
+16,23/11/2024,03:00,Oxford United,Middlesbrough FC,2-6,Final
+16,23/11/2024,03:00,Preston North End,Derby County,1-1,Final
+16,23/11/2024,03:00,Queens Park Rangers,Stoke City,1-1,Final
+16,23/11/2024,03:00,West Bromwich Albion,Norwich City,2-2,Final
+16,24/11/2024,03:00,Swansea City,Leeds United,3-4,Final
+16,15/01/2025,03:00,Blackburn Rovers,Portsmouth FC,3-0,Final
+17,26/11/2024,03:00,Burnley FC,Coventry City,2-0,Final
+17,26/11/2024,03:00,Hull City,Sheffield Wednesday,0-2,Final
+17,26/11/2024,03:00,Norwich City,Plymouth Argyle,6-1,Final
+17,26/11/2024,03:00,Sheffield United,Oxford United,3-0,Final
+17,26/11/2024,03:00,Stoke City,Preston North End,0-0,Final
+17,26/11/2024,03:00,Watford FC,Bristol City,1-0,Final
+17,26/11/2024,03:00,Sunderland AFC,West Bromwich Albion,0-0,Final
+17,27/11/2024,03:00,Leeds United,Luton Town,3-0,Final
+17,27/11/2024,03:00,Cardiff City,Queens Park Rangers,0-2,Final
+17,27/11/2024,03:00,Middlesbrough FC,Blackburn Rovers,0-1,Final
+17,27/11/2024,03:00,Derby County,Swansea City,1-2,Final
+17,28/01/2025,03:00,Portsmouth FC,Millwall FC,0-1,Final
+18,29/11/2024,03:00,Sheffield United,Sunderland AFC,1-0,Final
+18,30/11/2024,03:00,Middlesbrough FC,Hull City,3-1,Final
+18,30/11/2024,03:00,Oxford United,Millwall FC,1-1,Final
+18,30/11/2024,03:00,Watford FC,Queens Park Rangers,0-0,Final
+18,30/11/2024,03:00,Blackburn Rovers,Leeds United,1-0,Final
+18,30/11/2024,03:00,Bristol City,Plymouth Argyle,4-0,Final
+18,30/11/2024,03:00,Coventry City,Cardiff City,2-2,Final
+18,30/11/2024,03:00,Norwich City,Luton Town,4-2,Final
+18,30/11/2024,03:00,Preston North End,West Bromwich Albion,1-1,Final
+18,30/11/2024,03:00,Stoke City,Burnley FC,0-2,Final
+18,30/11/2024,03:00,Swansea City,Portsmouth FC,2-2,Final
+18,01/12/2024,03:00,Derby County,Sheffield Wednesday,1-2,Final
+19,06/12/2024,03:00,Burnley FC,Middlesbrough FC,1-1,Final
+19,07/12/2024,03:00,Leeds United,Derby County,2-0,Final
+19,07/12/2024,03:00,Sheffield Wednesday,Preston North End,1-1,Final
+19,07/12/2024,03:00,Sunderland AFC,Stoke City,2-1,Final
+19,07/12/2024,03:00,Hull City,Blackburn Rovers,0-1,Final
+19,07/12/2024,03:00,Luton Town,Swansea City,1-1,Final
+19,07/12/2024,03:00,Millwall FC,Coventry City,0-1,Final
+19,07/12/2024,03:00,Portsmouth FC,Bristol City,3-0,Final
+19,07/12/2024,03:00,Queens Park Rangers,Norwich City,3-0,Final
+19,08/12/2024,03:00,West Bromwich Albion,Sheffield United,2-2,Final
+19,14/01/2025,03:00,Cardiff City,Watford FC,1-1,Final
+19,14/01/2025,03:00,Plymouth Argyle,Oxford United,1-1,Final
+20,10/12/2024,03:00,Burnley FC,Derby County,0-0,Final
+20,10/12/2024,03:00,Luton Town,Stoke City,2-1,Final
+20,10/12/2024,03:00,Plymouth Argyle,Swansea City,1-2,Final
+20,10/12/2024,03:00,Portsmouth FC,Norwich City,0-0,Final
+20,10/12/2024,03:00,Sheffield Wednesday,Blackburn Rovers,0-1,Final
+20,10/12/2024,03:00,Sunderland AFC,Bristol City,1-1,Final
+20,10/12/2024,03:00,Leeds United,Middlesbrough FC,3-1,Final
+20,11/12/2024,03:00,Millwall FC,Sheffield United,0-1,Final
+20,11/12/2024,03:00,Cardiff City,Preston North End,0-2,Final
+20,11/12/2024,03:00,Hull City,Watford FC,1-1,Final
+20,11/12/2024,03:00,Queens Park Rangers,Oxford United,2-0,Final
+20,11/12/2024,03:00,West Bromwich Albion,Coventry City,2-0,Final
+21,13/12/2024,03:00,Derby County,Portsmouth FC,4-0,Final
+21,14/12/2024,03:00,Bristol City,Queens Park Rangers,1-1,Final
+21,14/12/2024,03:00,Coventry City,Hull City,2-1,Final
+21,14/12/2024,03:00,Preston North End,Leeds United,1-1,Final
+21,14/12/2024,03:00,Blackburn Rovers,Luton Town,2-0,Final
+21,14/12/2024,03:00,Middlesbrough FC,Millwall FC,1-0,Final
+21,14/12/2024,03:00,Oxford United,Sheffield Wednesday,1-3,Final
+21,14/12/2024,03:00,Sheffield United,Plymouth Argyle,2-0,Final
+21,14/12/2024,03:00,Stoke City,Cardiff City,2-2,Final
+21,14/12/2024,03:00,Swansea City,Sunderland AFC,2-3,Final
+21,15/12/2024,03:00,Watford FC,West Bromwich Albion,2-1,Final
+21,15/12/2024,03:00,Norwich City,Burnley FC,1-2,Final
+22,20/12/2024,03:00,Luton Town,Derby County,2-1,Final
+22,21/12/2024,03:00,Hull City,Swansea City,2-1,Final
+22,21/12/2024,03:00,Portsmouth FC,Coventry City,4-1,Final
+22,21/12/2024,03:00,Sheffield Wednesday,Stoke City,2-0,Final
+22,21/12/2024,03:00,Burnley FC,Watford FC,2-1,Final
+22,21/12/2024,03:00,Cardiff City,Sheffield United,0-2,Final
+22,21/12/2024,03:00,Leeds United,Oxford United,4-0,Final
+22,21/12/2024,03:00,Millwall FC,Blackburn Rovers,1-0,Final
+22,21/12/2024,03:00,Plymouth Argyle,Middlesbrough FC,3-3,Final
+22,21/12/2024,03:00,Queens Park Rangers,Preston North End,2-1,Final
+22,21/12/2024,03:00,Sunderland AFC,Norwich City,2-1,Final
+22,22/12/2024,03:00,West Bromwich Albion,Bristol City,2-0,Final
+23,26/12/2024,03:00,Blackburn Rovers,Sunderland AFC,2-2,Final
+23,26/12/2024,03:00,Bristol City,Luton Town,1-0,Final
+23,26/12/2024,03:00,Coventry City,Plymouth Argyle,4-0,Final
+23,26/12/2024,03:00,Middlesbrough FC,Sheffield Wednesday,3-3,Final
+23,26/12/2024,03:00,Norwich City,Millwall FC,2-1,Final
+23,26/12/2024,03:00,Oxford United,Cardiff City,3-2,Final
+23,26/12/2024,03:00,Preston North End,Hull City,1-0,Final
+23,26/12/2024,03:00,Sheffield United,Burnley FC,0-2,Final
+23,26/12/2024,03:00,Swansea City,Queens Park Rangers,3-0,Final
+23,26/12/2024,03:00,Watford FC,Portsmouth FC,2-1,Final
+23,26/12/2024,03:00,Derby County,West Bromwich Albion,2-1,Final
+23,26/12/2024,03:00,Stoke City,Leeds United,0-2,Final
+24,29/12/2024,03:00,Norwich City,Queens Park Rangers,1-1,Final
+24,29/12/2024,03:00,Preston North End,Sheffield Wednesday,3-1,Final
+24,29/12/2024,03:00,Sheffield United,West Bromwich Albion,1-1,Final
+24,29/12/2024,03:00,Blackburn Rovers,Hull City,0-1,Final
+24,29/12/2024,03:00,Bristol City,Portsmouth FC,3-0,Final
+24,29/12/2024,03:00,Coventry City,Millwall FC,0-0,Final
+24,29/12/2024,03:00,Oxford United,Plymouth Argyle,2-0,Final
+24,29/12/2024,03:00,Stoke City,Sunderland AFC,1-0,Final
+24,29/12/2024,03:00,Swansea City,Luton Town,2-1,Final
+24,29/12/2024,03:00,Watford FC,Cardiff City,1-2,Final
+24,29/12/2024,03:00,Derby County,Leeds United,0-1,Final
+24,29/12/2024,03:00,Middlesbrough FC,Burnley FC,0-0,Final
+25,01/01/2025,03:00,Plymouth Argyle,Bristol City,2-2,Final
+25,01/01/2025,03:00,Queens Park Rangers,Watford FC,3-1,Final
+25,01/01/2025,03:00,Millwall FC,Oxford United,0-1,Final
+25,01/01/2025,03:00,Burnley FC,Stoke City,0-0,Final
+25,01/01/2025,03:00,Cardiff City,Coventry City,1-1,Final
+25,01/01/2025,03:00,Leeds United,Blackburn Rovers,1-1,Final
+25,01/01/2025,03:00,Luton Town,Norwich City,0-1,Final
+25,01/01/2025,03:00,Portsmouth FC,Swansea City,4-0,Final
+25,01/01/2025,03:00,Sheffield Wednesday,Derby County,4-2,Final
+25,01/01/2025,03:00,West Bromwich Albion,Preston North End,3-1,Final
+25,01/01/2025,03:00,Hull City,Middlesbrough FC,0-1,Final
+25,01/01/2025,03:00,Sunderland AFC,Sheffield United,2-1,Final
+26,04/01/2025,03:00,Blackburn Rovers,Burnley FC,0-1,Final
+26,04/01/2025,03:00,Stoke City,Plymouth Argyle,0-0,Final
+26,04/01/2025,03:00,Swansea City,West Bromwich Albion,1-1,Final
+26,04/01/2025,03:00,Bristol City,Derby County,1-0,Final
+26,04/01/2025,03:00,Hull City,Leeds United,3-3,Final
+26,04/01/2025,03:00,Middlesbrough FC,Cardiff City,1-1,Final
+26,04/01/2025,03:00,Norwich City,Coventry City,2-1,Final
+26,04/01/2025,03:00,Preston North End,Oxford United,1-1,Final
+26,04/01/2025,03:00,Sheffield Wednesday,Millwall FC,2-2,Final
+26,04/01/2025,03:00,Watford FC,Sheffield United,1-2,Final
+26,05/01/2025,03:00,Sunderland AFC,Portsmouth FC,1-0,Final
+26,06/01/2025,03:00,Queens Park Rangers,Luton Town,2-1,Final
+27,17/01/2025,03:00,Burnley FC,Sunderland AFC,0-0,Final
+27,18/01/2025,03:00,Cardiff City,Swansea City,3-0,Final
+27,18/01/2025,03:00,Millwall FC,Hull City,0-1,Final
+27,18/01/2025,03:00,Plymouth Argyle,Queens Park Rangers,0-1,Final
+27,18/01/2025,03:00,Coventry City,Bristol City,1-0,Final
+27,18/01/2025,03:00,Derby County,Watford FC,0-2,Final
+27,18/01/2025,03:00,Luton Town,Preston North End,0-0,Final
+27,18/01/2025,03:00,Oxford United,Blackburn Rovers,1-0,Final
+27,18/01/2025,03:00,Portsmouth FC,Middlesbrough FC,2-1,Final
+27,18/01/2025,03:00,Sheffield United,Norwich City,2-0,Final
+27,18/01/2025,03:00,West Bromwich Albion,Stoke City,1-1,Final
+27,19/01/2025,03:00,Leeds United,Sheffield Wednesday,3-0,Final
+28,21/01/2025,03:00,Blackburn Rovers,Coventry City,0-2,Final
+28,21/01/2025,03:00,Derby County,Sunderland AFC,0-1,Final
+28,21/01/2025,03:00,Hull City,Queens Park Rangers,1-2,Final
+28,21/01/2025,03:00,Middlesbrough FC,West Bromwich Albion,2-0,Final
+28,21/01/2025,03:00,Oxford United,Luton Town,3-2,Final
+28,21/01/2025,03:00,Swansea City,Sheffield United,1-2,Final
+28,21/01/2025,03:00,Watford FC,Preston North End,1-2,Final
+28,21/01/2025,03:00,Millwall FC,Cardiff City,2-2,Final
+28,22/01/2025,03:00,Leeds United,Norwich City,2-0,Final
+28,22/01/2025,03:00,Portsmouth FC,Stoke City,3-1,Final
+28,22/01/2025,03:00,Sheffield Wednesday,Bristol City,2-2,Final
+28,22/01/2025,03:00,Plymouth Argyle,Burnley FC,0-5,Final
+29,24/01/2025,03:00,Sheffield United,Hull City,0-3,Final
+29,25/01/2025,03:00,Luton Town,Millwall FC,0-1,Final
+29,25/01/2025,03:00,Norwich City,Swansea City,5-1,Final
+29,25/01/2025,03:00,Stoke City,Oxford United,0-0,Final
+29,25/01/2025,03:00,Bristol City,Blackburn Rovers,2-1,Final
+29,25/01/2025,03:00,Cardiff City,Derby County,2-1,Final
+29,25/01/2025,03:00,Coventry City,Watford FC,2-1,Final
+29,25/01/2025,03:00,Preston North End,Middlesbrough FC,2-1,Final
+29,25/01/2025,03:00,Queens Park Rangers,Sheffield Wednesday,0-2,Final
+29,25/01/2025,03:00,Sunderland AFC,Plymouth Argyle,2-2,Final
+29,25/01/2025,03:00,West Bromwich Albion,Portsmouth FC,5-1,Final
+29,27/01/2025,03:00,Burnley FC,Leeds United,0-0,Final
+30,31/01/2025,03:00,Blackburn Rovers,Preston North End,2-1,Final
+30,01/02/2025,03:00,Oxford United,Bristol City,1-1,Final
+30,01/02/2025,03:00,Plymouth Argyle,West Bromwich Albion,2-1,Final
+30,01/02/2025,03:00,Watford FC,Norwich City,0-1,Final
+30,01/02/2025,03:00,Derby County,Sheffield United,0-1,Final
+30,01/02/2025,03:00,Hull City,Stoke City,1-2,Final
+30,01/02/2025,03:00,Leeds United,Cardiff City,7-0,Final
+30,01/02/2025,03:00,Millwall FC,Queens Park Rangers,2-1,Final
+30,01/02/2025,03:00,Portsmouth FC,Burnley FC,0-0,Final
+30,01/02/2025,03:00,Sheffield Wednesday,Luton Town,1-1,Final
+30,01/02/2025,03:00,Swansea City,Coventry City,0-2,Final
+30,03/02/2025,03:00,Middlesbrough FC,Sunderland AFC,2-3,Final
+31,04/02/2025,03:00,Burnley FC,Oxford United,1-0,Final
+31,04/02/2025,03:00,Queens Park Rangers,Blackburn Rovers,2-1,Final
+31,05/02/2025,03:00,Coventry City,Leeds United,0-2,Final
+31,08/02/2025,03:00,Sunderland AFC,Watford FC,2-2,Final
+31,08/02/2025,03:00,West Bromwich Albion,Sheffield Wednesday,2-1,Final
+31,08/02/2025,03:00,Norwich City,Derby County,1-1,Final
+31,08/02/2025,03:00,Sheffield United,Portsmouth FC,2-1,Final
+31,09/02/2025,03:00,Bristol City,Swansea City,0-1,Final
+31,18/02/2025,03:00,Preston North End,Millwall FC,1-1,Final
+31,19/02/2025,03:00,Luton Town,Plymouth Argyle,1-1,Final
+31,25/02/2025,03:00,Cardiff City,Hull City,1-0,Final
+31,25/02/2025,03:00,Stoke City,Middlesbrough FC,1-3,Final
+32,11/02/2025,03:00,Coventry City,Queens Park Rangers,1-0,Final
+32,11/02/2025,03:00,Derby County,Oxford United,0-0,Final
+32,11/02/2025,03:00,Portsmouth FC,Cardiff City,2-1,Final
+32,11/02/2025,03:00,Watford FC,Leeds United,0-4,Final
+32,11/02/2025,03:00,Norwich City,Preston North End,0-1,Final
+32,12/02/2025,03:00,Bristol City,Stoke City,2-0,Final
+32,12/02/2025,03:00,Plymouth Argyle,Millwall FC,5-1,Final
+32,12/02/2025,03:00,Swansea City,Sheffield Wednesday,0-1,Final
+32,12/02/2025,03:00,Burnley FC,Hull City,2-0,Final
+32,12/02/2025,03:00,Sunderland AFC,Luton Town,2-0,Final
+32,12/02/2025,03:00,Sheffield United,Middlesbrough FC,3-1,Final
+32,12/02/2025,03:00,West Bromwich Albion,Blackburn Rovers,0-2,Final
+33,14/02/2025,03:00,Queens Park Rangers,Derby County,4-0,Final
+33,15/02/2025,03:00,Cardiff City,Bristol City,1-1,Final
+33,15/02/2025,03:00,Oxford United,Portsmouth FC,0-2,Final
+33,15/02/2025,03:00,Preston North End,Burnley FC,0-0,Final
+33,15/02/2025,03:00,Blackburn Rovers,Plymouth Argyle,2-0,Final
+33,15/02/2025,03:00,Hull City,Norwich City,1-1,Final
+33,15/02/2025,03:00,Luton Town,Sheffield United,0-1,Final
+33,15/02/2025,03:00,Middlesbrough FC,Watford FC,0-1,Final
+33,15/02/2025,03:00,Millwall FC,West Bromwich Albion,1-1,Final
+33,15/02/2025,03:00,Sheffield Wednesday,Coventry City,1-2,Final
+33,15/02/2025,03:00,Stoke City,Swansea City,3-1,Final
+33,17/02/2025,03:00,Leeds United,Sunderland AFC,2-1,Final
+34,21/02/2025,03:00,Bristol City,Middlesbrough FC,2-1,Final
+34,21/02/2025,03:00,Burnley FC,Sheffield Wednesday,4-0,Final
+34,22/02/2025,03:00,Derby County,Millwall FC,0-1,Final
+34,22/02/2025,03:00,Plymouth Argyle,Cardiff City,1-1,Final
+34,22/02/2025,03:00,Sunderland AFC,Hull City,0-1,Final
+34,22/02/2025,03:00,Coventry City,Preston North End,2-1,Final
+34,22/02/2025,03:00,Norwich City,Stoke City,4-2,Final
+34,22/02/2025,03:00,Portsmouth FC,Queens Park Rangers,2-1,Final
+34,22/02/2025,03:00,Swansea City,Blackburn Rovers,3-0,Final
+34,22/02/2025,03:00,West Bromwich Albion,Oxford United,2-0,Final
+34,23/02/2025,03:00,Watford FC,Luton Town,2-0,Final
+34,24/02/2025,03:00,Sheffield United,Leeds United,1-3,Final
+35,28/02/2025,03:00,Sheffield Wednesday,Sunderland AFC,1-2,Final
+35,01/03/2025,03:00,Blackburn Rovers,Norwich City,1-1,Final
+35,01/03/2025,03:00,Leeds United,West Bromwich Albion,1-1,Final
+35,01/03/2025,03:00,Oxford United,Coventry City,2-3,Final
+35,01/03/2025,03:00,Luton Town,Portsmouth FC,1-0,Final
+35,01/03/2025,03:00,Middlesbrough FC,Derby County,1-0,Final
+35,01/03/2025,03:00,Queens Park Rangers,Sheffield United,1-2,Final
+35,01/03/2025,03:00,Stoke City,Watford FC,0-0,Final
+35,04/03/2025,03:00,Cardiff City,Burnley FC,1-2,Final
+35,04/03/2025,03:00,Hull City,Plymouth Argyle,2-0,Final
+35,04/03/2025,03:00,Millwall FC,Bristol City,0-2,Final
+35,04/03/2025,03:00,Preston North End,Swansea City,0-0,Final
+36,07/03/2025,03:00,Norwich City,Oxford United,1-1,Final
+36,08/03/2025,03:00,Coventry City,Stoke City,3-2,Final
+36,08/03/2025,03:00,Watford FC,Millwall FC,1-2,Final
+36,08/03/2025,03:00,Bristol City,Hull City,1-1,Final
+36,08/03/2025,03:00,Burnley FC,Luton Town,4-0,Final
+36,08/03/2025,03:00,Derby County,Blackburn Rovers,2-1,Final
+36,08/03/2025,03:00,Plymouth Argyle,Sheffield Wednesday,0-3,Final
+36,08/03/2025,03:00,Sheffield United,Preston North End,1-0,Final
+36,08/03/2025,03:00,Sunderland AFC,Cardiff City,2-1,Final
+36,08/03/2025,03:00,Swansea City,Middlesbrough FC,1-0,Final
+36,08/03/2025,03:00,West Bromwich Albion,Queens Park Rangers,1-0,Final
+36,09/03/2025,03:00,Portsmouth FC,Leeds United,1-0,Final
+37,11/03/2025,03:00,Burnley FC,West Bromwich Albion,1-1,Final
+37,11/03/2025,03:00,Cardiff City,Luton Town,1-2,Final
+37,11/03/2025,03:00,Derby County,Coventry City,2-0,Final
+37,11/03/2025,03:00,Middlesbrough FC,Queens Park Rangers,2-1,Final
+37,11/03/2025,03:00,Sunderland AFC,Preston North End,1-1,Final
+37,11/03/2025,03:00,Norwich City,Sheffield Wednesday,2-3,Final
+37,11/03/2025,03:00,Sheffield United,Bristol City,1-1,Final
+37,12/03/2025,03:00,Portsmouth FC,Plymouth Argyle,1-2,Final
+37,12/03/2025,03:00,Hull City,Oxford United,2-1,Final
+37,12/03/2025,03:00,Leeds United,Millwall FC,2-0,Final
+37,12/03/2025,03:00,Watford FC,Swansea City,1-0,Final
+37,12/03/2025,03:00,Stoke City,Blackburn Rovers,1-0,Final
+38,14/03/2025,03:00,Bristol City,Norwich City,2-1,Final
+38,15/03/2025,03:00,Millwall FC,Stoke City,1-0,Final
+38,15/03/2025,03:00,Queens Park Rangers,Leeds United,2-2,Final
+38,15/03/2025,03:00,Blackburn Rovers,Cardiff City,1-2,Final
+38,15/03/2025,03:00,Coventry City,Sunderland AFC,3-0,Final
+38,15/03/2025,03:00,Luton Town,Middlesbrough FC,0-0,Final
+38,15/03/2025,03:00,Oxford United,Watford FC,1-0,Final
+38,15/03/2025,03:00,Plymouth Argyle,Derby County,2-3,Final
+38,15/03/2025,03:00,Preston North End,Portsmouth FC,2-1,Final
+38,15/03/2025,03:00,Swansea City,Burnley FC,0-2,Final
+38,15/03/2025,03:00,West Bromwich Albion,Hull City,1-1,Final
+38,16/03/2025,03:00,Sheffield Wednesday,Sheffield United,0-1,Final
+39,28/03/2025,03:00,Sheffield United,Coventry City,3-1,Final
+39,29/03/2025,03:00,Watford FC,Plymouth Argyle,0-0,Final
+39,29/03/2025,03:00,Hull City,Luton Town,0-1,Final
+39,29/03/2025,03:00,Sunderland AFC,Millwall FC,1-0,Final
+39,29/03/2025,03:00,Cardiff City,Sheffield Wednesday,1-1,Final
+39,29/03/2025,03:00,Burnley FC,Bristol City,1-0,Final
+39,29/03/2025,03:00,Middlesbrough FC,Oxford United,2-1,Final
+39,29/03/2025,03:00,Leeds United,Swansea City,2-2,Final
+39,29/03/2025,03:00,Norwich City,West Bromwich Albion,1-0,Final
+39,29/03/2025,03:00,Portsmouth FC,Blackburn Rovers,1-0,Final
+39,29/03/2025,03:00,Stoke City,Queens Park Rangers,3-1,Final
+39,02/04/2025,03:00,Derby County,Preston North End,2-0,Final
+40,04/04/2025,03:00,Blackburn Rovers,Middlesbrough FC,0-2,Final
+40,05/04/2025,03:00,Coventry City,Burnley FC,1-2,Final
+40,05/04/2025,03:00,Luton Town,Leeds United,1-1,Final
+40,05/04/2025,03:00,West Bromwich Albion,Sunderland AFC,0-1,Final
+40,05/04/2025,03:00,Bristol City,Watford FC,2-1,Final
+40,05/04/2025,03:00,Millwall FC,Portsmouth FC,2-1,Final
+40,05/04/2025,03:00,Oxford United,Sheffield United,1-0,Final
+40,05/04/2025,03:00,Plymouth Argyle,Norwich City,2-1,Final
+40,05/04/2025,03:00,Preston North End,Stoke City,1-1,Final
+40,05/04/2025,03:00,Queens Park Rangers,Cardiff City,0-0,Final
+40,05/04/2025,03:00,Sheffield Wednesday,Hull City,0-1,Final
+40,05/04/2025,03:00,Swansea City,Derby County,1-0,Final
+41,08/04/2025,03:00,Blackburn Rovers,Sheffield Wednesday,2-2,Final
+41,08/04/2025,03:00,Bristol City,West Bromwich Albion,2-1,Final
+41,08/04/2025,03:00,Norwich City,Sunderland AFC,0-0,Final
+41,08/04/2025,03:00,Preston North End,Cardiff City,2-2,Final
+41,08/04/2025,03:00,Sheffield United,Millwall FC,0-1,Final
+41,08/04/2025,03:00,Stoke City,Luton Town,1-1,Final
+41,08/04/2025,03:00,Watford FC,Hull City,1-0,Final
+41,08/04/2025,03:00,Derby County,Burnley FC,0-0,Final
+41,08/04/2025,03:00,Middlesbrough FC,Leeds United,0-1,Final
+41,09/04/2025,03:00,Oxford United,Queens Park Rangers,1-3,Final
+41,09/04/2025,03:00,Swansea City,Plymouth Argyle,3-0,Final
+41,09/04/2025,03:00,Coventry City,Portsmouth FC,1-0,Final
+42,11/04/2025,03:00,Burnley FC,Norwich City,2-1,Final
+42,12/04/2025,03:00,Leeds United,Preston North End,2-1,Final
+42,12/04/2025,03:00,Plymouth Argyle,Sheffield United,2-1,Final
+42,12/04/2025,03:00,Cardiff City,Stoke City,0-1,Final
+42,12/04/2025,03:00,Luton Town,Blackburn Rovers,0-1,Final
+42,12/04/2025,03:00,Millwall FC,Middlesbrough FC,1-0,Final
+42,12/04/2025,03:00,Portsmouth FC,Derby County,2-2,Final
+42,12/04/2025,03:00,Queens Park Rangers,Bristol City,1-1,Final
+42,12/04/2025,03:00,Sheffield Wednesday,Oxford United,0-1,Final
+42,12/04/2025,03:00,Sunderland AFC,Swansea City,0-1,Final
+42,12/04/2025,03:00,West Bromwich Albion,Watford FC,2-1,Final
+42,14/04/2025,03:00,Hull City,Coventry City,1-1,Final
+43,18/04/2025,03:00,Derby County,Luton Town,0-1,Final
+43,18/04/2025,03:00,Blackburn Rovers,Millwall FC,4-1,Final
+43,18/04/2025,03:00,Bristol City,Sunderland AFC,2-1,Final
+43,18/04/2025,03:00,Coventry City,West Bromwich Albion,2-0,Final
+43,18/04/2025,03:00,Middlesbrough FC,Plymouth Argyle,2-1,Final
+43,18/04/2025,03:00,Watford FC,Burnley FC,1-2,Final
+43,18/04/2025,03:00,Norwich City,Portsmouth FC,3-5,Final
+43,18/04/2025,03:00,Preston North End,Queens Park Rangers,1-2,Final
+43,18/04/2025,03:00,Stoke City,Sheffield Wednesday,2-0,Final
+43,18/04/2025,03:00,Swansea City,Hull City,1-0,Final
+43,18/04/2025,03:00,Sheffield United,Cardiff City,2-0,Final
+43,18/04/2025,03:00,Oxford United,Leeds United,0-1,Final
+44,21/04/2025,03:00,Cardiff City,Oxford United,1-1,Final
+44,21/04/2025,03:00,Hull City,Preston North End,2-1,Final
+44,21/04/2025,03:00,Leeds United,Stoke City,6-0,Final
+44,21/04/2025,03:00,Luton Town,Bristol City,3-1,Final
+44,21/04/2025,03:00,Millwall FC,Norwich City,3-1,Final
+44,21/04/2025,03:00,Plymouth Argyle,Coventry City,3-1,Final
+44,21/04/2025,03:00,Portsmouth FC,Watford FC,1-0,Final
+44,21/04/2025,03:00,Queens Park Rangers,Swansea City,1-2,Final
+44,21/04/2025,03:00,Sheffield Wednesday,Middlesbrough FC,2-1,Final
+44,21/04/2025,03:00,Sunderland AFC,Blackburn Rovers,0-1,Final
+44,21/04/2025,03:00,West Bromwich Albion,Derby County,1-3,Final
+44,21/04/2025,03:00,Burnley FC,Sheffield United,2-1,Final
+45,25/04/2025,03:00,Stoke City,Sheffield United,0-2,Final
+45,26/04/2025,03:00,Luton Town,Coventry City,1-0,Final
+45,26/04/2025,03:00,Queens Park Rangers,Burnley FC,0-5,Final
+45,26/04/2025,03:00,Blackburn Rovers,Watford FC,2-1,Final
+45,26/04/2025,03:00,Cardiff City,West Bromwich Albion,0-0,Final
+45,26/04/2025,03:00,Hull City,Derby County,0-1,Final
+45,26/04/2025,03:00,Middlesbrough FC,Norwich City,0-0,Final
+45,26/04/2025,03:00,Millwall FC,Swansea City,1-0,Final
+45,26/04/2025,03:00,Oxford United,Sunderland AFC,2-0,Final
+45,26/04/2025,03:00,Preston North End,Plymouth Argyle,1-2,Final
+45,26/04/2025,03:00,Sheffield Wednesday,Portsmouth FC,1-1,Final
+45,28/04/2025,03:00,Leeds United,Bristol City,4-0,Final
+46,03/05/2025,03:00,Bristol City,Preston North End,2-2,Final
+46,03/05/2025,03:00,Burnley FC,Millwall FC,3-1,Final
+46,03/05/2025,03:00,Coventry City,Middlesbrough FC,2-0,Final
+46,03/05/2025,03:00,Derby County,Stoke City,0-0,Final
+46,03/05/2025,03:00,Norwich City,Cardiff City,4-2,Final
+46,03/05/2025,03:00,Plymouth Argyle,Leeds United,1-2,Final
+46,03/05/2025,03:00,Portsmouth FC,Hull City,1-1,Final
+46,03/05/2025,03:00,Sheffield United,Blackburn Rovers,1-1,Final
+46,03/05/2025,03:00,Sunderland AFC,Queens Park Rangers,0-1,Final
+46,03/05/2025,03:00,Swansea City,Oxford United,3-3,Final
+46,03/05/2025,03:00,Watford FC,Sheffield Wednesday,1-1,Final
+46,03/05/2025,03:00,West Bromwich Albion,Luton Town,5-3,Final

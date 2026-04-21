@@ -1,0 +1,241 @@
+matchday,date,time,home_team,away_team,result,status
+1,28/07/2023,03:00,Union Saint-Gilloise,RSC Anderlecht,2-0,Final
+1,29/07/2023,03:00,KAS Eupen,KVC Westerlo,2-2,Final
+1,29/07/2023,03:00,Sporting Charleroi,Oud-Heverlee Leuven,1-1,Final
+1,29/07/2023,03:00,RWDM Brussels,KRC Genk,0-4,Final
+1,30/07/2023,03:00,Royal Antwerp FC,Cercle Brugge,1-0,Final
+1,30/07/2023,03:00,KAA Gent,KV Kortrijk,3-2,Final
+1,30/07/2023,03:00,Club Brugge KV,KV Mechelen,1-1,Final
+1,30/07/2023,03:00,Sint-Truidense VV,Standard Lieja,1-0,Final
+2,04/08/2023,03:00,Standard Lieja,Union Saint-Gilloise,0-1,Final
+2,05/08/2023,03:00,KRC Genk,KAS Eupen,0-1,Final
+2,05/08/2023,03:00,Cercle Brugge,Sporting Charleroi,2-0,Final
+2,05/08/2023,03:00,Oud-Heverlee Leuven,RWDM Brussels,1-2,Final
+2,06/08/2023,03:00,RSC Anderlecht,Royal Antwerp FC,1-0,Final
+2,06/08/2023,03:00,KV Mechelen,KAA Gent,0-1,Final
+2,06/08/2023,03:00,KVC Westerlo,Club Brugge KV,0-1,Final
+2,06/08/2023,03:00,KV Kortrijk,Sint-Truidense VV,0-1,Final
+3,11/08/2023,03:00,Royal Antwerp FC,KV Kortrijk,6-0,Final
+3,12/08/2023,03:00,RWDM Brussels,KV Mechelen,1-0,Final
+3,12/08/2023,03:00,Union Saint-Gilloise,Oud-Heverlee Leuven,5-1,Final
+3,13/08/2023,03:00,Sint-Truidense VV,RSC Anderlecht,0-1,Final
+3,13/08/2023,03:00,Cercle Brugge,KRC Genk,0-1,Final
+3,13/08/2023,03:00,KAS Eupen,Club Brugge KV,0-5,Final
+3,13/08/2023,03:00,Sporting Charleroi,Standard Lieja,1-1,Final
+3,13/08/2023,03:00,KVC Westerlo,KAA Gent,1-3,Final
+4,18/08/2023,03:00,Oud-Heverlee Leuven,Royal Antwerp FC,1-1,Final
+4,19/08/2023,03:00,Standard Lieja,Cercle Brugge,0-1,Final
+4,19/08/2023,03:00,KV Mechelen,Union Saint-Gilloise,4-0,Final
+4,20/08/2023,03:00,RSC Anderlecht,KVC Westerlo,2-1,Final
+4,20/08/2023,03:00,KRC Genk,Sporting Charleroi,0-0,Final
+4,20/08/2023,03:00,KAA Gent,Sint-Truidense VV,2-2,Final
+4,20/08/2023,03:00,Club Brugge KV,RWDM Brussels,7-1,Final
+4,20/08/2023,03:00,KV Kortrijk,KAS Eupen,1-3,Final
+5,26/08/2023,03:00,KVC Westerlo,KV Mechelen,2-3,Final
+5,26/08/2023,03:00,KAS Eupen,Oud-Heverlee Leuven,3-1,Final
+5,26/08/2023,03:00,KV Kortrijk,Standard Lieja,1-1,Final
+5,27/08/2023,03:00,Sint-Truidense VV,Cercle Brugge,0-2,Final
+5,27/08/2023,03:00,RSC Anderlecht,Sporting Charleroi,2-1,Final
+5,27/09/2023,03:00,Royal Antwerp FC,KAA Gent,0-0,Final
+5,28/09/2023,03:00,RWDM Brussels,Union Saint-Gilloise,2-3,Final
+5,28/09/2023,03:00,Club Brugge KV,KRC Genk,1-1,Final
+6,01/09/2023,03:00,Oud-Heverlee Leuven,KV Kortrijk,3-0,Final
+6,02/09/2023,03:00,Cercle Brugge,KVC Westerlo,2-1,Final
+6,02/09/2023,03:00,KV Mechelen,KAS Eupen,1-0,Final
+6,02/09/2023,03:00,Standard Lieja,RWDM Brussels,1-1,Final
+6,03/09/2023,03:00,KAA Gent,Club Brugge KV,2-1,Final
+6,03/09/2023,03:00,Union Saint-Gilloise,Royal Antwerp FC,2-2,Final
+6,03/09/2023,03:00,KRC Genk,RSC Anderlecht,1-1,Final
+6,03/09/2023,03:00,Sporting Charleroi,Sint-Truidense VV,1-1,Final
+7,15/09/2023,03:00,KVC Westerlo,Royal Antwerp FC,0-3,Final
+7,16/09/2023,03:00,RWDM Brussels,Cercle Brugge,2-1,Final
+7,16/09/2023,03:00,Union Saint-Gilloise,KRC Genk,0-2,Final
+7,16/09/2023,03:00,Club Brugge KV,Sporting Charleroi,4-2,Final
+7,17/09/2023,03:00,KAS Eupen,Standard Lieja,1-3,Final
+7,17/09/2023,03:00,KV Kortrijk,RSC Anderlecht,2-2,Final
+7,17/09/2023,03:00,Oud-Heverlee Leuven,KAA Gent,1-1,Final
+7,17/09/2023,03:00,Sint-Truidense VV,KV Mechelen,2-0,Final
+8,22/09/2023,03:00,Standard Lieja,KVC Westerlo,0-0,Final
+8,23/09/2023,03:00,Sporting Charleroi,KV Kortrijk,1-0,Final
+8,23/09/2023,03:00,KV Mechelen,Oud-Heverlee Leuven,1-2,Final
+8,23/09/2023,03:00,Royal Antwerp FC,RWDM Brussels,0-0,Final
+8,24/09/2023,03:00,KRC Genk,Sint-Truidense VV,3-3,Final
+8,24/09/2023,03:00,Cercle Brugge,Union Saint-Gilloise,0-2,Final
+8,24/09/2023,03:00,RSC Anderlecht,Club Brugge KV,1-1,Final
+8,24/09/2023,03:00,KAA Gent,KAS Eupen,2-1,Final
+9,29/09/2023,03:00,KV Kortrijk,Cercle Brugge,2-1,Final
+9,30/09/2023,03:00,KAS Eupen,RSC Anderlecht,1-3,Final
+9,30/09/2023,03:00,Oud-Heverlee Leuven,Standard Lieja,1-2,Final
+9,30/09/2023,03:00,KV Mechelen,Royal Antwerp FC,0-0,Final
+9,01/10/2023,03:00,Union Saint-Gilloise,Sporting Charleroi,3-1,Final
+9,01/10/2023,03:00,KRC Genk,KVC Westerlo,3-3,Final
+9,01/10/2023,03:00,Club Brugge KV,Sint-Truidense VV,1-1,Final
+9,01/10/2023,03:00,RWDM Brussels,KAA Gent,1-1,Final
+10,06/10/2023,03:00,Sporting Charleroi,RWDM Brussels,2-1,Final
+10,07/10/2023,03:00,Cercle Brugge,Oud-Heverlee Leuven,3-2,Final
+10,07/10/2023,03:00,KVC Westerlo,KV Kortrijk,1-0,Final
+10,07/10/2023,03:00,RSC Anderlecht,KV Mechelen,3-1,Final
+10,08/10/2023,03:00,Standard Lieja,Club Brugge KV,2-1,Final
+10,08/10/2023,03:00,Royal Antwerp FC,KAS Eupen,4-1,Final
+10,08/10/2023,03:00,KAA Gent,KRC Genk,1-1,Final
+10,08/10/2023,03:00,Sint-Truidense VV,Union Saint-Gilloise,0-4,Final
+11,20/10/2023,03:00,Union Saint-Gilloise,KAS Eupen,4-1,Final
+11,21/10/2023,03:00,KV Kortrijk,Club Brugge KV,1-0,Final
+11,21/10/2023,03:00,RWDM Brussels,KVC Westerlo,1-1,Final
+11,21/10/2023,03:00,Sporting Charleroi,Royal Antwerp FC,3-2,Final
+11,22/10/2023,03:00,KRC Genk,KV Mechelen,4-0,Final
+11,22/10/2023,03:00,Cercle Brugge,KAA Gent,2-0,Final
+11,22/10/2023,03:00,Standard Lieja,RSC Anderlecht,3-2,Final
+11,22/10/2023,03:00,Oud-Heverlee Leuven,Sint-Truidense VV,4-0,Final
+12,27/10/2023,03:00,Sint-Truidense VV,RWDM Brussels,2-1,Final
+12,28/10/2023,03:00,KV Mechelen,Cercle Brugge,0-2,Final
+12,28/10/2023,03:00,KAS Eupen,Sporting Charleroi,2-0,Final
+12,28/10/2023,03:00,RSC Anderlecht,Oud-Heverlee Leuven,5-1,Final
+12,29/10/2023,03:00,Club Brugge KV,Royal Antwerp FC,2-1,Final
+12,29/10/2023,03:00,KVC Westerlo,Union Saint-Gilloise,1-3,Final
+12,29/10/2023,03:00,KAA Gent,Standard Lieja,3-1,Final
+12,29/10/2023,03:00,KV Kortrijk,KRC Genk,0-3,Final
+13,03/11/2023,03:00,Sint-Truidense VV,KAS Eupen,1-1,Final
+13,04/11/2023,03:00,RWDM Brussels,KV Kortrijk,1-1,Final
+13,04/11/2023,03:00,Oud-Heverlee Leuven,KVC Westerlo,0-2,Final
+13,04/11/2023,03:00,Royal Antwerp FC,KRC Genk,3-2,Final
+13,05/11/2023,03:00,Cercle Brugge,RSC Anderlecht,0-3,Final
+13,05/11/2023,03:00,Standard Lieja,KV Mechelen,1-1,Final
+13,05/11/2023,03:00,Union Saint-Gilloise,Club Brugge KV,2-1,Final
+13,05/11/2023,03:00,Sporting Charleroi,KAA Gent,1-3,Final
+14,10/11/2023,03:00,KVC Westerlo,Sint-Truidense VV,3-3,Final
+14,11/11/2023,03:00,Royal Antwerp FC,Standard Lieja,6-0,Final
+14,11/11/2023,03:00,KAS Eupen,RWDM Brussels,1-3,Final
+14,11/11/2023,03:00,KV Mechelen,Sporting Charleroi,1-0,Final
+14,12/11/2023,03:00,Club Brugge KV,Cercle Brugge,0-0,Final
+14,12/11/2023,03:00,KRC Genk,Oud-Heverlee Leuven,3-1,Final
+14,12/11/2023,03:00,KAA Gent,RSC Anderlecht,1-1,Final
+14,12/11/2023,03:00,Union Saint-Gilloise,KV Kortrijk,3-0,Final
+15,24/11/2023,03:00,Sint-Truidense VV,Royal Antwerp FC,1-1,Final
+15,25/11/2023,03:00,Cercle Brugge,KAS Eupen,2-0,Final
+15,25/11/2023,03:00,Sporting Charleroi,KVC Westerlo,3-2,Final
+15,25/11/2023,03:00,Standard Lieja,KRC Genk,1-0,Final
+15,26/11/2023,03:00,KAA Gent,Union Saint-Gilloise,1-1,Final
+15,26/11/2023,03:00,Oud-Heverlee Leuven,Club Brugge KV,0-1,Final
+15,26/11/2023,03:00,RSC Anderlecht,RWDM Brussels,2-1,Final
+15,26/11/2023,03:00,KV Kortrijk,KV Mechelen,0-3,Final
+16,01/12/2023,03:00,KVC Westerlo,RSC Anderlecht,1-3,Final
+16,02/12/2023,03:00,RWDM Brussels,Sporting Charleroi,0-0,Final
+16,02/12/2023,03:00,KAS Eupen,KV Kortrijk,1-1,Final
+16,02/12/2023,03:00,Royal Antwerp FC,Oud-Heverlee Leuven,1-0,Final
+16,03/12/2023,03:00,KRC Genk,KAA Gent,2-2,Final
+16,03/12/2023,03:00,KV Mechelen,Sint-Truidense VV,0-2,Final
+16,03/12/2023,03:00,Club Brugge KV,Standard Lieja,2-0,Final
+16,03/12/2023,03:00,Union Saint-Gilloise,Cercle Brugge,2-1,Final
+17,08/12/2023,03:00,KV Kortrijk,KVC Westerlo,1-2,Final
+17,09/12/2023,03:00,Cercle Brugge,Royal Antwerp FC,1-3,Final
+17,09/12/2023,03:00,Sint-Truidense VV,Oud-Heverlee Leuven,1-1,Final
+17,09/12/2023,03:00,KAA Gent,RWDM Brussels,4-0,Final
+17,10/12/2023,03:00,KV Mechelen,Club Brugge KV,0-0,Final
+17,10/12/2023,03:00,KAS Eupen,KRC Genk,1-3,Final
+17,10/12/2023,03:00,RSC Anderlecht,Standard Lieja,2-2,Final
+17,10/12/2023,03:00,Sporting Charleroi,Union Saint-Gilloise,1-3,Final
+18,15/12/2023,03:00,KVC Westerlo,KAS Eupen,2-0,Final
+18,16/12/2023,03:00,Oud-Heverlee Leuven,Cercle Brugge,1-2,Final
+18,16/12/2023,03:00,RWDM Brussels,Sint-Truidense VV,3-0,Final
+18,16/12/2023,03:00,Standard Lieja,Sporting Charleroi,0-0,Final
+18,17/12/2023,03:00,Club Brugge KV,KAA Gent,2-0,Final
+18,17/12/2023,03:00,Union Saint-Gilloise,KV Mechelen,1-0,Final
+18,17/12/2023,03:00,Royal Antwerp FC,RSC Anderlecht,1-1,Final
+18,17/12/2023,03:00,KRC Genk,KV Kortrijk,4-0,Final
+19,20/12/2023,03:00,Cercle Brugge,KV Kortrijk,3-0,Final
+19,20/12/2023,03:00,KV Mechelen,Standard Lieja,3-0,Final
+19,21/12/2023,03:00,KAA Gent,Oud-Heverlee Leuven,4-0,Final
+19,22/12/2023,03:00,RWDM Brussels,Club Brugge KV,1-6,Final
+19,23/12/2023,03:00,KAS Eupen,Union Saint-Gilloise,1-2,Final
+19,23/12/2023,03:00,Royal Antwerp FC,KVC Westerlo,2-2,Final
+19,23/12/2023,03:00,Sint-Truidense VV,Sporting Charleroi,1-0,Final
+19,23/12/2023,03:00,RSC Anderlecht,KRC Genk,2-1,Final
+20,26/12/2023,03:00,KRC Genk,Royal Antwerp FC,3-0,Final
+20,26/12/2023,03:00,KV Kortrijk,KAA Gent,0-2,Final
+20,26/12/2023,03:00,Oud-Heverlee Leuven,KAS Eupen,3-0,Final
+20,26/12/2023,03:00,KVC Westerlo,RWDM Brussels,3-0,Final
+20,26/12/2023,03:00,Club Brugge KV,Union Saint-Gilloise,1-1,Final
+20,27/12/2023,03:00,Standard Lieja,Sint-Truidense VV,1-1,Final
+20,27/12/2023,03:00,RSC Anderlecht,Cercle Brugge,2-0,Final
+20,27/12/2023,03:00,Sporting Charleroi,KV Mechelen,3-1,Final
+21,19/01/2024,03:00,KAA Gent,KV Mechelen,1-2,Final
+21,20/01/2024,03:00,KRC Genk,Cercle Brugge,1-1,Final
+21,20/01/2024,03:00,Standard Lieja,KV Kortrijk,0-1,Final
+21,20/01/2024,03:00,Club Brugge KV,KVC Westerlo,3-0,Final
+21,21/01/2024,03:00,Royal Antwerp FC,Sporting Charleroi,4-1,Final
+21,21/01/2024,03:00,Union Saint-Gilloise,Sint-Truidense VV,2-1,Final
+21,21/01/2024,03:00,Oud-Heverlee Leuven,RSC Anderlecht,1-1,Final
+21,24/01/2024,03:00,RWDM Brussels,KAS Eupen,0-1,Final
+22,26/01/2024,03:00,Cercle Brugge,Standard Lieja,1-1,Final
+22,27/01/2024,03:00,KV Kortrijk,Oud-Heverlee Leuven,0-0,Final
+22,27/01/2024,03:00,KAA Gent,KVC Westerlo,2-2,Final
+22,27/01/2024,03:00,Sporting Charleroi,Club Brugge KV,1-4,Final
+22,28/01/2024,03:00,Sint-Truidense VV,KRC Genk,1-1,Final
+22,28/01/2024,03:00,KAS Eupen,Royal Antwerp FC,1-0,Final
+22,28/01/2024,03:00,RSC Anderlecht,Union Saint-Gilloise,2-2,Final
+22,28/01/2024,03:00,KV Mechelen,RWDM Brussels,3-1,Final
+23,30/01/2024,03:00,Club Brugge KV,KV Kortrijk,3-3,Final
+23,30/01/2024,03:00,KVC Westerlo,Cercle Brugge,4-2,Final
+23,31/01/2024,03:00,Oud-Heverlee Leuven,KRC Genk,2-1,Final
+23,31/01/2024,03:00,Sporting Charleroi,KAS Eupen,1-0,Final
+23,31/01/2024,03:00,Standard Lieja,Royal Antwerp FC,0-1,Final
+23,31/01/2024,03:00,Union Saint-Gilloise,RWDM Brussels,3-2,Final
+23,01/02/2024,03:00,KV Mechelen,RSC Anderlecht,2-2,Final
+23,01/02/2024,03:00,Sint-Truidense VV,KAA Gent,4-1,Final
+24,03/02/2024,03:00,RWDM Brussels,Standard Lieja,2-2,Final
+24,03/02/2024,03:00,KV Kortrijk,Sporting Charleroi,1-0,Final
+24,03/02/2024,03:00,KVC Westerlo,Oud-Heverlee Leuven,0-3,Final
+24,03/02/2024,03:00,KRC Genk,Union Saint-Gilloise,0-1,Final
+24,04/02/2024,03:00,Royal Antwerp FC,Club Brugge KV,2-1,Final
+24,04/02/2024,03:00,KAS Eupen,KV Mechelen,0-1,Final
+24,04/02/2024,03:00,RSC Anderlecht,KAA Gent,1-0,Final
+24,04/02/2024,03:00,Cercle Brugge,Sint-Truidense VV,4-1,Final
+25,09/02/2024,03:00,Sint-Truidense VV,KV Kortrijk,1-0,Final
+25,10/02/2024,03:00,Standard Lieja,Oud-Heverlee Leuven,1-0,Final
+25,10/02/2024,03:00,Union Saint-Gilloise,KVC Westerlo,2-2,Final
+25,10/02/2024,03:00,Club Brugge KV,KAS Eupen,4-0,Final
+25,11/02/2024,03:00,RWDM Brussels,Royal Antwerp FC,0-4,Final
+25,11/02/2024,03:00,KV Mechelen,KRC Genk,1-1,Final
+25,11/02/2024,03:00,Sporting Charleroi,RSC Anderlecht,1-3,Final
+25,11/02/2024,03:00,KAA Gent,Cercle Brugge,1-2,Final
+26,16/02/2024,03:00,KVC Westerlo,Standard Lieja,2-1,Final
+26,17/02/2024,03:00,KRC Genk,RWDM Brussels,3-1,Final
+26,17/02/2024,03:00,Oud-Heverlee Leuven,Sporting Charleroi,0-0,Final
+26,17/02/2024,03:00,Royal Antwerp FC,KV Mechelen,0-1,Final
+26,18/02/2024,03:00,Cercle Brugge,Club Brugge KV,1-1,Final
+26,18/02/2024,03:00,KV Kortrijk,Union Saint-Gilloise,1-3,Final
+26,18/02/2024,03:00,RSC Anderlecht,Sint-Truidense VV,4-1,Final
+26,18/02/2024,03:00,KAS Eupen,KAA Gent,0-2,Final
+27,23/02/2024,03:00,Sporting Charleroi,KRC Genk,0-1,Final
+27,24/02/2024,03:00,RWDM Brussels,Oud-Heverlee Leuven,1-1,Final
+27,24/02/2024,03:00,Sint-Truidense VV,KVC Westerlo,1-0,Final
+27,24/02/2024,03:00,KV Mechelen,KV Kortrijk,3-0,Final
+27,25/02/2024,03:00,Club Brugge KV,RSC Anderlecht,1-2,Final
+27,25/02/2024,03:00,KAA Gent,Royal Antwerp FC,2-2,Final
+27,25/02/2024,03:00,Union Saint-Gilloise,Standard Lieja,2-1,Final
+27,25/02/2024,03:00,KAS Eupen,Cercle Brugge,0-2,Final
+28,01/03/2024,03:00,KVC Westerlo,Sporting Charleroi,0-1,Final
+28,02/03/2024,03:00,Cercle Brugge,KV Mechelen,2-3,Final
+28,02/03/2024,03:00,Oud-Heverlee Leuven,Union Saint-Gilloise,0-2,Final
+28,02/03/2024,03:00,Standard Lieja,KAA Gent,4-2,Final
+28,03/03/2024,03:00,KRC Genk,Club Brugge KV,0-3,Final
+28,03/03/2024,03:00,Royal Antwerp FC,Sint-Truidense VV,3-0,Final
+28,03/03/2024,03:00,RSC Anderlecht,KAS Eupen,1-0,Final
+28,03/03/2024,03:00,KV Kortrijk,RWDM Brussels,3-2,Final
+29,08/03/2024,03:00,KV Mechelen,KVC Westerlo,3-1,Final
+29,09/03/2024,03:00,KV Kortrijk,Royal Antwerp FC,0-1,Final
+29,09/03/2024,03:00,Sporting Charleroi,Cercle Brugge,0-0,Final
+29,09/03/2024,03:00,RWDM Brussels,RSC Anderlecht,0-3,Final
+29,10/03/2024,03:00,KRC Genk,Standard Lieja,1-0,Final
+29,10/03/2024,03:00,Club Brugge KV,Oud-Heverlee Leuven,3-1,Final
+29,10/03/2024,03:00,Union Saint-Gilloise,KAA Gent,1-1,Final
+29,10/03/2024,03:00,KAS Eupen,Sint-Truidense VV,1-0,Final
+30,16/03/2024,03:00,Standard Lieja,KAS Eupen,4-0,Final
+30,16/03/2024,03:00,RSC Anderlecht,KV Kortrijk,0-1,Final
+30,17/03/2024,03:00,Sint-Truidense VV,Club Brugge KV,2-1,Final
+30,17/03/2024,03:00,Royal Antwerp FC,Union Saint-Gilloise,1-1,Final
+30,17/03/2024,03:00,Cercle Brugge,RWDM Brussels,4-0,Final
+30,17/03/2024,03:00,KAA Gent,Sporting Charleroi,5-0,Final
+30,17/03/2024,03:00,KVC Westerlo,KRC Genk,1-1,Final
+30,17/03/2024,03:00,Oud-Heverlee Leuven,KV Mechelen,1-0,Final

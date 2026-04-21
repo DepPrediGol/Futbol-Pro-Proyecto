@@ -1,0 +1,92 @@
+matchday,date,time,home_team,away_team,result,status
+1,29/08/2020,09:00,Preston,Mansfield Town,4-0,Final
+1,29/08/2020,09:00,Blackburn,Doncaster,3-2,Final
+1,29/08/2020,09:00,Stoke City,Blackpool,0-0,Final
+1,29/08/2020,09:00,Stevenage,Portsmouth,3-3,Final
+1,04/09/2020,11:30,Middlesbrough,Shrewsbury,4-3,Final
+2,04/09/2020,13:30,Burton Albion,Accrington ST,1-1,Final
+2,05/09/2020,06:00,Derby,Barrow,0-0,Final
+2,05/09/2020,06:30,Plymouth,QPR,3-2,Final
+2,05/09/2020,07:00,Gillingham,Southend,1-0,Final
+2,05/09/2020,07:00,Crawley Town,Millwall,1-3,Final
+3,05/09/2020,08:00,Bristol City,Exeter City,2-0,Final
+3,05/09/2020,08:15,Walsall,Sheffield Wednesday,0-0,Final
+3,05/09/2020,09:00,Huddersfield,Rochdale,0-1,Final
+3,05/09/2020,09:00,Reading,Colchester,3-1,Final
+3,05/09/2020,09:00,Birmingham,Cambridge United,0-1,Final
+4,05/09/2020,09:00,Ipswich,Bristol Rovers,3-0,Final
+4,05/09/2020,09:00,Bolton,Bradford,1-2,Final
+4,05/09/2020,09:00,Sunderland,Hull City,0-0,Final
+4,05/09/2020,09:00,Barnsley,Nottingham Forest,1-0,Final
+4,05/09/2020,09:00,Fleetwood Town,Wigan,3-2,Final
+5,05/09/2020,09:00,Northampton,Cardiff,3-0,Final
+5,05/09/2020,09:00,Oxford United,AFC Wimbledon,1-1,Final
+5,05/09/2020,09:00,Scunthorpe,Port Vale,1-2,Final
+5,05/09/2020,09:00,Milton Keynes Dons,Coventry,0-1,Final
+5,05/09/2020,09:00,Oldham,Carlisle,3-0,Final
+6,05/09/2020,09:00,Peterborough,Cheltenham,0-1,Final
+6,05/09/2020,09:00,Swindon Town,Charlton,1-3,Final
+6,05/09/2020,09:00,Luton,Norwich,3-1,Final
+6,05/09/2020,09:00,Crewe,Lincoln,1-2,Final
+6,05/09/2020,09:00,Grimsby,Morecambe,1-1,Final
+7,05/09/2020,09:00,Newport County,Swansea,2-0,Final
+7,05/09/2020,09:00,Forest Green,Leyton Orient,1-2,Final
+7,05/09/2020,09:00,Tranmere,Harrogate Town,1-1,Final
+7,05/09/2020,09:00,Salford City,Rotherham,1-1,Final
+7,06/09/2020,06:00,Brentford,Wycombe,1-1,Final
+8,15/09/2020,12:00,Reading,Luton,0-1,Final
+8,15/09/2020,12:00,Millwall,Cheltenham,3-1,Final
+8,15/09/2020,12:00,Middlesbrough,Barnsley,0-2,Final
+8,15/09/2020,12:00,Gillingham,Coventry,1-1,Final
+8,15/09/2020,12:30,Derby,Preston,1-2,Final
+9,15/09/2020,13:00,Fleetwood Town,Port Vale,2-1,Final
+9,15/09/2020,13:00,Oxford United,Watford,1-1,Final
+9,15/09/2020,13:00,Bradford,Lincoln,0-5,Final
+9,15/09/2020,13:00,Newport County,Cambridge United,1-0,Final
+9,15/09/2020,13:30,Newcastle,Blackburn,1-0,Final
+10,15/09/2020,13:30,West Ham,Charlton,3-0,Final
+10,15/09/2020,13:45,Bournemouth,Crystal Palace,0-0,Final
+10,15/09/2020,13:45,Burton Albion,Aston Villa,1-3,Final
+10,15/09/2020,13:45,Rochdale,Sheffield Wednesday,0-2,Final
+10,15/09/2020,13:45,Leyton Orient,Plymouth,3-2,Final
+11,15/09/2020,13:45,Morecambe,Oldham,1-0,Final
+11,16/09/2020,12:00,West Brom,Harrogate Town,3-0,Final
+11,16/09/2020,13:00,Ipswich,Fulham,0-1,Final
+11,16/09/2020,13:45,Southampton,Brentford,0-2,Final
+11,16/09/2020,13:45,Bristol City,Northampton,4-0,Final
+12,16/09/2020,13:45,Leeds,Hull City,1-1,Final
+12,16/09/2020,14:15,Everton,Salford City,3-0,Final
+12,17/09/2020,11:30,Burnley,Sheffield Utd,1-1,Final
+12,17/09/2020,13:00,Wolves,Stoke City,0-1,Final
+12,17/09/2020,13:45,Brighton,Portsmouth,4-0,Final
+13,22/09/2020,12:00,Leyton Orient,Tottenham,0-2,Final
+13,22/09/2020,13:00,West Brom,Brentford,2-2,Final
+13,22/09/2020,13:00,Newport County,Watford,3-1,Final
+13,22/09/2020,13:30,West Ham,Hull City,5-1,Final
+13,22/09/2020,14:15,Luton,Manchester United,0-3,Final
+14,23/09/2020,13:00,Fulham,Sheffield Wednesday,2-0,Final
+14,23/09/2020,13:00,Millwall,Burnley,0-2,Final
+14,23/09/2020,13:00,Preston,Brighton,0-2,Final
+14,23/09/2020,13:00,Stoke City,Gillingham,1-0,Final
+14,23/09/2020,13:45,Leicester,Arsenal,0-2,Final
+15,23/09/2020,13:45,Chelsea,Barnsley,6-0,Final
+15,23/09/2020,13:45,Fleetwood Town,Everton,2-5,Final
+15,23/09/2020,13:45,Morecambe,Newcastle,0-7,Final
+15,24/09/2020,13:00,Bristol City,Aston Villa,0-3,Final
+15,24/09/2020,13:45,Manchester City,Bournemouth,2-1,Final
+16,24/09/2020,13:45,Lincoln,Liverpool,2-7,Final
+16,29/09/2020,13:45,Tottenham,Chelsea,1-1,Final
+16,30/09/2020,11:30,Newport County,Newcastle,1-1,Final
+16,30/09/2020,13:00,Burnley,Manchester City,0-3,Final
+16,30/09/2020,13:45,Everton,West Ham,4-1,Final
+17,30/09/2020,13:45,Brighton,Manchester United,0-3,Final
+17,01/10/2020,11:30,Brentford,Fulham,3-0,Final
+17,01/10/2020,13:00,Aston Villa,Stoke City,0-1,Final
+17,01/10/2020,13:45,Liverpool,Arsenal,0-0,Final
+17,22/12/2020,12:30,Brentford,Newcastle,1-0,Final
+18,22/12/2020,15:00,Arsenal,Manchester City,1-4,Final
+18,23/12/2020,12:30,Stoke City,Tottenham,1-3,Final
+18,23/12/2020,15:00,Everton,Manchester United,0-2,Final
+18,05/01/2021,14:45,Tottenham,Brentford,2-0,Final
+18,06/01/2021,14:45,Manchester United,Manchester City,0-2,Final
+18,25/04/2021,10:30,Manchester City,Tottenham,1-0,Final

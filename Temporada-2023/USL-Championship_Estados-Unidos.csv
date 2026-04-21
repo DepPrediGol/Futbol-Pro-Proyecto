@@ -1,0 +1,409 @@
+matchday,date,time,home_team,away_team,result,status
+1,11/03/2023,03:00,Memphis 901,Loudoun United,1-3,Final
+1,11/03/2023,03:00,Miami FC,FC Tulsa,1-1,Final
+1,12/03/2023,03:00,Birmingham Legion,Pittsburgh Riverhounds,1-1,Final
+1,12/03/2023,03:00,Charleston Battery,Phoenix Rising,1-1,Final
+1,12/03/2023,03:00,Tampa Bay Rowdies,Indy Eleven,1-1,Final
+1,12/03/2023,03:00,San Antonio FC,Oakland Roots,3-1,Final
+1,12/03/2023,03:00,El Paso Locomotive,Sacramento Republic,0-1,Final
+1,12/03/2023,03:00,Monterey Bay FC,Hartford Athletic,5-3,Final
+1,12/03/2023,03:00,Orange County SC,Louisville City FC,1-3,Final
+1,12/03/2023,03:00,San Diego Loyal,Detroit City FC,1-0,Final
+1,13/03/2023,03:00,Rio Grande Valley FC,Las Vegas Lights FC,1-1,Final
+1,16/03/2023,03:00,El Paso Locomotive,Colorado Springs Switchbacks,1-2,Final
+1,18/03/2023,03:00,Birmingham Legion,FC Tulsa,3-2,Final
+1,18/03/2023,03:00,Memphis 901,Pittsburgh Riverhounds,1-3,Final
+1,19/03/2023,03:00,Miami FC,New Mexico United,0-1,Final
+1,19/03/2023,03:00,Colorado Springs Switchbacks,Hartford Athletic,1-1,Final
+1,19/03/2023,03:00,El Paso Locomotive,Detroit City FC,1-3,Final
+1,19/03/2023,03:00,Monterey Bay FC,Louisville City FC,0-1,Final
+1,19/03/2023,03:00,Orange County SC,Tampa Bay Rowdies,1-1,Final
+1,19/03/2023,03:00,Sacramento Republic,Charleston Battery,1-1,Final
+1,19/03/2023,03:00,Loudoun United,San Antonio FC,1-1,Final
+1,19/03/2023,03:00,San Diego Loyal,Phoenix Rising,3-0,Final
+1,20/03/2023,03:00,Rio Grande Valley FC,Oakland Roots,1-1,Final
+1,25/03/2023,03:00,Pittsburgh Riverhounds,Miami FC,1-1,Final
+1,25/03/2023,03:00,Rio Grande Valley FC,Monterey Bay FC,1-1,Final
+1,25/03/2023,03:00,Hartford Athletic,Birmingham Legion,0-1,Final
+1,25/03/2023,03:00,Louisville City FC,El Paso Locomotive,0-3,Final
+1,25/03/2023,03:00,Detroit City FC,Indy Eleven,0-1,Final
+1,26/03/2023,03:00,Charleston Battery,Tampa Bay Rowdies,3-0,Final
+1,26/03/2023,03:00,FC Tulsa,Loudoun United,3-0,Final
+1,26/03/2023,03:00,San Antonio FC,Colorado Springs Switchbacks,1-0,Final
+1,26/03/2023,03:00,Orange County SC,Las Vegas Lights FC,2-2,Final
+1,26/03/2023,03:00,Sacramento Republic,San Diego Loyal,1-0,Final
+1,29/03/2023,03:00,FC Tulsa,Pittsburgh Riverhounds,0-0,Final
+1,01/04/2023,03:00,FC Tulsa,El Paso Locomotive,2-2,Final
+2,01/04/2023,03:00,Hartford Athletic,Orange County SC,1-1,Final
+2,01/04/2023,03:00,Detroit City FC,Rio Grande Valley FC,0-1,Final
+2,01/04/2023,03:00,Loudoun United,Colorado Springs Switchbacks,0-1,Final
+2,02/04/2023,03:00,Indy Eleven,Las Vegas Lights FC,0-0,Final
+2,02/04/2023,03:00,Miami FC,Memphis 901,1-1,Final
+2,02/04/2023,03:00,Tampa Bay Rowdies,Birmingham Legion,0-2,Final
+2,02/04/2023,03:00,Monterey Bay FC,San Antonio FC,1-2,Final
+2,02/04/2023,03:00,Oakland Roots,New Mexico United,1-0,Final
+2,02/04/2023,03:00,Sacramento Republic,Louisville City FC,5-0,Final
+2,02/04/2023,03:00,Phoenix Rising,San Diego Loyal,2-2,Final
+2,08/04/2023,03:00,Louisville City FC,Detroit City FC,1-0,Final
+2,08/04/2023,03:00,San Diego Loyal,FC Tulsa,2-1,Final
+2,09/04/2023,03:00,Indy Eleven,Oakland Roots,0-3,Final
+2,09/04/2023,03:00,Charleston Battery,Hartford Athletic,3-2,Final
+2,09/04/2023,03:00,Tampa Bay Rowdies,Miami FC,2-0,Final
+2,09/04/2023,03:00,Colorado Springs Switchbacks,Pittsburgh Riverhounds,1-0,Final
+2,09/04/2023,03:00,San Antonio FC,Sacramento Republic,0-0,Final
+2,09/04/2023,03:00,El Paso Locomotive,Orange County SC,1-0,Final
+2,09/04/2023,03:00,Monterey Bay FC,New Mexico United,4-2,Final
+2,09/04/2023,03:00,Birmingham Legion,Phoenix Rising,1-2,Final
+2,13/04/2023,03:00,Tampa Bay Rowdies,Charleston Battery,1-2,Final
+2,16/04/2023,03:00,FC Tulsa,Charleston Battery,1-2,Final
+2,16/04/2023,03:00,Loudoun United,Birmingham Legion,3-0,Final
+2,16/04/2023,03:00,Miami FC,Detroit City FC,0-0,Final
+2,16/04/2023,03:00,Pittsburgh Riverhounds,Rio Grande Valley FC,2-0,Final
+2,16/04/2023,03:00,Louisville City FC,San Antonio FC,1-0,Final
+2,16/04/2023,03:00,Memphis 901,Las Vegas Lights FC,2-2,Final
+2,16/04/2023,03:00,New Mexico United,San Diego Loyal,1-1,Final
+2,16/04/2023,03:00,Oakland Roots,Hartford Athletic,1-2,Final
+2,16/04/2023,03:00,Orange County SC,Indy Eleven,1-0,Final
+2,16/04/2023,03:00,Phoenix Rising,Monterey Bay FC,1-1,Final
+2,16/04/2023,03:00,Sacramento Republic,Colorado Springs Switchbacks,4-0,Final
+2,23/04/2023,03:00,Indy Eleven,Monterey Bay FC,2-3,Final
+2,23/04/2023,03:00,Charleston Battery,Louisville City FC,0-0,Final
+2,23/04/2023,03:00,Colorado Springs Switchbacks,New Mexico United,2-1,Final
+2,23/04/2023,03:00,Rio Grande Valley FC,Memphis 901,0-3,Final
+2,23/04/2023,03:00,San Antonio FC,Phoenix Rising,1-1,Final
+2,23/04/2023,03:00,El Paso Locomotive,Pittsburgh Riverhounds,2-0,Final
+2,23/04/2023,03:00,Orange County SC,Birmingham Legion,1-2,Final
+2,23/04/2023,03:00,Sacramento Republic,Detroit City FC,1-0,Final
+2,23/04/2023,03:00,Loudoun United,Oakland Roots,2-0,Final
+2,23/04/2023,03:00,Miami FC,Las Vegas Lights FC,4-1,Final
+2,24/04/2023,03:00,San Diego Loyal,Tampa Bay Rowdies,1-0,Final
+2,29/04/2023,03:00,Detroit City FC,Tampa Bay Rowdies,0-1,Final
+2,30/04/2023,03:00,FC Tulsa,Sacramento Republic,1-1,Final
+2,30/04/2023,03:00,Indy Eleven,Pittsburgh Riverhounds,1-1,Final
+2,30/04/2023,03:00,Charleston Battery,Colorado Springs Switchbacks,1-2,Final
+2,30/04/2023,03:00,Memphis 901,Louisville City FC,1-1,Final
+2,30/04/2023,03:00,San Antonio FC,Las Vegas Lights FC,1-1,Final
+2,30/04/2023,03:00,New Mexico United,Orange County SC,3-1,Final
+2,30/04/2023,03:00,Monterey Bay FC,Rio Grande Valley FC,0-0,Final
+2,30/04/2023,03:00,Oakland Roots,Miami FC,0-0,Final
+2,30/04/2023,03:00,San Diego Loyal,El Paso Locomotive,1-2,Final
+2,30/04/2023,03:00,Phoenix Rising,Loudoun United,3-1,Final
+2,30/04/2023,03:00,Birmingham Legion,Hartford Athletic,3-2,Final
+3,04/05/2023,03:00,Miami FC,Birmingham Legion,3-1,Final
+3,06/05/2023,03:00,Rio Grande Valley FC,New Mexico United,2-2,Final
+3,06/05/2023,03:00,Colorado Springs Switchbacks,El Paso Locomotive,2-3,Final
+3,06/05/2023,03:00,Monterey Bay FC,Pittsburgh Riverhounds,2-2,Final
+3,06/05/2023,03:00,Las Vegas Lights FC,Charleston Battery,0-1,Final
+3,07/05/2023,03:00,Hartford Athletic,Memphis 901,0-2,Final
+3,07/05/2023,03:00,Loudoun United,Indy Eleven,1-2,Final
+3,07/05/2023,03:00,Birmingham Legion,Oakland Roots,1-4,Final
+3,07/05/2023,03:00,Detroit City FC,FC Tulsa,1-1,Final
+3,07/05/2023,03:00,Tampa Bay Rowdies,Phoenix Rising,2-0,Final
+3,07/05/2023,03:00,Orange County SC,San Diego Loyal,1-2,Final
+3,08/05/2023,03:00,Las Vegas Lights FC,San Antonio FC,1-2,Final
+3,14/05/2023,03:00,Louisville City FC,Miami FC,3-1,Final
+3,14/05/2023,03:00,Pittsburgh Riverhounds,Birmingham Legion,2-1,Final
+3,14/05/2023,03:00,Charleston Battery,San Antonio FC,0-7,Final
+3,14/05/2023,03:00,Tampa Bay Rowdies,Detroit City FC,5-1,Final
+3,14/05/2023,03:00,Memphis 901,Colorado Springs Switchbacks,2-1,Final
+3,14/05/2023,03:00,New Mexico United,Monterey Bay FC,2-1,Final
+3,14/05/2023,03:00,El Paso Locomotive,Loudoun United,1-0,Final
+3,14/05/2023,03:00,Sacramento Republic,Indy Eleven,3-1,Final
+3,14/05/2023,03:00,San Diego Loyal,Rio Grande Valley FC,2-3,Final
+3,14/05/2023,03:00,Las Vegas Lights FC,FC Tulsa,1-1,Final
+3,14/05/2023,03:00,Phoenix Rising,Hartford Athletic,3-1,Final
+3,14/05/2023,03:00,Oakland Roots,Orange County SC,3-0,Final
+3,18/05/2023,03:00,Loudoun United,New Mexico United,1-3,Final
+3,18/05/2023,03:00,Orange County SC,Sacramento Republic,1-0,Final
+3,20/05/2023,03:00,FC Tulsa,Memphis 901,1-2,Final
+3,20/05/2023,03:00,Charleston Battery,Monterey Bay FC,1-0,Final
+3,21/05/2023,03:00,Hartford Athletic,Loudoun United,2-0,Final
+3,21/05/2023,03:00,Indy Eleven,Colorado Springs Switchbacks,1-0,Final
+3,21/05/2023,03:00,Miami FC,San Diego Loyal,2-3,Final
+3,21/05/2023,03:00,Pittsburgh Riverhounds,Las Vegas Lights FC,4-1,Final
+3,21/05/2023,03:00,Birmingham Legion,El Paso Locomotive,1-2,Final
+3,21/05/2023,03:00,Detroit City FC,San Antonio FC,1-0,Final
+3,21/05/2023,03:00,Rio Grande Valley FC,Tampa Bay Rowdies,0-3,Final
+3,21/05/2023,03:00,Orange County SC,Phoenix Rising,0-1,Final
+3,21/05/2023,03:00,Sacramento Republic,Oakland Roots,3-1,Final
+3,25/05/2023,03:00,Louisville City FC,FC Tulsa,1-2,Final
+3,27/05/2023,03:00,Hartford Athletic,Sacramento Republic,1-4,Final
+3,27/05/2023,03:00,Phoenix Rising,Las Vegas Lights FC,0-1,Final
+3,27/05/2023,03:00,Detroit City FC,Birmingham Legion,1-0,Final
+3,28/05/2023,03:00,Indy Eleven,Louisville City FC,0-1,Final
+3,28/05/2023,03:00,Miami FC,Orange County SC,0-0,Final
+3,28/05/2023,03:00,Tampa Bay Rowdies,Colorado Springs Switchbacks,2-1,Final
+3,28/05/2023,03:00,Rio Grande Valley FC,Charleston Battery,0-2,Final
+3,28/05/2023,03:00,San Antonio FC,New Mexico United,2-1,Final
+3,28/05/2023,03:00,Oakland Roots,San Diego Loyal,2-0,Final
+3,29/05/2023,03:00,Loudoun United,Pittsburgh Riverhounds,0-1,Final
+3,01/06/2023,03:00,Monterey Bay FC,FC Tulsa,0-0,Final
+4,03/06/2023,03:00,Charleston Battery,Indy Eleven,0-4,Final
+4,03/06/2023,03:00,Colorado Springs Switchbacks,Oakland Roots,0-1,Final
+4,04/06/2023,03:00,Hartford Athletic,Louisville City FC,0-0,Final
+4,04/06/2023,03:00,Pittsburgh Riverhounds,Phoenix Rising,1-0,Final
+4,04/06/2023,03:00,Tampa Bay Rowdies,Sacramento Republic,1-1,Final
+4,04/06/2023,03:00,Memphis 901,Miami FC,5-1,Final
+4,04/06/2023,03:00,New Mexico United,El Paso Locomotive,0-1,Final
+4,04/06/2023,03:00,San Antonio FC,San Diego Loyal,3-3,Final
+4,04/06/2023,03:00,Monterey Bay FC,Loudoun United,4-1,Final
+4,04/06/2023,03:00,Orange County SC,Rio Grande Valley FC,2-0,Final
+4,08/06/2023,03:00,Charleston Battery,Detroit City FC,0-0,Final
+4,10/06/2023,03:00,Loudoun United,FC Tulsa,3-1,Final
+4,10/06/2023,03:00,San Diego Loyal,Sacramento Republic,1-1,Final
+4,11/06/2023,03:00,Indy Eleven,Hartford Athletic,1-1,Final
+4,11/06/2023,03:00,Pittsburgh Riverhounds,Charleston Battery,2-0,Final
+4,11/06/2023,03:00,Tampa Bay Rowdies,New Mexico United,3-2,Final
+4,11/06/2023,03:00,Louisville City FC,Memphis 901,1-3,Final
+4,11/06/2023,03:00,Rio Grande Valley FC,Miami FC,3-3,Final
+4,11/06/2023,03:00,Colorado Springs Switchbacks,Orange County SC,4-0,Final
+4,11/06/2023,03:00,San Antonio FC,El Paso Locomotive,2-2,Final
+4,11/06/2023,03:00,Las Vegas Lights FC,Monterey Bay FC,1-2,Final
+4,11/06/2023,03:00,Phoenix Rising,Oakland Roots,2-2,Final
+4,15/06/2023,03:00,Hartford Athletic,Detroit City FC,1-3,Final
+4,15/06/2023,03:00,El Paso Locomotive,Las Vegas Lights FC,2-1,Final
+4,15/06/2023,03:00,San Diego Loyal,San Antonio FC,2-2,Final
+4,18/06/2023,03:00,Hartford Athletic,Charleston Battery,3-4,Final
+4,18/06/2023,03:00,Miami FC,Loudoun United,1-2,Final
+4,18/06/2023,03:00,Birmingham Legion,Indy Eleven,2-1,Final
+4,18/06/2023,03:00,FC Tulsa,Orange County SC,0-3,Final
+4,18/06/2023,03:00,Memphis 901,Detroit City FC,0-0,Final
+4,18/06/2023,03:00,Colorado Springs Switchbacks,Las Vegas Lights FC,2-0,Final
+4,18/06/2023,03:00,New Mexico United,Rio Grande Valley FC,2-2,Final
+4,18/06/2023,03:00,El Paso Locomotive,Tampa Bay Rowdies,1-1,Final
+4,18/06/2023,03:00,Oakland Roots,Pittsburgh Riverhounds,0-0,Final
+4,18/06/2023,03:00,Phoenix Rising,Louisville City FC,2-2,Final
+4,18/06/2023,03:00,Sacramento Republic,Monterey Bay FC,0-1,Final
+4,22/06/2023,03:00,Birmingham Legion,Loudoun United,2-0,Final
+4,22/06/2023,03:00,Memphis 901,FC Tulsa,4-0,Final
+4,22/06/2023,03:00,Rio Grande Valley FC,Colorado Springs Switchbacks,1-0,Final
+4,22/06/2023,03:00,New Mexico United,Phoenix Rising,1-3,Final
+4,25/06/2023,03:00,Hartford Athletic,Indy Eleven,0-2,Final
+4,25/06/2023,03:00,Loudoun United,Tampa Bay Rowdies,2-4,Final
+4,25/06/2023,03:00,Pittsburgh Riverhounds,San Diego Loyal,2-1,Final
+4,25/06/2023,03:00,Detroit City FC,Orange County SC,0-1,Final
+4,25/06/2023,03:00,Louisville City FC,Las Vegas Lights FC,1-0,Final
+4,25/06/2023,03:00,Memphis 901,Charleston Battery,3-2,Final
+4,25/06/2023,03:00,New Mexico United,Colorado Springs Switchbacks,2-1,Final
+4,25/06/2023,03:00,Monterey Bay FC,Miami FC,1-0,Final
+4,25/06/2023,03:00,Oakland Roots,Phoenix Rising,1-1,Final
+4,25/06/2023,03:00,Sacramento Republic,San Antonio FC,3-1,Final
+4,29/06/2023,03:00,Oakland Roots,Rio Grande Valley FC,0-2,Final
+5,01/07/2023,03:00,Charleston Battery,Loudoun United,3-0,Final
+5,01/07/2023,03:00,FC Tulsa,Detroit City FC,3-2,Final
+5,02/07/2023,03:00,Indy Eleven,San Diego Loyal,2-2,Final
+5,02/07/2023,03:00,Pittsburgh Riverhounds,Louisville City FC,0-0,Final
+5,02/07/2023,03:00,Colorado Springs Switchbacks,Miami FC,2-0,Final
+5,02/07/2023,03:00,San Antonio FC,Birmingham Legion,3-1,Final
+5,02/07/2023,03:00,El Paso Locomotive,New Mexico United,0-1,Final
+5,02/07/2023,03:00,Orange County SC,Monterey Bay FC,3-1,Final
+5,02/07/2023,03:00,Las Vegas Lights FC,Tampa Bay Rowdies,1-2,Final
+5,02/07/2023,03:00,Phoenix Rising,Memphis 901,6-0,Final
+5,02/07/2023,03:00,Sacramento Republic,Rio Grande Valley FC,1-1,Final
+5,04/07/2023,03:00,Loudoun United,Hartford Athletic,2-1,Final
+5,05/07/2023,03:00,Colorado Springs Switchbacks,Monterey Bay FC,4-0,Final
+5,05/07/2023,03:00,Las Vegas Lights FC,New Mexico United,2-2,Final
+5,08/07/2023,03:00,Memphis 901,San Antonio FC,0-4,Final
+5,09/07/2023,03:00,Hartford Athletic,San Diego Loyal,0-2,Final
+5,09/07/2023,03:00,Indy Eleven,FC Tulsa,0-1,Final
+5,09/07/2023,03:00,Miami FC,Phoenix Rising,2-1,Final
+5,09/07/2023,03:00,Pittsburgh Riverhounds,Sacramento Republic,0-0,Final
+5,09/07/2023,03:00,Tampa Bay Rowdies,Oakland Roots,3-0,Final
+5,09/07/2023,03:00,Louisville City FC,Loudoun United,1-0,Final
+5,09/07/2023,03:00,New Mexico United,Detroit City FC,1-0,Final
+5,09/07/2023,03:00,Monterey Bay FC,El Paso Locomotive,0-0,Final
+5,09/07/2023,03:00,Las Vegas Lights FC,Birmingham Legion,3-3,Final
+5,10/07/2023,03:00,Rio Grande Valley FC,Orange County SC,2-0,Final
+5,13/07/2023,03:00,Indy Eleven,Charleston Battery,1-1,Final
+5,13/07/2023,03:00,Detroit City FC,Loudoun United,1-1,Final
+5,13/07/2023,03:00,Louisville City FC,Pittsburgh Riverhounds,0-1,Final
+5,13/07/2023,03:00,El Paso Locomotive,San Antonio FC,1-2,Final
+5,13/07/2023,03:00,FC Tulsa,Miami FC,1-0,Final
+5,13/07/2023,03:00,Oakland Roots,Memphis 901,1-1,Final
+5,15/07/2023,03:00,Colorado Springs Switchbacks,San Diego Loyal,0-5,Final
+5,16/07/2023,03:00,Miami FC,Charleston Battery,1-1,Final
+5,16/07/2023,03:00,Pittsburgh Riverhounds,Detroit City FC,2-0,Final
+5,16/07/2023,03:00,Birmingham Legion,Tampa Bay Rowdies,1-0,Final
+5,16/07/2023,03:00,Loudoun United,Orange County SC,1-3,Final
+5,16/07/2023,03:00,FC Tulsa,Hartford Athletic,3-2,Final
+5,16/07/2023,03:00,El Paso Locomotive,Rio Grande Valley FC,1-1,Final
+5,16/07/2023,03:00,Monterey Bay FC,Oakland Roots,1-3,Final
+5,16/07/2023,03:00,Sacramento Republic,Memphis 901,1-1,Final
+5,20/07/2023,03:00,Detroit City FC,Louisville City FC,2-0,Final
+5,22/07/2023,03:00,FC Tulsa,Rio Grande Valley FC,2-1,Final
+5,23/07/2023,03:00,Indy Eleven,Tampa Bay Rowdies,0-0,Final
+5,23/07/2023,03:00,Charleston Battery,Pittsburgh Riverhounds,3-1,Final
+5,23/07/2023,03:00,Detroit City FC,Monterey Bay FC,1-0,Final
+5,23/07/2023,03:00,Louisville City FC,Birmingham Legion,1-2,Final
+5,23/07/2023,03:00,Memphis 901,Orange County SC,3-4,Final
+5,23/07/2023,03:00,New Mexico United,Sacramento Republic,3-0,Final
+5,23/07/2023,03:00,San Antonio FC,Miami FC,0-1,Final
+5,23/07/2023,03:00,El Paso Locomotive,Oakland Roots,1-3,Final
+5,23/07/2023,03:00,Las Vegas Lights FC,Hartford Athletic,0-2,Final
+5,23/07/2023,03:00,Phoenix Rising,Colorado Springs Switchbacks,1-1,Final
+5,27/07/2023,03:00,Pittsburgh Riverhounds,Indy Eleven,1-3,Final
+5,27/07/2023,03:00,Oakland Roots,Las Vegas Lights FC,1-0,Final
+5,27/07/2023,03:00,Sacramento Republic,Phoenix Rising,4-0,Final
+5,30/07/2023,03:00,Pittsburgh Riverhounds,Memphis 901,4-2,Final
+5,30/07/2023,03:00,Birmingham Legion,Charleston Battery,1-2,Final
+5,30/07/2023,03:00,Loudoun United,Miami FC,1-2,Final
+5,30/07/2023,03:00,Tampa Bay Rowdies,FC Tulsa,3-0,Final
+5,30/07/2023,03:00,Louisville City FC,Indy Eleven,2-0,Final
+5,30/07/2023,03:00,Rio Grande Valley FC,El Paso Locomotive,5-2,Final
+5,30/07/2023,03:00,San Antonio FC,Hartford Athletic,5-2,Final
+5,30/07/2023,03:00,Monterey Bay FC,Phoenix Rising,0-2,Final
+5,30/07/2023,03:00,Oakland Roots,Detroit City FC,1-1,Final
+5,30/07/2023,03:00,Orange County SC,New Mexico United,1-0,Final
+5,30/07/2023,03:00,Las Vegas Lights FC,Sacramento Republic,1-2,Final
+5,31/07/2023,03:00,San Diego Loyal,Colorado Springs Switchbacks,2-0,Final
+6,02/08/2023,03:00,Loudoun United,Memphis 901,0-0,Final
+6,05/08/2023,03:00,Charleston Battery,Oakland Roots,0-1,Final
+6,05/08/2023,03:00,Colorado Springs Switchbacks,Birmingham Legion,2-1,Final
+6,05/08/2023,03:00,FC Tulsa,Louisville City FC,0-3,Final
+6,06/08/2023,03:00,Hartford Athletic,New Mexico United,2-1,Final
+6,06/08/2023,03:00,Indy Eleven,Memphis 901,1-2,Final
+6,06/08/2023,03:00,Miami FC,El Paso Locomotive,4-0,Final
+6,06/08/2023,03:00,Pittsburgh Riverhounds,Tampa Bay Rowdies,1-0,Final
+6,06/08/2023,03:00,Monterey Bay FC,Sacramento Republic,0-1,Final
+6,06/08/2023,03:00,San Diego Loyal,Orange County SC,1-3,Final
+6,06/08/2023,03:00,Las Vegas Lights FC,Rio Grande Valley FC,2-1,Final
+6,06/08/2023,03:00,Phoenix Rising,San Antonio FC,1-2,Final
+6,10/08/2023,03:00,Louisville City FC,Charleston Battery,1-1,Final
+6,10/08/2023,03:00,Indy Eleven,Birmingham Legion,4-0,Final
+6,10/08/2023,03:00,Colorado Springs Switchbacks,FC Tulsa,1-1,Final
+6,10/08/2023,03:00,San Diego Loyal,Loudoun United,2-1,Final
+6,13/08/2023,03:00,Miami FC,Indy Eleven,0-1,Final
+6,13/08/2023,03:00,Birmingham Legion,Sacramento Republic,1-1,Final
+6,13/08/2023,03:00,Detroit City FC,Charleston Battery,0-1,Final
+6,13/08/2023,03:00,Tampa Bay Rowdies,Monterey Bay FC,4-1,Final
+6,13/08/2023,03:00,Louisville City FC,Rio Grande Valley FC,2-2,Final
+6,13/08/2023,03:00,New Mexico United,San Antonio FC,0-3,Final
+6,13/08/2023,03:00,San Diego Loyal,Memphis 901,0-1,Final
+6,13/08/2023,03:00,Pittsburgh Riverhounds,Hartford Athletic,2-0,Final
+6,13/08/2023,03:00,Las Vegas Lights FC,Loudoun United,0-3,Final
+6,13/08/2023,03:00,Phoenix Rising,El Paso Locomotive,5-0,Final
+6,17/08/2023,03:00,San Antonio FC,Rio Grande Valley FC,2-1,Final
+6,17/08/2023,03:00,Orange County SC,Pittsburgh Riverhounds,1-0,Final
+6,19/08/2023,03:00,FC Tulsa,Tampa Bay Rowdies,1-2,Final
+6,19/08/2023,03:00,Birmingham Legion,Louisville City FC,2-0,Final
+6,20/08/2023,03:00,Hartford Athletic,Miami FC,0-3,Final
+6,20/08/2023,03:00,Detroit City FC,Las Vegas Lights FC,1-0,Final
+6,20/08/2023,03:00,Loudoun United,Sacramento Republic,1-3,Final
+6,20/08/2023,03:00,Rio Grande Valley FC,Phoenix Rising,1-0,Final
+6,20/08/2023,03:00,San Antonio FC,Monterey Bay FC,0-0,Final
+6,20/08/2023,03:00,El Paso Locomotive,Indy Eleven,2-3,Final
+6,20/08/2023,03:00,San Diego Loyal,New Mexico United,2-2,Final
+6,20/08/2023,03:00,Oakland Roots,Colorado Springs Switchbacks,2-3,Final
+6,20/08/2023,03:00,Orange County SC,Charleston Battery,2-0,Final
+6,24/08/2023,03:00,Hartford Athletic,Pittsburgh Riverhounds,3-4,Final
+6,24/08/2023,03:00,FC Tulsa,Birmingham Legion,1-3,Final
+6,24/08/2023,03:00,Memphis 901,Indy Eleven,0-0,Final
+6,24/08/2023,03:00,New Mexico United,Oakland Roots,1-2,Final
+6,27/08/2023,03:00,Hartford Athletic,El Paso Locomotive,0-2,Final
+6,27/08/2023,03:00,Indy Eleven,Loudoun United,2-1,Final
+6,27/08/2023,03:00,Miami FC,Tampa Bay Rowdies,0-2,Final
+6,27/08/2023,03:00,Charleston Battery,Memphis 901,1-0,Final
+6,27/08/2023,03:00,Louisville City FC,Oakland Roots,2-1,Final
+6,27/08/2023,03:00,Rio Grande Valley FC,San Diego Loyal,2-3,Final
+6,27/08/2023,03:00,New Mexico United,FC Tulsa,2-1,Final
+6,27/08/2023,03:00,San Antonio FC,Pittsburgh Riverhounds,0-0,Final
+6,27/08/2023,03:00,Monterey Bay FC,Colorado Springs Switchbacks,2-1,Final
+6,27/08/2023,03:00,Las Vegas Lights FC,Phoenix Rising,2-3,Final
+6,27/08/2023,03:00,Sacramento Republic,Orange County SC,0-2,Final
+6,27/08/2023,03:00,Birmingham Legion,Detroit City FC,2-3,Final
+6,31/08/2023,03:00,Rio Grande Valley FC,San Antonio FC,0-0,Final
+6,31/08/2023,03:00,New Mexico United,Las Vegas Lights FC,3-3,Final
+6,31/08/2023,03:00,Phoenix Rising,Sacramento Republic,2-1,Final
+7,03/09/2023,03:00,Indy Eleven,Miami FC,1-0,Final
+7,03/09/2023,03:00,Detroit City FC,Memphis 901,1-1,Final
+7,03/09/2023,03:00,Tampa Bay Rowdies,Hartford Athletic,2-1,Final
+7,03/09/2023,03:00,Colorado Springs Switchbacks,Louisville City FC,2-3,Final
+7,03/09/2023,03:00,New Mexico United,Charleston Battery,0-1,Final
+7,03/09/2023,03:00,El Paso Locomotive,Monterey Bay FC,1-2,Final
+7,03/09/2023,03:00,Oakland Roots,Sacramento Republic,0-1,Final
+7,03/09/2023,03:00,Las Vegas Lights FC,Orange County SC,1-5,Final
+7,03/09/2023,03:00,Phoenix Rising,Rio Grande Valley FC,2-0,Final
+7,04/09/2023,03:00,San Diego Loyal,Birmingham Legion,3-0,Final
+7,04/09/2023,03:00,FC Tulsa,San Antonio FC,2-1,Final
+7,07/09/2023,03:00,Memphis 901,Tampa Bay Rowdies,3-2,Final
+7,10/09/2023,03:00,Pittsburgh Riverhounds,Loudoun United,3-1,Final
+7,10/09/2023,03:00,Charleston Battery,San Diego Loyal,2-0,Final
+7,10/09/2023,03:00,Detroit City FC,Miami FC,2-1,Final
+7,10/09/2023,03:00,Tampa Bay Rowdies,Louisville City FC,2-1,Final
+7,10/09/2023,03:00,Memphis 901,Monterey Bay FC,0-1,Final
+7,10/09/2023,03:00,FC Tulsa,Phoenix Rising,0-0,Final
+7,10/09/2023,03:00,Colorado Springs Switchbacks,San Antonio FC,1-1,Final
+7,10/09/2023,03:00,Orange County SC,El Paso Locomotive,0-0,Final
+7,10/09/2023,03:00,Las Vegas Lights FC,Oakland Roots,3-1,Final
+7,11/09/2023,03:00,Birmingham Legion,New Mexico United,1-0,Final
+7,14/09/2023,03:00,Las Vegas Lights FC,El Paso Locomotive,0-1,Final
+7,16/09/2023,03:00,New Mexico United,Indy Eleven,3-2,Final
+7,16/09/2023,03:00,Orange County SC,Colorado Springs Switchbacks,0-1,Final
+7,17/09/2023,03:00,Loudoun United,Charleston Battery,2-2,Final
+7,17/09/2023,03:00,Miami FC,Pittsburgh Riverhounds,1-2,Final
+7,17/09/2023,03:00,Louisville City FC,San Diego Loyal,1-0,Final
+7,17/09/2023,03:00,Memphis 901,Hartford Athletic,4-2,Final
+7,17/09/2023,03:00,San Antonio FC,Tampa Bay Rowdies,3-3,Final
+7,17/09/2023,03:00,Monterey Bay FC,Las Vegas Lights FC,3-2,Final
+7,17/09/2023,03:00,Oakland Roots,FC Tulsa,0-1,Final
+7,17/09/2023,03:00,Sacramento Republic,El Paso Locomotive,1-0,Final
+7,17/09/2023,03:00,Phoenix Rising,Detroit City FC,5-0,Final
+7,18/09/2023,03:00,Rio Grande Valley FC,Birmingham Legion,1-0,Final
+7,21/09/2023,03:00,Miami FC,Louisville City FC,4-3,Final
+7,21/09/2023,03:00,Birmingham Legion,Memphis 901,1-1,Final
+7,21/09/2023,03:00,Monterey Bay FC,San Diego Loyal,2-3,Final
+7,21/09/2023,03:00,Sacramento Republic,New Mexico United,0-0,Final
+7,21/09/2023,03:00,Phoenix Rising,Indy Eleven,1-1,Final
+7,24/09/2023,03:00,Loudoun United,Louisville City FC,1-2,Final
+7,24/09/2023,03:00,Pittsburgh Riverhounds,New Mexico United,2-1,Final
+7,24/09/2023,03:00,Charleston Battery,FC Tulsa,2-1,Final
+7,24/09/2023,03:00,Detroit City FC,Hartford Athletic,3-0,Final
+7,24/09/2023,03:00,Tampa Bay Rowdies,Memphis 901,2-4,Final
+7,24/09/2023,03:00,Colorado Springs Switchbacks,Sacramento Republic,2-0,Final
+7,24/09/2023,03:00,San Antonio FC,Orange County SC,4-0,Final
+7,24/09/2023,03:00,El Paso Locomotive,Phoenix Rising,1-1,Final
+7,24/09/2023,03:00,Oakland Roots,Monterey Bay FC,2-2,Final
+7,24/09/2023,03:00,Indy Eleven,Rio Grande Valley FC,0-1,Final
+7,25/09/2023,03:00,San Diego Loyal,Las Vegas Lights FC,1-1,Final
+7,25/09/2023,03:00,Birmingham Legion,Miami FC,0-2,Final
+7,28/09/2023,03:00,Hartford Athletic,Tampa Bay Rowdies,0-2,Final
+7,28/09/2023,03:00,Detroit City FC,Colorado Springs Switchbacks,0-3,Final
+7,01/10/2023,03:00,Indy Eleven,Detroit City FC,3-0,Final
+7,01/10/2023,03:00,Miami FC,Hartford Athletic,2-0,Final
+7,01/10/2023,03:00,Pittsburgh Riverhounds,FC Tulsa,3-2,Final
+7,01/10/2023,03:00,Tampa Bay Rowdies,Loudoun United,1-0,Final
+7,01/10/2023,03:00,Colorado Springs Switchbacks,Rio Grande Valley FC,1-1,Final
+7,01/10/2023,03:00,Memphis 901,Birmingham Legion,1-2,Final
+7,01/10/2023,03:00,New Mexico United,Louisville City FC,2-0,Final
+7,01/10/2023,03:00,El Paso Locomotive,Charleston Battery,3-2,Final
+7,01/10/2023,03:00,Oakland Roots,San Antonio FC,2-2,Final
+7,01/10/2023,03:00,San Diego Loyal,Monterey Bay FC,4-1,Final
+7,01/10/2023,03:00,Phoenix Rising,Orange County SC,1-1,Final
+8,02/10/2023,03:00,Sacramento Republic,Las Vegas Lights FC,2-0,Final
+8,05/10/2023,03:00,Hartford Athletic,Rio Grande Valley FC,2-2,Final
+8,05/10/2023,03:00,El Paso Locomotive,San Diego Loyal,0-0,Final
+8,05/10/2023,03:00,Orange County SC,Oakland Roots,3-1,Final
+8,08/10/2023,03:00,Charleston Battery,Miami FC,1-2,Final
+8,08/10/2023,03:00,Loudoun United,Detroit City FC,0-3,Final
+8,08/10/2023,03:00,Louisville City FC,Hartford Athletic,1-1,Final
+8,08/10/2023,03:00,Tampa Bay Rowdies,Pittsburgh Riverhounds,0-2,Final
+8,08/10/2023,03:00,Memphis 901,El Paso Locomotive,4-0,Final
+8,08/10/2023,03:00,Rio Grande Valley FC,Sacramento Republic,2-3,Final
+8,08/10/2023,03:00,FC Tulsa,Indy Eleven,1-2,Final
+8,08/10/2023,03:00,Orange County SC,San Antonio FC,1-0,Final
+8,08/10/2023,03:00,San Diego Loyal,Oakland Roots,4-2,Final
+8,08/10/2023,03:00,Las Vegas Lights FC,Colorado Springs Switchbacks,2-3,Final
+8,08/10/2023,03:00,Phoenix Rising,New Mexico United,1-2,Final
+8,08/10/2023,03:00,Birmingham Legion,Monterey Bay FC,2-0,Final
+8,14/10/2023,03:00,Hartford Athletic,FC Tulsa,2-5,Final
+8,14/10/2023,03:00,New Mexico United,Memphis 901,4-1,Final
+8,14/10/2023,03:00,Detroit City FC,Pittsburgh Riverhounds,0-0,Final
+8,14/10/2023,03:00,Charleston Battery,Birmingham Legion,1-0,Final
+8,15/10/2023,03:00,Louisville City FC,Tampa Bay Rowdies,2-3,Final
+8,15/10/2023,03:00,Colorado Springs Switchbacks,Phoenix Rising,2-0,Final
+8,15/10/2023,03:00,Rio Grande Valley FC,Loudoun United,2-1,Final
+8,15/10/2023,03:00,San Antonio FC,Indy Eleven,3-3,Final
+8,15/10/2023,03:00,Monterey Bay FC,Orange County SC,0-1,Final
+8,15/10/2023,03:00,Oakland Roots,El Paso Locomotive,1-2,Final
+8,15/10/2023,03:00,Sacramento Republic,Miami FC,1-0,Final
+8,15/10/2023,03:00,Las Vegas Lights FC,San Diego Loyal,0-2,Final

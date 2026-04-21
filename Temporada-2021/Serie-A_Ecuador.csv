@@ -1,0 +1,243 @@
+matchday,date,time,home_team,away_team,result,status
+1,19/02/2021,03:00,Universidad Católica,Olmedo,3-0,Final
+1,20/02/2021,03:00,LDU Quito,9 de Octubre,4-2,Final
+1,20/02/2021,03:00,Mushuc Runa,Aucas,1-3,Final
+1,20/02/2021,03:00,Guayaquil City,Macará,3-1,Final
+1,21/02/2021,03:00,Manta,Barcelona,2-3,Final
+1,21/02/2021,03:00,Orense SC,Independiente del Valle,2-0,Final
+1,21/02/2021,03:00,Técnico Universitario,Delfín SC,0-1,Final
+1,22/02/2021,03:00,Emelec,Deportivo Cuenca,4-1,Final
+2,27/02/2021,03:00,Deportivo Cuenca,Guayaquil City,3-0,Final
+2,27/02/2021,03:00,Universidad Católica,Manta,3-3,Final
+2,27/02/2021,03:00,Macará,Independiente del Valle,3-1,Final
+2,28/02/2021,03:00,Aucas,Emelec,2-3,Final
+2,28/02/2021,03:00,9 de Octubre,Mushuc Runa,1-2,Final
+2,28/02/2021,03:00,Olmedo,LDU Quito,0-0,Final
+2,01/03/2021,03:00,Barcelona,Técnico Universitario,3-0,Final
+2,02/03/2021,03:00,Delfín SC,Orense SC,1-1,Final
+3,06/03/2021,03:00,Independiente del Valle,Mushuc Runa,2-0,Final
+3,06/03/2021,03:00,Orense SC,Aucas,2-2,Final
+3,06/03/2021,03:00,LDU Quito,Universidad Católica,2-1,Final
+3,07/03/2021,03:00,Emelec,Delfín SC,1-0,Final
+3,07/03/2021,03:00,Olmedo,Macará,0-2,Final
+3,07/03/2021,03:00,Manta,Deportivo Cuenca,1-0,Final
+3,08/03/2021,03:00,Guayaquil City,Barcelona,0-3,Final
+3,09/03/2021,03:00,Técnico Universitario,9 de Octubre,0-0,Final
+4,12/03/2021,03:00,Macará,Emelec,1-1,Final
+4,13/03/2021,03:00,Deportivo Cuenca,LDU Quito,2-2,Final
+4,13/03/2021,03:00,Universidad Católica,Técnico Universitario,1-1,Final
+4,13/03/2021,03:00,Delfín SC,Guayaquil City,1-1,Final
+4,14/03/2021,03:00,Aucas,Independiente del Valle,3-4,Final
+4,14/03/2021,03:00,Mushuc Runa,Manta,4-2,Final
+4,14/03/2021,03:00,9 de Octubre,Olmedo,2-0,Final
+4,15/03/2021,03:00,Barcelona,Orense SC,2-0,Final
+5,20/03/2021,03:00,Técnico Universitario,Olmedo,0-0,Final
+5,20/03/2021,03:00,Mushuc Runa,Macará,0-0,Final
+5,20/03/2021,03:00,Independiente del Valle,Delfín SC,2-0,Final
+5,21/03/2021,03:00,LDU Quito,Barcelona,2-2,Final
+5,21/03/2021,03:00,Manta,Aucas,1-1,Final
+5,21/03/2021,03:00,Guayaquil City,Universidad Católica,1-2,Final
+5,22/03/2021,03:00,Emelec,9 de Octubre,0-1,Final
+5,23/03/2021,03:00,Deportivo Cuenca,Orense SC,1-0,Final
+6,02/04/2021,03:00,Universidad Católica,Macará,1-1,Final
+6,02/04/2021,03:00,Olmedo,Emelec,2-3,Final
+6,03/04/2021,03:00,Delfín SC,Deportivo Cuenca,1-1,Final
+6,03/04/2021,03:00,LDU Quito,Mushuc Runa,0-0,Final
+6,04/04/2021,03:00,Barcelona,Independiente del Valle,2-2,Final
+6,04/04/2021,03:00,Orense SC,Manta,0-1,Final
+6,04/04/2021,03:00,9 de Octubre,Aucas,1-3,Final
+6,05/04/2021,03:00,Técnico Universitario,Guayaquil City,3-0,Final
+7,31/03/2021,03:00,Aucas,Delfín SC,3-3,Final
+7,01/04/2021,03:00,Guayaquil City,Orense SC,4-1,Final
+7,08/04/2021,03:00,Mushuc Runa,Olmedo,4-0,Final
+7,09/04/2021,03:00,Deportivo Cuenca,Barcelona,1-0,Final
+7,10/04/2021,03:00,Manta,Técnico Universitario,0-2,Final
+7,10/04/2021,03:00,Macará,9 de Octubre,3-2,Final
+7,11/04/2021,03:00,Emelec,LDU Quito,1-1,Final
+7,11/07/2021,03:00,Independiente del Valle,Universidad Católica,2-3,Final
+8,01/04/2021,03:00,Técnico Universitario,Independiente del Valle,0-2,Final
+8,12/04/2021,03:00,Orense SC,Mushuc Runa,0-2,Final
+8,13/04/2021,03:00,Barcelona,Aucas,3-0,Final
+8,13/04/2021,03:00,9 de Octubre,Guayaquil City,4-0,Final
+8,14/04/2021,03:00,Olmedo,Deportivo Cuenca,2-2,Final
+8,14/04/2021,03:00,Delfín SC,Macará,2-0,Final
+8,14/04/2021,03:00,LDU Quito,Manta,1-0,Final
+8,15/04/2021,03:00,Universidad Católica,Emelec,2-3,Final
+9,17/04/2021,03:00,Mushuc Runa,Barcelona,2-2,Final
+9,17/04/2021,03:00,Macará,Orense SC,1-0,Final
+9,18/04/2021,03:00,Aucas,Olmedo,1-3,Final
+9,18/04/2021,03:00,Guayaquil City,LDU Quito,2-2,Final
+9,18/04/2021,03:00,Deportivo Cuenca,Universidad Católica,0-1,Final
+9,18/04/2021,03:00,Independiente del Valle,9 de Octubre,2-1,Final
+9,19/04/2021,03:00,Emelec,Técnico Universitario,2-0,Final
+9,20/04/2021,03:00,Manta,Delfín SC,1-2,Final
+10,01/05/2021,03:00,Universidad Católica,Aucas,1-1,Final
+10,01/05/2021,03:00,9 de Octubre,Deportivo Cuenca,2-1,Final
+10,02/05/2021,03:00,LDU Quito,Macará,2-1,Final
+10,02/05/2021,03:00,Barcelona,Delfín SC,2-1,Final
+10,02/05/2021,03:00,Técnico Universitario,Mushuc Runa,1-3,Final
+10,02/05/2021,03:00,Orense SC,Emelec,2-3,Final
+10,03/05/2021,03:00,Manta,Independiente del Valle,2-1,Final
+10,04/05/2021,03:00,Olmedo,Guayaquil City,0-0,Final
+11,08/05/2021,03:00,Macará,Deportivo Cuenca,1-0,Final
+11,08/05/2021,03:00,Orense SC,9 de Octubre,3-1,Final
+11,08/05/2021,03:00,Independiente del Valle,LDU Quito,3-1,Final
+11,09/05/2021,03:00,Mushuc Runa,Universidad Católica,2-6,Final
+11,09/05/2021,03:00,Delfín SC,Olmedo,2-4,Final
+11,10/05/2021,03:00,Aucas,Técnico Universitario,0-2,Final
+11,11/05/2021,03:00,Guayaquil City,Manta,0-3,Final
+11,11/07/2021,03:00,Barcelona,Emelec,1-1,Final
+12,15/05/2021,03:00,Deportivo Cuenca,Mushuc Runa,1-2,Final
+12,15/05/2021,03:00,Olmedo,Independiente del Valle,1-3,Final
+12,15/05/2021,03:00,Universidad Católica,Delfín SC,0-1,Final
+12,16/05/2021,03:00,Emelec,Guayaquil City,1-0,Final
+12,16/05/2021,03:00,Manta,Macará,1-1,Final
+12,16/05/2021,03:00,LDU Quito,Aucas,1-3,Final
+12,17/05/2021,03:00,9 de Octubre,Barcelona,0-1,Final
+12,18/05/2021,03:00,Técnico Universitario,Orense SC,1-2,Final
+13,22/05/2021,03:00,9 de Octubre,Manta,2-0,Final
+13,22/05/2021,03:00,Orense SC,Universidad Católica,0-3,Final
+13,22/05/2021,03:00,Independiente del Valle,Guayaquil City,3-0,Final
+13,23/05/2021,03:00,Mushuc Runa,Emelec,1-2,Final
+13,23/05/2021,03:00,Aucas,Deportivo Cuenca,2-0,Final
+13,23/05/2021,03:00,Delfín SC,LDU Quito,1-1,Final
+13,24/05/2021,03:00,Barcelona,Olmedo,4-0,Final
+13,25/05/2021,03:00,Macará,Técnico Universitario,1-1,Final
+14,29/05/2021,03:00,Olmedo,Manta,1-1,Final
+14,29/05/2021,03:00,Delfín SC,9 de Octubre,2-2,Final
+14,29/05/2021,03:00,Guayaquil City,Mushuc Runa,0-0,Final
+14,30/05/2021,03:00,Deportivo Cuenca,Técnico Universitario,1-0,Final
+14,30/05/2021,03:00,Macará,Aucas,1-0,Final
+14,30/05/2021,03:00,LDU Quito,Orense SC,2-1,Final
+14,31/05/2021,03:00,Universidad Católica,Barcelona,2-0,Final
+14,31/05/2021,03:00,Emelec,Independiente del Valle,0-0,Final
+15,17/07/2021,03:00,Técnico Universitario,LDU Quito,0-1,Final
+15,17/07/2021,03:00,Mushuc Runa,Delfín SC,6-1,Final
+15,17/07/2021,03:00,Orense SC,Olmedo,0-0,Final
+15,18/07/2021,03:00,Aucas,Guayaquil City,3-0,Final
+15,18/07/2021,03:00,Independiente del Valle,Deportivo Cuenca,0-0,Final
+15,18/07/2021,03:00,Manta,Emelec,0-4,Final
+15,18/07/2021,03:00,Barcelona,Macará,3-0,Final
+15,20/07/2021,03:00,9 de Octubre,Universidad Católica,1-0,Final
+16,24/07/2021,03:00,Aucas,Mushuc Runa,1-1,Final
+16,24/07/2021,03:00,Olmedo,Universidad Católica,0-3,Final
+16,25/07/2021,03:00,Macará,Guayaquil City,0-2,Final
+16,25/07/2021,03:00,Deportivo Cuenca,Emelec,0-1,Final
+16,25/07/2021,03:00,Independiente del Valle,Orense SC,3-2,Final
+16,25/07/2021,03:00,9 de Octubre,LDU Quito,4-1,Final
+16,26/07/2021,03:00,Barcelona,Manta,2-0,Final
+16,27/07/2021,03:00,Delfín SC,Técnico Universitario,1-1,Final
+17,31/07/2021,03:00,Manta,Universidad Católica,0-1,Final
+17,31/07/2021,03:00,Mushuc Runa,9 de Octubre,1-2,Final
+17,31/07/2021,03:00,Guayaquil City,Deportivo Cuenca,2-1,Final
+17,01/08/2021,03:00,Técnico Universitario,Barcelona,1-2,Final
+17,01/08/2021,03:00,Orense SC,Delfín SC,2-2,Final
+17,01/08/2021,03:00,Independiente del Valle,Macará,4-0,Final
+17,02/08/2021,03:00,Emelec,Aucas,2-2,Final
+17,03/08/2021,03:00,LDU Quito,Olmedo,4-0,Final
+18,07/08/2021,03:00,Deportivo Cuenca,Manta,1-0,Final
+18,07/08/2021,03:00,Mushuc Runa,Independiente del Valle,0-2,Final
+18,08/08/2021,03:00,Universidad Católica,LDU Quito,2-2,Final
+18,08/08/2021,03:00,Barcelona,Guayaquil City,2-1,Final
+18,08/08/2021,03:00,Aucas,Orense SC,0-0,Final
+18,08/08/2021,03:00,9 de Octubre,Técnico Universitario,0-1,Final
+18,09/08/2021,03:00,Delfín SC,Emelec,1-2,Final
+18,10/08/2021,03:00,Macará,Olmedo,3-2,Final
+19,14/08/2021,03:00,Técnico Universitario,Universidad Católica,1-1,Final
+19,14/08/2021,03:00,Independiente del Valle,Aucas,1-0,Final
+19,15/08/2021,03:00,Guayaquil City,Delfín SC,2-1,Final
+19,15/08/2021,03:00,Emelec,Macará,3-0,Final
+19,15/08/2021,03:00,Manta,Mushuc Runa,0-0,Final
+19,15/08/2021,03:00,Orense SC,Barcelona,1-0,Final
+19,16/08/2021,03:00,LDU Quito,Deportivo Cuenca,3-3,Final
+19,17/08/2021,03:00,Olmedo,9 de Octubre,1-2,Final
+20,21/08/2021,03:00,Macará,Mushuc Runa,1-1,Final
+20,21/08/2021,03:00,Olmedo,Técnico Universitario,0-0,Final
+20,22/08/2021,03:00,Universidad Católica,Guayaquil City,1-1,Final
+20,22/08/2021,03:00,9 de Octubre,Emelec,2-2,Final
+20,22/08/2021,03:00,Orense SC,Deportivo Cuenca,1-1,Final
+20,22/08/2021,03:00,Aucas,Manta,3-0,Final
+20,23/08/2021,03:00,Delfín SC,Independiente del Valle,0-0,Final
+20,24/08/2021,03:00,Barcelona,LDU Quito,0-2,Final
+21,28/08/2021,03:00,Emelec,Olmedo,4-0,Final
+21,28/08/2021,03:00,Aucas,9 de Octubre,1-1,Final
+21,29/08/2021,03:00,Manta,Orense SC,0-0,Final
+21,29/08/2021,03:00,Mushuc Runa,LDU Quito,1-3,Final
+21,29/08/2021,03:00,Guayaquil City,Técnico Universitario,1-0,Final
+21,29/08/2021,03:00,Macará,Universidad Católica,1-2,Final
+21,30/08/2021,03:00,Independiente del Valle,Barcelona,1-0,Final
+21,31/08/2021,03:00,Deportivo Cuenca,Delfín SC,2-3,Final
+22,14/09/2021,03:00,Universidad Católica,Independiente del Valle,1-3,Final
+22,18/09/2021,03:00,Barcelona,Deportivo Cuenca,3-2,Final
+22,18/09/2021,03:00,Orense SC,Guayaquil City,2-0,Final
+22,19/09/2021,03:00,Delfín SC,Aucas,1-2,Final
+22,19/09/2021,03:00,9 de Octubre,Macará,1-1,Final
+22,19/09/2021,03:00,Olmedo,Mushuc Runa,2-5,Final
+22,19/09/2021,03:00,Técnico Universitario,Manta,0-0,Final
+22,20/09/2021,03:00,LDU Quito,Emelec,3-2,Final
+23,25/09/2021,03:00,Independiente del Valle,Técnico Universitario,1-1,Final
+23,25/09/2021,03:00,Mushuc Runa,Orense SC,0-0,Final
+23,26/09/2021,03:00,Guayaquil City,9 de Octubre,0-1,Final
+23,26/09/2021,03:00,Manta,LDU Quito,2-2,Final
+23,26/09/2021,03:00,Deportivo Cuenca,Olmedo,5-0,Final
+23,26/09/2021,03:00,Macará,Delfín SC,2-3,Final
+23,27/09/2021,03:00,Emelec,Universidad Católica,2-2,Final
+23,28/10/2021,03:00,Aucas,Barcelona,1-0,Final
+24,02/10/2021,03:00,Universidad Católica,Deportivo Cuenca,3-2,Final
+24,02/10/2021,03:00,Orense SC,Macará,2-1,Final
+24,03/10/2021,03:00,9 de Octubre,Independiente del Valle,1-0,Final
+24,03/10/2021,03:00,LDU Quito,Guayaquil City,3-1,Final
+24,03/10/2021,03:00,Olmedo,Aucas,1-4,Final
+24,03/10/2021,03:00,Barcelona,Mushuc Runa,4-0,Final
+24,04/10/2021,03:00,Técnico Universitario,Emelec,1-0,Final
+24,05/10/2021,03:00,Delfín SC,Manta,2-1,Final
+25,16/10/2021,03:00,Emelec,Orense SC,1-0,Final
+25,16/10/2021,03:00,Guayaquil City,Olmedo,4-2,Final
+25,17/10/2021,03:00,Aucas,Universidad Católica,1-2,Final
+25,17/10/2021,03:00,Macará,LDU Quito,2-1,Final
+25,17/10/2021,03:00,Mushuc Runa,Técnico Universitario,0-1,Final
+25,17/10/2021,03:00,Deportivo Cuenca,9 de Octubre,3-1,Final
+25,18/10/2021,03:00,Delfín SC,Barcelona,4-1,Final
+25,19/10/2021,03:00,Independiente del Valle,Manta,1-1,Final
+26,23/10/2021,03:00,Técnico Universitario,Aucas,1-1,Final
+26,23/10/2021,03:00,Universidad Católica,Mushuc Runa,0-1,Final
+26,24/10/2021,03:00,9 de Octubre,Orense SC,3-1,Final
+26,24/10/2021,03:00,LDU Quito,Independiente del Valle,0-2,Final
+26,24/10/2021,03:00,Olmedo,Delfín SC,1-3,Final
+26,24/10/2021,03:00,Manta,Guayaquil City,1-1,Final
+26,25/10/2021,03:00,Emelec,Barcelona,2-1,Final
+26,26/10/2021,03:00,Deportivo Cuenca,Macará,1-1,Final
+27,30/10/2021,03:00,Delfín SC,Universidad Católica,0-2,Final
+27,30/10/2021,03:00,Orense SC,Técnico Universitario,0-0,Final
+27,31/10/2021,03:00,Macará,Manta,1-2,Final
+27,31/10/2021,03:00,Guayaquil City,Emelec,0-1,Final
+27,31/10/2021,03:00,Mushuc Runa,Deportivo Cuenca,1-0,Final
+27,31/10/2021,03:00,Independiente del Valle,Olmedo,5-0,Final
+27,01/11/2021,03:00,Aucas,LDU Quito,1-0,Final
+27,02/11/2021,03:00,Barcelona,9 de Octubre,1-3,Final
+28,06/11/2021,03:00,Emelec,Mushuc Runa,2-0,Final
+28,06/11/2021,03:00,Universidad Católica,Orense SC,1-0,Final
+28,06/11/2021,03:00,Deportivo Cuenca,Aucas,2-1,Final
+28,07/11/2021,03:00,Olmedo,Barcelona,0-2,Final
+28,07/11/2021,03:00,Técnico Universitario,Macará,2-0,Final
+28,07/11/2021,03:00,LDU Quito,Delfín SC,1-1,Final
+28,08/11/2021,03:00,Guayaquil City,Independiente del Valle,0-2,Final
+28,09/11/2021,03:00,Manta,9 de Octubre,1-3,Final
+29,20/11/2021,03:00,Aucas,Macará,2-4,Final
+29,21/11/2021,03:00,Barcelona,Universidad Católica,1-1,Final
+29,21/11/2021,03:00,Independiente del Valle,Emelec,3-2,Final
+29,21/11/2021,03:00,9 de Octubre,Delfín SC,1-0,Final
+29,21/11/2021,03:00,Manta,Olmedo,3-0,Final
+29,21/11/2021,03:00,Mushuc Runa,Guayaquil City,1-0,Final
+29,21/11/2021,03:00,Orense SC,LDU Quito,1-1,Final
+29,23/11/2021,03:00,Técnico Universitario,Deportivo Cuenca,3-1,Final
+30,27/11/2021,03:00,LDU Quito,Técnico Universitario,1-0,Final
+30,28/11/2021,03:00,Delfín SC,Mushuc Runa,3-0,Final
+30,28/11/2021,03:00,Deportivo Cuenca,Independiente del Valle,1-1,Final
+30,28/11/2021,03:00,Emelec,Manta,4-0,Final
+30,28/11/2021,03:00,Guayaquil City,Aucas,1-0,Final
+30,28/11/2021,03:00,Olmedo,Orense SC,0-2,Final
+30,29/11/2021,03:00,Macará,Barcelona,1-1,Final
+30,29/11/2021,03:00,Universidad Católica,9 de Octubre,3-0,Final
+31,06/12/2021,03:00,Independiente del Valle,Emelec,3-1,Final
+31,13/12/2021,03:00,Emelec,Independiente del Valle,1-1,Final

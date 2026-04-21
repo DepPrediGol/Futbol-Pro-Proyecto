@@ -1,0 +1,64 @@
+matchday,date,time,home_team,away_team,result,status
+1,29/07/2022,11:00,Dynamo Dresden,VfB Stuttgart,0-1,Final
+1,29/07/2022,11:00,Kaan-Marienborn,1. FC Nürnberg,0-2,Final
+1,29/07/2022,11:00,Neustrelitz,Karlsruher SC,0-8,Final
+1,29/07/2022,13:45,TSV 1860 Munich,Borussia Dortmund,0-3,Final
+1,30/07/2022,06:01,Viktoria Berlin,VfL Bochum,0-3,Final
+1,30/07/2022,06:01,Straelen,FC St. Pauli,3-4,Final
+1,30/07/2022,08:31,SSV Jahn Regensburg,1. FC Köln,2-2,Final
+1,30/07/2022,08:31,VfB Lübeck,Hansa Rostock,1-0,Final
+2,30/07/2022,08:31,SV Elversberg,Bayer Leverkusen,4-3,Final
+2,30/07/2022,08:31,Bayreuth,Hamburger SV,1-3,Final
+2,30/07/2022,08:31,Illertissen,1. FC Heidenheim,0-2,Final
+2,30/07/2022,08:31,Einheit Wernigerode,SC Paderborn 07,0-10,Final
+2,30/07/2022,11:01,FC Carl Zeiss Jena,VfL Wolfsburg,0-1,Final
+2,30/07/2022,11:01,Kickers Offenbach,Fortuna Düsseldorf,1-4,Final
+2,30/07/2022,11:01,Stuttgarter Kickers,SpVgg Greuther Fürth,2-0,Final
+2,31/07/2022,06:01,Bremer SV,FC Schalke 04,0-5,Final
+3,31/07/2022,06:01,Schwarz-Weiß Rehden,SV Sandhausen,0-4,Final
+3,31/07/2022,08:31,1. FC Kaiserslautern,SC Freiburg,1-2,Final
+3,31/07/2022,08:31,SV Rodinghausen,1899 Hoffenheim,0-2,Final
+3,31/07/2022,08:31,FV Engers 07,Arminia Bielefeld,1-7,Final
+3,31/07/2022,08:31,Oberachern,Borussia Mönchengladbach,1-9,Final
+3,31/07/2022,08:31,Schott Mainz,Hannover 96,0-3,Final
+3,31/07/2022,08:31,BW Lohne,FC Augsburg,0-4,Final
+3,31/07/2022,11:01,Erzgebirge Aue,FSV Mainz 05,0-3,Final
+3,31/07/2022,11:01,Eintracht Braunschweig,Hertha BSC,4-4,Final
+4,31/07/2022,11:01,Waldhof Mannheim,Holstein Kiel,0-0,Final
+4,01/08/2022,11:01,FC Ingolstadt 04,SV Darmstadt 98,0-3,Final
+4,01/08/2022,11:01,Energie Cottbus,Werder Bremen,1-2,Final
+4,01/08/2022,11:01,Chemnitzer FC,Union Berlin,1-2,Final
+4,01/08/2022,13:46,1. FC Magdeburg,Eintracht Frankfurt,0-4,Final
+4,30/08/2022,13:46,Teutonia Ottensen,RB Leipzig,0-8,Final
+4,31/08/2022,13:46,FC Viktoria Köln,Bayern München,0-5,Final
+4,18/10/2022,11:00,RB Leipzig,Hamburger SV,4-0,Final
+4,18/10/2022,11:00,VfB Lübeck,FSV Mainz 05,0-3,Final
+5,18/10/2022,11:00,Waldhof Mannheim,1. FC Nürnberg,0-1,Final
+5,18/10/2022,11:00,Stuttgarter Kickers,Eintracht Frankfurt,0-2,Final
+5,18/10/2022,13:45,1899 Hoffenheim,FC Schalke 04,5-1,Final
+5,18/10/2022,13:45,SV Darmstadt 98,Borussia Mönchengladbach,2-1,Final
+5,18/10/2022,13:45,Eintracht Braunschweig,VfL Wolfsburg,1-2,Final
+5,18/10/2022,13:45,SV Elversberg,VfL Bochum,0-1,Final
+5,19/10/2022,11:00,SC Freiburg,FC St. Pauli,2-1,Final
+5,19/10/2022,11:00,Hannover 96,Borussia Dortmund,0-2,Final
+5,19/10/2022,11:00,SC Paderborn 07,Werder Bremen,2-2,Final
+6,19/10/2022,11:00,SV Sandhausen,Karlsruher SC,2-2,Final
+6,19/10/2022,13:45,FC Augsburg,Bayern München,2-5,Final
+6,19/10/2022,13:45,VfB Stuttgart,Arminia Bielefeld,6-0,Final
+6,19/10/2022,13:45,SSV Jahn Regensburg,Fortuna Düsseldorf,0-3,Final
+6,19/10/2022,13:45,Union Berlin,1. FC Heidenheim,2-0,Final
+6,31/01/2023,12:00,SC Paderborn 07,VfB Stuttgart,1-2,Final
+6,31/01/2023,14:45,Union Berlin,VfL Wolfsburg,2-1,Final
+6,01/02/2023,12:00,RB Leipzig,1899 Hoffenheim,3-1,Final
+6,01/02/2023,14:45,FSV Mainz 05,Bayern München,0-4,Final
+7,07/02/2023,12:00,SV Sandhausen,SC Freiburg,0-2,Final
+7,07/02/2023,14:45,Eintracht Frankfurt,SV Darmstadt 98,4-2,Final
+7,08/02/2023,12:00,1. FC Nürnberg,Fortuna Düsseldorf,1-1,Final
+7,08/02/2023,14:45,VfL Bochum,Borussia Dortmund,1-2,Final
+7,04/04/2023,11:00,Eintracht Frankfurt,Union Berlin,2-0,Final
+7,04/04/2023,13:45,Bayern München,SC Freiburg,1-2,Final
+7,05/04/2023,11:00,1. FC Nürnberg,VfB Stuttgart,0-1,Final
+7,05/04/2023,13:45,RB Leipzig,Borussia Dortmund,2-0,Final
+7,02/05/2023,13:45,SC Freiburg,RB Leipzig,1-5,Final
+8,03/05/2023,13:45,VfB Stuttgart,Eintracht Frankfurt,2-3,Final
+8,03/06/2023,13:00,RB Leipzig,Eintracht Frankfurt,2-0,Final

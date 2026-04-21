@@ -1,0 +1,381 @@
+matchday,date,time,home_team,away_team,result,status
+1,24/07/2021,03:00,Waldhof Mannheim,1. FC Magdeburg,0-2,Final
+1,24/07/2021,03:00,TSV Havelse,1. FC Saarbrücken,0-1,Final
+1,24/07/2021,03:00,1. FC Kaiserslautern,Eintracht Brunswick,0-0,Final
+1,24/07/2021,03:00,Hallescher FC,SV Meppen,3-1,Final
+1,24/07/2021,03:00,FSV Zwickau,Borussia Dortmund II,1-2,Final
+1,24/07/2021,03:00,TSV 1860 München,Würzburger Kickers,1-0,Final
+1,25/07/2021,03:00,FC Viktoria 1889 Berlin,Viktoria Köln,2-1,Final
+1,25/07/2021,03:00,SC Verl,Türkgücü München,0-0,Final
+1,26/07/2021,03:00,SC Freiburg II,SV Wehen Wiesbaden,0-0,Final
+1,18/08/2021,03:00,VfL Osnabrück,MSV Duisburg,0-1,Final
+2,31/07/2021,03:00,Viktoria Köln,FSV Zwickau,1-1,Final
+2,31/07/2021,03:00,SV Meppen,1. FC Kaiserslautern,1-0,Final
+2,31/07/2021,03:00,1. FC Magdeburg,SC Freiburg II,0-0,Final
+2,31/07/2021,03:00,SV Wehen Wiesbaden,TSV 1860 München,0-0,Final
+2,31/07/2021,03:00,1. FC Saarbrücken,VfL Osnabrück,1-2,Final
+2,31/07/2021,03:00,Borussia Dortmund II,Waldhof Mannheim,1-1,Final
+2,01/08/2021,03:00,Türkgücü München,Hallescher FC,2-2,Final
+2,01/08/2021,03:00,Eintracht Brunswick,FC Viktoria 1889 Berlin,0-4,Final
+2,02/08/2021,03:00,Würzburger Kickers,SC Verl,0-1,Final
+2,08/08/2021,03:00,MSV Duisburg,TSV Havelse,3-0,Final
+3,13/08/2021,03:00,SC Freiburg II,Borussia Dortmund II,2-5,Final
+3,14/08/2021,03:00,TSV 1860 München,Türkgücü München,1-1,Final
+3,14/08/2021,03:00,VfL Osnabrück,SV Wehen Wiesbaden,0-1,Final
+3,14/08/2021,03:00,TSV Havelse,1. FC Magdeburg,1-3,Final
+3,14/08/2021,03:00,1. FC Saarbrücken,MSV Duisburg,2-0,Final
+3,14/08/2021,03:00,FSV Zwickau,SV Meppen,1-1,Final
+3,14/08/2021,03:00,SC Verl,Viktoria Köln,3-1,Final
+3,15/08/2021,03:00,FC Viktoria 1889 Berlin,1. FC Kaiserslautern,4-0,Final
+3,15/08/2021,03:00,Waldhof Mannheim,Würzburger Kickers,1-1,Final
+3,16/08/2021,03:00,Hallescher FC,Eintracht Brunswick,0-2,Final
+4,20/08/2021,03:00,FC Viktoria 1889 Berlin,Hallescher FC,0-1,Final
+4,21/08/2021,03:00,Borussia Dortmund II,1. FC Saarbrücken,0-0,Final
+4,21/08/2021,03:00,Eintracht Brunswick,FSV Zwickau,2-0,Final
+4,21/08/2021,03:00,1. FC Magdeburg,MSV Duisburg,2-1,Final
+4,21/08/2021,03:00,1. FC Kaiserslautern,TSV 1860 München,3-0,Final
+4,21/08/2021,03:00,Viktoria Köln,Waldhof Mannheim,2-3,Final
+4,21/08/2021,03:00,SV Meppen,SC Verl,2-0,Final
+4,22/08/2021,03:00,Würzburger Kickers,VfL Osnabrück,1-1,Final
+4,22/08/2021,03:00,SV Wehen Wiesbaden,TSV Havelse,2-1,Final
+4,22/08/2021,03:00,Türkgücü München,SC Freiburg II,3-0,Final
+5,24/08/2021,03:00,TSV 1860 München,Viktoria Köln,3-0,Final
+5,24/08/2021,03:00,Waldhof Mannheim,SV Meppen,5-0,Final
+5,24/08/2021,03:00,Hallescher FC,1. FC Kaiserslautern,1-0,Final
+5,24/08/2021,03:00,FSV Zwickau,FC Viktoria 1889 Berlin,1-1,Final
+5,24/08/2021,03:00,SC Verl,Eintracht Brunswick,0-3,Final
+5,25/08/2021,03:00,VfL Osnabrück,Borussia Dortmund II,2-1,Final
+5,25/08/2021,03:00,MSV Duisburg,SV Wehen Wiesbaden,0-2,Final
+5,25/08/2021,03:00,TSV Havelse,Türkgücü München,0-3,Final
+5,25/08/2021,03:00,1. FC Saarbrücken,1. FC Magdeburg,2-1,Final
+5,25/08/2021,03:00,SC Freiburg II,Würzburger Kickers,1-0,Final
+6,27/08/2021,03:00,Hallescher FC,SC Verl,4-4,Final
+6,28/08/2021,03:00,SV Wehen Wiesbaden,1. FC Magdeburg,2-4,Final
+6,28/08/2021,03:00,FC Viktoria 1889 Berlin,Waldhof Mannheim,1-0,Final
+6,28/08/2021,03:00,1. FC Kaiserslautern,FSV Zwickau,1-1,Final
+6,28/08/2021,03:00,Türkgücü München,VfL Osnabrück,0-3,Final
+6,28/08/2021,03:00,Eintracht Brunswick,TSV 1860 München,1-1,Final
+6,28/08/2021,03:00,Viktoria Köln,SC Freiburg II,3-1,Final
+6,29/08/2021,03:00,Borussia Dortmund II,MSV Duisburg,4-1,Final
+6,29/08/2021,03:00,Würzburger Kickers,1. FC Saarbrücken,1-1,Final
+6,30/08/2021,03:00,SV Meppen,TSV Havelse,1-0,Final
+7,03/09/2021,03:00,1. FC Saarbrücken,SV Wehen Wiesbaden,3-4,Final
+7,04/09/2021,03:00,MSV Duisburg,Würzburger Kickers,2-0,Final
+7,04/09/2021,03:00,TSV 1860 München,SV Meppen,1-1,Final
+7,04/09/2021,03:00,SC Verl,FC Viktoria 1889 Berlin,3-3,Final
+7,04/09/2021,03:00,Waldhof Mannheim,Türkgücü München,3-0,Final
+7,04/09/2021,03:00,1. FC Magdeburg,1. FC Kaiserslautern,1-0,Final
+7,05/09/2021,03:00,TSV Havelse,Borussia Dortmund II,0-1,Final
+7,06/09/2021,03:00,VfL Osnabrück,Viktoria Köln,3-0,Final
+7,15/09/2021,03:00,FSV Zwickau,Hallescher FC,2-2,Final
+7,22/09/2021,03:00,SC Freiburg II,Eintracht Brunswick,0-1,Final
+8,10/09/2021,03:00,SV Meppen,SC Freiburg II,0-1,Final
+8,11/09/2021,03:00,Würzburger Kickers,TSV Havelse,0-0,Final
+8,11/09/2021,03:00,1. FC Kaiserslautern,Waldhof Mannheim,0-0,Final
+8,11/09/2021,03:00,Borussia Dortmund II,1. FC Magdeburg,0-2,Final
+8,11/09/2021,03:00,FC Viktoria 1889 Berlin,SV Wehen Wiesbaden,3-1,Final
+8,11/09/2021,03:00,FSV Zwickau,SC Verl,1-3,Final
+8,11/09/2021,03:00,Viktoria Köln,1. FC Saarbrücken,0-0,Final
+8,12/09/2021,03:00,Hallescher FC,TSV 1860 München,1-1,Final
+8,12/09/2021,03:00,Eintracht Brunswick,VfL Osnabrück,2-2,Final
+8,13/09/2021,03:00,Türkgücü München,MSV Duisburg,1-0,Final
+9,17/09/2021,03:00,TSV Havelse,Viktoria Köln,1-0,Final
+9,18/09/2021,03:00,VfL Osnabrück,SV Meppen,1-0,Final
+9,18/09/2021,03:00,TSV 1860 München,FSV Zwickau,0-2,Final
+9,18/09/2021,03:00,Waldhof Mannheim,Hallescher FC,2-1,Final
+9,18/09/2021,03:00,1. FC Magdeburg,Würzburger Kickers,1-2,Final
+9,18/09/2021,03:00,1. FC Saarbrücken,Türkgücü München,3-1,Final
+9,18/09/2021,03:00,MSV Duisburg,Eintracht Brunswick,3-2,Final
+9,19/09/2021,03:00,SC Freiburg II,FC Viktoria 1889 Berlin,2-0,Final
+9,19/09/2021,03:00,SC Verl,1. FC Kaiserslautern,0-2,Final
+9,20/09/2021,03:00,SV Wehen Wiesbaden,Borussia Dortmund II,0-1,Final
+10,24/09/2021,03:00,Hallescher FC,1. FC Magdeburg,3-2,Final
+10,25/09/2021,03:00,Würzburger Kickers,SV Wehen Wiesbaden,0-4,Final
+10,25/09/2021,03:00,1. FC Kaiserslautern,VfL Osnabrück,2-0,Final
+10,25/09/2021,03:00,Viktoria Köln,MSV Duisburg,4-2,Final
+10,25/09/2021,03:00,SV Meppen,1. FC Saarbrücken,2-2,Final
+10,25/09/2021,03:00,SC Verl,TSV 1860 München,1-1,Final
+10,25/09/2021,03:00,Eintracht Brunswick,Waldhof Mannheim,0-0,Final
+10,26/09/2021,03:00,Türkgücü München,Borussia Dortmund II,2-1,Final
+10,26/09/2021,03:00,FSV Zwickau,SC Freiburg II,0-0,Final
+10,27/09/2021,03:00,FC Viktoria 1889 Berlin,TSV Havelse,3-4,Final
+11,01/10/2021,03:00,1. FC Saarbrücken,Eintracht Brunswick,2-2,Final
+11,02/10/2021,03:00,TSV 1860 München,FC Viktoria 1889 Berlin,1-1,Final
+11,02/10/2021,03:00,TSV Havelse,1. FC Kaiserslautern,0-6,Final
+11,02/10/2021,03:00,SC Freiburg II,Hallescher FC,1-1,Final
+11,02/10/2021,03:00,VfL Osnabrück,FSV Zwickau,0-1,Final
+11,02/10/2021,03:00,MSV Duisburg,SV Meppen,0-1,Final
+11,02/10/2021,03:00,SV Wehen Wiesbaden,Viktoria Köln,1-1,Final
+11,03/10/2021,03:00,Borussia Dortmund II,Würzburger Kickers,2-0,Final
+11,03/10/2021,03:00,Waldhof Mannheim,SC Verl,2-1,Final
+11,04/10/2021,03:00,1. FC Magdeburg,Türkgücü München,4-0,Final
+12,15/10/2021,03:00,FC Viktoria 1889 Berlin,VfL Osnabrück,1-2,Final
+12,16/10/2021,03:00,Eintracht Brunswick,Borussia Dortmund II,4-2,Final
+12,16/10/2021,03:00,1. FC Kaiserslautern,SC Freiburg II,3-0,Final
+12,16/10/2021,03:00,FSV Zwickau,MSV Duisburg,3-2,Final
+12,16/10/2021,03:00,Hallescher FC,1. FC Saarbrücken,2-3,Final
+12,16/10/2021,03:00,SV Meppen,1. FC Magdeburg,2-3,Final
+12,17/10/2021,03:00,Türkgücü München,SV Wehen Wiesbaden,1-0,Final
+12,17/10/2021,03:00,Viktoria Köln,Würzburger Kickers,1-1,Final
+12,18/10/2021,03:00,SC Verl,TSV Havelse,5-3,Final
+12,30/11/2021,03:00,TSV 1860 München,Waldhof Mannheim,1-3,Final
+13,22/10/2021,03:00,VfL Osnabrück,Hallescher FC,0-0,Final
+13,23/10/2021,03:00,1. FC Magdeburg,FC Viktoria 1889 Berlin,1-0,Final
+13,23/10/2021,03:00,SV Wehen Wiesbaden,SV Meppen,3-4,Final
+13,23/10/2021,03:00,Waldhof Mannheim,FSV Zwickau,1-1,Final
+13,23/10/2021,03:00,1. FC Saarbrücken,TSV 1860 München,1-1,Final
+13,23/10/2021,03:00,SC Freiburg II,SC Verl,3-2,Final
+13,23/10/2021,03:00,Würzburger Kickers,Türkgücü München,2-1,Final
+13,24/10/2021,03:00,Borussia Dortmund II,Viktoria Köln,0-1,Final
+13,24/10/2021,03:00,TSV Havelse,Eintracht Brunswick,0-4,Final
+13,25/10/2021,03:00,MSV Duisburg,1. FC Kaiserslautern,1-1,Final
+14,29/10/2021,03:00,Viktoria Köln,1. FC Magdeburg,1-0,Final
+14,30/10/2021,03:00,Waldhof Mannheim,1. FC Saarbrücken,1-0,Final
+14,30/10/2021,03:00,TSV 1860 München,SC Freiburg II,6-0,Final
+14,30/10/2021,03:00,Hallescher FC,MSV Duisburg,2-1,Final
+14,30/10/2021,03:00,Eintracht Brunswick,SV Wehen Wiesbaden,1-2,Final
+14,30/10/2021,03:00,FC Viktoria 1889 Berlin,Borussia Dortmund II,2-1,Final
+14,31/10/2021,03:00,SV Meppen,Türkgücü München,1-0,Final
+14,31/10/2021,03:00,1. FC Kaiserslautern,Würzburger Kickers,0-2,Final
+14,01/11/2021,03:00,SC Verl,VfL Osnabrück,1-2,Final
+14,13/11/2021,03:00,FSV Zwickau,TSV Havelse,2-0,Final
+15,05/11/2021,03:00,Türkgücü München,Viktoria Köln,1-2,Final
+15,06/11/2021,03:00,SC Freiburg II,Waldhof Mannheim,2-1,Final
+15,06/11/2021,03:00,VfL Osnabrück,TSV 1860 München,3-1,Final
+15,06/11/2021,03:00,MSV Duisburg,FC Viktoria 1889 Berlin,1-0,Final
+15,06/11/2021,03:00,TSV Havelse,Hallescher FC,2-1,Final
+15,06/11/2021,03:00,1. FC Saarbrücken,1. FC Kaiserslautern,0-2,Final
+15,06/11/2021,03:00,Borussia Dortmund II,SV Meppen,0-1,Final
+15,07/11/2021,03:00,SV Wehen Wiesbaden,FSV Zwickau,2-2,Final
+15,07/11/2021,03:00,1. FC Magdeburg,SC Verl,2-0,Final
+15,30/11/2021,03:00,Würzburger Kickers,Eintracht Brunswick,0-2,Final
+16,19/11/2021,03:00,SC Verl,1. FC Saarbrücken,2-4,Final
+16,20/11/2021,03:00,TSV 1860 München,MSV Duisburg,3-2,Final
+16,20/11/2021,03:00,Hallescher FC,Borussia Dortmund II,1-2,Final
+16,20/11/2021,03:00,SC Freiburg II,TSV Havelse,0-0,Final
+16,20/11/2021,03:00,Eintracht Brunswick,Türkgücü München,2-0,Final
+16,20/11/2021,03:00,1. FC Kaiserslautern,SV Wehen Wiesbaden,1-0,Final
+16,21/11/2021,03:00,FC Viktoria 1889 Berlin,Würzburger Kickers,1-1,Final
+16,21/11/2021,03:00,Waldhof Mannheim,VfL Osnabrück,3-3,Final
+16,22/11/2021,03:00,SV Meppen,Viktoria Köln,4-0,Final
+16,15/12/2021,03:00,FSV Zwickau,1. FC Magdeburg,1-1,Final
+17,26/11/2021,03:00,MSV Duisburg,Waldhof Mannheim,1-3,Final
+17,27/11/2021,03:00,Würzburger Kickers,SV Meppen,1-3,Final
+17,27/11/2021,03:00,TSV Havelse,TSV 1860 München,2-3,Final
+17,27/11/2021,03:00,Borussia Dortmund II,1. FC Kaiserslautern,0-0,Final
+17,27/11/2021,03:00,1. FC Saarbrücken,FC Viktoria 1889 Berlin,2-0,Final
+17,27/11/2021,03:00,SV Wehen Wiesbaden,SC Verl,0-0,Final
+17,27/11/2021,03:00,1. FC Magdeburg,Eintracht Brunswick,2-0,Final
+17,28/11/2021,03:00,VfL Osnabrück,SC Freiburg II,0-1,Final
+17,28/11/2021,03:00,Viktoria Köln,Hallescher FC,2-0,Final
+17,29/11/2021,03:00,Türkgücü München,FSV Zwickau,2-2,Final
+18,03/12/2021,03:00,FSV Zwickau,1. FC Saarbrücken,1-2,Final
+18,04/12/2021,03:00,FC Viktoria 1889 Berlin,Türkgücü München,0-0,Final
+18,04/12/2021,03:00,TSV 1860 München,1. FC Magdeburg,2-5,Final
+18,04/12/2021,03:00,1. FC Kaiserslautern,Viktoria Köln,4-0,Final
+18,04/12/2021,03:00,Hallescher FC,Würzburger Kickers,0-0,Final
+18,04/12/2021,03:00,SC Verl,Borussia Dortmund II,0-3,Final
+18,04/12/2021,03:00,Eintracht Brunswick,SV Meppen,5-0,Final
+18,05/12/2021,03:00,SC Freiburg II,MSV Duisburg,1-0,Final
+18,05/12/2021,03:00,VfL Osnabrück,TSV Havelse,0-0,Final
+18,06/12/2021,03:00,Waldhof Mannheim,SV Wehen Wiesbaden,1-1,Final
+19,10/12/2021,03:00,Türkgücü München,1. FC Kaiserslautern,1-2,Final
+19,11/12/2021,03:00,MSV Duisburg,SC Verl,2-2,Final
+19,11/12/2021,03:00,TSV Havelse,Waldhof Mannheim,1-2,Final
+19,11/12/2021,03:00,Borussia Dortmund II,TSV 1860 München,0-2,Final
+19,11/12/2021,03:00,1. FC Magdeburg,VfL Osnabrück,2-1,Final
+19,11/12/2021,03:00,1. FC Saarbrücken,SC Freiburg II,1-0,Final
+19,11/12/2021,03:00,Viktoria Köln,Eintracht Brunswick,1-2,Final
+19,12/12/2021,03:00,SV Meppen,FC Viktoria 1889 Berlin,3-0,Final
+19,12/12/2021,03:00,Würzburger Kickers,FSV Zwickau,2-2,Final
+19,13/12/2021,03:00,SV Wehen Wiesbaden,Hallescher FC,2-1,Final
+20,17/12/2021,03:00,Viktoria Köln,FC Viktoria 1889 Berlin,1-4,Final
+20,18/12/2021,03:00,SV Wehen Wiesbaden,SC Freiburg II,2-0,Final
+20,18/12/2021,03:00,1. FC Saarbrücken,TSV Havelse,2-2,Final
+20,18/12/2021,03:00,Eintracht Brunswick,1. FC Kaiserslautern,1-1,Final
+20,18/12/2021,03:00,SV Meppen,Hallescher FC,4-1,Final
+20,18/12/2021,03:00,Borussia Dortmund II,FSV Zwickau,3-1,Final
+20,18/12/2021,03:00,Türkgücü München,SC Verl,2-2,Final
+20,19/12/2021,03:00,1. FC Magdeburg,Waldhof Mannheim,3-0,Final
+20,20/12/2021,03:00,Würzburger Kickers,TSV 1860 München,0-3,Final
+20,02/02/2022,03:00,MSV Duisburg,VfL Osnabrück,3-6,Final
+21,14/01/2022,03:00,TSV Havelse,MSV Duisburg,0-1,Final
+21,15/01/2022,03:00,1. FC Kaiserslautern,SV Meppen,4-0,Final
+21,15/01/2022,03:00,SC Freiburg II,1. FC Magdeburg,2-3,Final
+21,15/01/2022,03:00,TSV 1860 München,SV Wehen Wiesbaden,3-2,Final
+21,15/01/2022,03:00,VfL Osnabrück,1. FC Saarbrücken,2-1,Final
+21,16/01/2022,03:00,SC Verl,Würzburger Kickers,2-0,Final
+21,17/01/2022,03:00,Waldhof Mannheim,Borussia Dortmund II,1-3,Final
+21,08/02/2022,03:00,FSV Zwickau,Viktoria Köln,1-0,Final
+21,08/02/2022,03:00,Hallescher FC,Türkgücü München,1-0,Final
+21,16/02/2022,03:00,FC Viktoria 1889 Berlin,Eintracht Brunswick,0-6,Final
+22,21/01/2022,03:00,Borussia Dortmund II,SC Freiburg II,1-1,Final
+22,22/01/2022,03:00,SV Wehen Wiesbaden,VfL Osnabrück,0-0,Final
+22,22/01/2022,03:00,1. FC Kaiserslautern,FC Viktoria 1889 Berlin,2-0,Final
+22,22/01/2022,03:00,Eintracht Brunswick,Hallescher FC,1-0,Final
+22,22/01/2022,03:00,Würzburger Kickers,Waldhof Mannheim,1-2,Final
+22,22/01/2022,03:00,Viktoria Köln,SC Verl,5-2,Final
+22,23/01/2022,03:00,SV Meppen,FSV Zwickau,1-3,Final
+22,23/01/2022,03:00,MSV Duisburg,1. FC Saarbrücken,3-4,Final
+22,23/01/2022,03:00,1. FC Magdeburg,TSV Havelse,1-1,Final
+22,16/02/2022,03:00,Türkgücü München,TSV 1860 München,2-1,Final
+23,25/01/2022,03:00,VfL Osnabrück,Würzburger Kickers,2-0,Final
+23,25/01/2022,03:00,SC Freiburg II,Türkgücü München,4-2,Final
+23,25/01/2022,03:00,Waldhof Mannheim,Viktoria Köln,0-1,Final
+23,26/01/2022,03:00,1. FC Saarbrücken,Borussia Dortmund II,2-0,Final
+23,26/01/2022,03:00,TSV Havelse,SV Wehen Wiesbaden,0-1,Final
+23,26/01/2022,03:00,FSV Zwickau,Eintracht Brunswick,1-0,Final
+23,26/01/2022,03:00,MSV Duisburg,1. FC Magdeburg,0-5,Final
+23,26/01/2022,03:00,SC Verl,SV Meppen,0-1,Final
+23,01/03/2022,03:00,TSV 1860 München,1. FC Kaiserslautern,2-1,Final
+23,02/03/2022,03:00,Hallescher FC,FC Viktoria 1889 Berlin,4-1,Final
+24,28/01/2022,03:00,Würzburger Kickers,SC Freiburg II,1-1,Final
+24,29/01/2022,03:00,Borussia Dortmund II,VfL Osnabrück,2-2,Final
+24,29/01/2022,03:00,SV Wehen Wiesbaden,MSV Duisburg,0-1,Final
+24,29/01/2022,03:00,Türkgücü München,TSV Havelse,0-1,Final
+24,29/01/2022,03:00,1. FC Kaiserslautern,Hallescher FC,1-0,Final
+24,29/01/2022,03:00,1. FC Magdeburg,1. FC Saarbrücken,2-1,Final
+24,30/01/2022,03:00,Viktoria Köln,TSV 1860 München,0-1,Final
+24,30/01/2022,03:00,SV Meppen,Waldhof Mannheim,1-1,Final
+24,31/01/2022,03:00,Eintracht Brunswick,SC Verl,1-1,Final
+24,16/03/2022,03:00,FC Viktoria 1889 Berlin,FSV Zwickau,0-0,Final
+25,04/02/2022,03:00,SC Freiburg II,Viktoria Köln,1-1,Final
+25,05/02/2022,03:00,1. FC Magdeburg,SV Wehen Wiesbaden,3-1,Final
+25,05/02/2022,03:00,Waldhof Mannheim,FC Viktoria 1889 Berlin,3-2,Final
+25,05/02/2022,03:00,FSV Zwickau,1. FC Kaiserslautern,0-2,Final
+25,05/02/2022,03:00,TSV Havelse,SV Meppen,3-0,Final
+25,05/02/2022,03:00,SC Verl,Hallescher FC,0-0,Final
+25,05/02/2022,03:00,VfL Osnabrück,Türkgücü München,1-1,Final
+25,06/02/2022,03:00,TSV 1860 München,Eintracht Brunswick,2-2,Final
+25,06/02/2022,03:00,MSV Duisburg,Borussia Dortmund II,1-3,Final
+25,07/02/2022,03:00,1. FC Saarbrücken,Würzburger Kickers,2-1,Final
+26,11/02/2022,03:00,Hallescher FC,FSV Zwickau,2-0,Final
+26,12/02/2022,03:00,Würzburger Kickers,MSV Duisburg,1-2,Final
+26,12/02/2022,03:00,SV Meppen,TSV 1860 München,1-1,Final
+26,12/02/2022,03:00,Borussia Dortmund II,TSV Havelse,1-0,Final
+26,12/02/2022,03:00,Eintracht Brunswick,SC Freiburg II,1-1,Final
+26,12/02/2022,03:00,1. FC Kaiserslautern,1. FC Magdeburg,2-2,Final
+26,12/02/2022,03:00,Türkgücü München,Waldhof Mannheim,0-0,Final
+26,13/02/2022,03:00,FC Viktoria 1889 Berlin,SC Verl,1-1,Final
+26,13/02/2022,03:00,SV Wehen Wiesbaden,1. FC Saarbrücken,1-0,Final
+26,14/02/2022,03:00,Viktoria Köln,VfL Osnabrück,1-1,Final
+27,19/02/2022,03:00,SC Freiburg II,SV Meppen,2-0,Final
+27,19/02/2022,03:00,1. FC Magdeburg,Borussia Dortmund II,2-0,Final
+27,19/02/2022,03:00,MSV Duisburg,Türkgücü München,2-0,Final
+27,19/02/2022,03:00,SV Wehen Wiesbaden,FC Viktoria 1889 Berlin,2-0,Final
+27,19/02/2022,03:00,1. FC Saarbrücken,Viktoria Köln,0-1,Final
+27,20/02/2022,03:00,TSV Havelse,Würzburger Kickers,1-3,Final
+27,20/02/2022,03:00,Waldhof Mannheim,1. FC Kaiserslautern,0-0,Final
+27,21/02/2022,03:00,TSV 1860 München,Hallescher FC,0-2,Final
+27,26/03/2022,03:00,VfL Osnabrück,Eintracht Brunswick,1-1,Final
+27,29/03/2022,03:00,SC Verl,FSV Zwickau,0-0,Final
+28,25/02/2022,03:00,Viktoria Köln,TSV Havelse,0-0,Final
+28,26/02/2022,03:00,SV Meppen,VfL Osnabrück,0-1,Final
+28,26/02/2022,03:00,FSV Zwickau,TSV 1860 München,1-3,Final
+28,26/02/2022,03:00,Hallescher FC,Waldhof Mannheim,1-2,Final
+28,26/02/2022,03:00,Würzburger Kickers,1. FC Magdeburg,2-4,Final
+28,26/02/2022,03:00,1. FC Kaiserslautern,SC Verl,2-1,Final
+28,26/02/2022,03:00,Eintracht Brunswick,MSV Duisburg,2-1,Final
+28,27/02/2022,03:00,FC Viktoria 1889 Berlin,SC Freiburg II,0-2,Final
+28,27/02/2022,03:00,Borussia Dortmund II,SV Wehen Wiesbaden,2-3,Final
+28,28/02/2022,03:00,Türkgücü München,1. FC Saarbrücken,1-5,Final
+29,04/03/2022,03:00,TSV 1860 München,SC Verl,2-0,Final
+29,05/03/2022,03:00,SV Wehen Wiesbaden,Würzburger Kickers,0-1,Final
+29,05/03/2022,03:00,VfL Osnabrück,1. FC Kaiserslautern,0-1,Final
+29,05/03/2022,03:00,MSV Duisburg,Viktoria Köln,2-0,Final
+29,05/03/2022,03:00,SC Freiburg II,FSV Zwickau,1-0,Final
+29,05/03/2022,03:00,1. FC Magdeburg,Hallescher FC,1-1,Final
+29,05/03/2022,03:00,Borussia Dortmund II,Türkgücü München,0-1,Final
+29,06/03/2022,03:00,1. FC Saarbrücken,SV Meppen,1-0,Final
+29,06/03/2022,03:00,Waldhof Mannheim,Eintracht Brunswick,0-3,Final
+29,07/03/2022,03:00,TSV Havelse,FC Viktoria 1889 Berlin,1-1,Final
+30,11/03/2022,03:00,FC Viktoria 1889 Berlin,TSV 1860 München,0-2,Final
+30,12/03/2022,03:00,Eintracht Brunswick,1. FC Saarbrücken,0-2,Final
+30,12/03/2022,03:00,SC Verl,Waldhof Mannheim,1-3,Final
+30,12/03/2022,03:00,1. FC Kaiserslautern,TSV Havelse,3-0,Final
+30,12/03/2022,03:00,Türkgücü München,1. FC Magdeburg,2-1,Final
+30,12/03/2022,03:00,Viktoria Köln,SV Wehen Wiesbaden,2-1,Final
+30,13/03/2022,03:00,FSV Zwickau,VfL Osnabrück,1-3,Final
+30,13/03/2022,03:00,Würzburger Kickers,Borussia Dortmund II,3-1,Final
+30,14/03/2022,03:00,SV Meppen,MSV Duisburg,1-2,Final
+30,06/04/2022,03:00,Hallescher FC,SC Freiburg II,1-0,Final
+31,18/03/2022,03:00,Würzburger Kickers,Viktoria Köln,0-1,Final
+31,19/03/2022,03:00,VfL Osnabrück,FC Viktoria 1889 Berlin,3-1,Final
+31,19/03/2022,03:00,SC Freiburg II,1. FC Kaiserslautern,0-0,Final
+31,19/03/2022,03:00,TSV Havelse,SC Verl,1-3,Final
+31,19/03/2022,03:00,1. FC Saarbrücken,Hallescher FC,2-1,Final
+31,19/03/2022,03:00,SV Wehen Wiesbaden,Türkgücü München,1-0,Final
+31,19/03/2022,03:00,1. FC Magdeburg,SV Meppen,0-0,Final
+31,20/03/2022,03:00,MSV Duisburg,FSV Zwickau,0-1,Final
+31,20/03/2022,03:00,Waldhof Mannheim,TSV 1860 München,3-0,Final
+31,21/03/2022,03:00,Borussia Dortmund II,Eintracht Brunswick,0-1,Final
+32,01/04/2022,03:00,SV Meppen,SV Wehen Wiesbaden,0-4,Final
+32,02/04/2022,03:00,Eintracht Brunswick,TSV Havelse,3-2,Final
+32,02/04/2022,03:00,TSV 1860 München,1. FC Saarbrücken,1-1,Final
+32,02/04/2022,03:00,SC Verl,SC Freiburg II,3-1,Final
+32,02/04/2022,03:00,1. FC Kaiserslautern,MSV Duisburg,5-1,Final
+32,02/04/2022,03:00,Viktoria Köln,Borussia Dortmund II,0-2,Final
+32,03/04/2022,03:00,Türkgücü München,Würzburger Kickers,,
+32,03/04/2022,03:00,FSV Zwickau,Waldhof Mannheim,1-1,Final
+32,04/04/2022,03:00,FC Viktoria 1889 Berlin,1. FC Magdeburg,2-1,Final
+32,19/04/2022,03:00,Hallescher FC,VfL Osnabrück,3-3,Final
+33,08/04/2022,03:00,Würzburger Kickers,1. FC Kaiserslautern,1-2,Final
+33,09/04/2022,03:00,Türkgücü München,SV Meppen,,
+33,09/04/2022,03:00,1. FC Magdeburg,Viktoria Köln,4-2,Final
+33,09/04/2022,03:00,MSV Duisburg,Hallescher FC,2-1,Final
+33,09/04/2022,03:00,SV Wehen Wiesbaden,Eintracht Brunswick,0-1,Final
+33,09/04/2022,03:00,Borussia Dortmund II,FC Viktoria 1889 Berlin,0-1,Final
+33,09/04/2022,03:00,1. FC Saarbrücken,Waldhof Mannheim,0-0,Final
+33,10/04/2022,03:00,SC Freiburg II,TSV 1860 München,1-2,Final
+33,10/04/2022,03:00,TSV Havelse,FSV Zwickau,0-3,Final
+33,11/04/2022,03:00,VfL Osnabrück,SC Verl,3-2,Final
+34,16/04/2022,03:00,Viktoria Köln,Türkgücü München,,
+34,16/04/2022,03:00,TSV 1860 München,VfL Osnabrück,2-3,Final
+34,16/04/2022,03:00,Eintracht Brunswick,Würzburger Kickers,1-0,Final
+34,16/04/2022,03:00,FC Viktoria 1889 Berlin,MSV Duisburg,0-1,Final
+34,16/04/2022,03:00,Hallescher FC,TSV Havelse,1-1,Final
+34,16/04/2022,03:00,FSV Zwickau,SV Wehen Wiesbaden,2-1,Final
+34,16/04/2022,03:00,SV Meppen,Borussia Dortmund II,1-1,Final
+34,17/04/2022,03:00,SC Verl,1. FC Magdeburg,4-5,Final
+34,17/04/2022,03:00,1. FC Kaiserslautern,1. FC Saarbrücken,3-1,Final
+34,18/04/2022,03:00,Waldhof Mannheim,SC Freiburg II,0-1,Final
+35,22/04/2022,03:00,SV Wehen Wiesbaden,1. FC Kaiserslautern,2-1,Final
+35,23/04/2022,03:00,Türkgücü München,Eintracht Brunswick,,
+35,23/04/2022,03:00,Würzburger Kickers,FC Viktoria 1889 Berlin,3-0,Final
+35,23/04/2022,03:00,VfL Osnabrück,Waldhof Mannheim,1-2,Final
+35,23/04/2022,03:00,Borussia Dortmund II,Hallescher FC,0-0,Final
+35,23/04/2022,03:00,1. FC Saarbrücken,SC Verl,1-2,Final
+35,23/04/2022,03:00,TSV Havelse,SC Freiburg II,1-0,Final
+35,24/04/2022,03:00,MSV Duisburg,TSV 1860 München,0-6,Final
+35,24/04/2022,03:00,1. FC Magdeburg,FSV Zwickau,3-0,Final
+35,25/04/2022,03:00,Viktoria Köln,SV Meppen,1-1,Final
+36,29/04/2022,03:00,FC Viktoria 1889 Berlin,1. FC Saarbrücken,2-1,Final
+36,29/04/2022,03:00,Eintracht Brunswick,1. FC Magdeburg,2-1,Final
+36,30/04/2022,03:00,FSV Zwickau,Türkgücü München,,
+36,30/04/2022,03:00,SV Meppen,Würzburger Kickers,2-4,Final
+36,30/04/2022,03:00,TSV 1860 München,TSV Havelse,3-0,Final
+36,30/04/2022,03:00,1. FC Kaiserslautern,Borussia Dortmund II,1-3,Final
+36,30/04/2022,03:00,Hallescher FC,Viktoria Köln,1-1,Final
+36,30/04/2022,03:00,SC Verl,SV Wehen Wiesbaden,3-0,Final
+36,30/04/2022,03:00,SC Freiburg II,VfL Osnabrück,4-1,Final
+36,02/05/2022,03:00,Waldhof Mannheim,MSV Duisburg,3-1,Final
+37,06/05/2022,03:00,Borussia Dortmund II,SC Verl,1-2,Final
+37,07/05/2022,03:00,Türkgücü München,FC Viktoria 1889 Berlin,,
+37,07/05/2022,03:00,1. FC Saarbrücken,FSV Zwickau,1-1,Final
+37,07/05/2022,03:00,TSV Havelse,VfL Osnabrück,0-1,Final
+37,07/05/2022,03:00,1. FC Magdeburg,TSV 1860 München,4-0,Final
+37,07/05/2022,03:00,SV Wehen Wiesbaden,Waldhof Mannheim,1-1,Final
+37,07/05/2022,03:00,MSV Duisburg,SC Freiburg II,1-0,Final
+37,07/05/2022,03:00,SV Meppen,Eintracht Brunswick,3-2,Final
+37,08/05/2022,03:00,Würzburger Kickers,Hallescher FC,1-2,Final
+37,08/05/2022,03:00,Viktoria Köln,1. FC Kaiserslautern,2-0,Final
+38,14/05/2022,03:00,1. FC Kaiserslautern,Türkgücü München,,
+38,14/05/2022,03:00,SC Verl,MSV Duisburg,1-1,Final
+38,14/05/2022,03:00,FSV Zwickau,Würzburger Kickers,7-0,Final
+38,14/05/2022,03:00,Waldhof Mannheim,TSV Havelse,7-0,Final
+38,14/05/2022,03:00,TSV 1860 München,Borussia Dortmund II,6-3,Final
+38,14/05/2022,03:00,FC Viktoria 1889 Berlin,SV Meppen,3-4,Final
+38,14/05/2022,03:00,VfL Osnabrück,1. FC Magdeburg,1-5,Final
+38,14/05/2022,03:00,SC Freiburg II,1. FC Saarbrücken,1-1,Final
+38,14/05/2022,03:00,Eintracht Brunswick,Viktoria Köln,0-1,Final
+38,14/05/2022,03:00,Hallescher FC,SV Wehen Wiesbaden,1-1,Final

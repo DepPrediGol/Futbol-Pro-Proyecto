@@ -1,0 +1,64 @@
+matchday,date,time,home_team,away_team,result,status
+1,16/08/2024,11:00,Würzburger Kickers,1899 Hoffenheim,2-2,Final
+1,16/08/2024,11:00,Hallescher FC,FC St. Pauli,2-3,Final
+1,16/08/2024,11:00,SV Wehen,FSV Mainz 05,1-3,Final
+1,16/08/2024,13:45,SSV ULM 1846,Bayern München,0-4,Final
+1,17/08/2024,06:00,Erzgebirge Aue,Borussia Mönchengladbach,1-3,Final
+1,17/08/2024,06:00,Schott Mainz,SpVgg Greuther Fürth,0-2,Final
+1,17/08/2024,08:30,FC Ingolstadt 04,1. FC Kaiserslautern,1-2,Final
+1,17/08/2024,08:30,VfL Osnabrück,SC Freiburg,0-4,Final
+2,17/08/2024,08:30,VfR Aalen,FC Schalke 04,0-2,Final
+2,17/08/2024,08:30,FC 08 Villingen,1. FC Heidenheim,0-4,Final
+2,17/08/2024,08:30,Rot-Weiß Essen,RB Leipzig,1-4,Final
+2,17/08/2024,08:30,Greifswalder FC,Union Berlin,0-1,Final
+2,17/08/2024,11:00,Arminia Bielefeld,Hannover 96,2-0,Final
+2,17/08/2024,11:00,Alemannia Aachen,Holstein Kiel,2-3,Final
+2,17/08/2024,11:00,Phönix Lübeck,Borussia Dortmund,1-4,Final
+2,18/08/2024,06:00,FC Saarbrücken,1. FC Nürnberg,1-1,Final
+3,18/08/2024,06:00,Viktoria Berlin,FC Augsburg,1-4,Final
+3,18/08/2024,08:30,SSV Jahn Regensburg,VfL Bochum,1-0,Final
+3,18/08/2024,08:30,SV Sandhausen,1. FC Köln,2-3,Final
+3,18/08/2024,08:30,Hansa Rostock,Hertha BSC,1-5,Final
+3,18/08/2024,08:30,Bremer SV,SC Paderborn 07,0-4,Final
+3,18/08/2024,08:30,Borussia Hildesheim,SV Elversberg,0-7,Final
+3,18/08/2024,08:30,Teutonia Ottensen,SV Darmstadt 98,1-3,Final
+3,18/08/2024,11:00,Dynamo Dresden,Fortuna Düsseldorf,2-0,Final
+3,18/08/2024,11:00,SV Meppen,Hamburger SV,1-7,Final
+4,18/08/2024,11:00,Sportfreunde Lotte,Karlsruher SC,0-5,Final
+4,19/08/2024,11:00,Energie Cottbus,Werder Bremen,1-3,Final
+4,19/08/2024,11:00,Kickers Offenbach,1. FC Magdeburg,2-1,Final
+4,19/08/2024,11:00,TuS Koblenz,VfL Wolfsburg,0-1,Final
+4,19/08/2024,13:45,Eintracht Braunschweig,Eintracht Frankfurt,1-4,Final
+4,27/08/2024,13:45,Preußen Münster,VfB Stuttgart,0-5,Final
+4,28/08/2024,11:00,FC Carl Zeiss Jena,Bayer Leverkusen,0-1,Final
+4,29/10/2024,12:00,Bayer Leverkusen,SV Elversberg,3-0,Final
+4,29/10/2024,12:00,FC Augsburg,FC Schalke 04,3-0,Final
+5,29/10/2024,12:00,RB Leipzig,FC St. Pauli,4-2,Final
+5,29/10/2024,12:00,Kickers Offenbach,Karlsruher SC,0-2,Final
+5,29/10/2024,14:45,VfL Wolfsburg,Borussia Dortmund,1-0,Final
+5,29/10/2024,14:45,VfB Stuttgart,1. FC Kaiserslautern,2-1,Final
+5,29/10/2024,14:45,SSV Jahn Regensburg,SpVgg Greuther Fürth,1-0,Final
+5,29/10/2024,14:45,1. FC Köln,Holstein Kiel,3-0,Final
+5,30/10/2024,12:00,Hertha BSC,1. FC Heidenheim,2-1,Final
+5,30/10/2024,12:00,SC Freiburg,Hamburger SV,2-1,Final
+5,30/10/2024,12:00,Eintracht Frankfurt,Borussia Mönchengladbach,2-1,Final
+6,30/10/2024,12:00,SC Paderborn 07,Werder Bremen,0-1,Final
+6,30/10/2024,14:45,FSV Mainz 05,Bayern München,0-4,Final
+6,30/10/2024,14:45,1899 Hoffenheim,1. FC Nürnberg,2-1,Final
+6,30/10/2024,14:45,Dynamo Dresden,SV Darmstadt 98,2-3,Final
+6,30/10/2024,14:45,Arminia Bielefeld,Union Berlin,2-0,Final
+6,03/12/2024,12:00,SSV Jahn Regensburg,VfB Stuttgart,0-3,Final
+6,03/12/2024,12:00,Arminia Bielefeld,SC Freiburg,3-1,Final
+6,03/12/2024,14:45,Bayern München,Bayer Leverkusen,0-1,Final
+6,03/12/2024,14:45,Werder Bremen,SV Darmstadt 98,1-0,Final
+7,04/12/2024,12:00,VfL Wolfsburg,1899 Hoffenheim,3-0,Final
+7,04/12/2024,12:00,1. FC Köln,Hertha BSC,2-1,Final
+7,04/12/2024,14:45,RB Leipzig,Eintracht Frankfurt,3-0,Final
+7,04/12/2024,14:45,Karlsruher SC,FC Augsburg,2-2,Final
+7,04/02/2025,14:45,VfB Stuttgart,FC Augsburg,1-0,Final
+7,05/02/2025,14:45,Bayer Leverkusen,1. FC Köln,3-2,Final
+7,25/02/2025,14:45,Arminia Bielefeld,Werder Bremen,2-1,Final
+7,26/02/2025,14:45,RB Leipzig,VfL Wolfsburg,1-0,Final
+7,01/04/2025,13:45,Arminia Bielefeld,Bayer Leverkusen,2-1,Final
+8,02/04/2025,13:45,VfB Stuttgart,RB Leipzig,3-1,Final
+8,24/05/2025,13:00,Arminia Bielefeld,VfB Stuttgart,2-4,Final

@@ -1,0 +1,381 @@
+matchday,date,time,home_team,away_team,result,status
+1,15/08/2024,03:00,Athletic Club,Getafe CF,1-1,Final
+1,15/08/2024,03:00,Real Betis,Girona FC,1-1,Final
+1,16/08/2024,03:00,RC Celta,CD Alavés,2-1,Final
+1,16/08/2024,03:00,UD Las Palmas,Sevilla FC,2-2,Final
+1,17/08/2024,03:00,CA Osasuna,CD Leganés,1-1,Final
+1,17/08/2024,03:00,Valencia CF,FC Barcelona,1-2,Final
+1,18/08/2024,03:00,Real Sociedad,Rayo Vallecano,1-2,Final
+1,18/08/2024,03:00,RCD Mallorca,Real Madrid,1-1,Final
+1,19/08/2024,03:00,Real Valladolid,Espanyol Barcelona,1-0,Final
+1,19/08/2024,03:00,Villarreal CF,Atlético de Madrid,2-2,Final
+2,23/08/2024,03:00,RC Celta,Valencia CF,3-1,Final
+2,23/08/2024,03:00,Sevilla FC,Villarreal CF,1-2,Final
+2,24/08/2024,03:00,CA Osasuna,RCD Mallorca,1-0,Final
+2,24/08/2024,03:00,FC Barcelona,Athletic Club,2-1,Final
+2,24/08/2024,03:00,Getafe CF,Rayo Vallecano,0-0,Final
+2,24/08/2024,03:00,Espanyol Barcelona,Real Sociedad,0-1,Final
+2,25/08/2024,03:00,Real Madrid,Real Valladolid,3-0,Final
+2,25/08/2024,03:00,CD Leganés,UD Las Palmas,2-1,Final
+2,25/08/2024,03:00,CD Alavés,Real Betis,0-0,Final
+2,25/08/2024,03:00,Atlético de Madrid,Girona FC,3-0,Final
+3,26/08/2024,03:00,Villarreal CF,RC Celta,4-3,Final
+3,27/08/2024,03:00,RCD Mallorca,Sevilla FC,0-0,Final
+3,27/08/2024,03:00,Rayo Vallecano,FC Barcelona,1-2,Final
+3,28/08/2024,03:00,Athletic Club,Valencia CF,1-0,Final
+3,28/08/2024,03:00,Real Valladolid,CD Leganés,0-0,Final
+3,28/08/2024,03:00,Real Sociedad,CD Alavés,1-2,Final
+3,28/08/2024,03:00,Atlético de Madrid,Espanyol Barcelona,0-0,Final
+3,29/08/2024,03:00,Girona FC,CA Osasuna,4-0,Final
+3,29/08/2024,03:00,UD Las Palmas,Real Madrid,1-1,Final
+3,18/09/2024,03:00,Real Betis,Getafe CF,2-1,Final
+4,31/08/2024,03:00,FC Barcelona,Real Valladolid,7-0,Final
+4,31/08/2024,03:00,Athletic Club,Atlético de Madrid,0-1,Final
+4,31/08/2024,03:00,Espanyol Barcelona,Rayo Vallecano,2-1,Final
+4,31/08/2024,03:00,CD Leganés,RCD Mallorca,0-1,Final
+4,31/08/2024,03:00,Valencia CF,Villarreal CF,1-1,Final
+4,01/09/2024,03:00,CA Osasuna,RC Celta,3-2,Final
+4,01/09/2024,03:00,CD Alavés,UD Las Palmas,2-0,Final
+4,01/09/2024,03:00,Sevilla FC,Girona FC,0-2,Final
+4,01/09/2024,03:00,Getafe CF,Real Sociedad,0-0,Final
+4,01/09/2024,03:00,Real Madrid,Real Betis,2-0,Final
+5,13/09/2024,03:00,Real Betis,CD Leganés,2-0,Final
+5,14/09/2024,03:00,RCD Mallorca,Villarreal CF,1-2,Final
+5,14/09/2024,03:00,Espanyol Barcelona,CD Alavés,3-2,Final
+5,14/09/2024,03:00,Sevilla FC,Getafe CF,1-0,Final
+5,14/09/2024,03:00,Real Sociedad,Real Madrid,0-2,Final
+5,15/09/2024,03:00,RC Celta,Real Valladolid,3-1,Final
+5,15/09/2024,03:00,Girona FC,FC Barcelona,1-4,Final
+5,15/09/2024,03:00,UD Las Palmas,Athletic Club,2-3,Final
+5,15/09/2024,03:00,Atlético de Madrid,Valencia CF,3-0,Final
+5,16/09/2024,03:00,Rayo Vallecano,CA Osasuna,3-1,Final
+6,20/09/2024,03:00,CD Alavés,Sevilla FC,2-1,Final
+6,21/09/2024,03:00,Real Valladolid,Real Sociedad,0-0,Final
+6,21/09/2024,03:00,CA Osasuna,UD Las Palmas,2-1,Final
+6,21/09/2024,03:00,Valencia CF,Girona FC,2-0,Final
+6,21/09/2024,03:00,Real Madrid,Espanyol Barcelona,4-1,Final
+6,22/09/2024,03:00,Getafe CF,CD Leganés,1-1,Final
+6,22/09/2024,03:00,Athletic Club,RC Celta,3-1,Final
+6,22/09/2024,03:00,Villarreal CF,FC Barcelona,1-5,Final
+6,22/09/2024,03:00,Rayo Vallecano,Atlético de Madrid,1-1,Final
+6,23/09/2024,03:00,Real Betis,RCD Mallorca,1-2,Final
+7,17/09/2024,03:00,RCD Mallorca,Real Sociedad,1-0,Final
+7,19/09/2024,03:00,CD Leganés,Athletic Club,0-2,Final
+7,24/09/2024,03:00,Sevilla FC,Real Valladolid,2-1,Final
+7,24/09/2024,03:00,Valencia CF,CA Osasuna,0-0,Final
+7,24/09/2024,03:00,Real Madrid,CD Alavés,3-2,Final
+7,25/09/2024,03:00,Girona FC,Rayo Vallecano,0-0,Final
+7,25/09/2024,03:00,FC Barcelona,Getafe CF,1-0,Final
+7,26/09/2024,03:00,UD Las Palmas,Real Betis,1-1,Final
+7,26/09/2024,03:00,Espanyol Barcelona,Villarreal CF,1-2,Final
+7,26/09/2024,03:00,RC Celta,Atlético de Madrid,0-1,Final
+8,27/09/2024,03:00,Real Valladolid,RCD Mallorca,1-2,Final
+8,28/09/2024,03:00,Getafe CF,CD Alavés,2-0,Final
+8,28/09/2024,03:00,Rayo Vallecano,CD Leganés,1-1,Final
+8,28/09/2024,03:00,Real Sociedad,Valencia CF,3-0,Final
+8,28/09/2024,03:00,CA Osasuna,FC Barcelona,4-2,Final
+8,29/09/2024,03:00,RC Celta,Girona FC,1-1,Final
+8,29/09/2024,03:00,Athletic Club,Sevilla FC,1-1,Final
+8,29/09/2024,03:00,Real Betis,Espanyol Barcelona,1-0,Final
+8,29/09/2024,03:00,Atlético de Madrid,Real Madrid,1-1,Final
+8,30/09/2024,03:00,Villarreal CF,UD Las Palmas,3-1,Final
+9,04/10/2024,03:00,CD Leganés,Valencia CF,0-0,Final
+9,05/10/2024,03:00,Espanyol Barcelona,RCD Mallorca,2-1,Final
+9,05/10/2024,03:00,Getafe CF,CA Osasuna,1-1,Final
+9,05/10/2024,03:00,Real Valladolid,Rayo Vallecano,1-2,Final
+9,05/10/2024,03:00,UD Las Palmas,RC Celta,0-1,Final
+9,05/10/2024,03:00,Real Madrid,Villarreal CF,2-0,Final
+9,06/10/2024,03:00,Girona FC,Athletic Club,2-1,Final
+9,06/10/2024,03:00,CD Alavés,FC Barcelona,0-3,Final
+9,06/10/2024,03:00,Sevilla FC,Real Betis,1-0,Final
+9,06/10/2024,03:00,Real Sociedad,Atlético de Madrid,1-1,Final
+10,18/10/2024,03:00,CD Alavés,Real Valladolid,2-3,Final
+10,19/10/2024,03:00,Athletic Club,Espanyol Barcelona,4-1,Final
+10,19/10/2024,03:00,CA Osasuna,Real Betis,1-2,Final
+10,19/10/2024,03:00,Girona FC,Real Sociedad,0-1,Final
+10,19/10/2024,03:00,RC Celta,Real Madrid,1-2,Final
+10,20/10/2024,03:00,RCD Mallorca,Rayo Vallecano,1-0,Final
+10,20/10/2024,03:00,Atlético de Madrid,CD Leganés,3-1,Final
+10,20/10/2024,03:00,Villarreal CF,Getafe CF,1-1,Final
+10,20/10/2024,03:00,FC Barcelona,Sevilla FC,5-1,Final
+10,21/10/2024,03:00,Valencia CF,UD Las Palmas,2-3,Final
+11,25/10/2024,03:00,Espanyol Barcelona,Sevilla FC,0-2,Final
+11,26/10/2024,03:00,Real Valladolid,Villarreal CF,1-2,Final
+11,26/10/2024,03:00,Rayo Vallecano,CD Alavés,1-0,Final
+11,26/10/2024,03:00,UD Las Palmas,Girona FC,1-0,Final
+11,26/10/2024,03:00,Real Madrid,FC Barcelona,0-4,Final
+11,27/10/2024,03:00,CD Leganés,RC Celta,3-0,Final
+11,27/10/2024,03:00,Getafe CF,Valencia CF,1-1,Final
+11,27/10/2024,03:00,Real Betis,Atlético de Madrid,1-0,Final
+11,27/10/2024,03:00,Real Sociedad,CA Osasuna,0-2,Final
+11,28/10/2024,03:00,RCD Mallorca,Athletic Club,0-0,Final
+12,01/11/2024,03:00,CD Alavés,RCD Mallorca,1-0,Final
+12,02/11/2024,03:00,CA Osasuna,Real Valladolid,1-0,Final
+12,02/11/2024,03:00,Girona FC,CD Leganés,4-3,Final
+12,03/11/2024,03:00,Atlético de Madrid,UD Las Palmas,2-0,Final
+12,03/11/2024,03:00,FC Barcelona,Espanyol Barcelona,3-1,Final
+12,03/11/2024,03:00,Sevilla FC,Real Sociedad,0-2,Final
+12,03/11/2024,03:00,Athletic Club,Real Betis,1-1,Final
+12,04/11/2024,03:00,RC Celta,Getafe CF,1-0,Final
+12,18/12/2024,03:00,Villarreal CF,Rayo Vallecano,1-1,Final
+12,03/01/2025,03:00,Valencia CF,Real Madrid,1-2,Final
+13,08/11/2024,03:00,Rayo Vallecano,UD Las Palmas,1-3,Final
+13,09/11/2024,03:00,Real Madrid,CA Osasuna,4-0,Final
+13,09/11/2024,03:00,Villarreal CF,CD Alavés,3-0,Final
+13,09/11/2024,03:00,CD Leganés,Sevilla FC,1-0,Final
+13,10/11/2024,03:00,Real Betis,RC Celta,2-2,Final
+13,10/11/2024,03:00,RCD Mallorca,Atlético de Madrid,0-1,Final
+13,10/11/2024,03:00,Getafe CF,Girona FC,0-1,Final
+13,10/11/2024,03:00,Real Valladolid,Athletic Club,1-1,Final
+13,10/11/2024,03:00,Real Sociedad,FC Barcelona,1-0,Final
+13,18/12/2024,03:00,Espanyol Barcelona,Valencia CF,1-1,Final
+14,22/11/2024,03:00,Getafe CF,Real Valladolid,2-0,Final
+14,23/11/2024,03:00,Valencia CF,Real Betis,4-2,Final
+14,23/11/2024,03:00,Atlético de Madrid,CD Alavés,2-1,Final
+14,23/11/2024,03:00,UD Las Palmas,RCD Mallorca,2-3,Final
+14,23/11/2024,03:00,Girona FC,Espanyol Barcelona,4-1,Final
+14,23/11/2024,03:00,RC Celta,FC Barcelona,2-2,Final
+14,24/11/2024,03:00,CA Osasuna,Villarreal CF,2-2,Final
+14,24/11/2024,03:00,Sevilla FC,Rayo Vallecano,1-0,Final
+14,24/11/2024,03:00,CD Leganés,Real Madrid,0-3,Final
+14,24/11/2024,03:00,Athletic Club,Real Sociedad,1-0,Final
+15,29/11/2024,03:00,RCD Mallorca,Valencia CF,2-1,Final
+15,30/11/2024,03:00,FC Barcelona,UD Las Palmas,1-2,Final
+15,30/11/2024,03:00,CD Alavés,CD Leganés,1-1,Final
+15,30/11/2024,03:00,Espanyol Barcelona,RC Celta,3-1,Final
+15,30/11/2024,03:00,Real Valladolid,Atlético de Madrid,0-5,Final
+15,01/12/2024,03:00,Villarreal CF,Girona FC,2-2,Final
+15,01/12/2024,03:00,Real Madrid,Getafe CF,2-0,Final
+15,01/12/2024,03:00,Rayo Vallecano,Athletic Club,1-2,Final
+15,01/12/2024,03:00,Real Sociedad,Real Betis,2-0,Final
+15,02/12/2024,03:00,Sevilla FC,CA Osasuna,1-1,Final
+16,06/12/2024,03:00,RC Celta,RCD Mallorca,2-0,Final
+16,07/12/2024,03:00,UD Las Palmas,Real Valladolid,2-1,Final
+16,07/12/2024,03:00,Real Betis,FC Barcelona,2-2,Final
+16,07/12/2024,03:00,Valencia CF,Rayo Vallecano,0-1,Final
+16,07/12/2024,03:00,Girona FC,Real Madrid,0-3,Final
+16,08/12/2024,03:00,CD Leganés,Real Sociedad,0-3,Final
+16,08/12/2024,03:00,Athletic Club,Villarreal CF,2-0,Final
+16,08/12/2024,03:00,CA Osasuna,CD Alavés,2-2,Final
+16,08/12/2024,03:00,Atlético de Madrid,Sevilla FC,4-3,Final
+16,09/12/2024,03:00,Getafe CF,Espanyol Barcelona,1-0,Final
+17,13/12/2024,03:00,Real Valladolid,Valencia CF,1-0,Final
+17,14/12/2024,03:00,Espanyol Barcelona,CA Osasuna,0-0,Final
+17,14/12/2024,03:00,RCD Mallorca,Girona FC,2-1,Final
+17,14/12/2024,03:00,Sevilla FC,RC Celta,1-0,Final
+17,14/12/2024,03:00,Rayo Vallecano,Real Madrid,3-3,Final
+17,15/12/2024,03:00,Atlético de Madrid,Getafe CF,1-0,Final
+17,15/12/2024,03:00,CD Alavés,Athletic Club,1-1,Final
+17,15/12/2024,03:00,Villarreal CF,Real Betis,1-2,Final
+17,15/12/2024,03:00,Real Sociedad,UD Las Palmas,0-0,Final
+17,15/12/2024,03:00,FC Barcelona,CD Leganés,0-1,Final
+18,20/12/2024,03:00,Girona FC,Real Valladolid,3-0,Final
+18,21/12/2024,03:00,Getafe CF,RCD Mallorca,0-1,Final
+18,21/12/2024,03:00,RC Celta,Real Sociedad,2-0,Final
+18,21/12/2024,03:00,CA Osasuna,Athletic Club,1-2,Final
+18,21/12/2024,03:00,FC Barcelona,Atlético de Madrid,1-2,Final
+18,22/12/2024,03:00,Valencia CF,CD Alavés,2-2,Final
+18,22/12/2024,03:00,Real Madrid,Sevilla FC,4-2,Final
+18,22/12/2024,03:00,CD Leganés,Villarreal CF,2-5,Final
+18,22/12/2024,03:00,UD Las Palmas,Espanyol Barcelona,1-0,Final
+18,22/12/2024,03:00,Real Betis,Rayo Vallecano,1-1,Final
+19,03/12/2024,03:00,RCD Mallorca,FC Barcelona,1-5,Final
+19,04/12/2024,03:00,Athletic Club,Real Madrid,2-1,Final
+19,10/01/2025,03:00,Rayo Vallecano,RC Celta,2-1,Final
+19,11/01/2025,03:00,CD Alavés,Girona FC,0-1,Final
+19,11/01/2025,03:00,Real Valladolid,Real Betis,1-0,Final
+19,11/01/2025,03:00,Espanyol Barcelona,CD Leganés,1-1,Final
+19,11/01/2025,03:00,Sevilla FC,Valencia CF,1-1,Final
+19,12/01/2025,03:00,UD Las Palmas,Getafe CF,1-2,Final
+19,12/01/2025,03:00,Atlético de Madrid,CA Osasuna,1-0,Final
+19,13/01/2025,03:00,Real Sociedad,Villarreal CF,1-0,Final
+20,17/01/2025,03:00,Espanyol Barcelona,Real Valladolid,2-1,Final
+20,18/01/2025,03:00,Girona FC,Sevilla FC,1-2,Final
+20,18/01/2025,03:00,CD Leganés,Atlético de Madrid,1-0,Final
+20,18/01/2025,03:00,Real Betis,CD Alavés,1-3,Final
+20,18/01/2025,03:00,Getafe CF,FC Barcelona,1-1,Final
+20,19/01/2025,03:00,RC Celta,Athletic Club,1-2,Final
+20,19/01/2025,03:00,Real Madrid,UD Las Palmas,4-1,Final
+20,19/01/2025,03:00,CA Osasuna,Rayo Vallecano,1-1,Final
+20,19/01/2025,03:00,Valencia CF,Real Sociedad,1-0,Final
+20,20/01/2025,03:00,Villarreal CF,RCD Mallorca,4-0,Final
+21,24/01/2025,03:00,UD Las Palmas,CA Osasuna,1-1,Final
+21,25/01/2025,03:00,RCD Mallorca,Real Betis,0-1,Final
+21,25/01/2025,03:00,Atlético de Madrid,Villarreal CF,1-1,Final
+21,25/01/2025,03:00,Sevilla FC,Espanyol Barcelona,1-1,Final
+21,25/01/2025,03:00,Real Valladolid,Real Madrid,0-3,Final
+21,26/01/2025,03:00,Rayo Vallecano,Girona FC,2-1,Final
+21,26/01/2025,03:00,Real Sociedad,Getafe CF,0-3,Final
+21,26/01/2025,03:00,Athletic Club,CD Leganés,0-0,Final
+21,26/01/2025,03:00,FC Barcelona,Valencia CF,7-1,Final
+21,27/01/2025,03:00,CD Alavés,RC Celta,1-1,Final
+22,31/01/2025,03:00,CD Leganés,Rayo Vallecano,0-1,Final
+22,01/02/2025,03:00,Getafe CF,Sevilla FC,0-0,Final
+22,01/02/2025,03:00,Villarreal CF,Real Valladolid,5-1,Final
+22,01/02/2025,03:00,Atlético de Madrid,RCD Mallorca,2-0,Final
+22,01/02/2025,03:00,Espanyol Barcelona,Real Madrid,1-0,Final
+22,02/02/2025,03:00,FC Barcelona,CD Alavés,1-0,Final
+22,02/02/2025,03:00,Valencia CF,RC Celta,2-1,Final
+22,02/02/2025,03:00,CA Osasuna,Real Sociedad,2-1,Final
+22,02/02/2025,03:00,Real Betis,Athletic Club,2-2,Final
+22,03/02/2025,03:00,Girona FC,UD Las Palmas,2-1,Final
+23,07/02/2025,03:00,Rayo Vallecano,Real Valladolid,1-0,Final
+23,08/02/2025,03:00,RC Celta,Real Betis,3-2,Final
+23,08/02/2025,03:00,Athletic Club,Girona FC,3-0,Final
+23,08/02/2025,03:00,UD Las Palmas,Villarreal CF,1-2,Final
+23,08/02/2025,03:00,Real Madrid,Atlético de Madrid,1-1,Final
+23,09/02/2025,03:00,CD Alavés,Getafe CF,0-1,Final
+23,09/02/2025,03:00,Valencia CF,CD Leganés,2-0,Final
+23,09/02/2025,03:00,Real Sociedad,Espanyol Barcelona,2-1,Final
+23,09/02/2025,03:00,Sevilla FC,FC Barcelona,1-4,Final
+23,10/02/2025,03:00,RCD Mallorca,CA Osasuna,1-1,Final
+24,14/02/2025,03:00,Girona FC,Getafe CF,1-2,Final
+24,15/02/2025,03:00,CD Leganés,CD Alavés,3-3,Final
+24,15/02/2025,03:00,CA Osasuna,Real Madrid,1-1,Final
+24,15/02/2025,03:00,Atlético de Madrid,RC Celta,1-1,Final
+24,15/02/2025,03:00,Villarreal CF,Valencia CF,1-1,Final
+24,16/02/2025,03:00,Espanyol Barcelona,Athletic Club,1-1,Final
+24,16/02/2025,03:00,Real Valladolid,Sevilla FC,0-4,Final
+24,16/02/2025,03:00,RCD Mallorca,UD Las Palmas,3-1,Final
+24,16/02/2025,03:00,Real Betis,Real Sociedad,3-0,Final
+24,17/02/2025,03:00,FC Barcelona,Rayo Vallecano,1-0,Final
+25,21/02/2025,03:00,RC Celta,CA Osasuna,1-0,Final
+25,22/02/2025,03:00,CD Alavés,Espanyol Barcelona,0-1,Final
+25,22/02/2025,03:00,Rayo Vallecano,Villarreal CF,0-1,Final
+25,22/02/2025,03:00,Valencia CF,Atlético de Madrid,0-3,Final
+25,22/02/2025,03:00,UD Las Palmas,FC Barcelona,0-2,Final
+25,23/02/2025,03:00,Athletic Club,Real Valladolid,7-1,Final
+25,23/02/2025,03:00,Real Madrid,Girona FC,2-0,Final
+25,23/02/2025,03:00,Getafe CF,Real Betis,1-2,Final
+25,23/02/2025,03:00,Real Sociedad,CD Leganés,3-0,Final
+25,24/02/2025,03:00,Sevilla FC,RCD Mallorca,1-1,Final
+26,28/02/2025,03:00,Real Valladolid,UD Las Palmas,1-1,Final
+26,01/03/2025,03:00,Girona FC,RC Celta,2-2,Final
+26,01/03/2025,03:00,Rayo Vallecano,Sevilla FC,1-1,Final
+26,01/03/2025,03:00,Real Betis,Real Madrid,2-1,Final
+26,01/03/2025,03:00,Atlético de Madrid,Athletic Club,1-0,Final
+26,02/03/2025,03:00,CD Leganés,Getafe CF,1-0,Final
+26,02/03/2025,03:00,FC Barcelona,Real Sociedad,4-0,Final
+26,02/03/2025,03:00,RCD Mallorca,CD Alavés,1-1,Final
+26,02/03/2025,03:00,CA Osasuna,Valencia CF,3-3,Final
+26,27/04/2025,03:00,Villarreal CF,Espanyol Barcelona,1-0,Final
+27,08/03/2025,03:00,RC Celta,CD Leganés,2-1,Final
+27,08/03/2025,03:00,CD Alavés,Villarreal CF,1-0,Final
+27,08/03/2025,03:00,Valencia CF,Real Valladolid,2-1,Final
+27,09/03/2025,03:00,Getafe CF,Atlético de Madrid,2-1,Final
+27,09/03/2025,03:00,Real Madrid,Rayo Vallecano,2-1,Final
+27,09/03/2025,03:00,Athletic Club,RCD Mallorca,1-1,Final
+27,09/03/2025,03:00,Real Betis,UD Las Palmas,1-0,Final
+27,09/03/2025,03:00,Real Sociedad,Sevilla FC,0-1,Final
+27,10/03/2025,03:00,Espanyol Barcelona,Girona FC,1-1,Final
+27,27/03/2025,03:00,FC Barcelona,CA Osasuna,3-0,Final
+28,14/03/2025,03:00,UD Las Palmas,CD Alavés,2-2,Final
+28,15/03/2025,03:00,Real Valladolid,RC Celta,0-1,Final
+28,15/03/2025,03:00,RCD Mallorca,Espanyol Barcelona,2-1,Final
+28,15/03/2025,03:00,Villarreal CF,Real Madrid,1-2,Final
+28,15/03/2025,03:00,Girona FC,Valencia CF,1-1,Final
+28,16/03/2025,03:00,CD Leganés,Real Betis,2-3,Final
+28,16/03/2025,03:00,Sevilla FC,Athletic Club,0-1,Final
+28,16/03/2025,03:00,CA Osasuna,Getafe CF,1-2,Final
+28,16/03/2025,03:00,Rayo Vallecano,Real Sociedad,2-2,Final
+28,16/03/2025,03:00,Atlético de Madrid,FC Barcelona,2-4,Final
+29,29/03/2025,03:00,Real Sociedad,Real Valladolid,2-1,Final
+29,29/03/2025,03:00,Espanyol Barcelona,Atlético de Madrid,1-1,Final
+29,29/03/2025,03:00,CD Alavés,Rayo Vallecano,0-2,Final
+29,29/03/2025,03:00,Real Madrid,CD Leganés,3-2,Final
+29,30/03/2025,03:00,Getafe CF,Villarreal CF,1-2,Final
+29,30/03/2025,03:00,FC Barcelona,Girona FC,4-1,Final
+29,30/03/2025,03:00,Athletic Club,CA Osasuna,0-0,Final
+29,30/03/2025,03:00,Valencia CF,RCD Mallorca,1-0,Final
+29,30/03/2025,03:00,Real Betis,Sevilla FC,2-1,Final
+29,31/03/2025,03:00,RC Celta,UD Las Palmas,1-1,Final
+30,04/04/2025,03:00,Rayo Vallecano,Espanyol Barcelona,0-4,Final
+30,05/04/2025,03:00,Girona FC,CD Alavés,0-1,Final
+30,05/04/2025,03:00,Real Madrid,Valencia CF,1-2,Final
+30,05/04/2025,03:00,RCD Mallorca,RC Celta,1-2,Final
+30,05/04/2025,03:00,FC Barcelona,Real Betis,1-1,Final
+30,06/04/2025,03:00,UD Las Palmas,Real Sociedad,1-3,Final
+30,06/04/2025,03:00,Sevilla FC,Atlético de Madrid,1-2,Final
+30,06/04/2025,03:00,Real Valladolid,Getafe CF,0-4,Final
+30,06/04/2025,03:00,Villarreal CF,Athletic Club,0-0,Final
+30,07/04/2025,03:00,CD Leganés,CA Osasuna,1-1,Final
+31,11/04/2025,03:00,Valencia CF,Sevilla FC,1-0,Final
+31,12/04/2025,03:00,Real Sociedad,RCD Mallorca,0-2,Final
+31,12/04/2025,03:00,Getafe CF,UD Las Palmas,1-3,Final
+31,12/04/2025,03:00,RC Celta,Espanyol Barcelona,0-2,Final
+31,12/04/2025,03:00,CD Leganés,FC Barcelona,0-1,Final
+31,13/04/2025,03:00,CA Osasuna,Girona FC,2-1,Final
+31,13/04/2025,03:00,CD Alavés,Real Madrid,0-1,Final
+31,13/04/2025,03:00,Real Betis,Villarreal CF,1-2,Final
+31,13/04/2025,03:00,Athletic Club,Rayo Vallecano,3-1,Final
+31,14/04/2025,03:00,Atlético de Madrid,Real Valladolid,4-2,Final
+32,18/04/2025,03:00,Espanyol Barcelona,Getafe CF,1-0,Final
+32,19/04/2025,03:00,Rayo Vallecano,Valencia CF,1-1,Final
+32,19/04/2025,03:00,FC Barcelona,RC Celta,4-3,Final
+32,19/04/2025,03:00,RCD Mallorca,CD Leganés,0-0,Final
+32,19/04/2025,03:00,UD Las Palmas,Atlético de Madrid,1-0,Final
+32,20/04/2025,03:00,Real Valladolid,CA Osasuna,2-3,Final
+32,20/04/2025,03:00,Villarreal CF,Real Sociedad,2-2,Final
+32,20/04/2025,03:00,Sevilla FC,CD Alavés,1-1,Final
+32,20/04/2025,03:00,Real Madrid,Athletic Club,1-0,Final
+32,21/04/2025,03:00,Girona FC,Real Betis,1-3,Final
+33,22/04/2025,03:00,Valencia CF,Espanyol Barcelona,1-1,Final
+33,22/04/2025,03:00,FC Barcelona,RCD Mallorca,1-0,Final
+33,23/04/2025,03:00,Athletic Club,UD Las Palmas,1-0,Final
+33,23/04/2025,03:00,RC Celta,Villarreal CF,3-0,Final
+33,23/04/2025,03:00,CD Alavés,Real Sociedad,1-0,Final
+33,23/04/2025,03:00,Getafe CF,Real Madrid,0-1,Final
+33,24/04/2025,03:00,CA Osasuna,Sevilla FC,1-0,Final
+33,24/04/2025,03:00,CD Leganés,Girona FC,1-1,Final
+33,24/04/2025,03:00,Atlético de Madrid,Rayo Vallecano,3-0,Final
+33,24/04/2025,03:00,Real Betis,Real Valladolid,5-1,Final
+34,02/05/2025,03:00,Rayo Vallecano,Getafe CF,1-0,Final
+34,03/05/2025,03:00,CD Alavés,Atlético de Madrid,0-0,Final
+34,03/05/2025,03:00,Villarreal CF,CA Osasuna,4-2,Final
+34,03/05/2025,03:00,UD Las Palmas,Valencia CF,2-3,Final
+34,03/05/2025,03:00,Real Valladolid,FC Barcelona,1-2,Final
+34,04/05/2025,03:00,Real Madrid,RC Celta,3-2,Final
+34,04/05/2025,03:00,Sevilla FC,CD Leganés,2-2,Final
+34,04/05/2025,03:00,Espanyol Barcelona,Real Betis,1-2,Final
+34,04/05/2025,03:00,Real Sociedad,Athletic Club,0-0,Final
+34,05/05/2025,03:00,Girona FC,RCD Mallorca,1-0,Final
+35,09/05/2025,03:00,UD Las Palmas,Rayo Vallecano,0-1,Final
+35,10/05/2025,03:00,Valencia CF,Getafe CF,3-0,Final
+35,10/05/2025,03:00,RC Celta,Sevilla FC,3-2,Final
+35,10/05/2025,03:00,Girona FC,Villarreal CF,0-1,Final
+35,10/05/2025,03:00,RCD Mallorca,Real Valladolid,2-1,Final
+35,10/05/2025,03:00,Atlético de Madrid,Real Sociedad,4-0,Final
+35,11/05/2025,03:00,CD Leganés,Espanyol Barcelona,3-2,Final
+35,11/05/2025,03:00,FC Barcelona,Real Madrid,4-3,Final
+35,11/05/2025,03:00,Athletic Club,CD Alavés,1-0,Final
+35,11/05/2025,03:00,Real Betis,CA Osasuna,1-1,Final
+36,13/05/2025,03:00,Real Valladolid,Girona FC,0-1,Final
+36,13/05/2025,03:00,Real Sociedad,RC Celta,0-1,Final
+36,13/05/2025,03:00,Sevilla FC,UD Las Palmas,1-0,Final
+36,14/05/2025,03:00,CD Alavés,Valencia CF,1-0,Final
+36,14/05/2025,03:00,Villarreal CF,CD Leganés,3-0,Final
+36,14/05/2025,03:00,Real Madrid,RCD Mallorca,2-1,Final
+36,15/05/2025,03:00,CA Osasuna,Atlético de Madrid,2-0,Final
+36,15/05/2025,03:00,Rayo Vallecano,Real Betis,2-2,Final
+36,15/05/2025,03:00,Getafe CF,Athletic Club,0-2,Final
+36,15/05/2025,03:00,Espanyol Barcelona,FC Barcelona,0-2,Final
+37,18/05/2025,03:00,Atlético de Madrid,Real Betis,4-1,Final
+37,18/05/2025,03:00,RC Celta,Rayo Vallecano,1-2,Final
+37,18/05/2025,03:00,FC Barcelona,Villarreal CF,2-3,Final
+37,18/05/2025,03:00,Sevilla FC,Real Madrid,0-2,Final
+37,18/05/2025,03:00,Valencia CF,Athletic Club,0-1,Final
+37,18/05/2025,03:00,RCD Mallorca,Getafe CF,1-2,Final
+37,18/05/2025,03:00,Real Sociedad,Girona FC,3-2,Final
+37,18/05/2025,03:00,Real Valladolid,CD Alavés,0-1,Final
+37,18/05/2025,03:00,UD Las Palmas,CD Leganés,0-1,Final
+37,18/05/2025,03:00,CA Osasuna,Espanyol Barcelona,2-0,Final
+38,23/05/2025,03:00,Real Betis,Valencia CF,1-1,Final
+38,24/05/2025,03:00,Real Madrid,Real Sociedad,2-0,Final
+38,24/05/2025,03:00,CD Leganés,Real Valladolid,3-0,Final
+38,24/05/2025,03:00,Espanyol Barcelona,UD Las Palmas,2-0,Final
+38,24/05/2025,03:00,CD Alavés,CA Osasuna,1-1,Final
+38,24/05/2025,03:00,Getafe CF,RC Celta,1-2,Final
+38,24/05/2025,03:00,Rayo Vallecano,RCD Mallorca,0-0,Final
+38,25/05/2025,03:00,Girona FC,Atlético de Madrid,0-4,Final
+38,25/05/2025,03:00,Villarreal CF,Sevilla FC,4-2,Final
+38,25/05/2025,03:00,Athletic Club,FC Barcelona,0-3,Final

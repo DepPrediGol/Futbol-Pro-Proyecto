@@ -1,0 +1,309 @@
+matchday,date,time,home_team,away_team,result,status
+1,10/08/2024,05:00,Maritimo,Tondela,2-2,Final
+1,10/08/2024,08:00,Mafra,Pacos Ferreira,0-1,Final
+1,10/08/2024,09:30,Leixoes,Benfica B,2-1,Final
+1,10/08/2024,12:00,Academico Viseu,Chaves,2-1,Final
+1,11/08/2024,05:00,Penafiel,Oliveirense,4-3,Final
+1,11/08/2024,08:00,Torreense,Feirense,0-1,Final
+1,11/08/2024,12:00,FC Porto B,Alverca,1-1,Final
+1,11/08/2024,14:30,União de Leiria,Vizela,0-2,Final
+1,12/08/2024,12:00,Felgueiras 1932,Portimonense,0-0,Final
+2,17/08/2024,05:00,Alverca,Felgueiras 1932,1-1,Final
+2,17/08/2024,08:00,Oliveirense,Mafra,0-0,Final
+2,17/08/2024,14:30,Portimonense,União de Leiria,0-3,Final
+2,18/08/2024,05:00,Pacos Ferreira,Maritimo,1-2,Final
+2,18/08/2024,08:00,Feirense,Academico Viseu,2-2,Final
+2,18/08/2024,09:30,Vizela,Penafiel,1-2,Final
+2,18/08/2024,12:00,Chaves,Leixoes,0-0,Final
+2,18/08/2024,12:00,Benfica B,Torreense,2-0,Final
+2,19/08/2024,12:00,Tondela,FC Porto B,2-2,Final
+3,23/08/2024,12:00,União de Leiria,Alverca,1-1,Final
+3,24/08/2024,05:00,Felgueiras 1932,Feirense,0-0,Final
+3,24/08/2024,08:00,Torreense,Oliveirense,3-0,Final
+3,24/08/2024,09:30,Leixoes,Pacos Ferreira,3-3,Final
+3,25/08/2024,05:00,Academico Viseu,FC Porto B,2-0,Final
+3,25/08/2024,08:00,Penafiel,Tondela,2-2,Final
+3,25/08/2024,09:30,Maritimo,Chaves,1-1,Final
+3,25/08/2024,12:00,Benfica B,Vizela,1-0,Final
+3,25/08/2024,12:00,Mafra,Portimonense,2-2,Final
+4,30/08/2024,12:00,Alverca,Academico Viseu,0-4,Final
+4,31/08/2024,05:00,Oliveirense,Leixoes,0-1,Final
+4,31/08/2024,08:00,Tondela,Felgueiras 1932,1-1,Final
+4,31/08/2024,09:30,Vizela,Torreense,1-2,Final
+4,01/09/2024,05:00,Portimonense,Maritimo,5-1,Final
+4,01/09/2024,08:00,Feirense,Benfica B,2-3,Final
+4,01/09/2024,09:30,Pacos Ferreira,Penafiel,1-3,Final
+4,01/09/2024,12:00,Chaves,Mafra,0-3,Final
+4,01/09/2024,12:00,FC Porto B,União de Leiria,1-1,Final
+5,13/09/2024,12:00,Torreense,Portimonense,3-2,Final
+5,14/09/2024,05:00,Felgueiras 1932,Chaves,1-2,Final
+5,14/09/2024,08:00,Academico Viseu,União de Leiria,0-1,Final
+5,15/09/2024,05:00,Maritimo,Alverca,1-2,Final
+5,15/09/2024,05:00,Mafra,Tondela,0-4,Final
+5,15/09/2024,06:45,Penafiel,FC Porto B,1-1,Final
+5,15/09/2024,09:30,Benfica B,Oliveirense,2-2,Final
+5,15/09/2024,09:30,Leixoes,Vizela,0-1,Final
+5,16/09/2024,12:00,Feirense,Pacos Ferreira,2-0,Final
+6,28/09/2024,05:00,Chaves,Torreense,2-1,Final
+6,28/09/2024,08:00,Pacos Ferreira,Benfica B,0-3,Final
+6,28/09/2024,12:00,Portimonense,Penafiel,0-2,Final
+6,28/09/2024,14:30,Tondela,Academico Viseu,4-1,Final
+6,29/09/2024,05:00,Oliveirense,Feirense,1-0,Final
+6,29/09/2024,05:00,FC Porto B,Felgueiras 1932,0-2,Final
+6,29/09/2024,08:00,Alverca,Leixoes,1-1,Final
+6,29/09/2024,09:30,União de Leiria,Maritimo,1-1,Final
+6,30/09/2024,12:00,Vizela,Mafra,3-0,Final
+7,04/10/2024,12:00,Torreense,Tondela,0-2,Final
+7,05/10/2024,05:00,Felgueiras 1932,Academico Viseu,1-1,Final
+7,05/10/2024,08:00,Maritimo,FC Porto B,1-0,Final
+7,05/10/2024,09:30,Oliveirense,Pacos Ferreira,0-2,Final
+7,05/10/2024,12:00,Leixoes,Portimonense,3-0,Final
+7,06/10/2024,05:00,Feirense,Vizela,0-0,Final
+7,06/10/2024,08:00,Penafiel,União de Leiria,1-0,Final
+7,06/10/2024,09:30,Benfica B,Chaves,1-0,Final
+7,06/10/2024,09:30,Mafra,Alverca,1-1,Final
+8,11/10/2024,12:00,União de Leiria,Felgueiras 1932,1-3,Final
+8,12/10/2024,05:00,Tondela,Leixoes,2-1,Final
+8,12/10/2024,08:00,Alverca,Penafiel,2-2,Final
+8,13/10/2024,09:30,Academico Viseu,Maritimo,0-2,Final
+8,13/10/2024,12:00,Pacos Ferreira,Torreense,1-0,Final
+8,13/10/2024,14:30,Chaves,Feirense,0-0,Final
+8,23/10/2024,09:30,FC Porto B,Mafra,2-1,Final
+9,25/10/2024,12:00,Pacos Ferreira,Vizela,1-1,Final
+9,26/10/2024,05:00,Penafiel,Academico Viseu,0-2,Final
+9,26/10/2024,08:00,Oliveirense,Chaves,0-3,Final
+9,26/10/2024,09:30,Feirense,Portimonense,1-1,Final
+9,26/10/2024,12:00,Benfica B,Tondela,1-3,Final
+9,27/10/2024,06:00,Torreense,Alverca,1-0,Final
+9,27/10/2024,09:00,Felgueiras 1932,Maritimo,1-3,Final
+9,27/10/2024,10:30,Leixoes,FC Porto B,3-0,Final
+9,28/10/2024,13:00,Mafra,União de Leiria,2-1,Final
+10,01/11/2024,13:00,Alverca,Feirense,1-0,Final
+10,02/11/2024,06:00,Portimonense,Vizela,1-1,Final
+10,02/11/2024,09:00,Maritimo,Penafiel,1-2,Final
+10,02/11/2024,10:30,Chaves,Pacos Ferreira,2-1,Final
+10,03/11/2024,06:00,Academico Viseu,Benfica B,1-1,Final
+10,03/11/2024,09:00,Felgueiras 1932,Mafra,1-1,Final
+10,03/11/2024,10:30,FC Porto B,Torreense,1-1,Final
+10,03/11/2024,10:30,União de Leiria,Leixoes,1-0,Final
+10,04/11/2024,13:00,Tondela,Oliveirense,2-0,Final
+11,08/11/2024,13:00,Vizela,Chaves,0-1,Final
+11,09/11/2024,06:00,Penafiel,Felgueiras 1932,2-1,Final
+11,09/11/2024,09:00,Oliveirense,Portimonense,0-2,Final
+11,09/11/2024,10:30,Mafra,Academico Viseu,0-2,Final
+11,09/11/2024,13:00,Feirense,Tondela,1-1,Final
+11,10/11/2024,06:00,Pacos Ferreira,FC Porto B,2-2,Final
+11,10/11/2024,09:00,Leixoes,Maritimo,2-1,Final
+11,10/11/2024,10:30,Benfica B,Alverca,2-1,Final
+11,10/11/2024,10:30,Torreense,União de Leiria,2-1,Final
+8,23/11/2024,06:00,Portimonense,Benfica B,0-2,Final
+15,23/11/2024,10:30,Feirense,Maritimo,1-0,Final
+8,24/11/2024,06:00,Vizela,Oliveirense,0-0,Final
+12,29/11/2024,13:00,Academico Viseu,Leixoes,2-0,Final
+12,30/11/2024,06:00,Felgueiras 1932,Torreense,1-2,Final
+12,30/11/2024,09:00,União de Leiria,Feirense,1-0,Final
+12,30/11/2024,10:30,Portimonense,Chaves,1-2,Final
+12,30/11/2024,13:00,Alverca,Vizela,4-2,Final
+12,01/12/2024,06:00,Penafiel,Mafra,1-1,Final
+12,01/12/2024,09:00,Tondela,Pacos Ferreira,2-1,Final
+12,01/12/2024,10:30,Maritimo,Benfica B,1-1,Final
+12,01/12/2024,10:30,FC Porto B,Oliveirense,2-1,Final
+13,07/12/2024,06:00,Feirense,Penafiel,3-0,Final
+13,07/12/2024,09:00,Benfica B,União de Leiria,0-5,Final
+13,07/12/2024,09:00,Torreense,Academico Viseu,1-0,Final
+13,07/12/2024,10:30,Leixoes,Felgueiras 1932,2-2,Final
+13,08/12/2024,06:00,Pacos Ferreira,Portimonense,0-1,Final
+13,08/12/2024,09:00,Oliveirense,Alverca,1-4,Final
+13,08/12/2024,10:30,Mafra,Maritimo,2-3,Final
+13,08/12/2024,13:00,Chaves,FC Porto B,2-1,Final
+13,08/12/2024,15:30,Vizela,Tondela,1-1,Final
+14,14/12/2024,06:00,União de Leiria,Pacos Ferreira,0-1,Final
+14,14/12/2024,07:45,Alverca,Chaves,3-1,Final
+14,14/12/2024,09:00,Penafiel,Leixoes,3-1,Final
+14,14/12/2024,10:30,Mafra,Benfica B,2-0,Final
+14,15/12/2024,06:00,Felgueiras 1932,Vizela,2-1,Final
+14,15/12/2024,09:00,Tondela,Portimonense,2-0,Final
+14,15/12/2024,10:30,Maritimo,Torreense,0-3,Final
+14,15/12/2024,10:30,FC Porto B,Feirense,0-0,Final
+14,16/12/2024,13:00,Academico Viseu,Oliveirense,2-1,Final
+15,20/12/2024,13:00,Leixoes,Mafra,2-1,Final
+15,21/12/2024,06:00,Vizela,FC Porto B,2-1,Final
+15,21/12/2024,09:00,Portimonense,Academico Viseu,1-1,Final
+15,21/12/2024,10:30,Chaves,Tondela,2-2,Final
+15,22/12/2024,06:00,Pacos Ferreira,Alverca,1-3,Final
+15,22/12/2024,09:00,Oliveirense,União de Leiria,1-2,Final
+15,22/12/2024,10:30,Torreense,Penafiel,0-1,Final
+15,22/12/2024,13:00,Benfica B,Felgueiras 1932,2-0,Final
+16,29/12/2024,06:00,Penafiel,Benfica B,1-1,Final
+16,29/12/2024,09:00,Mafra,Feirense,0-0,Final
+16,29/12/2024,10:30,Maritimo,Oliveirense,1-2,Final
+17,04/01/2025,06:00,Portimonense,Alverca,1-0,Final
+17,04/01/2025,09:00,Chaves,Penafiel,0-1,Final
+17,04/01/2025,10:30,Feirense,Leixoes,1-0,Final
+17,04/01/2025,13:00,Tondela,União de Leiria,1-4,Final
+17,05/01/2025,06:00,Oliveirense,Felgueiras 1932,0-3,Final
+17,05/01/2025,09:00,Torreense,Mafra,1-0,Final
+17,05/01/2025,10:30,Vizela,Maritimo,3-2,Final
+17,05/01/2025,13:00,Pacos Ferreira,Academico Viseu,4-3,Final
+17,06/01/2025,13:00,Benfica B,FC Porto B,2-1,Final
+16,12/01/2025,06:00,Academico Viseu,Vizela,0-0,Final
+16,12/01/2025,06:00,Felgueiras 1932,Pacos Ferreira,1-0,Final
+16,12/01/2025,07:45,FC Porto B,Portimonense,1-2,Final
+16,12/01/2025,13:00,Leixoes,Torreense,1-1,Final
+16,12/01/2025,13:00,União de Leiria,Chaves,1-1,Final
+16,12/01/2025,15:30,Alverca,Tondela,1-1,Final
+18,17/01/2025,13:00,Benfica B,Leixoes,4-0,Final
+18,17/01/2025,15:15,Chaves,Academico Viseu,3-0,Final
+18,18/01/2025,06:00,Alverca,FC Porto B,2-0,Final
+18,18/01/2025,09:00,Portimonense,Felgueiras 1932,3-2,Final
+18,18/01/2025,10:30,Feirense,Torreense,1-1,Final
+18,19/01/2025,06:00,Vizela,União de Leiria,1-0,Final
+18,19/01/2025,09:00,Pacos Ferreira,Mafra,2-1,Final
+18,19/01/2025,10:30,Tondela,Maritimo,0-0,Final
+18,20/01/2025,13:00,Oliveirense,Penafiel,2-2,Final
+19,24/01/2025,13:00,Academico Viseu,Feirense,2-1,Final
+19,25/01/2025,06:00,Felgueiras 1932,Alverca,0-1,Final
+19,25/01/2025,09:00,Leixoes,Chaves,0-0,Final
+19,25/01/2025,10:30,Maritimo,Pacos Ferreira,2-2,Final
+19,26/01/2025,06:00,Penafiel,Vizela,1-1,Final
+19,26/01/2025,09:00,Mafra,Oliveirense,0-0,Final
+19,26/01/2025,10:30,FC Porto B,Tondela,2-2,Final
+19,26/01/2025,10:30,União de Leiria,Portimonense,1-0,Final
+19,27/01/2025,13:00,Torreense,Benfica B,1-1,Final
+20,31/01/2025,13:00,Pacos Ferreira,Leixoes,0-0,Final
+20,01/02/2025,06:00,Feirense,Felgueiras 1932,3-2,Final
+20,01/02/2025,09:00,Tondela,Penafiel,2-0,Final
+20,01/02/2025,10:30,FC Porto B,Academico Viseu,3-2,Final
+20,01/02/2025,10:30,Vizela,Benfica B,1-0,Final
+20,01/02/2025,13:00,Portimonense,Mafra,2-0,Final
+20,02/02/2025,06:00,Oliveirense,Torreense,0-0,Final
+20,02/02/2025,09:00,Chaves,Maritimo,1-1,Final
+20,02/02/2025,10:30,Alverca,União de Leiria,2-1,Final
+21,07/02/2025,13:00,Benfica B,Feirense,0-1,Final
+21,08/02/2025,06:00,Leixoes,Oliveirense,1-2,Final
+21,08/02/2025,09:00,Felgueiras 1932,Tondela,1-0,Final
+21,08/02/2025,10:30,Maritimo,Portimonense,2-0,Final
+21,08/02/2025,13:00,Penafiel,Pacos Ferreira,1-2,Final
+21,09/02/2025,06:00,Mafra,Chaves,0-0,Final
+21,09/02/2025,09:00,Academico Viseu,Alverca,2-2,Final
+21,09/02/2025,10:30,União de Leiria,FC Porto B,0-0,Final
+21,10/02/2025,13:00,Torreense,Vizela,2-4,Final
+22,15/02/2025,06:00,Chaves,Felgueiras 1932,2-0,Final
+22,15/02/2025,09:00,Pacos Ferreira,Feirense,1-2,Final
+22,15/02/2025,10:30,Tondela,Mafra,1-0,Final
+22,16/02/2025,06:00,Oliveirense,Benfica B,3-2,Final
+22,16/02/2025,06:00,Vizela,Leixoes,0-0,Final
+22,16/02/2025,09:00,Portimonense,Torreense,1-2,Final
+22,16/02/2025,10:30,FC Porto B,Penafiel,3-2,Final
+22,16/02/2025,12:00,Alverca,Maritimo,5-0,Final
+22,17/02/2025,13:00,União de Leiria,Academico Viseu,1-1,Final
+23,21/02/2025,13:00,Penafiel,Portimonense,3-0,Final
+23,22/02/2025,06:00,Felgueiras 1932,FC Porto B,1-0,Final
+23,22/02/2025,09:00,Benfica B,Pacos Ferreira,0-0,Final
+23,22/02/2025,09:00,Mafra,Vizela,1-4,Final
+23,22/02/2025,10:30,Maritimo,União de Leiria,1-2,Final
+23,22/02/2025,13:00,Feirense,Oliveirense,3-1,Final
+23,23/02/2025,06:00,Torreense,Chaves,1-2,Final
+23,23/02/2025,09:00,Leixoes,Alverca,1-1,Final
+23,23/02/2025,10:30,Academico Viseu,Tondela,1-1,Final
+24,28/02/2025,15:15,Chaves,Benfica B,1-2,Final
+24,01/03/2025,06:00,Academico Viseu,Felgueiras 1932,0-0,Final
+24,01/03/2025,09:00,Alverca,Mafra,2-0,Final
+24,01/03/2025,10:30,Tondela,Torreense,2-2,Final
+24,02/03/2025,06:00,Portimonense,Leixoes,2-1,Final
+24,02/03/2025,09:00,FC Porto B,Maritimo,0-1,Final
+24,02/03/2025,09:00,União de Leiria,Penafiel,1-0,Final
+24,02/03/2025,13:00,Vizela,Feirense,5-0,Final
+24,03/03/2025,13:00,Pacos Ferreira,Oliveirense,0-1,Final
+25,07/03/2025,13:00,Feirense,Chaves,0-1,Final
+25,08/03/2025,06:00,Penafiel,Alverca,3-2,Final
+25,08/03/2025,09:00,Felgueiras 1932,União de Leiria,2-2,Final
+25,08/03/2025,10:30,Torreense,Pacos Ferreira,3-0,Final
+25,09/03/2025,06:00,Mafra,FC Porto B,0-0,Final
+25,09/03/2025,09:00,Maritimo,Academico Viseu,1-1,Final
+25,09/03/2025,10:30,Oliveirense,Vizela,0-1,Final
+25,09/03/2025,13:00,Benfica B,Portimonense,0-0,Final
+25,10/03/2025,13:00,Leixoes,Tondela,0-1,Final
+26,14/03/2025,13:45,Portimonense,Feirense,1-2,Final
+26,14/03/2025,15:45,Alverca,Torreense,2-2,Final
+26,15/03/2025,06:00,Academico Viseu,Penafiel,1-0,Final
+26,15/03/2025,09:00,Maritimo,Felgueiras 1932,0-0,Final
+26,15/03/2025,10:30,Chaves,Oliveirense,4-0,Final
+26,16/03/2025,06:00,Tondela,Benfica B,2-1,Final
+26,16/03/2025,09:00,União de Leiria,Mafra,3-1,Final
+26,16/03/2025,10:30,FC Porto B,Leixoes,0-1,Final
+26,16/03/2025,15:30,Vizela,Pacos Ferreira,2-1,Final
+27,29/03/2025,06:00,Oliveirense,Tondela,1-3,Final
+27,29/03/2025,09:00,Penafiel,Maritimo,0-1,Final
+27,29/03/2025,10:30,Vizela,Portimonense,3-2,Final
+27,30/03/2025,05:00,Leixoes,União de Leiria,0-1,Final
+27,30/03/2025,06:45,Torreense,FC Porto B,2-4,Final
+27,30/03/2025,08:00,Pacos Ferreira,Chaves,2-0,Final
+27,30/03/2025,12:00,Feirense,Alverca,0-1,Final
+27,31/03/2025,12:00,Benfica B,Academico Viseu,1-0,Final
+27,31/03/2025,14:15,Mafra,Felgueiras 1932,1-0,Final
+28,05/04/2025,05:00,Tondela,Feirense,2-1,Final
+28,05/04/2025,08:00,Felgueiras 1932,Penafiel,1-0,Final
+28,05/04/2025,09:30,Maritimo,Leixoes,1-1,Final
+28,05/04/2025,12:00,Chaves,Vizela,1-2,Final
+28,06/04/2025,05:00,FC Porto B,Pacos Ferreira,1-0,Final
+28,06/04/2025,05:00,União de Leiria,Torreense,1-3,Final
+28,06/04/2025,08:00,Academico Viseu,Mafra,3-1,Final
+28,06/04/2025,09:30,Portimonense,Oliveirense,2-3,Final
+28,06/04/2025,12:00,Alverca,Benfica B,0-0,Final
+29,11/04/2025,12:00,Feirense,União de Leiria,2-1,Final
+29,12/04/2025,05:00,Pacos Ferreira,Tondela,0-1,Final
+29,12/04/2025,05:00,Leixoes,Academico Viseu,1-1,Final
+29,12/04/2025,08:00,Chaves,Portimonense,2-0,Final
+29,13/04/2025,05:00,Torreense,Felgueiras 1932,1-1,Final
+29,13/04/2025,08:00,Benfica B,Maritimo,1-2,Final
+29,13/04/2025,08:00,Vizela,Alverca,1-1,Final
+29,13/04/2025,09:30,Oliveirense,FC Porto B,1-1,Final
+29,14/04/2025,14:15,Mafra,Penafiel,4-2,Final
+30,18/04/2025,05:00,União de Leiria,Benfica B,1-3,Final
+30,18/04/2025,05:00,Felgueiras 1932,Leixoes,4-0,Final
+30,18/04/2025,08:00,Portimonense,Pacos Ferreira,2-0,Final
+30,19/04/2025,05:00,Penafiel,Feirense,1-2,Final
+30,19/04/2025,08:00,Academico Viseu,Torreense,1-2,Final
+30,19/04/2025,09:30,FC Porto B,Chaves,1-2,Final
+30,20/04/2025,05:00,Alverca,Oliveirense,4-0,Final
+30,20/04/2025,09:30,Maritimo,Mafra,2-0,Final
+30,20/04/2025,14:30,Tondela,Vizela,0-1,Final
+31,25/04/2025,09:30,Oliveirense,Academico Viseu,2-0,Final
+31,25/04/2025,12:00,Pacos Ferreira,União de Leiria,2-3,Final
+31,26/04/2025,05:00,Torreense,Maritimo,2-2,Final
+31,26/04/2025,08:00,Vizela,Felgueiras 1932,1-1,Final
+31,27/04/2025,05:00,Feirense,FC Porto B,0-1,Final
+31,27/04/2025,08:00,Portimonense,Tondela,2-2,Final
+31,27/04/2025,09:30,Leixoes,Penafiel,3-1,Final
+31,29/04/2025,14:00,Chaves,Alverca,0-2,Final
+31,30/04/2025,12:00,Benfica B,Mafra,5-0,Final
+32,02/05/2025,12:00,União de Leiria,Oliveirense,5-0,Final
+32,03/05/2025,05:00,Academico Viseu,Portimonense,2-1,Final
+32,03/05/2025,09:30,FC Porto B,Vizela,0-1,Final
+32,04/05/2025,05:00,Alverca,Pacos Ferreira,1-0,Final
+32,04/05/2025,05:00,Felgueiras 1932,Benfica B,3-3,Final
+32,04/05/2025,08:00,Mafra,Leixoes,1-2,Final
+32,04/05/2025,09:30,Maritimo,Feirense,1-1,Final
+32,04/05/2025,12:00,Tondela,Chaves,2-1,Final
+32,05/05/2025,12:00,Penafiel,Torreense,0-1,Final
+33,09/05/2025,14:15,Feirense,Mafra,2-1,Final
+33,10/05/2025,05:00,Pacos Ferreira,Felgueiras 1932,1-2,Final
+33,10/05/2025,08:00,Oliveirense,Maritimo,1-1,Final
+33,10/05/2025,12:00,Chaves,União de Leiria,0-2,Final
+33,11/05/2025,05:00,Torreense,Leixoes,3-2,Final
+33,11/05/2025,08:00,Tondela,Alverca,1-2,Final
+33,11/05/2025,08:00,Vizela,Academico Viseu,1-1,Final
+33,11/05/2025,12:00,Portimonense,FC Porto B,0-3,Final
+33,11/05/2025,12:00,Benfica B,Penafiel,1-1,Final
+34,14/05/2025,14:15,Leixoes,Feirense,2-0,Final
+34,15/05/2025,12:45,Penafiel,Chaves,0-0,Final
+34,15/05/2025,14:45,Mafra,Torreense,2-0,Final
+34,16/05/2025,14:30,Maritimo,Vizela,1-2,Final
+34,16/05/2025,14:30,União de Leiria,Tondela,0-2,Final
+34,16/05/2025,14:30,Alverca,Portimonense,2-1,Final
+34,17/05/2025,05:00,FC Porto B,Benfica B,1-4,Final
+34,17/05/2025,08:00,Academico Viseu,Pacos Ferreira,0-1,Final
+34,17/05/2025,08:00,Felgueiras 1932,Oliveirense,2-1,Final
+35,24/05/2025,13:00,CF Os Belenenses,Pacos Ferreira,2-1,Final
+35,01/06/2025,11:00,Pacos Ferreira,CF Os Belenenses,1-0,Final

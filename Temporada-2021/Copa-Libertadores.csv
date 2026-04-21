@@ -1,0 +1,156 @@
+matchday,date,time,home_team,away_team,result,status
+,24/02/2021,03:00,Liverpool,Universidad Católica,2-1,Final
+,24/02/2021,03:00,Universidad Cesar Vallejo,Caracas FC,0-0,Final
+,25/02/2021,03:00,Royal Pari,Guaraní,1-4,Final
+,03/03/2021,03:00,Universidad Católica,Liverpool,3-0,Final
+,03/03/2021,03:00,Caracas FC,Universidad Cesar Vallejo,2-0,Final
+,04/03/2021,03:00,Guaraní,Royal Pari,1-1,Final
+,09/03/2021,03:00,Montevideo Wanderers,Bolívar,1-0,Final
+,09/03/2021,03:00,Santos FC,Deportivo Lara,2-1,Final
+,10/03/2021,03:00,Unión Española,Independiente del Valle,1-0,Final
+,10/03/2021,03:00,Universidad Católica,Libertad,0-1,Final
+,11/03/2021,03:00,Grêmio Porto Alegre,Ayacucho FC,6-1,Final
+,11/03/2021,03:00,Universidad de Chile,San Lorenzo,1-1,Final
+,11/03/2021,03:00,Caracas FC,Atlético Junior,1-2,Final
+,12/03/2021,03:00,Guaraní,Atlético Nacional,0-2,Final
+,16/03/2021,03:00,Bolívar,Montevideo Wanderers,5-0,Final
+,16/03/2021,03:00,Deportivo Lara,Santos FC,1-1,Final
+,17/03/2021,03:00,Ayacucho FC,Grêmio Porto Alegre,1-2,Final
+,17/03/2021,03:00,Independiente del Valle,Unión Española,6-2,Final
+,17/03/2021,03:00,Libertad,Universidad Católica,2-2,Final
+,18/03/2021,03:00,San Lorenzo,Universidad de Chile,2-0,Final
+,18/03/2021,03:00,Atlético Junior,Caracas FC,3-1,Final
+,19/03/2021,03:00,Atlético Nacional,Guaraní,3-0,Final
+,07/04/2021,03:00,San Lorenzo,Santos FC,1-3,Final
+,08/04/2021,03:00,Libertad,Atlético Nacional,1-0,Final
+,09/04/2021,03:00,Bolívar,Atlético Junior,2-1,Final
+,10/04/2021,03:00,Independiente del Valle,Grêmio Porto Alegre,2-1,Final
+,14/04/2021,03:00,Santos FC,San Lorenzo,2-2,Final
+,15/04/2021,03:00,Grêmio Porto Alegre,Independiente del Valle,1-2,Final
+,15/04/2021,03:00,Atlético Nacional,Libertad,4-1,Final
+,16/04/2021,03:00,Atlético Junior,Bolívar,3-0,Final
+,22/04/2021,03:00,Universitario de Deportes,Palmeiras,2-3,Final
+,22/04/2021,03:00,Independiente del Valle,Defensa y Justicia,1-1,Final
+,28/04/2021,03:00,Palmeiras,Independiente del Valle,5-0,Final
+,29/04/2021,03:00,Defensa y Justicia,Universitario de Deportes,3-0,Final
+,05/05/2021,03:00,Defensa y Justicia,Palmeiras,1-2,Final
+,06/05/2021,03:00,Independiente del Valle,Universitario de Deportes,4-0,Final
+,12/05/2021,03:00,Independiente del Valle,Palmeiras,0-1,Final
+,13/05/2021,03:00,Universitario de Deportes,Defensa y Justicia,1-1,Final
+,19/05/2021,03:00,Palmeiras,Defensa y Justicia,3-4,Final
+,19/05/2021,03:00,Universitario de Deportes,Independiente del Valle,3-2,Final
+,28/05/2021,03:00,Palmeiras,Universitario de Deportes,6-0,Final
+,28/05/2021,03:00,Defensa y Justicia,Independiente del Valle,1-1,Final
+,21/04/2021,03:00,Deportivo Táchira,Club Olimpia,3-2,Final
+,21/04/2021,03:00,Always Ready,Internacional,2-0,Final
+,28/04/2021,03:00,Internacional,Deportivo Táchira,4-0,Final
+,29/04/2021,03:00,Club Olimpia,Always Ready,2-1,Final
+,06/05/2021,03:00,Internacional,Club Olimpia,6-1,Final
+,07/05/2021,03:00,Always Ready,Deportivo Táchira,2-0,Final
+,12/05/2021,03:00,Deportivo Táchira,Internacional,2-1,Final
+,14/05/2021,03:00,Always Ready,Club Olimpia,1-2,Final
+,20/05/2021,03:00,Deportivo Táchira,Always Ready,7-2,Final
+,21/05/2021,03:00,Club Olimpia,Internacional,0-1,Final
+,27/05/2021,03:00,Club Olimpia,Deportivo Táchira,6-2,Final
+,27/05/2021,03:00,Internacional,Always Ready,0-0,Final
+,21/04/2021,03:00,Santos FC,Barcelona,0-2,Final
+,22/04/2021,03:00,The Strongest,Boca Juniors,0-1,Final
+,28/04/2021,03:00,Boca Juniors,Santos FC,2-0,Final
+,29/04/2021,03:00,Barcelona,The Strongest,4-0,Final
+,05/05/2021,03:00,Santos FC,The Strongest,5-0,Final
+,05/05/2021,03:00,Barcelona,Boca Juniors,1-0,Final
+,12/05/2021,03:00,The Strongest,Barcelona,2-0,Final
+,12/05/2021,03:00,Santos FC,Boca Juniors,1-0,Final
+,19/05/2021,03:00,The Strongest,Santos FC,2-1,Final
+,21/05/2021,03:00,Boca Juniors,Barcelona,0-0,Final
+,27/05/2021,03:00,Boca Juniors,The Strongest,3-0,Final
+,27/05/2021,03:00,Barcelona,Santos FC,3-1,Final
+,23/04/2021,03:00,Fluminense RJ,River Plate,1-1,Final
+,23/04/2021,03:00,Atlético Junior,Santa Fe,1-1,Final
+,29/04/2021,03:00,River Plate,Atlético Junior,2-1,Final
+,29/04/2021,03:00,Santa Fe,Fluminense RJ,1-2,Final
+,07/05/2021,03:00,Santa Fe,River Plate,0-0,Final
+,07/05/2021,03:00,Atlético Junior,Fluminense RJ,1-1,Final
+,13/05/2021,03:00,Atlético Junior,River Plate,1-1,Final
+,13/05/2021,03:00,Fluminense RJ,Santa Fe,2-1,Final
+,19/05/2021,03:00,Fluminense RJ,Atlético Junior,1-2,Final
+,20/05/2021,03:00,River Plate,Santa Fe,2-1,Final
+,26/05/2021,03:00,River Plate,Fluminense RJ,1-3,Final
+,26/05/2021,03:00,Santa Fe,Atlético Junior,0-0,Final
+,21/04/2021,03:00,Sporting Cristal,São Paulo FC,0-3,Final
+,22/04/2021,03:00,Rentistas,Racing Club,1-1,Final
+,30/04/2021,03:00,Racing Club,Sporting Cristal,2-1,Final
+,30/04/2021,03:00,São Paulo FC,Rentistas,2-0,Final
+,06/05/2021,03:00,Racing Club,São Paulo FC,0-0,Final
+,06/05/2021,03:00,Rentistas,Sporting Cristal,0-0,Final
+,12/05/2021,03:00,Sporting Cristal,Racing Club,0-2,Final
+,13/05/2021,03:00,Rentistas,São Paulo FC,1-1,Final
+,19/05/2021,03:00,São Paulo FC,Racing Club,0-1,Final
+,20/05/2021,03:00,Sporting Cristal,Rentistas,2-0,Final
+,26/05/2021,03:00,Racing Club,Rentistas,3-0,Final
+,26/05/2021,03:00,São Paulo FC,Sporting Cristal,3-0,Final
+,21/04/2021,03:00,Argentinos Juniors,Nacional,2-0,Final
+,23/04/2021,03:00,Atlético Nacional,Universidad Católica,2-0,Final
+,29/04/2021,03:00,Nacional,Atlético Nacional,4-4,Final
+,30/04/2021,03:00,Universidad Católica,Argentinos Juniors,0-2,Final
+,06/05/2021,03:00,Universidad Católica,Nacional,3-1,Final
+,07/05/2021,03:00,Atlético Nacional,Argentinos Juniors,0-2,Final
+,13/05/2021,03:00,Argentinos Juniors,Universidad Católica,0-1,Final
+,13/05/2021,03:00,Atlético Nacional,Nacional,0-0,Final
+,19/05/2021,03:00,Nacional,Universidad Católica,1-0,Final
+,21/05/2021,03:00,Argentinos Juniors,Atlético Nacional,1-0,Final
+,27/05/2021,03:00,Nacional,Argentinos Juniors,2-0,Final
+,27/05/2021,03:00,Universidad Católica,Atlético Nacional,2-0,Final
+,21/04/2021,03:00,Vélez Sarsfield,Flamengo RJ,2-3,Final
+,22/04/2021,03:00,Unión La Calera,LDU Quito,2-2,Final
+,28/04/2021,03:00,Flamengo RJ,Unión La Calera,4-1,Final
+,28/04/2021,03:00,LDU Quito,Vélez Sarsfield,3-1,Final
+,05/05/2021,03:00,Unión La Calera,Vélez Sarsfield,0-2,Final
+,05/05/2021,03:00,LDU Quito,Flamengo RJ,2-3,Final
+,12/05/2021,03:00,Unión La Calera,Flamengo RJ,2-2,Final
+,14/05/2021,03:00,Vélez Sarsfield,LDU Quito,3-1,Final
+,20/05/2021,03:00,Vélez Sarsfield,Unión La Calera,2-1,Final
+,20/05/2021,03:00,Flamengo RJ,LDU Quito,2-2,Final
+,28/05/2021,03:00,Flamengo RJ,Vélez Sarsfield,0-0,Final
+,28/05/2021,03:00,LDU Quito,Unión La Calera,5-2,Final
+,22/04/2021,03:00,Deportivo La Guaira,Atlético Mineiro,1-1,Final
+,22/04/2021,03:00,América de Cali,Cerro Porteño,0-2,Final
+,28/04/2021,03:00,Atlético Mineiro,América de Cali,2-1,Final
+,29/04/2021,03:00,Cerro Porteño,Deportivo La Guaira,0-0,Final
+,05/05/2021,03:00,Atlético Mineiro,Cerro Porteño,4-0,Final
+,07/05/2021,03:00,Deportivo La Guaira,América de Cali,0-0,Final
+,13/05/2021,03:00,Deportivo La Guaira,Cerro Porteño,0-1,Final
+,14/05/2021,03:00,América de Cali,Atlético Mineiro,1-3,Final
+,20/05/2021,03:00,Cerro Porteño,Atlético Mineiro,0-1,Final
+,20/05/2021,03:00,América de Cali,Deportivo La Guaira,3-1,Final
+,26/05/2021,03:00,Cerro Porteño,América de Cali,1-0,Final
+,26/05/2021,03:00,Atlético Mineiro,Deportivo La Guaira,4-0,Final
+,14/07/2021,03:00,Boca Juniors,Atlético Mineiro,0-0,Final
+,14/07/2021,03:00,Cerro Porteño,Fluminense RJ,0-2,Final
+,14/07/2021,03:00,São Paulo FC,Racing Club,1-1,Final
+,15/07/2021,03:00,Universidad Católica,Palmeiras,0-1,Final
+,15/07/2021,03:00,Vélez Sarsfield,Barcelona,1-0,Final
+,15/07/2021,03:00,Defensa y Justicia,Flamengo RJ,0-1,Final
+,15/07/2021,03:00,River Plate,Argentinos Juniors,1-1,Final
+,16/07/2021,03:00,Club Olimpia,Internacional,0-0,Final
+,21/07/2021,03:00,Atlético Mineiro,Boca Juniors,3-1,Final
+,21/07/2021,03:00,Racing Club,São Paulo FC,1-3,Final
+,22/07/2021,03:00,Palmeiras,Universidad Católica,1-0,Final
+,22/07/2021,03:00,Barcelona,Vélez Sarsfield,3-1,Final
+,22/07/2021,03:00,Flamengo RJ,Defensa y Justicia,4-1,Final
+,22/07/2021,03:00,Argentinos Juniors,River Plate,0-2,Final
+,23/07/2021,03:00,Internacional,Club Olimpia,4-5,Final
+,04/08/2021,03:00,Fluminense RJ,Cerro Porteño,1-0,Final
+,11/08/2021,03:00,São Paulo FC,Palmeiras,1-1,Final
+,12/08/2021,03:00,Club Olimpia,Flamengo RJ,1-4,Final
+,12/08/2021,03:00,River Plate,Atlético Mineiro,0-1,Final
+,13/08/2021,03:00,Fluminense RJ,Barcelona,2-2,Final
+,18/08/2021,03:00,Palmeiras,São Paulo FC,3-0,Final
+,19/08/2021,03:00,Flamengo RJ,Club Olimpia,5-1,Final
+,19/08/2021,03:00,Atlético Mineiro,River Plate,3-0,Final
+,20/08/2021,03:00,Barcelona,Fluminense RJ,1-1,Final
+,22/09/2021,03:00,Palmeiras,Atlético Mineiro,0-0,Final
+,23/09/2021,03:00,Flamengo RJ,Barcelona,2-0,Final
+,29/09/2021,03:00,Atlético Mineiro,Palmeiras,1-1,Final
+,30/09/2021,03:00,Barcelona,Flamengo RJ,0-2,Final
+,27/11/2021,03:00,Palmeiras,Flamengo RJ,2-1,Final

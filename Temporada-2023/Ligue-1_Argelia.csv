@@ -1,0 +1,241 @@
+matchday,date,time,home_team,away_team,result,status
+1,26/08/2022,03:00,CS Constantine,USM Khenchela,3-1,Final
+1,26/08/2022,03:00,ASO Chlef,JS Kabylie,1-0,Final
+1,26/08/2022,03:00,CR Bélouizdad,HB Chelghoum Laïd,4-1,Final
+1,26/08/2022,03:00,RC Arbaâ,MC Oran,3-1,Final
+1,27/08/2022,03:00,NC Magra,Paradou AC,1-2,Final
+1,27/08/2022,03:00,USM Alger,MC El Bayadh,1-0,Final
+1,27/08/2022,03:00,US Biskra,ES Sétif,2-2,Final
+1,27/08/2022,03:00,JS Saoura,MC Alger,2-0,Final
+2,01/09/2022,03:00,JS Kabylie,CS Constantine,0-1,Final
+2,02/09/2022,03:00,USM Khenchela,USM Alger,0-1,Final
+2,02/09/2022,03:00,Paradou AC,CR Bélouizdad,0-1,Final
+2,02/09/2022,03:00,MC Oran,NC Magra,0-0,Final
+2,03/09/2022,03:00,HB Chelghoum Laïd,ASO Chlef,0-0,Final
+2,03/09/2022,03:00,MC Alger,US Biskra,0-0,Final
+2,03/09/2022,03:00,MC El Bayadh,JS Saoura,2-0,Final
+2,03/09/2022,03:00,ES Sétif,RC Arbaâ,1-0,Final
+3,06/09/2022,03:00,USM Alger,JS Kabylie,1-0,Final
+3,06/09/2022,03:00,CR Bélouizdad,MC Oran,2-0,Final
+3,09/09/2022,03:00,NC Magra,ES Sétif,0-1,Final
+3,09/09/2022,03:00,RC Arbaâ,MC Alger,0-0,Final
+3,09/09/2022,03:00,MC El Bayadh,USM Khenchela,2-0,Final
+3,10/09/2022,03:00,CS Constantine,HB Chelghoum Laïd,2-0,Final
+3,10/09/2022,03:00,ASO Chlef,Paradou AC,1-1,Final
+3,10/09/2022,03:00,US Biskra,JS Saoura,0-0,Final
+4,16/09/2022,03:00,MC Alger,NC Magra,2-1,Final
+4,16/09/2022,03:00,JS Saoura,RC Arbaâ,1-0,Final
+4,16/09/2022,03:00,US Biskra,MC El Bayadh,1-0,Final
+4,17/09/2022,03:00,HB Chelghoum Laïd,USM Alger,1-3,Final
+4,17/09/2022,03:00,Paradou AC,CS Constantine,0-1,Final
+4,17/09/2022,03:00,MC Oran,ASO Chlef,0-0,Final
+4,25/10/2022,03:00,JS Kabylie,USM Khenchela,0-0,Final
+4,25/10/2022,03:00,ES Sétif,CR Bélouizdad,1-1,Final
+5,24/09/2022,03:00,RC Arbaâ,US Biskra,2-0,Final
+5,24/09/2022,03:00,CS Constantine,MC Oran,0-0,Final
+5,24/09/2022,03:00,ASO Chlef,ES Sétif,4-0,Final
+5,24/09/2022,03:00,NC Magra,JS Saoura,1-0,Final
+5,24/09/2022,03:00,MC El Bayadh,JS Kabylie,0-0,Final
+5,24/09/2022,03:00,USM Khenchela,HB Chelghoum Laïd,2-0,Final
+5,25/10/2022,03:00,USM Alger,Paradou AC,2-1,Final
+5,03/12/2022,03:00,CR Bélouizdad,MC Alger,0-0,Final
+6,30/09/2022,03:00,RC Arbaâ,MC El Bayadh,3-1,Final
+6,30/09/2022,03:00,US Biskra,NC Magra,1-1,Final
+6,02/10/2022,03:00,Paradou AC,USM Khenchela,0-1,Final
+6,02/10/2022,03:00,HB Chelghoum Laïd,JS Kabylie,0-2,Final
+6,02/10/2022,03:00,ES Sétif,CS Constantine,0-0,Final
+6,02/10/2022,03:00,MC Oran,USM Alger,1-0,Final
+6,02/10/2022,03:00,JS Saoura,CR Bélouizdad,0-1,Final
+6,03/10/2022,03:00,MC Alger,ASO Chlef,2-1,Final
+7,07/10/2022,03:00,NC Magra,RC Arbaâ,0-0,Final
+7,08/10/2022,03:00,CS Constantine,MC Alger,0-2,Final
+7,08/10/2022,03:00,USM Khenchela,MC Oran,1-0,Final
+7,08/10/2022,03:00,MC El Bayadh,HB Chelghoum Laïd,1-0,Final
+7,25/10/2022,03:00,ASO Chlef,JS Saoura,2-1,Final
+7,03/12/2022,03:00,USM Alger,ES Sétif,1-1,Final
+7,03/12/2022,03:00,JS Kabylie,Paradou AC,2-1,Final
+7,20/12/2022,03:00,CR Bélouizdad,US Biskra,1-1,Final
+8,13/10/2022,03:00,ES Sétif,USM Khenchela,1-2,Final
+8,14/10/2022,03:00,Paradou AC,HB Chelghoum Laïd,2-1,Final
+8,14/10/2022,03:00,US Biskra,ASO Chlef,2-0,Final
+8,15/10/2022,03:00,NC Magra,MC El Bayadh,1-0,Final
+8,03/12/2022,03:00,JS Saoura,CS Constantine,3-1,Final
+8,20/12/2022,03:00,MC Alger,USM Alger,1-0,Final
+8,20/12/2022,03:00,MC Oran,JS Kabylie,2-1,Final
+8,28/12/2022,03:00,RC Arbaâ,CR Bélouizdad,0-4,Final
+9,21/10/2022,03:00,USM Alger,JS Saoura,1-1,Final
+9,21/10/2022,03:00,ASO Chlef,RC Arbaâ,1-1,Final
+9,21/10/2022,03:00,CR Bélouizdad,NC Magra,3-1,Final
+9,21/10/2022,03:00,MC El Bayadh,Paradou AC,0-0,Final
+9,21/10/2022,03:00,USM Khenchela,MC Alger,2-0,Final
+9,21/10/2022,03:00,CS Constantine,US Biskra,2-1,Final
+9,21/10/2022,03:00,JS Kabylie,ES Sétif,2-3,Final
+9,22/10/2022,03:00,HB Chelghoum Laïd,MC Oran,1-2,Final
+10,05/11/2022,03:00,RC Arbaâ,CS Constantine,1-2,Final
+10,05/11/2022,03:00,NC Magra,ASO Chlef,4-2,Final
+10,05/11/2022,03:00,CR Bélouizdad,MC El Bayadh,1-0,Final
+10,05/11/2022,03:00,ES Sétif,HB Chelghoum Laïd,4-0,Final
+10,05/11/2022,03:00,MC Oran,Paradou AC,1-0,Final
+10,06/11/2022,03:00,MC Alger,JS Kabylie,1-0,Final
+10,06/11/2022,03:00,JS Saoura,USM Khenchela,1-0,Final
+10,28/12/2022,03:00,US Biskra,USM Alger,1-0,Final
+11,09/11/2022,03:00,CS Constantine,NC Magra,1-0,Final
+11,09/11/2022,03:00,ASO Chlef,CR Bélouizdad,0-1,Final
+11,09/11/2022,03:00,HB Chelghoum Laïd,MC Alger,0-1,Final
+11,09/11/2022,03:00,Paradou AC,ES Sétif,1-3,Final
+11,12/11/2022,03:00,MC El Bayadh,MC Oran,1-1,Final
+11,12/11/2022,03:00,USM Khenchela,US Biskra,1-0,Final
+11,12/11/2022,03:00,JS Kabylie,JS Saoura,1-2,Final
+11,08/02/2023,03:00,USM Alger,RC Arbaâ,3-0,Final
+12,29/11/2022,03:00,NC Magra,USM Alger,1-1,Final
+12,29/11/2022,03:00,CR Bélouizdad,CS Constantine,2-1,Final
+12,29/11/2022,03:00,ASO Chlef,MC El Bayadh,0-0,Final
+12,29/11/2022,03:00,RC Arbaâ,USM Khenchela,5-1,Final
+12,29/11/2022,03:00,US Biskra,JS Kabylie,1-1,Final
+12,29/11/2022,03:00,MC Alger,Paradou AC,2-2,Final
+12,29/11/2022,03:00,JS Saoura,HB Chelghoum Laïd,5-0,Final
+12,29/11/2022,03:00,ES Sétif,MC Oran,4-0,Final
+13,07/12/2022,03:00,USM Alger,CR Bélouizdad,2-2,Final
+13,07/12/2022,03:00,CS Constantine,ASO Chlef,3-0,Final
+13,07/12/2022,03:00,MC El Bayadh,ES Sétif,2-0,Final
+13,07/12/2022,03:00,USM Khenchela,NC Magra,1-1,Final
+13,07/12/2022,03:00,HB Chelghoum Laïd,US Biskra,0-1,Final
+13,07/12/2022,03:00,Paradou AC,JS Saoura,2-1,Final
+13,07/12/2022,03:00,JS Kabylie,RC Arbaâ,4-0,Final
+13,07/12/2022,03:00,MC Oran,MC Alger,3-0,Final
+14,11/12/2022,03:00,ASO Chlef,USM Alger,2-1,Final
+14,11/12/2022,03:00,CS Constantine,MC El Bayadh,3-1,Final
+14,11/12/2022,03:00,CR Bélouizdad,USM Khenchela,2-0,Final
+14,11/12/2022,03:00,NC Magra,JS Kabylie,2-1,Final
+14,11/12/2022,03:00,RC Arbaâ,HB Chelghoum Laïd,3-1,Final
+14,11/12/2022,03:00,US Biskra,Paradou AC,2-1,Final
+14,11/12/2022,03:00,MC Alger,ES Sétif,1-0,Final
+14,11/12/2022,03:00,JS Saoura,MC Oran,1-0,Final
+15,24/12/2022,03:00,USM Alger,CS Constantine,2-1,Final
+15,24/12/2022,03:00,USM Khenchela,ASO Chlef,2-0,Final
+15,24/12/2022,03:00,HB Chelghoum Laïd,NC Magra,0-5,Final
+15,24/12/2022,03:00,Paradou AC,RC Arbaâ,1-1,Final
+15,24/12/2022,03:00,MC El Bayadh,MC Alger,1-0,Final
+15,24/12/2022,03:00,MC Oran,US Biskra,1-0,Final
+15,24/12/2022,03:00,JS Kabylie,CR Bélouizdad,1-2,Final
+15,24/12/2022,03:00,ES Sétif,JS Saoura,0-0,Final
+16,10/02/2023,03:00,USM Khenchela,CS Constantine,1-1,Final
+16,10/02/2023,03:00,Paradou AC,NC Magra,3-1,Final
+16,10/02/2023,03:00,MC Alger,JS Saoura,1-1,Final
+16,10/02/2023,03:00,ES Sétif,US Biskra,3-1,Final
+16,12/02/2023,03:00,MC Oran,RC Arbaâ,2-1,Final
+16,02/03/2023,03:00,HB Chelghoum Laïd,CR Bélouizdad,0-1,Final
+16,03/03/2023,03:00,MC El Bayadh,USM Alger,0-0,Final
+16,03/03/2023,03:00,JS Kabylie,ASO Chlef,0-0,Final
+17,17/02/2023,03:00,ASO Chlef,HB Chelghoum Laïd,4-0,Final
+17,19/02/2023,03:00,NC Magra,MC Oran,2-0,Final
+17,19/02/2023,03:00,RC Arbaâ,ES Sétif,3-1,Final
+17,19/02/2023,03:00,JS Saoura,MC El Bayadh,2-0,Final
+17,19/02/2023,03:00,US Biskra,MC Alger,0-0,Final
+17,07/03/2023,03:00,CS Constantine,JS Kabylie,0-0,Final
+17,12/04/2023,03:00,USM Alger,USM Khenchela,2-0,Final
+17,13/04/2023,03:00,CR Bélouizdad,Paradou AC,1-1,Final
+18,24/02/2023,03:00,HB Chelghoum Laïd,CS Constantine,1-1,Final
+18,24/02/2023,03:00,Paradou AC,ASO Chlef,2-2,Final
+18,25/02/2023,03:00,MC Alger,RC Arbaâ,2-0,Final
+18,25/02/2023,03:00,USM Khenchela,MC El Bayadh,0-1,Final
+18,25/02/2023,03:00,ES Sétif,NC Magra,2-0,Final
+18,25/02/2023,03:00,JS Saoura,US Biskra,1-1,Final
+18,17/04/2023,03:00,MC Oran,CR Bélouizdad,3-1,Final
+18,05/05/2023,03:00,JS Kabylie,USM Alger,1-0,Final
+19,10/03/2023,03:00,RC Arbaâ,JS Saoura,2-0,Final
+19,10/03/2023,03:00,MC El Bayadh,US Biskra,1-1,Final
+19,11/03/2023,03:00,ASO Chlef,MC Oran,2-1,Final
+19,13/03/2023,03:00,USM Alger,HB Chelghoum Laïd,3-0,Final
+19,11/04/2023,03:00,NC Magra,MC Alger,0-1,Final
+19,18/04/2023,03:00,CS Constantine,Paradou AC,1-0,Final
+19,05/05/2023,03:00,CR Bélouizdad,ES Sétif,1-0,Final
+19,09/05/2023,03:00,USM Khenchela,JS Kabylie,0-0,Final
+20,17/03/2023,03:00,US Biskra,RC Arbaâ,1-0,Final
+20,17/03/2023,03:00,MC Oran,CS Constantine,0-0,Final
+20,18/03/2023,03:00,ES Sétif,ASO Chlef,1-0,Final
+20,18/03/2023,03:00,HB Chelghoum Laïd,USM Khenchela,1-2,Final
+20,18/04/2023,03:00,JS Saoura,NC Magra,2-0,Final
+20,09/05/2023,03:00,MC Alger,CR Bélouizdad,0-0,Final
+20,13/05/2023,03:00,JS Kabylie,MC El Bayadh,3-1,Final
+20,21/05/2023,03:00,Paradou AC,USM Alger,2-1,Final
+21,31/03/2023,03:00,MC El Bayadh,RC Arbaâ,3-1,Final
+21,31/03/2023,03:00,NC Magra,US Biskra,2-1,Final
+21,31/03/2023,03:00,CS Constantine,ES Sétif,2-0,Final
+21,31/03/2023,03:00,ASO Chlef,MC Alger,0-0,Final
+21,01/04/2023,03:00,USM Khenchela,Paradou AC,3-0,Final
+21,05/04/2023,03:00,JS Kabylie,HB Chelghoum Laïd,1-0,Final
+21,05/04/2023,03:00,CR Bélouizdad,JS Saoura,2-0,Final
+21,10/06/2023,03:00,USM Alger,MC Oran,0-0,Final
+22,07/04/2023,03:00,RC Arbaâ,NC Magra,5-1,Final
+22,07/04/2023,03:00,MC Alger,CS Constantine,0-0,Final
+22,08/04/2023,03:00,MC Oran,USM Khenchela,1-1,Final
+22,08/04/2023,03:00,ES Sétif,USM Alger,1-0,Final
+22,09/04/2023,03:00,HB Chelghoum Laïd,MC El Bayadh,0-6,Final
+22,09/04/2023,03:00,Paradou AC,JS Kabylie,1-0,Final
+22,09/04/2023,03:00,JS Saoura,ASO Chlef,1-1,Final
+22,09/04/2023,03:00,US Biskra,CR Bélouizdad,1-1,Final
+23,17/05/2023,03:00,USM Khenchela,ES Sétif,1-0,Final
+23,17/05/2023,03:00,HB Chelghoum Laïd,Paradou AC,1-1,Final
+23,17/05/2023,03:00,CS Constantine,JS Saoura,2-0,Final
+23,17/05/2023,03:00,CR Bélouizdad,RC Arbaâ,0-0,Final
+23,18/05/2023,03:00,MC El Bayadh,NC Magra,1-0,Final
+23,18/05/2023,03:00,ASO Chlef,US Biskra,2-1,Final
+23,18/05/2023,03:00,JS Kabylie,MC Oran,4-0,Final
+23,23/06/2023,03:00,USM Alger,MC Alger,2-0,Final
+24,30/05/2023,03:00,MC Alger,USM Khenchela,1-0,Final
+24,31/05/2023,03:00,RC Arbaâ,ASO Chlef,0-3,Final
+24,31/05/2023,03:00,NC Magra,CR Bélouizdad,0-0,Final
+24,31/05/2023,03:00,Paradou AC,MC El Bayadh,0-1,Final
+24,31/05/2023,03:00,US Biskra,CS Constantine,3-2,Final
+24,31/05/2023,03:00,ES Sétif,JS Kabylie,1-1,Final
+24,31/05/2023,03:00,MC Oran,HB Chelghoum Laïd,2-0,Final
+24,27/06/2023,03:00,JS Saoura,USM Alger,2-0,Final
+25,06/06/2023,03:00,CS Constantine,RC Arbaâ,2-0,Final
+25,06/06/2023,03:00,ASO Chlef,NC Magra,0-1,Final
+25,06/06/2023,03:00,MC El Bayadh,CR Bélouizdad,1-3,Final
+25,06/06/2023,03:00,HB Chelghoum Laïd,ES Sétif,0-4,Final
+25,06/06/2023,03:00,Paradou AC,MC Oran,4-0,Final
+25,06/06/2023,03:00,JS Kabylie,MC Alger,2-0,Final
+25,06/06/2023,03:00,USM Khenchela,JS Saoura,0-0,Final
+25,07/06/2023,03:00,USM Alger,US Biskra,1-0,Final
+26,01/07/2023,03:00,NC Magra,CS Constantine,2-1,Final
+26,01/07/2023,03:00,CR Bélouizdad,ASO Chlef,1-0,Final
+26,01/07/2023,03:00,MC Alger,HB Chelghoum Laïd,1-1,Final
+26,01/07/2023,03:00,ES Sétif,Paradou AC,0-0,Final
+26,01/07/2023,03:00,MC Oran,MC El Bayadh,1-1,Final
+26,01/07/2023,03:00,US Biskra,USM Khenchela,1-0,Final
+26,01/07/2023,03:00,JS Saoura,JS Kabylie,2-2,Final
+26,01/07/2023,03:00,RC Arbaâ,USM Alger,2-1,Final
+27,04/07/2023,03:00,USM Alger,NC Magra,0-0,Final
+27,04/07/2023,03:00,CS Constantine,CR Bélouizdad,0-0,Final
+27,04/07/2023,03:00,MC El Bayadh,ASO Chlef,2-0,Final
+27,04/07/2023,03:00,USM Khenchela,RC Arbaâ,2-1,Final
+27,04/07/2023,03:00,JS Kabylie,US Biskra,1-0,Final
+27,04/07/2023,03:00,Paradou AC,MC Alger,1-0,Final
+27,04/07/2023,03:00,HB Chelghoum Laïd,JS Saoura,0-2,Final
+27,04/07/2023,03:00,MC Oran,ES Sétif,3-1,Final
+28,07/07/2023,03:00,CR Bélouizdad,USM Alger,3-1,Final
+28,07/07/2023,03:00,ASO Chlef,CS Constantine,3-2,Final
+28,07/07/2023,03:00,ES Sétif,MC El Bayadh,1-2,Final
+28,07/07/2023,03:00,NC Magra,USM Khenchela,2-1,Final
+28,07/07/2023,03:00,US Biskra,HB Chelghoum Laïd,3-0,Final
+28,07/07/2023,03:00,JS Saoura,Paradou AC,0-1,Final
+28,07/07/2023,03:00,RC Arbaâ,JS Kabylie,1-1,Final
+28,07/07/2023,03:00,MC Alger,MC Oran,1-0,Final
+29,10/07/2023,03:00,USM Alger,ASO Chlef,1-3,Final
+29,10/07/2023,03:00,MC El Bayadh,CS Constantine,3-1,Final
+29,10/07/2023,03:00,USM Khenchela,CR Bélouizdad,4-0,Final
+29,10/07/2023,03:00,JS Kabylie,NC Magra,2-0,Final
+29,10/07/2023,03:00,HB Chelghoum Laïd,RC Arbaâ,0-3,Final
+29,10/07/2023,03:00,Paradou AC,US Biskra,2-1,Final
+29,10/07/2023,03:00,ES Sétif,MC Alger,1-1,Final
+29,10/07/2023,03:00,MC Oran,JS Saoura,1-0,Final
+30,15/07/2023,03:00,CS Constantine,USM Alger,3-0,Final
+30,15/07/2023,03:00,NC Magra,HB Chelghoum Laïd,5-2,Final
+30,15/07/2023,03:00,RC Arbaâ,Paradou AC,1-3,Final
+30,15/07/2023,03:00,MC Alger,MC El Bayadh,1-0,Final
+30,15/07/2023,03:00,US Biskra,MC Oran,2-1,Final
+30,15/07/2023,03:00,CR Bélouizdad,JS Kabylie,3-2,Final
+30,15/07/2023,03:00,JS Saoura,ES Sétif,1-1,Final
+30,15/07/2023,03:00,ASO Chlef,USM Khenchela,2-0,Final

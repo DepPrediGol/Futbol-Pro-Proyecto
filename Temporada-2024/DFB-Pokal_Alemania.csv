@@ -1,0 +1,64 @@
+matchday,date,time,home_team,away_team,result,status
+1,11/08/2023,11:00,SV Sandhausen,Hannover 96,3-3,Final
+1,11/08/2023,11:00,FC Saarbrücken,Karlsruher SC,2-1,Final
+1,11/08/2023,11:00,Bersenbrück,Borussia Mönchengladbach,0-7,Final
+1,11/08/2023,13:45,Eintracht Braunschweig,FC Schalke 04,1-3,Final
+1,12/08/2023,06:00,FC Carl Zeiss Jena,Hertha BSC,0-5,Final
+1,12/08/2023,06:00,Balingen,VfB Stuttgart,0-4,Final
+1,12/08/2023,08:30,FC Viktoria Köln,Werder Bremen,3-2,Final
+1,12/08/2023,08:30,Atlas Delmenhorst,FC St. Pauli,0-5,Final
+2,12/08/2023,08:30,Oberneuland,1. FC Nürnberg,1-9,Final
+2,12/08/2023,08:30,Teutonia Ottensen,Bayer Leverkusen,0-8,Final
+2,12/08/2023,08:30,FC Gutersloh,Holstein Kiel,0-2,Final
+2,12/08/2023,08:30,Schott Mainz,Borussia Dortmund,1-6,Final
+2,12/08/2023,11:00,Arminia Bielefeld,VfL Bochum,2-2,Final
+2,12/08/2023,11:00,Hallescher FC,SpVgg Greuther Fürth,0-1,Final
+2,12/08/2023,11:00,SV Elversberg,FSV Mainz 05,0-1,Final
+2,13/08/2023,06:00,Rot-Weiß Essen,Hamburger SV,3-4,Final
+3,13/08/2023,06:00,Rostocker FC,1. FC Heidenheim,0-8,Final
+3,13/08/2023,08:30,SpVgg Unterhaching,FC Augsburg,2-0,Final
+3,13/08/2023,08:30,TuS RW Koblenz,1. FC Kaiserslautern,0-5,Final
+3,13/08/2023,08:30,Illertissen,Fortuna Düsseldorf,1-3,Final
+3,13/08/2023,08:30,Lokomotive Leipzig,Eintracht Frankfurt,0-7,Final
+3,13/08/2023,08:30,Oberachern,SC Freiburg,0-2,Final
+3,13/08/2023,08:30,Makkabi,VfL Wolfsburg,0-6,Final
+3,13/08/2023,11:00,Energie Cottbus,SC Paderborn 07,0-7,Final
+3,13/08/2023,11:00,FSV Frankfurt,Hansa Rostock,1-1,Final
+4,13/08/2023,11:00,FC Astoria Walldorf,Union Berlin,0-4,Final
+4,14/08/2023,11:00,SSV Jahn Regensburg,1. FC Magdeburg,1-2,Final
+4,14/08/2023,11:00,VfB Lübeck,1899 Hoffenheim,1-4,Final
+4,14/08/2023,11:00,FC 08 Homburg,SV Darmstadt 98,3-0,Final
+4,14/08/2023,13:45,VfL Osnabrück,1. FC Köln,1-3,Final
+4,26/09/2023,13:45,Preußen Münster,Bayern München,0-4,Final
+4,27/09/2023,13:45,SV Wehen,RB Leipzig,2-3,Final
+4,31/10/2023,12:00,VfL Wolfsburg,RB Leipzig,1-0,Final
+4,31/10/2023,12:00,VfB Stuttgart,Union Berlin,1-0,Final
+5,31/10/2023,12:00,FC St. Pauli,FC Schalke 04,2-1,Final
+5,31/10/2023,12:00,FC 08 Homburg,SpVgg Greuther Fürth,2-1,Final
+5,31/10/2023,14:45,Borussia Mönchengladbach,1. FC Heidenheim,3-1,Final
+5,31/10/2023,14:45,Arminia Bielefeld,Hamburger SV,1-1,Final
+5,31/10/2023,14:45,1. FC Kaiserslautern,1. FC Köln,3-2,Final
+5,31/10/2023,14:45,SpVgg Unterhaching,Fortuna Düsseldorf,3-6,Final
+5,01/11/2023,12:00,SC Freiburg,SC Paderborn 07,1-3,Final
+5,01/11/2023,12:00,Borussia Dortmund,1899 Hoffenheim,1-0,Final
+5,01/11/2023,12:00,SV Sandhausen,Bayer Leverkusen,2-5,Final
+6,01/11/2023,12:00,Holstein Kiel,1. FC Magdeburg,3-3,Final
+6,01/11/2023,14:45,Hertha BSC,FSV Mainz 05,3-0,Final
+6,01/11/2023,14:45,1. FC Nürnberg,Hansa Rostock,3-2,Final
+6,01/11/2023,14:45,FC Viktoria Köln,Eintracht Frankfurt,0-2,Final
+6,01/11/2023,14:45,FC Saarbrücken,Bayern München,2-1,Final
+6,05/12/2023,12:00,1. FC Magdeburg,Fortuna Düsseldorf,1-2,Final
+6,05/12/2023,12:00,1. FC Kaiserslautern,1. FC Nürnberg,2-0,Final
+6,05/12/2023,14:45,Borussia Mönchengladbach,VfL Wolfsburg,1-0,Final
+6,05/12/2023,14:45,FC 08 Homburg,FC St. Pauli,1-4,Final
+7,06/12/2023,12:00,Bayer Leverkusen,SC Paderborn 07,3-1,Final
+7,06/12/2023,12:00,FC Saarbrücken,Eintracht Frankfurt,2-0,Final
+7,06/12/2023,14:45,Hertha BSC,Hamburger SV,3-3,Final
+7,06/12/2023,14:45,VfB Stuttgart,Borussia Dortmund,2-0,Final
+7,30/01/2024,14:45,FC St. Pauli,Fortuna Düsseldorf,2-2,Final
+7,31/01/2024,14:45,Hertha BSC,1. FC Kaiserslautern,1-3,Final
+7,06/02/2024,14:45,Bayer Leverkusen,VfB Stuttgart,3-2,Final
+7,12/03/2024,14:30,FC Saarbrücken,Borussia Mönchengladbach,2-1,Final
+7,02/04/2024,13:45,FC Saarbrücken,1. FC Kaiserslautern,0-2,Final
+8,03/04/2024,13:45,Bayer Leverkusen,Fortuna Düsseldorf,4-0,Final
+8,25/05/2024,13:00,1. FC Kaiserslautern,Bayer Leverkusen,0-1,Final

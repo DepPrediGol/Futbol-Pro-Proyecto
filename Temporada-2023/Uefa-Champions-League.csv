@@ -1,0 +1,126 @@
+matchday,date,time,home_team,away_team,result,status
+1,07/09/2022,03:00,AFC Ajax,Rangers FC,4-0,Final
+1,07/09/2022,03:00,SSC Napoli,Liverpool FC,4-1,Final
+2,13/09/2022,03:00,Liverpool FC,AFC Ajax,2-1,Final
+2,14/09/2022,03:00,Rangers FC,SSC Napoli,0-3,Final
+3,04/10/2022,03:00,AFC Ajax,SSC Napoli,1-6,Final
+3,04/10/2022,03:00,Liverpool FC,Rangers FC,2-0,Final
+4,12/10/2022,03:00,SSC Napoli,AFC Ajax,4-2,Final
+4,12/10/2022,03:00,Rangers FC,Liverpool FC,1-7,Final
+5,26/10/2022,03:00,AFC Ajax,Liverpool FC,0-3,Final
+5,26/10/2022,03:00,SSC Napoli,Rangers FC,3-0,Final
+6,01/11/2022,03:00,Rangers FC,AFC Ajax,1-3,Final
+6,01/11/2022,03:00,Liverpool FC,SSC Napoli,2-0,Final
+1,07/09/2022,03:00,Atlético de Madrid,FC Porto,2-1,Final
+1,07/09/2022,03:00,Club Brugge KV,Bayer Leverkusen,1-0,Final
+2,13/09/2022,03:00,Bayer Leverkusen,Atlético de Madrid,2-0,Final
+2,13/09/2022,03:00,FC Porto,Club Brugge KV,0-4,Final
+3,04/10/2022,03:00,Club Brugge KV,Atlético de Madrid,2-0,Final
+3,04/10/2022,03:00,FC Porto,Bayer Leverkusen,2-0,Final
+4,12/10/2022,03:00,Atlético de Madrid,Club Brugge KV,0-0,Final
+4,12/10/2022,03:00,Bayer Leverkusen,FC Porto,0-3,Final
+5,26/10/2022,03:00,Club Brugge KV,FC Porto,0-4,Final
+5,26/10/2022,03:00,Atlético de Madrid,Bayer Leverkusen,2-2,Final
+6,01/11/2022,03:00,FC Porto,Atlético de Madrid,2-1,Final
+6,01/11/2022,03:00,Bayer Leverkusen,Club Brugge KV,0-0,Final
+1,07/09/2022,03:00,Inter,Bayern Munich,0-2,Final
+1,07/09/2022,03:00,FC Barcelona,Viktoria Plzeň,5-1,Final
+2,13/09/2022,03:00,Viktoria Plzeň,Inter,0-2,Final
+2,13/09/2022,03:00,Bayern Munich,FC Barcelona,2-0,Final
+3,04/10/2022,03:00,Bayern Munich,Viktoria Plzeň,5-0,Final
+3,04/10/2022,03:00,Inter,FC Barcelona,1-0,Final
+4,12/10/2022,03:00,Viktoria Plzeň,Bayern Munich,2-4,Final
+4,12/10/2022,03:00,FC Barcelona,Inter,3-3,Final
+5,26/10/2022,03:00,Inter,Viktoria Plzeň,4-0,Final
+5,26/10/2022,03:00,FC Barcelona,Bayern Munich,0-3,Final
+6,01/11/2022,03:00,Bayern Munich,Inter,2-0,Final
+6,01/11/2022,03:00,Viktoria Plzeň,FC Barcelona,2-4,Final
+1,07/09/2022,03:00,Eintracht Francfort,Sporting CP,0-3,Final
+1,07/09/2022,03:00,Tottenham Hotspur,Olympique Marseille,2-0,Final
+2,13/09/2022,03:00,Sporting CP,Tottenham Hotspur,2-0,Final
+2,13/09/2022,03:00,Olympique Marseille,Eintracht Francfort,0-1,Final
+3,04/10/2022,03:00,Olympique Marseille,Sporting CP,4-1,Final
+3,04/10/2022,03:00,Eintracht Francfort,Tottenham Hotspur,0-0,Final
+4,12/10/2022,03:00,Tottenham Hotspur,Eintracht Francfort,3-2,Final
+4,12/10/2022,03:00,Sporting CP,Olympique Marseille,0-2,Final
+5,26/10/2022,03:00,Eintracht Francfort,Olympique Marseille,2-1,Final
+5,26/10/2022,03:00,Tottenham Hotspur,Sporting CP,1-1,Final
+6,01/11/2022,03:00,Sporting CP,Eintracht Francfort,1-2,Final
+6,01/11/2022,03:00,Olympique Marseille,Tottenham Hotspur,1-2,Final
+1,06/09/2022,03:00,Dinamo Zagreb,Chelsea FC,1-0,Final
+1,06/09/2022,03:00,Red Bull Salzburgo,AC Milan,1-1,Final
+2,14/09/2022,03:00,AC Milan,Dinamo Zagreb,3-1,Final
+2,14/09/2022,03:00,Chelsea FC,Red Bull Salzburgo,1-1,Final
+3,05/10/2022,03:00,Red Bull Salzburgo,Dinamo Zagreb,1-0,Final
+3,05/10/2022,03:00,Chelsea FC,AC Milan,3-0,Final
+4,11/10/2022,03:00,AC Milan,Chelsea FC,0-2,Final
+4,11/10/2022,03:00,Dinamo Zagreb,Red Bull Salzburgo,1-1,Final
+5,25/10/2022,03:00,Red Bull Salzburgo,Chelsea FC,1-2,Final
+5,25/10/2022,03:00,Dinamo Zagreb,AC Milan,0-4,Final
+6,02/11/2022,03:00,AC Milan,Red Bull Salzburgo,4-0,Final
+6,02/11/2022,03:00,Chelsea FC,Dinamo Zagreb,2-1,Final
+1,06/09/2022,03:00,Celtic FC,Real Madrid,0-3,Final
+1,06/09/2022,03:00,RB Leipzig,Shajtar Donetsk,1-4,Final
+2,14/09/2022,03:00,Shajtar Donetsk,Celtic FC,1-1,Final
+2,14/09/2022,03:00,Real Madrid,RB Leipzig,2-0,Final
+3,05/10/2022,03:00,RB Leipzig,Celtic FC,3-1,Final
+3,05/10/2022,03:00,Real Madrid,Shajtar Donetsk,2-1,Final
+4,11/10/2022,03:00,Celtic FC,RB Leipzig,0-2,Final
+4,11/10/2022,03:00,Shajtar Donetsk,Real Madrid,1-1,Final
+5,25/10/2022,03:00,Celtic FC,Shajtar Donetsk,1-1,Final
+5,25/10/2022,03:00,RB Leipzig,Real Madrid,3-2,Final
+6,02/11/2022,03:00,Real Madrid,Celtic FC,5-1,Final
+6,02/11/2022,03:00,Shajtar Donetsk,RB Leipzig,0-4,Final
+1,06/09/2022,03:00,Borussia Dortmund,FC København,3-0,Final
+1,06/09/2022,03:00,Sevilla FC,Manchester City,0-4,Final
+2,14/09/2022,03:00,Manchester City,Borussia Dortmund,2-1,Final
+2,14/09/2022,03:00,FC København,Sevilla FC,0-0,Final
+3,05/10/2022,03:00,Sevilla FC,Borussia Dortmund,1-4,Final
+3,05/10/2022,03:00,Manchester City,FC København,5-0,Final
+4,11/10/2022,03:00,FC København,Manchester City,0-0,Final
+4,11/10/2022,03:00,Borussia Dortmund,Sevilla FC,1-1,Final
+5,25/10/2022,03:00,Sevilla FC,FC København,3-0,Final
+5,25/10/2022,03:00,Borussia Dortmund,Manchester City,0-0,Final
+6,02/11/2022,03:00,FC København,Borussia Dortmund,1-1,Final
+6,02/11/2022,03:00,Manchester City,Sevilla FC,3-1,Final
+1,06/09/2022,03:00,Paris Saint-Germain,Juventus,2-1,Final
+1,06/09/2022,03:00,SL Benfica,Maccabi Haifa,2-0,Final
+2,14/09/2022,03:00,Juventus,SL Benfica,1-2,Final
+2,14/09/2022,03:00,Maccabi Haifa,Paris Saint-Germain,1-3,Final
+3,05/10/2022,03:00,Juventus,Maccabi Haifa,3-1,Final
+3,05/10/2022,03:00,SL Benfica,Paris Saint-Germain,1-1,Final
+4,11/10/2022,03:00,Maccabi Haifa,Juventus,2-0,Final
+4,11/10/2022,03:00,Paris Saint-Germain,SL Benfica,1-1,Final
+5,25/10/2022,03:00,SL Benfica,Juventus,4-3,Final
+5,25/10/2022,03:00,Paris Saint-Germain,Maccabi Haifa,7-2,Final
+6,02/11/2022,03:00,Juventus,Paris Saint-Germain,1-2,Final
+6,02/11/2022,03:00,Maccabi Haifa,SL Benfica,1-6,Final
+6,14/02/2023,03:00,AC Milan,Tottenham Hotspur,1-0,Final
+6,14/02/2023,03:00,Paris Saint-Germain,Bayern Munich,0-1,Final
+6,15/02/2023,03:00,Club Brugge KV,SL Benfica,0-2,Final
+6,15/02/2023,03:00,Borussia Dortmund,Chelsea FC,1-0,Final
+6,21/02/2023,03:00,Liverpool FC,Real Madrid,2-5,Final
+6,21/02/2023,03:00,Eintracht Francfort,SSC Napoli,0-2,Final
+6,22/02/2023,03:00,RB Leipzig,Manchester City,1-1,Final
+6,22/02/2023,03:00,Inter,FC Porto,1-0,Final
+6,07/03/2023,03:00,SL Benfica,Club Brugge KV,5-1,Final
+6,07/03/2023,03:00,Chelsea FC,Borussia Dortmund,2-0,Final
+6,08/03/2023,03:00,Bayern Munich,Paris Saint-Germain,2-0,Final
+6,08/03/2023,03:00,Tottenham Hotspur,AC Milan,0-0,Final
+6,14/03/2023,03:00,Manchester City,RB Leipzig,7-0,Final
+6,14/03/2023,03:00,FC Porto,Inter,0-0,Final
+6,15/03/2023,03:00,Real Madrid,Liverpool FC,1-0,Final
+6,15/03/2023,03:00,SSC Napoli,Eintracht Francfort,3-0,Final
+6,11/04/2023,03:00,SL Benfica,Inter,0-2,Final
+6,11/04/2023,03:00,Manchester City,Bayern Munich,3-0,Final
+6,12/04/2023,03:00,Real Madrid,Chelsea FC,2-0,Final
+6,12/04/2023,03:00,AC Milan,SSC Napoli,1-0,Final
+6,18/04/2023,03:00,Chelsea FC,Real Madrid,0-2,Final
+6,18/04/2023,03:00,SSC Napoli,AC Milan,1-1,Final
+6,19/04/2023,03:00,Inter,SL Benfica,3-3,Final
+6,19/04/2023,03:00,Bayern Munich,Manchester City,1-1,Final
+6,09/05/2023,03:00,Real Madrid,Manchester City,1-1,Final
+6,10/05/2023,03:00,AC Milan,Inter,0-2,Final
+6,16/05/2023,03:00,Inter,AC Milan,1-0,Final
+6,17/05/2023,03:00,Manchester City,Real Madrid,4-0,Final
+6,10/06/2023,03:00,Manchester City,Inter,1-0,Final

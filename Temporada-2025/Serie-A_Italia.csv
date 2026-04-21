@@ -1,0 +1,381 @@
+matchday,date,time,home_team,away_team,result,status
+1,17/08/2024,03:00,Genoa CFC,Inter,2-2,Final
+1,17/08/2024,03:00,Parma Calcio 1913,ACF Fiorentina,1-1,Final
+1,17/08/2024,03:00,Empoli FC,AC Monza,0-0,Final
+1,17/08/2024,03:00,AC Milan,Torino FC,2-2,Final
+1,18/08/2024,03:00,Bologna FC,Udinese Calcio,1-1,Final
+1,18/08/2024,03:00,Hellas Verona,SSC Napoli,3-0,Final
+1,18/08/2024,03:00,Cagliari Calcio,AS Roma,0-0,Final
+1,18/08/2024,03:00,Lazio Roma,Venezia FC,3-1,Final
+1,19/08/2024,03:00,US Lecce,Atalanta,0-4,Final
+1,19/08/2024,03:00,Juventus,Como 1907,3-0,Final
+2,24/08/2024,03:00,Parma Calcio 1913,AC Milan,2-1,Final
+2,24/08/2024,03:00,Udinese Calcio,Lazio Roma,2-1,Final
+2,24/08/2024,03:00,Inter,US Lecce,2-0,Final
+2,24/08/2024,03:00,AC Monza,Genoa CFC,0-1,Final
+2,25/08/2024,03:00,ACF Fiorentina,Venezia FC,0-0,Final
+2,25/08/2024,03:00,Torino FC,Atalanta,2-1,Final
+2,25/08/2024,03:00,SSC Napoli,Bologna FC,3-0,Final
+2,25/08/2024,03:00,AS Roma,Empoli FC,1-2,Final
+2,26/08/2024,03:00,Cagliari Calcio,Como 1907,1-1,Final
+2,26/08/2024,03:00,Hellas Verona,Juventus,0-3,Final
+3,30/08/2024,03:00,Venezia FC,Torino FC,0-1,Final
+3,30/08/2024,03:00,Inter,Atalanta,4-0,Final
+3,31/08/2024,03:00,Bologna FC,Empoli FC,1-1,Final
+3,31/08/2024,03:00,US Lecce,Cagliari Calcio,1-0,Final
+3,31/08/2024,03:00,Lazio Roma,AC Milan,2-2,Final
+3,31/08/2024,03:00,SSC Napoli,Parma Calcio 1913,2-1,Final
+3,01/09/2024,03:00,ACF Fiorentina,AC Monza,2-2,Final
+3,01/09/2024,03:00,Genoa CFC,Hellas Verona,0-2,Final
+3,01/09/2024,03:00,Juventus,AS Roma,0-0,Final
+3,01/09/2024,03:00,Udinese Calcio,Como 1907,1-0,Final
+4,14/09/2024,03:00,Como 1907,Bologna FC,2-2,Final
+4,14/09/2024,03:00,Empoli FC,Juventus,0-0,Final
+4,14/09/2024,03:00,AC Milan,Venezia FC,4-0,Final
+4,15/09/2024,03:00,Genoa CFC,AS Roma,1-1,Final
+4,15/09/2024,03:00,Atalanta,ACF Fiorentina,3-2,Final
+4,15/09/2024,03:00,Torino FC,US Lecce,0-0,Final
+4,15/09/2024,03:00,Cagliari Calcio,SSC Napoli,0-4,Final
+4,15/09/2024,03:00,AC Monza,Inter,1-1,Final
+4,16/09/2024,03:00,Parma Calcio 1913,Udinese Calcio,2-3,Final
+4,16/09/2024,03:00,Lazio Roma,Hellas Verona,2-1,Final
+5,20/09/2024,03:00,Cagliari Calcio,Empoli FC,0-2,Final
+5,20/09/2024,03:00,Hellas Verona,Torino FC,2-3,Final
+5,21/09/2024,03:00,Venezia FC,Genoa CFC,2-0,Final
+5,21/09/2024,03:00,Juventus,SSC Napoli,0-0,Final
+5,21/09/2024,03:00,US Lecce,Parma Calcio 1913,2-2,Final
+5,22/09/2024,03:00,ACF Fiorentina,Lazio Roma,2-1,Final
+5,22/09/2024,03:00,AC Monza,Bologna FC,1-2,Final
+5,22/09/2024,03:00,AS Roma,Udinese Calcio,3-0,Final
+5,22/09/2024,03:00,Inter,AC Milan,1-2,Final
+5,24/09/2024,03:00,Atalanta,Como 1907,2-3,Final
+6,27/09/2024,03:00,AC Milan,US Lecce,3-0,Final
+6,28/09/2024,03:00,Udinese Calcio,Inter,2-3,Final
+6,28/09/2024,03:00,Genoa CFC,Juventus,0-3,Final
+6,28/09/2024,03:00,Bologna FC,Atalanta,1-1,Final
+6,29/09/2024,03:00,Torino FC,Lazio Roma,2-3,Final
+6,29/09/2024,03:00,Como 1907,Hellas Verona,3-2,Final
+6,29/09/2024,03:00,AS Roma,Venezia FC,2-1,Final
+6,29/09/2024,03:00,Empoli FC,ACF Fiorentina,0-0,Final
+6,29/09/2024,03:00,SSC Napoli,AC Monza,2-0,Final
+6,30/09/2024,03:00,Parma Calcio 1913,Cagliari Calcio,2-3,Final
+7,04/10/2024,03:00,SSC Napoli,Como 1907,3-1,Final
+7,04/10/2024,03:00,Hellas Verona,Venezia FC,2-1,Final
+7,05/10/2024,03:00,Udinese Calcio,US Lecce,1-0,Final
+7,05/10/2024,03:00,Atalanta,Genoa CFC,5-1,Final
+7,05/10/2024,03:00,Inter,Torino FC,3-2,Final
+7,06/10/2024,03:00,Juventus,Cagliari Calcio,1-1,Final
+7,06/10/2024,03:00,Bologna FC,Parma Calcio 1913,0-0,Final
+7,06/10/2024,03:00,Lazio Roma,Empoli FC,2-1,Final
+7,06/10/2024,03:00,AC Monza,AS Roma,1-1,Final
+7,06/10/2024,03:00,ACF Fiorentina,AC Milan,2-1,Final
+8,19/10/2024,03:00,Como 1907,Parma Calcio 1913,1-1,Final
+8,19/10/2024,03:00,Genoa CFC,Bologna FC,2-2,Final
+8,19/10/2024,03:00,AC Milan,Udinese Calcio,1-0,Final
+8,19/10/2024,03:00,Juventus,Lazio Roma,1-0,Final
+8,20/10/2024,03:00,Empoli FC,SSC Napoli,0-1,Final
+8,20/10/2024,03:00,US Lecce,ACF Fiorentina,0-6,Final
+8,20/10/2024,03:00,Venezia FC,Atalanta,0-2,Final
+8,20/10/2024,03:00,Cagliari Calcio,Torino FC,3-2,Final
+8,20/10/2024,03:00,AS Roma,Inter,0-1,Final
+8,21/10/2024,03:00,Hellas Verona,AC Monza,0-3,Final
+9,25/10/2024,03:00,Udinese Calcio,Cagliari Calcio,2-0,Final
+9,25/10/2024,03:00,Torino FC,Como 1907,1-0,Final
+9,26/10/2024,03:00,SSC Napoli,US Lecce,1-0,Final
+9,26/10/2024,03:00,Atalanta,Hellas Verona,6-1,Final
+9,27/10/2024,03:00,Parma Calcio 1913,Empoli FC,1-1,Final
+9,27/10/2024,03:00,Lazio Roma,Genoa CFC,3-0,Final
+9,27/10/2024,03:00,AC Monza,Venezia FC,2-2,Final
+9,27/10/2024,03:00,Inter,Juventus,4-4,Final
+9,27/10/2024,03:00,ACF Fiorentina,AS Roma,5-1,Final
+9,27/02/2025,03:00,Bologna FC,AC Milan,2-1,Final
+10,29/10/2024,03:00,Cagliari Calcio,Bologna FC,0-2,Final
+10,29/10/2024,03:00,US Lecce,Hellas Verona,1-0,Final
+10,29/10/2024,03:00,AC Milan,SSC Napoli,0-2,Final
+10,30/10/2024,03:00,Empoli FC,Inter,0-3,Final
+10,30/10/2024,03:00,Venezia FC,Udinese Calcio,3-2,Final
+10,30/10/2024,03:00,Atalanta,AC Monza,2-0,Final
+10,30/10/2024,03:00,Juventus,Parma Calcio 1913,2-2,Final
+10,31/10/2024,03:00,Genoa CFC,ACF Fiorentina,0-1,Final
+10,31/10/2024,03:00,Como 1907,Lazio Roma,1-5,Final
+10,31/10/2024,03:00,AS Roma,Torino FC,1-0,Final
+11,02/11/2024,03:00,Bologna FC,US Lecce,1-0,Final
+11,02/11/2024,03:00,Udinese Calcio,Juventus,0-2,Final
+11,02/11/2024,03:00,AC Monza,AC Milan,0-1,Final
+11,03/11/2024,03:00,SSC Napoli,Atalanta,0-3,Final
+11,03/11/2024,03:00,Torino FC,ACF Fiorentina,0-1,Final
+11,03/11/2024,03:00,Hellas Verona,AS Roma,3-2,Final
+11,03/11/2024,03:00,Inter,Venezia FC,1-0,Final
+11,04/11/2024,03:00,Empoli FC,Como 1907,1-0,Final
+11,04/11/2024,03:00,Parma Calcio 1913,Genoa CFC,0-1,Final
+11,04/11/2024,03:00,Lazio Roma,Cagliari Calcio,2-1,Final
+12,07/11/2024,03:00,Genoa CFC,Como 1907,1-1,Final
+12,08/11/2024,03:00,US Lecce,Empoli FC,1-1,Final
+12,09/11/2024,03:00,Venezia FC,Parma Calcio 1913,1-2,Final
+12,09/11/2024,03:00,Cagliari Calcio,AC Milan,3-3,Final
+12,09/11/2024,03:00,Juventus,Torino FC,2-0,Final
+12,10/11/2024,03:00,Atalanta,Udinese Calcio,2-1,Final
+12,10/11/2024,03:00,ACF Fiorentina,Hellas Verona,3-1,Final
+12,10/11/2024,03:00,AS Roma,Bologna FC,2-3,Final
+12,10/11/2024,03:00,AC Monza,Lazio Roma,0-1,Final
+12,10/11/2024,03:00,Inter,SSC Napoli,1-1,Final
+13,23/11/2024,03:00,Hellas Verona,Inter,0-5,Final
+13,23/11/2024,03:00,AC Milan,Juventus,0-0,Final
+13,23/11/2024,03:00,Parma Calcio 1913,Atalanta,1-3,Final
+13,24/11/2024,03:00,Genoa CFC,Cagliari Calcio,2-2,Final
+13,24/11/2024,03:00,Como 1907,ACF Fiorentina,0-2,Final
+13,24/11/2024,03:00,Torino FC,AC Monza,1-1,Final
+13,24/11/2024,03:00,SSC Napoli,AS Roma,1-0,Final
+13,24/11/2024,03:00,Lazio Roma,Bologna FC,3-0,Final
+13,25/11/2024,03:00,Empoli FC,Udinese Calcio,1-1,Final
+13,25/11/2024,03:00,Venezia FC,US Lecce,0-1,Final
+14,29/11/2024,03:00,Cagliari Calcio,Hellas Verona,1-0,Final
+14,30/11/2024,03:00,Como 1907,AC Monza,1-1,Final
+14,30/11/2024,03:00,AC Milan,Empoli FC,3-0,Final
+14,30/11/2024,03:00,Bologna FC,Venezia FC,3-0,Final
+14,01/12/2024,03:00,Udinese Calcio,Genoa CFC,0-2,Final
+14,01/12/2024,03:00,Parma Calcio 1913,Lazio Roma,3-1,Final
+14,01/12/2024,03:00,Torino FC,SSC Napoli,0-1,Final
+14,01/12/2024,03:00,US Lecce,Juventus,1-1,Final
+14,02/12/2024,03:00,AS Roma,Atalanta,0-2,Final
+14,06/02/2025,03:00,ACF Fiorentina,Inter,3-0,Final
+15,06/12/2024,03:00,Inter,Parma Calcio 1913,3-1,Final
+15,06/12/2024,03:00,Atalanta,AC Milan,2-1,Final
+15,07/12/2024,03:00,Genoa CFC,Torino FC,0-0,Final
+15,07/12/2024,03:00,Juventus,Bologna FC,2-2,Final
+15,07/12/2024,03:00,AS Roma,US Lecce,4-1,Final
+15,08/12/2024,03:00,ACF Fiorentina,Cagliari Calcio,1-0,Final
+15,08/12/2024,03:00,Hellas Verona,Empoli FC,1-4,Final
+15,08/12/2024,03:00,Venezia FC,Como 1907,2-2,Final
+15,08/12/2024,03:00,SSC Napoli,Lazio Roma,0-1,Final
+15,09/12/2024,03:00,AC Monza,Udinese Calcio,1-2,Final
+16,13/12/2024,03:00,Empoli FC,Torino FC,0-1,Final
+16,14/12/2024,03:00,Cagliari Calcio,Atalanta,0-1,Final
+16,14/12/2024,03:00,Udinese Calcio,SSC Napoli,1-3,Final
+16,14/12/2024,03:00,Juventus,Venezia FC,2-2,Final
+16,15/12/2024,03:00,US Lecce,AC Monza,2-1,Final
+16,15/12/2024,03:00,Bologna FC,ACF Fiorentina,1-0,Final
+16,15/12/2024,03:00,Parma Calcio 1913,Hellas Verona,2-3,Final
+16,15/12/2024,03:00,Como 1907,AS Roma,2-0,Final
+16,15/12/2024,03:00,AC Milan,Genoa CFC,0-0,Final
+16,16/12/2024,03:00,Lazio Roma,Inter,0-6,Final
+17,20/12/2024,03:00,Hellas Verona,AC Milan,0-1,Final
+17,21/12/2024,03:00,Torino FC,Bologna FC,0-2,Final
+17,21/12/2024,03:00,Genoa CFC,SSC Napoli,1-2,Final
+17,21/12/2024,03:00,US Lecce,Lazio Roma,1-2,Final
+17,22/12/2024,03:00,AS Roma,Parma Calcio 1913,5-0,Final
+17,22/12/2024,03:00,Venezia FC,Cagliari Calcio,2-1,Final
+17,22/12/2024,03:00,Atalanta,Empoli FC,3-2,Final
+17,22/12/2024,03:00,AC Monza,Juventus,1-2,Final
+17,23/12/2024,03:00,ACF Fiorentina,Udinese Calcio,1-2,Final
+17,23/12/2024,03:00,Inter,Como 1907,2-0,Final
+18,28/12/2024,03:00,Empoli FC,Genoa CFC,1-2,Final
+18,28/12/2024,03:00,Parma Calcio 1913,AC Monza,2-1,Final
+18,28/12/2024,03:00,Cagliari Calcio,Inter,0-3,Final
+18,28/12/2024,03:00,Lazio Roma,Atalanta,1-1,Final
+18,29/12/2024,03:00,Udinese Calcio,Torino FC,2-2,Final
+18,29/12/2024,03:00,SSC Napoli,Venezia FC,1-0,Final
+18,29/12/2024,03:00,Juventus,ACF Fiorentina,2-2,Final
+18,29/12/2024,03:00,AC Milan,AS Roma,1-1,Final
+18,30/12/2024,03:00,Como 1907,US Lecce,2-0,Final
+18,30/12/2024,03:00,Bologna FC,Hellas Verona,2-3,Final
+19,04/01/2025,03:00,Venezia FC,Empoli FC,1-1,Final
+19,04/01/2025,03:00,ACF Fiorentina,SSC Napoli,0-3,Final
+19,04/01/2025,03:00,Hellas Verona,Udinese Calcio,0-0,Final
+19,05/01/2025,03:00,AC Monza,Cagliari Calcio,1-2,Final
+19,05/01/2025,03:00,US Lecce,Genoa CFC,0-0,Final
+19,05/01/2025,03:00,Torino FC,Parma Calcio 1913,0-0,Final
+19,05/01/2025,03:00,AS Roma,Lazio Roma,2-0,Final
+19,14/01/2025,03:00,Como 1907,AC Milan,1-2,Final
+19,14/01/2025,03:00,Atalanta,Juventus,1-1,Final
+19,15/01/2025,03:00,Inter,Bologna FC,2-2,Final
+20,10/01/2025,03:00,Lazio Roma,Como 1907,1-1,Final
+20,11/01/2025,03:00,Empoli FC,US Lecce,1-3,Final
+20,11/01/2025,03:00,Udinese Calcio,Atalanta,0-0,Final
+20,11/01/2025,03:00,Torino FC,Juventus,1-1,Final
+20,11/01/2025,03:00,AC Milan,Cagliari Calcio,1-1,Final
+20,12/01/2025,03:00,Genoa CFC,Parma Calcio 1913,1-0,Final
+20,12/01/2025,03:00,Venezia FC,Inter,0-1,Final
+20,12/01/2025,03:00,Bologna FC,AS Roma,2-2,Final
+20,12/01/2025,03:00,SSC Napoli,Hellas Verona,2-0,Final
+20,13/01/2025,03:00,AC Monza,ACF Fiorentina,2-1,Final
+21,17/01/2025,03:00,AS Roma,Genoa CFC,3-1,Final
+21,18/01/2025,03:00,Bologna FC,AC Monza,3-1,Final
+21,18/01/2025,03:00,Juventus,AC Milan,2-0,Final
+21,18/01/2025,03:00,Atalanta,SSC Napoli,2-3,Final
+21,19/01/2025,03:00,ACF Fiorentina,Torino FC,1-1,Final
+21,19/01/2025,03:00,Cagliari Calcio,US Lecce,4-1,Final
+21,19/01/2025,03:00,Parma Calcio 1913,Venezia FC,1-1,Final
+21,19/01/2025,03:00,Hellas Verona,Lazio Roma,0-3,Final
+21,19/01/2025,03:00,Inter,Empoli FC,3-1,Final
+21,20/01/2025,03:00,Como 1907,Udinese Calcio,4-1,Final
+22,24/01/2025,03:00,Torino FC,Cagliari Calcio,2-0,Final
+22,25/01/2025,03:00,Como 1907,Atalanta,1-2,Final
+22,25/01/2025,03:00,SSC Napoli,Juventus,2-1,Final
+22,25/01/2025,03:00,Empoli FC,Bologna FC,1-1,Final
+22,26/01/2025,03:00,AC Milan,Parma Calcio 1913,3-2,Final
+22,26/01/2025,03:00,Udinese Calcio,AS Roma,1-2,Final
+22,26/01/2025,03:00,US Lecce,Inter,0-4,Final
+22,26/01/2025,03:00,Lazio Roma,ACF Fiorentina,1-2,Final
+22,27/01/2025,03:00,Venezia FC,Hellas Verona,1-1,Final
+22,27/01/2025,03:00,Genoa CFC,AC Monza,2-0,Final
+23,31/01/2025,03:00,Parma Calcio 1913,US Lecce,1-3,Final
+23,01/02/2025,03:00,AC Monza,Hellas Verona,0-1,Final
+23,01/02/2025,03:00,Udinese Calcio,Venezia FC,3-2,Final
+23,01/02/2025,03:00,Atalanta,Torino FC,1-1,Final
+23,01/02/2025,03:00,Bologna FC,Como 1907,2-0,Final
+23,02/02/2025,03:00,Juventus,Empoli FC,4-1,Final
+23,02/02/2025,03:00,ACF Fiorentina,Genoa CFC,2-1,Final
+23,02/02/2025,03:00,AC Milan,Inter,1-1,Final
+23,02/02/2025,03:00,AS Roma,SSC Napoli,1-1,Final
+23,03/02/2025,03:00,Cagliari Calcio,Lazio Roma,1-2,Final
+24,07/02/2025,03:00,Como 1907,Juventus,1-2,Final
+24,08/02/2025,03:00,Hellas Verona,Atalanta,0-5,Final
+24,08/02/2025,03:00,Empoli FC,AC Milan,0-2,Final
+24,08/02/2025,03:00,Torino FC,Genoa CFC,1-1,Final
+24,09/02/2025,03:00,Venezia FC,AS Roma,0-1,Final
+24,09/02/2025,03:00,Cagliari Calcio,Parma Calcio 1913,2-1,Final
+24,09/02/2025,03:00,Lazio Roma,AC Monza,5-1,Final
+24,09/02/2025,03:00,US Lecce,Bologna FC,0-0,Final
+24,09/02/2025,03:00,SSC Napoli,Udinese Calcio,1-1,Final
+24,10/02/2025,03:00,Inter,ACF Fiorentina,2-1,Final
+25,14/02/2025,03:00,Bologna FC,Torino FC,3-2,Final
+25,15/02/2025,03:00,Atalanta,Cagliari Calcio,0-0,Final
+25,15/02/2025,03:00,Lazio Roma,SSC Napoli,2-2,Final
+25,15/02/2025,03:00,AC Milan,Hellas Verona,1-0,Final
+25,16/02/2025,03:00,ACF Fiorentina,Como 1907,0-2,Final
+25,16/02/2025,03:00,AC Monza,US Lecce,0-0,Final
+25,16/02/2025,03:00,Udinese Calcio,Empoli FC,3-0,Final
+25,16/02/2025,03:00,Parma Calcio 1913,AS Roma,0-1,Final
+25,16/02/2025,03:00,Juventus,Inter,1-0,Final
+25,17/02/2025,03:00,Genoa CFC,Venezia FC,2-0,Final
+26,21/02/2025,03:00,US Lecce,Udinese Calcio,0-1,Final
+26,22/02/2025,03:00,Parma Calcio 1913,Bologna FC,2-0,Final
+26,22/02/2025,03:00,Venezia FC,Lazio Roma,0-0,Final
+26,22/02/2025,03:00,Torino FC,AC Milan,2-1,Final
+26,22/02/2025,03:00,Inter,Genoa CFC,1-0,Final
+26,23/02/2025,03:00,Como 1907,SSC Napoli,2-1,Final
+26,23/02/2025,03:00,Hellas Verona,ACF Fiorentina,1-0,Final
+26,23/02/2025,03:00,Empoli FC,Atalanta,0-5,Final
+26,23/02/2025,03:00,Cagliari Calcio,Juventus,0-1,Final
+26,24/02/2025,03:00,AS Roma,AC Monza,4-0,Final
+27,28/02/2025,03:00,ACF Fiorentina,US Lecce,1-0,Final
+27,01/03/2025,03:00,Atalanta,Venezia FC,0-0,Final
+27,01/03/2025,03:00,SSC Napoli,Inter,1-1,Final
+27,01/03/2025,03:00,Udinese Calcio,Parma Calcio 1913,1-0,Final
+27,02/03/2025,03:00,AC Monza,Torino FC,0-2,Final
+27,02/03/2025,03:00,Bologna FC,Cagliari Calcio,2-1,Final
+27,02/03/2025,03:00,Genoa CFC,Empoli FC,1-1,Final
+27,02/03/2025,03:00,AS Roma,Como 1907,2-1,Final
+27,02/03/2025,03:00,AC Milan,Lazio Roma,1-2,Final
+27,03/03/2025,03:00,Juventus,Hellas Verona,2-0,Final
+28,07/03/2025,03:00,Cagliari Calcio,Genoa CFC,1-1,Final
+28,08/03/2025,03:00,Como 1907,Venezia FC,1-1,Final
+28,08/03/2025,03:00,Parma Calcio 1913,Torino FC,2-2,Final
+28,08/03/2025,03:00,US Lecce,AC Milan,2-3,Final
+28,08/03/2025,03:00,Inter,AC Monza,3-2,Final
+28,09/03/2025,03:00,Hellas Verona,Bologna FC,1-2,Final
+28,09/03/2025,03:00,SSC Napoli,ACF Fiorentina,2-1,Final
+28,09/03/2025,03:00,Empoli FC,AS Roma,0-1,Final
+28,09/03/2025,03:00,Juventus,Atalanta,0-4,Final
+28,10/03/2025,03:00,Lazio Roma,Udinese Calcio,1-1,Final
+29,14/03/2025,03:00,Genoa CFC,US Lecce,2-1,Final
+29,15/03/2025,03:00,AC Monza,Parma Calcio 1913,1-1,Final
+29,15/03/2025,03:00,Udinese Calcio,Hellas Verona,0-1,Final
+29,15/03/2025,03:00,AC Milan,Como 1907,2-1,Final
+29,15/03/2025,03:00,Torino FC,Empoli FC,1-0,Final
+29,16/03/2025,03:00,Venezia FC,SSC Napoli,0-0,Final
+29,16/03/2025,03:00,Bologna FC,Lazio Roma,5-0,Final
+29,16/03/2025,03:00,AS Roma,Cagliari Calcio,1-0,Final
+29,16/03/2025,03:00,ACF Fiorentina,Juventus,3-0,Final
+29,16/03/2025,03:00,Atalanta,Inter,0-2,Final
+30,29/03/2025,03:00,Como 1907,Empoli FC,1-1,Final
+30,29/03/2025,03:00,Venezia FC,Bologna FC,0-1,Final
+30,29/03/2025,03:00,Juventus,Genoa CFC,1-0,Final
+30,29/03/2025,03:00,US Lecce,AS Roma,0-1,Final
+30,30/03/2025,03:00,Cagliari Calcio,AC Monza,3-0,Final
+30,30/03/2025,03:00,ACF Fiorentina,Atalanta,1-0,Final
+30,30/03/2025,03:00,Inter,Udinese Calcio,2-1,Final
+30,30/03/2025,03:00,SSC Napoli,AC Milan,2-1,Final
+30,31/03/2025,03:00,Hellas Verona,Parma Calcio 1913,0-0,Final
+30,31/03/2025,03:00,Lazio Roma,Torino FC,1-1,Final
+31,04/04/2025,03:00,Genoa CFC,Udinese Calcio,1-0,Final
+31,05/04/2025,03:00,AC Monza,Como 1907,1-3,Final
+31,05/04/2025,03:00,Parma Calcio 1913,Inter,2-2,Final
+31,05/04/2025,03:00,AC Milan,ACF Fiorentina,2-2,Final
+31,06/04/2025,03:00,US Lecce,Venezia FC,1-1,Final
+31,06/04/2025,03:00,Empoli FC,Cagliari Calcio,0-0,Final
+31,06/04/2025,03:00,Torino FC,Hellas Verona,1-1,Final
+31,06/04/2025,03:00,Atalanta,Lazio Roma,0-1,Final
+31,06/04/2025,03:00,AS Roma,Juventus,1-1,Final
+31,07/04/2025,03:00,Bologna FC,SSC Napoli,1-1,Final
+32,11/04/2025,03:00,Udinese Calcio,AC Milan,0-4,Final
+32,12/04/2025,03:00,Venezia FC,AC Monza,1-0,Final
+32,12/04/2025,03:00,Inter,Cagliari Calcio,3-1,Final
+32,12/04/2025,03:00,Juventus,US Lecce,2-1,Final
+32,13/04/2025,03:00,Atalanta,Bologna FC,2-0,Final
+32,13/04/2025,03:00,ACF Fiorentina,Parma Calcio 1913,0-0,Final
+32,13/04/2025,03:00,Hellas Verona,Genoa CFC,0-0,Final
+32,13/04/2025,03:00,Como 1907,Torino FC,1-0,Final
+32,13/04/2025,03:00,Lazio Roma,AS Roma,1-1,Final
+32,14/04/2025,03:00,SSC Napoli,Empoli FC,3-0,Final
+33,19/04/2025,03:00,US Lecce,Como 1907,0-3,Final
+33,19/04/2025,03:00,AC Monza,SSC Napoli,0-1,Final
+33,19/04/2025,03:00,AS Roma,Hellas Verona,1-0,Final
+33,20/04/2025,03:00,Empoli FC,Venezia FC,2-2,Final
+33,20/04/2025,03:00,Bologna FC,Inter,1-0,Final
+33,20/04/2025,03:00,AC Milan,Atalanta,0-1,Final
+33,23/04/2025,03:00,Cagliari Calcio,ACF Fiorentina,1-2,Final
+33,23/04/2025,03:00,Genoa CFC,Lazio Roma,0-2,Final
+33,23/04/2025,03:00,Parma Calcio 1913,Juventus,1-0,Final
+33,23/04/2025,03:00,Torino FC,Udinese Calcio,2-0,Final
+34,27/04/2025,03:00,Como 1907,Genoa CFC,1-0,Final
+34,27/04/2025,03:00,Venezia FC,AC Milan,0-2,Final
+34,27/04/2025,03:00,ACF Fiorentina,Empoli FC,2-1,Final
+34,27/04/2025,03:00,Inter,AS Roma,0-1,Final
+34,27/04/2025,03:00,Juventus,AC Monza,2-0,Final
+34,27/04/2025,03:00,Atalanta,US Lecce,1-1,Final
+34,27/04/2025,03:00,SSC Napoli,Torino FC,2-0,Final
+34,28/04/2025,03:00,Udinese Calcio,Bologna FC,0-0,Final
+34,28/04/2025,03:00,Hellas Verona,Cagliari Calcio,0-2,Final
+34,28/04/2025,03:00,Lazio Roma,Parma Calcio 1913,2-2,Final
+35,02/05/2025,03:00,Torino FC,Venezia FC,1-1,Final
+35,03/05/2025,03:00,Cagliari Calcio,Udinese Calcio,1-2,Final
+35,03/05/2025,03:00,Parma Calcio 1913,Como 1907,0-1,Final
+35,03/05/2025,03:00,US Lecce,SSC Napoli,0-1,Final
+35,03/05/2025,03:00,Inter,Hellas Verona,1-0,Final
+35,04/05/2025,03:00,Empoli FC,Lazio Roma,0-1,Final
+35,04/05/2025,03:00,AC Monza,Atalanta,0-4,Final
+35,04/05/2025,03:00,AS Roma,ACF Fiorentina,1-0,Final
+35,04/05/2025,03:00,Bologna FC,Juventus,1-1,Final
+35,05/05/2025,03:00,Genoa CFC,AC Milan,1-2,Final
+36,09/05/2025,03:00,AC Milan,Bologna FC,3-1,Final
+36,10/05/2025,03:00,Como 1907,Cagliari Calcio,3-1,Final
+36,10/05/2025,03:00,Lazio Roma,Juventus,1-1,Final
+36,10/05/2025,03:00,Empoli FC,Parma Calcio 1913,2-1,Final
+36,11/05/2025,03:00,Udinese Calcio,AC Monza,1-2,Final
+36,11/05/2025,03:00,Hellas Verona,US Lecce,1-1,Final
+36,11/05/2025,03:00,Torino FC,Inter,0-2,Final
+36,11/05/2025,03:00,SSC Napoli,Genoa CFC,2-2,Final
+36,12/05/2025,03:00,Venezia FC,ACF Fiorentina,2-1,Final
+36,12/05/2025,03:00,Atalanta,AS Roma,2-1,Final
+37,17/05/2025,03:00,Genoa CFC,Atalanta,2-3,Final
+37,18/05/2025,03:00,Cagliari Calcio,Venezia FC,3-0,Final
+37,18/05/2025,03:00,ACF Fiorentina,Bologna FC,3-2,Final
+37,18/05/2025,03:00,Hellas Verona,Como 1907,1-1,Final
+37,18/05/2025,03:00,Inter,Lazio Roma,2-2,Final
+37,18/05/2025,03:00,Juventus,Udinese Calcio,2-0,Final
+37,18/05/2025,03:00,US Lecce,Torino FC,1-0,Final
+37,18/05/2025,03:00,AC Monza,Empoli FC,1-3,Final
+37,18/05/2025,03:00,Parma Calcio 1913,SSC Napoli,0-0,Final
+37,18/05/2025,03:00,AS Roma,AC Milan,3-1,Final
+38,23/05/2025,03:00,Como 1907,Inter,0-2,Final
+38,23/05/2025,03:00,SSC Napoli,Cagliari Calcio,2-0,Final
+38,24/05/2025,03:00,Bologna FC,Genoa CFC,1-3,Final
+38,24/05/2025,03:00,AC Milan,AC Monza,2-0,Final
+38,25/05/2025,03:00,Atalanta,Parma Calcio 1913,2-3,Final
+38,25/05/2025,03:00,Empoli FC,Hellas Verona,1-2,Final
+38,25/05/2025,03:00,Lazio Roma,US Lecce,0-1,Final
+38,25/05/2025,03:00,Torino FC,AS Roma,0-2,Final
+38,25/05/2025,03:00,Udinese Calcio,ACF Fiorentina,2-3,Final
+38,25/05/2025,03:00,Venezia FC,Juventus,2-3,Final

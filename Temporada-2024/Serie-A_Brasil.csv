@@ -1,0 +1,381 @@
+matchday,date,time,home_team,away_team,result,status
+1,13/04/2024,03:00,Internacional,Bahia - BA,2-1,Final
+1,13/04/2024,03:00,Criciúma - SC,Juventude - RS,1-1,Final
+1,14/04/2024,03:00,Fluminense RJ,Red Bull Bragantino,2-2,Final
+1,14/04/2024,03:00,São Paulo FC,Fortaleza - CE,1-2,Final
+1,14/04/2024,03:00,Vasco da Gama - RJ,Grêmio Porto Alegre,2-1,Final
+1,14/04/2024,03:00,Corinthians SP,Atlético Mineiro,0-0,Final
+1,14/04/2024,03:00,Athletico Paranaense,Cuiabá - MT,4-0,Final
+1,14/04/2024,03:00,Atlético Goianiense,Flamengo RJ,1-2,Final
+1,14/04/2024,03:00,Cruzeiro,Botafogo - RJ,3-2,Final
+1,14/04/2024,03:00,Vitória - BA,Palmeiras,0-1,Final
+2,17/04/2024,03:00,Bahia - BA,Fluminense RJ,2-1,Final
+2,18/04/2024,03:00,Red Bull Bragantino,Vasco da Gama - RJ,2-1,Final
+2,18/04/2024,03:00,Grêmio Porto Alegre,Athletico Paranaense,2-0,Final
+2,18/04/2024,03:00,Atlético Mineiro,Criciúma - SC,1-1,Final
+2,18/04/2024,03:00,Fortaleza - CE,Cruzeiro,1-1,Final
+2,18/04/2024,03:00,Juventude - RS,Corinthians SP,2-0,Final
+2,18/04/2024,03:00,Palmeiras,Internacional,0-1,Final
+2,18/04/2024,03:00,Flamengo RJ,São Paulo FC,2-1,Final
+2,19/04/2024,03:00,Botafogo - RJ,Atlético Goianiense,1-0,Final
+2,06/06/2024,03:00,Cuiabá - MT,Vitória - BA,0-0,Final
+3,20/04/2024,03:00,Fluminense RJ,Vasco da Gama - RJ,2-1,Final
+3,20/04/2024,03:00,Red Bull Bragantino,Corinthians SP,1-0,Final
+3,20/04/2024,03:00,Grêmio Porto Alegre,Cuiabá - MT,1-0,Final
+3,21/04/2024,03:00,Atlético Mineiro,Cruzeiro,3-0,Final
+3,21/04/2024,03:00,Athletico Paranaense,Internacional,1-0,Final
+3,21/04/2024,03:00,Palmeiras,Flamengo RJ,0-0,Final
+3,21/04/2024,03:00,Vitória - BA,Bahia - BA,2-2,Final
+3,21/04/2024,03:00,Atlético Goianiense,São Paulo FC,0-3,Final
+3,21/04/2024,03:00,Botafogo - RJ,Juventude - RS,5-1,Final
+3,25/07/2024,03:00,Criciúma - SC,Fortaleza - CE,1-1,Final
+4,27/04/2024,03:00,Vasco da Gama - RJ,Criciúma - SC,0-4,Final
+4,27/04/2024,03:00,Cuiabá - MT,Atlético Mineiro,0-3,Final
+4,28/04/2024,03:00,Bahia - BA,Grêmio Porto Alegre,1-0,Final
+4,28/04/2024,03:00,Flamengo RJ,Botafogo - RJ,0-2,Final
+4,28/04/2024,03:00,Corinthians SP,Fluminense RJ,3-0,Final
+4,28/04/2024,03:00,Cruzeiro,Vitória - BA,3-1,Final
+4,28/04/2024,03:00,Fortaleza - CE,Red Bull Bragantino,1-1,Final
+4,28/04/2024,03:00,Juventude - RS,Athletico Paranaense,1-1,Final
+4,29/04/2024,03:00,Internacional,Atlético Goianiense,1-1,Final
+4,30/04/2024,03:00,São Paulo FC,Palmeiras,0-0,Final
+5,04/05/2024,03:00,Fluminense RJ,Atlético Mineiro,2-2,Final
+5,04/05/2024,03:00,Red Bull Bragantino,Flamengo RJ,1-1,Final
+5,05/05/2024,03:00,Corinthians SP,Fortaleza - CE,0-0,Final
+5,05/05/2024,03:00,Athletico Paranaense,Vasco da Gama - RJ,1-0,Final
+5,05/05/2024,03:00,Vitória - BA,São Paulo FC,1-3,Final
+5,05/05/2024,03:00,Botafogo - RJ,Bahia - BA,1-2,Final
+5,05/05/2024,03:00,Cuiabá - MT,Palmeiras,0-2,Final
+5,06/06/2024,03:00,Juventude - RS,Atlético Goianiense,1-0,Final
+5,29/08/2024,03:00,Cruzeiro,Internacional,0-0,Final
+5,26/09/2024,03:00,Grêmio Porto Alegre,Criciúma - SC,1-2,Final
+6,11/05/2024,03:00,Flamengo RJ,Corinthians SP,2-0,Final
+6,12/05/2024,03:00,Atlético Goianiense,Cruzeiro,0-1,Final
+6,12/05/2024,03:00,Fortaleza - CE,Botafogo - RJ,1-1,Final
+6,12/05/2024,03:00,Palmeiras,Athletico Paranaense,0-2,Final
+6,12/05/2024,03:00,Bahia - BA,Red Bull Bragantino,1-0,Final
+6,12/05/2024,03:00,Vasco da Gama - RJ,Vitória - BA,2-1,Final
+6,14/05/2024,03:00,São Paulo FC,Fluminense RJ,2-1,Final
+6,09/06/2024,03:00,Criciúma - SC,Cuiabá - MT,2-5,Final
+6,15/08/2024,03:00,Internacional,Juventude - RS,2-1,Final
+6,10/10/2024,03:00,Atlético Mineiro,Grêmio Porto Alegre,2-1,Final
+7,01/06/2024,03:00,Grêmio Porto Alegre,Red Bull Bragantino,0-2,Final
+7,01/06/2024,03:00,Vitória - BA,Atlético Goianiense,0-2,Final
+7,01/06/2024,03:00,Cuiabá - MT,Internacional,0-1,Final
+7,01/06/2024,03:00,Fluminense RJ,Juventude - RS,1-1,Final
+7,02/06/2024,03:00,Corinthians SP,Botafogo - RJ,0-1,Final
+7,02/06/2024,03:00,Atlético Mineiro,Bahia - BA,1-1,Final
+7,02/06/2024,03:00,Criciúma - SC,Palmeiras,1-2,Final
+7,02/06/2024,03:00,Vasco da Gama - RJ,Flamengo RJ,1-6,Final
+7,02/06/2024,03:00,Fortaleza - CE,Athletico Paranaense,1-0,Final
+7,02/06/2024,03:00,São Paulo FC,Cruzeiro,2-0,Final
+8,12/06/2024,03:00,Atlético Goianiense,Corinthians SP,2-2,Final
+8,12/06/2024,03:00,Juventude - RS,Vitória - BA,1-1,Final
+8,12/06/2024,03:00,Botafogo - RJ,Fluminense RJ,1-0,Final
+8,12/06/2024,03:00,Red Bull Bragantino,Atlético Mineiro,1-2,Final
+8,14/06/2024,03:00,Cruzeiro,Cuiabá - MT,2-1,Final
+8,14/06/2024,03:00,Athletico Paranaense,Criciúma - SC,3-1,Final
+8,14/06/2024,03:00,Flamengo RJ,Grêmio Porto Alegre,2-1,Final
+8,14/06/2024,03:00,Internacional,São Paulo FC,0-0,Final
+8,14/06/2024,03:00,Bahia - BA,Fortaleza - CE,1-0,Final
+8,14/06/2024,03:00,Palmeiras,Vasco da Gama - RJ,2-0,Final
+9,15/06/2024,03:00,Red Bull Bragantino,Juventude - RS,2-1,Final
+9,16/06/2024,03:00,Fluminense RJ,Atlético Goianiense,1-2,Final
+9,16/06/2024,03:00,Athletico Paranaense,Flamengo RJ,1-1,Final
+9,16/06/2024,03:00,Corinthians SP,São Paulo FC,2-2,Final
+9,16/06/2024,03:00,Vitória - BA,Internacional,2-1,Final
+9,16/06/2024,03:00,Criciúma - SC,Bahia - BA,2-2,Final
+9,16/06/2024,03:00,Cuiabá - MT,Fortaleza - CE,5-0,Final
+9,16/06/2024,03:00,Grêmio Porto Alegre,Botafogo - RJ,1-2,Final
+9,16/06/2024,03:00,Vasco da Gama - RJ,Cruzeiro,0-0,Final
+9,18/06/2024,03:00,Atlético Mineiro,Palmeiras,0-4,Final
+10,20/06/2024,03:00,Atlético Goianiense,Criciúma - SC,1-2,Final
+10,20/06/2024,03:00,Botafogo - RJ,Athletico Paranaense,1-1,Final
+10,20/06/2024,03:00,Fortaleza - CE,Grêmio Porto Alegre,1-0,Final
+10,20/06/2024,03:00,Juventude - RS,Vasco da Gama - RJ,2-0,Final
+10,20/06/2024,03:00,São Paulo FC,Cuiabá - MT,0-1,Final
+10,20/06/2024,03:00,Cruzeiro,Fluminense RJ,2-0,Final
+10,20/06/2024,03:00,Internacional,Corinthians SP,1-0,Final
+10,20/06/2024,03:00,Vitória - BA,Atlético Mineiro,4-2,Final
+10,21/06/2024,03:00,Flamengo RJ,Bahia - BA,2-1,Final
+10,21/06/2024,03:00,Palmeiras,Red Bull Bragantino,2-1,Final
+11,22/06/2024,03:00,Criciúma - SC,Botafogo - RJ,2-1,Final
+11,22/06/2024,03:00,Grêmio Porto Alegre,Internacional,0-1,Final
+11,22/06/2024,03:00,Cuiabá - MT,Atlético Goianiense,0-0,Final
+11,23/06/2024,03:00,Vasco da Gama - RJ,São Paulo FC,4-1,Final
+11,23/06/2024,03:00,Athletico Paranaense,Corinthians SP,1-1,Final
+11,23/06/2024,03:00,Bahia - BA,Cruzeiro,4-1,Final
+11,23/06/2024,03:00,Fluminense RJ,Flamengo RJ,0-1,Final
+11,23/06/2024,03:00,Atlético Mineiro,Fortaleza - CE,1-1,Final
+11,23/06/2024,03:00,Red Bull Bragantino,Vitória - BA,2-1,Final
+11,23/06/2024,03:00,Palmeiras,Juventude - RS,3-1,Final
+12,27/06/2024,03:00,Botafogo - RJ,Red Bull Bragantino,2-1,Final
+12,27/06/2024,03:00,Cruzeiro,Athletico Paranaense,2-0,Final
+12,27/06/2024,03:00,Atlético Goianiense,Grêmio Porto Alegre,1-1,Final
+12,27/06/2024,03:00,Corinthians SP,Cuiabá - MT,1-1,Final
+12,27/06/2024,03:00,Juventude - RS,Flamengo RJ,2-1,Final
+12,27/06/2024,03:00,Bahia - BA,Vasco da Gama - RJ,2-1,Final
+12,27/06/2024,03:00,Fortaleza - CE,Palmeiras,3-0,Final
+12,27/06/2024,03:00,Internacional,Atlético Mineiro,1-2,Final
+12,28/06/2024,03:00,Fluminense RJ,Vitória - BA,0-1,Final
+12,28/06/2024,03:00,São Paulo FC,Criciúma - SC,2-1,Final
+13,29/06/2024,03:00,Cuiabá - MT,Red Bull Bragantino,1-1,Final
+13,29/06/2024,03:00,Vasco da Gama - RJ,Botafogo - RJ,1-1,Final
+13,30/06/2024,03:00,Atlético Mineiro,Atlético Goianiense,1-1,Final
+13,30/06/2024,03:00,Fortaleza - CE,Juventude - RS,2-1,Final
+13,30/06/2024,03:00,Grêmio Porto Alegre,Fluminense RJ,1-0,Final
+13,30/06/2024,03:00,São Paulo FC,Bahia - BA,3-1,Final
+13,30/06/2024,03:00,Criciúma - SC,Internacional,1-1,Final
+13,30/06/2024,03:00,Flamengo RJ,Cruzeiro,2-1,Final
+13,30/06/2024,03:00,Vitória - BA,Athletico Paranaense,0-1,Final
+13,02/07/2024,03:00,Palmeiras,Corinthians SP,2-0,Final
+14,04/07/2024,03:00,Cuiabá - MT,Botafogo - RJ,1-2,Final
+14,04/07/2024,03:00,Criciúma - SC,Cruzeiro,1-0,Final
+14,04/07/2024,03:00,Vasco da Gama - RJ,Fortaleza - CE,2-0,Final
+14,04/07/2024,03:00,Athletico Paranaense,São Paulo FC,1-2,Final
+14,04/07/2024,03:00,Atlético Mineiro,Flamengo RJ,2-4,Final
+14,04/07/2024,03:00,Red Bull Bragantino,Atlético Goianiense,3-1,Final
+14,05/07/2024,03:00,Bahia - BA,Juventude - RS,2-0,Final
+14,05/07/2024,03:00,Grêmio Porto Alegre,Palmeiras,2-2,Final
+14,05/07/2024,03:00,Corinthians SP,Vitória - BA,3-2,Final
+14,05/07/2024,03:00,Fluminense RJ,Internacional,1-1,Final
+15,07/07/2024,03:00,Flamengo RJ,Cuiabá - MT,1-1,Final
+15,07/07/2024,03:00,São Paulo FC,Red Bull Bragantino,2-0,Final
+15,07/07/2024,03:00,Cruzeiro,Corinthians SP,3-0,Final
+15,07/07/2024,03:00,Fortaleza - CE,Fluminense RJ,1-0,Final
+15,07/07/2024,03:00,Juventude - RS,Grêmio Porto Alegre,3-0,Final
+15,07/07/2024,03:00,Internacional,Vasco da Gama - RJ,1-2,Final
+15,07/07/2024,03:00,Atlético Goianiense,Athletico Paranaense,1-2,Final
+15,07/07/2024,03:00,Palmeiras,Bahia - BA,2-0,Final
+15,07/07/2024,03:00,Vitória - BA,Criciúma - SC,2-1,Final
+15,08/07/2024,03:00,Botafogo - RJ,Atlético Mineiro,3-0,Final
+16,10/07/2024,03:00,Grêmio Porto Alegre,Cruzeiro,0-2,Final
+16,11/07/2024,03:00,Athletico Paranaense,Bahia - BA,1-3,Final
+16,11/07/2024,03:00,Vasco da Gama - RJ,Corinthians SP,2-0,Final
+16,12/07/2024,03:00,Palmeiras,Atlético Goianiense,3-1,Final
+16,12/07/2024,03:00,Criciúma - SC,Fluminense RJ,1-1,Final
+16,12/07/2024,03:00,Flamengo RJ,Fortaleza - CE,1-2,Final
+16,12/07/2024,03:00,Atlético Mineiro,São Paulo FC,2-1,Final
+16,12/07/2024,03:00,Vitória - BA,Botafogo - RJ,0-1,Final
+16,06/09/2024,03:00,Cuiabá - MT,Juventude - RS,0-0,Final
+16,26/09/2024,03:00,Red Bull Bragantino,Internacional,2-2,Final
+17,13/07/2024,03:00,Bahia - BA,Cuiabá - MT,1-2,Final
+17,13/07/2024,03:00,Cruzeiro,Red Bull Bragantino,2-1,Final
+17,17/07/2024,03:00,Juventude - RS,Atlético Mineiro,1-1,Final
+17,17/07/2024,03:00,Corinthians SP,Criciúma - SC,2-1,Final
+17,18/07/2024,03:00,Atlético Goianiense,Vasco da Gama - RJ,0-1,Final
+17,18/07/2024,03:00,São Paulo FC,Grêmio Porto Alegre,1-0,Final
+17,18/07/2024,03:00,Botafogo - RJ,Palmeiras,1-0,Final
+17,18/07/2024,03:00,Fortaleza - CE,Vitória - BA,3-1,Final
+17,23/10/2024,03:00,Fluminense RJ,Athletico Paranaense,1-0,Final
+17,30/10/2024,03:00,Internacional,Flamengo RJ,1-1,Final
+18,20/07/2024,03:00,Flamengo RJ,Criciúma - SC,2-1,Final
+18,20/07/2024,03:00,Botafogo - RJ,Internacional,1-0,Final
+18,21/07/2024,03:00,Palmeiras,Cruzeiro,2-0,Final
+18,21/07/2024,03:00,Grêmio Porto Alegre,Vitória - BA,2-0,Final
+18,21/07/2024,03:00,Atlético Mineiro,Vasco da Gama - RJ,2-0,Final
+18,21/07/2024,03:00,Bahia - BA,Corinthians SP,0-1,Final
+18,21/07/2024,03:00,Red Bull Bragantino,Athletico Paranaense,1-0,Final
+18,21/07/2024,03:00,Fortaleza - CE,Atlético Goianiense,3-1,Final
+18,21/07/2024,03:00,Juventude - RS,São Paulo FC,0-0,Final
+18,22/07/2024,03:00,Cuiabá - MT,Fluminense RJ,0-1,Final
+19,25/07/2024,03:00,Cruzeiro,Juventude - RS,2-0,Final
+19,25/07/2024,03:00,São Paulo FC,Botafogo - RJ,2-2,Final
+19,25/07/2024,03:00,Vitória - BA,Flamengo RJ,1-2,Final
+19,25/07/2024,03:00,Atlético Goianiense,Bahia - BA,1-1,Final
+19,25/07/2024,03:00,Fluminense RJ,Palmeiras,1-0,Final
+19,26/07/2024,03:00,Corinthians SP,Grêmio Porto Alegre,2-2,Final
+19,29/08/2024,03:00,Criciúma - SC,Red Bull Bragantino,1-0,Final
+19,12/09/2024,03:00,Internacional,Fortaleza - CE,2-1,Final
+19,25/10/2024,03:00,Vasco da Gama - RJ,Cuiabá - MT,1-0,Final
+19,16/11/2024,03:00,Athletico Paranaense,Atlético Mineiro,1-0,Final
+20,28/07/2024,03:00,Juventude - RS,Criciúma - SC,1-2,Final
+20,28/07/2024,03:00,Palmeiras,Vitória - BA,0-2,Final
+20,28/07/2024,03:00,Bahia - BA,Internacional,1-1,Final
+20,28/07/2024,03:00,Botafogo - RJ,Cruzeiro,0-3,Final
+20,28/07/2024,03:00,Fortaleza - CE,São Paulo FC,1-0,Final
+20,28/07/2024,03:00,Red Bull Bragantino,Fluminense RJ,0-1,Final
+20,28/07/2024,03:00,Flamengo RJ,Atlético Goianiense,2-0,Final
+20,29/07/2024,03:00,Atlético Mineiro,Corinthians SP,2-1,Final
+20,29/07/2024,03:00,Cuiabá - MT,Athletico Paranaense,1-2,Final
+20,29/07/2024,03:00,Grêmio Porto Alegre,Vasco da Gama - RJ,1-0,Final
+21,03/08/2024,03:00,Vitória - BA,Cuiabá - MT,1-0,Final
+21,04/08/2024,03:00,Vasco da Gama - RJ,Red Bull Bragantino,2-2,Final
+21,04/08/2024,03:00,Atlético Goianiense,Botafogo - RJ,1-4,Final
+21,04/08/2024,03:00,Criciúma - SC,Atlético Mineiro,2-1,Final
+21,04/08/2024,03:00,São Paulo FC,Flamengo RJ,1-0,Final
+21,04/08/2024,03:00,Athletico Paranaense,Grêmio Porto Alegre,0-2,Final
+21,04/08/2024,03:00,Corinthians SP,Juventude - RS,1-1,Final
+21,04/08/2024,03:00,Fluminense RJ,Bahia - BA,1-0,Final
+21,04/08/2024,03:00,Internacional,Palmeiras,1-1,Final
+21,06/08/2024,03:00,Cruzeiro,Fortaleza - CE,1-2,Final
+22,10/08/2024,03:00,Fortaleza - CE,Criciúma - SC,1-0,Final
+22,11/08/2024,03:00,Cuiabá - MT,Grêmio Porto Alegre,1-3,Final
+22,11/08/2024,03:00,Corinthians SP,Red Bull Bragantino,1-1,Final
+22,11/08/2024,03:00,Cruzeiro,Atlético Mineiro,0-0,Final
+22,11/08/2024,03:00,Vasco da Gama - RJ,Fluminense RJ,2-0,Final
+22,11/08/2024,03:00,Juventude - RS,Botafogo - RJ,3-2,Final
+22,11/08/2024,03:00,Bahia - BA,Vitória - BA,2-0,Final
+22,11/08/2024,03:00,Flamengo RJ,Palmeiras,1-1,Final
+22,11/08/2024,03:00,São Paulo FC,Atlético Goianiense,1-0,Final
+22,12/08/2024,03:00,Internacional,Athletico Paranaense,2-2,Final
+23,17/08/2024,03:00,Atlético Mineiro,Cuiabá - MT,1-1,Final
+23,17/08/2024,03:00,Grêmio Porto Alegre,Bahia - BA,0-2,Final
+23,17/08/2024,03:00,Red Bull Bragantino,Fortaleza - CE,1-2,Final
+23,18/08/2024,03:00,Fluminense RJ,Corinthians SP,0-0,Final
+23,18/08/2024,03:00,Atlético Goianiense,Internacional,1-0,Final
+23,18/08/2024,03:00,Criciúma - SC,Vasco da Gama - RJ,2-2,Final
+23,18/08/2024,03:00,Palmeiras,São Paulo FC,2-1,Final
+23,18/08/2024,03:00,Athletico Paranaense,Juventude - RS,1-2,Final
+23,18/08/2024,03:00,Botafogo - RJ,Flamengo RJ,4-1,Final
+23,20/08/2024,03:00,Vitória - BA,Cruzeiro,2-2,Final
+24,24/08/2024,03:00,Atlético Goianiense,Juventude - RS,2-1,Final
+24,24/08/2024,03:00,Palmeiras,Cuiabá - MT,5-0,Final
+24,25/08/2024,03:00,Atlético Mineiro,Fluminense RJ,0-2,Final
+24,25/08/2024,03:00,Bahia - BA,Botafogo - RJ,0-0,Final
+24,25/08/2024,03:00,Criciúma - SC,Grêmio Porto Alegre,0-1,Final
+24,25/08/2024,03:00,Fortaleza - CE,Corinthians SP,1-0,Final
+24,25/08/2024,03:00,São Paulo FC,Vitória - BA,2-1,Final
+24,26/08/2024,03:00,Internacional,Cruzeiro,1-0,Final
+24,26/08/2024,03:00,Flamengo RJ,Red Bull Bragantino,2-1,Final
+24,27/08/2024,03:00,Vasco da Gama - RJ,Athletico Paranaense,2-1,Final
+25,31/08/2024,03:00,Cuiabá - MT,Criciúma - SC,2-1,Final
+25,01/09/2024,03:00,Botafogo - RJ,Fortaleza - CE,2-0,Final
+25,01/09/2024,03:00,Cruzeiro,Atlético Goianiense,3-1,Final
+25,01/09/2024,03:00,Grêmio Porto Alegre,Atlético Mineiro,2-3,Final
+25,01/09/2024,03:00,Corinthians SP,Flamengo RJ,2-1,Final
+25,01/09/2024,03:00,Athletico Paranaense,Palmeiras,0-2,Final
+25,01/09/2024,03:00,Red Bull Bragantino,Bahia - BA,2-1,Final
+25,01/09/2024,03:00,Fluminense RJ,São Paulo FC,2-0,Final
+25,01/09/2024,03:00,Juventude - RS,Internacional,1-3,Final
+25,01/09/2024,03:00,Vitória - BA,Vasco da Gama - RJ,0-1,Final
+26,14/09/2024,03:00,Atlético Goianiense,Vitória - BA,0-2,Final
+26,14/09/2024,03:00,Athletico Paranaense,Fortaleza - CE,1-1,Final
+26,15/09/2024,03:00,Botafogo - RJ,Corinthians SP,2-1,Final
+26,15/09/2024,03:00,Red Bull Bragantino,Grêmio Porto Alegre,2-2,Final
+26,15/09/2024,03:00,Juventude - RS,Fluminense RJ,2-1,Final
+26,15/09/2024,03:00,Palmeiras,Criciúma - SC,5-0,Final
+26,15/09/2024,03:00,Bahia - BA,Atlético Mineiro,3-0,Final
+26,15/09/2024,03:00,Cruzeiro,São Paulo FC,0-1,Final
+26,15/09/2024,03:00,Flamengo RJ,Vasco da Gama - RJ,1-1,Final
+26,17/09/2024,03:00,Internacional,Cuiabá - MT,3-0,Final
+27,21/09/2024,03:00,Corinthians SP,Atlético Goianiense,3-0,Final
+27,21/09/2024,03:00,Vitória - BA,Juventude - RS,1-0,Final
+27,21/09/2024,03:00,Fluminense RJ,Botafogo - RJ,0-1,Final
+27,22/09/2024,03:00,Fortaleza - CE,Bahia - BA,4-1,Final
+27,22/09/2024,03:00,Atlético Mineiro,Red Bull Bragantino,3-0,Final
+27,22/09/2024,03:00,Vasco da Gama - RJ,Palmeiras,0-1,Final
+27,22/09/2024,03:00,Cuiabá - MT,Cruzeiro,0-0,Final
+27,22/09/2024,03:00,Grêmio Porto Alegre,Flamengo RJ,3-2,Final
+27,22/09/2024,03:00,São Paulo FC,Internacional,1-3,Final
+27,23/09/2024,03:00,Criciúma - SC,Athletico Paranaense,0-0,Final
+28,28/09/2024,03:00,Palmeiras,Atlético Mineiro,2-1,Final
+28,29/09/2024,03:00,Botafogo - RJ,Grêmio Porto Alegre,0-0,Final
+28,29/09/2024,03:00,Juventude - RS,Red Bull Bragantino,1-1,Final
+28,29/09/2024,03:00,Atlético Goianiense,Fluminense RJ,1-0,Final
+28,29/09/2024,03:00,Fortaleza - CE,Cuiabá - MT,1-0,Final
+28,29/09/2024,03:00,São Paulo FC,Corinthians SP,3-1,Final
+28,29/09/2024,03:00,Bahia - BA,Criciúma - SC,1-0,Final
+28,29/09/2024,03:00,Cruzeiro,Vasco da Gama - RJ,1-1,Final
+28,29/09/2024,03:00,Internacional,Vitória - BA,3-1,Final
+28,30/09/2024,03:00,Flamengo RJ,Athletico Paranaense,1-0,Final
+29,04/10/2024,03:00,Criciúma - SC,Atlético Goianiense,2-0,Final
+29,04/10/2024,03:00,Fluminense RJ,Cruzeiro,1-0,Final
+29,05/10/2024,03:00,Grêmio Porto Alegre,Fortaleza - CE,3-1,Final
+29,05/10/2024,03:00,Athletico Paranaense,Botafogo - RJ,0-1,Final
+29,05/10/2024,03:00,Atlético Mineiro,Vitória - BA,2-2,Final
+29,05/10/2024,03:00,Red Bull Bragantino,Palmeiras,0-0,Final
+29,06/10/2024,03:00,Bahia - BA,Flamengo RJ,0-2,Final
+29,06/10/2024,03:00,Corinthians SP,Internacional,2-2,Final
+29,06/10/2024,03:00,Cuiabá - MT,São Paulo FC,2-0,Final
+29,06/10/2024,03:00,Vasco da Gama - RJ,Juventude - RS,1-1,Final
+30,17/10/2024,03:00,Fortaleza - CE,Atlético Mineiro,1-1,Final
+30,17/10/2024,03:00,São Paulo FC,Vasco da Gama - RJ,3-0,Final
+30,18/10/2024,03:00,Corinthians SP,Athletico Paranaense,5-2,Final
+30,18/10/2024,03:00,Flamengo RJ,Fluminense RJ,0-2,Final
+30,19/10/2024,03:00,Atlético Goianiense,Cuiabá - MT,0-0,Final
+30,19/10/2024,03:00,Botafogo - RJ,Criciúma - SC,1-1,Final
+30,19/10/2024,03:00,Cruzeiro,Bahia - BA,1-1,Final
+30,19/10/2024,03:00,Internacional,Grêmio Porto Alegre,1-0,Final
+30,19/10/2024,03:00,Vitória - BA,Red Bull Bragantino,1-0,Final
+30,21/10/2024,03:00,Juventude - RS,Palmeiras,3-5,Final
+31,26/10/2024,03:00,Flamengo RJ,Juventude - RS,4-2,Final
+31,26/10/2024,03:00,Grêmio Porto Alegre,Atlético Goianiense,3-1,Final
+31,26/10/2024,03:00,Palmeiras,Fortaleza - CE,2-2,Final
+31,26/10/2024,03:00,Vitória - BA,Fluminense RJ,2-1,Final
+31,26/10/2024,03:00,Athletico Paranaense,Cruzeiro,3-0,Final
+31,27/10/2024,03:00,Atlético Mineiro,Internacional,1-3,Final
+31,27/10/2024,03:00,Red Bull Bragantino,Botafogo - RJ,0-1,Final
+31,27/10/2024,03:00,Criciúma - SC,São Paulo FC,1-1,Final
+31,28/10/2024,03:00,Cuiabá - MT,Corinthians SP,0-1,Final
+31,29/10/2024,03:00,Vasco da Gama - RJ,Bahia - BA,3-2,Final
+32,02/11/2024,03:00,Fluminense RJ,Grêmio Porto Alegre,2-2,Final
+32,02/11/2024,03:00,Red Bull Bragantino,Cuiabá - MT,0-0,Final
+32,02/11/2024,03:00,Athletico Paranaense,Vitória - BA,1-2,Final
+32,02/11/2024,03:00,Juventude - RS,Fortaleza - CE,0-3,Final
+32,05/11/2024,03:00,Corinthians SP,Palmeiras,2-0,Final
+32,06/11/2024,03:00,Bahia - BA,São Paulo FC,0-3,Final
+32,06/11/2024,03:00,Botafogo - RJ,Vasco da Gama - RJ,3-0,Final
+32,06/11/2024,03:00,Internacional,Criciúma - SC,2-0,Final
+32,07/11/2024,03:00,Atlético Goianiense,Atlético Mineiro,1-0,Final
+32,07/11/2024,03:00,Cruzeiro,Flamengo RJ,0-1,Final
+33,08/11/2024,03:00,Internacional,Fluminense RJ,2-0,Final
+33,09/11/2024,03:00,Palmeiras,Grêmio Porto Alegre,1-0,Final
+33,09/11/2024,03:00,Botafogo - RJ,Cuiabá - MT,0-0,Final
+33,09/11/2024,03:00,Vitória - BA,Corinthians SP,1-2,Final
+33,09/11/2024,03:00,Atlético Goianiense,Red Bull Bragantino,0-0,Final
+33,09/11/2024,03:00,Cruzeiro,Criciúma - SC,2-1,Final
+33,09/11/2024,03:00,Fortaleza - CE,Vasco da Gama - RJ,3-0,Final
+33,09/11/2024,03:00,Juventude - RS,Bahia - BA,2-1,Final
+33,10/11/2024,03:00,São Paulo FC,Athletico Paranaense,2-1,Final
+33,14/11/2024,03:00,Flamengo RJ,Atlético Mineiro,0-0,Final
+34,20/11/2024,03:00,Corinthians SP,Cruzeiro,2-1,Final
+34,20/11/2024,03:00,Athletico Paranaense,Atlético Goianiense,2-0,Final
+34,20/11/2024,03:00,Red Bull Bragantino,São Paulo FC,1-1,Final
+34,20/11/2024,03:00,Criciúma - SC,Vitória - BA,0-1,Final
+34,20/11/2024,03:00,Bahia - BA,Palmeiras,1-2,Final
+34,20/11/2024,03:00,Cuiabá - MT,Flamengo RJ,1-2,Final
+34,20/11/2024,03:00,Grêmio Porto Alegre,Juventude - RS,2-2,Final
+34,21/11/2024,03:00,Atlético Mineiro,Botafogo - RJ,0-0,Final
+34,22/11/2024,03:00,Vasco da Gama - RJ,Internacional,0-1,Final
+34,23/11/2024,03:00,Fluminense RJ,Fortaleza - CE,2-2,Final
+35,23/11/2024,03:00,Atlético Goianiense,Palmeiras,0-1,Final
+35,23/11/2024,03:00,Botafogo - RJ,Vitória - BA,1-1,Final
+35,23/11/2024,03:00,Juventude - RS,Cuiabá - MT,1-1,Final
+35,24/11/2024,03:00,São Paulo FC,Atlético Mineiro,2-2,Final
+35,24/11/2024,03:00,Bahia - BA,Athletico Paranaense,1-1,Final
+35,24/11/2024,03:00,Corinthians SP,Vasco da Gama - RJ,3-1,Final
+35,24/11/2024,03:00,Internacional,Red Bull Bragantino,4-1,Final
+35,26/11/2024,03:00,Fluminense RJ,Criciúma - SC,0-0,Final
+35,27/11/2024,03:00,Fortaleza - CE,Flamengo RJ,0-0,Final
+35,28/11/2024,03:00,Cruzeiro,Grêmio Porto Alegre,1-1,Final
+36,27/11/2024,03:00,Atlético Mineiro,Juventude - RS,2-3,Final
+36,27/11/2024,03:00,Palmeiras,Botafogo - RJ,1-3,Final
+36,30/11/2024,03:00,Criciúma - SC,Corinthians SP,2-4,Final
+36,30/11/2024,03:00,Cuiabá - MT,Bahia - BA,1-2,Final
+36,01/12/2024,03:00,Vasco da Gama - RJ,Atlético Goianiense,2-2,Final
+36,01/12/2024,03:00,Flamengo RJ,Internacional,3-2,Final
+36,01/12/2024,03:00,Grêmio Porto Alegre,São Paulo FC,2-1,Final
+36,01/12/2024,03:00,Athletico Paranaense,Fluminense RJ,1-1,Final
+36,01/12/2024,03:00,Red Bull Bragantino,Cruzeiro,1-1,Final
+36,01/12/2024,03:00,Vitória - BA,Fortaleza - CE,2-0,Final
+37,04/12/2024,03:00,Corinthians SP,Bahia - BA,3-0,Final
+37,04/12/2024,03:00,Vasco da Gama - RJ,Atlético Mineiro,2-0,Final
+37,05/12/2024,03:00,Criciúma - SC,Flamengo RJ,0-3,Final
+37,05/12/2024,03:00,São Paulo FC,Juventude - RS,1-2,Final
+37,05/12/2024,03:00,Vitória - BA,Grêmio Porto Alegre,1-1,Final
+37,05/12/2024,03:00,Atlético Goianiense,Fortaleza - CE,3-1,Final
+37,05/12/2024,03:00,Cruzeiro,Palmeiras,1-2,Final
+37,05/12/2024,03:00,Internacional,Botafogo - RJ,0-1,Final
+37,06/12/2024,03:00,Athletico Paranaense,Red Bull Bragantino,1-2,Final
+37,06/12/2024,03:00,Fluminense RJ,Cuiabá - MT,1-0,Final
+38,08/12/2024,03:00,Atlético Mineiro,Athletico Paranaense,1-0,Final
+38,08/12/2024,03:00,Bahia - BA,Atlético Goianiense,2-0,Final
+38,08/12/2024,03:00,Botafogo - RJ,São Paulo FC,2-1,Final
+38,08/12/2024,03:00,Red Bull Bragantino,Criciúma - SC,5-1,Final
+38,08/12/2024,03:00,Cuiabá - MT,Vasco da Gama - RJ,1-2,Final
+38,08/12/2024,03:00,Flamengo RJ,Vitória - BA,2-2,Final
+38,08/12/2024,03:00,Fortaleza - CE,Internacional,3-0,Final
+38,08/12/2024,03:00,Grêmio Porto Alegre,Corinthians SP,0-3,Final
+38,08/12/2024,03:00,Juventude - RS,Cruzeiro,0-1,Final
+38,08/12/2024,03:00,Palmeiras,Fluminense RJ,0-1,Final

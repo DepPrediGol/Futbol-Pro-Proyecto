@@ -1,0 +1,409 @@
+matchday,date,time,home_team,away_team,result,status
+1,09/03/2024,03:00,Memphis 901,Las Vegas Lights FC,2-1,Final
+1,09/03/2024,03:00,New Mexico United,Pittsburgh Riverhounds,1-0,Final
+1,10/03/2024,03:00,Miami FC,Colorado Springs Switchbacks,2-0,Final
+1,10/03/2024,03:00,North Carolina FC,Charleston Battery,0-0,Final
+1,10/03/2024,03:00,San Antonio FC,Loudoun United,2-2,Final
+1,10/03/2024,03:00,El Paso Locomotive,Hartford Athletic,0-1,Final
+1,10/03/2024,03:00,Phoenix Rising,Birmingham Legion,0-1,Final
+1,10/03/2024,03:00,Oakland Roots,Indy Eleven,2-1,Final
+1,10/03/2024,03:00,Sacramento Republic,Orange County SC,2-2,Final
+1,14/03/2024,03:00,El Paso Locomotive,Monterey Bay FC,1-1,Final
+2,16/03/2024,03:00,El Paso Locomotive,Louisville City FC,0-1,Final
+2,16/03/2024,03:00,Loudoun United,North Carolina FC,3-1,Final
+2,16/03/2024,03:00,Memphis 901,Indy Eleven,1-2,Final
+2,16/03/2024,03:00,Rhode Island FC,New Mexico United,1-1,Final
+2,17/03/2024,03:00,Miami FC,Sacramento Republic,0-1,Final
+2,17/03/2024,03:00,Pittsburgh Riverhounds,Orange County SC,0-2,Final
+2,17/03/2024,03:00,Tampa Bay Rowdies,San Antonio FC,2-2,Final
+2,17/03/2024,03:00,Colorado Springs Switchbacks,Detroit City FC,1-2,Final
+2,17/03/2024,03:00,Las Vegas Lights FC,FC Tulsa,1-3,Final
+2,17/03/2024,03:00,Monterey Bay FC,Phoenix Rising,1-0,Final
+2,17/03/2024,03:00,Oakland Roots,Charleston Battery,1-1,Final
+3,23/03/2024,03:00,Hartford Athletic,Birmingham Legion,1-0,Final
+3,23/03/2024,03:00,Detroit City FC,Loudoun United,2-1,Final
+3,23/03/2024,03:00,Louisville City FC,Pittsburgh Riverhounds,3-1,Final
+3,24/03/2024,03:00,Indy Eleven,Sacramento Republic,1-1,Final
+3,24/03/2024,03:00,North Carolina FC,Tampa Bay Rowdies,1-1,Final
+3,24/03/2024,03:00,Charleston Battery,New Mexico United,4-0,Final
+3,24/03/2024,03:00,Las Vegas Lights FC,El Paso Locomotive,1-0,Final
+3,24/03/2024,03:00,San Antonio FC,Colorado Springs Switchbacks,2-0,Final
+3,24/03/2024,03:00,Orange County SC,Miami FC,2-2,Final
+3,24/03/2024,03:00,Phoenix Rising,Oakland Roots,1-0,Final
+3,24/03/2024,03:00,Monterey Bay FC,Rhode Island FC,2-2,Final
+4,30/03/2024,03:00,North Carolina FC,Hartford Athletic,2-1,Final
+4,30/03/2024,03:00,Louisville City FC,Birmingham Legion,5-0,Final
+4,31/03/2024,03:00,Indy Eleven,Detroit City FC,1-2,Final
+4,31/03/2024,03:00,Miami FC,Charleston Battery,1-2,Final
+4,31/03/2024,03:00,Tampa Bay Rowdies,Rhode Island FC,4-1,Final
+4,31/03/2024,03:00,San Antonio FC,Monterey Bay FC,2-1,Final
+4,31/03/2024,03:00,Oakland Roots,Las Vegas Lights FC,0-3,Final
+4,31/03/2024,03:00,Orange County SC,FC Tulsa,1-0,Final
+4,31/03/2024,03:00,Sacramento Republic,Memphis 901,1-0,Final
+4,31/03/2024,03:00,Phoenix Rising,New Mexico United,0-1,Final
+5,06/04/2024,03:00,FC Tulsa,Phoenix Rising,3-3,Final
+5,06/04/2024,03:00,Detroit City FC,North Carolina FC,1-0,Final
+5,06/04/2024,03:00,Hartford Athletic,Miami FC,3-2,Final
+5,06/04/2024,03:00,Louisville City FC,Indy Eleven,5-3,Final
+5,06/04/2024,03:00,Memphis 901,Orange County SC,0-2,Final
+5,07/04/2024,03:00,Pittsburgh Riverhounds,Tampa Bay Rowdies,0-0,Final
+5,07/04/2024,03:00,Rhode Island FC,Charleston Battery,0-0,Final
+5,07/04/2024,03:00,Colorado Springs Switchbacks,Sacramento Republic,0-2,Final
+5,07/04/2024,03:00,New Mexico United,El Paso Locomotive,3-2,Final
+5,07/04/2024,03:00,Oakland Roots,Monterey Bay FC,0-1,Final
+5,07/04/2024,03:00,Las Vegas Lights FC,San Antonio FC,1-0,Final
+5,07/04/2024,03:00,Birmingham Legion,Loudoun United,3-1,Final
+6,10/04/2024,03:00,Charleston Battery,Louisville City FC,3-2,Final
+6,12/04/2024,03:00,Miami FC,Tampa Bay Rowdies,2-5,Final
+6,13/04/2024,03:00,Loudoun United,Memphis 901,2-1,Final
+6,14/04/2024,03:00,Indy Eleven,Charleston Battery,2-4,Final
+6,14/04/2024,03:00,Rhode Island FC,Pittsburgh Riverhounds,0-0,Final
+6,14/04/2024,03:00,San Antonio FC,Orange County SC,0-0,Final
+6,14/04/2024,03:00,El Paso Locomotive,Oakland Roots,2-3,Final
+6,14/04/2024,03:00,Monterey Bay FC,Las Vegas Lights FC,3-1,Final
+6,14/04/2024,03:00,Sacramento Republic,FC Tulsa,1-1,Final
+6,14/04/2024,03:00,Phoenix Rising,Colorado Springs Switchbacks,1-0,Final
+6,14/04/2024,03:00,North Carolina FC,Birmingham Legion,1-1,Final
+7,20/04/2024,03:00,Detroit City FC,Oakland Roots,3-1,Final
+7,20/04/2024,03:00,Loudoun United,Louisville City FC,0-1,Final
+7,20/04/2024,03:00,Hartford Athletic,San Antonio FC,1-3,Final
+7,21/04/2024,03:00,FC Tulsa,Charleston Battery,1-4,Final
+7,21/04/2024,03:00,Miami FC,Birmingham Legion,0-1,Final
+7,21/04/2024,03:00,North Carolina FC,New Mexico United,2-3,Final
+7,21/04/2024,03:00,Tampa Bay Rowdies,El Paso Locomotive,1-1,Final
+7,21/04/2024,03:00,Colorado Springs Switchbacks,Indy Eleven,1-1,Final
+7,21/04/2024,03:00,Las Vegas Lights FC,Rhode Island FC,1-2,Final
+7,21/04/2024,03:00,Memphis 901,Monterey Bay FC,1-2,Final
+7,21/04/2024,03:00,Orange County SC,Sacramento Republic,0-2,Final
+7,21/04/2024,03:00,Phoenix Rising,Pittsburgh Riverhounds,1-3,Final
+8,27/04/2024,03:00,Rhode Island FC,Phoenix Rising,1-3,Final
+8,27/04/2024,03:00,Charleston Battery,Las Vegas Lights FC,6-0,Final
+8,28/04/2024,03:00,Indy Eleven,North Carolina FC,2-1,Final
+8,28/04/2024,03:00,Miami FC,San Antonio FC,2-1,Final
+8,28/04/2024,03:00,Pittsburgh Riverhounds,Detroit City FC,2-0,Final
+8,28/04/2024,03:00,Birmingham Legion,Memphis 901,0-3,Final
+8,28/04/2024,03:00,Louisville City FC,Hartford Athletic,6-0,Final
+8,28/04/2024,03:00,Tampa Bay Rowdies,New Mexico United,3-0,Final
+8,28/04/2024,03:00,El Paso Locomotive,FC Tulsa,0-1,Final
+8,28/04/2024,03:00,Oakland Roots,Colorado Springs Switchbacks,0-2,Final
+8,28/04/2024,03:00,Orange County SC,Monterey Bay FC,2-0,Final
+8,28/04/2024,03:00,Sacramento Republic,Loudoun United,3-1,Final
+9,04/05/2024,03:00,Memphis 901,Tampa Bay Rowdies,4-1,Final
+9,05/05/2024,03:00,Charleston Battery,Hartford Athletic,1-0,Final
+9,05/05/2024,03:00,Loudoun United,Detroit City FC,0-0,Final
+9,05/05/2024,03:00,North Carolina FC,Rhode Island FC,0-0,Final
+9,05/05/2024,03:00,Pittsburgh Riverhounds,Miami FC,1-0,Final
+9,05/05/2024,03:00,Birmingham Legion,FC Tulsa,2-2,Final
+9,05/05/2024,03:00,San Antonio FC,Oakland Roots,2-2,Final
+9,05/05/2024,03:00,Colorado Springs Switchbacks,El Paso Locomotive,2-0,Final
+9,05/05/2024,03:00,Monterey Bay FC,Indy Eleven,0-1,Final
+9,05/05/2024,03:00,Las Vegas Lights FC,New Mexico United,1-2,Final
+9,05/05/2024,03:00,Phoenix Rising,Sacramento Republic,1-1,Final
+10,11/05/2024,03:00,Loudoun United,El Paso Locomotive,0-2,Final
+10,11/05/2024,03:00,Detroit City FC,Phoenix Rising,1-1,Final
+10,12/05/2024,03:00,Hartford Athletic,Colorado Springs Switchbacks,0-2,Final
+10,12/05/2024,03:00,Louisville City FC,Orange County SC,3-0,Final
+10,12/05/2024,03:00,Rhode Island FC,Sacramento Republic,2-2,Final
+10,12/05/2024,03:00,Tampa Bay Rowdies,Birmingham Legion,0-1,Final
+10,12/05/2024,03:00,FC Tulsa,Pittsburgh Riverhounds,2-2,Final
+10,12/05/2024,03:00,San Antonio FC,Las Vegas Lights FC,1-1,Final
+10,12/05/2024,03:00,New Mexico United,Oakland Roots,2-1,Final
+10,12/05/2024,03:00,Monterey Bay FC,Memphis 901,2-2,Final
+10,13/05/2024,03:00,Miami FC,Indy Eleven,1-3,Final
+11,15/05/2024,03:00,North Carolina FC,Loudoun United,2-0,Final
+11,16/05/2024,03:00,Birmingham Legion,Charleston Battery,0-1,Final
+11,18/05/2024,03:00,Colorado Springs Switchbacks,Rhode Island FC,3-1,Final
+11,18/05/2024,03:00,El Paso Locomotive,Memphis 901,1-2,Final
+11,19/05/2024,03:00,Indy Eleven,Hartford Athletic,4-1,Final
+11,19/05/2024,03:00,Loudoun United,Monterey Bay FC,3-0,Final
+11,19/05/2024,03:00,Pittsburgh Riverhounds,North Carolina FC,1-1,Final
+11,19/05/2024,03:00,Tampa Bay Rowdies,FC Tulsa,5-0,Final
+11,19/05/2024,03:00,Oakland Roots,Orange County SC,2-1,Final
+11,19/05/2024,03:00,Las Vegas Lights FC,Louisville City FC,2-2,Final
+11,19/05/2024,03:00,Phoenix Rising,Miami FC,2-0,Final
+12,25/05/2024,03:00,Charleston Battery,El Paso Locomotive,1-2,Final
+12,25/05/2024,03:00,Hartford Athletic,Monterey Bay FC,2-1,Final
+12,25/05/2024,03:00,FC Tulsa,Oakland Roots,0-1,Final
+12,25/05/2024,03:00,Rhode Island FC,Louisville City FC,0-0,Final
+12,26/05/2024,03:00,Indy Eleven,Phoenix Rising,2-1,Final
+12,26/05/2024,03:00,Miami FC,North Carolina FC,0-4,Final
+12,26/05/2024,03:00,Tampa Bay Rowdies,Las Vegas Lights FC,1-0,Final
+12,26/05/2024,03:00,Memphis 901,Pittsburgh Riverhounds,2-0,Final
+12,26/05/2024,03:00,New Mexico United,San Antonio FC,2-1,Final
+12,26/05/2024,03:00,Orange County SC,Loudoun United,0-2,Final
+12,26/05/2024,03:00,Sacramento Republic,Birmingham Legion,0-0,Final
+13,30/05/2024,03:00,Louisville City FC,Detroit City FC,5-1,Final
+13,30/05/2024,03:00,Monterey Bay FC,Charleston Battery,0-0,Final
+13,02/06/2024,03:00,Hartford Athletic,Rhode Island FC,1-1,Final
+13,02/06/2024,03:00,Loudoun United,FC Tulsa,3-0,Final
+13,02/06/2024,03:00,Miami FC,Louisville City FC,1-2,Final
+13,02/06/2024,03:00,Pittsburgh Riverhounds,Indy Eleven,1-2,Final
+13,02/06/2024,03:00,Colorado Springs Switchbacks,Oakland Roots,1-0,Final
+13,02/06/2024,03:00,El Paso Locomotive,Birmingham Legion,1-3,Final
+13,02/06/2024,03:00,San Antonio FC,Memphis 901,1-0,Final
+13,02/06/2024,03:00,Orange County SC,Detroit City FC,3-2,Final
+13,02/06/2024,03:00,Sacramento Republic,Tampa Bay Rowdies,0-1,Final
+13,02/06/2024,03:00,Las Vegas Lights FC,Phoenix Rising,0-0,Final
+13,03/06/2024,03:00,Monterey Bay FC,New Mexico United,1-0,Final
+14,06/06/2024,03:00,San Antonio FC,El Paso Locomotive,0-1,Final
+14,09/06/2024,03:00,Charleston Battery,Pittsburgh Riverhounds,0-0,Final
+14,09/06/2024,03:00,Rhode Island FC,Detroit City FC,0-2,Final
+14,09/06/2024,03:00,Louisville City FC,North Carolina FC,2-1,Final
+14,09/06/2024,03:00,FC Tulsa,San Antonio FC,2-1,Final
+14,09/06/2024,03:00,Memphis 901,Colorado Springs Switchbacks,1-1,Final
+14,09/06/2024,03:00,New Mexico United,Hartford Athletic,1-0,Final
+14,09/06/2024,03:00,Monterey Bay FC,Sacramento Republic,0-2,Final
+14,09/06/2024,03:00,Oakland Roots,Tampa Bay Rowdies,1-0,Final
+14,09/06/2024,03:00,Las Vegas Lights FC,Miami FC,3-1,Final
+14,09/06/2024,03:00,Phoenix Rising,Orange County SC,2-1,Final
+14,10/06/2024,03:00,Birmingham Legion,Indy Eleven,0-1,Final
+15,13/06/2024,03:00,Memphis 901,Rhode Island FC,2-2,Final
+15,15/06/2024,03:00,Loudoun United,Las Vegas Lights FC,1-1,Final
+15,15/06/2024,03:00,Detroit City FC,Charleston Battery,2-0,Final
+15,16/06/2024,03:00,Hartford Athletic,Pittsburgh Riverhounds,2-0,Final
+15,16/06/2024,03:00,Indy Eleven,San Antonio FC,1-0,Final
+15,16/06/2024,03:00,Tampa Bay Rowdies,Louisville City FC,3-2,Final
+15,16/06/2024,03:00,Memphis 901,New Mexico United,2-1,Final
+15,16/06/2024,03:00,Colorado Springs Switchbacks,Orange County SC,4-2,Final
+15,16/06/2024,03:00,El Paso Locomotive,Phoenix Rising,1-1,Final
+15,16/06/2024,03:00,Sacramento Republic,Oakland Roots,2-3,Final
+15,17/06/2024,03:00,North Carolina FC,Monterey Bay FC,2-0,Final
+16,19/06/2024,03:00,Las Vegas Lights FC,Colorado Springs Switchbacks,3-3,Final
+16,20/06/2024,03:00,Pittsburgh Riverhounds,Louisville City FC,0-1,Final
+16,20/06/2024,03:00,Birmingham Legion,San Antonio FC,3-0,Final
+16,20/06/2024,03:00,FC Tulsa,Miami FC,2-1,Final
+16,20/06/2024,03:00,Oakland Roots,El Paso Locomotive,2-1,Final
+16,22/06/2024,03:00,Hartford Athletic,Tampa Bay Rowdies,0-1,Final
+16,23/06/2024,03:00,Monterey Bay FC,Oakland Roots,2-1,Final
+16,23/06/2024,03:00,Indy Eleven,Orange County SC,0-1,Final
+16,23/06/2024,03:00,North Carolina FC,Pittsburgh Riverhounds,0-0,Final
+16,23/06/2024,03:00,Miami FC,Loudoun United,2-2,Final
+16,23/06/2024,03:00,Louisville City FC,Rhode Island FC,2-5,Final
+16,23/06/2024,03:00,FC Tulsa,Sacramento Republic,0-0,Final
+16,23/06/2024,03:00,New Mexico United,Colorado Springs Switchbacks,1-0,Final
+16,23/06/2024,03:00,Las Vegas Lights FC,Memphis 901,1-1,Final
+16,23/06/2024,03:00,Phoenix Rising,Charleston Battery,0-0,Final
+17,27/06/2024,03:00,Detroit City FC,Birmingham Legion,1-2,Final
+17,27/06/2024,03:00,Rhode Island FC,El Paso Locomotive,3-0,Final
+17,29/06/2024,03:00,Charleston Battery,North Carolina FC,5-2,Final
+17,29/06/2024,03:00,Memphis 901,Phoenix Rising,5-1,Final
+17,30/06/2024,03:00,Miami FC,Detroit City FC,0-4,Final
+17,30/06/2024,03:00,Birmingham Legion,Louisville City FC,1-4,Final
+17,30/06/2024,03:00,Loudoun United,Tampa Bay Rowdies,2-0,Final
+17,30/06/2024,03:00,Colorado Springs Switchbacks,Monterey Bay FC,1-0,Final
+17,30/06/2024,03:00,San Antonio FC,New Mexico United,2-3,Final
+17,30/06/2024,03:00,Orange County SC,Oakland Roots,0-2,Final
+17,30/06/2024,03:00,Las Vegas Lights FC,Pittsburgh Riverhounds,2-0,Final
+17,30/06/2024,03:00,Sacramento Republic,Hartford Athletic,1-0,Final
+18,04/07/2024,03:00,Loudoun United,Hartford Athletic,3-0,Final
+18,04/07/2024,03:00,New Mexico United,Orange County SC,2-0,Final
+18,04/07/2024,03:00,Sacramento Republic,Las Vegas Lights FC,0-1,Final
+18,05/07/2024,03:00,Colorado Springs Switchbacks,FC Tulsa,1-0,Final
+18,06/07/2024,03:00,Charleston Battery,Birmingham Legion,2-0,Final
+18,06/07/2024,03:00,Rhode Island FC,Indy Eleven,3-3,Final
+18,07/07/2024,03:00,Detroit City FC,Tampa Bay Rowdies,1-1,Final
+18,07/07/2024,03:00,Pittsburgh Riverhounds,Monterey Bay FC,0-1,Final
+18,07/07/2024,03:00,North Carolina FC,Miami FC,4-1,Final
+18,07/07/2024,03:00,San Antonio FC,Phoenix Rising,2-1,Final
+18,07/07/2024,03:00,Oakland Roots,Louisville City FC,1-0,Final
+18,07/07/2024,03:00,Orange County SC,Memphis 901,4-1,Final
+19,13/07/2024,03:00,Hartford Athletic,Charleston Battery,2-2,Final
+19,13/07/2024,03:00,El Paso Locomotive,Las Vegas Lights FC,0-2,Final
+19,13/07/2024,03:00,Detroit City FC,Memphis 901,0-1,Final
+19,14/07/2024,03:00,Indy Eleven,Loudoun United,1-1,Final
+19,14/07/2024,03:00,Miami FC,Rhode Island FC,2-3,Final
+19,14/07/2024,03:00,Pittsburgh Riverhounds,Oakland Roots,5-0,Final
+19,14/07/2024,03:00,Birmingham Legion,Colorado Springs Switchbacks,2-1,Final
+19,14/07/2024,03:00,Tampa Bay Rowdies,Orange County SC,2-0,Final
+19,14/07/2024,03:00,Monterey Bay FC,FC Tulsa,0-0,Final
+19,14/07/2024,03:00,Sacramento Republic,North Carolina FC,0-0,Final
+20,18/07/2024,03:00,Birmingham Legion,Rhode Island FC,1-3,Final
+20,20/07/2024,03:00,Charleston Battery,Miami FC,2-0,Final
+20,20/07/2024,03:00,North Carolina FC,Detroit City FC,1-1,Final
+20,20/07/2024,03:00,Louisville City FC,Colorado Springs Switchbacks,2-1,Final
+20,20/07/2024,03:00,Phoenix Rising,El Paso Locomotive,2-0,Final
+20,21/07/2024,03:00,Indy Eleven,Tampa Bay Rowdies,0-2,Final
+20,21/07/2024,03:00,Pittsburgh Riverhounds,Hartford Athletic,3-1,Final
+20,21/07/2024,03:00,FC Tulsa,Memphis 901,1-0,Final
+20,21/07/2024,03:00,New Mexico United,Birmingham Legion,1-1,Final
+20,21/07/2024,03:00,Orange County SC,San Antonio FC,2-0,Final
+20,21/07/2024,03:00,Oakland Roots,Sacramento Republic,2-5,Final
+21,24/07/2024,03:00,Loudoun United,Charleston Battery,1-2,Final
+21,27/07/2024,03:00,Hartford Athletic,Phoenix Rising,0-0,Final
+21,27/07/2024,03:00,FC Tulsa,Indy Eleven,0-0,Final
+21,27/07/2024,03:00,Colorado Springs Switchbacks,Las Vegas Lights FC,1-1,Final
+21,28/07/2024,03:00,Detroit City FC,Sacramento Republic,0-1,Final
+21,28/07/2024,03:00,Miami FC,Oakland Roots,1-2,Final
+21,28/07/2024,03:00,Pittsburgh Riverhounds,Loudoun United,1-1,Final
+21,28/07/2024,03:00,Birmingham Legion,Orange County SC,3-0,Final
+21,28/07/2024,03:00,Rhode Island FC,North Carolina FC,2-1,Final
+21,28/07/2024,03:00,Tampa Bay Rowdies,Charleston Battery,4-2,Final
+21,28/07/2024,03:00,Louisville City FC,Monterey Bay FC,4-1,Final
+21,28/07/2024,03:00,Memphis 901,San Antonio FC,1-0,Final
+21,28/07/2024,03:00,El Paso Locomotive,New Mexico United,1-2,Final
+22,01/08/2024,03:00,Hartford Athletic,Detroit City FC,1-0,Final
+22,01/08/2024,03:00,New Mexico United,Las Vegas Lights FC,1-2,Final
+22,03/08/2024,03:00,Charleston Battery,Indy Eleven,5-0,Final
+22,03/08/2024,03:00,Detroit City FC,Rhode Island FC,1-1,Final
+22,04/08/2024,03:00,Birmingham Legion,Hartford Athletic,2-2,Final
+22,04/08/2024,03:00,Loudoun United,Miami FC,4-1,Final
+22,04/08/2024,03:00,Memphis 901,El Paso Locomotive,0-0,Final
+22,04/08/2024,03:00,Colorado Springs Switchbacks,Phoenix Rising,2-0,Final
+22,04/08/2024,03:00,New Mexico United,Louisville City FC,0-1,Final
+22,04/08/2024,03:00,San Antonio FC,FC Tulsa,1-3,Final
+22,04/08/2024,03:00,Monterey Bay FC,Tampa Bay Rowdies,2-2,Final
+22,04/08/2024,03:00,Orange County SC,North Carolina FC,0-1,Final
+22,04/08/2024,03:00,Sacramento Republic,Pittsburgh Riverhounds,0-1,Final
+23,08/08/2024,03:00,Detroit City FC,Pittsburgh Riverhounds,0-0,Final
+23,08/08/2024,03:00,Indy Eleven,Rhode Island FC,1-0,Final
+23,10/08/2024,03:00,FC Tulsa,Orange County SC,0-0,Final
+23,11/08/2024,03:00,Pittsburgh Riverhounds,San Antonio FC,0-0,Final
+23,11/08/2024,03:00,Charleston Battery,Memphis 901,3-1,Final
+23,11/08/2024,03:00,North Carolina FC,Colorado Springs Switchbacks,4-1,Final
+23,11/08/2024,03:00,Rhode Island FC,Hartford Athletic,3-0,Final
+23,11/08/2024,03:00,El Paso Locomotive,Miami FC,2-1,Final
+23,11/08/2024,03:00,Louisville City FC,Sacramento Republic,4-3,Final
+23,11/08/2024,03:00,Monterey Bay FC,Birmingham Legion,1-2,Final
+23,11/08/2024,03:00,Oakland Roots,Loudoun United,3-1,Final
+23,11/08/2024,03:00,Las Vegas Lights FC,Detroit City FC,1-1,Final
+23,11/08/2024,03:00,Phoenix Rising,Tampa Bay Rowdies,0-0,Final
+23,11/08/2024,03:00,Indy Eleven,New Mexico United,1-3,Final
+24,15/08/2024,03:00,Miami FC,Memphis 901,1-5,Final
+24,15/08/2024,03:00,New Mexico United,FC Tulsa,3-3,Final
+24,15/08/2024,03:00,Sacramento Republic,El Paso Locomotive,2-0,Final
+24,17/08/2024,03:00,Birmingham Legion,Detroit City FC,0-1,Final
+24,18/08/2024,03:00,Hartford Athletic,Las Vegas Lights FC,2-1,Final
+24,18/08/2024,03:00,Pittsburgh Riverhounds,Colorado Springs Switchbacks,2-2,Final
+24,18/08/2024,03:00,Rhode Island FC,Oakland Roots,1-1,Final
+24,18/08/2024,03:00,Tampa Bay Rowdies,Loudoun United,0-2,Final
+24,18/08/2024,03:00,Louisville City FC,Charleston Battery,3-1,Final
+24,18/08/2024,03:00,Memphis 901,FC Tulsa,2-0,Final
+24,18/08/2024,03:00,New Mexico United,Monterey Bay FC,3-2,Final
+24,18/08/2024,03:00,San Antonio FC,North Carolina FC,1-0,Final
+24,18/08/2024,03:00,Orange County SC,El Paso Locomotive,0-1,Final
+25,22/08/2024,03:00,Tampa Bay Rowdies,Detroit City FC,2-3,Final
+25,25/08/2024,03:00,Detroit City FC,FC Tulsa,0-1,Final
+25,25/08/2024,03:00,Hartford Athletic,Louisville City FC,2-1,Final
+25,25/08/2024,03:00,Birmingham Legion,Pittsburgh Riverhounds,0-3,Final
+25,25/08/2024,03:00,Charleston Battery,Orange County SC,6-0,Final
+25,25/08/2024,03:00,Loudoun United,Rhode Island FC,0-0,Final
+25,25/08/2024,03:00,Tampa Bay Rowdies,Miami FC,2-0,Final
+25,25/08/2024,03:00,Colorado Springs Switchbacks,New Mexico United,0-1,Final
+25,25/08/2024,03:00,Monterey Bay FC,El Paso Locomotive,0-0,Final
+25,25/08/2024,03:00,Oakland Roots,Memphis 901,1-1,Final
+25,25/08/2024,03:00,Las Vegas Lights FC,Indy Eleven,3-2,Final
+25,25/08/2024,03:00,Phoenix Rising,North Carolina FC,0-0,Final
+25,25/08/2024,03:00,Sacramento Republic,San Antonio FC,1-0,Final
+26,29/08/2024,03:00,Colorado Springs Switchbacks,Memphis 901,3-1,Final
+26,01/09/2024,03:00,Oakland Roots,New Mexico United,1-0,Final
+26,01/09/2024,03:00,Detroit City FC,Hartford Athletic,1-1,Final
+26,01/09/2024,03:00,Indy Eleven,Pittsburgh Riverhounds,1-1,Final
+26,01/09/2024,03:00,Miami FC,Monterey Bay FC,1-0,Final
+26,01/09/2024,03:00,Loudoun United,Phoenix Rising,0-1,Final
+26,01/09/2024,03:00,North Carolina FC,Louisville City FC,4-6,Final
+26,01/09/2024,03:00,Rhode Island FC,Birmingham Legion,2-0,Final
+26,01/09/2024,03:00,San Antonio FC,Charleston Battery,1-1,Final
+26,01/09/2024,03:00,Orange County SC,Las Vegas Lights FC,2-3,Final
+26,02/09/2024,03:00,FC Tulsa,Colorado Springs Switchbacks,1-4,Final
+27,07/09/2024,03:00,Louisville City FC,Loudoun United,1-0,Final
+27,07/09/2024,03:00,New Mexico United,Miami FC,1-0,Final
+27,07/09/2024,03:00,Phoenix Rising,FC Tulsa,1-0,Final
+27,08/09/2024,03:00,Hartford Athletic,Indy Eleven,0-0,Final
+27,08/09/2024,03:00,Pittsburgh Riverhounds,Rhode Island FC,2-0,Final
+27,08/09/2024,03:00,Charleston Battery,Sacramento Republic,2-1,Final
+27,08/09/2024,03:00,North Carolina FC,Oakland Roots,5-0,Final
+27,08/09/2024,03:00,Colorado Springs Switchbacks,Tampa Bay Rowdies,4-2,Final
+27,08/09/2024,03:00,El Paso Locomotive,Detroit City FC,0-0,Final
+27,08/09/2024,03:00,Monterey Bay FC,San Antonio FC,0-1,Final
+28,12/09/2024,03:00,Birmingham Legion,Tampa Bay Rowdies,2-0,Final
+28,12/09/2024,03:00,Memphis 901,Hartford Athletic,0-0,Final
+28,12/09/2024,03:00,FC Tulsa,Las Vegas Lights FC,1-1,Final
+28,15/09/2024,03:00,Detroit City FC,New Mexico United,1-0,Final
+28,15/09/2024,03:00,Indy Eleven,El Paso Locomotive,3-1,Final
+28,15/09/2024,03:00,Loudoun United,Birmingham Legion,4-2,Final
+28,15/09/2024,03:00,Miami FC,Hartford Athletic,0-3,Final
+28,15/09/2024,03:00,Tampa Bay Rowdies,Pittsburgh Riverhounds,2-1,Final
+28,15/09/2024,03:00,Colorado Springs Switchbacks,Charleston Battery,2-0,Final
+28,15/09/2024,03:00,Memphis 901,North Carolina FC,3-0,Final
+28,15/09/2024,03:00,FC Tulsa,Louisville City FC,0-1,Final
+28,15/09/2024,03:00,Oakland Roots,San Antonio FC,0-1,Final
+28,15/09/2024,03:00,Orange County SC,Rhode Island FC,1-0,Final
+28,15/09/2024,03:00,Sacramento Republic,Phoenix Rising,2-0,Final
+28,15/09/2024,03:00,Las Vegas Lights FC,Monterey Bay FC,0-0,Final
+29,19/09/2024,03:00,New Mexico United,Sacramento Republic,3-1,Final
+29,22/09/2024,03:00,Hartford Athletic,Oakland Roots,2-0,Final
+29,22/09/2024,03:00,Charleston Battery,Tampa Bay Rowdies,3-1,Final
+29,22/09/2024,03:00,North Carolina FC,Indy Eleven,2-0,Final
+29,22/09/2024,03:00,Rhode Island FC,FC Tulsa,2-1,Final
+29,22/09/2024,03:00,El Paso Locomotive,Colorado Springs Switchbacks,1-1,Final
+29,22/09/2024,03:00,Monterey Bay FC,Orange County SC,0-0,Final
+29,22/09/2024,03:00,Las Vegas Lights FC,Sacramento Republic,2-1,Final
+29,22/09/2024,03:00,Phoenix Rising,San Antonio FC,4-0,Final
+29,22/09/2024,03:00,New Mexico United,Loudoun United,1-0,Final
+29,22/09/2024,03:00,Birmingham Legion,Miami FC,1-0,Final
+29,29/09/2024,03:00,Louisville City FC,Memphis 901,4-2,Final
+30,22/09/2024,03:00,Detroit City FC,Louisville City FC,2-1,Final
+30,26/09/2024,03:00,Orange County SC,Phoenix Rising,2-0,Final
+30,28/09/2024,03:00,El Paso Locomotive,North Carolina FC,1-0,Final
+30,29/09/2024,03:00,Indy Eleven,Miami FC,4-0,Final
+30,29/09/2024,03:00,Pittsburgh Riverhounds,Birmingham Legion,1-1,Final
+30,29/09/2024,03:00,Colorado Springs Switchbacks,Loudoun United,1-1,Final
+30,29/09/2024,03:00,San Antonio FC,Rhode Island FC,1-3,Final
+30,29/09/2024,03:00,Monterey Bay FC,Detroit City FC,0-2,Final
+30,29/09/2024,03:00,Phoenix Rising,Las Vegas Lights FC,1-2,Final
+30,30/09/2024,03:00,Oakland Roots,FC Tulsa,0-1,Final
+30,30/09/2024,03:00,Sacramento Republic,New Mexico United,4-0,Final
+31,03/10/2024,03:00,Louisville City FC,Miami FC,3-0,Final
+31,05/10/2024,03:00,Phoenix Rising,Monterey Bay FC,1-2,Final
+31,05/10/2024,03:00,Charleston Battery,Detroit City FC,2-2,Final
+31,06/10/2024,03:00,Hartford Athletic,Loudoun United,0-2,Final
+31,06/10/2024,03:00,Indy Eleven,Louisville City FC,2-2,Final
+31,06/10/2024,03:00,Miami FC,Pittsburgh Riverhounds,0-4,Final
+31,06/10/2024,03:00,Rhode Island FC,Tampa Bay Rowdies,3-1,Final
+31,06/10/2024,03:00,Memphis 901,Oakland Roots,1-1,Final
+31,06/10/2024,03:00,FC Tulsa,El Paso Locomotive,0-1,Final
+31,06/10/2024,03:00,San Antonio FC,Sacramento Republic,2-1,Final
+31,06/10/2024,03:00,Las Vegas Lights FC,Orange County SC,1-1,Final
+31,07/10/2024,03:00,Birmingham Legion,North Carolina FC,2-3,Final
+32,09/10/2024,03:00,Loudoun United,Indy Eleven,0-1,Final
+32,10/10/2024,03:00,North Carolina FC,FC Tulsa,2-0,Final
+32,10/10/2024,03:00,El Paso Locomotive,San Antonio FC,2-2,Final
+32,10/10/2024,03:00,New Mexico United,Phoenix Rising,1-2,Final
+32,10/10/2024,03:00,Orange County SC,Colorado Springs Switchbacks,2-0,Final
+32,10/10/2024,03:00,Sacramento Republic,Monterey Bay FC,2-2,Final
+33,12/10/2024,03:00,Detroit City FC,Indy Eleven,0-0,Final
+33,13/10/2024,03:00,Pittsburgh Riverhounds,Charleston Battery,2-0,Final
+33,13/10/2024,03:00,Hartford Athletic,North Carolina FC,4-3,Final
+33,13/10/2024,03:00,Louisville City FC,Tampa Bay Rowdies,2-1,Final
+33,13/10/2024,03:00,Colorado Springs Switchbacks,San Antonio FC,1-2,Final
+33,13/10/2024,03:00,Memphis 901,Sacramento Republic,0-0,Final
+33,13/10/2024,03:00,FC Tulsa,New Mexico United,1-1,Final
+33,13/10/2024,03:00,Oakland Roots,Phoenix Rising,0-1,Final
+33,13/10/2024,03:00,Rhode Island FC,Loudoun United,0-0,Final
+33,14/10/2024,03:00,Birmingham Legion,Las Vegas Lights FC,0-3,Final
+33,17/10/2024,03:00,El Paso Locomotive,Orange County SC,0-2,Final
+34,19/10/2024,03:00,Detroit City FC,Miami FC,3-0,Final
+34,19/10/2024,03:00,Tampa Bay Rowdies,North Carolina FC,0-2,Final
+34,20/10/2024,03:00,FC Tulsa,Hartford Athletic,1-2,Final
+34,20/10/2024,03:00,Loudoun United,Pittsburgh Riverhounds,0-2,Final
+34,20/10/2024,03:00,Indy Eleven,Birmingham Legion,3-2,Final
+34,20/10/2024,03:00,Charleston Battery,Rhode Island FC,1-1,Final
+34,20/10/2024,03:00,San Antonio FC,Louisville City FC,1-1,Final
+34,20/10/2024,03:00,El Paso Locomotive,Sacramento Republic,2-1,Final
+34,20/10/2024,03:00,Monterey Bay FC,Colorado Springs Switchbacks,0-1,Final
+34,20/10/2024,03:00,Orange County SC,New Mexico United,0-0,Final
+34,20/10/2024,03:00,Las Vegas Lights FC,Oakland Roots,2-3,Final
+34,20/10/2024,03:00,Phoenix Rising,Memphis 901,0-1,Final
+34,24/10/2024,03:00,Tampa Bay Rowdies,Hartford Athletic,2-2,Final
+35,27/10/2024,03:00,Charleston Battery,Loudoun United,2-1,Final
+35,27/10/2024,03:00,North Carolina FC,Las Vegas Lights FC,2-1,Final
+35,27/10/2024,03:00,Pittsburgh Riverhounds,El Paso Locomotive,2-0,Final
+35,27/10/2024,03:00,Louisville City FC,Phoenix Rising,4-1,Final
+35,27/10/2024,03:00,Tampa Bay Rowdies,Indy Eleven,3-0,Final
+35,27/10/2024,03:00,FC Tulsa,Monterey Bay FC,2-1,Final
+35,27/10/2024,03:00,New Mexico United,Memphis 901,2-3,Final
+35,27/10/2024,03:00,Rhode Island FC,Miami FC,8-1,Final
+35,27/10/2024,03:00,San Antonio FC,Detroit City FC,1-4,Final
+35,27/10/2024,03:00,Oakland Roots,Birmingham Legion,0-5,Final
+35,27/10/2024,03:00,Orange County SC,Hartford Athletic,3-2,Final
+35,27/10/2024,03:00,Sacramento Republic,Colorado Springs Switchbacks,0-1,Final

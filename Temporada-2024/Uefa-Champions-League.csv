@@ -1,0 +1,126 @@
+matchday,date,time,home_team,away_team,result,status
+1,20/09/2023,03:00,Galatasaray,FC København,2-2,Final
+1,20/09/2023,03:00,Bayern Munich,Manchester United,4-3,Final
+2,03/10/2023,03:00,FC København,Bayern Munich,1-2,Final
+2,03/10/2023,03:00,Manchester United,Galatasaray,2-3,Final
+3,24/10/2023,03:00,Galatasaray,Bayern Munich,1-3,Final
+3,24/10/2023,03:00,Manchester United,FC København,1-0,Final
+4,08/11/2023,03:00,Bayern Munich,Galatasaray,2-1,Final
+4,08/11/2023,03:00,FC København,Manchester United,4-3,Final
+5,29/11/2023,03:00,Galatasaray,Manchester United,3-3,Final
+5,29/11/2023,03:00,Bayern Munich,FC København,0-0,Final
+6,12/12/2023,03:00,Manchester United,Bayern Munich,0-1,Final
+6,12/12/2023,03:00,FC København,Galatasaray,1-0,Final
+1,20/09/2023,03:00,Arsenal FC,PSV Eindhoven,4-0,Final
+1,20/09/2023,03:00,Sevilla FC,RC Lens,1-1,Final
+2,03/10/2023,03:00,RC Lens,Arsenal FC,2-1,Final
+2,03/10/2023,03:00,PSV Eindhoven,Sevilla FC,2-2,Final
+3,24/10/2023,03:00,Sevilla FC,Arsenal FC,1-2,Final
+3,24/10/2023,03:00,RC Lens,PSV Eindhoven,1-1,Final
+4,08/11/2023,03:00,Arsenal FC,Sevilla FC,2-0,Final
+4,08/11/2023,03:00,PSV Eindhoven,RC Lens,1-0,Final
+5,29/11/2023,03:00,Sevilla FC,PSV Eindhoven,2-3,Final
+5,29/11/2023,03:00,Arsenal FC,RC Lens,6-0,Final
+6,12/12/2023,03:00,PSV Eindhoven,Arsenal FC,1-1,Final
+6,12/12/2023,03:00,RC Lens,Sevilla FC,2-1,Final
+1,20/09/2023,03:00,Real Madrid,Union Berlín,1-0,Final
+1,20/09/2023,03:00,Sporting Braga,SSC Napoli,1-2,Final
+2,03/10/2023,03:00,Union Berlín,Sporting Braga,2-3,Final
+2,03/10/2023,03:00,SSC Napoli,Real Madrid,2-3,Final
+3,24/10/2023,03:00,Union Berlín,SSC Napoli,0-1,Final
+3,24/10/2023,03:00,Sporting Braga,Real Madrid,1-2,Final
+4,08/11/2023,03:00,SSC Napoli,Union Berlín,1-1,Final
+4,08/11/2023,03:00,Real Madrid,Sporting Braga,3-0,Final
+5,29/11/2023,03:00,Sporting Braga,Union Berlín,1-1,Final
+5,29/11/2023,03:00,Real Madrid,SSC Napoli,4-2,Final
+6,12/12/2023,03:00,Union Berlín,Real Madrid,2-3,Final
+6,12/12/2023,03:00,SSC Napoli,Sporting Braga,2-0,Final
+1,20/09/2023,03:00,Real Sociedad,Inter,1-1,Final
+1,20/09/2023,03:00,SL Benfica,Red Bull Salzburgo,0-2,Final
+2,03/10/2023,03:00,Red Bull Salzburgo,Real Sociedad,0-2,Final
+2,03/10/2023,03:00,Inter,SL Benfica,1-0,Final
+3,24/10/2023,03:00,Inter,Red Bull Salzburgo,2-1,Final
+3,24/10/2023,03:00,SL Benfica,Real Sociedad,0-1,Final
+4,08/11/2023,03:00,Real Sociedad,SL Benfica,3-1,Final
+4,08/11/2023,03:00,Red Bull Salzburgo,Inter,0-1,Final
+5,29/11/2023,03:00,SL Benfica,Inter,3-3,Final
+5,29/11/2023,03:00,Real Sociedad,Red Bull Salzburgo,0-0,Final
+6,12/12/2023,03:00,Inter,Real Sociedad,0-0,Final
+6,12/12/2023,03:00,Red Bull Salzburgo,SL Benfica,1-3,Final
+1,19/09/2023,03:00,Lazio Roma,Atlético de Madrid,1-1,Final
+1,19/09/2023,03:00,Feyenoord,Celtic FC,2-0,Final
+2,04/10/2023,03:00,Atlético de Madrid,Feyenoord,3-2,Final
+2,04/10/2023,03:00,Celtic FC,Lazio Roma,1-2,Final
+3,25/10/2023,03:00,Feyenoord,Lazio Roma,3-1,Final
+3,25/10/2023,03:00,Celtic FC,Atlético de Madrid,2-2,Final
+4,07/11/2023,03:00,Atlético de Madrid,Celtic FC,6-0,Final
+4,07/11/2023,03:00,Lazio Roma,Feyenoord,1-0,Final
+5,28/11/2023,03:00,Lazio Roma,Celtic FC,2-0,Final
+5,28/11/2023,03:00,Feyenoord,Atlético de Madrid,1-3,Final
+6,13/12/2023,03:00,Atlético de Madrid,Lazio Roma,2-0,Final
+6,13/12/2023,03:00,Celtic FC,Feyenoord,2-1,Final
+1,19/09/2023,03:00,AC Milan,Newcastle United,0-0,Final
+1,19/09/2023,03:00,Paris Saint-Germain,Borussia Dortmund,2-0,Final
+2,04/10/2023,03:00,Borussia Dortmund,AC Milan,0-0,Final
+2,04/10/2023,03:00,Newcastle United,Paris Saint-Germain,4-1,Final
+3,25/10/2023,03:00,Paris Saint-Germain,AC Milan,3-0,Final
+3,25/10/2023,03:00,Newcastle United,Borussia Dortmund,0-1,Final
+4,07/11/2023,03:00,Borussia Dortmund,Newcastle United,2-0,Final
+4,07/11/2023,03:00,AC Milan,Paris Saint-Germain,2-1,Final
+5,28/11/2023,03:00,AC Milan,Borussia Dortmund,1-3,Final
+5,28/11/2023,03:00,Paris Saint-Germain,Newcastle United,1-1,Final
+6,13/12/2023,03:00,Newcastle United,AC Milan,1-2,Final
+6,13/12/2023,03:00,Borussia Dortmund,Paris Saint-Germain,1-1,Final
+1,19/09/2023,03:00,BSC Young Boys,RB Leipzig,1-3,Final
+1,19/09/2023,03:00,Manchester City,Estrella Roja de Belgrado,3-1,Final
+2,04/10/2023,03:00,Estrella Roja de Belgrado,BSC Young Boys,2-2,Final
+2,04/10/2023,03:00,RB Leipzig,Manchester City,1-3,Final
+3,25/10/2023,03:00,BSC Young Boys,Manchester City,1-3,Final
+3,25/10/2023,03:00,RB Leipzig,Estrella Roja de Belgrado,3-1,Final
+4,07/11/2023,03:00,Manchester City,BSC Young Boys,3-0,Final
+4,07/11/2023,03:00,Estrella Roja de Belgrado,RB Leipzig,1-2,Final
+5,28/11/2023,03:00,BSC Young Boys,Estrella Roja de Belgrado,2-0,Final
+5,28/11/2023,03:00,Manchester City,RB Leipzig,3-2,Final
+6,13/12/2023,03:00,RB Leipzig,BSC Young Boys,2-1,Final
+6,13/12/2023,03:00,Estrella Roja de Belgrado,Manchester City,2-3,Final
+1,19/09/2023,03:00,FC Barcelona,Royal Antwerp FC,5-0,Final
+1,19/09/2023,03:00,Shajtar Donetsk,FC Porto,1-3,Final
+2,04/10/2023,03:00,Royal Antwerp FC,Shajtar Donetsk,2-3,Final
+2,04/10/2023,03:00,FC Porto,FC Barcelona,0-1,Final
+3,25/10/2023,03:00,FC Barcelona,Shajtar Donetsk,2-1,Final
+3,25/10/2023,03:00,Royal Antwerp FC,FC Porto,1-4,Final
+4,07/11/2023,03:00,Shajtar Donetsk,FC Barcelona,1-0,Final
+4,07/11/2023,03:00,FC Porto,Royal Antwerp FC,2-0,Final
+5,28/11/2023,03:00,Shajtar Donetsk,Royal Antwerp FC,1-0,Final
+5,28/11/2023,03:00,FC Barcelona,FC Porto,2-1,Final
+6,13/12/2023,03:00,Royal Antwerp FC,FC Barcelona,3-2,Final
+6,13/12/2023,03:00,FC Porto,Shajtar Donetsk,5-3,Final
+6,13/02/2024,03:00,FC København,Manchester City,1-3,Final
+6,13/02/2024,03:00,RB Leipzig,Real Madrid,0-1,Final
+6,14/02/2024,03:00,Paris Saint-Germain,Real Sociedad,2-0,Final
+6,14/02/2024,03:00,Lazio Roma,Bayern Munich,1-0,Final
+6,20/02/2024,03:00,Inter,Atlético de Madrid,1-0,Final
+6,20/02/2024,03:00,PSV Eindhoven,Borussia Dortmund,1-1,Final
+6,21/02/2024,03:00,FC Porto,Arsenal FC,1-0,Final
+6,21/02/2024,03:00,SSC Napoli,FC Barcelona,1-1,Final
+6,05/03/2024,03:00,Real Sociedad,Paris Saint-Germain,1-2,Final
+6,05/03/2024,03:00,Bayern Munich,Lazio Roma,3-0,Final
+6,06/03/2024,03:00,Manchester City,FC København,3-1,Final
+6,06/03/2024,03:00,Real Madrid,RB Leipzig,1-1,Final
+6,12/03/2024,03:00,Arsenal FC,FC Porto,4-2,Final
+6,12/03/2024,03:00,FC Barcelona,SSC Napoli,3-1,Final
+6,13/03/2024,03:00,Atlético de Madrid,Inter,3-2,Final
+6,13/03/2024,03:00,Borussia Dortmund,PSV Eindhoven,2-0,Final
+6,09/04/2024,03:00,Arsenal FC,Bayern Munich,2-2,Final
+6,09/04/2024,03:00,Real Madrid,Manchester City,3-3,Final
+6,10/04/2024,03:00,Atlético de Madrid,Borussia Dortmund,2-1,Final
+6,10/04/2024,03:00,Paris Saint-Germain,FC Barcelona,2-3,Final
+6,16/04/2024,03:00,Borussia Dortmund,Atlético de Madrid,4-2,Final
+6,16/04/2024,03:00,FC Barcelona,Paris Saint-Germain,1-4,Final
+6,17/04/2024,03:00,Bayern Munich,Arsenal FC,1-0,Final
+6,17/04/2024,03:00,Manchester City,Real Madrid,3-4,Final
+6,30/04/2024,03:00,Bayern Munich,Real Madrid,2-2,Final
+6,01/05/2024,03:00,Borussia Dortmund,Paris Saint-Germain,1-0,Final
+6,07/05/2024,03:00,Paris Saint-Germain,Borussia Dortmund,0-1,Final
+6,08/05/2024,03:00,Real Madrid,Bayern Munich,2-1,Final
+6,01/06/2024,03:00,Borussia Dortmund,Real Madrid,0-2,Final

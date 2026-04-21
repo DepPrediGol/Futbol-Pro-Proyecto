@@ -1,0 +1,381 @@
+matchday,date,time,home_team,away_team,result,status
+1,30/05/2021,03:00,Cuiabá - MT,Juventude - RS,2-2,Final
+1,30/05/2021,03:00,Bahia - BA,Santos FC,3-0,Final
+1,30/05/2021,03:00,São Paulo FC,Fluminense RJ,0-0,Final
+1,30/05/2021,03:00,Atlético Mineiro,Fortaleza - CE,1-2,Final
+1,30/05/2021,03:00,Ceará - CE,Grêmio Porto Alegre,3-2,Final
+1,30/05/2021,03:00,Flamengo RJ,Palmeiras,1-0,Final
+1,30/05/2021,03:00,Athletico Paranaense,América - MG,1-0,Final
+1,30/05/2021,03:00,Chapecoense,Red Bull Bragantino,0-3,Final
+1,30/05/2021,03:00,Corinthians SP,Atlético Goianiense,0-1,Final
+1,31/05/2021,03:00,Internacional,Sport Recife - PE,2-2,Final
+2,06/06/2021,03:00,Atlético Goianiense,São Paulo FC,2-0,Final
+2,06/06/2021,03:00,Red Bull Bragantino,Bahia - BA,3-3,Final
+2,06/06/2021,03:00,Santos FC,Ceará - CE,3-1,Final
+2,06/06/2021,03:00,Fluminense RJ,Cuiabá - MT,1-0,Final
+2,06/06/2021,03:00,América - MG,Corinthians SP,0-1,Final
+2,06/06/2021,03:00,Fortaleza - CE,Internacional,5-1,Final
+2,06/06/2021,03:00,Juventude - RS,Athletico Paranaense,0-3,Final
+2,06/06/2021,03:00,Palmeiras,Chapecoense,3-1,Final
+2,07/06/2021,03:00,Sport Recife - PE,Atlético Mineiro,0-1,Final
+2,24/11/2021,03:00,Grêmio Porto Alegre,Flamengo RJ,2-2,Final
+3,13/06/2021,03:00,Palmeiras,Corinthians SP,1-1,Final
+3,13/06/2021,03:00,Santos FC,Juventude - RS,0-0,Final
+3,13/06/2021,03:00,Atlético Mineiro,São Paulo FC,1-0,Final
+3,13/06/2021,03:00,Flamengo RJ,América - MG,2-0,Final
+3,13/06/2021,03:00,Grêmio Porto Alegre,Athletico Paranaense,0-1,Final
+3,14/06/2021,03:00,Bahia - BA,Internacional,0-1,Final
+3,14/06/2021,03:00,Red Bull Bragantino,Fluminense RJ,2-2,Final
+3,14/06/2021,03:00,Chapecoense,Ceará - CE,0-0,Final
+3,14/06/2021,03:00,Fortaleza - CE,Sport Recife - PE,1-0,Final
+3,22/07/2021,03:00,Cuiabá - MT,Atlético Goianiense,2-1,Final
+4,17/06/2021,03:00,Internacional,Atlético Mineiro,0-1,Final
+4,17/06/2021,03:00,São Paulo FC,Chapecoense,1-1,Final
+4,17/06/2021,03:00,Corinthians SP,Red Bull Bragantino,1-2,Final
+4,17/06/2021,03:00,Juventude - RS,Palmeiras,0-3,Final
+4,17/06/2021,03:00,América - MG,Cuiabá - MT,0-0,Final
+4,17/06/2021,03:00,Ceará - CE,Bahia - BA,1-2,Final
+4,18/06/2021,03:00,Atlético Goianiense,Fortaleza - CE,0-0,Final
+4,18/06/2021,03:00,Fluminense RJ,Santos FC,1-0,Final
+4,18/06/2021,03:00,Sport Recife - PE,Grêmio Porto Alegre,1-0,Final
+4,02/11/2021,03:00,Athletico Paranaense,Flamengo RJ,2-2,Final
+5,20/06/2021,03:00,Flamengo RJ,Red Bull Bragantino,2-3,Final
+5,20/06/2021,03:00,Palmeiras,América - MG,2-1,Final
+5,20/06/2021,03:00,Bahia - BA,Corinthians SP,0-0,Final
+5,20/06/2021,03:00,Internacional,Ceará - CE,1-1,Final
+5,20/06/2021,03:00,Athletico Paranaense,Atlético Goianiense,2-1,Final
+5,20/06/2021,03:00,Fortaleza - CE,Fluminense RJ,1-1,Final
+5,20/06/2021,03:00,Santos FC,São Paulo FC,2-0,Final
+5,21/06/2021,03:00,Juventude - RS,Sport Recife - PE,1-0,Final
+5,22/06/2021,03:00,Atlético Mineiro,Chapecoense,1-1,Final
+5,19/08/2021,03:00,Cuiabá - MT,Grêmio Porto Alegre,0-1,Final
+6,24/06/2021,03:00,Atlético Goianiense,Fluminense RJ,1-0,Final
+6,24/06/2021,03:00,Red Bull Bragantino,Palmeiras,3-1,Final
+6,24/06/2021,03:00,Flamengo RJ,Fortaleza - CE,2-1,Final
+6,24/06/2021,03:00,São Paulo FC,Cuiabá - MT,2-2,Final
+6,24/06/2021,03:00,América - MG,Juventude - RS,1-1,Final
+6,25/06/2021,03:00,Ceará - CE,Atlético Mineiro,2-1,Final
+6,25/06/2021,03:00,Chapecoense,Internacional,1-2,Final
+6,25/06/2021,03:00,Corinthians SP,Sport Recife - PE,2-1,Final
+6,25/06/2021,03:00,Bahia - BA,Athletico Paranaense,2-1,Final
+6,25/06/2021,03:00,Grêmio Porto Alegre,Santos FC,2-2,Final
+7,27/06/2021,03:00,Juventude - RS,Flamengo RJ,1-0,Final
+7,27/06/2021,03:00,Fluminense RJ,Corinthians SP,1-1,Final
+7,28/06/2021,03:00,Athletico Paranaense,Chapecoense,2-2,Final
+7,28/06/2021,03:00,Grêmio Porto Alegre,Fortaleza - CE,0-0,Final
+7,28/06/2021,03:00,Palmeiras,Bahia - BA,3-2,Final
+7,28/06/2021,03:00,América - MG,Internacional,1-1,Final
+7,28/06/2021,03:00,Ceará - CE,São Paulo FC,1-1,Final
+7,28/06/2021,03:00,Santos FC,Atlético Mineiro,2-0,Final
+7,28/06/2021,03:00,Sport Recife - PE,Cuiabá - MT,0-0,Final
+7,29/06/2021,03:00,Atlético Goianiense,Red Bull Bragantino,0-1,Final
+8,30/06/2021,03:00,Fluminense RJ,Athletico Paranaense,1-4,Final
+8,30/06/2021,03:00,Fortaleza - CE,Chapecoense,3-2,Final
+8,01/07/2021,03:00,Bahia - BA,América - MG,3-4,Final
+8,01/07/2021,03:00,Internacional,Palmeiras,1-2,Final
+8,01/07/2021,03:00,Santos FC,Sport Recife - PE,0-0,Final
+8,01/07/2021,03:00,Juventude - RS,Grêmio Porto Alegre,2-0,Final
+8,01/07/2021,03:00,Corinthians SP,São Paulo FC,0-0,Final
+8,01/07/2021,03:00,Red Bull Bragantino,Ceará - CE,0-0,Final
+8,02/07/2021,03:00,Atlético Mineiro,Atlético Goianiense,4-1,Final
+8,02/07/2021,03:00,Cuiabá - MT,Flamengo RJ,0-2,Final
+9,04/07/2021,03:00,América - MG,Santos FC,2-0,Final
+9,04/07/2021,03:00,Athletico Paranaense,Fortaleza - CE,2-1,Final
+9,04/07/2021,03:00,Corinthians SP,Internacional,1-1,Final
+9,04/07/2021,03:00,Chapecoense,Bahia - BA,0-2,Final
+9,04/07/2021,03:00,Flamengo RJ,Fluminense RJ,0-1,Final
+9,04/07/2021,03:00,Sport Recife - PE,Palmeiras,0-1,Final
+9,04/07/2021,03:00,Ceará - CE,Juventude - RS,2-0,Final
+9,04/07/2021,03:00,Cuiabá - MT,Atlético Mineiro,0-1,Final
+9,04/07/2021,03:00,São Paulo FC,Red Bull Bragantino,1-2,Final
+9,05/07/2021,03:00,Grêmio Porto Alegre,Atlético Goianiense,0-1,Final
+10,07/07/2021,03:00,Santos FC,Athletico Paranaense,2-1,Final
+10,07/07/2021,03:00,Bahia - BA,Juventude - RS,1-0,Final
+10,07/07/2021,03:00,Red Bull Bragantino,Cuiabá - MT,1-1,Final
+10,07/07/2021,03:00,Fortaleza - CE,América - MG,4-0,Final
+10,08/07/2021,03:00,Atlético Mineiro,Flamengo RJ,2-1,Final
+10,08/07/2021,03:00,Palmeiras,Grêmio Porto Alegre,2-0,Final
+10,08/07/2021,03:00,Atlético Goianiense,Sport Recife - PE,1-1,Final
+10,08/07/2021,03:00,Fluminense RJ,Ceará - CE,0-0,Final
+10,08/07/2021,03:00,Internacional,São Paulo FC,0-2,Final
+10,09/07/2021,03:00,Chapecoense,Corinthians SP,0-1,Final
+11,10/07/2021,03:00,Grêmio Porto Alegre,Internacional,0-0,Final
+11,10/07/2021,03:00,Palmeiras,Santos FC,3-2,Final
+11,10/07/2021,03:00,Athletico Paranaense,Red Bull Bragantino,2-2,Final
+11,11/07/2021,03:00,América - MG,Atlético Mineiro,0-1,Final
+11,11/07/2021,03:00,São Paulo FC,Bahia - BA,1-0,Final
+11,11/07/2021,03:00,Sport Recife - PE,Fluminense RJ,1-2,Final
+11,11/07/2021,03:00,Juventude - RS,Atlético Goianiense,1-1,Final
+11,11/07/2021,03:00,Cuiabá - MT,Ceará - CE,2-2,Final
+11,11/07/2021,03:00,Flamengo RJ,Chapecoense,2-1,Final
+11,12/07/2021,03:00,Fortaleza - CE,Corinthians SP,1-0,Final
+12,17/07/2021,03:00,Ceará - CE,Athletico Paranaense,1-0,Final
+12,17/07/2021,03:00,São Paulo FC,Fortaleza - CE,0-1,Final
+12,18/07/2021,03:00,Corinthians SP,Atlético Mineiro,1-2,Final
+12,18/07/2021,03:00,Fluminense RJ,Grêmio Porto Alegre,0-1,Final
+12,18/07/2021,03:00,Chapecoense,Cuiabá - MT,2-3,Final
+12,18/07/2021,03:00,Atlético Goianiense,Palmeiras,0-3,Final
+12,18/07/2021,03:00,Bahia - BA,Flamengo RJ,0-5,Final
+12,19/07/2021,03:00,Red Bull Bragantino,Santos FC,2-2,Final
+12,19/07/2021,03:00,Internacional,Juventude - RS,1-0,Final
+12,20/07/2021,03:00,América - MG,Sport Recife - PE,0-1,Final
+13,24/07/2021,03:00,Grêmio Porto Alegre,América - MG,1-1,Final
+13,25/07/2021,03:00,Palmeiras,Fluminense RJ,1-0,Final
+13,25/07/2021,03:00,Atlético Mineiro,Bahia - BA,3-0,Final
+13,25/07/2021,03:00,Flamengo RJ,São Paulo FC,5-1,Final
+13,25/07/2021,03:00,Fortaleza - CE,Red Bull Bragantino,1-0,Final
+13,25/07/2021,03:00,Athletico Paranaense,Internacional,2-1,Final
+13,25/07/2021,03:00,Santos FC,Atlético Goianiense,0-1,Final
+13,26/07/2021,03:00,Sport Recife - PE,Ceará - CE,0-0,Final
+13,26/07/2021,03:00,Juventude - RS,Chapecoense,1-0,Final
+13,27/07/2021,03:00,Cuiabá - MT,Corinthians SP,1-2,Final
+14,01/08/2021,03:00,São Paulo FC,Palmeiras,0-0,Final
+14,01/08/2021,03:00,Internacional,Cuiabá - MT,0-0,Final
+14,01/08/2021,03:00,Red Bull Bragantino,Grêmio Porto Alegre,1-0,Final
+14,01/08/2021,03:00,Atlético Mineiro,Athletico Paranaense,2-0,Final
+14,01/08/2021,03:00,Corinthians SP,Flamengo RJ,1-3,Final
+14,01/08/2021,03:00,Bahia - BA,Sport Recife - PE,0-1,Final
+14,01/08/2021,03:00,Chapecoense,Santos FC,0-1,Final
+14,02/08/2021,03:00,Atlético Goianiense,América - MG,1-1,Final
+14,02/08/2021,03:00,Ceará - CE,Fortaleza - CE,3-1,Final
+14,03/09/2021,03:00,Fluminense RJ,Juventude - RS,1-1,Final
+15,07/08/2021,03:00,Sport Recife - PE,Red Bull Bragantino,0-0,Final
+15,07/08/2021,03:00,Athletico Paranaense,São Paulo FC,1-2,Final
+15,08/08/2021,03:00,Cuiabá - MT,Bahia - BA,1-1,Final
+15,08/08/2021,03:00,Palmeiras,Fortaleza - CE,2-3,Final
+15,08/08/2021,03:00,América - MG,Fluminense RJ,1-0,Final
+15,08/08/2021,03:00,Juventude - RS,Atlético Mineiro,1-2,Final
+15,08/08/2021,03:00,Santos FC,Corinthians SP,0-0,Final
+15,08/08/2021,03:00,Ceará - CE,Atlético Goianiense,0-0,Final
+15,08/08/2021,03:00,Flamengo RJ,Internacional,0-4,Final
+15,10/08/2021,03:00,Grêmio Porto Alegre,Chapecoense,2-1,Final
+16,14/08/2021,03:00,Red Bull Bragantino,Juventude - RS,1-2,Final
+16,15/08/2021,03:00,Atlético Mineiro,Palmeiras,2-0,Final
+16,15/08/2021,03:00,São Paulo FC,Grêmio Porto Alegre,2-1,Final
+16,15/08/2021,03:00,Corinthians SP,Ceará - CE,3-1,Final
+16,15/08/2021,03:00,Flamengo RJ,Sport Recife - PE,2-0,Final
+16,15/08/2021,03:00,Bahia - BA,Atlético Goianiense,1-2,Final
+16,15/08/2021,03:00,Cuiabá - MT,Athletico Paranaense,1-0,Final
+16,15/08/2021,03:00,Fortaleza - CE,Santos FC,1-1,Final
+16,16/08/2021,03:00,Internacional,Fluminense RJ,4-2,Final
+16,17/08/2021,03:00,Chapecoense,América - MG,1-1,Final
+17,21/08/2021,03:00,Atlético Goianiense,Chapecoense,1-1,Final
+17,22/08/2021,03:00,Grêmio Porto Alegre,Bahia - BA,2-0,Final
+17,22/08/2021,03:00,Juventude - RS,Fortaleza - CE,1-1,Final
+17,22/08/2021,03:00,Palmeiras,Cuiabá - MT,0-2,Final
+17,22/08/2021,03:00,Athletico Paranaense,Corinthians SP,0-1,Final
+17,22/08/2021,03:00,Ceará - CE,Flamengo RJ,1-1,Final
+17,22/08/2021,03:00,Santos FC,Internacional,2-2,Final
+17,23/08/2021,03:00,Sport Recife - PE,São Paulo FC,0-1,Final
+17,24/08/2021,03:00,América - MG,Red Bull Bragantino,0-2,Final
+17,24/08/2021,03:00,Fluminense RJ,Atlético Mineiro,1-1,Final
+18,28/08/2021,03:00,Sport Recife - PE,Chapecoense,0-0,Final
+18,29/08/2021,03:00,Santos FC,Flamengo RJ,0-4,Final
+18,29/08/2021,03:00,Grêmio Porto Alegre,Corinthians SP,0-1,Final
+18,29/08/2021,03:00,Palmeiras,Athletico Paranaense,2-1,Final
+18,29/08/2021,03:00,América - MG,Ceará - CE,2-0,Final
+18,29/08/2021,03:00,Juventude - RS,São Paulo FC,1-1,Final
+18,29/08/2021,03:00,Atlético Goianiense,Internacional,0-0,Final
+18,30/08/2021,03:00,Red Bull Bragantino,Atlético Mineiro,1-1,Final
+18,31/08/2021,03:00,Fluminense RJ,Bahia - BA,2-0,Final
+18,31/08/2021,03:00,Fortaleza - CE,Cuiabá - MT,0-0,Final
+19,05/09/2021,03:00,Bahia - BA,Fortaleza - CE,4-2,Final
+19,05/09/2021,03:00,Cuiabá - MT,Santos FC,2-1,Final
+19,05/09/2021,03:00,Athletico Paranaense,Sport Recife - PE,0-0,Final
+19,08/09/2021,03:00,Chapecoense,Fluminense RJ,1-2,Final
+19,08/09/2021,03:00,Corinthians SP,Juventude - RS,1-1,Final
+19,23/09/2021,03:00,São Paulo FC,América - MG,0-0,Final
+19,21/10/2021,03:00,Ceará - CE,Palmeiras,1-2,Final
+19,22/10/2021,03:00,Internacional,Red Bull Bragantino,1-1,Final
+19,04/11/2021,03:00,Atlético Mineiro,Grêmio Porto Alegre,2-1,Final
+19,06/11/2021,03:00,Flamengo RJ,Atlético Goianiense,2-0,Final
+20,11/09/2021,03:00,América - MG,Athletico Paranaense,2-0,Final
+20,11/09/2021,03:00,Juventude - RS,Cuiabá - MT,1-2,Final
+20,12/09/2021,03:00,Red Bull Bragantino,Chapecoense,1-2,Final
+20,12/09/2021,03:00,Santos FC,Bahia - BA,0-0,Final
+20,12/09/2021,03:00,Grêmio Porto Alegre,Ceará - CE,2-0,Final
+20,12/09/2021,03:00,Fortaleza - CE,Atlético Mineiro,0-2,Final
+20,12/09/2021,03:00,Palmeiras,Flamengo RJ,1-3,Final
+20,12/09/2021,03:00,Atlético Goianiense,Corinthians SP,1-1,Final
+20,13/09/2021,03:00,Fluminense RJ,São Paulo FC,2-1,Final
+20,14/09/2021,03:00,Sport Recife - PE,Internacional,0-1,Final
+21,18/09/2021,03:00,Chapecoense,Palmeiras,0-2,Final
+21,18/09/2021,03:00,Athletico Paranaense,Juventude - RS,2-1,Final
+21,19/09/2021,03:00,Atlético Mineiro,Sport Recife - PE,3-0,Final
+21,19/09/2021,03:00,Bahia - BA,Red Bull Bragantino,1-1,Final
+21,19/09/2021,03:00,Ceará - CE,Santos FC,0-0,Final
+21,19/09/2021,03:00,Internacional,Fortaleza - CE,1-0,Final
+21,19/09/2021,03:00,São Paulo FC,Atlético Goianiense,2-1,Final
+21,19/09/2021,03:00,Corinthians SP,América - MG,1-1,Final
+21,20/09/2021,03:00,Flamengo RJ,Grêmio Porto Alegre,0-1,Final
+21,21/09/2021,03:00,Cuiabá - MT,Fluminense RJ,2-2,Final
+22,25/09/2021,03:00,Ceará - CE,Chapecoense,1-0,Final
+22,26/09/2021,03:00,Corinthians SP,Palmeiras,2-1,Final
+22,26/09/2021,03:00,São Paulo FC,Atlético Mineiro,0-0,Final
+22,26/09/2021,03:00,América - MG,Flamengo RJ,1-1,Final
+22,26/09/2021,03:00,Fluminense RJ,Red Bull Bragantino,2-1,Final
+22,26/09/2021,03:00,Internacional,Bahia - BA,2-0,Final
+22,26/09/2021,03:00,Juventude - RS,Santos FC,3-0,Final
+22,26/09/2021,03:00,Athletico Paranaense,Grêmio Porto Alegre,4-2,Final
+22,26/09/2021,03:00,Sport Recife - PE,Fortaleza - CE,0-1,Final
+22,27/09/2021,03:00,Atlético Goianiense,Cuiabá - MT,0-0,Final
+23,02/10/2021,03:00,Cuiabá - MT,América - MG,0-2,Final
+23,02/10/2021,03:00,Fortaleza - CE,Atlético Goianiense,0-3,Final
+23,03/10/2021,03:00,Red Bull Bragantino,Corinthians SP,2-2,Final
+23,03/10/2021,03:00,Atlético Mineiro,Internacional,1-0,Final
+23,03/10/2021,03:00,Chapecoense,São Paulo FC,1-1,Final
+23,03/10/2021,03:00,Flamengo RJ,Athletico Paranaense,3-0,Final
+23,03/10/2021,03:00,Palmeiras,Juventude - RS,1-1,Final
+23,04/10/2021,03:00,Grêmio Porto Alegre,Sport Recife - PE,1-2,Final
+23,28/10/2021,03:00,Bahia - BA,Ceará - CE,1-1,Final
+23,28/10/2021,03:00,Santos FC,Fluminense RJ,2-0,Final
+24,06/10/2021,03:00,Corinthians SP,Bahia - BA,3-1,Final
+24,07/10/2021,03:00,Atlético Goianiense,Athletico Paranaense,0-2,Final
+24,07/10/2021,03:00,Ceará - CE,Internacional,0-0,Final
+24,07/10/2021,03:00,Chapecoense,Atlético Mineiro,2-2,Final
+24,07/10/2021,03:00,Sport Recife - PE,Juventude - RS,3-1,Final
+24,07/10/2021,03:00,Red Bull Bragantino,Flamengo RJ,1-1,Final
+24,07/10/2021,03:00,América - MG,Palmeiras,2-1,Final
+24,07/10/2021,03:00,Fluminense RJ,Fortaleza - CE,0-2,Final
+24,07/10/2021,03:00,Grêmio Porto Alegre,Cuiabá - MT,2-2,Final
+24,07/10/2021,03:00,São Paulo FC,Santos FC,1-1,Final
+25,09/10/2021,03:00,Atlético Mineiro,Ceará - CE,3-1,Final
+25,09/10/2021,03:00,Fluminense RJ,Atlético Goianiense,0-0,Final
+25,09/10/2021,03:00,Sport Recife - PE,Corinthians SP,1-0,Final
+25,10/10/2021,03:00,Athletico Paranaense,Bahia - BA,0-2,Final
+25,10/10/2021,03:00,Fortaleza - CE,Flamengo RJ,0-3,Final
+25,10/10/2021,03:00,Juventude - RS,América - MG,1-1,Final
+25,10/10/2021,03:00,Palmeiras,Red Bull Bragantino,2-4,Final
+25,10/10/2021,03:00,Internacional,Chapecoense,5-2,Final
+25,10/10/2021,03:00,Santos FC,Grêmio Porto Alegre,1-0,Final
+25,12/10/2021,03:00,Cuiabá - MT,São Paulo FC,0-0,Final
+26,13/10/2021,03:00,Red Bull Bragantino,Atlético Goianiense,1-0,Final
+26,13/10/2021,03:00,Bahia - BA,Palmeiras,0-0,Final
+26,14/10/2021,03:00,Atlético Mineiro,Santos FC,3-1,Final
+26,14/10/2021,03:00,Chapecoense,Athletico Paranaense,1-1,Final
+26,14/10/2021,03:00,Flamengo RJ,Juventude - RS,3-1,Final
+26,14/10/2021,03:00,Fortaleza - CE,Grêmio Porto Alegre,1-0,Final
+26,14/10/2021,03:00,Corinthians SP,Fluminense RJ,1-0,Final
+26,14/10/2021,03:00,Internacional,América - MG,3-1,Final
+26,15/10/2021,03:00,Cuiabá - MT,Sport Recife - PE,1-0,Final
+26,15/10/2021,03:00,São Paulo FC,Ceará - CE,1-1,Final
+27,17/10/2021,03:00,Chapecoense,Fortaleza - CE,1-2,Final
+27,17/10/2021,03:00,América - MG,Bahia - BA,0-0,Final
+27,17/10/2021,03:00,Athletico Paranaense,Fluminense RJ,0-1,Final
+27,17/10/2021,03:00,Palmeiras,Internacional,1-0,Final
+27,17/10/2021,03:00,Atlético Goianiense,Atlético Mineiro,2-1,Final
+27,17/10/2021,03:00,Ceará - CE,Red Bull Bragantino,2-2,Final
+27,17/10/2021,03:00,Grêmio Porto Alegre,Juventude - RS,3-2,Final
+27,18/10/2021,03:00,Flamengo RJ,Cuiabá - MT,0-0,Final
+27,18/10/2021,03:00,Sport Recife - PE,Santos FC,0-0,Final
+27,19/10/2021,03:00,São Paulo FC,Corinthians SP,1-0,Final
+28,23/10/2021,03:00,Juventude - RS,Ceará - CE,0-0,Final
+28,23/10/2021,03:00,Santos FC,América - MG,0-2,Final
+28,24/10/2021,03:00,Fluminense RJ,Flamengo RJ,3-1,Final
+28,24/10/2021,03:00,Fortaleza - CE,Athletico Paranaense,3-0,Final
+28,24/10/2021,03:00,Atlético Mineiro,Cuiabá - MT,2-1,Final
+28,24/10/2021,03:00,Internacional,Corinthians SP,2-2,Final
+28,24/10/2021,03:00,Red Bull Bragantino,São Paulo FC,1-0,Final
+28,25/10/2021,03:00,Bahia - BA,Chapecoense,3-0,Final
+28,26/10/2021,03:00,Atlético Goianiense,Grêmio Porto Alegre,2-0,Final
+28,26/10/2021,03:00,Palmeiras,Sport Recife - PE,2-1,Final
+29,30/10/2021,03:00,Athletico Paranaense,Santos FC,0-1,Final
+29,31/10/2021,03:00,Flamengo RJ,Atlético Mineiro,1-0,Final
+29,31/10/2021,03:00,Juventude - RS,Bahia - BA,0-0,Final
+29,31/10/2021,03:00,América - MG,Fortaleza - CE,2-1,Final
+29,31/10/2021,03:00,Ceará - CE,Fluminense RJ,1-0,Final
+29,31/10/2021,03:00,Grêmio Porto Alegre,Palmeiras,1-3,Final
+29,31/10/2021,03:00,São Paulo FC,Internacional,1-0,Final
+29,01/11/2021,03:00,Sport Recife - PE,Atlético Goianiense,2-0,Final
+29,02/11/2021,03:00,Cuiabá - MT,Red Bull Bragantino,1-0,Final
+29,02/11/2021,03:00,Corinthians SP,Chapecoense,1-0,Final
+30,06/11/2021,03:00,Corinthians SP,Fortaleza - CE,1-0,Final
+30,06/11/2021,03:00,Internacional,Grêmio Porto Alegre,1-0,Final
+30,07/11/2021,03:00,Fluminense RJ,Sport Recife - PE,1-0,Final
+30,07/11/2021,03:00,Atlético Mineiro,América - MG,1-0,Final
+30,07/11/2021,03:00,Red Bull Bragantino,Athletico Paranaense,0-2,Final
+30,07/11/2021,03:00,Santos FC,Palmeiras,0-2,Final
+30,07/11/2021,03:00,Bahia - BA,São Paulo FC,1-0,Final
+30,08/11/2021,03:00,Ceará - CE,Cuiabá - MT,1-0,Final
+30,09/11/2021,03:00,Chapecoense,Flamengo RJ,2-2,Final
+30,23/11/2021,03:00,Atlético Goianiense,Juventude - RS,1-1,Final
+31,05/11/2021,03:00,Cuiabá - MT,Chapecoense,0-0,Final
+31,10/11/2021,03:00,Grêmio Porto Alegre,Fluminense RJ,1-0,Final
+31,10/11/2021,03:00,Athletico Paranaense,Ceará - CE,2-1,Final
+31,10/11/2021,03:00,Atlético Mineiro,Corinthians SP,3-0,Final
+31,10/11/2021,03:00,Santos FC,Red Bull Bragantino,2-0,Final
+31,11/11/2021,03:00,Palmeiras,Atlético Goianiense,4-0,Final
+31,11/11/2021,03:00,Fortaleza - CE,São Paulo FC,1-1,Final
+31,11/11/2021,03:00,Juventude - RS,Internacional,2-1,Final
+31,11/11/2021,03:00,Sport Recife - PE,América - MG,2-3,Final
+31,11/11/2021,03:00,Flamengo RJ,Bahia - BA,3-0,Final
+32,13/11/2021,03:00,Atlético Goianiense,Santos FC,0-0,Final
+32,13/11/2021,03:00,América - MG,Grêmio Porto Alegre,3-1,Final
+32,13/11/2021,03:00,Red Bull Bragantino,Fortaleza - CE,3-0,Final
+32,13/11/2021,03:00,Internacional,Athletico Paranaense,2-1,Final
+32,14/11/2021,03:00,Corinthians SP,Cuiabá - MT,3-2,Final
+32,14/11/2021,03:00,São Paulo FC,Flamengo RJ,0-4,Final
+32,14/11/2021,03:00,Fluminense RJ,Palmeiras,2-1,Final
+32,14/11/2021,03:00,Ceará - CE,Sport Recife - PE,2-1,Final
+32,14/11/2021,03:00,Chapecoense,Juventude - RS,0-2,Final
+32,02/12/2021,03:00,Bahia - BA,Atlético Mineiro,2-3,Final
+33,16/11/2021,03:00,Athletico Paranaense,Atlético Mineiro,0-1,Final
+33,16/11/2021,03:00,Grêmio Porto Alegre,Red Bull Bragantino,3-0,Final
+33,17/11/2021,03:00,América - MG,Atlético Goianiense,0-0,Final
+33,17/11/2021,03:00,Cuiabá - MT,Internacional,1-0,Final
+33,17/11/2021,03:00,Santos FC,Chapecoense,2-0,Final
+33,18/11/2021,03:00,Fortaleza - CE,Ceará - CE,0-4,Final
+33,18/11/2021,03:00,Juventude - RS,Fluminense RJ,1-0,Final
+33,18/11/2021,03:00,Palmeiras,São Paulo FC,0-2,Final
+33,18/11/2021,03:00,Flamengo RJ,Corinthians SP,1-0,Final
+33,19/11/2021,03:00,Sport Recife - PE,Bahia - BA,1-0,Final
+34,29/10/2021,03:00,Red Bull Bragantino,Sport Recife - PE,3-0,Final
+34,20/11/2021,03:00,Atlético Mineiro,Juventude - RS,2-0,Final
+34,20/11/2021,03:00,Chapecoense,Grêmio Porto Alegre,1-3,Final
+34,20/11/2021,03:00,Fortaleza - CE,Palmeiras,1-0,Final
+34,21/11/2021,03:00,Atlético Goianiense,Ceará - CE,1-1,Final
+34,21/11/2021,03:00,Internacional,Flamengo RJ,1-2,Final
+34,21/11/2021,03:00,Corinthians SP,Santos FC,2-0,Final
+34,21/11/2021,03:00,Fluminense RJ,América - MG,2-0,Final
+34,21/11/2021,03:00,Bahia - BA,Cuiabá - MT,0-0,Final
+34,25/11/2021,03:00,São Paulo FC,Athletico Paranaense,0-0,Final
+35,24/11/2021,03:00,Palmeiras,Atlético Mineiro,2-2,Final
+35,25/11/2021,03:00,Fluminense RJ,Internacional,1-0,Final
+35,25/11/2021,03:00,Santos FC,Fortaleza - CE,2-0,Final
+35,26/11/2021,03:00,Ceará - CE,Corinthians SP,2-1,Final
+35,29/11/2021,03:00,Atlético Goianiense,Bahia - BA,2-1,Final
+35,30/11/2021,03:00,Juventude - RS,Red Bull Bragantino,1-0,Final
+35,01/12/2021,03:00,América - MG,Chapecoense,3-0,Final
+35,03/12/2021,03:00,Grêmio Porto Alegre,São Paulo FC,3-0,Final
+35,03/12/2021,03:00,Athletico Paranaense,Cuiabá - MT,1-0,Final
+35,04/12/2021,03:00,Sport Recife - PE,Flamengo RJ,1-1,Final
+36,26/11/2021,03:00,Bahia - BA,Grêmio Porto Alegre,3-1,Final
+36,27/11/2021,03:00,Red Bull Bragantino,América - MG,1-1,Final
+36,28/11/2021,03:00,São Paulo FC,Sport Recife - PE,2-0,Final
+36,28/11/2021,03:00,Atlético Mineiro,Fluminense RJ,2-1,Final
+36,28/11/2021,03:00,Corinthians SP,Athletico Paranaense,1-0,Final
+36,28/11/2021,03:00,Internacional,Santos FC,1-1,Final
+36,01/12/2021,03:00,Flamengo RJ,Ceará - CE,2-1,Final
+36,01/12/2021,03:00,Cuiabá - MT,Palmeiras,1-3,Final
+36,04/12/2021,03:00,Chapecoense,Atlético Goianiense,0-1,Final
+36,04/12/2021,03:00,Fortaleza - CE,Juventude - RS,1-0,Final
+37,05/12/2021,03:00,Atlético Mineiro,Red Bull Bragantino,4-3,Final
+37,05/12/2021,03:00,Bahia - BA,Fluminense RJ,2-0,Final
+37,05/12/2021,03:00,Corinthians SP,Grêmio Porto Alegre,1-1,Final
+37,05/12/2021,03:00,Ceará - CE,América - MG,0-0,Final
+37,06/12/2021,03:00,Athletico Paranaense,Palmeiras,0-0,Final
+37,06/12/2021,03:00,São Paulo FC,Juventude - RS,3-1,Final
+37,07/12/2021,03:00,Cuiabá - MT,Fortaleza - CE,1-0,Final
+37,07/12/2021,03:00,Flamengo RJ,Santos FC,0-1,Final
+37,07/12/2021,03:00,Internacional,Atlético Goianiense,1-2,Final
+37,07/12/2021,03:00,Chapecoense,Sport Recife - PE,0-1,Final
+38,10/12/2021,03:00,América - MG,São Paulo FC,2-0,Final
+38,10/12/2021,03:00,Atlético Goianiense,Flamengo RJ,2-0,Final
+38,10/12/2021,03:00,Red Bull Bragantino,Internacional,1-0,Final
+38,10/12/2021,03:00,Fluminense RJ,Chapecoense,3-0,Final
+38,10/12/2021,03:00,Fortaleza - CE,Bahia - BA,2-1,Final
+38,10/12/2021,03:00,Grêmio Porto Alegre,Atlético Mineiro,4-3,Final
+38,10/12/2021,03:00,Juventude - RS,Corinthians SP,1-0,Final
+38,10/12/2021,03:00,Palmeiras,Ceará - CE,1-0,Final
+38,10/12/2021,03:00,Santos FC,Cuiabá - MT,1-1,Final
+38,10/12/2021,03:00,Sport Recife - PE,Athletico Paranaense,1-1,Final

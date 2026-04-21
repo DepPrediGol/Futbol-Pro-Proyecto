@@ -10,7 +10,7 @@ from datetime import datetime
 # --- 1. CONFIGURACIÓN DE PÁGINA ---
 st.set_page_config(page_title="Bet Pro Futbol AI", layout="wide", page_icon="⚽")
 
-# --- 2. CSS PERSONALIZADO (RESTABLECIDO COMPLETAMENTE) ---
+# --- 2. CSS PERSONALIZADO (RESTABLECIDO AL 100%) ---
 st.markdown("""
     <style>
     .stApp { 
@@ -108,84 +108,77 @@ def obtener_probabilidades(e_l, e_v):
             if gl > 0 and gv > 0: p_btts += p
     return p_l, p_e, p_v, p_o15, p_o25, p_btts
 
-def fz_reciente(df_h, equipo, es_local):
-    col = 'Home team' if es_local else 'Away team'
-    g_col = 'G_L' if es_local else 'G_V'
-    recientes = df_h[df_h[col] == equipo].sort_values('Fecha_dt', ascending=False).head(20)
-    return recientes[g_col].mean() if not recientes.empty else 1.2
-
-def calcular_h2h_factor(df_h, local, visitante):
-    enfrentamientos = df_h[((df_h['Home team'] == local) & (df_h['Away team'] == visitante)) | 
-                           ((df_h['Home team'] == visitante) & (df_h['Away team'] == local))].head(5)
-    if enfrentamientos.empty: return 0.5, 0.5
-    vic_l = len(enfrentamientos[(enfrentamientos['G_L'] > enfrentamientos['G_V']) & (enfrentamientos['Home team'] == local)])
-    vic_v = len(enfrentamientos[(enfrentamientos['G_V'] > enfrentamientos['G_L']) & (enfrentamientos['Away team'] == visitante)])
-    total = vic_l + vic_v
-    return (vic_l / total, vic_v / total) if total > 0 else (0.5, 0.5)
-
-# --- 4. CARGA DE DATOS ---
-@st.cache_data(ttl=60)
+# --- 4. CARGA DE DATOS (CON CACHÉ OPTIMIZADA) ---
+@st.cache_data(ttl=600)
 def cargar_todo():
     archivos = glob.glob("**/*.csv", recursive=True)
-    temp_data = []
+    fz_acum, part_cont = {}, {}
+    # Primera pasada: Calcular promedios de goles
+    for arc in archivos:
+        try:
+            df = pd.read_csv(arc)
+            for _, f in df.iterrows():
+                l, v = f['home_team'], f['away_team']
+                g = extraer_goles(f.get('result'))
+                if g:
+                    fz_acum[l] = fz_acum.get(l, 0) + g[0]
+                    fz_acum[v] = fz_acum.get(v, 0) + g[1]
+                    part_cont[l] = part_cont.get(l, 0) + 1
+                    part_cont[v] = part_cont.get(v, 0) + 1
+        except: continue
+    
+    fz = {eq: (fz_acum[eq]/part_cont[eq]) if part_cont.get(eq,0)>0 else 1.2 for eq in fz_acum}
+    actuales, historicos, ligas = [], [], []
+
+    # Segunda pasada: Generar predicciones
     for arc in archivos:
         try:
             df = pd.read_csv(arc)
             ln = os.path.basename(arc).replace('.csv','')
+            if ln not in ligas: ligas.append(ln)
             for _, f in df.iterrows():
+                pl, pe, pv, po15, po25, pb = obtener_probabilidades(fz.get(f['home_team'],1.2), fz.get(f['away_team'],1.2))
+                total = pl+pe+pv+pe
+                p1x, px2 = (pl+pe)/total, (pv+pe)/total
                 g = extraer_goles(f.get('result'))
-                fecha_str = str(f['date'])
+                
                 try:
-                    fecha_dt = pd.to_datetime(f"{fecha_str} {f.get('time','00:00')}", dayfirst=True)
+                    fecha_dt = pd.to_datetime(f"{f['date']} {f.get('time','00:00')}", dayfirst=True)
                 except:
-                    fecha_dt = pd.to_datetime(fecha_str, dayfirst=True)
-                d = {
-                    'Date': f['date'], 'Time': f.get('time','00:00'), 'Matchday': int(f.get('matchday',0)), 
-                    'League': ln, 'Home team': f['home_team'], 'Away team': f['away_team'], 
-                    'Match': f"{f['home_team']} vs {f['away_team']}", 'Fecha_dt': fecha_dt
+                    fecha_dt = pd.to_datetime(f['date'], dayfirst=True)
+                
+                match_data = {
+                    'Date': f['date'], 'Time': f.get('time','00:00'), 'Matchday': int(f.get('matchday',0)), 'League': ln, 
+                    'Home team': f['home_team'], 'Away team': f['away_team'], 'Match': f"{f['home_team']} vs {f['away_team']}",
+                    'Fecha_dt': fecha_dt
                 }
-                if g: d.update({'G_L': g[0], 'G_V': g[1], 'Finalizado': True})
-                else: d.update({'Finalizado': False})
-                temp_data.append(d)
-        except: continue
-    
-    all_df = pd.DataFrame(temp_data)
-    df_h_base = all_df[all_df['Finalizado'] == True].copy()
-    actuales, historicos, ligas = [], [], sorted(all_df['League'].unique().tolist())
 
-    for _, f in all_df.iterrows():
-        fl = fz_reciente(df_h_base[df_h_base['Fecha_dt'] < f['Fecha_dt']], f['Home team'], True)
-        fv = fz_reciente(df_h_base[df_h_base['Fecha_dt'] < f['Fecha_dt']], f['Away team'], False)
-        pl, pe, pv, po15, po25, pb = obtener_probabilidades(fl, fv)
-        h_l, h_v = calcular_h2h_factor(df_h_base[df_h_base['Fecha_dt'] < f['Fecha_dt']], f['Home team'], f['Away team'])
-        pl = (pl * 0.7) + (h_l * 0.3)
-        pv = (pv * 0.7) + (h_v * 0.3)
-        total = pl+pe+pv
-        if not f['Finalizado']:
-            f.update({'1X': (pl+pe)/total, 'X2': (pv+pe)/total, 'Over 1.5': po15, 'Over 2.5': po25, 'Btts': pb})
-            actuales.append(f)
-        else:
-            f.update({
-                'Result': f"{int(f['G_L'])} - {int(f['G_V'])}",
-                '1X': f"{'✅' if f['G_L']>=f['G_V'] else '❌'} {(pl+pe)/total:.0%}",
-                'X2': f"{'✅' if f['G_V']>=f['G_L'] else '❌'} {(pv+pe)/total:.0%}",
-                'Over 1.5': f"{'✅' if (f['G_L']+f['G_V'])>1.5 else '❌'} {po15:.0%}",
-                'Over 2.5': f"{'✅' if (f['G_L']+f['G_V'])>2.5 else '❌'} {po25:.0%}",
-                'Btts': f"{'✅' if (f['G_L']>0 and f['G_V']>0) else '❌'} {pb:.0%}"
-            })
-            historicos.append(f)
-    return pd.DataFrame(actuales), pd.DataFrame(historicos), ligas
+                if g:
+                    match_data.update({
+                        'Result': f"{g[0]} - {g[1]}", 'G_L': g[0], 'G_V': g[1],
+                        '1X': f"{'✅' if g[0]>=g[1] else '❌'} {p1x:.0%}",
+                        'X2': f"{'✅' if g[1]>=g[0] else '❌'} {px2:.0%}",
+                        'Over 1.5': f"{'✅' if (g[0]+g[1])>1.5 else '❌'} {po15:.0%}",
+                        'Over 2.5': f"{'✅' if (g[0]+g[1])>2.5 else '❌'} {po25:.0%}",
+                        'Btts': f"{'✅' if (g[0]>0 and g[1]>0) else '❌'} {pb:.0%}"
+                    })
+                    historicos.append(match_data)
+                else:
+                    match_data.update({'1X': p1x, 'X2': px2, 'Over 1.5': po15, 'Over 2.5': po25, 'Btts': pb})
+                    actuales.append(match_data)
+        except: continue
+    return pd.DataFrame(actuales), pd.DataFrame(historicos), sorted(ligas)
 
 df_p, df_h, lgs = cargar_todo()
 
-# --- 5. VENTANA MODAL (RESTABLECIDA) ---
+# --- 5. VENTANA MODAL ---
 @st.dialog("📊 ANÁLISIS DETALLADO", width="large")
 def ventana_analisis(r, df_h):
     st.markdown(f"## ⚽ {r['Match']}")
     st.divider()
     for eq, col, nom in [(r['Home team'], 'Home team', 'Local'), (r['Away team'], 'Away team', 'Visitante')]:
-        st.markdown(f"#### 📈 Últimos 20 partidos como {nom}: {eq}")
-        df_eq = df_h[df_h[col] == eq].iloc[::-1].head(20)
+        st.markdown(f"#### 📈 Últimos 10 partidos: {eq}")
+        df_eq = df_h[df_h[col] == eq].iloc[::-1].head(10)
         if not df_eq.empty:
             c = st.columns(4)
             c[0].metric(f"Efectividad {('1X' if nom=='Local' else 'X2')}", f"{(df_eq['1X' if nom=='Local' else 'X2'].str.contains('✅').sum()/len(df_eq)):.0%}")
@@ -203,25 +196,35 @@ with t1:
     if not df_p.empty:
         ahora = datetime.now()
         df_f = df_p[df_p['Fecha_dt'] > ahora].sort_values('Fecha_dt')
+        
         if not df_f.empty:
-            f_prox = df_f['Fecha_dt'].min().date()
-            df_t4 = df_f[df_f['Fecha_dt'].dt.date == f_prox].copy()
-            st.markdown(f"### 🏆 TOP 4 PRÓXIMOS ({f_prox.strftime('%d/%m/%Y')})")
-            mks = [('1X', '🛡️ 1X/X2'), ('Over 1.5', '🥅 Over 1.5'), ('Over 2.5', '⚽ Over 2.5'), ('Btts', '🤝 Btts')]
+            f_prox_dia = df_f['Fecha_dt'].min().date()
+            df_t4 = df_f[df_f['Fecha_dt'].dt.date == f_prox_dia].copy()
+            st.markdown(f"### 🏆 TOP 4 PRÓXIMOS ({f_prox_dia.strftime('%d/%m/%Y')})")
+            mks = [('1X', '🛡️ Doble Oportunidad'), ('Over 1.5', '🥅 Over 1.5'), ('Over 2.5', '⚽ Over 2.5'), ('Btts', '🤝 Btts')]
             cols = st.columns(4)
             for i, (m, tit) in enumerate(mks):
                 with cols[i]:
                     st.markdown(f"#### {tit}")
                     top = df_t4.nlargest(4, m).reset_index(drop=True)
                     for idx, r in top.iterrows():
-                        etq = ("1X" if r['1X'] >= r['X2'] else "X2") if m == '1X' else "Prob"
-                        if st.button(f"{r['Date']} {r['Time']}\n{r['League']}\n{r['Match']}\n⭐ {etq}: {r[m]:.0%}", key=f"t4_{m}_{idx}"):
+                        if st.button(f"{r['Date']} {r['Time']}\n{r['League']}\n{r['Match']}\n⭐ {r[m]:.0%}", key=f"t4_{m}_{idx}"):
                             ventana_analisis(r, df_h)
             
-            # SECCIÓN BOMBA
+            # --- PREDICCIÓN BOMBA (AQUÍ ESTABA LA DIFERENCIA) ---
             st.divider()
-            b_r = df_t4.nlargest(1, 'Over 2.5').iloc[0]
-            st.markdown(f"""<div style="background: linear-gradient(135deg, #1e1e1e, #2d2d2d); padding: 30px; border-radius: 20px; border: 2px solid #ff4b4b; box-shadow: 0 10px 30px rgba(255,75,75,0.2);"><h2 style="color: #ff4b4b !important; text-align: center; margin-bottom: 20px;">💣 PREDICCIÓN BOMBA DEL DÍA</h2><div style="display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 20px; align-items: center; text-align: center;"><div><h3 style="color: white !important;">{b_r['Home team']}</h3></div><div><h1 style="color: #ff4b4b !important; font-size: 50px;">VS</h1></div><div><h3 style="color: white !important;">{b_r['Away team']}</h3></div></div><div style="display: grid; grid-template-columns: 1fr 1fr 1fr 1fr; gap: 15px; margin-top: 25px;"><div style="background: white; color: #ff4b4b; padding: 15px; border-radius: 12px; text-align: center; font-weight: bold;">🛡️ 1X/X2: {max(b_r['1X'], b_r['X2']):.0%}</div><div style="background: white; color: #ff4b4b; padding: 15px; border-radius: 12px; text-align: center; font-weight: bold;">🥅 Over 1.5: {b_r['Over 1.5']:.0%}</div><div style="background: white; color: #ff4b4b; padding: 15px; border-radius: 12px; text-align: center; font-weight: bold;">⚽ Over 2.5: {b_r['Over 2.5']:.0%}</div><div style="background: white; color: #ff4b4b; padding: 15px; border-radius: 12px; text-align: center; font-weight: bold;">🤝 Btts: {b_r['Btts']:.0%}</div></div></div>""", unsafe_allow_html=True)
+            b_r = df_t4.loc[df_t4[['Over 1.5', 'Over 2.5', 'Btts']].max(axis=1).idxmax()]
+            st.markdown(f"""
+                <div style="background-color: #ff4b4b; padding: 30px; border-radius: 15px; border-left: 15px solid #8B0000;">
+                    <h2 style="color: white !important; text-align: center;">💣 PREDICCIÓN BOMBA DETECTADA 💣</h2>
+                    <p style="font-size: 1.15rem; color: white !important; text-align: center;">{b_r['Match']} - {b_r['League']}</p>
+                    <div style="display: grid; grid-template-columns: repeat(4, 1fr); gap: 15px; margin-top: 25px;">
+                        <div style="background: white; color: #ff4b4b; padding: 15px; border-radius: 12px; text-align: center; font-weight: bold;">🛡️ 1X/X2: {max(b_r['1X'], b_r['X2']):.0%}</div>
+                        <div style="background: white; color: #ff4b4b; padding: 15px; border-radius: 12px; text-align: center; font-weight: bold;">🥅 Over 1.5: {b_r['Over 1.5']:.0%}</div>
+                        <div style="background: white; color: #ff4b4b; padding: 15px; border-radius: 12px; text-align: center; font-weight: bold;">⚽ Over 2.5: {b_r['Over 2.5']:.0%}</div>
+                        <div style="background: white; color: #ff4b4b; padding: 15px; border-radius: 12px; text-align: center; font-weight: bold;">🤝 Btts: {b_r['Btts']:.0%}</div>
+                    </div>
+                </div>""", unsafe_allow_html=True)
 
         st.divider()
         st.markdown("### 📊 LIGAS Y JORNADAS")

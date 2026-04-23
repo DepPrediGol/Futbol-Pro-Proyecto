@@ -515,18 +515,18 @@ matchday,date,time,home_team,away_team,result,status
 43,18/04/2026,09:00,Swansea,Southampton,1-2,Final
 43,18/04/2026,09:00,Wrexham,Stoke City,2-0,Final
 43,19/04/2026,06:00,Ipswich,Middlesbrough,2-2,Final
-44,21/04/2026,13:45,Southampton,Bristol City,,
-44,21/04/2026,13:45,West Brom,Watford,,
-44,21/04/2026,13:45,Norwich,Derby,,
-44,21/04/2026,13:45,QPR,Swansea,,
-44,21/04/2026,13:45,Stoke City,Millwall,,
-44,21/04/2026,13:45,Oxford United,Wrexham,,
-44,21/04/2026,13:45,Coventry,Portsmouth,,
-44,21/04/2026,13:45,Leicester,Hull City,,
-44,22/04/2026,13:45,Middlesbrough,Sheffield Wednesday,,
-44,22/04/2026,13:45,Birmingham,Preston,,
-44,22/04/2026,13:45,Sheffield Utd,Blackburn,,
-44,22/04/2026,13:45,Charlton,Ipswich,,
+44,21/04/2026,13:45,Southampton,Bristol City,2-2,Final
+44,21/04/2026,13:45,West Brom,Watford,3-0,Final
+44,21/04/2026,13:45,Norwich,Derby,2-1,Final
+44,21/04/2026,13:45,QPR,Swansea,1-2,Final
+44,21/04/2026,13:45,Stoke City,Millwall,1-3,Final
+44,21/04/2026,13:45,Oxford United,Wrexham,0-1,Final
+44,21/04/2026,13:45,Coventry,Portsmouth,5-1,Final
+44,21/04/2026,13:45,Leicester,Hull City,2-2,Final
+44,22/04/2026,13:45,Middlesbrough,Sheffield Wednesday,1-0,Final
+44,22/04/2026,13:45,Birmingham,Preston,2-1,Final
+44,22/04/2026,13:45,Sheffield Utd,Blackburn,1-3,Final
+44,22/04/2026,13:45,Charlton,Ipswich,1-2,Final
 45,24/04/2026,14:00,Leicester,Millwall,,
 45,25/04/2026,06:30,West Brom,Ipswich,,
 45,25/04/2026,06:30,Middlesbrough,Watford,,

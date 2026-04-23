@@ -328,10 +328,10 @@ matchday,date,time,home_team,away_team,result,status
 33,19/04/2026,08:00,Nottingham Forest,Burnley,4-1,Final
 33,19/04/2026,08:00,Aston Villa,Sunderland,4-3,Final
 33,19/04/2026,10:30,Manchester City,Arsenal,2-1,Final
-33,20/04/2026,14:00,Crystal Palace,West Ham,,
-34,21/04/2026,14:00,Brighton,Chelsea,,
-34,22/04/2026,14:00,Bournemouth,Leeds,,
-34,22/04/2026,14:00,Burnley,Manchester City,,
+33,20/04/2026,14:00,Crystal Palace,West Ham,0-0,Final
+34,21/04/2026,14:00,Brighton,Chelsea,3-0,Final
+34,22/04/2026,14:00,Bournemouth,Leeds,2-2,Final
+34,22/04/2026,14:00,Burnley,Manchester City,0-1,Final
 34,24/04/2026,14:00,Sunderland,Nottingham Forest,,
 34,25/04/2026,06:30,Fulham,Aston Villa,,
 34,25/04/2026,09:00,Wolves,Tottenham,,

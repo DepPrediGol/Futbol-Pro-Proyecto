@@ -518,12 +518,12 @@ matchday,date,time,home_team,away_team,result,status
 44,18/04/2026,09:00,Mansfield Town,Luton,2-2,Final
 44,19/04/2026,07:00,Peterborough,Burton Albion,1-1,Final
 44,19/04/2026,09:00,Port Vale,Wigan,0-0,Final
-7,21/04/2026,13:45,Stevenage,Barnsley,,
-36,21/04/2026,13:45,Stockport County,Mansfield Town,,
-40,21/04/2026,13:45,Rotherham,Luton,,
-40,21/04/2026,13:45,Bradford,Plymouth,,
-40,21/04/2026,13:45,Doncaster,Lincoln,,
-41,22/04/2026,13:45,Cardiff,Port Vale,,
+7,21/04/2026,13:45,Stevenage,Barnsley,1-0,Final
+36,21/04/2026,13:45,Stockport County,Mansfield Town,0-1,Final
+40,21/04/2026,13:45,Rotherham,Luton,0-2,Final
+40,21/04/2026,13:45,Bradford,Plymouth,1-1,Final
+40,21/04/2026,13:45,Doncaster,Lincoln,0-2,Final
+41,22/04/2026,13:45,Cardiff,Port Vale,1-0,Final
 45,25/04/2026,06:30,Doncaster,Stevenage,,
 45,25/04/2026,06:30,Stockport County,Peterborough,,
 45,25/04/2026,09:00,Huddersfield,Mansfield Town,,

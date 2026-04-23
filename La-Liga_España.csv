@@ -309,13 +309,13 @@ matchday,date,time,home_team,away_team,result,status
 31,12/04/2026,11:30,Celta Vigo,Oviedo,0-3,Final
 31,12/04/2026,14:00,Athletic Club,Villarreal,1-2,Final
 31,13/04/2026,14:00,Levante,Getafe,1-0,Final
-33,21/04/2026,12:00,Athletic Club,Osasuna,,
-33,21/04/2026,12:00,Mallorca,Valencia,,
-33,21/04/2026,14:30,Real Madrid,Alaves,,
-33,21/04/2026,14:30,Girona,Real Betis,,
-33,22/04/2026,12:00,Elche,Atletico Madrid,,
-33,22/04/2026,13:00,Real Sociedad,Getafe,,
-33,22/04/2026,14:30,Barcelona,Celta Vigo,,
+33,21/04/2026,12:00,Athletic Club,Osasuna,1-0,Final
+33,21/04/2026,12:00,Mallorca,Valencia,1-1,Final
+33,21/04/2026,14:30,Real Madrid,Alaves,2-1,Final
+33,21/04/2026,14:30,Girona,Real Betis,2-3,Final
+33,22/04/2026,12:00,Elche,Atletico Madrid,3-2,Final
+33,22/04/2026,13:00,Real Sociedad,Getafe,0-1,Final
+33,22/04/2026,14:30,Barcelona,Celta Vigo,1-0,Final
 33,23/04/2026,12:00,Levante,Sevilla,,
 33,23/04/2026,13:00,Rayo Vallecano,Espanyol,,
 33,23/04/2026,14:30,Oviedo,Villarreal,,

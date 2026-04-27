@@ -1,0 +1,241 @@
+matchday,date,time,home_team,away_team,result,status
+1,31/01/2026,12:00,Universidad de Chile,Audax Italiano,0-0,Final
+1,31/01/2026,12:00,Limache,Colo-Colo,3-1,Final
+1,31/01/2026,12:00,Universidad de Concepción,Coquimbo Unido,1-0,Final
+1,31/01/2026,12:00,Cobresal,Huachipato,1-0,Final
+1,01/02/2026,12:00,La Serena,Universidad Católica,2-2,Final
+1,02/02/2026,12:00,Palestino,Ñublense,1-1,Final
+1,02/02/2026,12:00,Everton,Unión La Calera,3-0,Final
+1,03/02/2026,12:00,O'Higgins,Deportes Concepción,2-1,Final
+2,07/02/2026,12:00,Audax Italiano,Universidad de Concepción,3-0,Final
+2,07/02/2026,12:00,Coquimbo Unido,Palestino,3-1,Final
+2,07/02/2026,12:00,O'Higgins,La Serena,1-0,Final
+2,08/02/2026,12:00,Colo-Colo,Everton,2-0,Final
+2,08/02/2026,12:00,Huachipato,Universidad de Chile,2-1,Final
+2,08/02/2026,12:00,Ñublense,Limache,1-1,Final
+2,09/02/2026,12:00,Universidad Católica,Deportes Concepción,2-0,Final
+2,10/02/2026,12:00,Unión La Calera,Cobresal,0-3,Final
+3,13/02/2026,12:00,Everton,Huachipato,0-3,Final
+3,14/02/2026,12:00,Palestino,Universidad de Chile,0-0,Final
+3,14/02/2026,12:00,La Serena,Coquimbo Unido,0-1,Final
+3,14/02/2026,12:00,Limache,O'Higgins,2-1,Final
+3,15/02/2026,12:00,Cobresal,Universidad Católica,3-2,Final
+3,15/02/2026,12:00,Universidad de Concepción,Deportes Concepción,2-1,Final
+3,15/02/2026,12:00,Ñublense,Audax Italiano,1-0,Final
+3,16/02/2026,12:00,Colo-Colo,Unión La Calera,1-0,Final
+4,20/02/2026,12:00,Unión La Calera,Ñublense,0-1,Final
+4,21/02/2026,12:00,Deportes Concepción,Cobresal,1-1,Final
+4,21/02/2026,12:00,Huachipato,Palestino,2-1,Final
+4,21/02/2026,12:00,O'Higgins,Colo-Colo,0-1,Final
+4,22/02/2026,12:00,Universidad Católica,Coquimbo Unido,3-1,Final
+4,22/02/2026,12:00,La Serena,Universidad de Concepción,1-1,Final
+4,22/02/2026,12:00,Audax Italiano,Everton,1-0,Final
+4,23/02/2026,12:00,Universidad de Chile,Limache,2-2,Final
+5,27/02/2026,12:00,Cobresal,La Serena,0-1,Final
+5,28/02/2026,12:00,Unión La Calera,Audax Italiano,3-0,Final
+5,28/02/2026,12:00,Coquimbo Unido,Deportes Concepción,0-1,Final
+5,28/02/2026,12:00,Limache,Huachipato,3-0,Final
+5,01/03/2026,12:00,Palestino,O'Higgins,4-2,Final
+5,01/03/2026,12:00,Universidad de Concepción,Everton,0-3,Final
+5,01/03/2026,12:00,Colo-Colo,Universidad de Chile,0-1,Final
+5,02/03/2026,12:00,Ñublense,Universidad Católica,1-2,Final
+6,06/03/2026,12:00,La Serena,Unión La Calera,3-0,Final
+6,07/03/2026,12:00,Deportes Concepción,Ñublense,0-2,Final
+6,07/03/2026,12:00,Everton,Limache,1-0,Final
+6,07/03/2026,12:00,Huachipato,Coquimbo Unido,1-3,Final
+6,07/03/2026,12:00,Audax Italiano,Colo-Colo,0-1,Final
+6,08/03/2026,12:00,O'Higgins,Universidad Católica,1-0,Final
+6,09/03/2026,12:00,Palestino,Cobresal,4-2,Final
+6,10/03/2026,12:00,Universidad de Chile,Universidad de Concepción,1-1,Final
+7,14/03/2026,12:00,Audax Italiano,Deportes Concepción,3-0,Final
+7,14/03/2026,12:00,Coquimbo Unido,Universidad de Chile,0-1,Final
+7,15/03/2026,12:00,Universidad Católica,Everton,2-2,Final
+7,15/03/2026,12:00,Universidad de Concepción,Palestino,1-0,Final
+7,15/03/2026,12:00,Cobresal,Limache,2-5,Final
+7,16/03/2026,12:00,Ñublense,La Serena,2-2,Final
+7,16/03/2026,12:00,Unión La Calera,O'Higgins,3-3,Final
+7,17/03/2026,12:00,Colo-Colo,Huachipato,2-0,Final
+8,02/04/2026,12:00,Universidad Católica,Palestino,6-1,Final
+8,03/04/2026,12:00,Coquimbo Unido,Cobresal,3-2,Final
+8,04/04/2026,12:00,O'Higgins,Audax Italiano,2-1,Final
+8,04/04/2026,12:00,Limache,Unión La Calera,4-0,Final
+8,05/04/2026,12:00,Everton,Ñublense,0-0,Final
+8,05/04/2026,12:00,Deportes Concepción,Colo-Colo,0-1,Final
+8,06/04/2026,12:00,Universidad de Chile,La Serena,4-0,Final
+8,07/04/2026,12:00,Huachipato,Universidad de Concepción,5-1,Final
+9,11/04/2026,12:00,O'Higgins,Huachipato,0-2,Final
+9,11/04/2026,12:00,La Serena,Everton,1-0,Final
+9,11/04/2026,12:00,Audax Italiano,Universidad Católica,3-4,Final
+9,12/04/2026,12:00,Palestino,Limache,1-0,Final
+9,12/04/2026,12:00,Ñublense,Universidad de Chile,1-0,Final
+9,13/04/2026,12:00,Universidad de Concepción,Cobresal,1-0,Final
+9,14/04/2026,12:00,Unión La Calera,Deportes Concepción,1-0,Final
+9,03/05/2026,16:30,Colo-Colo,Coquimbo Unido,,
+10,18/04/2026,12:00,Limache,Universidad de Concepción,3-0,Final
+10,18/04/2026,12:00,Everton,Universidad de Chile,0-0,Final
+10,19/04/2026,12:00,Deportes Concepción,La Serena,3-3,Final
+10,19/04/2026,12:00,Coquimbo Unido,Ñublense,1-1,Final
+10,19/04/2026,12:00,Cobresal,O'Higgins,2-3,Final
+10,20/04/2026,12:00,Colo-Colo,Palestino,0-1,Final
+10,20/04/2026,12:00,Huachipato,Audax Italiano,3-2,Final
+10,21/04/2026,12:00,Universidad Católica,Unión La Calera,1-2,Final
+11,24/04/2026,12:00,Palestino,Deportes Concepción,0-1,Final
+11,25/04/2026,12:00,Unión La Calera,Coquimbo Unido,1-2,Final
+11,25/04/2026,12:00,Audax Italiano,Limache,2-2,Final
+11,25/04/2026,12:00,Ñublense,O'Higgins,0-2,Final
+11,26/04/2026,12:00,Universidad de Chile,Universidad Católica,1-0,Final
+11,26/04/2026,12:00,La Serena,Huachipato,0-0,Final
+11,26/04/2026,12:00,Universidad de Concepción,En vivo,0-0,Final
+11,26/04/2026,12:00,Everton,Cobresal,3-1,Final
+12,15/05/2026,19:00,Coquimbo Unido,Audax Italiano,,
+12,15/05/2026,19:00,Palestino,La Serena,,
+12,16/05/2026,16:30,O'Higgins,Universidad de Concepción,,
+12,16/05/2026,19:00,Limache,Universidad Católica,,
+12,17/05/2026,11:30,Huachipato,Unión La Calera,,
+12,17/05/2026,14:00,Cobresal,Universidad de Chile,,
+12,17/05/2026,16:30,Colo-Colo,Ñublense,,
+12,17/05/2026,19:00,Deportes Concepción,Everton,,
+13,22/05/2026,19:00,Everton,Coquimbo Unido,,
+13,23/05/2026,11:30,Audax Italiano,Cobresal,,
+13,23/05/2026,14:00,Ñublense,Universidad de Concepción,,
+13,23/05/2026,16:30,Universidad de Chile,O'Higgins,,
+13,23/05/2026,19:00,Unión La Calera,Palestino,,
+13,24/05/2026,11:30,Deportes Concepción,Huachipato,,
+13,24/05/2026,14:00,La Serena,Limache,,
+13,24/05/2026,17:00,Universidad Católica,Colo-Colo,,
+14,29/05/2026,17:00,Cobresal,Ñublense,,
+14,29/05/2026,19:30,Universidad de Concepción,Unión La Calera,,
+14,30/05/2026,14:00,La Serena,Colo-Colo,,
+14,30/05/2026,16:30,Universidad de Chile,Deportes Concepción,,
+14,31/05/2026,11:30,Limache,Coquimbo Unido,,
+14,31/05/2026,14:00,Huachipato,Universidad Católica,,
+14,31/05/2026,16:30,O'Higgins,Everton,,
+14,31/05/2026,19:00,Palestino,Audax Italiano,,
+15,12/06/2026,19:00,Audax Italiano,La Serena,,
+15,13/06/2026,14:00,Everton,Palestino,,
+15,13/06/2026,16:30,Colo-Colo,Cobresal,,
+15,13/06/2026,19:00,Ñublense,Huachipato,,
+15,14/06/2026,11:30,Deportes Concepción,Limache,,
+15,14/06/2026,14:00,Unión La Calera,Universidad de Chile,,
+15,14/06/2026,16:30,Universidad Católica,Universidad de Concepción,,
+15,14/06/2026,19:00,Coquimbo Unido,O'Higgins,,
+16,26/07/2026,12:00,Deportes Concepción,O'Higgins,,
+16,26/07/2026,12:00,Audax Italiano,Universidad de Chile,,
+16,26/07/2026,12:00,Colo-Colo,Limache,,
+16,26/07/2026,12:00,Coquimbo Unido,Universidad de Concepción,,
+16,26/07/2026,12:00,Huachipato,Cobresal,,
+16,26/07/2026,12:00,Ñublense,Palestino,,
+16,26/07/2026,12:00,Unión La Calera,Everton,,
+16,26/07/2026,12:00,Universidad Católica,La Serena,,
+17,02/08/2026,12:00,Cobresal,Unión La Calera,,
+17,02/08/2026,12:00,Deportes Concepción,Universidad Católica,,
+17,02/08/2026,12:00,Everton,Colo-Colo,,
+17,02/08/2026,12:00,La Serena,O'Higgins,,
+17,02/08/2026,12:00,Limache,Ñublense,,
+17,02/08/2026,12:00,Palestino,Coquimbo Unido,,
+17,02/08/2026,12:00,Universidad de Chile,Huachipato,,
+17,02/08/2026,12:00,Universidad de Concepción,Audax Italiano,,
+18,09/08/2026,12:00,Audax Italiano,Ñublense,,
+18,09/08/2026,12:00,O'Higgins,Limache,,
+18,09/08/2026,12:00,Coquimbo Unido,La Serena,,
+18,09/08/2026,12:00,Deportes Concepción,Universidad de Concepción,,
+18,09/08/2026,12:00,Huachipato,Everton,,
+18,09/08/2026,12:00,Unión La Calera,Colo-Colo,,
+18,09/08/2026,12:00,Universidad Católica,Cobresal,,
+18,09/08/2026,12:00,Universidad de Chile,Palestino,,
+19,16/08/2026,12:00,Cobresal,Deportes Concepción,,
+19,16/08/2026,12:00,Colo-Colo,O'Higgins,,
+19,16/08/2026,12:00,Coquimbo Unido,Universidad Católica,,
+19,16/08/2026,12:00,Everton,Audax Italiano,,
+19,16/08/2026,12:00,Limache,Universidad de Chile,,
+19,16/08/2026,12:00,Ñublense,Unión La Calera,,
+19,16/08/2026,12:00,Palestino,Huachipato,,
+19,16/08/2026,12:00,Universidad de Concepción,La Serena,,
+20,23/08/2026,12:00,Audax Italiano,Unión La Calera,,
+20,23/08/2026,12:00,O'Higgins,Palestino,,
+20,23/08/2026,12:00,Deportes Concepción,Coquimbo Unido,,
+20,23/08/2026,12:00,Everton,Universidad de Concepción,,
+20,23/08/2026,12:00,Huachipato,Limache,,
+20,23/08/2026,12:00,La Serena,Cobresal,,
+20,23/08/2026,12:00,Universidad Católica,Ñublense,,
+20,23/08/2026,12:00,Universidad de Chile,Colo-Colo,,
+21,30/08/2026,12:00,Cobresal,Palestino,,
+21,30/08/2026,12:00,Colo-Colo,Audax Italiano,,
+21,30/08/2026,12:00,Coquimbo Unido,Huachipato,,
+21,30/08/2026,12:00,Limache,Everton,,
+21,30/08/2026,12:00,Ñublense,Deportes Concepción,,
+21,30/08/2026,12:00,Unión La Calera,La Serena,,
+21,30/08/2026,12:00,Universidad Católica,O'Higgins,,
+21,30/08/2026,12:00,Universidad de Concepción,Universidad de Chile,,
+22,06/09/2026,12:00,O'Higgins,Unión La Calera,,
+22,06/09/2026,12:00,Deportes Concepción,Audax Italiano,,
+22,06/09/2026,12:00,Everton,Universidad Católica,,
+22,06/09/2026,12:00,Huachipato,Colo-Colo,,
+22,06/09/2026,12:00,La Serena,Ñublense,,
+22,06/09/2026,12:00,Limache,Cobresal,,
+22,06/09/2026,12:00,Palestino,Universidad de Concepción,,
+22,06/09/2026,12:00,Universidad de Chile,Coquimbo Unido,,
+23,13/09/2026,12:00,Audax Italiano,O'Higgins,,
+23,13/09/2026,12:00,Cobresal,Coquimbo Unido,,
+23,13/09/2026,12:00,Colo-Colo,Deportes Concepción,,
+23,13/09/2026,12:00,La Serena,Universidad de Chile,,
+23,13/09/2026,12:00,Ñublense,Everton,,
+23,13/09/2026,12:00,Palestino,Universidad Católica,,
+23,13/09/2026,12:00,Unión La Calera,Limache,,
+23,13/09/2026,12:00,Universidad de Concepción,Huachipato,,
+24,11/10/2026,12:00,Cobresal,Universidad de Concepción,,
+24,11/10/2026,12:00,Coquimbo Unido,Colo-Colo,,
+24,11/10/2026,12:00,Deportes Concepción,Unión La Calera,,
+24,11/10/2026,12:00,Everton,La Serena,,
+24,11/10/2026,12:00,Huachipato,O'Higgins,,
+24,11/10/2026,12:00,Limache,Palestino,,
+24,11/10/2026,12:00,Universidad Católica,Audax Italiano,,
+24,11/10/2026,12:00,Universidad de Chile,Ñublense,,
+25,25/10/2026,12:00,Audax Italiano,Huachipato,,
+25,25/10/2026,12:00,O'Higgins,Cobresal,,
+25,25/10/2026,12:00,La Serena,Deportes Concepción,,
+25,25/10/2026,12:00,Ñublense,Coquimbo Unido,,
+25,25/10/2026,12:00,Palestino,Colo-Colo,,
+25,25/10/2026,12:00,Unión La Calera,Universidad Católica,,
+25,25/10/2026,12:00,Universidad de Chile,Everton,,
+25,25/10/2026,12:00,Universidad de Concepción,Limache,,
+26,01/11/2026,12:00,O'Higgins,Ñublense,,
+26,01/11/2026,12:00,Cobresal,Everton,,
+26,01/11/2026,12:00,Colo-Colo,Universidad de Concepción,,
+26,01/11/2026,12:00,Coquimbo Unido,Unión La Calera,,
+26,01/11/2026,12:00,Deportes Concepción,Palestino,,
+26,01/11/2026,12:00,Huachipato,La Serena,,
+26,01/11/2026,12:00,Limache,Audax Italiano,,
+26,01/11/2026,12:00,Universidad Católica,Universidad de Chile,,
+27,08/11/2026,12:00,Audax Italiano,Coquimbo Unido,,
+27,08/11/2026,12:00,Everton,Deportes Concepción,,
+27,08/11/2026,12:00,La Serena,Palestino,,
+27,08/11/2026,12:00,Ñublense,Colo-Colo,,
+27,08/11/2026,12:00,Unión La Calera,Huachipato,,
+27,08/11/2026,12:00,Universidad Católica,Limache,,
+27,08/11/2026,12:00,Universidad de Chile,Cobresal,,
+27,08/11/2026,12:00,Universidad de Concepción,O'Higgins,,
+28,22/11/2026,12:00,O'Higgins,Universidad de Chile,,
+28,22/11/2026,12:00,Cobresal,Audax Italiano,,
+28,22/11/2026,12:00,Colo-Colo,Universidad Católica,,
+28,22/11/2026,12:00,Coquimbo Unido,Everton,,
+28,22/11/2026,12:00,Huachipato,Deportes Concepción,,
+28,22/11/2026,12:00,Limache,La Serena,,
+28,22/11/2026,12:00,Palestino,Unión La Calera,,
+28,22/11/2026,12:00,Universidad de Concepción,Ñublense,,
+29,29/11/2026,12:00,Audax Italiano,Palestino,,
+29,29/11/2026,12:00,Colo-Colo,La Serena,,
+29,29/11/2026,12:00,Coquimbo Unido,Limache,,
+29,29/11/2026,12:00,Deportes Concepción,Universidad de Chile,,
+29,29/11/2026,12:00,Everton,O'Higgins,,
+29,29/11/2026,12:00,Ñublense,Cobresal,,
+29,29/11/2026,12:00,Unión La Calera,Universidad de Concepción,,
+29,29/11/2026,12:00,Universidad Católica,Huachipato,,
+30,06/12/2026,12:00,O'Higgins,Coquimbo Unido,,
+30,06/12/2026,12:00,Cobresal,Colo-Colo,,
+30,06/12/2026,12:00,Huachipato,Ñublense,,
+30,06/12/2026,12:00,La Serena,Audax Italiano,,
+30,06/12/2026,12:00,Limache,Deportes Concepción,,
+30,06/12/2026,12:00,Palestino,Everton,,
+30,06/12/2026,12:00,Universidad de Chile,Unión La Calera,,
+30,06/12/2026,12:00,Universidad de Concepción,Universidad Católica,,

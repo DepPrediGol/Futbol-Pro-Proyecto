@@ -1,0 +1,241 @@
+matchday,date,time,home_team,away_team,result,status
+1,18/07/2025,09:00,FK Pardubice,Viktoria Plzeň,1-5,Final
+1,19/07/2025,09:00,Bohemians Praha 1905,Baník Ostrava,1-0,Final
+1,19/07/2025,09:00,FK Teplice,FC Zlín,1-3,Final
+1,19/07/2025,09:00,MFK Karviná,FK Dukla Praha,2-0,Final
+1,19/07/2025,09:00,FK Jablonec,AC Sparta Praha,1-1,Final
+1,20/07/2025,09:00,1. FC Slovácko,Sigma Olomouc,0-1,Final
+1,20/07/2025,09:00,FK Mladá Boleslav,Slovan Liberec,3-3,Final
+1,20/07/2025,09:00,Slavia Praha,FC Hradec Králové,2-2,Final
+2,26/07/2025,09:00,FC Hradec Králové,MFK Karviná,1-2,Final
+2,26/07/2025,09:00,Sigma Olomouc,FK Dukla Praha,0-0,Final
+2,26/07/2025,09:00,Viktoria Plzeň,FK Jablonec,1-1,Final
+2,26/07/2025,09:00,FC Zlín,1. FC Slovácko,1-1,Final
+2,26/07/2025,09:00,Bohemians Praha 1905,Slavia Praha,0-2,Final
+2,27/07/2025,09:00,Slovan Liberec,FK Pardubice,2-1,Final
+2,27/07/2025,09:00,AC Sparta Praha,FK Mladá Boleslav,3-2,Final
+2,17/09/2025,09:00,Baník Ostrava,FK Teplice,1-1,Final
+3,02/08/2025,09:00,FK Jablonec,FC Hradec Králové,2-0,Final
+3,02/08/2025,09:00,FK Teplice,Bohemians Praha 1905,3-0,Final
+3,02/08/2025,09:00,MFK Karviná,FC Zlín,0-1,Final
+3,02/08/2025,09:00,Sigma Olomouc,Slovan Liberec,2-1,Final
+3,03/08/2025,09:00,1. FC Slovácko,Slavia Praha,0-1,Final
+3,03/08/2025,09:00,FK Dukla Praha,Baník Ostrava,1-1,Final
+3,03/08/2025,09:00,FK Pardubice,AC Sparta Praha,1-3,Final
+3,19/08/2025,09:00,FK Mladá Boleslav,Viktoria Plzeň,0-5,Final
+4,09/08/2025,09:00,Slovan Liberec,FK Dukla Praha,2-0,Final
+4,09/08/2025,09:00,Viktoria Plzeň,1. FC Slovácko,1-1,Final
+4,09/08/2025,09:00,FC Zlín,FK Mladá Boleslav,3-2,Final
+4,09/08/2025,09:00,Slavia Praha,FK Teplice,3-0,Final
+4,10/08/2025,09:00,Bohemians Praha 1905,FK Jablonec,0-1,Final
+4,10/08/2025,09:00,FC Hradec Králové,FK Pardubice,1-1,Final
+4,10/08/2025,09:00,Baník Ostrava,MFK Karviná,1-2,Final
+4,10/08/2025,09:00,AC Sparta Praha,Sigma Olomouc,1-0,Final
+5,16/08/2025,09:00,1. FC Slovácko,FK Teplice,2-1,Final
+5,16/08/2025,09:00,FK Dukla Praha,Viktoria Plzeň,2-0,Final
+5,16/08/2025,09:00,FK Mladá Boleslav,FC Hradec Králové,3-2,Final
+5,16/08/2025,09:00,Sigma Olomouc,FC Zlín,1-0,Final
+5,16/08/2025,09:00,FK Jablonec,Slavia Praha,1-1,Final
+5,17/08/2025,09:00,MFK Karviná,Bohemians Praha 1905,1-2,Final
+5,17/08/2025,09:00,Slovan Liberec,AC Sparta Praha,0-2,Final
+5,01/10/2025,09:00,FK Pardubice,Baník Ostrava,0-1,Final
+6,23/08/2025,09:00,FK Teplice,FK Jablonec,0-1,Final
+6,23/08/2025,09:00,Viktoria Plzeň,MFK Karviná,2-1,Final
+6,23/08/2025,09:00,FC Zlín,Slovan Liberec,1-0,Final
+6,23/08/2025,09:00,Slavia Praha,FK Pardubice,3-1,Final
+6,24/08/2025,09:00,FC Hradec Králové,Sigma Olomouc,1-0,Final
+6,24/08/2025,09:00,Baník Ostrava,1. FC Slovácko,2-0,Final
+6,24/08/2025,09:00,AC Sparta Praha,FK Dukla Praha,3-2,Final
+6,22/10/2025,09:00,Bohemians Praha 1905,FK Mladá Boleslav,1-1,Final
+7,30/08/2025,09:00,1. FC Slovácko,FK Jablonec,0-2,Final
+7,30/08/2025,09:00,FK Dukla Praha,FC Hradec Králové,1-1,Final
+7,30/08/2025,09:00,FK Pardubice,Bohemians Praha 1905,1-1,Final
+7,30/08/2025,09:00,MFK Karviná,FK Teplice,4-1,Final
+7,30/08/2025,09:00,FK Mladá Boleslav,Slavia Praha,1-3,Final
+7,31/08/2025,09:00,Slovan Liberec,Viktoria Plzeň,1-1,Final
+7,31/08/2025,09:00,Sigma Olomouc,Baník Ostrava,1-0,Final
+7,31/08/2025,09:00,AC Sparta Praha,FC Zlín,3-1,Final
+8,13/09/2025,09:00,Baník Ostrava,Slovan Liberec,0-2,Final
+8,13/09/2025,09:00,FK Teplice,FK Mladá Boleslav,2-3,Final
+8,13/09/2025,09:00,Viktoria Plzeň,Sigma Olomouc,1-0,Final
+8,13/09/2025,09:00,FC Zlín,FK Dukla Praha,1-1,Final
+8,13/09/2025,09:00,Slavia Praha,MFK Karviná,3-1,Final
+8,14/09/2025,09:00,FK Jablonec,FK Pardubice,3-2,Final
+8,14/09/2025,09:00,Bohemians Praha 1905,1. FC Slovácko,1-0,Final
+8,14/09/2025,09:00,FC Hradec Králové,AC Sparta Praha,2-1,Final
+9,20/09/2025,09:00,FK Pardubice,1. FC Slovácko,1-1,Final
+9,20/09/2025,09:00,MFK Karviná,FK Jablonec,1-2,Final
+9,20/09/2025,09:00,Sigma Olomouc,FK Teplice,0-0,Final
+9,20/09/2025,09:00,FC Zlín,FC Hradec Králové,1-2,Final
+9,20/09/2025,09:00,AC Sparta Praha,Viktoria Plzeň,2-1,Final
+9,21/09/2025,09:00,FK Dukla Praha,Bohemians Praha 1905,0-2,Final
+9,21/09/2025,09:00,Slovan Liberec,Slavia Praha,1-1,Final
+9,21/09/2025,09:00,FK Mladá Boleslav,Baník Ostrava,1-1,Final
+10,26/09/2025,09:00,Slavia Praha,FK Dukla Praha,2-0,Final
+10,27/09/2025,09:00,1. FC Slovácko,MFK Karviná,1-2,Final
+10,27/09/2025,09:00,Baník Ostrava,AC Sparta Praha,0-3,Final
+10,27/09/2025,09:00,Bohemians Praha 1905,Sigma Olomouc,2-2,Final
+10,27/09/2025,09:00,FC Hradec Králové,Slovan Liberec,2-3,Final
+10,28/09/2025,09:00,FK Teplice,FK Pardubice,0-0,Final
+10,28/09/2025,09:00,FK Jablonec,FK Mladá Boleslav,2-0,Final
+10,28/09/2025,09:00,Viktoria Plzeň,FC Zlín,0-1,Final
+11,04/10/2025,09:00,FK Dukla Praha,FK Teplice,1-3,Final
+11,04/10/2025,09:00,FK Mladá Boleslav,1. FC Slovácko,0-0,Final
+11,04/10/2025,09:00,FK Pardubice,MFK Karviná,2-1,Final
+11,04/10/2025,09:00,Slovan Liberec,Bohemians Praha 1905,0-0,Final
+11,05/10/2025,09:00,FC Zlín,Baník Ostrava,1-1,Final
+11,05/10/2025,09:00,Sigma Olomouc,FK Jablonec,2-0,Final
+11,05/10/2025,09:00,Viktoria Plzeň,FC Hradec Králové,3-3,Final
+11,05/10/2025,09:00,AC Sparta Praha,Slavia Praha,1-1,Final
+12,18/10/2025,09:00,Bohemians Praha 1905,Viktoria Plzeň,0-1,Final
+12,18/10/2025,09:00,FK Pardubice,FK Mladá Boleslav,2-1,Final
+12,18/10/2025,09:00,FK Teplice,Slovan Liberec,1-1,Final
+12,18/10/2025,09:00,MFK Karviná,Sigma Olomouc,1-1,Final
+12,18/10/2025,09:00,Slavia Praha,FC Zlín,0-0,Final
+12,19/10/2025,09:00,Baník Ostrava,FC Hradec Králové,0-1,Final
+12,19/10/2025,09:00,1. FC Slovácko,AC Sparta Praha,0-0,Final
+12,19/10/2025,09:00,FK Jablonec,FK Dukla Praha,0-0,Final
+13,25/10/2025,09:00,FK Dukla Praha,1. FC Slovácko,1-0,Final
+13,25/10/2025,09:00,FC Hradec Králové,FK Teplice,0-0,Final
+13,25/10/2025,09:00,FK Mladá Boleslav,MFK Karviná,2-4,Final
+13,25/10/2025,09:00,FC Zlín,FK Pardubice,2-2,Final
+13,25/10/2025,09:00,Slovan Liberec,FK Jablonec,0-2,Final
+13,26/10/2025,09:00,Sigma Olomouc,Slavia Praha,0-0,Final
+13,26/10/2025,09:00,Viktoria Plzeň,Baník Ostrava,2-0,Final
+13,28/10/2025,09:00,AC Sparta Praha,Bohemians Praha 1905,2-1,Final
+14,01/11/2025,09:00,1. FC Slovácko,Slovan Liberec,0-3,Final
+14,01/11/2025,09:00,FK Jablonec,FC Zlín,1-3,Final
+14,01/11/2025,09:00,FK Pardubice,FK Dukla Praha,1-1,Final
+14,01/11/2025,09:00,Slavia Praha,Baník Ostrava,2-0,Final
+14,02/11/2025,09:00,FK Mladá Boleslav,Sigma Olomouc,1-4,Final
+14,02/11/2025,09:00,Bohemians Praha 1905,FC Hradec Králové,1-2,Final
+14,02/11/2025,09:00,MFK Karviná,AC Sparta Praha,2-1,Final
+14,02/11/2025,09:00,FK Teplice,Viktoria Plzeň,1-2,Final
+15,08/11/2025,09:00,FK Dukla Praha,FK Mladá Boleslav,0-1,Final
+15,08/11/2025,09:00,FC Hradec Králové,1. FC Slovácko,4-0,Final
+15,08/11/2025,09:00,FC Zlín,Bohemians Praha 1905,0-1,Final
+15,08/11/2025,09:00,Baník Ostrava,FK Jablonec,0-1,Final
+15,09/11/2025,09:00,Slovan Liberec,MFK Karviná,6-0,Final
+15,09/11/2025,09:00,Sigma Olomouc,FK Pardubice,2-0,Final
+15,09/11/2025,09:00,AC Sparta Praha,FK Teplice,2-2,Final
+15,09/11/2025,09:00,Viktoria Plzeň,Slavia Praha,3-5,Final
+16,22/11/2025,09:00,FK Dukla Praha,Sigma Olomouc,2-2,Final
+16,22/11/2025,09:00,FK Mladá Boleslav,AC Sparta Praha,1-2,Final
+16,22/11/2025,09:00,FK Pardubice,Slovan Liberec,0-4,Final
+16,22/11/2025,09:00,FK Teplice,Baník Ostrava,1-0,Final
+16,22/11/2025,09:00,Slavia Praha,Bohemians Praha 1905,3-1,Final
+16,23/11/2025,09:00,MFK Karviná,FC Hradec Králové,4-3,Final
+16,23/11/2025,09:00,FK Jablonec,Viktoria Plzeň,3-3,Final
+16,23/11/2025,09:00,1. FC Slovácko,FC Zlín,2-0,Final
+17,29/11/2025,09:00,Baník Ostrava,FK Dukla Praha,3-1,Final
+17,29/11/2025,09:00,FC Hradec Králové,FK Jablonec,2-0,Final
+17,29/11/2025,09:00,FC Zlín,MFK Karviná,1-3,Final
+17,29/11/2025,09:00,Slavia Praha,1. FC Slovácko,3-0,Final
+17,30/11/2025,09:00,Bohemians Praha 1905,FK Teplice,0-1,Final
+17,30/11/2025,09:00,Slovan Liberec,Sigma Olomouc,1-0,Final
+17,30/11/2025,09:00,Viktoria Plzeň,FK Mladá Boleslav,2-1,Final
+17,30/11/2025,09:00,AC Sparta Praha,FK Pardubice,2-4,Final
+18,05/12/2025,09:00,FK Teplice,Slavia Praha,1-2,Final
+18,06/12/2025,09:00,1. FC Slovácko,Viktoria Plzeň,3-0,Final
+18,06/12/2025,09:00,FK Dukla Praha,Slovan Liberec,1-1,Final
+18,06/12/2025,09:00,FK Mladá Boleslav,FC Zlín,3-1,Final
+18,06/12/2025,09:00,Sigma Olomouc,AC Sparta Praha,0-1,Final
+18,07/12/2025,09:00,FK Jablonec,Bohemians Praha 1905,1-0,Final
+18,07/12/2025,09:00,MFK Karviná,Baník Ostrava,0-0,Final
+18,07/12/2025,09:00,FK Pardubice,FC Hradec Králové,1-0,Final
+19,13/12/2025,09:00,Baník Ostrava,FK Pardubice,1-4,Final
+19,13/12/2025,09:00,FC Hradec Králové,FK Mladá Boleslav,1-1,Final
+19,13/12/2025,09:00,FK Teplice,1. FC Slovácko,1-0,Final
+19,13/12/2025,09:00,Slavia Praha,FK Jablonec,4-3,Final
+19,14/12/2025,09:00,Bohemians Praha 1905,MFK Karviná,0-3,Final
+19,14/12/2025,09:00,Viktoria Plzeň,FK Dukla Praha,2-0,Final
+19,14/12/2025,09:00,FC Zlín,Sigma Olomouc,5-0,Final
+19,14/12/2025,09:00,AC Sparta Praha,Slovan Liberec,2-2,Final
+20,31/01/2026,09:00,FK Jablonec,FK Teplice,1-0,Final
+20,31/01/2026,09:00,FK Mladá Boleslav,Bohemians Praha 1905,2-2,Final
+20,31/01/2026,09:00,Sigma Olomouc,FC Hradec Králové,1-0,Final
+20,31/01/2026,09:00,FK Dukla Praha,AC Sparta Praha,0-3,Final
+20,01/02/2026,09:00,1. FC Slovácko,Baník Ostrava,2-2,Final
+20,01/02/2026,09:00,MFK Karviná,Viktoria Plzeň,0-2,Final
+20,01/02/2026,09:00,Slovan Liberec,FC Zlín,2-0,Final
+20,01/02/2026,09:00,FK Pardubice,Slavia Praha,1-1,Final
+21,07/02/2026,09:00,Baník Ostrava,Sigma Olomouc,2-0,Final
+21,07/02/2026,09:00,FK Jablonec,1. FC Slovácko,0-0,Final
+21,07/02/2026,09:00,FK Teplice,MFK Karviná,2-0,Final
+21,07/02/2026,09:00,Slavia Praha,FK Mladá Boleslav,4-0,Final
+21,08/02/2026,09:00,FC Hradec Králové,FK Dukla Praha,3-0,Final
+21,08/02/2026,09:00,Bohemians Praha 1905,FK Pardubice,1-2,Final
+21,08/02/2026,09:00,FC Zlín,AC Sparta Praha,0-3,Final
+21,08/02/2026,09:00,Viktoria Plzeň,Slovan Liberec,3-1,Final
+22,14/02/2026,09:00,1. FC Slovácko,Bohemians Praha 1905,1-2,Final
+22,14/02/2026,09:00,FK Dukla Praha,FC Zlín,0-0,Final
+22,14/02/2026,09:00,MFK Karviná,Slavia Praha,1-3,Final
+22,14/02/2026,09:00,Sigma Olomouc,Viktoria Plzeň,1-2,Final
+22,15/02/2026,09:00,FK Pardubice,FK Jablonec,0-2,Final
+22,15/02/2026,09:00,FK Mladá Boleslav,FK Teplice,0-0,Final
+22,15/02/2026,09:00,Slovan Liberec,Baník Ostrava,1-0,Final
+22,15/02/2026,09:00,AC Sparta Praha,FC Hradec Králové,2-0,Final
+23,21/02/2026,09:00,1. FC Slovácko,FK Pardubice,2-0,Final
+23,21/02/2026,09:00,FC Hradec Králové,FC Zlín,0-0,Final
+23,21/02/2026,09:00,FK Jablonec,MFK Karviná,1-0,Final
+23,21/02/2026,09:00,Slavia Praha,Slovan Liberec,1-0,Final
+23,22/02/2026,09:00,Bohemians Praha 1905,FK Dukla Praha,1-0,Final
+23,22/02/2026,09:00,Baník Ostrava,FK Mladá Boleslav,0-0,Final
+23,22/02/2026,09:00,FK Teplice,Sigma Olomouc,1-3,Final
+23,22/02/2026,09:00,Viktoria Plzeň,AC Sparta Praha,0-0,Final
+24,27/02/2026,09:00,FK Dukla Praha,Slavia Praha,0-2,Final
+24,28/02/2026,09:00,FK Mladá Boleslav,FK Jablonec,3-0,Final
+24,28/02/2026,09:00,FK Pardubice,FK Teplice,1-1,Final
+24,28/02/2026,09:00,Slovan Liberec,FC Hradec Králové,0-1,Final
+24,28/02/2026,09:00,AC Sparta Praha,Baník Ostrava,5-2,Final
+24,01/03/2026,09:00,MFK Karviná,1. FC Slovácko,0-2,Final
+24,01/03/2026,09:00,FC Zlín,Viktoria Plzeň,3-0,Final
+24,01/03/2026,09:00,Sigma Olomouc,Bohemians Praha 1905,1-0,Final
+25,07/03/2026,09:00,1. FC Slovácko,FK Mladá Boleslav,2-2,Final
+25,07/03/2026,09:00,Bohemians Praha 1905,Slovan Liberec,0-0,Final
+25,07/03/2026,09:00,FK Teplice,FK Dukla Praha,0-0,Final
+25,07/03/2026,09:00,FK Jablonec,Sigma Olomouc,1-2,Final
+25,08/03/2026,09:00,Baník Ostrava,FC Zlín,6-2,Final
+25,08/03/2026,09:00,FC Hradec Králové,Viktoria Plzeň,0-3,Final
+25,08/03/2026,09:00,MFK Karviná,FK Pardubice,1-2,Final
+25,08/03/2026,09:00,Slavia Praha,AC Sparta Praha,3-1,Final
+26,14/03/2026,09:00,FK Dukla Praha,FK Jablonec,2-0,Final
+26,14/03/2026,09:00,FC Hradec Králové,Baník Ostrava,1-0,Final
+26,14/03/2026,09:00,FK Mladá Boleslav,FK Pardubice,2-0,Final
+26,14/03/2026,09:00,FC Zlín,Slavia Praha,1-3,Final
+26,15/03/2026,09:00,Slovan Liberec,FK Teplice,1-1,Final
+26,15/03/2026,09:00,Sigma Olomouc,MFK Karviná,2-2,Final
+26,15/03/2026,09:00,Viktoria Plzeň,Bohemians Praha 1905,2-0,Final
+26,15/03/2026,09:00,AC Sparta Praha,1. FC Slovácko,5-2,Final
+27,25/04/2026,09:00,1. FC Slovácko,FK Dukla Praha,1-2,Final
+27,25/04/2026,09:00,Baník Ostrava,Viktoria Plzeň,0-1,Final
+27,25/04/2026,09:00,Bohemians Praha 1905,AC Sparta Praha,2-0,Final
+27,25/04/2026,09:00,FK Jablonec,Slovan Liberec,1-2,Final
+27,25/04/2026,09:00,FK Pardubice,FC Zlín,3-1,Final
+27,25/04/2026,09:00,FK Teplice,FC Hradec Králové,0-1,Final
+27,25/04/2026,09:00,MFK Karviná,FK Mladá Boleslav,0-3,Final
+27,25/04/2026,09:00,Slavia Praha,Sigma Olomouc,2-1,Final
+28,04/04/2026,09:00,FK Dukla Praha,FK Pardubice,0-2,Final
+28,04/04/2026,09:00,Sigma Olomouc,FK Mladá Boleslav,2-4,Final
+28,04/04/2026,09:00,Slovan Liberec,1. FC Slovácko,2-1,Final
+28,04/04/2026,09:00,FC Zlín,FK Jablonec,0-3,Final
+28,04/04/2026,09:00,Viktoria Plzeň,FK Teplice,2-2,Final
+28,05/04/2026,09:00,FC Hradec Králové,Bohemians Praha 1905,2-0,Final
+28,05/04/2026,09:00,Baník Ostrava,Slavia Praha,0-2,Final
+28,05/04/2026,09:00,AC Sparta Praha,MFK Karviná,2-0,Final
+29,11/04/2026,09:00,Bohemians Praha 1905,FC Zlín,2-1,Final
+29,11/04/2026,09:00,FK Jablonec,Baník Ostrava,4-1,Final
+29,11/04/2026,09:00,1. FC Slovácko,FC Hradec Králové,1-3,Final
+29,12/04/2026,09:00,MFK Karviná,Slovan Liberec,3-1,Final
+29,12/04/2026,09:00,FK Mladá Boleslav,FK Dukla Praha,1-1,Final
+29,12/04/2026,09:00,FK Pardubice,Sigma Olomouc,2-1,Final
+29,12/04/2026,09:00,FK Teplice,AC Sparta Praha,0-1,Final
+29,12/04/2026,09:00,Slavia Praha,Viktoria Plzeň,0-0,Final
+30,18/04/2026,09:00,Baník Ostrava,Bohemians Praha 1905,0-2,Final
+30,18/04/2026,09:00,FK Dukla Praha,MFK Karviná,1-2,Final
+30,18/04/2026,09:00,Slovan Liberec,FK Mladá Boleslav,0-0,Final
+30,18/04/2026,09:00,FC Zlín,FK Teplice,3-2,Final
+30,18/04/2026,09:00,AC Sparta Praha,FK Jablonec,3-1,Final
+30,19/04/2026,09:00,Sigma Olomouc,1. FC Slovácko,2-1,Final
+30,19/04/2026,09:00,FC Hradec Králové,Slavia Praha,2-1,Final
+30,19/04/2026,09:00,Viktoria Plzeň,FK Pardubice,0-1,Final

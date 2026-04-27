@@ -1,0 +1,193 @@
+matchday,date,time,home_team,away_team,result,status
+1,26/07/2025,09:00,KFC Komárno,AS Trenčín,1-2,Final
+1,26/07/2025,09:00,FC DAC 1904,MFK Zemplín Michalovce,1-1,Final
+1,26/07/2025,09:00,1. FC Tatran Prešov,Slovan Bratislava,2-2,Final
+1,27/07/2025,09:00,FK Železiarne Podbrezová,FC Košice,3-1,Final
+1,27/07/2025,09:00,MFK Skalica,MŠK Žilina,0-0,Final
+1,27/07/2025,09:00,Spartak Trnava,MFK Ružomberok,3-0,Final
+2,02/08/2025,09:00,MFK Zemplín Michalovce,KFC Komárno,3-1,Final
+2,02/08/2025,09:00,Slovan Bratislava,FK Železiarne Podbrezová,4-1,Final
+2,03/08/2025,09:00,AS Trenčín,Spartak Trnava,0-1,Final
+2,03/08/2025,09:00,MŠK Žilina,1. FC Tatran Prešov,1-0,Final
+2,12/08/2025,09:00,MFK Ružomberok,MFK Skalica,1-3,Final
+2,01/10/2025,09:00,FC Košice,FC DAC 1904,0-2,Final
+3,09/08/2025,09:00,MFK Skalica,FK Železiarne Podbrezová,2-2,Final
+3,09/08/2025,09:00,MFK Zemplín Michalovce,MŠK Žilina,2-4,Final
+3,09/08/2025,09:00,FC DAC 1904,MFK Ružomberok,2-0,Final
+3,10/08/2025,09:00,FC Košice,AS Trenčín,0-1,Final
+3,10/08/2025,09:00,Spartak Trnava,1. FC Tatran Prešov,1-0,Final
+3,29/10/2025,09:00,KFC Komárno,Slovan Bratislava,2-3,Final
+4,16/08/2025,09:00,FK Železiarne Podbrezová,KFC Komárno,2-1,Final
+4,16/08/2025,09:00,MFK Ružomberok,MFK Zemplín Michalovce,0-1,Final
+4,16/08/2025,09:00,Slovan Bratislava,MFK Skalica,1-0,Final
+4,16/08/2025,09:00,1. FC Tatran Prešov,FC DAC 1904,0-0,Final
+4,17/08/2025,09:00,AS Trenčín,MŠK Žilina,2-1,Final
+4,29/10/2025,09:00,Spartak Trnava,FC Košice,3-1,Final
+5,23/08/2025,09:00,MFK Skalica,1. FC Tatran Prešov,2-2,Final
+5,23/08/2025,09:00,FC Košice,MFK Ružomberok,3-1,Final
+5,23/08/2025,09:00,FC DAC 1904,AS Trenčín,4-1,Final
+5,24/08/2025,09:00,KFC Komárno,Spartak Trnava,1-4,Final
+5,24/08/2025,09:00,MŠK Žilina,FK Železiarne Podbrezová,3-0,Final
+5,24/08/2025,09:00,MFK Zemplín Michalovce,Slovan Bratislava,1-1,Final
+6,30/08/2025,09:00,1. FC Tatran Prešov,AS Trenčín,2-3,Final
+6,30/08/2025,09:00,KFC Komárno,MFK Skalica,1-0,Final
+6,30/08/2025,09:00,FK Železiarne Podbrezová,MFK Zemplín Michalovce,2-2,Final
+6,31/08/2025,09:00,MFK Ružomberok,MŠK Žilina,3-3,Final
+6,31/08/2025,09:00,Slovan Bratislava,FC Košice,3-2,Final
+6,31/08/2025,09:00,Spartak Trnava,FC DAC 1904,0-3,Final
+7,13/09/2025,09:00,FC Košice,KFC Komárno,2-3,Final
+7,13/09/2025,09:00,MFK Skalica,Spartak Trnava,0-4,Final
+7,13/09/2025,09:00,AS Trenčín,MFK Ružomberok,0-3,Final
+7,13/09/2025,09:00,MŠK Žilina,Slovan Bratislava,3-3,Final
+7,14/09/2025,09:00,MFK Zemplín Michalovce,1. FC Tatran Prešov,1-2,Final
+7,14/09/2025,09:00,FC DAC 1904,FK Železiarne Podbrezová,2-0,Final
+8,20/09/2025,09:00,MFK Skalica,FC Košice,1-0,Final
+8,20/09/2025,09:00,1. FC Tatran Prešov,MFK Ružomberok,1-3,Final
+8,20/09/2025,09:00,FK Železiarne Podbrezová,AS Trenčín,2-0,Final
+8,20/09/2025,09:00,Slovan Bratislava,FC DAC 1904,3-2,Final
+8,21/09/2025,09:00,KFC Komárno,MŠK Žilina,1-3,Final
+8,21/09/2025,09:00,Spartak Trnava,MFK Zemplín Michalovce,0-1,Final
+9,27/09/2025,09:00,FC DAC 1904,KFC Komárno,1-1,Final
+9,27/09/2025,09:00,MFK Zemplín Michalovce,MFK Skalica,2-0,Final
+9,27/09/2025,09:00,AS Trenčín,Slovan Bratislava,1-2,Final
+9,27/09/2025,09:00,FC Košice,1. FC Tatran Prešov,2-2,Final
+9,28/09/2025,09:00,MFK Ružomberok,FK Železiarne Podbrezová,1-0,Final
+9,28/09/2025,09:00,MŠK Žilina,Spartak Trnava,2-2,Final
+10,04/10/2025,09:00,MFK Zemplín Michalovce,AS Trenčín,2-0,Final
+10,04/10/2025,09:00,KFC Komárno,1. FC Tatran Prešov,0-0,Final
+10,04/10/2025,09:00,MŠK Žilina,FC Košice,4-1,Final
+10,05/10/2025,09:00,MFK Skalica,FC DAC 1904,1-1,Final
+10,03/12/2025,09:00,Slovan Bratislava,MFK Ružomberok,1-2,Final
+10,03/12/2025,09:00,FK Železiarne Podbrezová,Spartak Trnava,1-3,Final
+11,18/10/2025,09:00,1. FC Tatran Prešov,FK Železiarne Podbrezová,2-2,Final
+11,18/10/2025,09:00,MFK Ružomberok,KFC Komárno,0-1,Final
+11,18/10/2025,09:00,AS Trenčín,MFK Skalica,1-1,Final
+11,18/10/2025,09:00,Spartak Trnava,Slovan Bratislava,0-2,Final
+11,19/10/2025,09:00,FC Košice,MFK Zemplín Michalovce,3-2,Final
+11,19/10/2025,09:00,FC DAC 1904,MŠK Žilina,1-2,Final
+12,25/10/2025,09:00,AS Trenčín,KFC Komárno,0-1,Final
+12,25/10/2025,09:00,MFK Zemplín Michalovce,FC DAC 1904,2-4,Final
+12,25/10/2025,09:00,MŠK Žilina,MFK Skalica,3-2,Final
+12,25/10/2025,09:00,FC Košice,FK Železiarne Podbrezová,2-4,Final
+12,26/10/2025,09:00,MFK Ružomberok,Spartak Trnava,1-1,Final
+12,26/10/2025,09:00,Slovan Bratislava,1. FC Tatran Prešov,0-1,Final
+13,01/11/2025,09:00,1. FC Tatran Prešov,MŠK Žilina,0-4,Final
+13,01/11/2025,09:00,FK Železiarne Podbrezová,Slovan Bratislava,1-3,Final
+13,01/11/2025,09:00,MFK Skalica,MFK Ružomberok,0-0,Final
+13,01/11/2025,09:00,FC DAC 1904,FC Košice,3-1,Final
+13,02/11/2025,09:00,KFC Komárno,MFK Zemplín Michalovce,1-1,Final
+13,02/11/2025,09:00,Spartak Trnava,AS Trenčín,4-0,Final
+14,08/11/2025,09:00,AS Trenčín,FC Košice,2-0,Final
+14,08/11/2025,09:00,MFK Ružomberok,FC DAC 1904,0-1,Final
+14,08/11/2025,09:00,FK Železiarne Podbrezová,MFK Skalica,2-0,Final
+14,08/11/2025,09:00,MŠK Žilina,MFK Zemplín Michalovce,2-0,Final
+14,09/11/2025,09:00,Slovan Bratislava,KFC Komárno,3-2,Final
+14,09/11/2025,09:00,1. FC Tatran Prešov,Spartak Trnava,2-1,Final
+15,22/11/2025,09:00,KFC Komárno,FK Železiarne Podbrezová,1-0,Final
+15,22/11/2025,09:00,MFK Skalica,Slovan Bratislava,0-1,Final
+15,22/11/2025,09:00,MŠK Žilina,AS Trenčín,4-1,Final
+15,22/11/2025,09:00,FC Košice,Spartak Trnava,1-2,Final
+15,23/11/2025,09:00,MFK Zemplín Michalovce,MFK Ružomberok,4-2,Final
+15,23/11/2025,09:00,FC DAC 1904,1. FC Tatran Prešov,0-0,Final
+16,29/11/2025,09:00,Spartak Trnava,KFC Komárno,2-0,Final
+16,29/11/2025,09:00,1. FC Tatran Prešov,MFK Skalica,3-2,Final
+16,29/11/2025,09:00,MFK Ružomberok,FC Košice,1-1,Final
+16,29/11/2025,09:00,AS Trenčín,FC DAC 1904,0-3,Final
+16,30/11/2025,09:00,Slovan Bratislava,MFK Zemplín Michalovce,3-2,Final
+16,30/11/2025,09:00,FK Železiarne Podbrezová,MŠK Žilina,2-0,Final
+17,06/12/2025,09:00,MFK Zemplín Michalovce,FK Železiarne Podbrezová,0-4,Final
+17,06/12/2025,09:00,MŠK Žilina,MFK Ružomberok,1-2,Final
+17,06/12/2025,09:00,MFK Skalica,KFC Komárno,1-1,Final
+17,06/12/2025,09:00,FC Košice,Slovan Bratislava,2-0,Final
+17,07/12/2025,09:00,AS Trenčín,1. FC Tatran Prešov,0-0,Final
+17,07/12/2025,09:00,FC DAC 1904,Spartak Trnava,3-1,Final
+18,13/12/2025,09:00,FK Železiarne Podbrezová,FC DAC 1904,0-1,Final
+18,13/12/2025,09:00,Spartak Trnava,MFK Skalica,2-0,Final
+18,13/12/2025,09:00,MFK Ružomberok,AS Trenčín,0-0,Final
+18,13/12/2025,09:00,1. FC Tatran Prešov,MFK Zemplín Michalovce,0-1,Final
+18,14/12/2025,09:00,KFC Komárno,FC Košice,1-2,Final
+18,14/12/2025,09:00,Slovan Bratislava,MŠK Žilina,3-2,Final
+19,07/02/2026,09:00,FC Košice,MFK Skalica,3-1,Final
+19,07/02/2026,09:00,MFK Ružomberok,1. FC Tatran Prešov,1-0,Final
+19,07/02/2026,09:00,AS Trenčín,FK Železiarne Podbrezová,0-4,Final
+19,07/02/2026,09:00,FC DAC 1904,Slovan Bratislava,0-3,Final
+19,08/02/2026,09:00,MŠK Žilina,KFC Komárno,1-0,Final
+19,08/02/2026,09:00,MFK Zemplín Michalovce,Spartak Trnava,1-1,Final
+20,14/02/2026,09:00,MFK Skalica,MFK Zemplín Michalovce,2-1,Final
+20,14/02/2026,09:00,Slovan Bratislava,AS Trenčín,0-2,Final
+20,14/02/2026,09:00,FK Železiarne Podbrezová,MFK Ružomberok,5-0,Final
+20,14/02/2026,09:00,1. FC Tatran Prešov,FC Košice,1-4,Final
+20,15/02/2026,09:00,KFC Komárno,FC DAC 1904,2-2,Final
+20,15/02/2026,09:00,Spartak Trnava,MŠK Žilina,0-0,Final
+21,21/02/2026,09:00,FC DAC 1904,MFK Skalica,3-2,Final
+21,21/02/2026,09:00,AS Trenčín,MFK Zemplín Michalovce,1-2,Final
+21,21/02/2026,09:00,1. FC Tatran Prešov,KFC Komárno,1-1,Final
+21,21/02/2026,09:00,Spartak Trnava,FK Železiarne Podbrezová,0-5,Final
+21,22/02/2026,09:00,MFK Ružomberok,Slovan Bratislava,2-2,Final
+21,22/02/2026,09:00,FC Košice,MŠK Žilina,2-2,Final
+22,28/02/2026,09:00,FK Železiarne Podbrezová,1. FC Tatran Prešov,4-1,Final
+22,28/02/2026,09:00,MFK Zemplín Michalovce,FC Košice,0-2,Final
+22,28/02/2026,09:00,Slovan Bratislava,Spartak Trnava,4-0,Final
+22,28/02/2026,09:00,KFC Komárno,MFK Ružomberok,1-1,Final
+22,28/02/2026,09:00,MFK Skalica,AS Trenčín,0-1,Final
+22,28/02/2026,09:00,MŠK Žilina,FC DAC 1904,0-0,Final
+1,07/03/2026,09:00,MFK Zemplín Michalovce,Slovan Bratislava,1-3,Final
+1,07/03/2026,09:00,MŠK Žilina,Spartak Trnava,0-1,Final
+1,07/03/2026,09:00,FC Košice,AS Trenčín,2-0,Final
+1,07/03/2026,09:00,MFK Skalica,1. FC Tatran Prešov,1-0,Final
+1,08/03/2026,09:00,FC DAC 1904,FK Železiarne Podbrezová,2-1,Final
+1,08/03/2026,09:00,KFC Komárno,MFK Ružomberok,3-0,Final
+2,14/03/2026,09:00,MFK Ružomberok,FC Košice,1-1,Final
+2,14/03/2026,09:00,1. FC Tatran Prešov,KFC Komárno,0-0,Final
+2,14/03/2026,09:00,FK Železiarne Podbrezová,MFK Zemplín Michalovce,0-1,Final
+2,15/03/2026,09:00,Slovan Bratislava,MŠK Žilina,0-1,Final
+2,15/03/2026,09:00,AS Trenčín,MFK Skalica,2-1,Final
+3,21/03/2026,09:00,AS Trenčín,MFK Ružomberok,3-1,Final
+3,21/03/2026,09:00,FC Košice,1. FC Tatran Prešov,2-1,Final
+3,21/03/2026,09:00,MFK Zemplín Michalovce,Spartak Trnava,1-0,Final
+3,21/03/2026,09:00,MŠK Žilina,FC DAC 1904,3-1,Final
+2,22/04/2026,09:00,Spartak Trnava,FC DAC 1904,2-1,Final
+3,22/03/2026,09:00,Slovan Bratislava,FK Železiarne Podbrezová,2-0,Final
+3,22/03/2026,09:00,MFK Skalica,KFC Komárno,2-1,Final
+4,04/04/2026,09:00,FC Košice,MFK Skalica,2-0,Final
+4,04/04/2026,09:00,1. FC Tatran Prešov,MFK Ružomberok,0-0,Final
+4,04/04/2026,09:00,MFK Zemplín Michalovce,MŠK Žilina,2-1,Final
+4,04/04/2026,09:00,FC DAC 1904,Slovan Bratislava,0-3,Final
+4,05/04/2026,09:00,Spartak Trnava,FK Železiarne Podbrezová,4-1,Final
+4,05/04/2026,09:00,KFC Komárno,AS Trenčín,0-1,Final
+5,11/04/2026,09:00,AS Trenčín,1. FC Tatran Prešov,1-0,Final
+5,11/04/2026,09:00,MFK Ružomberok,MFK Skalica,0-0,Final
+5,11/04/2026,09:00,FK Železiarne Podbrezová,MŠK Žilina,1-5,Final
+5,11/04/2026,09:00,Slovan Bratislava,Spartak Trnava,2-2,Final
+5,12/04/2026,09:00,FC DAC 1904,MFK Zemplín Michalovce,3-0,Final
+5,12/04/2026,09:00,KFC Komárno,FC Košice,1-2,Final
+6,18/04/2026,09:00,MFK Ružomberok,KFC Komárno,2-1,Final
+6,18/04/2026,09:00,FK Železiarne Podbrezová,FC DAC 1904,1-2,Final
+6,18/04/2026,09:00,Spartak Trnava,MFK Zemplín Michalovce,3-0,Final
+6,18/04/2026,09:00,MŠK Žilina,Slovan Bratislava,0-1,Final
+6,19/04/2026,09:00,MFK Skalica,AS Trenčín,4-1,Final
+6,19/04/2026,09:00,1. FC Tatran Prešov,FC Košice,2-1,Final
+7,25/04/2026,09:00,MFK Zemplín Michalovce,FK Železiarne Podbrezová,1-2,Final
+7,25/04/2026,09:00,FC DAC 1904,MŠK Žilina,3-1,Final
+7,25/04/2026,09:00,FC Košice,MFK Ružomberok,3-1,Final
+7,25/04/2026,09:00,KFC Komárno,MFK Skalica,0-2,Final
+7,26/04/2026,09:00,1. FC Tatran Prešov,AS Trenčín,0-1,Final
+7,26/04/2026,09:00,Spartak Trnava,Slovan Bratislava,0-1,Final
+8,02/05/2026,12:30,Slovan Bratislava,FC DAC 1904,,
+8,02/05/2026,11:00,MFK Ružomberok,1. FC Tatran Prešov,,
+8,03/05/2026,10:00,AS Trenčín,KFC Komárno,,
+8,03/05/2026,11:00,FK Železiarne Podbrezová,Spartak Trnava,,
+8,05/05/2026,11:00,MŠK Žilina,MFK Zemplín Michalovce,,
+8,05/05/2026,11:00,MFK Skalica,FC Košice,,
+9,09/05/2026,11:00,MFK Ružomberok,AS Trenčín,,
+9,09/05/2026,11:00,1. FC Tatran Prešov,MFK Skalica,,
+9,09/05/2026,11:00,MFK Zemplín Michalovce,FC DAC 1904,,
+9,09/05/2026,11:00,FK Železiarne Podbrezová,Slovan Bratislava,,
+9,10/05/2026,11:00,Spartak Trnava,MŠK Žilina,,
+9,10/05/2026,11:00,FC Košice,KFC Komárno,,
+10,16/05/2026,11:00,AS Trenčín,FC Košice,,
+10,16/05/2026,11:00,KFC Komárno,1. FC Tatran Prešov,,
+10,16/05/2026,11:00,MFK Skalica,MFK Ružomberok,,
+10,16/05/2026,11:00,FC DAC 1904,Spartak Trnava,,
+10,16/05/2026,11:00,MŠK Žilina,FK Železiarne Podbrezová,,
+10,16/05/2026,11:00,Slovan Bratislava,MFK Zemplín Michalovce,,

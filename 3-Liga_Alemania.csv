@@ -339,16 +339,16 @@ matchday,date,time,home_team,away_team,result,status
 34,19/04/2026,06:30,Energie Cottbus,Rot-Weiß Essen,5-3,Final
 34,19/04/2026,09:30,Stuttgart II,Erzgebirge Aue,2-2,Final
 34,19/04/2026,12:30,SV Wehen,Waldhof Mannheim,3-3,Final
-35,24/04/2026,12:00,Alemannia Aachen,MSV Duisburg,,
-35,25/04/2026,07:00,Erzgebirge Aue,SV Wehen,,
-35,25/04/2026,07:00,TSV 1860 Munich,SSV ULM 1846,,
-35,25/04/2026,07:00,Hansa Rostock,SSV Jahn Regensburg,,
-35,25/04/2026,07:00,VfL Osnabrück,Verl,,
-35,25/04/2026,07:00,Hoffenheim II,FC Ingolstadt 04,,
-35,25/04/2026,09:30,Waldhof Mannheim,FC Schweinfurt 05,,
-35,26/04/2026,06:30,FC Viktoria Köln,Energie Cottbus,,
-35,26/04/2026,09:30,Rot-Weiß Essen,FC Saarbrücken,,
-35,26/04/2026,12:30,Havelse,Stuttgart II,,
+35,24/04/2026,12:00,Alemannia Aachen,MSV Duisburg,3-1,Final
+35,25/04/2026,07:00,Erzgebirge Aue,SV Wehen,2-2,Final
+35,25/04/2026,07:00,TSV 1860 Munich,SSV ULM 1846,3-2,Final
+35,25/04/2026,07:00,Hansa Rostock,SSV Jahn Regensburg,2-5,Final
+35,25/04/2026,07:00,VfL Osnabrück,Verl,2-1,Final
+35,25/04/2026,07:00,Hoffenheim II,FC Ingolstadt 04,0-3,Final
+35,25/04/2026,09:30,Waldhof Mannheim,FC Schweinfurt 05,2-2,Final
+35,26/04/2026,06:30,FC Viktoria Köln,Energie Cottbus,0-2,Final
+35,26/04/2026,09:30,Rot-Weiß Essen,FC Saarbrücken,1-2,Final
+35,26/04/2026,12:30,Havelse,Stuttgart II,1-2,En vivo
 36,02/05/2026,07:00,SSV Jahn Regensburg,Hoffenheim II,,
 36,02/05/2026,07:00,FC Schweinfurt 05,TSV 1860 Munich,,
 36,02/05/2026,07:00,FC Saarbrücken,Waldhof Mannheim,,

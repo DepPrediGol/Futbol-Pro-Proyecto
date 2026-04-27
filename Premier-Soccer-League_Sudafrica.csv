@@ -1,0 +1,241 @@
+matchday,date,time,home_team,away_team,result,status
+1,09/08/2025,08:00,AmaZulu FC,Orbit College,1-0,Final
+1,09/08/2025,08:00,Chippa United,Mamelodi Sundowns,1-1,Final
+1,09/08/2025,08:00,Polokwane City FC,Magesi FC,0-0,Final
+1,09/08/2025,08:00,Richards Bay FC,Marumo Gallants,1-2,Final
+1,09/08/2025,08:00,Orlando Pirates,Sekhukhune United,0-1,Final
+1,09/08/2025,08:00,Siwelele FC,Golden Arrows,3-1,Final
+1,10/08/2025,08:00,TS Galaxy,Durban City FC,0-2,Final
+1,10/08/2025,08:00,Stellenbosch FC,Kaizer Chiefs,0-2,Final
+2,12/08/2025,08:00,Mamelodi Sundowns,AmaZulu FC,2-0,Final
+2,12/08/2025,08:00,Marumo Gallants,Orlando Pirates,2-1,Final
+2,12/08/2025,08:00,Orbit College,Siwelele FC,1-0,Final
+2,13/08/2025,08:00,Durban City FC,Chippa United,1-0,Final
+2,13/08/2025,08:00,Golden Arrows,Richards Bay FC,1-0,Final
+2,13/08/2025,08:00,Kaizer Chiefs,Polokwane City FC,1-0,Final
+2,13/08/2025,08:00,Magesi FC,Stellenbosch FC,1-1,Final
+2,13/08/2025,08:00,Sekhukhune United,TS Galaxy,1-0,Final
+3,19/08/2025,08:00,Chippa United,TS Galaxy,1-4,Final
+3,19/08/2025,08:00,Durban City FC,Golden Arrows,1-1,Final
+3,19/08/2025,08:00,Kaizer Chiefs,Richards Bay FC,1-0,Final
+3,19/08/2025,08:00,Orbit College,Sekhukhune United,0-3,Final
+3,19/08/2025,08:00,Siwelele FC,Polokwane City FC,0-1,Final
+3,20/08/2025,08:00,AmaZulu FC,Marumo Gallants,1-0,Final
+3,20/08/2025,08:00,Magesi FC,Mamelodi Sundowns,0-2,Final
+3,20/08/2025,08:00,Orlando Pirates,Stellenbosch FC,1-0,Final
+4,26/08/2025,08:00,Orlando Pirates,Orbit College,1-0,Final
+4,26/08/2025,08:00,Polokwane City FC,Durban City FC,0-0,Final
+4,26/08/2025,08:00,Richards Bay FC,Chippa United,1-0,Final
+4,26/08/2025,08:00,Stellenbosch FC,Marumo Gallants,1-0,Final
+4,26/08/2025,08:00,TS Galaxy,Siwelele FC,2-0,Final
+4,27/08/2025,08:00,Golden Arrows,Magesi FC,2-1,Final
+4,27/08/2025,08:00,Sekhukhune United,AmaZulu FC,1-1,Final
+4,27/08/2025,08:00,Kaizer Chiefs,Mamelodi Sundowns,0-0,Final
+5,29/08/2025,08:00,Siwelele FC,Richards Bay FC,0-0,Final
+5,30/08/2025,08:00,Magesi FC,AmaZulu FC,1-1,Final
+5,30/08/2025,08:00,Stellenbosch FC,Mamelodi Sundowns,0-1,Final
+5,30/08/2025,08:00,Golden Arrows,Kaizer Chiefs,0-1,Final
+5,30/08/2025,08:00,Sekhukhune United,Durban City FC,2-0,Final
+5,30/08/2025,08:00,Orbit College,TS Galaxy,1-3,Final
+5,31/08/2025,08:00,Chippa United,Orlando Pirates,0-3,Final
+5,31/08/2025,08:00,Marumo Gallants,Polokwane City FC,1-1,Final
+6,16/09/2025,08:00,Chippa United,Orbit College,2-1,Final
+6,16/09/2025,08:00,Durban City FC,Siwelele FC,2-0,Final
+6,16/09/2025,08:00,Kaizer Chiefs,Sekhukhune United,1-3,Final
+6,17/09/2025,08:00,AmaZulu FC,Stellenbosch FC,2-1,Final
+6,17/09/2025,08:00,Marumo Gallants,Mamelodi Sundowns,1-1,Final
+6,17/09/2025,08:00,Polokwane City FC,Golden Arrows,2-1,Final
+6,17/09/2025,08:00,Richards Bay FC,TS Galaxy,1-1,Final
+6,31/01/2026,08:00,Orlando Pirates,Magesi FC,2-0,Final
+7,20/09/2025,08:00,Magesi FC,Siwelele FC,2-0,Final
+7,20/09/2025,08:00,Sekhukhune United,Golden Arrows,1-0,Final
+7,20/09/2025,08:00,Stellenbosch FC,Richards Bay FC,0-1,Final
+7,20/09/2025,08:00,Mamelodi Sundowns,Durban City FC,3-1,Final
+7,20/09/2025,08:00,Orbit College,Marumo Gallants,1-1,Final
+7,21/09/2025,08:00,Polokwane City FC,Chippa United,2-1,Final
+7,07/12/2025,08:00,TS Galaxy,Kaizer Chiefs,0-0,Final
+7,03/02/2026,08:00,AmaZulu FC,Orlando Pirates,0-2,Final
+8,23/09/2025,08:00,Siwelele FC,Orlando Pirates,0-1,Final
+8,24/09/2025,08:00,Golden Arrows,Mamelodi Sundowns,1-0,Final
+8,24/09/2025,08:00,Kaizer Chiefs,Marumo Gallants,1-1,Final
+8,24/09/2025,08:00,Orbit College,Polokwane City FC,1-0,Final
+8,24/09/2025,08:00,Richards Bay FC,Magesi FC,1-0,Final
+8,24/09/2025,08:00,Sekhukhune United,Chippa United,1-1,Final
+8,24/09/2025,08:00,Stellenbosch FC,Durban City FC,0-0,Final
+8,24/09/2025,08:00,TS Galaxy,AmaZulu FC,3-1,Final
+9,27/09/2025,08:00,Golden Arrows,Orbit College,3-0,Final
+9,27/09/2025,08:00,Polokwane City FC,Sekhukhune United,1-0,Final
+9,27/09/2025,08:00,Mamelodi Sundowns,Richards Bay FC,4-1,Final
+9,27/09/2025,08:00,Durban City FC,Magesi FC,3-1,Final
+9,28/09/2025,08:00,Siwelele FC,Marumo Gallants,1-0,Final
+9,28/09/2025,08:00,Chippa United,Stellenbosch FC,0-0,Final
+9,30/09/2025,08:00,Orlando Pirates,TS Galaxy,2-0,Final
+9,01/10/2025,08:00,Kaizer Chiefs,AmaZulu FC,1-1,Final
+10,17/10/2025,08:00,Richards Bay FC,Orbit College,1-2,Final
+10,18/10/2025,08:00,AmaZulu FC,Durban City FC,1-0,Final
+10,18/10/2025,08:00,Magesi FC,TS Galaxy,2-1,Final
+10,19/10/2025,08:00,Marumo Gallants,Chippa United,2-1,Final
+10,22/10/2025,08:00,Orlando Pirates,Polokwane City FC,1-0,Final
+10,22/10/2025,08:00,Stellenbosch FC,Golden Arrows,4-3,Final
+10,22/10/2025,08:00,Kaizer Chiefs,Siwelele FC,0-0,Final
+10,27/01/2026,08:00,Sekhukhune United,Mamelodi Sundowns,0-2,Final
+11,31/10/2025,08:00,Siwelele FC,Sekhukhune United,1-0,Final
+11,31/10/2025,08:00,Durban City FC,Kaizer Chiefs,0-1,Final
+11,01/11/2025,08:00,Mamelodi Sundowns,Orlando Pirates,1-1,Final
+11,01/11/2025,08:00,Orbit College,Magesi FC,3-1,Final
+11,01/11/2025,08:00,Polokwane City FC,Richards Bay FC,1-1,Final
+11,01/11/2025,08:00,Chippa United,AmaZulu FC,0-3,Final
+11,02/11/2025,08:00,TS Galaxy,Stellenbosch FC,2-0,Final
+11,02/11/2025,08:00,Golden Arrows,Marumo Gallants,4-0,Final
+12,04/11/2025,08:00,AmaZulu FC,Polokwane City FC,0-1,Final
+12,04/11/2025,08:00,Chippa United,Magesi FC,0-0,Final
+12,04/11/2025,08:00,Kaizer Chiefs,Orbit College,4-1,Final
+12,04/11/2025,08:00,Sekhukhune United,Richards Bay FC,1-1,Final
+12,05/11/2025,08:00,Durban City FC,Marumo Gallants,1-0,Final
+12,05/11/2025,08:00,Golden Arrows,Orlando Pirates,1-3,Final
+12,05/11/2025,08:00,Mamelodi Sundowns,TS Galaxy,1-0,Final
+12,05/11/2025,08:00,Stellenbosch FC,Siwelele FC,0-2,Final
+13,22/11/2025,08:00,AmaZulu FC,Siwelele FC,2-0,Final
+13,22/11/2025,08:00,Marumo Gallants,Sekhukhune United,1-1,Final
+13,23/11/2025,08:00,TS Galaxy,Golden Arrows,2-1,Final
+13,23/11/2025,08:00,Richards Bay FC,Durban City FC,0-0,Final
+13,25/11/2025,08:00,Orlando Pirates,Chippa United,2-0,Final
+13,26/11/2025,08:00,Orbit College,Stellenbosch FC,1-2,Final
+13,15/04/2026,08:00,Magesi FC,Kaizer Chiefs,1-4,Final
+13,29/04/2026,12:30,Polokwane City FC,Mamelodi Sundowns,,
+14,28/11/2025,08:00,Richards Bay FC,AmaZulu FC,2-0,Final
+14,29/11/2025,08:00,Durban City FC,Orlando Pirates,0-2,Final
+14,29/11/2025,08:00,Polokwane City FC,TS Galaxy,0-0,Final
+14,29/11/2025,08:00,Siwelele FC,Chippa United,0-0,Final
+14,30/11/2025,08:00,Marumo Gallants,Magesi FC,1-1,Final
+14,19/01/2026,08:00,Mamelodi Sundowns,Orbit College,2-0,Final
+14,20/01/2026,08:00,Sekhukhune United,Stellenbosch FC,0-1,Final
+14,20/01/2026,08:00,Kaizer Chiefs,Golden Arrows,1-0,Final
+15,02/12/2025,08:00,Golden Arrows,AmaZulu FC,0-1,Final
+15,03/12/2025,08:00,Siwelele FC,Mamelodi Sundowns,1-1,Final
+15,03/12/2025,08:00,Chippa United,Kaizer Chiefs,0-0,Final
+15,03/12/2025,08:00,Magesi FC,Sekhukhune United,0-1,Final
+15,03/12/2025,08:00,Orbit College,Durban City FC,0-3,Final
+15,03/12/2025,08:00,Stellenbosch FC,Polokwane City FC,1-2,Final
+15,21/01/2026,08:00,TS Galaxy,Marumo Gallants,2-0,Final
+15,11/03/2026,08:00,Orlando Pirates,Richards Bay FC,2-0,Final
+16,14/09/2025,08:00,Mamelodi Sundowns,Magesi FC,3-0,Final
+16,23/01/2026,08:00,Richards Bay FC,Siwelele FC,1-1,Final
+16,24/01/2026,08:00,Orbit College,Chippa United,0-1,Final
+16,24/01/2026,08:00,Sekhukhune United,Orlando Pirates,0-0,Final
+16,25/01/2026,08:00,AmaZulu FC,TS Galaxy,3-2,Final
+16,25/01/2026,08:00,Durban City FC,Polokwane City FC,1-0,Final
+16,28/01/2026,08:00,Marumo Gallants,Kaizer Chiefs,0-1,Final
+16,18/03/2026,08:00,Golden Arrows,Stellenbosch FC,1-1,Final
+17,30/01/2026,08:00,Richards Bay FC,Golden Arrows,2-2,Final
+17,31/01/2026,08:00,Marumo Gallants,AmaZulu FC,0-1,Final
+17,31/01/2026,08:00,Chippa United,Durban City FC,2-0,Final
+17,31/01/2026,08:00,Polokwane City FC,Orbit College,2-2,Final
+17,01/02/2026,08:00,TS Galaxy,Sekhukhune United,0-1,Final
+17,18/02/2026,08:00,Stellenbosch FC,Magesi FC,1-1,Final
+17,18/02/2026,08:00,Orlando Pirates,Mamelodi Sundowns,1-2,Final
+17,29/04/2026,12:30,Siwelele FC,Kaizer Chiefs,,
+18,13/02/2026,08:00,Durban City FC,TS Galaxy,2-0,Final
+18,13/02/2026,08:00,Magesi FC,Golden Arrows,0-2,Final
+18,14/02/2026,08:00,Orlando Pirates,Marumo Gallants,3-0,Final
+18,14/02/2026,08:00,Polokwane City FC,Siwelele FC,0-0,Final
+18,14/02/2026,08:00,Chippa United,Richards Bay FC,3-0,Final
+18,15/02/2026,08:00,Sekhukhune United,Orbit College,2-0,Final
+18,24/02/2026,08:00,AmaZulu FC,Mamelodi Sundowns,0-1,Final
+18,24/02/2026,08:00,Kaizer Chiefs,Stellenbosch FC,1-2,Final
+19,27/02/2026,08:00,Magesi FC,Polokwane City FC,0-2,Final
+19,27/02/2026,08:00,Stellenbosch FC,AmaZulu FC,1-0,Final
+19,28/02/2026,08:00,Kaizer Chiefs,Orlando Pirates,0-3,Final
+19,28/02/2026,08:00,Golden Arrows,Chippa United,0-0,Final
+19,28/02/2026,08:00,Siwelele FC,TS Galaxy,1-0,Final
+19,28/02/2026,08:00,Orbit College,Richards Bay FC,0-0,Final
+19,01/03/2026,08:00,Mamelodi Sundowns,Sekhukhune United,3-1,Final
+19,01/03/2026,08:00,Marumo Gallants,Durban City FC,0-1,Final
+20,03/03/2026,08:00,Richards Bay FC,Kaizer Chiefs,1-0,Final
+20,03/03/2026,08:00,Siwelele FC,Stellenbosch FC,0-0,Final
+20,03/03/2026,08:00,TS Galaxy,Orbit College,1-2,Final
+20,04/03/2026,08:00,AmaZulu FC,Magesi FC,0-0,Final
+20,04/03/2026,08:00,Chippa United,Marumo Gallants,1-3,Final
+20,04/03/2026,08:00,Durban City FC,Sekhukhune United,1-1,Final
+20,04/03/2026,08:00,Mamelodi Sundowns,Golden Arrows,2-1,Final
+20,04/03/2026,08:00,Polokwane City FC,Orlando Pirates,1-2,Final
+21,10/03/2026,08:00,Orbit College,Mamelodi Sundowns,0-2,Final
+21,13/03/2026,08:00,Stellenbosch FC,TS Galaxy,1-1,Final
+21,14/03/2026,08:00,Magesi FC,Chippa United,2-2,Final
+21,14/03/2026,08:00,Orlando Pirates,Siwelele FC,1-1,Final
+21,14/03/2026,08:00,Marumo Gallants,Golden Arrows,1-2,Final
+21,14/03/2026,08:00,AmaZulu FC,Richards Bay FC,2-1,Final
+21,14/03/2026,08:00,Sekhukhune United,Polokwane City FC,0-0,Final
+21,15/03/2026,08:00,Kaizer Chiefs,Durban City FC,1-0,Final
+22,17/03/2026,08:00,Mamelodi Sundowns,Marumo Gallants,3-1,Final
+22,21/03/2026,08:00,Polokwane City FC,AmaZulu FC,0-1,Final
+22,21/03/2026,08:00,Stellenbosch FC,Chippa United,2-1,Final
+22,21/03/2026,08:00,Kaizer Chiefs,Magesi FC,2-0,Final
+22,22/03/2026,08:00,Siwelele FC,Orbit College,1-0,Final
+22,22/03/2026,08:00,Golden Arrows,Sekhukhune United,1-0,Final
+22,22/03/2026,08:00,TS Galaxy,Orlando Pirates,0-6,Final
+22,22/03/2026,08:00,Durban City FC,Richards Bay FC,1-0,Final
+23,06/04/2026,08:00,Orbit College,Kaizer Chiefs,1-3,Final
+23,06/04/2026,08:00,AmaZulu FC,Sekhukhune United,2-2,Final
+23,07/04/2026,08:00,Chippa United,Siwelele FC,1-0,Final
+23,07/04/2026,08:00,Durban City FC,Mamelodi Sundowns,0-1,Final
+23,07/04/2026,08:00,Magesi FC,Marumo Gallants,3-0,Final
+23,07/04/2026,08:00,Orlando Pirates,Golden Arrows,5-0,Final
+23,07/04/2026,08:00,Richards Bay FC,Stellenbosch FC,2-1,Final
+23,08/04/2026,08:00,TS Galaxy,Polokwane City FC,1-2,Final
+24,10/04/2026,08:00,Richards Bay FC,Orlando Pirates,2-2,Final
+24,11/04/2026,08:00,Golden Arrows,Durban City FC,1-0,Final
+24,11/04/2026,08:00,Siwelele FC,AmaZulu FC,1-1,Final
+24,11/04/2026,08:00,Sekhukhune United,Magesi FC,1-0,Final
+24,11/04/2026,08:00,Chippa United,Polokwane City FC,1-1,Final
+24,12/04/2026,08:00,Kaizer Chiefs,TS Galaxy,2-0,Final
+24,12/04/2026,08:00,Marumo Gallants,Orbit College,0-0,Final
+24,22/04/2026,08:00,Mamelodi Sundowns,Stellenbosch FC,1-1,Final
+25,03/04/2026,08:00,Mamelodi Sundowns,Chippa United,4-1,Final
+25,17/04/2026,08:00,Stellenbosch FC,Sekhukhune United,3-1,Final
+25,18/04/2026,08:00,Marumo Gallants,Siwelele FC,0-0,Final
+25,18/04/2026,08:00,Orbit College,Golden Arrows,1-2,Final
+25,18/04/2026,08:00,Orlando Pirates,AmaZulu FC,3-0,Final
+25,18/04/2026,08:00,Polokwane City FC,Kaizer Chiefs,0-0,Final
+25,19/04/2026,08:00,TS Galaxy,Richards Bay FC,0-1,Final
+25,19/04/2026,08:00,Magesi FC,Durban City FC,5-2,Final
+26,24/04/2026,08:00,Durban City FC,Orbit College,1-1,Final
+26,24/04/2026,08:00,Golden Arrows,Siwelele FC,0-0,Final
+26,25/04/2026,08:00,AmaZulu FC,Chippa United,5-1,Final
+26,25/04/2026,08:00,Sekhukhune United,Marumo Gallants,1-1,Final
+26,26/04/2026,08:00,Orlando Pirates,Kaizer Chiefs,1-1,Final
+26,26/04/2026,08:00,Polokwane City FC,Stellenbosch FC,1-0,Final
+26,26/04/2026,08:00,TS Galaxy,Magesi FC,0-0,Final
+26,26/04/2026,08:00,Richards Bay FC,Mamelodi Sundowns,0-0,Final
+27,05/05/2026,12:30,Chippa United,Sekhukhune United,,
+27,05/05/2026,12:30,Magesi FC,Orbit College,,
+27,05/05/2026,12:30,Siwelele FC,Durban City FC,,
+27,05/05/2026,12:30,Stellenbosch FC,Orlando Pirates,,
+27,06/05/2026,12:30,AmaZulu FC,Golden Arrows,,
+27,06/05/2026,12:30,Mamelodi Sundowns,Kaizer Chiefs,,
+27,06/05/2026,12:30,Marumo Gallants,TS Galaxy,,
+27,06/05/2026,12:30,Richards Bay FC,Polokwane City FC,,
+28,08/05/2026,12:30,Durban City FC,Stellenbosch FC,,
+28,09/05/2026,08:00,Marumo Gallants,Richards Bay FC,,
+28,09/05/2026,08:00,Orbit College,AmaZulu FC,,
+28,09/05/2026,08:00,TS Galaxy,Chippa United,,
+28,09/05/2026,10:30,Golden Arrows,Polokwane City FC,,
+28,09/05/2026,10:30,Mamelodi Sundowns,Siwelele FC,,
+28,09/05/2026,13:00,Magesi FC,Orlando Pirates,,
+28,10/05/2026,10:30,Sekhukhune United,Kaizer Chiefs,,
+29,16/05/2026,08:00,AmaZulu FC,Kaizer Chiefs,,
+29,16/05/2026,08:00,Chippa United,Golden Arrows,,
+29,16/05/2026,08:00,Orlando Pirates,Durban City FC,,
+29,16/05/2026,08:00,Richards Bay FC,Sekhukhune United,,
+29,16/05/2026,08:00,Siwelele FC,Magesi FC,,
+29,16/05/2026,08:00,Stellenbosch FC,Orbit College,,
+29,16/05/2026,08:00,TS Galaxy,Mamelodi Sundowns,,
+29,16/05/2026,08:00,Polokwane City FC,Marumo Gallants,,
+30,23/05/2026,08:00,Durban City FC,AmaZulu FC,,
+30,23/05/2026,08:00,Golden Arrows,TS Galaxy,,
+30,23/05/2026,08:00,Kaizer Chiefs,Chippa United,,
+30,23/05/2026,08:00,Magesi FC,Richards Bay FC,,
+30,03/05/2026,08:00,Mamelodi Sundowns,Polokwane City FC,,
+30,23/05/2026,08:00,Marumo Gallants,Stellenbosch FC,,
+30,23/05/2026,08:00,Orbit College,Orlando Pirates,,
+30,23/05/2026,08:00,Sekhukhune United,Siwelele FC,,

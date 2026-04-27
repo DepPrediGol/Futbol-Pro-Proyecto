@@ -329,14 +329,14 @@ matchday,date,time,home_team,away_team,result,status
 33,19/04/2026,11:00,Pisa,Genoa,1-2,Final
 33,19/04/2026,13:45,Juventus,Bologna,2-0,Final
 33,20/04/2026,13:45,Lecce,Fiorentina,1-1,Final
-34,24/04/2026,13:45,Napoli,Cremonese,,
-34,25/04/2026,08:00,Parma,Pisa,,
-34,25/04/2026,11:00,Bologna,AS Roma,,
-34,25/04/2026,13:45,Hellas Verona,Lecce,,
-34,26/04/2026,05:30,Fiorentina,Sassuolo,,
-34,26/04/2026,08:00,Genoa,como,,
-34,26/04/2026,11:00,Torino,Inter,,
-34,26/04/2026,13:45,AC Milan,Juventus,,
+34,24/04/2026,13:45,Napoli,Cremonese,4-0,Final
+34,25/04/2026,08:00,Parma,Pisa,1-0,Final
+34,25/04/2026,11:00,Bologna,AS Roma,0-2,Final
+34,25/04/2026,13:45,Hellas Verona,Lecce,0-0,Final
+34,26/04/2026,05:30,Fiorentina,Sassuolo,0-0,Final
+34,26/04/2026,08:00,Genoa,como,0-2,Final
+34,26/04/2026,11:00,Torino,Inter,2-2,Final
+34,26/04/2026,13:45,AC Milan,Juventus,0-0,En vivo
 34,27/04/2026,11:30,Cagliari,Atalanta,,
 34,27/04/2026,13:45,Lazio,Udinese,,
 35,01/05/2026,13:45,Pisa,Lecce,,

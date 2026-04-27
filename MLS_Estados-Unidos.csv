@@ -117,31 +117,31 @@ matchday,date,time,home_team,away_team,result,status
 8,18/04/2026,20:30,Seattle Sounders,St. Louis City,4-1,Final
 8,18/04/2026,20:30,Real Salt Lake,San Diego,4-2,Final
 8,19/04/2026,18:00,Los Angeles FC,San Jose Earthquakes,1-4,Final
-9,22/04/2026,18:30,Columbus Crew,Los Angeles Galaxy,,
-9,22/04/2026,18:30,New York City FC,FC Cincinnati,,
-9,22/04/2026,18:30,Toronto FC,Philadelphia Union,,
-9,22/04/2026,18:30,Orlando City SC,Charlotte,,
-9,22/04/2026,18:30,New York Red Bulls,DC United,,
-9,22/04/2026,18:45,Atlanta United FC,New England Revolution,,
-9,22/04/2026,19:30,FC Dallas,Minnesota United FC,,
-9,22/04/2026,19:30,Houston Dynamo,San Diego,,
-9,22/04/2026,20:30,Real Salt Lake,Inter Miami,,
-9,22/04/2026,21:30,Los Angeles FC,Colorado Rapids,,
-9,22/04/2026,21:30,San Jose Earthquakes,Austin,,
-10,25/04/2026,12:00,Toronto FC,Atlanta United FC,,
-10,25/04/2026,13:30,CF Montreal,New York City FC,,
-10,25/04/2026,13:45,Minnesota United FC,Los Angeles FC,,
-10,25/04/2026,18:30,Inter Miami,New England Revolution,,
-10,25/04/2026,18:30,Columbus Crew,Philadelphia Union,,
-10,25/04/2026,18:30,FC Cincinnati,New York Red Bulls,,
-10,25/04/2026,18:30,DC United,Orlando City SC,,
-10,25/04/2026,19:30,Nashville SC,Charlotte,,
-10,25/04/2026,19:30,Chicago Fire,Sporting Kansas City,,
-10,25/04/2026,19:30,Austin,Houston Dynamo,,
-10,25/04/2026,19:30,St. Louis City,San Jose Earthquakes,,
-10,25/04/2026,20:30,San Diego,Portland Timbers,,
-10,25/04/2026,21:30,Seattle Sounders,FC Dallas,,
-10,25/04/2026,21:30,Vancouver Whitecaps,Colorado Rapids,,
+9,22/04/2026,18:30,Columbus Crew,Los Angeles Galaxy,2-1,Final
+9,22/04/2026,18:30,New York City FC,FC Cincinnati,4-4,Final
+9,22/04/2026,18:30,Toronto FC,Philadelphia Union,3-3,Final
+9,22/04/2026,18:30,Orlando City SC,Charlotte,4-1,Final
+9,22/04/2026,18:30,New York Red Bulls,DC United,4-4,Final
+9,22/04/2026,18:45,Atlanta United FC,New England Revolution,1-2,Final
+9,22/04/2026,19:30,FC Dallas,Minnesota United FC,0-1,Final
+9,22/04/2026,19:30,Houston Dynamo,San Diego,1-0,Final
+9,22/04/2026,20:30,Real Salt Lake,Inter Miami,0-2,Final
+9,22/04/2026,21:30,Los Angeles FC,Colorado Rapids,0-0,Final
+9,22/04/2026,21:30,San Jose Earthquakes,Austin,5-1,Final
+10,25/04/2026,12:00,Toronto FC,Atlanta United FC,1-2,Final
+10,25/04/2026,13:30,CF Montreal,New York City FC,1-0,Final
+10,25/04/2026,15:45,Minnesota United FC,Los Angeles FC,0-1,Final
+10,25/04/2026,18:30,Inter Miami,New England Revolution,1-1,Final
+10,25/04/2026,18:30,Columbus Crew,Philadelphia Union,2-0,Final
+10,25/04/2026,18:30,FC Cincinnati,New York Red Bulls,2-0,Final
+10,25/04/2026,18:30,DC United,Orlando City SC,3-2,Final
+10,25/04/2026,19:30,Nashville SC,Charlotte,4-2,Final
+10,25/04/2026,19:30,Chicago Fire,Sporting Kansas City,5-0,Final
+10,25/04/2026,19:30,Austin,Houston Dynamo,2-0,Final
+10,25/04/2026,19:30,St. Louis City,San Jose Earthquakes,2-3,Final
+10,25/04/2026,20:30,San Diego,Portland Timbers,1-2,Final
+10,25/04/2026,21:30,Seattle Sounders,FC Dallas,2-1,Final
+10,25/04/2026,21:30,Vancouver Whitecaps,Colorado Rapids,3-1,Final
 10,26/04/2026,18:00,Los Angeles Galaxy,Real Salt Lake,,
 11,02/05/2026,12:00,Toronto FC,San Jose Earthquakes,,
 11,02/05/2026,13:30,Sporting Kansas City,Seattle Sounders,,

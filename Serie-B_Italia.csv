@@ -349,16 +349,16 @@ matchday,date,time,home_team,away_team,result,status
 35,19/04/2026,08:00,Carrarese,Pescara,2-2,Final
 35,19/04/2026,10:15,Padova,Reggiana,1-0,Final
 35,19/04/2026,12:30,Empoli,Virtus Entella,1-1,Final
-36,24/04/2026,12:00,Monza,Modena,,
-36,24/04/2026,14:00,Avellino,Bari,,
-36,25/04/2026,05:30,Catanzaro,Spezia,,
-36,25/04/2026,08:00,Frosinone,Carrarese,,
-36,25/04/2026,08:00,Pescara,Juve Stabia,,
-36,25/04/2026,08:00,Virtus Entella,Padova,,
-36,25/04/2026,08:00,Reggiana,Palermo,,
-36,25/04/2026,08:00,Sudtirol,Mantova,,
-36,25/04/2026,10:15,Venezia,Empoli,,
-36,25/04/2026,12:30,Cesena,Sampdoria,,
+36,24/04/2026,12:00,Monza,Modena,1-0,Final
+36,24/04/2026,14:00,Avellino,Bari,2-0,Final
+36,25/04/2026,05:30,Catanzaro,Spezia,4-2,Final
+36,25/04/2026,08:00,Frosinone,Carrarese,3-0,Final
+36,25/04/2026,08:00,Pescara,Juve Stabia,1-1,Final
+36,25/04/2026,08:00,Virtus Entella,Padova,1-0,Final
+36,25/04/2026,08:00,Reggiana,Palermo,1-1,Final
+36,25/04/2026,08:00,Sudtirol,Mantova,0-3,Final
+36,25/04/2026,10:15,Venezia,Empoli,2-0,Final
+36,25/04/2026,12:30,Cesena,Sampdoria,0-0,Final
 37,01/05/2026,08:00,Sampdoria,Sudtirol,,
 37,01/05/2026,08:00,Bari,Virtus Entella,,
 37,01/05/2026,08:00,Empoli,Avellino,,

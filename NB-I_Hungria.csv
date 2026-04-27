@@ -1,0 +1,199 @@
+matchday,date,time,home_team,away_team,result,status
+1,25/07/2025,12:00,Újpest FC,Diósgyöri VTK,3-1,Final
+1,26/07/2025,12:00,Zalaegerszegi TE,Debreceni VSC,3-3,Final
+1,26/07/2025,12:00,MTK Budapest,Ferencvárosi TC,1-1,Final
+1,27/07/2025,12:00,Nyíregyháza Spartacus,Kisvárda FC,1-1,Final
+1,27/07/2025,12:00,Paksi SE,Győri ETO FC,3-3,Final
+1,27/07/2025,12:00,Puskás FC,Kazincbarcikai SC,2-1,Final
+2,01/08/2025,12:00,Debreceni VSC,MTK Budapest,1-0,Final
+2,02/08/2025,12:00,Diósgyöri VTK,Zalaegerszegi TE,2-2,Final
+2,02/08/2025,12:00,Ferencvárosi TC,Kazincbarcikai SC,3-0,Final
+2,03/08/2025,12:00,Puskás FC,Nyíregyháza Spartacus,3-2,Final
+2,03/08/2025,12:00,Kisvárda FC,Paksi SE,1-5,Final
+2,03/08/2025,12:00,Győri ETO FC,Újpest FC,1-1,Final
+3,08/08/2025,12:00,Kazincbarcikai SC,Debreceni VSC,1-2,Final
+3,09/08/2025,12:00,MTK Budapest,Diósgyöri VTK,5-0,Final
+3,09/08/2025,12:00,Nyíregyháza Spartacus,Ferencvárosi TC,1-4,Final
+3,10/08/2025,12:00,Zalaegerszegi TE,Győri ETO FC,1-1,Final
+3,10/08/2025,12:00,Kisvárda FC,Puskás FC,2-1,Final
+3,10/08/2025,12:00,Újpest FC,Paksi SE,1-2,Final
+4,15/08/2025,12:00,Újpest FC,Kisvárda FC,0-1,Final
+4,16/08/2025,12:00,Diósgyöri VTK,Kazincbarcikai SC,2-2,Final
+4,16/08/2025,12:00,Ferencvárosi TC,Puskás FC,1-2,Final
+4,17/08/2025,12:00,Debreceni VSC,Nyíregyháza Spartacus,1-2,Final
+4,17/08/2025,12:00,MTK Budapest,Győri ETO FC,2-7,Final
+4,17/08/2025,12:00,Paksi SE,Zalaegerszegi TE,2-2,Final
+5,22/08/2025,12:00,Puskás FC,Debreceni VSC,1-3,Final
+5,23/08/2025,12:00,Zalaegerszegi TE,Újpest FC,1-4,Final
+5,23/08/2025,12:00,Nyíregyháza Spartacus,Diósgyöri VTK,1-4,Final
+5,24/08/2025,12:00,MTK Budapest,Paksi SE,2-3,Final
+5,03/12/2025,12:00,Kazincbarcikai SC,Győri ETO FC,1-3,Final
+5,04/12/2025,12:00,Kisvárda FC,Ferencvárosi TC,0-1,Final
+6,29/08/2025,12:00,Paksi SE,Kazincbarcikai SC,3-0,Final
+6,30/08/2025,12:00,Zalaegerszegi TE,Kisvárda FC,1-2,Final
+6,30/08/2025,12:00,Diósgyöri VTK,Puskás FC,1-1,Final
+6,30/08/2025,12:00,Újpest FC,MTK Budapest,1-2,Final
+6,31/08/2025,12:00,Győri ETO FC,Nyíregyháza Spartacus,1-0,Final
+6,31/08/2025,12:00,Debreceni VSC,Ferencvárosi TC,0-3,Final
+7,19/09/2025,12:00,Ferencvárosi TC,Diósgyöri VTK,2-2,Final
+7,20/09/2025,12:00,Nyíregyháza Spartacus,Paksi SE,1-1,Final
+7,20/09/2025,12:00,Kazincbarcikai SC,Újpest FC,2-0,Final
+7,20/09/2025,12:00,Puskás FC,Győri ETO FC,0-2,Final
+7,21/09/2025,12:00,Kisvárda FC,Debreceni VSC,0-1,Final
+7,21/09/2025,12:00,MTK Budapest,Zalaegerszegi TE,1-0,Final
+8,26/09/2025,12:00,Újpest FC,Nyíregyháza Spartacus,2-2,Final
+8,27/09/2025,12:00,Zalaegerszegi TE,Kazincbarcikai SC,5-0,Final
+8,27/09/2025,12:00,Diósgyöri VTK,Debreceni VSC,0-0,Final
+8,27/09/2025,12:00,Paksi SE,Puskás FC,3-2,Final
+8,28/09/2025,12:00,MTK Budapest,Kisvárda FC,4-0,Final
+8,28/09/2025,12:00,Győri ETO FC,Ferencvárosi TC,0-2,Final
+9,03/10/2025,12:00,Kazincbarcikai SC,MTK Budapest,3-1,Final
+9,04/10/2025,12:00,Nyíregyháza Spartacus,Zalaegerszegi TE,3-1,Final
+9,04/10/2025,12:00,Puskás FC,Újpest FC,0-0,Final
+9,04/10/2025,12:00,Debreceni VSC,Győri ETO FC,1-1,Final
+9,05/10/2025,12:00,Ferencvárosi TC,Paksi SE,2-2,Final
+9,05/10/2025,12:00,Kisvárda FC,Diósgyöri VTK,1-0,Final
+10,18/10/2025,12:00,MTK Budapest,Nyíregyháza Spartacus,5-1,Final
+10,18/10/2025,12:00,Paksi SE,Debreceni VSC,1-1,Final
+10,18/10/2025,12:00,Győri ETO FC,Diósgyöri VTK,3-1,Final
+10,19/10/2025,12:00,Kazincbarcikai SC,Kisvárda FC,0-1,Final
+10,19/10/2025,12:00,Zalaegerszegi TE,Puskás FC,0-1,Final
+10,19/10/2025,12:00,Újpest FC,Ferencvárosi TC,1-1,Final
+11,25/10/2025,12:00,Puskás FC,MTK Budapest,1-1,Final
+11,25/10/2025,12:00,Diósgyöri VTK,Paksi SE,2-1,Final
+11,25/10/2025,12:00,Nyíregyháza Spartacus,Kazincbarcikai SC,0-1,Final
+11,26/10/2025,12:00,Kisvárda FC,Győri ETO FC,3-2,Final
+11,26/10/2025,12:00,Debreceni VSC,Újpest FC,5-2,Final
+11,26/10/2025,12:00,Ferencvárosi TC,Zalaegerszegi TE,1-2,Final
+12,31/10/2025,12:00,Kisvárda FC,Nyíregyháza Spartacus,0-0,Final
+12,01/11/2025,12:00,Kazincbarcikai SC,Puskás FC,1-3,Final
+12,01/11/2025,12:00,Győri ETO FC,Paksi SE,0-0,Final
+12,01/11/2025,12:00,Ferencvárosi TC,MTK Budapest,4-1,Final
+12,02/11/2025,12:00,Diósgyöri VTK,Újpest FC,1-3,Final
+12,02/11/2025,12:00,Debreceni VSC,Zalaegerszegi TE,2-1,Final
+13,08/11/2025,12:00,Újpest FC,Győri ETO FC,0-3,Final
+13,08/11/2025,12:00,Zalaegerszegi TE,Diósgyöri VTK,2-0,Final
+13,08/11/2025,12:00,Paksi SE,Kisvárda FC,5-3,Final
+13,09/11/2025,12:00,MTK Budapest,Debreceni VSC,3-0,Final
+13,09/11/2025,12:00,Kazincbarcikai SC,Ferencvárosi TC,1-3,Final
+13,09/11/2025,12:00,Nyíregyháza Spartacus,Puskás FC,1-1,Final
+14,21/11/2025,12:00,Győri ETO FC,Zalaegerszegi TE,0-1,Final
+14,22/11/2025,12:00,Puskás FC,Kisvárda FC,2-0,Final
+14,22/11/2025,12:00,Debreceni VSC,Kazincbarcikai SC,2-1,Final
+14,22/11/2025,12:00,Ferencvárosi TC,Nyíregyháza Spartacus,1-3,Final
+14,23/11/2025,12:00,Paksi SE,Újpest FC,1-3,Final
+14,23/11/2025,12:00,Diósgyöri VTK,MTK Budapest,4-0,Final
+15,28/11/2025,12:00,Nyíregyháza Spartacus,Debreceni VSC,0-3,Final
+15,29/11/2025,12:00,Zalaegerszegi TE,Paksi SE,1-0,Final
+15,29/11/2025,12:00,Kazincbarcikai SC,Diósgyöri VTK,1-1,Final
+15,29/11/2025,12:00,Győri ETO FC,MTK Budapest,3-0,Final
+15,30/11/2025,12:00,Kisvárda FC,Újpest FC,3-0,Final
+15,30/11/2025,12:00,Puskás FC,Ferencvárosi TC,1-2,Final
+16,06/12/2025,12:00,Diósgyöri VTK,Nyíregyháza Spartacus,2-0,Final
+16,06/12/2025,12:00,Debreceni VSC,Puskás FC,0-1,Final
+16,06/12/2025,12:00,Paksi SE,MTK Budapest,3-1,Final
+16,07/12/2025,12:00,Győri ETO FC,Kazincbarcikai SC,3-1,Final
+16,07/12/2025,12:00,Ferencvárosi TC,Kisvárda FC,3-0,Final
+16,07/12/2025,12:00,Újpest FC,Zalaegerszegi TE,0-2,Final
+17,13/12/2025,12:00,Nyíregyháza Spartacus,Győri ETO FC,0-1,Final
+17,13/12/2025,12:00,Puskás FC,Diósgyöri VTK,2-1,Final
+17,13/12/2025,12:00,MTK Budapest,Újpest FC,3-4,Final
+17,14/12/2025,12:00,Kazincbarcikai SC,Paksi SE,0-2,Final
+17,14/12/2025,12:00,Ferencvárosi TC,Debreceni VSC,0-1,Final
+17,14/12/2025,12:00,Kisvárda FC,Zalaegerszegi TE,3-3,Final
+18,19/12/2025,12:00,Diósgyöri VTK,Ferencvárosi TC,0-1,Final
+18,20/12/2025,12:00,Zalaegerszegi TE,MTK Budapest,1-1,Final
+18,20/12/2025,12:00,Paksi SE,Nyíregyháza Spartacus,2-1,Final
+18,20/12/2025,12:00,Győri ETO FC,Puskás FC,2-0,Final
+18,21/12/2025,12:00,Újpest FC,Kazincbarcikai SC,2-1,Final
+18,21/12/2025,12:00,Debreceni VSC,Kisvárda FC,0-1,Final
+19,24/01/2026,12:00,Nyíregyháza Spartacus,Újpest FC,1-1,Final
+19,24/01/2026,12:00,Kisvárda FC,MTK Budapest,2-3,Final
+19,24/01/2026,12:00,Puskás FC,Paksi SE,1-2,Final
+19,25/01/2026,12:00,Debreceni VSC,Diósgyöri VTK,3-2,Final
+19,25/01/2026,12:00,Kazincbarcikai SC,Zalaegerszegi TE,0-1,Final
+19,25/01/2026,12:00,Ferencvárosi TC,Győri ETO FC,1-3,Final
+20,31/01/2026,12:00,MTK Budapest,Kazincbarcikai SC,1-3,Final
+20,31/01/2026,12:00,Győri ETO FC,Debreceni VSC,2-2,Final
+20,31/01/2026,12:00,Újpest FC,Puskás FC,0-1,Final
+20,01/02/2026,12:00,Diósgyöri VTK,Kisvárda FC,1-1,Final
+20,01/02/2026,12:00,Paksi SE,Ferencvárosi TC,0-1,Final
+20,01/02/2026,12:00,Zalaegerszegi TE,Nyíregyháza Spartacus,0-1,Final
+21,06/02/2026,12:00,Kisvárda FC,Kazincbarcikai SC,1-0,Final
+21,07/02/2026,12:00,Diósgyöri VTK,Győri ETO FC,1-1,Final
+21,07/02/2026,12:00,Debreceni VSC,Paksi SE,1-0,Final
+21,07/02/2026,12:00,Ferencvárosi TC,Újpest FC,3-0,Final
+21,08/02/2026,12:00,Puskás FC,Zalaegerszegi TE,0-1,Final
+21,08/02/2026,12:00,Nyíregyháza Spartacus,MTK Budapest,4-2,Final
+22,13/02/2026,12:00,Újpest FC,Debreceni VSC,2-1,Final
+22,14/02/2026,12:00,MTK Budapest,Puskás FC,2-2,Final
+22,14/02/2026,12:00,Zalaegerszegi TE,Ferencvárosi TC,3-1,Final
+22,14/02/2026,12:00,Paksi SE,Diósgyöri VTK,1-2,Final
+22,15/02/2026,12:00,Kazincbarcikai SC,Nyíregyháza Spartacus,0-4,Final
+22,15/02/2026,12:00,Győri ETO FC,Kisvárda FC,1-0,Final
+23,21/02/2026,12:00,Nyíregyháza Spartacus,Kisvárda FC,2-2,Final
+23,21/02/2026,12:00,Kazincbarcikai SC,Puskás FC,0-2,Final
+23,21/02/2026,12:00,Újpest FC,Diósgyöri VTK,2-1,Final
+23,22/02/2026,12:00,Zalaegerszegi TE,Debreceni VSC,1-1,Final
+23,22/02/2026,12:00,Paksi SE,Győri ETO FC,3-4,Final
+23,23/02/2026,12:00,MTK Budapest,Ferencvárosi TC,1-3,Final
+24,27/02/2026,12:00,Debreceni VSC,MTK Budapest,2-2,Final
+24,28/02/2026,12:00,Kisvárda FC,Paksi SE,2-1,Final
+24,28/02/2026,12:00,Diósgyöri VTK,Zalaegerszegi TE,1-1,Final
+24,28/02/2026,12:00,Győri ETO FC,Újpest FC,2-1,Final
+24,01/03/2026,12:00,Puskás FC,Nyíregyháza Spartacus,1-2,Final
+24,01/03/2026,12:00,Ferencvárosi TC,Kazincbarcikai SC,2-1,Final
+25,06/03/2026,12:00,Kisvárda FC,Puskás FC,1-0,Final
+25,07/03/2026,12:00,Zalaegerszegi TE,Győri ETO FC,2-1,Final
+25,07/03/2026,12:00,Újpest FC,Paksi SE,0-0,Final
+25,08/03/2026,12:00,MTK Budapest,Diósgyöri VTK,1-1,Final
+25,08/03/2026,12:00,Kazincbarcikai SC,Debreceni VSC,0-3,Final
+25,08/03/2026,12:00,Nyíregyháza Spartacus,Ferencvárosi TC,1-3,Final
+26,13/03/2026,12:00,Diósgyöri VTK,Kazincbarcikai SC,0-4,Final
+26,13/03/2026,12:00,Győri ETO FC,MTK Budapest,0-0,Final
+26,14/03/2026,12:00,Újpest FC,Kisvárda FC,2-1,Final
+26,14/03/2026,12:00,Paksi SE,Zalaegerszegi TE,1-1,Final
+26,14/03/2026,12:00,Debreceni VSC,Nyíregyháza Spartacus,1-1,Final
+26,14/04/2026,12:00,Ferencvárosi TC,Puskás FC,2-1,Final
+27,20/03/2026,12:00,MTK Budapest,Paksi SE,0-2,Final
+27,21/03/2026,12:00,Nyíregyháza Spartacus,Diósgyöri VTK,3-1,Final
+27,21/03/2026,12:00,Zalaegerszegi TE,Újpest FC,2-0,Final
+27,22/03/2026,12:00,Puskás FC,Debreceni VSC,1-1,Final
+27,22/03/2026,12:00,Kazincbarcikai SC,Győri ETO FC,1-3,Final
+27,22/03/2026,12:00,Kisvárda FC,Ferencvárosi TC,1-1,Final
+28,04/04/2026,12:00,Zalaegerszegi TE,Kisvárda FC,2-0,Final
+28,04/04/2026,12:00,Paksi SE,Kazincbarcikai SC,5-1,Final
+28,04/04/2026,12:00,Újpest FC,MTK Budapest,2-2,Final
+28,05/04/2026,12:00,Diósgyöri VTK,Puskás FC,1-2,Final
+28,05/04/2026,12:00,Debreceni VSC,Ferencvárosi TC,0-2,Final
+28,05/04/2026,12:00,Győri ETO FC,Nyíregyháza Spartacus,1-0,Final
+29,10/04/2026,12:00,Puskás FC,Győri ETO FC,1-4,Final
+29,10/04/2026,12:00,Ferencvárosi TC,Diósgyöri VTK,3-1,Final
+29,11/04/2026,12:00,Kazincbarcikai SC,Újpest FC,0-3,Final
+29,11/04/2026,12:00,MTK Budapest,Zalaegerszegi TE,3-0,Final
+29,11/04/2026,12:00,Nyíregyháza Spartacus,Paksi SE,2-0,Final
+29,13/04/2026,12:00,Kisvárda FC,Debreceni VSC,0-0,Final
+30,17/04/2026,12:00,Újpest FC,Nyíregyháza Spartacus,7-2,Final
+30,18/04/2026,12:00,Zalaegerszegi TE,Kazincbarcikai SC,4-0,Final
+30,18/04/2026,12:00,MTK Budapest,Kisvárda FC,2-1,Final
+30,18/04/2026,12:00,Diósgyöri VTK,Debreceni VSC,0-5,Final
+30,19/04/2026,12:00,Paksi SE,Puskás FC,1-0,Final
+30,19/04/2026,12:00,Győri ETO FC,Ferencvárosi TC,1-0,Final
+31,24/04/2026,12:00,Kazincbarcikai SC,MTK Budapest,0-0,Final
+31,25/04/2026,12:00,Kisvárda FC,Diósgyöri VTK,1-2,Final
+31,25/04/2026,12:00,Puskás FC,Újpest FC,2-0,Final
+31,25/04/2026,12:00,Nyíregyháza Spartacus,Zalaegerszegi TE,2-1,Final
+31,26/04/2026,12:00,Ferencvárosi TC,Paksi SE,2-0,Final
+31,26/04/2026,12:00,Debreceni VSC,En vivo,1-1,Final
+32,01/05/2026,13:00,Zalaegerszegi TE,Puskás FC,,
+32,02/05/2026,06:00,MTK Budapest,Nyíregyháza Spartacus,,
+32,02/05/2026,09:00,Kazincbarcikai SC,Kisvárda FC,,
+32,02/05/2026,12:15,Győri ETO FC,Diósgyöri VTK,,
+32,03/05/2026,06:00,Paksi SE,Debreceni VSC,,
+32,03/05/2026,09:00,Újpest FC,Ferencvárosi TC,,
+33,16/05/2026,12:15,Nyíregyháza Spartacus,Kazincbarcikai SC,,
+33,16/05/2026,06:00,Diósgyöri VTK,Paksi SE,,
+33,16/05/2026,09:00,Debreceni VSC,Újpest FC,,
+33,16/05/2026,12:15,Ferencvárosi TC,Zalaegerszegi TE,,
+33,16/05/2026,06:00,Puskás FC,MTK Budapest,,
+33,16/05/2026,09:00,Kisvárda FC,Győri ETO FC,,

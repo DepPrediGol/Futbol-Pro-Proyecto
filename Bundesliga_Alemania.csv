@@ -269,15 +269,15 @@ matchday,date,time,home_team,away_team,result,status
 30,19/04/2026,08:30,SC Freiburg,1. FC Heidenheim,2-1,Final
 30,19/04/2026,10:30,Bayern München,VfB Stuttgart,4-2,Final
 30,19/04/2026,12:30,Borussia Mönchengladbach,FSV Mainz 05,1-1,Final
-31,24/04/2026,13:30,RB Leipzig,Union Berlin,,
-31,25/04/2026,08:30,VfL Wolfsburg,Borussia Mönchengladbach,,
-31,25/04/2026,08:30,FSV Mainz 05,Bayern München,,
-31,25/04/2026,08:30,FC Augsburg,Eintracht Frankfurt,,
-31,25/04/2026,08:30,1. FC Heidenheim,FC St. Pauli,,
-31,25/04/2026,08:30,1. FC Köln,Bayer Leverkusen,,
-31,25/04/2026,11:30,Hamburger SV,1899 Hoffenheim,,
-31,26/04/2026,08:30,VfB Stuttgart,Werder Bremen,,
-31,26/04/2026,10:30,Borussia Dortmund,SC Freiburg,,
+31,24/04/2026,13:30,RB Leipzig,Union Berlin,3-1,Final
+31,25/04/2026,08:30,VfL Wolfsburg,Borussia Mönchengladbach,0-0,Final
+31,25/04/2026,08:30,FSV Mainz 05,Bayern München,3-4,Final
+31,25/04/2026,08:30,FC Augsburg,Eintracht Frankfurt,1-1,Final
+31,25/04/2026,08:30,1. FC Heidenheim,FC St. Pauli,2-0,Final
+31,25/04/2026,08:30,1. FC Köln,Bayer Leverkusen,1-2,Final
+31,25/04/2026,11:30,Hamburger SV,1899 Hoffenheim,1-2,Final
+31,26/04/2026,08:30,VfB Stuttgart,Werder Bremen,1-1,Final
+31,26/04/2026,10:30,Borussia Dortmund,SC Freiburg,4-0,Final
 32,02/05/2026,08:30,Bayern München,1. FC Heidenheim,,
 32,02/05/2026,08:30,Werder Bremen,FC Augsburg,,
 32,02/05/2026,08:30,1899 Hoffenheim,VfB Stuttgart,,

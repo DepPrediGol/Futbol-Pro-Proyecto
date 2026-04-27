@@ -161,16 +161,16 @@ matchday,date,time,home_team,away_team,result,status
 10,19/04/2026,18:00,Racing Cordoba,Defensores De Belgrano,3-0,Final
 10,20/04/2026,18:00,Atletico DE Rafaela,Agropecuario,4-1,Final
 10,20/04/2026,19:00,Atlanta,Chacarita Juniors,1-0,Final
-11,25/04/2026,13:00,Tristan Suarez,Gimnasia Y Tiro,,
-11,25/04/2026,13:30,San Miguel,Los Andes,,
-11,25/04/2026,13:30,San Telmo,All Boys,,
-11,25/04/2026,13:30,Temperley,Patronato,,
-11,25/04/2026,15:30,San Martin S.J.,Quilmes,,
-11,25/04/2026,16:00,Atletico DE Rafaela,Gimnasia Jujuy,,
-11,26/04/2026,13:00,Deportivo Moron,Racing Cordoba,,
-11,26/04/2026,13:00,Nueva Chicago,Colegiales,,
-11,26/04/2026,13:30,Acassuso,CA Estudiantes,,
-11,26/04/2026,13:30,Chacarita Juniors,Midland,,
+11,25/04/2026,13:30,San Miguel,Los Andes,0-2,Final
+11,25/04/2026,13:30,San Telmo,All Boys,1-0,Final
+11,25/04/2026,13:30,Temperley,Patronato,0-0,Final
+11,25/04/2026,15:30,San Martin S.J.,Quilmes,1-0,Final
+11,25/04/2026,16:00,Atletico DE Rafaela,Gimnasia Jujuy,0-0,Final
+11,26/04/2026,13:00,Deportivo Moron,Racing Cordoba,0-0,En vivo
+11,26/04/2026,13:00,Nueva Chicago,Colegiales,0-0,En vivo
+11,26/04/2026,13:00,Tristan Suarez,Gimnasia Y Tiro,1-1,En vivo
+11,26/04/2026,13:30,Acassuso,CA Estudiantes,0-0,En vivo
+11,26/04/2026,13:30,Chacarita Juniors,Midland,0-0,En vivo
 11,26/04/2026,14:00,Agropecuario,San Martin Tucuman,,
 11,26/04/2026,14:00,Deportivo Madryn,Defensores De Belgrano,,
 11,26/04/2026,15:00,Central Norte,Ciudad de Bolívar,,

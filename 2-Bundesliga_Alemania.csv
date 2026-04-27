@@ -269,15 +269,15 @@ matchday,date,time,home_team,away_team,result,status
 30,19/04/2026,06:30,FC Schalke 04,Preußen Münster,4-1,Final
 30,19/04/2026,06:30,SpVgg Greuther Fürth,SV Darmstadt 98,3-2,Final
 30,19/04/2026,06:30,Eintracht Braunschweig,Hertha BSC,1-1,Final
-31,24/04/2026,11:30,Fortuna Düsseldorf,Dynamo Dresden,,
-31,24/04/2026,11:30,1. FC Kaiserslautern,Eintracht Braunschweig,,
-31,25/04/2026,06:00,Hertha BSC,Holstein Kiel,,
-31,25/04/2026,06:00,Karlsruher SC,Hannover 96,,
-31,25/04/2026,06:00,Preußen Münster,Arminia Bielefeld,,
-31,25/04/2026,13:30,SV Darmstadt 98,SV Elversberg,,
-31,26/04/2026,06:30,1. FC Nürnberg,1. FC Magdeburg,,
-31,26/04/2026,06:30,VfL Bochum,SpVgg Greuther Fürth,,
-31,26/04/2026,06:30,SC Paderborn 07,FC Schalke 04,,
+31,24/04/2026,11:30,Fortuna Düsseldorf,Dynamo Dresden,3-1,Final
+31,24/04/2026,11:30,1. FC Kaiserslautern,Eintracht Braunschweig,0-2,Final
+31,25/04/2026,06:00,Hertha BSC,Holstein Kiel,0-1,Final
+31,25/04/2026,06:00,Karlsruher SC,Hannover 96,1-3,Final
+31,25/04/2026,06:00,Preußen Münster,Arminia Bielefeld,2-3,Final
+31,25/04/2026,13:30,SV Darmstadt 98,SV Elversberg,3-3,Final
+31,26/04/2026,06:30,1. FC Nürnberg,1. FC Magdeburg,1-0,Final
+31,26/04/2026,06:30,VfL Bochum,SpVgg Greuther Fürth,2-1,Final
+31,26/04/2026,06:30,SC Paderborn 07,FC Schalke 04,2-3,Final
 32,02/05/2026,06:00,Dynamo Dresden,1. FC Kaiserslautern,,
 32,02/05/2026,06:00,Arminia Bielefeld,VfL Bochum,,
 32,02/05/2026,06:00,Holstein Kiel,Eintracht Braunschweig,,

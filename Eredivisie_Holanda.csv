@@ -270,14 +270,14 @@ matchday,date,time,home_team,away_team,result,status
 30,12/04/2026,07:30,NEC Nijmegen,Feyenoord,1-1,Final
 30,12/04/2026,09:45,AZ Alkmaar,Heerenveen,3-0,Final
 31,22/04/2026,13:00,Telstar,Sparta Rotterdam,4-1,Final
-31,23/04/2026,11:45,GO Ahead Eagles,AZ Alkmaar,,
-31,23/04/2026,14:00,PSV Eindhoven,PEC Zwolle,,
-31,25/04/2026,09:30,Feyenoord,Groningen,,
-31,25/04/2026,11:45,Heerenveen,Fortuna Sittard,,
-31,25/04/2026,13:00,NAC Breda,Ajax,,
-31,25/04/2026,14:00,Twente,NEC Nijmegen,,
-31,26/04/2026,05:15,Excelsior,Utrecht,,
-31,26/04/2026,07:30,Heracles,FC Volendam,,
+31,23/04/2026,11:45,GO Ahead Eagles,AZ Alkmaar,0-0,Final
+31,23/04/2026,14:00,PSV Eindhoven,PEC Zwolle,6-1,Final
+31,25/04/2026,09:30,Feyenoord,Groningen,3-1,Final
+31,25/04/2026,11:45,Heerenveen,Fortuna Sittard,2-1,Final
+31,25/04/2026,13:00,NAC Breda,Ajax,0-2,Final
+31,25/04/2026,14:00,Twente,NEC Nijmegen,1-1,Final
+31,26/04/2026,05:15,Excelsior,Utrecht,5-0,Final
+31,26/04/2026,07:30,Heracles,FC Volendam,0-2,Final
 32,02/05/2026,09:30,Utrecht,NAC Breda,,
 32,02/05/2026,11:45,Groningen,Excelsior,,
 32,02/05/2026,13:00,Ajax,PSV Eindhoven,,

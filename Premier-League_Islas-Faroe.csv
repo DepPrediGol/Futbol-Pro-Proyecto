@@ -1,0 +1,136 @@
+matchday,date,time,home_team,away_team,result,status
+1,07/03/2026,12:00,AB Argir,B68 Toftir,2-0,Final
+1,08/03/2026,12:00,07 Vestur,KÍ Klaksvík,1-5,Final
+1,08/03/2026,12:00,B36 Tórshavn,EB/Streymur,2-1,Final
+1,08/03/2026,12:00,NSÍ Runavík,Víkingur,1-0,Final
+1,08/03/2026,12:00,Skála ÍF,HB Tórshavn,1-2,Final
+2,13/03/2026,12:00,Víkingur,B36 Tórshavn,0-0,Final
+2,15/03/2026,12:00,EB/Streymur,AB Argir,0-3,Final
+2,15/03/2026,12:00,HB Tórshavn,07 Vestur,2-0,Final
+2,15/03/2026,12:00,KÍ Klaksvík,NSÍ Runavík,1-1,Final
+2,15/03/2026,12:00,B68 Toftir,Skála ÍF,2-1,Final
+3,20/03/2026,12:00,EB/Streymur,KÍ Klaksvík,0-0,Final
+3,21/03/2026,12:00,B36 Tórshavn,B68 Toftir,6-0,Final
+3,21/03/2026,12:00,07 Vestur,Skála ÍF,1-0,Final
+3,21/03/2026,12:00,NSÍ Runavík,AB Argir,2-1,Final
+3,01/04/2026,12:00,Víkingur,HB Tórshavn,2-1,Final
+4,04/04/2026,12:00,B68 Toftir,NSÍ Runavík,1-2,Final
+4,06/04/2026,12:00,AB Argir,07 Vestur,2-0,Final
+4,06/04/2026,12:00,KÍ Klaksvík,Víkingur,1-0,Final
+4,06/04/2026,12:00,Skála ÍF,EB/Streymur,1-2,Final
+4,06/04/2026,12:00,HB Tórshavn,B36 Tórshavn,2-2,Final
+5,11/04/2026,12:00,B36 Tórshavn,Skála ÍF,0-0,Final
+5,11/04/2026,12:00,KÍ Klaksvík,B68 Toftir,6-1,Final
+5,12/04/2026,12:00,EB/Streymur,HB Tórshavn,1-2,Final
+5,12/04/2026,12:00,NSÍ Runavík,07 Vestur,2-0,Final
+5,12/04/2026,12:00,Víkingur,AB Argir,4-0,Final
+6,19/04/2026,12:00,B68 Toftir,HB Tórshavn,3-1,Final
+6,20/04/2026,12:00,07 Vestur,B36 Tórshavn,0-1,Final
+6,20/04/2026,12:00,AB Argir,KÍ Klaksvík,1-1,Final
+6,20/04/2026,12:00,NSÍ Runavík,EB/Streymur,1-0,Final
+6,20/04/2026,12:00,Skála ÍF,Víkingur,0-0,Final
+7,26/04/2026,12:00,AB Argir,B36 Tórshavn,1-4,Final
+7,26/04/2026,12:00,EB/Streymur,07 Vestur,0-2,Final
+7,26/04/2026,12:00,Skála ÍF,NSÍ Runavík,3-3,Final
+7,26/04/2026,12:00,Víkingur,B68 Toftir,2-2,Final
+7,26/04/2026,12:00,HB Tórshavn,KÍ Klaksvík,0-2,Final
+8,03/05/2026,09:00,HB Tórshavn,AB Argir,,
+8,03/05/2026,09:00,KÍ Klaksvík,Skála ÍF,,
+8,03/05/2026,11:15,B68 Toftir,EB/Streymur,,
+8,04/05/2026,12:30,B36 Tórshavn,NSÍ Runavík,,
+8,04/05/2026,12:30,Víkingur,07 Vestur,,
+9,08/05/2026,12:30,NSÍ Runavík,HB Tórshavn,,
+9,10/05/2026,09:00,B36 Tórshavn,KÍ Klaksvík,,
+9,10/05/2026,09:00,EB/Streymur,Víkingur,,
+9,10/05/2026,11:15,07 Vestur,B68 Toftir,,
+9,10/05/2026,11:15,Skála ÍF,AB Argir,,
+10,17/05/2026,10:00,AB Argir,Víkingur,,
+10,17/05/2026,10:00,HB Tórshavn,EB/Streymur,,
+10,17/05/2026,10:00,Skála ÍF,B36 Tórshavn,,
+10,17/05/2026,12:15,07 Vestur,NSÍ Runavík,,
+10,17/05/2026,12:15,B68 Toftir,KÍ Klaksvík,,
+11,25/05/2026,13:00,B36 Tórshavn,07 Vestur,,
+11,25/05/2026,12:15,B68 Toftir,HB Tórshavn,,
+11,25/05/2026,10:00,EB/Streymur,NSÍ Runavík,,
+11,25/05/2026,10:00,KÍ Klaksvík,AB Argir,,
+11,25/05/2026,10:00,Víkingur,Skála ÍF,,
+12,29/05/2026,13:30,HB Tórshavn,Víkingur,,
+12,29/05/2026,13:30,Skála ÍF,07 Vestur,,
+12,30/05/2026,14:00,AB Argir,NSÍ Runavík,,
+12,30/05/2026,14:00,B68 Toftir,B36 Tórshavn,,
+12,30/05/2026,14:00,KÍ Klaksvík,EB/Streymur,,
+13,13/06/2026,12:00,07 Vestur,Víkingur,,
+13,13/06/2026,14:00,NSÍ Runavík,B36 Tórshavn,,
+13,14/06/2026,12:15,AB Argir,HB Tórshavn,,
+13,14/06/2026,10:00,EB/Streymur,B68 Toftir,,
+13,14/06/2026,10:00,Skála ÍF,KÍ Klaksvík,,
+14,19/06/2026,12:00,Víkingur,KÍ Klaksvík,,
+14,20/06/2026,12:00,EB/Streymur,Skála ÍF,,
+14,21/06/2026,12:00,07 Vestur,AB Argir,,
+14,21/06/2026,12:00,B36 Tórshavn,HB Tórshavn,,
+14,21/06/2026,12:00,NSÍ Runavík,B68 Toftir,,
+15,28/06/2026,12:00,EB/Streymur,B36 Tórshavn,,
+15,28/06/2026,12:00,HB Tórshavn,Skála ÍF,,
+15,28/06/2026,12:00,KÍ Klaksvík,07 Vestur,,
+15,28/06/2026,12:00,Víkingur,NSÍ Runavík,,
+15,29/06/2026,12:00,B68 Toftir,AB Argir,,
+16,03/07/2026,12:00,NSÍ Runavík,KÍ Klaksvík,,
+16,04/07/2026,12:00,B36 Tórshavn,Víkingur,,
+16,04/07/2026,12:00,Skála ÍF,B68 Toftir,,
+16,05/07/2026,12:00,07 Vestur,HB Tórshavn,,
+16,05/07/2026,12:00,AB Argir,EB/Streymur,,
+17,02/08/2026,12:00,AB Argir,Skála ÍF,,
+17,02/08/2026,12:00,B68 Toftir,07 Vestur,,
+17,02/08/2026,12:00,EB/Streymur,Víkingur,,
+17,02/08/2026,12:00,HB Tórshavn,NSÍ Runavík,,
+17,02/08/2026,12:00,KÍ Klaksvík,B36 Tórshavn,,
+18,07/08/2026,12:00,07 Vestur,EB/Streymur,,
+18,07/08/2026,12:00,KÍ Klaksvík,HB Tórshavn,,
+18,09/08/2026,12:00,B36 Tórshavn,AB Argir,,
+18,09/08/2026,12:00,NSÍ Runavík,Skála ÍF,,
+18,09/08/2026,12:00,Víkingur,B68 Toftir,,
+19,16/08/2026,12:00,07 Vestur,B36 Tórshavn,,
+19,16/08/2026,12:00,AB Argir,KÍ Klaksvík,,
+19,16/08/2026,12:00,HB Tórshavn,B68 Toftir,,
+19,16/08/2026,12:00,NSÍ Runavík,EB/Streymur,,
+19,16/08/2026,12:00,Skála ÍF,Víkingur,,
+20,21/08/2026,12:00,Víkingur,B36 Tórshavn,,
+20,23/08/2026,12:00,B68 Toftir,Skála ÍF,,
+20,23/08/2026,12:00,EB/Streymur,AB Argir,,
+20,23/08/2026,12:00,HB Tórshavn,07 Vestur,,
+20,23/08/2026,12:00,KÍ Klaksvík,NSÍ Runavík,,
+21,28/08/2026,12:00,Víkingur,HB Tórshavn,,
+21,30/08/2026,12:00,B36 Tórshavn,B68 Toftir,,
+21,30/08/2026,12:00,KÍ Klaksvík,EB/Streymur,,
+21,30/08/2026,12:00,NSÍ Runavík,AB Argir,,
+21,30/08/2026,12:00,Skála ÍF,07 Vestur,,
+22,11/09/2026,12:00,AB Argir,B68 Toftir,,
+22,13/09/2026,12:00,07 Vestur,KÍ Klaksvík,,
+22,13/09/2026,12:00,EB/Streymur,B36 Tórshavn,,
+22,13/09/2026,12:00,NSÍ Runavík,Víkingur,,
+22,13/09/2026,12:00,Skála ÍF,HB Tórshavn,,
+23,18/09/2026,12:00,B36 Tórshavn,NSÍ Runavík,,
+23,18/09/2026,12:00,KÍ Klaksvík,Skála ÍF,,
+23,19/09/2026,12:00,B68 Toftir,EB/Streymur,,
+23,19/09/2026,12:00,HB Tórshavn,AB Argir,,
+23,19/09/2026,12:00,Víkingur,07 Vestur,,
+24,10/10/2026,12:00,07 Vestur,EB/Streymur,,
+24,11/10/2026,12:00,AB Argir,B36 Tórshavn,,
+24,11/10/2026,12:00,B68 Toftir,Víkingur,,
+24,11/10/2026,12:00,HB Tórshavn,KÍ Klaksvík,,
+24,11/10/2026,12:00,Skála ÍF,NSÍ Runavík,,
+25,18/10/2026,12:00,B36 Tórshavn,Skála ÍF,,
+25,18/10/2026,12:00,EB/Streymur,HB Tórshavn,,
+25,18/10/2026,12:00,KÍ Klaksvík,B68 Toftir,,
+25,18/10/2026,12:00,NSÍ Runavík,07 Vestur,,
+25,18/10/2026,12:00,Víkingur,AB Argir,,
+26,25/10/2026,12:00,07 Vestur,B68 Toftir,,
+26,25/10/2026,12:00,B36 Tórshavn,KÍ Klaksvík,,
+26,25/10/2026,12:00,NSÍ Runavík,HB Tórshavn,,
+26,25/10/2026,12:00,Skála ÍF,AB Argir,,
+26,25/10/2026,12:00,Víkingur,EB/Streymur,,
+27,31/10/2026,12:00,AB Argir,07 Vestur,,
+27,31/10/2026,12:00,B68 Toftir,NSÍ Runavík,,
+27,31/10/2026,12:00,EB/Streymur,Skála ÍF,,
+27,31/10/2026,12:00,HB Tórshavn,B36 Tórshavn,,
+27,31/10/2026,12:00,KÍ Klaksvík,Víkingur,,

@@ -267,14 +267,14 @@ matchday,date,time,home_team,away_team,result,status
 30,19/04/2026,14:30,FC Porto,Tondela,2-0,Final
 30,19/04/2026,14:30,SC Braga,Famalicao,2-2,Final
 30,20/04/2026,14:15,Moreirense,Estoril,1-0,Final
-26,23/04/2026,13:00,Casa Pia,SC Braga,,
-31,24/04/2026,14:15,Alverca,Arouca,,
-31,25/04/2026,09:30,Tondela,Nacional,,
-31,25/04/2026,12:00,Benfica,Moreirense,,
-31,25/04/2026,14:30,Guimaraes,Rio Ave,,
-31,26/04/2026,09:30,Estoril,Famalicao,,
-31,26/04/2026,12:00,Santa Clara,SC Braga,,
-31,26/04/2026,12:00,Estrela,FC Porto,,
+26,23/04/2026,13:00,Casa Pia,SC Braga,0-1,Final
+31,24/04/2026,14:15,Alverca,Arouca,2-1,Final
+31,25/04/2026,09:30,Tondela,Nacional,0-2,Final
+31,25/04/2026,12:00,Benfica,Moreirense,4-1,Final
+31,25/04/2026,14:30,Guimaraes,Rio Ave,2-0,Final
+31,26/04/2026,09:30,Estoril,Famalicao,0-1,Final
+31,26/04/2026,12:00,Santa Clara,SC Braga,2-1,Final
+31,26/04/2026,12:00,Estrela,FC Porto,1-2,Final
 31,26/04/2026,14:30,AVS,Sporting CP,,
 31,27/04/2026,14:15,GIL Vicente,Casa Pia,,
 26,29/04/2026,14:15,Sporting CP,Tondela,,

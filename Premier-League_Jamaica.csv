@@ -1,0 +1,274 @@
+matchday,date,time,home_team,away_team,result,status
+1,24/08/2025,15:30,Chapelton Maroons,Tivoli Gardens,2-1,Final
+1,24/08/2025,15:30,Mount Pleasant Academy,Montego Bay United FC,2-2,Final
+1,24/08/2025,15:30,Treasure Beach FC,Spanish Town Police FC,2-0,Final
+1,24/08/2025,15:30,Molynes United,Waterhouse FC,0-2,Final
+1,25/08/2025,15:30,Cavalier FC,Harbour View,0-0,Final
+1,26/08/2025,15:30,Dunbeholden FC,Portmore United,0-2,Final
+1,26/08/2025,15:30,Racing United,Arnett Gardens,5-1,Final
+2,31/08/2025,15:30,Harbour View,Chapelton Maroons,0-2,Final
+2,31/08/2025,15:30,Spanish Town Police FC,Dunbeholden FC,0-1,Final
+2,31/08/2025,15:30,Waterhouse FC,Racing United,1-2,Final
+2,01/09/2025,15:30,Portmore United,Tivoli Gardens,0-0,Final
+2,01/09/2025,15:30,Arnett Gardens,Cavalier FC,2-3,Final
+2,02/09/2025,15:30,Mount Pleasant Academy,Molynes United,1-1,Final
+2,02/09/2025,15:30,Montego Bay United FC,Treasure Beach FC,3-1,Final
+3,07/09/2025,15:30,Chapelton Maroons,Portmore United,3-2,Final
+3,07/09/2025,15:30,Dunbeholden FC,Montego Bay United FC,1-2,Final
+3,07/09/2025,15:30,Harbour View,Arnett Gardens,2-5,Final
+3,07/09/2025,15:30,Treasure Beach FC,Molynes United,2-2,Final
+3,09/09/2025,15:30,Tivoli Gardens,Spanish Town Police FC,2-1,Final
+3,09/09/2025,15:30,Cavalier FC,Waterhouse FC,0-1,Final
+3,17/12/2025,15:30,Racing United,Mount Pleasant Academy,1-0,Final
+4,14/09/2025,15:30,Spanish Town Police FC,Portmore United,0-1,Final
+4,14/09/2025,15:30,Arnett Gardens,Chapelton Maroons,1-0,Final
+4,14/09/2025,15:30,Treasure Beach FC,Racing United,2-4,Final
+4,14/09/2025,15:30,Mount Pleasant Academy,Cavalier FC,2-1,Final
+4,15/09/2025,15:30,Montego Bay United FC,Tivoli Gardens,3-1,Final
+4,16/09/2025,15:30,Molynes United,Dunbeholden FC,0-2,Final
+4,16/09/2025,15:30,Waterhouse FC,Harbour View,1-2,Final
+5,21/09/2025,15:30,Dunbeholden FC,Racing United,0-0,Final
+5,21/09/2025,15:30,Tivoli Gardens,Molynes United,1-1,Final
+5,21/09/2025,15:30,Cavalier FC,Treasure Beach FC,2-1,Final
+5,22/09/2025,15:30,Portmore United,Montego Bay United FC,2-0,Final
+5,23/09/2025,15:30,Chapelton Maroons,Spanish Town Police FC,0-0,Final
+5,23/09/2025,15:30,Arnett Gardens,Waterhouse FC,2-1,Final
+5,01/03/2026,15:30,Mount Pleasant Academy,Harbour View,4-1,Final
+6,28/09/2025,15:30,Racing United,Tivoli Gardens,0-0,Final
+6,28/09/2025,15:30,Treasure Beach FC,Harbour View,1-1,Final
+6,29/09/2025,15:30,Montego Bay United FC,Spanish Town Police FC,4-0,Final
+6,30/09/2025,15:30,Molynes United,Portmore United,0-0,Final
+6,30/09/2025,15:30,Waterhouse FC,Chapelton Maroons,3-0,Final
+6,29/01/2026,15:30,Dunbeholden FC,Cavalier FC,1-0,Final
+6,29/01/2026,15:30,Mount Pleasant Academy,Arnett Gardens,1-0,Final
+7,05/10/2025,15:30,Chapelton Maroons,Montego Bay United FC,1-2,Final
+7,05/10/2025,15:30,Portmore United,Racing United,0-0,Final
+7,05/10/2025,15:30,Spanish Town Police FC,Molynes United,2-2,Final
+7,05/10/2025,15:30,Tivoli Gardens,Cavalier FC,0-2,Final
+7,06/10/2025,15:30,Waterhouse FC,Mount Pleasant Academy,1-1,Final
+7,07/10/2025,15:30,Harbour View,Dunbeholden FC,1-0,Final
+7,07/10/2025,15:30,Arnett Gardens,Treasure Beach FC,0-1,Final
+8,12/10/2025,15:30,Molynes United,Montego Bay United FC,0-2,Final
+8,12/10/2025,15:30,Mount Pleasant Academy,Chapelton Maroons,3-1,Final
+8,12/10/2025,15:30,Racing United,Spanish Town Police FC,3-0,Final
+8,12/10/2025,15:30,Tivoli Gardens,Harbour View,2-1,Final
+8,12/10/2025,15:30,Treasure Beach FC,Waterhouse FC,0-0,Final
+8,13/10/2025,15:30,Cavalier FC,Portmore United,2-4,Final
+8,12/02/2026,15:30,Dunbeholden FC,Arnett Gardens,1-1,Final
+9,19/10/2025,15:30,Spanish Town Police FC,Cavalier FC,0-3,Final
+9,20/10/2025,15:30,Waterhouse FC,Dunbeholden FC,0-0,Final
+9,20/10/2025,15:30,Montego Bay United FC,Racing United,3-1,Final
+9,21/10/2025,15:30,Portmore United,Harbour View,4-1,Final
+9,21/10/2025,15:30,Arnett Gardens,Tivoli Gardens,1-2,Final
+9,11/02/2026,15:30,Chapelton Maroons,Molynes United,1-0,Final
+9,11/02/2026,15:30,Mount Pleasant Academy,Treasure Beach FC,0-0,Final
+10,07/12/2025,15:30,Dunbeholden FC,Mount Pleasant Academy,0-0,Final
+10,07/12/2025,15:30,Harbour View,Spanish Town Police FC,5-2,Final
+10,07/12/2025,15:30,Portmore United,Arnett Gardens,1-0,Final
+10,07/12/2025,15:30,Racing United,Molynes United,3-2,Final
+10,08/12/2025,15:30,Cavalier FC,Montego Bay United FC,3-0,Final
+10,09/12/2025,15:30,Tivoli Gardens,Waterhouse FC,2-1,Final
+10,01/01/2026,15:30,Treasure Beach FC,Chapelton Maroons,0-1,Final
+11,10/12/2025,15:30,Chapelton Maroons,Racing United,0-0,Final
+11,10/12/2025,15:30,Spanish Town Police FC,Arnett Gardens,2-10,Final
+11,11/12/2025,15:30,Montego Bay United FC,Harbour View,4-4,Final
+11,11/12/2025,15:30,Mount Pleasant Academy,Tivoli Gardens,5-0,Final
+11,11/12/2025,15:30,Molynes United,Cavalier FC,1-0,Final
+11,12/12/2025,15:30,Waterhouse FC,Portmore United,1-2,Final
+11,07/01/2026,15:30,Treasure Beach FC,Dunbeholden FC,0-4,Final
+12,14/12/2025,15:30,Dunbeholden FC,Chapelton Maroons,0-0,Final
+12,14/12/2025,15:30,Harbour View,Molynes United,0-0,Final
+12,14/12/2025,15:30,Portmore United,Mount Pleasant Academy,0-2,Final
+12,14/12/2025,15:30,Cavalier FC,Racing United,1-4,Final
+12,15/12/2025,15:30,Spanish Town Police FC,Waterhouse FC,2-1,Final
+12,16/12/2025,15:30,Arnett Gardens,Montego Bay United FC,0-1,Final
+12,28/01/2026,15:30,Tivoli Gardens,Treasure Beach FC,0-0,Final
+13,21/12/2025,15:30,Chapelton Maroons,Cavalier FC,0-3,Final
+13,21/12/2025,15:30,Dunbeholden FC,Tivoli Gardens,1-0,Final
+13,21/12/2025,15:30,Montego Bay United FC,Waterhouse FC,0-1,Final
+13,21/12/2025,15:30,Mount Pleasant Academy,Spanish Town Police FC,5-0,Final
+13,21/12/2025,15:30,Racing United,Harbour View,0-0,Final
+13,21/12/2025,15:30,Treasure Beach FC,Portmore United,2-0,Final
+13,21/12/2025,15:30,Molynes United,Arnett Gardens,3-1,Final
+14,28/12/2025,15:30,Montego Bay United FC,Mount Pleasant Academy,0-1,Final
+14,28/12/2025,15:30,Harbour View,Cavalier FC,0-1,Final
+14,28/12/2025,15:30,Portmore United,Dunbeholden FC,0-0,Final
+14,28/12/2025,15:30,Spanish Town Police FC,Treasure Beach FC,1-0,Final
+14,29/12/2025,15:30,Waterhouse FC,Molynes United,0-2,Final
+14,29/12/2025,15:30,Tivoli Gardens,Chapelton Maroons,2-0,Final
+14,30/12/2025,15:30,Arnett Gardens,Racing United,1-1,Final
+15,04/01/2026,15:30,Chapelton Maroons,Harbour View,2-1,Final
+15,04/01/2026,15:30,Racing United,Waterhouse FC,0-0,Final
+15,04/01/2026,15:30,Treasure Beach FC,Montego Bay United FC,1-2,Final
+15,04/01/2026,15:30,Molynes United,Mount Pleasant Academy,0-0,Final
+15,05/01/2026,15:30,Tivoli Gardens,Portmore United,2-2,Final
+15,06/01/2026,15:30,Cavalier FC,Arnett Gardens,0-3,Final
+15,05/02/2026,15:30,Dunbeholden FC,Spanish Town Police FC,0-2,Final
+16,11/01/2026,15:30,Montego Bay United FC,Dunbeholden FC,1-0,Final
+16,11/01/2026,15:30,Mount Pleasant Academy,Racing United,1-1,Final
+16,11/01/2026,15:30,Portmore United,Chapelton Maroons,0-0,Final
+16,11/01/2026,15:30,Molynes United,Treasure Beach FC,1-2,Final
+16,12/01/2026,15:30,Waterhouse FC,Cavalier FC,0-0,Final
+16,12/01/2026,15:30,Spanish Town Police FC,Tivoli Gardens,0-1,Final
+16,13/01/2026,15:30,Arnett Gardens,Harbour View,2-0,Final
+17,14/01/2026,15:30,Dunbeholden FC,Molynes United,1-1,Final
+17,14/01/2026,15:30,Racing United,Treasure Beach FC,4-1,Final
+17,15/01/2026,15:30,Harbour View,Waterhouse FC,1-1,Final
+17,15/01/2026,15:30,Portmore United,Spanish Town Police FC,4-0,Final
+17,15/01/2026,15:30,Tivoli Gardens,Montego Bay United FC,0-1,Final
+17,16/01/2026,15:30,Chapelton Maroons,Arnett Gardens,3-0,Final
+17,04/02/2026,15:30,Cavalier FC,Mount Pleasant Academy,0-1,Final
+18,18/01/2026,15:30,Montego Bay United FC,Portmore United,0-0,Final
+18,18/01/2026,15:30,Racing United,Dunbeholden FC,1-1,Final
+18,18/01/2026,15:30,Spanish Town Police FC,Chapelton Maroons,0-1,Final
+18,19/01/2026,15:30,Molynes United,Tivoli Gardens,3-2,Final
+18,20/01/2026,15:30,Waterhouse FC,Arnett Gardens,0-1,Final
+18,19/02/2026,15:30,Harbour View,Mount Pleasant Academy,1-0,Final
+18,25/02/2026,15:30,Treasure Beach FC,Cavalier FC,1-1,Final
+19,21/01/2026,15:30,Spanish Town Police FC,Montego Bay United FC,0-5,Final
+19,21/01/2026,15:30,Cavalier FC,Dunbeholden FC,5-1,Final
+19,22/01/2026,15:30,Tivoli Gardens,Racing United,0-0,Final
+19,22/01/2026,15:30,Harbour View,Treasure Beach FC,3-4,Final
+19,22/01/2026,15:30,Portmore United,Molynes United,1-1,Final
+19,22/01/2026,15:30,Chapelton Maroons,Waterhouse FC,0-1,Final
+19,23/01/2026,15:30,Arnett Gardens,Mount Pleasant Academy,0-1,Final
+20,25/01/2026,15:30,Montego Bay United FC,Chapelton Maroons,2-0,Final
+20,25/01/2026,15:30,Racing United,Portmore United,1-1,Final
+20,25/01/2026,15:30,Molynes United,Spanish Town Police FC,1-1,Final
+20,25/01/2026,15:30,Mount Pleasant Academy,Waterhouse FC,0-1,Final
+20,25/01/2026,15:30,Dunbeholden FC,Harbour View,4-2,Final
+20,25/01/2026,15:30,Treasure Beach FC,Arnett Gardens,1-1,Final
+20,25/01/2026,15:30,Cavalier FC,Tivoli Gardens,1-2,Final
+21,01/02/2026,15:30,Montego Bay United FC,Molynes United,3-0,Final
+21,01/02/2026,15:30,Chapelton Maroons,Mount Pleasant Academy,0-2,Final
+21,01/02/2026,15:30,Spanish Town Police FC,Racing United,1-3,Final
+21,01/02/2026,15:30,Harbour View,Tivoli Gardens,2-2,Final
+21,01/02/2026,15:30,Portmore United,Cavalier FC,1-0,Final
+21,02/02/2026,15:30,Waterhouse FC,Treasure Beach FC,1-0,Final
+21,03/02/2026,15:30,Arnett Gardens,Dunbeholden FC,1-0,Final
+22,08/02/2026,15:30,Molynes United,Chapelton Maroons,0-0,Final
+22,08/02/2026,15:30,Treasure Beach FC,Mount Pleasant Academy,0-0,Final
+22,08/02/2026,15:30,Dunbeholden FC,Waterhouse FC,1-2,Final
+22,08/02/2026,15:30,Racing United,Montego Bay United FC,1-1,Final
+22,08/02/2026,15:30,Harbour View,Portmore United,1-2,Final
+22,08/02/2026,15:30,Tivoli Gardens,Arnett Gardens,0-2,Final
+22,09/02/2026,15:30,Cavalier FC,Spanish Town Police FC,5-0,Final
+23,15/02/2026,15:30,Mount Pleasant Academy,Dunbeholden FC,4-0,Final
+23,15/02/2026,15:30,Spanish Town Police FC,Harbour View,1-0,Final
+23,15/02/2026,15:30,Molynes United,Racing United,0-1,Final
+23,15/02/2026,15:30,Montego Bay United FC,Cavalier FC,1-0,Final
+23,15/02/2026,15:30,Chapelton Maroons,Treasure Beach FC,2-0,Final
+23,16/02/2026,15:30,Waterhouse FC,Tivoli Gardens,1-1,Final
+23,17/02/2026,15:30,Arnett Gardens,Portmore United,0-2,Final
+24,22/02/2026,15:30,Harbour View,Montego Bay United FC,2-2,Final
+24,22/02/2026,15:30,Dunbeholden FC,Treasure Beach FC,4-2,Final
+24,23/02/2026,15:30,Racing United,Chapelton Maroons,2-0,Final
+24,24/02/2026,15:30,Arnett Gardens,Spanish Town Police FC,1-2,Final
+24,04/03/2026,15:30,Tivoli Gardens,Mount Pleasant Academy,1-1,Final
+24,05/03/2026,15:30,Portmore United,Waterhouse FC,0-1,Final
+24,05/03/2026,15:30,Cavalier FC,Molynes United,2-1,Final
+25,01/03/2026,15:30,Chapelton Maroons,Dunbeholden FC,0-1,Final
+25,01/03/2026,15:30,Racing United,Cavalier FC,0-1,Final
+25,01/03/2026,15:30,Montego Bay United FC,Arnett Gardens,1-1,Final
+25,01/03/2026,15:30,Treasure Beach FC,Tivoli Gardens,4-2,Final
+25,02/03/2026,15:30,Mount Pleasant Academy,Portmore United,1-1,Final
+25,02/03/2026,15:30,Molynes United,Harbour View,2-2,Final
+25,03/03/2026,15:30,Waterhouse FC,Spanish Town Police FC,3-0,Final
+26,08/03/2026,15:30,Tivoli Gardens,Dunbeholden FC,2-1,Final
+26,08/03/2026,15:30,Portmore United,Treasure Beach FC,1-1,Final
+26,08/03/2026,15:30,Cavalier FC,Chapelton Maroons,1-0,Final
+26,09/03/2026,15:30,Arnett Gardens,Molynes United,0-0,Final
+26,09/03/2026,15:30,Harbour View,Racing United,0-3,Final
+26,10/03/2026,15:30,Waterhouse FC,Montego Bay United FC,1-0,Final
+26,02/04/2026,15:30,Spanish Town Police FC,Mount Pleasant Academy,1-0,Final
+27,15/03/2026,15:30,Chapelton Maroons,Dunbeholden FC,2-0,Final
+27,15/03/2026,15:30,Portmore United,Harbour View,4-2,Final
+27,15/03/2026,15:30,Treasure Beach FC,Cavalier FC,0-1,Final
+27,15/03/2026,15:30,Spanish Town Police FC,Tivoli Gardens,0-0,Final
+27,16/03/2026,15:30,Mount Pleasant Academy,Molynes United,2-0,Final
+27,16/03/2026,15:30,Waterhouse FC,Montego Bay United FC,0-4,Final
+27,17/03/2026,15:30,Arnett Gardens,Racing United,4-0,Final
+28,18/03/2026,15:30,Molynes United,Waterhouse FC,0-4,Final
+28,18/03/2026,15:30,Montego Bay United FC,Dunbeholden FC,4-3,Final
+28,18/03/2026,15:30,Treasure Beach FC,Portmore United,2-2,Final
+28,19/03/2026,15:30,Racing United,Chapelton Maroons,3-0,Final
+28,19/03/2026,15:30,Tivoli Gardens,Arnett Gardens,0-2,Final
+28,19/03/2026,15:30,Harbour View,Spanish Town Police FC,3-0,Final
+28,09/04/2026,15:30,Cavalier FC,Mount Pleasant Academy,1-3,Final
+29,22/03/2026,15:30,Chapelton Maroons,Montego Bay United FC,3-1,Final
+29,22/03/2026,15:30,Dunbeholden FC,Molynes United,1-0,Final
+29,22/03/2026,15:30,Racing United,Tivoli Gardens,0-0,Final
+29,23/03/2026,15:30,Waterhouse FC,Cavalier FC,2-1,Final
+29,23/03/2026,15:30,Arnett Gardens,Harbour View,0-1,Final
+29,23/03/2026,15:30,Spanish Town Police FC,Treasure Beach FC,0-0,Final
+29,24/03/2026,15:30,Mount Pleasant Academy,Portmore United,4-1,Final
+30,25/03/2026,15:30,Harbour View,Racing United,2-2,Final
+30,25/03/2026,15:30,Molynes United,Montego Bay United FC,1-1,Final
+30,25/03/2026,15:30,Tivoli Gardens,Chapelton Maroons,0-1,Final
+30,26/03/2026,15:30,Portmore United,Waterhouse FC,2-1,Final
+30,26/03/2026,15:30,Cavalier FC,Dunbeholden FC,0-2,Final
+30,27/03/2026,15:30,Mount Pleasant Academy,Spanish Town Police FC,4-0,Final
+30,09/04/2026,15:30,Treasure Beach FC,Arnett Gardens,0-4,Final
+31,29/03/2026,15:30,Chapelton Maroons,Molynes United,2-2,Final
+31,29/03/2026,15:30,Dunbeholden FC,Portmore United,2-1,Final
+31,29/03/2026,15:30,Montego Bay United FC,Cavalier FC,3-1,Final
+31,29/03/2026,15:30,Tivoli Gardens,Harbour View,3-2,Final
+31,31/03/2026,15:30,Racing United,Treasure Beach FC,0-0,Final
+31,31/03/2026,15:30,Waterhouse FC,Spanish Town Police FC,5-1,Final
+31,31/03/2026,15:30,Arnett Gardens,Mount Pleasant Academy,1-1,Final
+32,05/04/2026,15:30,Harbour View,Chapelton Maroons,1-1,Final
+32,05/04/2026,15:30,Portmore United,Montego Bay United FC,2-2,Final
+32,30/04/2026,15:00,Treasure Beach FC,Tivoli Gardens,,
+32,05/04/2026,15:30,Spanish Town Police FC,Dunbeholden FC,4-1,Final
+32,05/04/2026,15:30,Cavalier FC,Molynes United,2-0,Final
+32,06/04/2026,15:30,Waterhouse FC,Arnett Gardens,1-1,Final
+32,06/04/2026,15:30,Mount Pleasant Academy,Racing United,0-0,Final
+33,12/04/2026,15:30,Arnett Gardens,Dunbeholden FC,,
+33,12/04/2026,15:30,Molynes United,Portmore United,0-1,Final
+33,12/04/2026,15:30,Montego Bay United FC,Spanish Town Police FC,6-0,Final
+33,12/04/2026,15:30,Tivoli Gardens,Mount Pleasant Academy,1-0,Final
+33,12/04/2026,15:30,Racing United,Waterhouse FC,0-1,Final
+33,12/04/2026,15:30,Treasure Beach FC,Harbour View,1-2,Final
+33,12/04/2026,15:30,Chapelton Maroons,Cavalier FC,1-4,Final
+34,15/04/2026,15:30,Portmore United,Cavalier FC,0-0,Final
+34,15/04/2026,15:30,Spanish Town Police FC,Molynes United,0-9,Final
+34,15/04/2026,15:30,Racing United,Dunbeholden FC,0-0,Final
+34,15/04/2026,15:30,Treasure Beach FC,Chapelton Maroons,0-3,Final
+34,16/04/2026,15:30,Arnett Gardens,Montego Bay United FC,1-0,Final
+34,16/04/2026,15:30,Harbour View,Mount Pleasant Academy,1-1,Final
+34,16/04/2026,15:30,Waterhouse FC,Tivoli Gardens,1-0,Final
+35,19/04/2026,15:30,Chapelton Maroons,Portmore United,0-2,Final
+35,19/04/2026,15:30,Harbour View,Waterhouse FC,0-1,Final
+35,19/04/2026,15:30,Arnett Gardens,Molynes United,0-3,Final
+35,19/04/2026,15:30,Montego Bay United FC,Racing United,4-1,Final
+35,19/04/2026,15:30,Tivoli Gardens,Dunbeholden FC,2-0,Final
+35,19/04/2026,15:30,Treasure Beach FC,Mount Pleasant Academy,2-2,Final
+35,20/04/2026,15:30,Cavalier FC,Spanish Town Police FC,3-0,Final
+36,22/04/2026,15:30,Montego Bay United FC,Tivoli Gardens,5-1,Final
+36,22/04/2026,15:30,Racing United,Molynes United,1-2,Final
+36,23/04/2026,15:30,Spanish Town Police FC,Portmore United,0-1,Final
+36,23/04/2026,15:30,Dunbeholden FC,Harbour View,4-0,Final
+36,24/04/2026,15:30,Waterhouse FC,Treasure Beach FC,1-2,Final
+36,24/04/2026,15:30,Mount Pleasant Academy,Chapelton Maroons,5-2,Final
+36,24/04/2026,15:30,Arnett Gardens,Cavalier FC,2-1,Final
+37,26/04/2026,15:30,Chapelton Maroons,Spanish Town Police FC,6-2,Final
+37,26/04/2026,15:30,Harbour View,Montego Bay United FC,4-3,Final
+37,26/04/2026,15:30,Portmore United,Arnett Gardens,1-2,Final
+37,26/04/2026,15:30,Treasure Beach FC,Dunbeholden FC,1-0,Final
+37,26/04/2026,15:30,Cavalier FC,Racing United,2-0,Final
+37,28/04/2026,17:00,Molynes United,Tivoli Gardens,,
+37,28/04/2026,19:30,Mount Pleasant Academy,Waterhouse FC,,
+38,30/04/2026,15:30,Dunbeholden FC,Mount Pleasant Academy,,
+38,30/04/2026,15:30,Arnett Gardens,Spanish Town Police FC,,
+38,30/04/2026,15:30,Molynes United,Harbour View,,
+38,30/04/2026,15:30,Montego Bay United FC,Treasure Beach FC,,
+38,30/04/2026,15:30,Racing United,Portmore United,,
+38,30/04/2026,15:30,Tivoli Gardens,Cavalier FC,,
+38,30/04/2026,15:30,Waterhouse FC,Chapelton Maroons,,
+39,03/05/2026,15:30,Cavalier FC,Harbour View,,
+39,03/05/2026,15:30,Chapelton Maroons,Arnett Gardens,,
+39,03/05/2026,15:30,Mount Pleasant Academy,Montego Bay United FC,,
+39,03/05/2026,15:30,Spanish Town Police FC,Racing United,,
+39,03/05/2026,15:30,Portmore United,Tivoli Gardens,,
+39,03/05/2026,15:30,Treasure Beach FC,Molynes United,,
+39,03/05/2026,15:30,Waterhouse FC,Dunbeholden FC,,

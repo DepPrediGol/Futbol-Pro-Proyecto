@@ -527,18 +527,18 @@ matchday,date,time,home_team,away_team,result,status
 44,18/04/2026,09:00,Harrogate Town,Colchester,1-0,Final
 25,21/04/2026,13:45,Cambridge United,Grimsby,1-2,Final
 40,21/04/2026,13:45,Cheltenham,Tranmere,1-3,Final
-45,23/04/2026,14:00,Salford City,Bromley,,
-45,25/04/2026,06:30,Milton Keynes Dons,Tranmere,,
-45,25/04/2026,06:30,Grimsby,Swindon Town,,
-45,25/04/2026,09:00,Bristol Rovers,Cheltenham,,
-45,25/04/2026,09:00,Walsall,Harrogate Town,,
-45,25/04/2026,09:00,Chesterfield,Crewe,,
-45,25/04/2026,09:00,Shrewsbury,Fleetwood Town,,
-45,25/04/2026,09:00,Accrington ST,Crawley Town,,
-45,25/04/2026,09:00,Colchester,Notts County,,
-45,25/04/2026,09:00,Newport County,Oldham,,
-45,25/04/2026,09:00,Barnet,Gillingham,,
-45,25/04/2026,09:00,Cambridge United,Barrow,,
+45,23/04/2026,14:00,Salford City,Bromley,2-0,Final
+45,25/04/2026,06:30,Milton Keynes Dons,Tranmere,3-0,Final
+45,25/04/2026,06:30,Grimsby,Swindon Town,4-0,Final
+45,25/04/2026,09:00,Bristol Rovers,Cheltenham,4-0,Final
+45,25/04/2026,09:00,Walsall,Harrogate Town,0-2,Final
+45,25/04/2026,09:00,Chesterfield,Crewe,2-0,Final
+45,25/04/2026,09:00,Shrewsbury,Fleetwood Town,2-2,Final
+45,25/04/2026,09:00,Accrington ST,Crawley Town,3-3,Final
+45,25/04/2026,09:00,Colchester,Notts County,0-1,Final
+45,25/04/2026,09:00,Newport County,Oldham,3-2,Final
+45,25/04/2026,09:00,Barnet,Gillingham,6-2,Final
+45,25/04/2026,09:00,Cambridge United,Barrow,3-0,Final
 46,02/05/2026,09:00,Fleetwood Town,Milton Keynes Dons,,
 46,02/05/2026,09:00,Gillingham,Shrewsbury,,
 46,02/05/2026,09:00,Oldham,Accrington ST,,

@@ -524,18 +524,18 @@ matchday,date,time,home_team,away_team,result,status
 40,21/04/2026,13:45,Bradford,Plymouth,1-1,Final
 40,21/04/2026,13:45,Doncaster,Lincoln,0-2,Final
 41,22/04/2026,13:45,Cardiff,Port Vale,1-0,Final
-45,25/04/2026,06:30,Doncaster,Stevenage,,
-45,25/04/2026,06:30,Stockport County,Peterborough,,
-45,25/04/2026,09:00,Huddersfield,Mansfield Town,,
-45,25/04/2026,09:00,Cardiff,Northampton,,
-45,25/04/2026,09:00,Wigan,AFC Wimbledon,,
-45,25/04/2026,09:00,Rotherham,Reading,,
-45,25/04/2026,09:00,Burton Albion,Exeter City,,
-45,25/04/2026,09:00,Bradford,Bolton,,
-45,25/04/2026,09:00,Blackpool,Leyton Orient,,
-45,25/04/2026,09:00,Plymouth,Port Vale,,
-45,25/04/2026,09:00,Luton,Barnsley,,
-45,25/04/2026,09:00,Lincoln,Wycombe,,
+45,25/04/2026,06:30,Doncaster,Stevenage,1-1,Final
+45,25/04/2026,06:30,Stockport County,Peterborough,3-1,Final
+45,25/04/2026,09:00,Huddersfield,Mansfield Town,1-4,Final
+45,25/04/2026,09:00,Cardiff,Northampton,5-1,Final
+45,25/04/2026,09:00,Wigan,AFC Wimbledon,0-1,Final
+45,25/04/2026,09:00,Rotherham,Reading,1-1,Final
+45,25/04/2026,09:00,Burton Albion,Exeter City,1-1,Final
+45,25/04/2026,09:00,Bradford,Bolton,1-1,Final
+45,25/04/2026,09:00,Blackpool,Leyton Orient,1-0,Final
+45,25/04/2026,09:00,Plymouth,Port Vale,2-1,Final
+45,25/04/2026,09:00,Luton,Barnsley,2-1,Final
+45,25/04/2026,09:00,Lincoln,Wycombe,4-3,Final
 40,28/04/2026,13:45,Northampton,Barnsley,,
 40,28/04/2026,13:45,Peterborough,Mansfield Town,,
 43,28/04/2026,13:45,Stockport County,Port Vale,,

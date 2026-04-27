@@ -110,14 +110,14 @@ matchday,date,time,home_team,away_team,result,status
 11,19/04/2026,01:00,Gamba Osaka,Fagiano Okayama,2-2,Final
 11,19/04/2026,02:00,Nagoya Grampus,Avispa Fukuoka,2-2,Final
 17,22/04/2026,05:00,Gamba Osaka,Avispa Fukuoka,1-2,Final
-12,24/04/2026,05:00,Kashiwa Reysol,Kashima,,
-12,24/04/2026,05:00,FC Tokyo,Mito Hollyhock,,
-12,25/04/2026,00:00,Shimizu S-pulse,Nagoya Grampus,,
-12,25/04/2026,00:00,Urawa,Yokohama F. Marinos,,
-12,25/04/2026,00:00,Fagiano Okayama,Avispa Fukuoka,,
-12,25/04/2026,01:00,Kawasaki Frontale,JEF United Chiba,,
-12,25/04/2026,02:00,Sanfrecce Hiroshima,Cerezo Osaka,,
-12,25/04/2026,04:30,V-varen Nagasaki,Gamba Osaka,,
+12,24/04/2026,05:00,Kashiwa Reysol,Kashima,0-1,Final
+12,24/04/2026,05:00,FC Tokyo,Mito Hollyhock,5-2,Final
+12,25/04/2026,00:00,Shimizu S-pulse,Nagoya Grampus,0-2,Final
+12,25/04/2026,00:00,Urawa,Yokohama F. Marinos,2-3,Final
+12,25/04/2026,00:00,Fagiano Okayama,Avispa Fukuoka,2-0,Final
+12,25/04/2026,01:00,Kawasaki Frontale,JEF United Chiba,2-1,Final
+12,25/04/2026,02:00,Sanfrecce Hiroshima,Cerezo Osaka,2-1,Final
+12,25/04/2026,04:30,V-varen Nagasaki,Gamba Osaka,1-1,Final
 13,28/04/2026,23:00,Shimizu S-pulse,V-varen Nagasaki,,
 13,28/04/2026,23:00,Tokyo Verdy,Kashima,,
 13,29/04/2026,00:00,Vissel Kobe,Cerezo Osaka,,

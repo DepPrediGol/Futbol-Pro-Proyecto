@@ -197,17 +197,17 @@ matchday,date,time,home_team,away_team,result,status
 33,12/04/2026,09:30,FC Sion,FC Lausanne-Sport,3-0,Final
 33,12/04/2026,09:30,BSC Young Boys,Servette FC,1-1,Final
 33,18/04/2026,09:30,FC Thun Berner Oberland,FC Basel 1893,3-1,Final
-34,25/04/2026,13:30,FC Thun Berner Oberland,FC Lugano,,
-34,26/04/2026,07:00,FC Basel 1893,FC Sion,,
-34,26/04/2026,09:30,BSC Young Boys,FC St. Gallen,,
-34,25/04/2026,11:00,FC Lausanne-Sport,FC Zürich,,
-34,25/04/2026,11:00,Grasshopper Club Zürich,FC Luzern,,
-34,26/04/2026,09:30,Servette FC,FC Winterthur,,
+34,25/04/2026,13:30,FC Thun Berner Oberland,FC Lugano,0-1,Final
+34,26/04/2026,07:00,FC Basel 1893,FC Sion,0-2,Final
+34,26/04/2026,09:30,BSC Young Boys,FC St. Gallen,1-2,Final
+34,25/04/2026,11:00,FC Lausanne-Sport,FC Zürich,3-0,Final
+34,25/04/2026,11:00,Grasshopper Club Zürich,FC Luzern,1-2,Final
+34,26/04/2026,09:30,Servette FC,FC Winterthur,5-3,Final
 35,02/05/2026,13:30,FC Basel 1893,FC Thun Berner Oberland,,
-35,03/05/2026,07:00,FC St. Gallen,FC Sion,,
-35,03/05/2026,09:30,FC Lugano,BSC Young Boys,,
 35,02/05/2026,11:00,FC Lausanne-Sport,FC Luzern,,
 35,02/05/2026,11:00,FC Winterthur,FC Zürich,,
+35,03/05/2026,07:00,FC St. Gallen,FC Sion,,
+35,03/05/2026,09:30,FC Lugano,BSC Young Boys,,
 35,03/05/2026,09:30,Grasshopper Club Zürich,Servette FC,,
 36,10/05/2026,07:00,FC Lugano,FC St. Gallen,,
 36,10/05/2026,09:30,FC Sion,FC Thun Berner Oberland,,

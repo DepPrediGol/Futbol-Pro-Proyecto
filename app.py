@@ -10,7 +10,7 @@ from datetime import datetime, timedelta
 # --- 1. CONFIGURACIÓN DE PÁGINA ---
 st.set_page_config(page_title="Bet Pro Futbol AI", layout="wide", page_icon="⚽")
 
-# --- 2. CSS PERSONALIZADO COMPLETO ---
+# --- 2. CSS PERSONALIZADO (AJUSTE DE MEDIDAS Y TÍTULOS) ---
 st.markdown("""
     <style>
     .stApp { 
@@ -27,6 +27,41 @@ st.markdown("""
     h1, h2, h3, h4, h5, h6, p, span, label, .stMetric {
         color: #000000 !important;
         font-weight: bold !important;
+    }
+
+    /* TÍTULO TOP 4 GRANDE */
+    .titulo-top4 {
+        font-size: 42px !important;
+        font-weight: 900 !important;
+        color: #000000 !important;
+        margin-bottom: 20px !important;
+        text-transform: uppercase;
+        letter-spacing: 2px;
+    }
+
+    /* BOTONES DEL TOP 4 - MEDIDAS CUADRADAS Y ALINEADAS */
+    div.stButton > button {
+        width: 100% !important;
+        min-height: 200px !important; /* Altura fija para que todos midan igual */
+        max-height: 200px !important;
+        background-color: white !important;
+        color: black !important;
+        border: 2px solid #eee !important;
+        border-radius: 15px !important;
+        white-space: pre-wrap !important;
+        word-wrap: break-word !important;
+        display: flex !important;
+        align-items: center !important;
+        justify-content: center !important;
+        text-align: center !important;
+        font-size: 14px !important;
+        box-shadow: 0px 4px 10px rgba(0,0,0,0.1) !important;
+        transition: transform 0.2s !important;
+    }
+    
+    div.stButton > button:hover {
+        transform: scale(1.02);
+        border-color: #28a745 !important;
     }
 
     /* CALENDARIO VISIBLE */
@@ -48,17 +83,6 @@ st.markdown("""
     div[role="dialog"] h4, div[role="dialog"] p, div[role="dialog"] span,
     div[role="dialog"] .stMetric div {
         color: white !important;
-    }
-
-    div.stButton > button {
-        width: 100% !important;
-        height: 180px !important;
-        background-color: white !important;
-        color: black !important;
-        border: 2px solid #eee !important;
-        border-radius: 15px !important;
-        white-space: pre-wrap !important;
-        word-wrap: break-word !important;
     }
 
     header {visibility: hidden !important;}
@@ -111,7 +135,6 @@ def obtener_probabilidades(e_l, e_v):
 def cargar_todo():
     archivos = glob.glob("**/*.csv", recursive=True)
     fz_acum, part_cont = {}, {}
-    # Primera pasada: calcular fuerza de ataque
     for arc in archivos:
         try:
             df = pd.read_csv(arc)
@@ -128,7 +151,6 @@ def cargar_todo():
     fz = {eq: (fz_acum[eq]/part_cont[eq]) if part_cont.get(eq,0)>0 else 1.2 for eq in fz_acum}
     actuales, historicos, ligas = [], [], []
 
-    # Segunda pasada: clasificar partidos
     for arc in archivos:
         try:
             df = pd.read_csv(arc)
@@ -154,14 +176,7 @@ def cargar_todo():
                 }
 
                 if g:
-                    match_data.update({
-                        'Result': f"{g[0]} - {g[1]}", 'G_L': g[0], 'G_V': g[1],
-                        '1X': f"{'✅' if g[0]>=g[1] else '❌'} {p1x:.0%}",
-                        'X2': f"{'✅' if g[1]>=g[0] else '❌'} {px2:.0%}",
-                        'Over 1.5': f"{'✅' if (g[0]+g[1])>1.5 else '❌'} {po15:.0%}",
-                        'Over 2.5': f"{'✅' if (g[0]+g[1])>2.5 else '❌'} {po25:.0%}",
-                        'Btts': f"{'✅' if (g[0]>0 and g[1]>0) else '❌'} {pb:.0%}"
-                    })
+                    match_data.update({'Result': f"{g[0]} - {g[1]}", 'G_L': g[0], 'G_V': g[1], '1X': f"{'✅' if g[0]>=g[1] else '❌'} {p1x:.0%}", 'X2': f"{'✅' if g[1]>=g[0] else '❌'} {px2:.0%}", 'Over 1.5': f"{'✅' if (g[0]+g[1])>1.5 else '❌'} {po15:.0%}", 'Over 2.5': f"{'✅' if (g[0]+g[1])>2.5 else '❌'} {po25:.0%}", 'Btts': f"{'✅' if (g[0]>0 and g[1]>0) else '❌'} {pb:.0%}"})
                     historicos.append(match_data)
                 else:
                     match_data.update({'1X': p1x, 'X2': px2, 'Over 1.5': po15, 'Over 2.5': po25, 'Btts': pb})
@@ -196,14 +211,11 @@ with t1:
     if not df_p.empty:
         ahora = datetime.now()
         hoy_fecha = ahora.date()
-        
-        # Filtrar estrictamente hoy (margen 2h para partidos en juego)
         df_hoy_activos = df_p[(df_p['Fecha_dt'].dt.date == hoy_fecha) & (df_p['Fecha_dt'] >= (ahora - timedelta(hours=2)))]
         
         if not df_hoy_activos.empty:
             df_proximos = df_hoy_activos
         else:
-            # Si no hay nada hoy, buscar el siguiente día con partidos
             df_futuro = df_p[df_p['Fecha_dt'].dt.date > hoy_fecha].sort_values('Fecha_dt')
             if not df_futuro.empty:
                 prox_dia = df_futuro['Fecha_dt'].min().date()
@@ -212,7 +224,7 @@ with t1:
                 df_proximos = pd.DataFrame()
 
         if not df_proximos.empty:
-            st.markdown(f"### 🏆 TOP 4 ")
+            st.markdown('<p class="titulo-top4">🏆 TOP 4 </p>', unsafe_allow_html=True)
             mks = [('1X', '🛡️ Doble Oportunidad'), ('Over 1.5', '🥅 Over 1.5'), ('Over 2.5', '⚽ Over 2.5'), ('Btts', '🤝 Btts')]
             cols = st.columns(4)
             for i, (m, tit) in enumerate(mks):
@@ -237,32 +249,29 @@ with t1:
         if not df_fin.empty:
             cols_f = ['1X', 'X2', 'Over 1.5', 'Over 2.5', 'Btts']
             st.dataframe(df_fin[['Date', 'Time', 'Matchday', 'League', 'Match'] + cols_f].style.map(aplicar_semaforo, subset=cols_f).format({c: '{:.0%}' for c in cols_f}), use_container_width=True, hide_index=True)
-            
             st.divider()
-            # PREDICCIÓN BOMBA DETALLADA
+            
+            # PREDICCIÓN BOMBA
             d_b = df_fin.loc[df_fin[['Over 1.5', 'Over 2.5', 'Btts']].max(axis=1).idxmax()]
             loc, vis = d_b['Home team'], d_b['Away team']
             h_l = df_h[(df_h['Home team'] == loc) & (df_h['League'] == d_b['League'])]
             h_v = df_h[(df_h['Away team'] == vis) & (df_h['League'] == d_b['League'])]
-            
             if not h_l.empty and not h_v.empty:
                 t_l, g1_l, g2_l = len(h_l), (h_l['G_L'] >= 1).sum(), (h_l['G_L'] >= 2).sum()
                 w_l = (h_l['G_L'] >= h_l['G_V']).sum()
                 t_v, g1_v, g2_v = len(h_v), (h_v['G_V'] >= 1).sum(), (h_v['G_V'] >= 2).sum()
                 w_v = (h_v['G_V'] >= h_v['G_L']).sum()
                 etq_b = f"1X: {d_b['1X']:.0%}" if d_b['1X'] >= d_b['X2'] else f"X2: {d_b['X2']:.0%}"
-                
                 st.markdown(f"""
                 <div style="background-color: #ff4b4b; padding: 30px; border-radius: 15px; border-left: 15px solid #8B0000;">
                     <h2 style="color: white !important; margin: 0; text-align: center;">💣 PREDICCIÓN BOMBA DETECTADA 💣</h2>
                     <p style="font-size: 1.15rem; line-height: 1.6; margin-top: 20px; color: white !important;">
-                        El equipo local <b>{loc}</b> lleva <b>{g1_l} de {t_l}</b> partidos marcando al menos 1 gol en casa y de esos <b>{g1_l}</b> partidos <b>{g2_l}</b> ha marcado 2 o más goles, ha ganado o empatado en <b>{w_l} de {t_l}</b> encuentros como local. 
-                        El equipo visitante <b>{vis}</b>, lleva <b>{g1_v} de {t_v}</b> partidos marcando al menos 1 gol como visitante y de esos <b>{g1_v}</b> partidos <b>{g2_v}</b> ha marcado 2 o más goles, ha ganado o empatado en <b>{w_v} de {t_v}</b> encuentros como visitante.
+                        El equipo local <b>{loc}</b> lleva <b>{g1_l} de {t_l}</b> partidos marcando al menos 1 gol en casa. El equipo visitante <b>{vis}</b>, lleva <b>{g1_v} de {t_v}</b> partidos marcando como visitante.
                     </p>
                     <div style="display: grid; grid-template-columns: repeat(4, 1fr); gap: 15px; margin-top: 25px;">
                         <div style="background: white; color: #ff4b4b; padding: 15px; border-radius: 12px; text-align: center; font-weight: bold;">🛡️ {etq_b}</div>
-                        <div style="background: white; color: #ff4b4b; padding: 15px; border-radius: 12px; text-align: center; font-weight: bold;">🥅 Over 1.5: {d_b['Over 1.5']:.0%}</div>
-                        <div style="background: white; color: #ff4b4b; padding: 15px; border-radius: 12px; text-align: center; font-weight: bold;">⚽ Over 2.5: {d_b['Over 2.5']:.0%}</div>
+                        <div style="background: white; color: #ff4b4b; padding: 15px; border-radius: 12px; text-align: center; font-weight: bold;">🥅 O1.5: {d_b['Over 1.5']:.0%}</div>
+                        <div style="background: white; color: #ff4b4b; padding: 15px; border-radius: 12px; text-align: center; font-weight: bold;">⚽ O2.5: {d_b['Over 2.5']:.0%}</div>
                         <div style="background: white; color: #ff4b4b; padding: 15px; border-radius: 12px; text-align: center; font-weight: bold;">🤝 Btts: {d_b['Btts']:.0%}</div>
                     </div>
                 </div>""", unsafe_allow_html=True)

@@ -42,7 +42,7 @@ st.markdown("""
     /* BOTONES DEL TOP 4 - MEDIDAS CUADRADAS Y ALINEADAS */
     div.stButton > button {
         width: 100% !important;
-        min-height: 200px !important; /* Altura fija para que todos midan igual */
+        min-height: 200px !important;
         max-height: 200px !important;
         background-color: white !important;
         color: black !important;
@@ -249,29 +249,32 @@ with t1:
         if not df_fin.empty:
             cols_f = ['1X', 'X2', 'Over 1.5', 'Over 2.5', 'Btts']
             st.dataframe(df_fin[['Date', 'Time', 'Matchday', 'League', 'Match'] + cols_f].style.map(aplicar_semaforo, subset=cols_f).format({c: '{:.0%}' for c in cols_f}), use_container_width=True, hide_index=True)
-            st.divider()
             
-            # PREDICCIÓN BOMBA
+            st.divider()
+            # --- PREDICCIÓN BOMBA DETALLADA (RESTAURADA) ---
             d_b = df_fin.loc[df_fin[['Over 1.5', 'Over 2.5', 'Btts']].max(axis=1).idxmax()]
             loc, vis = d_b['Home team'], d_b['Away team']
             h_l = df_h[(df_h['Home team'] == loc) & (df_h['League'] == d_b['League'])]
             h_v = df_h[(df_h['Away team'] == vis) & (df_h['League'] == d_b['League'])]
+            
             if not h_l.empty and not h_v.empty:
                 t_l, g1_l, g2_l = len(h_l), (h_l['G_L'] >= 1).sum(), (h_l['G_L'] >= 2).sum()
                 w_l = (h_l['G_L'] >= h_l['G_V']).sum()
                 t_v, g1_v, g2_v = len(h_v), (h_v['G_V'] >= 1).sum(), (h_v['G_V'] >= 2).sum()
                 w_v = (h_v['G_V'] >= h_v['G_L']).sum()
                 etq_b = f"1X: {d_b['1X']:.0%}" if d_b['1X'] >= d_b['X2'] else f"X2: {d_b['X2']:.0%}"
+                
                 st.markdown(f"""
                 <div style="background-color: #ff4b4b; padding: 30px; border-radius: 15px; border-left: 15px solid #8B0000;">
                     <h2 style="color: white !important; margin: 0; text-align: center;">💣 PREDICCIÓN BOMBA DETECTADA 💣</h2>
                     <p style="font-size: 1.15rem; line-height: 1.6; margin-top: 20px; color: white !important;">
-                        El equipo local <b>{loc}</b> lleva <b>{g1_l} de {t_l}</b> partidos marcando al menos 1 gol en casa. El equipo visitante <b>{vis}</b>, lleva <b>{g1_v} de {t_v}</b> partidos marcando como visitante.
+                        El equipo local <b>{loc}</b> lleva <b>{g1_l} de {t_l}</b> partidos marcando al menos 1 gol en casa y de esos <b>{g1_l}</b> partidos <b>{g2_l}</b> ha marcado 2 o más goles, ha ganado o empatado en <b>{w_l} de {t_l}</b> encuentros como local. <br>
+                        El equipo visitante <b>{vis}</b>, lleva <b>{g1_v} de {t_v}</b> partidos marcando al menos 1 gol como visitante y de esos <b>{g1_v}</b> partidos <b>{g2_v}</b> ha marcado 2 o más goles, ha ganado o empatado en <b>{w_v} de {t_v}</b> encuentros como visitante.
                     </p>
                     <div style="display: grid; grid-template-columns: repeat(4, 1fr); gap: 15px; margin-top: 25px;">
                         <div style="background: white; color: #ff4b4b; padding: 15px; border-radius: 12px; text-align: center; font-weight: bold;">🛡️ {etq_b}</div>
-                        <div style="background: white; color: #ff4b4b; padding: 15px; border-radius: 12px; text-align: center; font-weight: bold;">🥅 O1.5: {d_b['Over 1.5']:.0%}</div>
-                        <div style="background: white; color: #ff4b4b; padding: 15px; border-radius: 12px; text-align: center; font-weight: bold;">⚽ O2.5: {d_b['Over 2.5']:.0%}</div>
+                        <div style="background: white; color: #ff4b4b; padding: 15px; border-radius: 12px; text-align: center; font-weight: bold;">🥅 Over 1.5: {d_b['Over 1.5']:.0%}</div>
+                        <div style="background: white; color: #ff4b4b; padding: 15px; border-radius: 12px; text-align: center; font-weight: bold;">⚽ Over 2.5: {d_b['Over 2.5']:.0%}</div>
                         <div style="background: white; color: #ff4b4b; padding: 15px; border-radius: 12px; text-align: center; font-weight: bold;">🤝 Btts: {d_b['Btts']:.0%}</div>
                     </div>
                 </div>""", unsafe_allow_html=True)

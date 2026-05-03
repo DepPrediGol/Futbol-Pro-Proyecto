@@ -276,4 +276,3 @@ with t1:
 with t2:
     st.markdown("## 🏀 BASKETBALL PREDICTIONS")
     st.info("Módulo de baloncesto en desarrollo.")
-```[cite: 3]

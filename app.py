@@ -88,7 +88,7 @@ st.markdown("""
     </style>
     """, unsafe_allow_html=True)
 
-# --- 3. FUNCIONES LÓGICAS (MÁXIMA POTENCIA) ---
+# --- 3. FUNCIONES LÓGICAS ---
 def aplicar_semaforo(val):
     if isinstance(val, (int, float)):
         if val >= 0.70: return 'color: #28a745; font-weight: bold;'
@@ -147,7 +147,7 @@ def generar_tabla_posiciones(df_historial, liga):
     return tabla
 
 # --- 4. CARGA DE DATOS ---
-@st.cache_data(ttl=60, show_spinner="Procesando Base de Datos...")
+@st.cache_data(ttl=60, show_spinner="Cargando Base de Datos...")
 def cargar_todo():
     archivos = glob.glob("**/*.csv", recursive=True)
     fz_acum, part_cont = {}, {}
@@ -199,7 +199,7 @@ def cargar_todo():
 
 df_p, df_h, lgs = cargar_todo()
 
-# --- 5. MODAL ---
+# --- 5. VENTANA MODAL ---
 @st.dialog("📊 ANÁLISIS DETALLADO", width="large")
 def ventana_analisis(r, df_h):
     st.markdown(f"## ⚽ {r['Match']}")
@@ -222,17 +222,20 @@ t1, t2 = st.tabs(["SOCCER PREDICTIONS", "BASKETBALL PREDICTIONS"])
 
 with t1:
     if not df_p.empty:
+        # --- FILTRO TOP 4 CORREGIDO (SOLO PARTIDOS NO JUGADOS) ---
         ahora = datetime.now()
-        df_proximos = df_p[df_p['Fecha_dt'].dt.date >= ahora.date()].sort_values('Fecha_dt').head(25)
+        # Filtramos solo partidos desde hoy hacia adelante que NO estén en el historial
+        df_top_pool = df_p[df_p['Fecha_dt'] >= (ahora - timedelta(hours=2))].sort_values('Fecha_dt')
         
-        if not df_proximos.empty:
+        if not df_top_pool.empty:
             st.markdown('<p class="titulo-top4">🏆 TOP 4 </p>', unsafe_allow_html=True)
             mks = [('1X', '🛡️ Doble Oportunidad'), ('Over 1.5', '🥅 Over 1.5'), ('Over 2.5', '⚽ Over 2.5'), ('Btts', '🤝 Btts')]
             cols = st.columns(4)
             for i, (m, tit) in enumerate(mks):
                 with cols[i]:
                     st.markdown(f"#### {tit}")
-                    top = df_proximos.nlargest(4, m).reset_index(drop=True)
+                    # Tomamos los 4 mejores de entre los próximos partidos
+                    top = df_top_pool.nlargest(4, m).reset_index(drop=True)
                     for idx, r in top.iterrows():
                         etq = ("1X" if r['1X'] >= r['X2'] else "X2") if m == '1X' else "Prob"
                         if st.button(f"{r['Date']} {r['Time']}\n{r['League']}\n{r['Match']}\n⭐ {etq}: {r[m]:.0%}", key=f"t4_{m}_{idx}_{r['Match']}"):
@@ -258,13 +261,13 @@ with t1:
                     st.markdown(f"#### 🏅 Tabla: {sl}")
                     tabla_pos = generar_tabla_posiciones(df_h, sl)
                     if not tabla_pos.empty: st.dataframe(tabla_pos, use_container_width=True)
-                    else: st.info("No hay datos de tabla.")
+                    else: st.info("Sin datos históricos para esta liga.")
             else:
                 cols_f = ['1X', 'X2', 'Over 1.5', 'Over 2.5', 'Btts']
                 st.dataframe(df_fin[['Date', 'Time', 'Matchday', 'League', 'Match'] + cols_f].style.map(aplicar_semaforo, subset=cols_f).format({c: '{:.0%}' for c in cols_f}), use_container_width=True, hide_index=True)
             
             st.divider()
-            # --- PREDICCIÓN BOMBA (ANÁLISIS RESTAURADO AL DETALLE) ---
+            # --- PREDICCIÓN BOMBA DETALLADA ---
             d_b = df_fin.loc[df_fin[['Over 1.5', 'Over 2.5', 'Btts']].max(axis=1).idxmax()]
             loc, vis = d_b['Home team'], d_b['Away team']
             h_l = df_h[(df_h['Home team'] == loc) & (df_h['League'] == d_b['League'])]

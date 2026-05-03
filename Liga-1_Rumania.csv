@@ -285,12 +285,12 @@ matchday,date,time,home_team,away_team,result,status
 36,25/04/2026,12:30,CFR Cluj,Universitatea Cluj,1-0,Final
 36,26/04/2026,12:30,FC Dinamo Bucureşti,En vivo,2-0,Final
 36,26/04/2026,12:30,UTA Arad,Farul Constanța,0-0,Final
-36,27/04/2026,09:30,Metaloglobus Bucureşti,Unirea Slobozia,,
-36,27/04/2026,12:30,Argeș Pitești,CS Universitatea Craiova,,
-37,01/05/2026,12:30,FK Csikszereda,FCSB,,
-37,02/05/2026,12:30,Universitatea Cluj,Argeș Pitești,,
-37,02/05/2026,07:00,Oţelul Galaţi,Metaloglobus Bucureşti,,
-37,02/05/2026,09:30,Farul Constanța,FC Botoşani,,
+36,27/04/2026,09:30,Metaloglobus Bucureşti,Unirea Slobozia,1-1,Final
+36,27/04/2026,12:30,Argeș Pitești,CS Universitatea Craiova,0-1,Final
+37,01/05/2026,12:30,FK Csikszereda,FCSB,1-0,Final
+37,02/05/2026,12:30,Universitatea Cluj,Argeș Pitești,1-0,Final
+37,02/05/2026,07:00,Oţelul Galaţi,Metaloglobus Bucureşti,2-2,Final
+37,02/05/2026,09:30,Farul Constanța,FC Botoşani,1-1,Final
 37,03/05/2026,10:15,Petrolul Ploieşti,UTA Arad,,
 37,03/05/2026,13:00,CS Universitatea Craiova,FC Dinamo Bucureşti,,
 37,04/05/2026,12:30,Rapid Bucureşti,CFR Cluj,,

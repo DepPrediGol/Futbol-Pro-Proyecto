@@ -218,12 +218,12 @@ matchday,date,time,home_team,away_team,result,status
 31,31/03/2026,15:30,Arnett Gardens,Mount Pleasant Academy,1-1,Final
 32,05/04/2026,15:30,Harbour View,Chapelton Maroons,1-1,Final
 32,05/04/2026,15:30,Portmore United,Montego Bay United FC,2-2,Final
-32,30/04/2026,15:00,Treasure Beach FC,Tivoli Gardens,,
+32,05/04/2026,15:00,Treasure Beach FC,Tivoli Gardens,,
 32,05/04/2026,15:30,Spanish Town Police FC,Dunbeholden FC,4-1,Final
 32,05/04/2026,15:30,Cavalier FC,Molynes United,2-0,Final
 32,06/04/2026,15:30,Waterhouse FC,Arnett Gardens,1-1,Final
 32,06/04/2026,15:30,Mount Pleasant Academy,Racing United,0-0,Final
-33,12/04/2026,15:30,Arnett Gardens,Dunbeholden FC,,
+33,12/04/2026,15:30,Arnett Gardens,Dunbeholden FC,1-2,Final
 33,12/04/2026,15:30,Molynes United,Portmore United,0-1,Final
 33,12/04/2026,15:30,Montego Bay United FC,Spanish Town Police FC,6-0,Final
 33,12/04/2026,15:30,Tivoli Gardens,Mount Pleasant Academy,1-0,Final
@@ -256,19 +256,19 @@ matchday,date,time,home_team,away_team,result,status
 37,26/04/2026,15:30,Portmore United,Arnett Gardens,1-2,Final
 37,26/04/2026,15:30,Treasure Beach FC,Dunbeholden FC,1-0,Final
 37,26/04/2026,15:30,Cavalier FC,Racing United,2-0,Final
-37,28/04/2026,17:00,Molynes United,Tivoli Gardens,,
-37,28/04/2026,19:30,Mount Pleasant Academy,Waterhouse FC,,
-38,30/04/2026,15:30,Dunbeholden FC,Mount Pleasant Academy,,
-38,30/04/2026,15:30,Arnett Gardens,Spanish Town Police FC,,
-38,30/04/2026,15:30,Molynes United,Harbour View,,
-38,30/04/2026,15:30,Montego Bay United FC,Treasure Beach FC,,
-38,30/04/2026,15:30,Racing United,Portmore United,,
-38,30/04/2026,15:30,Tivoli Gardens,Cavalier FC,,
-38,30/04/2026,15:30,Waterhouse FC,Chapelton Maroons,,
-39,03/05/2026,15:30,Cavalier FC,Harbour View,,
-39,03/05/2026,15:30,Chapelton Maroons,Arnett Gardens,,
-39,03/05/2026,15:30,Mount Pleasant Academy,Montego Bay United FC,,
-39,03/05/2026,15:30,Spanish Town Police FC,Racing United,,
-39,03/05/2026,15:30,Portmore United,Tivoli Gardens,,
-39,03/05/2026,15:30,Treasure Beach FC,Molynes United,,
-39,03/05/2026,15:30,Waterhouse FC,Dunbeholden FC,,
+37,28/04/2026,17:00,Molynes United,Tivoli Gardens,2-0,Final
+37,28/04/2026,19:30,Mount Pleasant Academy,Waterhouse FC,2-1,Final
+38,03/05/2026,15:30,Dunbeholden FC,Mount Pleasant Academy,,
+38,03/05/2026,15:30,Arnett Gardens,Spanish Town Police FC,,
+38,03/05/2026,15:30,Molynes United,Harbour View,,
+38,03/05/2026,15:30,Montego Bay United FC,Treasure Beach FC,,
+38,03/05/2026,15:30,Racing United,Portmore United,,
+38,03/05/2026,15:30,Tivoli Gardens,Cavalier FC,,
+38,03/05/2026,15:30,Waterhouse FC,Chapelton Maroons,,
+39,06/05/2026,15:30,Cavalier FC,Harbour View,,
+39,06/05/2026,15:30,Chapelton Maroons,Arnett Gardens,,
+39,06/05/2026,15:30,Mount Pleasant Academy,Montego Bay United FC,,
+39,06/05/2026,15:30,Spanish Town Police FC,Racing United,,
+39,06/05/2026,15:30,Portmore United,Tivoli Gardens,,
+39,06/05/2026,15:30,Treasure Beach FC,Molynes United,,
+39,06/05/2026,15:30,Waterhouse FC,Dunbeholden FC,,

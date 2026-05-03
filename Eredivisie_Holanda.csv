@@ -278,10 +278,14 @@ matchday,date,time,home_team,away_team,result,status
 31,25/04/2026,14:00,Twente,NEC Nijmegen,1-1,Final
 31,26/04/2026,05:15,Excelsior,Utrecht,5-0,Final
 31,26/04/2026,07:30,Heracles,FC Volendam,0-2,Final
-32,02/05/2026,09:30,Utrecht,NAC Breda,,
-32,02/05/2026,11:45,Groningen,Excelsior,,
-32,02/05/2026,13:00,Ajax,PSV Eindhoven,,
-32,02/05/2026,14:00,NEC Nijmegen,Telstar,,
+16,28/04/2026,11:45,Roda,Waalwijk,1-1,Final
+16,29/04/2026,11:45,Den Bosch,Almere City FC,2-3,Final
+16,01/05/2026,13:00,Waalwijk,Roda,1-1,Final
+16,02/05/2026,07:00,Almere City FC,Den Bosch,3-0,Final
+32,02/05/2026,09:30,Utrecht,NAC Breda,2-0,Final
+32,02/05/2026,11:45,Groningen,Excelsior,2-3,Final
+32,02/05/2026,13:00,Ajax,PSV Eindhoven,2-2,Final
+32,02/05/2026,14:00,NEC Nijmegen,Telstar,1-1,Final
 32,03/05/2026,05:15,FC Volendam,Heerenveen,,
 32,03/05/2026,07:30,PEC Zwolle,Heracles,,
 32,03/05/2026,07:30,Fortuna Sittard,Feyenoord,,

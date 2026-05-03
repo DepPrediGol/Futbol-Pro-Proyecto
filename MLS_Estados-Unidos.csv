@@ -143,22 +143,21 @@ matchday,date,time,home_team,away_team,result,status
 10,25/04/2026,21:30,Seattle Sounders,FC Dallas,2-1,Final
 10,25/04/2026,21:30,Vancouver Whitecaps,Colorado Rapids,3-1,Final
 10,26/04/2026,18:00,Los Angeles Galaxy,Real Salt Lake,2-1,Final
-11,02/05/2026,12:00,Toronto FC,San Jose Earthquakes,,
-11,02/05/2026,13:30,Sporting Kansas City,Seattle Sounders,,
-11,02/05/2026,15:30,Real Salt Lake,Portland Timbers,,
-11,02/05/2026,18:00,Inter Miami,Orlando City SC,,
-11,02/05/2026,18:30,Philadelphia Union,Nashville SC,,
-11,02/05/2026,18:30,Columbus Crew,Minnesota United FC,,
-11,02/05/2026,18:30,Atlanta United FC,CF Montreal,,
-11,02/05/2026,18:30,New York Red Bulls,FC Dallas,,
-11,02/05/2026,18:30,New England Revolution,Charlotte,,
-11,02/05/2026,19:30,Chicago Fire,FC Cincinnati,,
-11,02/05/2026,19:30,Houston Dynamo,Colorado Rapids,,
-11,02/05/2026,20:30,San Diego,Los Angeles FC,,
-11,02/05/2026,21:30,Los Angeles Galaxy,Vancouver Whitecaps,,
+11,02/05/2026,12:00,Toronto FC,San Jose Earthquakes,1-1,Final
+11,02/05/2026,13:30,Sporting Kansas City,Seattle Sounders,1-1,Final
+11,02/05/2026,15:45,Real Salt Lake,Portland Timbers,2-0,Final
+11,02/05/2026,18:15,Inter Miami,Orlando City SC,3-4,Final
+11,02/05/2026,18:30,Philadelphia Union,Nashville SC,0-0,Final
+11,02/05/2026,18:30,Columbus Crew,Minnesota United FC,2-3,Final
+11,02/05/2026,18:30,Atlanta United FC,CF Montreal,3-1,Final
+11,02/05/2026,18:30,New York Red Bulls,FC Dallas,0-2,Final
+11,02/05/2026,18:30,New England Revolution,Charlotte,1-0,Final
+11,02/05/2026,19:30,Chicago Fire,FC Cincinnati,2-3,Final
+11,02/05/2026,19:30,Houston Dynamo,Colorado Rapids,1-0,Final
+11,02/05/2026,20:30,San Diego,Los Angeles FC,1-0,En vivo
+11,02/05/2026,21:30,Los Angeles Galaxy,Vancouver Whitecaps,0-0,En vivo
 11,03/05/2026,14:00,New York City FC,DC United,,
 11,03/05/2026,16:30,Austin,St. Louis City,,
-12,06/05/2026,18:30,New York City FC,Los Angeles FC,,
 13,09/05/2026,12:00,Toronto FC,Inter Miami,,
 13,09/05/2026,13:30,Chicago Fire,New York Red Bulls,,
 13,09/05/2026,15:30,CF Montreal,Orlando City SC,,
@@ -216,7 +215,7 @@ matchday,date,time,home_team,away_team,result,status
 16,23/05/2026,20:30,Portland Timbers,San Jose Earthquakes,,
 16,23/05/2026,21:30,Los Angeles Galaxy,Houston Dynamo,,
 16,24/05/2026,16:00,Columbus Crew,Atlanta United FC,,
-16,24/05/2026,18:00,Inter Miami,Philadelphia Union,,
+16,24/05/2026,18:15,Inter Miami,Philadelphia Union,,
 16,24/05/2026,20:00,Los Angeles FC,Seattle Sounders,,
 17,16/07/2026,18:30,CF Montreal,Toronto FC,,
 17,16/07/2026,19:30,Chicago Fire,Vancouver Whitecaps,,
@@ -494,6 +493,7 @@ matchday,date,time,home_team,away_team,result,status
 36,01/11/2026,16:30,Atlanta United FC,Toronto FC,,
 36,01/11/2026,19:00,New England Revolution,Inter Miami,,
 36,01/11/2026,21:15,Portland Timbers,Houston Dynamo,,
+12,04/11/2026,19:30,New York City FC,Los Angeles FC,,
 37,07/11/2026,16:00,Inter Miami,Charlotte,,
 37,07/11/2026,16:00,FC Cincinnati,Nashville SC,,
 37,07/11/2026,16:00,Philadelphia Union,Toronto FC,,

@@ -359,16 +359,16 @@ matchday,date,time,home_team,away_team,result,status
 36,25/04/2026,08:00,Sudtirol,Mantova,0-3,Final
 36,25/04/2026,10:15,Venezia,Empoli,2-0,Final
 36,25/04/2026,12:30,Cesena,Sampdoria,0-0,Final
-37,01/05/2026,08:00,Sampdoria,Sudtirol,,
-37,01/05/2026,08:00,Bari,Virtus Entella,,
-37,01/05/2026,08:00,Empoli,Avellino,,
-37,01/05/2026,08:00,Spezia,Venezia,,
-37,01/05/2026,08:00,Palermo,Catanzaro,,
-37,01/05/2026,08:00,Juve Stabia,Frosinone,,
-37,01/05/2026,08:00,Padova,Pescara,,
-37,01/05/2026,08:00,Modena,Reggiana,,
-37,01/05/2026,08:00,Carrarese,Cesena,,
-37,01/05/2026,08:00,Mantova,Monza,,
+37,01/05/2026,08:00,Sampdoria,Sudtirol,1-0,Final
+37,01/05/2026,08:00,Bari,Virtus Entella,2-0,Final
+37,01/05/2026,08:00,Empoli,Avellino,1-0,Final
+37,01/05/2026,08:00,Spezia,Venezia,2-2,Final
+37,01/05/2026,08:00,Palermo,Catanzaro,3-2,Final
+37,01/05/2026,08:00,Juve Stabia,Frosinone,0-1,Final
+37,01/05/2026,08:00,Padova,Pescara,1-0,Final
+37,01/05/2026,08:00,Modena,Reggiana,2-1,Final
+37,01/05/2026,08:00,Carrarese,Cesena,0-0,Final
+37,01/05/2026,08:00,Mantova,Monza,3-2,Final
 38,08/05/2026,13:30,Cesena,Padova,,
 38,08/05/2026,13:30,Frosinone,Mantova,,
 38,08/05/2026,13:30,Venezia,Palermo,,

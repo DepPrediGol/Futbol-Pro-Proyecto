@@ -1,0 +1,133 @@
+matchday,date,time,home_team,away_team,result,status
+1,10/04/2026,09:00,Víkingur Reykjavík,Breiðablik,1-1,Final
+1,12/04/2026,09:00,ÍB Vestmannaeyjar,FH Hafnarfjörður,1-1,Final
+1,12/04/2026,09:00,KA Akureyri,UMF Stjarnan,2-3,Final
+1,12/04/2026,09:00,KR Reykjavík,Keflavík ÍF,3-2,Final
+1,12/04/2026,09:00,Valur Reykjavík,Þór Akureyri,1-2,Final
+1,12/04/2026,09:00,Fram Reykjavík,ÍA Akranes,3-3,Final
+2,17/04/2026,09:00,Valur Reykjavík,ÍB Vestmannaeyjar,2-1,Final
+2,17/04/2026,09:00,KA Akureyri,Víkingur Reykjavík,0-2,Final
+2,17/04/2026,09:00,KR Reykjavík,Þór Akureyri,5-2,Final
+2,17/04/2026,09:00,Breiðablik,ÍA Akranes,1-0,Final
+2,17/04/2026,09:00,Fram Reykjavík,Keflavík ÍF,3-1,Final
+2,17/04/2026,09:00,UMF Stjarnan,FH Hafnarfjörður,3-2,Final
+3,22/04/2026,09:00,ÍA Akranes,KA Akureyri,1-1,Final
+3,22/04/2026,09:00,Keflavík ÍF,Breiðablik,0-0,Final
+3,23/04/2026,09:00,ÍB Vestmannaeyjar,KR Reykjavík,2-6,Final
+3,23/04/2026,09:00,Þór Akureyri,Fram Reykjavík,1-0,Final
+3,23/04/2026,09:00,Víkingur Reykjavík,UMF Stjarnan,3-2,Final
+3,12/07/2026,09:00,FH Hafnarfjörður,Valur Reykjavík,,
+4,26/04/2026,09:00,KA Akureyri,Keflavík ÍF,1-2,Final
+4,27/04/2026,09:00,Fram Reykjavík,ÍB Vestmannaeyjar,5-1,Final
+4,27/04/2026,09:00,KR Reykjavík,FH Hafnarfjörður,4-2,Final
+4,27/04/2026,09:00,Breiðablik,Þór Akureyri,4-0,Final
+4,27/04/2026,09:00,UMF Stjarnan,Valur Reykjavík,2-4,Final
+4,27/04/2026,09:00,Víkingur Reykjavík,ÍA Akranes,4-0,Final
+5,02/05/2026,09:00,Þór Akureyri,KA Akureyri,0-1,Final
+5,02/05/2026,09:00,Valur Reykjavík,KR Reykjavík,1-4,Final
+5,03/05/2026,09:00,ÍB Vestmannaeyjar,Breiðablik,2-1,Final
+5,03/05/2026,13:00,Keflavík ÍF,Víkingur Reykjavík,,
+5,03/05/2026,13:00,FH Hafnarfjörður,Fram Reykjavík,,
+5,26/07/2026,09:00,ÍA Akranes,UMF Stjarnan,,
+6,08/05/2026,12:30,Víkingur Reykjavík,Þór Akureyri,,
+6,08/05/2026,14:15,Breiðablik,FH Hafnarfjörður,,
+6,08/05/2026,14:15,Fram Reykjavík,Valur Reykjavík,,
+6,08/05/2026,14:15,ÍA Akranes,Keflavík ÍF,,
+6,08/05/2026,14:15,UMF Stjarnan,KR Reykjavík,,
+6,10/05/2026,14:15,KA Akureyri,ÍB Vestmannaeyjar,,
+7,17/05/2026,14:15,ÍB Vestmannaeyjar,Víkingur Reykjavík,,
+7,17/05/2026,14:15,Keflavík ÍF,UMF Stjarnan,,
+7,17/05/2026,14:15,Þór Akureyri,ÍA Akranes,,
+7,17/05/2026,14:15,FH Hafnarfjörður,KA Akureyri,,
+7,17/05/2026,14:15,KR Reykjavík,Fram Reykjavík,,
+7,17/05/2026,14:15,Valur Reykjavík,Breiðablik,,
+8,21/05/2026,14:15,ÍA Akranes,ÍB Vestmannaeyjar,,
+8,22/05/2026,14:15,KA Akureyri,Valur Reykjavík,,
+8,22/05/2026,14:15,Keflavík ÍF,Þór Akureyri,,
+8,22/05/2026,14:15,UMF Stjarnan,Fram Reykjavík,,
+8,22/05/2026,14:15,Víkingur Reykjavík,FH Hafnarfjörður,,
+8,22/05/2026,14:15,Breiðablik,KR Reykjavík,,
+9,29/05/2026,14:15,FH Hafnarfjörður,ÍA Akranes,,
+9,29/05/2026,14:15,Fram Reykjavík,Breiðablik,,
+9,31/05/2026,14:15,ÍB Vestmannaeyjar,Keflavík ÍF,,
+9,31/05/2026,14:15,KR Reykjavík,KA Akureyri,,
+9,31/05/2026,14:15,Þór Akureyri,UMF Stjarnan,,
+9,31/05/2026,14:15,Valur Reykjavík,Víkingur Reykjavík,,
+10,14/06/2026,14:15,ÍA Akranes,Valur Reykjavík,,
+10,14/06/2026,14:15,Keflavík ÍF,FH Hafnarfjörður,,
+10,14/06/2026,14:15,Þór Akureyri,ÍB Vestmannaeyjar,,
+10,14/06/2026,14:15,UMF Stjarnan,Breiðablik,,
+10,15/06/2026,14:15,KA Akureyri,Fram Reykjavík,,
+10,15/06/2026,14:15,Víkingur Reykjavík,KR Reykjavík,,
+11,21/06/2026,14:15,Breiðablik,KA Akureyri,,
+11,21/06/2026,14:15,FH Hafnarfjörður,Þór Akureyri,,
+11,21/06/2026,14:15,ÍB Vestmannaeyjar,UMF Stjarnan,,
+11,21/06/2026,14:15,Valur Reykjavík,Keflavík ÍF,,
+11,21/06/2026,14:15,Fram Reykjavík,Víkingur Reykjavík,,
+11,22/06/2026,14:15,KR Reykjavík,ÍA Akranes,,
+12,28/06/2026,14:15,FH Hafnarfjörður,ÍB Vestmannaeyjar,,
+12,28/06/2026,14:15,Keflavík ÍF,KR Reykjavík,,
+12,28/06/2026,14:15,Þór Akureyri,Valur Reykjavík,,
+12,28/06/2026,14:15,UMF Stjarnan,KA Akureyri,,
+12,28/06/2026,14:15,Breiðablik,Víkingur Reykjavík,,
+12,29/06/2026,14:15,ÍA Akranes,Fram Reykjavík,,
+13,02/07/2026,14:15,Víkingur Reykjavík,KA Akureyri,,
+13,04/07/2026,14:15,FH Hafnarfjörður,UMF Stjarnan,,
+13,04/07/2026,14:15,ÍA Akranes,Breiðablik,,
+13,04/07/2026,14:15,ÍB Vestmannaeyjar,Valur Reykjavík,,
+13,04/07/2026,14:15,Þór Akureyri,KR Reykjavík,,
+13,06/07/2026,14:15,Keflavík ÍF,Fram Reykjavík,,
+14,23/04/2026,11:00,Valur Reykjavík,FH Hafnarfjörður,3-0,Final
+14,26/05/2026,14:15,UMF Stjarnan,Víkingur Reykjavík,,
+14,12/07/2026,14:15,Fram Reykjavík,Þór Akureyri,,
+14,12/07/2026,14:15,KA Akureyri,ÍA Akranes,,
+14,12/07/2026,14:15,KR Reykjavík,ÍB Vestmannaeyjar,,
+14,13/07/2026,14:15,Breiðablik,Keflavík ÍF,,
+15,18/07/2026,14:15,Þór Akureyri,Víkingur Reykjavík,,
+15,18/07/2026,14:15,Valur Reykjavík,Fram Reykjavík,,
+15,19/07/2026,14:15,ÍB Vestmannaeyjar,KA Akureyri,,
+15,19/07/2026,14:15,Keflavík ÍF,ÍA Akranes,,
+15,19/07/2026,14:15,KR Reykjavík,UMF Stjarnan,,
+15,20/07/2026,14:15,FH Hafnarfjörður,Breiðablik,,
+16,03/05/2026,11:00,UMF Stjarnan,ÍA Akranes,1-2,Final
+16,26/05/2026,14:15,KR Reykjavík,Valur Reykjavík,,
+16,26/07/2026,14:15,Fram Reykjavík,FH Hafnarfjörður,,
+16,26/07/2026,14:15,Víkingur Reykjavík,Keflavík ÍF,,
+16,27/07/2026,14:15,Breiðablik,ÍB Vestmannaeyjar,,
+16,27/07/2026,14:15,KA Akureyri,Þór Akureyri,,
+17,01/08/2026,14:15,ÍB Vestmannaeyjar,Fram Reykjavík,,
+17,04/08/2026,14:15,ÍA Akranes,Víkingur Reykjavík,,
+17,04/08/2026,14:15,Þór Akureyri,Breiðablik,,
+17,04/08/2026,14:15,Valur Reykjavík,UMF Stjarnan,,
+17,05/08/2026,14:15,Keflavík ÍF,KA Akureyri,,
+17,05/08/2026,14:15,FH Hafnarfjörður,KR Reykjavík,,
+18,09/08/2026,14:15,ÍA Akranes,Þór Akureyri,,
+18,09/08/2026,14:15,KA Akureyri,FH Hafnarfjörður,,
+18,09/08/2026,14:15,UMF Stjarnan,Keflavík ÍF,,
+18,09/08/2026,14:15,Víkingur Reykjavík,ÍB Vestmannaeyjar,,
+18,09/08/2026,14:15,Breiðablik,Valur Reykjavík,,
+18,10/08/2026,14:15,Fram Reykjavík,KR Reykjavík,,
+19,16/08/2026,14:15,FH Hafnarfjörður,Víkingur Reykjavík,,
+19,16/08/2026,14:15,ÍB Vestmannaeyjar,ÍA Akranes,,
+19,16/08/2026,14:15,KR Reykjavík,Breiðablik,,
+19,16/08/2026,14:15,Þór Akureyri,Keflavík ÍF,,
+19,16/08/2026,14:15,Valur Reykjavík,KA Akureyri,,
+19,17/08/2026,14:15,Fram Reykjavík,UMF Stjarnan,,
+20,23/08/2026,14:15,ÍA Akranes,FH Hafnarfjörður,,
+20,23/08/2026,14:15,KA Akureyri,KR Reykjavík,,
+20,23/08/2026,14:15,Keflavík ÍF,ÍB Vestmannaeyjar,,
+20,23/08/2026,14:15,UMF Stjarnan,Þór Akureyri,,
+20,23/08/2026,14:15,Víkingur Reykjavík,Valur Reykjavík,,
+20,24/08/2026,14:15,Breiðablik,Fram Reykjavík,,
+21,30/08/2026,14:15,FH Hafnarfjörður,Keflavík ÍF,,
+21,30/08/2026,14:15,Fram Reykjavík,KA Akureyri,,
+21,30/08/2026,14:15,ÍB Vestmannaeyjar,Þór Akureyri,,
+21,30/08/2026,14:15,KR Reykjavík,Víkingur Reykjavík,,
+21,30/08/2026,14:15,Breiðablik,UMF Stjarnan,,
+21,30/08/2026,14:15,Valur Reykjavík,ÍA Akranes,,
+22,06/09/2026,14:15,ÍA Akranes,KR Reykjavík,,
+22,06/09/2026,14:15,KA Akureyri,Breiðablik,,
+22,06/09/2026,14:15,Keflavík ÍF,Valur Reykjavík,,
+22,06/09/2026,14:15,Þór Akureyri,FH Hafnarfjörður,,
+22,06/09/2026,14:15,UMF Stjarnan,ÍB Vestmannaeyjar,,
+22,06/09/2026,14:15,Víkingur Reykjavík,Fram Reykjavík,,

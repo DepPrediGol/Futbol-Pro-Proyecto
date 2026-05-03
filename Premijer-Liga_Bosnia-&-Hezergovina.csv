@@ -152,13 +152,13 @@ matchday,date,time,home_team,away_team,result,status
 31,25/04/2026,12:00,Radnik Bijeljina,FK Rudar,1-0,Final
 31,25/04/2026,12:00,Željezničar Sarajevo,Velež Mostar,0-0,Final
 31,26/04/2026,12:00,Borac Banja Luka,Sloga Doboj,3-1,Final
-31,26/04/2026,12:00,Široki Brijeg,En vivo,2-1,Final
-31,26/04/2026,12:00,HŠK Posušje,En vivo,0-1,Final
-32,02/05/2026,12:00,FK Sarajevo,Borac Banja Luka,,
-32,02/05/2026,12:00,FK Rudar,HŠK Posušje,,
-32,02/05/2026,12:00,Sloga Doboj,Široki Brijeg,,
-32,02/05/2026,12:00,Velež Mostar,Radnik Bijeljina,,
-32,02/05/2026,12:00,Zrinjski Mostar,Željezničar Sarajevo,,
+31,26/04/2026,12:00,Široki Brijeg,Zrinjski Mostar,2-1,Final
+31,26/04/2026,12:00,HŠK Posušje,FK Sarajevo,0-1,Final
+32,01/05/2026,12:00,Velež Mostar,Radnik Bijeljina,1-0,Final
+32,01/05/2026,12:00,Zrinjski Mostar,Željezničar Sarajevo,2-0,Final
+32,02/05/2026,12:00,FK Rudar,HŠK Posušje,3-2,Final
+32,02/05/2026,12:00,Sloga Doboj,Široki Brijeg,2-0,Final
+32,03/05/2026,12:00,FK Sarajevo,Borac Banja Luka,,
 33,09/05/2026,12:00,Široki Brijeg,Borac Banja Luka,,
 33,09/05/2026,12:00,HŠK Posušje,Velež Mostar,,
 33,09/05/2026,12:00,Radnik Bijeljina,Zrinjski Mostar,,

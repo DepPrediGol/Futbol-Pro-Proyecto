@@ -222,23 +222,23 @@ matchday,date,time,home_team,away_team,result,status
 16,26/04/2026,15:30,Belgrano Cordoba,Gimnasia L.P.,0-1,Final
 16,26/04/2026,15:30,Newells Old Boys,Instituto Cordoba,1-1,Final
 16,26/04/2026,18:00,Atletico Tucuman,Banfield,1-1,Final
-16,27/04/2026,16:45,Velez Sarsfield,Union Santa Fe,,
-16,27/04/2026,19:00,Huracan,Argentinos JRS,,
-9,03/05/2026,15:00,Aldosivi,Independ. Rivadavia,,
-9,03/05/2026,15:00,Barracas Central,Banfield,,
-9,03/05/2026,15:00,Belgrano Cordoba,Sarmiento Junin,,
-9,03/05/2026,15:00,Central Cordoba de Santiago,Boca Juniors,,
-9,03/05/2026,15:00,Estudiantes de Rio Cuarto,Instituto Cordoba,,
-9,03/05/2026,15:00,Gimnasia L.P.,Argentinos JRS,,
-9,03/05/2026,15:00,Gimnasia M.,Defensa Y Justicia,,
-9,03/05/2026,15:00,Lanus,Deportivo Riestra,,
-9,03/05/2026,15:00,Platense,Estudiantes L.P.,,
-9,03/05/2026,15:00,Racing Club,Huracan,,
-9,03/05/2026,15:00,River Plate,Atletico Tucuman,,
-9,03/05/2026,15:00,Rosario Central,Tigre,,
-9,03/05/2026,15:00,San Lorenzo,Independiente,,
-9,03/05/2026,15:00,Union Santa Fe,Talleres Cordoba,,
-9,03/05/2026,15:00,Velez Sarsfield,Newells Old Boys,,
+16,27/04/2026,16:45,Velez Sarsfield,Union Santa Fe,2-2,Final
+16,27/04/2026,19:00,Huracan,Argentinos JRS,1-2,Final
+9,02/05/2026,12:00,Barracas Central,Banfield,1-2,Final
+9,02/05/2026,12:30,Lanus,Deportivo Riestra,0-0,Final
+9,02/05/2026,14:15,Central Cordoba de Santiago,Boca Juniors,1-2,Final
+9,02/05/2026,16:45,San Lorenzo,Independiente,1-2,Final
+9,02/05/2026,16:45,Union Santa Fe,Talleres Cordoba,1-1,Final
+9,02/05/2026,19:15,Platense,Estudiantes L.P.,0-2,Final
+9,03/05/2026,11:30,Aldosivi,Independ. Rivadavia,,
+9,03/05/2026,14:00,Belgrano Cordoba,Sarmiento Junin,,
+9,03/05/2026,14:00,Gimnasia L.P.,Argentinos JRS,,
+9,03/05/2026,14:00,Racing Club,Huracan,,
+9,03/05/2026,14:00,Rosario Central,Tigre,,
+9,03/05/2026,16:30,River Plate,Atletico Tucuman,,
+9,04/05/2026,15:00,Gimnasia M.,Defensa Y Justicia,,
+9,04/05/2026,17:15,Velez Sarsfield,Newells Old Boys,,
+9,04/05/2026,19:30,Estudiantes de Rio Cuarto,Instituto Cordoba,,
 1,26/07/2026,15:00,Atletico Tucuman,Independ. Rivadavia,,
 1,26/07/2026,15:00,Belgrano Cordoba,Rosario Central,,
 1,26/07/2026,15:00,Defensa Y Justicia,Aldosivi,,

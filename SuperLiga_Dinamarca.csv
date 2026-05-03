@@ -1,35 +1,35 @@
 matchday,date,time,home_team,away_team,result,status
-1,18/07/2025,12:00,Viborg FF,FC København,2-3,Final
+1,18/07/2025,12:00,Viborg FF,FC Copenhague,2-3,Final
 1,20/07/2025,12:00,FC Fredericia,FC Nordsjælland,2-3,Final
 1,20/07/2025,12:00,Vejle BK,Randers FC,1-1,Final
 1,20/07/2025,12:00,SønderjyskE,Aarhus GF,1-1,Final
 1,20/07/2025,12:00,FC Midtjylland,Odense BK,3-3,Final
 1,20/07/2025,12:00,Brøndby IF,Silkeborg IF,3-0,Final
 2,25/07/2025,12:00,Aarhus GF,Randers FC,1-2,Final
-2,26/07/2025,12:00,FC København,Vejle BK,2-0,Final
+2,26/07/2025,12:00,FC Copenhague,Vejle BK,2-0,Final
 2,27/07/2025,12:00,Odense BK,Viborg FF,3-1,Final
 2,27/07/2025,12:00,Silkeborg IF,FC Fredericia,0-2,Final
 2,27/07/2025,12:00,FC Nordsjælland,Brøndby IF,0-1,Final
 2,28/07/2025,12:00,FC Midtjylland,SønderjyskE,6-2,Final
-3,01/08/2025,12:00,FC Fredericia,FC København,0-2,Final
+3,01/08/2025,12:00,FC Fredericia,FC Copenhague,0-2,Final
 3,01/08/2025,12:00,Vejle BK,Odense BK,4-0,Final
 3,03/08/2025,12:00,Randers FC,Silkeborg IF,1-0,Final
 3,03/08/2025,12:00,SønderjyskE,FC Nordsjælland,3-2,Final
 3,03/08/2025,12:00,Aarhus GF,FC Midtjylland,0-0,Final
 3,03/08/2025,12:00,Brøndby IF,Viborg FF,0-2,Final
-4,08/08/2025,12:00,FC København,Aarhus GF,2-3,Final
+4,08/08/2025,12:00,FC Copenhague,Aarhus GF,2-3,Final
 4,08/08/2025,12:00,Viborg FF,SønderjyskE,1-0,Final
 4,10/08/2025,12:00,FC Midtjylland,FC Fredericia,3-3,Final
 4,10/08/2025,12:00,Silkeborg IF,FC Nordsjælland,4-2,Final
 4,10/08/2025,12:00,Brøndby IF,Vejle BK,2-1,Final
 4,11/08/2025,12:00,Odense BK,Randers FC,3-2,Final
-5,15/08/2025,12:00,FC Nordsjælland,FC København,1-3,Final
+5,15/08/2025,12:00,FC Nordsjælland,FC Copenhague,1-3,Final
 5,15/08/2025,12:00,FC Fredericia,SønderjyskE,3-2,Final
 5,17/08/2025,12:00,Vejle BK,FC Midtjylland,0-2,Final
 5,17/08/2025,12:00,Viborg FF,Silkeborg IF,2-3,Final
 5,17/08/2025,12:00,Randers FC,Brøndby IF,0-2,Final
 5,18/08/2025,12:00,Odense BK,Aarhus GF,1-5,Final
-6,23/08/2025,12:00,FC København,Odense BK,1-1,Final
+6,23/08/2025,12:00,FC Copenhague,Odense BK,1-1,Final
 6,24/08/2025,12:00,FC Fredericia,Randers FC,1-0,Final
 6,24/08/2025,12:00,FC Midtjylland,Silkeborg IF,4-2,Final
 6,24/08/2025,12:00,SønderjyskE,Brøndby IF,2-0,Final
@@ -39,10 +39,10 @@ matchday,date,time,home_team,away_team,result,status
 7,31/08/2025,12:00,Aarhus GF,FC Fredericia,4-1,Final
 7,31/08/2025,12:00,Silkeborg IF,SønderjyskE,0-2,Final
 7,31/08/2025,12:00,Odense BK,FC Nordsjælland,1-2,Final
-7,31/08/2025,12:00,Randers FC,FC København,1-5,Final
+7,31/08/2025,12:00,Randers FC,FC Copenhague,1-5,Final
 7,31/08/2025,12:00,Brøndby IF,FC Midtjylland,1-3,Final
 8,12/09/2025,12:00,SønderjyskE,Randers FC,0-1,Final
-8,13/09/2025,12:00,Brøndby IF,FC København,2-1,Final
+8,13/09/2025,12:00,Brøndby IF,FC Copenhague,2-1,Final
 8,14/09/2025,12:00,Viborg FF,Aarhus GF,1-2,Final
 8,14/09/2025,12:00,FC Nordsjælland,FC Midtjylland,1-0,Final
 8,14/09/2025,12:00,Silkeborg IF,Odense BK,2-1,Final
@@ -50,10 +50,10 @@ matchday,date,time,home_team,away_team,result,status
 9,19/09/2025,12:00,Odense BK,FC Fredericia,3-2,Final
 9,20/09/2025,12:00,FC Midtjylland,Viborg FF,2-0,Final
 9,21/09/2025,12:00,Vejle BK,SønderjyskE,2-2,Final
-9,21/09/2025,12:00,FC København,Silkeborg IF,3-3,Final
+9,21/09/2025,12:00,FC Copenhague,Silkeborg IF,3-3,Final
 9,21/09/2025,12:00,Aarhus GF,Brøndby IF,1-0,Final
 9,22/09/2025,12:00,Randers FC,FC Nordsjælland,3-0,Final
-10,27/09/2025,12:00,SønderjyskE,FC København,1-2,Final
+10,27/09/2025,12:00,SønderjyskE,FC Copenhague,1-2,Final
 10,28/09/2025,12:00,Viborg FF,FC Fredericia,2-1,Final
 10,28/09/2025,12:00,Silkeborg IF,Vejle BK,1-1,Final
 10,28/09/2025,12:00,FC Nordsjælland,Aarhus GF,1-2,Final
@@ -63,9 +63,9 @@ matchday,date,time,home_team,away_team,result,status
 11,05/10/2025,12:00,Randers FC,Viborg FF,2-1,Final
 11,05/10/2025,12:00,Vejle BK,FC Nordsjælland,0-3,Final
 11,05/10/2025,12:00,Aarhus GF,Silkeborg IF,3-1,Final
-11,05/10/2025,12:00,FC København,FC Midtjylland,1-1,Final
+11,05/10/2025,12:00,FC Copenhague,FC Midtjylland,1-1,Final
 11,05/10/2025,12:00,FC Fredericia,Brøndby IF,0-2,Final
-12,17/10/2025,12:00,Silkeborg IF,FC København,3-1,Final
+12,17/10/2025,12:00,Silkeborg IF,FC Copenhague,3-1,Final
 12,19/10/2025,12:00,FC Nordsjælland,Randers FC,1-0,Final
 12,19/10/2025,12:00,Viborg FF,Odense BK,1-2,Final
 12,19/10/2025,12:00,Brøndby IF,Aarhus GF,3-3,Final
@@ -75,9 +75,9 @@ matchday,date,time,home_team,away_team,result,status
 13,26/10/2025,12:00,FC Fredericia,FC Midtjylland,0-4,Final
 13,26/10/2025,12:00,Vejle BK,Silkeborg IF,1-2,Final
 13,26/10/2025,12:00,Randers FC,SønderjyskE,0-0,Final
-13,26/10/2025,12:00,FC København,Viborg FF,0-0,Final
+13,26/10/2025,12:00,FC Copenhague,Viborg FF,0-0,Final
 13,27/10/2025,12:00,Odense BK,Brøndby IF,1-4,Final
-14,01/11/2025,12:00,FC København,FC Fredericia,3-2,Final
+14,01/11/2025,12:00,FC Copenhague,FC Fredericia,3-2,Final
 14,02/11/2025,12:00,Viborg FF,Randers FC,3-2,Final
 14,02/11/2025,12:00,SønderjyskE,Vejle BK,2-1,Final
 14,02/11/2025,12:00,FC Nordsjælland,Odense BK,2-4,Final
@@ -85,18 +85,18 @@ matchday,date,time,home_team,away_team,result,status
 14,03/11/2025,12:00,FC Midtjylland,Aarhus GF,1-1,Final
 15,07/11/2025,12:00,Odense BK,Silkeborg IF,1-1,Final
 15,09/11/2025,12:00,FC Fredericia,Viborg FF,0-3,Final
-15,09/11/2025,12:00,Vejle BK,FC København,2-0,Final
+15,09/11/2025,12:00,Vejle BK,FC Copenhague,2-0,Final
 15,09/11/2025,12:00,Randers FC,FC Midtjylland,0-2,Final
 15,09/11/2025,12:00,Aarhus GF,SønderjyskE,2-3,Final
 15,09/11/2025,12:00,Brøndby IF,FC Nordsjælland,2-0,Final
 16,21/11/2025,12:00,Silkeborg IF,Aarhus GF,0-2,Final
-16,23/11/2025,12:00,FC København,Brøndby IF,1-0,Final
+16,23/11/2025,12:00,FC Copenhague,Brøndby IF,1-0,Final
 16,23/11/2025,12:00,Viborg FF,Vejle BK,5-2,Final
 16,23/11/2025,12:00,FC Nordsjælland,FC Fredericia,5-0,Final
 16,23/11/2025,12:00,SønderjyskE,FC Midtjylland,2-1,Final
 16,24/11/2025,12:00,Randers FC,Odense BK,0-0,Final
 17,28/11/2025,12:00,SønderjyskE,Viborg FF,2-2,Final
-17,30/11/2025,12:00,Aarhus GF,FC København,2-0,Final
+17,30/11/2025,12:00,Aarhus GF,FC Copenhague,2-0,Final
 17,30/11/2025,12:00,Silkeborg IF,Randers FC,0-0,Final
 17,30/11/2025,12:00,FC Midtjylland,FC Nordsjælland,6-0,Final
 17,30/11/2025,12:00,Odense BK,Vejle BK,3-0,Final
@@ -105,28 +105,28 @@ matchday,date,time,home_team,away_team,result,status
 18,07/12/2025,12:00,FC Nordsjælland,Silkeborg IF,5-0,Final
 18,07/12/2025,12:00,Viborg FF,FC Midtjylland,3-3,Final
 18,07/12/2025,12:00,Randers FC,Aarhus GF,1-2,Final
-18,07/12/2025,12:00,FC København,SønderjyskE,0-2,Final
+18,07/12/2025,12:00,FC Copenhague,SønderjyskE,0-2,Final
 18,08/12/2025,12:00,Vejle BK,Brøndby IF,2-1,Final
 19,08/02/2026,12:00,FC Nordsjælland,SønderjyskE,2-1,Final
 19,08/02/2026,12:00,Silkeborg IF,Viborg FF,0-1,Final
-19,08/02/2026,12:00,FC Midtjylland,FC København,2-1,Final
+19,08/02/2026,12:00,FC Midtjylland,FC Copenhague,2-1,Final
 19,08/02/2026,12:00,Brøndby IF,Randers FC,0-0,Final
 19,09/02/2026,12:00,Vejle BK,FC Fredericia,2-3,Final
 19,09/02/2026,12:00,Aarhus GF,Odense BK,2-1,Final
 20,13/02/2026,12:00,Randers FC,Vejle BK,2-0,Final
-20,14/02/2026,12:00,FC København,FC Nordsjælland,1-2,Final
+20,14/02/2026,12:00,FC Copenhague,FC Nordsjælland,1-2,Final
 20,15/02/2026,12:00,FC Fredericia,Aarhus GF,1-1,Final
 20,15/02/2026,12:00,Odense BK,FC Midtjylland,1-4,Final
 20,15/02/2026,12:00,Viborg FF,Brøndby IF,1-0,Final
 20,16/02/2026,12:00,SønderjyskE,Silkeborg IF,2-1,Final
 21,20/02/2026,12:00,FC Nordsjælland,Vejle BK,3-3,Final
-21,21/02/2026,12:00,Odense BK,FC København,2-2,Final
+21,21/02/2026,12:00,Odense BK,FC Copenhague,2-2,Final
 21,22/02/2026,12:00,Randers FC,FC Fredericia,1-2,Final
 21,22/02/2026,12:00,Silkeborg IF,FC Midtjylland,0-4,Final
 21,22/02/2026,12:00,Aarhus GF,Viborg FF,5-2,Final
 21,23/02/2026,12:00,Brøndby IF,SønderjyskE,0-0,Final
 22,01/03/2026,12:00,FC Fredericia,Silkeborg IF,2-1,Final
-22,01/03/2026,12:00,FC København,Randers FC,1-2,Final
+22,01/03/2026,12:00,FC Copenhague,Randers FC,1-2,Final
 22,01/03/2026,12:00,FC Midtjylland,Brøndby IF,0-0,Final
 22,01/03/2026,12:00,SønderjyskE,Odense BK,1-0,Final
 22,01/03/2026,12:00,Vejle BK,Aarhus GF,1-2,Final
@@ -135,36 +135,36 @@ matchday,date,time,home_team,away_team,result,status
 23,15/03/2026,12:00,SønderjyskE,Aarhus GF,1-1,Final
 23,15/03/2026,12:00,Brøndby IF,Viborg FF,0-1,Final
 23,13/03/2026,12:00,FC Fredericia,Randers FC,0-3,Final
-23,15/03/2026,12:00,Odense BK,FC København,2-1,Final
+23,15/03/2026,12:00,Odense BK,FC Copenhague,2-1,Final
 23,16/03/2026,12:00,Silkeborg IF,Vejle BK,1-1,Final
 24,22/03/2026,12:00,FC Nordsjælland,SønderjyskE,2-0,Final
 24,22/03/2026,12:00,Aarhus GF,Brøndby IF,0-0,Final
 24,22/03/2026,12:00,Viborg FF,FC Midtjylland,1-1,Final
 24,20/03/2026,12:00,Vejle BK,Odense BK,1-1,Final
 24,22/03/2026,12:00,Randers FC,Silkeborg IF,0-3,Final
-24,22/03/2026,12:00,FC København,FC Fredericia,1-2,Final
+24,22/03/2026,12:00,FC Copenhague,FC Fredericia,1-2,Final
 25,04/04/2026,12:00,FC Midtjylland,SønderjyskE,2-2,Final
 25,06/04/2026,12:00,Viborg FF,Aarhus GF,1-2,Final
 25,07/04/2026,12:00,FC Nordsjælland,Brøndby IF,2-1,Final
-25,05/04/2026,12:00,FC København,Silkeborg IF,7-0,Final
+25,05/04/2026,12:00,FC Copenhague,Silkeborg IF,7-0,Final
 25,06/04/2026,12:00,Vejle BK,Randers FC,1-1,Final
 25,06/04/2026,12:00,Odense BK,FC Fredericia,1-0,Final
 26,10/04/2026,12:00,Aarhus GF,FC Nordsjælland,1-1,Final
 26,12/04/2026,12:00,SønderjyskE,Viborg FF,0-2,Final
 26,12/04/2026,12:00,Brøndby IF,FC Midtjylland,1-2,Final
 26,12/04/2026,12:00,Silkeborg IF,Odense BK,3-1,Final
-26,12/04/2026,12:00,Randers FC,FC København,1-2,Final
+26,12/04/2026,12:00,Randers FC,FC Copenhague,1-2,Final
 26,13/04/2026,12:00,FC Fredericia,Vejle BK,2-2,Final
 27,17/04/2026,12:00,Brøndby IF,SønderjyskE,6-0,Final
 27,19/04/2026,12:00,FC Nordsjælland,Viborg FF,2-1,Final
 27,20/04/2026,12:00,FC Midtjylland,Aarhus GF,2-1,Final
 27,19/04/2026,12:00,Odense BK,Randers FC,3-1,Final
 27,19/04/2026,12:00,Silkeborg IF,FC Fredericia,2-2,Final
-27,19/04/2026,12:00,Vejle BK,FC København,1-4,Final
+27,19/04/2026,12:00,Vejle BK,FC Copenhague,1-4,Final
 28,22/04/2026,12:00,Viborg FF,Brøndby IF,0-1,Final
 28,23/04/2026,12:00,FC Nordsjælland,Aarhus GF,1-1,Final
 28,23/04/2026,12:00,SønderjyskE,FC Midtjylland,1-2,Final
-28,22/04/2026,12:00,FC København,Odense BK,2-1,Final
+28,22/04/2026,12:00,FC Copenhague,Odense BK,2-1,Final
 28,22/04/2026,12:00,Vejle BK,Silkeborg IF,1-2,Final
 28,23/04/2026,12:00,Randers FC,FC Fredericia,2-2,Final
 29,26/04/2026,12:00,SønderjyskE,Brøndby IF,3-0,Final
@@ -172,22 +172,22 @@ matchday,date,time,home_team,away_team,result,status
 29,26/04/2026,12:00,Aarhus GF,En vivo,0-0,Final
 29,26/04/2026,12:00,FC Fredericia,Odense BK,0-2,Final
 29,26/04/2026,12:00,Silkeborg IF,Randers FC,2-0,Final
-29,27/04/2026,12:00,FC København,Vejle BK,,
-30,01/05/2026,12:00,Brøndby IF,FC Nordsjælland,,
-30,03/05/2026,11:00,Aarhus GF,SønderjyskE,,
-30,03/05/2026,07:00,Randers FC,Vejle BK,,
-30,03/05/2026,07:00,Odense BK,Silkeborg IF,,
-30,03/05/2026,09:00,FC Fredericia,FC København,,
+29,27/04/2026,12:00,FC Copenhague,Vejle BK,3-0,Final
+30,01/05/2026,12:00,Brøndby IF,FC Nordsjælland,1-1,Final
+30,03/05/2026,11:00,Aarhus GF,SønderjyskE,0-0,Final
+30,03/05/2026,07:00,Randers FC,Vejle BK,1-0,Final
+30,03/05/2026,07:00,Odense BK,Silkeborg IF,2-3,Final
+30,03/05/2026,09:00,FC Fredericia,FC Copenhague,3-3,Final
 30,04/05/2026,12:00,FC Midtjylland,Viborg FF,,
 31,08/05/2026,12:00,Viborg FF,SønderjyskE,,
 31,10/05/2026,07:00,FC Nordsjælland,FC Midtjylland,,
 31,10/05/2026,11:00,Brøndby IF,Aarhus GF,,
 31,10/05/2026,07:00,Vejle BK,FC Fredericia,,
-31,10/05/2026,09:00,Silkeborg IF,FC København,,
+31,10/05/2026,09:00,Silkeborg IF,FC Copenhague,,
 31,11/05/2026,12:00,Randers FC,Odense BK,,
 32,17/05/2026,07:00,FC Fredericia,Silkeborg IF,,
 32,17/05/2026,07:00,Odense BK,Vejle BK,,
-32,17/05/2026,07:00,FC København,Randers FC,,
+32,17/05/2026,07:00,FC Copenhague,Randers FC,,
 32,17/05/2026,11:00,Aarhus GF,Viborg FF,,
 32,17/05/2026,11:00,FC Midtjylland,Brøndby IF,,
 32,17/05/2026,11:00,SønderjyskE,FC Nordsjælland,,

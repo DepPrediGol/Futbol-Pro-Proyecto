@@ -275,27 +275,27 @@ matchday,date,time,home_team,away_team,result,status
 31,25/04/2026,12:00,Göztepe,Antalyaspor,2-0,Final
 31,26/04/2026,06:30,Gençlerbirliği S.K.,Kocaelispor,1-0,Final
 31,26/04/2026,12:00,Galatasaray,Fenerbahçe,3-0,Final
-31,27/04/2026,09:00,Alanyaspor,Samsunspor,,
-31,27/04/2026,12:00,Beşiktaş,Fatih Karagümrük,,
-31,27/04/2026,12:00,Konyaspor,Trabzonspor,,
-32,03/05/2026,12:00,Fenerbahçe,Başakşehir,,
-32,03/05/2026,12:00,Trabzonspor,Göztepe,,
+31,27/04/2026,09:00,Alanyaspor,Samsunspor,2-3,Final
+31,27/04/2026,12:00,Beşiktaş,Fatih Karagümrük,0-0,Final
+31,27/04/2026,12:00,Konyaspor,Trabzonspor,2-1,Final
+32,01/05/2026,09:00,Rizespor,Konyaspor,3-2,Final
+32,01/05/2026,12:00,Gaziantep FK,Beşiktaş,0-2,Final
+32,02/05/2026,12:00,Fenerbahçe,Başakşehir,3-1,Final
+32,02/05/2026,12:00,Trabzonspor,Göztepe,1-1,Final
+32,02/05/2026,12:00,Samsunspor,Galatasaray,4-1,Final
 32,03/05/2026,12:00,Kayserispor,Eyüpspor,,
 32,03/05/2026,12:00,Kasımpaşa,Kocaelispor,,
 32,03/05/2026,12:00,Antalyaspor,Alanyaspor,,
-32,03/05/2026,12:00,Rizespor,Konyaspor,,
-32,03/05/2026,12:00,Gaziantep FK,Beşiktaş,,
 32,03/05/2026,12:00,Fatih Karagümrük,Gençlerbirliği S.K.,,
-32,03/05/2026,12:00,Samsunspor,Galatasaray,,
-33,10/05/2026,12:00,Beşiktaş,Trabzonspor,,
-33,10/05/2026,12:00,Başakşehir,Samsunspor,,
-33,10/05/2026,12:00,Konyaspor,Fenerbahçe,,
-33,10/05/2026,12:00,Galatasaray,Antalyaspor,,
-33,10/05/2026,12:00,Göztepe,Gaziantep FK,,
-33,10/05/2026,12:00,Alanyaspor,Kayserispor,,
-33,10/05/2026,12:00,Gençlerbirliği S.K.,Kasımpaşa,,
-33,10/05/2026,12:00,Eyüpspor,Rizespor,,
-33,10/05/2026,12:00,Kocaelispor,Fatih Karagümrük,,
+33,09/05/2026,12:00,Beşiktaş,Trabzonspor,,
+33,09/05/2026,12:00,Başakşehir,Samsunspor,,
+33,09/05/2026,12:00,Konyaspor,Fenerbahçe,,
+33,09/05/2026,12:00,Galatasaray,Antalyaspor,,
+33,09/05/2026,12:00,Göztepe,Gaziantep FK,,
+33,09/05/2026,12:00,Alanyaspor,Kayserispor,,
+33,09/05/2026,12:00,Gençlerbirliği S.K.,Kasımpaşa,,
+33,09/05/2026,12:00,Eyüpspor,Rizespor,,
+33,09/05/2026,12:00,Kocaelispor,Fatih Karagümrük,,
 34,17/05/2026,12:00,Fenerbahçe,Eyüpspor,,
 34,17/05/2026,12:00,Trabzonspor,Gençlerbirliği S.K.,,
 34,17/05/2026,12:00,Kayserispor,Konyaspor,,

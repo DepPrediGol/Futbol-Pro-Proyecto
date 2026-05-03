@@ -260,17 +260,17 @@ matchday,date,time,home_team,away_team,result,status
 29,24/04/2026,10:00,Persib Bandung,Arema Cronus FC,0-0,Final
 29,25/04/2026,10:00,Madura United,Dewa United FC,1-2,Final
 29,25/04/2026,10:00,Borneo FC,Semen Padang,3-0,Final
-30,27/04/2026,03:30,Bali United,PSM Makassar,,
-30,27/04/2026,07:00,Persija Jakarta,Persis Solo (LI),,
-30,28/04/2026,03:30,Arema Cronus FC,Persebaya Surabaya,,
-30,28/04/2026,07:00,PSBS Biak,Malut United FC,,
-30,29/04/2026,03:30,Semen Padang,Madura United,,
-30,29/04/2026,03:30,Persik Kediri,Borneo FC,,
-30,29/04/2026,07:00,Dewa United FC,Persijap Jepara,,
-30,30/04/2026,03:30,PSIM Yogyakarta,Persita Tangerang,,
-30,30/04/2026,07:00,Bhayangkara Presisi Indonesia,Persib Bandung,,
-31,02/05/2026,03:30,Persebaya Surabaya,PSBS Biak,,
-31,02/05/2026,07:00,Malut United FC,Persis Solo (LI),,
+30,27/04/2026,03:30,Bali United,PSM Makassar,2-0,Final
+30,27/04/2026,07:00,Persija Jakarta,Persis Solo (LI),4-0,Final
+30,28/04/2026,03:30,Arema Cronus FC,Persebaya Surabaya,0-4,Final
+30,28/04/2026,07:00,PSBS Biak,Malut United FC,0-7,Final
+30,29/04/2026,03:30,Semen Padang,Madura United,0-1,Final
+30,29/04/2026,03:30,Persik Kediri,Borneo FC,0-1,Final
+30,29/04/2026,07:00,Dewa United FC,Persijap Jepara,1-0,Final
+30,30/04/2026,03:30,PSIM Yogyakarta,Persita Tangerang,0-1,Final
+30,30/04/2026,07:00,Bhayangkara Presisi Indonesia,Persib Bandung,2-4,Final
+31,02/05/2026,03:30,Persebaya Surabaya,PSBS Biak,4-0,Final
+31,02/05/2026,07:00,Malut United FC,Persis Solo (LI),5-2,Final
 31,03/05/2026,03:30,Persik Kediri,Arema Cronus FC,,
 31,03/05/2026,07:00,Dewa United FC,Semen Padang,,
 31,04/05/2026,03:30,Persib Bandung,PSIM Yogyakarta,,
@@ -296,11 +296,11 @@ matchday,date,time,home_team,away_team,result,status
 33,17/05/2026,03:30,Persijap Jepara,Borneo FC,,
 33,17/05/2026,07:00,PSIM Yogyakarta,Madura United,,
 33,17/05/2026,03:30,PSM Makassar,Persib Bandung,,
-34,23/05/2026,07:00,Arema Cronus FC,PSIM Yogyakarta,,
-34,23/05/2026,03:30,Borneo FC,Malut United FC,,
-34,23/05/2026,07:00,Dewa United FC,Bali United,,
-34,23/05/2026,03:30,Bhayangkara Presisi Indonesia,PSBS Biak,,
 34,23/05/2026,07:00,Madura United,PSM Makassar,,
+34,23/05/2026,03:30,Arema Cronus FC,PSIM Yogyakarta,,
+34,23/05/2026,07:00,Borneo FC,Malut United FC,,
+34,23/05/2026,03:30,Dewa United FC,Bali United,,
+34,23/05/2026,07:00,Bhayangkara Presisi Indonesia,PSBS Biak,,
 34,23/05/2026,03:30,Persebaya Surabaya,Persik Kediri,,
 34,23/05/2026,07:00,Persib Bandung,Persijap Jepara,,
 34,23/05/2026,03:30,Persija Jakarta,Semen Padang,,

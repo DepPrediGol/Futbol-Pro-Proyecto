@@ -9,12 +9,12 @@ matchday,date,time,home_team,away_team,result,status
 1,15/04/2026,12:00,Sarpsborg 08,FK Bodø/Glimt,1-1,Final
 2,21/03/2026,11:00,IK Start,Aalesunds FK,1-1,Final
 2,21/03/2026,11:00,Viking FK,Molde FK,4-1,Final
-2,22/03/2026,11:00,FK Bodø/Glimt,Hamarkameratene,,
 2,22/03/2026,11:00,Rosenborg BK,Vålerenga IF,0-2,Final
 2,22/03/2026,11:00,SK Brann,Tromsø IL,1-2,Final
 2,22/03/2026,11:00,Fredrikstad FK,KFUM Oslo,3-1,Final
 2,22/03/2026,11:00,Sandefjord Fotball,Sarpsborg 08,0-2,Final
-2,20/05/2026,12:00,Lillestrøm SK,Kristiansund BK,,
+2,20/05/2026,11:00,Lillestrøm SK,Kristiansund BK,,
+2,02/09/2026,12:00,FK Bodø/Glimt,Hamarkameratene,,
 3,06/04/2026,11:00,Vålerenga IF,Viking FK,0-1,Final
 3,06/04/2026,11:00,Hamarkameratene,SK Brann,1-5,Final
 3,06/04/2026,11:00,Kristiansund BK,FK Bodø/Glimt,0-3,Final
@@ -47,8 +47,8 @@ matchday,date,time,home_team,away_team,result,status
 6,26/04/2026,10:00,KFUM Oslo,Sarpsborg 08,1-0,Final
 6,26/04/2026,10:00,Tromsø IL,Sandefjord Fotball,3-1,Final
 6,26/04/2026,12:15,Lillestrøm SK,FK Bodø/Glimt,0-2,Final
-7,01/05/2026,11:00,Viking FK,Rosenborg BK,,
-7,02/05/2026,11:00,SK Brann,Fredrikstad FK,,
+7,01/05/2026,11:00,Viking FK,Rosenborg BK,3-0,Final
+7,02/05/2026,11:00,SK Brann,Fredrikstad FK,3-1,Final
 7,03/05/2026,07:30,Lillestrøm SK,Sarpsborg 08,,
 7,03/05/2026,10:00,IK Start,Tromsø IL,,
 7,03/05/2026,10:00,Kristiansund BK,Hamarkameratene,,
@@ -57,12 +57,12 @@ matchday,date,time,home_team,away_team,result,status
 7,04/05/2026,12:00,FK Bodø/Glimt,Molde FK,,
 8,08/05/2026,12:00,Hamarkameratene,Vålerenga IF,,
 8,09/05/2026,07:00,Sarpsborg 08,Fredrikstad FK,,
-8,10/05/2026,07:30,IK Start,FK Bodø/Glimt,,
-8,10/05/2026,10:00,Aalesunds FK,SK Brann,,
-8,10/05/2026,10:00,Rosenborg BK,Lillestrøm SK,,
+8,10/05/2026,07:30,Rosenborg BK,Lillestrøm SK,,
 8,10/05/2026,10:00,KFUM Oslo,Viking FK,,
 8,10/05/2026,10:00,Sandefjord Fotball,Kristiansund BK,,
-8,10/05/2026,12:15,Tromsø IL,Molde FK,,
+8,10/05/2026,10:00,Tromsø IL,Molde FK,,
+8,20/05/2026,10:00,IK Start,FK Bodø/Glimt,,
+8,20/05/2026,12:15,Aalesunds FK,SK Brann,,
 9,16/05/2026,07:00,SK Brann,KFUM Oslo,,
 9,16/05/2026,09:00,Fredrikstad FK,Hamarkameratene,,
 9,16/05/2026,09:00,Lillestrøm SK,Sandefjord Fotball,,
@@ -71,10 +71,10 @@ matchday,date,time,home_team,away_team,result,status
 9,16/05/2026,09:00,Viking FK,IK Start,,
 9,16/05/2026,11:00,FK Bodø/Glimt,Tromsø IL,,
 9,16/05/2026,13:00,Vålerenga IF,Sarpsborg 08,,
-10,24/05/2026,07:00,Hamarkameratene,Lillestrøm SK,,
-10,24/05/2026,09:00,FK Bodø/Glimt,SK Brann,,
-10,24/05/2026,11:00,Kristiansund BK,Viking FK,,
-10,25/05/2026,07:30,IK Start,Vålerenga IF,,
+10,24/05/2026,07:00,FK Bodø/Glimt,SK Brann,,
+10,24/05/2026,09:00,Kristiansund BK,Viking FK,,
+10,25/05/2026,11:00,IK Start,Vålerenga IF,,
+10,25/05/2026,07:30,Hamarkameratene,Lillestrøm SK,,
 10,25/05/2026,10:00,KFUM Oslo,Rosenborg BK,,
 10,25/05/2026,10:00,Sarpsborg 08,Molde FK,,
 10,25/05/2026,10:00,Tromsø IL,Aalesunds FK,,
@@ -83,10 +83,10 @@ matchday,date,time,home_team,away_team,result,status
 11,29/05/2026,12:00,SK Brann,Sarpsborg 08,,
 11,29/05/2026,12:00,Fredrikstad FK,IK Start,,
 11,29/05/2026,12:00,KFUM Oslo,Tromsø IL,,
-11,29/05/2026,12:00,Lillestrøm SK,Viking FK,,
-11,29/05/2026,12:00,Molde FK,Sandefjord Fotball,,
 11,29/05/2026,12:00,Rosenborg BK,FK Bodø/Glimt,,
 11,29/05/2026,12:00,Vålerenga IF,Kristiansund BK,,
+11,30/05/2026,12:00,Lillestrøm SK,Viking FK,,
+11,30/05/2026,12:00,Molde FK,Sandefjord Fotball,,
 12,05/07/2026,10:00,FK Bodø/Glimt,Vålerenga IF,,
 12,05/07/2026,10:00,Hamarkameratene,Rosenborg BK,,
 12,05/07/2026,10:00,IK Start,Sandefjord Fotball,,
@@ -127,7 +127,7 @@ matchday,date,time,home_team,away_team,result,status
 16,02/08/2026,10:00,KFUM Oslo,Kristiansund BK,,
 16,02/08/2026,10:00,Molde FK,Sarpsborg 08,,
 16,02/08/2026,10:00,Vålerenga IF,Hamarkameratene,,
-17,29/04/2026,12:00,Tromsø IL,SK Brann,,
+17,29/04/2026,12:00,Tromsø IL,SK Brann,0-5,Final
 17,09/08/2026,10:00,Hamarkameratene,Aalesunds FK,,
 17,09/08/2026,10:00,IK Start,Fredrikstad FK,,
 17,09/08/2026,10:00,Kristiansund BK,Molde FK,,
@@ -135,7 +135,7 @@ matchday,date,time,home_team,away_team,result,status
 17,09/08/2026,10:00,Sandefjord Fotball,KFUM Oslo,,
 17,09/08/2026,10:00,Vålerenga IF,FK Bodø/Glimt,,
 17,09/08/2026,10:00,Viking FK,Sarpsborg 08,,
-18,30/04/2026,12:00,FK Bodø/Glimt,IK Start,,
+18,30/04/2026,12:00,FK Bodø/Glimt,IK Start,5-0,Final
 18,16/08/2026,10:00,Aalesunds FK,Vålerenga IF,,
 18,16/08/2026,10:00,SK Brann,Hamarkameratene,,
 18,16/08/2026,10:00,Fredrikstad FK,Kristiansund BK,,

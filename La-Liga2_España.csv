@@ -404,30 +404,30 @@ matchday,date,time,home_team,away_team,result,status
 37,26/04/2026,09:15,Mirandes,Cultural Leonesa,2-1,Final
 37,26/04/2026,11:30,Leganes,FC Andorra,0-4,Final
 37,26/04/2026,11:30,Huesca,Zaragoza,1-0,Final
-37,26/04/2026,14:00,AD Ceuta FC,Racing Santander,0-0,En vivo
-37,27/04/2026,13:30,Cadiz,Las Palmas,,
-38,01/05/2026,09:15,FC Andorra,Albacete,,
-38,01/05/2026,11:30,Deportivo La Coruna,Leganes,,
-38,01/05/2026,14:00,Zaragoza,Granada CF,,
-38,02/05/2026,09:15,Cultural Leonesa,Cadiz,,
-38,02/05/2026,11:30,Castellón,Cordoba,,
-38,02/05/2026,14:00,Eibar,Malaga,,
+37,26/04/2026,14:00,AD Ceuta FC,Racing Santander,0-0,Final
+37,27/04/2026,13:30,Cadiz,Las Palmas,1-2,Final
+38,01/05/2026,09:15,FC Andorra,Albacete,0-1,Final
+38,01/05/2026,11:30,Deportivo La Coruna,Leganes,2-1,Final
+38,01/05/2026,14:00,Zaragoza,Granada CF,0-1,Final
+38,02/05/2026,09:15,Cultural Leonesa,Cadiz,2-2,Final
+38,02/05/2026,11:30,Castellón,Cordoba,1-2,Final
+38,02/05/2026,14:00,Eibar,Malaga,2-4,Final
 38,03/05/2026,07:00,Racing Santander,Huesca,,
 38,03/05/2026,09:15,Sporting Gijon,AD Ceuta FC,,
 38,03/05/2026,11:30,Real Sociedad II,Burgos,,
 38,03/05/2026,14:00,Las Palmas,Valladolid,,
 38,04/05/2026,13:30,Almeria,Mirandes,,
-39,10/05/2026,11:00,Malaga,Sporting Gijon,,
-39,10/05/2026,11:00,Leganes,Racing Santander,,
-39,10/05/2026,11:00,Cordoba,Granada CF,,
-39,10/05/2026,11:00,Valladolid,Zaragoza,,
-39,10/05/2026,11:00,Albacete,Cultural Leonesa,,
-39,10/05/2026,11:00,Cadiz,Deportivo La Coruna,,
-39,10/05/2026,11:00,Huesca,Real Sociedad II,,
-39,10/05/2026,11:00,Mirandes,Eibar,,
-39,10/05/2026,11:00,FC Andorra,Las Palmas,,
-39,10/05/2026,11:00,Burgos,Almeria,,
-39,10/05/2026,11:00,AD Ceuta FC,Castellón,,
+39,08/05/2026,13:30,Cadiz,Deportivo La Coruna,,
+39,09/05/2026,07:00,AD Ceuta FC,Castellón,,
+39,09/05/2026,09:15,Albacete,Cultural Leonesa,,
+39,09/05/2026,09:15,Burgos,Almeria,,
+39,09/05/2026,11:30,Valladolid,Zaragoza,,
+39,09/05/2026,14:00,Malaga,Sporting Gijon,,
+39,10/05/2026,07:00,FC Andorra,Las Palmas,,
+39,10/05/2026,09:15,Leganes,Racing Santander,,
+39,10/05/2026,11:30,Cordoba,Granada CF,,
+39,10/05/2026,11:30,Mirandes,Eibar,,
+39,11/05/2026,13:30,Huesca,Real Sociedad II,,
 40,17/05/2026,11:00,Leganes,Huesca,,
 40,17/05/2026,11:00,Deportivo La Coruna,FC Andorra,,
 40,17/05/2026,11:00,Cordoba,Albacete,,

@@ -268,10 +268,10 @@ matchday,date,time,home_team,away_team,result,status
 30,26/04/2026,05:15,Wisła Płock,Radomiak Radom,0-1,Final
 30,26/04/2026,07:45,Widzew Łódź,Motor Lublin,2-0,Final
 30,26/04/2026,10:30,Lech Poznań,Legia Warszawa,4-0,Final
-30,27/04/2026,12:00,Piast Gliwice,Arka Gdynia,,
-31,01/05/2026,10:30,Korona Kielce,Piast Gliwice,,
-31,01/05/2026,13:30,Legia Warszawa,Widzew Łódź,,
-31,02/05/2026,13:15,Motor Lublin,Lech Poznań,,
+30,27/04/2026,12:00,Piast Gliwice,Arka Gdynia,4-1,Final
+31,01/05/2026,10:30,Korona Kielce,Piast Gliwice,1-1,Final
+31,01/05/2026,13:30,Legia Warszawa,Widzew Łódź,1-0,Final
+31,02/05/2026,13:15,Motor Lublin,Lech Poznań,0-1,Final
 31,03/05/2026,05:15,GKS Katowice,Bruk-Bet Termalica Nieciecza,,
 31,03/05/2026,07:45,Zagłębie Lubin,KS Cracovia,,
 31,03/05/2026,10:30,Pogoń Szczecin,Wisła Płock,,

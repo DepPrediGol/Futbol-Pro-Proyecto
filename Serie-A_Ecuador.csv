@@ -81,34 +81,34 @@ matchday,date,time,home_team,away_team,result,status
 10,24/04/2026,19:00,Universidad Católica,Macará,4-0,Final
 11,25/04/2026,11:45,Mushuc Runa,Deportivo Cuenca,4-1,Final
 11,25/04/2026,14:10,Independiente del Valle,Leones del Norte,2-1,Final
-11,25/04/2026,17:00,Emelec,LDU Quito,1-0,Final
+11,26/04/2026,17:00,Emelec,LDU Quito,1-0,Final
 11,26/04/2026,13:00,Macará,Libertad de Loja,3-0,Final
 11,26/04/2026,15:30,Guayaquil City,Técnico Universitario,1-0,Final
-11,26/04/2026,18:10,Orense SC,Barcelona,1-1,Final
-11,27/04/2026,16:30,Manta,Universidad Católica,,
-11,27/04/2026,19:00,Aucas,Delfín SC,,
-12,01/05/2026,16:30,Universidad Católica,Independiente del Valle,,
-12,02/05/2026,19:00,Libertad de Loja,Aucas,,
-12,02/05/2026,14:00,Deportivo Cuenca,Técnico Universitario,,
-12,02/05/2026,16:30,LDU Quito,Guayaquil City,,
-12,03/05/2026,19:00,Barcelona,Manta,,
+11,27/04/2026,18:10,Orense SC,Barcelona,1-1,Final
+11,27/04/2026,16:30,Manta,Universidad Católica,1-0,Final
+11,28/04/2026,19:00,Aucas,Delfín SC,1-0,Final
+12,01/05/2026,16:30,Universidad Católica,Independiente del Valle,2-3,Final
+12,02/05/2026,19:00,Libertad de Loja,Aucas,3-2,Final
+12,02/05/2026,14:00,Deportivo Cuenca,Técnico Universitario,2-1,Final
+12,02/05/2026,16:30,LDU Quito,Guayaquil City,1-0,Final
+12,03/05/2026,19:00,Barcelona,Manta,1-1,Final
 12,03/05/2026,13:00,Macará,Orense SC,,
 12,03/05/2026,15:30,Delfín SC,Mushuc Runa,,
 12,04/05/2026,18:10,Leones del Norte,Emelec,,
 13,09/05/2026,19:00,Orense SC,Leones del Norte,,
 13,09/05/2026,13:30,Técnico Universitario,Delfín SC,,
 13,09/05/2026,16:00,Guayaquil City,Deportivo Cuenca,,
-13,10/05/2026,19:00,Independiente del Valle,Barcelona,,
-13,10/05/2026,13:00,Aucas,Universidad Católica,,
+13,09/05/2026,19:00,Aucas,Universidad Católica,,
+13,10/05/2026,13:00,Independiente del Valle,Barcelona,,
 13,10/05/2026,15:30,Emelec,Libertad de Loja,,
 13,11/05/2026,18:10,Manta,Macará,,
 13,12/05/2026,19:00,Mushuc Runa,LDU Quito,,
 14,15/05/2026,19:00,LDU Quito,Técnico Universitario,,
 14,16/05/2026,14:00,Libertad de Loja,Deportivo Cuenca,,
 14,16/05/2026,16:30,Macará,Independiente del Valle,,
-14,17/05/2026,19:00,Barcelona,Aucas,,
-14,17/05/2026,13:00,Leones del Norte,Mushuc Runa,,
-14,17/05/2026,15:30,Universidad Católica,Delfín SC,,
+14,16/05/2026,19:00,Universidad Católica,Delfín SC,,
+14,17/05/2026,13:00,Barcelona,Aucas,,
+14,17/05/2026,15:30,Leones del Norte,Mushuc Runa,,
 14,18/05/2026,18:10,Manta,Emelec,,
 14,19/05/2026,19:00,Guayaquil City,Orense SC,,
 15,23/05/2026,19:00,Independiente del Valle,Libertad de Loja,,

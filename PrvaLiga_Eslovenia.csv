@@ -158,10 +158,10 @@ matchday,date,time,home_team,away_team,result,status
 32,25/04/2026,10:00,FC Koper,Olimpija Ljubljana,3-2,Final
 32,26/04/2026,10:00,ND Primorje,NK Radomlje,2-3,Final
 32,26/04/2026,10:00,NK Celje,NK Aluminij,5-0,Final
-32,26/04/2026,10:00,NK Bravo,En vivo,2-0,Final
+32,26/04/2026,10:00,NK Bravo,NK Maribor,3-0,Final
 33,02/05/2026,10:00,NK Aluminij,NK Domžale,,
-33,02/05/2026,10:00,Olimpija Ljubljana,ND Primorje,,
-33,02/05/2026,10:00,NK Celje,NK Bravo,,
+33,02/05/2026,10:00,Olimpija Ljubljana,ND Primorje,3-0,Final
+33,02/05/2026,10:00,NK Celje,NK Bravo,2-3,Final
 33,03/05/2026,10:00,NŠ Mura,FC Koper,,
 33,03/05/2026,10:00,NK Radomlje,NK Maribor,,
 34,09/05/2026,10:00,NK Domžale,NK Celje,,
@@ -174,8 +174,8 @@ matchday,date,time,home_team,away_team,result,status
 35,16/05/2026,10:00,NK Aluminij,ND Primorje,,
 35,17/05/2026,10:00,NŠ Mura,NK Maribor,,
 35,17/05/2026,10:00,Olimpija Ljubljana,NK Radomlje,,
+36,23/05/2026,10:00,FC Koper,NK Domžale,,
 36,23/05/2026,10:00,NK Bravo,Olimpija Ljubljana,,
 36,23/05/2026,10:00,NK Radomlje,NŠ Mura,,
 36,23/05/2026,10:00,NK Maribor,NK Aluminij,,
 36,23/05/2026,10:00,ND Primorje,NK Celje,,
-36,23/05/2026,10:00,FC Koper,NK Domžale,,

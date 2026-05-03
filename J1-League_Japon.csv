@@ -118,22 +118,22 @@ matchday,date,time,home_team,away_team,result,status
 12,25/04/2026,01:00,Kawasaki Frontale,JEF United Chiba,2-1,Final
 12,25/04/2026,02:00,Sanfrecce Hiroshima,Cerezo Osaka,2-1,Final
 12,25/04/2026,04:30,V-varen Nagasaki,Gamba Osaka,1-1,Final
-13,28/04/2026,23:00,Shimizu S-pulse,V-varen Nagasaki,,
-13,28/04/2026,23:00,Tokyo Verdy,Kashima,,
-13,29/04/2026,00:00,Vissel Kobe,Cerezo Osaka,,
-13,29/04/2026,00:00,JEF United Chiba,Yokohama F. Marinos,,
-13,29/04/2026,00:00,Avispa Fukuoka,Sanfrecce Hiroshima,,
-13,29/04/2026,01:00,Urawa,Kawasaki Frontale,,
-13,29/04/2026,01:00,Nagoya Grampus,Fagiano Okayama,,
-13,29/04/2026,01:00,Kyoto Sanga,Gamba Osaka,,
-13,29/04/2026,02:00,Kashiwa Reysol,FC Tokyo,,
-13,29/04/2026,02:00,Mito Hollyhock,Machida Zelvia,,
-14,01/05/2026,22:55,Fagiano Okayama,Sanfrecce Hiroshima,,
-14,02/05/2026,00:00,FC Tokyo,Kawasaki Frontale,,
-14,02/05/2026,00:00,Yokohama F. Marinos,Mito Hollyhock,,
-14,02/05/2026,00:00,Kyoto Sanga,Shimizu S-pulse,,
-14,02/05/2026,01:00,Gamba Osaka,Vissel Kobe,,
-14,02/05/2026,02:00,Urawa,JEF United Chiba,,
+13,28/04/2026,23:00,Shimizu S-pulse,V-varen Nagasaki,1-2,Final
+13,28/04/2026,23:00,Tokyo Verdy,Kashima,2-1,Final
+13,29/04/2026,00:00,Vissel Kobe,Cerezo Osaka,0-0,Final
+13,29/04/2026,00:00,JEF United Chiba,Yokohama F. Marinos,2-3,Final
+13,29/04/2026,00:00,Avispa Fukuoka,Sanfrecce Hiroshima,2-2,Final
+13,29/04/2026,01:00,Urawa,Kawasaki Frontale,2-0,Final
+13,29/04/2026,01:00,Nagoya Grampus,Fagiano Okayama,1-1,Final
+13,29/04/2026,01:00,Kyoto Sanga,Gamba Osaka,1-1,Final
+13,29/04/2026,02:00,Kashiwa Reysol,FC Tokyo,1-3,Final
+13,29/04/2026,02:00,Mito Hollyhock,Machida Zelvia,2-2,Final
+14,01/05/2026,23:00,Fagiano Okayama,Sanfrecce Hiroshima,1-0,Final
+14,02/05/2026,00:00,FC Tokyo,Kawasaki Frontale,2-0,Final
+14,02/05/2026,00:00,Yokohama F. Marinos,Mito Hollyhock,1-1,Final
+14,02/05/2026,00:00,Kyoto Sanga,Shimizu S-pulse,1-2,Final
+14,02/05/2026,01:00,Gamba Osaka,Vissel Kobe,5-0,Final
+14,02/05/2026,02:00,Urawa,JEF United Chiba,2-0,Final
 14,03/05/2026,00:00,Tokyo Verdy,Kashiwa Reysol,,
 14,03/05/2026,01:00,Cerezo Osaka,Avispa Fukuoka,,
 14,03/05/2026,02:00,Kashima,Machida Zelvia,,

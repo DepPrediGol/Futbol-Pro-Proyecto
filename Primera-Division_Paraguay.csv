@@ -107,12 +107,12 @@ matchday,date,time,home_team,away_team,result,status
 18,26/04/2026,12:00,Libertad,Club Olimpia,3-2,Final
 18,26/04/2026,12:00,2 de Mayo,Guaraní,2-2,Final
 18,27/04/2026,12:00,San Lorenzo,Club Rubio Ñu,0-1,Final
-19,01/05/2026,15:45,Sportivo Trinidense,2 de Mayo,,
-19,01/05/2026,18:00,Libertad,San Lorenzo,,
-19,02/05/2026,15:45,Deportivo Recoleta,Cerro Porteño,,
-19,02/05/2026,18:00,Club Rubio Ñu,Sportivo Luqueño,,
-19,03/05/2026,15:45,Club Olimpia,Sportivo Ameliano,,
-19,03/05/2026,18:00,Guaraní,Club Nacional,,
+19,01/05/2026,15:45,Sportivo Trinidense,2 de Mayo,1-2,Final
+19,02/05/2026,18:00,Libertad,San Lorenzo,5-0,Final
+19,03/05/2026,15:45,Club Rubio Ñu,Sportivo Luqueño,0-0,Final
+19,03/05/2026,18:00,Club Olimpia,Sportivo Ameliano,,
+19,03/05/2026,15:45,Deportivo Recoleta,Cerro Porteño,,
+19,04/05/2026,18:00,Guaraní,Club Nacional,,
 20,16/05/2026,12:00,San Lorenzo,Club Olimpia,,
 20,16/05/2026,12:00,Sportivo Luqueño,Libertad,,
 20,16/05/2026,12:00,2 de Mayo,Club Rubio Ñu,,

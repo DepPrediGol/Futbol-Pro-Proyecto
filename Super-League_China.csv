@@ -1,0 +1,241 @@
+matchday,date,time,home_team,away_team,result,status
+1,06/03/2026,06:35,Chengdu Rongcheng,Shenzhen Peng City,5-1,Final
+1,07/03/2026,06:35,Shandong Taishan,Liaoning Tieren,3-0,Final
+1,07/03/2026,06:35,Tianjin Jinmen Tiger,Chongqing Tonglianglong,0-0,Final
+1,07/03/2026,07:00,Shanghai Shenhua,Dalian Yingbo,5-3,Final
+1,07/03/2026,06:35,Shanghai Port FC,Henan FC,1-2,Final
+1,07/03/2026,06:35,Yunnan Yukun,Qingdao Hainiu,3-1,Final
+1,08/03/2026,06:35,Zhejiang Professional,Qingdao West Coast,2-0,Final
+1,08/03/2026,07:00,Wuhan Three Towns,Beijing Guoan,0-2,Final
+2,13/03/2026,06:35,Wuhan Three Towns,Dalian Yingbo,4-1,Final
+2,14/03/2026,06:35,Shandong Taishan,Beijing Guoan,2-1,Final
+2,14/03/2026,06:35,Zhejiang Professional,Shanghai Shenhua,1-1,Final
+2,14/03/2026,07:00,Chongqing Tonglianglong,Liaoning Tieren,1-0,Final
+2,14/03/2026,06:35,Shenzhen Peng City,Tianjin Jinmen Tiger,1-0,Final
+2,15/03/2026,06:35,Henan FC,Yunnan Yukun,2-1,Final
+2,15/03/2026,06:35,Shanghai Port FC,Qingdao West Coast,4-1,Final
+2,15/03/2026,07:00,Chengdu Rongcheng,Qingdao Hainiu,1-0,Final
+3,20/03/2026,06:35,Dalian Yingbo,Shanghai Port FC,1-0,Final
+3,20/03/2026,06:35,Qingdao Hainiu,Zhejiang Professional,1-4,Final
+3,21/03/2026,06:35,Beijing Guoan,Shanghai Shenhua,1-1,Final
+3,21/03/2026,07:00,Liaoning Tieren,Tianjin Jinmen Tiger,3-0,Final
+3,21/03/2026,06:35,Henan FC,Wuhan Three Towns,1-1,Final
+3,21/03/2026,06:35,Chongqing Tonglianglong,Chengdu Rongcheng,3-3,Final
+3,21/03/2026,06:35,Qingdao West Coast,Shenzhen Peng City,1-0,Final
+3,21/03/2026,07:00,Yunnan Yukun,Shandong Taishan,4-0,Final
+4,03/04/2026,06:35,Chengdu Rongcheng,Qingdao West Coast,5-1,Final
+4,04/04/2026,06:35,Liaoning Tieren,Beijing Guoan,2-1,Final
+4,04/04/2026,06:35,Qingdao Hainiu,Henan FC,1-0,Final
+4,04/04/2026,07:00,Shandong Taishan,Dalian Yingbo,1-2,Final
+4,04/04/2026,06:35,Shanghai Port FC,Yunnan Yukun,2-1,Final
+4,05/04/2026,06:35,Zhejiang Professional,Chongqing Tonglianglong,0-1,Final
+4,05/04/2026,06:35,Shenzhen Peng City,Wuhan Three Towns,5-2,Final
+4,05/04/2026,07:00,Tianjin Jinmen Tiger,Shanghai Shenhua,2-3,Final
+5,10/04/2026,06:35,Dalian Yingbo,Zhejiang Professional,3-0,Final
+5,11/04/2026,06:35,Chongqing Tonglianglong,Wuhan Three Towns,2-1,Final
+5,11/04/2026,06:35,Qingdao West Coast,Liaoning Tieren,1-1,Final
+5,11/04/2026,07:00,Henan FC,Shandong Taishan,0-1,Final
+5,11/04/2026,06:35,Shanghai Shenhua,Shanghai Port FC,1-0,Final
+5,12/04/2026,06:35,Tianjin Jinmen Tiger,Qingdao Hainiu,1-1,Final
+5,12/04/2026,06:35,Beijing Guoan,Chengdu Rongcheng,1-2,Final
+5,12/04/2026,07:00,Shenzhen Peng City,Yunnan Yukun,3-4,Final
+6,17/04/2026,06:35,Qingdao Hainiu,Qingdao West Coast,0-0,Final
+6,17/04/2026,06:35,Chongqing Tonglianglong,Shenzhen Peng City,2-0,Final
+6,17/04/2026,06:35,Shandong Taishan,Shanghai Port FC,1-1,Final
+6,17/04/2026,07:00,Wuhan Three Towns,Chengdu Rongcheng,0-1,Final
+6,17/04/2026,06:35,Yunnan Yukun,Tianjin Jinmen Tiger,0-3,Final
+6,17/04/2026,06:35,Zhejiang Professional,Beijing Guoan,0-0,Final
+6,18/04/2026,06:35,Dalian Yingbo,Henan FC,2-1,Final
+6,18/04/2026,07:00,Shanghai Shenhua,Liaoning Tieren,3-1,Final
+7,21/04/2026,06:35,Shenzhen Peng City,Beijing Guoan,0-1,Final
+7,21/04/2026,06:35,Chengdu Rongcheng,Yunnan Yukun,2-1,Final
+7,21/04/2026,06:35,Wuhan Three Towns,Zhejiang Professional,2-0,Final
+7,21/04/2026,07:00,Shanghai Port FC,Chongqing Tonglianglong,1-2,Final
+7,21/04/2026,06:35,Tianjin Jinmen Tiger,Shandong Taishan,1-2,Final
+7,22/04/2026,06:35,Liaoning Tieren,Dalian Yingbo,0-1,Final
+7,22/04/2026,06:35,Qingdao West Coast,Henan FC,0-0,Final
+7,22/04/2026,07:00,Shanghai Shenhua,Qingdao Hainiu,2-0,Final
+8,25/04/2026,06:35,Chengdu Rongcheng,Zhejiang Professional,4-0,Final
+8,25/04/2026,06:35,Beijing Guoan,Tianjin Jinmen Tiger,2-4,Final
+8,25/04/2026,06:35,Shanghai Port FC,Wuhan Three Towns,4-0,Final
+8,26/04/2026,07:00,Chongqing Tonglianglong,Qingdao West Coast,1-1,Final
+8,26/04/2026,06:35,Shenzhen Peng City,Liaoning Tieren,1-0,Final
+8,26/04/2026,06:35,Dalian Yingbo,Yunnan Yukun,1-3,Final
+8,26/04/2026,06:35,Qingdao Hainiu,Shandong Taishan,4-1,Final
+8,26/04/2026,07:00,Henan FC,Shanghai Shenhua,0-3,Final
+9,01/05/2026,06:35,Dalian Yingbo,Chongqing Tonglianglong,1-0,Final
+9,01/05/2026,06:35,Henan FC,Liaoning Tieren,4-0,Final
+9,01/05/2026,06:35,Shandong Taishan,Qingdao West Coast,1-1,Final
+9,01/05/2026,07:00,Tianjin Jinmen Tiger,Wuhan Three Towns,2-2,Final
+9,01/05/2026,06:35,Shanghai Shenhua,Chengdu Rongcheng,2-3,Final
+9,02/05/2026,06:35,Qingdao Hainiu,Shanghai Port FC,3-1,Final
+9,02/05/2026,06:35,Zhejiang Professional,Shenzhen Peng City,2-1,Final
+9,02/05/2026,07:00,Yunnan Yukun,Beijing Guoan,3-3,Final
+10,05/05/2026,06:00,Qingdao West Coast,Tianjin Jinmen Tiger,,
+10,05/05/2026,06:35,Liaoning Tieren,Chengdu Rongcheng,,
+10,05/05/2026,06:35,Shandong Taishan,Shanghai Shenhua,,
+10,05/05/2026,07:00,Chongqing Tonglianglong,Henan FC,,
+10,06/05/2026,06:00,Wuhan Three Towns,Qingdao Hainiu,,
+10,06/05/2026,06:35,Beijing Guoan,Dalian Yingbo,,
+10,06/05/2026,06:35,Shanghai Port FC,Shenzhen Peng City,,
+10,06/05/2026,07:00,Yunnan Yukun,Zhejiang Professional,,
+11,09/05/2026,06:35,Shanghai Shenhua,Chongqing Tonglianglong,,
+11,09/05/2026,07:00,Chengdu Rongcheng,Henan FC,,
+11,10/05/2026,04:30,Qingdao West Coast,Wuhan Three Towns,,
+11,10/05/2026,06:00,Liaoning Tieren,Yunnan Yukun,,
+11,10/05/2026,07:00,Qingdao Hainiu,Dalian Yingbo,,
+11,10/05/2026,06:35,Beijing Guoan,Shanghai Port FC,,
+11,10/05/2026,06:35,Zhejiang Professional,Tianjin Jinmen Tiger,,
+11,10/05/2026,05:00,Shenzhen Peng City,Shandong Taishan,,
+12,15/05/2026,06:35,Henan FC,Shenzhen Peng City,,
+12,15/05/2026,06:35,Shanghai Port FC,Zhejiang Professional,,
+12,15/05/2026,06:35,Tianjin Jinmen Tiger,Chengdu Rongcheng,,
+12,15/05/2026,07:00,Beijing Guoan,Qingdao Hainiu,,
+12,15/05/2026,07:00,Dalian Yingbo,Qingdao West Coast,,
+12,16/05/2026,06:35,Wuhan Three Towns,Liaoning Tieren,,
+12,16/05/2026,06:35,Shandong Taishan,Chongqing Tonglianglong,,
+12,16/05/2026,06:35,Yunnan Yukun,Shanghai Shenhua,,
+13,19/05/2026,07:00,Shenzhen Peng City,Dalian Yingbo,,
+13,19/05/2026,06:35,Tianjin Jinmen Tiger,Henan FC,,
+13,19/05/2026,06:35,Chengdu Rongcheng,Shanghai Port FC,,
+13,19/05/2026,06:35,Qingdao West Coast,Beijing Guoan,,
+13,20/05/2026,07:00,Liaoning Tieren,Qingdao Hainiu,,
+13,20/05/2026,06:35,Shanghai Shenhua,Wuhan Three Towns,,
+13,20/05/2026,06:35,Chongqing Tonglianglong,Yunnan Yukun,,
+13,20/05/2026,06:35,Zhejiang Professional,Shandong Taishan,,
+14,23/05/2026,07:00,Shanghai Port FC,Tianjin Jinmen Tiger,,
+14,23/05/2026,06:35,Beijing Guoan,Henan FC,,
+14,23/05/2026,06:35,Dalian Yingbo,Chengdu Rongcheng,,
+14,24/05/2026,06:35,Qingdao Hainiu,Chongqing Tonglianglong,,
+14,24/05/2026,07:00,Yunnan Yukun,Qingdao West Coast,,
+14,24/05/2026,06:35,Shandong Taishan,Wuhan Three Towns,,
+14,24/05/2026,06:35,Zhejiang Professional,Liaoning Tieren,,
+14,24/05/2026,06:35,Shanghai Shenhua,Shenzhen Peng City,,
+15,29/05/2026,07:00,Liaoning Tieren,Shanghai Port FC,,
+15,30/05/2026,06:35,Henan FC,Zhejiang Professional,,
+15,30/05/2026,06:35,Chengdu Rongcheng,Shandong Taishan,,
+15,30/05/2026,06:35,Qingdao West Coast,Shanghai Shenhua,,
+15,30/05/2026,07:00,Chongqing Tonglianglong,Beijing Guoan,,
+15,30/05/2026,06:35,Shenzhen Peng City,Qingdao Hainiu,,
+15,31/05/2026,06:35,Tianjin Jinmen Tiger,Dalian Yingbo,,
+15,31/05/2026,06:35,Wuhan Three Towns,Yunnan Yukun,,
+16,26/06/2026,07:00,Qingdao Hainiu,Yunnan Yukun,,
+16,27/06/2026,06:35,Liaoning Tieren,Shandong Taishan,,
+16,27/06/2026,06:35,Henan FC,Shanghai Port FC,,
+16,27/06/2026,06:35,Shenzhen Peng City,Chengdu Rongcheng,,
+16,27/06/2026,07:00,Beijing Guoan,Wuhan Three Towns,,
+16,27/06/2026,06:35,Chongqing Tonglianglong,Tianjin Jinmen Tiger,,
+16,28/06/2026,06:35,Qingdao West Coast,Zhejiang Professional,,
+16,28/06/2026,06:35,Dalian Yingbo,Shanghai Shenhua,,
+17,03/07/2026,07:00,Yunnan Yukun,Henan FC,,
+17,04/07/2026,06:35,Liaoning Tieren,Chongqing Tonglianglong,,
+17,04/07/2026,06:35,Qingdao West Coast,Shanghai Port FC,,
+17,04/07/2026,06:35,Beijing Guoan,Shandong Taishan,,
+17,04/07/2026,07:00,Dalian Yingbo,Wuhan Three Towns,,
+17,04/07/2026,06:35,Tianjin Jinmen Tiger,Shenzhen Peng City,,
+17,05/07/2026,06:35,Qingdao Hainiu,Chengdu Rongcheng,,
+17,05/07/2026,06:35,Shanghai Shenhua,Zhejiang Professional,,
+18,10/07/2026,07:00,Shandong Taishan,Yunnan Yukun,,
+18,11/07/2026,06:35,Wuhan Three Towns,Henan FC,,
+18,11/07/2026,06:35,Zhejiang Professional,Qingdao Hainiu,,
+18,11/07/2026,06:35,Shanghai Shenhua,Beijing Guoan,,
+18,11/07/2026,07:00,Shenzhen Peng City,Qingdao West Coast,,
+18,11/07/2026,06:35,Chengdu Rongcheng,Chongqing Tonglianglong,,
+18,12/07/2026,06:35,Tianjin Jinmen Tiger,Liaoning Tieren,,
+18,12/07/2026,06:35,Shanghai Port FC,Dalian Yingbo,,
+19,17/07/2026,07:00,Beijing Guoan,Liaoning Tieren,,
+19,17/07/2026,06:35,Henan FC,Qingdao Hainiu,,
+19,17/07/2026,06:35,Yunnan Yukun,Shanghai Port FC,,
+19,18/07/2026,06:35,Chongqing Tonglianglong,Zhejiang Professional,,
+19,18/07/2026,07:00,Qingdao West Coast,Chengdu Rongcheng,,
+19,18/07/2026,06:35,Dalian Yingbo,Shandong Taishan,,
+19,18/07/2026,06:35,Shanghai Shenhua,Tianjin Jinmen Tiger,,
+19,18/07/2026,06:35,Wuhan Three Towns,Shenzhen Peng City,,
+20,25/07/2026,07:00,Qingdao Hainiu,Tianjin Jinmen Tiger,,
+20,25/07/2026,06:35,Liaoning Tieren,Qingdao West Coast,,
+20,25/07/2026,06:35,Shanghai Port FC,Shanghai Shenhua,,
+20,25/07/2026,06:35,Wuhan Three Towns,Chongqing Tonglianglong,,
+20,26/07/2026,07:00,Yunnan Yukun,Shenzhen Peng City,,
+20,26/07/2026,06:35,Chengdu Rongcheng,Beijing Guoan,,
+20,26/07/2026,06:35,Shandong Taishan,Henan FC,,
+20,26/07/2026,06:35,Zhejiang Professional,Dalian Yingbo,,
+21,31/07/2026,07:00,Henan FC,Dalian Yingbo,,
+21,01/08/2026,06:35,Tianjin Jinmen Tiger,Yunnan Yukun,,
+21,01/08/2026,06:35,Beijing Guoan,Zhejiang Professional,,
+21,01/08/2026,06:35,Shanghai Port FC,Shandong Taishan,,
+21,01/08/2026,07:00,Chengdu Rongcheng,Wuhan Three Towns,,
+21,01/08/2026,06:35,Shenzhen Peng City,Chongqing Tonglianglong,,
+21,02/08/2026,06:35,Qingdao West Coast,Qingdao Hainiu,,
+21,02/08/2026,06:35,Liaoning Tieren,Shanghai Shenhua,,
+22,07/08/2026,07:00,Beijing Guoan,Shenzhen Peng City,,
+22,08/08/2026,06:35,Qingdao Hainiu,Shanghai Shenhua,,
+22,08/08/2026,06:35,Dalian Yingbo,Liaoning Tieren,,
+22,08/08/2026,06:35,Zhejiang Professional,Wuhan Three Towns,,
+22,08/08/2026,07:00,Yunnan Yukun,Chengdu Rongcheng,,
+22,09/08/2026,06:35,Henan FC,Qingdao West Coast,,
+22,09/08/2026,06:35,Chongqing Tonglianglong,Shanghai Port FC,,
+22,09/08/2026,06:35,Shandong Taishan,Tianjin Jinmen Tiger,,
+23,14/08/2026,07:00,Shandong Taishan,Qingdao Hainiu,,
+23,14/08/2026,06:35,Wuhan Three Towns,Shanghai Port FC,,
+23,14/08/2026,06:35,Qingdao West Coast,Chongqing Tonglianglong,,
+23,15/08/2026,06:35,Liaoning Tieren,Shenzhen Peng City,,
+23,15/08/2026,07:00,Tianjin Jinmen Tiger,Beijing Guoan,,
+23,15/08/2026,06:35,Zhejiang Professional,Chengdu Rongcheng,,
+23,15/08/2026,06:35,Shanghai Shenhua,Henan FC,,
+23,15/08/2026,06:35,Yunnan Yukun,Dalian Yingbo,,
+24,22/08/2026,07:00,Wuhan Three Towns,Tianjin Jinmen Tiger,,
+24,22/08/2026,06:35,Chengdu Rongcheng,Shanghai Shenhua,,
+24,22/08/2026,06:35,Shenzhen Peng City,Zhejiang Professional,,
+24,22/08/2026,06:35,Beijing Guoan,Yunnan Yukun,,
+24,22/08/2026,07:00,Qingdao West Coast,Shandong Taishan,,
+24,23/08/2026,06:35,Liaoning Tieren,Henan FC,,
+24,23/08/2026,06:35,Shanghai Port FC,Qingdao Hainiu,,
+24,23/08/2026,06:35,Chongqing Tonglianglong,Dalian Yingbo,,
+25,28/08/2026,07:00,Dalian Yingbo,Beijing Guoan,,
+25,28/08/2026,06:35,Shenzhen Peng City,Shanghai Port FC,,
+25,29/08/2026,06:35,Tianjin Jinmen Tiger,Qingdao West Coast,,
+25,29/08/2026,06:35,Zhejiang Professional,Yunnan Yukun,,
+25,29/08/2026,07:00,Chengdu Rongcheng,Liaoning Tieren,,
+25,29/08/2026,06:35,Shanghai Shenhua,Shandong Taishan,,
+25,29/08/2026,06:35,Henan FC,Chongqing Tonglianglong,,
+25,29/08/2026,06:35,Qingdao Hainiu,Wuhan Three Towns,,
+26,05/09/2026,07:00,Wuhan Three Towns,Qingdao West Coast,,
+26,05/09/2026,06:35,Dalian Yingbo,Qingdao Hainiu,,
+26,05/09/2026,06:35,Shanghai Port FC,Beijing Guoan,,
+26,05/09/2026,06:35,Shandong Taishan,Shenzhen Peng City,,
+26,06/09/2026,07:00,Chongqing Tonglianglong,Shanghai Shenhua,,
+26,06/09/2026,06:35,Henan FC,Chengdu Rongcheng,,
+26,06/09/2026,06:35,Yunnan Yukun,Liaoning Tieren,,
+26,06/09/2026,06:35,Tianjin Jinmen Tiger,Zhejiang Professional,,
+27,09/10/2026,07:00,Shenzhen Peng City,Henan FC,,
+27,09/10/2026,06:35,Zhejiang Professional,Shanghai Port FC,,
+27,10/10/2026,06:35,Chengdu Rongcheng,Tianjin Jinmen Tiger,,
+27,10/10/2026,06:35,Shanghai Shenhua,Yunnan Yukun,,
+27,10/10/2026,07:00,Qingdao Hainiu,Beijing Guoan,,
+27,11/10/2026,06:35,Qingdao West Coast,Dalian Yingbo,,
+27,11/10/2026,06:35,Chongqing Tonglianglong,Shandong Taishan,,
+27,11/10/2026,06:35,Liaoning Tieren,Wuhan Three Towns,,
+28,16/10/2026,07:00,Henan FC,Tianjin Jinmen Tiger,,
+28,17/10/2026,06:35,Dalian Yingbo,Shenzhen Peng City,,
+28,17/10/2026,06:35,Qingdao Hainiu,Liaoning Tieren,,
+28,17/10/2026,06:35,Yunnan Yukun,Chongqing Tonglianglong,,
+28,17/10/2026,07:00,Shandong Taishan,Zhejiang Professional,,
+28,18/10/2026,06:35,Wuhan Three Towns,Shanghai Shenhua,,
+28,18/10/2026,06:35,Beijing Guoan,Qingdao West Coast,,
+28,18/10/2026,06:35,Shanghai Port FC,Chengdu Rongcheng,,
+29,24/10/2026,07:00,Chengdu Rongcheng,Dalian Yingbo,,
+29,24/10/2026,06:35,Chongqing Tonglianglong,Qingdao Hainiu,,
+29,24/10/2026,06:35,Henan FC,Beijing Guoan,,
+29,24/10/2026,06:35,Liaoning Tieren,Zhejiang Professional,,
+29,24/10/2026,07:00,Qingdao West Coast,Yunnan Yukun,,
+29,24/10/2026,06:35,Shenzhen Peng City,Shanghai Shenhua,,
+29,24/10/2026,06:35,Tianjin Jinmen Tiger,Shanghai Port FC,,
+29,24/10/2026,06:35,Wuhan Three Towns,Shandong Taishan,,
+30,08/11/2026,07:00,Beijing Guoan,Chongqing Tonglianglong,,
+30,08/11/2026,06:35,Dalian Yingbo,Tianjin Jinmen Tiger,,
+30,08/11/2026,06:35,Qingdao Hainiu,Shenzhen Peng City,,
+30,08/11/2026,06:35,Shandong Taishan,Chengdu Rongcheng,,
+30,08/11/2026,07:00,Shanghai Port FC,Liaoning Tieren,,
+30,08/11/2026,06:35,Shanghai Shenhua,Qingdao West Coast,,
+30,08/11/2026,06:35,Yunnan Yukun,Wuhan Three Towns,,
+30,08/11/2026,06:35,Zhejiang Professional,Henan FC,,

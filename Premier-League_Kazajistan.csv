@@ -55,21 +55,21 @@ matchday,date,time,home_team,away_team,result,status
 7,26/04/2026,12:00,Tobyl Kostanay,Kaspiy Aktau,2-1,Final
 7,26/04/2026,12:00,FK Kairat,FK Yelimay,2-2,Final
 7,26/04/2026,12:00,FK Astana,FK Atyrau,2-1,Final
-8,02/05/2026,05:00,FK Kyzylzhar,FK Okzhetpes,,
-8,02/05/2026,07:00,Irtysh Pavlodar,FK Kairat,,
-8,02/05/2026,09:00,Kaysar Kyzylorda,Zhetysu Taldykorgan,,
+8,02/05/2026,05:00,FK Kyzylzhar,FK Okzhetpes,0-1,Final
+8,02/05/2026,07:00,Irtysh Pavlodar,FK Kairat,0-1,Final
+8,02/05/2026,09:00,Kaysar Kyzylorda,Zhetysu Taldykorgan,1-1,Final
 8,03/05/2026,05:00,FK Ulytau,FK Yelimay,,
 8,03/05/2026,06:00,Kaspiy Aktau,FK Astana,,
 8,03/05/2026,07:00,FK Atyrau,FK Altay VKO,,
 8,03/05/2026,08:00,FK Zhenis,Tobyl Kostanay,,
 8,03/05/2026,10:00,FK Ordabasy,FK Aktobe,,
-9,09/05/2026,05:00,FK Okzhetpes,FK Atyrau,,
+9,09/05/2026,05:00,FK Altay VKO,FK Ordabasy,,
+9,09/05/2026,06:00,FK Astana,FK Kyzylzhar,,
+9,09/05/2026,08:00,FK Aktobe,Kaysar Kyzylorda,,
+9,09/05/2026,10:00,FK Okzhetpes,FK Atyrau,,
 9,09/05/2026,06:00,Zhetysu Taldykorgan,FK Zhenis,,
 9,09/05/2026,08:00,FK Yelimay,Kaspiy Aktau,,
 9,09/05/2026,10:00,Tobyl Kostanay,Irtysh Pavlodar,,
-9,10/05/2026,06:00,FK Altay VKO,FK Ordabasy,,
-9,10/05/2026,08:00,FK Astana,FK Kyzylzhar,,
-9,10/05/2026,10:00,FK Aktobe,Kaysar Kyzylorda,,
 9,10/05/2026,10:00,FK Kairat,FK Ulytau,,
 10,16/05/2026,12:00,FK Atyrau,FK Aktobe,,
 10,16/05/2026,12:00,Irtysh Pavlodar,FK Yelimay,,
@@ -154,7 +154,7 @@ matchday,date,time,home_team,away_team,result,status
 20,01/08/2026,12:00,FK Atyrau,Zhetysu Taldykorgan,,
 20,01/08/2026,12:00,Irtysh Pavlodar,Kaspiy Aktau,,
 20,01/08/2026,12:00,FK Kyzylzhar,FK Aktobe,,
-20,06/05/2026,09:00,Kaysar Kyzylorda,FK Kairat,,
+20,01/08/2026,09:00,Kaysar Kyzylorda,FK Kairat,,
 20,01/08/2026,12:00,FK Okzhetpes,FK Altay VKO,,
 20,01/08/2026,12:00,FK Ordabasy,Tobyl Kostanay,,
 20,01/08/2026,12:00,FK Ulytau,FK Astana,,

@@ -158,22 +158,22 @@ matchday,date,time,home_team,away_team,result,status
 32,25/04/2026,11:30,NK Osijek,Lokomotiva Zagreb,0-0,Final
 32,26/04/2026,09:00,HNK Rijeka,Hajduk Split,0-0,Final
 32,26/04/2026,11:45,Dinamo Zagreb,NK Varaždin,2-1,Final
-32,27/04/2026,11:00,HNK Gorica,NK Istra 1961,,
-33,02/05/2026,10:00,HNK Gorica,Dinamo Zagreb,,
-33,02/05/2026,10:00,NK Vukovar 91,NK Osijek,,
+32,27/04/2026,11:00,HNK Gorica,NK Istra 1961,1-0,Final
+33,02/05/2026,10:00,HNK Gorica,Dinamo Zagreb,1-2,Final
+33,02/05/2026,10:00,NK Vukovar 91,NK Osijek,1-0,Final
 33,03/05/2026,10:00,Lokomotiva Zagreb,HNK Rijeka,,
 33,03/05/2026,10:00,Hajduk Split,NK Varaždin,,
 33,04/05/2026,10:00,NK Istra 1961,Slaven Belupo,,
-34,08/05/2026,10:00,NK Varaždin,Lokomotiva Zagreb,,
+34,08/05/2026,10:00,HNK Rijeka,NK Vukovar 91,,
 34,09/05/2026,10:00,Dinamo Zagreb,Hajduk Split,,
-34,09/05/2026,10:00,HNK Rijeka,NK Vukovar 91,,
+34,09/05/2026,10:00,NK Varaždin,Lokomotiva Zagreb,,
 34,10/05/2026,10:00,NK Osijek,NK Istra 1961,,
 34,10/05/2026,10:00,Slaven Belupo,HNK Gorica,,
+35,15/05/2026,10:00,NK Vukovar 91,NK Varaždin,,
 35,16/05/2026,10:00,HNK Gorica,NK Osijek,,
-35,16/05/2026,10:00,NK Istra 1961,HNK Rijeka,,
 35,16/05/2026,10:00,Lokomotiva Zagreb,Hajduk Split,,
-35,16/05/2026,10:00,Slaven Belupo,Dinamo Zagreb,,
-35,16/05/2026,10:00,NK Vukovar 91,NK Varaždin,,
+35,17/05/2026,10:00,Slaven Belupo,Dinamo Zagreb,,
+35,17/05/2026,10:00,NK Istra 1961,HNK Rijeka,,
 36,23/05/2026,10:00,Dinamo Zagreb,Lokomotiva Zagreb,,
 36,23/05/2026,10:00,Hajduk Split,NK Vukovar 91,,
 36,23/05/2026,10:00,HNK Rijeka,HNK Gorica,,

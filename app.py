@@ -5,12 +5,12 @@ import glob
 import math
 import re
 import os
-from datetime import datetime
+from datetime import datetime, timedelta
 
 # --- 1. CONFIGURACIÓN DE PÁGINA ---
 st.set_page_config(page_title="Bet Pro Futbol AI", layout="wide", page_icon="⚽")
 
-# --- 2. CSS PERSONALIZADO (FILTRO CLARO / MODALES OSCUROS) ---
+# --- 2. CSS PERSONALIZADO COMPLETO ---
 st.markdown("""
     <style>
     .stApp { 
@@ -57,6 +57,8 @@ st.markdown("""
         color: black !important;
         border: 2px solid #eee !important;
         border-radius: 15px !important;
+        white-space: pre-wrap !important;
+        word-wrap: break-word !important;
     }
 
     header {visibility: hidden !important;}
@@ -109,6 +111,7 @@ def obtener_probabilidades(e_l, e_v):
 def cargar_todo():
     archivos = glob.glob("**/*.csv", recursive=True)
     fz_acum, part_cont = {}, {}
+    # Primera pasada: calcular fuerza de ataque
     for arc in archivos:
         try:
             df = pd.read_csv(arc)
@@ -125,6 +128,7 @@ def cargar_todo():
     fz = {eq: (fz_acum[eq]/part_cont[eq]) if part_cont.get(eq,0)>0 else 1.2 for eq in fz_acum}
     actuales, historicos, ligas = [], [], []
 
+    # Segunda pasada: clasificar partidos
     for arc in archivos:
         try:
             df = pd.read_csv(arc)
@@ -167,7 +171,7 @@ def cargar_todo():
 
 df_p, df_h, lgs = cargar_todo()
 
-# --- 5. VENTANA MODAL (OSCURA) ---
+# --- 5. VENTANA MODAL ---
 @st.dialog("📊 ANÁLISIS DETALLADO", width="large")
 def ventana_analisis(r, df_h):
     st.markdown(f"## ⚽ {r['Match']}")
@@ -191,54 +195,51 @@ t1, t2 = st.tabs(["SOCCER PREDICTIONS", "BASKETBALL PREDICTIONS"])
 with t1:
     if not df_p.empty:
         ahora = datetime.now()
-        # Filtramos partidos que aún no comienzan[cite: 2]
-        df_f = df_p[df_p['Fecha_dt'] > ahora].sort_values('Fecha_dt').copy()
+        hoy_fecha = ahora.date()
         
-        if not df_f.empty:
-            # --- NUEVA LÓGICA: PRIORIZAR HOY ---
-            hoy = ahora.date()
-            df_hoy_pendientes = df_f[df_f['Fecha_dt'].dt.date == hoy]
-            
-            # Si hay partidos hoy, el TOP 4 solo mira hoy. Si no, mira la siguiente fecha disponible[cite: 2].
-            if not df_hoy_pendientes.empty:
-                df_proximos = df_hoy_pendientes
+        # Filtrar estrictamente hoy (margen 2h para partidos en juego)
+        df_hoy_activos = df_p[(df_p['Fecha_dt'].dt.date == hoy_fecha) & (df_p['Fecha_dt'] >= (ahora - timedelta(hours=2)))]
+        
+        if not df_hoy_activos.empty:
+            df_proximos = df_hoy_activos
+        else:
+            # Si no hay nada hoy, buscar el siguiente día con partidos
+            df_futuro = df_p[df_p['Fecha_dt'].dt.date > hoy_fecha].sort_values('Fecha_dt')
+            if not df_futuro.empty:
+                prox_dia = df_futuro['Fecha_dt'].min().date()
+                df_proximos = df_futuro[df_futuro['Fecha_dt'].dt.date == prox_dia]
             else:
-                prox_fecha = df_f['Fecha_dt'].min().date()
-                df_proximos = df_f[df_f['Fecha_dt'].dt.date == prox_fecha]
-            
+                df_proximos = pd.DataFrame()
+
+        if not df_proximos.empty:
             st.markdown(f"### 🏆 TOP 4 ")
             mks = [('1X', '🛡️ Doble Oportunidad'), ('Over 1.5', '🥅 Over 1.5'), ('Over 2.5', '⚽ Over 2.5'), ('Btts', '🤝 Btts')]
             cols = st.columns(4)
             for i, (m, tit) in enumerate(mks):
                 with cols[i]:
                     st.markdown(f"#### {tit}")
-                    # Muestra los mejores 4 dentro del día actual seleccionado[cite: 2]
                     top = df_proximos.nlargest(4, m).reset_index(drop=True)
                     for idx, r in top.iterrows():
                         etq = ("1X" if r['1X'] >= r['X2'] else "X2") if m == '1X' else "Prob"
                         if st.button(f"{r['Date']} {r['Time']}\n{r['League']}\n{r['Match']}\n⭐ {etq}: {r[m]:.0%}", key=f"t4_{m}_{idx}_{r['Match']}"):
                             ventana_analisis(r, df_h)
-        else:
-            st.info("No hay más partidos programados próximamente.")
         
         st.divider()
         st.markdown("### 📊 LIGAS Y JORNADAS")
         cf, c1, c2 = st.columns([1, 1, 1])
         with cf: sf = st.date_input("Filtrar por Fecha:", value=None, key="f_act_soccer")
         with c1: sl = st.selectbox("Seleccione Liga:", ["TODAS"] + lgs, key="l_act")
-        
         df_fl = df_p if sl=="TODAS" else df_p[df_p['League']==sl]
         if sf: df_fl = df_fl[df_fl['Fecha_dt'].dt.date == sf]
-            
         with c2: sj = st.selectbox("Seleccione Jornada:", ["TODAS"] + sorted(df_fl['Matchday'].unique().tolist(), reverse=True) if not df_fl.empty else ["TODAS"], key="j_act")
         df_fin = df_fl if sj=="TODAS" else df_fl[df_fl['Matchday']==sj]
         
         if not df_fin.empty:
             cols_f = ['1X', 'X2', 'Over 1.5', 'Over 2.5', 'Btts']
             st.dataframe(df_fin[['Date', 'Time', 'Matchday', 'League', 'Match'] + cols_f].style.map(aplicar_semaforo, subset=cols_f).format({c: '{:.0%}' for c in cols_f}), use_container_width=True, hide_index=True)
-            st.divider()
             
-            # PREDICCIÓN BOMBA
+            st.divider()
+            # PREDICCIÓN BOMBA DETALLADA
             d_b = df_fin.loc[df_fin[['Over 1.5', 'Over 2.5', 'Btts']].max(axis=1).idxmax()]
             loc, vis = d_b['Home team'], d_b['Away team']
             h_l = df_h[(df_h['Home team'] == loc) & (df_h['League'] == d_b['League'])]
@@ -265,7 +266,7 @@ with t1:
                         <div style="background: white; color: #ff4b4b; padding: 15px; border-radius: 12px; text-align: center; font-weight: bold;">🤝 Btts: {d_b['Btts']:.0%}</div>
                     </div>
                 </div>""", unsafe_allow_html=True)
-    
+
     st.divider()
     st.markdown("## 📜 HISTORIAL DE RESULTADOS")
     if not df_h.empty:

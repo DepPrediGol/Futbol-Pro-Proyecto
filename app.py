@@ -78,7 +78,7 @@ def color_letras_historial(val):
     v = str(val)
     if '✅' in v: return 'color: #28a745; font-weight: bold;'
     if '❌' in v: return 'color: #dc3545; font-weight: bold;'
-    return 'color: white;'
+    return 'color: black;' # Cambiado a negro para visibilidad en fondos claros
 
 def extraer_goles(resultado_str):
     if pd.isna(resultado_str): return None
@@ -104,7 +104,7 @@ def obtener_probabilidades(e_l, e_v):
             if gl > 0 and gv > 0: p_btts += p
     return p_l, p_e, p_v, p_o15, p_o25, p_btts
 
-# --- 4. CARGA DE DATOS (CORREGIDA PARA HORA EXACTA) ---
+# --- 4. CARGA DE DATOS ---
 @st.cache_data(ttl=60)
 def cargar_todo():
     archivos = glob.glob("**/*.csv", recursive=True)
@@ -132,15 +132,13 @@ def cargar_todo():
             if ln not in ligas: ligas.append(ln)
             for _, f in df.iterrows():
                 pl, pe, pv, po15, po25, pb = obtener_probabilidades(fz.get(f['home_team'],1.2), fz.get(f['away_team'],1.2))
-                total = pl+pe+pv+pe
+                total = (pl+pe+pv+pe) if (pl+pe+pv+pe) > 0 else 1
                 p1x, px2 = (pl+pe)/total, (pv+pe)/total
                 g = extraer_goles(f.get('result'))
                 
-                # --- NUEVA LÓGICA: COMBINAR FECHA Y HORA ---
                 fecha_str = str(f['date'])
                 hora_str = str(f.get('time','00:00'))
                 try:
-                    # Combinamos ambos strings para tener precisión de minutos
                     fecha_dt = pd.to_datetime(f"{fecha_str} {hora_str}", dayfirst=True)
                 except:
                     fecha_dt = pd.to_datetime(fecha_str, dayfirst=True)
@@ -192,45 +190,40 @@ t1, t2 = st.tabs(["SOCCER PREDICTIONS", "BASKETBALL PREDICTIONS"])
 
 with t1:
     if not df_p.empty:
-        # --- FILTRO TOP 4 POR HORA ACTUAL ---
         ahora = datetime.now()
         
-        # Filtramos partidos que ocurren hoy o después, pero cuya HORA sea mayor a la actual
-        df_f = df_p[df_p['Fecha_dt'] > ahora].copy()
+        # --- LÓGICA DINÁMICA: PRÓXIMOS PARTIDOS A JUGAR ---
+        # Filtramos partidos que aún no comienzan y ordenamos por hora exacta
+        df_f = df_p[df_p['Fecha_dt'] > ahora].sort_values('Fecha_dt').copy()
         
         if not df_f.empty:
-            # Ordenamos por los partidos más cercanos cronológicamente
-            df_f = df_f.sort_values('Fecha_dt')
-            f_prox_dia = df_f['Fecha_dt'].min().date()
+            # Tomamos una ventana de los próximos 30 partidos a disputarse
+            # Esto asegura que el Top 4 se extraiga de lo más inmediato
+            df_proximos = df_f.head(30)
             
-            # Seleccionamos el top de lo que queda por jugar en el día más próximo
-            df_t4 = df_f[df_f['Fecha_dt'].dt.date == f_prox_dia].copy()
-            
-            st.markdown(f"### 🏆 TOP 4 PRÓXIMOS ({f_prox_dia.strftime('%d/%m/%Y')})")
+            st.markdown(f"### 🏆 TOP 4 PRÓXIMAS HORAS (Dinámico)")
             mks = [('1X', '🛡️ Doble Oportunidad'), ('Over 1.5', '🥅 Over 1.5'), ('Over 2.5', '⚽ Over 2.5'), ('Btts', '🤝 Btts')]
             cols = st.columns(4)
             for i, (m, tit) in enumerate(mks):
                 with cols[i]:
                     st.markdown(f"#### {tit}")
-                    top = df_t4.nlargest(4, m).reset_index(drop=True)
+                    # Buscamos los 4 mejores dentro de la ventana de próximos partidos
+                    top = df_proximos.nlargest(4, m).reset_index(drop=True)
                     for idx, r in top.iterrows():
                         etq = ("1X" if r['1X'] >= r['X2'] else "X2") if m == '1X' else "Prob"
                         if st.button(f"{r['Date']} {r['Time']}\n{r['League']}\n{r['Match']}\n⭐ {etq}: {r[m]:.0%}", key=f"t4_{m}_{idx}_{r['Match']}"):
                             ventana_analisis(r, df_h)
         else:
-            st.info("No hay más partidos programados para el resto del día.")
+            st.info("No hay más partidos programados próximamente.")
         
         st.divider()
-        
-        # FILTROS REORGANIZADOS
         st.markdown("### 📊 LIGAS Y JORNADAS")
         cf, c1, c2 = st.columns([1, 1, 1])
         with cf: sf = st.date_input("Filtrar por Fecha:", value=None, key="f_act_soccer")
         with c1: sl = st.selectbox("Seleccione Liga:", ["TODAS"] + lgs, key="l_act")
         
         df_fl = df_p if sl=="TODAS" else df_p[df_p['League']==sl]
-        if sf: 
-            df_fl = df_fl[df_fl['Fecha_dt'].dt.date == sf]
+        if sf: df_fl = df_fl[df_fl['Fecha_dt'].dt.date == sf]
             
         with c2: sj = st.selectbox("Seleccione Jornada:", ["TODAS"] + sorted(df_fl['Matchday'].unique().tolist(), reverse=True) if not df_fl.empty else ["TODAS"], key="j_act")
         df_fin = df_fl if sj=="TODAS" else df_fl[df_fl['Matchday']==sj]
@@ -241,7 +234,6 @@ with t1:
             st.divider()
             
             # PREDICCIÓN BOMBA
-            # (Se mantiene tu lógica de predicción bomba)
             d_b = df_fin.loc[df_fin[['Over 1.5', 'Over 2.5', 'Btts']].max(axis=1).idxmax()]
             loc, vis = d_b['Home team'], d_b['Away team']
             h_l = df_h[(df_h['Home team'] == loc) & (df_h['League'] == d_b['League'])]
@@ -252,7 +244,6 @@ with t1:
                 w_l = (h_l['G_L'] >= h_l['G_V']).sum()
                 t_v, g1_v, g2_v = len(h_v), (h_v['G_V'] >= 1).sum(), (h_v['G_V'] >= 2).sum()
                 w_v = (h_v['G_V'] >= h_v['G_L']).sum()
-
                 etq_b = f"1X: {d_b['1X']:.0%}" if d_b['1X'] >= d_b['X2'] else f"X2: {d_b['X2']:.0%}"
                 
                 st.markdown(f"""
@@ -268,8 +259,7 @@ with t1:
                         <div style="background: white; color: #ff4b4b; padding: 15px; border-radius: 12px; text-align: center; font-weight: bold;">⚽ Over 2.5: {d_b['Over 2.5']:.0%}</div>
                         <div style="background: white; color: #ff4b4b; padding: 15px; border-radius: 12px; text-align: center; font-weight: bold;">🤝 Btts: {d_b['Btts']:.0%}</div>
                     </div>
-                </div>
-                """, unsafe_allow_html=True)
+                </div>""", unsafe_allow_html=True)
     
     st.divider()
     st.markdown("## 📜 HISTORIAL DE RESULTADOS")
@@ -277,11 +267,8 @@ with t1:
         cfh, c1h, c2h = st.columns([1, 1, 1])
         with cfh: sfh = st.date_input("Fecha Historial:", value=None, key="f_his")
         with c1h: slh = st.selectbox("Liga Historial:", ["TODAS"] + lgs, key="l_his")
-        
         df_hh = df_h if slh=="TODAS" else df_h[df_h['League']==slh]
-        if sfh: 
-            df_hh = df_hh[df_hh['Fecha_dt'].dt.date == sfh]
-            
+        if sfh: df_hh = df_hh[df_hh['Fecha_dt'].dt.date == sfh]
         with c2h: sjh = st.selectbox("Jornada Historial:", ["TODAS"] + sorted(df_hh['Matchday'].unique().tolist(), reverse=True) if not df_hh.empty else ["TODAS"], key="j_his")
         df_res = df_hh if sjh=="TODAS" else df_hh[df_hh['Matchday']==sjh]
         st.dataframe(df_res[['Date', 'Time', 'Matchday', 'League', 'Match', 'Result', '1X', 'X2', 'Over 1.5', 'Over 2.5', 'Btts']].style.map(color_letras_historial, subset=['1X', 'X2', 'Over 1.5', 'Over 2.5', 'Btts']), use_container_width=True, hide_index=True)
@@ -289,3 +276,4 @@ with t1:
 with t2:
     st.markdown("## 🏀 BASKETBALL PREDICTIONS")
     st.info("Módulo de baloncesto en desarrollo.")
+```[cite: 3]

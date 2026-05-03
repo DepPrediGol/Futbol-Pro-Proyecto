@@ -78,7 +78,7 @@ def color_letras_historial(val):
     v = str(val)
     if '✅' in v: return 'color: #28a745; font-weight: bold;'
     if '❌' in v: return 'color: #dc3545; font-weight: bold;'
-    return 'color: black;' # Cambiado a negro para visibilidad en fondos claros
+    return 'color: white;'
 
 def extraer_goles(resultado_str):
     if pd.isna(resultado_str): return None
@@ -191,15 +191,20 @@ t1, t2 = st.tabs(["SOCCER PREDICTIONS", "BASKETBALL PREDICTIONS"])
 with t1:
     if not df_p.empty:
         ahora = datetime.now()
-        
-        # --- LÓGICA DINÁMICA: PRÓXIMOS PARTIDOS A JUGAR ---
-        # Filtramos partidos que aún no comienzan y ordenamos por hora exacta
+        # Filtramos partidos que aún no comienzan[cite: 2]
         df_f = df_p[df_p['Fecha_dt'] > ahora].sort_values('Fecha_dt').copy()
         
         if not df_f.empty:
-            # Tomamos una ventana de los próximos 30 partidos a disputarse
-            # Esto asegura que el Top 4 se extraiga de lo más inmediato
-            df_proximos = df_f.head(30)
+            # --- NUEVA LÓGICA: PRIORIZAR HOY ---
+            hoy = ahora.date()
+            df_hoy_pendientes = df_f[df_f['Fecha_dt'].dt.date == hoy]
+            
+            # Si hay partidos hoy, el TOP 4 solo mira hoy. Si no, mira la siguiente fecha disponible[cite: 2].
+            if not df_hoy_pendientes.empty:
+                df_proximos = df_hoy_pendientes
+            else:
+                prox_fecha = df_f['Fecha_dt'].min().date()
+                df_proximos = df_f[df_f['Fecha_dt'].dt.date == prox_fecha]
             
             st.markdown(f"### 🏆 TOP 4 ")
             mks = [('1X', '🛡️ Doble Oportunidad'), ('Over 1.5', '🥅 Over 1.5'), ('Over 2.5', '⚽ Over 2.5'), ('Btts', '🤝 Btts')]
@@ -207,7 +212,7 @@ with t1:
             for i, (m, tit) in enumerate(mks):
                 with cols[i]:
                     st.markdown(f"#### {tit}")
-                    # Buscamos los 4 mejores dentro de la ventana de próximos partidos
+                    # Muestra los mejores 4 dentro del día actual seleccionado[cite: 2]
                     top = df_proximos.nlargest(4, m).reset_index(drop=True)
                     for idx, r in top.iterrows():
                         etq = ("1X" if r['1X'] >= r['X2'] else "X2") if m == '1X' else "Prob"

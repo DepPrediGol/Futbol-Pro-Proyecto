@@ -201,7 +201,7 @@ with t1:
             # Esto asegura que el Top 4 se extraiga de lo más inmediato
             df_proximos = df_f.head(30)
             
-            st.markdown(f"### 🏆 TOP 4 PRÓXIMAS HORAS (Dinámico)")
+            st.markdown(f"### 🏆 TOP 4 ")
             mks = [('1X', '🛡️ Doble Oportunidad'), ('Over 1.5', '🥅 Over 1.5'), ('Over 2.5', '⚽ Over 2.5'), ('Btts', '🤝 Btts')]
             cols = st.columns(4)
             for i, (m, tit) in enumerate(mks):

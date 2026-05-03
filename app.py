@@ -10,7 +10,7 @@ from datetime import datetime, timedelta
 # --- 1. CONFIGURACIÓN DE PÁGINA ---
 st.set_page_config(page_title="Bet Pro Futbol AI", layout="wide", page_icon="⚽")
 
-# --- 2. CSS PERSONALIZADO (ESTILO ORIGINAL) ---
+# --- 2. CSS PERSONALIZADO (MANTENIDO ÍNTEGRO PARA DISEÑO PREMIUM) ---
 st.markdown("""
     <style>
     .stApp { 
@@ -88,7 +88,7 @@ st.markdown("""
     </style>
     """, unsafe_allow_html=True)
 
-# --- 3. FUNCIONES LÓGICAS ---
+# --- 3. FUNCIONES LÓGICAS Y MATEMÁTICAS ---
 def aplicar_semaforo(val):
     if isinstance(val, (int, float)):
         if val >= 0.70: return 'color: #28a745; font-weight: bold;'
@@ -146,8 +146,8 @@ def generar_tabla_posiciones(df_historial, liga):
     tabla.index.name = 'Pos'
     return tabla
 
-# --- 4. CARGA DE DATOS ---
-@st.cache_data(ttl=60, show_spinner="Sincronizando pronósticos...")
+# --- 4. CARGA Y PROCESAMIENTO DE DATOS (MÓDULO CENTRAL) ---
+@st.cache_data(ttl=60, show_spinner="Sincronizando Base de Datos...")
 def cargar_todo():
     archivos = glob.glob("**/*.csv", recursive=True)
     fz_acum, part_cont = {}, {}
@@ -158,8 +158,10 @@ def cargar_todo():
                 l, v = f['home_team'], f['away_team']
                 g = extraer_goles(f.get('result'))
                 if g:
-                    fz_acum[l], fz_acum[v] = fz_acum.get(l, 0) + g[0], fz_acum.get(v, 0) + g[1]
-                    part_cont[l], part_cont[v] = part_cont.get(l, 0) + 1, part_cont.get(v, 0) + 1
+                    fz_acum[l] = fz_acum.get(l, 0) + g[0]
+                    fz_acum[v] = fz_acum.get(v, 0) + g[1]
+                    part_cont[l] = part_cont.get(l, 0) + 1
+                    part_cont[v] = part_cont.get(v, 0) + 1
         except: continue
     
     fz = {eq: (fz_acum[eq]/part_cont[eq]) if part_cont.get(eq,0)>0 else 1.2 for eq in fz_acum}
@@ -178,8 +180,10 @@ def cargar_todo():
                 fecha_str, hora_str = str(f['date']), str(f.get('time','00:00'))
                 try: fecha_dt = pd.to_datetime(f"{fecha_str} {hora_str}", dayfirst=True)
                 except: fecha_dt = pd.to_datetime(fecha_str, dayfirst=True)
+                
                 match_data = {'Date': f['date'], 'Time': hora_str, 'Matchday': int(f.get('matchday',0)), 'League': ln, 
                               'Home team': f['home_team'], 'Away team': f['away_team'], 'Match': f"{f['home_team']} vs {f['away_team']}", 'Fecha_dt': fecha_dt}
+
                 if g:
                     match_data.update({'Result': f"{g[0]} - {g[1]}", 'G_L': g[0], 'G_V': g[1], 
                                       '1X': f"{'✅' if g[0]>=g[1] else '❌'} {p1x:.0%}", 'X2': f"{'✅' if g[1]>=g[0] else '❌'} {px2:.0%}", 
@@ -194,7 +198,7 @@ def cargar_todo():
 
 df_p, df_h, lgs = cargar_todo()
 
-# --- 5. MODAL ---
+# --- 5. VENTANA FLOTANTE (ANALISIS PRO) ---
 @st.dialog("📊 ANÁLISIS DETALLADO", width="large")
 def ventana_analisis(r, df_h):
     st.markdown(f"## ⚽ {r['Match']}")
@@ -211,67 +215,64 @@ def ventana_analisis(r, df_h):
             st.dataframe(df_eq[['Date', 'Time', 'Matchday', 'Match', 'Result', '1X', 'X2', 'Over 1.5', 'Over 2.5', 'Btts']].style.map(color_letras_historial, subset=['1X', 'X2', 'Over 1.5', 'Over 2.5', 'Btts']), use_container_width=True, hide_index=True)
         st.divider()
 
-# --- 6. INTERFAZ ---
+# --- 6. INTERFAZ DE USUARIO ---
 st.markdown('<h1><span class="giro-balon">⚽</span> Bet Pro Futbol AI</h1>', unsafe_allow_html=True)
-t1, t2 = st.tabs(["SOCCER PREDICTIONS", "BASKETBALL PREDICTIONS"])
+tab_soccer, tab_basket = st.tabs(["SOCCER PREDICTIONS", "BASKETBALL PREDICTIONS"])
 
-with t1:
-    if not df_p.empty:
-        # --- LÓGICA TOP 4 (HOY Y MAÑANA) ---
-        ahora = datetime.now()
-        df_top_pool = df_p[df_p['Fecha_dt'] >= (ahora - timedelta(hours=2))].sort_values('Fecha_dt')
-        
-        if not df_top_pool.empty:
-            st.markdown('<p class="titulo-top4">🏆 TOP 4 </p>', unsafe_allow_html=True)
-            mks = [('1X', '🛡️ Doble Oportunidad'), ('Over 1.5', '🥅 Over 1.5'), ('Over 2.5', '⚽ Over 2.5'), ('Btts', '🤝 Btts')]
-            cols = st.columns(4)
-            
-            # Filtramos por el día actual primero
-            fecha_hoy = ahora.date()
-            df_dia = df_top_pool[df_top_pool['Fecha_dt'].dt.date == fecha_hoy]
-            
-            # Si no hay partidos de hoy o son pocos, usamos los siguientes 20 más cercanos (mañana)
-            if len(df_dia) < 4:
-                df_dia = df_top_pool.head(20)
+with tab_soccer:
+    # --- SECCIÓN TOP 4 DINÁMICO ---
+    @st.fragment
+    def seccion_top4():
+        if not df_p.empty:
+            ahora = datetime.now()
+            df_top_pool = df_p[df_p['Fecha_dt'] >= (ahora - timedelta(hours=2))].sort_values('Fecha_dt')
+            if not df_top_pool.empty:
+                st.markdown('<p class="titulo-top4">🏆 TOP 4 </p>', unsafe_allow_html=True)
+                mks = [('1X', '🛡️ Doble Oportunidad'), ('Over 1.5', '🥅 Over 1.5'), ('Over 2.5', '⚽ Over 2.5'), ('Btts', '🤝 Btts')]
+                cols = st.columns(4)
+                df_dia = df_top_pool[df_top_pool['Fecha_dt'].dt.date == ahora.date()]
+                if len(df_dia) < 4: df_dia = df_top_pool.head(20)
+                for i, (m, tit) in enumerate(mks):
+                    with cols[i]:
+                        st.markdown(f"#### {tit}")
+                        top = df_dia.nlargest(4, m).reset_index(drop=True)
+                        for idx, r in top.iterrows():
+                            etq = ("1X" if r['1X'] >= r['X2'] else "X2") if m == '1X' else "Prob"
+                            if st.button(f"{r['Date']} {r['Time']}\n{r['League']}\n{r['Match']}\n⭐ {etq}: {r[m]:.0%}", key=f"t4_{m}_{idx}_{r['Match']}"):
+                                ventana_analisis(r, df_h)
+    seccion_top4()
 
-            for i, (m, tit) in enumerate(mks):
-                with cols[i]:
-                    st.markdown(f"#### {tit}")
-                    top = df_dia.nlargest(4, m).reset_index(drop=True)
-                    for idx, r in top.iterrows():
-                        etq = ("1X" if r['1X'] >= r['X2'] else "X2") if m == '1X' else "Prob"
-                        if st.button(f"{r['Date']} {r['Time']}\n{r['League']}\n{r['Match']}\n⭐ {etq}: {r[m]:.0%}", key=f"t4_{m}_{idx}_{r['Match']}"):
-                            ventana_analisis(r, df_h)
-        
-        st.divider()
+    st.divider()
+    
+    # --- SECCIÓN FILTROS Y TABLAS ---
+    @st.fragment
+    def seccion_filtros():
         st.markdown("### 📊 LIGAS Y JORNADAS")
-        cf, c1, c2 = st.columns([1, 1, 1])
-        with cf: sf = st.date_input("Filtrar por Fecha:", value=None, key="f_act_soccer")
-        with c1: sl = st.selectbox("Seleccione Liga:", ["TODAS"] + lgs, key="l_act")
+        f_col1, f_col2, f_col3 = st.columns([1, 1, 1])
+        with f_col1: sf = st.date_input("Filtrar por Fecha:", value=None, key="f_act_s")
+        with f_col2: sl = st.selectbox("Seleccione Liga:", ["TODAS"] + lgs, key="l_act_s")
         df_fl = df_p if sl=="TODAS" else df_p[df_p['League']==sl]
         if sf: df_fl = df_fl[df_fl['Fecha_dt'].dt.date == sf]
-        with c2: sj = st.selectbox("Seleccione Jornada:", ["TODAS"] + sorted(df_fl['Matchday'].unique().tolist(), reverse=True) if not df_fl.empty else ["TODAS"], key="j_act")
+        with f_col3: sj = st.selectbox("Seleccione Jornada:", ["TODAS"] + sorted(df_fl['Matchday'].unique().tolist(), reverse=True) if not df_fl.empty else ["TODAS"], key="j_act_s")
         df_fin = df_fl if sj=="TODAS" else df_fl[df_fl['Matchday']==sj]
-        
+
         if not df_fin.empty:
             cols_f = ['1X', 'X2', 'Over 1.5', 'Over 2.5', 'Btts']
             if sl != "TODAS":
-                cp, ct = st.columns([2, 1]) 
-                with cp: st.dataframe(df_fin[['Date', 'Time', 'Matchday', 'League', 'Match'] + cols_f].style.map(aplicar_semaforo, subset=cols_f).format({c: '{:.0%}' for c in cols_f}), use_container_width=True, hide_index=True)
-                with ct:
+                col_p, col_t = st.columns([2, 1])
+                with col_p: st.dataframe(df_fin[['Date', 'Time', 'Matchday', 'League', 'Match'] + cols_f].style.map(aplicar_semaforo, subset=cols_f).format({c: '{:.0%}' for c in cols_f}), use_container_width=True, hide_index=True)
+                with col_t:
                     st.markdown(f"#### 🏅 Tabla: {sl}")
                     tp = generar_tabla_posiciones(df_h, sl)
                     if not tp.empty: st.dataframe(tp, use_container_width=True)
-                    else: st.info("Sin datos históricos.")
             else:
                 st.dataframe(df_fin[['Date', 'Time', 'Matchday', 'League', 'Match'] + cols_f].style.map(aplicar_semaforo, subset=cols_f).format({c: '{:.0%}' for c in cols_f}), use_container_width=True, hide_index=True)
             
             st.divider()
-            # --- PREDICCIÓN BOMBA ---
+            # --- LÓGICA PREDICCIÓN BOMBA ---
             d_b = df_fin.loc[df_fin[['Over 1.5', 'Over 2.5', 'Btts']].max(axis=1).idxmax()]
-            loc, vis = d_b['Home team'], d_b['Away team']
-            h_l = df_h[(df_h['Home team'] == loc) & (df_h['League'] == d_b['League'])]
-            h_v = df_h[(df_h['Away team'] == vis) & (df_h['League'] == d_b['League'])]
+            h_l = df_h[(df_h['Home team'] == d_b['Home team']) & (df_h['League'] == d_b['League'])]
+            h_v = df_h[(df_h['Away team'] == d_b['Away team']) & (df_h['League'] == d_b['League'])]
             if not h_l.empty and not h_v.empty:
                 t_l, g1_l, g2_l, w_l = len(h_l), (h_l['G_L']>=1).sum(), (h_l['G_L']>=2).sum(), (h_l['G_L']>=h_l['G_V']).sum()
                 t_v, g1_v, g2_v, w_v = len(h_v), (h_v['G_V']>=1).sum(), (h_v['G_V']>=2).sum(), (h_v['G_V']>=h_v['G_L']).sum()
@@ -280,8 +281,8 @@ with t1:
                 <div style="background-color: #ff4b4b; padding: 30px; border-radius: 15px; border-left: 15px solid #8B0000;">
                     <h2 style="color: white !important; margin: 0; text-align: center;">💣 PREDICCIÓN BOMBA DETECTADA 💣</h2>
                     <p style="font-size: 1.15rem; line-height: 1.6; margin-top: 20px; color: white !important;">
-                        El equipo local <b>{loc}</b> lleva <b>{g1_l} de {t_l}</b> partidos marcando al menos 1 gol en casa y de esos <b>{g1_l}</b> partidos <b>{g2_l}</b> ha marcado 2 o más goles, ha ganado o empatado en <b>{w_l} de {t_l}</b> encuentros como local. <br>
-                        El equipo visitante <b>{vis}</b>, lleva <b>{g1_v} de {t_v}</b> partidos marcando al menos 1 gol como visitante y de esos <b>{g1_v}</b> partidos <b>{g2_v}</b> ha marcado 2 o más goles, ha ganado o empatado en <b>{w_v} de {t_v}</b> encuentros como visitante.
+                        El equipo local <b>{d_b['Home team']}</b> lleva <b>{g1_l} de {t_l}</b> partidos marcando al menos 1 gol en casa y de esos <b>{g1_l}</b> partidos <b>{g2_l}</b> ha marcado 2 o más goles, ha ganado o empatado en <b>{w_l} de {t_l}</b> encuentros como local. <br>
+                        El equipo visitante <b>{d_b['Away team']}</b>, lleva <b>{g1_v} de {t_v}</b> partidos marcando al menos 1 gol como visitante y de esos <b>{g1_v}</b> partidos <b>{g2_v}</b> ha marcado 2 o más goles, ha ganado o empatado en <b>{w_v} de {t_v}</b> encuentros como visitante.
                     </p>
                     <div style="display: grid; grid-template-columns: repeat(4, 1fr); gap: 15px; margin-top: 25px;">
                         <div style="background: white; color: #ff4b4b; padding: 15px; border-radius: 12px; text-align: center; font-weight: bold;">🛡️ {etq_b}</div>
@@ -290,19 +291,20 @@ with t1:
                         <div style="background: white; color: #ff4b4b; padding: 15px; border-radius: 12px; text-align: center; font-weight: bold;">🤝 Btts: {d_b['Btts']:.0%}</div>
                     </div>
                 </div>""", unsafe_allow_html=True)
+    seccion_filtros()
 
     st.divider()
+    # --- SECCIÓN HISTORIAL ---
     st.markdown("## 📜 HISTORIAL DE RESULTADOS")
-    if not df_h.empty:
-        cfh, c1h, c2h = st.columns([1, 1, 1])
-        with cfh: sfh = st.date_input("Fecha Historial:", value=None, key="f_his")
-        with c1h: slh = st.selectbox("Liga Historial:", ["TODAS"] + lgs, key="l_his")
-        df_hh = df_h if slh=="TODAS" else df_h[df_h['League']==slh]
-        if sfh: df_hh = df_hh[df_hh['Fecha_dt'].dt.date == sfh]
-        with c2h: sjh = st.selectbox("Jornada Historial:", ["TODAS"] + sorted(df_hh['Matchday'].unique().tolist(), reverse=True) if not df_hh.empty else ["TODAS"], key="j_his")
-        df_res = df_hh if sjh=="TODAS" else df_hh[df_hh['Matchday']==sjh]
-        st.dataframe(df_res[['Date', 'Time', 'Matchday', 'League', 'Match', 'Result', '1X', 'X2', 'Over 1.5', 'Over 2.5', 'Btts']].style.map(color_letras_historial, subset=['1X', 'X2', 'Over 1.5', 'Over 2.5', 'Btts']), use_container_width=True, hide_index=True)
+    h_c1, h_c2, h_c3 = st.columns([1, 1, 1])
+    with h_c1: sfh = st.date_input("Fecha Historial:", value=None, key="fh_s")
+    with h_c2: slh = st.selectbox("Liga Historial:", ["TODAS"] + lgs, key="lh_s")
+    df_hh = df_h if slh=="TODAS" else df_h[df_h['League']==slh]
+    if sfh: df_hh = df_hh[df_hh['Fecha_dt'].dt.date == sfh]
+    with h_c3: sjh = st.selectbox("Jornada Historial:", ["TODAS"] + sorted(df_hh['Matchday'].unique().tolist(), reverse=True) if not df_hh.empty else ["TODAS"], key="jh_s")
+    df_res = df_hh if sjh=="TODAS" else df_hh[df_hh['Matchday']==sjh]
+    st.dataframe(df_res[['Date', 'Time', 'Matchday', 'League', 'Match', 'Result', '1X', 'X2', 'Over 1.5', 'Over 2.5', 'Btts']].style.map(color_letras_historial, subset=['1X', 'X2', 'Over 1.5', 'Over 2.5', 'Btts']), use_container_width=True, hide_index=True)
 
-with t2:
+with tab_basket:
     st.markdown("## 🏀 BASKETBALL PREDICTIONS")
-    st.info("Módulo en desarrollo.")
+    st.info("Módulo en desarrollo para la próxima actualización.")

@@ -130,6 +130,31 @@ def obtener_probabilidades(e_l, e_v):
             if gl > 0 and gv > 0: p_btts += p
     return p_l, p_e, p_v, p_o15, p_o25, p_btts
 
+def generar_tabla_posiciones(df_historial, liga):
+    df_liga = df_historial[df_historial['League'] == liga]
+    if df_liga.empty: return pd.DataFrame()
+
+    stats = []
+    for _, r in df_liga.iterrows():
+        gl, gv = r.get('G_L'), r.get('G_V')
+        if pd.isna(gl) or pd.isna(gv): continue
+
+        pts_l = 3 if gl > gv else (1 if gl == gv else 0)
+        stats.append({'Equipo': r['Home team'], 'PJ': 1, 'G': 1 if gl>gv else 0, 'E': 1 if gl==gv else 0, 'P': 1 if gl<gv else 0, 'GF': gl, 'GC': gv, 'Pts': pts_l})
+        
+        pts_v = 3 if gv > gl else (1 if gv == gl else 0)
+        stats.append({'Equipo': r['Away team'], 'PJ': 1, 'G': 1 if gv>gl else 0, 'E': 1 if gv==gl else 0, 'P': 1 if gv<gl else 0, 'GF': gv, 'GC': gl, 'Pts': pts_v})
+    
+    if not stats: return pd.DataFrame()
+    
+    tabla = pd.DataFrame(stats).groupby('Equipo').sum().reset_index()
+    tabla['DG'] = tabla['GF'] - tabla['GC']
+    tabla = tabla.sort_values(by=['Pts', 'DG', 'GF'], ascending=[False, False, False]).reset_index(drop=True)
+    tabla.index = tabla.index + 1
+    tabla.index.name = 'Pos'
+    
+    return tabla
+
 # --- 4. CARGA DE DATOS ---
 @st.cache_data(ttl=60)
 def cargar_todo():
@@ -247,11 +272,28 @@ with t1:
         df_fin = df_fl if sj=="TODAS" else df_fl[df_fl['Matchday']==sj]
         
         if not df_fin.empty:
-            cols_f = ['1X', 'X2', 'Over 1.5', 'Over 2.5', 'Btts']
-            st.dataframe(df_fin[['Date', 'Time', 'Matchday', 'League', 'Match'] + cols_f].style.map(aplicar_semaforo, subset=cols_f).format({c: '{:.0%}' for c in cols_f}), use_container_width=True, hide_index=True)
+            # --- LÓGICA DE TABLA DE POSICIONES AGREGADA AQUÍ ---
+            if sl != "TODAS":
+                col_pred, col_tabla = st.columns([2, 1]) 
+                
+                with col_pred:
+                    cols_f = ['1X', 'X2', 'Over 1.5', 'Over 2.5', 'Btts']
+                    st.dataframe(df_fin[['Date', 'Time', 'Matchday', 'League', 'Match'] + cols_f].style.map(aplicar_semaforo, subset=cols_f).format({c: '{:.0%}' for c in cols_f}), use_container_width=True, hide_index=True)
+                
+                with col_tabla:
+                    st.markdown(f"#### 🏅 Tabla: {sl}")
+                    tabla_pos = generar_tabla_posiciones(df_h, sl)
+                    if not tabla_pos.empty:
+                        st.dataframe(tabla_pos, use_container_width=True)
+                    else:
+                        st.info("No hay suficientes datos históricos para armar la tabla.")
+            else:
+                cols_f = ['1X', 'X2', 'Over 1.5', 'Over 2.5', 'Btts']
+                st.dataframe(df_fin[['Date', 'Time', 'Matchday', 'League', 'Match'] + cols_f].style.map(aplicar_semaforo, subset=cols_f).format({c: '{:.0%}' for c in cols_f}), use_container_width=True, hide_index=True)
             
             st.divider()
-            # --- PREDICCIÓN BOMBA DETALLADA (RESTAURADA) ---
+            
+            # --- PREDICCIÓN BOMBA DETALLADA (INTACTA) ---
             d_b = df_fin.loc[df_fin[['Over 1.5', 'Over 2.5', 'Btts']].max(axis=1).idxmax()]
             loc, vis = d_b['Home team'], d_b['Away team']
             h_l = df_h[(df_h['Home team'] == loc) & (df_h['League'] == d_b['League'])]

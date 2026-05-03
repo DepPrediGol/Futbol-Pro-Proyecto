@@ -10,7 +10,7 @@ from datetime import datetime, timedelta
 # --- 1. CONFIGURACIÓN DE PÁGINA ---
 st.set_page_config(page_title="Bet Pro Futbol AI", layout="wide", page_icon="⚽")
 
-# --- 2. CSS PERSONALIZADO (MANTENIDO AL 100%) ---
+# --- 2. CSS PERSONALIZADO (ESTILO ORIGINAL) ---
 st.markdown("""
     <style>
     .stApp { 
@@ -147,7 +147,7 @@ def generar_tabla_posiciones(df_historial, liga):
     return tabla
 
 # --- 4. CARGA DE DATOS ---
-@st.cache_data(ttl=60, show_spinner="Analizando datos...")
+@st.cache_data(ttl=60, show_spinner="Sincronizando pronósticos...")
 def cargar_todo():
     archivos = glob.glob("**/*.csv", recursive=True)
     fz_acum, part_cont = {}, {}
@@ -158,10 +158,8 @@ def cargar_todo():
                 l, v = f['home_team'], f['away_team']
                 g = extraer_goles(f.get('result'))
                 if g:
-                    fz_acum[l] = fz_acum.get(l, 0) + g[0]
-                    fz_acum[v] = fz_acum.get(v, 0) + g[1]
-                    part_cont[l] = part_cont.get(l, 0) + 1
-                    part_cont[v] = part_cont.get(v, 0) + 1
+                    fz_acum[l], fz_acum[v] = fz_acum.get(l, 0) + g[0], fz_acum.get(v, 0) + g[1]
+                    part_cont[l], part_cont[v] = part_cont.get(l, 0) + 1, part_cont.get(v, 0) + 1
         except: continue
     
     fz = {eq: (fz_acum[eq]/part_cont[eq]) if part_cont.get(eq,0)>0 else 1.2 for eq in fz_acum}
@@ -196,7 +194,7 @@ def cargar_todo():
 
 df_p, df_h, lgs = cargar_todo()
 
-# --- 5. VENTANA ANALISIS ---
+# --- 5. MODAL ---
 @st.dialog("📊 ANÁLISIS DETALLADO", width="large")
 def ventana_analisis(r, df_h):
     st.markdown(f"## ⚽ {r['Match']}")
@@ -219,7 +217,7 @@ t1, t2 = st.tabs(["SOCCER PREDICTIONS", "BASKETBALL PREDICTIONS"])
 
 with t1:
     if not df_p.empty:
-        # --- LÓGICA TOP 4 RESTAURADA ---
+        # --- LÓGICA TOP 4 (HOY Y MAÑANA) ---
         ahora = datetime.now()
         df_top_pool = df_p[df_p['Fecha_dt'] >= (ahora - timedelta(hours=2))].sort_values('Fecha_dt')
         
@@ -228,11 +226,13 @@ with t1:
             mks = [('1X', '🛡️ Doble Oportunidad'), ('Over 1.5', '🥅 Over 1.5'), ('Over 2.5', '⚽ Over 2.5'), ('Btts', '🤝 Btts')]
             cols = st.columns(4)
             
-            # Buscamos la fecha más próxima disponible en el pool
-            fecha_proxima = df_top_pool['Fecha_dt'].dt.date.min()
-            df_dia = df_top_pool[df_top_pool['Fecha_dt'].dt.date == fecha_proxima]
-            # Si hay pocos partidos ese día, expandimos un poco el rango para completar el TOP 4
-            if len(df_dia) < 4: df_dia = df_top_pool.head(20)
+            # Filtramos por el día actual primero
+            fecha_hoy = ahora.date()
+            df_dia = df_top_pool[df_top_pool['Fecha_dt'].dt.date == fecha_hoy]
+            
+            # Si no hay partidos de hoy o son pocos, usamos los siguientes 20 más cercanos (mañana)
+            if len(df_dia) < 4:
+                df_dia = df_top_pool.head(20)
 
             for i, (m, tit) in enumerate(mks):
                 with cols[i]:
@@ -254,30 +254,28 @@ with t1:
         df_fin = df_fl if sj=="TODAS" else df_fl[df_fl['Matchday']==sj]
         
         if not df_fin.empty:
+            cols_f = ['1X', 'X2', 'Over 1.5', 'Over 2.5', 'Btts']
             if sl != "TODAS":
-                col_pred, col_tabla = st.columns([2, 1]) 
-                with col_pred:
-                    cols_f = ['1X', 'X2', 'Over 1.5', 'Over 2.5', 'Btts']
-                    st.dataframe(df_fin[['Date', 'Time', 'Matchday', 'League', 'Match'] + cols_f].style.map(aplicar_semaforo, subset=cols_f).format({c: '{:.0%}' for c in cols_f}), use_container_width=True, hide_index=True)
-                with col_tabla:
+                cp, ct = st.columns([2, 1]) 
+                with cp: st.dataframe(df_fin[['Date', 'Time', 'Matchday', 'League', 'Match'] + cols_f].style.map(aplicar_semaforo, subset=cols_f).format({c: '{:.0%}' for c in cols_f}), use_container_width=True, hide_index=True)
+                with ct:
                     st.markdown(f"#### 🏅 Tabla: {sl}")
-                    tabla_pos = generar_tabla_posiciones(df_h, sl)
-                    if not tabla_pos.empty: st.dataframe(tabla_pos, use_container_width=True)
-                    else: st.info("Sin datos de tabla.")
+                    tp = generar_tabla_posiciones(df_h, sl)
+                    if not tp.empty: st.dataframe(tp, use_container_width=True)
+                    else: st.info("Sin datos históricos.")
             else:
-                cols_f = ['1X', 'X2', 'Over 1.5', 'Over 2.5', 'Btts']
                 st.dataframe(df_fin[['Date', 'Time', 'Matchday', 'League', 'Match'] + cols_f].style.map(aplicar_semaforo, subset=cols_f).format({c: '{:.0%}' for c in cols_f}), use_container_width=True, hide_index=True)
             
             st.divider()
-            # --- PREDICCIÓN BOMBA DETALLADA ---
+            # --- PREDICCIÓN BOMBA ---
             d_b = df_fin.loc[df_fin[['Over 1.5', 'Over 2.5', 'Btts']].max(axis=1).idxmax()]
             loc, vis = d_b['Home team'], d_b['Away team']
             h_l = df_h[(df_h['Home team'] == loc) & (df_h['League'] == d_b['League'])]
             h_v = df_h[(df_h['Away team'] == vis) & (df_h['League'] == d_b['League'])]
             if not h_l.empty and not h_v.empty:
-                t_l, g1_l, g2_l = len(h_l), (h_l['G_L'] >= 1).sum(), (h_l['G_L'] >= 2).sum()
-                w_l, t_v, g1_v, g2_v = (h_l['G_L'] >= h_l['G_V']).sum(), len(h_v), (h_v['G_V'] >= 1).sum(), (h_v['G_V'] >= 2).sum()
-                w_v, etq_b = (h_v['G_V'] >= h_v['G_L']).sum(), f"1X: {d_b['1X']:.0%}" if d_b['1X'] >= d_b['X2'] else f"X2: {d_b['X2']:.0%}"
+                t_l, g1_l, g2_l, w_l = len(h_l), (h_l['G_L']>=1).sum(), (h_l['G_L']>=2).sum(), (h_l['G_L']>=h_l['G_V']).sum()
+                t_v, g1_v, g2_v, w_v = len(h_v), (h_v['G_V']>=1).sum(), (h_v['G_V']>=2).sum(), (h_v['G_V']>=h_v['G_L']).sum()
+                etq_b = f"1X: {d_b['1X']:.0%}" if d_b['1X'] >= d_b['X2'] else f"X2: {d_b['X2']:.0%}"
                 st.markdown(f"""
                 <div style="background-color: #ff4b4b; padding: 30px; border-radius: 15px; border-left: 15px solid #8B0000;">
                     <h2 style="color: white !important; margin: 0; text-align: center;">💣 PREDICCIÓN BOMBA DETECTADA 💣</h2>

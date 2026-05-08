@@ -230,15 +230,15 @@ matchday,date,time,home_team,away_team,result,status
 9,02/05/2026,16:45,San Lorenzo,Independiente,1-2,Final
 9,02/05/2026,16:45,Union Santa Fe,Talleres Cordoba,1-1,Final
 9,02/05/2026,19:15,Platense,Estudiantes L.P.,0-2,Final
-9,03/05/2026,11:30,Aldosivi,Independ. Rivadavia,,
-9,03/05/2026,14:00,Belgrano Cordoba,Sarmiento Junin,,
-9,03/05/2026,14:00,Gimnasia L.P.,Argentinos JRS,,
-9,03/05/2026,14:00,Racing Club,Huracan,,
-9,03/05/2026,14:00,Rosario Central,Tigre,,
-9,03/05/2026,16:30,River Plate,Atletico Tucuman,,
-9,04/05/2026,15:00,Gimnasia M.,Defensa Y Justicia,,
-9,04/05/2026,17:15,Velez Sarsfield,Newells Old Boys,,
-9,04/05/2026,19:30,Estudiantes de Rio Cuarto,Instituto Cordoba,,
+9,03/05/2026,11:30,Aldosivi,Independ. Rivadavia,1-1,Final
+9,03/05/2026,14:00,Belgrano Cordoba,Sarmiento Junin,4-0,Final
+9,03/05/2026,14:00,Gimnasia L.P.,Argentinos JRS,2-0,Final
+9,03/05/2026,14:00,Racing Club,Huracan,0-0,Final
+9,03/05/2026,14:00,Rosario Central,Tigre,1-1,Final
+9,03/05/2026,16:30,River Plate,Atletico Tucuman,0-1,Final
+9,04/05/2026,15:00,Gimnasia M.,Defensa Y Justicia,2-1,Final
+9,04/05/2026,17:15,Velez Sarsfield,Newells Old Boys,1-1,Final
+9,04/05/2026,19:30,Estudiantes de Rio Cuarto,Instituto Cordoba,0-2,Final
 1,26/07/2026,15:00,Atletico Tucuman,Independ. Rivadavia,,
 1,26/07/2026,15:00,Belgrano Cordoba,Rosario Central,,
 1,26/07/2026,15:00,Defensa Y Justicia,Aldosivi,,

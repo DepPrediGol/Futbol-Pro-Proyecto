@@ -412,11 +412,11 @@ matchday,date,time,home_team,away_team,result,status
 38,02/05/2026,09:15,Cultural Leonesa,Cadiz,2-2,Final
 38,02/05/2026,11:30,Castellón,Cordoba,1-2,Final
 38,02/05/2026,14:00,Eibar,Malaga,2-4,Final
-38,03/05/2026,07:00,Racing Santander,Huesca,,
-38,03/05/2026,09:15,Sporting Gijon,AD Ceuta FC,,
-38,03/05/2026,11:30,Real Sociedad II,Burgos,,
-38,03/05/2026,14:00,Las Palmas,Valladolid,,
-38,04/05/2026,13:30,Almeria,Mirandes,,
+38,03/05/2026,07:00,Racing Santander,Huesca,4-2,Final
+38,03/05/2026,09:15,Sporting Gijon,AD Ceuta FC,1-2,Final
+38,03/05/2026,11:30,Real Sociedad II,Burgos,0-0,Final
+38,03/05/2026,14:00,Las Palmas,Valladolid,2-1,Final
+38,04/05/2026,13:30,Almeria,Mirandes,4-2,Final
 39,08/05/2026,13:30,Cadiz,Deportivo La Coruna,,
 39,09/05/2026,07:00,AD Ceuta FC,Castellón,,
 39,09/05/2026,09:15,Albacete,Cultural Leonesa,,
@@ -428,17 +428,17 @@ matchday,date,time,home_team,away_team,result,status
 39,10/05/2026,11:30,Cordoba,Granada CF,,
 39,10/05/2026,11:30,Mirandes,Eibar,,
 39,11/05/2026,13:30,Huesca,Real Sociedad II,,
-40,17/05/2026,11:00,Leganes,Huesca,,
-40,17/05/2026,11:00,Deportivo La Coruna,FC Andorra,,
-40,17/05/2026,11:00,Cordoba,Albacete,,
-40,17/05/2026,11:00,Granada CF,Burgos,,
-40,17/05/2026,11:00,Almeria,Las Palmas,,
-40,17/05/2026,11:00,Cultural Leonesa,Eibar,,
-40,17/05/2026,11:00,Zaragoza,Sporting Gijon,,
-40,17/05/2026,11:00,Racing Santander,Valladolid,,
-40,17/05/2026,11:00,Castellón,Cadiz,,
-40,17/05/2026,11:00,Real Sociedad II,Mirandes,,
-40,17/05/2026,11:00,AD Ceuta FC,Malaga,,
+40,15/05/2026,13:30,Castellón,Cadiz,,
+40,15/05/2026,14:00,Cordoba,Albacete,,
+40,16/05/2026,07:00,Real Sociedad II,Mirandes,,
+40,16/05/2026,09:15,Cultural Leonesa,Eibar,,
+40,16/05/2026,09:15,AD Ceuta FC,Malaga,,
+40,16/05/2026,11:30,Granada CF,Burgos,,
+40,16/05/2026,11:30,Almeria,Las Palmas,,
+40,16/05/2026,11:30,Racing Santander,Valladolid,,
+40,17/05/2026,07:00,Deportivo La Coruna,FC Andorra,,
+40,17/05/2026,14:15,Zaragoza,Sporting Gijon,,
+40,18/05/2026,13:30,Leganes,Huesca,,
 41,24/05/2026,11:00,Las Palmas,Zaragoza,,
 41,24/05/2026,11:00,Malaga,Racing Santander,,
 41,24/05/2026,11:00,Eibar,Cordoba,,

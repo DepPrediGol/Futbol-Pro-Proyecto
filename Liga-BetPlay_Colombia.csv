@@ -182,10 +182,18 @@ matchday,date,time,home_team,away_team,result,status
 19,01/05/2026,18:00,Once Caldas,Atletico Nacional,1-0,Final
 19,02/05/2026,14:00,Chico,Llaneros,3-0,Final
 19,02/05/2026,16:00,Jaguares,Cucuta,2-0,Final
-19,03/05/2026,15:30,Independiente Medellin,Águilas Doradas,,
-19,03/05/2026,15:30,Santa Fe,Internacional de Bogota,,
-19,03/05/2026,15:30,Alianza Valledupar,Millonarios,,
-19,03/05/2026,15:30,Deportes Tolima,Deportivo Cali,,
-19,03/05/2026,15:30,Fortaleza FC,Bucaramanga,,
-19,03/05/2026,17:45,Junior,Deportivo Pasto,,
-19,03/05/2026,17:45,America de Cali,Deportivo Pereira,,
+19,03/05/2026,15:30,Independiente Medellin,Águilas Doradas,1-2,Final
+19,03/05/2026,15:30,Santa Fe,Internacional de Bogota,3-1,Final
+19,03/05/2026,15:30,Alianza Valledupar,Millonarios,2-2,Final
+19,03/05/2026,15:30,Deportes Tolima,Deportivo Cali,1-1,Final
+19,03/05/2026,15:30,Fortaleza FC,Bucaramanga,2-1,Final
+19,03/05/2026,17:45,Junior,Deportivo Pasto,4-3,Final
+19,03/05/2026,17:45,America de Cali,Deportivo Pereira,1-0,Final
+20,09/05/2026,16:00,Internacional de Bogota,Atletico Nacional,,
+20,09/05/2026,18:10,Deportes Tolima,Deportivo Pasto,,
+20,09/05/2026,20:20,America de Cali,Santa Fe,,
+20,10/05/2026,18:10,Once Caldas,Junior,,
+21,12/05/2026,18:20,Atletico Nacional,Internacional de Bogota,,
+21,12/05/2026,20:30,Santa Fe,America de Cali,,
+21,13/05/2026,18:00,Deportivo Pasto,Deportes Tolima,,
+21,13/05/2026,20:15,Junior,Once Caldas,,

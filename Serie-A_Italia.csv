@@ -343,12 +343,12 @@ matchday,date,time,home_team,away_team,result,status
 35,02/05/2026,08:00,Udinese,Torino,2-0,Final
 35,02/05/2026,11:00,como,Napoli,0-0,Final
 35,02/05/2026,13:45,Atalanta,Genoa,0-0,Final
-35,03/05/2026,05:30,Bologna,Cagliari,,
-35,03/05/2026,08:00,Sassuolo,AC Milan,,
-35,03/05/2026,11:00,Juventus,Hellas Verona,,
-35,03/05/2026,13:45,Inter,Parma,,
-35,04/05/2026,11:30,Cremonese,Lazio,,
-35,04/05/2026,13:45,AS Roma,Fiorentina,,
+35,03/05/2026,05:30,Bologna,Cagliari,0-0,Final
+35,03/05/2026,08:00,Sassuolo,AC Milan,2-0,Final
+35,03/05/2026,11:00,Juventus,Hellas Verona,1-1,Final
+35,03/05/2026,13:45,Inter,Parma,2-0,Final
+35,04/05/2026,11:30,Cremonese,Lazio,1-2,Final
+35,04/05/2026,13:45,AS Roma,Fiorentina,4-0,Final
 36,08/05/2026,13:45,Torino,Sassuolo,,
 36,09/05/2026,08:00,Cagliari,Udinese,,
 36,09/05/2026,11:00,Lazio,Inter,,

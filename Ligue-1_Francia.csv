@@ -280,11 +280,11 @@ matchday,date,time,home_team,away_team,result,status
 32,02/05/2026,10:00,Paris Saint Germain,Lorient,2-2,Final
 32,02/05/2026,12:00,Metz,Monaco,1-2,Final
 32,02/05/2026,14:05,Nice,Lens,1-1,Final
-32,03/05/2026,08:00,Lille,Le Havre,,
-32,03/05/2026,10:15,Strasbourg,Toulouse,,
-32,03/05/2026,10:15,Auxerre,Angers,,
-32,03/05/2026,10:15,Paris FC,Stade Brestois 29,,
-32,03/05/2026,13:45,Lyon,Rennes,,
+32,03/05/2026,08:00,Lille,Le Havre,1-1,Final
+32,03/05/2026,10:15,Strasbourg,Toulouse,1-2,Final
+32,03/05/2026,10:15,Auxerre,Angers,3-1,Final
+32,03/05/2026,10:15,Paris FC,Stade Brestois 29,4-0,Final
+32,03/05/2026,13:45,Lyon,Rennes,4-2,Final
 33,08/05/2026,13:45,Lens,Nantes,,
 33,10/05/2026,14:00,Angers,Strasbourg,,
 33,10/05/2026,14:00,Paris Saint Germain,Stade Brestois 29,,

@@ -161,9 +161,9 @@ matchday,date,time,home_team,away_team,result,status
 32,27/04/2026,11:00,HNK Gorica,NK Istra 1961,1-0,Final
 33,02/05/2026,10:00,HNK Gorica,Dinamo Zagreb,1-2,Final
 33,02/05/2026,10:00,NK Vukovar 91,NK Osijek,1-0,Final
-33,03/05/2026,10:00,Lokomotiva Zagreb,HNK Rijeka,,
-33,03/05/2026,10:00,Hajduk Split,NK Varaždin,,
-33,04/05/2026,10:00,NK Istra 1961,Slaven Belupo,,
+33,03/05/2026,10:00,Lokomotiva Zagreb,HNK Rijeka,0-3,Final
+33,03/05/2026,10:00,Hajduk Split,NK Varaždin,3-1,Final
+33,04/05/2026,10:00,NK Istra 1961,Slaven Belupo,3-1,Final
 34,08/05/2026,10:00,HNK Rijeka,NK Vukovar 91,,
 34,09/05/2026,10:00,Dinamo Zagreb,Hajduk Split,,
 34,09/05/2026,10:00,NK Varaždin,Lokomotiva Zagreb,,

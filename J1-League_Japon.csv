@@ -134,20 +134,20 @@ matchday,date,time,home_team,away_team,result,status
 14,02/05/2026,00:00,Kyoto Sanga,Shimizu S-pulse,1-2,Final
 14,02/05/2026,01:00,Gamba Osaka,Vissel Kobe,5-0,Final
 14,02/05/2026,02:00,Urawa,JEF United Chiba,2-0,Final
-14,03/05/2026,00:00,Tokyo Verdy,Kashiwa Reysol,,
-14,03/05/2026,01:00,Cerezo Osaka,Avispa Fukuoka,,
-14,03/05/2026,02:00,Kashima,Machida Zelvia,,
-14,03/05/2026,03:00,V-varen Nagasaki,Nagoya Grampus,,
-15,05/05/2026,23:00,Shimizu S-pulse,Cerezo Osaka,,
-15,05/05/2026,23:00,V-varen Nagasaki,Fagiano Okayama,,
-15,06/05/2026,00:00,Nagoya Grampus,Gamba Osaka,,
-15,06/05/2026,00:00,Avispa Fukuoka,Kyoto Sanga,,
-15,06/05/2026,01:00,Sanfrecce Hiroshima,Vissel Kobe,,
-15,06/05/2026,01:00,FC Tokyo,JEF United Chiba,,
-15,06/05/2026,02:00,Kashima,Mito Hollyhock,,
-15,06/05/2026,02:00,Machida Zelvia,Yokohama F. Marinos,,
-15,06/05/2026,03:00,Kawasaki Frontale,Tokyo Verdy,,
-15,06/05/2026,05:00,Kashiwa Reysol,Urawa,,
+14,03/05/2026,00:03,Tokyo Verdy,Kashiwa Reysol,1-0,Final
+14,03/05/2026,01:00,Cerezo Osaka,Avispa Fukuoka,1-1,Final
+14,03/05/2026,02:00,Kashima,Machida Zelvia,1-1,Final
+14,03/05/2026,03:00,V-varen Nagasaki,Nagoya Grampus,1-2,Final
+15,05/05/2026,23:03,Shimizu S-pulse,Cerezo Osaka,1-1,Final
+15,05/05/2026,23:03,V-varen Nagasaki,Fagiano Okayama,2-1,Final
+15,06/05/2026,00:00,Nagoya Grampus,Gamba Osaka,2-1,Final
+15,06/05/2026,00:00,Avispa Fukuoka,Kyoto Sanga,1-1,Final
+15,06/05/2026,01:00,Sanfrecce Hiroshima,Vissel Kobe,1-1,Final
+15,06/05/2026,01:00,FC Tokyo,JEF United Chiba,0-3,Final
+15,06/05/2026,02:00,Kashima,Mito Hollyhock,3-0,Final
+15,06/05/2026,02:00,Machida Zelvia,Yokohama F. Marinos,2-0,Final
+15,06/05/2026,03:00,Kawasaki Frontale,Tokyo Verdy,1-0,Final
+15,06/05/2026,05:00,Kashiwa Reysol,Urawa,0-1,Final
 16,09/05/2026,00:00,Mito Hollyhock,Urawa,,
 16,09/05/2026,02:00,Cerezo Osaka,V-varen Nagasaki,,
 16,10/05/2026,00:00,Shimizu S-pulse,Avispa Fukuoka,,

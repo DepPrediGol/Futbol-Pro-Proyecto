@@ -215,27 +215,27 @@ matchday,date,time,home_team,away_team,result,status
 27,30/04/2026,09:30,Olympique Béja,CA Bizertin,1-0,Final
 27,30/04/2026,09:30,Espérance de Tunis,CS Sfaxien,0-0,Final
 27,30/04/2026,09:30,AS Marsa,Espérance Zarzis,1-0,Final
-28,03/05/2026,12:30,AS Gabès,JS Kairouan,,
-28,03/05/2026,12:30,US Ben Guerdane,AS Soliman,,
-28,03/05/2026,12:30,CS Sfaxien,Olympique Béja,,
-28,03/05/2026,12:30,Club Africain,Stade Tunisien,,
-28,04/05/2026,12:30,Espérance Zarzis,Étoile du Sahel,,
-28,04/05/2026,12:30,CA Bizertin,AS Marsa,,
-28,04/05/2026,12:30,US Monastir,ES Métlaoui,,
-28,04/05/2026,12:30,JS Omrane,Espérance de Tunis,,
-29,08/05/2026,,AS Soliman,AS Gabès,,
-29,08/05/2026,,Étoile du Sahel,CA Bizertin,,
-29,08/05/2026,,AS Marsa,CS Sfaxien,,
-29,08/05/2026,,JS Kairouan,US Monastir,,
-29,08/05/2026,,Stade Tunisien,US Ben Guerdane,,
-29,08/05/2026,,Espérance de Tunis,Club Africain,,
-29,08/05/2026,,Espérance Zarzis,ES Métlaoui,,
-29,08/05/2026,,Olympique Béja,JS Omrane,,
-30,13/05/2026,,ES Métlaoui,JS Kairouan,,
-30,13/05/2026,,JS Omrane,AS Marsa,,
-30,13/05/2026,,CA Bizertin,Espérance Zarzis,,
-30,13/05/2026,,CS Sfaxien,Étoile du Sahel,,
-30,13/05/2026,,Club Africain,Olympique Béja,,
-30,13/05/2026,,US Monastir,AS Soliman,,
-30,13/05/2026,,AS Gabès,Stade Tunisien,,
-30,13/05/2026,,US Ben Guerdane,Espérance de Tunis,,
+28,03/05/2026,12:30,AS Gabès,JS Kairouan,0-2,Final
+28,03/05/2026,12:30,US Ben Guerdane,AS Soliman,0-1,Final
+28,03/05/2026,12:30,CS Sfaxien,Olympique Béja,2-0,Final
+28,03/05/2026,12:30,Club Africain,Stade Tunisien,2-0,Final
+28,04/05/2026,12:30,Espérance Zarzis,Étoile du Sahel,3-1,Final
+28,04/05/2026,12:30,CA Bizertin,AS Marsa,1-2,Final
+28,04/05/2026,12:30,US Monastir,ES Métlaoui,0-1,Final
+28,04/05/2026,12:30,JS Omrane,Espérance de Tunis,0-1,Final
+29,08/05/2026,10:00,AS Soliman,AS Gabès,,
+29,08/05/2026,10:00,Étoile du Sahel,CA Bizertin,,
+29,08/05/2026,10:00,AS Marsa,CS Sfaxien,,
+29,08/05/2026,10:00,JS Kairouan,US Monastir,,
+29,08/05/2026,10:00,Stade Tunisien,US Ben Guerdane,,
+29,08/05/2026,10:00,Espérance de Tunis,Club Africain,,
+29,08/05/2026,10:00,Espérance Zarzis,ES Métlaoui,,
+29,08/05/2026,10:00,Olympique Béja,JS Omrane,,
+30,13/05/2026,10:00,ES Métlaoui,JS Kairouan,,
+30,13/05/2026,10:00,JS Omrane,AS Marsa,,
+30,13/05/2026,10:00,CA Bizertin,Espérance Zarzis,,
+30,13/05/2026,10:00,CS Sfaxien,Étoile du Sahel,,
+30,13/05/2026,10:00,Club Africain,Olympique Béja,,
+30,13/05/2026,10:00,US Monastir,AS Soliman,,
+30,13/05/2026,10:00,AS Gabès,Stade Tunisien,,
+30,13/05/2026,10:00,US Ben Guerdane,Espérance de Tunis,,

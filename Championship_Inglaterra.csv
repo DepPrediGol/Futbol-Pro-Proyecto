@@ -551,3 +551,7 @@ matchday,date,time,home_team,away_team,result,status
 46,02/05/2026,06:30,Swansea,Charlton,3-1,Final
 46,02/05/2026,06:30,Portsmouth,Birmingham,1-1,Final
 46,02/05/2026,06:30,Wrexham,Middlesbrough,2-2,Final
+,08/05/2026,14:00,Hull City,Millwall,,
+,09/05/2026,06:30,Middlesbrough,Southampton,,
+,11/05/2026,14:00,Millwall,Hull City,,
+,12/05/2026,14:00,Southampton,Middlesbrough,,

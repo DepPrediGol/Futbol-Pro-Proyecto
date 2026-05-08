@@ -277,5 +277,6 @@ matchday,date,time,home_team,away_team,result,status
 17,15/04/2026,14:00,Bayern München,Real Madrid,4-3,Final
 18,28/04/2026,14:00,Paris Saint Germain,Bayern München,5-4,Final
 18,29/04/2026,14:00,Atletico Madrid,Arsenal,1-1,Final
-20,05/05/2026,14:00,Arsenal,Atletico Madrid,,
-20,06/05/2026,14:00,Bayern München,Paris Saint Germain,,
+18,05/05/2026,14:00,Arsenal,Atletico Madrid,1-0,Final
+18,06/05/2026,14:00,Bayern München,Paris Saint Germain,1-1,Final
+19,30/05/2026,11:00,Paris Saint Germain,Arsenal,,

@@ -282,11 +282,11 @@ matchday,date,time,home_team,away_team,result,status
 32,01/05/2026,14:30,Sporting CP B,Benfica B,0-1,Final
 32,02/05/2026,05:00,Oliveirense,Lusitânia Lourosa,0-0,Final
 32,02/05/2026,08:00,Academico Viseu,Vizela,0-0,Final
-32,03/05/2026,05:00,Portimonense,Chaves,,
-32,03/05/2026,08:00,Pacos Ferreira,Feirense,,
-32,03/05/2026,09:30,União de Leiria,Farense,,
-32,04/05/2026,12:00,FC Porto B,Felgueiras 1932,,
-32,04/05/2026,12:00,Torreense,Penafiel,,
+32,03/05/2026,05:00,Portimonense,Chaves,3-2,Final
+32,03/05/2026,08:00,Pacos Ferreira,Feirense,1-2,Final
+32,03/05/2026,09:30,União de Leiria,Farense,0-3,Final
+32,04/05/2026,12:00,FC Porto B,Felgueiras 1932,1-0,Final
+32,04/05/2026,12:00,Torreense,Penafiel,3-2,Final
 33,10/05/2026,10:00,Feirense,Oliveirense,,
 33,10/05/2026,10:00,Chaves,Leixoes,,
 33,10/05/2026,10:00,Benfica B,Academico Viseu,,

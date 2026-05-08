@@ -283,10 +283,10 @@ matchday,date,time,home_team,away_team,result,status
 32,02/05/2026,09:30,Arouca,Santa Clara,2-2,Final
 32,02/05/2026,12:00,Famalicao,Benfica,2-2,Final
 32,02/05/2026,14:30,FC Porto,Alverca,1-0,Final
-32,03/05/2026,09:30,Casa Pia,Tondela,,
-32,03/05/2026,12:00,SC Braga,Estoril,,
-32,03/05/2026,14:30,Rio Ave,GIL Vicente,,
-32,04/05/2026,14:15,Sporting CP,Guimaraes,,
+32,03/05/2026,09:30,Casa Pia,Tondela,0-1,Final
+32,03/05/2026,12:00,SC Braga,Estoril,1-1,Final
+32,03/05/2026,14:30,Rio Ave,GIL Vicente,0-0,Final
+32,04/05/2026,14:15,Sporting CP,Guimaraes,5-1,Final
 33,10/05/2026,11:00,Benfica,SC Braga,,
 33,10/05/2026,11:00,Tondela,Moreirense,,
 33,10/05/2026,11:00,Guimaraes,Casa Pia,,

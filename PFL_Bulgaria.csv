@@ -254,13 +254,13 @@ matchday,date,time,home_team,away_team,result,status
 32,02/05/2026,11:00,Levski Sofia,CSKA 1948 Sofia,1-0,Final
 32,03/05/2026,05:30,Arda Kardzhali,Cherno More Varna,0-0,Final
 32,03/05/2026,08:15,Botev Plovdiv,Lokomotiv Plovdiv,0-2,Final
-32,03/05/2026,11:00,CSKA Sofia,PFC Ludogorets Razgrad,,
-33,05/05/2026,09:30,PFC Beroe,PFC Montana,,
-33,05/05/2026,12:00,Lokomotiv Sofia,Botev Vratsa,,
-33,06/05/2026,09:30,Slavia Sofia,Septemvri Sofia,,
-33,06/05/2026,12:00,Spartak Varna,FK Dobrudzha,,
-33,08/05/2026,09:30,CSKA 1948 Sofia,CSKA Sofia,,
-33,08/05/2026,12:00,Lokomotiv Plovdiv,Arda Kardzhali,,
+32,03/05/2026,11:00,CSKA Sofia,PFC Ludogorets Razgrad,1-0,Final
+33,05/05/2026,09:30,PFC Beroe,PFC Montana,2-2,Final
+33,05/05/2026,12:00,Lokomotiv Sofia,Botev Vratsa,2-2,Final
+33,06/05/2026,09:30,Slavia Sofia,Septemvri Sofia,2-1,Final
+33,06/05/2026,12:00,Spartak Varna,FK Dobrudzha,1-1,Final
+33,08/05/2026,12:00,CSKA 1948 Sofia,CSKA Sofia,,
+33,08/05/2026,09:30,Lokomotiv Plovdiv,Arda Kardzhali,,
 33,09/05/2026,08:15,Cherno More Varna,Botev Plovdiv,,
 33,09/05/2026,10:45,Levski Sofia,PFC Ludogorets Razgrad,,
 34,09/05/2026,05:45,PFC Montana,Lokomotiv Sofia,,

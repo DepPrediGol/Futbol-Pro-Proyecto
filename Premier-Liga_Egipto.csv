@@ -275,17 +275,17 @@ matchday,date,time,home_team,away_team,result,status
 5,01/05/2026,12:00,Zamalek,Al Ahly SC,0-3,Final
 8,03/05/2026,09:00,Haras El Hodood,Tala'ea El Gaish SC,0-0,Final
 8,03/05/2026,09:00,ZED FC,El Gouna,2-2,Final
-8,03/05/2026,12:00,Ghazl Al Mehalla,Ismaily,,
-8,03/05/2026,12:00,National Bank SC,Modern Sport FC,,
-8,04/05/2026,09:00,Pharco FC,Al Mokawloon,,
-8,04/05/2026,12:00,Ittihad El Iskandary,PetroJet FC,,
-8,04/05/2026,12:00,Wadi Degla SC,Kahrabaa Ismailia,,
-6,05/05/2026,12:00,Al Ahly SC,ENPPI,,
-6,05/05/2026,12:00,Ceramica Cleopatra,Pyramids FC,,
-6,05/05/2026,12:00,Smouha Sporting Club,Zamalek,,
-9,07/05/2026,09:00,Tala'ea El Gaish SC,Ghazl Al Mehalla,,
-9,07/05/2026,12:00,Haras El Hodood,ZED FC,,
-9,07/05/2026,12:00,National Bank SC,Ismaily,,
+8,03/05/2026,12:00,Ghazl Al Mehalla,Ismaily,0-0,Final
+8,03/05/2026,12:00,National Bank SC,Modern Sport FC,2-1,Final
+8,04/05/2026,09:00,Pharco FC,Al Mokawloon,1-1,Final
+8,04/05/2026,12:00,Ittihad El Iskandary,PetroJet FC,1-2,Final
+8,04/05/2026,12:00,Wadi Degla SC,Kahrabaa Ismailia,1-2,Final
+6,05/05/2026,12:00,Al Ahly SC,ENPPI,3-0,Final
+6,05/05/2026,12:00,Ceramica Cleopatra,Pyramids FC,1-1,Final
+6,05/05/2026,12:00,Smouha Sporting Club,Zamalek,0-1,Final
+9,07/05/2026,09:00,Tala'ea El Gaish SC,Ghazl Al Mehalla,1-0,Final
+9,07/05/2026,12:00,Haras El Hodood,ZED FC,1-2,Final
+9,07/05/2026,12:00,National Bank SC,Ismaily,0-0,Final
 9,08/05/2026,09:00,Al Mokawloon,El Gouna,,
 9,08/05/2026,09:00,PetroJet FC,Wadi Degla SC,,
 9,08/05/2026,12:00,Kahrabaa Ismailia,Pharco FC,,

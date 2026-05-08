@@ -77,21 +77,21 @@ matchday,date,time,home_team,away_team,result,status
 3,30/04/2026,17:00,Bolívar,Fluminense,2-0,Final
 3,30/04/2026,19:00,Corinthians,Penarol,2-0,Final
 3,30/04/2026,21:00,Independiente Medellin,Cusco,1-0,Final
-4,05/05/2026,17:00,Rosario Central,Libertad Asuncion,,
-4,05/05/2026,17:00,Sporting Cristal,Palmeiras,,
-4,05/05/2026,19:00,Barcelona SC,Boca Juniors,,
-4,05/05/2026,19:00,UCV,Independiente del Valle,,
-4,05/05/2026,19:30,Always Ready,Lanus,,
-4,06/05/2026,17:00,Deportivo La Guaira,Bolívar,,
-4,06/05/2026,17:00,Cusco,Estudiantes L.P.,,
-4,06/05/2026,19:30,Independ. Rivadavia,Fluminense,,
-4,06/05/2026,19:30,Santa Fe,Corinthians,,
-4,06/05/2026,21:00,Deportes Tolima,Club Nacional,,
-4,06/05/2026,21:00,U. Catolica,Cruzeiro,,
-4,07/05/2026,17:00,Platense,Penarol,,
-4,07/05/2026,17:00,Mirassol,LDU de Quito,,
-4,07/05/2026,19:00,Coquimbo Unido,Universitario,,
-4,07/05/2026,19:30,Independiente Medellin,Flamengo,,
+4,05/05/2026,17:00,Rosario Central,Libertad Asuncion,1-0,Final
+4,05/05/2026,17:00,Sporting Cristal,Palmeiras,0-2,Final
+4,05/05/2026,19:00,Barcelona SC,Boca Juniors,1-0,Final
+4,05/05/2026,19:00,UCV,Independiente del Valle,2-0,Final
+4,05/05/2026,19:30,Always Ready,Lanus,4-0,Final
+4,06/05/2026,17:00,Deportivo La Guaira,Bolívar,1-1,Final
+4,06/05/2026,17:00,Cusco,Estudiantes L.P.,1-1,Final
+4,06/05/2026,19:30,Independ. Rivadavia,Fluminense,1-1,Final
+4,06/05/2026,19:30,Santa Fe,Corinthians,1-1,Final
+4,06/05/2026,21:00,Deportes Tolima,Club Nacional,3-0,Final
+4,06/05/2026,21:00,U. Catolica,Cruzeiro,0-0,Final
+4,07/05/2026,17:00,Platense,Penarol,1-1,Final
+4,07/05/2026,17:00,Mirassol,LDU de Quito,2-0,Final
+4,07/05/2026,19:00,Coquimbo Unido,Universitario,0-1,En vivo
+4,07/05/2026,19:30,Independiente Medellin,Flamengo,0-0,
 4,07/05/2026,21:00,Junior,Cerro Porteno,,
 5,19/05/2026,17:00,Fluminense,Bolívar,,
 5,19/05/2026,17:00,Rosario Central,UCV,,

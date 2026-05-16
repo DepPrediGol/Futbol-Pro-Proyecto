@@ -102,8 +102,8 @@ matchday,date,time,home_team,away_team,result,status
 13,01/04/2026,16:00,Patriotas,Leones FC,1-0,Final
 11,06/04/2026,18:00,Depor FC,Envigado,1-2,Final
 14,07/04/2026,15:00,Popayan,Ind. Yumbo,0-0,Final
-14,07/04/2026,19:30,Barranquilla,Real Santander,2-0,Final
-14,09/04/2026,16:00,Union Magdalena,Envigado,4-2,Final
+4,07/04/2026,19:30,Barranquilla,Real Santander,2-0,Final
+3,09/04/2026,16:00,Union Magdalena,Envigado,4-2,Final
 14,11/04/2026,14:00,Real Soacha,Tigres FC,0-2,Final
 14,12/04/2026,17:00,Leones FC,Real Santander,1-0,Final
 14,12/04/2026,17:00,Quindio,Depor FC,2-1,Final
@@ -119,15 +119,23 @@ matchday,date,time,home_team,away_team,result,status
 15,18/04/2026,15:30,Depor FC,Union Magdalena,1-3,Final
 15,18/04/2026,15:30,Orsomarso,Leones FC,0-0,Final
 15,18/04/2026,15:30,Ind. Yumbo,Real Soacha,1-1,Final
-16,24/04/2026,18:10,Tigres FC,Internacional Palmira,1-0,Final
-16,24/04/2026,20:15,Quindio,Envigado,2-1,Final
-16,26/04/2026,20:30,Barranquilla,Real Cartagena,0-0,Final
-16,27/04/2026,17:00,Bogota FC,Union Magdalena,1-1,Final
-16,29/04/2026,15:30,Envigado,Tigres FC,2-0,Final
-16,29/04/2026,19:00,Internacional Palmira,Quindio,0-0,Final
-16,02/05/2026,18:00,Real Cartagena,Bogota FC,2-0,Final
-16,04/05/2026,14:00,Envigado,Internacional Palmira,0-0,Final
-16,04/05/2026,16:00,Union Magdalena,Barranquilla,2-0,Final
-16,04/05/2026,19:00,Quindio,Tigres FC,1-0,Final
-16,08/05/2026,17:00,Barranquilla,Bogota FC,,
-16,08/05/2026,19:30,Real Cartagena,Union Magdalena,,
+1,24/04/2026,18:10,Tigres FC,Internacional Palmira,1-0,Final
+1,24/04/2026,20:15,Quindio,Envigado,2-1,Final
+1,26/04/2026,20:30,Barranquilla,Real Cartagena,0-0,Final
+1,27/04/2026,17:00,Bogota FC,Union Magdalena,1-1,Final
+2,29/04/2026,15:30,Envigado,Tigres FC,2-0,Final
+2,29/04/2026,19:00,Internacional Palmira,Quindio,0-0,Final
+2,02/05/2026,18:00,Real Cartagena,Bogota FC,2-0,Final
+3,04/05/2026,14:00,Envigado,Internacional Palmira,0-0,Final
+2,04/05/2026,16:00,Union Magdalena,Barranquilla,2-0,Final
+3,04/05/2026,19:00,Quindio,Tigres FC,1-0,Final
+3,08/05/2026,17:00,Barranquilla,Bogota FC,2-0,Final
+3,08/05/2026,19:30,Real Cartagena,Union Magdalena,2-1,Final
+4,10/05/2026,16:00,Tigres FC,Quindio,0-1,Final
+4,10/05/2026,20:20,Internacional Palmira,Envigado,0-0,Final
+4,12/05/2026,16:00,Union Magdalena,Real Cartagena,3-0,Final
+4,13/05/2026,16:00,Bogota FC,Barranquilla,1-1,Final
+5,14/05/2026,17:00,Tigres FC,Envigado,1-2,Final
+5,14/05/2026,19:45,Quindio,Internacional Palmira,0-1,Final
+5,17/05/2026,17:00,Barranquilla,Union Magdalena,,
+5,17/05/2026,19:40,Bogota FC,Real Cartagena,,

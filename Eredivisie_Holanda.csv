@@ -295,15 +295,15 @@ matchday,date,time,home_team,away_team,result,status
 ,06/05/2026,11:45,Almere City FC,De Graafschap,3-1,Final
 ,09/05/2026,09:30,Willem II,Waalwijk,,
 ,09/05/2026,13:00,De Graafschap,Almere City FC,,
-33,10/05/2026,09:45,Ajax,Utrecht,,
-33,10/05/2026,09:45,Excelsior,FC Volendam,,
-33,10/05/2026,09:45,Groningen,NEC Nijmegen,,
-33,10/05/2026,09:45,NAC Breda,Heerenveen,,
-33,10/05/2026,09:45,Fortuna Sittard,PEC Zwolle,,
-33,10/05/2026,09:45,Feyenoord,AZ Alkmaar,,
-33,10/05/2026,09:45,GO Ahead Eagles,PSV Eindhoven,,
-33,10/05/2026,09:45,Twente,Sparta Rotterdam,,
-33,10/05/2026,09:45,Telstar,Heracles,,
+33,10/05/2026,09:45,Ajax,Utrecht,1-2,Final
+33,10/05/2026,09:45,Excelsior,FC Volendam,1-1,Final
+33,10/05/2026,09:45,Groningen,NEC Nijmegen,2-1,Final
+33,10/05/2026,09:45,Fortuna Sittard,PEC Zwolle,3-2,Final
+33,10/05/2026,09:45,Feyenoord,AZ Alkmaar,1-1,Final
+33,10/05/2026,09:45,GO Ahead Eagles,PSV Eindhoven,1-4,Final
+33,10/05/2026,09:45,Twente,Sparta Rotterdam,4-0,Final
+33,10/05/2026,09:45,Telstar,Heracles,3-0,Final
+33,11/05/2026,07:30,NAC Breda,Heerenveen,2-0,Final
 34,17/05/2026,07:30,PEC Zwolle,Feyenoord,,
 34,17/05/2026,07:30,PSV Eindhoven,Twente,,
 34,17/05/2026,07:30,AZ Alkmaar,NAC Breda,,

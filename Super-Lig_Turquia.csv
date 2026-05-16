@@ -287,21 +287,21 @@ matchday,date,time,home_team,away_team,result,status
 32,03/05/2026,12:00,Kasımpaşa,Kocaelispor,1-1,Final
 32,03/05/2026,12:00,Antalyaspor,Alanyaspor,0-0,Final
 32,03/05/2026,12:00,Fatih Karagümrük,Gençlerbirliği S.K.,1-0,Final
-33,09/05/2026,12:00,Beşiktaş,Trabzonspor,,
-33,09/05/2026,12:00,Başakşehir,Samsunspor,,
-33,09/05/2026,12:00,Konyaspor,Fenerbahçe,,
-33,09/05/2026,12:00,Galatasaray,Antalyaspor,,
-33,09/05/2026,12:00,Göztepe,Gaziantep FK,,
-33,09/05/2026,12:00,Alanyaspor,Kayserispor,,
-33,09/05/2026,12:00,Gençlerbirliği S.K.,Kasımpaşa,,
-33,09/05/2026,12:00,Eyüpspor,Rizespor,,
-33,09/05/2026,12:00,Kocaelispor,Fatih Karagümrük,,
+33,09/05/2026,12:00,Beşiktaş,Trabzonspor,1-2,Final
+33,09/05/2026,12:00,Başakşehir,Samsunspor,3-0,Final
+33,09/05/2026,12:00,Konyaspor,Fenerbahçe,0-3,Final
+33,09/05/2026,12:00,Galatasaray,Antalyaspor,4-2,Final
+33,09/05/2026,12:00,Göztepe,Gaziantep FK,2-1,Final
+33,09/05/2026,12:00,Alanyaspor,Kayserispor,3-1,Final
+33,09/05/2026,12:00,Gençlerbirliği S.K.,Kasımpaşa,3-2,Final
+33,09/05/2026,12:00,Eyüpspor,Rizespor,4-0,Final
+33,09/05/2026,12:00,Kocaelispor,Fatih Karagümrük,0-1,Final
+34,15/05/2026,12:00,Rizespor,Beşiktaş,2-2,Final
+34,16/05/2026,09:00,Fatih Karagümrük,Alanyaspor,,
+34,16/05/2026,12:00,Gaziantep FK,Başakşehir,,
+34,16/05/2026,12:00,Samsunspor,Göztepe,,
+34,17/05/2026,09:00,Kayserispor,Konyaspor,,
 34,17/05/2026,12:00,Fenerbahçe,Eyüpspor,,
 34,17/05/2026,12:00,Trabzonspor,Gençlerbirliği S.K.,,
-34,17/05/2026,12:00,Kayserispor,Konyaspor,,
 34,17/05/2026,12:00,Kasımpaşa,Galatasaray,,
 34,17/05/2026,12:00,Antalyaspor,Kocaelispor,,
-34,17/05/2026,12:00,Rizespor,Beşiktaş,,
-34,17/05/2026,12:00,Gaziantep FK,Başakşehir,,
-34,17/05/2026,12:00,Fatih Karagümrük,Alanyaspor,,
-34,17/05/2026,12:00,Samsunspor,Göztepe,,

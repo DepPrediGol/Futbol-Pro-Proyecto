@@ -359,16 +359,16 @@ matchday,date,time,home_team,away_team,result,status
 36,03/05/2026,06:30,MSV Duisburg,Energie Cottbus,2-1,Final
 36,03/05/2026,09:30,SV Wehen,VfL Osnabrück,2-3,Final
 36,03/05/2026,12:30,FC Ingolstadt 04,Erzgebirge Aue,3-5,Final
-37,08/05/2026,12:00,Erzgebirge Aue,MSV Duisburg,,
-37,09/05/2026,07:00,TSV 1860 Munich,FC Ingolstadt 04,,
-37,09/05/2026,07:00,Energie Cottbus,SV Wehen,,
-37,09/05/2026,07:00,Hansa Rostock,Stuttgart II,,
-37,09/05/2026,07:00,VfL Osnabrück,SSV ULM 1846,,
-37,09/05/2026,07:00,Rot-Weiß Essen,Verl,,
-37,09/05/2026,09:30,Waldhof Mannheim,SSV Jahn Regensburg,,
-37,10/05/2026,06:30,Havelse,FC Schweinfurt 05,,
-37,10/05/2026,09:30,FC Viktoria Köln,Alemannia Aachen,,
-37,10/05/2026,12:30,Hoffenheim II,FC Saarbrücken,,
+37,08/05/2026,12:00,Erzgebirge Aue,MSV Duisburg,0-0,Final
+37,09/05/2026,07:00,TSV 1860 Munich,FC Ingolstadt 04,1-2,Final
+37,09/05/2026,07:00,Energie Cottbus,SV Wehen,2-1,Final
+37,09/05/2026,07:00,Hansa Rostock,Stuttgart II,5-3,Final
+37,09/05/2026,07:00,VfL Osnabrück,SSV ULM 1846,1-1,Final
+37,09/05/2026,07:00,Rot-Weiß Essen,Verl,1-0,Final
+37,09/05/2026,09:30,Waldhof Mannheim,SSV Jahn Regensburg,1-0,Final
+37,10/05/2026,06:30,Havelse,FC Schweinfurt 05,3-2,Final
+37,10/05/2026,09:30,FC Viktoria Köln,Alemannia Aachen,0-3,Final
+37,10/05/2026,12:30,Hoffenheim II,FC Saarbrücken,3-2,Final
 38,16/05/2026,06:30,SSV Jahn Regensburg,Energie Cottbus,,
 38,16/05/2026,06:30,FC Ingolstadt 04,Waldhof Mannheim,,
 38,16/05/2026,06:30,MSV Duisburg,FC Viktoria Köln,,

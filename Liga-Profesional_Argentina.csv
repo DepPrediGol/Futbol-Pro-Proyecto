@@ -239,6 +239,20 @@ matchday,date,time,home_team,away_team,result,status
 9,04/05/2026,15:00,Gimnasia M.,Defensa Y Justicia,2-1,Final
 9,04/05/2026,17:15,Velez Sarsfield,Newells Old Boys,1-1,Final
 9,04/05/2026,19:30,Estudiantes de Rio Cuarto,Instituto Cordoba,0-2,Final
+16,09/05/2026,14:30,Talleres Cordoba,Belgrano Cordoba,0-1,Final
+16,09/05/2026,17:00,Boca Juniors,Huracan,2-3,Final
+16,09/05/2026,19:30,Independ. Rivadavia,Union Santa Fe,1-2,Final
+16,09/05/2026,20:15,Argentinos JRS,Lanus,2-0,Final
+16,10/05/2026,13:00,Rosario Central,Independiente,3-1,Final
+16,10/05/2026,15:00,Estudiantes L.P.,Racing Club,0-1,Final
+16,10/05/2026,17:00,River Plate,San Lorenzo,1-1,Final
+16,10/05/2026,19:30,Velez Sarsfield,Gimnasia L.P.,0-1,Final
+,12/05/2026,17:00,Belgrano Cordoba,Union Santa Fe,2-0,Final
+,12/05/2026,19:30,Argentinos JRS,Huracan,1-0,Final
+,13/05/2026,16:45,Rosario Central,Racing Club,2-1,Final
+,13/05/2026,19:45,River Plate,Gimnasia L.P.,2-0,Final
+,16/05/2026,17:30,River Plate,Rosario Central,,
+,17/05/2026,15:00,Argentinos JRS,Belgrano Cordoba,,
 1,26/07/2026,15:00,Atletico Tucuman,Independ. Rivadavia,,
 1,26/07/2026,15:00,Belgrano Cordoba,Rosario Central,,
 1,26/07/2026,15:00,Defensa Y Justicia,Aldosivi,,

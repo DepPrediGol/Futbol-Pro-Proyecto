@@ -551,7 +551,7 @@ matchday,date,time,home_team,away_team,result,status
 46,02/05/2026,09:00,Barrow,Newport County,1-2,Final
 46,02/05/2026,09:00,Bromley,Walsall,3-1,Final
 46,02/05/2026,09:00,Harrogate Town,Barnet,1-2,Final
-,10/05/2026,09:00,Grimsby,Salford City,,
-,10/05/2026,12:00,Chesterfield,Notts County,,
-,15/05/2026,13:15,Salford City,Grimsby,,
-,15/05/2026,14:00,Notts County,Chesterfield,,
+,10/05/2026,09:00,Grimsby,Salford City,1-2,Final
+,10/05/2026,12:00,Chesterfield,Notts County,0-1,Final
+,15/05/2026,13:15,Salford City,Grimsby,2-2,Final
+,15/05/2026,14:00,Notts County,Chesterfield,0-0,Final

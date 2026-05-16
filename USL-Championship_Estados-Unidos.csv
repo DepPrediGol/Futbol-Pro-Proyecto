@@ -95,17 +95,17 @@ matchday,date,time,home_team,away_team,result,status
 ,02/05/2026,21:30,Las Vegas Lights,Lexington,2-1,Final
 ,03/05/2026,18:00,Monterey Bay,FC Tulsa,1-2,Final
 ,06/05/2026,20:00,New Mexico United,El Paso Locomotive,2-2,Final
-,07/05/2026,19:00,Birmingham Legion,Miami FC,0-0,En vivo
-,08/05/2026,18:30,Lexington,Monterey Bay,,
-,08/05/2026,20:00,Colorado Springs,Orange County SC,,
-,09/05/2026,18:00,Brooklyn,Loudoun United,,
-,09/05/2026,18:00,Hartford Athletic,Detroit City,,
-,09/05/2026,18:00,Indy Eleven,Sporting JAX,,
-,09/05/2026,18:00,Louisville City,Pittsburgh Riverhounds,,
-,09/05/2026,18:30,Rhode Island,Tampa Bay Rowdies,,
-,09/05/2026,20:00,New Mexico United,Las Vegas Lights,,
-,09/05/2026,21:00,Oakland Roots,El Paso Locomotive,,
-,09/05/2026,21:00,Phoenix Rising,San Antonio,,
+,07/05/2026,19:00,Birmingham Legion,Miami FC,0-0,Final
+,08/05/2026,18:30,Lexington,Monterey Bay,3-1,Final
+,08/05/2026,20:00,Colorado Springs,Orange County SC,2-2,Final
+,09/05/2026,18:00,Brooklyn,Loudoun United,0-1,Final
+,09/05/2026,18:00,Hartford Athletic,Detroit City,2-1,Final
+,09/05/2026,18:00,Indy Eleven,Sporting JAX,2-1,Final
+,09/05/2026,18:00,Louisville City,Pittsburgh Riverhounds,0-2,Final
+,09/05/2026,18:30,Rhode Island,Tampa Bay Rowdies,1-1,Final
+,09/05/2026,20:00,New Mexico United,Las Vegas Lights,3-1,Final
+,09/05/2026,21:00,Oakland Roots,El Paso Locomotive,2-1,Final
+,09/05/2026,21:00,Phoenix Rising,San Antonio,1-1,Final
 ,20/05/2026,18:30,Detroit City,Miami FC,,
 ,20/05/2026,20:00,New Mexico United,Tampa Bay Rowdies,,
 ,22/05/2026,19:30,FC Tulsa,Hartford Athletic,,

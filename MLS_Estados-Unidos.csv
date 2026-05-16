@@ -158,35 +158,35 @@ matchday,date,time,home_team,away_team,result,status
 11,02/05/2026,21:30,Los Angeles Galaxy,Vancouver Whitecaps,1-1,Final
 11,03/05/2026,14:00,New York City FC,DC United,0-2,Final
 11,03/05/2026,16:30,Austin,St. Louis City,2-0,Final
-13,09/05/2026,12:00,Toronto FC,Inter Miami,,
-13,09/05/2026,13:30,Chicago Fire,New York Red Bulls,,
-13,09/05/2026,15:30,CF Montreal,Orlando City SC,,
-13,09/05/2026,18:30,Atlanta United FC,Los Angeles Galaxy,,
-13,09/05/2026,18:30,Charlotte,FC Cincinnati,,
-13,09/05/2026,18:30,New England Revolution,Philadelphia Union,,
-13,09/05/2026,19:30,FC Dallas,Real Salt Lake,,
-13,09/05/2026,20:00,Nashville SC,DC United,,
-13,09/05/2026,20:30,Colorado Rapids,St. Louis City,,
-13,09/05/2026,21:30,Seattle Sounders,San Diego,,
-13,09/05/2026,21:30,San Jose Earthquakes,Vancouver Whitecaps,,
-13,09/05/2026,21:30,Portland Timbers,Sporting Kansas City,,
-13,10/05/2026,15:30,New York City FC,Columbus Crew,,
-13,10/05/2026,18:00,Minnesota United FC,Austin,,
-13,10/05/2026,20:00,Los Angeles FC,Houston Dynamo,,
-14,13/05/2026,18:00,Charlotte,New York City FC,,
-14,13/05/2026,18:30,FC Cincinnati,Inter Miami,,
-14,13/05/2026,18:30,Orlando City SC,Philadelphia Union,,
-14,13/05/2026,18:30,New York Red Bulls,Columbus Crew,,
-14,13/05/2026,18:30,New England Revolution,Nashville SC,,
-14,13/05/2026,18:30,CF Montreal,Portland Timbers,,
-14,13/05/2026,18:30,DC United,Chicago Fire,,
-14,13/05/2026,19:30,St. Louis City,Los Angeles FC,,
-14,13/05/2026,19:30,Sporting Kansas City,Los Angeles Galaxy,,
-14,13/05/2026,19:30,FC Dallas,Vancouver Whitecaps,,
-14,13/05/2026,19:30,Minnesota United FC,Colorado Rapids,,
-14,13/05/2026,20:30,Seattle Sounders,San Jose Earthquakes,,
-14,13/05/2026,20:30,San Diego,Austin,,
-14,13/05/2026,20:30,Real Salt Lake,Houston Dynamo,,
+13,09/05/2026,12:00,Toronto FC,Inter Miami,2-4,Final
+13,09/05/2026,13:30,Chicago Fire,New York Red Bulls,1-3,Final
+13,09/05/2026,15:30,CF Montreal,Orlando City SC,2-0,Final
+13,09/05/2026,18:30,Atlanta United FC,Los Angeles Galaxy,1-2,Final
+13,09/05/2026,18:30,Charlotte,FC Cincinnati,2-2,Final
+13,09/05/2026,18:30,New England Revolution,Philadelphia Union,2-1,Final
+13,09/05/2026,19:30,FC Dallas,Real Salt Lake,3-1,Final
+13,09/05/2026,20:15,Nashville SC,DC United,2-2,Final
+13,09/05/2026,20:30,Colorado Rapids,St. Louis City,0-1,Final
+13,09/05/2026,21:30,Seattle Sounders,San Diego,1-1,Final
+13,09/05/2026,21:30,San Jose Earthquakes,Vancouver Whitecaps,1-1,Final
+13,09/05/2026,21:30,Portland Timbers,Sporting Kansas City,6-0,Final
+13,10/05/2026,15:30,New York City FC,Columbus Crew,3-0,Final
+13,10/05/2026,18:00,Minnesota United FC,Austin,2-2,Final
+13,10/05/2026,20:00,Los Angeles FC,Houston Dynamo,1-4,Final
+14,13/05/2026,18:15,Charlotte,New York City FC,0-1,Final
+14,13/05/2026,18:30,FC Cincinnati,Inter Miami,3-5,Final
+14,13/05/2026,18:30,Orlando City SC,Philadelphia Union,4-3,Final
+14,13/05/2026,18:30,New York Red Bulls,Columbus Crew,3-2,Final
+14,13/05/2026,18:30,New England Revolution,Nashville SC,0-3,Final
+14,13/05/2026,18:30,CF Montreal,Portland Timbers,2-2,Final
+14,13/05/2026,18:30,DC United,Chicago Fire,1-3,Final
+14,13/05/2026,19:30,St. Louis City,Los Angeles FC,2-1,Final
+14,13/05/2026,19:30,Sporting Kansas City,Los Angeles Galaxy,3-1,Final
+14,13/05/2026,19:30,FC Dallas,Vancouver Whitecaps,2-3,Final
+14,13/05/2026,19:30,Minnesota United FC,Colorado Rapids,0-1,Final
+14,13/05/2026,20:30,Seattle Sounders,San Jose Earthquakes,3-2,Final
+14,13/05/2026,20:30,San Diego,Austin,5-0,Final
+14,13/05/2026,20:30,Real Salt Lake,Houston Dynamo,3-0,Final
 15,16/05/2026,15:30,CF Montreal,Chicago Fire,,
 15,16/05/2026,18:30,Philadelphia Union,Columbus Crew,,
 15,16/05/2026,18:30,Orlando City SC,Atlanta United FC,,
@@ -196,7 +196,7 @@ matchday,date,time,home_team,away_team,result,status
 15,16/05/2026,18:30,DC United,St. Louis City,,
 15,16/05/2026,19:30,Houston Dynamo,Vancouver Whitecaps,,
 15,16/05/2026,19:30,Austin,Sporting Kansas City,,
-15,16/05/2026,20:00,Seattle Sounders,Los Angeles Galaxy,,
+15,16/05/2026,20:15,Seattle Sounders,Los Angeles Galaxy,,
 15,16/05/2026,20:30,Real Salt Lake,Colorado Rapids,,
 15,16/05/2026,20:30,San Diego,FC Cincinnati,,
 15,16/05/2026,21:30,San Jose Earthquakes,FC Dallas,,
@@ -215,7 +215,7 @@ matchday,date,time,home_team,away_team,result,status
 16,23/05/2026,20:30,Portland Timbers,San Jose Earthquakes,,
 16,23/05/2026,21:30,Los Angeles Galaxy,Houston Dynamo,,
 16,24/05/2026,16:00,Columbus Crew,Atlanta United FC,,
-16,24/05/2026,18:15,Inter Miami,Philadelphia Union,,
+16,24/05/2026,18:00,Inter Miami,Philadelphia Union,,
 16,24/05/2026,20:00,Los Angeles FC,Seattle Sounders,,
 17,16/07/2026,18:30,CF Montreal,Toronto FC,,
 17,16/07/2026,19:30,Chicago Fire,Vancouver Whitecaps,,

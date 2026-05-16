@@ -369,13 +369,21 @@ matchday,date,time,home_team,away_team,result,status
 37,01/05/2026,08:00,Modena,Reggiana,2-1,Final
 37,01/05/2026,08:00,Carrarese,Cesena,0-0,Final
 37,01/05/2026,08:00,Mantova,Monza,3-2,Final
-38,08/05/2026,13:30,Cesena,Padova,,
-38,08/05/2026,13:30,Frosinone,Mantova,,
-38,08/05/2026,13:30,Venezia,Palermo,,
-38,08/05/2026,13:30,Pescara,Spezia,,
-38,08/05/2026,13:30,Virtus Entella,Carrarese,,
-38,08/05/2026,13:30,Avellino,Modena,,
-38,08/05/2026,13:30,Reggiana,Sampdoria,,
-38,08/05/2026,13:30,Sudtirol,Juve Stabia,,
-38,08/05/2026,13:30,Monza,Empoli,,
-38,08/05/2026,13:30,Catanzaro,Bari,,
+38,08/05/2026,13:30,Cesena,Padova,3-4,Final
+38,08/05/2026,13:30,Frosinone,Mantova,5-0,Final
+38,08/05/2026,13:30,Venezia,Palermo,2-0,Final
+38,08/05/2026,13:30,Pescara,Spezia,1-1,Final
+38,08/05/2026,13:30,Virtus Entella,Carrarese,2-1,Final
+38,08/05/2026,13:30,Avellino,Modena,1-0,Final
+38,08/05/2026,13:30,Reggiana,Sampdoria,1-0,Final
+38,08/05/2026,13:30,Sudtirol,Juve Stabia,1-1,Final
+38,08/05/2026,13:30,Monza,Empoli,2-2,Final
+38,08/05/2026,13:30,Catanzaro,Bari,2-3,Final
+,12/05/2026,11:45,Modena,Juve Stabia,0-1,Final
+,12/05/2026,14:00,Catanzaro,Avellino,3-0,Final
+,15/05/2026,13:00,Bari,Sudtirol,0-0,Final
+,16/05/2026,13:00,Juve Stabia,Monza,,
+,17/05/2026,13:00,Catanzaro,Palermo,,
+,19/05/2026,13:00,Monza,Juve Stabia,,
+,20/05/2026,13:00,Palermo,Catanzaro,,
+,22/05/2026,13:00,Sudtirol,Bari,,

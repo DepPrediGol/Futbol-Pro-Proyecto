@@ -339,43 +339,43 @@ matchday,date,time,home_team,away_team,result,status
 34,03/05/2026,11:30,Real Betis,Oviedo,3-0,Final
 34,03/05/2026,14:00,Espanyol,Real Madrid,0-2,Final
 34,04/05/2026,14:00,Sevilla,Real Sociedad,1-0,Final
-35,08/05/2026,14:00,Levante,Osasuna,,
-35,09/05/2026,07:00,Elche,Alaves,,
-35,09/05/2026,09:15,Sevilla,Espanyol,,
-35,09/05/2026,11:30,Atletico Madrid,Celta Vigo,,
-35,09/05/2026,14:00,Real Sociedad,Real Betis,,
-35,10/05/2026,07:00,Mallorca,Villarreal,,
-35,10/05/2026,09:15,Athletic Club,Valencia,,
-35,10/05/2026,11:30,Oviedo,Getafe,,
-35,10/05/2026,14:00,Barcelona,Real Madrid,,
-35,11/05/2026,14:00,Rayo Vallecano,Girona,,
-36,12/05/2026,12:00,Celta Vigo,Levante,,
-36,12/05/2026,13:00,Real Betis,Elche,,
-36,12/05/2026,14:30,Osasuna,Atletico Madrid,,
-36,13/05/2026,12:00,Villarreal,Sevilla,,
-36,13/05/2026,12:00,Espanyol,Athletic Club,,
-36,13/05/2026,14:30,Alaves,Barcelona,,
-36,13/05/2026,14:30,Getafe,Mallorca,,
-36,14/05/2026,12:00,Valencia,Rayo Vallecano,,
-36,14/05/2026,13:00,Girona,Real Sociedad,,
-36,14/05/2026,14:30,Real Madrid,Oviedo,,
-37,17/05/2026,11:00,Barcelona,Real Betis,,
-37,17/05/2026,11:00,Atletico Madrid,Girona,,
-37,17/05/2026,11:00,Athletic Club,Celta Vigo,,
-37,17/05/2026,11:00,Sevilla,Real Madrid,,
-37,17/05/2026,11:00,Levante,Mallorca,,
-37,17/05/2026,11:00,Real Sociedad,Valencia,,
-37,17/05/2026,11:00,Oviedo,Alaves,,
-37,17/05/2026,11:00,Osasuna,Espanyol,,
-37,17/05/2026,11:00,Rayo Vallecano,Villarreal,,
-37,17/05/2026,11:00,Elche,Getafe,,
-38,24/05/2026,11:00,Valencia,Barcelona,,
-38,24/05/2026,11:00,Villarreal,Atletico Madrid,,
-38,24/05/2026,11:00,Celta Vigo,Sevilla,,
-38,24/05/2026,11:00,Espanyol,Real Sociedad,,
-38,24/05/2026,11:00,Real Madrid,Athletic Club,,
-38,24/05/2026,11:00,Alaves,Rayo Vallecano,,
-38,24/05/2026,11:00,Real Betis,Levante,,
-38,24/05/2026,11:00,Getafe,Osasuna,,
-38,24/05/2026,11:00,Girona,Elche,,
-38,24/05/2026,11:00,Mallorca,Oviedo,,
+35,08/05/2026,14:00,Levante,Osasuna,3-2,Final
+35,09/05/2026,07:00,Elche,Alaves,1-1,Final
+35,09/05/2026,09:15,Sevilla,Espanyol,2-1,Final
+35,09/05/2026,11:30,Atletico Madrid,Celta Vigo,0-1,Final
+35,09/05/2026,14:00,Real Sociedad,Real Betis,2-2,Final
+35,10/05/2026,07:00,Mallorca,Villarreal,1-1,Final
+35,10/05/2026,09:15,Athletic Club,Valencia,0-1,Final
+35,10/05/2026,11:30,Oviedo,Getafe,0-0,Final
+35,10/05/2026,14:00,Barcelona,Real Madrid,2-0,Final
+35,11/05/2026,14:00,Rayo Vallecano,Girona,1-1,Final
+36,12/05/2026,12:00,Celta Vigo,Levante,2-3,Final
+36,12/05/2026,13:00,Real Betis,Elche,2-1,Final
+36,12/05/2026,14:30,Osasuna,Atletico Madrid,1-2,Final
+36,13/05/2026,12:00,Villarreal,Sevilla,2-3,Final
+36,13/05/2026,12:00,Espanyol,Athletic Club,2-0,Final
+36,13/05/2026,14:30,Alaves,Barcelona,1-0,Final
+36,13/05/2026,14:30,Getafe,Mallorca,3-1,Final
+36,14/05/2026,12:00,Valencia,Rayo Vallecano,1-1,Final
+36,14/05/2026,13:00,Girona,Real Sociedad,1-1,Final
+36,14/05/2026,14:30,Real Madrid,Oviedo,2-0,Final
+37,17/05/2026,12:00,Atletico Madrid,Girona,,
+37,17/05/2026,12:00,Athletic Club,Celta Vigo,,
+37,17/05/2026,12:00,Sevilla,Real Madrid,,
+37,17/05/2026,12:00,Levante,Mallorca,,
+37,17/05/2026,12:00,Real Sociedad,Valencia,,
+37,17/05/2026,12:00,Oviedo,Alaves,,
+37,17/05/2026,12:00,Osasuna,Espanyol,,
+37,17/05/2026,12:00,Rayo Vallecano,Villarreal,,
+37,17/05/2026,12:00,Elche,Getafe,,
+37,17/05/2026,14:15,Barcelona,Real Betis,,
+38,23/05/2026,14:00,Valencia,Barcelona,,
+38,23/05/2026,14:00,Celta Vigo,Sevilla,,
+38,23/05/2026,14:00,Espanyol,Real Sociedad,,
+38,23/05/2026,14:00,Real Madrid,Athletic Club,,
+38,23/05/2026,14:00,Alaves,Rayo Vallecano,,
+38,23/05/2026,14:00,Real Betis,Levante,,
+38,23/05/2026,14:00,Getafe,Osasuna,,
+38,23/05/2026,14:00,Girona,Elche,,
+38,23/05/2026,14:00,Mallorca,Oviedo,,
+38,24/05/2026,14:00,Villarreal,Atletico Madrid,,

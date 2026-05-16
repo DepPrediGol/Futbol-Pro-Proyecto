@@ -4,14 +4,14 @@ matchday,date,time,home_team,away_team,result,status
 1,23/08/2025,13:45,AC Milan,Cremonese,1-2,Final
 1,23/08/2025,13:45,AS Roma,Bologna,1-0,Final
 1,24/08/2025,11:30,Cagliari,Fiorentina,1-1,Final
-1,24/08/2025,11:30,como,Lazio,2-0,Final
+1,24/08/2025,11:30,Como,Lazio,2-0,Final
 1,24/08/2025,13:45,Juventus,Parma,2-0,Final
 1,24/08/2025,13:45,Atalanta,Pisa,1-1,Final
 1,25/08/2025,11:30,Udinese,Hellas Verona,1-1,Final
 1,25/08/2025,13:45,Inter,Torino,5-0,Final
 2,29/08/2025,11:30,Cremonese,Sassuolo,3-2,Final
 2,29/08/2025,13:45,Lecce,AC Milan,0-2,Final
-2,30/08/2025,11:30,Bologna,como,1-0,Final
+2,30/08/2025,11:30,Bologna,Como,1-0,Final
 2,30/08/2025,11:30,Parma,Atalanta,1-1,Final
 2,30/08/2025,13:45,Napoli,Cagliari,1-0,Final
 2,30/08/2025,13:45,Pisa,AS Roma,0-1,Final
@@ -28,7 +28,7 @@ matchday,date,time,home_team,away_team,result,status
 3,14/09/2025,11:00,Sassuolo,Lazio,1-0,Final
 3,14/09/2025,13:45,AC Milan,Bologna,1-0,Final
 3,15/09/2025,11:30,Hellas Verona,Cremonese,0-0,Final
-3,15/09/2025,13:45,como,Genoa,1-1,Final
+3,15/09/2025,13:45,Como,Genoa,1-1,Final
 4,19/09/2025,13:45,Lecce,Cagliari,1-2,Final
 4,20/09/2025,08:00,Bologna,Genoa,2-1,Final
 4,20/09/2025,11:00,Hellas Verona,Juventus,1-1,Final
@@ -36,10 +36,10 @@ matchday,date,time,home_team,away_team,result,status
 4,21/09/2025,05:30,Lazio,AS Roma,0-1,Final
 4,21/09/2025,08:00,Torino,Atalanta,0-3,Final
 4,21/09/2025,08:00,Cremonese,Parma,0-0,Final
-4,21/09/2025,11:00,Fiorentina,como,1-2,Final
+4,21/09/2025,11:00,Fiorentina,Como,1-2,Final
 4,21/09/2025,13:45,Inter,Sassuolo,2-1,Final
 4,22/09/2025,13:45,Napoli,Pisa,3-2,Final
-5,27/09/2025,08:00,como,Cremonese,1-1,Final
+5,27/09/2025,08:00,Como,Cremonese,1-1,Final
 5,27/09/2025,11:00,Juventus,Atalanta,1-1,Final
 5,27/09/2025,13:45,Cagliari,Inter,0-2,Final
 5,28/09/2025,05:30,Sassuolo,Udinese,3-1,Final
@@ -53,7 +53,7 @@ matchday,date,time,home_team,away_team,result,status
 6,04/10/2025,08:00,Lazio,Torino,3-3,Final
 6,04/10/2025,08:00,Parma,Lecce,0-1,Final
 6,04/10/2025,11:00,Inter,Cremonese,4-1,Final
-6,04/10/2025,13:45,Atalanta,como,1-1,Final
+6,04/10/2025,13:45,Atalanta,Como,1-1,Final
 6,05/10/2025,05:30,Udinese,Cagliari,1-1,Final
 6,05/10/2025,08:00,Bologna,Pisa,4-0,Final
 6,05/10/2025,08:00,Fiorentina,AS Roma,1-2,Final
@@ -63,7 +63,7 @@ matchday,date,time,home_team,away_team,result,status
 7,18/10/2025,08:00,Lecce,Sassuolo,0-0,Final
 7,18/10/2025,11:00,Torino,Napoli,1-0,Final
 7,18/10/2025,13:45,AS Roma,Inter,0-1,Final
-7,19/10/2025,05:30,como,Juventus,2-0,Final
+7,19/10/2025,05:30,Como,Juventus,2-0,Final
 7,19/10/2025,08:00,Cagliari,Bologna,0-2,Final
 7,19/10/2025,08:00,Genoa,Parma,0-0,Final
 7,19/10/2025,11:00,Atalanta,Lazio,0-0,Final
@@ -71,7 +71,7 @@ matchday,date,time,home_team,away_team,result,status
 7,20/10/2025,13:45,Cremonese,Udinese,1-1,Final
 8,24/10/2025,13:45,AC Milan,Pisa,2-2,Final
 8,25/10/2025,08:00,Udinese,Lecce,3-2,Final
-8,25/10/2025,08:00,Parma,como,0-0,Final
+8,25/10/2025,08:00,Parma,Como,0-0,Final
 8,25/10/2025,11:00,Napoli,Inter,3-1,Final
 8,25/10/2025,13:45,Cremonese,Atalanta,1-1,Final
 8,26/10/2025,06:30,Torino,Genoa,2-1,Final
@@ -83,14 +83,14 @@ matchday,date,time,home_team,away_team,result,status
 9,28/10/2025,14:45,Atalanta,AC Milan,1-1,Final
 9,29/10/2025,12:30,Juventus,Udinese,3-1,Final
 9,29/10/2025,12:30,AS Roma,Parma,2-1,Final
-9,29/10/2025,12:30,como,Hellas Verona,3-1,Final
+9,29/10/2025,12:30,Como,Hellas Verona,3-1,Final
 9,29/10/2025,14:45,Genoa,Cremonese,0-2,Final
 9,29/10/2025,14:45,Bologna,Torino,0-0,Final
 9,29/10/2025,14:45,Inter,Fiorentina,3-0,Final
 9,30/10/2025,12:30,Cagliari,Sassuolo,1-2,Final
 9,30/10/2025,14:45,Pisa,Lazio,0-0,Final
 10,01/11/2025,09:00,Udinese,Atalanta,1-0,Final
-10,01/11/2025,12:00,Napoli,como,0-0,Final
+10,01/11/2025,12:00,Napoli,Como,0-0,Final
 10,01/11/2025,14:45,Cremonese,Juventus,1-2,Final
 10,02/11/2025,06:30,Hellas Verona,Inter,1-2,Final
 10,02/11/2025,09:00,Fiorentina,Lecce,0-1,Final
@@ -101,7 +101,7 @@ matchday,date,time,home_team,away_team,result,status
 10,03/11/2025,14:45,Lazio,Cagliari,2-0,Final
 11,07/11/2025,14:45,Pisa,Cremonese,1-0,Final
 11,08/11/2025,09:00,Lecce,Hellas Verona,0-0,Final
-11,08/11/2025,09:00,como,Cagliari,0-0,Final
+11,08/11/2025,09:00,Como,Cagliari,0-0,Final
 11,08/11/2025,12:00,Juventus,Torino,0-0,Final
 11,08/11/2025,14:45,Parma,AC Milan,2-2,Final
 11,09/11/2025,06:30,Atalanta,Sassuolo,0-3,Final
@@ -117,9 +117,9 @@ matchday,date,time,home_team,away_team,result,status
 12,23/11/2025,09:00,Cremonese,AS Roma,1-3,Final
 12,23/11/2025,12:00,Lazio,Lecce,2-0,Final
 12,23/11/2025,14:45,Inter,AC Milan,0-1,Final
-12,24/11/2025,12:30,Torino,como,1-5,Final
+12,24/11/2025,12:30,Torino,Como,1-5,Final
 12,24/11/2025,14:45,Sassuolo,Pisa,2-2,Final
-13,28/11/2025,14:45,como,Sassuolo,2-0,Final
+13,28/11/2025,14:45,Como,Sassuolo,2-0,Final
 13,29/11/2025,09:00,Genoa,Hellas Verona,2-1,Final
 13,29/11/2025,09:00,Parma,Udinese,0-2,Final
 13,29/11/2025,12:00,Juventus,Cagliari,2-1,Final
@@ -130,7 +130,7 @@ matchday,date,time,home_team,away_team,result,status
 13,30/11/2025,14:45,AS Roma,Napoli,0-1,Final
 13,01/12/2025,14:45,Bologna,Cremonese,1-3,Final
 14,06/12/2025,09:00,Sassuolo,Fiorentina,3-1,Final
-14,06/12/2025,12:00,Inter,como,4-0,Final
+14,06/12/2025,12:00,Inter,Como,4-0,Final
 14,06/12/2025,14:45,Hellas Verona,Atalanta,3-1,Final
 14,07/12/2025,06:30,Cremonese,Lecce,2-0,Final
 14,07/12/2025,09:00,Cagliari,AS Roma,1-0,Final
@@ -148,7 +148,7 @@ matchday,date,time,home_team,away_team,result,status
 15,14/12/2025,09:00,Fiorentina,Hellas Verona,1-2,Final
 15,14/12/2025,12:00,Genoa,Inter,1-2,Final
 15,14/12/2025,14:45,Bologna,Juventus,0-1,Final
-15,15/12/2025,14:45,AS Roma,como,1-0,Final
+15,15/12/2025,14:45,AS Roma,Como,1-0,Final
 16,20/12/2025,12:00,Lazio,Cremonese,0-0,Final
 16,20/12/2025,14:45,Juventus,AS Roma,2-1,Final
 16,21/12/2025,06:30,Cagliari,Pisa,2-2,Final
@@ -157,7 +157,7 @@ matchday,date,time,home_team,away_team,result,status
 16,21/12/2025,14:45,Genoa,Atalanta,0-1,Final
 17,27/12/2025,06:30,Parma,Fiorentina,1-0,Final
 17,27/12/2025,09:00,Torino,Cagliari,1-2,Final
-17,27/12/2025,09:00,Lecce,como,0-3,Final
+17,27/12/2025,09:00,Lecce,Como,0-3,Final
 17,27/12/2025,12:00,Udinese,Lazio,1-1,Final
 17,27/12/2025,14:45,Pisa,Juventus,0-2,Final
 17,28/12/2025,06:30,AC Milan,Hellas Verona,3-0,Final
@@ -166,7 +166,7 @@ matchday,date,time,home_team,away_team,result,status
 17,28/12/2025,14:45,Atalanta,Inter,0-1,Final
 17,29/12/2025,14:45,AS Roma,Genoa,3-1,Final
 18,02/01/2026,14:45,Cagliari,AC Milan,0-1,Final
-18,03/01/2026,06:30,como,Udinese,1-0,Final
+18,03/01/2026,06:30,Como,Udinese,1-0,Final
 18,03/01/2026,09:00,Sassuolo,Parma,1-1,Final
 18,03/01/2026,09:00,Genoa,Pisa,1-1,Final
 18,03/01/2026,12:00,Juventus,Lecce,1-1,Final
@@ -175,7 +175,7 @@ matchday,date,time,home_team,away_team,result,status
 18,04/01/2026,09:00,Fiorentina,Cremonese,1-0,Final
 18,04/01/2026,12:00,Hellas Verona,Torino,0-3,Final
 18,04/01/2026,14:45,Inter,Bologna,3-1,Final
-19,06/01/2026,09:00,Pisa,como,0-3,Final
+19,06/01/2026,09:00,Pisa,Como,0-3,Final
 19,06/01/2026,12:00,Lecce,AS Roma,0-2,Final
 19,06/01/2026,14:45,Sassuolo,Juventus,0-3,Final
 19,07/01/2026,12:30,Napoli,Hellas Verona,2-2,Final
@@ -186,7 +186,7 @@ matchday,date,time,home_team,away_team,result,status
 19,08/01/2026,12:30,Cremonese,Cagliari,2-2,Final
 19,08/01/2026,14:45,AC Milan,Genoa,1-1,Final
 20,10/01/2026,09:00,Udinese,Pisa,2-2,Final
-20,10/01/2026,09:00,como,Bologna,1-1,Final
+20,10/01/2026,09:00,Como,Bologna,1-1,Final
 20,10/01/2026,12:00,AS Roma,Sassuolo,2-0,Final
 20,10/01/2026,14:45,Atalanta,Torino,2-0,Final
 20,11/01/2026,06:30,Lecce,Parma,1-2,Final
@@ -198,7 +198,7 @@ matchday,date,time,home_team,away_team,result,status
 16,14/01/2026,12:30,Napoli,Parma,0-0,Final
 16,14/01/2026,14:45,Inter,Lecce,1-0,Final
 16,15/01/2026,12:30,Hellas Verona,Bologna,2-3,Final
-16,15/01/2026,14:45,como,AC Milan,1-3,Final
+16,15/01/2026,14:45,Como,AC Milan,1-3,Final
 21,16/01/2026,14:45,Pisa,Atalanta,1-1,Final
 21,17/01/2026,09:00,Udinese,Inter,0-1,Final
 21,17/01/2026,12:00,Napoli,Sassuolo,1-0,Final
@@ -208,9 +208,9 @@ matchday,date,time,home_team,away_team,result,status
 21,18/01/2026,12:00,Torino,AS Roma,0-2,Final
 21,18/01/2026,14:45,AC Milan,Lecce,1-0,Final
 21,19/01/2026,12:30,Cremonese,Hellas Verona,0-0,Final
-21,19/01/2026,14:45,Lazio,como,0-3,Final
+21,19/01/2026,14:45,Lazio,Como,0-3,Final
 22,23/01/2026,14:45,Inter,Pisa,6-2,Final
-22,24/01/2026,09:00,como,Torino,6-0,Final
+22,24/01/2026,09:00,Como,Torino,6-0,Final
 22,24/01/2026,12:00,Fiorentina,Cagliari,1-2,Final
 22,24/01/2026,14:45,Lecce,Lazio,0-0,Final
 22,25/01/2026,06:30,Sassuolo,Cremonese,1-0,Final
@@ -224,7 +224,7 @@ matchday,date,time,home_team,away_team,result,status
 23,31/01/2026,12:00,Napoli,Fiorentina,2-1,Final
 23,31/01/2026,14:45,Cagliari,Hellas Verona,4-0,Final
 23,01/02/2026,06:30,Torino,Lecce,1-0,Final
-23,01/02/2026,09:00,como,Atalanta,0-0,Final
+23,01/02/2026,09:00,Como,Atalanta,0-0,Final
 23,01/02/2026,12:00,Cremonese,Inter,0-2,Final
 23,01/02/2026,14:45,Parma,Juventus,1-4,Final
 23,02/02/2026,14:45,Udinese,AS Roma,1-0,Final
@@ -239,7 +239,7 @@ matchday,date,time,home_team,away_team,result,status
 24,09/02/2026,12:30,Atalanta,Cremonese,2-1,Final
 24,09/02/2026,14:45,AS Roma,Cagliari,2-0,Final
 25,13/02/2026,14:45,Pisa,AC Milan,1-2,Final
-25,14/02/2026,09:00,como,Fiorentina,1-2,Final
+25,14/02/2026,09:00,Como,Fiorentina,1-2,Final
 25,14/02/2026,12:00,Lazio,Atalanta,0-2,Final
 25,14/02/2026,14:45,Inter,Juventus,3-2,Final
 25,15/02/2026,06:30,Udinese,Sassuolo,1-2,Final
@@ -248,9 +248,9 @@ matchday,date,time,home_team,away_team,result,status
 25,15/02/2026,12:00,Torino,Bologna,1-2,Final
 25,15/02/2026,14:45,Napoli,AS Roma,2-2,Final
 25,16/02/2026,14:45,Cagliari,Lecce,0-2,Final
-24,18/02/2026,14:45,AC Milan,como,1-1,Final
+24,18/02/2026,14:45,AC Milan,Como,1-1,Final
 26,20/02/2026,14:45,Sassuolo,Hellas Verona,3-0,Final
-26,21/02/2026,09:00,Juventus,como,0-2,Final
+26,21/02/2026,09:00,Juventus,Como,0-2,Final
 26,21/02/2026,12:00,Lecce,Inter,0-2,Final
 26,21/02/2026,14:45,Cagliari,Lazio,0-0,Final
 26,22/02/2026,06:30,Genoa,Torino,3-0,Final
@@ -260,7 +260,7 @@ matchday,date,time,home_team,away_team,result,status
 26,23/02/2026,12:30,Fiorentina,Pisa,1-0,Final
 26,23/02/2026,14:45,Bologna,Udinese,1-0,Final
 27,27/02/2026,14:45,Parma,Cagliari,1-1,Final
-27,28/02/2026,09:00,como,Lecce,3-1,Final
+27,28/02/2026,09:00,Como,Lecce,3-1,Final
 27,28/02/2026,12:00,Hellas Verona,Napoli,1-2,Final
 27,28/02/2026,14:45,Inter,Genoa,2-0,Final
 27,01/03/2026,06:30,Cremonese,AC Milan,0-2,Final
@@ -270,7 +270,7 @@ matchday,date,time,home_team,away_team,result,status
 27,02/03/2026,12:30,Pisa,Bologna,0-1,Final
 27,02/03/2026,14:45,Udinese,Fiorentina,3-0,Final
 28,06/03/2026,14:45,Napoli,Torino,2-1,Final
-28,07/03/2026,09:00,Cagliari,como,1-2,Final
+28,07/03/2026,09:00,Cagliari,Como,1-2,Final
 28,07/03/2026,12:00,Atalanta,Udinese,2-2,Final
 28,07/03/2026,14:45,Juventus,Pisa,4-0,Final
 28,08/03/2026,06:30,Lecce,Cremonese,2-1,Final
@@ -286,7 +286,7 @@ matchday,date,time,home_team,away_team,result,status
 29,15/03/2026,06:30,Hellas Verona,Genoa,0-2,Final
 29,15/03/2026,09:00,Sassuolo,Bologna,0-1,Final
 29,15/03/2026,09:00,Pisa,Cagliari,3-1,Final
-29,15/03/2026,12:00,como,AS Roma,2-1,Final
+29,15/03/2026,12:00,Como,AS Roma,2-1,Final
 29,15/03/2026,14:45,Lazio,AC Milan,1-0,Final
 29,16/03/2026,14:45,Cremonese,Fiorentina,1-4,Final
 30,20/03/2026,12:30,Cagliari,Napoli,0-1,Final
@@ -294,7 +294,7 @@ matchday,date,time,home_team,away_team,result,status
 30,21/03/2026,09:00,Parma,Cremonese,0-2,Final
 30,21/03/2026,12:00,AC Milan,Torino,3-2,Final
 30,21/03/2026,14:45,Juventus,Sassuolo,1-1,Final
-30,22/03/2026,06:30,como,Pisa,5-0,Final
+30,22/03/2026,06:30,Como,Pisa,5-0,Final
 30,22/03/2026,09:00,Atalanta,Hellas Verona,1-0,Final
 30,22/03/2026,09:00,Bologna,Lazio,0-2,Final
 30,22/03/2026,12:00,AS Roma,Lecce,1-0,Final
@@ -305,7 +305,7 @@ matchday,date,time,home_team,away_team,result,status
 31,05/04/2026,08:00,Cremonese,Bologna,1-2,Final
 31,05/04/2026,11:00,Pisa,Torino,0-1,Final
 31,05/04/2026,13:45,Inter,AS Roma,5-2,Final
-31,06/04/2026,05:30,Udinese,como,0-0,Final
+31,06/04/2026,05:30,Udinese,Como,0-0,Final
 31,06/04/2026,08:00,Lecce,Atalanta,0-3,Final
 31,06/04/2026,11:00,Juventus,Genoa,2-0,Final
 31,06/04/2026,13:45,Napoli,AC Milan,1-0,Final
@@ -317,9 +317,9 @@ matchday,date,time,home_team,away_team,result,status
 32,12/04/2026,05:30,Genoa,Sassuolo,2-1,Final
 32,12/04/2026,08:00,Parma,Napoli,1-1,Final
 32,12/04/2026,11:00,Bologna,Lecce,2-0,Final
-32,12/04/2026,13:45,como,Inter,3-4,Final
+32,12/04/2026,13:45,Como,Inter,3-4,Final
 32,13/04/2026,13:45,Fiorentina,Lazio,1-0,Final
-33,17/04/2026,11:30,Sassuolo,como,2-1,Final
+33,17/04/2026,11:30,Sassuolo,Como,2-1,Final
 33,17/04/2026,13:45,Inter,Cagliari,3-0,Final
 33,18/04/2026,08:00,Udinese,Parma,0-1,Final
 33,18/04/2026,11:00,Napoli,Lazio,0-2,Final
@@ -334,14 +334,14 @@ matchday,date,time,home_team,away_team,result,status
 34,25/04/2026,11:00,Bologna,AS Roma,0-2,Final
 34,25/04/2026,13:45,Hellas Verona,Lecce,0-0,Final
 34,26/04/2026,05:30,Fiorentina,Sassuolo,0-0,Final
-34,26/04/2026,08:00,Genoa,como,0-2,Final
+34,26/04/2026,08:00,Genoa,Como,0-2,Final
 34,26/04/2026,11:00,Torino,Inter,2-2,Final
 34,26/04/2026,13:45,AC Milan,Juventus,0-0,Final
 34,27/04/2026,11:30,Cagliari,Atalanta,3-2,Final
 34,27/04/2026,13:45,Lazio,Udinese,3-3,Final
 35,01/05/2026,13:45,Pisa,Lecce,1-2,Final
 35,02/05/2026,08:00,Udinese,Torino,2-0,Final
-35,02/05/2026,11:00,como,Napoli,0-0,Final
+35,02/05/2026,11:00,Como,Napoli,0-0,Final
 35,02/05/2026,13:45,Atalanta,Genoa,0-0,Final
 35,03/05/2026,05:30,Bologna,Cagliari,0-0,Final
 35,03/05/2026,08:00,Sassuolo,AC Milan,2-0,Final
@@ -349,26 +349,26 @@ matchday,date,time,home_team,away_team,result,status
 35,03/05/2026,13:45,Inter,Parma,2-0,Final
 35,04/05/2026,11:30,Cremonese,Lazio,1-2,Final
 35,04/05/2026,13:45,AS Roma,Fiorentina,4-0,Final
-36,08/05/2026,13:45,Torino,Sassuolo,,
-36,09/05/2026,08:00,Cagliari,Udinese,,
-36,09/05/2026,11:00,Lazio,Inter,,
-36,09/05/2026,13:45,Lecce,Juventus,,
-36,10/05/2026,05:30,Hellas Verona,como,,
-36,10/05/2026,08:00,Fiorentina,Genoa,,
-36,10/05/2026,08:00,Cremonese,Pisa,,
-36,10/05/2026,11:00,Parma,AS Roma,,
-36,10/05/2026,13:45,AC Milan,Atalanta,,
-36,11/05/2026,13:45,Napoli,Bologna,,
-37,17/05/2026,08:00,Sassuolo,Lecce,,
-37,17/05/2026,08:00,Cagliari,Torino,,
-37,17/05/2026,08:00,Udinese,Cremonese,,
-37,17/05/2026,08:00,Genoa,AC Milan,,
-37,17/05/2026,08:00,Juventus,Fiorentina,,
-37,17/05/2026,08:00,AS Roma,Lazio,,
-37,17/05/2026,08:00,Atalanta,Bologna,,
+36,08/05/2026,13:45,Torino,Sassuolo,2-1,Final
+36,09/05/2026,08:00,Cagliari,Udinese,0-2,Final
+36,09/05/2026,11:00,Lazio,Inter,0-3,Final
+36,09/05/2026,13:45,Lecce,Juventus,0-1,Final
+36,10/05/2026,05:30,Hellas Verona,Como,0-1,Final
+36,10/05/2026,08:00,Fiorentina,Genoa,0-0,Final
+36,10/05/2026,08:00,Cremonese,Pisa,3-0,Final
+36,10/05/2026,11:00,Parma,AS Roma,2-3,Final
+36,10/05/2026,13:45,AC Milan,Atalanta,2-3,Final
+36,11/05/2026,13:45,Napoli,Bologna,2-3,Final
+37,17/05/2026,05:00,Genoa,AC Milan,,
+37,17/05/2026,05:00,Juventus,Fiorentina,,
+37,17/05/2026,05:00,AS Roma,Lazio,,
+37,17/05/2026,05:00,Pisa,Napoli,,
+37,17/05/2026,05:00,Como,Parma,,
 37,17/05/2026,08:00,Inter,Hellas Verona,,
-37,17/05/2026,08:00,Pisa,Napoli,,
-37,17/05/2026,08:00,como,Parma,,
+37,17/05/2026,11:00,Atalanta,Bologna,,
+37,17/05/2026,13:45,Sassuolo,Lecce,,
+37,17/05/2026,13:45,Cagliari,Torino,,
+37,17/05/2026,13:45,Udinese,Cremonese,,
 38,24/05/2026,08:00,Lazio,Pisa,,
 38,24/05/2026,08:00,AC Milan,Cagliari,,
 38,24/05/2026,08:00,Napoli,Udinese,,
@@ -376,6 +376,6 @@ matchday,date,time,home_team,away_team,result,status
 38,24/05/2026,08:00,Fiorentina,Atalanta,,
 38,24/05/2026,08:00,Torino,Juventus,,
 38,24/05/2026,08:00,Hellas Verona,AS Roma,,
-38,24/05/2026,08:00,Cremonese,como,,
+38,24/05/2026,08:00,Cremonese,Como,,
 38,24/05/2026,08:00,Parma,Sassuolo,,
 38,24/05/2026,08:00,Lecce,Genoa,,

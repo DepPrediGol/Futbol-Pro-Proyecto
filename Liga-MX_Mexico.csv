@@ -326,7 +326,11 @@ matchday,date,time,home_team,away_team,result,status
 ,02/05/2026,22:15,Atlas,Cruz Azul,2-3,Final
 ,03/05/2026,18:00,Club America,U.N.A.M. - Pumas,3-3,Final
 ,03/05/2026,20:15,Toluca,CF Pachuca,0-1,Final
-,09/05/2026,20:07,Guadalajara Chivas,Tigres UANL,,
-,09/05/2026,22:15,Cruz Azul,Atlas,,
-,10/05/2026,18:00,CF Pachuca,Toluca,,
-,10/05/2026,20:15,U.N.A.M. - Pumas,Club America,,
+,09/05/2026,20:07,Guadalajara Chivas,Tigres UANL,2-0,Final
+,09/05/2026,22:15,Cruz Azul,Atlas,1-0,Final
+,10/05/2026,18:00,CF Pachuca,Toluca,2-0,Final
+,10/05/2026,20:15,U.N.A.M. - Pumas,Club America,3-3,Final
+,13/05/2026,21:00,Cruz Azul,Guadalajara Chivas,2-2,Final
+,14/05/2026,20:00,CF Pachuca,U.N.A.M. - Pumas,1-0,Final
+,16/05/2026,20:07,Guadalajara Chivas,Cruz Azul,,
+,17/05/2026,20:00,U.N.A.M. - Pumas,CF Pachuca,,

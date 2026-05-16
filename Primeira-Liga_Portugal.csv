@@ -287,21 +287,21 @@ matchday,date,time,home_team,away_team,result,status
 32,03/05/2026,12:00,SC Braga,Estoril,1-1,Final
 32,03/05/2026,14:30,Rio Ave,GIL Vicente,0-0,Final
 32,04/05/2026,14:15,Sporting CP,Guimaraes,5-1,Final
-33,10/05/2026,11:00,Benfica,SC Braga,,
-33,10/05/2026,11:00,Tondela,Moreirense,,
-33,10/05/2026,11:00,Guimaraes,Casa Pia,,
-33,10/05/2026,11:00,Rio Ave,Sporting CP,,
-33,10/05/2026,11:00,Santa Clara,Nacional,,
-33,10/05/2026,11:00,GIL Vicente,Arouca,,
-33,10/05/2026,11:00,Alverca,Estoril,,
-33,10/05/2026,11:00,Estrela,Famalicao,,
-33,10/05/2026,11:00,AVS,FC Porto,,
-34,17/05/2026,11:00,FC Porto,Santa Clara,,
-34,17/05/2026,11:00,Moreirense,AVS,,
-34,17/05/2026,11:00,SC Braga,Estrela,,
-34,17/05/2026,11:00,Nacional,Guimaraes,,
-34,17/05/2026,11:00,Sporting CP,GIL Vicente,,
-34,17/05/2026,11:00,Estoril,Benfica,,
-34,17/05/2026,11:00,Arouca,Tondela,,
-34,17/05/2026,11:00,Famalicao,Alverca,,
-34,17/05/2026,11:00,Casa Pia,Rio Ave,,
+33,10/05/2026,12:00,AVS,FC Porto,3-1,Final
+33,10/05/2026,14:30,Alverca,Estoril,1-1,Final
+33,11/05/2026,14:15,Benfica,SC Braga,2-2,Final
+33,11/05/2026,14:15,Tondela,Moreirense,2-0,Final
+33,11/05/2026,14:15,Guimaraes,Casa Pia,0-1,Final
+33,11/05/2026,14:15,Rio Ave,Sporting CP,1-4,Final
+33,11/05/2026,14:15,Santa Clara,Nacional,2-0,Final
+33,11/05/2026,14:15,GIL Vicente,Arouca,1-3,Final
+33,11/05/2026,14:15,Estrela,Famalicao,0-0,Final
+34,16/05/2026,09:30,FC Porto,Santa Clara,,
+34,16/05/2026,09:30,Moreirense,AVS,,
+34,16/05/2026,12:00,SC Braga,Estrela,,
+34,16/05/2026,12:00,Nacional,Guimaraes,,
+34,16/05/2026,12:00,Arouca,Tondela,,
+34,16/05/2026,12:00,Casa Pia,Rio Ave,,
+34,16/05/2026,14:30,Sporting CP,GIL Vicente,,
+34,16/05/2026,14:30,Estoril,Benfica,,
+34,16/05/2026,14:30,Famalicao,Alverca,,

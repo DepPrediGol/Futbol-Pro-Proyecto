@@ -285,17 +285,19 @@ matchday,date,time,home_team,away_team,result,status
 32,03/05/2026,10:15,Auxerre,Angers,3-1,Final
 32,03/05/2026,10:15,Paris FC,Stade Brestois 29,4-0,Final
 32,03/05/2026,13:45,Lyon,Rennes,4-2,Final
-33,08/05/2026,13:45,Lens,Nantes,,
-33,10/05/2026,14:00,Angers,Strasbourg,,
-33,10/05/2026,14:00,Paris Saint Germain,Stade Brestois 29,,
-33,10/05/2026,14:00,Monaco,Lille,,
-33,10/05/2026,14:00,Rennes,Paris FC,,
-33,10/05/2026,14:00,Toulouse,Lyon,,
-33,10/05/2026,14:00,Auxerre,Nice,,
-33,10/05/2026,14:00,Le Havre,Marseille,,
-33,10/05/2026,14:00,Metz,Lorient,,
-29,13/05/2026,12:00,Stade Brestois 29,Strasbourg,,
-29,13/05/2026,14:00,Lens,Paris Saint Germain,,
+33,08/05/2026,13:45,Lens,Nantes,1-0,Final
+33,10/05/2026,14:00,Angers,Strasbourg,1-1,Final
+33,10/05/2026,14:00,Paris Saint Germain,Stade Brestois 29,1-0,Final
+33,10/05/2026,14:00,Monaco,Lille,0-1,Final
+33,10/05/2026,14:00,Rennes,Paris FC,2-1,Final
+33,10/05/2026,14:00,Toulouse,Lyon,2-1,Final
+33,10/05/2026,14:00,Auxerre,Nice,2-1,Final
+33,10/05/2026,14:00,Le Havre,Marseille,0-1,Final
+33,10/05/2026,14:00,Metz,Lorient,0-4,Final
+,12/05/2026,13:30,RED Star FC 93,Rodez,2-3,Final
+29,13/05/2026,12:00,Stade Brestois 29,Strasbourg,1-2,Final
+29,13/05/2026,14:00,Lens,Paris Saint Germain,0-2,Final
+,15/05/2026,13:30,Saint Etienne,Rodez,0-0,Final
 34,17/05/2026,14:00,Lille,Auxerre,,
 34,17/05/2026,14:00,Lyon,Lens,,
 34,17/05/2026,14:00,Marseille,Rennes,,

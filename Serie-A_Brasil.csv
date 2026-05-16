@@ -139,19 +139,19 @@ matchday,date,time,home_team,away_team,result,status
 14,03/05/2026,16:30,Chapecoense-sc,RB Bragantino,1-2,Final
 14,03/05/2026,16:30,Internacional,Fluminense,2-0,Final
 14,03/05/2026,18:30,Mirassol,Corinthians,2-1,Final
-15,09/05/2026,14:00,Coritiba,Internacional,,
-15,09/05/2026,16:00,Fluminense,Vitoria,,
-15,09/05/2026,19:00,Bahia,Cruzeiro,,
-15,10/05/2026,14:00,Atletico-MG,Botafogo,,
-15,10/05/2026,14:00,Remo,Palmeiras,,
-15,10/05/2026,16:30,Corinthians,Sao Paulo,,
-15,10/05/2026,16:30,Mirassol,Chapecoense-sc,,
-15,10/05/2026,16:30,Santos,RB Bragantino,,
-15,10/05/2026,17:30,Gremio,Flamengo,,
-15,10/05/2026,18:30,Vasco DA Gama,Atletico Paranaense,,
+15,09/05/2026,14:00,Coritiba,Internacional,2-2,Final
+15,09/05/2026,16:00,Fluminense,Vitoria,2-2,Final
+15,09/05/2026,19:00,Bahia,Cruzeiro,1-2,Final
+15,10/05/2026,14:00,Atletico-MG,Botafogo,1-1,Final
+15,10/05/2026,14:00,Remo,Palmeiras,1-1,Final
+15,10/05/2026,16:30,Corinthians,Sao Paulo,3-2,Final
+15,10/05/2026,16:30,Mirassol,Chapecoense-sc,1-1,Final
+15,10/05/2026,16:30,Santos,RB Bragantino,2-0,Final
+15,10/05/2026,17:30,Gremio,Flamengo,0-1,Final
+15,10/05/2026,18:30,Vasco DA Gama,Atletico Paranaense,1-0,Final
 16,16/05/2026,16:30,Atletico-MG,Mirassol,,
 16,16/05/2026,16:30,Internacional,Vasco DA Gama,,
-16,16/05/2026,18:30,Fluminense,Sao Paulo,,
+16,16/05/2026,17:00,Fluminense,Sao Paulo,,
 16,16/05/2026,19:00,Palmeiras,Cruzeiro,,
 16,17/05/2026,09:00,Santos,Coritiba,,
 16,17/05/2026,14:00,Bahia,Gremio,,
@@ -169,16 +169,16 @@ matchday,date,time,home_team,away_team,result,status
 17,24/05/2026,16:30,Corinthians,Atletico-MG,,
 17,24/05/2026,18:30,Vasco DA Gama,RB Bragantino,,
 17,25/05/2026,18:00,Coritiba,Bahia,,
-18,31/05/2026,15:00,Atletico Paranaense,Mirassol,,
-18,31/05/2026,15:00,Bahia,Botafogo,,
-18,31/05/2026,15:00,RB Bragantino,Internacional,,
-18,31/05/2026,15:00,Cruzeiro,Fluminense,,
-18,31/05/2026,15:00,Flamengo,Coritiba,,
-18,31/05/2026,15:00,Gremio,Corinthians,,
-18,31/05/2026,15:00,Palmeiras,Chapecoense-sc,,
-18,31/05/2026,15:00,Remo,Sao Paulo,,
-18,31/05/2026,15:00,Santos,Vitoria,,
-18,31/05/2026,15:00,Vasco DA Gama,Atletico-MG,,
+18,30/05/2026,14:00,Atletico Paranaense,Mirassol,,
+18,30/05/2026,14:00,Flamengo,Coritiba,,
+18,30/05/2026,15:30,Bahia,Botafogo,,
+18,30/05/2026,15:30,Gremio,Corinthians,,
+18,30/05/2026,17:30,Remo,Sao Paulo,,
+18,30/05/2026,19:00,Santos,Vitoria,,
+18,31/05/2026,09:00,RB Bragantino,Internacional,,
+18,31/05/2026,14:00,Palmeiras,Chapecoense-sc,,
+18,31/05/2026,14:00,Vasco DA Gama,Atletico-MG,,
+18,31/05/2026,18:30,Cruzeiro,Fluminense,,
 19,22/07/2026,15:00,Atletico-MG,Bahia,,
 19,22/07/2026,15:00,Botafogo,Santos,,
 19,22/07/2026,15:00,Chapecoense-sc,Flamengo,,

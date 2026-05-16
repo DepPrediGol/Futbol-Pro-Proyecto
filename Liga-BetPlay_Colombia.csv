@@ -189,11 +189,15 @@ matchday,date,time,home_team,away_team,result,status
 19,03/05/2026,15:30,Fortaleza FC,Bucaramanga,2-1,Final
 19,03/05/2026,17:45,Junior,Deportivo Pasto,4-3,Final
 19,03/05/2026,17:45,America de Cali,Deportivo Pereira,1-0,Final
-20,09/05/2026,16:00,Internacional de Bogota,Atletico Nacional,,
-20,09/05/2026,18:10,Deportes Tolima,Deportivo Pasto,,
-20,09/05/2026,20:20,America de Cali,Santa Fe,,
-20,10/05/2026,18:10,Once Caldas,Junior,,
-21,12/05/2026,18:20,Atletico Nacional,Internacional de Bogota,,
-21,12/05/2026,20:30,Santa Fe,America de Cali,,
-21,13/05/2026,18:00,Deportivo Pasto,Deportes Tolima,,
-21,13/05/2026,20:15,Junior,Once Caldas,,
+,09/05/2026,16:00,Internacional de Bogota,Atletico Nacional,1-2,Final
+,09/05/2026,18:10,Deportes Tolima,Deportivo Pasto,1-0,Final
+,09/05/2026,20:20,America de Cali,Santa Fe,1-1,Final
+,10/05/2026,18:10,Once Caldas,Junior,0-1,Final
+,12/05/2026,18:20,Atletico Nacional,Internacional de Bogota,7-1,Final
+,12/05/2026,20:30,Santa Fe,America de Cali,4-0,Final
+,13/05/2026,18:00,Deportivo Pasto,Deportes Tolima,0-2,Final
+,13/05/2026,20:15,Junior,Once Caldas,2-2,Final
+,16/05/2026,18:00,Deportes Tolima,Atletico Nacional,,
+,16/05/2026,20:30,Santa Fe,Junior,,
+,23/05/2026,18:00,Atletico Nacional,Deportes Tolima,,
+,23/05/2026,20:30,Junior,Santa Fe,,

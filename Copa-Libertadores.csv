@@ -93,17 +93,17 @@ matchday,date,time,home_team,away_team,result,status
 4,07/05/2026,19:00,Coquimbo Unido,Universitario,2-1,Final
 4,07/05/2026,19:30,Independiente Medellin,Flamengo,0-0,Suspendido
 4,07/05/2026,21:00,Junior,Cerro Porteno,0-1,Final
-5,19/05/2026,17:00,Fluminense,Bolívar,,
-5,19/05/2026,17:00,Rosario Central,UCV,,
-5,19/05/2026,17:00,Coquimbo Unido,Deportes Tolima,,
-5,19/05/2026,19:00,Santa Fe,Platense,,
-5,19/05/2026,19:00,Always Ready,Mirassol,,
-5,19/05/2026,19:30,Boca Juniors,Cruzeiro,,
-5,19/05/2026,21:00,Independiente del Valle,Libertad Asuncion,,
-5,20/05/2026,17:00,Club Nacional,Universitario,,
-5,20/05/2026,19:30,Palmeiras,Cerro Porteno,,
-5,20/05/2026,19:30,Flamengo,Estudiantes L.P.,,
-5,20/05/2026,19:30,LDU de Quito,Lanus,,
+5,19/05/2026,17:00,Fluminense,Bolívar,2-1,Final
+5,19/05/2026,17:00,Rosario Central,UCV,4-0,Final
+5,19/05/2026,17:00,Coquimbo Unido,Deportes Tolima,3-0,Final
+5,19/05/2026,19:00,Santa Fe,Platense,2-1,Final
+5,19/05/2026,19:00,Always Ready,Mirassol,1-2,Final
+5,19/05/2026,19:30,Boca Juniors,Cruzeiro,1-1,Final
+5,19/05/2026,21:00,Independiente del Valle,Libertad Asuncion,4-1,Final
+5,20/05/2026,17:00,Club Nacional,Universitario,0-0,Final
+5,20/05/2026,19:30,Palmeiras,Cerro Porteno,0-1,En vivo
+5,20/05/2026,19:30,Flamengo,Estudiantes L.P.,0-0,En vivo
+5,20/05/2026,19:30,LDU de Quito,Lanus,0-0,En vivo
 5,20/05/2026,21:00,Junior,Sporting Cristal,,
 5,20/05/2026,21:00,Cusco,Independiente Medellin,,
 5,21/05/2026,17:00,Deportivo La Guaira,Independ. Rivadavia,,

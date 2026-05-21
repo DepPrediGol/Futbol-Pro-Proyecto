@@ -187,22 +187,22 @@ matchday,date,time,home_team,away_team,result,status
 14,13/05/2026,20:30,Seattle Sounders,San Jose Earthquakes,3-2,Final
 14,13/05/2026,20:30,San Diego,Austin,5-0,Final
 14,13/05/2026,20:30,Real Salt Lake,Houston Dynamo,3-0,Final
-15,16/05/2026,15:30,CF Montreal,Chicago Fire,,
-15,16/05/2026,18:30,Philadelphia Union,Columbus Crew,,
-15,16/05/2026,18:30,Orlando City SC,Atlanta United FC,,
-15,16/05/2026,18:30,New York Red Bulls,New York City FC,,
-15,16/05/2026,18:30,Charlotte,Toronto FC,,
-15,16/05/2026,18:30,New England Revolution,Minnesota United FC,,
-15,16/05/2026,18:30,DC United,St. Louis City,,
-15,16/05/2026,19:30,Houston Dynamo,Vancouver Whitecaps,,
-15,16/05/2026,19:30,Austin,Sporting Kansas City,,
-15,16/05/2026,20:15,Seattle Sounders,Los Angeles Galaxy,,
-15,16/05/2026,20:30,Real Salt Lake,Colorado Rapids,,
-15,16/05/2026,20:30,San Diego,FC Cincinnati,,
-15,16/05/2026,21:30,San Jose Earthquakes,FC Dallas,,
-15,17/05/2026,17:00,Inter Miami,Portland Timbers,,
-15,17/05/2026,19:00,Nashville SC,Los Angeles FC,,
-16,23/05/2026,13:30,St. Louis City,Austin,,
+15,16/05/2026,15:30,CF Montreal,Chicago Fire,0-2,Final
+15,16/05/2026,18:30,Philadelphia Union,Columbus Crew,1-1,Final
+15,16/05/2026,18:30,Orlando City SC,Atlanta United FC,1-1,Final
+15,16/05/2026,18:30,New York Red Bulls,New York City FC,1-1,Final
+15,16/05/2026,18:30,Charlotte,Toronto FC,3-1,Final
+15,16/05/2026,18:30,New England Revolution,Minnesota United FC,2-1,Final
+15,16/05/2026,18:30,DC United,St. Louis City,1-1,Final
+15,16/05/2026,19:30,Houston Dynamo,Vancouver Whitecaps,1-0,Final
+15,16/05/2026,19:30,Austin,Sporting Kansas City,1-2,Final
+15,16/05/2026,20:15,Seattle Sounders,Los Angeles Galaxy,0-2,Final
+15,16/05/2026,20:30,Real Salt Lake,Colorado Rapids,2-1,Final
+15,16/05/2026,20:30,San Diego,FC Cincinnati,3-3,Final
+15,16/05/2026,21:30,San Jose Earthquakes,FC Dallas,2-3,Final
+15,17/05/2026,17:00,Inter Miami,Portland Timbers,2-0,Final
+15,17/05/2026,19:00,Nashville SC,Los Angeles FC,3-2,Final
+16,23/05/2026,13:45,St. Louis City,Austin,,
 16,23/05/2026,15:30,Minnesota United FC,Real Salt Lake,,
 16,23/05/2026,18:30,FC Cincinnati,Orlando City SC,,
 16,23/05/2026,18:30,Charlotte,New England Revolution,,

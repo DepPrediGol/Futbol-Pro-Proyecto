@@ -276,32 +276,32 @@ matchday,date,time,home_team,away_team,result,status
 31,03/05/2026,07:45,Zagłębie Lubin,KS Cracovia,0-0,Final
 31,03/05/2026,10:30,Pogoń Szczecin,Wisła Płock,3-0,Final
 31,04/05/2026,12:00,Radomiak Radom,Lechia Gdańsk,3-1,Final
-31,13/05/2026,11:00,Arka Gdynia,Górnik Zabrze,,
-31,13/05/2026,13:30,Raków Częstochowa,Jagiellonia Białystok,,
-32,08/05/2026,11:00,Raków Częstochowa,Korona Kielce,,
-32,08/05/2026,11:00,Lech Poznań,Arka Gdynia,,
-32,09/05/2026,11:00,Widzew Łódź,Lechia Gdańsk,,
-32,09/05/2026,11:00,Jagiellonia Białystok,Pogoń Szczecin,,
-32,09/05/2026,11:00,Górnik Zabrze,Zagłębie Lubin,,
-32,10/05/2026,11:00,Piast Gliwice,GKS Katowice,,
-32,10/05/2026,11:00,Wisła Płock,Motor Lublin,,
-32,10/05/2026,11:00,Bruk-Bet Termalica Nieciecza,Legia Warszawa,,
-32,11/05/2026,11:00,KS Cracovia,Radomiak Radom,,
-33,15/05/2026,11:00,Zagłębie Lubin,Pogoń Szczecin,,
-33,15/05/2026,11:00,Korona Kielce,Widzew Łódź,,
-33,16/05/2026,11:00,Motor Lublin,KS Cracovia,,
-33,16/05/2026,11:00,Wisła Płock,Górnik Zabrze,,
-33,16/05/2026,11:00,Radomiak Radom,Lech Poznań,,
-33,17/05/2026,11:00,Piast Gliwice,Raków Częstochowa,,
-33,17/05/2026,11:00,GKS Katowice,Jagiellonia Białystok,,
-33,17/05/2026,11:00,Lechia Gdańsk,Legia Warszawa,,
-33,18/05/2026,11:00,Arka Gdynia,Bruk-Bet Termalica Nieciecza,,
-34,23/05/2026,11:00,Górnik Zabrze,Radomiak Radom,,
-34,23/05/2026,11:00,Jagiellonia Białystok,Zagłębie Lubin,,
-34,23/05/2026,11:00,KS Cracovia,Korona Kielce,,
-34,23/05/2026,11:00,Lech Poznań,Wisła Płock,,
-34,23/05/2026,11:00,Legia Warszawa,Motor Lublin,,
-34,23/05/2026,11:00,Pogoń Szczecin,GKS Katowice,,
-34,23/05/2026,11:00,Raków Częstochowa,Arka Gdynia,,
-34,23/05/2026,11:00,Bruk-Bet Termalica Nieciecza,Lechia Gdańsk,,
-34,23/05/2026,11:00,Widzew Łódź,Piast Gliwice,,
+31,13/05/2026,11:00,Arka Gdynia,Górnik Zabrze,0-0,Final
+31,13/05/2026,13:30,Raków Częstochowa,Jagiellonia Białystok,0-2,Final
+32,08/05/2026,11:00,Raków Częstochowa,Korona Kielce,2-0,Final
+32,08/05/2026,11:00,Lech Poznań,Arka Gdynia,1-1,Final
+32,09/05/2026,11:00,Widzew Łódź,Lechia Gdańsk,3-1,Final
+32,09/05/2026,11:00,Jagiellonia Białystok,Pogoń Szczecin,3-2,Final
+32,09/05/2026,11:00,Górnik Zabrze,Zagłębie Lubin,0-2,Final
+32,10/05/2026,11:00,Piast Gliwice,GKS Katowice,0-0,Final
+32,10/05/2026,11:00,Wisła Płock,Motor Lublin,0-4,Final
+32,10/05/2026,11:00,Bruk-Bet Termalica Nieciecza,Legia Warszawa,0-1,Final
+32,11/05/2026,11:00,KS Cracovia,Radomiak Radom,0-0,Final
+33,15/05/2026,11:00,Zagłębie Lubin,Pogoń Szczecin,0-1,Final
+33,15/05/2026,11:00,Korona Kielce,Widzew Łódź,1-0,Final
+33,16/05/2026,11:00,Motor Lublin,KS Cracovia,3-3,Final
+33,16/05/2026,11:00,Wisła Płock,Górnik Zabrze,0-1,Final
+33,16/05/2026,11:00,Radomiak Radom,Lech Poznań,1-3,Final
+33,17/05/2026,11:00,Piast Gliwice,Raków Częstochowa,1-3,Final
+33,17/05/2026,11:00,GKS Katowice,Jagiellonia Białystok,2-2,Final
+33,17/05/2026,11:00,Lechia Gdańsk,Legia Warszawa,1-2,Final
+33,18/05/2026,11:00,Arka Gdynia,Bruk-Bet Termalica Nieciecza,2-3,Final
+34,23/05/2026,10:30,Górnik Zabrze,Radomiak Radom,,
+34,23/05/2026,10:30,Jagiellonia Białystok,Zagłębie Lubin,,
+34,23/05/2026,10:30,KS Cracovia,Korona Kielce,,
+34,23/05/2026,10:30,Lech Poznań,Wisła Płock,,
+34,23/05/2026,10:30,Legia Warszawa,Motor Lublin,,
+34,23/05/2026,10:30,Pogoń Szczecin,GKS Katowice,,
+34,23/05/2026,10:30,Raków Częstochowa,Arka Gdynia,,
+34,23/05/2026,10:30,Bruk-Bet Termalica Nieciecza,Lechia Gdańsk,,
+34,23/05/2026,10:30,Widzew Łódź,Piast Gliwice,,

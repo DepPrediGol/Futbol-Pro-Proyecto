@@ -116,33 +116,33 @@ matchday,date,time,home_team,away_team,result,status
 13,03/05/2026,15:30,Alianza Atlético,Sport Huancayo,4-1,Final
 13,04/05/2026,18:00,FBC Melgar,Universidad Técnica,2-0,Final
 13,04/05/2026,13:00,Los Chankas,Deportivo Garcilaso,0-1,Final
-14,08/05/2026,15:00,Universidad Técnica,FC Cajamarca,,
-14,09/05/2026,13:00,CD Moquegua,AD Tarma,,
-14,09/05/2026,15:00,Atlético Grau,Cienciano,,
-14,10/05/2026,20:00,Alianza Lima,Sporting Cristal,,
-14,10/05/2026,13:00,Sport Huancayo,Juan Pablo II College,,
-14,10/05/2026,15:15,Comerciantes Unidos,FBC Melgar,,
-14,11/05/2026,20:00,Cusco FC,Los Chankas,,
-14,11/05/2026,13:00,Deportivo Garcilaso,Alianza Atlético,,
-14,12/05/2026,15:15,Sport Boys,Universitario de Deportes,,
-15,15/05/2026,20:00,FC Cajamarca,Sporting Cristal,,
-15,16/05/2026,13:00,Universitario de Deportes,Atlético Grau,,
-15,16/05/2026,15:15,FBC Melgar,Sport Huancayo,,
-15,16/05/2026,20:00,Juan Pablo II College,Alianza Atlético,,
-15,17/05/2026,13:00,Cienciano,Alianza Lima,,
-15,17/05/2026,15:15,Sport Boys,Cusco FC,,
-15,17/05/2026,20:00,AD Tarma,Comerciantes Unidos,,
-15,17/05/2026,13:00,Deportivo Garcilaso,Universidad Técnica,,
-15,17/05/2026,15:15,Los Chankas,CD Moquegua,,
+14,08/05/2026,15:00,Universidad Técnica,FC Cajamarca,1-2,Final
+14,09/05/2026,13:00,CD Moquegua,AD Tarma,2-2,Final
+14,09/05/2026,15:00,Atlético Grau,Cienciano,1-2,Final
+14,10/05/2026,20:00,Alianza Lima,Sporting Cristal,1-1,Final
+14,10/05/2026,13:00,Sport Huancayo,Juan Pablo II College,2-1,Final
+14,10/05/2026,15:15,Comerciantes Unidos,FBC Melgar,1-1,Final
+14,11/05/2026,20:00,Cusco FC,Los Chankas,1-1,Final
+14,11/05/2026,13:00,Deportivo Garcilaso,Alianza Atlético,2-1,Final
+14,11/05/2026,15:15,Sport Boys,Universitario de Deportes,0-0,Final
+15,15/05/2026,20:00,FC Cajamarca,Sporting Cristal,3-1,Final
+15,15/05/2026,13:00,Universitario de Deportes,Atlético Grau,0-1,Final
+15,16/05/2026,15:15,FBC Melgar,Sport Huancayo,4-1,Final
+15,16/05/2026,20:00,Juan Pablo II College,Alianza Atlético,0-2,Final
+15,16/05/2026,13:00,Cienciano,Alianza Lima,0-1,Final
+15,16/05/2026,15:15,Sport Boys,Cusco FC,1-0,Final
+15,17/05/2026,20:00,AD Tarma,Comerciantes Unidos,2-0,Final
+15,17/05/2026,13:00,Deportivo Garcilaso,Universidad Técnica,2-0,Final
+15,17/05/2026,15:15,Los Chankas,CD Moquegua,1-0,Final
+16,22/05/2026,13:00,Juan Pablo II College,FBC Melgar,,
 16,23/05/2026,20:00,Cusco FC,Atlético Grau,,
-16,23/05/2026,13:00,Juan Pablo II College,FBC Melgar,,
 16,23/05/2026,15:15,Universidad Técnica,Sport Boys,,
 16,23/05/2026,20:00,Alianza Atlético,FC Cajamarca,,
-16,23/05/2026,13:00,Sporting Cristal,AD Tarma,,
-16,23/05/2026,15:15,Alianza Lima,Los Chankas,,
-16,23/05/2026,20:00,Sport Huancayo,Cienciano,,
 16,23/05/2026,13:00,CD Moquegua,Universitario de Deportes,,
-16,23/05/2026,15:15,Comerciantes Unidos,Deportivo Garcilaso,,
+16,23/05/2026,15:15,Alianza Lima,Los Chankas,,
+16,24/05/2026,20:00,Sport Huancayo,Cienciano,,
+16,24/05/2026,13:00,Sporting Cristal,AD Tarma,,
+16,25/05/2026,15:15,Comerciantes Unidos,Deportivo Garcilaso,,
 17,30/05/2026,20:00,AD Tarma,Cusco FC,,
 17,30/05/2026,13:00,Cienciano,Sporting Cristal,,
 17,30/05/2026,15:15,Deportivo Garcilaso,Juan Pablo II College,,

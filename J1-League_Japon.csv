@@ -160,15 +160,15 @@ matchday,date,time,home_team,away_team,result,status
 16,10/05/2026,03:00,JEF United Chiba,Machida Zelvia,0-2,Final
 12,13/05/2026,05:00,Machida Zelvia,Tokyo Verdy,0-0,Final
 12,13/05/2026,05:00,Vissel Kobe,Kyoto Sanga,1-0,Final
-17,16/05/2026,00:00,Mito Hollyhock,Tokyo Verdy,,
-17,16/05/2026,02:00,Urawa,FC Tokyo,,
-17,16/05/2026,03:00,Yokohama F. Marinos,Kashiwa Reysol,,
-17,16/05/2026,23:00,V-varen Nagasaki,Vissel Kobe,,
-17,17/05/2026,00:00,JEF United Chiba,Kashima,,
-17,17/05/2026,00:00,Fagiano Okayama,Shimizu S-pulse,,
-17,17/05/2026,01:00,Cerezo Osaka,Nagoya Grampus,,
-17,17/05/2026,01:00,Kyoto Sanga,Sanfrecce Hiroshima,,
-17,17/05/2026,05:00,Kawasaki Frontale,Machida Zelvia,,
+17,16/05/2026,00:00,Mito Hollyhock,Tokyo Verdy,0-1,Final
+17,16/05/2026,02:00,Urawa,FC Tokyo,0-0,Final
+17,16/05/2026,03:00,Yokohama F. Marinos,Kashiwa Reysol,0-1,Final
+17,16/05/2026,23:00,V-varen Nagasaki,Vissel Kobe,2-2,Final
+17,17/05/2026,00:00,JEF United Chiba,Kashima,0-2,Final
+17,17/05/2026,00:00,Fagiano Okayama,Shimizu S-pulse,2-0,Final
+17,17/05/2026,01:00,Cerezo Osaka,Nagoya Grampus,6-1,Final
+17,17/05/2026,01:00,Kyoto Sanga,Sanfrecce Hiroshima,0-4,Final
+17,17/05/2026,05:00,Kawasaki Frontale,Machida Zelvia,1-1,Final
 18,22/05/2026,05:30,Machida Zelvia,Urawa,,
 18,23/05/2026,00:00,Sanfrecce Hiroshima,Nagoya Grampus,,
 18,23/05/2026,00:00,Avispa Fukuoka,Vissel Kobe,,

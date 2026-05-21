@@ -157,7 +157,8 @@ matchday,date,time,home_team,away_team,result,status
 26,26/04/2026,02:00,Melbourne City FC,Adelaide United,1-2,Final
 27,02/05/2026,02:00,Auckland FC,Melbourne City FC,7-6,Final
 27,02/05/2026,02:00,Melbourne Victory,Sydney FC,0-1,Final
-27,09/05/2026,01:00,Auckland FC,Adelaide United,,
-27,09/05/2026,04:40,Sydney FC,Newcastle United Jets,,
-27,15/05/2026,04:45,Adelaide United,Auckland FC,,
-27,16/05/2026,04:40,Newcastle United Jets,Sydney FC,,
+27,09/05/2026,01:00,Auckland FC,Adelaide United,1-1,Final
+27,09/05/2026,04:40,Sydney FC,Newcastle United Jets,1-1,Final
+27,15/05/2026,04:45,Adelaide United,Auckland FC,0-3,Final
+27,16/05/2026,04:40,Newcastle United Jets,Sydney FC,1-1,Final
+28,23/05/2026,03:10,Auckland FC,Sydney FC,,

@@ -295,22 +295,27 @@ matchday,date,time,home_team,away_team,result,status
 37,03/05/2026,13:00,CS Universitatea Craiova,FC Dinamo Bucureşti,2-1,Final
 37,04/05/2026,12:30,Rapid Bucureşti,CFR Cluj,1-2,Final
 37,04/05/2026,09:30,Unirea Slobozia,FC Hermannstadt,2-2,Final
-38,09/05/2026,12:30,CFR Cluj,CS Universitatea Craiova,,
-38,09/05/2026,12:30,FC Dinamo Bucureşti,Argeș Pitești,,
-38,09/05/2026,12:30,Universitatea Cluj,Rapid Bucureşti,,
-38,09/05/2026,12:30,FC Botoşani,Petrolul Ploieşti,,
-38,09/05/2026,12:30,FCSB,Unirea Slobozia,,
-38,09/05/2026,12:30,Metaloglobus Bucureşti,FC Hermannstadt,,
-38,09/05/2026,12:30,Oţelul Galaţi,Farul Constanța,,
-38,09/05/2026,12:30,UTA Arad,FK Csikszereda,,
-39,16/05/2026,12:30,CS Universitatea Craiova,Universitatea Cluj,,
-39,16/05/2026,12:30,FC Dinamo Bucureşti,CFR Cluj,,
-39,16/05/2026,12:30,Argeș Pitești,Rapid Bucureşti,,
-39,16/05/2026,12:30,FK Csikszereda,FC Botoşani,,
-39,16/05/2026,12:30,Farul Constanța,Metaloglobus Bucureşti,,
-39,16/05/2026,12:30,FC Hermannstadt,FCSB,,
-39,16/05/2026,12:30,Petrolul Ploieşti,Oţelul Galaţi,,
-39,16/05/2026,12:30,Unirea Slobozia,UTA Arad,,
-40,23/05/2026,12:30,CFR Cluj,Argeș Pitești,,
-40,23/05/2026,12:30,Rapid Bucureşti,CS Universitatea Craiova,,
+38,09/05/2026,12:30,CFR Cluj,CS Universitatea Craiova,0-0,Final
+38,09/05/2026,12:30,FC Dinamo Bucureşti,Argeș Pitești,2-1,Final
+38,09/05/2026,12:30,Universitatea Cluj,Rapid Bucureşti,1-0,Final
+38,09/05/2026,12:30,FC Botoşani,Petrolul Ploieşti,1-1,Final
+38,09/05/2026,12:30,FCSB,Unirea Slobozia,0-0,Final
+38,09/05/2026,12:30,Metaloglobus Bucureşti,FC Hermannstadt,2-2,Final
+38,09/05/2026,12:30,Oţelul Galaţi,Farul Constanța,3-2,Final
+38,09/05/2026,12:30,UTA Arad,FK Csikszereda,1-0,Final
+39,16/05/2026,12:30,CS Universitatea Craiova,Universitatea Cluj,5-0,Final
+39,16/05/2026,12:30,FC Dinamo Bucureşti,CFR Cluj,0-0,Final
+39,16/05/2026,12:30,Argeș Pitești,Rapid Bucureşti,2-2,Final
+39,16/05/2026,12:30,FK Csikszereda,FC Botoşani,2-0,Final
+39,16/05/2026,12:30,Farul Constanța,Metaloglobus Bucureşti,0-1,Final
+39,16/05/2026,12:30,FC Hermannstadt,FCSB,2-0,Final
+39,16/05/2026,12:30,Petrolul Ploieşti,Oţelul Galaţi,1-5,Final
+39,16/05/2026,12:30,Unirea Slobozia,UTA Arad,0-1,Final
+40,22/05/2026,12:30,CFR Cluj,Argeș Pitești,,
 40,23/05/2026,12:30,Universitatea Cluj,FC Dinamo Bucureşti,,
+40,23/05/2026,09:30,CF Chindia Targoviste,Farul Constanța,,
+41,24/05/2026,09:30,FC Hermannstadt,FC Voluntari,,
+41,24/05/2026,12:30,FCSB,FC Botoşani,,
+41,25/05/2026,12:30,Rapid Bucureşti,CS Universitatea Craiova,,
+42,31/05/2026,12:30,Farul Constanța,CF Chindia Targoviste,,
+42,01/06/2026,12:30,FC Voluntari,AFC Hermannstadt,,

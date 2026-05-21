@@ -251,8 +251,9 @@ matchday,date,time,home_team,away_team,result,status
 ,12/05/2026,19:30,Argentinos JRS,Huracan,1-0,Final
 ,13/05/2026,16:45,Rosario Central,Racing Club,2-1,Final
 ,13/05/2026,19:45,River Plate,Gimnasia L.P.,2-0,Final
-,16/05/2026,17:30,River Plate,Rosario Central,,
-,17/05/2026,15:00,Argentinos JRS,Belgrano Cordoba,,
+,16/05/2026,17:30,River Plate,Rosario Central,1-0,Final
+,17/05/2026,15:00,Argentinos JRS,Belgrano Cordoba,1-1,Final
+,24/05/2026,13:30,River Plate,Belgrano Cordoba,,
 1,26/07/2026,15:00,Atletico Tucuman,Independ. Rivadavia,,
 1,26/07/2026,15:00,Belgrano Cordoba,Rosario Central,,
 1,26/07/2026,15:00,Defensa Y Justicia,Aldosivi,,

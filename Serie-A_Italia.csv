@@ -359,23 +359,23 @@ matchday,date,time,home_team,away_team,result,status
 36,10/05/2026,11:00,Parma,AS Roma,2-3,Final
 36,10/05/2026,13:45,AC Milan,Atalanta,2-3,Final
 36,11/05/2026,13:45,Napoli,Bologna,2-3,Final
-37,17/05/2026,05:00,Genoa,AC Milan,,
-37,17/05/2026,05:00,Juventus,Fiorentina,,
-37,17/05/2026,05:00,AS Roma,Lazio,,
-37,17/05/2026,05:00,Pisa,Napoli,,
-37,17/05/2026,05:00,Como,Parma,,
-37,17/05/2026,08:00,Inter,Hellas Verona,,
-37,17/05/2026,11:00,Atalanta,Bologna,,
-37,17/05/2026,13:45,Sassuolo,Lecce,,
-37,17/05/2026,13:45,Cagliari,Torino,,
-37,17/05/2026,13:45,Udinese,Cremonese,,
-38,24/05/2026,08:00,Lazio,Pisa,,
-38,24/05/2026,08:00,AC Milan,Cagliari,,
-38,24/05/2026,08:00,Napoli,Udinese,,
-38,24/05/2026,08:00,Bologna,Inter,,
-38,24/05/2026,08:00,Fiorentina,Atalanta,,
-38,24/05/2026,08:00,Torino,Juventus,,
-38,24/05/2026,08:00,Hellas Verona,AS Roma,,
-38,24/05/2026,08:00,Cremonese,Como,,
+37,17/05/2026,05:00,Genoa,AC Milan,1-2,Final
+37,17/05/2026,05:00,Juventus,Fiorentina,0-2,Final
+37,17/05/2026,05:00,AS Roma,Lazio,2-0,Final
+37,17/05/2026,05:00,Pisa,Napoli,0-3,Final
+37,17/05/2026,05:00,Como,Parma,1-0,Final
+37,17/05/2026,08:00,Inter,Hellas Verona,1-1,Final
+37,17/05/2026,11:00,Atalanta,Bologna,0-1,Final
+37,17/05/2026,13:45,Sassuolo,Lecce,2-3,Final
+37,17/05/2026,13:45,Cagliari,Torino,2-1,Final
+37,17/05/2026,13:45,Udinese,Cremonese,0-1,Final
+38,22/05/2026,13:45,Fiorentina,Atalanta,,
+38,23/05/2026,11:00,Bologna,Inter,,
+38,23/05/2026,13:45,Lazio,Pisa,,
 38,24/05/2026,08:00,Parma,Sassuolo,,
-38,24/05/2026,08:00,Lecce,Genoa,,
+38,24/05/2026,11:00,Napoli,Udinese,,
+38,24/05/2026,13:45,AC Milan,Cagliari,,
+38,24/05/2026,13:45,Torino,Juventus,,
+38,24/05/2026,13:45,Hellas Verona,AS Roma,,
+38,24/05/2026,13:45,Cremonese,Como,,
+38,24/05/2026,13:45,Lecce,Genoa,,

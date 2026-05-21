@@ -137,5 +137,8 @@ matchday,date,time,home_team,away_team,result,status
 4,13/05/2026,16:00,Bogota FC,Barranquilla,1-1,Final
 5,14/05/2026,17:00,Tigres FC,Envigado,1-2,Final
 5,14/05/2026,19:45,Quindio,Internacional Palmira,0-1,Final
-5,17/05/2026,17:00,Barranquilla,Union Magdalena,,
-5,17/05/2026,19:40,Bogota FC,Real Cartagena,,
+5,17/05/2026,17:00,Barranquilla,Union Magdalena,1-1,Final
+5,17/05/2026,19:40,Bogota FC,Real Cartagena,1-2,Final
+6,18/05/2026,15:00,Envigado,Quindio,1-0,Final
+6,18/05/2026,19:00,Internacional Palmira,Tigres FC,2-2,Final
+6,21/05/2026,16:00,Union Magdalena,Bogota FC,,

@@ -106,8 +106,8 @@ matchday,date,time,home_team,away_team,result,status
 ,09/05/2026,20:00,New Mexico United,Las Vegas Lights,3-1,Final
 ,09/05/2026,21:00,Oakland Roots,El Paso Locomotive,2-1,Final
 ,09/05/2026,21:00,Phoenix Rising,San Antonio,1-1,Final
-,20/05/2026,18:30,Detroit City,Miami FC,,
-,20/05/2026,20:00,New Mexico United,Tampa Bay Rowdies,,
+,20/05/2026,19:00,Detroit City,Miami FC,1-0,En vivo
+,20/05/2026,20:00,New Mexico United,Tampa Bay Rowdies,0-1,En vivo
 ,22/05/2026,19:30,FC Tulsa,Hartford Athletic,,
 ,23/05/2026,17:00,Loudoun United,Detroit City,,
 ,23/05/2026,18:00,Indy Eleven,Lexington,,
@@ -125,12 +125,12 @@ matchday,date,time,home_team,away_team,result,status
 ,30/05/2026,18:00,Indy Eleven,Rhode Island,,
 ,30/05/2026,18:00,Louisville City,Tampa Bay Rowdies,,
 ,30/05/2026,18:00,Pittsburgh Riverhounds,Miami FC,,
-,30/05/2026,18:00,Sporting JAX,Brooklyn,,
 ,30/05/2026,19:00,Oakland Roots,Colorado Springs,,
 ,30/05/2026,20:00,El Paso Locomotive,Lexington,,
 ,30/05/2026,21:00,Monterey Bay,Loudoun United,,
 ,30/05/2026,21:30,Las Vegas Lights,FC Tulsa,,
 ,30/05/2026,21:30,Phoenix Rising,Sacramento Republic,,
+,31/05/2026,13:00,Sporting JAX,Brooklyn,,
 ,03/06/2026,19:00,Birmingham Legion,Louisville City,,
 ,10/06/2026,18:00,Tampa Bay Rowdies,Charleston Battery,,
 ,10/06/2026,18:30,Detroit City,El Paso Locomotive,,

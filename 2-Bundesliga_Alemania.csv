@@ -296,12 +296,14 @@ matchday,date,time,home_team,away_team,result,status
 33,10/05/2026,06:30,Fortuna Düsseldorf,SV Elversberg,3-1,Final
 33,10/05/2026,06:30,Hertha BSC,SpVgg Greuther Fürth,2-1,Final
 33,10/05/2026,06:30,Preußen Münster,SV Darmstadt 98,1-1,Final
-34,17/05/2026,08:30,Hannover 96,1. FC Nürnberg,,
-34,17/05/2026,08:30,FC Schalke 04,Eintracht Braunschweig,,
-34,17/05/2026,08:30,SpVgg Greuther Fürth,Fortuna Düsseldorf,,
-34,17/05/2026,08:30,1. FC Magdeburg,1. FC Kaiserslautern,,
-34,17/05/2026,08:30,SV Darmstadt 98,SC Paderborn 07,,
-34,17/05/2026,08:30,Dynamo Dresden,Holstein Kiel,,
-34,17/05/2026,08:30,Arminia Bielefeld,Hertha BSC,,
-34,17/05/2026,08:30,Karlsruher SC,VfL Bochum,,
-34,17/05/2026,08:30,SV Elversberg,Preußen Münster,,
+34,17/05/2026,08:30,Hannover 96,1. FC Nürnberg,3-3,Final
+34,17/05/2026,08:30,FC Schalke 04,Eintracht Braunschweig,1-0,Final
+34,17/05/2026,08:30,SpVgg Greuther Fürth,Fortuna Düsseldorf,3-0,Final
+34,17/05/2026,08:30,1. FC Magdeburg,1. FC Kaiserslautern,0-1,Final
+34,17/05/2026,08:30,SV Darmstadt 98,SC Paderborn 07,0-2,Final
+34,17/05/2026,08:30,Dynamo Dresden,Holstein Kiel,2-1,Final
+34,17/05/2026,08:30,Arminia Bielefeld,Hertha BSC,6-1,Final
+34,17/05/2026,08:30,Karlsruher SC,VfL Bochum,1-2,Final
+34,17/05/2026,08:30,SV Elversberg,Preußen Münster,3-0,Final
+,22/05/2026,13:30,Rot-Weiß Essen,SpVgg Greuther Fürth,,
+,26/05/2026,13:30,SpVgg Greuther Fürth,Rot-Weiß Essen,,

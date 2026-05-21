@@ -304,12 +304,14 @@ matchday,date,time,home_team,away_team,result,status
 33,10/05/2026,09:45,Twente,Sparta Rotterdam,4-0,Final
 33,10/05/2026,09:45,Telstar,Heracles,3-0,Final
 33,11/05/2026,07:30,NAC Breda,Heerenveen,2-0,Final
-34,17/05/2026,07:30,PEC Zwolle,Feyenoord,,
-34,17/05/2026,07:30,PSV Eindhoven,Twente,,
-34,17/05/2026,07:30,AZ Alkmaar,NAC Breda,,
-34,17/05/2026,07:30,Heracles,Groningen,,
-34,17/05/2026,07:30,Utrecht,Fortuna Sittard,,
-34,17/05/2026,07:30,Heerenveen,Ajax,,
-34,17/05/2026,07:30,NEC Nijmegen,GO Ahead Eagles,,
-34,17/05/2026,07:30,FC Volendam,Telstar,,
-34,17/05/2026,07:30,Sparta Rotterdam,Excelsior,,
+34,17/05/2026,07:30,PEC Zwolle,Feyenoord,0-2,Final
+34,17/05/2026,07:30,PSV Eindhoven,Twente,5-1,Final
+34,17/05/2026,07:30,AZ Alkmaar,NAC Breda,3-3,Final
+34,17/05/2026,07:30,Heracles,Groningen,1-2,Final
+34,17/05/2026,07:30,Utrecht,Fortuna Sittard,2-0,Final
+34,17/05/2026,07:30,Heerenveen,Ajax,0-0,Final
+34,17/05/2026,07:30,NEC Nijmegen,GO Ahead Eagles,2-1,Final
+34,17/05/2026,07:30,FC Volendam,Telstar,1-2,Final
+34,17/05/2026,07:30,Sparta Rotterdam,Excelsior,2-3,Final
+,21/05/2026,11:45,Ajax,Groningen,,
+,21/05/2026,14:00,Utrecht,Heerenveen,,

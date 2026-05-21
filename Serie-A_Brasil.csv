@@ -154,11 +154,11 @@ matchday,date,time,home_team,away_team,result,status
 16,16/05/2026,17:00,Fluminense,Sao Paulo,2-1,Final
 16,16/05/2026,19:00,Palmeiras,Cruzeiro,1-1,Final
 16,17/05/2026,09:00,Santos,Coritiba,0-3,Final
-16,17/05/2026,14:00,Bahia,Gremio,,
-16,17/05/2026,14:00,Botafogo,Corinthians,,
-16,17/05/2026,16:30,RB Bragantino,Vitoria,,
-16,17/05/2026,16:30,Chapecoense-sc,Remo,,
-16,17/05/2026,17:30,Atletico Paranaense,Flamengo,,
+16,17/05/2026,14:00,Bahia,Gremio,1-1,Final
+16,17/05/2026,14:00,Botafogo,Corinthians,3-1,Final
+16,17/05/2026,16:30,RB Bragantino,Vitoria,2-0,Final
+16,17/05/2026,16:30,Chapecoense-sc,Remo,2-3,Final
+16,17/05/2026,17:30,Atletico Paranaense,Flamengo,1-1,Final
 17,23/05/2026,15:00,Sao Paulo,Botafogo,,
 17,23/05/2026,15:00,Vitoria,Internacional,,
 17,23/05/2026,17:00,Gremio,Santos,,

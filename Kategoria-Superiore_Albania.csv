@@ -174,8 +174,15 @@ matchday,date,time,home_team,away_team,result,status
 35,06/05/2026,09:00,KF Tiranë,FK Vllaznia,1-0,Final
 35,06/05/2026,09:00,KF Bylis Ballsh,AF Elbasani,2-1,Final
 35,06/05/2026,09:00,Egnatia Rrogozhine,FK Partizani,2-0,Final
-36,10/05/2026,09:00,AF Elbasani,KF Tiranë,,
-36,10/05/2026,09:00,FK Partizani,FC Dinamo City,,
-36,10/05/2026,09:00,KF Teuta Durrës,Egnatia Rrogozhine,,
-36,10/05/2026,09:00,FK Vllaznia,Flamurtari Vlorë,,
-36,10/05/2026,09:00,FK Vora,KF Bylis Ballsh,,
+36,10/05/2026,09:00,AF Elbasani,KF Tiranë,1-3,Final
+36,10/05/2026,09:00,FK Partizani,FC Dinamo City,2-1,Final
+36,10/05/2026,09:00,KF Teuta Durrës,Egnatia Rrogozhine,3-2,Final
+36,10/05/2026,09:00,FK Vllaznia,Flamurtari Vlorë,2-0,Final
+36,10/05/2026,09:00,FK Vora,KF Bylis Ballsh,5-2,Final
+37,16/05/2026,09:00,FK Vllaznia,FC Dinamo City,0-2,Final
+37,16/05/2026,09:00,KF Teuta Durrës,KS Pogradeci,1-0,Final
+37,17/05/2026,09:00,AF Elbasani,KF Egnatia,0-4,Final
+38,23/05/2026,12:00,FK Vllaznia,KF Egnatia,,
+38,24/05/2026,12:00,AF Elbasani,FC Dinamo City,,
+38,29/05/2026,12:00,KF Egnatia,FC Dinamo City,,
+38,31/05/2026,12:00,FK Vllaznia,AF Elbasani,,

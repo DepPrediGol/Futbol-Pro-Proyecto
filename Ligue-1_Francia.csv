@@ -294,16 +294,18 @@ matchday,date,time,home_team,away_team,result,status
 33,10/05/2026,14:00,Auxerre,Nice,2-1,Final
 33,10/05/2026,14:00,Le Havre,Marseille,0-1,Final
 33,10/05/2026,14:00,Metz,Lorient,0-4,Final
-33,12/05/2026,13:30,RED Star FC 93,Rodez,2-3,Final
+,12/05/2026,13:30,RED Star FC 93,Rodez,2-3,Final
 29,13/05/2026,12:00,Stade Brestois 29,Strasbourg,1-2,Final
 29,13/05/2026,14:00,Lens,Paris Saint Germain,0-2,Final
-33,15/05/2026,13:30,Saint Etienne,Rodez,0-0,Final
-34,17/05/2026,14:00,Lille,Auxerre,,
-34,17/05/2026,14:00,Lyon,Lens,,
-34,17/05/2026,14:00,Marseille,Rennes,,
-34,17/05/2026,14:00,Nantes,Toulouse,,
-34,17/05/2026,14:00,Nice,Metz,,
-34,17/05/2026,14:00,Strasbourg,Monaco,,
-34,17/05/2026,14:00,Lorient,Le Havre,,
-34,17/05/2026,14:00,Stade Brestois 29,Angers,,
-34,17/05/2026,14:00,Paris FC,Paris Saint Germain,,
+,15/05/2026,13:30,Saint Etienne,Rodez,0-0,Final
+34,17/05/2026,14:00,Lille,Auxerre,0-2,Final
+34,17/05/2026,14:00,Lyon,Lens,0-4,Final
+34,17/05/2026,14:00,Marseille,Rennes,3-1,Final
+34,17/05/2026,14:00,Nantes,Toulouse,0-0,Suspendido
+34,17/05/2026,14:00,Nice,Metz,0-0,Final
+34,17/05/2026,14:00,Strasbourg,Monaco,5-4,Final
+34,17/05/2026,14:00,Lorient,Le Havre,0-2,Final
+34,17/05/2026,14:00,Stade Brestois 29,Angers,1-1,Final
+34,17/05/2026,14:00,Paris FC,Paris Saint Germain,2-1,Final
+,26/05/2026,13:45,Saint Etienne,Nice,,
+,29/05/2026,13:45,Nice,Saint Etienne,,

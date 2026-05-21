@@ -300,15 +300,15 @@ matchday,date,time,home_team,away_team,result,status
 37,10/05/2026,11:30,Union St. Gilloise,KV Mechelen,3-0,Final
 37,10/05/2026,12:15,Genk,KVC Westerlo,3-0,Final
 38,15/05/2026,13:45,OH Leuven,Antwerp,3-0,Final
-38,16/05/2026,09:00,Charleroi,KVC Westerlo,,
-38,16/05/2026,11:15,Standard Liege,Genk,,
-38,16/05/2026,13:45,St. Truiden,Gent,,
-38,17/05/2026,06:30,Anderlecht,KV Mechelen,,
-,17/05/2026,09:00,Lommel United,Dender,,
-38,17/05/2026,11:30,Club Brugge KV,Union St. Gilloise,,
-39,19/05/2026,13:30,KVC Westerlo,Standard Liege,,
-39,19/05/2026,13:30,Charleroi,OH Leuven,,
-39,19/05/2026,13:30,Genk,Antwerp,,
+38,16/05/2026,09:00,Charleroi,KVC Westerlo,0-1,Final
+38,16/05/2026,11:15,Standard Liege,Genk,0-0,Final
+38,16/05/2026,13:45,St. Truiden,Gent,1-1,Final
+38,17/05/2026,06:30,Anderlecht,KV Mechelen,2-2,Final
+,17/05/2026,09:00,Lommel United,Dender,3-2,Final
+38,17/05/2026,11:30,Club Brugge KV,Union St. Gilloise,5-0,Final
+39,19/05/2026,13:30,KVC Westerlo,Standard Liege,1-2,Final
+39,19/05/2026,13:30,Charleroi,OH Leuven,1-1,Final
+39,19/05/2026,13:30,Genk,Antwerp,0-0,Final
 39,21/05/2026,13:30,KV Mechelen,Club Brugge KV,,
 39,21/05/2026,13:30,Anderlecht,St. Truiden,,
 39,21/05/2026,13:30,Gent,Union St. Gilloise,,

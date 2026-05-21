@@ -149,13 +149,29 @@ matchday,date,time,home_team,away_team,result,status
 19,07/05/2026,11:00,Difaâ Hassani El Jadidi,Hassania US Agadir,2-2,Final
 19,07/05/2026,13:00,RS Berkane,Union Touarga Sport,4-3,Final
 19,07/05/2026,15:00,FAR de Rabat,Olympique de Safi,1-1,Final
-19,08/05/2026,11:00,Olympique Dcheira,US Yacoub El Mansour,,
-19,08/05/2026,13:00,Kawkab AC Marrakech,RCA Zemamra,,
-20,09/05/2026,15:00,Raja Casablanca,Wydad AC,,
-20,10/05/2026,11:00,Ittihad Tanger,Difaâ Hassani El Jadidi,,
-20,10/05/2026,13:00,Union Touarga Sport,Maghrib de Fès,,
-20,10/05/2026,15:00,COD Meknès,RS Berkane,,
-20,10/05/2026,11:00,Hassania US Agadir,FAR de Rabat,,
-20,11/05/2026,13:00,Olympique de Safi,FUS de Rabat,,
-20,11/05/2026,15:00,US Yacoub El Mansour,Kawkab AC Marrakech,,
-20,11/05/2026,11:00,RCA Zemamra,Olympique Dcheira,,
+19,08/05/2026,11:00,Olympique Dcheira,US Yacoub El Mansour,1-1,Final
+19,08/05/2026,13:00,Kawkab AC Marrakech,RCA Zemamra,1-2,Final
+20,09/05/2026,15:00,Raja Casablanca,Wydad AC,0-1,Final
+20,10/05/2026,11:00,Ittihad Tanger,Difaâ Hassani El Jadidi,1-1,Final
+20,10/05/2026,13:00,Union Touarga Sport,Maghrib de Fès,0-1,Final
+20,10/05/2026,15:00,COD Meknès,RS Berkane,0-1,Final
+20,10/05/2026,11:00,Hassania US Agadir,FAR de Rabat,2-3,Final
+20,11/05/2026,13:00,Olympique de Safi,FUS de Rabat,1-1,Final
+20,11/05/2026,15:00,US Yacoub El Mansour,Kawkab AC Marrakech,2-1,Final
+20,11/05/2026,11:00,RCA Zemamra,Olympique Dcheira,0-0,Final
+21,22/05/2026,13:00,Maghrib de Fès,Ittihad Tanger,,
+21,22/05/2026,15:00,Kawkab AC Marrakech,COD Meknès,,
+21,23/05/2026,11:00,US Yacoub El Mansour,US Touarga,,
+21,23/05/2026,13:00,Wydad AC,Hassania US Agadir,,
+21,23/05/2026,15:00,El Jadida,Olympique de Safi,,
+21,24/05/2026,10:00,Olympique Dcheira,Raja Casablanca,,
+21,24/05/2026,12:00,RS Berkane,CR Khemis Zemamra,,
+21,30/05/2026,14:00,FUS de Rabat,AS Far Rabat,,
+22,01/06/2026,11:00,US Touarga,Kawkab AC Marrakech,,
+22,01/06/2026,13:00,Olympique de Safi,Maghrib de Fès,,
+22,01/06/2026,15:00,COD Meknès,Olympique Dcheira,,
+22,03/06/2026,11:00,CR Khemis Zemamra,US Yacoub El Mansour,,
+22,03/06/2026,13:00,Ittihad Tanger,Wydad AC,,
+22,03/06/2026,15:00,Raja Casablanca,RS Berkane,,
+22,04/06/2026,13:00,Hassania US Agadir,FUS de Rabat,,
+22,04/06/2026,15:00,AS Far Rabat,El Jadida,,

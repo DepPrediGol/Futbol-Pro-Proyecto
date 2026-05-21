@@ -430,26 +430,26 @@ matchday,date,time,home_team,away_team,result,status
 39,11/05/2026,13:30,Huesca,Real Sociedad II,1-2,Final
 40,15/05/2026,13:30,Castellón,Cadiz,1-1,Final
 40,15/05/2026,14:00,Cordoba,Albacete,1-2,Final
-40,16/05/2026,07:00,Real Sociedad II,Mirandes,,
-40,16/05/2026,09:15,Cultural Leonesa,Eibar,,
-40,16/05/2026,09:15,AD Ceuta FC,Malaga,,
-40,16/05/2026,11:30,Granada CF,Burgos,,
-40,16/05/2026,11:30,Almeria,Las Palmas,,
-40,16/05/2026,11:30,Racing Santander,Valladolid,,
-40,17/05/2026,07:00,Deportivo La Coruna,FC Andorra,,
-40,17/05/2026,14:15,Zaragoza,Sporting Gijon,,
-40,18/05/2026,13:30,Leganes,Huesca,,
+40,16/05/2026,07:00,Real Sociedad II,Mirandes,2-2,Final
+40,16/05/2026,09:15,Cultural Leonesa,Eibar,2-1,Final
+40,16/05/2026,09:15,AD Ceuta FC,Malaga,1-4,Final
+40,16/05/2026,11:30,Granada CF,Burgos,0-1,Final
+40,16/05/2026,11:30,Almeria,Las Palmas,1-2,Final
+40,16/05/2026,11:30,Racing Santander,Valladolid,4-1,Final
+40,17/05/2026,07:00,Deportivo La Coruna,FC Andorra,2-1,Final
+40,17/05/2026,14:15,Zaragoza,Sporting Gijon,1-3,Final
+40,18/05/2026,13:30,Leganes,Huesca,0-0,Final
+41,24/05/2026,09:15,Albacete,Real Sociedad II,,
+41,24/05/2026,09:15,FC Andorra,AD Ceuta FC,,
 41,24/05/2026,11:30,Las Palmas,Zaragoza,,
 41,24/05/2026,11:30,Malaga,Racing Santander,,
 41,24/05/2026,11:30,Eibar,Cordoba,,
 41,24/05/2026,11:30,Valladolid,Deportivo La Coruna,,
-41,24/05/2026,11:30,Albacete,Real Sociedad II,,
 41,24/05/2026,11:30,Cadiz,Leganes,,
 41,24/05/2026,11:30,Cultural Leonesa,Burgos,,
 41,24/05/2026,11:30,Huesca,Castellón,,
 41,24/05/2026,11:30,Sporting Gijon,Almeria,,
 41,24/05/2026,11:30,Mirandes,Granada CF,,
-41,24/05/2026,11:30,FC Andorra,AD Ceuta FC,,
 42,31/05/2026,11:00,Leganes,Mirandes,,
 42,31/05/2026,11:00,Deportivo La Coruna,Las Palmas,,
 42,31/05/2026,11:00,Cordoba,Huesca,,

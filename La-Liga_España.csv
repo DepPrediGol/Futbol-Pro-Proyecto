@@ -359,16 +359,16 @@ matchday,date,time,home_team,away_team,result,status
 36,14/05/2026,12:00,Valencia,Rayo Vallecano,1-1,Final
 36,14/05/2026,13:00,Girona,Real Sociedad,1-1,Final
 36,14/05/2026,14:30,Real Madrid,Oviedo,2-0,Final
-37,17/05/2026,12:00,Atletico Madrid,Girona,,
-37,17/05/2026,12:00,Athletic Club,Celta Vigo,,
-37,17/05/2026,12:00,Sevilla,Real Madrid,,
-37,17/05/2026,12:00,Levante,Mallorca,,
-37,17/05/2026,12:00,Real Sociedad,Valencia,,
-37,17/05/2026,12:00,Oviedo,Alaves,,
-37,17/05/2026,12:00,Osasuna,Espanyol,,
-37,17/05/2026,12:00,Rayo Vallecano,Villarreal,,
-37,17/05/2026,12:00,Elche,Getafe,,
-37,17/05/2026,14:15,Barcelona,Real Betis,,
+37,17/05/2026,12:00,Atletico Madrid,Girona,1-0,Final
+37,17/05/2026,12:00,Athletic Club,Celta Vigo,1-1,Final
+37,17/05/2026,12:00,Sevilla,Real Madrid,0-1,Final
+37,17/05/2026,12:00,Levante,Mallorca,2-0,Final
+37,17/05/2026,12:00,Real Sociedad,Valencia,3-4,Final
+37,17/05/2026,12:00,Oviedo,Alaves,0-1,Final
+37,17/05/2026,12:00,Osasuna,Espanyol,1-2,Final
+37,17/05/2026,12:00,Rayo Vallecano,Villarreal,2-0,Final
+37,17/05/2026,12:00,Elche,Getafe,1-0,Final
+37,17/05/2026,14:15,Barcelona,Real Betis,3-1,Final
 38,23/05/2026,14:00,Valencia,Barcelona,,
 38,23/05/2026,14:00,Celta Vigo,Sevilla,,
 38,23/05/2026,14:00,Espanyol,Real Sociedad,,

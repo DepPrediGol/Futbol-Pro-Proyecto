@@ -298,10 +298,12 @@ matchday,date,time,home_team,away_team,result,status
 33,09/05/2026,14:30,Lusitânia Lourosa,Torreense,1-2,Final
 34,15/05/2026,12:00,FC Porto B,Benfica B,2-0,Final
 34,15/05/2026,13:00,Maritimo,Chaves,1-3,Final
-34,16/05/2026,05:00,Academico Viseu,Sporting CP B,,
-34,16/05/2026,05:00,Torreense,Vizela,,
-34,17/05/2026,05:00,Oliveirense,Felgueiras 1932,,
-34,17/05/2026,09:30,União de Leiria,Feirense,,
-34,17/05/2026,12:00,Leixoes,Lusitânia Lourosa,,
-34,17/05/2026,14:30,Portimonense,Farense,,
-34,17/05/2026,14:30,Pacos Ferreira,Penafiel,,
+34,16/05/2026,05:00,Academico Viseu,Sporting CP B,0-0,Final
+34,16/05/2026,05:00,Torreense,Vizela,4-0,Final
+34,17/05/2026,05:00,Oliveirense,Felgueiras 1932,1-5,Final
+34,17/05/2026,09:30,União de Leiria,Feirense,2-2,Final
+34,17/05/2026,12:00,Leixoes,Lusitânia Lourosa,2-1,Final
+34,17/05/2026,14:30,Portimonense,Farense,1-0,Final
+34,17/05/2026,14:30,Pacos Ferreira,Penafiel,2-1,Final
+,23/05/2026,14:30,Farense,CF Os Belenenses,,
+,29/05/2026,09:00,CF Os Belenenses,Farense,,

@@ -216,23 +216,23 @@ matchday,date,time,home_team,away_team,result,status
 13,11/05/2026,17:30,Nueva Chicago,Almagro,1-2,Final
 13,12/05/2026,19:10,San Martin Tucuman,Gimnasia Jujuy,2-0,Final
 14,15/05/2026,19:00,Racing Cordoba,Central Norte,1-2,Final
-14,16/05/2026,11:00,Atlanta,Atletico DE Rafaela,,
-14,16/05/2026,13:00,Los Andes,Godoy Cruz,,
-14,16/05/2026,13:30,Almirante Brown,San Telmo,,
-14,16/05/2026,13:30,CA Estudiantes,Colon Santa Fe,,
-14,16/05/2026,14:00,Ciudad de Bolívar,Acassuso,,
-14,16/05/2026,14:00,Colegiales,Club Atlético Güemes,,
-14,17/05/2026,13:00,Deportivo Madryn,Ferro Carril Oeste,,
-14,17/05/2026,13:30,Almagro,San Martin S.J.,,
-14,17/05/2026,13:30,Gimnasia Jujuy,Temperley,,
-14,17/05/2026,14:00,Atletico Mitre,San Miguel,,
-14,17/05/2026,14:00,Patronato,Chacarita Juniors,,
-14,17/05/2026,14:30,Midland,Agropecuario,,
-14,17/05/2026,15:00,Deportivo Maipu,Nueva Chicago,,
-14,17/05/2026,15:00,Gimnasia Y Tiro,San Martin Tucuman,,
-14,17/05/2026,15:00,Quilmes,Tristan Suarez,,
-14,18/05/2026,13:30,Defensores De Belgrano,Chaco For Ever,,
-14,18/05/2026,18:00,All Boys,Deportivo Moron,,
+14,16/05/2026,11:00,Atlanta,Atletico DE Rafaela,2-0,Final
+14,16/05/2026,13:00,Los Andes,Godoy Cruz,1-0,Final
+14,16/05/2026,13:30,Almirante Brown,San Telmo,0-0,Final
+14,16/05/2026,13:30,CA Estudiantes,Colon Santa Fe,1-1,Final
+14,16/05/2026,14:00,Ciudad de Bolívar,Acassuso,1-0,Final
+14,16/05/2026,14:00,Colegiales,Club Atlético Güemes,4-1,Final
+14,17/05/2026,13:00,Deportivo Madryn,Ferro Carril Oeste,0-1,Final
+14,17/05/2026,13:30,Almagro,San Martin S.J.,1-2,Final
+14,17/05/2026,13:30,Gimnasia Jujuy,Temperley,1-0,Final
+14,17/05/2026,14:00,Atletico Mitre,San Miguel,4-0,Final
+14,17/05/2026,14:00,Patronato,Chacarita Juniors,2-0,Final
+14,17/05/2026,14:30,Midland,Agropecuario,2-0,Final
+14,17/05/2026,15:00,Deportivo Maipu,Nueva Chicago,1-0,Final
+14,17/05/2026,15:00,Gimnasia Y Tiro,San Martin Tucuman,1-0,Final
+14,17/05/2026,15:00,Quilmes,Tristan Suarez,0-1,Final
+14,18/05/2026,13:30,Defensores De Belgrano,Chaco For Ever,0-0,Final
+14,18/05/2026,18:00,All Boys,Deportivo Moron,1-0,Final
 15,23/05/2026,13:00,Deportivo Moron,CA Estudiantes,,
 15,23/05/2026,13:00,Los Andes,Racing Cordoba,,
 15,23/05/2026,13:00,San Telmo,Ciudad de Bolívar,,
@@ -287,24 +287,24 @@ matchday,date,time,home_team,away_team,result,status
 17,07/06/2026,14:30,Godoy Cruz,Atletico Mitre,,
 17,07/06/2026,15:00,Colon Santa Fe,Ciudad de Bolívar,,
 17,07/06/2026,17:30,San Martin Tucuman,Quilmes,,
-18,13/06/2026,15:00,Almagro,Agropecuario,,
-18,13/06/2026,15:00,Almirante Brown,Godoy Cruz,,
-18,13/06/2026,15:00,CA Estudiantes,All Boys,,
-18,13/06/2026,15:00,Atletico Mitre,Los Andes,,
-18,13/06/2026,15:00,Central Norte,San Telmo,,
-18,13/06/2026,15:00,Ciudad de Bolívar,Deportivo Moron,,
-18,13/06/2026,15:00,Colegiales,San Martin Tucuman,,
-18,13/06/2026,15:00,Defensores De Belgrano,Colon Santa Fe,,
-18,13/06/2026,15:00,Deportivo Madryn,San Miguel,,
-18,13/06/2026,15:00,Deportivo Maipu,Tristan Suarez,,
-18,13/06/2026,15:00,Ferro Carril Oeste,Acassuso,,
-18,13/06/2026,15:00,Gimnasia Jujuy,San Martin S.J.,,
-18,13/06/2026,15:00,Midland,Atlanta,,
-18,13/06/2026,15:00,Nueva Chicago,Chacarita Juniors,,
-18,13/06/2026,15:00,Patronato,Atletico DE Rafaela,,
-18,13/06/2026,15:00,Quilmes,Gimnasia Y Tiro,,
-18,13/06/2026,15:00,Racing Cordoba,Chaco For Ever,,
-18,13/06/2026,15:00,Temperley,Club Atlético Güemes,,
+18,12/06/2026,19:00,Racing Cordoba,Chaco For Ever,,
+18,13/06/2026,13:00,Colegiales,San Martin Tucuman,,
+18,13/06/2026,13:30,CA Estudiantes,All Boys,,
+18,13/06/2026,13:30,Defensores De Belgrano,Colon Santa Fe,,
+18,13/06/2026,13:30,Nueva Chicago,Chacarita Juniors,,
+18,13/06/2026,14:00,Ciudad de Bolívar,Deportivo Moron,,
+18,13/06/2026,14:00,Midland,Atlanta,,
+18,14/06/2026,13:00,Deportivo Madryn,San Miguel,,
+18,14/06/2026,13:30,Almagro,Agropecuario,,
+18,14/06/2026,13:30,Almirante Brown,Godoy Cruz,,
+18,14/06/2026,13:30,Ferro Carril Oeste,Acassuso,,
+18,14/06/2026,13:30,Patronato,Atletico DE Rafaela,,
+18,14/06/2026,14:00,Atletico Mitre,Los Andes,,
+18,14/06/2026,14:00,Gimnasia Jujuy,San Martin S.J.,,
+18,14/06/2026,14:00,Temperley,Club Atlético Güemes,,
+18,14/06/2026,14:30,Central Norte,San Telmo,,
+18,14/06/2026,14:30,Deportivo Maipu,Tristan Suarez,,
+18,14/06/2026,15:00,Quilmes,Gimnasia Y Tiro,,
 4,20/06/2026,15:00,Acassuso,San Miguel,,
 4,20/06/2026,15:00,Almagro,Atlanta,,
 4,20/06/2026,15:00,Almirante Brown,Atletico Mitre,,

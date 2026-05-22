@@ -212,30 +212,30 @@ matchday,date,time,home_team,away_team,result,status
 31,05/05/2026,11:30,Maccabi Tel Aviv,Hapoel Petach-Tikva,4-0,Final
 31,06/05/2026,11:30,Hapoel Tel Aviv,Beitar Jerusalem,0-1,Final
 31,06/05/2026,12:00,Maccabi Haifa,Hapoel Be'er Sheva,0-1,Final
-31,09/05/2026,12:30,Hapoel Petach-Tikva,Hapoel Be'er Sheva,,
-31,09/05/2026,12:30,Maccabi Haifa,Beitar Jerusalem,,
-31,09/05/2026,12:30,Hapoel Tel Aviv,Maccabi Tel Aviv,,
-31,09/05/2026,12:15,Maccabi Bnei Raina,Ironi Kiryat Shmona,,
-31,10/05/2026,12:00,Hapoel Haifa,FC Ashdod,,
-31,10/05/2026,12:00,Hapoel Jerusalem,Bnei Sachnin FC,,
-31,10/05/2026,12:00,Ironi Tiberias,Maccabi Netanya,,
-32,12/05/2026,12:00,Beitar Jerusalem,Hapoel Be'er Sheva,,
-32,12/05/2026,12:00,Hapoel Tel Aviv,Hapoel Petach-Tikva,,
-32,12/05/2026,12:00,Maccabi Tel Aviv,Maccabi Haifa,,
-32,13/05/2026,12:00,Bnei Sachnin FC,Ironi Kiryat Shmona,,
-32,13/05/2026,12:00,FC Ashdod,Hapoel Jerusalem,,
-32,13/05/2026,12:00,Ironi Tiberias,Maccabi Bnei Raina,,
-32,13/05/2026,12:00,Maccabi Netanya,Hapoel Haifa,,
-32,16/05/2026,12:00,Maccabi Tel Aviv,Beitar Jerusalem,,
-32,16/05/2026,12:00,Hapoel Tel Aviv,Hapoel Be'er Sheva,,
-32,16/05/2026,12:00,Maccabi Haifa,Hapoel Petach-Tikva,,
-33,16/05/2026,12:00,Hapoel Haifa,Bnei Sachnin FC,,
-33,16/05/2026,12:00,Hapoel Jerusalem,Ironi Tiberias,,
-33,16/05/2026,12:00,Ironi Kiryat Shmona,FC Ashdod,,
-33,16/05/2026,12:00,Maccabi Bnei Raina,Maccabi Netanya,,
-33,19/05/2026,12:00,Hapoel Petach-Tikva,Beitar Jerusalem,,
-33,19/05/2026,12:00,Maccabi Haifa,Hapoel Tel Aviv,,
-33,19/05/2026,12:00,Hapoel Be'er Sheva,Maccabi Tel Aviv,,
+31,09/05/2026,12:30,Hapoel Petach-Tikva,Hapoel Be'er Sheva,2-4,Final
+31,09/05/2026,12:30,Maccabi Haifa,Beitar Jerusalem,3-0,Final
+31,09/05/2026,12:30,Hapoel Tel Aviv,Maccabi Tel Aviv,1-1,Final
+31,09/05/2026,12:15,Maccabi Bnei Raina,Ironi Kiryat Shmona,1-1,Final
+31,10/05/2026,12:00,Hapoel Haifa,FC Ashdod,1-0,Final
+31,10/05/2026,12:00,Hapoel Jerusalem,Bnei Sachnin FC,1-0,Final
+31,10/05/2026,12:00,Ironi Tiberias,Maccabi Netanya,4-3,Final
+32,12/05/2026,12:00,Beitar Jerusalem,Hapoel Be'er Sheva,1-1,Final
+32,12/05/2026,12:00,Hapoel Tel Aviv,Hapoel Petach-Tikva,1-0,Final
+32,12/05/2026,12:00,Maccabi Tel Aviv,Maccabi Haifa,3-0,Final
+32,13/05/2026,12:00,Bnei Sachnin FC,Ironi Kiryat Shmona,0-4,Final
+32,13/05/2026,12:00,FC Ashdod,Hapoel Jerusalem,0-1,Final
+32,13/05/2026,12:00,Ironi Tiberias,Maccabi Bnei Raina,1-0,Final
+32,13/05/2026,12:00,Maccabi Netanya,Hapoel Haifa,1-1,Final
+32,16/05/2026,12:00,Maccabi Tel Aviv,Beitar Jerusalem,1-2,Final
+32,16/05/2026,12:00,Hapoel Tel Aviv,Hapoel Be'er Sheva,0-2,Final
+32,16/05/2026,12:00,Maccabi Haifa,Hapoel Petach-Tikva,1-1,Final
+33,16/05/2026,12:00,Hapoel Haifa,Bnei Sachnin FC,3-0,Final
+33,16/05/2026,12:00,Hapoel Jerusalem,Ironi Tiberias,0-2,Final
+33,16/05/2026,12:00,Ironi Kiryat Shmona,FC Ashdod,2-3,Final
+33,16/05/2026,12:00,Maccabi Bnei Raina,Maccabi Netanya,1-4,Final
+33,19/05/2026,12:00,Hapoel Petach-Tikva,Beitar Jerusalem,0-0,Final
+33,19/05/2026,12:00,Maccabi Haifa,Hapoel Tel Aviv,4-1,Final
+33,19/05/2026,12:00,Hapoel Be'er Sheva,Maccabi Tel Aviv,4-2,Final
 33,23/05/2026,12:00,Beitar Jerusalem,Hapoel Tel Aviv,,
 33,23/05/2026,12:00,Hapoel Be'er Sheva,Maccabi Haifa,,
-33,23/05/2026,12:00,Hapoel Petach-Tikva,Maccabi Tel Aviv,,
+33,23/05/2026,10:00,Hapoel Petach-Tikva,Maccabi Tel Aviv,,

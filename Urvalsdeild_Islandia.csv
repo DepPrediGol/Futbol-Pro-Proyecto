@@ -25,23 +25,23 @@ matchday,date,time,home_team,away_team,result,status
 4,27/04/2026,09:00,Víkingur Reykjavík,ÍA Akranes,4-0,Final
 5,02/05/2026,09:00,Þór Akureyri,KA Akureyri,0-1,Final
 5,02/05/2026,09:00,Valur Reykjavík,KR Reykjavík,1-4,Final
-5,03/05/2026,09:00,ÍB Vestmannaeyjar,Breiðablik,2-1,Final
+5,03/05/2026,09:00,ÍB Vestmannaeyjar,Breiðablik,1-2,Final
 5,03/05/2026,13:00,Keflavík ÍF,Víkingur Reykjavík,1-3,Final
 5,03/05/2026,13:00,FH Hafnarfjörður,Fram Reykjavík,3-4,Final
 5,26/07/2026,09:00,ÍA Akranes,UMF Stjarnan,,
-6,08/05/2026,12:30,Víkingur Reykjavík,Þór Akureyri,,
-6,08/05/2026,14:15,Breiðablik,FH Hafnarfjörður,,
-6,08/05/2026,14:15,Fram Reykjavík,Valur Reykjavík,,
-6,08/05/2026,14:15,ÍA Akranes,Keflavík ÍF,,
-6,08/05/2026,14:15,UMF Stjarnan,KR Reykjavík,,
-6,10/05/2026,14:15,KA Akureyri,ÍB Vestmannaeyjar,,
-7,17/05/2026,14:15,ÍB Vestmannaeyjar,Víkingur Reykjavík,,
-7,17/05/2026,14:15,Keflavík ÍF,UMF Stjarnan,,
-7,17/05/2026,14:15,Þór Akureyri,ÍA Akranes,,
-7,17/05/2026,14:15,FH Hafnarfjörður,KA Akureyri,,
-7,17/05/2026,14:15,KR Reykjavík,Fram Reykjavík,,
-7,17/05/2026,14:15,Valur Reykjavík,Breiðablik,,
-8,21/05/2026,14:15,ÍA Akranes,ÍB Vestmannaeyjar,,
+6,08/05/2026,12:30,Víkingur Reykjavík,Þór Akureyri,6-0,Final
+6,08/05/2026,14:15,Breiðablik,FH Hafnarfjörður,3-3,Final
+6,08/05/2026,14:15,Fram Reykjavík,Valur Reykjavík,3-2,Final
+6,08/05/2026,14:15,ÍA Akranes,Keflavík ÍF,1-3,Final
+6,08/05/2026,14:15,UMF Stjarnan,KR Reykjavík,2-3,Final
+6,10/05/2026,14:15,KA Akureyri,ÍB Vestmannaeyjar,2-0,Final
+7,17/05/2026,14:15,ÍB Vestmannaeyjar,Víkingur Reykjavík,0-2,Final
+7,17/05/2026,14:15,Þór Akureyri,ÍA Akranes,1-2,Final
+7,17/05/2026,14:15,FH Hafnarfjörður,KA Akureyri,1-2,Final
+7,17/05/2026,14:15,Keflavík ÍF,UMF Stjarnan,1-1,Final
+7,17/05/2026,14:15,KR Reykjavík,Fram Reykjavík,2-2,Final
+7,17/05/2026,14:15,Valur Reykjavík,Breiðablik,3-2,Final
+8,21/05/2026,14:15,ÍA Akranes,ÍB Vestmannaeyjar,2-2,Final
 8,22/05/2026,14:15,KA Akureyri,Valur Reykjavík,,
 8,22/05/2026,14:15,Keflavík ÍF,Þór Akureyri,,
 8,22/05/2026,14:15,UMF Stjarnan,Fram Reykjavík,,
@@ -58,7 +58,7 @@ matchday,date,time,home_team,away_team,result,status
 10,14/06/2026,14:15,Þór Akureyri,ÍB Vestmannaeyjar,,
 10,14/06/2026,14:15,UMF Stjarnan,Breiðablik,,
 10,15/06/2026,14:15,KA Akureyri,Fram Reykjavík,,
-10,15/06/2026,14:15,Víkingur Reykjavík,KR Reykjavík,,
+10,16/06/2026,14:15,Víkingur Reykjavík,KR Reykjavík,,
 11,21/06/2026,14:15,Breiðablik,KA Akureyri,,
 11,21/06/2026,14:15,FH Hafnarfjörður,Þór Akureyri,,
 11,21/06/2026,14:15,ÍB Vestmannaeyjar,UMF Stjarnan,,

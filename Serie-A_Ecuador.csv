@@ -95,22 +95,22 @@ matchday,date,time,home_team,away_team,result,status
 12,03/05/2026,13:00,Macará,Orense SC,1-2,Final
 12,03/05/2026,15:30,Delfín SC,Mushuc Runa,1-0,Final
 12,04/05/2026,18:10,Leones del Norte,Emelec,2-0,Final
-13,09/05/2026,19:00,Orense SC,Leones del Norte,,
-13,09/05/2026,13:30,Técnico Universitario,Delfín SC,,
-13,09/05/2026,16:00,Guayaquil City,Deportivo Cuenca,,
-13,09/05/2026,19:00,Aucas,Universidad Católica,,
-13,10/05/2026,13:00,Independiente del Valle,Barcelona,,
-13,10/05/2026,15:30,Emelec,Libertad de Loja,,
-13,11/05/2026,18:10,Manta,Macará,,
-13,12/05/2026,19:00,Mushuc Runa,LDU Quito,,
-14,15/05/2026,19:00,LDU Quito,Técnico Universitario,,
-14,16/05/2026,14:00,Libertad de Loja,Deportivo Cuenca,,
-14,16/05/2026,16:30,Macará,Independiente del Valle,,
-14,16/05/2026,19:00,Universidad Católica,Delfín SC,,
-14,17/05/2026,13:00,Barcelona,Aucas,,
-14,17/05/2026,15:30,Leones del Norte,Mushuc Runa,,
-14,18/05/2026,18:10,Manta,Emelec,,
-14,19/05/2026,19:00,Guayaquil City,Orense SC,,
+13,09/05/2026,19:00,Orense SC,Leones del Norte,2-0,Final
+13,09/05/2026,13:30,Técnico Universitario,Delfín SC,4-0,Final
+13,09/05/2026,16:00,Guayaquil City,Deportivo Cuenca,0-1,Final
+13,09/05/2026,19:00,Aucas,Universidad Católica,2-1,Final
+13,10/05/2026,13:00,Independiente del Valle,Barcelona,1-0,Final
+13,10/05/2026,15:30,Emelec,Libertad de Loja,1-1,Final
+13,11/05/2026,18:10,Manta,Macará,0-1,Final
+13,12/05/2026,19:00,Mushuc Runa,LDU Quito,1-3,Final
+14,15/05/2026,19:00,LDU Quito,Técnico Universitario,2-1,Final
+14,16/05/2026,14:00,Libertad de Loja,Deportivo Cuenca,0-1,Final
+14,16/05/2026,16:30,Macará,Independiente del Valle,0-3,Final
+14,16/05/2026,19:00,Universidad Católica,Delfín SC,2-2,Final
+14,17/05/2026,13:00,Barcelona,Aucas,3-0,Final
+14,17/05/2026,15:30,Leones del Norte,Mushuc Runa,3-1,Final
+14,18/05/2026,18:10,Manta,Emelec,0-0,Final
+14,19/05/2026,19:00,Guayaquil City,Orense SC,0-1,Final
 15,23/05/2026,19:00,Independiente del Valle,Libertad de Loja,,
 15,23/05/2026,14:00,Mushuc Runa,Guayaquil City,,
 15,23/05/2026,16:30,Orense SC,Universidad Católica,,

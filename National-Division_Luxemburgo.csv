@@ -215,27 +215,27 @@ matchday,date,time,home_team,away_team,result,status
 27,03/05/2026,09:00,US Mondorf,Swift Hesperange,1-0,Final
 27,03/05/2026,09:00,RFCU Luxemburg,FC Atert Bissen,0-5,Final
 27,03/05/2026,09:00,FC Rodange 91,UN Käerjéng,0-3,Final
-28,10/05/2026,09:00,FC Atert Bissen,FC Rodange 91,,
-28,10/05/2026,09:00,FC Mamer 32,RFCU Luxemburg,,
-28,10/05/2026,09:00,Progrès Niedercorn,FC Differdange 03,,
-28,10/05/2026,09:00,UN Käerjéng,Jeunesse Canach,,
-28,10/05/2026,09:00,Swift Hesperange,US Hostert,,
-28,10/05/2026,09:00,UNA Strassen,Jeunesse Esch,,
-28,10/05/2026,09:00,Union Titus Pétange,F91 Dudelange,,
-28,10/05/2026,09:00,Victoria Rosport,US Mondorf,,
-29,17/05/2026,09:00,F91 Dudelange,UNA Strassen,,
-29,17/05/2026,09:00,FC Differdange 03,UN Käerjéng,,
-29,17/05/2026,09:00,US Hostert,RFCU Luxemburg,,
-29,17/05/2026,09:00,Jeunesse Canach,FC Atert Bissen,,
-29,17/05/2026,09:00,Jeunesse Esch,Progrès Niedercorn,,
-29,17/05/2026,09:00,US Mondorf,Union Titus Pétange,,
-29,17/05/2026,09:00,FC Rodange 91,FC Mamer 32,,
-29,17/05/2026,09:00,Swift Hesperange,Victoria Rosport,,
+28,08/05/2026,09:00,Progrès Niedercorn,FC Differdange 03,2-3,Final
+28,10/05/2026,09:00,FC Atert Bissen,FC Rodange 91,3-2,Final
+28,10/05/2026,09:00,FC Mamer 32,RFCU Luxemburg,3-2,Final
+28,10/05/2026,09:00,UN Käerjéng,Jeunesse Canach,1-0,Final
+28,10/05/2026,09:00,Swift Hesperange,US Hostert,0-1,Final
+28,10/05/2026,09:00,Union Titus Pétange,F91 Dudelange,3-0,Final
+28,10/05/2026,09:00,Victoria Rosport,US Mondorf,1-0,Final
+28,10/05/2026,09:00,UNA Strassen,Jeunesse Esch,3-0,Final
+29,17/05/2026,09:00,F91 Dudelange,UNA Strassen,1-1,Final
+29,17/05/2026,09:00,FC Differdange 03,UN Käerjéng,2-0,Final
+29,17/05/2026,09:00,US Hostert,RFCU Luxemburg,0-1,Final
+29,17/05/2026,09:00,Jeunesse Canach,FC Atert Bissen,0-5,Final
+29,17/05/2026,09:00,US Mondorf,Union Titus Pétange,1-0,Final
+29,17/05/2026,09:00,FC Rodange 91,FC Mamer 32,1-1,Final
+29,17/05/2026,09:00,Swift Hesperange,Victoria Rosport,3-0,Final
+29,17/05/2026,09:00,Jeunesse Esch,Progrès Niedercorn,2-1,Final
 30,23/05/2026,11:00,FC Atert Bissen,FC Differdange 03,,
+30,23/05/2026,11:00,UNA Strassen,US Mondorf,,
+30,23/05/2026,11:00,Victoria Rosport,US Hostert,,
 30,23/05/2026,11:00,FC Mamer 32,Jeunesse Canach,,
 30,23/05/2026,11:00,Progrès Niedercorn,F91 Dudelange,,
 30,23/05/2026,11:00,UN Käerjéng,Jeunesse Esch,,
 30,23/05/2026,11:00,RFCU Luxemburg,FC Rodange 91,,
-30,23/05/2026,11:00,UNA Strassen,US Mondorf,,
 30,23/05/2026,11:00,Union Titus Pétange,Swift Hesperange,,
-30,23/05/2026,11:00,Victoria Rosport,US Hostert,,

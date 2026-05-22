@@ -159,23 +159,23 @@ matchday,date,time,home_team,away_team,result,status
 32,02/05/2026,12:00,FK Rudar,HŠK Posušje,3-2,Final
 32,02/05/2026,12:00,Sloga Doboj,Široki Brijeg,2-0,Final
 32,03/05/2026,12:00,FK Sarajevo,Borac Banja Luka,0-1,Final
-33,09/05/2026,12:00,Široki Brijeg,Borac Banja Luka,,
-33,09/05/2026,12:00,HŠK Posušje,Velež Mostar,,
-33,09/05/2026,12:00,Radnik Bijeljina,Zrinjski Mostar,,
-33,09/05/2026,12:00,FK Rudar,FK Sarajevo,,
-33,09/05/2026,12:00,Željezničar Sarajevo,Sloga Doboj,,
-34,17/05/2026,12:00,Borac Banja Luka,Željezničar Sarajevo,,
-34,17/05/2026,12:00,FK Sarajevo,Široki Brijeg,,
-34,17/05/2026,12:00,Sloga Doboj,Radnik Bijeljina,,
-34,17/05/2026,12:00,Velež Mostar,FK Rudar,,
-34,17/05/2026,12:00,Zrinjski Mostar,HŠK Posušje,,
-35,24/05/2026,12:00,HŠK Posušje,Sloga Doboj,,
-35,24/05/2026,12:00,Radnik Bijeljina,Borac Banja Luka,,
-35,24/05/2026,12:00,FK Rudar,Zrinjski Mostar,,
-35,24/05/2026,12:00,Velež Mostar,FK Sarajevo,,
-35,24/05/2026,12:00,Željezničar Sarajevo,Široki Brijeg,,
-36,31/05/2026,12:00,Borac Banja Luka,HŠK Posušje,,
-36,31/05/2026,12:00,FK Sarajevo,Željezničar Sarajevo,,
-36,31/05/2026,12:00,Široki Brijeg,Radnik Bijeljina,,
-36,31/05/2026,12:00,Sloga Doboj,FK Rudar,,
-36,31/05/2026,12:00,Zrinjski Mostar,Velež Mostar,,
+33,09/05/2026,12:00,Radnik Bijeljina,Zrinjski Mostar,0-1,Final
+33,09/05/2026,12:00,FK Rudar,FK Sarajevo,2-4,Final
+33,09/05/2026,12:00,HŠK Posušje,Velež Mostar,1-1,Final
+33,10/05/2026,12:00,Željezničar Sarajevo,Sloga Doboj,3-0,Final
+33,10/05/2026,12:00,Široki Brijeg,Borac Banja Luka,0-1,Final
+34,16/05/2026,12:00,Borac Banja Luka,Željezničar Sarajevo,1-0,Final
+34,16/05/2026,12:00,FK Sarajevo,Široki Brijeg,2-2,Final
+34,16/05/2026,12:00,Sloga Doboj,Radnik Bijeljina,0-0,Final
+34,16/05/2026,12:00,Velež Mostar,FK Rudar,4-2,Final
+34,16/05/2026,12:00,Zrinjski Mostar,HŠK Posušje,0-0,Final
+35,21/05/2026,12:00,Velež Mostar,FK Sarajevo,2-3,Final
+35,21/05/2026,12:00,Željezničar Sarajevo,Široki Brijeg,2-2,Final
+35,22/05/2026,12:00,HŠK Posušje,Sloga Doboj,,
+35,22/05/2026,12:00,Radnik Bijeljina,Borac Banja Luka,,
+35,22/05/2026,12:00,FK Rudar,Zrinjski Mostar,,
+36,26/05/2026,12:00,Borac Banja Luka,HŠK Posušje,,
+36,26/05/2026,12:00,FK Sarajevo,Željezničar Sarajevo,,
+36,26/05/2026,12:00,Široki Brijeg,Radnik Bijeljina,,
+36,26/05/2026,12:00,Sloga Doboj,FK Rudar,,
+36,26/05/2026,12:00,Zrinjski Mostar,Velež Mostar,,

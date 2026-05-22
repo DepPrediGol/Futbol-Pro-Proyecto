@@ -179,15 +179,15 @@ matchday,date,time,home_team,away_team,result,status
 30,03/05/2026,07:00,Odense BK,Silkeborg IF,2-3,Final
 30,03/05/2026,09:00,FC Fredericia,FC Copenhague,3-3,Final
 30,04/05/2026,12:00,FC Midtjylland,Viborg FF,3-3,Final
-31,08/05/2026,12:00,Viborg FF,SønderjyskE,,
-31,10/05/2026,07:00,FC Nordsjælland,FC Midtjylland,,
-31,10/05/2026,11:00,Brøndby IF,Aarhus GF,,
-31,10/05/2026,07:00,Vejle BK,FC Fredericia,,
-31,10/05/2026,09:00,Silkeborg IF,FC Copenhague,,
-31,11/05/2026,12:00,Randers FC,Odense BK,,
-32,17/05/2026,07:00,FC Fredericia,Silkeborg IF,,
-32,17/05/2026,07:00,Odense BK,Vejle BK,,
-32,17/05/2026,07:00,FC Copenhague,Randers FC,,
-32,17/05/2026,11:00,Aarhus GF,Viborg FF,,
-32,17/05/2026,11:00,FC Midtjylland,Brøndby IF,,
-32,17/05/2026,11:00,SønderjyskE,FC Nordsjælland,,
+31,08/05/2026,12:00,Viborg FF,SønderjyskE,0-1,Final
+31,10/05/2026,07:00,FC Nordsjælland,FC Midtjylland,0-0,Final
+31,10/05/2026,11:00,Brøndby IF,Aarhus GF,0-2,Final
+31,10/05/2026,07:00,Vejle BK,FC Fredericia,2-0,Final
+31,10/05/2026,09:00,Silkeborg IF,FC Copenhague,0-4,Final
+31,11/05/2026,12:00,Randers FC,Odense BK,2-2,Final
+32,17/05/2026,07:00,FC Fredericia,Silkeborg IF,4-1,Final
+32,17/05/2026,07:00,Odense BK,Vejle BK,0-1,Final
+32,17/05/2026,07:00,FC Copenhague,Randers FC,5-0,Final
+32,17/05/2026,11:00,Aarhus GF,Viborg FF,6-2,Final
+32,17/05/2026,11:00,FC Midtjylland,Brøndby IF,2-3,Final
+32,17/05/2026,11:00,SønderjyskE,FC Nordsjælland,1-4,Final

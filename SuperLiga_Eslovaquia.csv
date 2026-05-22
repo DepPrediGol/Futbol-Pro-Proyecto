@@ -179,15 +179,17 @@ matchday,date,time,home_team,away_team,result,status
 8,03/05/2026,12:00,FK Železiarne Podbrezová,Spartak Trnava,0-3,Final
 8,05/05/2026,11:00,MŠK Žilina,MFK Zemplín Michalovce,3-2,Final
 8,05/05/2026,11:00,MFK Skalica,FC Košice,3-1,Final
-9,09/05/2026,11:00,MFK Ružomberok,AS Trenčín,,
-9,09/05/2026,11:00,1. FC Tatran Prešov,MFK Skalica,,
-9,09/05/2026,11:00,MFK Zemplín Michalovce,FC DAC 1904,,
-9,09/05/2026,13:30,FK Železiarne Podbrezová,Slovan Bratislava,,
-9,10/05/2026,11:00,Spartak Trnava,MŠK Žilina,,
-9,10/05/2026,11:00,FC Košice,KFC Komárno,,
-10,16/05/2026,11:00,AS Trenčín,FC Košice,,
-10,16/05/2026,11:00,KFC Komárno,1. FC Tatran Prešov,,
-10,16/05/2026,11:00,MFK Skalica,MFK Ružomberok,,
-10,16/05/2026,11:00,FC DAC 1904,Spartak Trnava,,
-10,16/05/2026,11:00,MŠK Žilina,FK Železiarne Podbrezová,,
-10,16/05/2026,11:00,Slovan Bratislava,MFK Zemplín Michalovce,,
+9,09/05/2026,11:00,MFK Ružomberok,AS Trenčín,4-3,Final
+9,09/05/2026,11:00,1. FC Tatran Prešov,MFK Skalica,3-0,Final
+9,09/05/2026,11:00,MFK Zemplín Michalovce,FC DAC 1904,2-1,Final
+9,09/05/2026,13:30,FK Železiarne Podbrezová,Slovan Bratislava,1-2,Final
+9,10/05/2026,11:00,Spartak Trnava,MŠK Žilina,1-0,Final
+9,10/05/2026,11:00,FC Košice,KFC Komárno,2-1,Final
+10,16/05/2026,11:00,AS Trenčín,FC Košice,3-0,Final
+10,16/05/2026,11:00,KFC Komárno,1. FC Tatran Prešov,1-0,Final
+10,16/05/2026,11:00,MFK Skalica,MFK Ružomberok,1-0,Final
+10,16/05/2026,11:00,FC DAC 1904,Spartak Trnava,3-0,Final
+10,16/05/2026,11:00,MŠK Žilina,FK Železiarne Podbrezová,0-2,Final
+10,16/05/2026,11:00,Slovan Bratislava,MFK Zemplín Michalovce,0-2,Final
+11,19/05/2026,11:00,Zvolen,KFC Komárno,1-0,Final
+11,23/05/2026,11:00,KFC Komárno,Zvolen,,

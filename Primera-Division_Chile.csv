@@ -70,7 +70,7 @@ matchday,date,time,home_team,away_team,result,status
 9,12/04/2026,12:00,Ñublense,Universidad de Chile,1-0,Final
 9,13/04/2026,12:00,Universidad de Concepción,Cobresal,1-0,Final
 9,14/04/2026,12:00,Unión La Calera,Deportes Concepción,1-0,Final
-9,03/05/2026,16:30,Colo-Colo,Coquimbo Unido,,
+9,03/05/2026,16:30,Colo-Colo,Coquimbo Unido,3-1,Final
 10,18/04/2026,12:00,Limache,Universidad de Concepción,3-0,Final
 10,18/04/2026,12:00,Everton,Universidad de Chile,0-0,Final
 10,19/04/2026,12:00,Deportes Concepción,La Serena,3-3,Final
@@ -87,15 +87,15 @@ matchday,date,time,home_team,away_team,result,status
 11,26/04/2026,12:00,La Serena,Huachipato,0-0,Final
 11,26/04/2026,12:00,Universidad de Concepción,Colo-Colo,1-2,Final
 11,26/04/2026,12:00,Everton,Cobresal,3-1,Final
-12,16/05/2026,19:00,Coquimbo Unido,Audax Italiano,,
-12,16/05/2026,19:00,Palestino,La Serena,,
-12,16/05/2026,16:30,O'Higgins,Universidad de Concepción,,
-12,17/05/2026,19:00,Limache,Universidad Católica,,
-12,17/05/2026,11:30,Huachipato,Unión La Calera,,
-12,17/05/2026,14:00,Cobresal,Universidad de Chile,,
-12,17/05/2026,16:30,Colo-Colo,Ñublense,,
-12,18/05/2026,19:00,Deportes Concepción,Everton,,
-13,23/05/2026,19:00,Everton,Coquimbo Unido,,
+12,16/05/2026,19:00,Coquimbo Unido,Audax Italiano,3-0,Final
+12,16/05/2026,19:00,Palestino,La Serena,5-1,Final
+12,16/05/2026,16:30,O'Higgins,Universidad de Concepción,0-1,Final
+12,17/05/2026,19:00,Limache,Universidad Católica,0-2,Final
+12,17/05/2026,11:30,Huachipato,Unión La Calera,3-1,Final
+12,17/05/2026,14:00,Cobresal,Universidad de Chile,1-0,Final
+12,17/05/2026,16:30,Colo-Colo,Ñublense,6-2,Final
+12,18/05/2026,19:00,Deportes Concepción,Everton,0-2,Final
+13,22/05/2026,19:00,Everton,Coquimbo Unido,,
 13,23/05/2026,11:30,Audax Italiano,Cobresal,,
 13,23/05/2026,14:00,Ñublense,Universidad de Concepción,,
 13,24/05/2026,16:30,Unión La Calera,Palestino,,

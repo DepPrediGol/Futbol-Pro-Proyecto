@@ -207,35 +207,35 @@ matchday,date,time,home_team,away_team,result,status
 26,03/05/2026,07:30,Metalist 1925 Kharkiv,Polissya Zhytomyr,0-1,Final
 26,03/05/2026,10:00,Dinamo Kiev,Shajtar Donetsk,1-2,Final
 26,04/05/2026,10:00,Rukh Lviv,Zorya Lugansk,1-2,Final
-27,08/05/2026,12:00,Kryvbas Kryvyi Rih,Karpaty Lviv,,
-27,08/05/2026,12:00,Kolos Kovalivka,FC Kudrivka,,
-27,08/05/2026,12:00,Polissya Zhytomyr,FK Oleksandriya,,
-27,09/05/2026,12:00,Rukh Lviv,NK Veres,,
-27,09/05/2026,12:00,FC LNZ Cherkasy,Dinamo Kiev,,
-27,09/05/2026,12:00,FK Obolon,Epitsentr Kamianets-Podilskyi,,
-27,09/05/2026,12:00,Zorya Lugansk,Metalist 1925 Kharkiv,,
-27,10/05/2026,12:00,SK Poltava,Shajtar Donetsk,,
-28,16/05/2026,12:00,NK Veres,Kryvbas Kryvyi Rih,,
-28,16/05/2026,12:00,Dinamo Kiev,Kolos Kovalivka,,
-28,16/05/2026,12:00,FC LNZ Cherkasy,SK Poltava,,
-28,16/05/2026,12:00,Epitsentr Kamianets-Podilskyi,Polissya Zhytomyr,,
-28,16/05/2026,12:00,Shajtar Donetsk,FK Obolon,,
-28,16/05/2026,12:00,FC Kudrivka,Rukh Lviv,,
-28,16/05/2026,12:00,Metalist 1925 Kharkiv,Karpaty Lviv,,
-28,16/05/2026,12:00,FK Oleksandriya,Zorya Lugansk,,
-29,23/05/2026,12:00,Kolos Kovalivka,FK Obolon,,
-29,23/05/2026,12:00,FC Kudrivka,FC LNZ Cherkasy,,
-29,23/05/2026,12:00,Metalist 1925 Kharkiv,Epitsentr Kamianets-Podilskyi,,
-29,23/05/2026,12:00,Kryvbas Kryvyi Rih,Shajtar Donetsk,,
-29,23/05/2026,12:00,Rukh Lviv,FK Oleksandriya,,
-29,23/05/2026,12:00,Zorya Lugansk,Polissya Zhytomyr,,
-29,23/05/2026,12:00,SK Poltava,Dinamo Kiev,,
-29,23/05/2026,12:00,Karpaty Lviv,NK Veres,,
-30,29/05/2026,12:00,FK Obolon,FC LNZ Cherkasy,,
-30,29/05/2026,12:00,Epitsentr Kamianets-Podilskyi,SK Poltava,,
-30,29/05/2026,12:00,Shajtar Donetsk,Kolos Kovalivka,,
-30,29/05/2026,12:00,Polissya Zhytomyr,Rukh Lviv,,
-30,29/05/2026,12:00,NK Veres,Metalist 1925 Kharkiv,,
-30,29/05/2026,12:00,Dinamo Kiev,FC Kudrivka,,
-30,29/05/2026,12:00,Karpaty Lviv,Zorya Lugansk,,
-30,29/05/2026,12:00,FK Oleksandriya,Kryvbas Kryvyi Rih,,
+27,08/05/2026,12:00,Kryvbas Kryvyi Rih,Karpaty Lviv,1-0,Final
+27,08/05/2026,12:00,Kolos Kovalivka,FC Kudrivka,1-0,Final
+27,08/05/2026,12:00,Polissya Zhytomyr,FK Oleksandriya,2-1,Final
+27,09/05/2026,12:00,Rukh Lviv,NK Veres,0-0,Final
+27,09/05/2026,12:00,FC LNZ Cherkasy,Dinamo Kiev,0-0,Final
+27,09/05/2026,12:00,FK Obolon,Epitsentr Kamianets-Podilskyi,2-2,Final
+27,09/05/2026,12:00,Zorya Lugansk,Metalist 1925 Kharkiv,1-1,Final
+27,10/05/2026,12:00,SK Poltava,Shajtar Donetsk,0-4,Final
+28,12/05/2026,12:00,FK Oleksandriya,Zorya Lugansk,1-2,Final
+28,12/05/2026,12:00,Epitsentr Kamianets-Podilskyi,Polissya Zhytomyr,3-2,Final
+28,12/05/2026,12:00,NK Veres,Kryvbas Kryvyi Rih,1-3,Final
+28,12/05/2026,12:00,Metalist 1925 Kharkiv,Karpaty Lviv,2-2,Final
+28,13/05/2026,12:00,Dinamo Kiev,Kolos Kovalivka,2-1,Final
+28,13/05/2026,12:00,FC LNZ Cherkasy,SK Poltava,2-0,Final
+28,13/05/2026,12:00,Shajtar Donetsk,FK Obolon,3-1,Final
+28,14/05/2026,12:00,FC Kudrivka,Rukh Lviv,2-1,Final
+29,16/05/2026,12:00,Metalist 1925 Kharkiv,Epitsentr Kamianets-Podilskyi,1-1,Final
+29,16/05/2026,12:00,SK Poltava,Dinamo Kiev,0-2,Final
+29,17/05/2026,12:00,Kryvbas Kryvyi Rih,Shajtar Donetsk,2-3,Final
+29,17/05/2026,12:00,Rukh Lviv,FK Oleksandriya,1-3,Final
+29,17/05/2026,12:00,Kolos Kovalivka,FK Obolon,0-2,Final
+29,17/05/2026,12:00,Karpaty Lviv,NK Veres,2-0,Final
+29,18/05/2026,12:00,FC Kudrivka,FC LNZ Cherkasy,1-0,Final
+29,18/05/2026,12:00,Zorya Lugansk,Polissya Zhytomyr,0-0,Final
+30,21/05/2026,12:00,Shajtar Donetsk,Kolos Kovalivka,0-1,Final
+30,23/05/2026,12:00,FK Oleksandriya,Kryvbas Kryvyi Rih,,
+30,23/05/2026,12:00,Epitsentr Kamianets-Podilskyi,SK Poltava,,
+30,23/05/2026,12:00,Karpaty Lviv,Zorya Lugansk,,
+30,24/05/2026,12:00,FK Obolon,FC LNZ Cherkasy,,
+30,24/05/2026,12:00,Polissya Zhytomyr,Rukh Lviv,,
+30,24/05/2026,12:00,NK Veres,Metalist 1925 Kharkiv,,
+30,24/05/2026,12:00,Dinamo Kiev,FC Kudrivka,,

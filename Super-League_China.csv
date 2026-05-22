@@ -79,30 +79,30 @@ matchday,date,time,home_team,away_team,result,status
 10,06/05/2026,06:35,Beijing Guoan,Dalian Yingbo,3-0,Final
 10,06/05/2026,06:35,Shanghai Port FC,Shenzhen Peng City,1-1,Final
 10,06/05/2026,07:00,Yunnan Yukun,Zhejiang Professional,1-2,Final
-11,09/05/2026,06:35,Shanghai Shenhua,Chongqing Tonglianglong,,
-11,09/05/2026,07:00,Chengdu Rongcheng,Henan FC,,
-11,10/05/2026,04:30,Qingdao West Coast,Wuhan Three Towns,,
-11,10/05/2026,06:00,Liaoning Tieren,Yunnan Yukun,,
-11,10/05/2026,07:00,Qingdao Hainiu,Dalian Yingbo,,
-11,10/05/2026,06:35,Beijing Guoan,Shanghai Port FC,,
-11,10/05/2026,06:35,Zhejiang Professional,Tianjin Jinmen Tiger,,
-11,10/05/2026,05:00,Shenzhen Peng City,Shandong Taishan,,
-12,15/05/2026,06:35,Henan FC,Shenzhen Peng City,,
-12,15/05/2026,06:35,Shanghai Port FC,Zhejiang Professional,,
-12,15/05/2026,06:35,Tianjin Jinmen Tiger,Chengdu Rongcheng,,
-12,15/05/2026,07:00,Beijing Guoan,Qingdao Hainiu,,
-12,15/05/2026,07:00,Dalian Yingbo,Qingdao West Coast,,
-12,16/05/2026,06:35,Wuhan Three Towns,Liaoning Tieren,,
-12,16/05/2026,06:35,Shandong Taishan,Chongqing Tonglianglong,,
-12,16/05/2026,06:35,Yunnan Yukun,Shanghai Shenhua,,
-13,19/05/2026,07:00,Shenzhen Peng City,Dalian Yingbo,,
-13,19/05/2026,06:35,Tianjin Jinmen Tiger,Henan FC,,
-13,19/05/2026,06:35,Chengdu Rongcheng,Shanghai Port FC,,
-13,19/05/2026,06:35,Qingdao West Coast,Beijing Guoan,,
-13,20/05/2026,07:00,Liaoning Tieren,Qingdao Hainiu,,
-13,20/05/2026,06:35,Shanghai Shenhua,Wuhan Three Towns,,
-13,20/05/2026,06:35,Chongqing Tonglianglong,Yunnan Yukun,,
-13,20/05/2026,06:35,Zhejiang Professional,Shandong Taishan,,
+11,09/05/2026,06:35,Shanghai Shenhua,Chongqing Tonglianglong,2-2,Final
+11,09/05/2026,07:00,Chengdu Rongcheng,Henan FC,3-0,Final
+11,10/05/2026,04:30,Qingdao West Coast,Wuhan Three Towns,1-1,Final
+11,10/05/2026,06:00,Shenzhen Peng City,Shandong Taishan,1-2,Final
+11,10/05/2026,07:00,Liaoning Tieren,Yunnan Yukun,1-2,Final
+11,10/05/2026,06:35,Beijing Guoan,Shanghai Port FC,2-2,Final
+11,10/05/2026,06:35,Zhejiang Professional,Tianjin Jinmen Tiger,1-1,Final
+11,10/05/2026,05:00,Qingdao Hainiu,Dalian Yingbo,3-1,Final
+12,15/05/2026,06:35,Henan FC,Shenzhen Peng City,1-0,Final
+12,15/05/2026,06:35,Shanghai Port FC,Zhejiang Professional,2-2,Final
+12,15/05/2026,06:35,Tianjin Jinmen Tiger,Chengdu Rongcheng,1-2,Final
+12,15/05/2026,07:00,Beijing Guoan,Qingdao Hainiu,4-2,Final
+12,15/05/2026,07:00,Dalian Yingbo,Qingdao West Coast,2-3,Final
+12,16/05/2026,06:35,Wuhan Three Towns,Liaoning Tieren,2-2,Final
+12,16/05/2026,06:35,Shandong Taishan,Chongqing Tonglianglong,3-1,Final
+12,16/05/2026,06:35,Yunnan Yukun,Shanghai Shenhua,1-0,Final
+13,19/05/2026,07:00,Shenzhen Peng City,Dalian Yingbo,1-1,Final
+13,19/05/2026,06:35,Tianjin Jinmen Tiger,Henan FC,1-2,Final
+13,19/05/2026,06:35,Chengdu Rongcheng,Shanghai Port FC,0-1,Final
+13,19/05/2026,06:35,Qingdao West Coast,Beijing Guoan,1-1,Final
+13,20/05/2026,07:00,Liaoning Tieren,Qingdao Hainiu,2-1,Final
+13,20/05/2026,06:35,Shanghai Shenhua,Wuhan Three Towns,2-2,Final
+13,20/05/2026,06:35,Chongqing Tonglianglong,Yunnan Yukun,0-0,Final
+13,20/05/2026,06:35,Zhejiang Professional,Shandong Taishan,4-1,Final
 14,23/05/2026,07:00,Shanghai Port FC,Tianjin Jinmen Tiger,,
 14,23/05/2026,06:35,Beijing Guoan,Henan FC,,
 14,23/05/2026,06:35,Dalian Yingbo,Chengdu Rongcheng,,
@@ -112,9 +112,9 @@ matchday,date,time,home_team,away_team,result,status
 14,24/05/2026,06:35,Zhejiang Professional,Liaoning Tieren,,
 14,24/05/2026,06:35,Shanghai Shenhua,Shenzhen Peng City,,
 15,29/05/2026,07:00,Liaoning Tieren,Shanghai Port FC,,
+15,30/05/2026,06:35,Qingdao West Coast,Shanghai Shenhua,,
 15,30/05/2026,06:35,Henan FC,Zhejiang Professional,,
 15,30/05/2026,06:35,Chengdu Rongcheng,Shandong Taishan,,
-15,30/05/2026,06:35,Qingdao West Coast,Shanghai Shenhua,,
 15,30/05/2026,07:00,Chongqing Tonglianglong,Beijing Guoan,,
 15,30/05/2026,06:35,Shenzhen Peng City,Qingdao Hainiu,,
 15,31/05/2026,06:35,Tianjin Jinmen Tiger,Dalian Yingbo,,

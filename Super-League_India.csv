@@ -69,24 +69,24 @@ matchday,date,time,home_team,away_team,result,status
 10,01/05/2026,07:00,Jamshedpur FC,FC Goa,2-0,Final
 10,02/05/2026,07:00,NorthEast United FC,Inter Kashi,3-2,Final
 10,02/05/2026,06:00,SC Delhi,Punjab FC,0-0,Final
-11,03/05/2026,09:00,Mohammedan SC,Mumbai City FC,0-0,Final
 11,04/05/2026,09:00,Odisha FC,Bengaluru FC,1-1,Final
 11,05/05/2026,09:00,Mumbai City FC,East Bengal Club,1-2,Final
 11,06/05/2026,09:00,Punjab FC,Chennaiyin FC,1-0,Final
-11,08/05/2026,06:30,SC Delhi,Odisha FC,,
-11,09/05/2026,06:30,FC Goa,Mohun Bagan Super Giant,,
-11,09/05/2026,09:00,Jamshedpur FC,Bengaluru FC,,
-12,10/05/2026,06:30,Kerala Blasters,Mohammedan SC,,
-12,10/05/2026,09:00,NorthEast United FC,Chennaiyin FC,,
-12,11/05/2026,09:00,East Bengal Club,Punjab FC,,
-12,12/05/2026,09:00,Mohun Bagan Super Giant,Inter Kashi,,
-12,16/05/2026,06:30,Odisha FC,Punjab FC,,
-12,17/05/2026,09:00,Inter Kashi,East Bengal Club,,
-12,17/05/2026,09:00,Chennaiyin FC,Bengaluru FC,,
-13,17/05/2026,09:00,Punjab FC,Mumbai City FC,,
-13,17/05/2026,06:30,Jamshedpur FC,Odisha FC,,
-13,17/05/2026,09:00,Kerala Blasters,FC Goa,,
-13,17/05/2026,09:00,Mohun Bagan Super Giant,SC Delhi,,
-13,17/05/2026,09:00,NorthEast United FC,Mohammedan SC,,
-13,17/05/2026,09:00,SC Delhi,Inter Kashi,,
-13,17/05/2026,09:00,Mohun Bagan Super Giant,East Bengal Club,,
+11,08/05/2026,09:00,SC Delhi,Odisha FC,1-2,Final
+11,09/05/2026,06:30,FC Goa,Mohun Bagan Super Giant,1-1,Final
+11,09/05/2026,06:30,Jamshedpur FC,Bengaluru FC,0-1,Final
+11,15/05/2026,09:00,Mohammedan SC,Mumbai City FC,0-4,Final
+12,10/05/2026,06:30,Kerala Blasters,Mohammedan SC,3-1,Final
+12,10/05/2026,09:00,NorthEast United FC,Chennaiyin FC,4-1,Final
+12,11/05/2026,09:00,East Bengal Club,Punjab FC,0-0,Final
+12,12/05/2026,09:00,Mohun Bagan Super Giant,Inter Kashi,0-0,Final
+12,16/05/2026,06:30,Chennaiyin FC,Bengaluru FC,1-2,Final
+12,16/05/2026,09:00,Odisha FC,Punjab FC,2-3,Final
+12,21/05/2026,09:00,Inter Kashi,East Bengal Club,1-2,Final
+13,17/05/2026,09:00,SC Delhi,Inter Kashi,0-0,Final
+13,17/05/2026,06:30,Mohun Bagan Super Giant,East Bengal Club,1-1,Final
+13,18/05/2026,09:00,Kerala Blasters,FC Goa,2-1,Final
+13,19/05/2026,09:00,NorthEast United FC,Mohammedan SC,2-0,Final
+13,21/05/2026,09:00,Jamshedpur FC,Odisha FC,0-0,Final
+13,21/05/2026,09:00,Mohun Bagan Super Giant,SC Delhi,2-1,Final
+13,21/05/2026,09:00,Punjab FC,Mumbai City FC,0-2,Final

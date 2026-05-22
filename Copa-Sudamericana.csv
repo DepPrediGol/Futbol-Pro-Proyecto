@@ -79,22 +79,22 @@ matchday,date,time,home_team,away_team,result,status
 7,07/05/2026,19:00,O'Higgins,São Paulo FC,0-0,Final
 7,07/05/2026,19:30,Blooming,Red Bull Bragantino,0-6,Final
 7,07/05/2026,17:00,Carabobo FC,River Plate,1-2,Final
-8,20/05/2026,21:00,América de Cali,Tigre,,
-8,20/05/2026,19:00,São Paulo FC,Millonarios,,
-8,20/05/2026,17:00,Deportivo Cuenca,Deportivo Recoleta,,
-8,20/05/2026,19:30,Montevideo City Torque,Deportivo Riestra,,
-8,20/05/2026,19:30,Audax Italiano,Barracas Central,,
-8,21/05/2026,19:00,Boston River,O'Higgins,,
-8,21/05/2026,17:00,Santos FC,San Lorenzo,,
-8,21/05/2026,17:00,Independiente Petrolero,Botafogo - RJ,,
-8,21/05/2026,17:00,Grêmio Porto Alegre,Palestino,,
-8,21/05/2026,19:30,Club Olimpia,Vasco da Gama - RJ,,
-8,21/05/2026,19:30,River Plate,Red Bull Bragantino,,
-8,22/05/2026,17:00,Macará,Alianza Atlético,,
-8,22/05/2026,19:00,Atlético Mineiro,Cienciano,,
-8,22/05/2026,19:00,Academia Puerto Cabello,Juventud de Las Piedras,,
-8,22/05/2026,17:00,Racing Club,Caracas FC,,
-8,22/05/2026,17:00,Blooming,Carabobo FC,,
+8,20/05/2026,21:00,América de Cali,Tigre,1-1,Final
+8,20/05/2026,19:00,São Paulo FC,Millonarios,1-1,Final
+8,20/05/2026,17:00,Deportivo Cuenca,Deportivo Recoleta,2-2,Final
+8,20/05/2026,19:30,Montevideo City Torque,Deportivo Riestra,4-1,Final
+8,20/05/2026,19:30,Audax Italiano,Barracas Central,2-0,Final
+8,21/05/2026,19:00,Boston River,O'Higgins,3-2,Final
+8,21/05/2026,17:00,Santos FC,San Lorenzo,2-2,Final
+8,21/05/2026,17:00,Independiente Petrolero,Botafogo - RJ,0-3,Final
+8,21/05/2026,17:00,Grêmio Porto Alegre,Palestino,2-0,Final
+8,21/05/2026,19:30,Club Olimpia,Vasco da Gama - RJ,3-1,Final
+8,21/05/2026,19:30,River Plate,Red Bull Bragantino,1-1,Final
+8,22/05/2026,17:00,Macará,Alianza Atlético,0-0,Final
+8,22/05/2026,19:00,Atlético Mineiro,Cienciano,2-0,Final
+8,22/05/2026,19:00,Academia Puerto Cabello,Juventud de Las Piedras,1-1,Final
+8,22/05/2026,17:00,Racing Club,Caracas FC,2-2,Final
+8,22/05/2026,17:00,Blooming,Carabobo FC,0-2,Final
 9,27/05/2026,19:00,Millonarios,O'Higgins,,
 9,27/05/2026,19:00,São Paulo FC,Boston River,,
 9,27/05/2026,19:00,San Lorenzo,Deportivo Recoleta,,

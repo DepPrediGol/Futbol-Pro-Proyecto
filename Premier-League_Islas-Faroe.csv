@@ -39,16 +39,16 @@ matchday,date,time,home_team,away_team,result,status
 8,03/05/2026,11:15,B68 Toftir,EB/Streymur,1-1,Final
 8,04/05/2026,12:30,B36 Tórshavn,NSÍ Runavík,2-0,Final
 8,04/05/2026,12:30,Víkingur,07 Vestur,0-0,Final
-9,08/05/2026,12:30,NSÍ Runavík,HB Tórshavn,,
-9,10/05/2026,09:00,B36 Tórshavn,KÍ Klaksvík,,
-9,10/05/2026,09:00,EB/Streymur,Víkingur,,
-9,10/05/2026,11:15,07 Vestur,B68 Toftir,,
-9,10/05/2026,11:15,Skála ÍF,AB Argir,,
-10,17/05/2026,10:00,HB Tórshavn,EB/Streymur,,
-10,17/05/2026,10:00,Skála ÍF,B36 Tórshavn,,
-10,17/05/2026,10:00,07 Vestur,NSÍ Runavík,,
-10,17/05/2026,12:15,AB Argir,Víkingur,,
-10,17/05/2026,12:15,B68 Toftir,KÍ Klaksvík,,
+9,08/05/2026,12:30,NSÍ Runavík,HB Tórshavn,2-1,Final
+9,09/05/2026,09:00,B36 Tórshavn,KÍ Klaksvík,1-1,Final
+9,10/05/2026,09:00,EB/Streymur,Víkingur,1-1,Final
+9,10/05/2026,11:15,07 Vestur,B68 Toftir,0-2,Final
+9,10/05/2026,11:15,Skála ÍF,AB Argir,1-0,Final
+10,17/05/2026,10:00,Skála ÍF,B36 Tórshavn,1-2,Final
+10,17/05/2026,10:00,07 Vestur,NSÍ Runavík,1-6,Final
+10,17/05/2026,10:00,B68 Toftir,KÍ Klaksvík,1-4,Final
+10,18/05/2026,12:15,AB Argir,Víkingur,2-3,Final
+10,18/05/2026,12:15,HB Tórshavn,EB/Streymur,3-4,Final
 11,25/05/2026,13:00,EB/Streymur,NSÍ Runavík,,
 11,25/05/2026,12:15,KÍ Klaksvík,AB Argir,,
 11,25/05/2026,10:00,Víkingur,Skála ÍF,,
@@ -61,9 +61,9 @@ matchday,date,time,home_team,away_team,result,status
 12,30/05/2026,14:00,KÍ Klaksvík,EB/Streymur,,
 13,13/06/2026,12:00,07 Vestur,Víkingur,,
 13,13/06/2026,14:00,NSÍ Runavík,B36 Tórshavn,,
-13,14/06/2026,12:15,AB Argir,HB Tórshavn,,
-13,14/06/2026,10:00,EB/Streymur,B68 Toftir,,
+13,14/06/2026,12:15,EB/Streymur,B68 Toftir,,
 13,14/06/2026,10:00,Skála ÍF,KÍ Klaksvík,,
+13,14/06/2026,10:00,AB Argir,HB Tórshavn,,
 14,19/06/2026,12:00,Víkingur,KÍ Klaksvík,,
 14,20/06/2026,12:00,EB/Streymur,Skála ÍF,,
 14,21/06/2026,12:00,07 Vestur,AB Argir,,

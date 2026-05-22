@@ -111,11 +111,27 @@ matchday,date,time,home_team,away_team,result,status
 14,03/05/2026,10:30,Racing,Montevideo City Torque,1-1,Final
 14,04/05/2026,13:30,Albion,Nacional,3-2,Final
 14,05/05/2026,16:00,Peñarol,Defensor Sporting,1-1,Final
-15,09/05/2026,12:00,Central Español,Racing,,
-15,09/05/2026,12:00,Cerro Largo,Peñarol,,
-15,09/05/2026,12:00,Montevideo City Torque,Progreso,,
-15,09/05/2026,12:00,Danubio,Albion,,
-15,09/05/2026,12:00,Defensor Sporting,Juventud de Las Piedras,,
-15,09/05/2026,12:00,Deportivo Maldonado,Boston River,,
-15,09/05/2026,12:00,Nacional,CA Cerro,,
-15,09/05/2026,12:00,Montevideo Wanderers,Liverpool,,
+15,09/05/2026,12:00,Central Español,Racing,2-0,Final
+15,09/05/2026,12:00,Cerro Largo,Peñarol,2-3,Final
+15,09/05/2026,12:00,Montevideo City Torque,Progreso,2-1,Final
+15,09/05/2026,12:00,Danubio,Albion,0-1,Final
+15,09/05/2026,12:00,Defensor Sporting,Juventud de Las Piedras,1-2,Final
+15,09/05/2026,12:00,Deportivo Maldonado,Boston River,2-1,Final
+15,09/05/2026,12:00,Nacional,CA Cerro,4-0,Final
+15,09/05/2026,12:00,Montevideo Wanderers,Liverpool,1-0,Final
+16,16/05/2026,10:30,Boston River,CA Cerro,4-1,Final
+16,16/05/2026,13:30,Peñarol,Liverpool,2-1,Final
+16,16/05/2026,16:00,Montevideo City Torque,Nacional,1-2,Final
+16,16/05/2026,12:00,Juventud de Las Piedras,Progreso,2-0,Final
+16,17/05/2026,12:00,Central Español,Defensor Sporting,2-1,Final
+16,17/05/2026,12:00,Racing,Cerro Largo,1-0,Final
+16,17/05/2026,10:30,Albion,Montevideo Wanderers,0-0,Final
+16,18/05/2026,13:30,Deportivo Maldonado,Danubio,3-1,Final
+17,22/05/2026,17:30,Liverpool,Racing,,
+17,23/05/2026,13:00,Cerro Largo,Boston River,,
+17,23/05/2026,08:00,Progreso,Montevideo City Torque,,
+17,23/05/2026,16:30,Nacional,Albion,,
+17,24/05/2026,08:00,CA Cerro,Central Español,,
+17,24/05/2026,16:30,Defensor Sporting,Peñarol,,
+17,24/05/2026,13:00,Montevideo Wanderers,Deportivo Maldonado,,
+17,25/05/2026,00:00,Danubio,Juventud de Las Piedras,,

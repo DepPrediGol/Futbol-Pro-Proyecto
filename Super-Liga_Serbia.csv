@@ -271,27 +271,27 @@ matchday,date,time,home_team,away_team,result,status
 34,03/05/2026,12:00,FK Radnički 1923,TSC Bačka Topola,2-2,Final
 34,04/05/2026,10:00,Radnik Surdulica,Vojvodina,1-4,Final
 34,04/05/2026,12:00,FK Čukarički,Estrella Roja de Belgrado,1-2,Final
-35,09/05/2026,12:00,Vojvodina,FK Čukarički,,
-35,09/05/2026,12:00,Partizan,OFK Beograd,,
-35,09/05/2026,12:00,Estrella Roja de Belgrado,FK Novi Pazar,,
-35,09/05/2026,12:00,Železničar Pančevo,Radnik Surdulica,,
-35,09/05/2026,12:00,IMT Beograd,FK Radnički 1923,,
-35,09/05/2026,12:00,Radnički Niš,Mladost Lučani,,
-35,09/05/2026,12:00,Spartak Subotica,FK Napredak,,
-35,09/05/2026,12:00,TSC Bačka Topola,FK Javor,,
-36,16/05/2026,12:00,FK Čukarički,Partizan,,
-36,16/05/2026,12:00,FK Novi Pazar,Železničar Pančevo,,
-36,16/05/2026,12:00,OFK Beograd,Vojvodina,,
-36,16/05/2026,12:00,Radnik Surdulica,Estrella Roja de Belgrado,,
-36,16/05/2026,12:00,FK Javor,Mladost Lučani,,
-36,16/05/2026,12:00,FK Napredak,FK Radnički 1923,,
-36,16/05/2026,12:00,Spartak Subotica,IMT Beograd,,
-36,16/05/2026,12:00,TSC Bačka Topola,Radnički Niš,,
-37,23/05/2026,12:00,Vojvodina,FK Novi Pazar,,
-37,23/05/2026,12:00,Partizan,Radnik Surdulica,,
-37,23/05/2026,12:00,Estrella Roja de Belgrado,OFK Beograd,,
-37,23/05/2026,12:00,Železničar Pančevo,FK Čukarički,,
-37,23/05/2026,12:00,Mladost Lučani,FK Napredak,,
-37,23/05/2026,12:00,IMT Beograd,TSC Bačka Topola,,
-37,23/05/2026,12:00,FK Radnički 1923,FK Javor,,
-37,23/05/2026,12:00,Radnički Niš,Spartak Subotica,,
+35,09/05/2026,12:00,Vojvodina,FK Čukarički,1-0,Final
+35,09/05/2026,12:00,Partizan,OFK Beograd,1-1,Final
+35,09/05/2026,12:00,Estrella Roja de Belgrado,FK Novi Pazar,1-2,Final
+35,09/05/2026,12:00,Železničar Pančevo,Radnik Surdulica,1-1,Final
+35,09/05/2026,12:00,IMT Beograd,FK Radnički 1923,0-0,Final
+35,09/05/2026,12:00,Radnički Niš,Mladost Lučani,1-0,Final
+35,09/05/2026,12:00,Spartak Subotica,FK Napredak,0-3,Final
+35,09/05/2026,12:00,TSC Bačka Topola,FK Javor,6-1,Final
+36,16/05/2026,12:00,FK Čukarički,Partizan,0-0,Final
+36,16/05/2026,12:00,FK Novi Pazar,Železničar Pančevo,2-2,Final
+36,16/05/2026,12:00,OFK Beograd,Vojvodina,1-2,Final
+36,16/05/2026,12:00,Radnik Surdulica,Estrella Roja de Belgrado,0-0,Final
+36,16/05/2026,12:00,FK Javor,Mladost Lučani,2-4,Final
+36,16/05/2026,12:00,FK Napredak,FK Radnički 1923,0-0,Final
+36,16/05/2026,12:00,Spartak Subotica,IMT Beograd,0-1,Final
+36,16/05/2026,12:00,TSC Bačka Topola,Radnički Niš,1-2,Final
+37,22/05/2026,13:00,Estrella Roja de Belgrado,OFK Beograd,,
+37,22/05/2026,10:00,Železničar Pančevo,FK Čukarički,,
+37,23/05/2026,11:00,Vojvodina,FK Novi Pazar,,
+37,23/05/2026,08:00,Partizan,Radnik Surdulica,,
+37,24/05/2026,12:00,Mladost Lučani,FK Napredak,,
+37,24/05/2026,12:00,IMT Beograd,TSC Bačka Topola,,
+37,24/05/2026,12:00,FK Radnički 1923,FK Javor,,
+37,24/05/2026,12:00,Radnički Niš,Spartak Subotica,,

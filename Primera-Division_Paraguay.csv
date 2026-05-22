@@ -98,9 +98,9 @@ matchday,date,time,home_team,away_team,result,status
 17,17/04/2026,12:00,Sportivo Trinidense,San Lorenzo,2-1,Final
 17,18/04/2026,12:00,Guaraní,Sportivo Luqueño,2-1,Final
 17,19/04/2026,12:00,Deportivo Recoleta,2 de Mayo,5-0,Final
-17,19/04/2026,18:00,Club Olimpia,Cerro Porteño,,
-17,21/04/2026,12:00,Club Rubio Ñu,Libertad,3-0,Final
+17,19/04/2026,18:00,Club Olimpia,Cerro Porteño,3-0,Final
 17,21/04/2026,12:00,Sportivo Ameliano,Club Nacional,1-1,Final
+17,21/04/2026,12:00,Club Rubio Ñu,Libertad,3-0,Final
 18,24/04/2026,12:00,Club Nacional,Deportivo Recoleta,2-1,Final
 18,25/04/2026,12:00,Cerro Porteño,Sportivo Ameliano,1-1,Final
 18,25/04/2026,12:00,Sportivo Luqueño,Sportivo Trinidense,2-1,Final
@@ -113,21 +113,21 @@ matchday,date,time,home_team,away_team,result,status
 19,03/05/2026,18:00,Club Olimpia,Sportivo Ameliano,1-1,Final
 19,03/05/2026,15:45,Deportivo Recoleta,Cerro Porteño,2-1,Final
 19,04/05/2026,18:00,Guaraní,Club Nacional,0-1,Final
-20,16/05/2026,12:00,San Lorenzo,Club Olimpia,,
-20,16/05/2026,12:00,Sportivo Luqueño,Libertad,,
-20,16/05/2026,12:00,2 de Mayo,Club Rubio Ñu,,
-20,16/05/2026,12:00,Club Nacional,Sportivo Trinidense,,
-20,16/05/2026,12:00,Cerro Porteño,Guaraní,,
-20,16/05/2026,12:00,Sportivo Ameliano,Deportivo Recoleta,,
-21,19/05/2026,12:00,Club Olimpia,Deportivo Recoleta,,
-21,19/05/2026,12:00,Guaraní,Sportivo Ameliano,,
-21,19/05/2026,12:00,Sportivo Trinidense,Cerro Porteño,,
-21,19/05/2026,12:00,Club Rubio Ñu,Club Nacional,,
-21,19/05/2026,12:00,Libertad,2 de Mayo,,
-21,19/05/2026,12:00,San Lorenzo,Sportivo Luqueño,,
-22,24/05/2026,12:00,Sportivo Luqueño,Club Olimpia,,
-22,24/05/2026,12:00,2 de Mayo,San Lorenzo,,
+20,09/05/2026,12:00,2 de Mayo,Club Rubio Ñu,2-0,Final
+20,10/05/2026,12:00,Club Nacional,Sportivo Trinidense,2-1,Final
+20,10/05/2026,12:00,San Lorenzo,Club Olimpia,1-0,Final
+20,11/05/2026,12:00,Sportivo Luqueño,Libertad,2-3,Final
+20,11/05/2026,12:00,Sportivo Ameliano,Deportivo Recoleta,3-2,Final
+20,12/05/2026,12:00,Cerro Porteño,Guaraní,0-0,Final
+21,14/05/2026,12:00,Libertad,2 de Mayo,0-0,Final
+21,15/05/2026,12:00,Club Olimpia,Deportivo Recoleta,3-2,Final
+21,15/05/2026,12:00,Sportivo Trinidense,Cerro Porteño,3-1,Final
+21,15/05/2026,12:00,Club Rubio Ñu,Club Nacional,1-1,Final
+21,16/05/2026,12:00,Guaraní,Sportivo Ameliano,1-0,Final
+21,17/05/2026,12:00,San Lorenzo,Sportivo Luqueño,0-0,Final
+22,22/05/2026,12:00,2 de Mayo,San Lorenzo,,
+22,23/05/2026,12:00,Sportivo Luqueño,Club Olimpia,,
+22,23/05/2026,12:00,Deportivo Recoleta,Guaraní,,
 22,24/05/2026,12:00,Club Nacional,Libertad,,
 22,24/05/2026,12:00,Cerro Porteño,Club Rubio Ñu,,
 22,24/05/2026,12:00,Sportivo Ameliano,Sportivo Trinidense,,
-22,24/05/2026,12:00,Deportivo Recoleta,Guaraní,,

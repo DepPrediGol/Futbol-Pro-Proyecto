@@ -278,8 +278,11 @@ with tab_soccer:
                 t_v, g1_v, g2_v, w_v = len(h_v), (h_v['G_V']>=1).sum(), (h_v['G_V']>=2).sum(), (h_v['G_V']>=h_v['G_L']).sum()
                 etq_b = f"1X: {d_b['1X']:.0%}" if d_b['1X'] >= d_b['X2'] else f"X2: {d_b['X2']:.0%}"
                 st.markdown(f"""
-                <div style="background-color: #ff4b4b; padding: 30px; border-radius: 15px; border-left: 15px solid #8B0000;">
-                    <h2 style="color: white !important; margin: 0; text-align: center;">💣 PREDICCIÓN BOMBA DETECTADA 💣</h2>
+                <div style="background-color: #ff4b4b; padding: 30px; border-radius: 15px; border-left: 15px solid #8B0000; position: relative;">
+                    <div style="position: absolute; top: 15px; left: 15px; background-color: rgba(255, 255, 255, 0.25); color: white; padding: 5px 15px; border-radius: 8px; font-size: 0.9rem; font-weight: bold; border: 1px solid rgba(255, 255, 255, 0.5); box-shadow: 0px 2px 5px rgba(0,0,0,0.2);">
+                        🏆 {d_b['League']}
+                    </div>
+                    <h2 style="color: white !important; margin: 0; text-align: center; padding-top: 15px;">💣 PREDICCIÓN BOMBA DETECTADA 💣</h2>
                     <p style="font-size: 1.15rem; line-height: 1.6; margin-top: 20px; color: white !important;">
                         El equipo local <b>{d_b['Home team']}</b> lleva <b>{g1_l} de {t_l}</b> partidos marcando al menos 1 gol en casa y de esos <b>{g1_l}</b> partidos <b>{g2_l}</b> ha marcado 2 o más goles, ha ganado o empatado en <b>{w_l} de {t_l}</b> encuentros como local. <br>
                         El equipo visitante <b>{d_b['Away team']}</b>, lleva <b>{g1_v} de {t_v}</b> partidos marcando al menos 1 gol como visitante y de esos <b>{g1_v}</b> partidos <b>{g2_v}</b> ha marcado 2 o más goles, ha ganado o empatado en <b>{w_v} de {t_v}</b> encuentros como visitante.

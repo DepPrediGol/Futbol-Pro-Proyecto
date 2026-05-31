@@ -71,22 +71,22 @@ matchday,date,time,home_team,away_team,result,status
 9,16/05/2026,09:00,Viking FK,IK Start,6-3,Final
 9,16/05/2026,11:00,FK Bodø/Glimt,Tromsø IL,5-0,Final
 9,16/05/2026,13:00,Vålerenga IF,Sarpsborg 08,3-2,Final
-10,24/05/2026,09:00,FK Bodø/Glimt,SK Brann,,
-10,24/05/2026,11:00,Kristiansund BK,Viking FK,,
-10,25/05/2026,07:30,IK Start,Vålerenga IF,,
-10,25/05/2026,07:30,Hamarkameratene,Lillestrøm SK,,
-10,25/05/2026,10:00,KFUM Oslo,Rosenborg BK,,
-10,25/05/2026,10:00,Sarpsborg 08,Molde FK,,
-10,25/05/2026,10:00,Tromsø IL,Aalesunds FK,,
-10,25/05/2026,12:15,Sandefjord Fotball,Fredrikstad FK,,
-11,29/05/2026,12:00,Aalesunds FK,Hamarkameratene,,
-11,29/05/2026,12:00,SK Brann,Sarpsborg 08,,
-11,29/05/2026,12:00,Fredrikstad FK,IK Start,,
-11,29/05/2026,12:00,KFUM Oslo,Tromsø IL,,
-11,29/05/2026,12:00,Rosenborg BK,FK Bodø/Glimt,,
-11,29/05/2026,12:00,Vålerenga IF,Kristiansund BK,,
-11,30/05/2026,12:00,Lillestrøm SK,Viking FK,,
-11,30/05/2026,12:00,Molde FK,Sandefjord Fotball,,
+10,24/05/2026,09:00,FK Bodø/Glimt,SK Brann,3-1,Final
+10,24/05/2026,11:00,Kristiansund BK,Viking FK,1-2,Final
+10,25/05/2026,07:30,IK Start,Vålerenga IF,2-0,Final
+10,25/05/2026,07:30,Hamarkameratene,Lillestrøm SK,2-0,Final
+10,25/05/2026,10:00,KFUM Oslo,Rosenborg BK,2-0,Final
+10,25/05/2026,10:00,Sarpsborg 08,Molde FK,2-1,Final
+10,25/05/2026,10:00,Tromsø IL,Aalesunds FK,1-1,Final
+10,25/05/2026,12:15,Sandefjord Fotball,Fredrikstad FK,1-1,Final
+11,29/05/2026,12:00,Aalesunds FK,Hamarkameratene,2-2,Final
+11,29/05/2026,12:00,SK Brann,Sarpsborg 08,1-2,Final
+11,29/05/2026,12:00,Fredrikstad FK,IK Start,2-1,Final
+11,29/05/2026,12:00,KFUM Oslo,Tromsø IL,0-0,Final
+11,29/05/2026,12:00,Rosenborg BK,FK Bodø/Glimt,2-2,Final
+11,29/05/2026,12:00,Vålerenga IF,Kristiansund BK,3-1,Final
+11,22/07/2026,12:00,Lillestrøm SK,Viking FK,,
+11,30/05/2026,12:00,Molde FK,Sandefjord Fotball,2-1,Final
 12,05/07/2026,10:00,FK Bodø/Glimt,Vålerenga IF,,
 12,05/07/2026,10:00,Hamarkameratene,Rosenborg BK,,
 12,05/07/2026,10:00,IK Start,Sandefjord Fotball,,

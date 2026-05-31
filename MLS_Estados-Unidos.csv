@@ -202,21 +202,21 @@ matchday,date,time,home_team,away_team,result,status
 15,16/05/2026,21:30,San Jose Earthquakes,FC Dallas,2-3,Final
 15,17/05/2026,17:00,Inter Miami,Portland Timbers,2-0,Final
 15,17/05/2026,19:00,Nashville SC,Los Angeles FC,3-2,Final
-16,23/05/2026,13:45,St. Louis City,Austin,,
-16,23/05/2026,15:30,Minnesota United FC,Real Salt Lake,,
-16,23/05/2026,18:30,FC Cincinnati,Orlando City SC,,
-16,23/05/2026,18:30,Charlotte,New England Revolution,,
-16,23/05/2026,18:30,DC United,CF Montreal,,
-16,23/05/2026,19:30,Nashville SC,New York City FC,,
-16,23/05/2026,19:30,Chicago Fire,Toronto FC,,
-16,23/05/2026,19:30,Sporting Kansas City,New York Red Bulls,,
-16,23/05/2026,20:30,San Diego,Vancouver Whitecaps,,
-16,23/05/2026,20:30,Colorado Rapids,FC Dallas,,
-16,23/05/2026,20:30,Portland Timbers,San Jose Earthquakes,,
-16,23/05/2026,21:30,Los Angeles Galaxy,Houston Dynamo,,
-16,24/05/2026,16:00,Columbus Crew,Atlanta United FC,,
-16,24/05/2026,18:00,Inter Miami,Philadelphia Union,,
-16,24/05/2026,20:00,Los Angeles FC,Seattle Sounders,,
+16,23/05/2026,13:45,St. Louis City,Austin,3-0,Final
+16,23/05/2026,15:30,Minnesota United FC,Real Salt Lake,1-1,Final
+16,23/05/2026,18:30,FC Cincinnati,Orlando City SC,6-2,Final
+16,23/05/2026,18:30,Charlotte,New England Revolution,1-0,Final
+16,23/05/2026,18:30,DC United,CF Montreal,4-4,Final
+16,23/05/2026,19:30,Nashville SC,New York City FC,2-1,Final
+16,23/05/2026,19:30,Chicago Fire,Toronto FC,2-1,Final
+16,23/05/2026,19:30,Sporting Kansas City,New York Red Bulls,1-2,Final
+16,23/05/2026,20:30,San Diego,Vancouver Whitecaps,2-4,Final
+16,23/05/2026,20:30,Colorado Rapids,FC Dallas,1-2,Final
+16,23/05/2026,20:30,Portland Timbers,San Jose Earthquakes,1-3,Final
+16,23/05/2026,21:30,Los Angeles Galaxy,Houston Dynamo,1-1,Final
+16,24/05/2026,16:00,Columbus Crew,Atlanta United FC,2-0,Final
+16,24/05/2026,18:00,Inter Miami,Philadelphia Union,6-4,Final
+16,24/05/2026,20:15,Los Angeles FC,Seattle Sounders,1-0,Final
 17,16/07/2026,18:30,CF Montreal,Toronto FC,,
 17,16/07/2026,19:30,Chicago Fire,Vancouver Whitecaps,,
 17,16/07/2026,19:30,St. Louis City,Sporting Kansas City,,

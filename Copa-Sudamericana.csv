@@ -95,19 +95,35 @@ matchday,date,time,home_team,away_team,result,status
 8,22/05/2026,19:00,Academia Puerto Cabello,Juventud de Las Piedras,1-1,Final
 8,22/05/2026,17:00,Racing Club,Caracas FC,2-2,Final
 8,22/05/2026,17:00,Blooming,Carabobo FC,0-2,Final
-9,27/05/2026,19:00,Millonarios,O'Higgins,,
-9,27/05/2026,19:00,São Paulo FC,Boston River,,
-9,27/05/2026,19:00,San Lorenzo,Deportivo Recoleta,,
-9,27/05/2026,19:30,Santos FC,Deportivo Cuenca,,
-9,27/05/2026,17:00,Palestino,Deportivo Riestra,,
-9,27/05/2026,19:30,Grêmio Porto Alegre,Montevideo City Torque,,
-9,28/05/2026,17:00,Cienciano,Juventud de Las Piedras,,
-9,28/05/2026,17:00,Atlético Mineiro,Academia Puerto Cabello,,
-9,28/05/2026,17:00,Racing Club,Independiente Petrolero,,
-9,28/05/2026,17:00,Caracas FC,Botafogo - RJ,,
-9,28/05/2026,19:30,Vasco da Gama - RJ,Barracas Central,,
-9,28/05/2026,19:30,Club Olimpia,Audax Italiano,,
-9,28/05/2026,17:00,Red Bull Bragantino,Carabobo FC,,
-9,28/05/2026,19:30,River Plate,Blooming,,
-9,29/05/2026,17:00,Tigre,Alianza Atlético,,
-9,29/05/2026,19:00,América de Cali,Macará,,
+9,27/05/2026,19:00,Millonarios,O'Higgins,1-2,Final
+9,27/05/2026,19:00,São Paulo FC,Boston River,2-0,Final
+9,27/05/2026,19:00,San Lorenzo,Deportivo Recoleta,0-1,Final
+9,27/05/2026,19:30,Santos FC,Deportivo Cuenca,3-0,Final
+9,27/05/2026,17:00,Palestino,Deportivo Riestra,1-1,Final
+9,27/05/2026,19:30,Grêmio Porto Alegre,Montevideo City Torque,2-2,Final
+9,28/05/2026,17:00,Cienciano,Juventud de Las Piedras,1-1,Final
+9,28/05/2026,17:00,Atlético Mineiro,Academia Puerto Cabello,1-0,Final
+9,28/05/2026,17:00,Racing Club,Independiente Petrolero,2-0,Final
+9,28/05/2026,17:00,Caracas FC,Botafogo - RJ,1-3,Final
+9,28/05/2026,19:30,Vasco da Gama - RJ,Barracas Central,3-0,Final
+9,28/05/2026,19:30,Club Olimpia,Audax Italiano,3-1,Final
+9,28/05/2026,17:00,Red Bull Bragantino,Carabobo FC,2-0,Final
+9,28/05/2026,19:30,River Plate,Blooming,3-0,Final
+9,29/05/2026,17:00,Tigre,Alianza Atlético,2-0,Final
+9,29/05/2026,19:00,América de Cali,Macará,0-0,Final
+10,22/07/2026,19:00,Bolivar,Grêmio Porto Alegre,,
+10,22/07/2026,19:00,Sporting Cristal,Bragantino,,
+10,22/07/2026,19:00,Independiente Medellin,Vasco da Gama – RJ,,
+10,22/07/2026,19:00,UCV FC,Santos FC,,
+10,22/07/2026,19:00,Boca Junior,O'Higgins,,
+10,22/07/2026,19:00,Nacional,Tigre,,
+10,22/07/2026,19:00,Santa Fe,Caracas FC,,
+10,22/07/2026,19:00,Lanus,Cienciano,,
+10,29/07/2026,19:00,Grêmio Porto Alegre,Bolivar,,
+11,29/07/2026,19:00,Bragantino,Sporting Cristal,,
+11,29/07/2026,19:00,Vasco da Gama – RJ,Independiente Medellin,,
+11,29/07/2026,19:00,Santos FC,UCV FC,,
+11,29/07/2026,19:00,O'Higgins,Boca Junior,,
+11,29/07/2026,19:00,Tigre,Nacional,,
+11,29/07/2026,19:00,Caracas FC,Santa Fe,,
+11,29/07/2026,19:00,Cienciano,Lanus,,

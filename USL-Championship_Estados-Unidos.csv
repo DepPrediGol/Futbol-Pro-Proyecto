@@ -106,30 +106,30 @@ matchday,date,time,home_team,away_team,result,status
 ,09/05/2026,20:00,New Mexico United,Las Vegas Lights,3-1,Final
 ,09/05/2026,21:00,Oakland Roots,El Paso Locomotive,2-1,Final
 ,09/05/2026,21:00,Phoenix Rising,San Antonio,1-1,Final
-,20/05/2026,19:00,Detroit City,Miami FC,1-0,En vivo
-,20/05/2026,20:00,New Mexico United,Tampa Bay Rowdies,0-1,En vivo
-,22/05/2026,19:30,FC Tulsa,Hartford Athletic,,
-,23/05/2026,17:00,Loudoun United,Detroit City,,
-,23/05/2026,18:00,Indy Eleven,Lexington,,
-,23/05/2026,18:00,Miami FC,Louisville City,,
-,23/05/2026,18:30,Rhode Island,Brooklyn,,
-,23/05/2026,18:30,Tampa Bay Rowdies,Phoenix Rising,,
-,23/05/2026,19:30,San Antonio,Sacramento Republic,,
-,23/05/2026,20:00,New Mexico United,Charleston Battery,,
-,23/05/2026,21:00,Monterey Bay,Birmingham Legion,,
-,23/05/2026,21:00,Orange County SC,Oakland Roots,,
-,23/05/2026,21:30,Las Vegas Lights,Colorado Springs,,
-,27/05/2026,18:30,Sporting JAX,San Antonio,,
-,30/05/2026,17:00,Charleston Battery,Detroit City,,
-,30/05/2026,18:00,Hartford Athletic,New Mexico United,,
-,30/05/2026,18:00,Indy Eleven,Rhode Island,,
-,30/05/2026,18:00,Louisville City,Tampa Bay Rowdies,,
-,30/05/2026,18:00,Pittsburgh Riverhounds,Miami FC,,
-,30/05/2026,19:00,Oakland Roots,Colorado Springs,,
-,30/05/2026,20:00,El Paso Locomotive,Lexington,,
-,30/05/2026,21:00,Monterey Bay,Loudoun United,,
-,30/05/2026,21:30,Las Vegas Lights,FC Tulsa,,
-,30/05/2026,21:30,Phoenix Rising,Sacramento Republic,,
+,20/05/2026,19:00,Detroit City,Miami FC,2-1,Final
+,20/05/2026,20:00,New Mexico United,Tampa Bay Rowdies,0-1,Final
+,22/05/2026,19:30,FC Tulsa,Hartford Athletic,2-0,Final
+,23/05/2026,17:00,Loudoun United,Detroit City,0-0,Final
+,23/05/2026,18:00,Indy Eleven,Lexington,3-1,Final
+,23/05/2026,18:00,Miami FC,Louisville City,4-3,Final
+,23/05/2026,18:30,Rhode Island,Brooklyn,4-1,Final
+,23/05/2026,18:30,Tampa Bay Rowdies,Phoenix Rising,3-0,Final
+,23/05/2026,19:30,San Antonio,Sacramento Republic,2-1,Final
+,23/05/2026,20:00,New Mexico United,Charleston Battery,1-0,Final
+,23/05/2026,21:00,Monterey Bay,Birmingham Legion,2-0,Final
+,23/05/2026,21:00,Orange County SC,Oakland Roots,3-2,Final
+,23/05/2026,21:30,Las Vegas Lights,Colorado Springs,2-0,Final
+,27/05/2026,18:30,Sporting JAX,San Antonio,4-4,Final
+,30/05/2026,17:00,Charleston Battery,Detroit City,2-0,Final
+,30/05/2026,18:00,Hartford Athletic,New Mexico United,0-0,Final
+,30/05/2026,18:00,Indy Eleven,Rhode Island,1-0,Final
+,30/05/2026,18:00,Louisville City,Tampa Bay Rowdies,0-2,Final
+,30/05/2026,18:00,Pittsburgh Riverhounds,Miami FC,2-0,Final
+,30/05/2026,19:00,Oakland Roots,Colorado Springs,0-1,Final
+,30/05/2026,20:00,El Paso Locomotive,Lexington,1-4,Final
+,30/05/2026,21:00,Monterey Bay,Loudoun United,4-1,Final
+,30/05/2026,21:30,Las Vegas Lights,FC Tulsa,0-0,Final
+,30/05/2026,21:30,Phoenix Rising,Sacramento Republic,2-0,Final
 ,31/05/2026,13:00,Sporting JAX,Brooklyn,,
 ,03/06/2026,19:00,Birmingham Legion,Louisville City,,
 ,10/06/2026,18:00,Tampa Bay Rowdies,Charleston Battery,,

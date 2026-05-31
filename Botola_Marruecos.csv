@@ -159,14 +159,14 @@ matchday,date,time,home_team,away_team,result,status
 20,11/05/2026,13:00,Olympique de Safi,FUS de Rabat,1-1,Final
 20,11/05/2026,15:00,US Yacoub El Mansour,Kawkab AC Marrakech,2-1,Final
 20,11/05/2026,11:00,RCA Zemamra,Olympique Dcheira,0-0,Final
-21,22/05/2026,13:00,Maghrib de Fès,Ittihad Tanger,,
-21,22/05/2026,15:00,Kawkab AC Marrakech,COD Meknès,,
-21,23/05/2026,11:00,US Yacoub El Mansour,US Touarga,,
-21,23/05/2026,13:00,Wydad AC,Hassania US Agadir,,
-21,23/05/2026,15:00,El Jadida,Olympique de Safi,,
-21,24/05/2026,10:00,Olympique Dcheira,Raja Casablanca,,
-21,24/05/2026,12:00,RS Berkane,CR Khemis Zemamra,,
-21,30/05/2026,14:00,FUS de Rabat,AS Far Rabat,,
+21,22/05/2026,13:00,Maghrib de Fès,Ittihad Tanger,0-1,Final
+21,22/05/2026,15:00,Kawkab AC Marrakech,COD Meknès,3-1,Final
+21,23/05/2026,11:00,US Yacoub El Mansour,US Touarga,1-2,Final
+21,23/05/2026,13:00,Wydad AC,Hassania US Agadir,3-2,Final
+21,23/05/2026,15:00,El Jadida,Olympique de Safi,1-1,Final
+21,24/05/2026,10:00,Olympique Dcheira,Raja Casablanca,0-1,Final
+21,24/05/2026,12:00,RS Berkane,CR Khemis Zemamra,1-0,Final
+21,30/05/2026,14:00,FUS de Rabat,AS Far Rabat,1-1,Final
 22,01/06/2026,11:00,US Touarga,Kawkab AC Marrakech,,
 22,01/06/2026,13:00,Olympique de Safi,Maghrib de Fès,,
 22,01/06/2026,15:00,COD Meknès,Olympique Dcheira,,

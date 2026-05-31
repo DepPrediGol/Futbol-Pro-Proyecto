@@ -268,8 +268,8 @@ matchday,date,time,home_team,away_team,result,status
 34,21/04/2026,13:30,Genk,Charleroi,1-1,Final
 34,22/04/2026,13:30,Club Brugge KV,KV Mechelen,6-1,Final
 34,22/04/2026,13:30,Union St. Gilloise,Gent,0-0,Final
-,23/04/2026,13:30,Lommel United,Liège,3-0,Final
-,23/04/2026,13:30,Patro Eisden,Beerschot VA,1-1,Final
+34,23/04/2026,13:30,Lommel United,Liège,3-0,Final
+34,23/04/2026,13:30,Patro Eisden,Beerschot VA,1-1,Final
 34,23/04/2026,13:45,St. Truiden,Anderlecht,2-0,Final
 34,24/04/2026,13:45,Cercle Brugge,Dender,2-1,Final
 35,25/04/2026,09:00,OH Leuven,Charleroi,0-2,Final
@@ -279,12 +279,12 @@ matchday,date,time,home_team,away_team,result,status
 35,26/04/2026,09:00,KV Mechelen,St. Truiden,1-4,Final
 35,26/04/2026,11:30,Anderlecht,Union St. Gilloise,1-3,Final
 34,26/04/2026,12:15,Zulte Waregem,RAAL La Louvière,4-0,Final
-,27/04/2026,13:30,Beerschot VA,Patro Eisden,3-2,Final
-,27/04/2026,13:30,Liège,Lommel United,1-2,Final
+35,27/04/2026,13:30,Beerschot VA,Patro Eisden,3-2,Final
+35,27/04/2026,13:30,Liège,Lommel United,1-2,Final
 35,01/05/2026,13:45,Cercle Brugge,Zulte Waregem,2-3,Final
 36,02/05/2026,09:00,KVC Westerlo,OH Leuven,3-3,Final
 36,02/05/2026,11:15,Charleroi,Genk,2-0,Final
-,02/05/2026,13:00,Lommel United,Beerschot VA,3-1,Final
+36,02/05/2026,13:00,Lommel United,Beerschot VA,3-1,Final
 36,02/05/2026,13:45,St. Truiden,Union St. Gilloise,2-1,Final
 36,03/05/2026,06:30,KV Mechelen,Gent,1-0,Final
 36,03/05/2026,09:00,Antwerp,Standard Liege,0-5,Final
@@ -293,7 +293,7 @@ matchday,date,time,home_team,away_team,result,status
 37,08/05/2026,13:45,Standard Liege,OH Leuven,2-1,Final
 36,09/05/2026,09:00,Zulte Waregem,Dender,2-1,Final
 36,09/05/2026,09:00,RAAL La Louvière,Cercle Brugge,4-1,Final
-,09/05/2026,11:15,Beerschot VA,Lommel United,1-3,Final
+36,09/05/2026,11:15,Beerschot VA,Lommel United,1-3,Final
 37,09/05/2026,13:45,Club Brugge KV,St. Truiden,2-0,Final
 37,10/05/2026,06:30,Gent,Anderlecht,1-1,Final
 37,10/05/2026,09:00,Antwerp,Charleroi,0-1,Final
@@ -304,18 +304,19 @@ matchday,date,time,home_team,away_team,result,status
 38,16/05/2026,11:15,Standard Liege,Genk,0-0,Final
 38,16/05/2026,13:45,St. Truiden,Gent,1-1,Final
 38,17/05/2026,06:30,Anderlecht,KV Mechelen,2-2,Final
-,17/05/2026,09:00,Lommel United,Dender,3-2,Final
+38,17/05/2026,09:00,Lommel United,Dender,3-2,Final
 38,17/05/2026,11:30,Club Brugge KV,Union St. Gilloise,5-0,Final
 39,19/05/2026,13:30,KVC Westerlo,Standard Liege,1-2,Final
 39,19/05/2026,13:30,Charleroi,OH Leuven,1-1,Final
 39,19/05/2026,13:30,Genk,Antwerp,0-0,Final
-39,21/05/2026,13:30,KV Mechelen,Club Brugge KV,,
-39,21/05/2026,13:30,Anderlecht,St. Truiden,,
-39,21/05/2026,13:30,Gent,Union St. Gilloise,,
-,23/05/2026,11:15,Dender,Lommel United,,
-40,23/05/2026,13:45,OH Leuven,Genk,,
-40,23/05/2026,13:45,Standard Liege,Charleroi,,
-40,23/05/2026,13:45,Antwerp,KVC Westerlo,,
-40,24/05/2026,11:30,Club Brugge KV,Gent,,
-40,24/05/2026,11:30,St. Truiden,KV Mechelen,,
-40,24/05/2026,11:30,Union St. Gilloise,Anderlecht,,
+39,21/05/2026,13:30,KV Mechelen,Club Brugge KV,2-2,Final
+39,21/05/2026,13:30,Anderlecht,St. Truiden,3-1,Final
+39,21/05/2026,13:30,Gent,Union St. Gilloise,0-0,Final
+40,23/05/2026,11:15,Dender,Lommel United,0-0,Final
+40,23/05/2026,13:45,OH Leuven,Genk,0-2,Final
+40,23/05/2026,13:45,Standard Liege,Charleroi,0-2,Final
+40,23/05/2026,13:45,Antwerp,KVC Westerlo,2-0,Final
+40,24/05/2026,11:30,Club Brugge KV,Gent,5-0,Final
+40,24/05/2026,11:30,St. Truiden,KV Mechelen,3-0,Final
+40,24/05/2026,11:30,Union St. Gilloise,Anderlecht,5-1,Final
+41,31/05/2026,11:30,Gent,Genk,,

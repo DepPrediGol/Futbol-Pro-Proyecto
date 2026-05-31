@@ -101,27 +101,43 @@ matchday,date,time,home_team,away_team,result,status
 5,19/05/2026,19:30,Boca Juniors,Cruzeiro,1-1,Final
 5,19/05/2026,21:00,Independiente del Valle,Libertad Asuncion,4-1,Final
 5,20/05/2026,17:00,Club Nacional,Universitario,0-0,Final
-5,20/05/2026,19:30,Palmeiras,Cerro Porteno,0-1,En vivo
-5,20/05/2026,19:30,Flamengo,Estudiantes L.P.,0-0,En vivo
-5,20/05/2026,19:30,LDU de Quito,Lanus,0-0,En vivo
-5,20/05/2026,21:00,Junior,Sporting Cristal,,
-5,20/05/2026,21:00,Cusco,Independiente Medellin,,
-5,21/05/2026,17:00,Deportivo La Guaira,Independ. Rivadavia,,
-5,21/05/2026,19:30,Penarol,Corinthians,,
-5,21/05/2026,19:30,U. Catolica,Barcelona SC,,
-6,26/05/2026,17:00,Lanus,Mirassol,,
-6,26/05/2026,17:00,LDU de Quito,Always Ready,,
-6,26/05/2026,19:30,Flamengo,Cusco,,
-6,26/05/2026,19:30,Estudiantes L.P.,Independiente Medellin,,
-6,26/05/2026,19:30,Club Nacional,Coquimbo Unido,,
-6,26/05/2026,19:30,Universitario,Deportes Tolima,,
-6,27/05/2026,17:00,Independiente del Valle,Rosario Central,,
-6,27/05/2026,17:00,Libertad Asuncion,UCV,,
-6,27/05/2026,19:30,Fluminense,Deportivo La Guaira,,
-6,27/05/2026,19:30,Corinthians,Platense,,
-6,27/05/2026,19:30,Penarol,Santa Fe,,
-6,27/05/2026,19:30,Bolívar,Independ. Rivadavia,,
-6,28/05/2026,17:00,Palmeiras,Junior,,
-6,28/05/2026,17:00,Cerro Porteno,Sporting Cristal,,
-6,28/05/2026,19:30,Cruzeiro,Barcelona SC,,
-6,28/05/2026,19:30,Boca Juniors,U. Catolica,,
+5,20/05/2026,19:30,Palmeiras,Cerro Porteno,0-1,Final
+5,20/05/2026,19:30,Flamengo,Estudiantes L.P.,1-0,Final
+5,20/05/2026,19:30,LDU de Quito,Lanus,2-0,Final
+5,20/05/2026,21:00,Junior,Sporting Cristal,3-2,Final
+5,20/05/2026,21:00,Cusco,Independiente Medellin,2-3,Final
+5,21/05/2026,17:00,Deportivo La Guaira,Independ. Rivadavia,2-4,Final
+5,21/05/2026,19:30,Penarol,Corinthians,1-1,Final
+5,21/05/2026,19:30,U. Catolica,Barcelona SC,2-0,Final
+6,26/05/2026,17:00,Lanus,Mirassol,1-0,Final
+6,26/05/2026,17:00,LDU de Quito,Always Ready,3-2,Final
+6,26/05/2026,19:30,Flamengo,Cusco,3-0,Final
+6,26/05/2026,19:30,Estudiantes L.P.,Independiente Medellin,1-0,Final
+6,26/05/2026,19:30,Club Nacional,Coquimbo Unido,1-0,Final
+6,26/05/2026,19:30,Universitario,Deportes Tolima,0-0,Final
+6,27/05/2026,17:00,Independiente del Valle,Rosario Central,1-0,Final
+6,27/05/2026,17:00,Libertad Asuncion,UCV,0-1,Final
+6,27/05/2026,19:30,Fluminense,Deportivo La Guaira,3-1,Final
+6,27/05/2026,19:30,Corinthians,Platense,0-2,Final
+6,27/05/2026,19:30,Penarol,Santa Fe,0-1,Final
+6,27/05/2026,19:30,Bolívar,Independ. Rivadavia,1-3,Final
+6,28/05/2026,17:00,Palmeiras,Junior,4-1,Final
+6,28/05/2026,17:00,Cerro Porteno,Sporting Cristal,2-0,Final
+6,28/05/2026,19:30,Cruzeiro,Barcelona SC,4-0,Final
+6,28/05/2026,19:30,Boca Juniors,U. Catolica,0-1,Final
+7,12/08/2026,19:30,Estudiantes L.P.,U. Catolica,,
+7,12/08/2026,19:30,Mirassol,LDU de Quito,,
+7,12/08/2026,19:30,Fluminense,Independ. Rivadavia,,
+7,12/08/2026,19:30,Deportes Tolima,Independiente del Valle,,
+7,12/08/2026,19:30,Cruzeiro,Flamengo,,
+7,12/08/2026,19:30,Platense,Coquimbo Unido,,
+7,12/08/2026,19:30,Palmeiras,Cerro Porteno,,
+7,12/08/2026,19:30,Rosario Central,Corinthians,,
+8,19/08/2026,19:30,U. Catolica,Estudiantes L.P.,,
+8,19/08/2026,19:30,LDU de Quito,Mirassol,,
+8,19/08/2026,19:30,Independ. Rivadavia,Fluminense,,
+8,19/08/2026,19:30,Independiente del Valle,Deportes Tolima,,
+8,19/08/2026,19:30,Flamengo,Cruzeiro,,
+8,19/08/2026,19:30,Coquimbo Unido,Platense,,
+8,19/08/2026,19:30,Cerro Porteno,Palmeiras,,
+8,19/08/2026,19:30,Corinthians,Rosario Central,,

@@ -1,381 +1,381 @@
-matchday,date,time,home_team,away_team,result,status
-1,04/04/2025,17:00,Goias,Amazonas,1-0,Final
-1,04/04/2025,19:00,Criciuma,Operario-PR,1-2,Final
-1,04/04/2025,19:00,Paysandu,Atletico Paranaense,1-2,Final
-1,05/04/2025,14:00,CRB,Chapecoense-sc,1-0,Final
-1,05/04/2025,14:00,Coritiba,Vila Nova,1-0,Final
-1,05/04/2025,16:30,America Mineiro,Botafogo SP,1-0,Final
-1,06/04/2025,17:00,Volta Redonda,Cuiaba,0-1,Final
-1,06/04/2025,17:00,Ferroviária,Remo,1-1,Final
-1,06/04/2025,18:00,Avai,Novorizontino,1-1,Final
-1,07/04/2025,17:00,Atletico Goianiense,Athletic Club,4-2,Final
-2,10/04/2025,17:00,Atletico Paranaense,Criciuma,2-1,Final
-2,10/04/2025,19:30,Cuiaba,Avai,2-2,Final
-2,12/04/2025,14:00,Chapecoense-sc,Coritiba,1-2,Final
-2,12/04/2025,16:00,Vila Nova,Paysandu,1-0,Final
-2,12/04/2025,17:00,Novorizontino,Volta Redonda,1-0,Final
-2,12/04/2025,17:00,Amazonas,Ferroviária,0-0,Final
-2,12/04/2025,18:00,Operario-PR,Goias,1-2,Final
-2,13/04/2025,14:00,Remo,America Mineiro,2-0,Final
-2,13/04/2025,14:00,Athletic Club,CRB,1-2,Final
-2,13/04/2025,17:00,Botafogo SP,Atletico Goianiense,1-1,Final
-3,15/04/2025,17:00,Cuiaba,Atletico Paranaense,2-1,Final
-3,16/04/2025,18:00,Avai,Operario-PR,1-0,Final
-3,16/04/2025,18:00,Paysandu,Chapecoense-sc,0-2,Final
-3,16/04/2025,19:00,Coritiba,Novorizontino,0-0,Final
-3,17/04/2025,17:00,Goias,Vila Nova,2-2,Final
-3,17/04/2025,18:00,Criciuma,Athletic Club,4-0,Final
-3,17/04/2025,18:00,CRB,Volta Redonda,1-0,Final
-3,17/04/2025,18:00,Botafogo SP,Remo,2-2,Final
-3,17/04/2025,19:00,Ferroviária,Atletico Goianiense,2-0,Final
-3,17/04/2025,19:35,America Mineiro,Amazonas,3-1,Final
-4,19/04/2025,14:00,Operario-PR,Paysandu,0-0,Final
-4,20/04/2025,14:00,Vila Nova,Botafogo SP,2-0,Final
-4,20/04/2025,16:00,Chapecoense-sc,Athletic Club,1-0,Final
-4,20/04/2025,17:00,Atletico Paranaense,CRB,2-0,Final
-4,20/04/2025,18:00,America Mineiro,Goias,1-0,Final
-4,21/04/2025,16:00,Amazonas,Avai,0-2,Final
-4,21/04/2025,17:00,Novorizontino,Criciuma,1-1,Final
-4,21/04/2025,19:30,Remo,Coritiba,1-0,Final
-4,22/04/2025,17:30,Atletico Goianiense,Cuiaba,1-1,Final
-4,22/04/2025,18:00,Volta Redonda,Ferroviária,0-0,Final
-5,24/04/2025,19:35,Novorizontino,Atletico Paranaense,2-1,Final
-5,25/04/2025,17:00,Criciuma,Remo,1-1,Final
-5,25/04/2025,19:00,Vila Nova,Chapecoense-sc,1-0,Final
-5,26/04/2025,14:00,Coritiba,Operario-PR,2-0,Final
-5,26/04/2025,18:00,Avai,America Mineiro,3-0,Final
-5,27/04/2025,14:00,Athletic Club,Volta Redonda,2-1,Final
-5,27/04/2025,14:30,Amazonas,Atletico Goianiense,1-1,Final
-5,27/04/2025,15:00,Paysandu,CRB,1-1,Final
-5,27/04/2025,17:00,Cuiaba,Ferroviária,1-0,Final
-5,28/04/2025,17:30,Botafogo SP,Goias,0-1,Final
-6,02/05/2025,19:35,Ferroviária,Coritiba,2-1,Final
-6,03/05/2025,14:00,Remo,Amazonas,1-0,Final
-6,03/05/2025,18:30,Volta Redonda,Paysandu,1-0,Final
-6,04/05/2025,14:00,Atletico Goianiense,Novorizontino,1-0,Final
-6,04/05/2025,16:30,Chapecoense-sc,Criciuma,2-1,Final
-6,04/05/2025,16:30,Atletico Paranaense,Botafogo SP,1-4,Final
-6,04/05/2025,18:30,Operario-PR,America Mineiro,1-0,Final
-6,05/05/2025,17:00,Goias,Avai,2-1,Final
-6,06/05/2025,17:30,CRB,Cuiaba,1-1,Final
-6,06/05/2025,19:30,Athletic Club,Vila Nova,0-1,Final
-7,08/05/2025,19:35,Atletico Paranaense,Chapecoense-sc,1-1,Final
-7,10/05/2025,14:00,Avai,Atletico Goianiense,0-0,Final
-7,10/05/2025,16:30,Goias,Coritiba,1-0,Final
-7,11/05/2025,14:00,Criciuma,Volta Redonda,0-0,Final
-7,11/05/2025,16:30,Cuiaba,Operario-PR,2-3,Final
-7,11/05/2025,16:30,Novorizontino,Ferroviária,2-2,Final
-7,12/05/2025,17:00,Botafogo SP,Athletic Club,0-3,Final
-7,12/05/2025,19:00,Amazonas,CRB,1-1,Final
-7,14/05/2025,17:00,Remo,Vila Nova,2-0,Final
-7,14/05/2025,17:30,America Mineiro,Paysandu,2-2,Final
-8,15/05/2025,19:35,Ferroviária,Avai,1-1,Final
-8,16/05/2025,17:00,Chapecoense-sc,Cuiaba,2-1,Final
-8,17/05/2025,14:00,Operario-PR,Botafogo SP,3-0,Final
-8,17/05/2025,16:30,Vila Nova,Atletico Paranaense,2-1,Final
-8,17/05/2025,18:30,Athletic Club,Novorizontino,0-2,Final
-8,18/05/2025,14:00,Atletico Goianiense,Remo,1-1,Final
-8,18/05/2025,14:00,CRB,Criciuma,1-0,Final
-8,18/05/2025,16:30,Paysandu,Goias,0-0,Final
-8,19/05/2025,17:00,Volta Redonda,Amazonas,1-1,Final
-8,19/05/2025,19:35,Coritiba,America Mineiro,1-0,Final
-9,23/05/2025,19:35,Goias,Ferroviária,2-0,Final
-9,24/05/2025,14:00,Atletico Paranaense,Athletic Club,1-0,Final
-9,24/05/2025,16:00,Remo,Volta Redonda,1-1,Final
-9,24/05/2025,16:30,Avai,Chapecoense-sc,2-1,Final
-9,25/05/2025,14:00,Novorizontino,Paysandu,3-1,Final
-9,25/05/2025,16:30,Amazonas,Operario-PR,2-0,Final
-9,26/05/2025,17:00,Criciuma,Coritiba,0-1,Final
-9,26/05/2025,18:00,Botafogo SP,CRB,2-1,Final
-9,26/05/2025,19:00,Cuiaba,Vila Nova,1-0,Final
-9,27/05/2025,17:30,America Mineiro,Atletico Goianiense,2-1,Final
-10,29/05/2025,19:35,Ferroviária,Botafogo SP,1-1,Final
-10,30/05/2025,17:00,Vila Nova,Novorizontino,0-1,Final
-10,31/05/2025,14:00,Coritiba,Avai,2-1,Final
-10,31/05/2025,16:30,Atletico Goianiense,Goias,1-2,Final
-10,31/05/2025,18:30,Athletic Club,Cuiaba,0-2,Final
-10,01/06/2025,14:00,Operario-PR,Atletico Paranaense,2-2,Final
-10,01/06/2025,16:00,CRB,Remo,2-0,Final
-10,01/06/2025,18:30,Volta Redonda,America Mineiro,1-0,Final
-10,02/06/2025,17:00,Chapecoense-sc,Amazonas,4-0,Final
-10,02/06/2025,19:00,Paysandu,Criciuma,0-1,Final
-11,05/06/2025,16:00,Botafogo SP,Coritiba,0-0,Final
-11,06/06/2025,17:00,Novorizontino,Chapecoense-sc,1-0,Final
-11,06/06/2025,19:35,Cuiaba,Paysandu,1-0,Final
-11,07/06/2025,14:00,America Mineiro,Ferroviária,1-2,Final
-11,07/06/2025,18:30,Avai,CRB,1-0,Final
-11,08/06/2025,14:00,Goias,Volta Redonda,2-0,Final
-11,08/06/2025,16:00,Atletico Paranaense,Atletico Goianiense,0-1,Final
-11,08/06/2025,17:00,Remo,Operario-PR,2-1,Final
-11,09/06/2025,17:00,Criciuma,Vila Nova,1-0,Final
-11,09/06/2025,17:30,Amazonas,Athletic Club,1-0,Final
-12,13/06/2025,17:00,Vila Nova,America Mineiro,0-3,Final
-12,13/06/2025,19:35,Paysandu,Botafogo SP,1-0,Final
-12,14/06/2025,14:00,CRB,Goias,2-0,Final
-12,14/06/2025,16:30,Atletico Paranaense,Remo,2-1,Final
-12,14/06/2025,18:30,Athletic Club,Operario-PR,2-1,Final
-12,15/06/2025,14:00,Atletico Goianiense,Coritiba,0-0,Final
-12,15/06/2025,14:00,Novorizontino,Cuiaba,3-0,Final
-12,15/06/2025,18:30,Criciuma,Amazonas,3-2,Final
-12,16/06/2025,17:00,Chapecoense-sc,Ferroviária,2-1,Final
-12,17/06/2025,17:30,Volta Redonda,Avai,1-1,Final
-13,20/06/2025,17:00,Botafogo SP,Chapecoense-sc,1-0,Final
-13,20/06/2025,19:35,America Mineiro,Criciuma,1-1,Final
-13,21/06/2025,14:00,Avai,Atletico Paranaense,1-2,Final
-13,21/06/2025,16:30,Remo,Paysandu,0-1,Final
-13,21/06/2025,18:30,Ferroviária,CRB,1-0,Final
-13,22/06/2025,14:00,Atletico Goianiense,Volta Redonda,2-0,Final
-13,22/06/2025,14:00,Coritiba,Cuiaba,2-0,Final
-13,22/06/2025,16:00,Amazonas,Vila Nova,2-1,Final
-13,23/06/2025,17:00,Operario-PR,Novorizontino,2-0,Final
-13,23/06/2025,19:00,Goias,Athletic Club,1-2,Final
-14,26/06/2025,19:35,CRB,America Mineiro,1-2,Final
-14,27/06/2025,18:30,Criciuma,Avai,1-2,Final
-14,28/06/2025,14:00,Vila Nova,Atletico Goianiense,1-0,Final
-14,28/06/2025,16:30,Atletico Paranaense,Coritiba,0-1,Final
-14,29/06/2025,14:00,Volta Redonda,Operario-PR,1-0,Final
-14,29/06/2025,14:00,Athletic Club,Remo,1-2,Final
-14,29/06/2025,17:00,Chapecoense-sc,Goias,1-2,Final
-14,29/06/2025,17:00,Novorizontino,Amazonas,1-1,Final
-14,30/06/2025,17:00,Paysandu,Ferroviária,2-1,Final
-14,30/06/2025,19:00,Cuiaba,Botafogo SP,0-1,Final
-15,03/07/2025,19:35,Atletico Goianiense,CRB,2-1,Final
-15,04/07/2025,17:00,Coritiba,Volta Redonda,2-0,Final
-15,05/07/2025,14:00,Remo,Cuiaba,0-0,Final
-15,05/07/2025,17:30,Avai,Paysandu,0-0,Final
-15,05/07/2025,18:30,Amazonas,Atletico Paranaense,0-1,Final
-15,06/07/2025,14:00,Ferroviária,Vila Nova,1-3,Final
-15,06/07/2025,16:30,Botafogo SP,Novorizontino,0-0,Final
-15,07/07/2025,17:00,Operario-PR,Chapecoense-sc,1-2,Final
-15,07/07/2025,19:00,America Mineiro,Athletic Club,0-1,Final
-15,08/07/2025,17:30,Goias,Criciuma,1-1,Final
-16,10/07/2025,19:35,CRB,Coritiba,0-1,Final
-16,11/07/2025,17:00,Vila Nova,Operario-PR,0-0,Final
-16,12/07/2025,14:00,Novorizontino,America Mineiro,3-1,Final
-16,12/07/2025,16:30,Paysandu,Atletico Goianiense,2-2,Final
-16,12/07/2025,18:30,Atletico Paranaense,Goias,0-1,Final
-16,13/07/2025,14:00,Criciuma,Ferroviária,2-1,Final
-16,13/07/2025,16:30,Chapecoense-sc,Remo,1-1,Final
-16,14/07/2025,17:00,Athletic Club,Avai,4-0,Final
-16,14/07/2025,19:30,Botafogo SP,Volta Redonda,0-0,Final
-16,15/07/2025,17:30,Cuiaba,Amazonas,3-1,Final
-17,17/07/2025,17:30,Operario-PR,CRB,1-1,Final
-17,17/07/2025,19:35,Remo,Novorizontino,1-1,Final
-17,18/07/2025,17:00,Atletico Goianiense,Criciuma,0-1,Final
-17,18/07/2025,19:30,Ferroviária,Athletic Club,1-2,Final
-17,19/07/2025,14:00,Goias,Cuiaba,3-1,Final
-17,19/07/2025,16:30,Avai,Vila Nova,1-1,Final
-17,19/07/2025,16:30,Coritiba,Paysandu,2-5,Final
-17,19/07/2025,18:30,Volta Redonda,Atletico Paranaense,3-2,Final
-17,20/07/2025,14:00,Amazonas,Botafogo SP,3-0,Final
-17,20/07/2025,16:30,America Mineiro,Chapecoense-sc,0-1,Final
-18,22/07/2025,17:00,Operario-PR,Atletico Goianiense,3-0,Final
-18,22/07/2025,18:00,Atletico Paranaense,Ferroviária,1-1,Final
-18,22/07/2025,19:30,Athletic Club,Coritiba,1-1,Final
-18,22/07/2025,19:35,Vila Nova,CRB,2-0,Final
-18,23/07/2025,17:00,Chapecoense-sc,Volta Redonda,4-2,Final
-18,23/07/2025,17:00,Novorizontino,Goias,1-0,Final
-18,23/07/2025,19:30,Cuiaba,America Mineiro,3-1,Final
-18,23/07/2025,19:30,Amazonas,Paysandu,1-1,Final
-18,24/07/2025,17:00,Botafogo SP,Criciuma,0-2,Final
-18,24/07/2025,19:35,Remo,Avai,2-1,Final
-19,26/07/2025,16:30,Ferroviária,Operario-PR,0-0,Final
-19,26/07/2025,18:30,CRB,Novorizontino,4-0,Final
-19,27/07/2025,14:00,Coritiba,Amazonas,1-1,Final
-19,27/07/2025,14:00,Volta Redonda,Vila Nova,2-1,Final
-19,27/07/2025,16:30,America Mineiro,Atletico Paranaense,2-2,Final
-19,27/07/2025,17:00,Atletico Goianiense,Chapecoense-sc,0-0,Final
-19,28/07/2025,17:00,Avai,Botafogo SP,5-0,Final
-19,28/07/2025,19:30,Paysandu,Athletic Club,1-1,Final
-19,29/07/2025,18:30,Criciuma,Cuiaba,1-0,Final
-19,29/07/2025,19:35,Goias,Remo,1-1,Final
-20,31/07/2025,19:35,Vila Nova,Coritiba,1-2,Final
-20,01/08/2025,17:00,Remo,Ferroviária,0-2,Final
-20,01/08/2025,19:30,Operario-PR,Criciuma,1-0,Final
-20,02/08/2025,16:30,Botafogo SP,America Mineiro,2-1,Final
-20,02/08/2025,18:30,Amazonas,Goias,2-2,Final
-20,03/08/2025,14:00,Chapecoense-sc,CRB,3-2,Final
-20,03/08/2025,14:00,Novorizontino,Avai,1-1,Final
-20,03/08/2025,16:30,Atletico Paranaense,Paysandu,1-1,Final
-20,04/08/2025,17:00,Athletic Club,Atletico Goianiense,1-1,Final
-20,04/08/2025,19:30,Cuiaba,Volta Redonda,2-0,Final
-21,08/08/2025,17:00,Ferroviária,Amazonas,2-1,Final
-21,08/08/2025,19:35,Coritiba,Chapecoense-sc,0-0,Final
-21,09/08/2025,14:00,America Mineiro,Remo,0-1,Final
-21,09/08/2025,16:30,Goias,Operario-PR,2-1,Final
-21,09/08/2025,18:30,Volta Redonda,Novorizontino,0-0,Final
-21,10/08/2025,14:00,Avai,Cuiaba,2-0,Final
-21,10/08/2025,16:30,Atletico Goianiense,Botafogo SP,2-0,Final
-21,11/08/2025,17:00,Criciuma,Atletico Paranaense,4-2,Final
-21,11/08/2025,19:30,Paysandu,Vila Nova,0-1,Final
-21,12/08/2025,17:30,CRB,Athletic Club,1-0,Final
-22,14/08/2025,19:35,Novorizontino,Coritiba,1-2,Final
-22,15/08/2025,18:00,Amazonas,America Mineiro,2-2,Final
-22,16/08/2025,14:00,Remo,Botafogo SP,1-1,Final
-22,16/08/2025,16:30,Vila Nova,Goias,2-0,Final
-22,16/08/2025,18:30,Atletico Paranaense,Cuiaba,1-1,Final
-22,17/08/2025,14:00,Chapecoense-sc,Paysandu,2-0,Final
-22,17/08/2025,16:30,Atletico Goianiense,Ferroviária,1-3,Final
-22,18/08/2025,17:00,Volta Redonda,CRB,0-1,Final
-22,18/08/2025,19:00,Athletic Club,Criciuma,1-1,Final
-22,19/08/2025,17:30,Operario-PR,Avai,0-0,Final
-23,22/08/2025,17:00,Athletic Club,Chapecoense-sc,0-4,Final
-23,22/08/2025,19:35,Criciuma,Novorizontino,2-0,Final
-23,23/08/2025,14:00,Coritiba,Remo,0-0,Final
-23,23/08/2025,16:00,Goias,America Mineiro,1-0,Final
-23,23/08/2025,18:30,CRB,Atletico Paranaense,0-1,Final
-23,24/08/2025,14:00,Paysandu,Operario-PR,1-2,Final
-23,24/08/2025,16:30,Ferroviária,Volta Redonda,0-0,Final
-23,24/08/2025,18:30,Cuiaba,Atletico Goianiense,2-2,Final
-23,25/08/2025,17:00,Botafogo SP,Vila Nova,2-0,Final
-23,25/08/2025,19:30,Avai,Amazonas,1-2,Final
-24,28/08/2025,19:35,Remo,Criciuma,0-1,Final
-24,29/08/2025,17:00,Operario-PR,Coritiba,1-0,Final
-24,30/08/2025,14:00,CRB,Paysandu,2-0,Final
-24,30/08/2025,16:30,Goias,Botafogo SP,2-3,Final
-24,30/08/2025,18:30,Atletico Paranaense,Novorizontino,2-1,Final
-24,31/08/2025,14:00,Atletico Goianiense,Amazonas,2-0,Final
-24,31/08/2025,16:30,Volta Redonda,Athletic Club,0-2,Final
-24,01/09/2025,17:00,Chapecoense-sc,Vila Nova,2-2,Final
-24,01/09/2025,19:30,Ferroviária,Cuiaba,2-2,Final
-24,02/09/2025,17:30,America Mineiro,Avai,2-0,Final
-25,05/09/2025,15:00,Amazonas,Remo,1-3,Final
-25,05/09/2025,17:00,Paysandu,Volta Redonda,1-2,Final
-25,05/09/2025,19:30,Coritiba,Ferroviária,4-0,Final
-25,06/09/2025,14:00,Botafogo SP,Atletico Paranaense,1-3,Final
-25,07/09/2025,14:00,Criciuma,Chapecoense-sc,2-0,Final
-25,07/09/2025,16:30,America Mineiro,Operario-PR,1-1,Final
-25,07/09/2025,18:30,Avai,Goias,2-1,Final
-25,08/09/2025,17:30,Novorizontino,Atletico Goianiense,1-1,Final
-25,08/09/2025,18:00,Cuiaba,CRB,1-0,Final
-25,08/09/2025,19:30,Vila Nova,Athletic Club,1-1,Final
-26,12/09/2025,17:00,Volta Redonda,Criciuma,0-0,Final
-26,12/09/2025,19:30,Coritiba,Goias,0-0,Final
-26,13/09/2025,14:00,Paysandu,America Mineiro,0-0,Final
-26,13/09/2025,16:30,Vila Nova,Remo,1-1,Final
-26,14/09/2025,14:00,Operario-PR,Cuiaba,1-1,Final
-26,14/09/2025,16:30,Athletic Club,Botafogo SP,2-0,Final
-26,15/09/2025,17:00,Ferroviária,Novorizontino,1-2,Final
-26,15/09/2025,19:30,CRB,Amazonas,2-0,Final
-26,16/09/2025,17:30,Atletico Goianiense,Avai,2-1,Final
-26,16/09/2025,19:35,Chapecoense-sc,Atletico Paranaense,2-3,Final
-27,18/09/2025,17:00,Botafogo SP,Operario-PR,1-1,Final
-27,19/09/2025,17:00,Novorizontino,Athletic Club,1-0,Final
-27,20/09/2025,14:00,Goias,Paysandu,1-0,Final
-27,20/09/2025,16:30,Avai,Ferroviária,2-2,Final
-27,20/09/2025,16:30,Amazonas,Volta Redonda,1-0,Final
-27,20/09/2025,18:30,Remo,Atletico Goianiense,0-1,Final
-27,21/09/2025,14:00,America Mineiro,Coritiba,1-0,Final
-27,21/09/2025,14:00,Criciuma,CRB,1-0,Final
-27,21/09/2025,17:00,Atletico Paranaense,Vila Nova,2-0,Final
-27,21/09/2025,18:30,Cuiaba,Chapecoense-sc,1-0,Final
-28,23/09/2025,17:30,Paysandu,Novorizontino,0-1,Final
-28,23/09/2025,19:35,Ferroviária,Goias,1-1,Final
-28,24/09/2025,17:00,Vila Nova,Cuiaba,2-2,Final
-28,24/09/2025,17:00,CRB,Botafogo SP,3-2,Final
-28,24/09/2025,17:00,Athletic Club,Atletico Paranaense,0-3,Final
-28,24/09/2025,18:00,Operario-PR,Amazonas,2-1,Final
-28,24/09/2025,19:30,Volta Redonda,Remo,2-1,Final
-28,25/09/2025,17:00,Coritiba,Criciuma,0-2,Final
-28,25/09/2025,19:30,Atletico Goianiense,America Mineiro,1-0,Final
-28,25/09/2025,19:35,Chapecoense-sc,Avai,0-1,Final
-29,27/09/2025,18:30,Atletico Paranaense,Operario-PR,1-0,Final
-29,28/09/2025,14:00,Criciuma,Paysandu,2-4,Final
-29,28/09/2025,14:00,Novorizontino,Vila Nova,1-1,Final
-29,28/09/2025,16:00,Remo,CRB,4-2,Final
-29,28/09/2025,16:30,Botafogo SP,Ferroviária,1-2,Final
-29,28/09/2025,18:30,Cuiaba,Athletic Club,2-1,Final
-29,29/09/2025,14:00,Amazonas,Chapecoense-sc,1-3,Final
-29,29/09/2025,17:00,America Mineiro,Volta Redonda,2-1,Final
-29,29/09/2025,17:30,Avai,Coritiba,0-2,Final
-29,30/09/2025,19:35,Goias,Atletico Goianiense,0-0,Final
-30,02/10/2025,17:00,Paysandu,Cuiaba,1-1,Final
-30,02/10/2025,19:30,Vila Nova,Criciuma,1-1,Final
-30,03/10/2025,17:00,Athletic Club,Amazonas,2-2,Final
-30,03/10/2025,19:30,Coritiba,Botafogo SP,2-0,Final
-30,03/10/2025,19:35,CRB,Avai,1-0,Final
-30,04/10/2025,14:00,Chapecoense-sc,Novorizontino,1-0,Final
-30,04/10/2025,16:30,Volta Redonda,Goias,0-0,Final
-30,04/10/2025,18:30,Ferroviária,America Mineiro,1-3,Final
-30,05/10/2025,14:00,Operario-PR,Remo,0-1,Final
-30,05/10/2025,18:30,Atletico Goianiense,Atletico Paranaense,3-0,Final
-31,07/10/2025,18:00,Amazonas,Criciuma,2-1,Final
-31,07/10/2025,19:30,Goias,CRB,1-2,Final
-31,07/10/2025,19:35,Botafogo SP,Paysandu,1-0,Final
-31,08/10/2025,17:00,Cuiaba,Novorizontino,0-1,Final
-31,08/10/2025,17:00,Operario-PR,Athletic Club,1-4,Final
-31,08/10/2025,19:00,Avai,Volta Redonda,3-0,Final
-31,08/10/2025,19:30,America Mineiro,Vila Nova,1-1,Final
-31,09/10/2025,17:00,Ferroviária,Chapecoense-sc,0-1,Final
-31,09/10/2025,17:30,Coritiba,Atletico Goianiense,2-1,Final
-31,09/10/2025,19:35,Remo,Atletico Paranaense,2-1,Final
-32,11/10/2025,14:00,Athletic Club,Goias,1-1,Final
-32,12/10/2025,14:00,Novorizontino,Operario-PR,3-0,Final
-32,12/10/2025,16:30,Criciuma,America Mineiro,2-1,Final
-32,12/10/2025,16:30,Vila Nova,Amazonas,1-0,Final
-32,12/10/2025,18:30,Cuiaba,Coritiba,1-0,Final
-32,13/10/2025,17:00,Volta Redonda,Atletico Goianiense,3-0,Final
-32,13/10/2025,19:30,CRB,Ferroviária,2-2,Final
-32,14/10/2025,17:30,Chapecoense-sc,Botafogo SP,1-1,Final
-32,14/10/2025,17:30,Paysandu,Remo,2-3,Final
-32,14/10/2025,19:30,Atletico Paranaense,Avai,1-1,Final
-33,17/10/2025,18:00,Amazonas,Novorizontino,0-0,Final
-33,18/10/2025,14:00,Atletico Goianiense,Vila Nova,1-0,Final
-33,18/10/2025,16:30,America Mineiro,CRB,1-1,Final
-33,18/10/2025,18:30,Remo,Athletic Club,3-1,Final
-33,19/10/2025,14:00,Avai,Criciuma,1-1,Final
-33,19/10/2025,14:00,Operario-PR,Volta Redonda,2-1,Final
-33,19/10/2025,16:30,Coritiba,Atletico Paranaense,0-0,Final
-33,19/10/2025,16:30,Botafogo SP,Cuiaba,2-2,Final
-33,19/10/2025,18:30,Goias,Chapecoense-sc,1-3,Final
-33,20/10/2025,17:30,Ferroviária,Paysandu,2-2,Final
-34,24/10/2025,17:00,Novorizontino,Botafogo SP,1-1,Final
-34,24/10/2025,19:35,Cuiaba,Remo,1-3,Final
-34,25/10/2025,14:00,Volta Redonda,Coritiba,0-1,Final
-34,25/10/2025,14:00,Athletic Club,America Mineiro,0-2,Final
-34,25/10/2025,16:30,Paysandu,Avai,1-2,Final
-34,25/10/2025,18:30,Criciuma,Goias,1-2,Final
-34,26/10/2025,14:00,CRB,Atletico Goianiense,2-1,Final
-34,26/10/2025,16:30,Vila Nova,Ferroviária,2-2,Final
-34,27/10/2025,17:00,Chapecoense-sc,Operario-PR,2-0,Final
-34,27/10/2025,19:30,Atletico Paranaense,Amazonas,2-0,Final
-35,31/10/2025,17:00,Atletico Goianiense,Paysandu,2-1,Final
-35,31/10/2025,17:00,Coritiba,CRB,0-0,Final
-35,31/10/2025,19:35,Ferroviária,Criciuma,0-0,Final
-35,01/11/2025,14:00,Goias,Atletico Paranaense,0-1,Final
-35,01/11/2025,16:30,Avai,Athletic Club,2-1,Final
-35,02/11/2025,14:00,Amazonas,Cuiaba,2-0,Final
-35,02/11/2025,16:30,Remo,Chapecoense-sc,1-1,Final
-35,02/11/2025,18:30,Operario-PR,Vila Nova,2-2,Final
-35,03/11/2025,17:00,America Mineiro,Novorizontino,2-2,Final
-35,03/11/2025,17:00,Volta Redonda,Botafogo SP,0-1,Final
-36,07/11/2025,17:00,Athletic Club,Ferroviária,2-1,Final
-36,07/11/2025,19:30,Cuiaba,Goias,0-1,Final
-36,08/11/2025,14:00,Novorizontino,Remo,1-1,Final
-36,08/11/2025,16:30,Atletico Paranaense,Volta Redonda,2-0,Final
-36,08/11/2025,18:30,Vila Nova,Avai,2-2,Final
-36,09/11/2025,15:00,Criciuma,Atletico Goianiense,1-0,Final
-36,09/11/2025,16:30,CRB,Operario-PR,2-2,Final
-36,09/11/2025,18:30,Paysandu,Coritiba,1-2,Final
-36,10/11/2025,17:00,Chapecoense-sc,America Mineiro,0-1,Final
-36,10/11/2025,17:00,Botafogo SP,Amazonas,1-0,Final
-37,14/11/2025,18:00,Paysandu,Amazonas,2-2,Final
-37,15/11/2025,14:30,Atletico Goianiense,Operario-PR,0-0,Final
-37,15/11/2025,14:30,Avai,Remo,3-1,Final
-37,15/11/2025,14:30,CRB,Vila Nova,2-0,Final
-37,15/11/2025,14:30,Coritiba,Athletic Club,0-0,Final
-37,15/11/2025,14:30,Volta Redonda,Chapecoense-sc,1-1,Final
-37,16/11/2025,14:30,America Mineiro,Cuiaba,1-1,Final
-37,16/11/2025,14:30,Criciuma,Botafogo SP,2-0,Final
-37,16/11/2025,14:30,Goias,Novorizontino,1-0,Final
-37,16/11/2025,14:30,Ferroviária,Atletico Paranaense,1-2,Final
-38,19/11/2025,17:30,Vila Nova,Volta Redonda,2-2,Final
-38,22/11/2025,17:30,Novorizontino,CRB,3-0,Final
-38,23/11/2025,14:30,Chapecoense-sc,Atletico Goianiense,1-0,Final
-38,23/11/2025,14:30,Atletico Paranaense,America Mineiro,1-0,Final
-38,23/11/2025,14:30,Cuiaba,Criciuma,1-0,Final
-38,23/11/2025,14:30,Remo,Goias,3-1,Final
-38,23/11/2025,14:30,Operario-PR,Ferroviária,2-1,Final
-38,23/11/2025,14:30,Botafogo SP,Avai,0-0,Final
-38,23/11/2025,14:30,Amazonas,Coritiba,1-2,Final
-38,23/11/2025,14:30,Athletic Club,Paysandu,2-1,Final
+﻿matchday,date,time,home_team,away_team,result,status
+1,21/03/2026,03:00,Vila Nova - GO,CR Brasil - AL,2-2,Final
+1,21/03/2026,03:00,Ceará - CE,São Bernardo FC - SP,1-1,Final
+1,21/03/2026,03:00,Operário Ferroviário - PR,Atlético Goianiense,1-0,Final
+1,21/03/2026,03:00,Botafogo - SP,Fortaleza - CE,4-0,Final
+1,22/03/2026,03:00,Cuiabá - MT,Sport Recife - PE,0-0,Final
+1,22/03/2026,03:00,Avaí - SC,Juventude - RS,2-0,Final
+1,22/03/2026,03:00,Náutico - PE,Criciúma - SC,0-1,Final
+1,22/03/2026,03:00,Athletic - MG,Ponte Preta,2-1,Final
+1,22/03/2026,03:00,Goiás - GO,América - MG,3-1,Final
+1,23/03/2026,03:00,Grêmio Novorizontino - SP,Londrina - PR,1-3,Final
+2,31/03/2026,03:00,Juventude - RS,Grêmio Novorizontino - SP,0-0,Final
+2,01/04/2026,03:00,Fortaleza - CE,Cuiabá - MT,0-0,Final
+2,01/04/2026,03:00,América - MG,Botafogo - SP,1-2,Final
+2,02/04/2026,03:00,Londrina - PR,Goiás - GO,2-2,Final
+2,02/04/2026,03:00,Atlético Goianiense,Náutico - PE,1-2,Final
+2,02/04/2026,03:00,Sport Recife - PE,Vila Nova - GO,1-1,Final
+2,02/04/2026,03:00,Ponte Preta,Ceará - CE,1-1,Final
+2,02/04/2026,03:00,Criciúma - SC,Athletic - MG,1-1,Final
+2,02/04/2026,03:00,CR Brasil - AL,Avaí - SC,0-1,Final
+2,03/04/2026,03:00,São Bernardo FC - SP,Operário Ferroviário - PR,1-2,Final
+3,04/04/2026,03:00,Fortaleza - CE,Juventude - RS,2-1,Final
+3,04/04/2026,03:00,Náutico - PE,Ponte Preta,1-0,Final
+3,04/04/2026,03:00,Cuiabá - MT,Ceará - CE,0-2,Final
+3,05/04/2026,03:00,Vila Nova - GO,Atlético Goianiense,2-1,Final
+3,05/04/2026,03:00,Londrina - PR,Sport Recife - PE,1-2,Final
+3,05/04/2026,03:00,Avaí - SC,Operário Ferroviário - PR,0-0,Final
+3,05/04/2026,03:00,Grêmio Novorizontino - SP,CR Brasil - AL,1-1,Final
+3,06/04/2026,03:00,Athletic - MG,América - MG,1-1,Final
+3,06/04/2026,03:00,Botafogo - SP,São Bernardo FC - SP,1-2,Final
+3,07/04/2026,03:00,Goiás - GO,Criciúma - SC,1-0,Final
+4,11/04/2026,03:00,Criciúma - SC,Botafogo - SP,1-0,Final
+4,11/04/2026,03:00,Juventude - RS,Goiás - GO,2-0,Final
+4,11/04/2026,03:00,Ponte Preta,Vila Nova - GO,0-1,Final
+4,11/04/2026,03:00,Sport Recife - PE,Avaí - SC,2-2,Final
+4,12/04/2026,03:00,Ceará - CE,Náutico - PE,1-0,Final
+4,12/04/2026,03:00,São Bernardo FC - SP,Fortaleza - CE,0-1,Final
+4,12/04/2026,03:00,América - MG,Grêmio Novorizontino - SP,0-3,Final
+4,12/04/2026,03:00,Operário Ferroviário - PR,Cuiabá - MT,0-0,Final
+4,13/04/2026,03:00,CR Brasil - AL,Athletic - MG,2-3,Final
+4,13/04/2026,03:00,Atlético Goianiense,Londrina - PR,2-1,Final
+5,18/04/2026,03:00,América - MG,Sport Recife - PE,0-0,Final
+5,18/04/2026,03:00,Náutico - PE,São Bernardo FC - SP,0-3,Final
+5,18/04/2026,03:00,Vila Nova - GO,Operário Ferroviário - PR,2-1,Final
+5,19/04/2026,03:00,Avaí - SC,Ponte Preta,1-2,Final
+5,19/04/2026,03:00,CR Brasil - AL,Juventude - RS,0-1,Final
+5,19/04/2026,03:00,Botafogo - SP,Atlético Goianiense,1-1,Final
+5,19/04/2026,03:00,Londrina - PR,Ceará - CE,0-0,Final
+5,19/04/2026,03:00,Goiás - GO,Cuiabá - MT,0-2,Final
+5,20/04/2026,03:00,Grêmio Novorizontino - SP,Athletic - MG,2-1,Final
+5,20/04/2026,03:00,Fortaleza - CE,Criciúma - SC,3-2,Final
+6,23/04/2026,03:00,Cuiabá - MT,Botafogo - SP,1-1,Final
+6,25/04/2026,03:00,Ponte Preta,América - MG,1-0,Final
+6,26/04/2026,03:00,Sport Recife - PE,Grêmio Novorizontino - SP,1-0,Final
+6,26/04/2026,03:00,Juventude - RS,Londrina - PR,1-0,Final
+6,26/04/2026,03:00,São Bernardo FC - SP,Goiás - GO,1-0,Final
+6,26/04/2026,03:00,Operário Ferroviário - PR,Fortaleza - CE,0-0,Final
+6,26/04/2026,03:00,Ceará - CE,Vila Nova - GO,3-3,Final
+6,27/04/2026,03:00,Atlético Goianiense,Avaí - SC,2-1,Final
+6,27/04/2026,03:00,Criciúma - SC,CR Brasil - AL,3-1,Final
+6,28/04/2026,03:00,Athletic - MG,Náutico - PE,0-1,Final
+7,02/05/2026,03:00,Botafogo - SP,Náutico - PE,1-1,Final
+7,02/05/2026,03:00,Cuiabá - MT,Criciúma - SC,1-1,Final
+7,03/05/2026,03:00,Fortaleza - CE,Goiás - GO,4-1,Final
+7,03/05/2026,03:00,São Bernardo FC - SP,Ponte Preta,3-0,Final
+7,03/05/2026,03:00,Operário Ferroviário - PR,Londrina - PR,3-0,Final
+7,03/05/2026,03:00,Sport Recife - PE,Ceará - CE,2-0,Final
+7,03/05/2026,03:00,Atlético Goianiense,Juventude - RS,0-0,Final
+7,04/05/2026,03:00,América - MG,CR Brasil - AL,1-2,Final
+7,04/05/2026,03:00,Avaí - SC,Grêmio Novorizontino - SP,3-3,Final
+7,05/05/2026,03:00,Vila Nova - GO,Athletic - MG,1-1,Final
+8,09/05/2026,03:00,Goiás - GO,Vila Nova - GO,1-0,Final
+8,09/05/2026,03:00,Athletic - MG,Cuiabá - MT,0-0,Final
+8,09/05/2026,03:00,Ponte Preta,Sport Recife - PE,1-3,Final
+8,10/05/2026,03:00,Ceará - CE,Atlético Goianiense,0-1,Final
+8,10/05/2026,03:00,CR Brasil - AL,Operário Ferroviário - PR,3-0,Final
+8,10/05/2026,03:00,Juventude - RS,Criciúma - SC,0-0,Final
+8,10/05/2026,03:00,Náutico - PE,América - MG,4-0,Final
+8,10/05/2026,03:00,Avaí - SC,Fortaleza - CE,0-0,Final
+8,11/05/2026,03:00,Grêmio Novorizontino - SP,Botafogo - SP,1-0,Final
+8,13/05/2026,03:00,Londrina - PR,São Bernardo FC - SP,1-3,Final
+9,16/05/2026,03:00,São Bernardo FC - SP,América - MG,1-1,Final
+9,16/05/2026,03:00,Operário Ferroviário - PR,Náutico - PE,2-6,Final
+9,16/05/2026,03:00,Goiás - GO,Botafogo - SP,1-0,Final
+9,17/05/2026,03:00,Cuiabá - MT,Grêmio Novorizontino - SP,0-0,Final
+9,17/05/2026,03:00,Athletic - MG,Juventude - RS,1-1,Final
+9,17/05/2026,03:00,Vila Nova - GO,Avaí - SC,2-0,Final
+9,17/05/2026,03:00,Ceará - CE,Fortaleza - CE,2-1,Final
+9,17/05/2026,03:00,Criciúma - SC,Atlético Goianiense,1-1,Final
+9,18/05/2026,03:00,Sport Recife - PE,CR Brasil - AL,1-2,Final
+9,19/05/2026,03:00,Ponte Preta,Londrina - PR,1-4,Final
+10,23/05/2026,03:00,Náutico - PE,Cuiabá - MT,1-0,Final
+10,23/05/2026,03:00,Grêmio Novorizontino - SP,Ceará - CE,2-1,Final
+10,23/05/2026,03:00,Fortaleza - CE,Londrina - PR,3-0,Final
+10,24/05/2026,03:00,Juventude - RS,Sport Recife - PE,0-1,Final
+10,24/05/2026,03:00,Atlético Goianiense,São Bernardo FC - SP,0-1,Final
+10,24/05/2026,03:00,CR Brasil - AL,Ponte Preta,4-2,Final
+10,24/05/2026,03:00,América - MG,Vila Nova - GO,1-2,Final
+10,25/05/2026,03:00,Avaí - SC,Goiás - GO,0-2,Final
+10,25/05/2026,03:00,Operário Ferroviário - PR,Criciúma - SC,1-1,Final
+10,26/05/2026,03:00,Botafogo - SP,Athletic - MG,1-2,Final
+11,30/05/2026,03:00,Juventude - RS,América - MG,3-0,Final
+11,30/05/2026,03:00,Atlético Goianiense,Goiás - GO,1-1,Final
+11,30/05/2026,03:00,Avaí - SC,Criciúma - SC,1-2,Final
+11,30/05/2026,03:00,Athletic - MG,Fortaleza - CE,1-0,Final
+11,31/05/2026,03:00,Sport Recife - PE,Náutico - PE,2-0,Final
+11,31/05/2026,03:00,São Bernardo FC - SP,Grêmio Novorizontino - SP,1-1,Final
+11,31/05/2026,03:00,Londrina - PR,Vila Nova - GO,0-1,Final
+11,31/05/2026,03:00,Ceará - CE,Operário Ferroviário - PR,1-2,Final
+11,01/06/2026,03:00,Cuiabá - MT,CR Brasil - AL,2-0,Final
+11,02/06/2026,03:00,Ponte Preta,Botafogo - SP,0-0,Final
+12,06/06/2026,03:00,Operário Ferroviário - PR,Juventude - RS,2-1,Final
+12,06/06/2026,03:00,Criciúma - SC,Londrina - PR,1-0,Final
+12,07/06/2026,03:00,CR Brasil - AL,São Bernardo FC - SP,2-3,Final
+12,09/06/2026,03:00,América - MG,Atlético Goianiense,1-2,Final
+12,09/06/2026,03:00,Vila Nova - GO,Botafogo - SP,1-0,Final
+12,10/06/2026,03:00,Ponte Preta,Cuiabá - MT,1-2,Final
+12,10/06/2026,03:00,Náutico - PE,Fortaleza - CE,0-1,Final
+12,11/06/2026,03:00,Ceará - CE,Avaí - SC,2-1,Final
+12,11/06/2026,03:00,Goiás - GO,Grêmio Novorizontino - SP,0-4,Final
+12,11/06/2026,03:00,Sport Recife - PE,Athletic - MG,1-1,Final
+13,13/06/2026,03:00,Atlético Goianiense,CR Brasil - AL,3-3,Final
+13,14/06/2026,03:00,São Bernardo FC - SP,Sport Recife - PE,0-0,Final
+13,14/06/2026,03:00,Juventude - RS,Ponte Preta,3-0,Final
+13,14/06/2026,03:00,Athletic - MG,Goiás - GO,1-1,Final
+13,14/06/2026,03:00,Cuiabá - MT,Vila Nova - GO,1-0,Final
+13,15/06/2026,03:00,Botafogo - SP,Operário Ferroviário - PR,2-1,Final
+13,15/06/2026,03:00,Grêmio Novorizontino - SP,Náutico - PE,2-2,Final
+13,16/06/2026,03:00,Londrina - PR,Avaí - SC,3-2,Final
+13,16/06/2026,03:00,Criciúma - SC,Ceará - CE,1-1,Final
+13,17/06/2026,03:00,Fortaleza - CE,América - MG,0-3,Final
+14,19/06/2026,03:00,Sport Recife - PE,Atlético Goianiense,1-1,Final
+14,20/06/2026,03:00,Londrina - PR,Athletic - MG,2-0,Final
+14,21/06/2026,03:00,Ceará - CE,Botafogo - SP,0-1,Final
+14,21/06/2026,03:00,Vila Nova - GO,Náutico - PE,4-3,Final
+14,21/06/2026,03:00,Avaí - SC,Cuiabá - MT,1-0,Final
+14,21/06/2026,03:00,CR Brasil - AL,Fortaleza - CE,1-1,Final
+14,21/06/2026,03:00,São Bernardo FC - SP,Juventude - RS,0-1,Final
+14,21/06/2026,03:00,Goiás - GO,Operário Ferroviário - PR,0-3,Final
+14,23/06/2026,03:00,Ponte Preta,Grêmio Novorizontino - SP,0-2,Final
+14,24/06/2026,03:00,América - MG,Criciúma - SC,0-1,Final
+15,26/06/2026,03:00,Cuiabá - MT,Londrina - PR,2-2,Final
+15,27/06/2026,03:00,Grêmio Novorizontino - SP,Vila Nova - GO,2-1,Final
+15,27/06/2026,03:00,Operário Ferroviário - PR,América - MG,1-0,Final
+15,27/06/2026,03:00,Criciúma - SC,São Bernardo FC - SP,1-0,Final
+15,28/06/2026,03:00,Athletic - MG,Avaí - SC,1-0,Final
+15,28/06/2026,03:00,Atlético Goianiense,Ponte Preta,2-0,Final
+15,28/06/2026,03:00,Juventude - RS,Ceará - CE,2-0,Final
+15,28/06/2026,03:00,Fortaleza - CE,Sport Recife - PE,2-1,Final
+15,28/06/2026,03:00,Náutico - PE,Goiás - GO,0-1,Final
+15,01/07/2026,03:00,Botafogo - SP,CR Brasil - AL,0-1,Final
+16,03/07/2026,03:00,Cuiabá - MT,América - MG,1-0,Final
+16,03/07/2026,03:00,Fortaleza - CE,Ponte Preta,2-0,Final
+16,04/07/2026,03:00,Grêmio Novorizontino - SP,Atlético Goianiense,3-0,Final
+16,04/07/2026,03:00,Londrina - PR,CR Brasil - AL,5-0,Final
+16,04/07/2026,03:00,Criciúma - SC,Sport Recife - PE,1-0,Final
+16,05/07/2026,03:00,Goiás - GO,Ceará - CE,2-0,Final
+16,06/07/2026,03:00,Náutico - PE,Juventude - RS,0-0,Final
+16,07/07/2026,03:00,Botafogo - SP,Avaí - SC,3-1,Final
+16,07/07/2026,03:00,Vila Nova - GO,São Bernardo FC - SP,2-1,Final
+16,08/07/2026,03:00,Athletic - MG,Operário Ferroviário - PR,0-1,Final
+17,09/07/2026,03:00,Ponte Preta,Criciúma - SC,1-2,Final
+17,11/07/2026,03:00,Juventude - RS,Vila Nova - GO,1-0,Final
+17,11/07/2026,03:00,Sport Recife - PE,Botafogo - SP,3-3,Final
+17,12/07/2026,03:00,Operário Ferroviário - PR,Grêmio Novorizontino - SP,2-1,Final
+17,12/07/2026,03:00,São Bernardo FC - SP,Cuiabá - MT,2-2,Final
+17,12/07/2026,03:00,Avaí - SC,Náutico - PE,2-0,Final
+17,12/07/2026,03:00,Atlético Goianiense,Fortaleza - CE,1-0,Final
+17,13/07/2026,03:00,CR Brasil - AL,Goiás - GO,2-2,Final
+17,13/07/2026,17:00,América - MG,Londrina - PR,,
+17,13/07/2026,18:30,Ceará - CE,Athletic - MG,,
+18,16/07/2026,18:00,CR Brasil - AL,Náutico - PE,,
+18,17/07/2026,17:00,São Bernardo FC - SP,Avaí - SC,,
+18,17/07/2026,17:00,América - MG,Ceará - CE,,
+18,17/07/2026,17:00,Juventude - RS,Cuiabá - MT,,
+18,17/07/2026,19:00,Londrina - PR,Botafogo - SP,,
+18,17/07/2026,19:00,Fortaleza - CE,Grêmio Novorizontino - SP,,
+18,18/07/2026,14:00,Ponte Preta,Goiás - GO,,
+18,18/07/2026,14:00,Criciúma - SC,Vila Nova - GO,,
+18,18/07/2026,14:00,Sport Recife - PE,Operário Ferroviário - PR,,
+18,18/07/2026,16:00,Atlético Goianiense,Athletic - MG,,
+19,21/07/2026,17:30,Grêmio Novorizontino - SP,Criciúma - SC,,
+19,21/07/2026,17:30,Avaí - SC,América - MG,,
+19,21/07/2026,19:35,Vila Nova - GO,Fortaleza - CE,,
+19,22/07/2026,17:30,Operário Ferroviário - PR,Ponte Preta,,
+19,22/07/2026,17:30,Ceará - CE,CR Brasil - AL,,
+19,22/07/2026,18:30,Goiás - GO,Sport Recife - PE,,
+19,22/07/2026,19:30,Náutico - PE,Londrina - PR,,
+19,23/07/2026,17:30,Athletic - MG,São Bernardo FC - SP,,
+19,23/07/2026,18:30,Cuiabá - MT,Atlético Goianiense,,
+19,23/07/2026,19:30,Botafogo - SP,Juventude - RS,,
+20,24/07/2026,03:00,Ponte Preta,Athletic - MG,,
+20,24/07/2026,03:00,São Bernardo FC - SP,Ceará - CE,,
+20,24/07/2026,03:00,América - MG,Goiás - GO,,
+20,24/07/2026,03:00,Londrina - PR,Grêmio Novorizontino - SP,,
+20,24/07/2026,03:00,Fortaleza - CE,Botafogo - SP,,
+20,24/07/2026,03:00,Atlético Goianiense,Operário Ferroviário - PR,,
+20,24/07/2026,03:00,Criciúma - SC,Náutico - PE,,
+20,24/07/2026,03:00,Sport Recife - PE,Cuiabá - MT,,
+20,24/07/2026,03:00,CR Brasil - AL,Vila Nova - GO,,
+20,24/07/2026,03:00,Juventude - RS,Avaí - SC,,
+21,07/08/2026,03:00,Botafogo - SP,América - MG,,
+21,07/08/2026,03:00,Grêmio Novorizontino - SP,Juventude - RS,,
+21,07/08/2026,03:00,Athletic - MG,Criciúma - SC,,
+21,07/08/2026,03:00,Operário Ferroviário - PR,São Bernardo FC - SP,,
+21,07/08/2026,03:00,Ceará - CE,Ponte Preta,,
+21,07/08/2026,03:00,Goiás - GO,Londrina - PR,,
+21,07/08/2026,03:00,Avaí - SC,CR Brasil - AL,,
+21,07/08/2026,03:00,Náutico - PE,Atlético Goianiense,,
+21,07/08/2026,03:00,Cuiabá - MT,Fortaleza - CE,,
+21,07/08/2026,03:00,Vila Nova - GO,Sport Recife - PE,,
+22,14/08/2026,03:00,Ponte Preta,Náutico - PE,,
+22,14/08/2026,03:00,São Bernardo FC - SP,Botafogo - SP,,
+22,14/08/2026,03:00,América - MG,Athletic - MG,,
+22,14/08/2026,03:00,Operário Ferroviário - PR,Avaí - SC,,
+22,14/08/2026,03:00,Ceará - CE,Cuiabá - MT,,
+22,14/08/2026,03:00,Atlético Goianiense,Vila Nova - GO,,
+22,14/08/2026,03:00,Criciúma - SC,Goiás - GO,,
+22,14/08/2026,03:00,Sport Recife - PE,Londrina - PR,,
+22,14/08/2026,03:00,CR Brasil - AL,Grêmio Novorizontino - SP,,
+22,14/08/2026,03:00,Juventude - RS,Fortaleza - CE,,
+23,18/08/2026,03:00,Botafogo - SP,Criciúma - SC,,
+23,18/08/2026,03:00,Grêmio Novorizontino - SP,América - MG,,
+23,18/08/2026,03:00,Athletic - MG,CR Brasil - AL,,
+23,18/08/2026,03:00,Londrina - PR,Atlético Goianiense,,
+23,18/08/2026,03:00,Fortaleza - CE,São Bernardo FC - SP,,
+23,18/08/2026,03:00,Goiás - GO,Juventude - RS,,
+23,18/08/2026,03:00,Avaí - SC,Sport Recife - PE,,
+23,18/08/2026,03:00,Náutico - PE,Ceará - CE,,
+23,18/08/2026,03:00,Cuiabá - MT,Operário Ferroviário - PR,,
+23,18/08/2026,03:00,Vila Nova - GO,Ponte Preta,,
+24,21/08/2026,03:00,Ponte Preta,Avaí - SC,,
+24,21/08/2026,03:00,São Bernardo FC - SP,Náutico - PE,,
+24,21/08/2026,03:00,Athletic - MG,Grêmio Novorizontino - SP,,
+24,21/08/2026,03:00,Operário Ferroviário - PR,Vila Nova - GO,,
+24,21/08/2026,03:00,Ceará - CE,Londrina - PR,,
+24,21/08/2026,03:00,Atlético Goianiense,Botafogo - SP,,
+24,21/08/2026,03:00,Criciúma - SC,Fortaleza - CE,,
+24,21/08/2026,03:00,Sport Recife - PE,América - MG,,
+24,21/08/2026,03:00,Cuiabá - MT,Goiás - GO,,
+24,21/08/2026,03:00,Juventude - RS,CR Brasil - AL,,
+25,28/08/2026,03:00,Botafogo - SP,Cuiabá - MT,,
+25,28/08/2026,03:00,Grêmio Novorizontino - SP,Sport Recife - PE,,
+25,28/08/2026,03:00,América - MG,Ponte Preta,,
+25,28/08/2026,03:00,Londrina - PR,Juventude - RS,,
+25,28/08/2026,03:00,Fortaleza - CE,Operário Ferroviário - PR,,
+25,28/08/2026,03:00,Goiás - GO,São Bernardo FC - SP,,
+25,28/08/2026,03:00,Avaí - SC,Atlético Goianiense,,
+25,28/08/2026,03:00,Náutico - PE,Athletic - MG,,
+25,28/08/2026,03:00,CR Brasil - AL,Criciúma - SC,,
+25,28/08/2026,03:00,Vila Nova - GO,Ceará - CE,,
+26,04/09/2026,03:00,Ponte Preta,São Bernardo FC - SP,,
+26,04/09/2026,03:00,Grêmio Novorizontino - SP,Avaí - SC,,
+26,04/09/2026,03:00,Athletic - MG,Vila Nova - GO,,
+26,04/09/2026,03:00,Londrina - PR,Operário Ferroviário - PR,,
+26,04/09/2026,03:00,Ceará - CE,Sport Recife - PE,,
+26,04/09/2026,03:00,Goiás - GO,Fortaleza - CE,,
+26,04/09/2026,03:00,Criciúma - SC,Cuiabá - MT,,
+26,04/09/2026,03:00,Náutico - PE,Botafogo - SP,,
+26,04/09/2026,03:00,CR Brasil - AL,América - MG,,
+26,04/09/2026,03:00,Juventude - RS,Atlético Goianiense,,
+27,08/09/2026,03:00,Botafogo - SP,Grêmio Novorizontino - SP,,
+27,08/09/2026,03:00,São Bernardo FC - SP,Londrina - PR,,
+27,08/09/2026,03:00,América - MG,Náutico - PE,,
+27,08/09/2026,03:00,Operário Ferroviário - PR,CR Brasil - AL,,
+27,08/09/2026,03:00,Fortaleza - CE,Avaí - SC,,
+27,08/09/2026,03:00,Atlético Goianiense,Ceará - CE,,
+27,08/09/2026,03:00,Criciúma - SC,Juventude - RS,,
+27,08/09/2026,03:00,Sport Recife - PE,Ponte Preta,,
+27,08/09/2026,03:00,Cuiabá - MT,Athletic - MG,,
+27,08/09/2026,03:00,Vila Nova - GO,Goiás - GO,,
+28,11/09/2026,03:00,Botafogo - SP,Goiás - GO,,
+28,11/09/2026,03:00,Grêmio Novorizontino - SP,Cuiabá - MT,,
+28,11/09/2026,03:00,América - MG,São Bernardo FC - SP,,
+28,11/09/2026,03:00,Londrina - PR,Ponte Preta,,
+28,11/09/2026,03:00,Fortaleza - CE,Ceará - CE,,
+28,11/09/2026,03:00,Atlético Goianiense,Criciúma - SC,,
+28,11/09/2026,03:00,Avaí - SC,Vila Nova - GO,,
+28,11/09/2026,03:00,Náutico - PE,Operário Ferroviário - PR,,
+28,11/09/2026,03:00,CR Brasil - AL,Sport Recife - PE,,
+28,11/09/2026,03:00,Juventude - RS,Athletic - MG,,
+29,18/09/2026,03:00,Ponte Preta,CR Brasil - AL,,
+29,18/09/2026,03:00,São Bernardo FC - SP,Atlético Goianiense,,
+29,18/09/2026,03:00,Athletic - MG,Botafogo - SP,,
+29,18/09/2026,03:00,Londrina - PR,Fortaleza - CE,,
+29,18/09/2026,03:00,Ceará - CE,Grêmio Novorizontino - SP,,
+29,18/09/2026,03:00,Goiás - GO,Avaí - SC,,
+29,18/09/2026,03:00,Criciúma - SC,Operário Ferroviário - PR,,
+29,18/09/2026,03:00,Sport Recife - PE,Juventude - RS,,
+29,18/09/2026,03:00,Cuiabá - MT,Náutico - PE,,
+29,18/09/2026,03:00,Vila Nova - GO,América - MG,,
+30,25/09/2026,03:00,Botafogo - SP,Ponte Preta,,
+30,25/09/2026,03:00,Grêmio Novorizontino - SP,São Bernardo FC - SP,,
+30,25/09/2026,03:00,América - MG,Juventude - RS,,
+30,25/09/2026,03:00,Operário Ferroviário - PR,Ceará - CE,,
+30,25/09/2026,03:00,Fortaleza - CE,Athletic - MG,,
+30,25/09/2026,03:00,Goiás - GO,Atlético Goianiense,,
+30,25/09/2026,03:00,Criciúma - SC,Avaí - SC,,
+30,25/09/2026,03:00,Náutico - PE,Sport Recife - PE,,
+30,25/09/2026,03:00,CR Brasil - AL,Cuiabá - MT,,
+30,25/09/2026,03:00,Vila Nova - GO,Londrina - PR,,
+31,02/10/2026,03:00,Botafogo - SP,Vila Nova - GO,,
+31,02/10/2026,03:00,São Bernardo FC - SP,CR Brasil - AL,,
+31,02/10/2026,03:00,Athletic - MG,Sport Recife - PE,,
+31,02/10/2026,03:00,Londrina - PR,Criciúma - SC,,
+31,02/10/2026,03:00,Fortaleza - CE,Náutico - PE,,
+31,02/10/2026,03:00,Atlético Goianiense,América - MG,,
+31,02/10/2026,03:00,Avaí - SC,Ceará - CE,,
+31,02/10/2026,03:00,Grêmio Novorizontino - SP,Goiás - GO,,
+31,02/10/2026,03:00,Cuiabá - MT,Ponte Preta,,
+31,02/10/2026,03:00,Juventude - RS,Operário Ferroviário - PR,,
+32,06/10/2026,03:00,Ponte Preta,Juventude - RS,,
+32,06/10/2026,03:00,Sport Recife - PE,São Bernardo FC - SP,,
+32,06/10/2026,03:00,América - MG,Fortaleza - CE,,
+32,06/10/2026,03:00,Operário Ferroviário - PR,Botafogo - SP,,
+32,06/10/2026,03:00,Ceará - CE,Criciúma - SC,,
+32,06/10/2026,03:00,Goiás - GO,Athletic - MG,,
+32,06/10/2026,03:00,Avaí - SC,Londrina - PR,,
+32,06/10/2026,03:00,Náutico - PE,Grêmio Novorizontino - SP,,
+32,06/10/2026,03:00,CR Brasil - AL,Atlético Goianiense,,
+32,06/10/2026,03:00,Vila Nova - GO,Cuiabá - MT,,
+33,09/10/2026,03:00,Botafogo - SP,Ceará - CE,,
+33,09/10/2026,03:00,Grêmio Novorizontino - SP,Ponte Preta,,
+33,09/10/2026,03:00,Athletic - MG,Londrina - PR,,
+33,09/10/2026,03:00,Operário Ferroviário - PR,Goiás - GO,,
+33,09/10/2026,03:00,Fortaleza - CE,CR Brasil - AL,,
+33,09/10/2026,03:00,Atlético Goianiense,Sport Recife - PE,,
+33,09/10/2026,03:00,Criciúma - SC,América - MG,,
+33,09/10/2026,03:00,Náutico - PE,Vila Nova - GO,,
+33,09/10/2026,03:00,Cuiabá - MT,Avaí - SC,,
+33,09/10/2026,03:00,Juventude - RS,São Bernardo FC - SP,,
+34,16/10/2026,03:00,Ponte Preta,Atlético Goianiense,,
+34,16/10/2026,03:00,São Bernardo FC - SP,Criciúma - SC,,
+34,16/10/2026,03:00,América - MG,Operário Ferroviário - PR,,
+34,16/10/2026,03:00,Londrina - PR,Cuiabá - MT,,
+34,16/10/2026,03:00,Ceará - CE,Juventude - RS,,
+34,16/10/2026,03:00,Goiás - GO,Náutico - PE,,
+34,16/10/2026,03:00,Avaí - SC,Athletic - MG,,
+34,16/10/2026,03:00,Sport Recife - PE,Fortaleza - CE,,
+34,16/10/2026,03:00,CR Brasil - AL,Botafogo - SP,,
+34,16/10/2026,03:00,Vila Nova - GO,Grêmio Novorizontino - SP,,
+35,23/10/2026,03:00,Ponte Preta,Fortaleza - CE,,
+35,23/10/2026,03:00,São Bernardo FC - SP,Vila Nova - GO,,
+35,23/10/2026,03:00,América - MG,Cuiabá - MT,,
+35,23/10/2026,03:00,Operário Ferroviário - PR,Athletic - MG,,
+35,23/10/2026,03:00,Ceará - CE,Goiás - GO,,
+35,23/10/2026,03:00,Atlético Goianiense,Grêmio Novorizontino - SP,,
+35,23/10/2026,03:00,Avaí - SC,Botafogo - SP,,
+35,23/10/2026,03:00,Sport Recife - PE,Criciúma - SC,,
+35,23/10/2026,03:00,CR Brasil - AL,Londrina - PR,,
+35,23/10/2026,03:00,Juventude - RS,Náutico - PE,,
+36,30/10/2026,03:00,Botafogo - SP,Sport Recife - PE,,
+36,30/10/2026,03:00,Grêmio Novorizontino - SP,Operário Ferroviário - PR,,
+36,30/10/2026,03:00,Athletic - MG,Ceará - CE,,
+36,30/10/2026,03:00,Londrina - PR,América - MG,,
+36,30/10/2026,03:00,Fortaleza - CE,Atlético Goianiense,,
+36,30/10/2026,03:00,Goiás - GO,CR Brasil - AL,,
+36,30/10/2026,03:00,Criciúma - SC,Ponte Preta,,
+36,30/10/2026,03:00,Náutico - PE,Avaí - SC,,
+36,30/10/2026,03:00,Cuiabá - MT,São Bernardo FC - SP,,
+36,30/10/2026,03:00,Vila Nova - GO,Juventude - RS,,
+37,06/11/2026,03:00,Botafogo - SP,Londrina - PR,,
+37,06/11/2026,03:00,Grêmio Novorizontino - SP,Fortaleza - CE,,
+37,06/11/2026,03:00,Athletic - MG,Atlético Goianiense,,
+37,06/11/2026,03:00,Operário Ferroviário - PR,Sport Recife - PE,,
+37,06/11/2026,03:00,Ceará - CE,América - MG,,
+37,06/11/2026,03:00,Goiás - GO,Ponte Preta,,
+37,06/11/2026,03:00,Avaí - SC,São Bernardo FC - SP,,
+37,06/11/2026,03:00,Náutico - PE,CR Brasil - AL,,
+37,06/11/2026,03:00,Cuiabá - MT,Juventude - RS,,
+37,06/11/2026,03:00,Vila Nova - GO,Criciúma - SC,,
+38,14/11/2026,03:00,Ponte Preta,Operário Ferroviário - PR,,
+38,14/11/2026,03:00,São Bernardo FC - SP,Athletic - MG,,
+38,14/11/2026,03:00,América - MG,Avaí - SC,,
+38,14/11/2026,03:00,Londrina - PR,Náutico - PE,,
+38,14/11/2026,03:00,Fortaleza - CE,Vila Nova - GO,,
+38,14/11/2026,03:00,Atlético Goianiense,Cuiabá - MT,,
+38,14/11/2026,03:00,Criciúma - SC,Grêmio Novorizontino - SP,,
+38,14/11/2026,03:00,Sport Recife - PE,Goiás - GO,,
+38,14/11/2026,03:00,CR Brasil - AL,Ceará - CE,,
+38,14/11/2026,03:00,Juventude - RS,Botafogo - SP,,

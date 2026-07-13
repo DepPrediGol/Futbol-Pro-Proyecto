@@ -1,105 +1,113 @@
-matchday,date,time,home_team,away_team,result,status
-1,03/04/2026,14:00,Bolívar,CDT Real Oruro,5-2,Final
-1,03/04/2026,14:00,Independiente Petrolero,Nacional Potosí,0-3,Final
-1,04/04/2026,14:00,Blooming,CD Guabirá,5-0,Final
-1,04/04/2026,14:00,Always Ready,Real Tomayapo,4-0,Final
-1,04/04/2026,14:00,Real Potosí,Club Aurora,0-0,Final
-1,05/04/2026,14:00,San Antonio Bulo Bulo,Oriente Petrolero,2-0,Final
-1,05/04/2026,14:00,GV San José,ABB,1-2,Final
-1,05/04/2026,14:00,Universitario de Vinto,The Strongest,1-2,Final
-2,11/04/2026,14:00,CD Guabirá,Independiente Petrolero,2-2,Final
-2,11/04/2026,14:00,ABB,Bolívar,0-2,Final
-2,11/04/2026,14:00,Nacional Potosí,Universitario de Vinto,1-0,Final
-2,12/04/2026,14:00,Club Aurora,Always Ready,1-1,Final
-2,12/04/2026,14:00,CDT Real Oruro,Blooming,2-2,Final
-2,12/04/2026,14:00,The Strongest,San Antonio Bulo Bulo,3-2,Final
-2,13/04/2026,14:00,Oriente Petrolero,GV San José,2-1,Final
-2,14/04/2026,14:00,Real Tomayapo,Real Potosí,1-1,Final
-3,21/04/2026,14:00,Universitario de Vinto,ABB,5-2,Final
-3,22/04/2026,14:00,GV San José,Club Aurora,1-1,Final
-3,22/04/2026,14:00,Bolívar,Independiente Petrolero,1-2,Final
-3,22/04/2026,14:00,Always Ready,Oriente Petrolero,1-0,Final
-3,23/04/2026,14:00,Real Potosí,CD Guabirá,3-0,Final
-3,23/04/2026,14:00,Blooming,Nacional Potosí,2-1,Final
-3,23/04/2026,14:00,San Antonio Bulo Bulo,CDT Real Oruro,2-1,Final
-3,24/04/2026,14:00,Real Tomayapo,The Strongest,0-0,Final
-4,25/04/2026,14:00,Independiente Petrolero,Universitario de Vinto,2-1,Final
-4,25/04/2026,14:00,Nacional Potosí,GV San José,1-1,Final
-4,25/04/2026,14:00,ABB,Blooming,3-2,Final
-4,26/04/2026,14:00,CD Guabirá,Always Ready,1-2,Final
-4,26/04/2026,14:30,CDT Real Oruro,The Strongest,2-3,Final
-4,26/04/2026,16:00,Bolívar,Real Tomayapo,6-0,Final
-4,27/04/2026,18:30,Oriente Petrolero,Real Potosí,2-0,Final
-4,28/04/2026,19:00,Club Aurora,San Antonio Bulo Bulo,3-1,Final
-5,01/05/2026,14:00,San Antonio Bulo Bulo,Independiente Petrolero,2-2,Final
-5,01/05/2026,16:15,Real Potosí,CDT Real Oruro,1-2,Final
-5,02/05/2026,14:00,Always Ready,Nacional Potosí,3-1,Final
-5,02/05/2026,16:15,Club Aurora,CD Guabirá,4-2,Final
-5,03/05/2026,18:30,Oriente Petrolero,Real Tomayapo,3-1,Final
-5,03/05/2026,14:00,GV San José,Bolívar,1-2,Final
-5,03/05/2026,16:15,The Strongest,ABB,3-1,Final
-5,05/05/2026,19:00,Universitario de Vinto,Blooming,1-1,Final
-6,09/05/2026,18:00,CD Guabirá,GV San José,3-0,Final
-6,10/05/2026,14:00,Real Tomayapo,San Antonio Bulo Bulo,1-0,Final
-6,10/05/2026,16:15,Independiente Petrolero,Always Ready,0-0,Final
-6,10/05/2026,18:30,The Strongest,Real Potosí,0-0,Final
-6,11/05/2026,18:00,Blooming,Bolívar,0-0,Final
-6,11/05/2026,14:00,ABB,Oriente Petrolero,3-1,Final
-6,06/06/2026,16:15,Nacional Potosí,Club Aurora,,
-6,07/06/2026,18:30,CDT Real Oruro,Universitario de Vinto,,
-7,12/05/2026,18:00,San Antonio Bulo Bulo,Universitario de Vinto,0-2,Final
-7,13/05/2026,14:00,Club Aurora,CDT Real Oruro,1-1,Final
-7,14/05/2026,16:15,Independiente Petrolero,Blooming,3-1,Final
-7,14/05/2026,18:30,Bolívar,Nacional Potosí,1-1,Final
-7,14/05/2026,18:00,Always Ready,The Strongest,0-1,Final
-7,15/05/2026,14:00,Oriente Petrolero,CD Guabirá,2-2,Final
-7,04/06/2026,16:15,GV San José,Real Tomayapo,,
-7,04/06/2026,18:30,Real Potosí,ABB,,
-8,16/05/2026,18:00,CDT Real Oruro,Always Ready,,
-8,16/05/2026,14:00,Real Tomayapo,Club Aurora,0-2,Final
-8,16/05/2026,16:15,Universitario de Vinto,Bolívar,3-2,Final
-8,18/05/2026,18:30,CD Guabirá,Nacional Potosí,2-1,Final
-8,06/06/2026,18:00,ABB,Independiente Petrolero,,
-8,07/06/2026,14:00,Real Potosí,San Antonio Bulo Bulo,,
-8,07/06/2026,16:15,The Strongest,Oriente Petrolero,,
-8,08/06/2026,18:30,Blooming,GV San José,,
-9,22/05/2026,14:00,San Antonio Bulo Bulo,ABB,,
-9,23/05/2026,14:00,GV San José,The Strongest,,
-9,23/05/2026,16:15,Always Ready,Universitario de Vinto,,
-9,23/05/2026,18:30,Independiente Petrolero,Real Potosí,,
-9,24/05/2026,18:00,Blooming,Real Tomayapo,,
-9,24/05/2026,14:00,Nacional Potosí,CDT Real Oruro,,
-9,24/05/2026,16:15,Bolívar,CD Guabirá,,
-9,25/05/2026,18:30,Club Aurora,Oriente Petrolero,,
-10,29/05/2026,18:00,San Antonio Bulo Bulo,CD Guabirá,,
-10,30/05/2026,14:00,ABB,Always Ready,,
-10,30/05/2026,16:15,CDT Real Oruro,GV San José,,
-10,31/05/2026,18:30,Real Tomayapo,Independiente Petrolero,,
-10,31/05/2026,18:00,Real Potosí,Nacional Potosí,,
-10,31/05/2026,14:00,The Strongest,Bolívar,,
-10,01/06/2026,16:15,Oriente Petrolero,Blooming,,
-10,02/06/2026,18:30,Universitario de Vinto,Club Aurora,,
-11,12/06/2026,,Nacional Potosí,Real Tomayapo,,
-11,13/06/2026,,Club Aurora,ABB,,
-11,13/06/2026,,CD Guabirá,CDT Real Oruro,,
-11,14/06/2026,,GV San José,Universitario de Vinto,,
-11,14/06/2026,,Independiente Petrolero,Oriente Petrolero,,
-11,14/06/2026,,Always Ready,San Antonio Bulo Bulo,,
-11,15/06/2026,,Bolívar,Real Potosí,,
-11,15/06/2026,,Blooming,The Strongest,,
-12,19/06/2026,,Real Potosí,GV San José,,
-12,20/06/2026,,Universitario de Vinto,CD Guabirá,,
-12,20/06/2026,,San Antonio Bulo Bulo,Blooming,,
-12,20/06/2026,,Real Tomayapo,ABB,,
-12,21/06/2026,,The Strongest,Club Aurora,,
-12,21/06/2026,,Always Ready,Bolívar,,
-12,22/06/2026,,CDT Real Oruro,Independiente Petrolero,,
-12,22/06/2026,,Oriente Petrolero,Nacional Potosí,,
-13,11/07/2026,,ABB,CDT Real Oruro,,
-13,12/07/2026,,Nacional Potosí,The Strongest,,
-13,12/07/2026,,Bolívar,Oriente Petrolero,,
-13,13/07/2026,,Blooming,Always Ready,,
-13,13/07/2026,,Universitario de Vinto,Real Potosí,,
-13,14/07/2026,,GV San José,San Antonio Bulo Bulo,,
-13,14/07/2026,,Independiente Petrolero,Club Aurora,,
-13,15/07/2026,,CD Guabirá,Real Tomayapo,,
+﻿matchday,date,time,home_team,away_team,result,status
+1,03/04/2026,03:00,Bolívar,CDT Real Oruro,5-2,Final
+1,03/04/2026,03:00,Independiente Petrolero,Nacional Potosí,0-3,Final
+1,04/04/2026,03:00,Blooming,CD Guabirá,5-0,Final
+1,04/04/2026,03:00,Always Ready,Real Tomayapo,4-0,Final
+1,04/04/2026,03:00,Real Potosí,Club Aurora,0-0,Final
+1,05/04/2026,03:00,San Antonio Bulo Bulo,Oriente Petrolero,2-0,Final
+1,05/04/2026,03:00,GV San José,ABB,1-2,Final
+1,05/04/2026,03:00,Universitario de Vinto,The Strongest,1-2,Final
+2,11/04/2026,03:00,CD Guabirá,Independiente Petrolero,2-2,Final
+2,11/04/2026,03:00,ABB,Bolívar,0-2,Final
+2,11/04/2026,03:00,Nacional Potosí,Universitario de Vinto,1-0,Final
+2,12/04/2026,03:00,Club Aurora,Always Ready,1-1,Final
+2,12/04/2026,03:00,CDT Real Oruro,Blooming,2-2,Final
+2,12/04/2026,03:00,The Strongest,San Antonio Bulo Bulo,3-2,Final
+2,13/04/2026,03:00,Oriente Petrolero,GV San José,2-1,Final
+2,14/04/2026,03:00,Real Tomayapo,Real Potosí,1-1,Final
+3,21/04/2026,03:00,Universitario de Vinto,ABB,5-2,Final
+3,22/04/2026,03:00,GV San José,Club Aurora,1-1,Final
+3,22/04/2026,03:00,Bolívar,Independiente Petrolero,1-2,Final
+3,22/04/2026,03:00,Always Ready,Oriente Petrolero,1-0,Final
+3,23/04/2026,03:00,Real Potosí,CD Guabirá,3-0,Final
+3,23/04/2026,03:00,Blooming,Nacional Potosí,2-1,Final
+3,23/04/2026,03:00,San Antonio Bulo Bulo,CDT Real Oruro,2-1,Final
+3,24/04/2026,03:00,Real Tomayapo,The Strongest,0-0,Final
+4,25/04/2026,03:00,Independiente Petrolero,Universitario de Vinto,2-1,Final
+4,25/04/2026,03:00,Nacional Potosí,GV San José,1-1,Final
+4,25/04/2026,03:00,ABB,Blooming,3-2,Final
+4,26/04/2026,03:00,CD Guabirá,Always Ready,1-2,Final
+4,26/04/2026,03:00,CDT Real Oruro,The Strongest,2-3,Final
+4,26/04/2026,03:00,Bolívar,Real Tomayapo,6-0,Final
+4,27/04/2026,03:00,Oriente Petrolero,Real Potosí,2-0,Final
+4,28/04/2026,03:00,Club Aurora,San Antonio Bulo Bulo,3-1,Final
+5,01/05/2026,03:00,San Antonio Bulo Bulo,Independiente Petrolero,2-2,Final
+5,01/05/2026,03:00,Real Potosí,CDT Real Oruro,1-2,Final
+5,02/05/2026,03:00,Always Ready,Nacional Potosí,3-1,Final
+5,02/05/2026,03:00,Club Aurora,CD Guabirá,4-2,Final
+5,03/05/2026,03:00,Oriente Petrolero,Real Tomayapo,3-1,Final
+5,03/05/2026,03:00,GV San José,Bolívar,1-2,Final
+5,03/05/2026,03:00,The Strongest,ABB,3-1,Final
+5,05/05/2026,03:00,Universitario de Vinto,Blooming,1-1,Final
+6,09/05/2026,03:00,CD Guabirá,GV San José,3-0,Final
+6,10/05/2026,03:00,Real Tomayapo,San Antonio Bulo Bulo,1-0,Final
+6,10/05/2026,03:00,Independiente Petrolero,Always Ready,0-0,Final
+6,10/05/2026,03:00,The Strongest,Real Potosí,0-0,Final
+6,11/05/2026,03:00,Blooming,Bolívar,0-0,Final
+6,11/05/2026,03:00,ABB,Oriente Petrolero,3-1,Final
+6,09/07/2026,03:00,CDT Real Oruro,Universitario de Vinto,4-1,Final
+6,10/07/2026,03:00,Nacional Potosí,Club Aurora,2-0,Final
+7,12/05/2026,03:00,San Antonio Bulo Bulo,Universitario de Vinto,0-2,Final
+7,13/05/2026,03:00,Club Aurora,CDT Real Oruro,1-1,Final
+7,14/05/2026,03:00,Independiente Petrolero,Blooming,3-1,Final
+7,14/05/2026,03:00,Bolívar,Nacional Potosí,1-1,Final
+7,14/05/2026,03:00,Always Ready,The Strongest,0-1,Final
+7,15/05/2026,03:00,Oriente Petrolero,CD Guabirá,2-2,Final
+7,08/07/2026,03:00,GV San José,Real Tomayapo,3-2,Final
+7,09/07/2026,03:00,Real Potosí,ABB,3-1,Final
+8,16/05/2026,03:00,Real Tomayapo,Club Aurora,0-2,Final
+8,16/05/2026,03:00,Universitario de Vinto,Bolívar,3-2,Final
+8,18/05/2026,03:00,CD Guabirá,Nacional Potosí,2-1,Final
+8,14/07/2026,17:00,CDT Real Oruro,Always Ready,,
+8,14/07/2026,19:30,Blooming,GV San José,,
+8,15/07/2026,17:00,Real Potosí,San Antonio Bulo Bulo,,
+8,15/07/2026,19:00,The Strongest,Oriente Petrolero,,
+8,16/07/2026,14:00,ABB,Independiente Petrolero,,
+9,17/07/2026,19:00,Bolívar,CD Guabirá,,
+9,18/07/2026,14:00,Always Ready,Universitario de Vinto,,
+9,18/07/2026,17:00,GV San José,The Strongest,,
+9,18/07/2026,19:30,Club Aurora,Oriente Petrolero,,
+9,19/07/2026,19:30,Blooming,Real Tomayapo,,
+9,20/07/2026,14:00,San Antonio Bulo Bulo,ABB,,
+9,20/07/2026,18:00,Nacional Potosí,CDT Real Oruro,,
+9,21/07/2026,18:00,Independiente Petrolero,Real Potosí,,
+10,29/05/2026,03:00,San Antonio Bulo Bulo,CD Guabirá,1-2,Final
+10,30/05/2026,03:00,ABB,Always Ready,1-3,Final
+10,31/05/2026,03:00,Oriente Petrolero,Blooming,0-1,Final
+10,02/06/2026,03:00,Universitario de Vinto,Club Aurora,1-2,Final
+10,11/07/2026,03:00,CDT Real Oruro,GV San José,3-1,Final
+10,12/07/2026,03:00,Real Potosí,Nacional Potosí,1-1,Final
+10,12/07/2026,03:00,The Strongest,Bolívar,1-1,Final
+10,13/07/2026,03:00,Real Tomayapo,Independiente Petrolero,2-1,Final
+11,24/07/2026,18:00,Club Aurora,ABB,,
+11,25/07/2026,14:00,Always Ready,San Antonio Bulo Bulo,,
+11,25/07/2026,16:15,CD Guabirá,CDT Real Oruro,,
+11,25/07/2026,18:30,Independiente Petrolero,Oriente Petrolero,,
+11,26/07/2026,14:00,Nacional Potosí,Real Tomayapo,,
+11,26/07/2026,16:15,Bolívar,Real Potosí,,
+11,26/07/2026,18:30,Blooming,The Strongest,,
+11,27/07/2026,18:00,GV San José,Universitario de Vinto,,
+12,31/07/2026,14:00,Universitario de Vinto,CD Guabirá,,
+12,31/07/2026,18:00,Real Tomayapo,ABB,,
+12,01/08/2026,14:00,San Antonio Bulo Bulo,Blooming,,
+12,01/08/2026,16:15,CDT Real Oruro,Independiente Petrolero,,
+12,01/08/2026,18:30,The Strongest,Club Aurora,,
+12,02/08/2026,14:00,Real Potosí,GV San José,,
+12,02/08/2026,16:15,Always Ready,Bolívar,,
+12,02/08/2026,18:30,Oriente Petrolero,Nacional Potosí,,
+13,04/08/2026,14:00,ABB,CDT Real Oruro,,
+13,04/08/2026,17:00,Independiente Petrolero,Club Aurora,,
+13,04/08/2026,19:00,CD Guabirá,Real Tomayapo,,
+13,05/08/2026,14:00,GV San José,San Antonio Bulo Bulo,,
+13,05/08/2026,17:00,Nacional Potosí,The Strongest,,
+13,05/08/2026,19:00,Bolívar,Oriente Petrolero,,
+13,06/08/2026,14:00,Universitario de Vinto,Real Potosí,,
+13,06/08/2026,18:30,Blooming,Always Ready,,
+14,07/08/2026,16:15,ABB,CD Guabirá,,
+14,07/08/2026,18:30,Real Tomayapo,CDT Real Oruro,,
+14,08/08/2026,14:00,San Antonio Bulo Bulo,Nacional Potosí,,
+14,08/08/2026,16:15,The Strongest,Independiente Petrolero,,
+14,08/08/2026,18:30,Club Aurora,Bolívar,,
+14,09/08/2026,14:00,Real Potosí,Blooming,,
+14,09/08/2026,16:15,GV San José,Always Ready,,
+14,09/08/2026,18:30,Oriente Petrolero,Universitario de Vinto,,

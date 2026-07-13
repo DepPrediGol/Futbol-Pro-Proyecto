@@ -1,137 +1,177 @@
-matchday,date,time,home_team,away_team,result,status
-1,06/02/2026,12:00,Albion,Liverpool,1-2,Final
-1,07/02/2026,12:00,Montevideo Wanderers,Defensor Sporting,1-1,Final
-1,07/02/2026,12:00,Progreso,Central Español,0-3,Final
-1,08/02/2026,12:00,Peñarol,Montevideo City Torque,3-1,Final
-1,08/02/2026,12:00,Juventud de Las Piedras,Cerro Largo,0-1,Final
-1,08/02/2026,12:00,Racing,Deportivo Maldonado,2-4,Final
-1,09/02/2026,12:00,Boston River,Nacional,1-2,Final
-1,10/02/2026,12:00,CA Cerro,Danubio,0-1,Final
-2,13/02/2026,12:00,Cerro Largo,Montevideo Wanderers,1-2,Final
-2,14/02/2026,12:00,Liverpool,Defensor Sporting,1-2,Final
-2,14/02/2026,12:00,Deportivo Maldonado,Progreso,2-0,Final
-2,15/02/2026,12:00,Nacional,Racing,1-1,Final
-2,15/02/2026,12:00,Danubio,Boston River,2-0,Final
-2,16/02/2026,12:00,Central Español,Peñarol,2-1,Final
-2,16/02/2026,12:00,Albion,CA Cerro,3-0,Final
-2,17/02/2026,12:00,Montevideo City Torque,Juventud de Las Piedras,2-2,Final
-3,20/02/2026,12:00,CA Cerro,Liverpool,1-1,Final
-3,21/02/2026,12:00,Defensor Sporting,Cerro Largo,1-0,Final
-3,21/02/2026,12:00,Racing,Danubio,4-0,Final
-3,21/02/2026,12:00,Boston River,Albion,0-0,Final
-3,22/02/2026,12:00,Progreso,Nacional,0-1,Final
-3,22/02/2026,12:00,Montevideo Wanderers,Montevideo City Torque,0-4,Final
-3,22/02/2026,12:00,Juventud de Las Piedras,Central Español,0-1,Final
-3,23/02/2026,12:00,Peñarol,Deportivo Maldonado,2-1,Final
-4,27/02/2026,12:00,Montevideo City Torque,Defensor Sporting,1-0,Final
-4,28/02/2026,12:00,CA Cerro,Boston River,1-1,Final
-4,28/02/2026,12:00,Albion,Racing,1-3,Final
-4,28/02/2026,12:00,Danubio,Progreso,2-2,Final
-4,01/03/2026,12:00,Central Español,Montevideo Wanderers,0-1,Final
-4,01/03/2026,12:00,Liverpool,Cerro Largo,2-0,Final
-4,01/03/2026,12:00,Nacional,Peñarol,0-1,Final
-4,03/03/2026,12:00,Deportivo Maldonado,Juventud de Las Piedras,2-1,Final
-5,07/03/2026,12:00,Montevideo Wanderers,Deportivo Maldonado,0-0,Final
-5,07/03/2026,12:00,Progreso,Albion,2-2,Final
-5,08/03/2026,12:00,Peñarol,Danubio,1-1,Final
-5,08/03/2026,12:00,Racing,CA Cerro,1-0,Final
-5,08/03/2026,12:00,Juventud de Las Piedras,Nacional,3-1,Final
-5,09/03/2026,12:00,Defensor Sporting,Central Español,0-0,Final
-5,09/03/2026,12:00,Cerro Largo,Montevideo City Torque,0-1,Final
-5,10/03/2026,12:00,Boston River,Liverpool,0-1,Final
-6,14/03/2026,12:00,Nacional,Montevideo Wanderers,2-0,Final
-6,14/03/2026,12:00,CA Cerro,Progreso,0-1,Final
-6,14/03/2026,12:00,Boston River,Racing,0-1,Final
-6,15/03/2026,12:00,Albion,Peñarol,0-1,Final
-6,15/03/2026,12:00,Central Español,Cerro Largo,1-3,Final
-6,15/03/2026,12:00,Deportivo Maldonado,Defensor Sporting,1-0,Final
-6,16/03/2026,12:00,Danubio,Juventud de Las Piedras,4-1,Final
-6,17/03/2026,12:00,Liverpool,Montevideo City Torque,0-0,Final
-7,20/03/2026,12:00,Cerro Largo,Deportivo Maldonado,3-1,Final
-7,21/03/2026,12:00,Defensor Sporting,Nacional,2-1,Final
-7,21/03/2026,12:00,Racing,Liverpool,1-0,Final
-7,21/03/2026,12:00,Montevideo City Torque,Central Español,2-1,Final
-7,21/03/2026,12:00,Montevideo Wanderers,Danubio,2-1,Final
-7,21/03/2026,12:00,Peñarol,CA Cerro,3-1,Final
-7,22/03/2026,12:00,Juventud de Las Piedras,Albion,0-1,Final
-7,22/03/2026,12:00,Progreso,Boston River,0-1,Final
-8,24/03/2026,12:00,Deportivo Maldonado,Montevideo City Torque,1-0,Final
-8,24/03/2026,12:00,Liverpool,Central Español,3-3,Final
-8,25/03/2026,12:00,Nacional,Cerro Largo,3-0,Final
-8,25/03/2026,12:00,Albion,Montevideo Wanderers,2-1,Final
-8,25/03/2026,12:00,CA Cerro,Juventud de Las Piedras,1-0,Final
-8,26/03/2026,12:00,Boston River,Peñarol,0-2,Final
-8,26/03/2026,12:00,Racing,Progreso,1-1,Final
-8,26/03/2026,12:00,Danubio,Defensor Sporting,0-0,Final
-9,28/03/2026,12:00,Montevideo Wanderers,CA Cerro,3-0,Final
-9,28/03/2026,12:00,Montevideo City Torque,Nacional,2-3,Final
-9,30/03/2026,12:00,Peñarol,Racing,1-2,Final
-9,30/03/2026,12:00,Juventud de Las Piedras,Boston River,1-2,Final
-9,31/03/2026,12:00,Cerro Largo,Danubio,2-0,Final
-9,31/03/2026,12:00,Central Español,Deportivo Maldonado,2-1,Final
-9,31/03/2026,12:00,Progreso,Liverpool,3-3,Final
-9,01/04/2026,12:00,Defensor Sporting,Albion,1-1,Final
-10,03/04/2026,12:00,Boston River,Montevideo Wanderers,4-1,Final
-10,04/04/2026,12:00,Nacional,Central Español,0-1,Final
-10,04/04/2026,12:00,Racing,Juventud de Las Piedras,2-1,Final
-10,04/04/2026,12:00,Danubio,Montevideo City Torque,1-1,Final
-10,05/04/2026,12:00,Progreso,Peñarol,0-2,Final
-10,05/04/2026,12:00,Albion,Cerro Largo,2-2,Final
-10,05/04/2026,12:00,CA Cerro,Defensor Sporting,1-0,Final
-10,05/04/2026,12:00,Liverpool,Deportivo Maldonado,0-2,Final
-11,11/04/2026,12:00,Cerro Largo,CA Cerro,1-1,Final
-11,11/04/2026,12:00,Montevideo City Torque,Albion,0-1,Final
-11,11/04/2026,12:00,Defensor Sporting,Boston River,2-0,Final
-11,12/04/2026,12:00,Deportivo Maldonado,Nacional,4-2,Final
-11,12/04/2026,12:00,Central Español,Danubio,2-2,Final
-11,12/04/2026,12:00,Juventud de Las Piedras,Progreso,1-0,Final
-11,12/04/2026,12:00,Montevideo Wanderers,Racing,1-2,Final
-11,14/04/2026,12:00,Peñarol,Liverpool,0-2,Final
-12,18/04/2026,12:00,Albion,Central Español,6-1,Final
-12,18/04/2026,12:00,Progreso,Montevideo Wanderers,2-1,Final
-12,18/04/2026,12:00,Racing,Defensor Sporting,1-1,Final
-12,19/04/2026,12:00,CA Cerro,Montevideo City Torque,1-1,Final
-12,19/04/2026,12:00,Danubio,Deportivo Maldonado,1-1,Final
-12,20/04/2026,12:00,Liverpool,Nacional,1-3,Final
-12,20/04/2026,12:00,Boston River,Cerro Largo,1-0,Final
-12,21/04/2026,12:00,Peñarol,Juventud de Las Piedras,2-2,Final
-13,25/04/2026,12:00,Montevideo City Torque,Boston River,4-1,Final
-13,25/04/2026,12:00,Juventud de Las Piedras,Liverpool,1-1,Final
-13,25/04/2026,12:00,Deportivo Maldonado,Albion,1-2,Final
-13,26/04/2026,12:00,Nacional,Danubio,1-2,Final
-13,26/04/2026,12:00,Central Español,CA Cerro,3-1,Final
-13,26/04/2026,12:00,Cerro Largo,Racing,0-1,Final
-13,27/04/2026,12:00,Montevideo Wanderers,Peñarol,1-0,Final
-13,28/04/2026,17:30,Defensor Sporting,Progreso,1-0,Final
-14,02/05/2026,17:00,Juventud de Las Piedras,Montevideo Wanderers,2-1,Final
-14,02/05/2026,10:30,CA Cerro,Deportivo Maldonado,0-1,Final
-14,02/05/2026,17:30,Liverpool,Danubio,3-0,Final
+﻿matchday,date,time,home_team,away_team,result,status
+1,06/02/2026,17:00,Albion FC,Liverpool Montevideo,1-2,Final
+1,06/02/2026,19:30,Wanderers,Defensor Sporting,1-1,Final
+1,07/02/2026,15:00,Progreso,Central Espanol,0-3,Final
+1,07/02/2026,18:30,Penarol,Atletico Torque,3-1,Final
+1,08/02/2026,07:45,Juventud,Cerro Largo,0-1,Final
+1,08/02/2026,15:00,Racing Montevideo,Deportivo Maldonado,2-4,Final
+1,08/02/2026,18:30,Boston River,Club Nacional,1-2,Final
+1,09/02/2026,18:00,Cerro,Danubio,0-1,Final
+2,13/02/2026,17:00,Cerro Largo,Wanderers,1-2,Final
+2,13/02/2026,19:30,Liverpool Montevideo,Defensor Sporting,1-2,Final
+2,14/02/2026,15:00,Deportivo Maldonado,Progreso,2-0,Final
+2,14/02/2026,18:30,Club Nacional,Racing Montevideo,1-1,Final
+2,15/02/2026,15:00,Danubio,Boston River,2-0,Final
+2,15/02/2026,18:30,Central Espanol,Penarol,2-1,Final
+2,16/02/2026,17:00,Albion FC,Cerro,3-0,Final
+2,16/02/2026,19:30,Atletico Torque,Juventud,2-2,Final
+3,20/02/2026,16:45,Cerro,Liverpool Montevideo,1-1,Final
+3,20/02/2026,19:30,Defensor Sporting,Cerro Largo,1-0,Final
+3,21/02/2026,07:45,Racing Montevideo,Danubio,4-0,Final
+3,21/02/2026,15:00,Boston River,Albion FC,0-0,Final
+3,21/02/2026,18:30,Progreso,Club Nacional,0-1,Final
+3,22/02/2026,07:45,Wanderers,Atletico Torque,0-4,Final
+3,22/02/2026,15:00,Juventud,Central Espanol,0-1,Final
+3,22/02/2026,18:30,Penarol,Deportivo Maldonado,2-1,Final
+4,26/02/2026,18:00,Atletico Torque,Defensor Sporting,1-0,Final
+4,27/02/2026,18:00,Cerro,Boston River,1-1,Final
+4,28/02/2026,07:45,Albion FC,Racing Montevideo,1-3,Final
+4,28/02/2026,15:00,Danubio,Progreso,2-2,Final
+4,28/02/2026,18:00,Central Espanol,Wanderers,0-1,Final
+4,01/03/2026,07:45,Liverpool Montevideo,Cerro Largo,2-0,Final
+4,01/03/2026,17:30,Club Nacional,Penarol,0-1,Final
+4,02/03/2026,18:00,Deportivo Maldonado,Juventud,2-1,Final
+5,06/03/2026,18:00,Wanderers,Deportivo Maldonado,0-0,Final
+5,07/03/2026,15:00,Progreso,Albion FC,2-2,Final
+5,07/03/2026,18:30,Penarol,Danubio,1-1,Final
+5,08/03/2026,07:45,Racing Montevideo,Cerro,1-0,Final
+5,08/03/2026,15:00,Juventud,Club Nacional,3-1,Final
+5,08/03/2026,18:00,Defensor Sporting,Central Espanol,0-0,Final
+5,09/03/2026,16:30,Cerro Largo,Atletico Torque,0-1,Final
+5,09/03/2026,19:30,Boston River,Liverpool Montevideo,0-1,Final
+6,13/03/2026,18:00,Club Nacional,Wanderers,2-0,Final
+6,14/03/2026,08:00,Cerro,Progreso,0-1,Final
+6,14/03/2026,15:00,Boston River,Racing Montevideo,0-1,Final
+6,14/03/2026,18:30,Albion FC,Penarol,0-1,Final
+6,15/03/2026,08:00,Central Espanol,Cerro Largo,1-3,Final
+6,15/03/2026,15:00,Deportivo Maldonado,Defensor Sporting,1-0,Final
+6,16/03/2026,15:00,Danubio,Juventud,4-1,Final
+6,16/03/2026,18:00,Liverpool Montevideo,Atletico Torque,0-0,Final
+7,20/03/2026,16:00,Cerro Largo,Deportivo Maldonado,3-1,Final
+7,20/03/2026,19:30,Defensor Sporting,Club Nacional,2-1,Final
+7,21/03/2026,08:00,Racing Montevideo,Liverpool Montevideo,1-0,Final
+7,21/03/2026,11:00,Atletico Torque,Central Espanol,2-1,Final
+7,21/03/2026,14:00,Wanderers,Danubio,2-1,Final
+7,21/03/2026,17:30,Penarol,Cerro,3-1,Final
+7,22/03/2026,08:00,Juventud,Albion FC,0-1,Final
+7,22/03/2026,14:00,Progreso,Boston River,0-1,Final
+8,24/03/2026,12:00,Deportivo Maldonado,Atletico Torque,1-0,Final
+8,24/03/2026,15:00,Liverpool Montevideo,Central Espanol,3-3,Final
+8,24/03/2026,18:30,Club Nacional,Cerro Largo,3-0,Final
+8,25/03/2026,12:00,Albion FC,Wanderers,2-1,Final
+8,25/03/2026,15:00,Cerro,Juventud,1-0,Final
+8,25/03/2026,18:30,Boston River,Penarol,0-2,Final
+8,26/03/2026,11:00,Racing Montevideo,Progreso,1-1,Final
+8,26/03/2026,14:00,Danubio,Defensor Sporting,0-0,Final
+9,28/03/2026,14:00,Wanderers,Cerro,3-0,Final
+9,28/03/2026,17:30,Atletico Torque,Club Nacional,2-3,Final
+9,29/03/2026,17:30,Penarol,Racing Montevideo,1-2,Final
+9,30/03/2026,13:00,Juventud,Boston River,1-2,Final
+9,30/03/2026,16:00,Cerro Largo,Danubio,2-0,Final
+9,30/03/2026,19:00,Central Espanol,Deportivo Maldonado,2-1,Final
+9,31/03/2026,09:00,Progreso,Liverpool Montevideo,3-3,Final
+9,31/03/2026,17:00,Defensor Sporting,Albion FC,1-1,Final
+10,03/04/2026,15:00,Boston River,Wanderers,4-1,Final
+10,03/04/2026,18:30,Club Nacional,Central Espanol,0-1,Final
+10,04/04/2026,08:00,Racing Montevideo,Juventud,2-1,Final
+10,04/04/2026,13:30,Danubio,Atletico Torque,1-1,Final
+10,04/04/2026,17:00,Progreso,Penarol,0-2,Final
+10,05/04/2026,08:00,Albion FC,Cerro Largo,2-2,Final
+10,05/04/2026,13:30,Cerro,Defensor Sporting,1-0,Final
+10,05/04/2026,16:30,Liverpool Montevideo,Deportivo Maldonado,0-2,Final
+11,10/04/2026,18:00,Cerro Largo,Cerro,1-1,Final
+11,11/04/2026,08:00,Atletico Torque,Albion FC,0-1,Final
+11,11/04/2026,13:30,Defensor Sporting,Boston River,2-0,Final
+11,11/04/2026,17:00,Deportivo Maldonado,Club Nacional,4-2,Final
+11,12/04/2026,08:00,Central Espanol,Danubio,2-2,Final
+11,12/04/2026,13:30,Juventud,Progreso,1-0,Final
+11,12/04/2026,16:30,Wanderers,Racing Montevideo,1-2,Final
+11,13/04/2026,18:00,Penarol,Liverpool Montevideo,0-2,Final
+12,17/04/2026,18:00,Albion FC,Central Espanol,6-1,Final
+12,18/04/2026,11:00,Progreso,Wanderers,2-1,Final
+12,18/04/2026,14:00,Racing Montevideo,Defensor Sporting,1-1,Final
+12,19/04/2026,08:00,Cerro,Atletico Torque,1-1,Final
+12,19/04/2026,14:00,Danubio,Deportivo Maldonado,1-1,Final
+12,19/04/2026,17:30,Liverpool Montevideo,Club Nacional,1-3,Final
+12,20/04/2026,15:00,Boston River,Cerro Largo,1-0,Final
+12,20/04/2026,18:30,Penarol,Juventud,2-2,Final
+13,24/04/2026,17:30,Atletico Torque,Boston River,4-1,Final
+13,25/04/2026,10:00,Juventud,Liverpool Montevideo,1-1,Final
+13,25/04/2026,13:30,Deportivo Maldonado,Albion FC,1-2,Final
+13,25/04/2026,17:00,Club Nacional,Danubio,1-2,Final
+13,26/04/2026,08:00,Central Espanol,Cerro,3-1,Final
+13,26/04/2026,13:30,Cerro Largo,Racing Montevideo,0-1,Final
+13,26/04/2026,17:00,Wanderers,Penarol,1-0,Final
+13,27/04/2026,17:30,Defensor Sporting,Progreso,1-0,Final
+14,02/05/2026,10:30,Juventud,Wanderers,2-1,Final
+14,02/05/2026,13:30,Cerro,Deportivo Maldonado,0-1,Final
+14,02/05/2026,16:30,Liverpool Montevideo,Danubio,3-0,Final
 14,03/05/2026,07:30,Progreso,Cerro Largo,0-1,Final
-14,03/05/2026,13:30,Boston River,Central Español,2-1,Final
-14,03/05/2026,10:30,Racing,Montevideo City Torque,1-1,Final
-14,04/05/2026,13:30,Albion,Nacional,3-2,Final
-14,05/05/2026,16:00,Peñarol,Defensor Sporting,1-1,Final
-15,09/05/2026,12:00,Central Español,Racing,2-0,Final
-15,09/05/2026,12:00,Cerro Largo,Peñarol,2-3,Final
-15,09/05/2026,12:00,Montevideo City Torque,Progreso,2-1,Final
-15,09/05/2026,12:00,Danubio,Albion,0-1,Final
-15,09/05/2026,12:00,Defensor Sporting,Juventud de Las Piedras,1-2,Final
-15,09/05/2026,12:00,Deportivo Maldonado,Boston River,2-1,Final
-15,09/05/2026,12:00,Nacional,CA Cerro,4-0,Final
-15,09/05/2026,12:00,Montevideo Wanderers,Liverpool,1-0,Final
-16,16/05/2026,10:30,Boston River,CA Cerro,4-1,Final
-16,16/05/2026,13:30,Peñarol,Liverpool,2-1,Final
-16,16/05/2026,16:00,Montevideo City Torque,Nacional,1-2,Final
-16,16/05/2026,12:00,Juventud de Las Piedras,Progreso,2-0,Final
-16,17/05/2026,12:00,Central Español,Defensor Sporting,2-1,Final
-16,17/05/2026,12:00,Racing,Cerro Largo,1-0,Final
-16,17/05/2026,10:30,Albion,Montevideo Wanderers,0-0,Final
-16,18/05/2026,13:30,Deportivo Maldonado,Danubio,3-1,Final
-17,22/05/2026,17:30,Liverpool,Racing,,
-17,23/05/2026,13:00,Cerro Largo,Boston River,,
-17,23/05/2026,08:00,Progreso,Montevideo City Torque,,
-17,23/05/2026,16:30,Nacional,Albion,,
-17,24/05/2026,08:00,CA Cerro,Central Español,,
-17,24/05/2026,16:30,Defensor Sporting,Peñarol,,
-17,24/05/2026,13:00,Montevideo Wanderers,Deportivo Maldonado,,
-17,25/05/2026,00:00,Danubio,Juventud de Las Piedras,,
+14,03/05/2026,10:00,Boston River,Central Espanol,2-1,Final
+14,03/05/2026,13:30,Racing Montevideo,Atletico Torque,1-1,Final
+14,03/05/2026,18:00,Albion FC,Club Nacional,3-2,Final
+14,04/05/2026,17:30,Penarol,Defensor Sporting,1-1,Final
+15,08/05/2026,17:30,Wanderers,Liverpool Montevideo,1-0,Final
+15,09/05/2026,13:30,Danubio,Albion FC,0-1,Final
+15,09/05/2026,16:30,Central Espanol,Racing Montevideo,2-0,Final
+15,10/05/2026,09:00,Defensor Sporting,Juventud,1-2,Final
+15,10/05/2026,14:00,Atletico Torque,Progreso,2-1,Final
+15,10/05/2026,17:30,Club Nacional,Cerro,4-0,Final
+15,11/05/2026,15:00,Deportivo Maldonado,Boston River,2-1,Final
+15,11/05/2026,18:30,Cerro Largo,Penarol,2-3,Final
+16,15/05/2026,18:00,Atletico Torque,Club Nacional,1-2,Final
+16,16/05/2026,10:00,Boston River,Cerro,4-1,Final
+16,16/05/2026,13:00,Juventud,Progreso,2-0,Final
+16,16/05/2026,16:30,Penarol,Liverpool Montevideo,2-1,Final
+16,17/05/2026,08:00,Central Espanol,Defensor Sporting,2-1,Final
+16,17/05/2026,13:00,Racing Montevideo,Cerro Largo,1-0,Final
+16,17/05/2026,16:00,Albion FC,Wanderers,0-0,Final
+16,18/05/2026,16:30,Deportivo Maldonado,Danubio,3-1,Final
+17,22/05/2026,17:30,Liverpool Montevideo,Racing Montevideo,0-0,Final
+17,23/05/2026,08:00,Progreso,Atletico Torque,1-2,Final
+17,23/05/2026,13:00,Cerro Largo,Boston River,3-0,Final
+17,23/05/2026,16:30,Club Nacional,Albion FC,1-0,Final
+17,24/05/2026,08:00,Cerro,Central Espanol,1-0,Final
+17,24/05/2026,13:00,Wanderers,Deportivo Maldonado,1-1,Final
+17,24/05/2026,16:30,Defensor Sporting,Penarol,0-2,Final
+18,29/05/2026,17:30,Cerro Largo,Cerro,2-0,Final
+18,30/05/2026,08:00,Racing Montevideo,Defensor Sporting,0-0,Final
+18,30/05/2026,13:00,Danubio,Progreso,1-2,Final
+18,31/05/2026,08:00,Albion FC,Atletico Torque,1-2,Final
+18,31/05/2026,13:00,Juventud,Wanderers,2-5,Final
+18,31/05/2026,16:30,Deportivo Maldonado,Club Nacional,3-0,Final
+18,01/06/2026,13:00,Boston River,Liverpool Montevideo,0-1,Final
+18,01/06/2026,18:00,Penarol,Central Espanol,0-1,Final
+19,05/06/2026,17:00,Wanderers,Danubio,0-0,Final
+19,06/06/2026,08:00,Central Espanol,Racing Montevideo,1-1,Final
+19,06/06/2026,13:00,Atletico Torque,Deportivo Maldonado,2-4,Final
+19,06/06/2026,16:30,Club Nacional,Juventud,2-1,Final
+19,07/06/2026,08:00,Progreso,Albion FC,1-2,Final
+19,07/06/2026,13:00,Cerro,Penarol,0-1,Final
+19,07/06/2026,16:30,Defensor Sporting,Boston River,1-1,Final
+19,08/06/2026,17:00,Liverpool Montevideo,Cerro Largo,0-0,Final
+17,05/07/2026,12:00,Danubio,Juventud,1-1,Final
+20,10/07/2026,17:00,Deportivo Maldonado,Albion FC,1-1,Final
+20,11/07/2026,08:00,Juventud,Atletico Torque,1-3,Final
+20,11/07/2026,13:00,Danubio,Club Nacional,0-0,Final
+20,11/07/2026,16:00,Wanderers,Progreso,2-0,Final
+20,12/07/2026,10:00,Liverpool Montevideo,Cerro,1-2,Final
+20,12/07/2026,13:00,Boston River,Central Espanol,0-0,Final
+20,12/07/2026,16:30,Racing Montevideo,Penarol,1-1,Final
+20,13/07/2026,17:00,Cerro Largo,Defensor Sporting,,
+21,17/07/2026,13:00,Albion FC,Juventud,,
+21,17/07/2026,17:30,Club Nacional,Wanderers,,
+21,18/07/2026,10:30,Progreso,Deportivo Maldonado,,
+21,18/07/2026,14:00,Penarol,Boston River,,
+21,19/07/2026,08:00,Central Espanol,Cerro Largo,,
+21,19/07/2026,11:00,Cerro,Racing Montevideo,,
+21,20/07/2026,15:00,Atletico Torque,Danubio,,
+21,20/07/2026,18:00,Defensor Sporting,Liverpool Montevideo,,
+23,24/07/2026,17:30,Club Nacional,Progreso,,
+23,25/07/2026,10:00,Central Espanol,Liverpool Montevideo,,
+23,25/07/2026,13:00,Defensor Sporting,Cerro,,
+23,25/07/2026,16:00,Deportivo Maldonado,Juventud,,
+23,26/07/2026,09:00,Racing Montevideo,Boston River,,
+23,26/07/2026,13:00,Albion FC,Danubio,,
+23,26/07/2026,16:30,Penarol,Cerro Largo,,
+23,27/07/2026,17:30,Atletico Torque,Wanderers,,

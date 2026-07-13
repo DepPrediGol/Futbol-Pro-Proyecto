@@ -1,241 +1,241 @@
-matchday,date,time,home_team,away_team,result,status
-1,21/02/2026,13:00,Orense SC,LDU Quito,1-2,Final
-1,21/02/2026,13:00,Aucas,Mushuc Runa,1-1,Final
-1,21/02/2026,13:00,Barcelona,Técnico Universitario,1-0,Final
-1,22/02/2026,13:00,Macará,Leones del Norte,0-0,Final
-1,22/02/2026,13:00,Delfín SC,Deportivo Cuenca,1-0,Final
-1,23/02/2026,13:00,Independiente del Valle,Guayaquil City,2-0,Final
-1,24/02/2026,13:00,Libertad de Loja,Manta,1-0,Final
-1,09/04/2026,13:00,Universidad Católica,Emelec,1-1,Final
-2,28/02/2026,13:00,Técnico Universitario,Orense SC,1-1,Final
-2,28/02/2026,13:00,Leones del Norte,Libertad de Loja,1-1,Final
-2,28/02/2026,13:00,Guayaquil City,Aucas,1-1,Final
-2,01/03/2026,13:00,Emelec,Delfín SC,1-1,Final
-2,01/03/2026,13:00,LDU Quito,Macará,0-2,Final
-2,01/03/2026,13:00,Mushuc Runa,Universidad Católica,0-0,Final
-2,01/03/2026,13:00,Deportivo Cuenca,Barcelona,2-1,Final
-2,03/03/2026,13:00,Manta,Independiente del Valle,0-2,Final
-3,07/03/2026,13:00,Delfín SC,Guayaquil City,1-0,Final
-3,07/03/2026,13:00,Barcelona,Emelec,1-0,Final
-3,07/03/2026,13:00,Independiente del Valle,Mushuc Runa,3-1,Final
-3,08/03/2026,13:00,Libertad de Loja,LDU Quito,2-1,Final
-3,08/03/2026,13:00,Aucas,Deportivo Cuenca,0-1,Final
-3,08/03/2026,13:00,Macará,Técnico Universitario,1-1,Final
-3,08/03/2026,13:00,Universidad Católica,Leones del Norte,3-0,Final
-3,10/03/2026,13:00,Orense SC,Manta,1-1,Final
-4,13/03/2026,13:00,Técnico Universitario,Libertad de Loja,2-1,Final
-4,14/03/2026,13:00,Deportivo Cuenca,Leones del Norte,1-1,Final
-4,14/03/2026,13:00,Independiente del Valle,Aucas,2-2,Final
-4,14/03/2026,13:00,Delfín SC,Manta,0-1,Final
-4,15/03/2026,13:00,LDU Quito,Universidad Católica,1-1,Final
-4,15/03/2026,13:00,Mushuc Runa,Macará,0-0,Final
-4,15/03/2026,13:00,Emelec,Orense SC,2-1,Final
-4,16/03/2026,13:00,Guayaquil City,Barcelona,0-0,Final
-5,17/03/2026,13:00,Universidad Católica,Deportivo Cuenca,1-0,Final
-5,18/03/2026,13:00,Leones del Norte,LDU Quito,0-2,Final
-5,18/03/2026,13:00,Macará,Delfín SC,1-0,Final
-5,18/03/2026,13:00,Manta,Guayaquil City,0-1,Final
-5,19/03/2026,13:00,Libertad de Loja,Barcelona,0-0,Final
-5,19/03/2026,13:00,Aucas,Técnico Universitario,0-1,Final
-5,19/03/2026,13:00,Orense SC,Mushuc Runa,3-2,Final
-5,20/03/2026,13:00,Emelec,Independiente del Valle,2-0,Final
-6,21/03/2026,13:00,Delfín SC,Libertad de Loja,0-0,Final
-6,21/03/2026,13:00,Deportivo Cuenca,Macará,1-1,Final
-6,22/03/2026,13:00,LDU Quito,Manta,1-0,Final
-6,22/03/2026,13:00,Técnico Universitario,Independiente del Valle,1-2,Final
-6,22/03/2026,13:00,Barcelona,Universidad Católica,1-1,Final
-6,23/03/2026,13:00,Mushuc Runa,Emelec,2-0,Final
-6,23/03/2026,13:00,Guayaquil City,Leones del Norte,0-0,Final
-6,24/03/2026,13:00,Aucas,Orense SC,3-2,Final
-7,04/04/2026,13:00,LDU Quito,Barcelona,0-2,Final
-7,04/04/2026,13:00,Independiente del Valle,Orense SC,2-0,Final
-7,04/04/2026,13:00,Universidad Católica,Guayaquil City,4-1,Final
-7,05/04/2026,13:00,Emelec,Deportivo Cuenca,0-2,Final
-7,05/04/2026,13:00,Leones del Norte,Delfín SC,1-0,Final
-7,05/04/2026,13:00,Manta,Técnico Universitario,0-2,Final
-7,06/04/2026,13:00,Macará,Aucas,0-1,Final
-7,07/04/2026,13:00,Libertad de Loja,Mushuc Runa,2-2,Final
-8,11/04/2026,13:00,Barcelona,Leones del Norte,2-1,Final
-8,11/04/2026,13:00,Delfín SC,LDU Quito,1-0,Final
-8,11/04/2026,14:00,Mushuc Runa,Manta,1-0,Final
-8,12/04/2026,19:00,Orense SC,Libertad de Loja,2-1,Final
-8,12/04/2026,12:00,Técnico Universitario,Universidad Católica,0-2,Final
-8,12/04/2026,13:00,Deportivo Cuenca,Independiente del Valle,2-3,Final
-8,12/04/2026,15:30,Guayaquil City,Macará,2-1,Final
-8,13/04/2026,18:10,Aucas,Emelec,2-0,Final
-9,18/04/2026,17:00,Leones del Norte,Aucas,0-1,Final
-9,18/04/2026,19:30,Emelec,Guayaquil City,1-3,Final
-9,18/04/2026,14:00,Mushuc Runa,Técnico Universitario,1-0,Final
-9,18/04/2026,16:30,Universidad Católica,Libertad de Loja,2-0,Final
-9,19/04/2026,19:00,Orense SC,Delfín SC,0-0,Final
-9,19/04/2026,13:00,Manta,Deportivo Cuenca,0-1,Final
-9,19/04/2026,15:30,Independiente del Valle,LDU Quito,0-2,Final
-9,20/04/2026,18:10,Macará,Barcelona,3-1,Final
-10,22/04/2026,17:00,Libertad de Loja,Guayaquil City,0-1,Final
-10,22/04/2026,19:30,Técnico Universitario,Emelec,0-1,Final
-10,22/04/2026,11:00,Leones del Norte,Manta,3-0,Final
-10,22/04/2026,13:00,Delfín SC,Independiente del Valle,0-1,Final
-10,22/04/2026,15:30,Deportivo Cuenca,Orense SC,1-3,Final
-10,23/04/2026,18:00,Barcelona,Mushuc Runa,2-1,Final
-10,23/04/2026,20:30,LDU Quito,Aucas,0-0,Final
-10,24/04/2026,19:00,Universidad Católica,Macará,4-0,Final
-11,25/04/2026,11:45,Mushuc Runa,Deportivo Cuenca,4-1,Final
-11,25/04/2026,14:10,Independiente del Valle,Leones del Norte,2-1,Final
-11,26/04/2026,17:00,Emelec,LDU Quito,1-0,Final
-11,26/04/2026,13:00,Macará,Libertad de Loja,3-0,Final
-11,26/04/2026,15:30,Guayaquil City,Técnico Universitario,1-0,Final
-11,27/04/2026,18:10,Orense SC,Barcelona,1-1,Final
-11,27/04/2026,16:30,Manta,Universidad Católica,1-0,Final
-11,28/04/2026,19:00,Aucas,Delfín SC,1-0,Final
-12,01/05/2026,16:30,Universidad Católica,Independiente del Valle,2-3,Final
-12,02/05/2026,19:00,Libertad de Loja,Aucas,3-2,Final
-12,02/05/2026,14:00,Deportivo Cuenca,Técnico Universitario,2-1,Final
-12,02/05/2026,16:30,LDU Quito,Guayaquil City,1-0,Final
-12,03/05/2026,19:00,Barcelona,Manta,1-1,Final
-12,03/05/2026,13:00,Macará,Orense SC,1-2,Final
-12,03/05/2026,15:30,Delfín SC,Mushuc Runa,1-0,Final
-12,04/05/2026,18:10,Leones del Norte,Emelec,2-0,Final
-13,09/05/2026,19:00,Orense SC,Leones del Norte,2-0,Final
-13,09/05/2026,13:30,Técnico Universitario,Delfín SC,4-0,Final
-13,09/05/2026,16:00,Guayaquil City,Deportivo Cuenca,0-1,Final
-13,09/05/2026,19:00,Aucas,Universidad Católica,2-1,Final
-13,10/05/2026,13:00,Independiente del Valle,Barcelona,1-0,Final
-13,10/05/2026,15:30,Emelec,Libertad de Loja,1-1,Final
-13,11/05/2026,18:10,Manta,Macará,0-1,Final
-13,12/05/2026,19:00,Mushuc Runa,LDU Quito,1-3,Final
-14,15/05/2026,19:00,LDU Quito,Técnico Universitario,2-1,Final
-14,16/05/2026,14:00,Libertad de Loja,Deportivo Cuenca,0-1,Final
-14,16/05/2026,16:30,Macará,Independiente del Valle,0-3,Final
-14,16/05/2026,19:00,Universidad Católica,Delfín SC,2-2,Final
-14,17/05/2026,13:00,Barcelona,Aucas,3-0,Final
-14,17/05/2026,15:30,Leones del Norte,Mushuc Runa,3-1,Final
-14,18/05/2026,18:10,Manta,Emelec,0-0,Final
-14,19/05/2026,19:00,Guayaquil City,Orense SC,0-1,Final
-15,23/05/2026,19:00,Independiente del Valle,Libertad de Loja,,
-15,23/05/2026,14:00,Mushuc Runa,Guayaquil City,,
-15,23/05/2026,16:30,Orense SC,Universidad Católica,,
-15,24/05/2026,19:00,Deportivo Cuenca,LDU Quito,,
-15,24/05/2026,13:00,Técnico Universitario,Leones del Norte,,
-15,24/05/2026,15:30,Emelec,Macará,,
-15,25/05/2026,19:00,Delfín SC,Barcelona,,
-15,26/05/2026,19:00,Aucas,Manta,,
-16,30/05/2026,14:00,Manta,Libertad de Loja,,
-16,30/05/2026,16:30,LDU Quito,Orense SC,,
-16,31/05/2026,19:00,Deportivo Cuenca,Delfín SC,,
-16,31/05/2026,13:00,Mushuc Runa,Aucas,,
-16,31/05/2026,15:30,Guayaquil City,Independiente del Valle,,
-16,01/06/2026,18:10,Emelec,Universidad Católica,,
-16,02/06/2026,17:00,Leones del Norte,Macará,,
-16,02/06/2026,19:30,Técnico Universitario,Barcelona,,
-17,01/07/2026,15:00,Aucas,Guayaquil City,,
-17,01/07/2026,15:00,Barcelona,Deportivo Cuenca,,
-17,01/07/2026,15:00,Delfín SC,Emelec,,
-17,01/07/2026,15:00,Independiente del Valle,Manta,,
-17,01/07/2026,15:00,Libertad de Loja,Leones del Norte,,
-17,01/07/2026,15:00,Macará,LDU Quito,,
-17,01/07/2026,15:00,Orense SC,Técnico Universitario,,
-17,01/07/2026,15:00,Universidad Católica,Mushuc Runa,,
-18,05/07/2026,15:00,Deportivo Cuenca,Aucas,,
-18,05/07/2026,15:00,Emelec,Barcelona,,
-18,05/07/2026,15:00,Guayaquil City,Delfín SC,,
-18,05/07/2026,15:00,LDU Quito,Libertad de Loja,,
-18,05/07/2026,15:00,Leones del Norte,Universidad Católica,,
-18,05/07/2026,15:00,Manta,Orense SC,,
-18,05/07/2026,15:00,Mushuc Runa,Independiente del Valle,,
-18,05/07/2026,15:00,Técnico Universitario,Macará,,
-19,12/07/2026,15:00,Aucas,Independiente del Valle,,
-19,12/07/2026,15:00,Barcelona,Guayaquil City,,
-19,12/07/2026,15:00,Leones del Norte,Deportivo Cuenca,,
-19,12/07/2026,15:00,Libertad de Loja,Técnico Universitario,,
-19,12/07/2026,15:00,Macará,Mushuc Runa,,
-19,12/07/2026,15:00,Manta,Delfín SC,,
-19,12/07/2026,15:00,Orense SC,Emelec,,
-19,12/07/2026,15:00,Universidad Católica,LDU Quito,,
-20,15/07/2026,15:00,Barcelona,Libertad de Loja,,
-20,15/07/2026,15:00,Delfín SC,Macará,,
-20,15/07/2026,15:00,Deportivo Cuenca,Universidad Católica,,
-20,15/07/2026,15:00,Guayaquil City,Manta,,
-20,15/07/2026,15:00,Independiente del Valle,Emelec,,
-20,15/07/2026,15:00,LDU Quito,Leones del Norte,,
-20,15/07/2026,15:00,Mushuc Runa,Orense SC,,
-20,15/07/2026,15:00,Técnico Universitario,Aucas,,
-21,19/07/2026,15:00,Emelec,Mushuc Runa,,
-21,19/07/2026,15:00,Independiente del Valle,Técnico Universitario,,
-21,19/07/2026,15:00,Leones del Norte,Guayaquil City,,
-21,19/07/2026,15:00,Libertad de Loja,Delfín SC,,
-21,19/07/2026,15:00,Macará,Deportivo Cuenca,,
-21,19/07/2026,15:00,Manta,LDU Quito,,
-21,19/07/2026,15:00,Orense SC,Aucas,,
-21,19/07/2026,15:00,Universidad Católica,Barcelona,,
-22,26/07/2026,15:00,Aucas,Macará,,
-22,26/07/2026,15:00,Barcelona,LDU Quito,,
-22,26/07/2026,15:00,Delfín SC,Leones del Norte,,
-22,26/07/2026,15:00,Deportivo Cuenca,Emelec,,
-22,26/07/2026,15:00,Guayaquil City,Universidad Católica,,
-22,26/07/2026,15:00,Mushuc Runa,Libertad de Loja,,
-22,26/07/2026,15:00,Orense SC,Independiente del Valle,,
-22,26/07/2026,15:00,Técnico Universitario,Manta,,
-23,02/08/2026,15:00,Emelec,Aucas,,
-23,02/08/2026,15:00,Independiente del Valle,Deportivo Cuenca,,
-23,02/08/2026,15:00,LDU Quito,Delfín SC,,
-23,02/08/2026,15:00,Leones del Norte,Barcelona,,
-23,02/08/2026,15:00,Libertad de Loja,Orense SC,,
-23,02/08/2026,15:00,Macará,Guayaquil City,,
-23,02/08/2026,15:00,Manta,Mushuc Runa,,
-23,02/08/2026,15:00,Universidad Católica,Técnico Universitario,,
-24,09/08/2026,15:00,Aucas,Leones del Norte,,
-24,09/08/2026,15:00,Barcelona,Macará,,
-24,09/08/2026,15:00,Delfín SC,Orense SC,,
-24,09/08/2026,15:00,Deportivo Cuenca,Manta,,
-24,09/08/2026,15:00,Guayaquil City,Emelec,,
-24,09/08/2026,15:00,LDU Quito,Independiente del Valle,,
-24,09/08/2026,15:00,Libertad de Loja,Universidad Católica,,
-24,09/08/2026,15:00,Técnico Universitario,Mushuc Runa,,
-25,16/08/2026,15:00,Aucas,LDU Quito,,
-25,16/08/2026,15:00,Emelec,Técnico Universitario,,
-25,16/08/2026,15:00,Guayaquil City,Libertad de Loja,,
-25,16/08/2026,15:00,Independiente del Valle,Delfín SC,,
-25,16/08/2026,15:00,Macará,Universidad Católica,,
-25,16/08/2026,15:00,Manta,Leones del Norte,,
-25,16/08/2026,15:00,Mushuc Runa,Barcelona,,
-25,16/08/2026,15:00,Orense SC,Deportivo Cuenca,,
-26,23/08/2026,15:00,Barcelona,Orense SC,,
-26,23/08/2026,15:00,Delfín SC,Aucas,,
-26,23/08/2026,15:00,Deportivo Cuenca,Mushuc Runa,,
-26,23/08/2026,15:00,LDU Quito,Emelec,,
-26,23/08/2026,15:00,Leones del Norte,Independiente del Valle,,
-26,23/08/2026,15:00,Libertad de Loja,Macará,,
-26,23/08/2026,15:00,Técnico Universitario,Guayaquil City,,
-26,23/08/2026,15:00,Universidad Católica,Manta,,
-27,30/08/2026,15:00,Aucas,Libertad de Loja,,
-27,30/08/2026,15:00,Emelec,Leones del Norte,,
-27,30/08/2026,15:00,Guayaquil City,LDU Quito,,
-27,30/08/2026,15:00,Independiente del Valle,Universidad Católica,,
-27,30/08/2026,15:00,Manta,Barcelona,,
-27,30/08/2026,15:00,Mushuc Runa,Delfín SC,,
-27,30/08/2026,15:00,Orense SC,Macará,,
-27,30/08/2026,15:00,Técnico Universitario,Deportivo Cuenca,,
-28,02/09/2026,15:00,Barcelona,Independiente del Valle,,
-28,02/09/2026,15:00,Delfín SC,Técnico Universitario,,
-28,02/09/2026,15:00,Deportivo Cuenca,Guayaquil City,,
-28,02/09/2026,15:00,LDU Quito,Mushuc Runa,,
-28,02/09/2026,15:00,Leones del Norte,Orense SC,,
-28,02/09/2026,15:00,Libertad de Loja,Emelec,,
-28,02/09/2026,15:00,Macará,Manta,,
-28,02/09/2026,15:00,Universidad Católica,Aucas,,
-29,06/09/2026,15:00,Aucas,Barcelona,,
-29,06/09/2026,15:00,Delfín SC,Universidad Católica,,
-29,06/09/2026,15:00,Deportivo Cuenca,Libertad de Loja,,
-29,06/09/2026,15:00,Emelec,Manta,,
-29,06/09/2026,15:00,Independiente del Valle,Macará,,
-29,06/09/2026,15:00,Mushuc Runa,Leones del Norte,,
-29,06/09/2026,15:00,Orense SC,Guayaquil City,,
-29,06/09/2026,15:00,Técnico Universitario,LDU Quito,,
-30,13/09/2026,15:00,Barcelona,Delfín SC,,
-30,13/09/2026,15:00,Guayaquil City,Mushuc Runa,,
-30,13/09/2026,15:00,LDU Quito,Deportivo Cuenca,,
-30,13/09/2026,15:00,Leones del Norte,Técnico Universitario,,
-30,13/09/2026,15:00,Libertad de Loja,Independiente del Valle,,
-30,13/09/2026,15:00,Macará,Emelec,,
-30,13/09/2026,15:00,Manta,Aucas,,
-30,13/09/2026,15:00,Universidad Católica,Orense SC,,
+﻿matchday,date,time,home_team,away_team,result,status
+1,21/02/2026,03:00,Orense SC,LDU Quito,1-2,Final
+1,21/02/2026,03:00,Aucas,Mushuc Runa,1-1,Final
+1,21/02/2026,03:00,Barcelona,Técnico Universitario,1-0,Final
+1,22/02/2026,03:00,Macará,Leones del Norte,0-0,Final
+1,22/02/2026,03:00,Delfín SC,Deportivo Cuenca,1-0,Final
+1,23/02/2026,03:00,Independiente del Valle,Guayaquil City,2-0,Final
+1,24/02/2026,03:00,Libertad de Loja,Manta,1-0,Final
+1,09/04/2026,03:00,Universidad Católica,Emelec,1-1,Final
+2,28/02/2026,03:00,Técnico Universitario,Orense SC,1-1,Final
+2,28/02/2026,03:00,Leones del Norte,Libertad de Loja,1-1,Final
+2,28/02/2026,03:00,Guayaquil City,Aucas,1-1,Final
+2,01/03/2026,03:00,Emelec,Delfín SC,1-1,Final
+2,01/03/2026,03:00,LDU Quito,Macará,0-2,Final
+2,01/03/2026,03:00,Mushuc Runa,Universidad Católica,0-0,Final
+2,01/03/2026,03:00,Deportivo Cuenca,Barcelona,2-1,Final
+2,03/03/2026,03:00,Manta,Independiente del Valle,0-2,Final
+3,07/03/2026,03:00,Delfín SC,Guayaquil City,1-0,Final
+3,07/03/2026,03:00,Barcelona,Emelec,1-0,Final
+3,07/03/2026,03:00,Independiente del Valle,Mushuc Runa,3-1,Final
+3,08/03/2026,03:00,Libertad de Loja,LDU Quito,2-1,Final
+3,08/03/2026,03:00,Aucas,Deportivo Cuenca,0-1,Final
+3,08/03/2026,03:00,Macará,Técnico Universitario,1-1,Final
+3,08/03/2026,03:00,Universidad Católica,Leones del Norte,3-0,Final
+3,10/03/2026,03:00,Orense SC,Manta,1-1,Final
+4,13/03/2026,03:00,Técnico Universitario,Libertad de Loja,2-1,Final
+4,14/03/2026,03:00,Deportivo Cuenca,Leones del Norte,1-1,Final
+4,14/03/2026,03:00,Independiente del Valle,Aucas,2-2,Final
+4,14/03/2026,03:00,Delfín SC,Manta,0-1,Final
+4,15/03/2026,03:00,LDU Quito,Universidad Católica,1-1,Final
+4,15/03/2026,03:00,Mushuc Runa,Macará,0-0,Final
+4,15/03/2026,03:00,Emelec,Orense SC,2-1,Final
+4,16/03/2026,03:00,Guayaquil City,Barcelona,0-0,Final
+5,17/03/2026,03:00,Universidad Católica,Deportivo Cuenca,1-0,Final
+5,18/03/2026,03:00,Leones del Norte,LDU Quito,0-2,Final
+5,18/03/2026,03:00,Macará,Delfín SC,1-0,Final
+5,18/03/2026,03:00,Manta,Guayaquil City,0-1,Final
+5,19/03/2026,03:00,Libertad de Loja,Barcelona,0-0,Final
+5,19/03/2026,03:00,Aucas,Técnico Universitario,0-1,Final
+5,19/03/2026,03:00,Orense SC,Mushuc Runa,3-2,Final
+5,20/03/2026,03:00,Emelec,Independiente del Valle,2-0,Final
+6,21/03/2026,03:00,Delfín SC,Libertad de Loja,0-0,Final
+6,21/03/2026,03:00,Deportivo Cuenca,Macará,1-1,Final
+6,22/03/2026,03:00,LDU Quito,Manta,1-0,Final
+6,22/03/2026,03:00,Técnico Universitario,Independiente del Valle,1-2,Final
+6,22/03/2026,03:00,Barcelona,Universidad Católica,1-1,Final
+6,23/03/2026,03:00,Mushuc Runa,Emelec,2-0,Final
+6,23/03/2026,03:00,Guayaquil City,Leones del Norte,0-0,Final
+6,24/03/2026,03:00,Aucas,Orense SC,3-2,Final
+7,04/04/2026,03:00,LDU Quito,Barcelona,0-2,Final
+7,04/04/2026,03:00,Independiente del Valle,Orense SC,2-0,Final
+7,04/04/2026,03:00,Universidad Católica,Guayaquil City,4-1,Final
+7,05/04/2026,03:00,Emelec,Deportivo Cuenca,0-2,Final
+7,05/04/2026,03:00,Leones del Norte,Delfín SC,1-0,Final
+7,05/04/2026,03:00,Manta,Técnico Universitario,0-2,Final
+7,06/04/2026,03:00,Macará,Aucas,0-1,Final
+7,07/04/2026,03:00,Libertad de Loja,Mushuc Runa,2-2,Final
+8,11/04/2026,03:00,Barcelona,Leones del Norte,2-1,Final
+8,11/04/2026,03:00,Delfín SC,LDU Quito,1-0,Final
+8,11/04/2026,03:00,Mushuc Runa,Manta,1-0,Final
+8,12/04/2026,03:00,Orense SC,Libertad de Loja,2-1,Final
+8,12/04/2026,03:00,Técnico Universitario,Universidad Católica,0-2,Final
+8,12/04/2026,03:00,Deportivo Cuenca,Independiente del Valle,2-3,Final
+8,12/04/2026,03:00,Guayaquil City,Macará,2-1,Final
+8,13/04/2026,03:00,Aucas,Emelec,2-0,Final
+9,18/04/2026,03:00,Leones del Norte,Aucas,0-1,Final
+9,18/04/2026,03:00,Emelec,Guayaquil City,1-3,Final
+9,18/04/2026,03:00,Mushuc Runa,Técnico Universitario,1-0,Final
+9,18/04/2026,03:00,Universidad Católica,Libertad de Loja,2-0,Final
+9,19/04/2026,03:00,Orense SC,Delfín SC,0-0,Final
+9,19/04/2026,03:00,Manta,Deportivo Cuenca,0-1,Final
+9,19/04/2026,03:00,Independiente del Valle,LDU Quito,0-2,Final
+9,20/04/2026,03:00,Macará,Barcelona,3-1,Final
+10,22/04/2026,03:00,Libertad de Loja,Guayaquil City,0-1,Final
+10,22/04/2026,03:00,Técnico Universitario,Emelec,0-1,Final
+10,22/04/2026,03:00,Leones del Norte,Manta,3-0,Final
+10,22/04/2026,03:00,Delfín SC,Independiente del Valle,0-1,Final
+10,22/04/2026,03:00,Deportivo Cuenca,Orense SC,1-3,Final
+10,23/04/2026,03:00,Barcelona,Mushuc Runa,2-1,Final
+10,23/04/2026,03:00,LDU Quito,Aucas,0-0,Final
+10,24/04/2026,03:00,Universidad Católica,Macará,4-0,Final
+11,25/04/2026,03:00,Mushuc Runa,Deportivo Cuenca,4-1,Final
+11,25/04/2026,03:00,Independiente del Valle,Leones del Norte,2-1,Final
+11,26/04/2026,03:00,Emelec,LDU Quito,1-0,Final
+11,26/04/2026,03:00,Macará,Libertad de Loja,3-0,Final
+11,26/04/2026,03:00,Guayaquil City,Técnico Universitario,1-0,Final
+11,27/04/2026,03:00,Orense SC,Barcelona,1-1,Final
+11,27/04/2026,03:00,Manta,Universidad Católica,1-0,Final
+11,28/04/2026,03:00,Aucas,Delfín SC,1-0,Final
+12,01/05/2026,03:00,Universidad Católica,Independiente del Valle,2-3,Final
+12,02/05/2026,03:00,Libertad de Loja,Aucas,3-2,Final
+12,02/05/2026,03:00,Deportivo Cuenca,Técnico Universitario,2-1,Final
+12,02/05/2026,03:00,LDU Quito,Guayaquil City,1-0,Final
+12,03/05/2026,03:00,Barcelona,Manta,1-1,Final
+12,03/05/2026,03:00,Macará,Orense SC,1-2,Final
+12,03/05/2026,03:00,Delfín SC,Mushuc Runa,1-0,Final
+12,04/05/2026,03:00,Leones del Norte,Emelec,2-0,Final
+13,09/05/2026,03:00,Orense SC,Leones del Norte,2-0,Final
+13,09/05/2026,03:00,Técnico Universitario,Delfín SC,4-0,Final
+13,09/05/2026,03:00,Guayaquil City,Deportivo Cuenca,0-1,Final
+13,09/05/2026,03:00,Aucas,Universidad Católica,2-1,Final
+13,10/05/2026,03:00,Independiente del Valle,Barcelona,1-0,Final
+13,10/05/2026,03:00,Emelec,Libertad de Loja,1-1,Final
+13,11/05/2026,03:00,Manta,Macará,0-1,Final
+13,12/05/2026,03:00,Mushuc Runa,LDU Quito,1-3,Final
+14,15/05/2026,03:00,LDU Quito,Técnico Universitario,2-1,Final
+14,16/05/2026,03:00,Libertad de Loja,Deportivo Cuenca,0-1,Final
+14,16/05/2026,03:00,Macará,Independiente del Valle,0-3,Final
+14,16/05/2026,03:00,Universidad Católica,Delfín SC,2-2,Final
+14,17/05/2026,03:00,Barcelona,Aucas,3-0,Final
+14,17/05/2026,03:00,Leones del Norte,Mushuc Runa,3-1,Final
+14,18/05/2026,03:00,Manta,Emelec,0-0,Final
+14,19/05/2026,03:00,Guayaquil City,Orense SC,0-1,Final
+15,23/05/2026,03:00,Independiente del Valle,Libertad de Loja,2-3,Final
+15,23/05/2026,03:00,Mushuc Runa,Guayaquil City,2-2,Final
+15,23/05/2026,03:00,Orense SC,Universidad Católica,1-2,Final
+15,24/05/2026,03:00,Deportivo Cuenca,LDU Quito,1-1,Final
+15,24/05/2026,03:00,Técnico Universitario,Leones del Norte,2-1,Final
+15,24/05/2026,03:00,Emelec,Macará,2-0,Final
+15,25/05/2026,03:00,Delfín SC,Barcelona,1-2,Final
+15,26/05/2026,03:00,Aucas,Manta,3-1,Final
+16,30/05/2026,03:00,Manta,Libertad de Loja,2-1,Final
+16,31/05/2026,03:00,Deportivo Cuenca,Delfín SC,1-0,Final
+16,31/05/2026,03:00,Mushuc Runa,Aucas,0-0,Final
+16,31/05/2026,03:00,Guayaquil City,Independiente del Valle,2-4,Final
+16,01/06/2026,03:00,Emelec,Universidad Católica,1-0,Final
+16,02/06/2026,03:00,Leones del Norte,Macará,1-1,Final
+16,02/06/2026,03:00,Técnico Universitario,Barcelona,1-0,Final
+16,02/07/2026,03:00,LDU Quito,Orense SC,3-0,Final
+17,04/07/2026,03:00,Independiente del Valle,Manta,4-0,Final
+17,04/07/2026,03:00,Libertad de Loja,Leones del Norte,1-3,Final
+17,05/07/2026,03:00,Barcelona,Deportivo Cuenca,2-0,Final
+17,05/07/2026,03:00,Macará,LDU Quito,1-0,Final
+17,06/07/2026,03:00,Delfín SC,Emelec,1-1,Final
+17,06/07/2026,03:00,Universidad Católica,Mushuc Runa,2-3,Final
+17,07/07/2026,03:00,Orense SC,Técnico Universitario,1-2,Final
+17,08/07/2026,03:00,Aucas,Guayaquil City,1-0,Final
+18,11/07/2026,03:00,Leones del Norte,Universidad Católica,1-0,Final
+18,11/07/2026,03:00,Técnico Universitario,Macará,0-2,Final
+18,11/07/2026,03:00,Manta,Orense SC,0-0,Final
+18,11/07/2026,03:00,Mushuc Runa,Independiente del Valle,1-4,Final
+18,12/07/2026,03:00,Guayaquil City,Delfín SC,2-1,Final
+18,12/07/2026,03:00,LDU Quito,Libertad de Loja,0-0,Final
+18,12/07/2026,03:00,Deportivo Cuenca,Aucas,0-1,Final
+18,13/07/2026,03:00,Emelec,Barcelona,0-0,Final
+19,14/07/2026,16:30,Macará,Mushuc Runa,,
+19,14/07/2026,19:00,Manta,Delfín SC,,
+19,15/07/2026,12:00,Libertad de Loja,Técnico Universitario,,
+19,15/07/2026,17:00,Leones del Norte,Deportivo Cuenca,,
+19,15/07/2026,17:00,Universidad Católica,LDU Quito,,
+19,15/07/2026,19:30,Barcelona,Guayaquil City,,
+19,16/07/2026,16:30,Aucas,Independiente del Valle,,
+19,16/07/2026,19:00,Orense SC,Emelec,,
+20,17/07/2026,19:00,Delfín SC,Macará,,
+20,18/07/2026,14:00,Deportivo Cuenca,Universidad Católica,,
+20,18/07/2026,16:30,LDU Quito,Leones del Norte,,
+20,18/07/2026,19:00,Barcelona,Libertad de Loja,,
+20,19/07/2026,11:45,Técnico Universitario,Aucas,,
+20,19/07/2026,16:45,Guayaquil City,Manta,,
+20,19/07/2026,19:15,Independiente del Valle,Emelec,,
+20,20/07/2026,14:00,Mushuc Runa,Orense SC,,
+21,21/07/2026,16:30,Libertad de Loja,Delfín SC,,
+21,21/07/2026,19:00,Universidad Católica,Barcelona,,
+21,22/07/2026,14:00,Macará,Deportivo Cuenca,,
+21,22/07/2026,16:30,Independiente del Valle,Técnico Universitario,,
+21,22/07/2026,19:00,Manta,LDU Quito,,
+21,23/07/2026,16:30,Leones del Norte,Guayaquil City,,
+21,23/07/2026,16:30,Orense SC,Aucas,,
+21,23/07/2026,19:00,Emelec,Mushuc Runa,,
+22,26/07/2026,03:00,Aucas,Macará,,
+22,26/07/2026,03:00,Barcelona,LDU Quito,,
+22,26/07/2026,03:00,Delfín SC,Leones del Norte,,
+22,26/07/2026,03:00,Deportivo Cuenca,Emelec,,
+22,26/07/2026,03:00,Guayaquil City,Universidad Católica,,
+22,26/07/2026,03:00,Mushuc Runa,Libertad de Loja,,
+22,26/07/2026,03:00,Orense SC,Independiente del Valle,,
+22,26/07/2026,03:00,Técnico Universitario,Manta,,
+23,02/08/2026,03:00,Emelec,Aucas,,
+23,02/08/2026,03:00,Independiente del Valle,Deportivo Cuenca,,
+23,02/08/2026,03:00,LDU Quito,Delfín SC,,
+23,02/08/2026,03:00,Leones del Norte,Barcelona,,
+23,02/08/2026,03:00,Libertad de Loja,Orense SC,,
+23,02/08/2026,03:00,Macará,Guayaquil City,,
+23,02/08/2026,03:00,Manta,Mushuc Runa,,
+23,02/08/2026,03:00,Universidad Católica,Técnico Universitario,,
+24,09/08/2026,03:00,Aucas,Leones del Norte,,
+24,09/08/2026,03:00,Barcelona,Macará,,
+24,09/08/2026,03:00,Delfín SC,Orense SC,,
+24,09/08/2026,03:00,Deportivo Cuenca,Manta,,
+24,09/08/2026,03:00,Guayaquil City,Emelec,,
+24,09/08/2026,03:00,LDU Quito,Independiente del Valle,,
+24,09/08/2026,03:00,Libertad de Loja,Universidad Católica,,
+24,09/08/2026,03:00,Técnico Universitario,Mushuc Runa,,
+25,16/08/2026,03:00,Aucas,LDU Quito,,
+25,16/08/2026,03:00,Emelec,Técnico Universitario,,
+25,16/08/2026,03:00,Guayaquil City,Libertad de Loja,,
+25,16/08/2026,03:00,Independiente del Valle,Delfín SC,,
+25,16/08/2026,03:00,Macará,Universidad Católica,,
+25,16/08/2026,03:00,Manta,Leones del Norte,,
+25,16/08/2026,03:00,Mushuc Runa,Barcelona,,
+25,16/08/2026,03:00,Orense SC,Deportivo Cuenca,,
+26,23/08/2026,03:00,Barcelona,Orense SC,,
+26,23/08/2026,03:00,Delfín SC,Aucas,,
+26,23/08/2026,03:00,Deportivo Cuenca,Mushuc Runa,,
+26,23/08/2026,03:00,LDU Quito,Emelec,,
+26,23/08/2026,03:00,Leones del Norte,Independiente del Valle,,
+26,23/08/2026,03:00,Libertad de Loja,Macará,,
+26,23/08/2026,03:00,Técnico Universitario,Guayaquil City,,
+26,23/08/2026,03:00,Universidad Católica,Manta,,
+27,30/08/2026,03:00,Aucas,Libertad de Loja,,
+27,30/08/2026,03:00,Emelec,Leones del Norte,,
+27,30/08/2026,03:00,Guayaquil City,LDU Quito,,
+27,30/08/2026,03:00,Independiente del Valle,Universidad Católica,,
+27,30/08/2026,03:00,Manta,Barcelona,,
+27,30/08/2026,03:00,Mushuc Runa,Delfín SC,,
+27,30/08/2026,03:00,Orense SC,Macará,,
+27,30/08/2026,03:00,Técnico Universitario,Deportivo Cuenca,,
+28,02/09/2026,03:00,Barcelona,Independiente del Valle,,
+28,02/09/2026,03:00,Delfín SC,Técnico Universitario,,
+28,02/09/2026,03:00,Deportivo Cuenca,Guayaquil City,,
+28,02/09/2026,03:00,LDU Quito,Mushuc Runa,,
+28,02/09/2026,03:00,Leones del Norte,Orense SC,,
+28,02/09/2026,03:00,Libertad de Loja,Emelec,,
+28,02/09/2026,03:00,Macará,Manta,,
+28,02/09/2026,03:00,Universidad Católica,Aucas,,
+29,06/09/2026,03:00,Aucas,Barcelona,,
+29,06/09/2026,03:00,Delfín SC,Universidad Católica,,
+29,06/09/2026,03:00,Deportivo Cuenca,Libertad de Loja,,
+29,06/09/2026,03:00,Emelec,Manta,,
+29,06/09/2026,03:00,Independiente del Valle,Macará,,
+29,06/09/2026,03:00,Mushuc Runa,Leones del Norte,,
+29,06/09/2026,03:00,Orense SC,Guayaquil City,,
+29,06/09/2026,03:00,Técnico Universitario,LDU Quito,,
+30,13/09/2026,03:00,Barcelona,Delfín SC,,
+30,13/09/2026,03:00,Guayaquil City,Mushuc Runa,,
+30,13/09/2026,03:00,LDU Quito,Deportivo Cuenca,,
+30,13/09/2026,03:00,Leones del Norte,Técnico Universitario,,
+30,13/09/2026,03:00,Libertad de Loja,Independiente del Valle,,
+30,13/09/2026,03:00,Macará,Emelec,,
+30,13/09/2026,03:00,Manta,Aucas,,
+30,13/09/2026,03:00,Universidad Católica,Orense SC,,

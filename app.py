@@ -260,55 +260,35 @@ def bloque_top4(df_p, df_h):
 # region 2. BLOQUE LIGAS Y JORNADAS
 @st.fragment
 def bloque_ligas_jornadas(df_p, df_h, lgs):
-    # El título se queda en la pantalla principal
-    st.markdown("### 📊 PARTIDOS PROGRAMADOS")
+    st.markdown("### 📊 LIGAS Y JORNADAS")
     
-    # --- INICIO DE FILTROS EN LA BARRA LATERAL ---
-    st.sidebar.markdown("---")
-    st.sidebar.markdown("### ⚙️ FILTROS: PROGRAMADOS")
-    
-    # Los filtros ahora usan st.sidebar
-    sf = st.sidebar.date_input("📅 Filtrar por Fecha:", value=None, key="f_act_s")
-    sl = st.sidebar.selectbox("🏆 Filtrar por Liga:", ["TODAS"] + lgs, key="l_act_s")
-    
-    df_fl = df_p.copy()
-    
-    # Aplicamos filtro de fecha
-    if sf: 
-        df_fl = df_fl[df_fl['Fecha_dt'].dt.date == sf]
-        
-    # Aplicamos filtro de liga
-    if sl != "TODAS": 
-        df_fl = df_fl[df_fl['League'] == sl]
-        
-    # Calculamos las jornadas disponibles según lo filtrado
-    j_disp = sorted(df_fl['Matchday'].dropna().unique().astype(int).tolist()) if not df_fl.empty else []
-    
-    # Filtro de jornada también en la barra lateral
-    sj = st.sidebar.selectbox("📌 Filtrar por Jornada:", ["TODAS"] + j_disp, key="j_act_s")
-    
-    # Aplicamos filtro de jornada
-    if sj != "TODAS": 
-        df_fl = df_fl[df_fl['Matchday'] == sj]
-    # --- FIN DE FILTROS EN LA BARRA LATERAL ---
+    # DEBUG: Verificamos qué columnas llegan
+    if 'Fecha_dt' not in df_p.columns:
+        st.error(f"Error: La columna 'Fecha_dt' no existe. Columnas disponibles: {df_p.columns.tolist()}")
+        return None
 
-    # Mostramos la tabla en la pantalla principal (sin columnas arriba)
-    if df_fl.empty:
-        st.warning("No hay partidos programados.")
-    else:
-        # Aseguramos que el estilo se aplique correctamente
-        # Nota: Verifica que la función 'color_letras_actuales' esté definida arriba en tu script
-        try:
-            st.dataframe(
-                df_fl[['Date', 'Time', 'Matchday', 'League', 'Match', '1X', 'X2', 'Over 1.5', 'Over 2.5', 'Btts']].style.map(
-                    color_letras_actuales, subset=['1X', 'X2', 'Over 1.5', 'Over 2.5', 'Btts']
-                ), 
-                use_container_width=True, 
-                hide_index=True
-            )
-        except NameError:
-            st.error("Error: La función 'color_letras_actuales' no está definida correctamente. Por favor, revisa que esté en tu código.")
-            st.dataframe(df_fl, use_container_width=True, hide_index=True)
+    f_col1, f_col2, f_col3 = st.columns([1, 1, 1])
+    with f_col1: sf = st.date_input("Filtrar por Fecha:", value=None, key="f_act_s")
+    # ... resto de tu código ...
+    with f_col2: sl = st.selectbox("Seleccione Liga:", ["TODAS"] + lgs, key="l_act_s")
+    df_fl = df_p if sl=="TODAS" else df_p[df_p['League']==sl]
+    if sf: df_fl = df_fl[df_fl['Fecha_dt'].dt.date == sf]
+    with f_col3: sj = st.selectbox("Seleccione Jornada:", ["TODAS"] + sorted(df_fl['Matchday'].unique().tolist(), reverse=True) if not df_fl.empty else ["TODAS"], key="j_act_s")
+    df_fin = df_fl if sj=="TODAS" else df_fl[df_fl['Matchday']==sj]
+
+    if not df_fin.empty:
+        cols_f = ['1X', 'X2', 'Over 1.5', 'Over 2.5', 'Btts']
+        if sl != "TODAS":
+            col_p, col_t = st.columns([2, 1])
+            with col_p: st.dataframe(df_fin[['Date', 'Time', 'Matchday', 'League', 'Match'] + cols_f].style.map(aplicar_semaforo, subset=cols_f).format({c: '{:.0%}' for c in cols_f}), use_container_width=True, hide_index=True)
+            with col_t:
+                st.markdown(f"#### 🏅 Tabla: {sl}")
+                tp = generar_tabla_posiciones(df_h, sl)
+                if not tp.empty: st.dataframe(tp, use_container_width=True)
+        else:
+            st.dataframe(df_fin[['Date', 'Time', 'Matchday', 'League', 'Match'] + cols_f].style.map(aplicar_semaforo, subset=cols_f).format({c: '{:.0%}' for c in cols_f}), use_container_width=True, hide_index=True)
+            
+    return df_fin
 # endregion
 
 # region 3. BLOQUE PREDICCIÓN BOMBA

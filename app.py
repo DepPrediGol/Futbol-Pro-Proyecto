@@ -102,16 +102,10 @@ def color_letras_historial(val):
     if '❌' in v: return 'color: #dc3545; font-weight: bold;'
     return 'color: white;'
 
-def extraer_goles_optimizado(resultado_str):
-    """Versión rápida usando regex compilado"""
-    if pd.isna(resultado_str) or str(resultado_str) == 'nan': 
-        return None
-    
-    # Limpiamos el texto una sola vez
-    res = re.sub(r'\(.*?\)', '', str(resultado_str)).strip().replace(':', '-')
-    
-    # Buscamos los dos números
-    nums = re.findall(r'\d+', res)
+def extraer_goles(resultado_str):
+    if pd.isna(resultado_str): return None
+    res = re.sub(r'\(.*?\)', '', str(resultado_str)).strip()
+    nums = re.findall(r'\d+', res.replace(':', '-'))
     return (int(nums[0]), int(nums[1])) if len(nums) >= 2 else None
 
 def calcular_poisson(media, x):
@@ -152,7 +146,7 @@ def generar_tabla_posiciones(df_historial, liga):
     tabla.index.name = 'Pos'
     return tabla
 
-# --- 4. CARGA Y PROCESAMIENTO DE DATOS (RESTAURADO Y ESTABLE) ---
+# --- 4. CARGA Y PROCESAMIENTO DE DATOS (MÓDULO CENTRAL) ---
 @st.cache_data(ttl=60, show_spinner="Sincronizando Base de Datos...")
 def cargar_todo():
     archivos = glob.glob("**/*.csv", recursive=True)
@@ -162,8 +156,7 @@ def cargar_todo():
             df = pd.read_csv(arc)
             for _, f in df.iterrows():
                 l, v = f['home_team'], f['away_team']
-                # Usamos la función optimizada aquí:
-                g = extraer_goles_optimizado(f.get('result'))
+                g = extraer_goles(f.get('result'))
                 if g:
                     fz_acum[l] = fz_acum.get(l, 0) + g[0]
                     fz_acum[v] = fz_acum.get(v, 0) + g[1]
@@ -183,7 +176,7 @@ def cargar_todo():
                 pl, pe, pv, po15, po25, pb = obtener_probabilidades(fz.get(f['home_team'],1.2), fz.get(f['away_team'],1.2))
                 total = (pl+pe+pv+pe) if (pl+pe+pv+pe) > 0 else 1
                 p1x, px2 = (pl+pe)/total, (pv+pe)/total
-                g = extraer_goles_optimizado(f.get('result'))
+                g = extraer_goles(f.get('result'))
                 fecha_str, hora_str = str(f['date']), str(f.get('time','00:00'))
                 try: fecha_dt = pd.to_datetime(f"{fecha_str} {hora_str}", dayfirst=True)
                 except: fecha_dt = pd.to_datetime(fecha_str, dayfirst=True)
@@ -203,7 +196,6 @@ def cargar_todo():
         except: continue
     return pd.DataFrame(actuales), pd.DataFrame(historicos), sorted(ligas)
 
-# Aseguramos que la llamada inicial sea correcta
 df_p, df_h, lgs = cargar_todo()
 
 # --- 5. VENTANA FLOTANTE (ANALISIS PRO) ---
@@ -215,13 +207,6 @@ def ventana_analisis(r, df_h):
         st.markdown(f"#### 📈 Últimos 10 partidos como {nom}: {eq}")
         df_eq = df_h[df_h[col] == eq].iloc[::-1].head(10)
         if not df_eq.empty:
-            # --- NUEVA MEJORA: GRÁFICO DE BARRAS ---
-            st.markdown("#### 📊 Tendencia de Goles (Últimos 10)")
-            st.bar_chart(df_eq[['G_L', 'G_V']]) 
-            # --------------------------------------
-            
-            c = st.columns(4)
-            # ... (el resto de tu código sigue igual)
             c = st.columns(4)
             c[0].metric(f"Efectividad {('1X' if nom=='Local' else 'X2')}", f"{(df_eq['1X' if nom=='Local' else 'X2'].str.contains('✅').sum()/len(df_eq)):.0%}")
             c[1].metric("Over 1.5", f"{(df_eq['Over 1.5'].str.contains('✅').sum()/len(df_eq)):.0%}")
@@ -261,15 +246,8 @@ def bloque_top4(df_p, df_h):
 @st.fragment
 def bloque_ligas_jornadas(df_p, df_h, lgs):
     st.markdown("### 📊 LIGAS Y JORNADAS")
-    
-    # DEBUG: Verificamos qué columnas llegan
-    if 'Fecha_dt' not in df_p.columns:
-        st.error(f"Error: La columna 'Fecha_dt' no existe. Columnas disponibles: {df_p.columns.tolist()}")
-        return None
-
     f_col1, f_col2, f_col3 = st.columns([1, 1, 1])
     with f_col1: sf = st.date_input("Filtrar por Fecha:", value=None, key="f_act_s")
-    # ... resto de tu código ...
     with f_col2: sl = st.selectbox("Seleccione Liga:", ["TODAS"] + lgs, key="l_act_s")
     df_fl = df_p if sl=="TODAS" else df_p[df_p['League']==sl]
     if sf: df_fl = df_fl[df_fl['Fecha_dt'].dt.date == sf]

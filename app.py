@@ -152,7 +152,7 @@ def generar_tabla_posiciones(df_historial, liga):
     tabla.index.name = 'Pos'
     return tabla
 
-# --- 4. CARGA Y PROCESAMIENTO DE DATOS (MÓDULO CENTRAL) ---
+# --- 4. CARGA Y PROCESAMIENTO DE DATOS (RESTAURADO Y ESTABLE) ---
 @st.cache_data(ttl=60, show_spinner="Sincronizando Base de Datos...")
 def cargar_todo():
     archivos = glob.glob("**/*.csv", recursive=True)
@@ -162,6 +162,7 @@ def cargar_todo():
             df = pd.read_csv(arc)
             for _, f in df.iterrows():
                 l, v = f['home_team'], f['away_team']
+                # Usamos la función optimizada aquí:
                 g = extraer_goles_optimizado(f.get('result'))
                 if g:
                     fz_acum[l] = fz_acum.get(l, 0) + g[0]
@@ -182,7 +183,7 @@ def cargar_todo():
                 pl, pe, pv, po15, po25, pb = obtener_probabilidades(fz.get(f['home_team'],1.2), fz.get(f['away_team'],1.2))
                 total = (pl+pe+pv+pe) if (pl+pe+pv+pe) > 0 else 1
                 p1x, px2 = (pl+pe)/total, (pv+pe)/total
-                g = extraer_goles(f.get('result'))
+                g = extraer_goles_optimizado(f.get('result'))
                 fecha_str, hora_str = str(f['date']), str(f.get('time','00:00'))
                 try: fecha_dt = pd.to_datetime(f"{fecha_str} {hora_str}", dayfirst=True)
                 except: fecha_dt = pd.to_datetime(fecha_str, dayfirst=True)
@@ -202,6 +203,7 @@ def cargar_todo():
         except: continue
     return pd.DataFrame(actuales), pd.DataFrame(historicos), sorted(ligas)
 
+# Aseguramos que la llamada inicial sea correcta
 df_p, df_h, lgs = cargar_todo()
 
 # --- 5. VENTANA FLOTANTE (ANALISIS PRO) ---

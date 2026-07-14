@@ -215,89 +215,93 @@ def ventana_analisis(r, df_h):
             st.dataframe(df_eq[['Date', 'Time', 'Matchday', 'Match', 'Result', '1X', 'X2', 'Over 1.5', 'Over 2.5', 'Btts']].style.map(color_letras_historial, subset=['1X', 'X2', 'Over 1.5', 'Over 2.5', 'Btts']), use_container_width=True, hide_index=True)
         st.divider()
 
-# --- 6. INTERFAZ DE USUARIO ---
-st.markdown('<h1><span class="giro-balon">⚽</span> Bet Pro Futbol AI</h1>', unsafe_allow_html=True)
-tab_soccer, tab_basket = st.tabs(["SOCCER PREDICTIONS", "BASKETBALL PREDICTIONS"])
 
-with tab_soccer:
-    # --- SECCIÓN TOP 4 DINÁMICO ---
-    @st.fragment
-    def seccion_top4():
-        if not df_p.empty:
-            ahora = datetime.now()
-            df_top_pool = df_p[df_p['Fecha_dt'] >= (ahora - timedelta(hours=2))].sort_values('Fecha_dt')
-            if not df_top_pool.empty:
-                st.markdown('<p class="titulo-top4">🏆 TOP 4 </p>', unsafe_allow_html=True)
-                mks = [('1X', '🛡️ Doble Oportunidad'), ('Over 1.5', '🥅 Over 1.5'), ('Over 2.5', '⚽ Over 2.5'), ('Btts', '🤝 Btts')]
-                cols = st.columns(4)
-                df_dia = df_top_pool[df_top_pool['Fecha_dt'].dt.date == ahora.date()]
-                if len(df_dia) < 4: df_dia = df_top_pool.head(20)
-                for i, (m, tit) in enumerate(mks):
-                    with cols[i]:
-                        st.markdown(f"#### {tit}")
-                        top = df_dia.nlargest(4, m).reset_index(drop=True)
-                        for idx, r in top.iterrows():
-                            etq = ("1X" if r['1X'] >= r['X2'] else "X2") if m == '1X' else "Prob"
-                            if st.button(f"{r['Date']} {r['Time']}\n{r['League']}\n{r['Match']}\n⭐ {etq}: {r[m]:.0%}", key=f"t4_{m}_{idx}_{r['Match']}"):
-                                ventana_analisis(r, df_h)
-    seccion_top4()
+# ==========================================
+# BLOQUES DE LA INTERFAZ
+# ==========================================
 
-    st.divider()
-    
-    # --- SECCIÓN FILTROS Y TABLAS ---
-    @st.fragment
-    def seccion_filtros():
-        st.markdown("### 📊 LIGAS Y JORNADAS")
-        f_col1, f_col2, f_col3 = st.columns([1, 1, 1])
-        with f_col1: sf = st.date_input("Filtrar por Fecha:", value=None, key="f_act_s")
-        with f_col2: sl = st.selectbox("Seleccione Liga:", ["TODAS"] + lgs, key="l_act_s")
-        df_fl = df_p if sl=="TODAS" else df_p[df_p['League']==sl]
-        if sf: df_fl = df_fl[df_fl['Fecha_dt'].dt.date == sf]
-        with f_col3: sj = st.selectbox("Seleccione Jornada:", ["TODAS"] + sorted(df_fl['Matchday'].unique().tolist(), reverse=True) if not df_fl.empty else ["TODAS"], key="j_act_s")
-        df_fin = df_fl if sj=="TODAS" else df_fl[df_fl['Matchday']==sj]
+# region 1. BLOQUE TOP 4
+@st.fragment
+def bloque_top4(df_p, df_h):
+    if not df_p.empty:
+        ahora = datetime.now()
+        df_top_pool = df_p[df_p['Fecha_dt'] >= (ahora - timedelta(hours=2))].sort_values('Fecha_dt')
+        if not df_top_pool.empty:
+            st.markdown('<p class="titulo-top4">🏆 TOP 4 </p>', unsafe_allow_html=True)
+            mks = [('1X', '🛡️ Doble Oportunidad'), ('Over 1.5', '🥅 Over 1.5'), ('Over 2.5', '⚽ Over 2.5'), ('Btts', '🤝 Btts')]
+            cols = st.columns(4)
+            df_dia = df_top_pool[df_top_pool['Fecha_dt'].dt.date == ahora.date()]
+            if len(df_dia) < 4: df_dia = df_top_pool.head(20)
+            for i, (m, tit) in enumerate(mks):
+                with cols[i]:
+                    st.markdown(f"#### {tit}")
+                    top = df_dia.nlargest(4, m).reset_index(drop=True)
+                    for idx, r in top.iterrows():
+                        etq = ("1X" if r['1X'] >= r['X2'] else "X2") if m == '1X' else "Prob"
+                        if st.button(f"{r['Date']} {r['Time']}\n{r['League']}\n{r['Match']}\n⭐ {etq}: {r[m]:.0%}", key=f"t4_{m}_{idx}_{r['Match']}"):
+                            ventana_analisis(r, df_h)
+# endregion
 
-        if not df_fin.empty:
-            cols_f = ['1X', 'X2', 'Over 1.5', 'Over 2.5', 'Btts']
-            if sl != "TODAS":
-                col_p, col_t = st.columns([2, 1])
-                with col_p: st.dataframe(df_fin[['Date', 'Time', 'Matchday', 'League', 'Match'] + cols_f].style.map(aplicar_semaforo, subset=cols_f).format({c: '{:.0%}' for c in cols_f}), use_container_width=True, hide_index=True)
-                with col_t:
-                    st.markdown(f"#### 🏅 Tabla: {sl}")
-                    tp = generar_tabla_posiciones(df_h, sl)
-                    if not tp.empty: st.dataframe(tp, use_container_width=True)
-            else:
-                st.dataframe(df_fin[['Date', 'Time', 'Matchday', 'League', 'Match'] + cols_f].style.map(aplicar_semaforo, subset=cols_f).format({c: '{:.0%}' for c in cols_f}), use_container_width=True, hide_index=True)
+# region 2. BLOQUE LIGAS Y JORNADAS
+@st.fragment
+def bloque_ligas_jornadas(df_p, df_h, lgs):
+    st.markdown("### 📊 LIGAS Y JORNADAS")
+    f_col1, f_col2, f_col3 = st.columns([1, 1, 1])
+    with f_col1: sf = st.date_input("Filtrar por Fecha:", value=None, key="f_act_s")
+    with f_col2: sl = st.selectbox("Seleccione Liga:", ["TODAS"] + lgs, key="l_act_s")
+    df_fl = df_p if sl=="TODAS" else df_p[df_p['League']==sl]
+    if sf: df_fl = df_fl[df_fl['Fecha_dt'].dt.date == sf]
+    with f_col3: sj = st.selectbox("Seleccione Jornada:", ["TODAS"] + sorted(df_fl['Matchday'].unique().tolist(), reverse=True) if not df_fl.empty else ["TODAS"], key="j_act_s")
+    df_fin = df_fl if sj=="TODAS" else df_fl[df_fl['Matchday']==sj]
+
+    if not df_fin.empty:
+        cols_f = ['1X', 'X2', 'Over 1.5', 'Over 2.5', 'Btts']
+        if sl != "TODAS":
+            col_p, col_t = st.columns([2, 1])
+            with col_p: st.dataframe(df_fin[['Date', 'Time', 'Matchday', 'League', 'Match'] + cols_f].style.map(aplicar_semaforo, subset=cols_f).format({c: '{:.0%}' for c in cols_f}), use_container_width=True, hide_index=True)
+            with col_t:
+                st.markdown(f"#### 🏅 Tabla: {sl}")
+                tp = generar_tabla_posiciones(df_h, sl)
+                if not tp.empty: st.dataframe(tp, use_container_width=True)
+        else:
+            st.dataframe(df_fin[['Date', 'Time', 'Matchday', 'League', 'Match'] + cols_f].style.map(aplicar_semaforo, subset=cols_f).format({c: '{:.0%}' for c in cols_f}), use_container_width=True, hide_index=True)
             
-            st.divider()
-            # --- LÓGICA PREDICCIÓN BOMBA ---
-            d_b = df_fin.loc[df_fin[['Over 1.5', 'Over 2.5', 'Btts']].max(axis=1).idxmax()]
-            h_l = df_h[(df_h['Home team'] == d_b['Home team']) & (df_h['League'] == d_b['League'])]
-            h_v = df_h[(df_h['Away team'] == d_b['Away team']) & (df_h['League'] == d_b['League'])]
-            if not h_l.empty and not h_v.empty:
-                t_l, g1_l, g2_l, w_l = len(h_l), (h_l['G_L']>=1).sum(), (h_l['G_L']>=2).sum(), (h_l['G_L']>=h_l['G_V']).sum()
-                t_v, g1_v, g2_v, w_v = len(h_v), (h_v['G_V']>=1).sum(), (h_v['G_V']>=2).sum(), (h_v['G_V']>=h_v['G_L']).sum()
-                etq_b = f"1X: {d_b['1X']:.0%}" if d_b['1X'] >= d_b['X2'] else f"X2: {d_b['X2']:.0%}"
-                st.markdown(f"""
-                <div style="background-color: #ff4b4b; padding: 30px; border-radius: 15px; border-left: 15px solid #8B0000; position: relative;">
-                    <div style="position: absolute; top: 15px; left: 15px; background-color: rgba(255, 255, 255, 0.25); color: white; padding: 5px 15px; border-radius: 8px; font-size: 0.9rem; font-weight: bold; border: 1px solid rgba(255, 255, 255, 0.5); box-shadow: 0px 2px 5px rgba(0,0,0,0.2);">
-                        🏆 {d_b['League']}
-                    </div>
-                    <h2 style="color: white !important; margin: 0; text-align: center; padding-top: 15px;">💣 PREDICCIÓN BOMBA DETECTADA 💣</h2>
-                    <p style="font-size: 1.15rem; line-height: 1.6; margin-top: 20px; color: white !important;">
-                        El equipo local <b>{d_b['Home team']}</b> lleva <b>{g1_l} de {t_l}</b> partidos marcando al menos 1 gol en casa y de esos <b>{g1_l}</b> partidos <b>{g2_l}</b> ha marcado 2 o más goles, ha ganado o empatado en <b>{w_l} de {t_l}</b> encuentros como local. <br>
-                        El equipo visitante <b>{d_b['Away team']}</b>, lleva <b>{g1_v} de {t_v}</b> partidos marcando al menos 1 gol como visitante y de esos <b>{g1_v}</b> partidos <b>{g2_v}</b> ha marcado 2 o más goles, ha ganado o empatado en <b>{w_v} de {t_v}</b> encuentros como visitante.
-                    </p>
-                    <div style="display: grid; grid-template-columns: repeat(4, 1fr); gap: 15px; margin-top: 25px;">
-                        <div style="background: white; color: #ff4b4b; padding: 15px; border-radius: 12px; text-align: center; font-weight: bold;">🛡️ {etq_b}</div>
-                        <div style="background: white; color: #ff4b4b; padding: 15px; border-radius: 12px; text-align: center; font-weight: bold;">🥅 Over 1.5: {d_b['Over 1.5']:.0%}</div>
-                        <div style="background: white; color: #ff4b4b; padding: 15px; border-radius: 12px; text-align: center; font-weight: bold;">⚽ Over 2.5: {d_b['Over 2.5']:.0%}</div>
-                        <div style="background: white; color: #ff4b4b; padding: 15px; border-radius: 12px; text-align: center; font-weight: bold;">🤝 Btts: {d_b['Btts']:.0%}</div>
-                    </div>
-                </div>""", unsafe_allow_html=True)
-    seccion_filtros()
+    return df_fin
+# endregion
 
-    st.divider()
-    # --- SECCIÓN HISTORIAL ---
+# region 3. BLOQUE PREDICCIÓN BOMBA
+@st.fragment
+def bloque_prediccion_bomba(df_fin, df_h):
+    d_b = df_fin.loc[df_fin[['Over 1.5', 'Over 2.5', 'Btts']].max(axis=1).idxmax()]
+    h_l = df_h[(df_h['Home team'] == d_b['Home team']) & (df_h['League'] == d_b['League'])]
+    h_v = df_h[(df_h['Away team'] == d_b['Away team']) & (df_h['League'] == d_b['League'])]
+    if not h_l.empty and not h_v.empty:
+        t_l, g1_l, g2_l, w_l = len(h_l), (h_l['G_L']>=1).sum(), (h_l['G_L']>=2).sum(), (h_l['G_L']>=h_l['G_V']).sum()
+        t_v, g1_v, g2_v, w_v = len(h_v), (h_v['G_V']>=1).sum(), (h_v['G_V']>=2).sum(), (h_v['G_V']>=h_v['G_L']).sum()
+        etq_b = f"1X: {d_b['1X']:.0%}" if d_b['1X'] >= d_b['X2'] else f"X2: {d_b['X2']:.0%}"
+        
+        st.markdown(f"""
+        <div style="background-color: #ff4b4b; padding: 30px; border-radius: 15px; border-left: 15px solid #8B0000; position: relative;">
+            <div style="position: absolute; top: 15px; left: 15px; background-color: rgba(255, 255, 255, 0.25); color: white; padding: 5px 15px; border-radius: 8px; font-size: 0.9rem; font-weight: bold; border: 1px solid rgba(255, 255, 255, 0.5); box-shadow: 0px 2px 5px rgba(0,0,0,0.2);">
+                🏆 {d_b['League']}
+            </div>
+            <h2 style="color: white !important; margin: 0; text-align: center; padding-top: 15px;">💣 PREDICCIÓN BOMBA DETECTADA 💣</h2>
+            <p style="font-size: 1.15rem; line-height: 1.6; margin-top: 20px; color: white !important;">
+                El equipo local <b>{d_b['Home team']}</b> lleva <b>{g1_l} de {t_l}</b> partidos marcando al menos 1 gol en casa y de esos <b>{g1_l}</b> partidos <b>{g2_l}</b> ha marcado 2 o más goles, ha ganado o empatado en <b>{w_l} de {t_l}</b> encuentros como local. <br>
+                El equipo visitante <b>{d_b['Away team']}</b>, lleva <b>{g1_v} de {t_v}</b> partidos marcando al menos 1 gol como visitante y de esos <b>{g1_v}</b> partidos <b>{g2_v}</b> ha marcado 2 o más goles, ha ganado o empatado en <b>{w_v} de {t_v}</b> encuentros como visitante.
+            </p>
+            <div style="display: grid; grid-template-columns: repeat(4, 1fr); gap: 15px; margin-top: 25px;">
+                <div style="background: white; color: #ff4b4b; padding: 15px; border-radius: 12px; text-align: center; font-weight: bold;">🛡️ {etq_b}</div>
+                <div style="background: white; color: #ff4b4b; padding: 15px; border-radius: 12px; text-align: center; font-weight: bold;">🥅 Over 1.5: {d_b['Over 1.5']:.0%}</div>
+                <div style="background: white; color: #ff4b4b; padding: 15px; border-radius: 12px; text-align: center; font-weight: bold;">⚽ Over 2.5: {d_b['Over 2.5']:.0%}</div>
+                <div style="background: white; color: #ff4b4b; padding: 15px; border-radius: 12px; text-align: center; font-weight: bold;">🤝 Btts: {d_b['Btts']:.0%}</div>
+            </div>
+        </div>""", unsafe_allow_html=True)
+# endregion
+
+# region 4. BLOQUE HISTORIAL DE RESULTADOS
+@st.fragment
+def bloque_historial(df_h, lgs):
     st.markdown("## 📜 HISTORIAL DE RESULTADOS")
     h_c1, h_c2, h_c3 = st.columns([1, 1, 1])
     with h_c1: sfh = st.date_input("Fecha Historial:", value=None, key="fh_s")
@@ -307,7 +311,40 @@ with tab_soccer:
     with h_c3: sjh = st.selectbox("Jornada Historial:", ["TODAS"] + sorted(df_hh['Matchday'].unique().tolist(), reverse=True) if not df_hh.empty else ["TODAS"], key="jh_s")
     df_res = df_hh if sjh=="TODAS" else df_hh[df_hh['Matchday']==sjh]
     st.dataframe(df_res[['Date', 'Time', 'Matchday', 'League', 'Match', 'Result', '1X', 'X2', 'Over 1.5', 'Over 2.5', 'Btts']].style.map(color_letras_historial, subset=['1X', 'X2', 'Over 1.5', 'Over 2.5', 'Btts']), use_container_width=True, hide_index=True)
+# endregion
 
-with tab_basket:
+# region 5. BLOQUE BASKETBALL
+@st.fragment
+def bloque_basketball():
     st.markdown("## 🏀 BASKETBALL PREDICTIONS")
     st.info("Módulo en desarrollo para la próxima actualización.")
+# endregion
+
+
+# ==========================================
+# RENDERIZADO PRINCIPAL (app.py)
+# ==========================================
+
+st.markdown('<h1><span class="giro-balon">⚽</span> Bet Pro Futbol AI</h1>', unsafe_allow_html=True)
+tab_soccer, tab_basket = st.tabs(["SOCCER PREDICTIONS", "BASKETBALL PREDICTIONS"])
+
+with tab_soccer:
+    # 1. Mostrar TOP 4
+    bloque_top4(df_p, df_h)
+    st.divider()
+    
+    # 2. Mostrar Ligas y Jornadas (y guardar datos filtrados)
+    df_filtrado = bloque_ligas_jornadas(df_p, df_h, lgs)
+    st.divider()
+    
+    # 3. Mostrar Predicción Bomba (si hay datos)
+    if df_filtrado is not None and not df_filtrado.empty:
+        bloque_prediccion_bomba(df_filtrado, df_h)
+    st.divider()
+    
+    # 4. Mostrar Historial
+    bloque_historial(df_h, lgs)
+
+with tab_basket:
+    # 5. Mostrar módulo de Basketball
+    bloque_basketball()

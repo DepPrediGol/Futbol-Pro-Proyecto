@@ -256,11 +256,19 @@ def bloque_top4(df_p, df_h):
 # endregion
 
 # region 2. BLOQUE LIGAS Y JORNADAS
+# region 2. BLOQUE LIGAS Y JORNADAS
 @st.fragment
 def bloque_ligas_jornadas(df_p, df_h, lgs):
     st.markdown("### 📊 LIGAS Y JORNADAS")
+    
+    # DEBUG: Verificamos qué columnas llegan
+    if 'Fecha_dt' not in df_p.columns:
+        st.error(f"Error: La columna 'Fecha_dt' no existe. Columnas disponibles: {df_p.columns.tolist()}")
+        return None
+
     f_col1, f_col2, f_col3 = st.columns([1, 1, 1])
     with f_col1: sf = st.date_input("Filtrar por Fecha:", value=None, key="f_act_s")
+    # ... resto de tu código ...
     with f_col2: sl = st.selectbox("Seleccione Liga:", ["TODAS"] + lgs, key="l_act_s")
     df_fl = df_p if sl=="TODAS" else df_p[df_p['League']==sl]
     if sf: df_fl = df_fl[df_fl['Fecha_dt'].dt.date == sf]

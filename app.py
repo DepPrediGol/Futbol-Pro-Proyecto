@@ -294,15 +294,21 @@ def bloque_ligas_jornadas(df_p, df_h, lgs):
 
     # Mostramos la tabla en la pantalla principal (sin columnas arriba)
     if df_fl.empty:
-        st.warning("No hay partidos programados con los filtros seleccionados.")
+        st.warning("No hay partidos programados.")
     else:
-        st.dataframe(
-            df_fl[['Date', 'Time', 'Matchday', 'League', 'Match', '1X', 'X2', 'Over 1.5', 'Over 2.5', 'Btts']].style.map(
-                color_letras_actuales, subset=['1X', 'X2', 'Over 1.5', 'Over 2.5', 'Btts']
-            ), 
-            use_container_width=True, 
-            hide_index=True
-        )
+        # Aseguramos que el estilo se aplique correctamente
+        # Nota: Verifica que la función 'color_letras_actuales' esté definida arriba en tu script
+        try:
+            st.dataframe(
+                df_fl[['Date', 'Time', 'Matchday', 'League', 'Match', '1X', 'X2', 'Over 1.5', 'Over 2.5', 'Btts']].style.map(
+                    color_letras_actuales, subset=['1X', 'X2', 'Over 1.5', 'Over 2.5', 'Btts']
+                ), 
+                use_container_width=True, 
+                hide_index=True
+            )
+        except NameError:
+            st.error("Error: La función 'color_letras_actuales' no está definida correctamente. Por favor, revisa que esté en tu código.")
+            st.dataframe(df_fl, use_container_width=True, hide_index=True)
 # endregion
 
 # region 3. BLOQUE PREDICCIÓN BOMBA

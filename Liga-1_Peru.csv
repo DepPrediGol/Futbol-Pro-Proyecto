@@ -1,0 +1,307 @@
+﻿matchday,date,time,home_team,away_team,result,status
+1,30/01/2026,03:00,Sport Huancayo,Alianza Lima,1-2,Final
+1,30/01/2026,03:00,Universidad Técnica,Atlético Grau,2-0,Final
+1,31/01/2026,03:00,Sport Boys,Los Chankas,1-1,Final
+1,31/01/2026,03:00,Juan Pablo II College,FC Cajamarca,3-3,Final
+1,01/02/2026,03:00,FBC Melgar,Cienciano,2-0,Final
+1,01/02/2026,03:00,Deportivo Garcilaso,Sporting Cristal,1-1,Final
+1,01/02/2026,03:00,Alianza Atlético,Cusco FC,1-0,Final
+1,02/02/2026,03:00,Universitario de Deportes,AD Tarma,2-0,Final
+1,02/02/2026,03:00,Comerciantes Unidos,CD Moquegua,1-0,Final
+2,06/02/2026,03:00,CD Moquegua,Universidad Técnica,2-3,Final
+2,07/02/2026,03:00,AD Tarma,Sport Boys,1-0,Final
+2,07/02/2026,03:00,Atlético Grau,Sport Huancayo,0-0,Final
+2,08/02/2026,03:00,Cusco FC,Universitario de Deportes,1-1,Final
+2,08/02/2026,03:00,Sporting Cristal,FBC Melgar,1-2,Final
+2,08/02/2026,03:00,Los Chankas,Alianza Atlético,1-0,Final
+2,08/02/2026,03:00,Cienciano,Juan Pablo II College,6-1,Final
+2,09/02/2026,03:00,Alianza Lima,Comerciantes Unidos,2-1,Final
+2,09/02/2026,03:00,FC Cajamarca,Deportivo Garcilaso,1-1,Final
+3,13/02/2026,03:00,Universidad Técnica,Cusco FC,1-0,Final
+3,14/02/2026,03:00,Universitario de Deportes,Cienciano,2-1,Final
+3,14/02/2026,03:00,Deportivo Garcilaso,AD Tarma,1-0,Final
+3,14/02/2026,03:00,Juan Pablo II College,Sporting Cristal,0-2,Final
+3,14/02/2026,03:00,Sport Boys,Atlético Grau,1-0,Final
+3,15/02/2026,03:00,Alianza Atlético,Alianza Lima,0-0,Final
+3,15/02/2026,03:00,Sport Huancayo,FC Cajamarca,2-0,Final
+3,15/02/2026,03:00,Comerciantes Unidos,Los Chankas,1-1,Final
+3,16/02/2026,03:00,FBC Melgar,CD Moquegua,4-0,Final
+4,21/02/2026,03:00,Alianza Lima,Sport Boys,1-0,Final
+4,21/02/2026,03:00,FC Cajamarca,FBC Melgar,3-1,Final
+4,21/02/2026,03:00,Sporting Cristal,Universitario de Deportes,2-2,Final
+4,22/02/2026,03:00,Cienciano,Alianza Atlético,1-1,Final
+4,22/02/2026,03:00,AD Tarma,Universidad Técnica,2-2,Final
+4,22/02/2026,03:00,Los Chankas,Sport Huancayo,3-2,Final
+4,22/02/2026,03:00,Atlético Grau,Juan Pablo II College,1-2,Final
+4,23/02/2026,03:00,Cusco FC,Comerciantes Unidos,3-1,Final
+4,23/02/2026,03:00,CD Moquegua,Deportivo Garcilaso,1-0,Final
+5,27/02/2026,03:00,Alianza Atlético,AD Tarma,0-0,Final
+5,27/02/2026,03:00,FBC Melgar,Los Chankas,1-2,Final
+5,28/02/2026,03:00,Deportivo Garcilaso,Cienciano,2-3,Final
+5,28/02/2026,03:00,Sport Huancayo,Sporting Cristal,2-1,Final
+5,28/02/2026,03:00,Universidad Técnica,Alianza Lima,0-1,Final
+5,01/03/2026,03:00,Sport Boys,CD Moquegua,0-0,Final
+5,01/03/2026,03:00,Comerciantes Unidos,Atlético Grau,3-1,Final
+5,01/03/2026,03:00,Juan Pablo II College,Cusco FC,2-1,Final
+5,02/03/2026,03:00,Universitario de Deportes,FC Cajamarca,1-0,Final
+6,06/03/2026,03:00,Atlético Grau,FC Cajamarca,1-0,Final
+6,07/03/2026,03:00,CD Moquegua,Sport Huancayo,2-1,Final
+6,07/03/2026,03:00,Comerciantes Unidos,Universidad Técnica,1-2,Final
+6,07/03/2026,03:00,Sporting Cristal,Alianza Atlético,3-1,Final
+6,08/03/2026,03:00,Cusco FC,Deportivo Garcilaso,1-0,Final
+6,08/03/2026,03:00,AD Tarma,Juan Pablo II College,2-3,Final
+6,08/03/2026,03:00,Los Chankas,Universitario de Deportes,3-1,Final
+6,09/03/2026,03:00,Cienciano,Sport Boys,3-1,Final
+6,10/03/2026,03:00,Alianza Lima,FBC Melgar,3-1,Final
+7,13/03/2026,03:00,FC Cajamarca,Comerciantes Unidos,3-4,Final
+7,14/03/2026,03:00,Sport Huancayo,AD Tarma,0-1,Final
+7,14/03/2026,03:00,Juan Pablo II College,Los Chankas,2-3,Final
+7,15/03/2026,03:00,Deportivo Garcilaso,Alianza Lima,1-1,Final
+7,15/03/2026,03:00,Universitario de Deportes,Universidad Técnica,2-0,Final
+7,15/03/2026,03:00,Sporting Cristal,Sport Boys,3-0,Final
+7,15/03/2026,03:00,FBC Melgar,Atlético Grau,0-0,Final
+7,15/03/2026,03:00,Alianza Atlético,CD Moquegua,3-0,Final
+7,16/03/2026,03:00,Cusco FC,Cienciano,1-2,Final
+8,20/03/2026,03:00,AD Tarma,FBC Melgar,1-1,Final
+8,21/03/2026,03:00,Cienciano,FC Cajamarca,3-0,Final
+8,21/03/2026,03:00,CD Moquegua,Cusco FC,1-2,Final
+8,21/03/2026,03:00,Comerciantes Unidos,Universitario de Deportes,0-0,Final
+8,21/03/2026,03:00,Los Chankas,Sporting Cristal,3-2,Final
+8,22/03/2026,03:00,Alianza Lima,Juan Pablo II College,2-0,Final
+8,22/03/2026,03:00,Universidad Técnica,Alianza Atlético,1-1,Final
+8,22/03/2026,03:00,Atlético Grau,Deportivo Garcilaso,0-0,Final
+8,23/03/2026,03:00,Sport Boys,Sport Huancayo,3-0,Final
+9,03/04/2026,03:00,Sporting Cristal,CD Moquegua,1-2,Final
+9,03/04/2026,03:00,Alianza Atlético,Atlético Grau,2-2,Final
+9,04/04/2026,03:00,Cienciano,AD Tarma,3-2,Final
+9,04/04/2026,03:00,Deportivo Garcilaso,Sport Boys,3-2,Final
+9,04/04/2026,03:00,FBC Melgar,Cusco FC,1-3,Final
+9,05/04/2026,03:00,Universitario de Deportes,Alianza Lima,1-0,Final
+9,05/04/2026,03:00,Sport Huancayo,Comerciantes Unidos,1-1,Final
+9,05/04/2026,03:00,Juan Pablo II College,Universidad Técnica,2-1,Final
+9,06/04/2026,03:00,FC Cajamarca,Los Chankas,0-1,Final
+10,14/04/2026,03:00,CD Moquegua,Juan Pablo II College,3-0,Final
+10,14/04/2026,03:00,AD Tarma,Alianza Lima,0-1,Final
+10,15/04/2026,03:00,Sport Boys,FBC Melgar,1-3,Final
+10,15/04/2026,03:00,Universidad Técnica,Sport Huancayo,2-2,Final
+10,22/04/2026,03:00,Comerciantes Unidos,Alianza Atlético,1-0,Final
+10,22/04/2026,03:00,Atlético Grau,Sporting Cristal,4-1,Final
+10,23/04/2026,03:00,Cusco FC,FC Cajamarca,1-0,Final
+10,23/04/2026,03:00,Universitario de Deportes,Deportivo Garcilaso,4-1,Final
+10,23/04/2026,03:00,Los Chankas,Cienciano,1-0,Final
+11,17/04/2026,03:00,Los Chankas,Atlético Grau,2-0,Final
+11,18/04/2026,03:00,FC Cajamarca,AD Tarma,2-2,Final
+11,18/04/2026,03:00,Juan Pablo II College,Comerciantes Unidos,2-2,Final
+11,19/04/2026,03:00,Sport Huancayo,Deportivo Garcilaso,2-1,Final
+11,19/04/2026,03:00,Alianza Lima,Cusco FC,8-0,Final
+11,19/04/2026,03:00,Sporting Cristal,Universidad Técnica,3-2,Final
+11,19/04/2026,03:00,Alianza Atlético,Sport Boys,0-1,Final
+11,20/04/2026,03:00,FBC Melgar,Universitario de Deportes,2-1,Final
+11,20/04/2026,03:00,Cienciano,CD Moquegua,2-1,Final
+12,25/04/2026,03:00,CD Moquegua,FC Cajamarca,2-1,Final
+12,25/04/2026,03:00,Comerciantes Unidos,Sporting Cristal,1-0,Final
+12,26/04/2026,03:00,Sport Boys,Juan Pablo II College,1-1,Final
+12,26/04/2026,03:00,Universidad Técnica,Cienciano,2-2,Final
+12,26/04/2026,03:00,Cusco FC,Sport Huancayo,2-1,Final
+12,26/04/2026,03:00,Atlético Grau,Alianza Lima,0-1,Final
+12,27/04/2026,03:00,Universitario de Deportes,Alianza Atlético,1-2,Final
+12,27/04/2026,03:00,AD Tarma,Los Chankas,4-0,Final
+12,28/04/2026,03:00,Deportivo Garcilaso,FBC Melgar,1-0,Final
+13,02/05/2026,03:00,FC Cajamarca,Sport Boys,3-2,Final
+13,02/05/2026,03:00,AD Tarma,Atlético Grau,1-0,Final
+13,03/05/2026,03:00,Cienciano,Comerciantes Unidos,1-0,Final
+13,03/05/2026,03:00,Alianza Lima,CD Moquegua,2-1,Final
+13,03/05/2026,03:00,Sporting Cristal,Cusco FC,2-2,Final
+13,03/05/2026,03:00,Juan Pablo II College,Universitario de Deportes,1-4,Final
+13,03/05/2026,03:00,Alianza Atlético,Sport Huancayo,4-1,Final
+13,04/05/2026,03:00,FBC Melgar,Universidad Técnica,2-0,Final
+13,04/05/2026,03:00,Los Chankas,Deportivo Garcilaso,0-1,Final
+14,08/05/2026,03:00,Universidad Técnica,FC Cajamarca,1-2,Final
+14,09/05/2026,03:00,CD Moquegua,AD Tarma,2-2,Final
+14,09/05/2026,03:00,Atlético Grau,Cienciano,1-2,Final
+14,10/05/2026,03:00,Alianza Lima,Sporting Cristal,1-1,Final
+14,10/05/2026,03:00,Sport Huancayo,Juan Pablo II College,2-1,Final
+14,10/05/2026,03:00,Comerciantes Unidos,FBC Melgar,1-1,Final
+14,11/05/2026,03:00,Cusco FC,Los Chankas,1-1,Final
+14,11/05/2026,03:00,Deportivo Garcilaso,Alianza Atlético,2-1,Final
+14,12/05/2026,03:00,Sport Boys,Universitario de Deportes,0-0,Final
+15,15/05/2026,03:00,FC Cajamarca,Sporting Cristal,3-1,Final
+15,16/05/2026,03:00,Universitario de Deportes,Atlético Grau,0-1,Final
+15,16/05/2026,03:00,FBC Melgar,Sport Huancayo,4-1,Final
+15,16/05/2026,03:00,Juan Pablo II College,Alianza Atlético,0-2,Final
+15,17/05/2026,03:00,Cienciano,Alianza Lima,0-1,Final
+15,17/05/2026,03:00,Sport Boys,Cusco FC,1-0,Final
+15,17/05/2026,03:00,AD Tarma,Comerciantes Unidos,2-0,Final
+15,17/05/2026,03:00,Deportivo Garcilaso,Universidad Técnica,2-0,Final
+15,17/05/2026,03:00,Los Chankas,CD Moquegua,1-0,Final
+16,22/05/2026,03:00,Juan Pablo II College,FBC Melgar,1-1,Final
+16,23/05/2026,03:00,CD Moquegua,Universitario de Deportes,0-0,Final
+16,23/05/2026,03:00,Universidad Técnica,Sport Boys,0-0,Final
+16,24/05/2026,03:00,Cusco FC,Atlético Grau,1-0,Final
+16,24/05/2026,03:00,Alianza Lima,Los Chankas,3-0,Final
+16,24/05/2026,03:00,Sporting Cristal,AD Tarma,2-1,Final
+16,24/05/2026,03:00,Sport Huancayo,Cienciano,2-2,Final
+16,24/05/2026,03:00,Alianza Atlético,FC Cajamarca,1-1,Final
+16,25/05/2026,03:00,Comerciantes Unidos,Deportivo Garcilaso,0-0,Final
+17,29/05/2026,03:00,Atlético Grau,CD Moquegua,1-0,Final
+17,30/05/2026,03:00,AD Tarma,Cusco FC,1-2,Final
+17,30/05/2026,03:00,Deportivo Garcilaso,Juan Pablo II College,4-1,Final
+17,31/05/2026,03:00,Sport Boys,Comerciantes Unidos,1-0,Final
+17,31/05/2026,03:00,Universitario de Deportes,Sport Huancayo,2-1,Final
+17,31/05/2026,03:00,FBC Melgar,Alianza Atlético,3-1,Final
+17,31/05/2026,03:00,FC Cajamarca,Alianza Lima,1-1,Final
+17,31/05/2026,03:00,Los Chankas,Universidad Técnica,2-2,Final
+17,01/06/2026,03:00,Cienciano,Sporting Cristal,3-2,Final
+18,17/07/2026,13:00,FC Cajamarca,Juan Pablo II College,,
+18,17/07/2026,15:15,Sporting Cristal,Deportivo Garcilaso,,
+18,17/07/2026,20:00,Cienciano,FBC Melgar,,
+18,18/07/2026,11:00,CD Moquegua,Comerciantes Unidos,,
+18,18/07/2026,13:15,AD Tarma,Universitario de Deportes,,
+18,18/07/2026,15:30,Atlético Grau,Universidad Técnica,,
+18,18/07/2026,18:30,Cusco FC,Alianza Atlético,,
+18,19/07/2026,11:00,Los Chankas,Sport Boys,,
+18,19/07/2026,19:00,Alianza Lima,Sport Huancayo,,
+19,24/07/2026,15:00,Alianza Atlético,Los Chankas,,
+19,24/07/2026,20:30,Universitario de Deportes,Cusco FC,,
+19,25/07/2026,13:00,Sport Huancayo,Atlético Grau,,
+19,25/07/2026,15:15,Juan Pablo II College,Cienciano,,
+19,25/07/2026,17:30,Sport Boys,AD Tarma,,
+19,25/07/2026,20:00,FBC Melgar,Sporting Cristal,,
+19,26/07/2026,13:00,Universidad Técnica,CD Moquegua,,
+19,26/07/2026,15:30,Comerciantes Unidos,Alianza Lima,,
+19,26/07/2026,19:00,Deportivo Garcilaso,FC Cajamarca,,
+20,31/07/2026,15:00,Los Chankas,Comerciantes Unidos,,
+20,01/08/2026,03:00,AD Tarma,Deportivo Garcilaso,,
+20,01/08/2026,03:00,Cienciano,Universitario de Deportes,,
+20,01/08/2026,03:00,CD Moquegua,FBC Melgar,,
+20,01/08/2026,03:00,Sporting Cristal,Juan Pablo II College,,
+20,01/08/2026,13:00,FC Cajamarca,Sport Huancayo,,
+20,01/08/2026,15:30,Atlético Grau,Sport Boys,,
+20,01/08/2026,18:00,Cusco FC,Universidad Técnica,,
+20,01/08/2026,20:30,Alianza Lima,Alianza Atlético,,
+21,07/08/2026,13:00,Sport Huancayo,Los Chankas,,
+21,07/08/2026,15:15,Comerciantes Unidos,Cusco FC,,
+21,08/08/2026,03:00,Alianza Atlético,Cienciano,,
+21,08/08/2026,03:00,FC Cajamarca,AD Tarma,,
+21,08/08/2026,03:00,Deportivo Garcilaso,CD Moquegua,,
+21,08/08/2026,03:00,Juan Pablo II College,Atlético Grau,,
+21,08/08/2026,03:00,FBC Melgar,Universidad Técnica,,
+21,08/08/2026,03:00,Sport Boys,Alianza Lima,,
+21,08/08/2026,03:00,Universitario de Deportes,Sporting Cristal,,
+22,15/08/2026,03:00,Alianza Lima,Universidad Técnica,,
+22,15/08/2026,03:00,AD Tarma,Alianza Atlético,,
+22,15/08/2026,03:00,Cienciano,Deportivo Garcilaso,,
+22,15/08/2026,03:00,Cusco FC,Juan Pablo II College,,
+22,15/08/2026,03:00,FC Cajamarca,Universitario de Deportes,,
+22,15/08/2026,03:00,Atlético Grau,Comerciantes Unidos,,
+22,15/08/2026,03:00,Los Chankas,FBC Melgar,,
+22,15/08/2026,03:00,CD Moquegua,Sport Boys,,
+22,15/08/2026,03:00,Sporting Cristal,Sport Huancayo,,
+23,22/08/2026,03:00,Alianza Atlético,Sporting Cristal,,
+23,22/08/2026,03:00,Universidad Técnica,Comerciantes Unidos,,
+23,22/08/2026,03:00,Deportivo Garcilaso,Cusco FC,,
+23,22/08/2026,03:00,FC Cajamarca,Atlético Grau,,
+23,22/08/2026,03:00,Sport Huancayo,CD Moquegua,,
+23,22/08/2026,03:00,Juan Pablo II College,AD Tarma,,
+23,22/08/2026,03:00,FBC Melgar,Alianza Lima,,
+23,22/08/2026,03:00,Sport Boys,Cienciano,,
+23,22/08/2026,03:00,Universitario de Deportes,Los Chankas,,
+24,29/08/2026,03:00,Alianza Lima,Deportivo Garcilaso,,
+24,29/08/2026,03:00,AD Tarma,Sport Huancayo,,
+24,29/08/2026,03:00,Universidad Técnica,Universitario de Deportes,,
+24,29/08/2026,03:00,Cienciano,Cusco FC,,
+24,29/08/2026,03:00,Comerciantes Unidos,FC Cajamarca,,
+24,29/08/2026,03:00,Atlético Grau,FBC Melgar,,
+24,29/08/2026,03:00,Los Chankas,Juan Pablo II College,,
+24,29/08/2026,03:00,CD Moquegua,Alianza Atlético,,
+24,29/08/2026,03:00,Sport Boys,Sporting Cristal,,
+25,05/09/2026,03:00,Alianza Atlético,Universidad Técnica,,
+25,05/09/2026,03:00,Cusco FC,CD Moquegua,,
+25,05/09/2026,03:00,Deportivo Garcilaso,Atlético Grau,,
+25,05/09/2026,03:00,FC Cajamarca,Cienciano,,
+25,05/09/2026,03:00,Sport Huancayo,Sport Boys,,
+25,05/09/2026,03:00,Juan Pablo II College,Alianza Lima,,
+25,05/09/2026,03:00,FBC Melgar,AD Tarma,,
+25,05/09/2026,03:00,Sporting Cristal,Los Chankas,,
+25,05/09/2026,03:00,Universitario de Deportes,Comerciantes Unidos,,
+26,12/09/2026,03:00,Alianza Lima,Universitario de Deportes,,
+26,12/09/2026,03:00,AD Tarma,Cienciano,,
+26,12/09/2026,03:00,Universidad Técnica,Juan Pablo II College,,
+26,12/09/2026,03:00,Comerciantes Unidos,Sport Huancayo,,
+26,12/09/2026,03:00,Cusco FC,FBC Melgar,,
+26,12/09/2026,03:00,Atlético Grau,Alianza Atlético,,
+26,12/09/2026,03:00,Los Chankas,FC Cajamarca,,
+26,12/09/2026,03:00,CD Moquegua,Sporting Cristal,,
+26,12/09/2026,03:00,Sport Boys,Deportivo Garcilaso,,
+27,19/09/2026,03:00,Alianza Lima,AD Tarma,,
+27,19/09/2026,03:00,Alianza Atlético,Comerciantes Unidos,,
+27,19/09/2026,03:00,Cienciano,Los Chankas,,
+27,19/09/2026,03:00,Deportivo Garcilaso,Universitario de Deportes,,
+27,19/09/2026,03:00,FC Cajamarca,Cusco FC,,
+27,19/09/2026,03:00,Sport Huancayo,Universidad Técnica,,
+27,19/09/2026,03:00,Juan Pablo II College,CD Moquegua,,
+27,19/09/2026,03:00,FBC Melgar,Sport Boys,,
+27,19/09/2026,03:00,Sporting Cristal,Atlético Grau,,
+28,26/09/2026,03:00,AD Tarma,FC Cajamarca,,
+28,26/09/2026,03:00,Universidad Técnica,Sporting Cristal,,
+28,26/09/2026,03:00,Comerciantes Unidos,Juan Pablo II College,,
+28,26/09/2026,03:00,Cusco FC,Alianza Lima,,
+28,26/09/2026,03:00,Deportivo Garcilaso,Sport Huancayo,,
+28,26/09/2026,03:00,Atlético Grau,Los Chankas,,
+28,26/09/2026,03:00,CD Moquegua,Cienciano,,
+28,26/09/2026,03:00,Sport Boys,Alianza Atlético,,
+28,26/09/2026,03:00,Universitario de Deportes,FBC Melgar,,
+29,17/10/2026,03:00,Alianza Lima,Atlético Grau,,
+29,17/10/2026,03:00,Alianza Atlético,Universitario de Deportes,,
+29,17/10/2026,03:00,Cienciano,Universidad Técnica,,
+29,17/10/2026,03:00,FC Cajamarca,CD Moquegua,,
+29,17/10/2026,03:00,Sport Huancayo,Cusco FC,,
+29,17/10/2026,03:00,Juan Pablo II College,Sport Boys,,
+29,17/10/2026,03:00,Los Chankas,AD Tarma,,
+29,17/10/2026,03:00,FBC Melgar,Deportivo Garcilaso,,
+29,17/10/2026,03:00,Sporting Cristal,Comerciantes Unidos,,
+30,24/10/2026,03:00,Universidad Técnica,FBC Melgar,,
+30,24/10/2026,03:00,Comerciantes Unidos,Cienciano,,
+30,24/10/2026,03:00,Cusco FC,Sporting Cristal,,
+30,24/10/2026,03:00,Deportivo Garcilaso,Los Chankas,,
+30,24/10/2026,03:00,Atlético Grau,AD Tarma,,
+30,24/10/2026,03:00,Sport Huancayo,Alianza Atlético,,
+30,24/10/2026,03:00,CD Moquegua,Alianza Lima,,
+30,24/10/2026,03:00,Sport Boys,FC Cajamarca,,
+30,24/10/2026,03:00,Universitario de Deportes,Juan Pablo II College,,
+31,28/10/2026,03:00,AD Tarma,CD Moquegua,,
+31,28/10/2026,03:00,Alianza Atlético,Deportivo Garcilaso,,
+31,28/10/2026,03:00,Cienciano,Atlético Grau,,
+31,28/10/2026,03:00,Juan Pablo II College,Sport Huancayo,,
+31,28/10/2026,03:00,Los Chankas,Cusco FC,,
+31,28/10/2026,03:00,FBC Melgar,Comerciantes Unidos,,
+31,28/10/2026,03:00,Sporting Cristal,Alianza Lima,,
+31,28/10/2026,03:00,Universitario de Deportes,Sport Boys,,
+31,28/10/2026,03:00,FC Cajamarca,Universidad Técnica,,
+32,31/10/2026,03:00,Alianza Lima,Cienciano,,
+32,31/10/2026,03:00,Alianza Atlético,Juan Pablo II College,,
+32,31/10/2026,03:00,Universidad Técnica,Deportivo Garcilaso,,
+32,31/10/2026,03:00,Comerciantes Unidos,AD Tarma,,
+32,31/10/2026,03:00,Cusco FC,Sport Boys,,
+32,31/10/2026,03:00,Atlético Grau,Universitario de Deportes,,
+32,31/10/2026,03:00,Sport Huancayo,FBC Melgar,,
+32,31/10/2026,03:00,CD Moquegua,Los Chankas,,
+32,31/10/2026,03:00,Sporting Cristal,FC Cajamarca,,
+33,07/11/2026,03:00,AD Tarma,Sporting Cristal,,
+33,07/11/2026,03:00,Cienciano,Sport Huancayo,,
+33,07/11/2026,03:00,Deportivo Garcilaso,Comerciantes Unidos,,
+33,07/11/2026,03:00,FC Cajamarca,Alianza Atlético,,
+33,07/11/2026,03:00,Atlético Grau,Cusco FC,,
+33,07/11/2026,03:00,Los Chankas,Alianza Lima,,
+33,07/11/2026,03:00,FBC Melgar,Juan Pablo II College,,
+33,07/11/2026,03:00,Sport Boys,Universidad Técnica,,
+33,07/11/2026,03:00,Universitario de Deportes,CD Moquegua,,
+34,14/11/2026,03:00,Alianza Lima,FC Cajamarca,,
+34,14/11/2026,03:00,Alianza Atlético,FBC Melgar,,
+34,14/11/2026,03:00,Universidad Técnica,Los Chankas,,
+34,14/11/2026,03:00,Comerciantes Unidos,Sport Boys,,
+34,14/11/2026,03:00,Cusco FC,AD Tarma,,
+34,14/11/2026,03:00,Sport Huancayo,Universitario de Deportes,,
+34,14/11/2026,03:00,Juan Pablo II College,Deportivo Garcilaso,,
+34,14/11/2026,03:00,CD Moquegua,Atlético Grau,,
+34,14/11/2026,03:00,Sporting Cristal,Cienciano,,

@@ -207,6 +207,13 @@ def ventana_analisis(r, df_h):
         st.markdown(f"#### 📈 Últimos 10 partidos como {nom}: {eq}")
         df_eq = df_h[df_h[col] == eq].iloc[::-1].head(10)
         if not df_eq.empty:
+            # --- NUEVA MEJORA: GRÁFICO DE BARRAS ---
+            st.markdown("#### 📊 Tendencia de Goles (Últimos 10)")
+            st.bar_chart(df_eq[['G_L', 'G_V']]) 
+            # --------------------------------------
+            
+            c = st.columns(4)
+            # ... (el resto de tu código sigue igual)
             c = st.columns(4)
             c[0].metric(f"Efectividad {('1X' if nom=='Local' else 'X2')}", f"{(df_eq['1X' if nom=='Local' else 'X2'].str.contains('✅').sum()/len(df_eq)):.0%}")
             c[1].metric("Over 1.5", f"{(df_eq['Over 1.5'].str.contains('✅').sum()/len(df_eq)):.0%}")

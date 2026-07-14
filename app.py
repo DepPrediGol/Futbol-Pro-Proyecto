@@ -102,10 +102,16 @@ def color_letras_historial(val):
     if '❌' in v: return 'color: #dc3545; font-weight: bold;'
     return 'color: white;'
 
-def extraer_goles(resultado_str):
-    if pd.isna(resultado_str): return None
-    res = re.sub(r'\(.*?\)', '', str(resultado_str)).strip()
-    nums = re.findall(r'\d+', res.replace(':', '-'))
+def extraer_goles_optimizado(resultado_str):
+    """Versión rápida usando regex compilado"""
+    if pd.isna(resultado_str) or str(resultado_str) == 'nan': 
+        return None
+    
+    # Limpiamos el texto una sola vez
+    res = re.sub(r'\(.*?\)', '', str(resultado_str)).strip().replace(':', '-')
+    
+    # Buscamos los dos números
+    nums = re.findall(r'\d+', res)
     return (int(nums[0]), int(nums[1])) if len(nums) >= 2 else None
 
 def calcular_poisson(media, x):
@@ -156,7 +162,7 @@ def cargar_todo():
             df = pd.read_csv(arc)
             for _, f in df.iterrows():
                 l, v = f['home_team'], f['away_team']
-                g = extraer_goles(f.get('result'))
+                g = extraer_goles_optimizado(f.get('result'))
                 if g:
                     fz_acum[l] = fz_acum.get(l, 0) + g[0]
                     fz_acum[v] = fz_acum.get(v, 0) + g[1]

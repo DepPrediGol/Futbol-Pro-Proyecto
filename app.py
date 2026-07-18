@@ -6,6 +6,7 @@ import math
 import re
 import os
 from datetime import datetime, timedelta
+import requests
 
 # --- 1. CONFIGURACIÓN DE PÁGINA ---
 st.set_page_config(page_title="Bet Pro Futbol AI", layout="wide", page_icon="⚽")
@@ -215,6 +216,29 @@ def ventana_analisis(r, df_h):
             st.dataframe(df_eq[['Date', 'Time', 'Matchday', 'Match', 'Result', '1X', 'X2', 'Over 1.5', 'Over 2.5', 'Btts']].style.map(color_letras_historial, subset=['1X', 'X2', 'Over 1.5', 'Over 2.5', 'Btts']), use_container_width=True, hide_index=True)
         st.divider()
 
+# --- NUEVA FUNCIÓN PARA THE ODDS API ---
+def obtener_cuotas_api():
+    # ⚠️ REEMPLAZA ESTO CON TU CLAVE REAL DE THE ODDS API
+    API_KEY = "87d5d052809a75023bff788995f4d350"
+    
+    # Parámetros: 'soccer_upcoming' trae los próximos partidos de fútbol
+    # regions='eu' usa casas de apuestas europeas (suelen ser las más precisas)
+    # markets='h2h' trae las cuotas de Local, Empate y Visitante (1X2)
+    url = f"https://api.the-odds-api.com/v4/sports/soccer_upcoming/odds/?apiKey={API_KEY}&regions=eu&markets=h2h"
+    
+    try:
+        respuesta = requests.get(url)
+        
+        # Validar que la API respondió bien (Código 200)
+        if respuesta.status_code == 200:
+            datos = respuesta.json()
+            return datos
+        else:
+            st.sidebar.error(f"Error en la API: {respuesta.status_code}")
+            return None
+    except Exception as e:
+        st.sidebar.error(f"Error de conexión: {e}")
+        return None
 
 # ==========================================
 # BLOQUES DE LA INTERFAZ
@@ -252,6 +276,17 @@ def bloque_ligas_jornadas(df_p, df_h, lgs):
     if sf: df_fl = df_fl[df_fl['Fecha_dt'].dt.date == sf]
     with f_col3: sj = st.selectbox("Seleccione Jornada:", ["TODAS"] + sorted(df_fl['Matchday'].unique().tolist(), reverse=True) if not df_fl.empty else ["TODAS"], key="j_act_s")
     df_fin = df_fl if sj=="TODAS" else df_fl[df_fl['Matchday']==sj]
+
+    # --- AQUÍ AGREGAMOS EL BOTÓN DE LA API EN LA BARRA LATERAL ---
+    st.sidebar.markdown("---")
+    st.sidebar.markdown("### 💰 CUOTAS EN VIVO")
+    if st.sidebar.button("🔄 Consultar Cuotas (Gasta 1 Crédito)"):
+        with st.sidebar.status("Conectando con The Odds API..."):
+            datos_cuotas = obtener_cuotas_api()
+            if datos_cuotas:
+                st.sidebar.success("¡Datos descargados con éxito!")
+                st.session_state['cuotas_crudas'] = datos_cuotas
+    # -------------------------------------------------------------
 
     if not df_fin.empty:
         cols_f = ['1X', 'X2', 'Over 1.5', 'Over 2.5', 'Btts']
@@ -342,6 +377,13 @@ with tab_soccer:
     
     # 4. Mostrar Historial
     bloque_historial(df_h, lgs)
+    
+# Mostrar datos crudos de la API si existen
+    if 'cuotas_crudas' in st.session_state:
+        st.divider()
+        st.markdown("### 🛠️ DATOS CRUDOS DE LA API (Modo Prueba)")
+        st.write("Mira cómo llegan los nombres de los equipos desde la casa de apuestas. Esto es clave para el siguiente paso.")
+        st.json(st.session_state['cuotas_crudas'][:3]) # Muestra solo los primeros 3 para no saturar la pantalla
 
 with tab_basket:
     # 5. Mostrar módulo de Basketball

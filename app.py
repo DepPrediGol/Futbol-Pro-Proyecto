@@ -285,41 +285,30 @@ traductor_ligas = {
 def bloque_ligas_jornadas(df_p, df_h, lgs):
     st.markdown("### 📊 LIGAS Y JORNADAS")
     
-    # ... (tu código de filtros y selectboxes aquí) ...
-    # Asegúrate de que aquí se defina df_fin
+    f_col1, f_col2, f_col3, f_col4 = st.columns([1, 1, 1, 1])
+    
+    with f_col1: sf = st.date_input("Filtrar por Fecha:", value=None, key="f_act_s")
+    with f_col2: sl = st.selectbox("Seleccione Liga:", ["TODAS"] + lgs, key="l_act_s")
+    
+    df_fl = df_p if sl=="TODAS" else df_p[df_p['League']==sl]
+    if sf: df_fl = df_fl[df_fl['Fecha_dt'].dt.date == sf]
+    
+    with f_col3: sj = st.selectbox("Seleccione Jornada:", ["TODAS"] + sorted(df_fl['Matchday'].unique().tolist(), reverse=True) if not df_fl.empty else ["TODAS"], key="j_act_s")
     df_fin = df_fl if sj=="TODAS" else df_fl[df_fl['Matchday']==sj]
 
-    # --- PROCESAMIENTO Y VISUALIZACIÓN ---
-    if not df_fin.empty:
-        # 1. Aplicamos cuotas si están cargadas
-        if 'cuotas_actuales' in st.session_state:
-            df_fin = agregar_cuotas_a_tabla(df_fin, st.session_state['cuotas_actuales'])
-        
-        # 2. Creamos copia para mostrar
-        df_display = df_fin.copy()
-        
-        # 3. Creamos columnas combinadas (asegurando que existen las columnas necesarias)
-        # IMPORTANTE: Si 'Empate' es el nombre real en tu CSV, cámbialo abajo:
-        df_display['Local'] = [f"{v:.0%} ({c})" if c else f"{v:.0%}" for v, c in zip(df_fin['1X'], df_fin.get('Cuota_L', [None]*len(df_fin)))]
-        df_display['Empate'] = [f"{v:.0%} ({c})" if c else "-" for v, c in zip(df_fin.get('Empate', [0]*len(df_fin)), df_fin.get('Cuota_E', [None]*len(df_fin)))]
-        df_display['Visita'] = [f"{v:.0%} ({c})" if c else f"{v:.0%}" for v, c in zip(df_fin['X2'], df_fin.get('Cuota_V', [None]*len(df_fin)))]
-        
-        # 4. Formateo de las columnas de goles
-        for col in ['Over 1.5', 'Over 2.5', 'Btts']:
-            if col in df_fin.columns:
-                df_display[col] = df_fin[col].apply(lambda x: f"{x:.0%}")
-        
-        cols_mostrar = ['Date', 'Time', 'Matchday', 'League', 'Match', 'Local', 'Empate', 'Visita', 'Over 1.5', 'Over 2.5', 'Btts']
-        
-        # 5. Visualización
-        st.dataframe(
-            df_display[cols_mostrar].style.map(
-                aplicar_semaforo, 
-                subset=['Local', 'Visita', 'Over 1.5', 'Over 2.5', 'Btts']
-            ), 
-            use_container_width=True, 
-            hide_index=True
-        )
+    # --- BOTÓN DE CUOTAS ---
+    with f_col4:
+        st.markdown("<br>", unsafe_allow_html=True) 
+        liga_api = traductor_ligas.get(sl) 
+        if st.button("🔄 Actualizar Cuotas", key="btn_final"):
+            if liga_api:
+                with st.spinner(f"Conectando a la API para {sl}..."):
+                    datos_cuotas = obtener_cuotas_api(liga_api)
+                    if datos_cuotas:
+                        st.session_state['cuotas_actuales'] = datos_cuotas
+                        st.success("¡Cuotas cargadas!")
+            else:
+                st.warning("No tengo la configuración de API para esta liga.")
 
     # --- BUSCADOR INTELIGENTE ---
     if 'cuotas_crudas' in st.session_state:

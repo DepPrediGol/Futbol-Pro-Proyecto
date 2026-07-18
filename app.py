@@ -338,7 +338,7 @@ def bloque_ligas_jornadas(df_p, df_h, lgs):
         st.dataframe(
             df_display[cols_mostrar].style.map(
                 aplicar_semaforo, 
-                subset=['Local', 'Visita', 'Over 1.5', 'Over 2.5', 'Btts'] # Asegúrate que estos nombres existan en df_display
+        subset=['Local', 'Visita', 'Over 1.5', 'Over 2.5', 'Btts'] # Asegúrate que estos nombres existan en df_display
     ), 
     use_container_width=True, 
     hide_index=True

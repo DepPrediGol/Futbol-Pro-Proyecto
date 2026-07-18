@@ -331,7 +331,7 @@ def bloque_ligas_jornadas(df_p, df_h, lgs):
                 st.success(f"Liga: {res['title']} | Key: `{res['key']}`")
 
    # --- PROCESAMIENTO Y VISUALIZACIÓN ---
-if not df_fin.empty:
+    if not df_fin.empty:
     # 1. Aplicamos cuotas si están cargadas
     if 'cuotas_actuales' in st.session_state:
         df_fin = agregar_cuotas_a_tabla(df_fin, st.session_state['cuotas_actuales'])

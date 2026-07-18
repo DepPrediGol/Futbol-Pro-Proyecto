@@ -269,24 +269,29 @@ def bloque_top4(df_p, df_h):
 # region 2. BLOQUE LIGAS Y JORNADAS
 def bloque_ligas_jornadas(df_p, df_h, lgs):
     st.markdown("### 📊 LIGAS Y JORNADAS")
-    f_col1, f_col2, f_col3 = st.columns([1, 1, 1])
+    
+    # Creamos 4 columnas en vez de 3
+    f_col1, f_col2, f_col3, f_col4 = st.columns([1, 1, 1, 1])
+    
     with f_col1: sf = st.date_input("Filtrar por Fecha:", value=None, key="f_act_s")
     with f_col2: sl = st.selectbox("Seleccione Liga:", ["TODAS"] + lgs, key="l_act_s")
+    
     df_fl = df_p if sl=="TODAS" else df_p[df_p['League']==sl]
     if sf: df_fl = df_fl[df_fl['Fecha_dt'].dt.date == sf]
+    
     with f_col3: sj = st.selectbox("Seleccione Jornada:", ["TODAS"] + sorted(df_fl['Matchday'].unique().tolist(), reverse=True) if not df_fl.empty else ["TODAS"], key="j_act_s")
     df_fin = df_fl if sj=="TODAS" else df_fl[df_fl['Matchday']==sj]
 
-    # --- AQUÍ AGREGAMOS EL BOTÓN DE LA API EN LA BARRA LATERAL ---
-    st.sidebar.markdown("---")
-    st.sidebar.markdown("### 💰 CUOTAS EN VIVO")
-    if st.sidebar.button("🔄 Consultar Cuotas (Gasta 1 Crédito)"):
-        with st.sidebar.status("Conectando con The Odds API..."):
-            datos_cuotas = obtener_cuotas_api()
-            if datos_cuotas:
-                st.sidebar.success("¡Datos descargados con éxito!")
-                st.session_state['cuotas_crudas'] = datos_cuotas
-    # -------------------------------------------------------------
+    # --- NUEVO BOTÓN EN LA CUARTA COLUMNA ---
+    with f_col4:
+        st.markdown("<br>", unsafe_allow_html=True) # Espacio para alinear con los cuadros de texto
+        if st.button("🔄 Consultar Cuotas (1 Crédito)"):
+            with st.spinner("Conectando con The Odds API..."):
+                datos_cuotas = obtener_cuotas_api()
+                if datos_cuotas:
+                    st.success("¡Descarga exitosa!")
+                    st.session_state['cuotas_crudas'] = datos_cuotas
+    # ----------------------------------------
 
     if not df_fin.empty:
         cols_f = ['1X', 'X2', 'Over 1.5', 'Over 2.5', 'Btts']

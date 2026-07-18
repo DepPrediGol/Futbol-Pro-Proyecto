@@ -219,15 +219,15 @@ def ventana_analisis(r, df_h):
 # --- NUEVA FUNCIÓN PARA THE ODDS API (Corregida) ---
 def obtener_cuotas_api():
     API_KEY = "87d5d052809a75023bff788995f4d350"
-    # Cambiamos a 'soccer_epl_winner' para verificar que la conexión funcione
-    url = f"https://api.the-odds-api.com/v4/sports/soccer_epl_winner/odds/?apiKey={API_KEY}&regions=eu&markets=h2h"
+    # Esta URL nos dará la lista de todos los deportes soportados
+    url = f"https://api.the-odds-api.com/v4/sports/?apiKey={API_KEY}"
     
     try:
         respuesta = requests.get(url)
         if respuesta.status_code == 200:
-            return respuesta.json()
+            return respuesta.json() # Esto nos devolverá una lista de deportes
         else:
-            st.error(f"Error {respuesta.status_code}: La API no encuentra este deporte. Verifica el nombre del deporte.")
+            st.error(f"Error {respuesta.status_code}: No se pudo conectar.")
             return None
     except Exception as e:
         st.error(f"Error de conexión: {e}")
@@ -277,27 +277,13 @@ def bloque_ligas_jornadas(df_p, df_h, lgs):
     # --- BOTÓN DE CUOTAS DOMADO CON CSS AGRESIVO ---
     with f_col4:
         st.markdown("<br>", unsafe_allow_html=True)
-        # Este CSS tiene prioridad máxima (!important) sobre todo lo demás
-        st.markdown("""
-            <style>
-            div[data-testid="column"]:nth-of-type(4) .stButton > button {
-                min-height: 45px !important;
-                max-height: 45px !important;
-                background-color: #000000 !important;
-                color: #ffffff !important;
-                border: 2px solid #28a745 !important;
-                padding: 0px 10px !important;
-            }
-            </style>
-        """, unsafe_allow_html=True)
-        
-        if st.button("🔄 Consultar Cuotas"):
-            # ... resto del código del botón igual ...
-            with st.spinner("Descargando datos en vivo de la API..."):
-                datos_cuotas = obtener_cuotas_api()
-                if datos_cuotas:
-                    st.success("¡Datos descargados con éxito!")
-                    st.session_state['cuotas_crudas'] = datos_cuotas
+        # Usamos un contenedor para intentar limitar el botón
+        if st.button("🔄 Consultar"):
+            with st.spinner("Consultando..."):
+                datos = obtener_cuotas_api()
+                if datos:
+                    st.success("¡Conexión exitosa!")
+                    st.session_state['cuotas_crudas'] = datos
     # ----------------------------------------
 
     # --- VISOR DE DATOS DE PRUEBA ---

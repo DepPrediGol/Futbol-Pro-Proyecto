@@ -314,35 +314,34 @@ def bloque_ligas_jornadas(df_p, df_h, lgs):
 
    # --- PROCESAMIENTO Y VISUALIZACIÓN ---
     if not df_fin.empty:
+        # 1. Aplicamos las cuotas si existen
         if 'cuotas_actuales' in st.session_state:
             df_fin = agregar_cuotas_a_tabla(df_fin, st.session_state['cuotas_actuales'])
-        
-        # Función para formatear porcentaje + cuota
-        def formatear_celda(val, cuota):
-            if cuota: return f"{val:.0%} ({cuota})"
-            return f"{val:.0%}"
+            
+            # 2. Creamos columnas combinadas (Porcentaje + Cuota)
+            # Solo si la función de cruce encontró datos (Cuota_L no es None)
+            df_fin['Local'] = df_fin.apply(lambda r: f"{r['1X']:.0%} ({r['Cuota_L']})" if r['Cuota_L'] else f"{r['1X']:.0%}", axis=1)
+            df_fin['Empate'] = df_fin.apply(lambda r: f"({r['Cuota_E']})" if r['Cuota_E'] else "-", axis=1)
+            df_fin['Visita'] = df_fin.apply(lambda r: f"{r['X2']:.0%} ({r['Cuota_V']})" if r['Cuota_V'] else f"{r['X2']:.0%}", axis=1)
+        else:
+            # Si no hay cuotas, mantenemos los nombres originales para no romper nada
+            df_fin = df_fin.rename(columns={'1X': 'Local', 'X2': 'Visita'})
+            df_fin['Empate'] = "-"
 
-        # Aplicamos formato a las columnas existentes
-        df_display = df_fin.copy()
-        df_display['Local'] = [formatear_celda(v, c) for v, c in zip(df_fin['1X'], df_fin['Cuota_L'])]
-        df_display['Empate'] = [f"({c})" if c else "-" for c in df_fin['Cuota_E']]
-        df_display['Visita'] = [formatear_celda(v, c) for v, c in zip(df_fin['X2'], df_fin['Cuota_V'])]
-        
-        # Formateo de las columnas de Over/Btts
-        for col in ['Over 1.5', 'Over 2.5', 'Btts']:
-            df_display[col] = df_fin[col].apply(lambda x: f"{x:.0%}")
-
+        # 3. Definimos las columnas a mostrar
         cols_mostrar = ['Date', 'Time', 'Matchday', 'League', 'Match', 'Local', 'Empate', 'Visita', 'Over 1.5', 'Over 2.5', 'Btts']
         
-        # PINTAMOS CON COLORES
-        st.dataframe(
-            df_display[cols_mostrar].style.map(
-                aplicar_semaforo, 
-        subset=['Local', 'Visita', 'Over 1.5', 'Over 2.5', 'Btts'] # Asegúrate que estos nombres existan en df_display
-    ), 
-    use_container_width=True, 
-    hide_index=True
-)
+        # 4. Visualización
+        if sl != "TODAS":
+            col_p, col_t = st.columns([2, 1])
+            with col_p: 
+                st.dataframe(df_fin[cols_mostrar], use_container_width=True, hide_index=True)
+            with col_t:
+                st.markdown(f"#### 🏅 Tabla: {sl}")
+                tp = generar_tabla_posiciones(df_h, sl)
+                if not tp.empty: st.dataframe(tp, use_container_width=True)
+        else:
+            st.dataframe(df_fin[cols_mostrar], use_container_width=True, hide_index=True)
 # endregion
 
 # region 3. BLOQUE PREDICCIÓN BOMBA

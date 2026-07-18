@@ -266,62 +266,84 @@ def bloque_top4(df_p, df_h):
 def bloque_ligas_jornadas(df_p, lgs):
     st.markdown("### 📊 LIGAS Y JORNADAS")
     
-    # Filtros para crear df_fl correctamente
-    col1, col2 = st.columns(2)
+    # 1. Filtros alineados en una sola fila para que no se descuadre
+    col1, col2, col3, col4 = st.columns([1.5, 2, 1.5, 1.5])
+    
     with col1:
         fecha_sel = st.date_input("Fecha:", value=datetime.now().date(), key="fecha_filtro")
     with col2:
         liga_sel = st.selectbox("Liga:", ["TODAS"] + lgs, key="liga_filtro")
         
+    # Filtramos por fecha y liga primero
     df_fl = df_p.copy()
     if fecha_sel:
         df_fl = df_fl[df_fl['Fecha_dt'].dt.date == fecha_sel]
     if liga_sel != "TODAS":
         df_fl = df_fl[df_fl['League'] == liga_sel]
         
-    # Selección de Jornada basada en los filtros
-    if not df_fl.empty:
-        jornadas = ["TODAS"] + sorted(df_fl['Matchday'].unique().tolist())
-        sj = st.selectbox("Selecciona la jornada:", jornadas)
-        df_fin = df_fl if sj == "TODAS" else df_fl[df_fl['Matchday'] == sj]
-    else:
-        df_fin = df_fl
-        st.warning("No hay partidos programados para esta fecha/liga.")
+    with col3:
+        jornadas = ["TODAS"] + sorted(df_fl['Matchday'].unique().tolist()) if not df_fl.empty else ["TODAS"]
+        sj = st.selectbox("Jornada:", jornadas)
+        
+    with col4:
+        st.write("") # Espaciadores para alinear el botón con las cajas de texto
+        st.write("")
+        # --- AQUÍ REGRESA EL BOTÓN DE LA API ---
+        if st.button("🔥 Obtener Cuotas"):
+            if liga_sel != "TODAS":
+                if liga_sel in traductor_ligas:
+                    with st.spinner("Consultando The Odds API..."):
+                        datos = obtener_cuotas_api(traductor_ligas[liga_sel])
+                        if datos:
+                            st.session_state['cuotas_actuales'] = datos
+                            st.rerun() # Recarga la página para mostrar las cuotas
+                        else:
+                            st.error("No se encontraron cuotas en la API para esta liga hoy.")
+                else:
+                    st.warning(f"Falta agregar '{liga_sel}' al diccionario traductor_ligas.")
+            else:
+                st.warning("Selecciona una liga específica (no 'TODAS') para pedir cuotas.")
+
+    # Selección final basada en la jornada
+    df_fin = df_fl if sj == "TODAS" else df_fl[df_fl['Matchday'] == sj]
+
+    if df_fin.empty:
+        st.warning("No hay partidos programados para estos filtros.")
         return pd.DataFrame()
 
     # --- PROCESAMIENTO Y VISUALIZACIÓN ---
-    if not df_fin.empty:
-        if 'cuotas_actuales' in st.session_state:
-            df_fin = agregar_cuotas_a_tabla(df_fin, st.session_state['cuotas_actuales'])
+    if 'cuotas_actuales' in st.session_state:
+        df_fin = agregar_cuotas_a_tabla(df_fin, st.session_state['cuotas_actuales'])
+    
+    df_display = df_fin.copy()
+    
+    col_emp = 'Empate_Prob' if 'Empate_Prob' in df_fin.columns else ('Empate' if 'Empate' in df_fin.columns else None)
+    
+    # Aplicamos las cuotas extraídas a la vista
+    df_display['Local'] = [f"{v:.0%} ({c})" if c else f"{v:.0%}" for v, c in zip(df_fin['1X'], df_fin.get('Cuota_L', [None]*len(df_fin)))]
+    
+    if col_emp:
+        df_display['Empate'] = [f"{v:.0%} ({c})" if c else "-" for v, c in zip(df_fin[col_emp], df_fin.get('Cuota_E', [None]*len(df_fin)))]
+    else:
+        df_display['Empate'] = "-"
         
-        df_display = df_fin.copy()
-        
-        col_emp = 'Empate_Prob' if 'Empate_Prob' in df_fin.columns else ('Empate' if 'Empate' in df_fin.columns else None)
-        
-        df_display['Local'] = [f"{v:.0%} ({c})" if c else f"{v:.0%}" for v, c in zip(df_fin['1X'], df_fin.get('Cuota_L', [None]*len(df_fin)))]
-        
-        if col_emp:
-            df_display['Empate'] = [f"{v:.0%} ({c})" if c else "-" for v, c in zip(df_fin[col_emp], df_fin.get('Cuota_E', [None]*len(df_fin)))]
-        else:
-            df_display['Empate'] = "-"
-            
-        df_display['Visita'] = [f"{v:.0%} ({c})" if c else f"{v:.0%}" for v, c in zip(df_fin['X2'], df_fin.get('Cuota_V', [None]*len(df_fin)))]
-        
-        for col in ['Over 1.5', 'Over 2.5', 'Btts']:
-            if col in df_fin.columns:
-                df_display[col] = df_fin[col].apply(lambda x: f"{x:.0%}")
-        
-        cols_mostrar = ['Date', 'Time', 'Matchday', 'League', 'Match', 'Local', 'Empate', 'Visita', 'Over 1.5', 'Over 2.5', 'Btts']
-        cols_finales = [c for c in cols_mostrar if c in df_display.columns]
-        
-        st.dataframe(
-            df_display[cols_finales].style.map(
-                aplicar_semaforo, 
-                subset=[c for c in ['Local', 'Visita', 'Over 1.5', 'Over 2.5', 'Btts'] if c in cols_finales]
-            ), 
-            use_container_width=True, 
-            hide_index=True
-        )
+    df_display['Visita'] = [f"{v:.0%} ({c})" if c else f"{v:.0%}" for v, c in zip(df_fin['X2'], df_fin.get('Cuota_V', [None]*len(df_fin)))]
+    
+    for col in ['Over 1.5', 'Over 2.5', 'Btts']:
+        if col in df_fin.columns:
+            df_display[col] = df_fin[col].apply(lambda x: f"{x:.0%}")
+    
+    cols_mostrar = ['Date', 'Time', 'Matchday', 'League', 'Match', 'Local', 'Empate', 'Visita', 'Over 1.5', 'Over 2.5', 'Btts']
+    cols_finales = [c for c in cols_mostrar if c in df_display.columns]
+    
+    st.dataframe(
+        df_display[cols_finales].style.map(
+            aplicar_semaforo, 
+            subset=[c for c in ['Local', 'Visita', 'Over 1.5', 'Over 2.5', 'Btts'] if c in cols_finales]
+        ), 
+        use_container_width=True, 
+        hide_index=True
+    )
     return df_fin
 # endregion
 

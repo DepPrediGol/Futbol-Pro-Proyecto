@@ -217,17 +217,17 @@ def ventana_analisis(r, df_h):
         st.divider()
 
 # --- NUEVA FUNCIÓN PARA THE ODDS API (Corregida) ---
-def obtener_cuotas_api():
+def obtener_cuotas_api(liga_key):
     API_KEY = "87d5d052809a75023bff788995f4d350"
-    # Esta URL consulta todos los deportes disponibles en la API
-    url = f"https://api.the-odds-api.com/v4/sports/?apiKey={API_KEY}"
+    # Ahora la URL se construye con la liga que tú selecciones
+    url = f"https://api.the-odds-api.com/v4/sports/{liga_key}/odds/?apiKey={API_KEY}&regions=eu&markets=h2h"
     
     try:
         respuesta = requests.get(url)
         if respuesta.status_code == 200:
             return respuesta.json()
         else:
-            st.error("Error al conectar con la API.")
+            st.error(f"Error {respuesta.status_code}: No se pudieron traer las cuotas.")
             return None
     except Exception as e:
         return None
@@ -258,6 +258,14 @@ def bloque_top4(df_p, df_h):
                             ventana_analisis(r, df_h)
 # endregion
 
+# Pon esto al principio de tu script o antes de donde creas el menú desplegable
+traductor_ligas = {
+    "Eliteserien_Noruega": "soccer_norway_eliteserien",
+    "Liga_Betplay_Colombia": "soccer_colombia_primera_a",
+    # Agrega aquí los nombres EXACTOS tal cual aparecen en tu menú desplegable
+    # A la izquierda: lo que ves en el menú. A la derecha: la 'key' de la API.
+}
+
 # region 2. BLOQUE LIGAS Y JORNADAS
 def bloque_ligas_jornadas(df_p, df_h, lgs):
     st.markdown("### 📊 LIGAS Y JORNADAS")
@@ -274,15 +282,28 @@ def bloque_ligas_jornadas(df_p, df_h, lgs):
     df_fin = df_fl if sj=="TODAS" else df_fl[df_fl['Matchday']==sj]
 
     # --- BOTÓN DE CUOTAS ---
+    # ... (esto va dentro de tu bloque_ligas_jornadas, donde tenías el botón anterior)
+
     with f_col4:
-        # Contenedor para aislar el botón de tu CSS global
-        container = st.container()
-        if container.button("🔄 Actualizar", key="btn_final"):
-            with st.spinner("Cargando..."):
-                datos = obtener_cuotas_api()
-                if datos:
-                    st.session_state['cuotas_crudas'] = datos
-                    st.rerun()
+        st.markdown("<br>", unsafe_allow_html=True) 
+        
+        # Este es el paso a paso:
+        # 1. Obtenemos la liga seleccionada (sl)
+        # 2. Buscamos su equivalente en el diccionario 'traductor_ligas'
+        liga_api = traductor_ligas.get(sl) 
+        
+        # 3. Configuramos el botón
+        if st.button("🔄 Actualizar Cuotas", key="btn_final"):
+            if liga_api:
+                with st.spinner(f"Conectando a la API para {sl}..."):
+                    # 4. Llamamos a la función con la key traducida
+                    datos_cuotas = obtener_cuotas_api(liga_api)
+                    
+                    if datos_cuotas:
+                        st.session_state['cuotas_actuales'] = datos_cuotas
+                        st.success("¡Cuotas cargadas!")
+            else:
+                st.warning("No tengo la configuración de API para esta liga.")
 
     # --- BUSCADOR INTELIGENTE DE LIGAS ---
     if 'cuotas_crudas' in st.session_state:

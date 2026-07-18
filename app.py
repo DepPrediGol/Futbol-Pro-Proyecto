@@ -91,18 +91,11 @@ st.markdown("""
 
 # --- 3. FUNCIONES LÓGICAS Y MATEMÁTICAS ---
 def aplicar_semaforo(val):
-    try:
-        # Extraer solo el número del porcentaje
-        str_val = str(val).split('%')[0].split('(')[0].strip()
-        num = float(str_val)
-        
-        # Colores para el texto (fuente)
-        if num >= 70: color = '#28a745' # Verde
-        elif num >= 50: color = '#ffc107' # Amarillo
-        else: color = '#dc3545' # Rojo
-        
-        return f'color: {color}; font-weight: bold'
-    except: return None
+    if isinstance(val, (int, float)):
+        if val >= 0.70: return 'color: #28a745; font-weight: bold;'
+        elif val >= 0.45: return 'color: #ffa500; font-weight: bold;'
+        else: return 'color: #dc3545; font-weight: bold;'
+    return 'color: black;'
 
 def color_letras_historial(val):
     v = str(val)
@@ -346,7 +339,7 @@ def bloque_ligas_jornadas(df_p, df_h, lgs):
             df_display[cols_mostrar].style.map(
                 aplicar_semaforo, 
                 subset=['Local', 'Visita', 'Over 1.5', 'Over 2.5', 'Btts'] # Asegúrate que estos nombres existan en df_display
-        ), 
+    ), 
     use_container_width=True, 
     hide_index=True
 )

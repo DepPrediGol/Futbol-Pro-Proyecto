@@ -281,11 +281,15 @@ def bloque_ligas_jornadas(df_p, df_h, lgs):
                     st.session_state['cuotas_crudas'] = datos
                     st.rerun()
 
-    # --- VISOR DE DATOS DE PRUEBA ---
+    # --- BUSCADOR INTELIGENTE DE LIGAS ---
     if 'cuotas_crudas' in st.session_state:
-        st.info("⚠️ ÉXITO: Aquí están los datos. Mira el formato de los nombres.")
-        st.json(st.session_state['cuotas_crudas'][:3])
-    # ----------------------------------------
+        busqueda = st.text_input("🔍 Busca tu liga (ej: Colombia, España):")
+        if busqueda:
+            datos = st.session_state['cuotas_crudas']
+            # Filtra las ligas que coincidan con tu búsqueda
+            resultados = [d for d in datos if busqueda.lower() in d['title'].lower()]
+            for res in resultados:
+                st.success(f"Liga: {res['title']} | Key para el script: `{res['key']}`")
 
     if not df_fin.empty:
         cols_f = ['1X', 'X2', 'Over 1.5', 'Over 2.5', 'Btts']

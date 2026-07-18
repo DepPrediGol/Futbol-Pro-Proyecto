@@ -285,9 +285,9 @@ traductor_ligas = {
 def bloque_ligas_jornadas(df_p, df_h, lgs):
     st.markdown("### 📊 LIGAS Y JORNADAS")
     
-    # ... (tu código de filtros y selectboxes aquí) ...
-    # Asegúrate de que aquí se defina df_fin
-    df_fin = df_fl if sj=="TODAS" else df_fl[df_fl['Matchday']==sj]
+    # Asegúrate de que sj (selección de jornada) esté definida aquí
+    # sj = ... 
+    df_fin = df_fl if sj == "TODAS" else df_fl[df_fl['Matchday'] == sj]
 
     # --- PROCESAMIENTO Y VISUALIZACIÓN ---
     if not df_fin.empty:
@@ -298,20 +298,22 @@ def bloque_ligas_jornadas(df_p, df_h, lgs):
         # 2. Creamos copia para mostrar
         df_display = df_fin.copy()
         
-        # 3. Creamos columnas combinadas (asegurando que existen las columnas necesarias)
-        # IMPORTANTE: Si 'Empate' es el nombre real en tu CSV, cámbialo abajo:
+        # 3. Identificamos columna de empate
+        col_emp = 'Empate' if 'Empate' in df_fin.columns else 'Empate_Prob'
+        
+        # 4. Creamos columnas combinadas
         df_display['Local'] = [f"{v:.0%} ({c})" if c else f"{v:.0%}" for v, c in zip(df_fin['1X'], df_fin.get('Cuota_L', [None]*len(df_fin)))]
-        df_display['Empate'] = [f"{v:.0%} ({c})" if c else "-" for v, c in zip(df_fin.get('Empate', [0]*len(df_fin)), df_fin.get('Cuota_E', [None]*len(df_fin)))]
+        df_display['Empate'] = [f"{v:.0%} ({c})" if c else "-" for v, c in zip(df_fin.get(col_emp, [0]*len(df_fin)), df_fin.get('Cuota_E', [None]*len(df_fin)))]
         df_display['Visita'] = [f"{v:.0%} ({c})" if c else f"{v:.0%}" for v, c in zip(df_fin['X2'], df_fin.get('Cuota_V', [None]*len(df_fin)))]
         
-        # 4. Formateo de las columnas de goles
+        # 5. Formateo de goles
         for col in ['Over 1.5', 'Over 2.5', 'Btts']:
             if col in df_fin.columns:
                 df_display[col] = df_fin[col].apply(lambda x: f"{x:.0%}")
         
         cols_mostrar = ['Date', 'Time', 'Matchday', 'League', 'Match', 'Local', 'Empate', 'Visita', 'Over 1.5', 'Over 2.5', 'Btts']
         
-        # 5. Visualización
+        # 6. Visualización
         st.dataframe(
             df_display[cols_mostrar].style.map(
                 aplicar_semaforo, 
@@ -329,41 +331,6 @@ def bloque_ligas_jornadas(df_p, df_h, lgs):
             resultados = [d for d in datos if busqueda.lower() in d['title'].lower()]
             for res in resultados:
                 st.success(f"Liga: {res['title']} | Key: `{res['key']}`")
-
-   # --- PROCESAMIENTO Y VISUALIZACIÓN ---
-if not df_fin.empty:
-    # 1. Aplicamos cuotas si están cargadas
-    if 'cuotas_actuales' in st.session_state:
-        df_fin = agregar_cuotas_a_tabla(df_fin, st.session_state['cuotas_actuales'])
-    
-    # 2. Creamos copia para mostrar y buscamos el nombre correcto de la columna de empate
-    df_display = df_fin.copy()
-    # Cambia 'Empate_Prob' por el nombre exacto que aparece en tu lista de columnas
-    col_empate = 'Empate_Prob' if 'Empate_Prob' in df_fin.columns else 'Empate'
-    
-    # 3. Creamos columnas combinadas (Porcentaje + Cuota)
-    # Usamos .get para evitar errores si la columna de cuota no existe
-    df_display['Local'] = [f"{v:.0%} ({c})" if c else f"{v:.0%}" for v, c in zip(df_fin['1X'], df_fin.get('Cuota_L', [None]*len(df_fin)))]
-    df_display['Empate'] = [f"{v:.0%} ({c})" if c else "-" for v, c in zip(df_fin[col_empate], df_fin.get('Cuota_E', [None]*len(df_fin)))]
-    df_display['Visita'] = [f"{v:.0%} ({c})" if c else f"{v:.0%}" for v, c in zip(df_fin['X2'], df_fin.get('Cuota_V', [None]*len(df_fin)))]
-    
-    # 4. Formateo de las columnas de goles
-    for col in ['Over 1.5', 'Over 2.5', 'Btts']:
-        if col in df_fin.columns:
-            df_display[col] = df_fin[col].apply(lambda x: f"{x:.0%}")
-    
-    cols_mostrar = ['Date', 'Time', 'Matchday', 'League', 'Match', 'Local', 'Empate', 'Visita', 'Over 1.5', 'Over 2.5', 'Btts']
-    
-    # 5. Visualización con colores aplicados a los números (usando df_fin para el cálculo)
-    # Nota: aplicamos el estilo sobre df_display pero basado en los datos originales
-    st.dataframe(
-        df_display[cols_mostrar].style.map(
-            aplicar_semaforo, 
-            subset=['Local', 'Visita', 'Over 1.5', 'Over 2.5', 'Btts']
-        ), 
-        use_container_width=True, 
-        hide_index=True
-    )
 # endregion
 
 # region 3. BLOQUE PREDICCIÓN BOMBA

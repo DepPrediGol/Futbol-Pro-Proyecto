@@ -219,15 +219,18 @@ def ventana_analisis(r, df_h):
 # --- NUEVA FUNCIÓN PARA THE ODDS API (Corregida) ---
 def obtener_cuotas_api():
     API_KEY = "87d5d052809a75023bff788995f4d350"
+    # Esta URL consulta todos los deportes disponibles en la API
     url = f"https://api.the-odds-api.com/v4/sports/?apiKey={API_KEY}"
     
-    respuesta = requests.get(url)
-    if respuesta.status_code == 200:
-        todos = respuesta.json()
-        # Esto filtra y solo nos deja ver los que tienen "soccer" en su nombre
-        soccer = [s for s in todos if "soccer" in s['key']]
-        return soccer 
-    return None
+    try:
+        respuesta = requests.get(url)
+        if respuesta.status_code == 200:
+            return respuesta.json()
+        else:
+            st.error("Error al conectar con la API.")
+            return None
+    except Exception as e:
+        return None
 
 # ==========================================
 # BLOQUES DE LA INTERFAZ
@@ -272,10 +275,10 @@ def bloque_ligas_jornadas(df_p, df_h, lgs):
 
     # --- BOTÓN DE CUOTAS ---
     with f_col4:
-        st.markdown("<br>", unsafe_allow_html=True)
-        # Probemos esto: un botón simple sin clases CSS extrañas
-        if st.button("🔄 Actualizar", key="btn_cuotas"):
-            with st.spinner("Buscando ligas..."):
+        # Contenedor para aislar el botón de tu CSS global
+        container = st.container()
+        if container.button("🔄 Actualizar", key="btn_final"):
+            with st.spinner("Cargando..."):
                 datos = obtener_cuotas_api()
                 if datos:
                     st.session_state['cuotas_crudas'] = datos

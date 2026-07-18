@@ -218,21 +218,19 @@ def ventana_analisis(r, df_h):
 
 # --- NUEVA FUNCIÓN PARA THE ODDS API (Corregida) ---
 def obtener_cuotas_api():
-    # Ya dejé tu clave exacta aquí para evitar errores
     API_KEY = "87d5d052809a75023bff788995f4d350"
-    
-    url = f"https://api.the-odds-api.com/v4/sports/soccer_upcoming/odds/?apiKey={API_KEY}&regions=eu&markets=h2h"
+    # Cambiamos a 'soccer_epl_winner' para verificar que la conexión funcione
+    url = f"https://api.the-odds-api.com/v4/sports/soccer_epl_winner/odds/?apiKey={API_KEY}&regions=eu&markets=h2h"
     
     try:
         respuesta = requests.get(url)
         if respuesta.status_code == 200:
             return respuesta.json()
         else:
-            # Ahora los errores saldrán en la pantalla principal, no ocultos
-            st.error(f"Error de la API (Código {respuesta.status_code}): {respuesta.text}")
+            st.error(f"Error {respuesta.status_code}: La API no encuentra este deporte. Verifica el nombre del deporte.")
             return None
     except Exception as e:
-        st.error(f"Error de conexión a internet: {e}")
+        st.error(f"Error de conexión: {e}")
         return None
 
 # ==========================================
@@ -279,20 +277,22 @@ def bloque_ligas_jornadas(df_p, df_h, lgs):
     # --- BOTÓN DE CUOTAS DOMADO CON CSS AGRESIVO ---
     with f_col4:
         st.markdown("<br>", unsafe_allow_html=True)
-        # CSS super específico para forzar a este único botón a ser pequeño
+        # Este CSS tiene prioridad máxima (!important) sobre todo lo demás
         st.markdown("""
-        <style>
-            div[data-testid="column"]:nth-of-type(4) button {
+            <style>
+            div[data-testid="column"]:nth-of-type(4) .stButton > button {
                 min-height: 45px !important;
                 max-height: 45px !important;
                 background-color: #000000 !important;
                 color: #ffffff !important;
                 border: 2px solid #28a745 !important;
+                padding: 0px 10px !important;
             }
-        </style>
+            </style>
         """, unsafe_allow_html=True)
         
         if st.button("🔄 Consultar Cuotas"):
+            # ... resto del código del botón igual ...
             with st.spinner("Descargando datos en vivo de la API..."):
                 datos_cuotas = obtener_cuotas_api()
                 if datos_cuotas:

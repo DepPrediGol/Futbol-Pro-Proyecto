@@ -222,15 +222,27 @@ def obtener_cuotas_api(liga_key):
     # Ahora la URL se construye con la liga que tú selecciones
     url = f"https://api.the-odds-api.com/v4/sports/{liga_key}/odds/?apiKey={API_KEY}&regions=eu&markets=h2h"
     
-    try:
-        respuesta = requests.get(url)
-        if respuesta.status_code == 200:
-            return respuesta.json()
-        else:
-            st.error(f"Error {respuesta.status_code}: No se pudieron traer las cuotas.")
-            return None
-    except Exception as e:
-        return None
+    # --- AQUÍ PEGAS LA NUEVA FUNCIÓN DE CRUCE ---
+def agregar_cuotas_a_tabla(df, datos_api):
+    df['Cuota_Local'] = None
+    df['Cuota_Visitante'] = None
+    
+    for partido_api in datos_api:
+        try:
+            home = partido_api['home_team'].lower()
+            away = partido_api['away_team'].lower()
+            
+            # Esto busca si el nombre de la API está dentro del nombre de tu tabla
+            for i, row in df.iterrows():
+                match_name = row['Match'].lower()
+                if home in match_name and away in match_name:
+                    # Aquí extrae la cuota (H2H es 'head to head')
+                    precios = partido_api['bookmakers'][0]['markets'][0]['outcomes']
+                    df.at[i, 'Cuota_Local'] = precios[0]['price']
+                    df.at[i, 'Cuota_Visitante'] = precios[2]['price']
+        except:
+            continue
+    return df
 
 # ==========================================
 # BLOQUES DE LA INTERFAZ
@@ -282,52 +294,50 @@ def bloque_ligas_jornadas(df_p, df_h, lgs):
     df_fin = df_fl if sj=="TODAS" else df_fl[df_fl['Matchday']==sj]
 
     # --- BOTÓN DE CUOTAS ---
-    # ... (esto va dentro de tu bloque_ligas_jornadas, donde tenías el botón anterior)
-
     with f_col4:
         st.markdown("<br>", unsafe_allow_html=True) 
-        
-        # Este es el paso a paso:
-        # 1. Obtenemos la liga seleccionada (sl)
-        # 2. Buscamos su equivalente en el diccionario 'traductor_ligas'
         liga_api = traductor_ligas.get(sl) 
-        
-        # 3. Configuramos el botón
         if st.button("🔄 Actualizar Cuotas", key="btn_final"):
             if liga_api:
                 with st.spinner(f"Conectando a la API para {sl}..."):
-                    # 4. Llamamos a la función con la key traducida
                     datos_cuotas = obtener_cuotas_api(liga_api)
-                    
                     if datos_cuotas:
                         st.session_state['cuotas_actuales'] = datos_cuotas
                         st.success("¡Cuotas cargadas!")
             else:
                 st.warning("No tengo la configuración de API para esta liga.")
 
-    # --- BUSCADOR INTELIGENTE DE LIGAS ---
+    # --- BUSCADOR INTELIGENTE ---
     if 'cuotas_crudas' in st.session_state:
         busqueda = st.text_input("🔍 Busca tu liga (ej: Colombia, España):")
         if busqueda:
             datos = st.session_state['cuotas_crudas']
-            # Filtra las ligas que coincidan con tu búsqueda
             resultados = [d for d in datos if busqueda.lower() in d['title'].lower()]
             for res in resultados:
-                st.success(f"Liga: {res['title']} | Key para el script: `{res['key']}`")
+                st.success(f"Liga: {res['title']} | Key: `{res['key']}`")
 
+    # --- PROCESAMIENTO Y VISUALIZACIÓN ---
     if not df_fin.empty:
+        # Aquí aplicamos las cuotas si existen en el estado
+        if 'cuotas_actuales' in st.session_state:
+            df_fin = agregar_cuotas_a_tabla(df_fin, st.session_state['cuotas_actuales'])
+        
         cols_f = ['1X', 'X2', 'Over 1.5', 'Over 2.5', 'Btts']
+        # Definimos las columnas a mostrar (agregamos las nuevas de cuotas si existen)
+        cols_mostrar = ['Date', 'Time', 'Matchday', 'League', 'Match'] + cols_f
+        if 'Cuota_Local' in df_fin.columns:
+            cols_mostrar += ['Cuota_Local', 'Cuota_Visitante']
+
         if sl != "TODAS":
             col_p, col_t = st.columns([2, 1])
-            with col_p: st.dataframe(df_fin[['Date', 'Time', 'Matchday', 'League', 'Match'] + cols_f].style.map(aplicar_semaforo, subset=cols_f).format({c: '{:.0%}' for c in cols_f}), use_container_width=True, hide_index=True)
+            with col_p: 
+                st.dataframe(df_fin[cols_mostrar].style.map(aplicar_semaforo, subset=cols_f).format({c: '{:.0%}' for c in cols_f}), use_container_width=True, hide_index=True)
             with col_t:
                 st.markdown(f"#### 🏅 Tabla: {sl}")
                 tp = generar_tabla_posiciones(df_h, sl)
                 if not tp.empty: st.dataframe(tp, use_container_width=True)
         else:
-            st.dataframe(df_fin[['Date', 'Time', 'Matchday', 'League', 'Match'] + cols_f].style.map(aplicar_semaforo, subset=cols_f).format({c: '{:.0%}' for c in cols_f}), use_container_width=True, hide_index=True)
-            
-    return df_fin
+            st.dataframe(df_fin[cols_mostrar].style.map(aplicar_semaforo, subset=cols_f).format({c: '{:.0%}' for c in cols_f}), use_container_width=True, hide_index=True)
 # endregion
 
 # region 3. BLOQUE PREDICCIÓN BOMBA

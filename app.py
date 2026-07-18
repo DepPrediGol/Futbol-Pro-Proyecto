@@ -90,12 +90,21 @@ st.markdown("""
     """, unsafe_allow_html=True)
 
 # --- 3. FUNCIONES LÓGICAS Y MATEMÁTICAS ---
-def aplicar_semaforo(val):
-    if isinstance(val, (int, float)):
-        if val >= 0.70: return 'color: #28a745; font-weight: bold;'
-        elif val >= 0.45: return 'color: #ffa500; font-weight: bold;'
-        else: return 'color: #dc3545; font-weight: bold;'
-    return 'color: black;'
+def aplicar_semaforo(data):
+    # Esto detecta si estamos analizando una columna de probabilidad
+    # Solo aplica color si la columna es una de estas
+    if data.name in ['Local', 'Visita', 'Over 1.5', 'Over 2.5', 'Btts']:
+        # Extraemos el valor numérico (ignorando la cuota entre paréntesis)
+        # Ejemplo: "62% (1.18)" -> tomamos solo "62"
+        val_str = str(data.iloc[0]).split('%')[0]
+        try:
+            val = float(val_str)
+            # Lógica de colores
+            if val >= 60: return 'background-color: #d4edda' # Verde
+            if val >= 45: return 'background-color: #fff3cd' # Amarillo
+            return 'background-color: #f8d7da' # Rojo
+        except: return ''
+    return ''
 
 def color_letras_historial(val):
     v = str(val)
@@ -224,24 +233,20 @@ def obtener_cuotas_api(liga_key):
     
     # --- AQUÍ PEGAS LA NUEVA FUNCIÓN DE CRUCE ---
 def agregar_cuotas_a_tabla(df, datos_api):
-    # Inicializamos columnas con None
     for col in ['Cuota_L', 'Cuota_E', 'Cuota_V']: df[col] = None
     
-    for partido_api in datos_api:
-        h_api = partido_api['home_team'].lower()
-        a_api = partido_api['away_team'].lower()
-        
+    for partido in datos_api:
+        # Buscamos el mercado 'h2h' (head to head)
+        market = next((m for m in partido['bookmakers'][0]['markets'] if m['key'] == 'h2h'), None)
+        if not market: continue
+            
         for i, row in df.iterrows():
-            m_row = row['Match'].lower()
-            # Si el equipo de la API está contenido en tu nombre de tabla, es coincidencia!
-            if (h_api in m_row) or (a_api in m_row):
-                try:
-                    # 'outcomes' generalmente tiene: [0]=Local, [1]=Empate, [2]=Visitante
-                    p = partido_api['bookmakers'][0]['markets'][0]['outcomes']
-                    df.at[i, 'Cuota_L'] = p[0]['price']
-                    df.at[i, 'Cuota_E'] = p[1]['price']
-                    df.at[i, 'Cuota_V'] = p[2]['price']
-                except: continue
+            if partido['home_team'].lower() in row['Match'].lower():
+                # Asignamos según el nombre del equipo
+                for outcome in market['outcomes']:
+                    if outcome['name'] == partido['home_team']: df.at[i, 'Cuota_L'] = outcome['price']
+                    elif outcome['name'] == 'Draw': df.at[i, 'Cuota_E'] = outcome['price']
+                    else: df.at[i, 'Cuota_V'] = outcome['price']
     return df
 
 # ==========================================
@@ -318,34 +323,35 @@ def bloque_ligas_jornadas(df_p, df_h, lgs):
 
    # --- PROCESAMIENTO Y VISUALIZACIÓN ---
     if not df_fin.empty:
-        # 1. Aplicamos las cuotas si existen
         if 'cuotas_actuales' in st.session_state:
             df_fin = agregar_cuotas_a_tabla(df_fin, st.session_state['cuotas_actuales'])
-            
-            # 2. Creamos columnas combinadas (Porcentaje + Cuota)
-            # Solo si la función de cruce encontró datos (Cuota_L no es None)
-            df_fin['Local'] = df_fin.apply(lambda r: f"{r['1X']:.0%} ({r['Cuota_L']})" if r['Cuota_L'] else f"{r['1X']:.0%}", axis=1)
-            df_fin['Empate'] = df_fin.apply(lambda r: f"({r['Cuota_E']})" if r['Cuota_E'] else "-", axis=1)
-            df_fin['Visita'] = df_fin.apply(lambda r: f"{r['X2']:.0%} ({r['Cuota_V']})" if r['Cuota_V'] else f"{r['X2']:.0%}", axis=1)
-        else:
-            # Si no hay cuotas, mantenemos los nombres originales para no romper nada
-            df_fin = df_fin.rename(columns={'1X': 'Local', 'X2': 'Visita'})
-            df_fin['Empate'] = "-"
+        
+        # Función para formatear porcentaje + cuota
+        def formatear_celda(val, cuota):
+            if cuota: return f"{val:.0%} ({cuota})"
+            return f"{val:.0%}"
 
-        # 3. Definimos las columnas a mostrar
+        # Aplicamos formato a las columnas existentes
+        df_display = df_fin.copy()
+        df_display['Local'] = [formatear_celda(v, c) for v, c in zip(df_fin['1X'], df_fin['Cuota_L'])]
+        df_display['Empate'] = [f"({c})" if c else "-" for c in df_fin['Cuota_E']]
+        df_display['Visita'] = [formatear_celda(v, c) for v, c in zip(df_fin['X2'], df_fin['Cuota_V'])]
+        
+        # Formateo de las columnas de Over/Btts
+        for col in ['Over 1.5', 'Over 2.5', 'Btts']:
+            df_display[col] = df_fin[col].apply(lambda x: f"{x:.0%}")
+
         cols_mostrar = ['Date', 'Time', 'Matchday', 'League', 'Match', 'Local', 'Empate', 'Visita', 'Over 1.5', 'Over 2.5', 'Btts']
         
-        # 4. Visualización
-        if sl != "TODAS":
-            col_p, col_t = st.columns([2, 1])
-            with col_p: 
-                st.dataframe(df_fin[cols_mostrar], use_container_width=True, hide_index=True)
-            with col_t:
-                st.markdown(f"#### 🏅 Tabla: {sl}")
-                tp = generar_tabla_posiciones(df_h, sl)
-                if not tp.empty: st.dataframe(tp, use_container_width=True)
-        else:
-            st.dataframe(df_fin[cols_mostrar], use_container_width=True, hide_index=True)
+        # PINTAMOS CON COLORES
+        st.dataframe(
+            df_display[cols_mostrar].style.map(
+                aplicar_semaforo, 
+                subset=['Local', 'Visita', 'Over 1.5', 'Over 2.5', 'Btts'] # Asegúrate que estos nombres existan en df_display
+        ), 
+    use_container_width=True, 
+    hide_index=True
+)
 # endregion
 
 # region 3. BLOQUE PREDICCIÓN BOMBA

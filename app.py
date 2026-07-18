@@ -282,7 +282,8 @@ traductor_ligas = {
 }
 
 # region 2. BLOQUE LIGAS Y JORNADAS
-def bloque_ligas_jornadas(df_p, df_h, lgs, df_fl):
+# Asegúrate de incluir df_fl al final de los paréntesis
+df_filtrado = bloque_ligas_jornadas(df_p, df_h, lgs, df_fl)
     st.markdown("### 📊 LIGAS Y JORNADAS")
     
     # 1. Definimos la selección de jornada (asegúrate de que esto coincida con tu interfaz)

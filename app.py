@@ -270,7 +270,6 @@ def bloque_top4(df_p, df_h):
 def bloque_ligas_jornadas(df_p, df_h, lgs):
     st.markdown("### 📊 LIGAS Y JORNADAS")
     
-    # Creamos 4 columnas en vez de 3
     f_col1, f_col2, f_col3, f_col4 = st.columns([1, 1, 1, 1])
     
     with f_col1: sf = st.date_input("Filtrar por Fecha:", value=None, key="f_act_s")
@@ -282,16 +281,30 @@ def bloque_ligas_jornadas(df_p, df_h, lgs):
     with f_col3: sj = st.selectbox("Seleccione Jornada:", ["TODAS"] + sorted(df_fl['Matchday'].unique().tolist(), reverse=True) if not df_fl.empty else ["TODAS"], key="j_act_s")
     df_fin = df_fl if sj=="TODAS" else df_fl[df_fl['Matchday']==sj]
 
-    # --- NUEVO BOTÓN EN LA CUARTA COLUMNA ---
+    # --- NUEVO BOTÓN CORREGIDO (Tamaño y Nombre) ---
     with f_col4:
-        st.markdown("<br>", unsafe_allow_html=True) # Espacio para alinear con los cuadros de texto
-        if st.button("🔄 Consultar Cuotas (1 Crédito)"):
-            with st.spinner("Conectando con The Odds API..."):
+        st.markdown("<br>", unsafe_allow_html=True)
+        # Este pequeño CSS anula los 200px de altura solo para esta columna
+        st.markdown("""<style>
+            div[data-testid="column"]:nth-child(4) div.stButton > button {
+                min-height: 45px !important;
+                max-height: 45px !important;
+            }
+        </style>""", unsafe_allow_html=True)
+        
+        if st.button("🔄 Consultar Cuotas"):
+            with st.spinner("Conectando..."):
                 datos_cuotas = obtener_cuotas_api()
                 if datos_cuotas:
                     st.success("¡Descarga exitosa!")
                     st.session_state['cuotas_crudas'] = datos_cuotas
     # ----------------------------------------
+
+    # --- VISOR DE DATOS MOVIDO AQUÍ PARA QUE LO VEAS INMEDIATAMENTE ---
+    if 'cuotas_crudas' in st.session_state:
+        st.info("⚠️ DATOS DE LA API: Revisa cómo llegan los nombres de los equipos.")
+        st.json(st.session_state['cuotas_crudas'][:3])
+    # ------------------------------------------------------------------
 
     if not df_fin.empty:
         cols_f = ['1X', 'X2', 'Over 1.5', 'Over 2.5', 'Btts']
@@ -382,13 +395,7 @@ with tab_soccer:
     
     # 4. Mostrar Historial
     bloque_historial(df_h, lgs)
-    
-# Mostrar datos crudos de la API si existen
-    if 'cuotas_crudas' in st.session_state:
-        st.divider()
-        st.markdown("### 🛠️ DATOS CRUDOS DE LA API (Modo Prueba)")
-        st.write("Mira cómo llegan los nombres de los equipos desde la casa de apuestas. Esto es clave para el siguiente paso.")
-        st.json(st.session_state['cuotas_crudas'][:3]) # Muestra solo los primeros 3 para no saturar la pantalla
+
 
 with tab_basket:
     # 5. Mostrar módulo de Basketball

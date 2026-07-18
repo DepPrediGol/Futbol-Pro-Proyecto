@@ -91,19 +91,18 @@ st.markdown("""
 
 # --- 3. FUNCIONES LÓGICAS Y MATEMÁTICAS ---
 def aplicar_semaforo(val):
-    # Intentamos convertir el valor a un número aunque tenga texto (ej: "62% (1.18)")
     try:
-        # Extraemos solo la parte del porcentaje antes del símbolo %
-        # Si 'val' es un número (como 0.62), lo convertimos, si es texto, lo limpiamos
+        # Extraer solo el número del porcentaje
         str_val = str(val).split('%')[0].split('(')[0].strip()
         num = float(str_val)
         
-        # Lógica de colores basada en el valor numérico
-        if num >= 60: return 'background-color: #d4edda' # Verde
-        if num >= 45: return 'background-color: #fff3cd' # Amarillo
-        return 'background-color: #f8d7da' # Rojo
-    except:
-        return '' # Si no es un número (como el Empate "-"), no pintamos nada
+        # Colores para el texto (fuente)
+        if num >= 70: color = '#28a745' # Verde
+        elif num >= 50: color = '#ffc107' # Amarillo
+        else: color = '#dc3545' # Rojo
+        
+        return f'color: {color}; font-weight: bold'
+    except: return None
 
 def color_letras_historial(val):
     v = str(val)
@@ -227,8 +226,8 @@ def ventana_analisis(r, df_h):
 # --- NUEVA FUNCIÓN PARA THE ODDS API (Corregida) ---
 def obtener_cuotas_api(liga_key):
     API_KEY = "87d5d052809a75023bff788995f4d350"
-    # Ahora la URL se construye con la liga que tú selecciones
-    url = f"https://api.the-odds-api.com/v4/sports/{liga_key}/odds/?apiKey={API_KEY}&regions=eu&markets=h2h"
+    # Cambia el parámetro 'markets' en tu URL de la API:
+    url = f"https://api.the-odds-api.com/v4/sports/{liga_key}/odds/?apiKey={API_KEY}&regions=eu&markets=h2h,totals,btts"
     
     # --- AQUÍ PEGAS LA NUEVA FUNCIÓN DE CRUCE ---
 def agregar_cuotas_a_tabla(df, datos_api):
@@ -324,17 +323,15 @@ def bloque_ligas_jornadas(df_p, df_h, lgs):
     if not df_fin.empty:
         if 'cuotas_actuales' in st.session_state:
             df_fin = agregar_cuotas_a_tabla(df_fin, st.session_state['cuotas_actuales'])
-        
-        # Función para formatear porcentaje + cuota
-        def formatear_celda(val, cuota):
-            if cuota: return f"{val:.0%} ({cuota})"
-            return f"{val:.0%}"
-
-        # Aplicamos formato a las columnas existentes
+            
+        # 1. Creamos la copia para mostrar
         df_display = df_fin.copy()
-        df_display['Local'] = [formatear_celda(v, c) for v, c in zip(df_fin['1X'], df_fin['Cuota_L'])]
-        df_display['Empate'] = [f"({c})" if c else "-" for c in df_fin['Cuota_E']]
-        df_display['Visita'] = [formatear_celda(v, c) for v, c in zip(df_fin['X2'], df_fin['Cuota_V'])]
+        
+        # 2. Creamos columnas combinadas (asegurando que existen las columnas necesarias)
+        # Nota: Verifica que 'Empate_Prob' exista en tu df_fin, si no, usa el nombre correcto
+        df_display['Local'] = [f"{v:.0%} ({c})" if c else f"{v:.0%}" for v, c in zip(df_fin['1X'], df_fin['Cuota_L'])]
+        df_display['Empate'] = [f"{v:.0%} ({c})" if c else "-" for v, c in zip(df_fin['Empate_Prob'], df_fin['Cuota_E'])]
+        df_display['Visita'] = [f"{v:.0%} ({c})" if c else f"{v:.0%}" for v, c in zip(df_fin['X2'], df_fin['Cuota_V'])]
         
         # Formateo de las columnas de Over/Btts
         for col in ['Over 1.5', 'Over 2.5', 'Btts']:

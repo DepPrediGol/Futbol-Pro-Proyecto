@@ -330,7 +330,7 @@ def bloque_ligas_jornadas(df_p, df_h, lgs):
         # 2. Creamos columnas combinadas (asegurando que existen las columnas necesarias)
         # Nota: Verifica que 'Empate_Prob' exista en tu df_fin, si no, usa el nombre correcto
         df_display['Local'] = [f"{v:.0%} ({c})" if c else f"{v:.0%}" for v, c in zip(df_fin['1X'], df_fin['Cuota_L'])]
-        df_display['Empate'] = [f"{v:.0%} ({c})" if c else "-" for v, c in zip(df_fin['Empate_Prob'], df_fin['Cuota_E'])]
+        df_display['Empate'] = [f"{v:.0%} ({c})" if c else "-" for v, c in zip(df_fin['Empate'], df_fin['Cuota_E'])]
         df_display['Visita'] = [f"{v:.0%} ({c})" if c else f"{v:.0%}" for v, c in zip(df_fin['X2'], df_fin['Cuota_V'])]
         
         # Formateo de las columnas de Over/Btts

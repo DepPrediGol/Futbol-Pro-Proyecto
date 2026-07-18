@@ -216,28 +216,23 @@ def ventana_analisis(r, df_h):
             st.dataframe(df_eq[['Date', 'Time', 'Matchday', 'Match', 'Result', '1X', 'X2', 'Over 1.5', 'Over 2.5', 'Btts']].style.map(color_letras_historial, subset=['1X', 'X2', 'Over 1.5', 'Over 2.5', 'Btts']), use_container_width=True, hide_index=True)
         st.divider()
 
-# --- NUEVA FUNCIÓN PARA THE ODDS API ---
+# --- NUEVA FUNCIÓN PARA THE ODDS API (Corregida) ---
 def obtener_cuotas_api():
-    # ⚠️ REEMPLAZA ESTO CON TU CLAVE REAL DE THE ODDS API
+    # Ya dejé tu clave exacta aquí para evitar errores
     API_KEY = "87d5d052809a75023bff788995f4d350"
     
-    # Parámetros: 'soccer_upcoming' trae los próximos partidos de fútbol
-    # regions='eu' usa casas de apuestas europeas (suelen ser las más precisas)
-    # markets='h2h' trae las cuotas de Local, Empate y Visitante (1X2)
     url = f"https://api.the-odds-api.com/v4/sports/soccer_upcoming/odds/?apiKey={API_KEY}&regions=eu&markets=h2h"
     
     try:
         respuesta = requests.get(url)
-        
-        # Validar que la API respondió bien (Código 200)
         if respuesta.status_code == 200:
-            datos = respuesta.json()
-            return datos
+            return respuesta.json()
         else:
-            st.sidebar.error(f"Error en la API: {respuesta.status_code}")
+            # Ahora los errores saldrán en la pantalla principal, no ocultos
+            st.error(f"Error de la API (Código {respuesta.status_code}): {respuesta.text}")
             return None
     except Exception as e:
-        st.sidebar.error(f"Error de conexión: {e}")
+        st.error(f"Error de conexión a internet: {e}")
         return None
 
 # ==========================================
@@ -281,30 +276,35 @@ def bloque_ligas_jornadas(df_p, df_h, lgs):
     with f_col3: sj = st.selectbox("Seleccione Jornada:", ["TODAS"] + sorted(df_fl['Matchday'].unique().tolist(), reverse=True) if not df_fl.empty else ["TODAS"], key="j_act_s")
     df_fin = df_fl if sj=="TODAS" else df_fl[df_fl['Matchday']==sj]
 
-    # --- NUEVO BOTÓN CORREGIDO (Tamaño y Nombre) ---
+    # --- BOTÓN DE CUOTAS DOMADO CON CSS AGRESIVO ---
     with f_col4:
         st.markdown("<br>", unsafe_allow_html=True)
-        # Este pequeño CSS anula los 200px de altura solo para esta columna
-        st.markdown("""<style>
-            div[data-testid="column"]:nth-child(4) div.stButton > button {
+        # CSS super específico para forzar a este único botón a ser pequeño
+        st.markdown("""
+        <style>
+            div[data-testid="column"]:nth-of-type(4) button {
                 min-height: 45px !important;
                 max-height: 45px !important;
+                background-color: #000000 !important;
+                color: #ffffff !important;
+                border: 2px solid #28a745 !important;
             }
-        </style>""", unsafe_allow_html=True)
+        </style>
+        """, unsafe_allow_html=True)
         
         if st.button("🔄 Consultar Cuotas"):
-            with st.spinner("Conectando..."):
+            with st.spinner("Descargando datos en vivo de la API..."):
                 datos_cuotas = obtener_cuotas_api()
                 if datos_cuotas:
-                    st.success("¡Descarga exitosa!")
+                    st.success("¡Datos descargados con éxito!")
                     st.session_state['cuotas_crudas'] = datos_cuotas
     # ----------------------------------------
 
-    # --- VISOR DE DATOS MOVIDO AQUÍ PARA QUE LO VEAS INMEDIATAMENTE ---
+    # --- VISOR DE DATOS DE PRUEBA ---
     if 'cuotas_crudas' in st.session_state:
-        st.info("⚠️ DATOS DE LA API: Revisa cómo llegan los nombres de los equipos.")
+        st.info("⚠️ ÉXITO: Aquí están los datos. Mira el formato de los nombres.")
         st.json(st.session_state['cuotas_crudas'][:3])
-    # ------------------------------------------------------------------
+    # ----------------------------------------
 
     if not df_fin.empty:
         cols_f = ['1X', 'X2', 'Over 1.5', 'Over 2.5', 'Btts']

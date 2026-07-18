@@ -224,24 +224,24 @@ def obtener_cuotas_api(liga_key):
     
     # --- AQUÍ PEGAS LA NUEVA FUNCIÓN DE CRUCE ---
 def agregar_cuotas_a_tabla(df, datos_api):
-    df['Cuota_Local'] = None
-    df['Cuota_Visitante'] = None
+    # Inicializamos columnas con None
+    for col in ['Cuota_L', 'Cuota_E', 'Cuota_V']: df[col] = None
     
     for partido_api in datos_api:
-        try:
-            home = partido_api['home_team'].lower()
-            away = partido_api['away_team'].lower()
-            
-            # Esto busca si el nombre de la API está dentro del nombre de tu tabla
-            for i, row in df.iterrows():
-                match_name = row['Match'].lower()
-                if home in match_name and away in match_name:
-                    # Aquí extrae la cuota (H2H es 'head to head')
-                    precios = partido_api['bookmakers'][0]['markets'][0]['outcomes']
-                    df.at[i, 'Cuota_Local'] = precios[0]['price']
-                    df.at[i, 'Cuota_Visitante'] = precios[2]['price']
-        except:
-            continue
+        h_api = partido_api['home_team'].lower()
+        a_api = partido_api['away_team'].lower()
+        
+        for i, row in df.iterrows():
+            m_row = row['Match'].lower()
+            # Si el equipo de la API está contenido en tu nombre de tabla, es coincidencia!
+            if (h_api in m_row) or (a_api in m_row):
+                try:
+                    # 'outcomes' generalmente tiene: [0]=Local, [1]=Empate, [2]=Visitante
+                    p = partido_api['bookmakers'][0]['markets'][0]['outcomes']
+                    df.at[i, 'Cuota_L'] = p[0]['price']
+                    df.at[i, 'Cuota_E'] = p[1]['price']
+                    df.at[i, 'Cuota_V'] = p[2]['price']
+                except: continue
     return df
 
 # ==========================================
@@ -316,28 +316,36 @@ def bloque_ligas_jornadas(df_p, df_h, lgs):
             for res in resultados:
                 st.success(f"Liga: {res['title']} | Key: `{res['key']}`")
 
-    # --- PROCESAMIENTO Y VISUALIZACIÓN ---
+   # --- PROCESAMIENTO Y VISUALIZACIÓN ---
     if not df_fin.empty:
-        # Aquí aplicamos las cuotas si existen en el estado
+        # 1. Aplicamos las cuotas si existen
         if 'cuotas_actuales' in st.session_state:
             df_fin = agregar_cuotas_a_tabla(df_fin, st.session_state['cuotas_actuales'])
-        
-        cols_f = ['1X', 'X2', 'Over 1.5', 'Over 2.5', 'Btts']
-        # Definimos las columnas a mostrar (agregamos las nuevas de cuotas si existen)
-        cols_mostrar = ['Date', 'Time', 'Matchday', 'League', 'Match'] + cols_f
-        if 'Cuota_Local' in df_fin.columns:
-            cols_mostrar += ['Cuota_Local', 'Cuota_Visitante']
+            
+            # 2. Creamos columnas combinadas (Porcentaje + Cuota)
+            # Solo si la función de cruce encontró datos (Cuota_L no es None)
+            df_fin['Local'] = df_fin.apply(lambda r: f"{r['1X']:.0%} ({r['Cuota_L']})" if r['Cuota_L'] else f"{r['1X']:.0%}", axis=1)
+            df_fin['Empate'] = df_fin.apply(lambda r: f"({r['Cuota_E']})" if r['Cuota_E'] else "-", axis=1)
+            df_fin['Visita'] = df_fin.apply(lambda r: f"{r['X2']:.0%} ({r['Cuota_V']})" if r['Cuota_V'] else f"{r['X2']:.0%}", axis=1)
+        else:
+            # Si no hay cuotas, mantenemos los nombres originales para no romper nada
+            df_fin = df_fin.rename(columns={'1X': 'Local', 'X2': 'Visita'})
+            df_fin['Empate'] = "-"
 
+        # 3. Definimos las columnas a mostrar
+        cols_mostrar = ['Date', 'Time', 'Matchday', 'League', 'Match', 'Local', 'Empate', 'Visita', 'Over 1.5', 'Over 2.5', 'Btts']
+        
+        # 4. Visualización
         if sl != "TODAS":
             col_p, col_t = st.columns([2, 1])
             with col_p: 
-                st.dataframe(df_fin[cols_mostrar].style.map(aplicar_semaforo, subset=cols_f).format({c: '{:.0%}' for c in cols_f}), use_container_width=True, hide_index=True)
+                st.dataframe(df_fin[cols_mostrar], use_container_width=True, hide_index=True)
             with col_t:
                 st.markdown(f"#### 🏅 Tabla: {sl}")
                 tp = generar_tabla_posiciones(df_h, sl)
                 if not tp.empty: st.dataframe(tp, use_container_width=True)
         else:
-            st.dataframe(df_fin[cols_mostrar].style.map(aplicar_semaforo, subset=cols_f).format({c: '{:.0%}' for c in cols_f}), use_container_width=True, hide_index=True)
+            st.dataframe(df_fin[cols_mostrar], use_container_width=True, hide_index=True)
 # endregion
 
 # region 3. BLOQUE PREDICCIÓN BOMBA

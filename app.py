@@ -329,10 +329,11 @@ def bloque_ligas_jornadas(df_p, df_h, lgs):
             if cuota: return f"{val:.0%} ({cuota})"
             return f"{val:.0%}"
 
-        # 2. Creamos columnas combinadas manteniendo el valor original para los colores
-        df_display['Local'] = [f"{v:.0%} ({c})" if c else f"{v:.0%}" for v, c in zip(df_fin['1X'], df_fin['Cuota_L'])]
-        df_display['Empate'] = [f"{v:.0%} ({c})" if c else "-" for v, c in zip(df_fin['Empate_Prob'], df_fin['Cuota_E'])]
-        df_display['Visita'] = [f"{v:.0%} ({c})" if c else f"{v:.0%}" for v, c in zip(df_fin['X2'], df_fin['Cuota_V'])]
+        # Aplicamos formato a las columnas existentes
+        df_display = df_fin.copy()
+        df_display['Local'] = [formatear_celda(v, c) for v, c in zip(df_fin['1X'], df_fin['Cuota_L'])]
+        df_display['Empate'] = [f"({c})" if c else "-" for c in df_fin['Cuota_E']]
+        df_display['Visita'] = [formatear_celda(v, c) for v, c in zip(df_fin['X2'], df_fin['Cuota_V'])]
         
         # Formateo de las columnas de Over/Btts
         for col in ['Over 1.5', 'Over 2.5', 'Btts']:

@@ -282,38 +282,41 @@ traductor_ligas = {
 }
 
 # region 2. BLOQUE LIGAS Y JORNADAS
-def bloque_ligas_jornadas(df_p, df_h, lgs):
+def bloque_ligas_jornadas(df_p, df_h, lgs, df_fl):
     st.markdown("### 📊 LIGAS Y JORNADAS")
     
-    # Asegúrate de que sj (selección de jornada) esté definida aquí
-    # sj = ... 
+    # 1. Definimos la selección de jornada (asegúrate de que esto coincida con tu interfaz)
+    jornadas = ["TODAS"] + sorted(df_fl['Matchday'].unique().tolist())
+    sj = st.selectbox("Selecciona la jornada:", jornadas)
+    
+    # 2. Filtramos los datos
     df_fin = df_fl if sj == "TODAS" else df_fl[df_fl['Matchday'] == sj]
 
     # --- PROCESAMIENTO Y VISUALIZACIÓN ---
     if not df_fin.empty:
-        # 1. Aplicamos cuotas si están cargadas
+        # Aplicamos cuotas si están cargadas en sesión
         if 'cuotas_actuales' in st.session_state:
             df_fin = agregar_cuotas_a_tabla(df_fin, st.session_state['cuotas_actuales'])
         
-        # 2. Creamos copia para mostrar
+        # Copia para visualización
         df_display = df_fin.copy()
         
-        # 3. Identificamos columna de empate
+        # Identificamos columna de empate
         col_emp = 'Empate' if 'Empate' in df_fin.columns else 'Empate_Prob'
         
-        # 4. Creamos columnas combinadas
+        # Creamos columnas combinadas (Porcentaje + Cuota)
         df_display['Local'] = [f"{v:.0%} ({c})" if c else f"{v:.0%}" for v, c in zip(df_fin['1X'], df_fin.get('Cuota_L', [None]*len(df_fin)))]
         df_display['Empate'] = [f"{v:.0%} ({c})" if c else "-" for v, c in zip(df_fin.get(col_emp, [0]*len(df_fin)), df_fin.get('Cuota_E', [None]*len(df_fin)))]
         df_display['Visita'] = [f"{v:.0%} ({c})" if c else f"{v:.0%}" for v, c in zip(df_fin['X2'], df_fin.get('Cuota_V', [None]*len(df_fin)))]
         
-        # 5. Formateo de goles
+        # Formateo de columnas de goles
         for col in ['Over 1.5', 'Over 2.5', 'Btts']:
             if col in df_fin.columns:
                 df_display[col] = df_fin[col].apply(lambda x: f"{x:.0%}")
         
         cols_mostrar = ['Date', 'Time', 'Matchday', 'League', 'Match', 'Local', 'Empate', 'Visita', 'Over 1.5', 'Over 2.5', 'Btts']
         
-        # 6. Visualización
+        # Visualización final
         st.dataframe(
             df_display[cols_mostrar].style.map(
                 aplicar_semaforo, 

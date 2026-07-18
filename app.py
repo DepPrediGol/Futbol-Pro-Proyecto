@@ -219,19 +219,15 @@ def ventana_analisis(r, df_h):
 # --- NUEVA FUNCIÓN PARA THE ODDS API (Corregida) ---
 def obtener_cuotas_api():
     API_KEY = "87d5d052809a75023bff788995f4d350"
-    # Esta URL nos dará la lista de todos los deportes soportados
     url = f"https://api.the-odds-api.com/v4/sports/?apiKey={API_KEY}"
     
-    try:
-        respuesta = requests.get(url)
-        if respuesta.status_code == 200:
-            return respuesta.json() # Esto nos devolverá una lista de deportes
-        else:
-            st.error(f"Error {respuesta.status_code}: No se pudo conectar.")
-            return None
-    except Exception as e:
-        st.error(f"Error de conexión: {e}")
-        return None
+    respuesta = requests.get(url)
+    if respuesta.status_code == 200:
+        todos = respuesta.json()
+        # Esto filtra y solo nos deja ver los que tienen "soccer" en su nombre
+        soccer = [s for s in todos if "soccer" in s['key']]
+        return soccer 
+    return None
 
 # ==========================================
 # BLOQUES DE LA INTERFAZ
@@ -274,17 +270,16 @@ def bloque_ligas_jornadas(df_p, df_h, lgs):
     with f_col3: sj = st.selectbox("Seleccione Jornada:", ["TODAS"] + sorted(df_fl['Matchday'].unique().tolist(), reverse=True) if not df_fl.empty else ["TODAS"], key="j_act_s")
     df_fin = df_fl if sj=="TODAS" else df_fl[df_fl['Matchday']==sj]
 
-    # --- BOTÓN DE CUOTAS DOMADO CON CSS AGRESIVO ---
+    # --- BOTÓN DE CUOTAS ---
     with f_col4:
         st.markdown("<br>", unsafe_allow_html=True)
-        # Usamos un contenedor para intentar limitar el botón
-        if st.button("🔄 Consultar"):
-            with st.spinner("Consultando..."):
+        # Probemos esto: un botón simple sin clases CSS extrañas
+        if st.button("🔄 Actualizar", key="btn_cuotas"):
+            with st.spinner("Buscando ligas..."):
                 datos = obtener_cuotas_api()
                 if datos:
-                    st.success("¡Conexión exitosa!")
                     st.session_state['cuotas_crudas'] = datos
-    # ----------------------------------------
+                    st.rerun()
 
     # --- VISOR DE DATOS DE PRUEBA ---
     if 'cuotas_crudas' in st.session_state:

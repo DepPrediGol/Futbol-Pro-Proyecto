@@ -90,21 +90,20 @@ st.markdown("""
     """, unsafe_allow_html=True)
 
 # --- 3. FUNCIONES LÓGICAS Y MATEMÁTICAS ---
-def aplicar_semaforo(data):
-    # Esto detecta si estamos analizando una columna de probabilidad
-    # Solo aplica color si la columna es una de estas
-    if data.name in ['Local', 'Visita', 'Over 1.5', 'Over 2.5', 'Btts']:
-        # Extraemos el valor numérico (ignorando la cuota entre paréntesis)
-        # Ejemplo: "62% (1.18)" -> tomamos solo "62"
-        val_str = str(data.iloc[0]).split('%')[0]
-        try:
-            val = float(val_str)
-            # Lógica de colores
-            if val >= 60: return 'background-color: #d4edda' # Verde
-            if val >= 45: return 'background-color: #fff3cd' # Amarillo
-            return 'background-color: #f8d7da' # Rojo
-        except: return ''
-    return ''
+def aplicar_semaforo(val):
+    # Intentamos convertir el valor a un número aunque tenga texto (ej: "62% (1.18)")
+    try:
+        # Extraemos solo la parte del porcentaje antes del símbolo %
+        # Si 'val' es un número (como 0.62), lo convertimos, si es texto, lo limpiamos
+        str_val = str(val).split('%')[0].split('(')[0].strip()
+        num = float(str_val)
+        
+        # Lógica de colores basada en el valor numérico
+        if num >= 60: return 'background-color: #d4edda' # Verde
+        if num >= 45: return 'background-color: #fff3cd' # Amarillo
+        return 'background-color: #f8d7da' # Rojo
+    except:
+        return '' # Si no es un número (como el Empate "-"), no pintamos nada
 
 def color_letras_historial(val):
     v = str(val)

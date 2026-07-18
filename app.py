@@ -282,11 +282,10 @@ traductor_ligas = {
 }
 
 # region 2. BLOQUE LIGAS Y JORNADAS
-# Asegúrate de incluir df_fl al final de los paréntesis
-df_filtrado = bloque_ligas_jornadas(df_p, df_h, lgs, df_fl)
+def bloque_ligas_jornadas(df_p, df_h, lgs, df_fl):
     st.markdown("### 📊 LIGAS Y JORNADAS")
     
-    # 1. Definimos la selección de jornada (asegúrate de que esto coincida con tu interfaz)
+    # 1. Definimos la selección de jornada
     jornadas = ["TODAS"] + sorted(df_fl['Matchday'].unique().tolist())
     sj = st.selectbox("Selecciona la jornada:", jornadas)
     
@@ -317,7 +316,7 @@ df_filtrado = bloque_ligas_jornadas(df_p, df_h, lgs, df_fl)
         
         cols_mostrar = ['Date', 'Time', 'Matchday', 'League', 'Match', 'Local', 'Empate', 'Visita', 'Over 1.5', 'Over 2.5', 'Btts']
         
-        # Visualización final
+        # Visualización
         st.dataframe(
             df_display[cols_mostrar].style.map(
                 aplicar_semaforo, 
@@ -326,16 +325,10 @@ df_filtrado = bloque_ligas_jornadas(df_p, df_h, lgs, df_fl)
             use_container_width=True, 
             hide_index=True
         )
-
-    # --- BUSCADOR INTELIGENTE ---
-    if 'cuotas_crudas' in st.session_state:
-        busqueda = st.text_input("🔍 Busca tu liga (ej: Colombia, España):")
-        if busqueda:
-            datos = st.session_state['cuotas_crudas']
-            resultados = [d for d in datos if busqueda.lower() in d['title'].lower()]
-            for res in resultados:
-                st.success(f"Liga: {res['title']} | Key: `{res['key']}`")
 # endregion
+
+# AQUÍ ABAJO es donde llamas a la función una sola vez:
+df_filtrado = bloque_ligas_jornadas(df_p, df_h, lgs, df_fl)
 
 # region 3. BLOQUE PREDICCIÓN BOMBA
 def bloque_prediccion_bomba(df_fin, df_h):

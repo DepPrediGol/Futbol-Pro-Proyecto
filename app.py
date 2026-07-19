@@ -6,7 +6,6 @@ import math
 import re
 import os
 from datetime import datetime, timedelta
-import requests
 
 # --- 1. CONFIGURACIÓN DE PÁGINA ---
 st.set_page_config(page_title="Bet Pro Futbol AI", layout="wide", page_icon="⚽")
@@ -216,29 +215,6 @@ def ventana_analisis(r, df_h):
             st.dataframe(df_eq[['Date', 'Time', 'Matchday', 'Match', 'Result', '1X', 'X2', 'Over 1.5', 'Over 2.5', 'Btts']].style.map(color_letras_historial, subset=['1X', 'X2', 'Over 1.5', 'Over 2.5', 'Btts']), use_container_width=True, hide_index=True)
         st.divider()
 
-# --- NUEVA FUNCIÓN PARA THE ODDS API (Corregida) ---
-def obtener_cuotas_api(liga_key):
-    API_KEY = "87d5d052809a75023bff788995f4d350"
-    # Ahora la URL se construye con la liga que tú selecciones
-    url = f"https://api.the-odds-api.com/v4/sports/{liga_key}/odds/?apiKey={API_KEY}&regions=eu&markets=h2h"
-    
-    # --- AQUÍ PEGAS LA NUEVA FUNCIÓN DE CRUCE ---
-def agregar_cuotas_a_tabla(df, datos_api):
-    for col in ['Cuota_L', 'Cuota_E', 'Cuota_V']: df[col] = None
-    
-    for partido in datos_api:
-        # Buscamos el mercado 'h2h' (head to head)
-        market = next((m for m in partido['bookmakers'][0]['markets'] if m['key'] == 'h2h'), None)
-        if not market: continue
-            
-        for i, row in df.iterrows():
-            if partido['home_team'].lower() in row['Match'].lower():
-                # Asignamos según el nombre del equipo
-                for outcome in market['outcomes']:
-                    if outcome['name'] == partido['home_team']: df.at[i, 'Cuota_L'] = outcome['price']
-                    elif outcome['name'] == 'Draw': df.at[i, 'Cuota_E'] = outcome['price']
-                    else: df.at[i, 'Cuota_V'] = outcome['price']
-    return df
 
 # ==========================================
 # BLOQUES DE LA INTERFAZ
@@ -266,104 +242,35 @@ def bloque_top4(df_p, df_h):
                             ventana_analisis(r, df_h)
 # endregion
 
-# Pon esto al principio de tu script o antes de donde creas el menú desplegable
-traductor_ligas = {
-    "Eliteserien_Noruega": "soccer_norway_eliteserien",
-    "Liga_Betplay_Colombia": "soccer_colombia_primera_a",
-    # Agrega aquí los nombres EXACTOS tal cual aparecen en tu menú desplegable
-    # A la izquierda: lo que ves en el menú. A la derecha: la 'key' de la API.
-}
-
 # region 2. BLOQUE LIGAS Y JORNADAS
+@st.fragment
 def bloque_ligas_jornadas(df_p, df_h, lgs):
     st.markdown("### 📊 LIGAS Y JORNADAS")
-    
-    # 1. Filtros alineados
-    col1, col2, col3, col4 = st.columns([1.5, 2, 1.5, 1.5])
-    with col1: fecha_sel = st.date_input("Filtrar por Fecha:", value=None, key="fecha_filtro")
-    with col2: liga_sel = st.selectbox("Seleccione Liga:", ["TODAS"] + lgs, key="liga_filtro")
-    
-    df_fl = df_p.copy()
-    if fecha_sel: df_fl = df_fl[df_fl['Fecha_dt'].dt.date == fecha_sel]
-    if liga_sel != "TODAS": df_fl = df_fl[df_fl['League'] == liga_sel]
-        
-    with col3:
-        jornadas = ["TODAS"] + sorted(df_fl['Matchday'].unique().tolist()) if not df_fl.empty else ["TODAS"]
-        sj = st.selectbox("Seleccione Jornada:", jornadas)
-        
-    with col4:
-        st.write(""); st.write("")
-        btn_actualizar = st.button("🔄 Actualizar Cuotas")
+    f_col1, f_col2, f_col3 = st.columns([1, 1, 1])
+    with f_col1: sf = st.date_input("Filtrar por Fecha:", value=None, key="f_act_s")
+    with f_col2: sl = st.selectbox("Seleccione Liga:", ["TODAS"] + lgs, key="l_act_s")
+    df_fl = df_p if sl=="TODAS" else df_p[df_p['League']==sl]
+    if sf: df_fl = df_fl[df_fl['Fecha_dt'].dt.date == sf]
+    with f_col3: sj = st.selectbox("Seleccione Jornada:", ["TODAS"] + sorted(df_fl['Matchday'].unique().tolist(), reverse=True) if not df_fl.empty else ["TODAS"], key="j_act_s")
+    df_fin = df_fl if sj=="TODAS" else df_fl[df_fl['Matchday']==sj]
 
-    # Buscador API
-    busqueda_api = st.text_input("🔍 Buscar Key de Liga en la API:", key="busqueda_api")
-    if busqueda_api and len(busqueda_api) > 2:
-        try:
-            API_KEY = "87d5d052809a75023bff788995f4d350"
-            res = requests.get(f"https://api.the-odds-api.com/v4/sports/?apiKey={API_KEY}")
-            if res.status_code == 200:
-                resultados = [d for d in res.json() if busqueda_api.lower() in d['title'].lower() or busqueda_api.lower() in d['key'].lower()]
-                for r in resultados: st.success(f"Liga: **{r['title']}** | Key: `{r['key']}`")
-        except: pass
-
-    if btn_actualizar and liga_sel != "TODAS":
-        if liga_sel in traductor_ligas:
-            datos = obtener_cuotas_api(traductor_ligas[liga_sel])
-            if datos:
-                st.session_state['cuotas_actuales'] = datos
-                st.rerun()
-            else: st.error("No se encontraron cuotas para esta liga.")
-        else: st.warning(f"Agrega '{liga_sel}' a tu diccionario traductor_ligas.")
-
-    df_fin = df_fl if sj == "TODAS" else df_fl[df_fl['Matchday'] == sj]
-    if df_fin.empty: return pd.DataFrame()
-
-    if 'cuotas_actuales' in st.session_state:
-        df_fin = agregar_cuotas_a_tabla(df_fin, st.session_state['cuotas_actuales'])
-    
-    # --- PROCESAMIENTO DE PROBABILIDADES PURAS (1-X-2) ---
-    def limpiar_val(val):
-        try: return float(str(val).replace('✅','').replace('❌','').replace('%','').strip())/100
-        except: return 0.0
-
-    p1x = df_fin['1X'].apply(limpiar_val)
-    px2 = df_fin['X2'].apply(limpiar_val)
-    
-    p_empate = (p1x + px2 - 1.0).clip(lower=0)
-    p_local = (p1x - p_empate).clip(lower=0)
-    p_visita = (px2 - p_empate).clip(lower=0)
-
-    # Formateo con Cuotas
-    def fmt(prob, col_cuota):
-        c_vals = df_fin.get(col_cuota, [None]*len(df_fin))
-        return [f"{p:.0%}{f' ({c})' if pd.notna(c) and c else ''}" for p, c in zip(prob, c_vals)]
-
-    df_display = pd.DataFrame({
-        'Date': df_fin['Date'], 'Time': df_fin['Time'], 'Matchday': df_fin['Matchday'],
-        'League': df_fin['League'], 'Match': df_fin['Match'],
-        'Local': fmt(p_local, 'Cuota_L'), 'Empate': fmt(p_empate, 'Cuota_E'), 'Visita': fmt(p_visita, 'Cuota_V'),
-        'Over 1.5': [f"{x:.0%}" if isinstance(x, float) else x for x in df_fin['Over 1.5']],
-        'Over 2.5': [f"{x:.0%}" if isinstance(x, float) else x for x in df_fin['Over 2.5']],
-        'Btts': [f"{x:.0%}" if isinstance(x, float) else x for x in df_fin['Btts']]
-    })
-
-    # Visualización
-    col_t, col_p = st.columns([2.2, 1])
-    with col_t:
-        st.dataframe(
-            df_display.style.map(aplicar_semaforo, subset=['Local', 'Empate', 'Visita', 'Over 1.5', 'Over 2.5', 'Btts']),
-            use_container_width=True, hide_index=True
-        )
-    with col_p:
-        if liga_sel != "TODAS":
-            st.markdown(f"#### 🏅 Tabla: {liga_sel}")
-            tabla_pos = generar_tabla_posiciones(df_h, liga_sel)
-            if not tabla_pos.empty: st.dataframe(tabla_pos, use_container_width=True)
-    
+    if not df_fin.empty:
+        cols_f = ['1X', 'X2', 'Over 1.5', 'Over 2.5', 'Btts']
+        if sl != "TODAS":
+            col_p, col_t = st.columns([2, 1])
+            with col_p: st.dataframe(df_fin[['Date', 'Time', 'Matchday', 'League', 'Match'] + cols_f].style.map(aplicar_semaforo, subset=cols_f).format({c: '{:.0%}' for c in cols_f}), use_container_width=True, hide_index=True)
+            with col_t:
+                st.markdown(f"#### 🏅 Tabla: {sl}")
+                tp = generar_tabla_posiciones(df_h, sl)
+                if not tp.empty: st.dataframe(tp, use_container_width=True)
+        else:
+            st.dataframe(df_fin[['Date', 'Time', 'Matchday', 'League', 'Match'] + cols_f].style.map(aplicar_semaforo, subset=cols_f).format({c: '{:.0%}' for c in cols_f}), use_container_width=True, hide_index=True)
+            
     return df_fin
 # endregion
 
 # region 3. BLOQUE PREDICCIÓN BOMBA
+@st.fragment
 def bloque_prediccion_bomba(df_fin, df_h):
     d_b = df_fin.loc[df_fin[['Over 1.5', 'Over 2.5', 'Btts']].max(axis=1).idxmax()]
     h_l = df_h[(df_h['Home team'] == d_b['Home team']) & (df_h['League'] == d_b['League'])]
@@ -437,7 +344,6 @@ with tab_soccer:
     
     # 4. Mostrar Historial
     bloque_historial(df_h, lgs)
-
 
 with tab_basket:
     # 5. Mostrar módulo de Basketball

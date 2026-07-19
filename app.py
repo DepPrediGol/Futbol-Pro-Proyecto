@@ -332,15 +332,26 @@ def bloque_ligas_jornadas(df_p, df_h, lgs):
     # Identificar columna de empate
     col_emp = 'Empate_Prob' if 'Empate_Prob' in df_fin.columns else ('Empate' if 'Empate' in df_fin.columns else None)
     
-    # Aplicar formato de porcentaje (ej: 62%) y cuotas (ej: 1.18)
-    df_display['Local'] = [f"{v:.0%} ({c})" if pd.notna(c) and c else f"{v:.0%}" for v, c in zip(df_fin['1X'], df_fin.get('Cuota_L', [None]*len(df_fin)))]
+    # MATEMÁTICA CORREGIDA PARA QUE SUME 100%:
+    # Extraemos la probabilidad "Pura" restándole el empate a la Doble Oportunidad
+    if col_emp:
+        prob_empate = df_fin[col_emp]
+        prob_local = df_fin['1X'] - prob_empate
+        prob_visita = df_fin['X2'] - prob_empate
+    else:
+        prob_empate = [0] * len(df_fin)
+        prob_local = df_fin['1X']
+        prob_visita = df_fin['X2']
+    
+    # Aplicar formato de porcentaje (ej: 52%) y cuotas (ej: 1.18)
+    df_display['Local'] = [f"{v:.0%} ({c})" if pd.notna(c) and c else f"{v:.0%}" for v, c in zip(prob_local, df_fin.get('Cuota_L', [None]*len(df_fin)))]
     
     if col_emp:
-        df_display['Empate'] = [f"{v:.0%} ({c})" if pd.notna(c) and c else f"{v:.0%}" for v, c in zip(df_fin[col_emp], df_fin.get('Cuota_E', [None]*len(df_fin)))]
+        df_display['Empate'] = [f"{v:.0%} ({c})" if pd.notna(c) and c else f"{v:.0%}" for v, c in zip(prob_empate, df_fin.get('Cuota_E', [None]*len(df_fin)))]
     else:
         df_display['Empate'] = "-"
         
-    df_display['Visita'] = [f"{v:.0%} ({c})" if pd.notna(c) and c else f"{v:.0%}" for v, c in zip(df_fin['X2'], df_fin.get('Cuota_V', [None]*len(df_fin)))]
+    df_display['Visita'] = [f"{v:.0%} ({c})" if pd.notna(c) and c else f"{v:.0%}" for v, c in zip(prob_visita, df_fin.get('Cuota_V', [None]*len(df_fin)))]
     
     for col in ['Over 1.5', 'Over 2.5', 'Btts']:
         if col in df_fin.columns:
@@ -350,7 +361,7 @@ def bloque_ligas_jornadas(df_p, df_h, lgs):
     cols_finales = [c for c in cols_mostrar if c in df_display.columns]
 
     # --- DISEÑO A DOS COLUMNAS (TABLA PRINCIPAL + TABLA DE POSICIONES) ---
-    col_tabla, col_pos = st.columns([2.2, 1]) # La tabla principal ocupará más espacio
+    col_tabla, col_pos = st.columns([2.2, 1]) 
     
     with col_tabla:
         st.dataframe(
@@ -370,6 +381,37 @@ def bloque_ligas_jornadas(df_p, df_h, lgs):
                 st.dataframe(tabla_pos, use_container_width=True)
             else:
                 st.info("No hay datos suficientes para la tabla.")
+                
+    # --- BUSCADOR INTELIGENTE DE LIGAS (THE ODDS API) ---
+    st.divider()
+    st.markdown("#### 🔍 Buscador de Ligas (The Odds API)")
+    st.caption("Usa esto para encontrar el código exacto de la liga (Key) y agregarlo a tu diccionario 'traductor_ligas'.")
+    
+    col_b1, col_b2 = st.columns([3, 1])
+    with col_b1:
+        busqueda_api = st.text_input("Escribe país o liga (Ej: Colombia, Premier, Spain):")
+    with col_b2:
+        st.write("")
+        st.write("")
+        btn_buscar = st.button("Buscar en API")
+        
+    if btn_buscar and busqueda_api:
+        with st.spinner("Buscando en vivo..."):
+            try:
+                API_KEY = "87d5d052809a75023bff788995f4d350"
+                res = requests.get(f"https://api.the-odds-api.com/v4/sports/?apiKey={API_KEY}")
+                if res.status_code == 200:
+                    deportes = res.json()
+                    resultados = [d for d in deportes if busqueda_api.lower() in d['title'].lower() or busqueda_api.lower() in d['key'].lower()]
+                    if resultados:
+                        for r in resultados:
+                            st.success(f"**{r['title']}**  👉  Key: `{r['key']}`")
+                    else:
+                        st.warning("No se encontraron resultados. Intenta buscar en inglés (ej: 'Spain', 'England').")
+                else:
+                    st.error("Error al conectar con The Odds API.")
+            except Exception as e:
+                st.error("Error de conexión.")
                 
     return df_fin
 # endregion

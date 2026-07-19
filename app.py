@@ -243,7 +243,6 @@ def bloque_top4(df_p, df_h):
 # endregion
 
 # region 2. BLOQUE LIGAS Y JORNADAS
-@st.fragment
 def bloque_ligas_jornadas(df_p, df_h, lgs):
     st.markdown("### 📊 LIGAS Y JORNADAS")
     f_col1, f_col2, f_col3 = st.columns([1, 1, 1])
@@ -270,7 +269,6 @@ def bloque_ligas_jornadas(df_p, df_h, lgs):
 # endregion
 
 # region 3. BLOQUE PREDICCIÓN BOMBA
-@st.fragment
 def bloque_prediccion_bomba(df_fin, df_h):
     d_b = df_fin.loc[df_fin[['Over 1.5', 'Over 2.5', 'Btts']].max(axis=1).idxmax()]
     h_l = df_h[(df_h['Home team'] == d_b['Home team']) & (df_h['League'] == d_b['League'])]

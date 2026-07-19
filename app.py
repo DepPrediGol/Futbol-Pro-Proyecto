@@ -278,6 +278,7 @@ traductor_ligas = {
 def bloque_ligas_jornadas(df_p, df_h, lgs):
     st.markdown("### 📊 LIGAS Y JORNADAS")
     
+    # Filtros
     col1, col2, col3, col4 = st.columns([1.5, 2, 1.5, 1.5])
     with col1: fecha_sel = st.date_input("Filtrar por Fecha:", value=None, key="fecha_filtro")
     with col2: liga_sel = st.selectbox("Seleccione Liga:", ["TODAS"] + lgs, key="liga_filtro")
@@ -294,11 +295,16 @@ def bloque_ligas_jornadas(df_p, df_h, lgs):
         st.write(""); st.write("")
         btn_actualizar = st.button("🔄 Actualizar Cuotas")
 
-    # Buscador de API
+    # Buscador API
     busqueda_api = st.text_input("🔍 Buscar Key de Liga en la API:", key="busqueda_api")
     if busqueda_api and len(busqueda_api) > 2:
-        # (Lógica de búsqueda igual a la que tenías) ...
-        pass
+        try:
+            API_KEY = "87d5d052809a75023bff788995f4d350"
+            res = requests.get(f"https://api.the-odds-api.com/v4/sports/?apiKey={API_KEY}")
+            if res.status_code == 200:
+                resultados = [d for d in res.json() if busqueda_api.lower() in d['title'].lower() or busqueda_api.lower() in d['key'].lower()]
+                for r in resultados: st.success(f"Liga: **{r['title']}** | Key: `{r['key']}`")
+        except: pass
 
     if btn_actualizar and liga_sel != "TODAS":
         if liga_sel in traductor_ligas:
@@ -306,7 +312,7 @@ def bloque_ligas_jornadas(df_p, df_h, lgs):
             if datos:
                 st.session_state['cuotas_actuales'] = datos
                 st.rerun()
-            else: st.error("No se encontraron cuotas para esta fecha.")
+            else: st.error("No se encontraron cuotas para esta liga.")
         else: st.warning(f"Agrega '{liga_sel}' a traductor_ligas.")
 
     df_fin = df_fl if sj == "TODAS" else df_fl[df_fl['Matchday'] == sj]
@@ -315,36 +321,44 @@ def bloque_ligas_jornadas(df_p, df_h, lgs):
     if 'cuotas_actuales' in st.session_state:
         df_fin = agregar_cuotas_a_tabla(df_fin, st.session_state['cuotas_actuales'])
     
-    # MATEMÁTICA PURA 1, X, 2
-    # Supongamos que tu DataFrame trae '1X' y 'X2' como dobles oportunidades
-    # Usamos la lógica de Poisson si no existen columnas puras, o recalculamos
-    prob_empate = (df_fin['1X'] + df_fin['X2'] - 1.0).clip(lower=0)
-    prob_local = (df_fin['1X'] - prob_empate).clip(lower=0)
-    prob_visita = (df_fin['X2'] - prob_empate).clip(lower=0)
+    # --- CÁLCULO DE PROBABILIDADES PURAS Y ESTILO ---
+    # Recuperamos la probabilidad de empate (X) restando del total
+    df_display = df_fin.copy()
+    
+    # 1. Obtenemos los valores numéricos de las probabilidades (quitar texto y %)
+    def limpiar_pct(val):
+        try: return float(str(val).split('%')[0].replace('✅','').replace('❌','').strip()) / 100
+        except: return 0.0
 
-    # Crear DF para mostrar
-    df_display = pd.DataFrame({
-        'Date': df_fin['Date'], 'Time': df_fin['Time'], 'Matchday': df_fin['Matchday'],
-        'League': df_fin['League'], 'Match': df_fin['Match'],
-        'Local': [f"{v:.0%} ({c})" if pd.notna(c) else f"{v:.0%}" for v, c in zip(prob_local, df_fin.get('Cuota_L', [None]*len(df_fin)))],
-        'Empate': [f"{v:.0%} ({c})" if pd.notna(c) else f"{v:.0%}" for v, c in zip(prob_empate, df_fin.get('Cuota_E', [None]*len(df_fin)))],
-        'Visita': [f"{v:.0%} ({c})" if pd.notna(c) else f"{v:.0%}" for v, c in zip(prob_visita, df_fin.get('Cuota_V', [None]*len(df_fin)))]
-    })
+    p1x = df_fin['1X'].apply(limpiar_pct)
+    px2 = df_fin['X2'].apply(limpiar_pct)
+    
+    # 2. Matemáticas puras
+    p_empate = (p1x + px2 - 1.0).clip(lower=0)
+    p_local = (p1x - p_empate).clip(lower=0)
+    p_visita = (px2 - p_empate).clip(lower=0)
 
-    # ESTILO DE COLOR SOLO AL NÚMERO
-    def estilo_color_numeros(val):
-        try:
-            num = float(str(val).split('%')[0].strip())
-            if num >= 70: col = '#28a745'
-            elif num >= 50: col = '#fd7e14' # Naranja
-            else: col = '#dc3545'
-            return f'color: {col}; font-weight: bold;'
-        except: return None
+    # 3. Formateo final para visualización
+    df_display['Local'] = [f"{v:.0%} ({c})" if pd.notna(c) else f"{v:.0%}" for v, c in zip(p_local, df_fin.get('Cuota_L', [None]*len(df_fin)))]
+    df_display['Empate'] = [f"{v:.0%} ({c})" if pd.notna(c) else f"{v:.0%}" for v, c in zip(p_empate, df_fin.get('Cuota_E', [None]*len(df_fin)))]
+    df_display['Visita'] = [f"{v:.0%} ({c})" if pd.notna(c) else f"{v:.0%}" for v, c in zip(p_visita, df_fin.get('Cuota_V', [None]*len(df_fin)))]
 
-    st.dataframe(
-        df_display.style.map(estilo_color_numeros, subset=['Local', 'Empate', 'Visita']),
-        use_container_width=True, hide_index=True
-    )
+    # 4. Restaurar columnas faltantes
+    for col in ['Over 1.5', 'Over 2.5', 'Btts']:
+        if col in df_fin.columns: df_display[col] = df_fin[col]
+
+    cols_finales = ['Date', 'Time', 'Matchday', 'League', 'Match', 'Local', 'Empate', 'Visita', 'Over 1.5', 'Over 2.5', 'Btts']
+    
+    # 5. Visualización
+    col_t, col_p = st.columns([2.2, 1])
+    with col_t:
+        st.dataframe(df_display[cols_finales].style.map(aplicar_semaforo, subset=['Local', 'Visita', 'Over 1.5', 'Over 2.5', 'Btts']), use_container_width=True, hide_index=True)
+    with col_p:
+        if liga_sel != "TODAS":
+            st.markdown(f"#### 🏅 Tabla: {liga_sel}")
+            tabla_pos = generar_tabla_posiciones(df_h, liga_sel)
+            if not tabla_pos.empty: st.dataframe(tabla_pos, use_container_width=True)
+    
     return df_fin
 # endregion
 

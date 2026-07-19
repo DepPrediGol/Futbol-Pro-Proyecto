@@ -135,21 +135,21 @@
 17,12/07/2026,03:00,FK Ulytau,Kaysar Kyzylorda,1-0,Final
 17,12/07/2026,03:00,FK Astana,FK Aktobe,3-2,Final
 17,12/07/2026,03:00,Tobyl Kostanay,FK Okzhetpes,3-1,Final
-18,18/07/2026,07:00,FK Okzhetpes,Zhetysu Taldykorgan,,
-18,18/07/2026,08:00,FK Kyzylzhar,Tobyl Kostanay,,
-18,18/07/2026,08:00,FK Zhenis,FK Ulytau,,
-18,18/07/2026,09:00,FK Atyrau,FK Kairat,,
-18,18/07/2026,10:00,Kaysar Kyzylorda,Kaspiy Aktau,,
-18,19/07/2026,07:00,FK Altay VKO,FK Aktobe,,
-18,19/07/2026,09:00,Irtysh Pavlodar,FK Astana,,
-18,19/07/2026,10:00,FK Ordabasy,FK Yelimay,,
+18,18/07/2026,03:00,FK Okzhetpes,Zhetysu Taldykorgan,2-0,Final
+18,18/07/2026,03:00,FK Kyzylzhar,Tobyl Kostanay,1-1,Final
+18,18/07/2026,03:00,FK Zhenis,FK Ulytau,1-1,Final
+18,18/07/2026,03:00,FK Atyrau,FK Kairat,1-3,Final
+18,18/07/2026,03:00,Kaysar Kyzylorda,Kaspiy Aktau,1-1,Final
+18,19/07/2026,03:00,Irtysh Pavlodar,FK Astana,,
+18,19/07/2026,03:00,FK Altay VKO,FK Aktobe,2-4,Final
+18,19/07/2026,03:00,FK Ordabasy,FK Yelimay,3-1,Final
 19,25/07/2026,07:00,FK Ulytau,Irtysh Pavlodar,,
 19,25/07/2026,08:00,Zhetysu Taldykorgan,FK Kyzylzhar,,
-19,25/07/2026,09:00,FK Kairat,FK Ordabasy,,
 19,25/07/2026,10:00,FK Aktobe,FK Okzhetpes,,
 19,26/07/2026,07:00,Tobyl Kostanay,FK Atyrau,,
 19,26/07/2026,08:00,FK Yelimay,Kaysar Kyzylorda,,
 19,26/07/2026,09:00,FK Astana,FK Altay VKO,,
+19,26/07/2026,09:00,FK Kairat,FK Ordabasy,,
 19,26/07/2026,10:00,Kaspiy Aktau,FK Zhenis,,
 20,06/05/2026,03:00,Kaysar Kyzylorda,FK Kairat,1-2,Final
 20,01/08/2026,07:00,Irtysh Pavlodar,Kaspiy Aktau,,
@@ -159,14 +159,14 @@
 20,02/08/2026,07:00,FK Ulytau,FK Astana,,
 20,02/08/2026,08:00,FK Zhenis,FK Yelimay,,
 20,02/08/2026,10:00,FK Ordabasy,Tobyl Kostanay,,
-21,08/08/2026,03:00,FK Altay VKO,FK Kyzylzhar,,
 21,08/08/2026,03:00,FK Astana,FK Okzhetpes,,
 21,08/08/2026,03:00,FK Atyrau,FK Aktobe,,
-21,08/08/2026,03:00,FK Kairat,FK Zhenis,,
-21,08/08/2026,03:00,Kaspiy Aktau,FK Ulytau,,
 21,08/08/2026,03:00,Tobyl Kostanay,Kaysar Kyzylorda,,
 21,08/08/2026,03:00,FK Yelimay,Irtysh Pavlodar,,
-21,08/08/2026,03:00,Zhetysu Taldykorgan,FK Ordabasy,,
+21,08/08/2026,07:00,FK Altay VKO,FK Kyzylzhar,,
+21,08/08/2026,08:00,Zhetysu Taldykorgan,FK Ordabasy,,
+21,08/08/2026,09:00,FK Kairat,FK Zhenis,,
+21,08/08/2026,10:00,Kaspiy Aktau,FK Ulytau,,
 22,15/08/2026,03:00,FK Atyrau,FK Okzhetpes,,
 22,15/08/2026,03:00,Irtysh Pavlodar,Tobyl Kostanay,,
 22,15/08/2026,03:00,FK Kyzylzhar,FK Astana,,

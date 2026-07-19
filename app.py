@@ -278,7 +278,7 @@ traductor_ligas = {
 def bloque_ligas_jornadas(df_p, df_h, lgs):
     st.markdown("### 📊 LIGAS Y JORNADAS")
     
-    # 1. Filtros alineados en la parte superior
+    # 1. Filtros alineados (Mantenemos el único botón aquí)
     col1, col2, col3, col4 = st.columns([1.5, 2, 1.5, 1.5])
     
     with col1:
@@ -286,7 +286,6 @@ def bloque_ligas_jornadas(df_p, df_h, lgs):
     with col2:
         liga_sel = st.selectbox("Seleccione Liga:", ["TODAS"] + lgs, key="liga_filtro")
         
-    # Filtrado inicial por fecha y liga
     df_fl = df_p.copy()
     if fecha_sel:
         df_fl = df_fl[df_fl['Fecha_dt'].dt.date == fecha_sel]
@@ -298,23 +297,42 @@ def bloque_ligas_jornadas(df_p, df_h, lgs):
         sj = st.selectbox("Seleccione Jornada:", jornadas)
         
     with col4:
-        st.write("") # Espacio para alinear el botón
+        st.write("") 
         st.write("")
-        # Botón de API
-        if st.button("🔄 Actualizar Cuotas"):
-            if liga_sel != "TODAS":
-                if liga_sel in traductor_ligas:
-                    with st.spinner("Consultando The Odds API..."):
-                        datos = obtener_cuotas_api(traductor_ligas[liga_sel])
-                        if datos:
-                            st.session_state['cuotas_actuales'] = datos
-                            st.rerun()
-                        else:
-                            st.error("No se encontraron cuotas.")
-                else:
-                    st.warning(f"Falta agregar '{liga_sel}' a traductor_ligas.")
+        btn_actualizar = st.button("🔄 Actualizar Cuotas")
+
+    # 2. Buscador de API (Justo debajo de los filtros, sin botón extra)
+    busqueda_api = st.text_input("🔍 Buscar Key de Liga en la API (Ej: Colombia, Premier, Spain):")
+    if busqueda_api and len(busqueda_api) > 2:
+        with st.spinner("Buscando liga en la API..."):
+            try:
+                API_KEY = "87d5d052809a75023bff788995f4d350"
+                res = requests.get(f"https://api.the-odds-api.com/v4/sports/?apiKey={API_KEY}")
+                if res.status_code == 200:
+                    resultados = [d for d in res.json() if busqueda_api.lower() in d['title'].lower() or busqueda_api.lower() in d['key'].lower()]
+                    if resultados:
+                        for r in resultados:
+                            st.success(f"Liga: **{r['title']}** | Key: `{r['key']}`")
+                    else:
+                        st.warning("No se encontraron ligas con ese nombre. Intenta en inglés (ej: Spain).")
+            except: 
+                pass
+
+    # --- ACCIÓN DEL BOTÓN ACTUALIZAR CUOTAS ---
+    if btn_actualizar:
+        if liga_sel != "TODAS":
+            if liga_sel in traductor_ligas:
+                with st.spinner("Consultando The Odds API..."):
+                    datos = obtener_cuotas_api(traductor_ligas[liga_sel])
+                    if datos:
+                        st.session_state['cuotas_actuales'] = datos
+                        st.rerun()
+                    else:
+                        st.error("No se encontraron cuotas.")
             else:
-                st.warning("Selecciona una liga para pedir cuotas.")
+                st.warning(f"Falta agregar '{liga_sel}' a traductor_ligas.")
+        else:
+            st.warning("Selecciona una liga para pedir cuotas.")
 
     # Filtro final de jornada
     df_fin = df_fl if sj == "TODAS" else df_fl[df_fl['Matchday'] == sj]
@@ -323,34 +341,22 @@ def bloque_ligas_jornadas(df_p, df_h, lgs):
         st.warning("No hay partidos programados para estos filtros.")
         return pd.DataFrame()
 
-    # --- PROCESAMIENTO DE CUOTAS Y PORCENTAJES ---
     if 'cuotas_actuales' in st.session_state:
         df_fin = agregar_cuotas_a_tabla(df_fin, st.session_state['cuotas_actuales'])
     
     df_display = df_fin.copy()
     
-    # Identificar columna de empate
-    col_emp = 'Empate_Prob' if 'Empate_Prob' in df_fin.columns else ('Empate' if 'Empate' in df_fin.columns else None)
+    # 3. MATEMÁTICA EXACTA PARA EL 100%
+    # Si 1X = 75% y X2 = 45% -> Empate = (0.75 + 0.45) - 1.0 = 20%
+    # Local puro = 1.0 - 0.45 = 55%
+    # Visita pura = 1.0 - 0.75 = 25%
+    prob_local = (1.0 - df_fin['X2']).clip(lower=0)
+    prob_visita = (1.0 - df_fin['1X']).clip(lower=0)
+    prob_empate = (df_fin['1X'] + df_fin['X2'] - 1.0).clip(lower=0)
     
-    # MATEMÁTICA CORREGIDA PARA QUE SUME 100%:
-    # Extraemos la probabilidad "Pura" restándole el empate a la Doble Oportunidad
-    if col_emp:
-        prob_empate = df_fin[col_emp]
-        prob_local = df_fin['1X'] - prob_empate
-        prob_visita = df_fin['X2'] - prob_empate
-    else:
-        prob_empate = [0] * len(df_fin)
-        prob_local = df_fin['1X']
-        prob_visita = df_fin['X2']
-    
-    # Aplicar formato de porcentaje (ej: 52%) y cuotas (ej: 1.18)
+    # Aplicar formato de porcentaje y adjuntar cuotas
     df_display['Local'] = [f"{v:.0%} ({c})" if pd.notna(c) and c else f"{v:.0%}" for v, c in zip(prob_local, df_fin.get('Cuota_L', [None]*len(df_fin)))]
-    
-    if col_emp:
-        df_display['Empate'] = [f"{v:.0%} ({c})" if pd.notna(c) and c else f"{v:.0%}" for v, c in zip(prob_empate, df_fin.get('Cuota_E', [None]*len(df_fin)))]
-    else:
-        df_display['Empate'] = "-"
-        
+    df_display['Empate'] = [f"{v:.0%} ({c})" if pd.notna(c) and c else f"{v:.0%}" for v, c in zip(prob_empate, df_fin.get('Cuota_E', [None]*len(df_fin)))]
     df_display['Visita'] = [f"{v:.0%} ({c})" if pd.notna(c) and c else f"{v:.0%}" for v, c in zip(prob_visita, df_fin.get('Cuota_V', [None]*len(df_fin)))]
     
     for col in ['Over 1.5', 'Over 2.5', 'Btts']:
@@ -360,7 +366,8 @@ def bloque_ligas_jornadas(df_p, df_h, lgs):
     cols_mostrar = ['Date', 'Time', 'Matchday', 'League', 'Match', 'Local', 'Empate', 'Visita', 'Over 1.5', 'Over 2.5', 'Btts']
     cols_finales = [c for c in cols_mostrar if c in df_display.columns]
 
-    # --- DISEÑO A DOS COLUMNAS (TABLA PRINCIPAL + TABLA DE POSICIONES) ---
+    # --- 4. DISEÑO DE TABLAS ---
+    st.divider() # Línea separadora sutil
     col_tabla, col_pos = st.columns([2.2, 1]) 
     
     with col_tabla:
@@ -381,37 +388,6 @@ def bloque_ligas_jornadas(df_p, df_h, lgs):
                 st.dataframe(tabla_pos, use_container_width=True)
             else:
                 st.info("No hay datos suficientes para la tabla.")
-                
-    # --- BUSCADOR INTELIGENTE DE LIGAS (THE ODDS API) ---
-    st.divider()
-    st.markdown("#### 🔍 Buscador de Ligas (The Odds API)")
-    st.caption("Usa esto para encontrar el código exacto de la liga (Key) y agregarlo a tu diccionario 'traductor_ligas'.")
-    
-    col_b1, col_b2 = st.columns([3, 1])
-    with col_b1:
-        busqueda_api = st.text_input("Escribe país o liga (Ej: Colombia, Premier, Spain):")
-    with col_b2:
-        st.write("")
-        st.write("")
-        btn_buscar = st.button("Buscar en API")
-        
-    if btn_buscar and busqueda_api:
-        with st.spinner("Buscando en vivo..."):
-            try:
-                API_KEY = "87d5d052809a75023bff788995f4d350"
-                res = requests.get(f"https://api.the-odds-api.com/v4/sports/?apiKey={API_KEY}")
-                if res.status_code == 200:
-                    deportes = res.json()
-                    resultados = [d for d in deportes if busqueda_api.lower() in d['title'].lower() or busqueda_api.lower() in d['key'].lower()]
-                    if resultados:
-                        for r in resultados:
-                            st.success(f"**{r['title']}**  👉  Key: `{r['key']}`")
-                    else:
-                        st.warning("No se encontraron resultados. Intenta buscar en inglés (ej: 'Spain', 'England').")
-                else:
-                    st.error("Error al conectar con The Odds API.")
-            except Exception as e:
-                st.error("Error de conexión.")
                 
     return df_fin
 # endregion

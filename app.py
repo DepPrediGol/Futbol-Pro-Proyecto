@@ -278,70 +278,100 @@ traductor_ligas = {
 def bloque_ligas_jornadas(df_p, df_h, lgs):
     st.markdown("### 📊 LIGAS Y JORNADAS")
     
-    f_col1, f_col2, f_col3, f_col4 = st.columns([1, 1, 1, 1])
+    # 1. Filtros alineados en la parte superior
+    col1, col2, col3, col4 = st.columns([1.5, 2, 1.5, 1.5])
     
-    with f_col1: sf = st.date_input("Filtrar por Fecha:", value=None, key="f_act_s")
-    with f_col2: sl = st.selectbox("Seleccione Liga:", ["TODAS"] + lgs, key="l_act_s")
-    
-    df_fl = df_p if sl=="TODAS" else df_p[df_p['League']==sl]
-    if sf: df_fl = df_fl[df_fl['Fecha_dt'].dt.date == sf]
-    
-    with f_col3: sj = st.selectbox("Seleccione Jornada:", ["TODAS"] + sorted(df_fl['Matchday'].unique().tolist(), reverse=True) if not df_fl.empty else ["TODAS"], key="j_act_s")
-    df_fin = df_fl if sj=="TODAS" else df_fl[df_fl['Matchday']==sj]
-
-    # --- BOTÓN DE CUOTAS ---
-    with f_col4:
-        st.markdown("<br>", unsafe_allow_html=True) 
-        liga_api = traductor_ligas.get(sl) 
-        if st.button("🔄 Actualizar Cuotas", key="btn_final"):
-            if liga_api:
-                with st.spinner(f"Conectando a la API para {sl}..."):
-                    datos_cuotas = obtener_cuotas_api(liga_api)
-                    if datos_cuotas:
-                        st.session_state['cuotas_actuales'] = datos_cuotas
-                        st.success("¡Cuotas cargadas!")
-            else:
-                st.warning("No tengo la configuración de API para esta liga.")
-
-    # --- BUSCADOR INTELIGENTE ---
-    if 'cuotas_crudas' in st.session_state:
-        busqueda = st.text_input("🔍 Busca tu liga (ej: Colombia, España):")
-        if busqueda:
-            datos = st.session_state['cuotas_crudas']
-            resultados = [d for d in datos if busqueda.lower() in d['title'].lower()]
-            for res in resultados:
-                st.success(f"Liga: {res['title']} | Key: `{res['key']}`")
-
-   # --- PROCESAMIENTO Y VISUALIZACIÓN ---
-    if not df_fin.empty:
-        # 1. Aplicamos las cuotas si existen
-        if 'cuotas_actuales' in st.session_state:
-            df_fin = agregar_cuotas_a_tabla(df_fin, st.session_state['cuotas_actuales'])
-            
-            # 2. Creamos columnas combinadas (Porcentaje + Cuota)
-            # Solo si la función de cruce encontró datos (Cuota_L no es None)
-            df_fin['Local'] = df_fin.apply(lambda r: f"{r['1X']:.0%} ({r['Cuota_L']})" if r['Cuota_L'] else f"{r['1X']:.0%}", axis=1)
-            df_fin['Empate'] = df_fin.apply(lambda r: f"({r['Cuota_E']})" if r['Cuota_E'] else "-", axis=1)
-            df_fin['Visita'] = df_fin.apply(lambda r: f"{r['X2']:.0%} ({r['Cuota_V']})" if r['Cuota_V'] else f"{r['X2']:.0%}", axis=1)
-        else:
-            # Si no hay cuotas, mantenemos los nombres originales para no romper nada
-            df_fin = df_fin.rename(columns={'1X': 'Local', 'X2': 'Visita'})
-            df_fin['Empate'] = "-"
-
-        # 3. Definimos las columnas a mostrar
-        cols_mostrar = ['Date', 'Time', 'Matchday', 'League', 'Match', 'Local', 'Empate', 'Visita', 'Over 1.5', 'Over 2.5', 'Btts']
+    with col1:
+        fecha_sel = st.date_input("Filtrar por Fecha:", value=None, key="fecha_filtro")
+    with col2:
+        liga_sel = st.selectbox("Seleccione Liga:", ["TODAS"] + lgs, key="liga_filtro")
         
-        # 4. Visualización
-        if sl != "TODAS":
-            col_p, col_t = st.columns([2, 1])
-            with col_p: 
-                st.dataframe(df_fin[cols_mostrar], use_container_width=True, hide_index=True)
-            with col_t:
-                st.markdown(f"#### 🏅 Tabla: {sl}")
-                tp = generar_tabla_posiciones(df_h, sl)
-                if not tp.empty: st.dataframe(tp, use_container_width=True)
-        else:
-            st.dataframe(df_fin[cols_mostrar], use_container_width=True, hide_index=True)
+    # Filtrado inicial por fecha y liga
+    df_fl = df_p.copy()
+    if fecha_sel:
+        df_fl = df_fl[df_fl['Fecha_dt'].dt.date == fecha_sel]
+    if liga_sel != "TODAS":
+        df_fl = df_fl[df_fl['League'] == liga_sel]
+        
+    with col3:
+        jornadas = ["TODAS"] + sorted(df_fl['Matchday'].unique().tolist()) if not df_fl.empty else ["TODAS"]
+        sj = st.selectbox("Seleccione Jornada:", jornadas)
+        
+    with col4:
+        st.write("") # Espacio para alinear el botón
+        st.write("")
+        # Botón de API
+        if st.button("🔄 Actualizar Cuotas"):
+            if liga_sel != "TODAS":
+                if liga_sel in traductor_ligas:
+                    with st.spinner("Consultando The Odds API..."):
+                        datos = obtener_cuotas_api(traductor_ligas[liga_sel])
+                        if datos:
+                            st.session_state['cuotas_actuales'] = datos
+                            st.rerun()
+                        else:
+                            st.error("No se encontraron cuotas.")
+                else:
+                    st.warning(f"Falta agregar '{liga_sel}' a traductor_ligas.")
+            else:
+                st.warning("Selecciona una liga para pedir cuotas.")
+
+    # Filtro final de jornada
+    df_fin = df_fl if sj == "TODAS" else df_fl[df_fl['Matchday'] == sj]
+
+    if df_fin.empty:
+        st.warning("No hay partidos programados para estos filtros.")
+        return pd.DataFrame()
+
+    # --- PROCESAMIENTO DE CUOTAS Y PORCENTAJES ---
+    if 'cuotas_actuales' in st.session_state:
+        df_fin = agregar_cuotas_a_tabla(df_fin, st.session_state['cuotas_actuales'])
+    
+    df_display = df_fin.copy()
+    
+    # Identificar columna de empate
+    col_emp = 'Empate_Prob' if 'Empate_Prob' in df_fin.columns else ('Empate' if 'Empate' in df_fin.columns else None)
+    
+    # Aplicar formato de porcentaje (ej: 62%) y cuotas (ej: 1.18)
+    df_display['Local'] = [f"{v:.0%} ({c})" if pd.notna(c) and c else f"{v:.0%}" for v, c in zip(df_fin['1X'], df_fin.get('Cuota_L', [None]*len(df_fin)))]
+    
+    if col_emp:
+        df_display['Empate'] = [f"{v:.0%} ({c})" if pd.notna(c) and c else f"{v:.0%}" for v, c in zip(df_fin[col_emp], df_fin.get('Cuota_E', [None]*len(df_fin)))]
+    else:
+        df_display['Empate'] = "-"
+        
+    df_display['Visita'] = [f"{v:.0%} ({c})" if pd.notna(c) and c else f"{v:.0%}" for v, c in zip(df_fin['X2'], df_fin.get('Cuota_V', [None]*len(df_fin)))]
+    
+    for col in ['Over 1.5', 'Over 2.5', 'Btts']:
+        if col in df_fin.columns:
+            df_display[col] = df_fin[col].apply(lambda x: f"{x:.0%}" if pd.notna(x) else "-")
+    
+    cols_mostrar = ['Date', 'Time', 'Matchday', 'League', 'Match', 'Local', 'Empate', 'Visita', 'Over 1.5', 'Over 2.5', 'Btts']
+    cols_finales = [c for c in cols_mostrar if c in df_display.columns]
+
+    # --- DISEÑO A DOS COLUMNAS (TABLA PRINCIPAL + TABLA DE POSICIONES) ---
+    col_tabla, col_pos = st.columns([2.2, 1]) # La tabla principal ocupará más espacio
+    
+    with col_tabla:
+        st.dataframe(
+            df_display[cols_finales].style.map(
+                aplicar_semaforo, 
+                subset=[c for c in ['Local', 'Visita', 'Over 1.5', 'Over 2.5', 'Btts'] if c in cols_finales]
+            ), 
+            use_container_width=True, 
+            hide_index=True
+        )
+        
+    with col_pos:
+        if liga_sel != "TODAS":
+            st.markdown(f"#### 🏅 Tabla: {liga_sel}")
+            tabla_pos = generar_tabla_posiciones(df_h, liga_sel)
+            if not tabla_pos.empty:
+                st.dataframe(tabla_pos, use_container_width=True)
+            else:
+                st.info("No hay datos suficientes para la tabla.")
+                
+    return df_fin
 # endregion
 
 # region 3. BLOQUE PREDICCIÓN BOMBA

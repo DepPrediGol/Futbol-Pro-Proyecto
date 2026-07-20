@@ -1,9 +1,9 @@
 ﻿matchday,date,time,home_team,away_team,result,status
-1,17/07/2026,11:00,Spartak Varna,CSKA 1948 Sofia,,
-1,17/07/2026,13:15,Levski Sofia,FC Dunav Ruse,,
-1,18/07/2026,11:00,Septemvri Sofia,Arda Kardzhali,,
-1,18/07/2026,13:15,PFC Ludogorets Razgrad,Lokomotiv Plovdiv,,
-1,19/07/2026,11:30,Botev Vratsa,Cherno More Varna,,
+1,17/07/2026,03:00,Spartak Varna,CSKA 1948 Sofia,2-2,Final
+1,17/07/2026,03:00,Levski Sofia,FC Dunav Ruse,2-1,Final
+1,18/07/2026,03:00,Septemvri Sofia,Arda Kardzhali,1-1,Final
+1,18/07/2026,03:00,PFC Ludogorets Razgrad,Lokomotiv Plovdiv,1-0,Final
+1,19/07/2026,03:00,Botev Vratsa,Cherno More Varna,1-1,Final
 1,20/07/2026,11:15,Slavia Sofia,CSKA Sofia,,
 1,20/07/2026,13:30,Botev Plovdiv,Lokomotiv Sofia,,
 2,24/07/2026,13:15,Arda Kardzhali,Slavia Sofia,,

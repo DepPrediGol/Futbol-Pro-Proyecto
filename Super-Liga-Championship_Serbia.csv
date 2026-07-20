@@ -1,18 +1,18 @@
 ﻿matchday,date,time,home_team,away_team,result,status
-1,17/07/2026,13:00,Estrella Roja de Belgrado,Mačva Šabac,,
-1,17/07/2026,13:00,Železničar Pančevo,Radnički Niš,,
-1,18/07/2026,13:00,FK Novi Pazar,FK Radnički 1923,,
-1,18/07/2026,13:00,FK Zemun,Partizan,,
-1,19/07/2026,12:00,FK Čukarički,IMT Beograd,,
-1,19/07/2026,12:00,Vojvodina,OFK Beograd,,
-1,19/07/2026,12:00,Radnik Surdulica,Mladost Lučani,,
-2,25/07/2026,03:00,Mačva Šabac,Partizan,,
-2,25/07/2026,03:00,Mladost Lučani,FK Novi Pazar,,
-2,25/07/2026,03:00,IMT Beograd,FK Zemun,,
-2,25/07/2026,03:00,OFK Beograd,Radnik Surdulica,,
-2,25/07/2026,03:00,FK Radnički 1923,Železničar Pančevo,,
-2,25/07/2026,03:00,Radnički Niš,FK Čukarički,,
-2,25/07/2026,03:00,Estrella Roja de Belgrado,Vojvodina,,
+1,17/07/2026,03:00,Estrella Roja de Belgrado,Mačva Šabac,5-0,Final
+1,17/07/2026,03:00,Železničar Pančevo,Radnički Niš,2-1,Final
+1,18/07/2026,03:00,FK Novi Pazar,FK Radnički 1923,1-0,Final
+1,18/07/2026,03:00,FK Zemun,Partizan,2-2,Final
+1,19/07/2026,03:00,FK Čukarički,IMT Beograd,0-1,Final
+1,19/07/2026,03:00,Vojvodina,OFK Beograd,4-0,Final
+1,19/07/2026,03:00,Radnik Surdulica,Mladost Lučani,1-1,Final
+2,25/07/2026,13:00,IMT Beograd,FK Zemun,,
+2,25/07/2026,13:00,OFK Beograd,Radnik Surdulica,,
+2,25/07/2026,13:00,Radnički Niš,FK Čukarički,,
+2,26/07/2026,12:00,Estrella Roja de Belgrado,Vojvodina,,
+2,26/07/2026,13:30,Mladost Lučani,FK Novi Pazar,,
+2,26/07/2026,13:30,FK Radnički 1923,Železničar Pančevo,,
+2,26/07/2026,14:00,Mačva Šabac,Partizan,,
 3,01/08/2026,03:00,FK Čukarički,FK Radnički 1923,,
 3,01/08/2026,03:00,FK Novi Pazar,OFK Beograd,,
 3,01/08/2026,03:00,Vojvodina,Mačva Šabac,,

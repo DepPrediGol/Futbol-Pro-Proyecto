@@ -1,20 +1,20 @@
 ﻿matchday,date,time,home_team,away_team,result,status
-1,16/07/2026,19:00,Club Necaxa,Atlante,,
-1,16/07/2026,22:00,Club Tijuana,UANL Tigres,,
-1,17/07/2026,19:00,Club León,Atlas Guadalajara,,
-1,17/07/2026,20:00,Atlético San Luis,Cruz Azul,,
-1,17/07/2026,22:00,FC Juárez,Puebla FC,,
-1,18/07/2026,18:00,Pumas UNAM,CF Pachuca,,
-1,18/07/2026,19:07,Deportivo Guadalajara,Deportivo Toluca,,
-1,18/07/2026,20:00,CF Monterrey,Santos Laguna,,
-1,18/07/2026,22:00,Gallos Blancos,CF América,,
-2,21/07/2026,19:00,Cruz Azul,Puebla FC,,
-2,21/07/2026,22:00,Deportivo Toluca,Pumas UNAM,,
-2,24/07/2026,20:00,UANL Tigres,Atlético San Luis,,
+1,17/07/2026,03:00,Club Necaxa,Atlante,2-1,Final
+1,17/07/2026,03:00,Club Tijuana,UANL Tigres,3-1,Final
+1,18/07/2026,03:00,Atlético San Luis,Cruz Azul,2-3,Final
+1,18/07/2026,03:00,Club León,Atlas Guadalajara,2-3,Final
+1,18/07/2026,03:00,FC Juárez,Puebla FC,0-1,Final
+1,19/07/2026,03:00,Pumas UNAM,CF Pachuca,0-3,Final
+1,19/07/2026,03:00,CF Monterrey,Santos Laguna,3-2,Final
+1,19/07/2026,03:00,Deportivo Guadalajara,Deportivo Toluca,0-2,Final
+1,19/07/2026,03:00,Gallos Blancos,CF América,0-1,Final
+2,21/07/2026,20:00,Cruz Azul,Puebla FC,,
+2,21/07/2026,22:05,Deportivo Toluca,Pumas UNAM,,
 2,24/07/2026,21:00,Club Tijuana,Club León,,
 2,24/07/2026,21:00,Atlante,CF América,,
 2,25/07/2026,18:00,Deportivo Guadalajara,FC Juárez,,
-2,25/07/2026,21:00,Santos Laguna,Atlas Guadalajara,,
+2,25/07/2026,22:00,UANL Tigres,Atlético San Luis,,
+2,25/07/2026,22:00,Santos Laguna,Atlas Guadalajara,,
 2,26/07/2026,18:00,Club Necaxa,CF Monterrey,,
 2,26/07/2026,19:00,CF Pachuca,Gallos Blancos,,
 3,31/07/2026,20:00,Puebla FC,Deportivo Guadalajara,,

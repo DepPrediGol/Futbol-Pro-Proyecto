@@ -270,31 +270,56 @@ def bloque_ligas_jornadas(df_p, df_h, lgs):
 
 # region 3. BLOQUE PREDICCIÓN BOMBA
 def bloque_prediccion_bomba(df_fin, df_h):
+    if df_fin.empty:
+        return
+
+    # 1. Seleccionar la predicción bomba dentro de los datos ya filtrados por fecha o liga
     d_b = df_fin.loc[df_fin[['Over 1.5', 'Over 2.5', 'Btts']].max(axis=1).idxmax()]
+
+    # 2. Buscar historial local (primero en la misma liga, si no, historial global del equipo)
     h_l = df_h[(df_h['Home team'] == d_b['Home team']) & (df_h['League'] == d_b['League'])]
+    if h_l.empty:
+        h_l = df_h[df_h['Home team'] == d_b['Home team']]
+
+    # 3. Buscar historial visitante (primero en la misma liga, si no, historial global del equipo)
     h_v = df_h[(df_h['Away team'] == d_b['Away team']) & (df_h['League'] == d_b['League'])]
-    if not h_l.empty and not h_v.empty:
+    if h_v.empty:
+        h_v = df_h[df_h['Away team'] == d_b['Away team']]
+
+    # 4. Generar el texto original del Local
+    if not h_l.empty:
         t_l, g1_l, g2_l, w_l = len(h_l), (h_l['G_L']>=1).sum(), (h_l['G_L']>=2).sum(), (h_l['G_L']>=h_l['G_V']).sum()
+        txt_l = f"El equipo local <b>{d_b['Home team']}</b> lleva <b>{g1_l} de {t_l}</b> partidos marcando al menos 1 gol en casa y de esos <b>{g1_l}</b> partidos <b>{g2_l}</b> ha marcado 2 o más goles, ha ganado o empatado en <b>{w_l} de {t_l}</b> encuentros como local."
+    else:
+        txt_l = f"El equipo local <b>{d_b['Home team']}</b> no registra antecedentes previos en la base de datos."
+
+    # 5. Generar el texto original del Visitante
+    if not h_v.empty:
         t_v, g1_v, g2_v, w_v = len(h_v), (h_v['G_V']>=1).sum(), (h_v['G_V']>=2).sum(), (h_v['G_V']>=h_v['G_L']).sum()
-        etq_b = f"1X: {d_b['1X']:.0%}" if d_b['1X'] >= d_b['X2'] else f"X2: {d_b['X2']:.0%}"
-        
-        st.markdown(f"""
-        <div style="background-color: #ff4b4b; padding: 30px; border-radius: 15px; border-left: 15px solid #8B0000; position: relative;">
-            <div style="position: absolute; top: 15px; left: 15px; background-color: rgba(255, 255, 255, 0.25); color: white; padding: 5px 15px; border-radius: 8px; font-size: 0.9rem; font-weight: bold; border: 1px solid rgba(255, 255, 255, 0.5); box-shadow: 0px 2px 5px rgba(0,0,0,0.2);">
-                🏆 {d_b['League']}
-            </div>
-            <h2 style="color: white !important; margin: 0; text-align: center; padding-top: 15px;">💣 PREDICCIÓN BOMBA DETECTADA 💣</h2>
-            <p style="font-size: 1.15rem; line-height: 1.6; margin-top: 20px; color: white !important;">
-                El equipo local <b>{d_b['Home team']}</b> lleva <b>{g1_l} de {t_l}</b> partidos marcando al menos 1 gol en casa y de esos <b>{g1_l}</b> partidos <b>{g2_l}</b> ha marcado 2 o más goles, ha ganado o empatado en <b>{w_l} de {t_l}</b> encuentros como local. <br>
-                El equipo visitante <b>{d_b['Away team']}</b>, lleva <b>{g1_v} de {t_v}</b> partidos marcando al menos 1 gol como visitante y de esos <b>{g1_v}</b> partidos <b>{g2_v}</b> ha marcado 2 o más goles, ha ganado o empatado en <b>{w_v} de {t_v}</b> encuentros como visitante.
-            </p>
-            <div style="display: grid; grid-template-columns: repeat(4, 1fr); gap: 15px; margin-top: 25px;">
-                <div style="background: white; color: #ff4b4b; padding: 15px; border-radius: 12px; text-align: center; font-weight: bold;">🛡️ {etq_b}</div>
-                <div style="background: white; color: #ff4b4b; padding: 15px; border-radius: 12px; text-align: center; font-weight: bold;">🥅 Over 1.5: {d_b['Over 1.5']:.0%}</div>
-                <div style="background: white; color: #ff4b4b; padding: 15px; border-radius: 12px; text-align: center; font-weight: bold;">⚽ Over 2.5: {d_b['Over 2.5']:.0%}</div>
-                <div style="background: white; color: #ff4b4b; padding: 15px; border-radius: 12px; text-align: center; font-weight: bold;">🤝 Btts: {d_b['Btts']:.0%}</div>
-            </div>
-        </div>""", unsafe_allow_html=True)
+        txt_v = f"El equipo visitante <b>{d_b['Away team']}</b>, lleva <b>{g1_v} de {t_v}</b> partidos marcando al menos 1 gol como visitante y de esos <b>{g1_v}</b> partidos <b>{g2_v}</b> ha marcado 2 o más goles, ha ganado o empatado en <b>{w_v} de {t_v}</b> encuentros como visitante."
+    else:
+        txt_v = f"El equipo visitante <b>{d_b['Away team']}</b> no registra antecedentes previos en la base de datos."
+
+    etq_b = f"1X: {d_b['1X']:.0%}" if d_b['1X'] >= d_b['X2'] else f"X2: {d_b['X2']:.0%}"
+    
+    # 6. Renderizar tarjeta
+    st.markdown(f"""
+    <div style="background-color: #ff4b4b; padding: 30px; border-radius: 15px; border-left: 15px solid #8B0000; position: relative;">
+        <div style="position: absolute; top: 15px; left: 15px; background-color: rgba(255, 255, 255, 0.25); color: white; padding: 5px 15px; border-radius: 8px; font-size: 0.9rem; font-weight: bold; border: 1px solid rgba(255, 255, 255, 0.5); box-shadow: 0px 2px 5px rgba(0,0,0,0.2);">
+            🏆 {d_b['League']}
+        </div>
+        <h2 style="color: white !important; margin: 0; text-align: center; padding-top: 15px;">💣 PREDICCIÓN BOMBA DETECTADA 💣</h2>
+        <p style="font-size: 1.15rem; line-height: 1.6; margin-top: 20px; color: white !important;">
+            {txt_l} <br>
+            {txt_v}
+        </p>
+        <div style="display: grid; grid-template-columns: repeat(4, 1fr); gap: 15px; margin-top: 25px;">
+            <div style="background: white; color: #ff4b4b; padding: 15px; border-radius: 12px; text-align: center; font-weight: bold;">🛡️ {etq_b}</div>
+            <div style="background: white; color: #ff4b4b; padding: 15px; border-radius: 12px; text-align: center; font-weight: bold;">🥅 Over 1.5: {d_b['Over 1.5']:.0%}</div>
+            <div style="background: white; color: #ff4b4b; padding: 15px; border-radius: 12px; text-align: center; font-weight: bold;">⚽ Over 2.5: {d_b['Over 2.5']:.0%}</div>
+            <div style="background: white; color: #ff4b4b; padding: 15px; border-radius: 12px; text-align: center; font-weight: bold;">🤝 Btts: {d_b['Btts']:.0%}</div>
+        </div>
+    </div>""", unsafe_allow_html=True)
 # endregion
 
 # region 4. BLOQUE HISTORIAL DE RESULTADOS

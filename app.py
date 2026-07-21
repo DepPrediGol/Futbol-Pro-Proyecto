@@ -40,8 +40,9 @@ st.markdown("""
 
     div.stButton > button {
         width: 100% !important;
-        min-height: 200px !important;
-        max-height: 200px !important;
+        height: 170px !important; /* Altura fija obligatoria */
+        min-height: 170px !important;
+        max-height: 170px !important;
         background-color: white !important;
         color: black !important;
         border: 2px solid #eee !important;
@@ -49,12 +50,15 @@ st.markdown("""
         white-space: pre-wrap !important;
         word-wrap: break-word !important;
         display: flex !important;
+        flex-direction: column !important; /* Apila el texto verticalmente */
         align-items: center !important;
         justify-content: center !important;
         text-align: center !important;
-        font-size: 14px !important;
+        font-size: 13px !important; /* Reducimos 1px para mejor ajuste */
+        line-height: 1.3 !important; /* Espaciado entre líneas más compacto */
         box-shadow: 0px 4px 10px rgba(0,0,0,0.1) !important;
         transition: transform 0.2s !important;
+        overflow: hidden !important; /* Oculta sobrantes si el texto es extremo */
     }
     
     div.stButton > button:hover {

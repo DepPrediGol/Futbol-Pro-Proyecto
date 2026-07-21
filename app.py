@@ -359,6 +359,13 @@ def bloque_historial(df_h, lgs):
     st.dataframe(df_res[['Date', 'Time', 'Matchday', 'League', 'Match', 'Result', '1X', 'X2', 'Over 1.5', 'Over 2.5', 'Btts']].style.map(color_letras_historial, subset=['1X', 'X2', 'Over 1.5', 'Over 2.5', 'Btts']), use_container_width=True, hide_index=True)
 # endregion
 
+# region 5. BLOQUE BASKETBALL
+@st.fragment
+def bloque_basketball():
+    st.markdown("## 🏀 BASKETBALL PREDICTIONS")
+    st.info("Módulo en desarrollo para la próxima actualización.")
+# endregion
+
 
 # ==========================================
 # RENDERIZADO PRINCIPAL (app.py)

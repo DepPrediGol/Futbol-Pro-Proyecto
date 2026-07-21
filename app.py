@@ -246,16 +246,27 @@ def bloque_top4(df_p, df_h):
 def bloque_ligas_jornadas(df_p, df_h, lgs):
     st.markdown("### 📊 LIGAS Y JORNADAS")
     f_col1, f_col2, f_col3 = st.columns([1, 1, 1])
-    with f_col1: sf = st.date_input("Filtrar por Fecha:", value=None, key="f_act_s")
-    with f_col2: sl = st.selectbox("Seleccione Liga:", ["TODAS"] + lgs, key="l_act_s")
-    df_fl = df_p if sl=="TODAS" else df_p[df_p['League']==sl]
+    
+    with f_col1: 
+        sf = st.date_input("Filtrar por Fecha:", value=None, key="f_act_s")
+        
+    with f_col2: 
+        # index=None activa la "X" para limpiar el filtro
+        sl = st.selectbox("Seleccione Liga:", lgs, index=None, placeholder="TODAS LAS LIGAS", key="l_act_s")
+        
+    df_fl = df_p if sl is None else df_p[df_p['League']==sl]
     if sf: df_fl = df_fl[df_fl['Fecha_dt'].dt.date == sf]
-    with f_col3: sj = st.selectbox("Seleccione Jornada:", ["TODAS"] + sorted(df_fl['Matchday'].unique().tolist(), reverse=True) if not df_fl.empty else ["TODAS"], key="j_act_s")
-    df_fin = df_fl if sj=="TODAS" else df_fl[df_fl['Matchday']==sj]
+    
+    with f_col3: 
+        jornadas = sorted(df_fl['Matchday'].unique().tolist(), reverse=True) if not df_fl.empty else []
+        # index=None activa la "X" para limpiar el filtro
+        sj = st.selectbox("Seleccione Jornada:", jornadas, index=None, placeholder="TODAS LAS JORNADAS", key="j_act_s")
+        
+    df_fin = df_fl if sj is None else df_fl[df_fl['Matchday']==sj]
 
     if not df_fin.empty:
         cols_f = ['1X', 'X2', 'Over 1.5', 'Over 2.5', 'Btts']
-        if sl != "TODAS":
+        if sl is not None:
             col_p, col_t = st.columns([2, 1])
             with col_p: st.dataframe(df_fin[['Date', 'Time', 'Matchday', 'League', 'Match'] + cols_f].style.map(aplicar_semaforo, subset=cols_f).format({c: '{:.0%}' for c in cols_f}), use_container_width=True, hide_index=True)
             with col_t:

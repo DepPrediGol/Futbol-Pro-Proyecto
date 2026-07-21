@@ -338,20 +338,25 @@ def bloque_prediccion_bomba(df_fin, df_h):
 def bloque_historial(df_h, lgs):
     st.markdown("## 📜 HISTORIAL DE RESULTADOS")
     h_c1, h_c2, h_c3 = st.columns([1, 1, 1])
-    with h_c1: sfh = st.date_input("Fecha Historial:", value=None, key="fh_s")
-    with h_c2: slh = st.selectbox("Liga Historial:", ["TODAS"] + lgs, key="lh_s")
-    df_hh = df_h if slh=="TODAS" else df_h[df_h['League']==slh]
+    
+    with h_c1: 
+        sfh = st.date_input("Fecha Historial:", value=None, key="fh_s")
+        
+    with h_c2: 
+        # index=None activa la "X" para limpiar el filtro
+        slh = st.selectbox("Liga Historial:", lgs, index=None, placeholder="TODAS LAS LIGAS", key="lh_s")
+        
+    df_hh = df_h if slh is None else df_h[df_h['League']==slh]
     if sfh: df_hh = df_hh[df_hh['Fecha_dt'].dt.date == sfh]
-    with h_c3: sjh = st.selectbox("Jornada Historial:", ["TODAS"] + sorted(df_hh['Matchday'].unique().tolist(), reverse=True) if not df_hh.empty else ["TODAS"], key="jh_s")
-    df_res = df_hh if sjh=="TODAS" else df_hh[df_hh['Matchday']==sjh]
+    
+    with h_c3: 
+        jornadas_h = sorted(df_hh['Matchday'].unique().tolist(), reverse=True) if not df_hh.empty else []
+        # index=None activa la "X" para limpiar el filtro
+        sjh = st.selectbox("Jornada Historial:", jornadas_h, index=None, placeholder="TODAS LAS JORNADAS", key="jh_s")
+        
+    df_res = df_hh if sjh is None else df_hh[df_hh['Matchday']==sjh]
+    
     st.dataframe(df_res[['Date', 'Time', 'Matchday', 'League', 'Match', 'Result', '1X', 'X2', 'Over 1.5', 'Over 2.5', 'Btts']].style.map(color_letras_historial, subset=['1X', 'X2', 'Over 1.5', 'Over 2.5', 'Btts']), use_container_width=True, hide_index=True)
-# endregion
-
-# region 5. BLOQUE BASKETBALL
-@st.fragment
-def bloque_basketball():
-    st.markdown("## 🏀 BASKETBALL PREDICTIONS")
-    st.info("Módulo en desarrollo para la próxima actualización.")
 # endregion
 
 

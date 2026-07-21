@@ -38,11 +38,18 @@ st.markdown("""
         letter-spacing: 2px;
     }
 
-    div.stButton > button {
-        width: 100% !important;
-        height: 170px !important; /* Altura fija obligatoria */
+    /* 1. Congelamos el tamaño del contenedor invisible de Streamlit */
+    div.stButton {
+        height: 170px !important;
         min-height: 170px !important;
         max-height: 170px !important;
+        margin-bottom: 10px !important;
+    }
+
+    /* 2. Hacemos que el botón se adapte estrictamente a su contenedor */
+    div.stButton > button {
+        width: 100% !important;
+        height: 100% !important; /* Toma los 170px exactos del padre */
         background-color: white !important;
         color: black !important;
         border: 2px solid #eee !important;
@@ -50,15 +57,17 @@ st.markdown("""
         white-space: pre-wrap !important;
         word-wrap: break-word !important;
         display: flex !important;
-        flex-direction: column !important; /* Apila el texto verticalmente */
+        flex-direction: column !important;
         align-items: center !important;
         justify-content: center !important;
         text-align: center !important;
-        font-size: 13px !important; /* Reducimos 1px para mejor ajuste */
-        line-height: 1.3 !important; /* Espaciado entre líneas más compacto */
+        font-size: 13px !important;
+        line-height: 1.3 !important;
+        padding: 10px !important; /* Da un poco de aire al texto */
+        box-sizing: border-box !important; /* Evita que el padding sume tamaño extra */
         box-shadow: 0px 4px 10px rgba(0,0,0,0.1) !important;
         transition: transform 0.2s !important;
-        overflow: hidden !important; /* Oculta sobrantes si el texto es extremo */
+        overflow: hidden !important;
     }
     
     div.stButton > button:hover {

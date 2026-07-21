@@ -1,0 +1,77 @@
+﻿matchday,date,time,home_team,away_team,result,status
+1,07/07/2026,03:00,Sabah FK,The New Saints,2-0,Final
+1,07/07/2026,03:00,Lincoln Red Imps,Inter Club d’Escaldes,3-1,Final
+1,07/07/2026,03:00,FC Ararat-Armenia,Riga FC,2-0,Final
+1,07/07/2026,03:00,Kauno Žalgiris,KF Drita,1-1,Final
+1,07/07/2026,03:00,Vardar Skopje,Kuopion PS,0-2,Final
+1,07/07/2026,03:00,Floriana FC,Shamrock Rovers,2-0,Final
+1,07/07/2026,03:00,SP Tre Fiori,Larne FC,0-1,Final
+1,07/07/2026,03:00,Borac Banja Luka,Levski Sofia,1-1,Final
+1,07/07/2026,03:00,KÍ Klaksvík,FC Atert Bissen,2-1,Final
+1,07/07/2026,03:00,Víkingur Reykjavík,Győri ETO FC,1-0,Final
+1,08/07/2026,03:00,FK Kairat,FK Sutjeska,2-1,Final
+1,08/07/2026,03:00,FC Flora,FC Iberia 1999,2-3,Final
+1,08/07/2026,03:00,FK Maxline Vitebsk,CS Universitatea Craiova,1-4,Final
+1,08/07/2026,03:00,CS Petrocub,Egnatia Rrogozhine,1-1,Final
+2,14/07/2026,03:00,Kuopion PS,Vardar Skopje,2-3,Final
+2,14/07/2026,03:00,FC Iberia 1999,FC Flora,2-2,Final
+2,14/07/2026,03:00,Inter Club d’Escaldes,Lincoln Red Imps,1-1,Final
+2,14/07/2026,03:00,Riga FC,FC Ararat-Armenia,3-2,Final
+2,14/07/2026,03:00,Győri ETO FC,Víkingur Reykjavík,2-2,Final
+2,14/07/2026,03:00,The New Saints,Sabah FK,1-2,Final
+2,14/07/2026,03:00,Levski Sofia,Borac Banja Luka,4-0,Final
+2,14/07/2026,03:00,KF Drita,Kauno Žalgiris,2-3,Final
+2,14/07/2026,03:00,Shamrock Rovers,Floriana FC,5-1,Final
+2,14/07/2026,03:00,Larne FC,SP Tre Fiori,2-1,Final
+2,15/07/2026,03:00,CS Universitatea Craiova,FK Maxline Vitebsk,1-0,Final
+2,15/07/2026,03:00,FC Atert Bissen,KÍ Klaksvík,1-2,Final
+2,15/07/2026,03:00,Egnatia Rrogozhine,CS Petrocub,6-1,Final
+2,15/07/2026,03:00,FK Sutjeska,FK Kairat,0-2,Final
+3,21/07/2026,11:00,Mjällby AIF,Lincoln Red Imps,,
+3,21/07/2026,11:00,Sabah FK,Kuopion PS,,
+3,21/07/2026,11:00,FC Ararat-Armenia,Shamrock Rovers,,
+3,21/07/2026,11:00,FC Iberia 1999,Slovan Bratislava,,
+3,21/07/2026,12:00,Aarhus GF,Lech Poznań,,
+3,21/07/2026,13:00,FC Thun Berner Oberland,Dinamo Zagreb,,
+3,21/07/2026,13:00,Fenerbahçe,Górnik Zabrze,,
+3,21/07/2026,13:30,Sturm Graz,Heart of Midlothian,,
+3,21/07/2026,13:45,KÍ Klaksvík,Kauno Žalgiris,,
+3,21/07/2026,14:00,Larne FC,Estrella Roja de Belgrado,,
+3,21/07/2026,14:00,Víkingur Reykjavík,Hapoel Be'er Sheva,,
+3,22/07/2026,12:00,Omonia Nikosia,FK Kairat,,
+3,22/07/2026,12:30,Levski Sofia,CS Universitatea Craiova,,
+3,22/07/2026,14:00,Egnatia Rrogozhine,NK Celje,,
+4,28/07/2026,10:00,Kuopion PS,Sabah FK,,
+4,28/07/2026,11:00,Lincoln Red Imps,Mjällby AIF,,
+4,28/07/2026,13:00,Dinamo Zagreb,FC Thun Berner Oberland,,
+4,28/07/2026,13:15,NK Celje,Egnatia Rrogozhine,,
+4,28/07/2026,13:45,Heart of Midlothian,Sturm Graz,,
+4,28/07/2026,14:00,Shamrock Rovers,FC Ararat-Armenia,,
+4,29/07/2026,10:00,FK Kairat,Omonia Nikosia,,
+4,29/07/2026,11:00,Kauno Žalgiris,KÍ Klaksvík,,
+4,29/07/2026,12:00,Lech Poznań,Aarhus GF,,
+4,29/07/2026,12:30,CS Universitatea Craiova,Levski Sofia,,
+4,29/07/2026,12:30,Hapoel Be'er Sheva,Víkingur Reykjavík,,
+4,29/07/2026,13:00,Estrella Roja de Belgrado,Larne FC,,
+4,29/07/2026,13:00,Górnik Zabrze,Fenerbahçe,,
+4,29/07/2026,13:15,Slovan Bratislava,FC Iberia 1999,,
+5,05/08/2026,03:00,Olympiakos Piraeus,NEC Nijmegen,,
+5,05/08/2026,03:00,Union Saint-Gilloise,FK Bodø/Glimt,,
+5,05/08/2026,03:00,AC Sparta Praha,Olympique Lyonnais,,
+5,05/08/2026,03:00,Thun / Din. Zagreb,Klaksvík / Kauno Žalgiris,,
+5,05/08/2026,03:00,Mjällby / Lincoln Red Imps,Iberia 1999 / Bratislava,,
+5,05/08/2026,03:00,Levski Sofia / Univ. Craiova,Om. Nikosia / Kairat Almaty,,
+5,05/08/2026,03:00,Aarhus / Lech Poznań,Sabah / Kuopion,,
+5,05/08/2026,03:00,Ararat-Armenia / Shamrock,Egnatia / Celje,,
+5,05/08/2026,03:00,Vík. Reykjavík / H. Beer-Sheva,Larne / Crvena Zvezda,,
+5,05/08/2026,03:00,Fenerbahçe / Górnik Zabrze,Sturm Graz / Heart of Midlothian,,
+6,11/08/2026,03:00,NEC Nijmegen,Olympiakos Piraeus,,
+6,11/08/2026,03:00,FK Bodø/Glimt,Union Saint-Gilloise,,
+6,11/08/2026,03:00,Olympique Lyonnais,AC Sparta Praha,,
+6,11/08/2026,03:00,Klaksvík / Kauno Žalgiris,Thun / Din. Zagreb,,
+6,11/08/2026,03:00,Iberia 1999 / Bratislava,Mjällby / Lincoln Red Imps,,
+6,11/08/2026,03:00,Om. Nikosia / Kairat Almaty,Levski Sofia / Univ. Craiova,,
+6,11/08/2026,03:00,Sabah / Kuopion,Aarhus / Lech Poznań,,
+6,11/08/2026,03:00,Egnatia / Celje,Ararat-Armenia / Shamrock,,
+6,11/08/2026,03:00,Larne / Crvena Zvezda,Vík. Reykjavík / H. Beer-Sheva,,
+6,11/08/2026,03:00,Sturm Graz / Heart of Midlothian,Fenerbahçe / Górnik Zabrze,,

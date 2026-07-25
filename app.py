@@ -350,26 +350,42 @@ def bloque_prediccion_bomba(df_fin, df_h):
 @st.fragment
 def bloque_historial(df_h, lgs):
     st.markdown("## 📜 HISTORIAL DE RESULTADOS")
-    h_c1, h_c2, h_c3 = st.columns([1, 1, 1])
+    
+    # Creamos 4 columnas para acomodar los nuevos filtros
+    h_c1, h_c2, h_c3, h_c4 = st.columns([1, 1, 1, 1])
     
     with h_c1: 
-        sfh = st.date_input("Fecha Historial:", value=None, key="fh_s")
+        sfh = st.date_input("Fecha:", value=None, key="fh_s")
         
     with h_c2: 
-        # index=None activa la "X" para limpiar el filtro
-        slh = st.selectbox("Liga Historial:", lgs, index=None, placeholder="TODAS LAS LIGAS", key="lh_s")
+        slh = st.selectbox("Liga:", lgs, index=None, placeholder="TODAS LAS LIGAS", key="lh_s")
         
+    # Aplicamos primero los filtros de fecha y liga para saber qué equipos mostrar
     df_hh = df_h if slh is None else df_h[df_h['League']==slh]
     if sfh: df_hh = df_hh[df_hh['Fecha_dt'].dt.date == sfh]
     
-    with h_c3: 
-        jornadas_h = sorted(df_hh['Matchday'].unique().tolist(), reverse=True) if not df_hh.empty else []
-        # index=None activa la "X" para limpiar el filtro
-        sjh = st.selectbox("Jornada Historial:", jornadas_h, index=None, placeholder="TODAS LAS JORNADAS", key="jh_s")
-        
-    df_res = df_hh if sjh is None else df_hh[df_hh['Matchday']==sjh]
+    # Extraemos y ordenamos alfabéticamente la lista de equipos disponibles en pantalla
+    equipos = pd.concat([df_hh['Home team'], df_hh['Away team']]).dropna().unique().tolist()
+    equipos.sort()
     
-    st.dataframe(df_res[['Date', 'Time', 'Matchday', 'League', 'Match', 'Result', '1X', 'X2', 'Over 1.5', 'Over 2.5', 'Btts']].style.map(color_letras_historial, subset=['1X', 'X2', 'Over 1.5', 'Over 2.5', 'Btts']), use_container_width=True, hide_index=True)
+    with h_c3: 
+        seq = st.selectbox("Equipo:", equipos, index=None, placeholder="TODOS LOS EQUIPOS", key="eq_s")
+        
+    with h_c4: 
+        scond = st.selectbox("Condición:", ["Cualquiera", "Local", "Visitante"], index=0, key="cond_s")
+        
+    # Aplicamos la lógica de filtrado del equipo según si es local o visitante
+    if seq is not None:
+        if scond == "Local":
+            df_hh = df_hh[df_hh['Home team'] == seq]
+        elif scond == "Visitante":
+            df_hh = df_hh[df_hh['Away team'] == seq]
+        else:
+            # "Cualquiera" busca al equipo sin importar en qué columna esté
+            df_hh = df_hh[(df_hh['Home team'] == seq) | (df_hh['Away team'] == seq)]
+    
+    # Renderizamos la tabla manteniendo el estilo aplicado a los números/letras
+    st.dataframe(df_hh[['Date', 'Time', 'Matchday', 'League', 'Match', 'Result', '1X', 'X2', 'Over 1.5', 'Over 2.5', 'Btts']].style.map(color_letras_historial, subset=['1X', 'X2', 'Over 1.5', 'Over 2.5', 'Btts']), use_container_width=True, hide_index=True)
 # endregion
 
 # region 5. BLOQUE BASKETBALL

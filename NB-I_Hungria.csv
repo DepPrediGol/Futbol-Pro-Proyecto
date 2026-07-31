@@ -1,22 +1,22 @@
 ﻿matchday,date,time,home_team,away_team,result,status
-1,24/07/2026,13:00,Nyíregyháza Spartacus,Újpest FC,,
-1,25/07/2026,12:30,Kisvárda FC,Budapest Honvéd,,
-1,26/07/2026,08:45,Budapesti Vasas,Győri ETO FC,,
-1,26/07/2026,11:00,Debreceni VSC,Puskás Akadémia,,
-1,26/07/2026,13:00,Paksi SE,Ferencvárosi TC,,
-1,27/07/2026,12:30,MTK Budapest,Zalaegerszegi TE,,
+1,24/07/2026,03:00,Nyíregyháza Spartacus,Újpest FC,2-1,Final
+1,25/07/2026,03:00,Kisvárda FC,Budapest Honvéd,1-1,Final
+1,26/07/2026,03:00,Budapesti Vasas,Győri ETO FC,2-2,Final
+1,26/07/2026,03:00,Debreceni VSC,Puskás Akadémia,0-2,Final
+1,26/07/2026,03:00,Paksi SE,Ferencvárosi TC,4-2,Final
+1,27/07/2026,03:00,MTK Budapest,Zalaegerszegi TE,3-0,Final
 2,31/07/2026,13:00,Puskás Akadémia,Kisvárda FC,,
 2,01/08/2026,12:30,Budapest Honvéd,MTK Budapest,,
 2,02/08/2026,08:45,Újpest FC,Debreceni VSC,,
 2,02/08/2026,11:00,Győri ETO FC,Nyíregyháza Spartacus,,
 2,02/08/2026,13:15,Ferencvárosi TC,Budapesti Vasas,,
 2,03/08/2026,11:30,Zalaegerszegi TE,Paksi SE,,
-3,08/08/2026,03:00,Debreceni VSC,Nyíregyháza Spartacus,,
+3,07/08/2026,13:00,MTK Budapest,Puskás Akadémia,,
 3,08/08/2026,03:00,Győri ETO FC,Ferencvárosi TC,,
-3,08/08/2026,03:00,Kisvárda FC,Újpest FC,,
-3,08/08/2026,03:00,MTK Budapest,Puskás Akadémia,,
-3,08/08/2026,03:00,Paksi SE,Budapest Honvéd,,
-3,08/08/2026,03:00,Budapesti Vasas,Zalaegerszegi TE,,
+3,08/08/2026,10:30,Kisvárda FC,Újpest FC,,
+3,08/08/2026,13:00,Budapesti Vasas,Zalaegerszegi TE,,
+3,09/08/2026,10:00,Paksi SE,Budapest Honvéd,,
+3,09/08/2026,12:30,Debreceni VSC,Nyíregyháza Spartacus,,
 4,15/08/2026,03:00,Debreceni VSC,Győri ETO FC,,
 4,15/08/2026,03:00,Budapest Honvéd,Budapesti Vasas,,
 4,15/08/2026,03:00,Nyíregyháza Spartacus,Kisvárda FC,,

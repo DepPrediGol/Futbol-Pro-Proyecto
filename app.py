@@ -162,8 +162,7 @@ def generar_tabla_posiciones(df_historial, liga):
 # --- 4. CARGA Y PROCESAMIENTO DE DATOS (MÓDULO CENTRAL) ---
 @st.cache_data(ttl=600, show_spinner="Sincronizando Base de Datos...")
 def cargar_todo():
-    # Optimizamos la ruta para que solo lea la carpeta correcta y no pierda tiempo escaneando todo el disco
-    archivos = glob.glob("Procesados_Actualizados/**/*.csv", recursive=True)
+    archivos = glob.glob("**/*.csv", recursive=True)
     fz_acum, part_cont = {}, {}
     for arc in archivos:
         try:
@@ -209,6 +208,8 @@ def cargar_todo():
                     actuales.append(match_data)
         except: continue
     return pd.DataFrame(actuales), pd.DataFrame(historicos), sorted(ligas)
+
+df_p, df_h, lgs = cargar_todo()
 
 # --- 5. VENTANA FLOTANTE (ANALISIS PRO) ---
 @st.dialog("📊 ANÁLISIS DETALLADO", width="large")

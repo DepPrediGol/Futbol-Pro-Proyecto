@@ -297,17 +297,39 @@ def bloque_prediccion_bomba(df_fin, df_h):
     if df_fin.empty:
         return
 
-    # 1. Seleccionar la predicción bomba dentro de los datos ya filtrados por fecha o liga
-    d_b = df_fin.loc[df_fin[['Over 1.5', 'Over 2.5', 'Btts']].max(axis=1).idxmax()]
+    # 1. Creamos un "puntaje bomba" para ordenar los partidos por su mayor probabilidad
+    df_temp = df_fin.copy()
+    df_temp['bomb_score'] = df_temp[['Over 1.5', 'Over 2.5', 'Btts']].max(axis=1)
+    df_temp = df_temp.sort_values(by='bomb_score', ascending=False)
 
-    # 2. Buscar historial local (primero en la misma liga, si no, historial global del equipo)
-    h_l = df_h[(df_h['Home team'] == d_b['Home team']) & (df_h['League'] == d_b['League'])]
-    if h_l.empty:
+    d_b = None
+    h_l = pd.DataFrame()
+    h_v = pd.DataFrame()
+
+    # 2. Iteramos buscando el mejor partido que SÍ tenga historial previo para ambos equipos
+    for idx, row in df_temp.iterrows():
+        # Buscar historial local (primero en la misma liga, si no, historial global del equipo)
+        temp_h_l = df_h[(df_h['Home team'] == row['Home team']) & (df_h['League'] == row['League'])]
+        if temp_h_l.empty:
+            temp_h_l = df_h[df_h['Home team'] == row['Home team']]
+            
+        # Buscar historial visitante (primero en la misma liga, si no, historial global del equipo)
+        temp_h_v = df_h[(df_h['Away team'] == row['Away team']) & (df_h['League'] == row['League'])]
+        if temp_h_v.empty:
+            temp_h_v = df_h[df_h['Away team'] == row['Away team']]
+
+        # Condición de oro: ¡Ambos equipos deben tener historial en la base de datos para ser una bomba!
+        if not temp_h_l.empty and not temp_h_v.empty:
+            d_b = row
+            h_l = temp_h_l
+            h_v = temp_h_v
+            break
+
+    # 3. Respaldo extremo: Si de pura casualidad ningún partido de la fecha filtrada tiene historial, 
+    # tomamos el de mayor probabilidad matemática para que el bloque no quede en blanco.
+    if d_b is None:
+        d_b = df_temp.iloc[0]
         h_l = df_h[df_h['Home team'] == d_b['Home team']]
-
-    # 3. Buscar historial visitante (primero en la misma liga, si no, historial global del equipo)
-    h_v = df_h[(df_h['Away team'] == d_b['Away team']) & (df_h['League'] == d_b['League'])]
-    if h_v.empty:
         h_v = df_h[df_h['Away team'] == d_b['Away team']]
 
     # 4. Generar el texto original del Local

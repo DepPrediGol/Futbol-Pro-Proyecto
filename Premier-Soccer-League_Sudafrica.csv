@@ -1,11 +1,11 @@
 ﻿matchday,date,time,home_team,away_team,result,status
-1,01/08/2026,08:00,Golden Arrows,Chippa United,,
-1,01/08/2026,08:00,Orlando Pirates,Milford FC,,
-1,01/08/2026,08:00,Stellenbosch FC,AmaZulu FC,,
-1,01/08/2026,10:30,Sekhukhune United,Durban City FC,,
-1,01/08/2026,13:00,Kruger United FC,Kaizer Chiefs,,
-1,02/08/2026,08:00,Richards Bay FC,Polokwane City FC,,
-1,02/08/2026,10:30,Siwelele FC,TS Galaxy,,
+1,01/08/2026,03:00,Golden Arrows,Chippa United,0-0,Final
+1,01/08/2026,03:00,Orlando Pirates,Milford FC,2-0,Final
+1,01/08/2026,03:00,Stellenbosch FC,AmaZulu FC,0-1,Final
+1,01/08/2026,03:00,Sekhukhune United,Durban City FC,1-0,Final
+1,01/08/2026,03:00,Kruger United FC,Kaizer Chiefs,1-3,Final
+1,02/08/2026,03:00,Richards Bay FC,Polokwane City FC,1-2,Final
+1,02/08/2026,03:00,Siwelele FC,TS Galaxy,2-2,Final
 1,19/08/2026,12:30,Mamelodi Sundowns,Marumo Gallants,,
 2,11/08/2026,12:30,Chippa United,Richards Bay FC,,
 2,11/08/2026,12:30,Marumo Gallants,Kruger United FC,,

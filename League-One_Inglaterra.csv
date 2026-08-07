@@ -1,558 +1,553 @@
 ﻿matchday,date,time,home_team,away_team,result,status
-1,01/08/2025,14:00,Luton,AFC Wimbledon,1-0,Final
-1,02/08/2025,06:30,Cardiff,Peterborough,2-1,Final
-1,02/08/2025,09:00,Huddersfield,Leyton Orient,3-0,Final
-1,02/08/2025,09:00,Wigan,Northampton,3-1,Final
-1,02/08/2025,09:00,Rotherham,Port Vale,2-1,Final
-1,02/08/2025,09:00,Burton Albion,Mansfield Town,2-1,Final
-1,02/08/2025,09:00,Bradford,Wycombe,2-1,Final
-1,02/08/2025,09:00,Doncaster,Exeter City,1-0,Final
-1,02/08/2025,09:00,Blackpool,Stevenage,2-3,Final
-1,02/08/2025,09:00,Plymouth,Barnsley,1-3,Final
-1,02/08/2025,09:00,Lincoln,Reading,2-0,Final
-1,03/08/2025,06:00,Stockport County,Bolton,2-0,Final
-2,07/08/2025,14:00,Port Vale,Cardiff,0-0,Final
-2,09/08/2025,06:30,Reading,Huddersfield,0-2,Final
-2,09/08/2025,06:30,Peterborough,Luton,0-2,Final
-2,09/08/2025,09:00,Bolton,Plymouth,2-0,Final
-2,09/08/2025,09:00,Barnsley,Burton Albion,3-2,Final
-2,09/08/2025,09:00,AFC Wimbledon,Lincoln,2-0,Final
-2,09/08/2025,09:00,Northampton,Bradford,0-0,Final
-2,09/08/2025,09:00,Wycombe,Stockport County,1-2,Final
-2,09/08/2025,09:00,Exeter City,Blackpool,4-1,Final
-2,09/08/2025,09:00,Stevenage,Rotherham,1-0,Final
-2,09/08/2025,09:00,Leyton Orient,Wigan,2-0,Final
-2,09/08/2025,09:00,Mansfield Town,Doncaster,1-2,Final
-3,16/08/2025,06:30,Burton Albion,Port Vale,0-0,Final
-3,16/08/2025,06:30,Exeter City,Mansfield Town,1-2,Final
-3,16/08/2025,09:00,Cardiff,Rotherham,3-0,Final
-3,16/08/2025,09:00,Reading,AFC Wimbledon,1-2,Final
-3,16/08/2025,09:00,Wigan,Peterborough,2-0,Final
-3,16/08/2025,09:00,Barnsley,Bolton,1-1,Final
-3,16/08/2025,09:00,Bradford,Luton,2-1,Final
-3,16/08/2025,09:00,Doncaster,Wycombe,1-1,Final
-3,16/08/2025,09:00,Blackpool,Huddersfield,3-2,Final
-3,16/08/2025,09:00,Stevenage,Northampton,2-0,Final
-3,16/08/2025,09:00,Leyton Orient,Stockport County,2-2,Final
-3,16/08/2025,09:00,Lincoln,Plymouth,3-2,Final
-4,19/08/2025,13:45,Huddersfield,Doncaster,2-0,Final
-4,19/08/2025,13:45,AFC Wimbledon,Cardiff,0-1,Final
-4,19/08/2025,13:45,Northampton,Lincoln,0-1,Final
-4,19/08/2025,13:45,Peterborough,Barnsley,0-1,Final
-4,19/08/2025,13:45,Port Vale,Stevenage,1-2,Final
-4,19/08/2025,13:45,Plymouth,Leyton Orient,0-1,Final
-4,19/08/2025,13:45,Wycombe,Exeter City,0-1,Final
-4,19/08/2025,13:45,Luton,Wigan,1-0,Final
-4,19/08/2025,13:45,Mansfield Town,Blackpool,2-0,Final
-4,19/08/2025,13:45,Stockport County,Bradford,1-2,Final
-4,20/08/2025,14:00,Bolton,Reading,1-1,Final
-5,23/08/2025,06:30,Rotherham,Wigan,2-2,Final
-5,23/08/2025,06:30,Luton,Cardiff,0-1,Final
-5,23/08/2025,09:00,Huddersfield,Stevenage,1-0,Final
-5,23/08/2025,09:00,Bolton,Lincoln,1-1,Final
-5,23/08/2025,09:00,AFC Wimbledon,Barnsley,2-0,Final
-5,23/08/2025,09:00,Northampton,Exeter City,2-0,Final
-5,23/08/2025,09:00,Peterborough,Bradford,1-1,Final
-5,23/08/2025,09:00,Port Vale,Doncaster,0-1,Final
-5,23/08/2025,09:00,Plymouth,Blackpool,1-0,Final
-5,23/08/2025,09:00,Wycombe,Reading,2-2,Final
-5,23/08/2025,09:00,Mansfield Town,Leyton Orient,4-1,Final
-5,23/08/2025,09:00,Stockport County,Burton Albion,2-1,Final
-6,30/08/2025,06:30,Cardiff,Plymouth,4-0,Final
-6,30/08/2025,06:30,Doncaster,Rotherham,1-0,Final
-6,30/08/2025,09:00,Reading,Port Vale,1-0,Final
-6,30/08/2025,09:00,Wigan,Stockport County,1-1,Final
-6,30/08/2025,09:00,Barnsley,Huddersfield,3-1,Final
-6,30/08/2025,09:00,Burton Albion,Luton,0-3,Final
-6,30/08/2025,09:00,Bradford,AFC Wimbledon,3-2,Final
-6,30/08/2025,09:00,Blackpool,Bolton,1-1,Final
-6,30/08/2025,09:00,Exeter City,Peterborough,3-0,Final
-6,30/08/2025,09:00,Stevenage,Wycombe,1-0,Final
-6,30/08/2025,09:00,Leyton Orient,Northampton,0-1,Final
-6,30/08/2025,09:00,Lincoln,Mansfield Town,1-1,Final
-7,06/09/2025,09:00,Huddersfield,Peterborough,3-2,Final
-7,06/09/2025,09:00,Bolton,AFC Wimbledon,3-0,Final
-7,06/09/2025,09:00,Rotherham,Exeter City,1-0,Final
-7,06/09/2025,09:00,Port Vale,Leyton Orient,2-3,Final
-7,06/09/2025,09:00,Doncaster,Bradford,3-1,Final
-7,06/09/2025,09:00,Plymouth,Stockport County,4-2,Final
-7,06/09/2025,09:00,Wycombe,Mansfield Town,2-0,Final
-7,06/09/2025,09:00,Lincoln,Wigan,2-2,Final
-8,13/09/2025,06:30,Northampton,Blackpool,1-0,Final
-8,13/09/2025,06:30,Bradford,Huddersfield,3-1,Final
-8,13/09/2025,09:00,Wigan,Doncaster,3-0,Final
-8,13/09/2025,09:00,Barnsley,Reading,3-2,Final
-8,13/09/2025,09:00,Burton Albion,Lincoln,0-1,Final
-8,13/09/2025,09:00,AFC Wimbledon,Rotherham,2-1,Final
-8,13/09/2025,09:00,Peterborough,Wycombe,2-1,Final
-8,13/09/2025,09:00,Luton,Plymouth,2-3,Final
-8,13/09/2025,09:00,Exeter City,Port Vale,0-2,Final
-8,13/09/2025,09:00,Leyton Orient,Bolton,1-1,Final
-8,13/09/2025,09:00,Mansfield Town,Stevenage,1-1,Final
-8,13/09/2025,09:00,Stockport County,Cardiff,1-1,Final
-9,20/09/2025,06:30,Bolton,Wigan,4-1,Final
-9,20/09/2025,06:30,Blackpool,Barnsley,1-0,Final
-9,20/09/2025,06:30,Lincoln,Luton,3-1,Final
-9,20/09/2025,09:00,Huddersfield,Burton Albion,0-0,Final
-9,20/09/2025,09:00,Cardiff,Bradford,1-3,Final
-9,20/09/2025,09:00,Reading,Leyton Orient,2-1,Final
-9,20/09/2025,09:00,Rotherham,Stockport County,0-1,Final
-9,20/09/2025,09:00,Port Vale,Mansfield Town,2-1,Final
-9,20/09/2025,09:00,Doncaster,AFC Wimbledon,1-2,Final
-9,20/09/2025,09:00,Plymouth,Peterborough,0-1,Final
-9,20/09/2025,09:00,Wycombe,Northampton,2-0,Final
-9,20/09/2025,09:00,Stevenage,Exeter City,2-1,Final
-10,27/09/2025,06:30,AFC Wimbledon,Wycombe,2-1,Final
-10,27/09/2025,06:30,Leyton Orient,Stevenage,2-3,Final
-10,27/09/2025,09:00,Wigan,Cardiff,0-2,Final
-10,27/09/2025,09:00,Barnsley,Port Vale,0-2,Final
-10,27/09/2025,09:00,Burton Albion,Plymouth,0-4,Final
-10,27/09/2025,09:00,Northampton,Bolton,2-0,Final
-10,27/09/2025,09:00,Bradford,Blackpool,1-0,Final
-10,27/09/2025,09:00,Peterborough,Lincoln,0-3,Final
-10,27/09/2025,09:00,Luton,Doncaster,1-0,Final
-10,27/09/2025,09:00,Exeter City,Huddersfield,0-1,Final
-10,27/09/2025,09:00,Mansfield Town,Rotherham,2-1,Final
-10,27/09/2025,09:00,Stockport County,Reading,1-1,Final
-7,30/09/2025,13:45,Cardiff,Burton Albion,0-1,Final
-7,30/09/2025,13:45,Blackpool,Luton,2-2,Final
-11,02/10/2025,14:00,Rotherham,Bradford,2-2,Final
-11,04/10/2025,06:30,Doncaster,Burton Albion,1-1,Final
-11,04/10/2025,06:30,Wycombe,Barnsley,2-2,Final
-11,04/10/2025,09:00,Huddersfield,Stockport County,1-2,Final
-11,04/10/2025,09:00,Cardiff,Leyton Orient,4-3,Final
-11,04/10/2025,09:00,Reading,Mansfield Town,1-1,Final
-11,04/10/2025,09:00,Bolton,Peterborough,2-1,Final
-11,04/10/2025,09:00,Port Vale,Northampton,0-0,Final
-11,04/10/2025,09:00,Blackpool,AFC Wimbledon,0-2,Final
-11,04/10/2025,09:00,Plymouth,Wigan,1-1,Final
-11,04/10/2025,09:00,Stevenage,Luton,2-0,Final
-11,04/10/2025,09:00,Lincoln,Exeter City,0-1,Final
-12,11/10/2025,08:00,Northampton,Rotherham,1-2,Final
-12,11/10/2025,09:00,Wigan,Wycombe,0-1,Final
-12,11/10/2025,09:00,Burton Albion,Bolton,3-0,Final
-12,11/10/2025,09:00,AFC Wimbledon,Port Vale,1-1,Final
-12,11/10/2025,09:00,Exeter City,Reading,1-1,Final
-12,11/10/2025,09:00,Leyton Orient,Doncaster,4-0,Final
-12,11/10/2025,09:00,Stockport County,Blackpool,1-0,Final
-13,16/10/2025,14:00,Huddersfield,Bolton,1-2,Final
-13,18/10/2025,06:30,Burton Albion,Peterborough,0-1,Final
-13,18/10/2025,06:30,Lincoln,Stevenage,1-0,Final
-13,18/10/2025,09:00,Cardiff,Reading,2-1,Final
-13,18/10/2025,09:00,Wigan,Port Vale,1-0,Final
-13,18/10/2025,09:00,Rotherham,Leyton Orient,1-0,Final
-13,18/10/2025,09:00,Bradford,Barnsley,2-2,Final
-13,18/10/2025,09:00,Doncaster,Northampton,1-2,Final
-13,18/10/2025,09:00,Blackpool,Wycombe,1-1,Final
-13,18/10/2025,09:00,Plymouth,AFC Wimbledon,1-2,Final
-13,18/10/2025,09:00,Luton,Mansfield Town,0-2,Final
-13,18/10/2025,09:00,Stockport County,Exeter City,1-0,Final
-7,21/10/2025,14:00,Reading,Northampton,1-0,Final
-14,23/10/2025,14:00,Exeter City,Plymouth,2-0,Final
-14,25/10/2025,06:30,Bolton,Cardiff,1-0,Final
-14,25/10/2025,06:30,Mansfield Town,Wigan,1-1,Final
-14,25/10/2025,09:00,Reading,Doncaster,1-1,Final
-14,25/10/2025,09:00,Barnsley,Rotherham,0-1,Final
-14,25/10/2025,09:00,AFC Wimbledon,Burton Albion,0-1,Final
-14,25/10/2025,09:00,Northampton,Luton,0-1,Final
-14,25/10/2025,09:00,Peterborough,Blackpool,1-2,Final
-14,25/10/2025,09:00,Wycombe,Huddersfield,3-0,Final
-14,25/10/2025,09:00,Stevenage,Bradford,1-1,Final
-14,25/10/2025,09:00,Leyton Orient,Lincoln,1-0,Final
-14,27/10/2025,15:00,Port Vale,Stockport County,0-3,Final
-12,28/10/2025,14:45,Bradford,Lincoln,0-0,Final
-12,28/10/2025,14:45,Mansfield Town,Plymouth,2-0,Final
-4,04/11/2025,14:45,Rotherham,Burton Albion,2-2,Final
-15,06/11/2025,15:00,Reading,Stevenage,1-0,Final
-15,08/11/2025,07:30,Northampton,Mansfield Town,2-1,Final
-15,08/11/2025,07:30,Wycombe,Leyton Orient,4-1,Final
-15,08/11/2025,10:00,Huddersfield,Plymouth,3-1,Final
-15,08/11/2025,10:00,Bolton,Port Vale,4-0,Final
-15,08/11/2025,10:00,Rotherham,Lincoln,3-0,Final
-15,08/11/2025,10:00,Bradford,Burton Albion,1-2,Final
-15,08/11/2025,10:00,Peterborough,AFC Wimbledon,5-0,Final
-15,08/11/2025,10:00,Doncaster,Barnsley,1-2,Final
-15,08/11/2025,10:00,Blackpool,Cardiff,3-1,Final
-15,08/11/2025,10:00,Exeter City,Wigan,1-1,Final
-15,08/11/2025,10:00,Stockport County,Luton,0-3,Final
-16,15/11/2025,10:00,Burton Albion,Blackpool,1-0,Final
-16,15/11/2025,10:00,Port Vale,Wycombe,0-0,Final
-16,15/11/2025,10:00,Luton,Rotherham,0-0,Final
-16,15/11/2025,10:00,Leyton Orient,Exeter City,2-1,Final
-16,15/11/2025,10:00,Lincoln,Doncaster,2-1,Final
-17,20/11/2025,15:00,Peterborough,Stockport County,3-0,Final
-17,22/11/2025,07:30,Port Vale,Plymouth,0-1,Final
-17,22/11/2025,10:00,Reading,Rotherham,1-1,Final
-17,22/11/2025,10:00,Bolton,Bradford,0-0,Final
-17,22/11/2025,10:00,Barnsley,Luton,5-0,Final
-17,22/11/2025,10:00,AFC Wimbledon,Wigan,1-2,Final
-17,22/11/2025,10:00,Northampton,Cardiff,1-3,Final
-17,22/11/2025,10:00,Wycombe,Lincoln,3-2,Final
-17,22/11/2025,10:00,Stevenage,Doncaster,0-0,Final
-17,22/11/2025,10:00,Leyton Orient,Blackpool,1-1,Final
-17,22/11/2025,10:00,Mansfield Town,Huddersfield,1-3,Final
-12,25/11/2025,14:45,Peterborough,Stevenage,0-1,Final
-12,25/11/2025,14:45,Luton,Huddersfield,2-1,Final
-18,29/11/2025,07:30,Blackpool,Reading,0-3,Final
-18,29/11/2025,07:30,Stockport County,Barnsley,1-1,Final
-18,29/11/2025,10:00,Huddersfield,AFC Wimbledon,3-3,Final
-18,29/11/2025,10:00,Cardiff,Mansfield Town,3-0,Final
-18,29/11/2025,10:00,Wigan,Stevenage,0-0,Final
-18,29/11/2025,10:00,Rotherham,Wycombe,1-1,Final
-18,29/11/2025,10:00,Burton Albion,Leyton Orient,0-4,Final
-18,29/11/2025,10:00,Bradford,Exeter City,1-0,Final
-18,29/11/2025,10:00,Doncaster,Peterborough,2-1,Final
-18,29/11/2025,10:00,Plymouth,Northampton,0-3,Final
-18,29/11/2025,10:00,Luton,Bolton,1-1,Final
-18,29/11/2025,10:00,Lincoln,Port Vale,1-0,Final
-19,02/12/2025,14:45,Wigan,Burton Albion,1-0,Final
-16,06/12/2025,07:30,Cardiff,Huddersfield,3-2,Final
-16,06/12/2025,07:30,Plymouth,Bradford,0-1,Final
-19,09/12/2025,14:45,Northampton,Huddersfield,1-1,Final
-19,09/12/2025,14:45,Doncaster,Stockport County,0-2,Final
-19,09/12/2025,14:45,Wycombe,Plymouth,0-1,Final
-19,09/12/2025,14:45,Exeter City,AFC Wimbledon,1-0,Final
-19,09/12/2025,14:45,Leyton Orient,Luton,1-1,Final
-19,09/12/2025,14:45,Mansfield Town,Bolton,0-1,Final
-19,09/12/2025,14:45,Lincoln,Barnsley,3-1,Final
-19,09/12/2025,15:00,Stevenage,Cardiff,0-1,Final
-19,09/12/2025,15:00,Reading,Peterborough,1-2,Final
-19,10/12/2025,14:45,Rotherham,Blackpool,0-3,Final
-20,13/12/2025,07:30,Huddersfield,Wigan,1-1,Final
-20,13/12/2025,07:30,AFC Wimbledon,Mansfield Town,0-0,Final
-20,13/12/2025,10:00,Cardiff,Doncaster,4-3,Final
-20,13/12/2025,10:00,Bolton,Exeter City,2-1,Final
-20,13/12/2025,10:00,Barnsley,Leyton Orient,3-2,Final
-20,13/12/2025,10:00,Burton Albion,Wycombe,0-0,Final
-20,13/12/2025,10:00,Bradford,Reading,2-0,Final
-20,13/12/2025,10:00,Peterborough,Northampton,2-1,Final
-20,13/12/2025,10:00,Blackpool,Lincoln,2-2,Final
-20,13/12/2025,10:00,Plymouth,Rotherham,1-0,Final
-20,13/12/2025,10:00,Luton,Port Vale,2-2,Final
-20,13/12/2025,10:00,Stockport County,Stevenage,1-3,Final
-21,18/12/2025,15:00,Reading,Luton,3-2,Final
-21,19/12/2025,14:45,Northampton,AFC Wimbledon,3-1,Final
-21,20/12/2025,07:30,Wigan,Blackpool,0-2,Final
-21,20/12/2025,07:30,Stevenage,Burton Albion,2-2,Final
-21,20/12/2025,10:00,Rotherham,Huddersfield,1-3,Final
-21,20/12/2025,10:00,Port Vale,Peterborough,0-1,Final
-21,20/12/2025,10:00,Doncaster,Plymouth,1-5,Final
-21,20/12/2025,10:00,Wycombe,Bolton,2-1,Final
-21,20/12/2025,10:00,Exeter City,Barnsley,3-0,Final
-21,20/12/2025,10:00,Leyton Orient,Bradford,2-1,Final
-21,20/12/2025,10:00,Mansfield Town,Stockport County,1-2,Final
-21,20/12/2025,10:00,Lincoln,Cardiff,2-1,Final
-22,26/12/2025,10:00,Huddersfield,Port Vale,5-0,Final
-22,26/12/2025,10:00,Cardiff,Exeter City,1-0,Final
-22,26/12/2025,10:00,Bolton,Rotherham,2-1,Final
-22,26/12/2025,10:00,Barnsley,Mansfield Town,2-3,Final
-22,26/12/2025,10:00,Burton Albion,Northampton,5-1,Final
-22,26/12/2025,10:00,AFC Wimbledon,Stevenage,0-0,Final
-22,26/12/2025,10:00,Bradford,Wigan,2-1,Final
-22,26/12/2025,10:00,Peterborough,Leyton Orient,1-0,Final
-22,26/12/2025,10:00,Blackpool,Doncaster,1-0,Final
-22,26/12/2025,10:00,Plymouth,Reading,1-4,Final
-22,26/12/2025,10:00,Luton,Wycombe,4-0,Final
-22,26/12/2025,10:00,Stockport County,Lincoln,1-2,Final
-23,29/12/2025,14:45,Huddersfield,Northampton,2-0,Final
-23,29/12/2025,14:45,Cardiff,Stevenage,2-1,Final
-23,29/12/2025,14:45,Bolton,Mansfield Town,0-1,Final
-23,29/12/2025,14:45,Barnsley,Lincoln,0-2,Final
-23,29/12/2025,14:45,Burton Albion,Wigan,0-2,Final
-23,29/12/2025,14:45,AFC Wimbledon,Exeter City,0-1,Final
-23,29/12/2025,14:45,Bradford,Port Vale,1-0,Final
-23,29/12/2025,14:45,Peterborough,Reading,1-1,Final
-23,29/12/2025,14:45,Blackpool,Rotherham,4-0,Final
-23,29/12/2025,14:45,Plymouth,Wycombe,1-1,Final
-23,29/12/2025,14:45,Luton,Leyton Orient,3-0,Final
-23,29/12/2025,14:45,Stockport County,Doncaster,4-2,Final
-24,01/01/2026,10:00,Reading,Burton Albion,2-0,Final
-24,01/01/2026,10:00,Wigan,Barnsley,1-1,Final
-24,01/01/2026,10:00,Rotherham,Peterborough,0-2,Final
-24,01/01/2026,10:00,Northampton,Stockport County,0-0,Final
-24,01/01/2026,10:00,Port Vale,Blackpool,5-1,Final
-24,01/01/2026,10:00,Doncaster,Bolton,1-1,Final
-24,01/01/2026,10:00,Wycombe,Cardiff,1-1,Final
-24,01/01/2026,10:00,Exeter City,Luton,1-0,Final
-24,01/01/2026,10:00,Stevenage,Plymouth,1-1,Final
-24,01/01/2026,10:00,Leyton Orient,AFC Wimbledon,1-3,Final
-24,01/01/2026,10:00,Mansfield Town,Bradford,3-0,Final
-24,01/01/2026,10:00,Lincoln,Huddersfield,1-1,Final
-25,04/01/2026,07:00,Bolton,Northampton,0-0,Final
-25,04/01/2026,07:00,Lincoln,Peterborough,5-2,Final
-25,04/01/2026,10:00,Huddersfield,Exeter City,2-2,Final
-25,04/01/2026,10:00,Cardiff,Wigan,1-0,Final
-25,04/01/2026,10:00,Reading,Stockport County,1-0,Final
-25,04/01/2026,10:00,Blackpool,Bradford,1-2,Final
-25,04/01/2026,10:00,Plymouth,Burton Albion,3-0,Final
-25,04/01/2026,10:00,Wycombe,AFC Wimbledon,2-0,Final
-26,10/01/2026,07:30,Luton,Stevenage,2-1,Final
-26,10/01/2026,07:30,Stockport County,Huddersfield,1-0,Final
-26,10/01/2026,10:00,Peterborough,Bolton,3-1,Final
-26,10/01/2026,10:00,Leyton Orient,Cardiff,1-1,Final
-27,17/01/2026,07:30,Wigan,Bolton,0-1,Final
-27,17/01/2026,07:30,Bradford,Cardiff,1-2,Final
-27,17/01/2026,10:00,Barnsley,Blackpool,2-1,Final
-27,17/01/2026,10:00,Burton Albion,Huddersfield,3-1,Final
-27,17/01/2026,10:00,AFC Wimbledon,Doncaster,0-1,Final
-27,17/01/2026,10:00,Northampton,Wycombe,1-2,Final
-27,17/01/2026,10:00,Peterborough,Plymouth,0-1,Final
-27,17/01/2026,10:00,Luton,Lincoln,2-2,Final
-27,17/01/2026,10:00,Exeter City,Stevenage,3-0,Final
-27,17/01/2026,10:00,Leyton Orient,Reading,3-1,Final
-27,17/01/2026,10:00,Mansfield Town,Port Vale,3-0,Final
-27,17/01/2026,10:00,Stockport County,Rotherham,3-2,Final
-16,20/01/2026,14:45,Stevenage,Bolton,0-0,Final
-28,22/01/2026,15:00,Lincoln,Burton Albion,2-1,Final
-28,24/01/2026,07:30,Huddersfield,Bradford,1-0,Final
-28,24/01/2026,07:30,Cardiff,Stockport County,1-1,Final
-28,24/01/2026,07:30,Plymouth,Luton,1-0,Final
-28,24/01/2026,10:00,Reading,Barnsley,2-2,Final
-28,24/01/2026,10:00,Bolton,Leyton Orient,2-1,Final
-28,24/01/2026,10:00,Rotherham,AFC Wimbledon,1-1,Final
-28,24/01/2026,10:00,Port Vale,Exeter City,1-3,Final
-28,24/01/2026,10:00,Doncaster,Wigan,3-3,Final
-28,24/01/2026,10:00,Blackpool,Northampton,2-0,Final
-28,24/01/2026,10:00,Wycombe,Peterborough,0-2,Final
-28,24/01/2026,10:00,Stevenage,Mansfield Town,1-1,Final
-29,27/01/2026,14:45,Huddersfield,Luton,1-0,Final
-29,27/01/2026,14:45,Cardiff,Barnsley,4-0,Final
-29,27/01/2026,14:45,Bolton,Burton Albion,2-1,Final
-29,27/01/2026,14:45,Rotherham,Northampton,2-1,Final
-29,27/01/2026,14:45,Blackpool,Stockport County,1-2,Final
-29,27/01/2026,14:45,Plymouth,Mansfield Town,1-1,Final
-29,27/01/2026,14:45,Wycombe,Wigan,2-0,Final
-29,27/01/2026,14:45,Stevenage,Peterborough,1-0,Final
-29,27/01/2026,14:45,Lincoln,Bradford,3-0,Final
-29,27/01/2026,15:00,Reading,Exeter City,2-2,Final
-29,27/01/2026,15:00,Doncaster,Leyton Orient,3-0,Final
-30,31/01/2026,07:30,AFC Wimbledon,Bolton,0-1,Final
-30,31/01/2026,07:30,Bradford,Doncaster,1-0,Final
-30,31/01/2026,09:00,Northampton,Reading,0-2,Final
-30,31/01/2026,10:00,Wigan,Lincoln,0-1,Final
-30,31/01/2026,10:00,Barnsley,Stevenage,3-1,Final
-30,31/01/2026,10:00,Burton Albion,Cardiff,2-2,Final
-30,31/01/2026,10:00,Peterborough,Huddersfield,2-3,Final
-30,31/01/2026,10:00,Luton,Blackpool,1-0,Final
-30,31/01/2026,10:00,Exeter City,Rotherham,0-4,Final
-30,31/01/2026,10:00,Leyton Orient,Port Vale,0-1,Final
-30,31/01/2026,10:00,Mansfield Town,Wycombe,0-0,Final
-30,31/01/2026,10:00,Stockport County,Plymouth,2-1,Final
-29,03/02/2026,14:00,Port Vale,AFC Wimbledon,0-1,Final
-16,03/02/2026,14:45,Barnsley,Northampton,2-2,Final
-26,03/02/2026,14:45,Burton Albion,Doncaster,1-2,Final
-31,07/02/2026,07:31,Port Vale,Burton Albion,2-2,Final
-31,07/02/2026,07:31,Luton,Bradford,2-1,Final
-31,07/02/2026,10:01,Huddersfield,Blackpool,2-2,Final
-31,07/02/2026,10:01,Bolton,Barnsley,3-2,Final
-31,07/02/2026,10:01,Rotherham,Cardiff,0-3,Final
-31,07/02/2026,10:01,AFC Wimbledon,Reading,3-2,Final
-31,07/02/2026,10:01,Northampton,Stevenage,3-1,Final
-31,07/02/2026,10:01,Peterborough,Wigan,6-1,Final
-31,07/02/2026,10:01,Plymouth,Lincoln,1-4,Final
-31,07/02/2026,10:01,Wycombe,Doncaster,4-0,Final
-31,07/02/2026,10:01,Mansfield Town,Exeter City,0-0,Final
-31,07/02/2026,10:01,Stockport County,Leyton Orient,0-0,Final
-16,10/02/2026,14:45,Wigan,Reading,1-2,Final
-16,10/02/2026,14:45,Mansfield Town,Peterborough,1-2,Final
-32,14/02/2026,07:30,Reading,Wycombe,3-2,Final
-32,14/02/2026,07:30,Stevenage,Huddersfield,1-0,Final
-32,14/02/2026,10:00,Cardiff,Luton,3-1,Final
-32,14/02/2026,10:00,Barnsley,AFC Wimbledon,3-3,Final
-32,14/02/2026,10:00,Bradford,Peterborough,2-0,Final
-32,14/02/2026,10:00,Blackpool,Plymouth,0-4,Final
-32,14/02/2026,10:00,Exeter City,Northampton,0-0,Final
-32,14/02/2026,10:00,Lincoln,Bolton,1-1,Final
-33,17/02/2026,14:45,Cardiff,AFC Wimbledon,4-1,Final
-33,17/02/2026,14:45,Barnsley,Peterborough,2-1,Final
-33,17/02/2026,14:45,Burton Albion,Rotherham,1-0,Final
-33,17/02/2026,14:45,Bradford,Stockport County,1-0,Final
-33,17/02/2026,14:45,Doncaster,Huddersfield,1-0,Final
-33,17/02/2026,14:45,Exeter City,Wycombe,1-1,Final
-33,17/02/2026,14:45,Stevenage,Port Vale,2-1,Final
-33,17/02/2026,14:45,Leyton Orient,Plymouth,1-3,Final
-33,17/02/2026,14:45,Lincoln,Northampton,4-0,Final
-33,17/02/2026,15:00,Reading,Bolton,1-1,Final
-33,17/02/2026,15:00,Blackpool,Mansfield Town,1-0,Final
-33,18/02/2026,14:45,Wigan,Luton,1-0,Final
-34,21/02/2026,07:30,Rotherham,Doncaster,1-2,Final
-34,21/02/2026,07:30,Plymouth,Cardiff,5-2,Final
-34,21/02/2026,07:30,Wycombe,Stevenage,3-1,Final
-34,21/02/2026,10:00,Huddersfield,Barnsley,2-1,Final
-34,21/02/2026,10:00,Bolton,Blackpool,2-2,Final
-34,21/02/2026,10:00,AFC Wimbledon,Bradford,3-1,Final
-34,21/02/2026,10:00,Northampton,Leyton Orient,1-2,Final
-34,21/02/2026,10:00,Peterborough,Exeter City,3-3,Final
-34,21/02/2026,10:00,Port Vale,Reading,1-1,Final
-34,21/02/2026,10:00,Luton,Burton Albion,1-1,Final
-34,21/02/2026,10:00,Mansfield Town,Lincoln,0-2,Final
-34,21/02/2026,10:00,Stockport County,Wigan,4-2,Final
-26,24/02/2026,14:45,Northampton,Port Vale,0-1,Final
-26,24/02/2026,14:45,Bradford,Rotherham,1-0,Final
-32,24/02/2026,14:45,Burton Albion,Stockport County,3-0,Final
-35,28/02/2026,07:30,Northampton,Peterborough,1-1,Final
-35,28/02/2026,07:30,Leyton Orient,Barnsley,1-3,Final
-35,28/02/2026,10:00,Reading,Bradford,2-1,Final
-35,28/02/2026,10:00,Wigan,Huddersfield,1-0,Final
-35,28/02/2026,10:00,Rotherham,Plymouth,1-0,Final
-35,28/02/2026,10:00,Port Vale,Luton,1-1,Final
-35,28/02/2026,10:00,Doncaster,Cardiff,0-4,Final
-35,28/02/2026,10:00,Wycombe,Burton Albion,3-0,Final
-35,28/02/2026,10:00,Exeter City,Bolton,1-5,Final
-35,28/02/2026,10:00,Stevenage,Stockport County,2-1,Final
-35,28/02/2026,10:00,Mansfield Town,AFC Wimbledon,2-2,Final
-35,28/02/2026,10:00,Lincoln,Blackpool,4-0,Final
-17,03/03/2026,14:45,Exeter City,Burton Albion,1-1,Final
-25,03/03/2026,14:45,Rotherham,Mansfield Town,0-0,Final
-26,03/03/2026,14:45,Barnsley,Wycombe,0-1,Final
-36,07/03/2026,07:30,Huddersfield,Rotherham,1-0,Final
-36,07/03/2026,07:30,Cardiff,Lincoln,0-2,Final
-36,07/03/2026,10:00,Bolton,Wycombe,3-2,Final
-36,07/03/2026,10:00,Barnsley,Exeter City,2-1,Final
-36,07/03/2026,10:00,Burton Albion,Stevenage,0-1,Final
-36,07/03/2026,10:00,Bradford,Leyton Orient,2-1,Final
-36,07/03/2026,10:00,Blackpool,Wigan,1-1,Final
-36,07/03/2026,10:00,Plymouth,Doncaster,2-1,Final
-36,07/03/2026,10:00,Luton,Reading,2-3,Final
-36,08/03/2026,07:00,AFC Wimbledon,Northampton,1-0,Final
-12,10/03/2026,14:45,Barnsley,Cardiff,1-1,Final
-25,10/03/2026,14:45,Doncaster,Luton,1-1,Final
-25,10/03/2026,14:45,Stevenage,Leyton Orient,1-2,Final
-26,10/03/2026,14:45,Wigan,Plymouth,0-3,Final
-26,10/03/2026,14:45,Exeter City,Lincoln,0-1,Final
-26,10/03/2026,14:45,Mansfield Town,Reading,1-0,Final
-19,11/03/2026,14:45,Port Vale,Bradford,0-2,Final
-26,11/03/2026,14:45,AFC Wimbledon,Blackpool,4-1,Final
-37,14/03/2026,07:30,Rotherham,Bolton,2-2,Final
-37,14/03/2026,07:30,Lincoln,Stockport County,3-1,Final
-37,14/03/2026,10:00,Reading,Plymouth,2-2,Final
-37,14/03/2026,10:00,Wigan,Bradford,2-0,Final
-37,14/03/2026,10:00,Northampton,Burton Albion,0-2,Final
-37,14/03/2026,10:00,Port Vale,Huddersfield,0-0,Final
-37,14/03/2026,10:00,Doncaster,Blackpool,2-1,Final
-37,14/03/2026,10:00,Wycombe,Luton,1-2,Final
-37,14/03/2026,10:00,Exeter City,Cardiff,0-4,Final
-37,14/03/2026,10:00,Stevenage,AFC Wimbledon,1-0,Final
-37,14/03/2026,10:00,Leyton Orient,Peterborough,2-1,Final
-37,14/03/2026,10:00,Mansfield Town,Barnsley,2-2,Final
-38,17/03/2026,14:45,Huddersfield,Lincoln,2-2,Final
-38,17/03/2026,14:45,Cardiff,Wycombe,0-2,Final
-38,17/03/2026,14:45,Bolton,Doncaster,0-0,Final
-38,17/03/2026,14:45,Burton Albion,Reading,1-2,Final
-38,17/03/2026,14:45,AFC Wimbledon,Leyton Orient,2-4,Final
-38,17/03/2026,14:45,Bradford,Mansfield Town,1-1,Final
-38,17/03/2026,14:45,Peterborough,Rotherham,5-0,Final
-38,17/03/2026,14:45,Blackpool,Port Vale,3-2,Final
-38,17/03/2026,14:45,Plymouth,Stevenage,1-0,Final
-38,17/03/2026,14:45,Luton,Exeter City,3-2,Final
-38,17/03/2026,14:45,Stockport County,Northampton,2-1,Final
-38,17/03/2026,15:00,Barnsley,Wigan,1-1,Final
-39,21/03/2026,07:30,Cardiff,Blackpool,0-0,Final
-39,21/03/2026,07:30,Luton,Stockport County,1-1,Final
-39,21/03/2026,10:00,Wigan,Exeter City,2-0,Final
-39,21/03/2026,10:00,Barnsley,Doncaster,0-1,Final
-39,21/03/2026,10:00,Burton Albion,Bradford,2-1,Final
-39,21/03/2026,10:00,AFC Wimbledon,Peterborough,1-1,Final
-39,21/03/2026,10:00,Port Vale,Bolton,1-0,Final
-39,21/03/2026,10:00,Plymouth,Huddersfield,3-1,Final
-39,21/03/2026,10:00,Stevenage,Reading,1-0,Final
-39,21/03/2026,10:00,Leyton Orient,Wycombe,2-0,Final
-39,21/03/2026,10:00,Mansfield Town,Northampton,4-1,Final
-39,21/03/2026,10:00,Lincoln,Rotherham,3-0,Final
-32,24/03/2026,14:45,Doncaster,Port Vale,1-0,Final
-40,28/03/2026,10:00,Reading,Wigan,3-0,Final
-40,28/03/2026,10:00,Blackpool,Burton Albion,1-0,Final
-40,28/03/2026,10:00,Wycombe,Port Vale,4-0,Final
-40,28/03/2026,10:00,Exeter City,Leyton Orient,0-0,Final
-40,28/03/2026,10:00,Stockport County,AFC Wimbledon,3-0,Final
-41,02/04/2026,13:45,Wigan,Leyton Orient,0-0,Final
-41,03/04/2026,06:30,Doncaster,Mansfield Town,0-2,Final
-41,03/04/2026,09:00,Huddersfield,Reading,1-1,Final
-41,03/04/2026,09:00,Rotherham,Stevenage,0-0,Final
-41,03/04/2026,09:00,Burton Albion,Barnsley,1-1,Final
-41,03/04/2026,09:00,Bradford,Northampton,1-0,Final
-41,03/04/2026,09:00,Blackpool,Exeter City,1-0,Final
-41,03/04/2026,09:00,Plymouth,Bolton,1-2,Final
-41,03/04/2026,09:00,Luton,Peterborough,2-1,Final
-41,03/04/2026,09:00,Lincoln,AFC Wimbledon,1-0,Final
-41,03/04/2026,09:00,Stockport County,Wycombe,3-0,Final
-42,06/04/2026,09:00,Reading,Lincoln,1-2,Final
-42,06/04/2026,09:00,Bolton,Stockport County,2-2,Final
-42,06/04/2026,09:00,Barnsley,Plymouth,0-3,Final
-42,06/04/2026,09:00,AFC Wimbledon,Luton,0-3,Final
-42,06/04/2026,09:00,Northampton,Wigan,1-3,Final
-42,06/04/2026,09:00,Peterborough,Cardiff,1-1,Final
-42,06/04/2026,09:00,Wycombe,Bradford,1-2,Final
-42,06/04/2026,09:00,Exeter City,Doncaster,3-0,Final
-42,06/04/2026,09:00,Stevenage,Blackpool,1-0,Final
-42,06/04/2026,09:00,Leyton Orient,Huddersfield,1-2,Final
-42,06/04/2026,09:00,Mansfield Town,Burton Albion,0-0,Final
-42,07/04/2026,13:45,Port Vale,Rotherham,1-0,Final
-43,11/04/2026,06:30,Cardiff,Bolton,2-0,Final
-43,11/04/2026,06:30,Plymouth,Exeter City,2-2,Final
-43,11/04/2026,06:30,Lincoln,Leyton Orient,2-1,Final
-43,11/04/2026,09:00,Huddersfield,Wycombe,3-3,Final
-43,11/04/2026,09:00,Wigan,Mansfield Town,2-1,Final
-43,11/04/2026,09:00,Rotherham,Barnsley,1-3,Final
-43,11/04/2026,09:00,Burton Albion,AFC Wimbledon,1-0,Final
-43,11/04/2026,09:00,Bradford,Stevenage,0-1,Final
-43,11/04/2026,09:00,Doncaster,Reading,1-0,Final
-43,11/04/2026,09:00,Blackpool,Peterborough,3-1,Final
-25,14/04/2026,13:45,Port Vale,Barnsley,0-0,Final
-32,14/04/2026,13:45,Wigan,Rotherham,3-0,Final
-32,14/04/2026,13:45,Leyton Orient,Mansfield Town,0-0,Final
-40,14/04/2026,13:45,Huddersfield,Cardiff,1-1,Final
-40,14/04/2026,13:45,Bolton,Stevenage,5-1,Final
-16,15/04/2026,13:45,AFC Wimbledon,Stockport County,0-2,Final
-43,15/04/2026,13:45,Luton,Northampton,2-1,Final
-36,16/04/2026,13:45,Peterborough,Port Vale,1-3,Final
-44,18/04/2026,06:30,Bolton,Huddersfield,3-3,Final
-44,18/04/2026,06:30,Barnsley,Bradford,2-2,Final
-44,18/04/2026,09:00,Reading,Cardiff,1-3,Final
-44,18/04/2026,09:00,AFC Wimbledon,Plymouth,1-3,Final
-44,18/04/2026,09:00,Northampton,Doncaster,1-3,Final
-44,18/04/2026,09:00,Wycombe,Blackpool,0-1,Final
-44,18/04/2026,09:00,Exeter City,Stockport County,3-3,Final
-44,18/04/2026,09:00,Stevenage,Lincoln,2-2,Final
-44,18/04/2026,09:00,Leyton Orient,Rotherham,0-2,Final
-44,18/04/2026,09:00,Mansfield Town,Luton,2-2,Final
-44,19/04/2026,07:00,Peterborough,Burton Albion,1-1,Final
-44,19/04/2026,09:00,Port Vale,Wigan,0-0,Final
-7,21/04/2026,13:45,Stevenage,Barnsley,1-0,Final
-36,21/04/2026,13:45,Stockport County,Mansfield Town,0-1,Final
-40,21/04/2026,13:45,Rotherham,Luton,0-2,Final
-40,21/04/2026,13:45,Bradford,Plymouth,1-1,Final
-40,21/04/2026,13:45,Doncaster,Lincoln,0-2,Final
-41,22/04/2026,13:45,Cardiff,Port Vale,1-0,Final
-45,25/04/2026,06:30,Doncaster,Stevenage,1-1,Final
-45,25/04/2026,06:30,Stockport County,Peterborough,3-1,Final
-45,25/04/2026,09:00,Huddersfield,Mansfield Town,1-4,Final
-45,25/04/2026,09:00,Cardiff,Northampton,5-1,Final
-45,25/04/2026,09:00,Wigan,AFC Wimbledon,0-1,Final
-45,25/04/2026,09:00,Rotherham,Reading,1-1,Final
-45,25/04/2026,09:00,Burton Albion,Exeter City,1-1,Final
-45,25/04/2026,09:00,Bradford,Bolton,1-1,Final
-45,25/04/2026,09:00,Blackpool,Leyton Orient,1-0,Final
-45,25/04/2026,09:00,Plymouth,Port Vale,2-1,Final
-45,25/04/2026,09:00,Luton,Barnsley,2-1,Final
-45,25/04/2026,09:00,Lincoln,Wycombe,4-3,Final
-40,28/04/2026,13:45,Northampton,Barnsley,0-1,Final
-40,28/04/2026,13:45,Peterborough,Mansfield Town,0-0,Final
-43,28/04/2026,13:45,Stockport County,Port Vale,1-2,Final
-46,02/05/2026,09:00,Reading,Blackpool,0-1,Final
-46,02/05/2026,09:00,Bolton,Luton,2-3,Final
-46,02/05/2026,09:00,Barnsley,Stockport County,1-3,Final
-46,02/05/2026,09:00,AFC Wimbledon,Huddersfield,0-4,Final
-46,02/05/2026,09:00,Northampton,Plymouth,2-3,Final
-46,02/05/2026,09:00,Peterborough,Doncaster,1-3,Final
-46,02/05/2026,09:00,Port Vale,Lincoln,0-2,Final
-46,02/05/2026,09:00,Wycombe,Rotherham,3-2,Final
-46,02/05/2026,09:00,Exeter City,Bradford,1-2,Final
-46,02/05/2026,09:00,Stevenage,Wigan,1-0,Final
-46,02/05/2026,09:00,Leyton Orient,Burton Albion,2-2,Final
-46,02/05/2026,09:00,Mansfield Town,Cardiff,5-4,Final
-,09/05/2026,09:00,Stevenage,Stockport County,0-1,Final
-,09/05/2026,14:00,Bolton,Bradford,1-0,Final
-,13/05/2026,14:00,Stockport County,Stevenage,2-0,Final
-,14/05/2026,14:00,Bradford,Bolton,0-1,Final
-,24/05/2026,07:00,Bolton,Stockport County,4-1,Final
+1,15/08/2026,06:30,Notts County,Leicester City,,
+1,15/08/2026,06:30,Oxford United,MK Dons,,
+1,15/08/2026,06:30,Reading,Luton Town,,
+1,15/08/2026,09:00,Barnsley,Bromley,,
+1,15/08/2026,09:00,Blackpool,Wycombe Wanderers,,
+1,15/08/2026,09:00,Bradford City,Peterborough United,,
+1,15/08/2026,09:00,Burton Albion,Stevenage,,
+1,15/08/2026,09:00,Cambridge United,Wigan Athletic,,
+1,15/08/2026,09:00,Huddersfield Town,AFC Wimbledon,,
+1,15/08/2026,09:00,Leyton Orient,Sheffield Wednesday,,
+1,15/08/2026,09:00,Mansfield Town,Doncaster Rovers,,
+1,15/08/2026,09:00,Plymouth Argyle,Stockport County,,
+2,20/08/2026,14:00,Sheffield Wednesday,Bradford City,,
+2,22/08/2026,06:30,Doncaster Rovers,Barnsley,,
+2,22/08/2026,06:30,Luton Town,Notts County,,
+2,22/08/2026,09:00,AFC Wimbledon,Reading,,
+2,22/08/2026,09:00,Bromley,Cambridge United,,
+2,22/08/2026,09:00,Leicester City,Burton Albion,,
+2,22/08/2026,09:00,MK Dons,Huddersfield Town,,
+2,22/08/2026,09:00,Peterborough United,Mansfield Town,,
+2,22/08/2026,09:00,Stevenage,Oxford United,,
+2,22/08/2026,09:00,Stockport County,Blackpool,,
+2,22/08/2026,09:00,Wigan Athletic,Leyton Orient,,
+2,22/08/2026,09:00,Wycombe Wanderers,Plymouth Argyle,,
+3,29/08/2026,06:30,Blackpool,Peterborough United,,
+3,29/08/2026,06:30,MK Dons,Leicester City,,
+3,29/08/2026,09:00,AFC Wimbledon,Wigan Athletic,,
+3,29/08/2026,09:00,Cambridge United,Huddersfield Town,,
+3,29/08/2026,09:00,Leyton Orient,Barnsley,,
+3,29/08/2026,09:00,Mansfield Town,Luton Town,,
+3,29/08/2026,09:00,Notts County,Burton Albion,,
+3,29/08/2026,09:00,Plymouth Argyle,Bradford City,,
+3,29/08/2026,09:00,Sheffield Wednesday,Bromley,,
+3,29/08/2026,09:00,Stevenage,Doncaster Rovers,,
+3,29/08/2026,09:00,Stockport County,Wycombe Wanderers,,
+3,08/09/2026,13:45,Oxford United,Reading,,
+4,01/09/2026,13:45,Bradford City,Cambridge United,,
+4,01/09/2026,13:45,Bromley,Leyton Orient,,
+4,01/09/2026,13:45,Burton Albion,AFC Wimbledon,,
+4,01/09/2026,13:45,Doncaster Rovers,Notts County,,
+4,01/09/2026,13:45,Huddersfield Town,Oxford United,,
+4,01/09/2026,13:45,Leicester City,Plymouth Argyle,,
+4,01/09/2026,13:45,Luton Town,Stockport County,,
+4,01/09/2026,13:45,Peterborough United,Stevenage,,
+4,01/09/2026,13:45,Wigan Athletic,MK Dons,,
+4,01/09/2026,13:45,Wycombe Wanderers,Sheffield Wednesday,,
+4,01/09/2026,14:00,Reading,Mansfield Town,,
+4,02/09/2026,13:45,Barnsley,Blackpool,,
+5,05/09/2026,06:30,Peterborough United,Sheffield Wednesday,,
+5,05/09/2026,06:30,Wigan Athletic,Stockport County,,
+5,05/09/2026,09:00,Barnsley,Stevenage,,
+5,05/09/2026,09:00,Bradford City,Mansfield Town,,
+5,05/09/2026,09:00,Burton Albion,Cambridge United,,
+5,05/09/2026,09:00,Doncaster Rovers,Plymouth Argyle,,
+5,05/09/2026,09:00,Huddersfield Town,Notts County,,
+5,05/09/2026,09:00,Leicester City,Oxford United,,
+5,05/09/2026,09:00,Luton Town,Leyton Orient,,
+5,05/09/2026,09:00,Reading,Blackpool,,
+5,05/09/2026,09:00,Wycombe Wanderers,MK Dons,,
+5,07/09/2026,14:00,Bromley,AFC Wimbledon,,
+6,10/09/2026,14:00,Stevenage,Luton Town,,
+6,12/09/2026,06:30,Leyton Orient,Wycombe Wanderers,,
+6,12/09/2026,06:30,Notts County,Bradford City,,
+6,12/09/2026,09:00,AFC Wimbledon,Doncaster Rovers,,
+6,12/09/2026,09:00,Blackpool,Bromley,,
+6,12/09/2026,09:00,Cambridge United,Reading,,
+6,12/09/2026,09:00,Mansfield Town,Huddersfield Town,,
+6,12/09/2026,09:00,MK Dons,Peterborough United,,
+6,12/09/2026,09:00,Oxford United,Burton Albion,,
+6,12/09/2026,09:00,Plymouth Argyle,Barnsley,,
+6,12/09/2026,09:00,Sheffield Wednesday,Wigan Athletic,,
+6,12/09/2026,09:00,Stockport County,Leicester City,,
+7,17/09/2026,14:00,AFC Wimbledon,MK Dons,,
+7,19/09/2026,06:30,Barnsley,Leicester City,,
+7,19/09/2026,06:30,Burton Albion,Mansfield Town,,
+7,19/09/2026,09:00,Blackpool,Plymouth Argyle,,
+7,19/09/2026,09:00,Bromley,Huddersfield Town,,
+7,19/09/2026,09:00,Leyton Orient,Stevenage,,
+7,19/09/2026,09:00,Luton Town,Bradford City,,
+7,19/09/2026,09:00,Oxford United,Cambridge United,,
+7,19/09/2026,09:00,Peterborough United,Doncaster Rovers,,
+7,19/09/2026,09:00,Reading,Notts County,,
+7,19/09/2026,09:00,Sheffield Wednesday,Stockport County,,
+7,19/09/2026,09:00,Wigan Athletic,Wycombe Wanderers,,
+8,26/09/2026,09:00,Bradford City,Barnsley,,
+8,26/09/2026,09:00,Cambridge United,AFC Wimbledon,,
+8,26/09/2026,09:00,Doncaster Rovers,Oxford United,,
+8,26/09/2026,09:00,Huddersfield Town,Luton Town,,
+8,26/09/2026,09:00,Leicester City,Wigan Athletic,,
+8,26/09/2026,09:00,Mansfield Town,Leyton Orient,,
+8,26/09/2026,09:00,MK Dons,Bromley,,
+8,26/09/2026,09:00,Notts County,Blackpool,,
+8,26/09/2026,09:00,Plymouth Argyle,Burton Albion,,
+8,26/09/2026,09:00,Stevenage,Sheffield Wednesday,,
+8,26/09/2026,09:00,Stockport County,Peterborough United,,
+8,26/09/2026,09:00,Wycombe Wanderers,Reading,,
+9,03/10/2026,09:00,AFC Wimbledon,Stevenage,,
+9,03/10/2026,09:00,Barnsley,MK Dons,,
+9,03/10/2026,09:00,Blackpool,Leicester City,,
+9,03/10/2026,09:00,Bromley,Wycombe Wanderers,,
+9,03/10/2026,09:00,Burton Albion,Huddersfield Town,,
+9,03/10/2026,09:00,Leyton Orient,Plymouth Argyle,,
+9,03/10/2026,09:00,Luton Town,Doncaster Rovers,,
+9,03/10/2026,09:00,Oxford United,Stockport County,,
+9,03/10/2026,09:00,Peterborough United,Notts County,,
+9,03/10/2026,09:00,Reading,Bradford City,,
+9,03/10/2026,09:00,Sheffield Wednesday,Cambridge United,,
+9,03/10/2026,09:00,Wigan Athletic,Mansfield Town,,
+10,10/10/2026,06:30,Notts County,Oxford United,,
+10,10/10/2026,06:30,Plymouth Argyle,AFC Wimbledon,,
+10,10/10/2026,09:00,Bradford City,Leyton Orient,,
+10,10/10/2026,09:00,Cambridge United,Blackpool,,
+10,10/10/2026,09:00,Doncaster Rovers,Burton Albion,,
+10,10/10/2026,09:00,Huddersfield Town,Sheffield Wednesday,,
+10,10/10/2026,09:00,Leicester City,Peterborough United,,
+10,10/10/2026,09:00,Mansfield Town,Bromley,,
+10,10/10/2026,09:00,MK Dons,Reading,,
+10,10/10/2026,09:00,Stevenage,Wigan Athletic,,
+10,10/10/2026,09:00,Stockport County,Barnsley,,
+10,10/10/2026,09:00,Wycombe Wanderers,Luton Town,,
+11,15/10/2026,14:00,Mansfield Town,Oxford United,,
+11,17/10/2026,06:30,MK Dons,Luton Town,,
+11,17/10/2026,06:30,Peterborough United,Burton Albion,,
+11,17/10/2026,09:00,Barnsley,Cambridge United,,
+11,17/10/2026,09:00,Bradford City,Stevenage,,
+11,17/10/2026,09:00,Leicester City,Doncaster Rovers,,
+11,17/10/2026,09:00,Leyton Orient,Blackpool,,
+11,17/10/2026,09:00,Plymouth Argyle,Huddersfield Town,,
+11,17/10/2026,09:00,Sheffield Wednesday,AFC Wimbledon,,
+11,17/10/2026,09:00,Stockport County,Bromley,,
+11,17/10/2026,09:00,Wigan Athletic,Reading,,
+11,17/10/2026,09:00,Wycombe Wanderers,Notts County,,
+12,20/10/2026,13:45,AFC Wimbledon,Mansfield Town,,
+12,20/10/2026,13:45,Blackpool,MK Dons,,
+12,20/10/2026,13:45,Bromley,Leicester City,,
+12,20/10/2026,13:45,Burton Albion,Bradford City,,
+12,20/10/2026,13:45,Cambridge United,Wycombe Wanderers,,
+12,20/10/2026,13:45,Doncaster Rovers,Stockport County,,
+12,20/10/2026,13:45,Huddersfield Town,Peterborough United,,
+12,20/10/2026,13:45,Luton Town,Barnsley,,
+12,20/10/2026,13:45,Notts County,Sheffield Wednesday,,
+12,20/10/2026,13:45,Oxford United,Wigan Athletic,,
+12,20/10/2026,13:45,Stevenage,Plymouth Argyle,,
+12,21/10/2026,14:00,Reading,Leyton Orient,,
+13,24/10/2026,06:30,Huddersfield Town,Wigan Athletic,,
+13,24/10/2026,06:30,Luton Town,Leicester City,,
+13,24/10/2026,09:00,AFC Wimbledon,Wycombe Wanderers,,
+13,24/10/2026,09:00,Blackpool,Mansfield Town,,
+13,24/10/2026,09:00,Bromley,Peterborough United,,
+13,24/10/2026,09:00,Burton Albion,Leyton Orient,,
+13,24/10/2026,09:00,Cambridge United,Plymouth Argyle,,
+13,24/10/2026,09:00,Doncaster Rovers,Sheffield Wednesday,,
+13,24/10/2026,09:00,Notts County,Stockport County,,
+13,24/10/2026,09:00,Oxford United,Bradford City,,
+13,24/10/2026,09:00,Reading,Barnsley,,
+13,24/10/2026,09:00,Stevenage,MK Dons,,
+14,31/10/2026,07:30,Bradford City,Huddersfield Town,,
+14,31/10/2026,07:30,Leyton Orient,Cambridge United,,
+14,31/10/2026,07:30,Plymouth Argyle,Reading,,
+14,31/10/2026,10:00,Barnsley,Oxford United,,
+14,31/10/2026,10:00,Leicester City,Stevenage,,
+14,31/10/2026,10:00,Mansfield Town,Notts County,,
+14,31/10/2026,10:00,MK Dons,Doncaster Rovers,,
+14,31/10/2026,10:00,Peterborough United,Luton Town,,
+14,31/10/2026,10:00,Stockport County,AFC Wimbledon,,
+14,31/10/2026,10:00,Wigan Athletic,Bromley,,
+14,31/10/2026,10:00,Wycombe Wanderers,Burton Albion,,
+14,01/11/2026,09:00,Sheffield Wednesday,Blackpool,,
+15,14/11/2026,10:00,AFC Wimbledon,Blackpool,,
+15,14/11/2026,10:00,Bromley,Notts County,,
+15,14/11/2026,10:00,Doncaster Rovers,Leyton Orient,,
+15,14/11/2026,10:00,Leicester City,Bradford City,,
+15,14/11/2026,10:00,Luton Town,Cambridge United,,
+15,14/11/2026,10:00,MK Dons,Burton Albion,,
+15,14/11/2026,10:00,Peterborough United,Oxford United,,
+15,14/11/2026,10:00,Sheffield Wednesday,Plymouth Argyle,,
+15,14/11/2026,10:00,Stevenage,Mansfield Town,,
+15,14/11/2026,10:00,Stockport County,Reading,,
+15,14/11/2026,10:00,Wigan Athletic,Barnsley,,
+15,14/11/2026,10:00,Wycombe Wanderers,Huddersfield Town,,
+16,20/11/2026,15:00,Barnsley,Sheffield Wednesday,,
+16,21/11/2026,07:30,Blackpool,Wigan Athletic,,
+16,21/11/2026,07:30,Reading,Bromley,,
+16,21/11/2026,10:00,Bradford City,Doncaster Rovers,,
+16,21/11/2026,10:00,Burton Albion,Luton Town,,
+16,21/11/2026,10:00,Cambridge United,Stockport County,,
+16,21/11/2026,10:00,Huddersfield Town,Leicester City,,
+16,21/11/2026,10:00,Leyton Orient,AFC Wimbledon,,
+16,21/11/2026,10:00,Mansfield Town,MK Dons,,
+16,21/11/2026,10:00,Notts County,Stevenage,,
+16,21/11/2026,10:00,Oxford United,Wycombe Wanderers,,
+16,21/11/2026,10:00,Plymouth Argyle,Peterborough United,,
+17,26/11/2026,15:00,Doncaster Rovers,Huddersfield Town,,
+17,28/11/2026,07:30,MK Dons,Notts County,,
+17,28/11/2026,07:30,Peterborough United,Cambridge United,,
+17,28/11/2026,10:00,AFC Wimbledon,Barnsley,,
+17,28/11/2026,10:00,Bromley,Burton Albion,,
+17,28/11/2026,10:00,Leicester City,Mansfield Town,,
+17,28/11/2026,10:00,Luton Town,Oxford United,,
+17,28/11/2026,10:00,Sheffield Wednesday,Reading,,
+17,28/11/2026,10:00,Stevenage,Blackpool,,
+17,28/11/2026,10:00,Stockport County,Leyton Orient,,
+17,28/11/2026,10:00,Wigan Athletic,Plymouth Argyle,,
+17,28/11/2026,10:00,Wycombe Wanderers,Bradford City,,
+18,01/12/2026,14:45,Barnsley,Wycombe Wanderers,,
+18,01/12/2026,14:45,Blackpool,Luton Town,,
+18,01/12/2026,14:45,Bradford City,MK Dons,,
+18,01/12/2026,14:45,Burton Albion,Wigan Athletic,,
+18,01/12/2026,14:45,Cambridge United,Leicester City,,
+18,01/12/2026,14:45,Huddersfield Town,Stevenage,,
+18,01/12/2026,14:45,Leyton Orient,Peterborough United,,
+18,01/12/2026,14:45,Mansfield Town,Stockport County,,
+18,01/12/2026,14:45,Notts County,AFC Wimbledon,,
+18,01/12/2026,14:45,Oxford United,Sheffield Wednesday,,
+18,01/12/2026,14:45,Plymouth Argyle,Bromley,,
+18,01/12/2026,15:00,Reading,Doncaster Rovers,,
+19,10/12/2026,15:00,Leicester City,Sheffield Wednesday,,
+19,12/12/2026,07:30,Burton Albion,Reading,,
+19,12/12/2026,07:30,Stevenage,Stockport County,,
+19,12/12/2026,10:00,Bradford City,AFC Wimbledon,,
+19,12/12/2026,10:00,Doncaster Rovers,Bromley,,
+19,12/12/2026,10:00,Huddersfield Town,Leyton Orient,,
+19,12/12/2026,10:00,Luton Town,Wigan Athletic,,
+19,12/12/2026,10:00,Mansfield Town,Wycombe Wanderers,,
+19,12/12/2026,10:00,MK Dons,Cambridge United,,
+19,12/12/2026,10:00,Notts County,Plymouth Argyle,,
+19,12/12/2026,10:00,Oxford United,Blackpool,,
+19,12/12/2026,10:00,Peterborough United,Barnsley,,
+20,18/12/2026,14:45,Cambridge United,Stevenage,,
+20,19/12/2026,07:30,Barnsley,Huddersfield Town,,
+20,19/12/2026,07:30,Sheffield Wednesday,Luton Town,,
+20,19/12/2026,10:00,AFC Wimbledon,Oxford United,,
+20,19/12/2026,10:00,Blackpool,Burton Albion,,
+20,19/12/2026,10:00,Bromley,Bradford City,,
+20,19/12/2026,10:00,Leyton Orient,Notts County,,
+20,19/12/2026,10:00,Plymouth Argyle,Mansfield Town,,
+20,19/12/2026,10:00,Reading,Leicester City,,
+20,19/12/2026,10:00,Stockport County,MK Dons,,
+20,19/12/2026,10:00,Wigan Athletic,Peterborough United,,
+20,19/12/2026,10:00,Wycombe Wanderers,Doncaster Rovers,,
+21,26/12/2026,10:00,Bradford City,Stockport County,,
+21,26/12/2026,10:00,Burton Albion,Sheffield Wednesday,,
+21,26/12/2026,10:00,Doncaster Rovers,Wigan Athletic,,
+21,26/12/2026,10:00,Huddersfield Town,Blackpool,,
+21,26/12/2026,10:00,Leicester City,AFC Wimbledon,,
+21,26/12/2026,10:00,Luton Town,Bromley,,
+21,26/12/2026,10:00,Mansfield Town,Barnsley,,
+21,26/12/2026,10:00,MK Dons,Leyton Orient,,
+21,26/12/2026,10:00,Notts County,Cambridge United,,
+21,26/12/2026,10:00,Oxford United,Plymouth Argyle,,
+21,26/12/2026,10:00,Peterborough United,Wycombe Wanderers,,
+21,26/12/2026,10:00,Stevenage,Reading,,
+22,29/12/2026,14:45,AFC Wimbledon,Luton Town,,
+22,29/12/2026,14:45,Barnsley,Burton Albion,,
+22,29/12/2026,14:45,Blackpool,Bradford City,,
+22,29/12/2026,14:45,Bromley,Oxford United,,
+22,29/12/2026,14:45,Cambridge United,Doncaster Rovers,,
+22,29/12/2026,14:45,Leyton Orient,Leicester City,,
+22,29/12/2026,14:45,Plymouth Argyle,MK Dons,,
+22,29/12/2026,14:45,Sheffield Wednesday,Mansfield Town,,
+22,29/12/2026,14:45,Stockport County,Huddersfield Town,,
+22,29/12/2026,14:45,Wigan Athletic,Notts County,,
+22,29/12/2026,14:45,Wycombe Wanderers,Stevenage,,
+22,29/12/2026,15:00,Reading,Peterborough United,,
+23,01/01/2027,10:00,AFC Wimbledon,Peterborough United,,
+23,01/01/2027,10:00,Barnsley,Notts County,,
+23,01/01/2027,10:00,Blackpool,Doncaster Rovers,,
+23,01/01/2027,10:00,Bromley,Stevenage,,
+23,01/01/2027,10:00,Leyton Orient,Oxford United,,
+23,01/01/2027,10:00,Reading,MK Dons,,
+23,01/01/2027,10:00,Sheffield Wednesday,Huddersfield Town,,
+23,01/01/2027,10:00,Wigan Athletic,Bradford City,,
+23,01/01/2027,10:00,Wycombe Wanderers,Leicester City,,
+23,02/01/2027,10:00,Cambridge United,Mansfield Town,,
+23,02/01/2027,10:00,Plymouth Argyle,Luton Town,,
+23,02/01/2027,10:00,Stockport County,Burton Albion,,
+24,08/01/2027,15:00,Burton Albion,Blackpool,,
+24,09/01/2027,07:30,Oxford United,AFC Wimbledon,,
+24,09/01/2027,07:30,Stevenage,Cambridge United,,
+24,09/01/2027,10:00,Bradford City,Bromley,,
+24,09/01/2027,10:00,Doncaster Rovers,Wycombe Wanderers,,
+24,09/01/2027,10:00,Huddersfield Town,Barnsley,,
+24,09/01/2027,10:00,Leicester City,Reading,,
+24,09/01/2027,10:00,Luton Town,Sheffield Wednesday,,
+24,09/01/2027,10:00,Mansfield Town,Plymouth Argyle,,
+24,09/01/2027,10:00,MK Dons,Stockport County,,
+24,09/01/2027,10:00,Notts County,Leyton Orient,,
+24,09/01/2027,10:00,Peterborough United,Wigan Athletic,,
+25,16/01/2027,10:00,AFC Wimbledon,Sheffield Wednesday,,
+25,16/01/2027,10:00,Blackpool,Leyton Orient,,
+25,16/01/2027,10:00,Bromley,Stockport County,,
+25,16/01/2027,10:00,Burton Albion,Peterborough United,,
+25,16/01/2027,10:00,Cambridge United,Barnsley,,
+25,16/01/2027,10:00,Doncaster Rovers,Leicester City,,
+25,16/01/2027,10:00,Huddersfield Town,Plymouth Argyle,,
+25,16/01/2027,10:00,Luton Town,MK Dons,,
+25,16/01/2027,10:00,Notts County,Wycombe Wanderers,,
+25,16/01/2027,10:00,Oxford United,Mansfield Town,,
+25,16/01/2027,10:00,Reading,Wigan Athletic,,
+25,16/01/2027,10:00,Stevenage,Bradford City,,
+26,19/01/2027,14:45,Barnsley,Luton Town,,
+26,19/01/2027,14:45,Bradford City,Burton Albion,,
+26,19/01/2027,14:45,Leicester City,Bromley,,
+26,19/01/2027,14:45,Leyton Orient,Reading,,
+26,19/01/2027,14:45,Mansfield Town,AFC Wimbledon,,
+26,19/01/2027,14:45,MK Dons,Blackpool,,
+26,19/01/2027,14:45,Peterborough United,Huddersfield Town,,
+26,19/01/2027,14:45,Plymouth Argyle,Stevenage,,
+26,19/01/2027,14:45,Sheffield Wednesday,Notts County,,
+26,19/01/2027,14:45,Stockport County,Doncaster Rovers,,
+26,19/01/2027,14:45,Wigan Athletic,Oxford United,,
+26,19/01/2027,14:45,Wycombe Wanderers,Cambridge United,,
+27,23/01/2027,10:00,Barnsley,Reading,,
+27,23/01/2027,10:00,Bradford City,Oxford United,,
+27,23/01/2027,10:00,Leicester City,Luton Town,,
+27,23/01/2027,10:00,Leyton Orient,Burton Albion,,
+27,23/01/2027,10:00,Mansfield Town,Blackpool,,
+27,23/01/2027,10:00,MK Dons,Stevenage,,
+27,23/01/2027,10:00,Peterborough United,Bromley,,
+27,23/01/2027,10:00,Plymouth Argyle,Cambridge United,,
+27,23/01/2027,10:00,Sheffield Wednesday,Doncaster Rovers,,
+27,23/01/2027,10:00,Stockport County,Notts County,,
+27,23/01/2027,10:00,Wigan Athletic,Huddersfield Town,,
+27,23/01/2027,10:00,Wycombe Wanderers,AFC Wimbledon,,
+28,30/01/2027,07:30,Huddersfield Town,Bradford City,,
+28,30/01/2027,10:00,AFC Wimbledon,Stockport County,,
+28,30/01/2027,10:00,Blackpool,Sheffield Wednesday,,
+28,30/01/2027,10:00,Bromley,Wigan Athletic,,
+28,30/01/2027,10:00,Burton Albion,Wycombe Wanderers,,
+28,30/01/2027,10:00,Cambridge United,Leyton Orient,,
+28,30/01/2027,10:00,Doncaster Rovers,MK Dons,,
+28,30/01/2027,10:00,Luton Town,Peterborough United,,
+28,30/01/2027,10:00,Notts County,Mansfield Town,,
+28,30/01/2027,10:00,Oxford United,Barnsley,,
+28,30/01/2027,10:00,Reading,Plymouth Argyle,,
+28,30/01/2027,10:00,Stevenage,Leicester City,,
+29,06/02/2027,10:00,Barnsley,Leyton Orient,,
+29,06/02/2027,10:00,Bradford City,Plymouth Argyle,,
+29,06/02/2027,10:00,Bromley,Sheffield Wednesday,,
+29,06/02/2027,10:00,Burton Albion,Notts County,,
+29,06/02/2027,10:00,Doncaster Rovers,Stevenage,,
+29,06/02/2027,10:00,Huddersfield Town,Cambridge United,,
+29,06/02/2027,10:00,Leicester City,MK Dons,,
+29,06/02/2027,10:00,Luton Town,Mansfield Town,,
+29,06/02/2027,10:00,Peterborough United,Blackpool,,
+29,06/02/2027,10:00,Reading,Oxford United,,
+29,06/02/2027,10:00,Wigan Athletic,AFC Wimbledon,,
+29,06/02/2027,10:00,Wycombe Wanderers,Stockport County,,
+30,09/02/2027,14:45,AFC Wimbledon,Burton Albion,,
+30,09/02/2027,14:45,Blackpool,Barnsley,,
+30,09/02/2027,14:45,Cambridge United,Bradford City,,
+30,09/02/2027,14:45,Leyton Orient,Bromley,,
+30,09/02/2027,14:45,Mansfield Town,Reading,,
+30,09/02/2027,14:45,MK Dons,Wigan Athletic,,
+30,09/02/2027,14:45,Notts County,Doncaster Rovers,,
+30,09/02/2027,14:45,Oxford United,Huddersfield Town,,
+30,09/02/2027,14:45,Plymouth Argyle,Leicester City,,
+30,09/02/2027,14:45,Sheffield Wednesday,Wycombe Wanderers,,
+30,09/02/2027,14:45,Stevenage,Peterborough United,,
+30,09/02/2027,14:45,Stockport County,Luton Town,,
+31,13/02/2027,10:00,AFC Wimbledon,Bromley,,
+31,13/02/2027,10:00,Blackpool,Reading,,
+31,13/02/2027,10:00,Cambridge United,Burton Albion,,
+31,13/02/2027,10:00,Leyton Orient,Luton Town,,
+31,13/02/2027,10:00,Mansfield Town,Bradford City,,
+31,13/02/2027,10:00,MK Dons,Wycombe Wanderers,,
+31,13/02/2027,10:00,Notts County,Huddersfield Town,,
+31,13/02/2027,10:00,Oxford United,Leicester City,,
+31,13/02/2027,10:00,Plymouth Argyle,Doncaster Rovers,,
+31,13/02/2027,10:00,Sheffield Wednesday,Peterborough United,,
+31,13/02/2027,10:00,Stevenage,Barnsley,,
+31,13/02/2027,10:00,Stockport County,Wigan Athletic,,
+32,20/02/2027,10:00,Barnsley,Plymouth Argyle,,
+32,20/02/2027,10:00,Bradford City,Notts County,,
+32,20/02/2027,10:00,Bromley,Blackpool,,
+32,20/02/2027,10:00,Burton Albion,Oxford United,,
+32,20/02/2027,10:00,Doncaster Rovers,AFC Wimbledon,,
+32,20/02/2027,10:00,Huddersfield Town,Mansfield Town,,
+32,20/02/2027,10:00,Leicester City,Stockport County,,
+32,20/02/2027,10:00,Luton Town,Stevenage,,
+32,20/02/2027,10:00,Peterborough United,MK Dons,,
+32,20/02/2027,10:00,Reading,Cambridge United,,
+32,20/02/2027,10:00,Wigan Athletic,Sheffield Wednesday,,
+32,20/02/2027,10:00,Wycombe Wanderers,Leyton Orient,,
+33,27/02/2027,07:30,Cambridge United,Peterborough United,,
+33,27/02/2027,10:00,Barnsley,Wigan Athletic,,
+33,27/02/2027,10:00,Blackpool,AFC Wimbledon,,
+33,27/02/2027,10:00,Bradford City,Leicester City,,
+33,27/02/2027,10:00,Burton Albion,MK Dons,,
+33,27/02/2027,10:00,Huddersfield Town,Wycombe Wanderers,,
+33,27/02/2027,10:00,Leyton Orient,Doncaster Rovers,,
+33,27/02/2027,10:00,Mansfield Town,Stevenage,,
+33,27/02/2027,10:00,Notts County,Bromley,,
+33,27/02/2027,10:00,Oxford United,Luton Town,,
+33,27/02/2027,10:00,Plymouth Argyle,Sheffield Wednesday,,
+33,27/02/2027,10:00,Reading,Stockport County,,
+34,06/03/2027,10:00,AFC Wimbledon,Huddersfield Town,,
+34,06/03/2027,10:00,Bromley,Barnsley,,
+34,06/03/2027,10:00,Doncaster Rovers,Mansfield Town,,
+34,06/03/2027,10:00,Leicester City,Notts County,,
+34,06/03/2027,10:00,Luton Town,Reading,,
+34,06/03/2027,10:00,MK Dons,Oxford United,,
+34,06/03/2027,10:00,Peterborough United,Bradford City,,
+34,06/03/2027,10:00,Sheffield Wednesday,Leyton Orient,,
+34,06/03/2027,10:00,Stevenage,Burton Albion,,
+34,06/03/2027,10:00,Stockport County,Plymouth Argyle,,
+34,06/03/2027,10:00,Wigan Athletic,Cambridge United,,
+34,06/03/2027,10:00,Wycombe Wanderers,Blackpool,,
+35,13/03/2027,10:00,Barnsley,Doncaster Rovers,,
+35,13/03/2027,10:00,Blackpool,Stockport County,,
+35,13/03/2027,10:00,Bradford City,Sheffield Wednesday,,
+35,13/03/2027,10:00,Burton Albion,Leicester City,,
+35,13/03/2027,10:00,Cambridge United,Bromley,,
+35,13/03/2027,10:00,Huddersfield Town,MK Dons,,
+35,13/03/2027,10:00,Leyton Orient,Wigan Athletic,,
+35,13/03/2027,10:00,Mansfield Town,Peterborough United,,
+35,13/03/2027,10:00,Notts County,Luton Town,,
+35,13/03/2027,10:00,Oxford United,Stevenage,,
+35,13/03/2027,10:00,Plymouth Argyle,Wycombe Wanderers,,
+35,13/03/2027,10:00,Reading,AFC Wimbledon,,
+36,20/03/2027,10:00,AFC Wimbledon,Leyton Orient,,
+36,20/03/2027,10:00,Bromley,Reading,,
+36,20/03/2027,10:00,Doncaster Rovers,Bradford City,,
+36,20/03/2027,10:00,Leicester City,Huddersfield Town,,
+36,20/03/2027,10:00,Luton Town,Burton Albion,,
+36,20/03/2027,10:00,MK Dons,Mansfield Town,,
+36,20/03/2027,10:00,Peterborough United,Plymouth Argyle,,
+36,20/03/2027,10:00,Sheffield Wednesday,Barnsley,,
+36,20/03/2027,10:00,Stevenage,Notts County,,
+36,20/03/2027,10:00,Stockport County,Cambridge United,,
+36,20/03/2027,10:00,Wigan Athletic,Blackpool,,
+36,20/03/2027,10:00,Wycombe Wanderers,Oxford United,,
+37,26/03/2027,10:00,Bradford City,Wigan Athletic,,
+37,26/03/2027,10:00,Burton Albion,Stockport County,,
+37,26/03/2027,10:00,Doncaster Rovers,Blackpool,,
+37,26/03/2027,10:00,Huddersfield Town,Reading,,
+37,26/03/2027,10:00,Leicester City,Wycombe Wanderers,,
+37,26/03/2027,10:00,Luton Town,Plymouth Argyle,,
+37,26/03/2027,10:00,Mansfield Town,Cambridge United,,
+37,26/03/2027,10:00,MK Dons,Sheffield Wednesday,,
+37,26/03/2027,10:00,Notts County,Barnsley,,
+37,26/03/2027,10:00,Oxford United,Leyton Orient,,
+37,26/03/2027,10:00,Peterborough United,AFC Wimbledon,,
+37,26/03/2027,10:00,Stevenage,Bromley,,
+38,29/03/2027,09:00,AFC Wimbledon,Leicester City,,
+38,29/03/2027,09:00,Barnsley,Mansfield Town,,
+38,29/03/2027,09:00,Blackpool,Oxford United,,
+38,29/03/2027,09:00,Bromley,Doncaster Rovers,,
+38,29/03/2027,09:00,Cambridge United,MK Dons,,
+38,29/03/2027,09:00,Leyton Orient,Huddersfield Town,,
+38,29/03/2027,09:00,Plymouth Argyle,Notts County,,
+38,29/03/2027,09:00,Reading,Stevenage,,
+38,29/03/2027,09:00,Sheffield Wednesday,Burton Albion,,
+38,29/03/2027,09:00,Stockport County,Bradford City,,
+38,29/03/2027,09:00,Wigan Athletic,Luton Town,,
+38,29/03/2027,09:00,Wycombe Wanderers,Peterborough United,,
+39,03/04/2027,09:00,Bradford City,Blackpool,,
+39,03/04/2027,09:00,Burton Albion,Barnsley,,
+39,03/04/2027,09:00,Doncaster Rovers,Cambridge United,,
+39,03/04/2027,09:00,Huddersfield Town,Stockport County,,
+39,03/04/2027,09:00,Leicester City,Leyton Orient,,
+39,03/04/2027,09:00,Luton Town,AFC Wimbledon,,
+39,03/04/2027,09:00,Mansfield Town,Sheffield Wednesday,,
+39,03/04/2027,09:00,MK Dons,Plymouth Argyle,,
+39,03/04/2027,09:00,Notts County,Wigan Athletic,,
+39,03/04/2027,09:00,Oxford United,Bromley,,
+39,03/04/2027,09:00,Peterborough United,Reading,,
+39,03/04/2027,09:00,Stevenage,Wycombe Wanderers,,
+40,10/04/2027,09:00,AFC Wimbledon,Bradford City,,
+40,10/04/2027,09:00,Barnsley,Peterborough United,,
+40,10/04/2027,09:00,Blackpool,Huddersfield Town,,
+40,10/04/2027,09:00,Bromley,Luton Town,,
+40,10/04/2027,09:00,Cambridge United,Notts County,,
+40,10/04/2027,09:00,Leyton Orient,MK Dons,,
+40,10/04/2027,09:00,Plymouth Argyle,Oxford United,,
+40,10/04/2027,09:00,Reading,Burton Albion,,
+40,10/04/2027,09:00,Sheffield Wednesday,Leicester City,,
+40,10/04/2027,09:00,Stockport County,Stevenage,,
+40,10/04/2027,09:00,Wigan Athletic,Doncaster Rovers,,
+40,10/04/2027,09:00,Wycombe Wanderers,Mansfield Town,,
+41,13/04/2027,13:45,AFC Wimbledon,Cambridge United,,
+41,13/04/2027,13:45,Barnsley,Bradford City,,
+41,13/04/2027,13:45,Blackpool,Notts County,,
+41,13/04/2027,13:45,Bromley,MK Dons,,
+41,13/04/2027,13:45,Burton Albion,Plymouth Argyle,,
+41,13/04/2027,13:45,Leyton Orient,Mansfield Town,,
+41,13/04/2027,13:45,Luton Town,Huddersfield Town,,
+41,13/04/2027,13:45,Oxford United,Doncaster Rovers,,
+41,13/04/2027,13:45,Peterborough United,Stockport County,,
+41,13/04/2027,13:45,Sheffield Wednesday,Stevenage,,
+41,13/04/2027,13:45,Wigan Athletic,Leicester City,,
+41,13/04/2027,14:00,Reading,Wycombe Wanderers,,
+42,17/04/2027,06:30,MK Dons,AFC Wimbledon,,
+42,17/04/2027,09:00,Bradford City,Luton Town,,
+42,17/04/2027,09:00,Cambridge United,Oxford United,,
+42,17/04/2027,09:00,Doncaster Rovers,Peterborough United,,
+42,17/04/2027,09:00,Huddersfield Town,Bromley,,
+42,17/04/2027,09:00,Leicester City,Barnsley,,
+42,17/04/2027,09:00,Mansfield Town,Burton Albion,,
+42,17/04/2027,09:00,Notts County,Reading,,
+42,17/04/2027,09:00,Plymouth Argyle,Blackpool,,
+42,17/04/2027,09:00,Stevenage,Leyton Orient,,
+42,17/04/2027,09:00,Stockport County,Sheffield Wednesday,,
+42,17/04/2027,09:00,Wycombe Wanderers,Wigan Athletic,,
+43,24/04/2027,09:00,AFC Wimbledon,Plymouth Argyle,,
+43,24/04/2027,09:00,Barnsley,Stockport County,,
+43,24/04/2027,09:00,Blackpool,Cambridge United,,
+43,24/04/2027,09:00,Bromley,Mansfield Town,,
+43,24/04/2027,09:00,Burton Albion,Doncaster Rovers,,
+43,24/04/2027,09:00,Leyton Orient,Bradford City,,
+43,24/04/2027,09:00,Luton Town,Wycombe Wanderers,,
+43,24/04/2027,09:00,Oxford United,Notts County,,
+43,24/04/2027,09:00,Peterborough United,Leicester City,,
+43,24/04/2027,09:00,Reading,Huddersfield Town,,
+43,24/04/2027,09:00,Sheffield Wednesday,MK Dons,,
+43,24/04/2027,09:00,Wigan Athletic,Stevenage,,
+44,27/04/2027,13:45,Bradford City,Reading,,
+44,27/04/2027,13:45,Cambridge United,Sheffield Wednesday,,
+44,27/04/2027,13:45,Doncaster Rovers,Luton Town,,
+44,27/04/2027,13:45,Huddersfield Town,Burton Albion,,
+44,27/04/2027,13:45,Leicester City,Blackpool,,
+44,27/04/2027,13:45,Mansfield Town,Wigan Athletic,,
+44,27/04/2027,13:45,MK Dons,Barnsley,,
+44,27/04/2027,13:45,Notts County,Peterborough United,,
+44,27/04/2027,13:45,Plymouth Argyle,Leyton Orient,,
+44,27/04/2027,13:45,Stevenage,AFC Wimbledon,,
+44,27/04/2027,13:45,Stockport County,Oxford United,,
+44,27/04/2027,13:45,Wycombe Wanderers,Bromley,,
+45,01/05/2027,09:00,Barnsley,AFC Wimbledon,,
+45,01/05/2027,09:00,Blackpool,Stevenage,,
+45,01/05/2027,09:00,Bradford City,Wycombe Wanderers,,
+45,01/05/2027,09:00,Burton Albion,Bromley,,
+45,01/05/2027,09:00,Cambridge United,Luton Town,,
+45,01/05/2027,09:00,Huddersfield Town,Doncaster Rovers,,
+45,01/05/2027,09:00,Leyton Orient,Stockport County,,
+45,01/05/2027,09:00,Mansfield Town,Leicester City,,
+45,01/05/2027,09:00,Notts County,MK Dons,,
+45,01/05/2027,09:00,Oxford United,Peterborough United,,
+45,01/05/2027,09:00,Plymouth Argyle,Wigan Athletic,,
+45,01/05/2027,09:00,Reading,Sheffield Wednesday,,
+46,08/05/2027,06:30,AFC Wimbledon,Notts County,,
+46,08/05/2027,06:30,Bromley,Plymouth Argyle,,
+46,08/05/2027,06:30,Doncaster Rovers,Reading,,
+46,08/05/2027,06:30,Leicester City,Cambridge United,,
+46,08/05/2027,06:30,Luton Town,Blackpool,,
+46,08/05/2027,06:30,MK Dons,Bradford City,,
+46,08/05/2027,06:30,Peterborough United,Leyton Orient,,
+46,08/05/2027,06:30,Sheffield Wednesday,Oxford United,,
+46,08/05/2027,06:30,Stevenage,Huddersfield Town,,
+46,08/05/2027,06:30,Stockport County,Mansfield Town,,
+46,08/05/2027,06:30,Wigan Athletic,Burton Albion,,
+46,08/05/2027,06:30,Wycombe Wanderers,Barnsley,,

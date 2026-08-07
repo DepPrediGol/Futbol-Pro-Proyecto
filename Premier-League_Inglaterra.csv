@@ -1,381 +1,381 @@
 ﻿matchday,date,time,home_team,away_team,result,status
-1,15/08/2025,14:00,Liverpool,Bournemouth,4-2,Final
-1,16/08/2025,06:30,Aston Villa,Newcastle,0-0,Final
-1,16/08/2025,09:00,Tottenham,Burnley,3-0,Final
-1,16/08/2025,09:00,Brighton,Fulham,1-1,Final
-1,16/08/2025,09:00,Sunderland,West Ham,3-0,Final
-1,16/08/2025,11:30,Wolves,Manchester City,0-4,Final
-1,17/08/2025,08:00,Chelsea,Crystal Palace,0-0,Final
-1,17/08/2025,08:00,Nottingham Forest,Brentford,3-1,Final
-1,17/08/2025,10:30,Manchester United,Arsenal,0-1,Final
-1,18/08/2025,14:00,Leeds,Everton,1-0,Final
-2,22/08/2025,14:00,West Ham,Chelsea,1-5,Final
-2,23/08/2025,06:30,Manchester City,Tottenham,0-2,Final
-2,23/08/2025,09:00,Bournemouth,Wolves,1-0,Final
-2,23/08/2025,09:00,Burnley,Sunderland,2-0,Final
-2,23/08/2025,09:00,Brentford,Aston Villa,1-0,Final
-2,23/08/2025,11:30,Arsenal,Leeds,5-0,Final
-2,24/08/2025,08:00,Everton,Brighton,2-0,Final
-2,24/08/2025,08:00,Crystal Palace,Nottingham Forest,1-1,Final
-2,24/08/2025,10:30,Fulham,Manchester United,1-1,Final
-2,25/08/2025,14:00,Newcastle,Liverpool,2-3,Final
-3,30/08/2025,06:30,Chelsea,Fulham,2-0,Final
-3,30/08/2025,09:00,Manchester United,Burnley,3-2,Final
-3,30/08/2025,09:00,Wolves,Everton,2-3,Final
-3,30/08/2025,09:00,Tottenham,Bournemouth,0-1,Final
-3,30/08/2025,09:00,Sunderland,Brentford,2-1,Final
-3,30/08/2025,11:30,Leeds,Newcastle,0-0,Final
-3,31/08/2025,08:00,Brighton,Manchester City,2-1,Final
-3,31/08/2025,08:00,Nottingham Forest,West Ham,0-3,Final
-3,31/08/2025,10:30,Liverpool,Arsenal,1-0,Final
-3,31/08/2025,13:00,Aston Villa,Crystal Palace,0-3,Final
-4,13/09/2025,06:30,Arsenal,Nottingham Forest,3-0,Final
-4,13/09/2025,09:00,Newcastle,Wolves,1-0,Final
-4,13/09/2025,09:00,Bournemouth,Brighton,2-1,Final
-4,13/09/2025,09:00,Fulham,Leeds,1-0,Final
-4,13/09/2025,09:00,Everton,Aston Villa,0-0,Final
-4,13/09/2025,09:00,Crystal Palace,Sunderland,0-0,Final
-4,13/09/2025,11:30,West Ham,Tottenham,0-3,Final
-4,13/09/2025,14:00,Brentford,Chelsea,2-2,Final
-4,14/09/2025,08:00,Burnley,Liverpool,0-1,Final
-4,14/09/2025,10:30,Manchester City,Manchester United,3-0,Final
-5,20/09/2025,06:30,Liverpool,Everton,2-1,Final
-5,20/09/2025,09:00,Wolves,Leeds,1-3,Final
-5,20/09/2025,09:00,Burnley,Nottingham Forest,1-1,Final
-5,20/09/2025,09:00,West Ham,Crystal Palace,1-2,Final
-5,20/09/2025,09:00,Brighton,Tottenham,2-2,Final
-5,20/09/2025,11:30,Manchester United,Chelsea,2-1,Final
-5,20/09/2025,14:00,Fulham,Brentford,3-1,Final
-5,21/09/2025,08:00,Bournemouth,Newcastle,0-0,Final
-5,21/09/2025,08:00,Sunderland,Aston Villa,1-1,Final
-5,21/09/2025,10:30,Arsenal,Manchester City,1-1,Final
-6,27/09/2025,06:30,Brentford,Manchester United,3-1,Final
-6,27/09/2025,09:00,Chelsea,Brighton,1-3,Final
-6,27/09/2025,09:00,Manchester City,Burnley,5-1,Final
-6,27/09/2025,09:00,Crystal Palace,Liverpool,2-1,Final
-6,27/09/2025,09:00,Leeds,Bournemouth,2-2,Final
-6,27/09/2025,11:30,Nottingham Forest,Sunderland,0-1,Final
-6,27/09/2025,14:00,Tottenham,Wolves,1-1,Final
-6,28/09/2025,08:00,Aston Villa,Fulham,3-1,Final
-6,28/09/2025,10:30,Newcastle,Arsenal,1-2,Final
-6,29/09/2025,14:00,Everton,West Ham,1-1,Final
-7,03/10/2025,14:00,Bournemouth,Fulham,3-1,Final
-7,04/10/2025,06:30,Leeds,Tottenham,1-2,Final
-7,04/10/2025,09:00,Manchester United,Sunderland,2-0,Final
-7,04/10/2025,09:00,Arsenal,West Ham,2-0,Final
-7,04/10/2025,11:30,Chelsea,Liverpool,2-1,Final
-7,05/10/2025,08:00,Newcastle,Nottingham Forest,2-0,Final
-7,05/10/2025,08:00,Wolves,Brighton,1-1,Final
-7,05/10/2025,08:00,Everton,Crystal Palace,2-1,Final
-7,05/10/2025,08:00,Aston Villa,Burnley,2-1,Final
-7,05/10/2025,10:30,Brentford,Manchester City,0-1,Final
-8,18/10/2025,06:30,Nottingham Forest,Chelsea,0-3,Final
-8,18/10/2025,09:00,Burnley,Leeds,2-0,Final
-8,18/10/2025,09:00,Manchester City,Everton,2-0,Final
-8,18/10/2025,09:00,Brighton,Newcastle,2-1,Final
-8,18/10/2025,09:00,Crystal Palace,Bournemouth,3-3,Final
-8,18/10/2025,09:00,Sunderland,Wolves,2-0,Final
-8,18/10/2025,11:30,Fulham,Arsenal,0-1,Final
-8,19/10/2025,08:00,Tottenham,Aston Villa,1-2,Final
-8,19/10/2025,10:30,Liverpool,Manchester United,1-2,Final
-8,20/10/2025,14:00,West Ham,Brentford,0-2,Final
-9,24/10/2025,14:00,Leeds,West Ham,2-1,Final
-9,25/10/2025,09:00,Newcastle,Fulham,2-1,Final
-9,25/10/2025,09:00,Chelsea,Sunderland,1-2,Final
-9,25/10/2025,11:30,Manchester United,Brighton,4-2,Final
-9,25/10/2025,14:00,Brentford,Liverpool,3-2,Final
-9,26/10/2025,09:00,Bournemouth,Nottingham Forest,2-0,Final
-9,26/10/2025,09:00,Wolves,Burnley,2-3,Final
-9,26/10/2025,09:00,Arsenal,Crystal Palace,1-0,Final
-9,26/10/2025,09:00,Aston Villa,Manchester City,1-0,Final
-9,26/10/2025,11:30,Everton,Tottenham,0-3,Final
-10,01/11/2025,10:00,Fulham,Wolves,3-0,Final
-10,01/11/2025,10:00,Burnley,Arsenal,0-2,Final
-10,01/11/2025,10:00,Brighton,Leeds,3-0,Final
-10,01/11/2025,10:00,Crystal Palace,Brentford,2-0,Final
-10,01/11/2025,10:00,Nottingham Forest,Manchester United,2-2,Final
-10,01/11/2025,12:30,Tottenham,Chelsea,0-1,Final
-10,01/11/2025,15:00,Liverpool,Aston Villa,2-0,Final
-10,02/11/2025,09:00,West Ham,Newcastle,3-1,Final
-10,02/11/2025,11:30,Manchester City,Bournemouth,3-1,Final
-10,03/11/2025,15:00,Sunderland,Everton,1-1,Final
-11,08/11/2025,07:30,Tottenham,Manchester United,2-2,Final
-11,08/11/2025,10:00,Everton,Fulham,2-0,Final
-11,08/11/2025,10:00,West Ham,Burnley,3-2,Final
-11,08/11/2025,12:30,Sunderland,Arsenal,2-2,Final
-11,08/11/2025,15:00,Chelsea,Wolves,3-0,Final
-11,09/11/2025,09:00,Crystal Palace,Brighton,0-0,Final
-11,09/11/2025,09:00,Brentford,Newcastle,3-1,Final
-11,09/11/2025,09:00,Nottingham Forest,Leeds,3-1,Final
-11,09/11/2025,09:00,Aston Villa,Bournemouth,4-0,Final
-11,09/11/2025,11:30,Manchester City,Liverpool,3-0,Final
-12,22/11/2025,07:30,Burnley,Chelsea,0-2,Final
-12,22/11/2025,10:00,Bournemouth,West Ham,2-2,Final
-12,22/11/2025,10:00,Fulham,Sunderland,1-0,Final
-12,22/11/2025,10:00,Wolves,Crystal Palace,0-2,Final
-12,22/11/2025,10:00,Liverpool,Nottingham Forest,0-3,Final
-12,22/11/2025,10:00,Brighton,Brentford,2-1,Final
-12,22/11/2025,12:30,Newcastle,Manchester City,2-1,Final
-12,23/11/2025,09:00,Leeds,Aston Villa,1-2,Final
-12,23/11/2025,11:30,Arsenal,Tottenham,4-1,Final
-12,24/11/2025,15:00,Manchester United,Everton,0-1,Final
-13,29/11/2025,10:00,Manchester City,Leeds,3-2,Final
-13,29/11/2025,10:00,Brentford,Burnley,3-1,Final
-13,29/11/2025,10:00,Sunderland,Bournemouth,3-2,Final
-13,29/11/2025,12:30,Everton,Newcastle,1-4,Final
-13,29/11/2025,15:00,Tottenham,Fulham,1-2,Final
-13,30/11/2025,07:00,Crystal Palace,Manchester United,1-2,Final
-13,30/11/2025,09:05,West Ham,Liverpool,0-2,Final
-13,30/11/2025,09:05,Nottingham Forest,Brighton,0-2,Final
-13,30/11/2025,09:05,Aston Villa,Wolves,1-0,Final
-13,30/11/2025,11:30,Chelsea,Arsenal,1-1,Final
-14,02/12/2025,14:30,Bournemouth,Everton,0-1,Final
-14,02/12/2025,14:30,Fulham,Manchester City,4-5,Final
-14,02/12/2025,15:15,Newcastle,Tottenham,2-2,Final
-14,03/12/2025,14:30,Wolves,Nottingham Forest,0-1,Final
-14,03/12/2025,14:30,Arsenal,Brentford,2-0,Final
-14,03/12/2025,14:30,Burnley,Crystal Palace,0-1,Final
-14,03/12/2025,14:30,Brighton,Aston Villa,3-4,Final
-14,03/12/2025,15:15,Liverpool,Sunderland,1-1,Final
-14,03/12/2025,15:15,Leeds,Chelsea,3-1,Final
-14,04/12/2025,15:00,Manchester United,West Ham,1-1,Final
-15,06/12/2025,07:30,Aston Villa,Arsenal,2-1,Final
-15,06/12/2025,10:00,Newcastle,Burnley,2-1,Final
-15,06/12/2025,10:00,Bournemouth,Chelsea,0-0,Final
-15,06/12/2025,10:00,Everton,Nottingham Forest,3-0,Final
-15,06/12/2025,10:00,Tottenham,Brentford,2-0,Final
-15,06/12/2025,10:00,Manchester City,Sunderland,3-0,Final
-15,06/12/2025,12:30,Leeds,Liverpool,3-3,Final
-15,07/12/2025,09:00,Brighton,West Ham,1-1,Final
-15,07/12/2025,11:30,Fulham,Crystal Palace,1-2,Final
-15,08/12/2025,15:00,Wolves,Manchester United,1-4,Final
-16,13/12/2025,10:00,Liverpool,Brighton,2-0,Final
-16,13/12/2025,10:00,Chelsea,Everton,2-0,Final
-16,13/12/2025,12:30,Burnley,Fulham,2-3,Final
-16,13/12/2025,15:00,Arsenal,Wolves,2-1,Final
-16,14/12/2025,09:00,West Ham,Aston Villa,2-3,Final
-16,14/12/2025,09:00,Crystal Palace,Manchester City,0-3,Final
-16,14/12/2025,09:00,Nottingham Forest,Tottenham,3-0,Final
-16,14/12/2025,09:00,Sunderland,Newcastle,1-0,Final
-16,14/12/2025,11:30,Brentford,Leeds,1-1,Final
-16,15/12/2025,15:00,Manchester United,Bournemouth,4-4,Final
-17,20/12/2025,07:30,Newcastle,Chelsea,2-2,Final
-17,20/12/2025,10:00,Bournemouth,Burnley,1-1,Final
-17,20/12/2025,10:00,Wolves,Brentford,0-2,Final
-17,20/12/2025,10:00,Manchester City,West Ham,3-0,Final
-17,20/12/2025,10:00,Brighton,Sunderland,0-0,Final
-17,20/12/2025,12:30,Tottenham,Liverpool,1-2,Final
-17,20/12/2025,15:00,Everton,Arsenal,0-1,Final
-17,20/12/2025,15:00,Leeds,Crystal Palace,4-1,Final
-17,21/12/2025,11:30,Aston Villa,Manchester United,2-1,Final
-17,22/12/2025,15:00,Fulham,Nottingham Forest,1-0,Final
-18,26/12/2025,15:00,Manchester United,Newcastle,1-0,Final
-18,27/12/2025,07:30,Nottingham Forest,Manchester City,1-2,Final
-18,27/12/2025,10:00,Liverpool,Wolves,2-1,Final
-18,27/12/2025,10:00,Arsenal,Brighton,2-1,Final
-18,27/12/2025,10:00,Burnley,Everton,0-0,Final
-18,27/12/2025,10:00,West Ham,Fulham,0-1,Final
-18,27/12/2025,10:00,Brentford,Bournemouth,4-1,Final
-18,27/12/2025,12:30,Chelsea,Aston Villa,1-2,Final
-18,28/12/2025,09:00,Sunderland,Leeds,1-1,Final
-18,28/12/2025,11:30,Crystal Palace,Tottenham,0-1,Final
-19,30/12/2025,14:30,Burnley,Newcastle,1-3,Final
-19,30/12/2025,14:30,West Ham,Brighton,2-2,Final
-19,30/12/2025,14:30,Chelsea,Bournemouth,2-2,Final
-19,30/12/2025,14:30,Nottingham Forest,Everton,0-2,Final
-19,30/12/2025,15:15,Manchester United,Wolves,1-1,Final
-19,30/12/2025,15:15,Arsenal,Aston Villa,4-1,Final
-19,01/01/2026,12:30,Liverpool,Leeds,0-0,Final
-19,01/01/2026,12:30,Crystal Palace,Fulham,1-1,Final
-19,01/01/2026,15:00,Brentford,Tottenham,0-0,Final
-19,01/01/2026,15:00,Sunderland,Manchester City,0-0,Final
-20,03/01/2026,07:30,Aston Villa,Nottingham Forest,3-1,Final
-20,03/01/2026,10:00,Wolves,West Ham,3-0,Final
-20,03/01/2026,10:00,Brighton,Burnley,2-0,Final
-20,03/01/2026,12:30,Bournemouth,Arsenal,2-3,Final
-20,04/01/2026,07:30,Leeds,Manchester United,1-1,Final
-20,04/01/2026,10:00,Newcastle,Crystal Palace,2-0,Final
-20,04/01/2026,10:00,Everton,Brentford,2-4,Final
-20,04/01/2026,10:00,Tottenham,Sunderland,1-1,Final
-20,04/01/2026,10:15,Fulham,Liverpool,2-2,Final
-20,04/01/2026,12:30,Manchester City,Chelsea,1-1,Final
-21,06/01/2026,15:00,West Ham,Nottingham Forest,1-2,Final
-21,07/01/2026,14:30,Bournemouth,Tottenham,3-2,Final
-21,07/01/2026,14:30,Fulham,Chelsea,2-1,Final
-21,07/01/2026,14:30,Everton,Wolves,1-1,Final
-21,07/01/2026,14:30,Manchester City,Brighton,1-1,Final
-21,07/01/2026,14:30,Crystal Palace,Aston Villa,0-0,Final
-21,07/01/2026,14:30,Brentford,Sunderland,3-0,Final
-21,07/01/2026,15:15,Newcastle,Leeds,4-3,Final
-21,07/01/2026,15:15,Burnley,Manchester United,2-2,Final
-21,08/01/2026,15:00,Arsenal,Liverpool,0-0,Final
-22,17/01/2026,07:30,Manchester United,Manchester City,2-0,Final
-22,17/01/2026,10:00,Liverpool,Burnley,1-1,Final
-22,17/01/2026,10:00,Tottenham,West Ham,1-2,Final
-22,17/01/2026,10:00,Chelsea,Brentford,2-0,Final
-22,17/01/2026,10:00,Leeds,Fulham,1-0,Final
-22,17/01/2026,10:00,Sunderland,Crystal Palace,2-1,Final
-22,17/01/2026,12:30,Nottingham Forest,Arsenal,0-0,Final
-22,18/01/2026,09:00,Wolves,Newcastle,0-0,Final
-22,18/01/2026,11:30,Aston Villa,Everton,0-1,Final
-22,19/01/2026,15:00,Brighton,Bournemouth,1-1,Final
-23,24/01/2026,07:30,West Ham,Sunderland,3-1,Final
-23,24/01/2026,10:00,Fulham,Brighton,2-1,Final
-23,24/01/2026,10:00,Burnley,Tottenham,2-2,Final
-23,24/01/2026,10:00,Manchester City,Wolves,2-0,Final
-23,24/01/2026,12:30,Bournemouth,Liverpool,3-2,Final
-23,25/01/2026,09:00,Newcastle,Aston Villa,0-2,Final
-23,25/01/2026,09:00,Crystal Palace,Chelsea,1-3,Final
-23,25/01/2026,09:00,Brentford,Nottingham Forest,0-2,Final
-23,25/01/2026,11:30,Arsenal,Manchester United,2-3,Final
-23,26/01/2026,15:00,Everton,Leeds,1-1,Final
-24,31/01/2026,10:00,Wolves,Bournemouth,0-2,Final
-24,31/01/2026,10:00,Brighton,Everton,1-1,Final
-24,31/01/2026,10:00,Leeds,Arsenal,0-4,Final
-24,31/01/2026,12:30,Chelsea,West Ham,3-2,Final
-24,31/01/2026,15:00,Liverpool,Newcastle,4-1,Final
-24,01/02/2026,09:00,Manchester United,Fulham,3-2,Final
-24,01/02/2026,09:00,Nottingham Forest,Crystal Palace,1-1,Final
-24,01/02/2026,09:00,Aston Villa,Brentford,0-1,Final
-24,01/02/2026,11:30,Tottenham,Manchester City,2-2,Final
-24,02/02/2026,15:00,Sunderland,Burnley,3-0,Final
-25,06/02/2026,15:00,Leeds,Nottingham Forest,3-1,Final
-25,07/02/2026,07:30,Manchester United,Tottenham,2-0,Final
-25,07/02/2026,10:00,Bournemouth,Aston Villa,1-1,Final
-25,07/02/2026,10:00,Fulham,Everton,1-2,Final
-25,07/02/2026,10:00,Wolves,Chelsea,1-3,Final
-25,07/02/2026,10:00,Arsenal,Sunderland,3-0,Final
-25,07/02/2026,10:00,Burnley,West Ham,0-2,Final
-25,07/02/2026,12:30,Newcastle,Brentford,2-3,Final
-25,08/02/2026,09:00,Brighton,Crystal Palace,0-1,Final
-25,08/02/2026,11:30,Liverpool,Manchester City,1-2,Final
-26,10/02/2026,14:30,Everton,Bournemouth,1-2,Final
-26,10/02/2026,14:30,Tottenham,Newcastle,1-2,Final
-26,10/02/2026,14:30,Chelsea,Leeds,2-2,Final
-26,10/02/2026,15:15,West Ham,Manchester United,1-1,Final
-26,11/02/2026,14:30,Manchester City,Fulham,3-0,Final
-26,11/02/2026,14:30,Crystal Palace,Burnley,2-3,Final
-26,11/02/2026,14:30,Nottingham Forest,Wolves,0-0,Final
-26,11/02/2026,14:30,Aston Villa,Brighton,1-0,Final
-26,11/02/2026,15:15,Sunderland,Liverpool,0-1,Final
-26,12/02/2026,15:00,Brentford,Arsenal,1-1,Final
-31,18/02/2026,15:00,Wolves,Arsenal,2-2,Final
-27,21/02/2026,10:00,Chelsea,Burnley,1-1,Final
-27,21/02/2026,10:00,Brentford,Brighton,0-2,Final
-27,21/02/2026,10:00,Aston Villa,Leeds,1-1,Final
-27,21/02/2026,12:30,West Ham,Bournemouth,0-0,Final
-27,21/02/2026,15:00,Manchester City,Newcastle,2-1,Final
-27,22/02/2026,09:00,Crystal Palace,Wolves,1-0,Final
-27,22/02/2026,09:00,Nottingham Forest,Liverpool,0-1,Final
-27,22/02/2026,09:00,Sunderland,Fulham,1-3,Final
-27,22/02/2026,11:30,Tottenham,Arsenal,1-4,Final
-27,23/02/2026,15:00,Everton,Manchester United,0-1,Final
-28,27/02/2026,15:00,Wolves,Aston Villa,2-0,Final
-28,28/02/2026,07:30,Bournemouth,Sunderland,1-1,Final
-28,28/02/2026,10:00,Newcastle,Everton,2-3,Final
-28,28/02/2026,10:00,Liverpool,West Ham,5-2,Final
-28,28/02/2026,10:00,Burnley,Brentford,3-4,Final
-28,28/02/2026,12:30,Leeds,Manchester City,0-1,Final
-28,01/03/2026,09:00,Manchester United,Crystal Palace,2-1,Final
-28,01/03/2026,09:00,Fulham,Tottenham,2-1,Final
-28,01/03/2026,09:00,Brighton,Nottingham Forest,2-1,Final
-28,01/03/2026,11:30,Arsenal,Chelsea,2-1,Final
-29,03/03/2026,14:30,Bournemouth,Brentford,0-0,Final
-29,03/03/2026,14:30,Everton,Burnley,2-0,Final
-29,03/03/2026,14:30,Leeds,Sunderland,0-1,Final
-29,03/03/2026,15:15,Wolves,Liverpool,2-1,Final
-29,04/03/2026,14:30,Fulham,West Ham,0-1,Final
-29,04/03/2026,14:30,Manchester City,Nottingham Forest,2-2,Final
-29,04/03/2026,14:30,Brighton,Arsenal,0-1,Final
-29,04/03/2026,14:30,Aston Villa,Chelsea,1-4,Final
-29,04/03/2026,15:15,Newcastle,Manchester United,2-1,Final
-29,05/03/2026,15:00,Tottenham,Crystal Palace,1-3,Final
-30,14/03/2026,10:00,Burnley,Bournemouth,0-0,Final
-30,14/03/2026,10:00,Sunderland,Brighton,0-1,Final
-30,14/03/2026,12:30,Arsenal,Everton,2-0,Final
-30,14/03/2026,12:30,Chelsea,Newcastle,0-1,Final
-30,14/03/2026,15:00,West Ham,Manchester City,1-1,Final
-30,15/03/2026,09:00,Manchester United,Aston Villa,3-1,Final
-30,15/03/2026,09:00,Crystal Palace,Leeds,0-0,Final
-30,15/03/2026,09:00,Nottingham Forest,Fulham,0-0,Final
-30,15/03/2026,11:30,Liverpool,Tottenham,1-1,Final
-30,16/03/2026,15:00,Brentford,Wolves,2-2,Final
-31,20/03/2026,15:00,Bournemouth,Manchester United,2-2,Final
-31,21/03/2026,07:30,Brighton,Liverpool,2-1,Final
-31,21/03/2026,10:00,Fulham,Burnley,3-1,Final
-31,21/03/2026,12:30,Everton,Chelsea,3-0,Final
-31,21/03/2026,15:00,Leeds,Brentford,0-0,Final
-31,22/03/2026,07:00,Newcastle,Sunderland,1-2,Final
-31,22/03/2026,09:15,Tottenham,Nottingham Forest,0-3,Final
-31,22/03/2026,09:15,Aston Villa,West Ham,2-0,Final
-32,10/04/2026,14:00,West Ham,Wolves,4-0,Final
-32,11/04/2026,06:30,Arsenal,Bournemouth,1-2,Final
-32,11/04/2026,09:00,Burnley,Brighton,0-2,Final
-32,11/04/2026,09:00,Brentford,Everton,2-2,Final
-32,11/04/2026,11:30,Liverpool,Fulham,2-0,Final
-32,12/04/2026,08:00,Crystal Palace,Newcastle,2-1,Final
-32,12/04/2026,08:00,Nottingham Forest,Aston Villa,1-1,Final
-32,12/04/2026,08:00,Sunderland,Tottenham,1-0,Final
-32,12/04/2026,10:30,Chelsea,Manchester City,0-3,Final
-32,13/04/2026,14:00,Manchester United,Leeds,1-2,Final
-33,18/04/2026,06:30,Brentford,Fulham,0-0,Final
-33,18/04/2026,09:00,Newcastle,Bournemouth,1-2,Final
-33,18/04/2026,09:00,Leeds,Wolves,3-0,Final
-33,18/04/2026,11:30,Tottenham,Brighton,2-2,Final
-33,18/04/2026,14:00,Chelsea,Manchester United,0-1,Final
-33,19/04/2026,08:00,Everton,Liverpool,1-2,Final
-33,19/04/2026,08:00,Nottingham Forest,Burnley,4-1,Final
-33,19/04/2026,08:00,Aston Villa,Sunderland,4-3,Final
-33,19/04/2026,10:30,Manchester City,Arsenal,2-1,Final
-33,20/04/2026,14:00,Crystal Palace,West Ham,0-0,Final
-34,21/04/2026,14:00,Brighton,Chelsea,3-0,Final
-34,22/04/2026,14:00,Bournemouth,Leeds,2-2,Final
-34,22/04/2026,14:00,Burnley,Manchester City,0-1,Final
-34,24/04/2026,14:00,Sunderland,Nottingham Forest,0-5,Final
-34,25/04/2026,06:30,Fulham,Aston Villa,1-0,Final
-34,25/04/2026,09:00,Wolves,Tottenham,0-1,Final
-34,25/04/2026,09:00,Liverpool,Crystal Palace,3-1,Final
-34,25/04/2026,09:00,West Ham,Everton,2-1,Final
-34,25/04/2026,11:30,Arsenal,Newcastle,1-0,Final
-34,27/04/2026,14:00,Manchester United,Brentford,2-1,Final
-35,01/05/2026,14:00,Leeds,Burnley,3-1,Final
-35,02/05/2026,09:00,Newcastle,Brighton,3-1,Final
-35,02/05/2026,09:00,Wolves,Sunderland,1-1,Final
-35,02/05/2026,09:00,Brentford,West Ham,3-0,Final
-35,02/05/2026,11:30,Arsenal,Fulham,3-0,Final
-35,03/05/2026,08:00,Bournemouth,Crystal Palace,3-0,Final
-35,03/05/2026,09:30,Manchester United,Liverpool,3-2,Final
-35,03/05/2026,13:00,Aston Villa,Tottenham,1-2,Final
-35,04/05/2026,09:00,Chelsea,Nottingham Forest,1-3,Final
-35,04/05/2026,14:00,Everton,Manchester City,3-3,Final
-36,09/05/2026,06:30,Liverpool,Chelsea,1-1,Final
-36,09/05/2026,09:00,Fulham,Bournemouth,0-1,Final
-36,09/05/2026,09:00,Brighton,Wolves,3-0,Final
-36,09/05/2026,09:00,Sunderland,Manchester United,0-0,Final
-36,09/05/2026,11:30,Manchester City,Brentford,3-0,Final
-36,10/05/2026,08:00,Burnley,Aston Villa,2-2,Final
-36,10/05/2026,08:00,Crystal Palace,Everton,2-2,Final
-36,10/05/2026,08:00,Nottingham Forest,Newcastle,1-1,Final
-36,10/05/2026,10:30,West Ham,Arsenal,0-1,Final
-36,11/05/2026,14:00,Tottenham,Leeds,1-1,Final
-31,13/05/2026,14:00,Manchester City,Crystal Palace,3-0,Final
-37,15/05/2026,14:00,Aston Villa,Liverpool,4-2,Final
-37,17/05/2026,06:30,Manchester United,Nottingham Forest,3-2,Final
-37,17/05/2026,09:00,Wolves,Fulham,1-1,Final
-37,17/05/2026,09:00,Everton,Sunderland,1-3,Final
-37,17/05/2026,09:00,Brentford,Crystal Palace,2-2,Final
-37,17/05/2026,09:00,Leeds,Brighton,1-0,Final
-37,17/05/2026,11:30,Newcastle,West Ham,3-1,Final
-37,18/05/2026,14:00,Arsenal,Burnley,1-0,Final
-37,19/05/2026,13:30,Bournemouth,Manchester City,1-1,Final
-37,19/05/2026,14:15,Chelsea,Tottenham,2-1,Final
-38,24/05/2026,10:00,Fulham,Newcastle,2-0,Final
-38,24/05/2026,10:00,Liverpool,Brentford,1-1,Final
-38,24/05/2026,10:00,Burnley,Wolves,1-1,Final
-38,24/05/2026,10:00,Tottenham,Everton,1-0,Final
-38,24/05/2026,10:00,West Ham,Leeds,3-0,Final
-38,24/05/2026,10:00,Manchester City,Aston Villa,1-2,Final
-38,24/05/2026,10:00,Brighton,Manchester United,0-3,Final
-38,24/05/2026,10:00,Crystal Palace,Arsenal,1-2,Final
-38,24/05/2026,10:00,Nottingham Forest,Bournemouth,1-1,Final
-38,24/05/2026,10:00,Sunderland,Chelsea,2-1,Final
+1,21/08/2026,14:00,Arsenal FC,Coventry City,,
+1,22/08/2026,06:30,Hull City,Manchester United,,
+1,22/08/2026,09:00,Everton FC,Crystal Palace,,
+1,22/08/2026,09:00,Ipswich Town,Sunderland AFC,,
+1,22/08/2026,09:00,Nottingham Forest,Leeds United,,
+1,22/08/2026,11:30,Brentford FC,Tottenham Hotspur,,
+1,23/08/2026,08:00,Brighton & Hove Albion,Aston Villa,,
+1,23/08/2026,08:00,Manchester City,AFC Bournemouth,,
+1,23/08/2026,10:30,Newcastle United,Liverpool FC,,
+1,24/08/2026,14:00,Fulham FC,Chelsea FC,,
+2,28/08/2026,14:00,Crystal Palace,Manchester City,,
+2,29/08/2026,06:30,Liverpool FC,Nottingham Forest,,
+2,29/08/2026,09:00,AFC Bournemouth,Everton FC,,
+2,29/08/2026,09:00,Coventry City,Hull City,,
+2,29/08/2026,11:30,Tottenham Hotspur,Newcastle United,,
+2,30/08/2026,08:00,Chelsea FC,Brighton & Hove Albion,,
+2,30/08/2026,08:00,Leeds United,Brentford FC,,
+2,30/08/2026,08:00,Sunderland AFC,Fulham FC,,
+2,30/08/2026,10:30,Manchester United,Ipswich Town,,
+2,31/08/2026,14:00,Aston Villa,Arsenal FC,,
+3,04/09/2026,14:00,Ipswich Town,Liverpool FC,,
+3,05/09/2026,06:30,Newcastle United,AFC Bournemouth,,
+3,05/09/2026,09:00,Brentford FC,Sunderland AFC,,
+3,05/09/2026,09:00,Brighton & Hove Albion,Leeds United,,
+3,05/09/2026,09:00,Fulham FC,Crystal Palace,,
+3,05/09/2026,09:00,Manchester City,Coventry City,,
+3,05/09/2026,09:00,Nottingham Forest,Tottenham Hotspur,,
+3,05/09/2026,11:30,Hull City,Aston Villa,,
+3,06/09/2026,08:00,Everton FC,Manchester United,,
+3,06/09/2026,10:30,Arsenal FC,Chelsea FC,,
+4,12/09/2026,09:00,Aston Villa,Nottingham Forest,,
+4,12/09/2026,09:00,AFC Bournemouth,Brentford FC,,
+4,12/09/2026,09:00,Chelsea FC,Hull City,,
+4,12/09/2026,09:00,Crystal Palace,Ipswich Town,,
+4,12/09/2026,09:00,Liverpool FC,Fulham FC,,
+4,12/09/2026,11:30,Tottenham Hotspur,Everton FC,,
+4,12/09/2026,14:00,Sunderland AFC,Arsenal FC,,
+4,13/09/2026,08:00,Coventry City,Brighton & Hove Albion,,
+4,13/09/2026,10:30,Manchester United,Manchester City,,
+4,14/09/2026,14:00,Leeds United,Newcastle United,,
+5,18/09/2026,14:00,Brentford FC,Chelsea FC,,
+5,19/09/2026,06:30,Tottenham Hotspur,Aston Villa,,
+5,19/09/2026,09:00,Brighton & Hove Albion,Arsenal FC,,
+5,19/09/2026,09:00,Everton FC,Ipswich Town,,
+5,19/09/2026,09:00,Leeds United,Crystal Palace,,
+5,19/09/2026,09:00,Manchester City,Sunderland AFC,,
+5,19/09/2026,09:00,Newcastle United,Hull City,,
+5,19/09/2026,11:30,Nottingham Forest,Coventry City,,
+5,20/09/2026,08:00,AFC Bournemouth,Liverpool FC,,
+5,20/09/2026,10:30,Fulham FC,Manchester United,,
+6,10/10/2026,03:00,Arsenal FC,Leeds United,,
+6,10/10/2026,03:00,Aston Villa,Brentford FC,,
+6,10/10/2026,03:00,Chelsea FC,AFC Bournemouth,,
+6,10/10/2026,03:00,Coventry City,Newcastle United,,
+6,10/10/2026,03:00,Crystal Palace,Nottingham Forest,,
+6,10/10/2026,03:00,Hull City,Everton FC,,
+6,10/10/2026,03:00,Ipswich Town,Fulham FC,,
+6,10/10/2026,03:00,Liverpool FC,Manchester City,,
+6,10/10/2026,03:00,Manchester United,Tottenham Hotspur,,
+6,10/10/2026,03:00,Sunderland AFC,Brighton & Hove Albion,,
+7,17/10/2026,03:00,AFC Bournemouth,Sunderland AFC,,
+7,17/10/2026,03:00,Brentford FC,Liverpool FC,,
+7,17/10/2026,03:00,Brighton & Hove Albion,Crystal Palace,,
+7,17/10/2026,03:00,Everton FC,Chelsea FC,,
+7,17/10/2026,03:00,Fulham FC,Hull City,,
+7,17/10/2026,03:00,Leeds United,Manchester United,,
+7,17/10/2026,03:00,Manchester City,Ipswich Town,,
+7,17/10/2026,03:00,Newcastle United,Aston Villa,,
+7,17/10/2026,03:00,Nottingham Forest,Arsenal FC,,
+7,17/10/2026,03:00,Tottenham Hotspur,Coventry City,,
+8,24/10/2026,03:00,Arsenal FC,Everton FC,,
+8,24/10/2026,03:00,Aston Villa,Manchester City,,
+8,24/10/2026,03:00,Chelsea FC,Tottenham Hotspur,,
+8,24/10/2026,03:00,Coventry City,Fulham FC,,
+8,24/10/2026,03:00,Crystal Palace,Newcastle United,,
+8,24/10/2026,03:00,Hull City,Brentford FC,,
+8,24/10/2026,03:00,Ipswich Town,Nottingham Forest,,
+8,24/10/2026,03:00,Liverpool FC,Brighton & Hove Albion,,
+8,24/10/2026,03:00,Manchester United,AFC Bournemouth,,
+8,24/10/2026,03:00,Sunderland AFC,Leeds United,,
+9,31/10/2026,03:00,Aston Villa,Fulham FC,,
+9,31/10/2026,03:00,AFC Bournemouth,Leeds United,,
+9,31/10/2026,03:00,Brentford FC,Nottingham Forest,,
+9,31/10/2026,03:00,Chelsea FC,Manchester United,,
+9,31/10/2026,03:00,Coventry City,Sunderland AFC,,
+9,31/10/2026,03:00,Hull City,Ipswich Town,,
+9,31/10/2026,03:00,Liverpool FC,Arsenal FC,,
+9,31/10/2026,03:00,Manchester City,Brighton & Hove Albion,,
+9,31/10/2026,03:00,Newcastle United,Everton FC,,
+9,31/10/2026,03:00,Tottenham Hotspur,Crystal Palace,,
+10,07/11/2026,03:00,Arsenal FC,Hull City,,
+10,07/11/2026,03:00,Brighton & Hove Albion,Brentford FC,,
+10,07/11/2026,03:00,Crystal Palace,Liverpool FC,,
+10,07/11/2026,03:00,Everton FC,Coventry City,,
+10,07/11/2026,03:00,Fulham FC,Newcastle United,,
+10,07/11/2026,03:00,Ipswich Town,AFC Bournemouth,,
+10,07/11/2026,03:00,Leeds United,Tottenham Hotspur,,
+10,07/11/2026,03:00,Manchester United,Aston Villa,,
+10,07/11/2026,03:00,Nottingham Forest,Manchester City,,
+10,07/11/2026,03:00,Sunderland AFC,Chelsea FC,,
+11,21/11/2026,03:00,Aston Villa,Sunderland AFC,,
+11,21/11/2026,03:00,AFC Bournemouth,Nottingham Forest,,
+11,21/11/2026,03:00,Brentford FC,Everton FC,,
+11,21/11/2026,03:00,Chelsea FC,Leeds United,,
+11,21/11/2026,03:00,Coventry City,Crystal Palace,,
+11,21/11/2026,03:00,Hull City,Brighton & Hove Albion,,
+11,21/11/2026,03:00,Liverpool FC,Manchester United,,
+11,21/11/2026,03:00,Manchester City,Fulham FC,,
+11,21/11/2026,03:00,Newcastle United,Arsenal FC,,
+11,21/11/2026,03:00,Tottenham Hotspur,Ipswich Town,,
+12,28/11/2026,03:00,Arsenal FC,Manchester City,,
+12,28/11/2026,03:00,Brighton & Hove Albion,Newcastle United,,
+12,28/11/2026,03:00,Crystal Palace,Hull City,,
+12,28/11/2026,03:00,Everton FC,Liverpool FC,,
+12,28/11/2026,03:00,Fulham FC,AFC Bournemouth,,
+12,28/11/2026,03:00,Ipswich Town,Aston Villa,,
+12,28/11/2026,03:00,Leeds United,Coventry City,,
+12,28/11/2026,03:00,Manchester United,Brentford FC,,
+12,28/11/2026,03:00,Nottingham Forest,Chelsea FC,,
+12,28/11/2026,03:00,Sunderland AFC,Tottenham Hotspur,,
+13,02/12/2026,03:00,Aston Villa,Everton FC,,
+13,02/12/2026,03:00,AFC Bournemouth,Brighton & Hove Albion,,
+13,02/12/2026,03:00,Brentford FC,Arsenal FC,,
+13,02/12/2026,03:00,Chelsea FC,Crystal Palace,,
+13,02/12/2026,03:00,Coventry City,Ipswich Town,,
+13,02/12/2026,03:00,Hull City,Nottingham Forest,,
+13,02/12/2026,03:00,Liverpool FC,Sunderland AFC,,
+13,02/12/2026,03:00,Manchester City,Leeds United,,
+13,02/12/2026,03:00,Newcastle United,Manchester United,,
+13,02/12/2026,03:00,Tottenham Hotspur,Fulham FC,,
+14,05/12/2026,03:00,Aston Villa,Crystal Palace,,
+14,05/12/2026,03:00,AFC Bournemouth,Hull City,,
+14,05/12/2026,03:00,Brentford FC,Manchester City,,
+14,05/12/2026,03:00,Chelsea FC,Liverpool FC,,
+14,05/12/2026,03:00,Everton FC,Fulham FC,,
+14,05/12/2026,03:00,Leeds United,Ipswich Town,,
+14,05/12/2026,03:00,Manchester United,Coventry City,,
+14,05/12/2026,03:00,Newcastle United,Sunderland AFC,,
+14,05/12/2026,03:00,Nottingham Forest,Brighton & Hove Albion,,
+14,05/12/2026,03:00,Tottenham Hotspur,Arsenal FC,,
+15,12/12/2026,03:00,Arsenal FC,AFC Bournemouth,,
+15,12/12/2026,03:00,Brighton & Hove Albion,Everton FC,,
+15,12/12/2026,03:00,Coventry City,Aston Villa,,
+15,12/12/2026,03:00,Crystal Palace,Manchester United,,
+15,12/12/2026,03:00,Fulham FC,Brentford FC,,
+15,12/12/2026,03:00,Hull City,Tottenham Hotspur,,
+15,12/12/2026,03:00,Ipswich Town,Newcastle United,,
+15,12/12/2026,03:00,Liverpool FC,Leeds United,,
+15,12/12/2026,03:00,Manchester City,Chelsea FC,,
+15,12/12/2026,03:00,Sunderland AFC,Nottingham Forest,,
+16,19/12/2026,03:00,Arsenal FC,Manchester United,,
+16,19/12/2026,03:00,AFC Bournemouth,Coventry City,,
+16,19/12/2026,03:00,Brentford FC,Newcastle United,,
+16,19/12/2026,03:00,Brighton & Hove Albion,Ipswich Town,,
+16,19/12/2026,03:00,Chelsea FC,Aston Villa,,
+16,19/12/2026,03:00,Leeds United,Fulham FC,,
+16,19/12/2026,03:00,Liverpool FC,Tottenham Hotspur,,
+16,19/12/2026,03:00,Manchester City,Hull City,,
+16,19/12/2026,03:00,Nottingham Forest,Everton FC,,
+16,19/12/2026,03:00,Sunderland AFC,Crystal Palace,,
+17,26/12/2026,03:00,Aston Villa,Leeds United,,
+17,26/12/2026,03:00,Coventry City,Chelsea FC,,
+17,26/12/2026,03:00,Crystal Palace,Arsenal FC,,
+17,26/12/2026,03:00,Everton FC,Sunderland AFC,,
+17,26/12/2026,03:00,Fulham FC,Brighton & Hove Albion,,
+17,26/12/2026,03:00,Hull City,Liverpool FC,,
+17,26/12/2026,03:00,Ipswich Town,Brentford FC,,
+17,26/12/2026,03:00,Manchester United,Nottingham Forest,,
+17,26/12/2026,03:00,Newcastle United,Manchester City,,
+17,26/12/2026,03:00,Tottenham Hotspur,AFC Bournemouth,,
+18,30/12/2026,03:00,Aston Villa,Liverpool FC,,
+18,30/12/2026,03:00,Coventry City,Brentford FC,,
+18,30/12/2026,03:00,Crystal Palace,AFC Bournemouth,,
+18,30/12/2026,03:00,Everton FC,Manchester City,,
+18,30/12/2026,03:00,Fulham FC,Arsenal FC,,
+18,30/12/2026,03:00,Hull City,Leeds United,,
+18,30/12/2026,03:00,Ipswich Town,Chelsea FC,,
+18,30/12/2026,03:00,Manchester United,Sunderland AFC,,
+18,30/12/2026,03:00,Newcastle United,Nottingham Forest,,
+18,30/12/2026,03:00,Tottenham Hotspur,Brighton & Hove Albion,,
+19,02/01/2027,03:00,Arsenal FC,Ipswich Town,,
+19,02/01/2027,03:00,AFC Bournemouth,Aston Villa,,
+19,02/01/2027,03:00,Brentford FC,Crystal Palace,,
+19,02/01/2027,03:00,Brighton & Hove Albion,Manchester United,,
+19,02/01/2027,03:00,Chelsea FC,Newcastle United,,
+19,02/01/2027,03:00,Leeds United,Everton FC,,
+19,02/01/2027,03:00,Liverpool FC,Coventry City,,
+19,02/01/2027,03:00,Manchester City,Tottenham Hotspur,,
+19,02/01/2027,03:00,Nottingham Forest,Fulham FC,,
+19,02/01/2027,03:00,Sunderland AFC,Hull City,,
+20,06/01/2027,03:00,Everton FC,Aston Villa,,
+20,06/01/2027,03:00,Brighton & Hove Albion,AFC Bournemouth,,
+20,06/01/2027,03:00,Arsenal FC,Brentford FC,,
+20,06/01/2027,03:00,Crystal Palace,Chelsea FC,,
+20,06/01/2027,03:00,Ipswich Town,Coventry City,,
+20,06/01/2027,03:00,Nottingham Forest,Hull City,,
+20,06/01/2027,03:00,Sunderland AFC,Liverpool FC,,
+20,06/01/2027,03:00,Leeds United,Manchester City,,
+20,06/01/2027,03:00,Manchester United,Newcastle United,,
+20,06/01/2027,03:00,Fulham FC,Tottenham Hotspur,,
+21,16/01/2027,03:00,Hull City,Arsenal FC,,
+21,16/01/2027,03:00,Brentford FC,Brighton & Hove Albion,,
+21,16/01/2027,03:00,Liverpool FC,Crystal Palace,,
+21,16/01/2027,03:00,Coventry City,Everton FC,,
+21,16/01/2027,03:00,Newcastle United,Fulham FC,,
+21,16/01/2027,03:00,AFC Bournemouth,Ipswich Town,,
+21,16/01/2027,03:00,Tottenham Hotspur,Leeds United,,
+21,16/01/2027,03:00,Aston Villa,Manchester United,,
+21,16/01/2027,03:00,Manchester City,Nottingham Forest,,
+21,16/01/2027,03:00,Chelsea FC,Sunderland AFC,,
+22,23/01/2027,03:00,Arsenal FC,Newcastle United,,
+22,23/01/2027,03:00,Brighton & Hove Albion,Manchester City,,
+22,23/01/2027,03:00,Crystal Palace,Tottenham Hotspur,,
+22,23/01/2027,03:00,Everton FC,Brentford FC,,
+22,23/01/2027,03:00,Fulham FC,Aston Villa,,
+22,23/01/2027,03:00,Ipswich Town,Hull City,,
+22,23/01/2027,03:00,Leeds United,Chelsea FC,,
+22,23/01/2027,03:00,Manchester United,Liverpool FC,,
+22,23/01/2027,03:00,Nottingham Forest,AFC Bournemouth,,
+22,23/01/2027,03:00,Sunderland AFC,Coventry City,,
+23,30/01/2027,03:00,Manchester City,Arsenal FC,,
+23,30/01/2027,03:00,Newcastle United,Brighton & Hove Albion,,
+23,30/01/2027,03:00,Hull City,Crystal Palace,,
+23,30/01/2027,03:00,Liverpool FC,Everton FC,,
+23,30/01/2027,03:00,AFC Bournemouth,Fulham FC,,
+23,30/01/2027,03:00,Aston Villa,Ipswich Town,,
+23,30/01/2027,03:00,Coventry City,Leeds United,,
+23,30/01/2027,03:00,Brentford FC,Manchester United,,
+23,30/01/2027,03:00,Chelsea FC,Nottingham Forest,,
+23,30/01/2027,03:00,Tottenham Hotspur,Sunderland AFC,,
+24,06/02/2027,03:00,Arsenal FC,Liverpool FC,,
+24,06/02/2027,03:00,Brighton & Hove Albion,Hull City,,
+24,06/02/2027,03:00,Crystal Palace,Coventry City,,
+24,06/02/2027,03:00,Everton FC,Newcastle United,,
+24,06/02/2027,03:00,Fulham FC,Manchester City,,
+24,06/02/2027,03:00,Ipswich Town,Tottenham Hotspur,,
+24,06/02/2027,03:00,Leeds United,AFC Bournemouth,,
+24,06/02/2027,03:00,Manchester United,Chelsea FC,,
+24,06/02/2027,03:00,Nottingham Forest,Brentford FC,,
+24,06/02/2027,03:00,Sunderland AFC,Aston Villa,,
+25,10/02/2027,03:00,Ipswich Town,Arsenal FC,,
+25,10/02/2027,03:00,Aston Villa,AFC Bournemouth,,
+25,10/02/2027,03:00,Crystal Palace,Brentford FC,,
+25,10/02/2027,03:00,Manchester United,Brighton & Hove Albion,,
+25,10/02/2027,03:00,Newcastle United,Chelsea FC,,
+25,10/02/2027,03:00,Everton FC,Leeds United,,
+25,10/02/2027,03:00,Coventry City,Liverpool FC,,
+25,10/02/2027,03:00,Tottenham Hotspur,Manchester City,,
+25,10/02/2027,03:00,Fulham FC,Nottingham Forest,,
+25,10/02/2027,03:00,Hull City,Sunderland AFC,,
+26,20/02/2027,03:00,Arsenal FC,Fulham FC,,
+26,20/02/2027,03:00,AFC Bournemouth,Crystal Palace,,
+26,20/02/2027,03:00,Brentford FC,Coventry City,,
+26,20/02/2027,03:00,Brighton & Hove Albion,Tottenham Hotspur,,
+26,20/02/2027,03:00,Chelsea FC,Ipswich Town,,
+26,20/02/2027,03:00,Leeds United,Aston Villa,,
+26,20/02/2027,03:00,Liverpool FC,Hull City,,
+26,20/02/2027,03:00,Manchester City,Newcastle United,,
+26,20/02/2027,03:00,Nottingham Forest,Manchester United,,
+26,20/02/2027,03:00,Sunderland AFC,Everton FC,,
+27,27/02/2027,03:00,Manchester United,Arsenal FC,,
+27,27/02/2027,03:00,Coventry City,AFC Bournemouth,,
+27,27/02/2027,03:00,Newcastle United,Brentford FC,,
+27,27/02/2027,03:00,Ipswich Town,Brighton & Hove Albion,,
+27,27/02/2027,03:00,Aston Villa,Chelsea FC,,
+27,27/02/2027,03:00,Fulham FC,Leeds United,,
+27,27/02/2027,03:00,Tottenham Hotspur,Liverpool FC,,
+27,27/02/2027,03:00,Hull City,Manchester City,,
+27,27/02/2027,03:00,Everton FC,Nottingham Forest,,
+27,27/02/2027,03:00,Crystal Palace,Sunderland AFC,,
+28,03/03/2027,03:00,Arsenal FC,Crystal Palace,,
+28,03/03/2027,03:00,AFC Bournemouth,Tottenham Hotspur,,
+28,03/03/2027,03:00,Brentford FC,Ipswich Town,,
+28,03/03/2027,03:00,Brighton & Hove Albion,Fulham FC,,
+28,03/03/2027,03:00,Chelsea FC,Coventry City,,
+28,03/03/2027,03:00,Leeds United,Hull City,,
+28,03/03/2027,03:00,Liverpool FC,Aston Villa,,
+28,03/03/2027,03:00,Manchester City,Everton FC,,
+28,03/03/2027,03:00,Nottingham Forest,Newcastle United,,
+28,03/03/2027,03:00,Sunderland AFC,Manchester United,,
+29,13/03/2027,03:00,Chelsea FC,Arsenal FC,,
+29,13/03/2027,03:00,Sunderland AFC,Brentford FC,,
+29,13/03/2027,03:00,Leeds United,Brighton & Hove Albion,,
+29,13/03/2027,03:00,Manchester United,Everton FC,,
+29,13/03/2027,03:00,Crystal Palace,Fulham FC,,
+29,13/03/2027,03:00,Aston Villa,Hull City,,
+29,13/03/2027,03:00,Liverpool FC,Ipswich Town,,
+29,13/03/2027,03:00,Coventry City,Manchester City,,
+29,13/03/2027,03:00,AFC Bournemouth,Newcastle United,,
+29,13/03/2027,03:00,Tottenham Hotspur,Nottingham Forest,,
+30,20/03/2027,03:00,Nottingham Forest,Aston Villa,,
+30,20/03/2027,03:00,Brentford FC,AFC Bournemouth,,
+30,20/03/2027,03:00,Hull City,Chelsea FC,,
+30,20/03/2027,03:00,Brighton & Hove Albion,Coventry City,,
+30,20/03/2027,03:00,Ipswich Town,Crystal Palace,,
+30,20/03/2027,03:00,Newcastle United,Leeds United,,
+30,20/03/2027,03:00,Fulham FC,Liverpool FC,,
+30,20/03/2027,03:00,Manchester City,Manchester United,,
+30,20/03/2027,03:00,Arsenal FC,Sunderland AFC,,
+30,20/03/2027,03:00,Everton FC,Tottenham Hotspur,,
+31,10/04/2027,03:00,Coventry City,Arsenal FC,,
+31,10/04/2027,03:00,Manchester United,Hull City,,
+31,10/04/2027,03:00,Crystal Palace,Everton FC,,
+31,10/04/2027,03:00,Sunderland AFC,Ipswich Town,,
+31,10/04/2027,03:00,Leeds United,Nottingham Forest,,
+31,10/04/2027,03:00,Tottenham Hotspur,Brentford FC,,
+31,10/04/2027,03:00,Aston Villa,Brighton & Hove Albion,,
+31,10/04/2027,03:00,AFC Bournemouth,Manchester City,,
+31,10/04/2027,03:00,Liverpool FC,Newcastle United,,
+31,10/04/2027,03:00,Chelsea FC,Fulham FC,,
+32,17/04/2027,03:00,Arsenal FC,Aston Villa,,
+32,17/04/2027,03:00,Everton FC,AFC Bournemouth,,
+32,17/04/2027,03:00,Brighton & Hove Albion,Chelsea FC,,
+32,17/04/2027,03:00,Hull City,Coventry City,,
+32,17/04/2027,03:00,Manchester City,Crystal Palace,,
+32,17/04/2027,03:00,Brentford FC,Leeds United,,
+32,17/04/2027,03:00,Nottingham Forest,Liverpool FC,,
+32,17/04/2027,03:00,Ipswich Town,Manchester United,,
+32,17/04/2027,03:00,Fulham FC,Sunderland AFC,,
+32,17/04/2027,03:00,Newcastle United,Tottenham Hotspur,,
+33,24/04/2027,03:00,AFC Bournemouth,Arsenal FC,,
+33,24/04/2027,03:00,Everton FC,Brighton & Hove Albion,,
+33,24/04/2027,03:00,Aston Villa,Coventry City,,
+33,24/04/2027,03:00,Manchester United,Crystal Palace,,
+33,24/04/2027,03:00,Brentford FC,Fulham FC,,
+33,24/04/2027,03:00,Tottenham Hotspur,Hull City,,
+33,24/04/2027,03:00,Newcastle United,Ipswich Town,,
+33,24/04/2027,03:00,Leeds United,Liverpool FC,,
+33,24/04/2027,03:00,Chelsea FC,Manchester City,,
+33,24/04/2027,03:00,Nottingham Forest,Sunderland AFC,,
+34,01/05/2027,03:00,Crystal Palace,Aston Villa,,
+34,01/05/2027,03:00,Hull City,AFC Bournemouth,,
+34,01/05/2027,03:00,Manchester City,Brentford FC,,
+34,01/05/2027,03:00,Liverpool FC,Chelsea FC,,
+34,01/05/2027,03:00,Fulham FC,Everton FC,,
+34,01/05/2027,03:00,Ipswich Town,Leeds United,,
+34,01/05/2027,03:00,Coventry City,Manchester United,,
+34,01/05/2027,03:00,Sunderland AFC,Newcastle United,,
+34,01/05/2027,03:00,Brighton & Hove Albion,Nottingham Forest,,
+34,01/05/2027,03:00,Arsenal FC,Tottenham Hotspur,,
+35,08/05/2027,03:00,AFC Bournemouth,Manchester United,,
+35,08/05/2027,03:00,Brentford FC,Aston Villa,,
+35,08/05/2027,03:00,Brighton & Hove Albion,Sunderland AFC,,
+35,08/05/2027,03:00,Everton FC,Hull City,,
+35,08/05/2027,03:00,Fulham FC,Ipswich Town,,
+35,08/05/2027,03:00,Leeds United,Arsenal FC,,
+35,08/05/2027,03:00,Manchester City,Liverpool FC,,
+35,08/05/2027,03:00,Newcastle United,Coventry City,,
+35,08/05/2027,03:00,Nottingham Forest,Crystal Palace,,
+35,08/05/2027,03:00,Tottenham Hotspur,Chelsea FC,,
+36,15/05/2027,03:00,Arsenal FC,Nottingham Forest,,
+36,15/05/2027,03:00,Aston Villa,Newcastle United,,
+36,15/05/2027,03:00,Chelsea FC,Everton FC,,
+36,15/05/2027,03:00,Coventry City,Tottenham Hotspur,,
+36,15/05/2027,03:00,Crystal Palace,Brighton & Hove Albion,,
+36,15/05/2027,03:00,Hull City,Fulham FC,,
+36,15/05/2027,03:00,Ipswich Town,Manchester City,,
+36,15/05/2027,03:00,Liverpool FC,Brentford FC,,
+36,15/05/2027,03:00,Manchester United,Leeds United,,
+36,15/05/2027,03:00,Sunderland AFC,AFC Bournemouth,,
+37,23/05/2027,03:00,AFC Bournemouth,Chelsea FC,,
+37,23/05/2027,03:00,Brentford FC,Hull City,,
+37,23/05/2027,03:00,Brighton & Hove Albion,Liverpool FC,,
+37,23/05/2027,03:00,Everton FC,Arsenal FC,,
+37,23/05/2027,03:00,Fulham FC,Coventry City,,
+37,23/05/2027,03:00,Leeds United,Sunderland AFC,,
+37,23/05/2027,03:00,Manchester City,Aston Villa,,
+37,23/05/2027,03:00,Newcastle United,Crystal Palace,,
+37,23/05/2027,03:00,Nottingham Forest,Ipswich Town,,
+37,23/05/2027,03:00,Tottenham Hotspur,Manchester United,,
+38,30/05/2027,03:00,Arsenal FC,Brighton & Hove Albion,,
+38,30/05/2027,03:00,Aston Villa,Tottenham Hotspur,,
+38,30/05/2027,03:00,Chelsea FC,Brentford FC,,
+38,30/05/2027,03:00,Coventry City,Nottingham Forest,,
+38,30/05/2027,03:00,Crystal Palace,Leeds United,,
+38,30/05/2027,03:00,Hull City,Newcastle United,,
+38,30/05/2027,03:00,Ipswich Town,Everton FC,,
+38,30/05/2027,03:00,Liverpool FC,AFC Bournemouth,,
+38,30/05/2027,03:00,Manchester United,Fulham FC,,
+38,30/05/2027,03:00,Sunderland AFC,Manchester City,,

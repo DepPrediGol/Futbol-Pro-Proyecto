@@ -63,7 +63,7 @@
 13,20/05/2026,03:00,JK Nõmme Kalju,Harju JK,1-0,Final
 13,20/05/2026,03:00,JK Narva Trans,Paide Linnameeskond,1-0,Final
 13,24/05/2026,03:00,Pärnu JK Vaprus,FCI Levadia,1-6,Final
-13,07/08/2026,11:00,FC Flora,JK Tammeka,,
+13,26/08/2026,11:00,JK Tammeka,FC Flora,,
 14,29/05/2026,03:00,Nõmme United,FC Flora,0-4,Final
 14,30/05/2026,03:00,Harju JK,JK Narva Trans,3-0,Final
 14,30/05/2026,03:00,Pärnu JK Vaprus,JK Nõmme Kalju,3-1,Final
@@ -98,17 +98,17 @@
 20,18/07/2026,03:00,JK Narva Trans,Pärnu JK Vaprus,3-1,Final
 20,19/07/2026,03:00,FC Kuressaare,JK Nõmme Kalju,0-0,Final
 20,19/07/2026,03:00,Harju JK,Paide Linnameeskond,5-2,Final
-20,16/09/2026,11:00,FCI Levadia,JK Tammeka,,
-21,31/07/2026,11:00,Nõmme United,JK Narva Trans,,
-21,02/08/2026,09:00,JK Nõmme Kalju,JK Tammeka,,
-21,02/08/2026,09:00,Paide Linnameeskond,FC Kuressaare,,
-21,02/08/2026,11:00,FC Flora,Harju JK,,
-21,02/08/2026,11:00,Pärnu JK Vaprus,FCI Levadia,,
+20,21/10/2026,11:00,FCI Levadia,JK Tammeka,,
+21,31/07/2026,03:00,Nõmme United,JK Narva Trans,1-2,Final
+21,02/08/2026,03:00,JK Nõmme Kalju,JK Tammeka,5-1,Final
+21,02/08/2026,03:00,Paide Linnameeskond,FC Kuressaare,1-0,Final
+21,02/08/2026,03:00,FC Flora,Harju JK,1-0,Final
+21,02/08/2026,03:00,Pärnu JK Vaprus,FCI Levadia,1-1,Final
 22,07/08/2026,11:00,FC Kuressaare,Harju JK,,
-22,08/08/2026,09:00,Paide Linnameeskond,Pärnu JK Vaprus,,
 22,08/08/2026,11:00,JK Narva Trans,JK Nõmme Kalju,,
 22,09/08/2026,11:00,FCI Levadia,Nõmme United,,
-22,19/08/2026,11:00,JK Tammeka,FC Flora,,
+22,16/09/2026,11:00,Paide Linnameeskond,Pärnu JK Vaprus,,
+22,16/09/2026,11:00,FC Flora,JK Tammeka,,
 23,14/08/2026,11:00,Nõmme United,JK Tammeka,,
 23,16/08/2026,09:00,JK Nõmme Kalju,Pärnu JK Vaprus,,
 23,16/08/2026,09:00,JK Narva Trans,Paide Linnameeskond,,
@@ -119,11 +119,11 @@
 24,22/08/2026,11:00,Harju JK,JK Nõmme Kalju,,
 24,23/08/2026,09:00,Paide Linnameeskond,Nõmme United,,
 24,23/08/2026,11:00,Pärnu JK Vaprus,FC Flora,,
-25,28/08/2026,11:00,JK Narva Trans,JK Tammeka,,
 25,29/08/2026,06:30,Nõmme United,Harju JK,,
 25,29/08/2026,09:00,FC Kuressaare,Pärnu JK Vaprus,,
-25,30/08/2026,09:00,JK Nõmme Kalju,FCI Levadia,,
-25,30/08/2026,11:00,FC Flora,Paide Linnameeskond,,
+25,30/08/2026,06:30,JK Nõmme Kalju,FCI Levadia,,
+25,30/08/2026,09:00,FC Flora,Paide Linnameeskond,,
+25,30/08/2026,11:00,JK Narva Trans,JK Tammeka,,
 26,04/09/2026,11:00,FC Flora,JK Nõmme Kalju,,
 26,05/09/2026,06:30,FC Kuressaare,JK Narva Trans,,
 26,05/09/2026,09:00,Pärnu JK Vaprus,Nõmme United,,

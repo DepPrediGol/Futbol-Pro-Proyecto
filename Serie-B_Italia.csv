@@ -1,391 +1,381 @@
 ﻿matchday,date,time,home_team,away_team,result,status
-1,22/08/2025,13:30,Pescara,Cesena,1-3,Final
-1,23/08/2025,12:00,Empoli,Padova,3-1,Final
-1,23/08/2025,12:00,Virtus Entella,Juve Stabia,1-1,Final
-1,23/08/2025,14:00,Palermo,Reggiana,2-1,Final
-1,23/08/2025,14:00,Monza,Mantova,1-0,Final
-1,24/08/2025,12:00,Spezia,Carrarese,0-2,Final
-1,24/08/2025,12:00,Venezia,Bari,2-1,Final
-1,24/08/2025,14:00,Frosinone,Avellino,2-0,Final
-1,24/08/2025,14:00,Catanzaro,Sudtirol,1-1,Final
-1,25/08/2025,13:30,Sampdoria,Modena,0-2,Final
-2,29/08/2025,13:30,Reggiana,Empoli,3-1,Final
-2,30/08/2025,12:00,Juve Stabia,Venezia,0-0,Final
-2,30/08/2025,12:00,Mantova,Pescara,2-1,Final
-2,30/08/2025,14:00,Cesena,Virtus Entella,1-1,Final
-2,30/08/2025,14:00,Spezia,Catanzaro,0-0,Final
-2,30/08/2025,14:00,Palermo,Frosinone,0-0,Final
-2,31/08/2025,12:00,Sudtirol,Sampdoria,3-1,Final
-2,31/08/2025,12:00,Carrarese,Padova,0-0,Final
-2,31/08/2025,14:00,Bari,Monza,1-1,Final
-2,31/08/2025,14:00,Modena,Avellino,1-1,Final
-3,12/09/2025,13:30,Avellino,Monza,2-1,Final
-3,13/09/2025,08:00,Pescara,Venezia,2-2,Final
-3,13/09/2025,08:00,Juve Stabia,Reggiana,0-0,Final
-3,13/09/2025,08:00,Padova,Frosinone,0-1,Final
-3,13/09/2025,08:00,Modena,Bari,3-0,Final
-3,13/09/2025,10:15,Catanzaro,Carrarese,1-1,Final
-3,13/09/2025,12:30,Sampdoria,Cesena,1-2,Final
-3,14/09/2025,08:00,Virtus Entella,Mantova,1-0,Final
-3,14/09/2025,10:15,Sudtirol,Palermo,0-2,Final
-3,14/09/2025,12:30,Empoli,Spezia,1-1,Final
-4,19/09/2025,12:00,Frosinone,Sudtirol,2-2,Final
-4,19/09/2025,14:00,Palermo,Bari,2-0,Final
-4,20/09/2025,08:00,Spezia,Juve Stabia,1-3,Final
-4,20/09/2025,08:00,Venezia,Cesena,1-2,Final
-4,20/09/2025,08:00,Reggiana,Catanzaro,2-2,Final
-4,20/09/2025,10:15,Monza,Sampdoria,1-0,Final
-4,20/09/2025,12:30,Mantova,Modena,1-3,Final
-4,21/09/2025,08:00,Carrarese,Avellino,3-4,Final
-4,21/09/2025,10:15,Pescara,Empoli,4-0,Final
-4,21/09/2025,12:30,Padova,Virtus Entella,2-1,Final
-5,26/09/2025,13:30,Catanzaro,Juve Stabia,2-2,Final
-5,27/09/2025,08:00,Cesena,Palermo,1-1,Final
-5,27/09/2025,08:00,Venezia,Spezia,2-0,Final
-5,27/09/2025,08:00,Avellino,Virtus Entella,2-0,Final
-5,27/09/2025,08:00,Sudtirol,Reggiana,3-1,Final
-5,27/09/2025,08:00,Mantova,Frosinone,1-5,Final
-5,27/09/2025,10:15,Monza,Padova,0-1,Final
-5,27/09/2025,12:30,Bari,Sampdoria,1-1,Final
-5,28/09/2025,10:15,Modena,Pescara,2-1,Final
-5,28/09/2025,12:30,Empoli,Carrarese,2-2,Final
-6,30/09/2025,13:30,Frosinone,Cesena,3-1,Final
-6,30/09/2025,13:30,Palermo,Venezia,0-0,Final
-6,30/09/2025,13:30,Virtus Entella,Bari,2-2,Final
-6,30/09/2025,13:30,Juve Stabia,Mantova,2-1,Final
-6,30/09/2025,13:30,Padova,Avellino,2-2,Final
-6,30/09/2025,13:30,Reggiana,Spezia,1-1,Final
-6,01/10/2025,13:30,Sampdoria,Catanzaro,0-0,Final
-6,01/10/2025,13:30,Empoli,Monza,1-1,Final
-6,01/10/2025,13:30,Pescara,Sudtirol,1-1,Final
-6,01/10/2025,13:30,Carrarese,Modena,0-0,Final
-7,04/10/2025,08:00,Bari,Padova,2-1,Final
-7,04/10/2025,08:00,Venezia,Frosinone,3-0,Final
-7,04/10/2025,08:00,Avellino,Mantova,0-0,Final
-7,04/10/2025,08:00,Monza,Catanzaro,2-1,Final
-7,04/10/2025,10:15,Spezia,Palermo,1-2,Final
-7,04/10/2025,12:30,Cesena,Reggiana,1-2,Final
-7,05/10/2025,08:00,Sudtirol,Empoli,1-2,Final
-7,05/10/2025,08:00,Carrarese,Juve Stabia,3-0,Final
-7,05/10/2025,10:15,Sampdoria,Pescara,4-1,Final
-7,05/10/2025,12:30,Modena,Virtus Entella,2-0,Final
-8,17/10/2025,13:30,Virtus Entella,Sampdoria,3-1,Final
-8,18/10/2025,08:00,Frosinone,Monza,0-1,Final
-8,18/10/2025,08:00,Pescara,Carrarese,2-2,Final
-8,18/10/2025,08:00,Reggiana,Bari,3-1,Final
-8,18/10/2025,08:00,Mantova,Sudtirol,1-1,Final
-8,18/10/2025,10:15,Juve Stabia,Avellino,2-0,Final
-8,18/10/2025,12:30,Spezia,Cesena,1-2,Final
-8,19/10/2025,08:00,Palermo,Modena,1-1,Final
-8,19/10/2025,10:15,Empoli,Venezia,1-1,Final
-8,19/10/2025,12:30,Catanzaro,Padova,0-1,Final
-9,24/10/2025,13:30,Modena,Empoli,2-1,Final
-9,25/10/2025,08:00,Sampdoria,Frosinone,1-1,Final
-9,25/10/2025,08:00,Virtus Entella,Pescara,1-1,Final
-9,25/10/2025,08:00,Avellino,Spezia,0-4,Final
-9,25/10/2025,08:00,Sudtirol,Cesena,0-1,Final
-9,25/10/2025,08:00,Monza,Reggiana,3-1,Final
-9,25/10/2025,10:15,Carrarese,Venezia,3-2,Final
-9,25/10/2025,12:30,Catanzaro,Palermo,1-0,Final
-9,26/10/2025,09:00,Padova,Juve Stabia,2-2,Final
-9,26/10/2025,11:15,Bari,Mantova,1-0,Final
-10,28/10/2025,14:30,Cesena,Carrarese,2-1,Final
-10,28/10/2025,14:30,Empoli,Sampdoria,1-1,Final
-10,28/10/2025,14:30,Frosinone,Virtus Entella,4-0,Final
-10,28/10/2025,14:30,Palermo,Monza,0-3,Final
-10,28/10/2025,14:30,Pescara,Avellino,1-1,Final
-10,28/10/2025,14:30,Reggiana,Modena,1-0,Final
-10,29/10/2025,14:30,Spezia,Padova,1-1,Final
-10,29/10/2025,14:30,Venezia,Sudtirol,3-0,Final
-10,29/10/2025,14:30,Mantova,Catanzaro,1-3,Final
-11,01/11/2025,06:30,Avellino,Reggiana,4-3,Final
-11,01/11/2025,09:00,Padova,Sudtirol,1-1,Final
-11,01/11/2025,09:00,Carrarese,Frosinone,0-2,Final
-11,01/11/2025,11:15,Virtus Entella,Empoli,1-0,Final
-11,01/11/2025,13:30,Palermo,Pescara,5-0,Final
-11,02/11/2025,09:00,Bari,Cesena,1-0,Final
-11,02/11/2025,09:00,Modena,Juve Stabia,3-0,Final
-11,02/11/2025,09:00,Catanzaro,Venezia,2-1,Final
-11,02/11/2025,11:15,Monza,Spezia,1-0,Final
-11,02/11/2025,13:30,Sampdoria,Mantova,0-1,Final
-12,07/11/2025,14:30,Spezia,Bari,1-1,Final
-12,08/11/2025,09:00,Empoli,Catanzaro,1-0,Final
-12,08/11/2025,09:00,Frosinone,Modena,2-2,Final
-12,08/11/2025,09:00,Reggiana,Virtus Entella,0-0,Final
-12,08/11/2025,09:00,Sudtirol,Carrarese,1-1,Final
-12,08/11/2025,09:00,Mantova,Padova,1-0,Final
-12,08/11/2025,11:15,Juve Stabia,Palermo,1-0,Final
-12,08/11/2025,13:30,Venezia,Sampdoria,3-1,Final
-12,09/11/2025,09:00,Cesena,Avellino,3-0,Final
-12,09/11/2025,11:15,Pescara,Monza,0-2,Final
-13,21/11/2025,14:30,Catanzaro,Pescara,3-3,Final
-13,22/11/2025,09:00,Virtus Entella,Palermo,1-1,Final
-13,22/11/2025,09:00,Avellino,Empoli,0-3,Final
-13,22/11/2025,09:00,Carrarese,Reggiana,0-0,Final
-13,22/11/2025,11:15,Padova,Venezia,0-2,Final
-13,22/11/2025,13:30,Bari,Frosinone,2-3,Final
-13,23/11/2025,09:00,Modena,Sudtirol,0-0,Final
-13,23/11/2025,09:00,Mantova,Spezia,4-1,Final
-13,23/11/2025,11:15,Monza,Cesena,1-0,Final
-13,24/11/2025,14:30,Sampdoria,Juve Stabia,1-0,Final
-14,28/11/2025,14:30,Cesena,Modena,1-0,Final
-14,29/11/2025,09:00,Empoli,Bari,5-0,Final
-14,29/11/2025,09:00,Venezia,Mantova,3-0,Final
-14,29/11/2025,09:00,Pescara,Padova,0-1,Final
-14,29/11/2025,09:00,Reggiana,Frosinone,0-1,Final
-14,29/11/2025,09:00,Sudtirol,Avellino,0-1,Final
-14,29/11/2025,11:15,Catanzaro,Virtus Entella,3-2,Final
-14,29/11/2025,13:30,Palermo,Carrarese,5-0,Final
-14,30/11/2025,09:00,Juve Stabia,Monza,2-2,Final
-14,30/11/2025,11:15,Spezia,Sampdoria,1-0,Final
-10,04/12/2025,13:30,Juve Stabia,Bari,0-0,Final
-15,07/12/2025,11:15,Empoli,Palermo,1-3,Final
-15,07/12/2025,13:30,Sampdoria,Carrarese,3-2,Final
-15,08/12/2025,06:30,Modena,Catanzaro,1-2,Final
-15,08/12/2025,09:00,Frosinone,Juve Stabia,3-0,Final
-15,08/12/2025,09:00,Avellino,Venezia,1-1,Final
-15,08/12/2025,09:00,Padova,Cesena,1-1,Final
-15,08/12/2025,09:00,Monza,Sudtirol,1-1,Final
-15,08/12/2025,09:00,Mantova,Reggiana,0-1,Final
-15,08/12/2025,11:15,Bari,Pescara,1-1,Final
-15,08/12/2025,13:30,Virtus Entella,Spezia,0-1,Final
-16,12/12/2025,14:30,Palermo,Sampdoria,1-0,Final
-16,13/12/2025,09:00,Spezia,Modena,0-2,Final
-16,13/12/2025,09:00,Venezia,Monza,2-0,Final
-16,13/12/2025,09:00,Juve Stabia,Empoli,2-0,Final
-16,13/12/2025,09:00,Reggiana,Padova,1-2,Final
-16,13/12/2025,09:00,Sudtirol,Bari,0-0,Final
-16,13/12/2025,11:15,Catanzaro,Avellino,1-0,Final
-16,13/12/2025,13:30,Cesena,Mantova,3-2,Final
-16,14/12/2025,09:00,Carrarese,Virtus Entella,3-1,Final
-16,14/12/2025,11:15,Pescara,Frosinone,1-2,Final
-17,19/12/2025,14:30,Bari,Catanzaro,1-2,Final
-17,20/12/2025,09:00,Cesena,Juve Stabia,1-1,Final
-17,20/12/2025,09:00,Frosinone,Spezia,2-1,Final
-17,20/12/2025,09:00,Padova,Sampdoria,1-1,Final
-17,20/12/2025,09:00,Modena,Venezia,1-2,Final
-17,20/12/2025,09:00,Monza,Carrarese,4-1,Final
-17,20/12/2025,11:15,Avellino,Palermo,2-2,Final
-17,20/12/2025,13:30,Pescara,Reggiana,2-1,Final
-17,21/12/2025,09:00,Virtus Entella,Sudtirol,1-1,Final
-17,21/12/2025,11:15,Mantova,Empoli,0-1,Final
-18,26/12/2025,11:15,Modena,Monza,1-2,Final
-18,27/12/2025,06:30,Spezia,Pescara,2-1,Final
-18,27/12/2025,09:00,Sampdoria,Reggiana,2-1,Final
-18,27/12/2025,09:00,Empoli,Frosinone,1-1,Final
-18,27/12/2025,09:00,Venezia,Virtus Entella,1-0,Final
-18,27/12/2025,09:00,Juve Stabia,Sudtirol,1-0,Final
-18,27/12/2025,09:00,Carrarese,Mantova,0-0,Final
-18,27/12/2025,09:00,Catanzaro,Cesena,2-0,Final
-18,27/12/2025,11:15,Palermo,Padova,1-0,Final
-18,27/12/2025,13:30,Bari,Avellino,1-1,Final
-19,10/01/2026,09:00,Frosinone,Catanzaro,2-0,Final
-19,10/01/2026,09:00,Virtus Entella,Monza,1-0,Final
-19,10/01/2026,09:00,Avellino,Sampdoria,2-1,Final
-19,10/01/2026,09:00,Reggiana,Venezia,1-3,Final
-19,10/01/2026,09:00,Sudtirol,Spezia,2-1,Final
-19,10/01/2026,09:00,Carrarese,Bari,1-0,Final
-19,10/01/2026,11:15,Juve Stabia,Pescara,2-2,Final
-19,10/01/2026,13:30,Cesena,Empoli,0-1,Final
-19,11/01/2026,09:00,Mantova,Palermo,1-1,Final
-19,11/01/2026,11:15,Padova,Modena,2-0,Final
-20,16/01/2026,14:30,Sampdoria,Virtus Entella,1-1,Final
-20,17/01/2026,09:00,Empoli,Sudtirol,0-1,Final
-20,17/01/2026,09:00,Venezia,Catanzaro,3-1,Final
-20,17/01/2026,09:00,Avellino,Carrarese,1-2,Final
-20,17/01/2026,09:00,Padova,Mantova,1-2,Final
-20,17/01/2026,09:00,Monza,Frosinone,2-2,Final
-20,17/01/2026,11:15,Reggiana,Cesena,1-2,Final
-20,17/01/2026,13:30,Bari,Juve Stabia,0-1,Final
-20,18/01/2026,09:00,Pescara,Modena,0-2,Final
-20,18/01/2026,11:15,Palermo,Spezia,1-0,Final
-21,23/01/2026,14:30,Carrarese,Empoli,3-0,Final
-21,24/01/2026,09:00,Cesena,Bari,1-2,Final
-21,24/01/2026,09:00,Frosinone,Reggiana,1-0,Final
-21,24/01/2026,09:00,Juve Stabia,Virtus Entella,1-0,Final
-21,24/01/2026,09:00,Monza,Pescara,3-0,Final
-21,24/01/2026,09:00,Mantova,Venezia,2-5,Final
-21,24/01/2026,11:15,Modena,Palermo,0-0,Final
-21,24/01/2026,13:30,Spezia,Avellino,1-0,Final
-21,25/01/2026,09:00,Sudtirol,Padova,3-0,Final
-21,25/01/2026,11:15,Catanzaro,Sampdoria,0-0,Final
-22,30/01/2026,14:30,Bari,Palermo,0-3,Final
-22,31/01/2026,09:00,Empoli,Modena,0-0,Final
-22,31/01/2026,09:00,Venezia,Carrarese,2-1,Final
-22,31/01/2026,09:00,Virtus Entella,Frosinone,1-1,Final
-22,31/01/2026,09:00,Avellino,Cesena,3-1,Final
-22,31/01/2026,09:00,Sudtirol,Catanzaro,2-1,Final
-22,31/01/2026,11:15,Pescara,Mantova,2-2,Final
-22,31/01/2026,13:30,Sampdoria,Spezia,1-0,Final
-22,01/02/2026,09:00,Reggiana,Juve Stabia,1-1,Final
-22,01/02/2026,11:15,Padova,Monza,1-2,Final
-23,06/02/2026,14:30,Cesena,Pescara,2-0,Final
-23,07/02/2026,09:00,Frosinone,Venezia,1-2,Final
-23,07/02/2026,09:00,Juve Stabia,Padova,3-3,Final
-23,07/02/2026,09:00,Modena,Sampdoria,1-2,Final
-23,07/02/2026,09:00,Carrarese,Sudtirol,0-0,Final
-23,07/02/2026,09:00,Catanzaro,Reggiana,2-0,Final
-23,07/02/2026,09:00,Mantova,Bari,2-1,Final
-23,07/02/2026,11:15,Palermo,Empoli,3-2,Final
-23,07/02/2026,13:30,Spezia,Virtus Entella,1-1,Final
-23,08/02/2026,09:00,Monza,Avellino,2-1,Final
-24,10/02/2026,13:00,Sampdoria,Palermo,3-3,Final
-24,10/02/2026,14:00,Venezia,Modena,0-2,Final
-24,10/02/2026,14:00,Pescara,Catanzaro,0-2,Final
-24,10/02/2026,14:00,Virtus Entella,Cesena,3-1,Final
-24,10/02/2026,14:00,Padova,Carrarese,1-0,Final
-24,10/02/2026,14:00,Reggiana,Mantova,1-0,Final
-24,11/02/2026,13:00,Sudtirol,Monza,0-0,Final
-24,11/02/2026,14:00,Bari,Spezia,0-0,Final
-24,11/02/2026,14:00,Empoli,Juve Stabia,1-2,Final
-24,11/02/2026,14:00,Avellino,Frosinone,1-3,Final
-25,14/02/2026,09:00,Sampdoria,Padova,1-0,Final
-25,14/02/2026,09:00,Palermo,Virtus Entella,3-0,Final
-25,14/02/2026,09:00,Modena,Carrarese,2-0,Final
-25,14/02/2026,11:15,Catanzaro,Mantova,2-0,Final
-25,14/02/2026,13:30,Cesena,Venezia,0-4,Final
-25,15/02/2026,09:00,Bari,Sudtirol,1-2,Final
-25,15/02/2026,09:00,Spezia,Frosinone,0-2,Final
-25,15/02/2026,09:00,Monza,Juve Stabia,2-1,Final
-25,15/02/2026,11:15,Empoli,Reggiana,1-1,Final
-25,15/02/2026,13:30,Avellino,Pescara,0-1,Final
-26,20/02/2026,14:30,Frosinone,Empoli,2-2,Final
-26,21/02/2026,09:00,Venezia,Pescara,3-2,Final
-26,21/02/2026,09:00,Palermo,Sudtirol,3-0,Final
-26,21/02/2026,09:00,Virtus Entella,Catanzaro,1-3,Final
-26,21/02/2026,09:00,Padova,Bari,1-1,Final
-26,21/02/2026,09:00,Mantova,Sampdoria,2-1,Final
-26,21/02/2026,11:15,Cesena,Spezia,2-3,Final
-26,21/02/2026,13:30,Carrarese,Monza,0-1,Final
-26,22/02/2026,09:00,Juve Stabia,Modena,1-2,Final
-26,22/02/2026,11:15,Reggiana,Avellino,1-1,Final
-27,27/02/2026,13:00,Monza,Virtus Entella,2-0,Final
-27,27/02/2026,15:00,Sampdoria,Bari,0-2,Final
-27,28/02/2026,09:00,Empoli,Cesena,1-1,Final
-27,28/02/2026,09:00,Modena,Padova,1-2,Final
-27,28/02/2026,09:00,Sudtirol,Venezia,1-1,Final
-27,28/02/2026,11:15,Spezia,Reggiana,0-1,Final
-27,28/02/2026,13:30,Avellino,Juve Stabia,0-0,Final
-27,01/03/2026,09:00,Pescara,Palermo,2-1,Final
-27,01/03/2026,09:00,Catanzaro,Frosinone,2-2,Final
-27,01/03/2026,11:15,Mantova,Carrarese,1-1,Final
-28,03/03/2026,13:00,Padova,Spezia,2-2,Final
-28,03/03/2026,14:00,Cesena,Monza,1-3,Final
-28,03/03/2026,14:00,Venezia,Avellino,4-0,Final
-28,03/03/2026,14:00,Virtus Entella,Modena,2-1,Final
-28,03/03/2026,14:00,Reggiana,Sudtirol,0-4,Final
-28,04/03/2026,13:00,Carrarese,Catanzaro,3-3,Final
-28,04/03/2026,14:00,Bari,Empoli,2-1,Final
-28,04/03/2026,14:00,Frosinone,Pescara,2-2,Final
-28,04/03/2026,14:00,Palermo,Mantova,2-1,Final
-28,04/03/2026,14:00,Juve Stabia,Sampdoria,1-1,Final
-29,07/03/2026,09:00,Spezia,Monza,4-2,Final
-29,07/03/2026,09:00,Avellino,Padova,1-0,Final
-29,07/03/2026,09:00,Sudtirol,Virtus Entella,0-1,Final
-29,07/03/2026,11:15,Venezia,Reggiana,2-0,Final
-29,07/03/2026,13:30,Modena,Cesena,0-0,Final
-29,08/03/2026,09:00,Frosinone,Sampdoria,3-0,Final
-29,08/03/2026,09:00,Catanzaro,Empoli,3-2,Final
-29,08/03/2026,09:00,Mantova,Juve Stabia,2-0,Final
-29,08/03/2026,11:15,Carrarese,Palermo,0-1,Final
-29,08/03/2026,13:30,Pescara,Bari,4-0,Final
-30,13/03/2026,14:30,Modena,Spezia,3-0,Final
-30,14/03/2026,09:00,Bari,Reggiana,4-1,Final
-30,14/03/2026,09:00,Cesena,Frosinone,2-2,Final
-30,14/03/2026,09:00,Empoli,Mantova,2-2,Final
-30,14/03/2026,09:00,Juve Stabia,Carrarese,1-1,Final
-30,14/03/2026,09:00,Padova,Catanzaro,1-3,Final
-30,14/03/2026,11:15,Monza,Palermo,3-0,Final
-30,14/03/2026,13:30,Sampdoria,Venezia,0-0,Final
-30,15/03/2026,09:00,Virtus Entella,Avellino,1-2,Final
-30,15/03/2026,11:15,Sudtirol,Pescara,0-0,Final
-31,17/03/2026,13:00,Palermo,Juve Stabia,2-2,Final
-31,17/03/2026,14:00,Spezia,Empoli,1-1,Final
-31,17/03/2026,14:00,Venezia,Padova,3-1,Final
-31,17/03/2026,14:00,Reggiana,Monza,0-0,Final
-31,17/03/2026,14:00,Mantova,Cesena,3-0,Final
-31,18/03/2026,13:00,Frosinone,Bari,2-1,Final
-31,18/03/2026,14:00,Pescara,Virtus Entella,3-0,Final
-31,18/03/2026,14:00,Avellino,Sudtirol,3-2,Final
-31,18/03/2026,14:00,Carrarese,Sampdoria,2-0,Final
-32,21/03/2026,09:00,Cesena,Catanzaro,3-1,Final
-32,21/03/2026,09:00,Juve Stabia,Spezia,3-1,Final
-32,21/03/2026,09:00,Padova,Palermo,0-1,Final
-32,21/03/2026,11:15,Monza,Venezia,1-1,Final
-32,21/03/2026,13:30,Modena,Mantova,2-1,Final
-32,22/03/2026,09:00,Bari,Carrarese,0-3,Final
-32,22/03/2026,09:00,Empoli,Pescara,4-2,Final
-32,22/03/2026,09:00,Sudtirol,Frosinone,1-3,Final
-32,22/03/2026,11:15,Sampdoria,Avellino,2-1,Final
-32,22/03/2026,13:30,Virtus Entella,Reggiana,3-0,Final
-33,05/04/2026,10:15,Frosinone,Padova,2-0,Final
-33,05/04/2026,12:30,Palermo,Avellino,2-0,Final
-33,06/04/2026,05:30,Cesena,Sudtirol,1-1,Final
-33,06/04/2026,08:00,Bari,Modena,3-1,Final
-33,06/04/2026,08:00,Venezia,Juve Stabia,3-1,Final
-33,06/04/2026,08:00,Reggiana,Pescara,1-3,Final
-33,06/04/2026,08:00,Catanzaro,Monza,1-1,Final
-33,06/04/2026,08:00,Mantova,Virtus Entella,1-0,Final
-33,06/04/2026,10:15,Sampdoria,Empoli,1-0,Final
-33,06/04/2026,12:30,Carrarese,Spezia,3-1,Final
-34,10/04/2026,13:30,Frosinone,Palermo,1-1,Final
-34,11/04/2026,08:00,Pescara,Sampdoria,1-2,Final
-34,11/04/2026,08:00,Virtus Entella,Venezia,1-1,Final
-34,11/04/2026,08:00,Juve Stabia,Cesena,2-0,Final
-34,11/04/2026,08:00,Sudtirol,Modena,1-1,Final
-34,11/04/2026,10:15,Avellino,Catanzaro,1-1,Final
-34,11/04/2026,12:30,Monza,Bari,2-0,Final
-34,12/04/2026,08:00,Padova,Empoli,1-0,Final
-34,12/04/2026,10:15,Spezia,Mantova,0-2,Final
-34,12/04/2026,12:30,Reggiana,Carrarese,2-0,Final
-31,14/04/2026,12:00,Catanzaro,Modena,2-2,Final
-35,17/04/2026,13:30,Sampdoria,Monza,0-3,Final
-35,18/04/2026,08:00,Bari,Venezia,0-3,Final
-35,18/04/2026,08:00,Spezia,Sudtirol,6-1,Final
-35,18/04/2026,08:00,Modena,Frosinone,1-2,Final
-35,18/04/2026,08:00,Mantova,Avellino,0-2,Final
-35,18/04/2026,10:15,Palermo,Cesena,2-0,Final
-35,18/04/2026,12:30,Juve Stabia,Catanzaro,1-1,Final
-35,19/04/2026,08:00,Carrarese,Pescara,2-2,Final
-35,19/04/2026,10:15,Padova,Reggiana,1-0,Final
-35,19/04/2026,12:30,Empoli,Virtus Entella,1-1,Final
-36,24/04/2026,12:00,Monza,Modena,1-0,Final
-36,24/04/2026,14:00,Avellino,Bari,2-0,Final
-36,25/04/2026,05:30,Catanzaro,Spezia,4-2,Final
-36,25/04/2026,08:00,Frosinone,Carrarese,3-0,Final
-36,25/04/2026,08:00,Pescara,Juve Stabia,1-1,Final
-36,25/04/2026,08:00,Virtus Entella,Padova,1-0,Final
-36,25/04/2026,08:00,Reggiana,Palermo,1-1,Final
-36,25/04/2026,08:00,Sudtirol,Mantova,0-3,Final
-36,25/04/2026,10:15,Venezia,Empoli,2-0,Final
-36,25/04/2026,12:30,Cesena,Sampdoria,0-0,Final
-37,01/05/2026,08:00,Sampdoria,Sudtirol,1-0,Final
-37,01/05/2026,08:00,Bari,Virtus Entella,2-0,Final
-37,01/05/2026,08:00,Empoli,Avellino,1-0,Final
-37,01/05/2026,08:00,Spezia,Venezia,2-2,Final
-37,01/05/2026,08:00,Palermo,Catanzaro,3-2,Final
-37,01/05/2026,08:00,Juve Stabia,Frosinone,0-1,Final
-37,01/05/2026,08:00,Padova,Pescara,1-0,Final
-37,01/05/2026,08:00,Modena,Reggiana,2-1,Final
-37,01/05/2026,08:00,Carrarese,Cesena,0-0,Final
-37,01/05/2026,08:00,Mantova,Monza,3-2,Final
-38,08/05/2026,13:30,Cesena,Padova,3-4,Final
-38,08/05/2026,13:30,Frosinone,Mantova,5-0,Final
-38,08/05/2026,13:30,Venezia,Palermo,2-0,Final
-38,08/05/2026,13:30,Pescara,Spezia,1-1,Final
-38,08/05/2026,13:30,Virtus Entella,Carrarese,2-1,Final
-38,08/05/2026,13:30,Avellino,Modena,1-0,Final
-38,08/05/2026,13:30,Reggiana,Sampdoria,1-0,Final
-38,08/05/2026,13:30,Sudtirol,Juve Stabia,1-1,Final
-38,08/05/2026,13:30,Monza,Empoli,2-2,Final
-38,08/05/2026,13:30,Catanzaro,Bari,2-3,Final
-,12/05/2026,11:45,Modena,Juve Stabia,0-1,Final
-,12/05/2026,14:00,Catanzaro,Avellino,3-0,Final
-,15/05/2026,13:00,Bari,Sudtirol,0-0,Final
-,16/05/2026,13:00,Juve Stabia,Monza,2-2,Final
-,17/05/2026,13:00,Catanzaro,Palermo,3-0,Final
-,19/05/2026,13:00,Monza,Juve Stabia,2-1,Final
-,20/05/2026,13:00,Palermo,Catanzaro,2-0,Final
-,22/05/2026,13:00,Sudtirol,Bari,0-0,Final
-,24/05/2026,13:00,Catanzaro,Monza,0-2,Final
-,29/05/2026,13:00,Monza,Catanzaro,0-2,Final
+1,21/08/2026,13:30,L.R. Vicenza,US Catanzaro,,
+1,22/08/2026,12:00,Carrarese Calcio,Mantova 1911,,
+1,22/08/2026,12:00,FC Südtirol,Virtus Entella,,
+1,22/08/2026,14:00,Benevento Calcio,Modena FC,,
+1,22/08/2026,14:00,Empoli FC,US Cremonese,,
+1,22/08/2026,14:00,US Avellino,US Arezzo,,
+1,23/08/2026,12:00,Hellas Verona,Ascoli Calcio,,
+1,23/08/2026,12:00,Pisa SC,Calcio Padova,,
+1,23/08/2026,14:00,Cesena FC,Sampdoria,,
+1,23/08/2026,14:00,Palermo FC,Juve Stabia,,
+2,28/08/2026,13:30,US Cremonese,Modena FC,,
+2,29/08/2026,12:00,Sampdoria,Juve Stabia,,
+2,29/08/2026,12:00,Virtus Entella,Cesena FC,,
+2,29/08/2026,14:00,Ascoli Calcio,Carrarese Calcio,,
+2,29/08/2026,14:00,Calcio Padova,Hellas Verona,,
+2,29/08/2026,14:00,US Avellino,L.R. Vicenza,,
+2,30/08/2026,12:00,Mantova 1911,Empoli FC,,
+2,30/08/2026,12:00,US Arezzo,Palermo FC,,
+2,30/08/2026,14:00,Benevento Calcio,FC Südtirol,,
+2,30/08/2026,14:00,Pisa SC,US Catanzaro,,
+3,05/09/2026,08:00,FC Südtirol,US Catanzaro,,
+3,05/09/2026,10:15,Ascoli Calcio,Benevento Calcio,,
+3,05/09/2026,12:30,Carrarese Calcio,Empoli FC,,
+3,06/09/2026,08:00,Cesena FC,Mantova 1911,,
+3,06/09/2026,08:00,Modena FC,US Avellino,,
+3,06/09/2026,08:00,Juve Stabia,Pisa SC,,
+3,06/09/2026,08:00,Virtus Entella,L.R. Vicenza,,
+3,06/09/2026,10:15,Hellas Verona,US Arezzo,,
+3,06/09/2026,12:30,US Cremonese,Calcio Padova,,
+3,07/09/2026,13:30,Palermo FC,Sampdoria,,
+4,11/09/2026,12:00,Empoli FC,US Arezzo,,
+4,11/09/2026,14:00,Benevento Calcio,Hellas Verona,,
+4,11/09/2026,14:00,Pisa SC,Virtus Entella,,
+4,12/09/2026,08:00,Calcio Padova,Ascoli Calcio,,
+4,12/09/2026,08:00,FC Südtirol,Modena FC,,
+4,12/09/2026,08:00,L.R. Vicenza,Juve Stabia,,
+4,12/09/2026,10:15,US Catanzaro,Carrarese Calcio,,
+4,12/09/2026,12:30,Cesena FC,US Cremonese,,
+4,13/09/2026,08:00,US Avellino,Palermo FC,,
+4,13/09/2026,10:15,Mantova 1911,Sampdoria,,
+5,18/09/2026,13:30,Juve Stabia,Cesena FC,,
+5,19/09/2026,08:00,Carrarese Calcio,Benevento Calcio,,
+5,19/09/2026,08:00,Palermo FC,Calcio Padova,,
+5,19/09/2026,08:00,US Cremonese,Virtus Entella,,
+5,19/09/2026,10:15,Sampdoria,US Catanzaro,,
+5,19/09/2026,12:30,Ascoli Calcio,US Avellino,,
+5,20/09/2026,08:00,Hellas Verona,L.R. Vicenza,,
+5,20/09/2026,08:00,US Arezzo,FC Südtirol,,
+5,20/09/2026,10:15,Mantova 1911,Pisa SC,,
+5,20/09/2026,12:30,Modena FC,Empoli FC,,
+6,10/10/2026,03:00,Benevento Calcio,Cesena FC,,
+6,10/10/2026,03:00,Calcio Padova,Carrarese Calcio,,
+6,10/10/2026,03:00,Empoli FC,Palermo FC,,
+6,10/10/2026,03:00,Modena FC,Hellas Verona,,
+6,10/10/2026,03:00,FC Südtirol,Ascoli Calcio,,
+6,10/10/2026,03:00,L.R. Vicenza,Pisa SC,,
+6,10/10/2026,03:00,US Arezzo,US Cremonese,,
+6,10/10/2026,03:00,US Avellino,Sampdoria,,
+6,10/10/2026,03:00,US Catanzaro,Mantova 1911,,
+6,10/10/2026,03:00,Virtus Entella,Juve Stabia,,
+7,17/10/2026,03:00,Mantova 1911,Palermo FC,,
+7,17/10/2026,03:00,Ascoli Calcio,Empoli FC,,
+7,17/10/2026,03:00,Benevento Calcio,L.R. Vicenza,,
+7,17/10/2026,03:00,Calcio Padova,Virtus Entella,,
+7,17/10/2026,03:00,Carrarese Calcio,Modena FC,,
+7,17/10/2026,03:00,Cesena FC,US Avellino,,
+7,17/10/2026,03:00,Hellas Verona,US Catanzaro,,
+7,17/10/2026,03:00,Juve Stabia,FC Südtirol,,
+7,17/10/2026,03:00,Pisa SC,US Cremonese,,
+7,17/10/2026,03:00,Sampdoria,US Arezzo,,
+8,24/10/2026,03:00,Empoli FC,L.R. Vicenza,,
+8,24/10/2026,03:00,Modena FC,Cesena FC,,
+8,24/10/2026,03:00,FC Südtirol,Sampdoria,,
+8,24/10/2026,03:00,Hellas Verona,Pisa SC,,
+8,24/10/2026,03:00,Palermo FC,Carrarese Calcio,,
+8,24/10/2026,03:00,US Arezzo,Benevento Calcio,,
+8,24/10/2026,03:00,US Avellino,Calcio Padova,,
+8,24/10/2026,03:00,US Catanzaro,Ascoli Calcio,,
+8,24/10/2026,03:00,US Cremonese,Juve Stabia,,
+8,24/10/2026,03:00,Virtus Entella,Mantova 1911,,
+9,27/10/2026,03:00,Mantova 1911,US Cremonese,,
+9,27/10/2026,03:00,Ascoli Calcio,Sampdoria,,
+9,27/10/2026,03:00,Benevento Calcio,US Catanzaro,,
+9,27/10/2026,03:00,Calcio Padova,FC Südtirol,,
+9,27/10/2026,03:00,Carrarese Calcio,US Arezzo,,
+9,27/10/2026,03:00,Cesena FC,Empoli FC,,
+9,27/10/2026,03:00,Juve Stabia,Hellas Verona,,
+9,27/10/2026,03:00,L.R. Vicenza,Modena FC,,
+9,27/10/2026,03:00,Pisa SC,Palermo FC,,
+9,27/10/2026,03:00,Virtus Entella,US Avellino,,
+10,31/10/2026,03:00,Empoli FC,Juve Stabia,,
+10,31/10/2026,03:00,Modena FC,Mantova 1911,,
+10,31/10/2026,03:00,FC Südtirol,Cesena FC,,
+10,31/10/2026,03:00,Hellas Verona,Carrarese Calcio,,
+10,31/10/2026,03:00,Palermo FC,L.R. Vicenza,,
+10,31/10/2026,03:00,Sampdoria,Virtus Entella,,
+10,31/10/2026,03:00,US Arezzo,Ascoli Calcio,,
+10,31/10/2026,03:00,US Avellino,Pisa SC,,
+10,31/10/2026,03:00,US Catanzaro,Calcio Padova,,
+10,31/10/2026,03:00,US Cremonese,Benevento Calcio,,
+11,07/11/2026,03:00,Mantova 1911,Hellas Verona,,
+11,07/11/2026,03:00,Ascoli Calcio,Palermo FC,,
+11,07/11/2026,03:00,Benevento Calcio,US Avellino,,
+11,07/11/2026,03:00,Calcio Padova,Empoli FC,,
+11,07/11/2026,03:00,Carrarese Calcio,Sampdoria,,
+11,07/11/2026,03:00,Cesena FC,US Catanzaro,,
+11,07/11/2026,03:00,Juve Stabia,US Arezzo,,
+11,07/11/2026,03:00,L.R. Vicenza,US Cremonese,,
+11,07/11/2026,03:00,Pisa SC,FC Südtirol,,
+11,07/11/2026,03:00,Virtus Entella,Modena FC,,
+12,21/11/2026,03:00,Ascoli Calcio,L.R. Vicenza,,
+12,21/11/2026,03:00,Carrarese Calcio,Virtus Entella,,
+12,21/11/2026,03:00,Empoli FC,Pisa SC,,
+12,21/11/2026,03:00,Modena FC,Juve Stabia,,
+12,21/11/2026,03:00,FC Südtirol,US Cremonese,,
+12,21/11/2026,03:00,Hellas Verona,Cesena FC,,
+12,21/11/2026,03:00,Sampdoria,Benevento Calcio,,
+12,21/11/2026,03:00,US Arezzo,Calcio Padova,,
+12,21/11/2026,03:00,US Avellino,Mantova 1911,,
+12,21/11/2026,03:00,US Catanzaro,Palermo FC,,
+13,24/11/2026,03:00,Mantova 1911,US Arezzo,,
+13,24/11/2026,03:00,Benevento Calcio,Empoli FC,,
+13,24/11/2026,03:00,Calcio Padova,Sampdoria,,
+13,24/11/2026,03:00,Cesena FC,Ascoli Calcio,,
+13,24/11/2026,03:00,Juve Stabia,US Catanzaro,,
+13,24/11/2026,03:00,L.R. Vicenza,Carrarese Calcio,,
+13,24/11/2026,03:00,Palermo FC,FC Südtirol,,
+13,24/11/2026,03:00,Pisa SC,Modena FC,,
+13,24/11/2026,03:00,US Cremonese,US Avellino,,
+13,24/11/2026,03:00,Virtus Entella,Hellas Verona,,
+14,28/11/2026,03:00,Ascoli Calcio,Virtus Entella,,
+14,28/11/2026,03:00,Carrarese Calcio,Juve Stabia,,
+14,28/11/2026,03:00,Empoli FC,Hellas Verona,,
+14,28/11/2026,03:00,Modena FC,Calcio Padova,,
+14,28/11/2026,03:00,FC Südtirol,Mantova 1911,,
+14,28/11/2026,03:00,L.R. Vicenza,Cesena FC,,
+14,28/11/2026,03:00,Palermo FC,Benevento Calcio,,
+14,28/11/2026,03:00,Sampdoria,US Cremonese,,
+14,28/11/2026,03:00,US Arezzo,Pisa SC,,
+14,28/11/2026,03:00,US Catanzaro,US Avellino,,
+15,05/12/2026,03:00,Mantova 1911,Ascoli Calcio,,
+15,05/12/2026,03:00,Calcio Padova,L.R. Vicenza,,
+15,05/12/2026,03:00,Cesena FC,Carrarese Calcio,,
+15,05/12/2026,03:00,Modena FC,US Arezzo,,
+15,05/12/2026,03:00,Hellas Verona,Palermo FC,,
+15,05/12/2026,03:00,Juve Stabia,Benevento Calcio,,
+15,05/12/2026,03:00,Pisa SC,Sampdoria,,
+15,05/12/2026,03:00,US Avellino,FC Südtirol,,
+15,05/12/2026,03:00,US Cremonese,US Catanzaro,,
+15,05/12/2026,03:00,Virtus Entella,Empoli FC,,
+16,08/12/2026,03:00,Ascoli Calcio,Juve Stabia,,
+16,08/12/2026,03:00,Benevento Calcio,Calcio Padova,,
+16,08/12/2026,03:00,Carrarese Calcio,Pisa SC,,
+16,08/12/2026,03:00,Empoli FC,FC Südtirol,,
+16,08/12/2026,03:00,Hellas Verona,US Avellino,,
+16,08/12/2026,03:00,L.R. Vicenza,Mantova 1911,,
+16,08/12/2026,03:00,Palermo FC,US Cremonese,,
+16,08/12/2026,03:00,Sampdoria,Modena FC,,
+16,08/12/2026,03:00,US Arezzo,Cesena FC,,
+16,08/12/2026,03:00,US Catanzaro,Virtus Entella,,
+17,12/12/2026,03:00,Mantova 1911,Benevento Calcio,,
+17,12/12/2026,03:00,Cesena FC,Palermo FC,,
+17,12/12/2026,03:00,Modena FC,US Catanzaro,,
+17,12/12/2026,03:00,FC Südtirol,Hellas Verona,,
+17,12/12/2026,03:00,Juve Stabia,Calcio Padova,,
+17,12/12/2026,03:00,Pisa SC,Ascoli Calcio,,
+17,12/12/2026,03:00,Sampdoria,L.R. Vicenza,,
+17,12/12/2026,03:00,US Avellino,Empoli FC,,
+17,12/12/2026,03:00,US Cremonese,Carrarese Calcio,,
+17,12/12/2026,03:00,Virtus Entella,US Arezzo,,
+18,19/12/2026,03:00,Ascoli Calcio,Modena FC,,
+18,19/12/2026,03:00,Benevento Calcio,Pisa SC,,
+18,19/12/2026,03:00,Calcio Padova,Cesena FC,,
+18,19/12/2026,03:00,Carrarese Calcio,US Avellino,,
+18,19/12/2026,03:00,Empoli FC,Sampdoria,,
+18,19/12/2026,03:00,Hellas Verona,US Cremonese,,
+18,19/12/2026,03:00,Juve Stabia,Mantova 1911,,
+18,19/12/2026,03:00,L.R. Vicenza,FC Südtirol,,
+18,19/12/2026,03:00,Palermo FC,Virtus Entella,,
+18,19/12/2026,03:00,US Catanzaro,US Arezzo,,
+19,27/12/2026,03:00,Mantova 1911,Calcio Padova,,
+19,27/12/2026,03:00,Cesena FC,Pisa SC,,
+19,27/12/2026,03:00,Modena FC,Palermo FC,,
+19,27/12/2026,03:00,FC Südtirol,Carrarese Calcio,,
+19,27/12/2026,03:00,Sampdoria,Hellas Verona,,
+19,27/12/2026,03:00,US Arezzo,L.R. Vicenza,,
+19,27/12/2026,03:00,US Avellino,Juve Stabia,,
+19,27/12/2026,03:00,US Catanzaro,Empoli FC,,
+19,27/12/2026,03:00,US Cremonese,Ascoli Calcio,,
+19,27/12/2026,03:00,Virtus Entella,Benevento Calcio,,
+20,09/01/2027,03:00,Mantova 1911,Carrarese Calcio,,
+20,09/01/2027,03:00,Ascoli Calcio,US Catanzaro,,
+20,09/01/2027,03:00,Calcio Padova,US Cremonese,,
+20,09/01/2027,03:00,Cesena FC,Modena FC,,
+20,09/01/2027,03:00,FC Südtirol,Benevento Calcio,,
+20,09/01/2027,03:00,Juve Stabia,Sampdoria,,
+20,09/01/2027,03:00,L.R. Vicenza,Virtus Entella,,
+20,09/01/2027,03:00,Palermo FC,Empoli FC,,
+20,09/01/2027,03:00,Pisa SC,US Avellino,,
+20,09/01/2027,03:00,US Arezzo,Hellas Verona,,
+21,16/01/2027,03:00,Ascoli Calcio,FC Südtirol,,
+21,16/01/2027,03:00,Benevento Calcio,US Arezzo,,
+21,16/01/2027,03:00,Carrarese Calcio,Calcio Padova,,
+21,16/01/2027,03:00,Empoli FC,Modena FC,,
+21,16/01/2027,03:00,Hellas Verona,Juve Stabia,,
+21,16/01/2027,03:00,Palermo FC,Pisa SC,,
+21,16/01/2027,03:00,Sampdoria,Mantova 1911,,
+21,16/01/2027,03:00,US Avellino,Virtus Entella,,
+21,16/01/2027,03:00,US Catanzaro,Cesena FC,,
+21,16/01/2027,03:00,US Cremonese,L.R. Vicenza,,
+22,23/01/2027,03:00,Mantova 1911,US Avellino,,
+22,23/01/2027,03:00,Calcio Padova,US Catanzaro,,
+22,23/01/2027,03:00,Cesena FC,Benevento Calcio,,
+22,23/01/2027,03:00,Modena FC,Carrarese Calcio,,
+22,23/01/2027,03:00,FC Südtirol,Palermo FC,,
+22,23/01/2027,03:00,Juve Stabia,US Cremonese,,
+22,23/01/2027,03:00,L.R. Vicenza,Ascoli Calcio,,
+22,23/01/2027,03:00,Pisa SC,Hellas Verona,,
+22,23/01/2027,03:00,US Arezzo,Empoli FC,,
+22,23/01/2027,03:00,Virtus Entella,Sampdoria,,
+23,30/01/2027,03:00,Ascoli Calcio,Calcio Padova,,
+23,30/01/2027,03:00,Benevento Calcio,Sampdoria,,
+23,30/01/2027,03:00,Carrarese Calcio,L.R. Vicenza,,
+23,30/01/2027,03:00,Empoli FC,Mantova 1911,,
+23,30/01/2027,03:00,Hellas Verona,Modena FC,,
+23,30/01/2027,03:00,Palermo FC,US Arezzo,,
+23,30/01/2027,03:00,US Avellino,Cesena FC,,
+23,30/01/2027,03:00,US Catanzaro,Juve Stabia,,
+23,30/01/2027,03:00,US Cremonese,Pisa SC,,
+23,30/01/2027,03:00,Virtus Entella,FC Südtirol,,
+24,06/02/2027,03:00,Mantova 1911,US Catanzaro,,
+24,06/02/2027,03:00,Benevento Calcio,US Cremonese,,
+24,06/02/2027,03:00,Calcio Padova,US Arezzo,,
+24,06/02/2027,03:00,Cesena FC,Hellas Verona,,
+24,06/02/2027,03:00,Modena FC,Virtus Entella,,
+24,06/02/2027,03:00,FC Südtirol,US Avellino,,
+24,06/02/2027,03:00,Juve Stabia,Carrarese Calcio,,
+24,06/02/2027,03:00,L.R. Vicenza,Palermo FC,,
+24,06/02/2027,03:00,Pisa SC,Empoli FC,,
+24,06/02/2027,03:00,Sampdoria,Ascoli Calcio,,
+25,13/02/2027,03:00,Empoli FC,Benevento Calcio,,
+25,13/02/2027,03:00,Modena FC,FC Südtirol,,
+25,13/02/2027,03:00,L.R. Vicenza,Calcio Padova,,
+25,13/02/2027,03:00,Palermo FC,Mantova 1911,,
+25,13/02/2027,03:00,Pisa SC,Juve Stabia,,
+25,13/02/2027,03:00,US Arezzo,Sampdoria,,
+25,13/02/2027,03:00,US Avellino,Ascoli Calcio,,
+25,13/02/2027,03:00,US Catanzaro,Hellas Verona,,
+25,13/02/2027,03:00,US Cremonese,Cesena FC,,
+25,13/02/2027,03:00,Virtus Entella,Carrarese Calcio,,
+26,20/02/2027,03:00,Ascoli Calcio,Pisa SC,,
+26,20/02/2027,03:00,Benevento Calcio,Mantova 1911,,
+26,20/02/2027,03:00,Calcio Padova,Modena FC,,
+26,20/02/2027,03:00,Carrarese Calcio,US Catanzaro,,
+26,20/02/2027,03:00,Cesena FC,L.R. Vicenza,,
+26,20/02/2027,03:00,FC Südtirol,US Arezzo,,
+26,20/02/2027,03:00,Hellas Verona,Virtus Entella,,
+26,20/02/2027,03:00,Juve Stabia,Empoli FC,,
+26,20/02/2027,03:00,Sampdoria,US Avellino,,
+26,20/02/2027,03:00,US Cremonese,Palermo FC,,
+27,27/02/2027,03:00,Mantova 1911,Cesena FC,,
+27,27/02/2027,03:00,Empoli FC,Ascoli Calcio,,
+27,27/02/2027,03:00,Juve Stabia,Modena FC,,
+27,27/02/2027,03:00,L.R. Vicenza,US Avellino,,
+27,27/02/2027,03:00,Palermo FC,Hellas Verona,,
+27,27/02/2027,03:00,Pisa SC,Benevento Calcio,,
+27,27/02/2027,03:00,Sampdoria,Calcio Padova,,
+27,27/02/2027,03:00,US Arezzo,Carrarese Calcio,,
+27,27/02/2027,03:00,US Catanzaro,FC Südtirol,,
+27,27/02/2027,03:00,Virtus Entella,US Cremonese,,
+28,02/03/2027,03:00,Ascoli Calcio,US Arezzo,,
+28,02/03/2027,03:00,Benevento Calcio,Juve Stabia,,
+28,02/03/2027,03:00,Calcio Padova,Mantova 1911,,
+28,02/03/2027,03:00,Carrarese Calcio,Palermo FC,,
+28,02/03/2027,03:00,Cesena FC,Virtus Entella,,
+28,02/03/2027,03:00,Modena FC,Pisa SC,,
+28,02/03/2027,03:00,FC Südtirol,L.R. Vicenza,,
+28,02/03/2027,03:00,Hellas Verona,Empoli FC,,
+28,02/03/2027,03:00,US Avellino,US Catanzaro,,
+28,02/03/2027,03:00,US Cremonese,Sampdoria,,
+29,06/03/2027,03:00,Mantova 1911,FC Südtirol,,
+29,06/03/2027,03:00,Calcio Padova,Benevento Calcio,,
+29,06/03/2027,03:00,Empoli FC,Carrarese Calcio,,
+29,06/03/2027,03:00,Palermo FC,Modena FC,,
+29,06/03/2027,03:00,Pisa SC,L.R. Vicenza,,
+29,06/03/2027,03:00,Sampdoria,Cesena FC,,
+29,06/03/2027,03:00,US Arezzo,Juve Stabia,,
+29,06/03/2027,03:00,US Avellino,Hellas Verona,,
+29,06/03/2027,03:00,US Catanzaro,US Cremonese,,
+29,06/03/2027,03:00,Virtus Entella,Ascoli Calcio,,
+30,13/03/2027,03:00,Benevento Calcio,Virtus Entella,,
+30,13/03/2027,03:00,Carrarese Calcio,FC Südtirol,,
+30,13/03/2027,03:00,Cesena FC,Calcio Padova,,
+30,13/03/2027,03:00,Empoli FC,US Avellino,,
+30,13/03/2027,03:00,Modena FC,Ascoli Calcio,,
+30,13/03/2027,03:00,Hellas Verona,Sampdoria,,
+30,13/03/2027,03:00,Juve Stabia,Palermo FC,,
+30,13/03/2027,03:00,L.R. Vicenza,US Arezzo,,
+30,13/03/2027,03:00,US Catanzaro,Pisa SC,,
+30,13/03/2027,03:00,US Cremonese,Mantova 1911,,
+31,20/03/2027,03:00,Mantova 1911,Juve Stabia,,
+31,20/03/2027,03:00,Ascoli Calcio,US Cremonese,,
+31,20/03/2027,03:00,Calcio Padova,Palermo FC,,
+31,20/03/2027,03:00,Carrarese Calcio,Cesena FC,,
+31,20/03/2027,03:00,FC Südtirol,Pisa SC,,
+31,20/03/2027,03:00,L.R. Vicenza,Hellas Verona,,
+31,20/03/2027,03:00,Sampdoria,Empoli FC,,
+31,20/03/2027,03:00,US Arezzo,Modena FC,,
+31,20/03/2027,03:00,US Avellino,Benevento Calcio,,
+31,20/03/2027,03:00,Virtus Entella,US Catanzaro,,
+32,03/04/2027,03:00,Benevento Calcio,Ascoli Calcio,,
+32,03/04/2027,03:00,Cesena FC,FC Südtirol,,
+32,03/04/2027,03:00,Empoli FC,Calcio Padova,,
+32,03/04/2027,03:00,Modena FC,Sampdoria,,
+32,03/04/2027,03:00,Hellas Verona,Mantova 1911,,
+32,03/04/2027,03:00,Juve Stabia,Virtus Entella,,
+32,03/04/2027,03:00,Palermo FC,US Avellino,,
+32,03/04/2027,03:00,Pisa SC,Carrarese Calcio,,
+32,03/04/2027,03:00,US Catanzaro,L.R. Vicenza,,
+32,03/04/2027,03:00,US Cremonese,US Arezzo,,
+33,10/04/2027,03:00,Mantova 1911,Modena FC,,
+33,10/04/2027,03:00,Ascoli Calcio,Cesena FC,,
+33,10/04/2027,03:00,Calcio Padova,Juve Stabia,,
+33,10/04/2027,03:00,Carrarese Calcio,Hellas Verona,,
+33,10/04/2027,03:00,FC Südtirol,Empoli FC,,
+33,10/04/2027,03:00,L.R. Vicenza,Benevento Calcio,,
+33,10/04/2027,03:00,Sampdoria,Palermo FC,,
+33,10/04/2027,03:00,US Arezzo,US Catanzaro,,
+33,10/04/2027,03:00,US Avellino,US Cremonese,,
+33,10/04/2027,03:00,Virtus Entella,Pisa SC,,
+34,17/04/2027,03:00,Empoli FC,Virtus Entella,,
+34,17/04/2027,03:00,Modena FC,L.R. Vicenza,,
+34,17/04/2027,03:00,Hellas Verona,Calcio Padova,,
+34,17/04/2027,03:00,Juve Stabia,US Avellino,,
+34,17/04/2027,03:00,Palermo FC,Ascoli Calcio,,
+34,17/04/2027,03:00,Pisa SC,Cesena FC,,
+34,17/04/2027,03:00,Sampdoria,Carrarese Calcio,,
+34,17/04/2027,03:00,US Arezzo,Mantova 1911,,
+34,17/04/2027,03:00,US Catanzaro,Benevento Calcio,,
+34,17/04/2027,03:00,US Cremonese,FC Südtirol,,
+35,24/04/2027,03:00,Ascoli Calcio,Mantova 1911,,
+35,24/04/2027,03:00,Benevento Calcio,Carrarese Calcio,,
+35,24/04/2027,03:00,Cesena FC,Juve Stabia,,
+35,24/04/2027,03:00,FC Südtirol,Calcio Padova,,
+35,24/04/2027,03:00,L.R. Vicenza,Empoli FC,,
+35,24/04/2027,03:00,Pisa SC,US Arezzo,,
+35,24/04/2027,03:00,US Avellino,Modena FC,,
+35,24/04/2027,03:00,US Catanzaro,Sampdoria,,
+35,24/04/2027,03:00,US Cremonese,Hellas Verona,,
+35,24/04/2027,03:00,Virtus Entella,Palermo FC,,
+36,01/05/2027,03:00,Mantova 1911,Virtus Entella,,
+36,01/05/2027,03:00,Calcio Padova,Pisa SC,,
+36,01/05/2027,03:00,Carrarese Calcio,Ascoli Calcio,,
+36,01/05/2027,03:00,Empoli FC,Cesena FC,,
+36,01/05/2027,03:00,Modena FC,US Cremonese,,
+36,01/05/2027,03:00,Hellas Verona,Benevento Calcio,,
+36,01/05/2027,03:00,Juve Stabia,L.R. Vicenza,,
+36,01/05/2027,03:00,Palermo FC,US Catanzaro,,
+36,01/05/2027,03:00,Sampdoria,FC Südtirol,,
+36,01/05/2027,03:00,US Arezzo,US Avellino,,
+37,08/05/2027,03:00,Ascoli Calcio,Hellas Verona,,
+37,08/05/2027,03:00,Benevento Calcio,Palermo FC,,
+37,08/05/2027,03:00,Cesena FC,US Arezzo,,
+37,08/05/2027,03:00,FC Südtirol,Juve Stabia,,
+37,08/05/2027,03:00,L.R. Vicenza,Sampdoria,,
+37,08/05/2027,03:00,Pisa SC,Mantova 1911,,
+37,08/05/2027,03:00,US Avellino,Carrarese Calcio,,
+37,08/05/2027,03:00,US Catanzaro,Modena FC,,
+37,08/05/2027,03:00,US Cremonese,Empoli FC,,
+37,08/05/2027,03:00,Virtus Entella,Calcio Padova,,
+38,14/05/2027,03:00,Mantova 1911,L.R. Vicenza,,
+38,14/05/2027,03:00,Calcio Padova,US Avellino,,
+38,14/05/2027,03:00,Carrarese Calcio,US Cremonese,,
+38,14/05/2027,03:00,Empoli FC,US Catanzaro,,
+38,14/05/2027,03:00,Modena FC,Benevento Calcio,,
+38,14/05/2027,03:00,Hellas Verona,FC Südtirol,,
+38,14/05/2027,03:00,Juve Stabia,Ascoli Calcio,,
+38,14/05/2027,03:00,Palermo FC,Cesena FC,,
+38,14/05/2027,03:00,Sampdoria,Pisa SC,,
+38,14/05/2027,03:00,US Arezzo,Virtus Entella,,

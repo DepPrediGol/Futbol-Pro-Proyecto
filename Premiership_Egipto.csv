@@ -1,78 +1,22 @@
 ﻿matchday,date,time,home_team,away_team,result,status
-1,09/12/2025,10:00,Pharco,El Mokawloon,3-2,Final
-1,09/12/2025,13:00,Pyramids FC,National Bank of Egypt,1-6,Final
-1,09/12/2025,13:00,Kahraba Ismailia,Zamalek SC,3-3,Final
-1,10/12/2025,10:00,El Geish,Ceramica Cleopatra,2-0,Final
-1,10/12/2025,13:00,Ismaily SC,El Gouna FC,1-3,Final
-1,10/12/2025,13:00,Masr,Smouha SC,1-0,Final
-1,11/12/2025,10:00,Al Ittihad,AL Masry,0-0,Final
-1,11/12/2025,13:00,Wadi Degla,Petrojet,1-2,Final
-1,12/12/2025,13:00,Al Ahly,Enppi,0-1,Final
-2,18/12/2025,10:00,National Bank of Egypt,Future FC,1-1,Final
-2,19/12/2025,10:00,Petrojet,Ismaily SC,1-0,Final
-2,19/12/2025,10:00,Ghazl El Mehalla,Pharco,0-1,Final
-2,19/12/2025,13:00,AL Masry,Masr,1-0,Final
-2,19/12/2025,13:00,Ceramica Cleopatra,Al Ahly,0-1,Final
-2,20/12/2025,10:00,Enppi,El Geish,2-1,Final
-2,20/12/2025,10:00,El Gouna FC,Pyramids FC,2-0,Final
-2,20/12/2025,13:00,Zamalek SC,Haras El Hodood,2-1,Final
-2,20/12/2025,13:00,Smouha SC,Al Ittihad,0-0,Final
-3,23/12/2025,10:00,Ghazl El Mehalla,Al Ahly,2-1,Final
-3,23/12/2025,10:00,Future FC,Wadi Degla,0-3,Final
-3,24/12/2025,10:00,Pharco,Enppi,2-1,Final
-3,24/12/2025,10:00,Kahraba Ismailia,Al Ittihad,1-1,Final
-3,24/12/2025,13:00,El Mokawloon,El Geish,0-0,Final
-3,25/12/2025,10:00,AL Masry,Haras El Hodood,1-0,Final
-3,25/12/2025,10:00,El Gouna FC,National Bank of Egypt,1-1,Final
-3,25/12/2025,13:00,Pyramids FC,Ismaily SC,1-3,Final
-3,25/12/2025,13:00,Zamalek SC,Smouha SC,0-1,Final
-4,30/12/2025,10:00,El Geish,Ghazl El Mehalla,1-0,Final
-4,30/12/2025,10:00,Al Ahly,El Mokawloon,0-3,Final
-4,30/12/2025,13:00,Smouha SC,Kahraba Ismailia,2-2,Final
-4,31/12/2025,10:00,Petrojet,National Bank of Egypt,2-1,Final
-4,31/12/2025,10:00,Ceramica Cleopatra,Pharco,2-1,Final
-4,31/12/2025,13:00,Masr,Haras El Hodood,2-0,Final
-4,01/01/2026,10:00,Wadi Degla,El Gouna FC,0-1,Final
-4,01/01/2026,10:00,Al Ittihad,Zamalek SC,3-0,Final
-4,01/01/2026,13:00,Ismaily SC,Future FC,0-0,Final
-5,04/01/2026,10:00,El Geish,Pharco,1-0,Final
-5,04/01/2026,10:00,Kahraba Ismailia,Haras El Hodood,3-3,Final
-5,04/01/2026,13:00,Future FC,Pyramids FC,0-1,Final
-5,05/01/2026,09:00,AL Masry,Smouha SC,2-0,Final
-5,05/01/2026,09:00,El Mokawloon,Ghazl El Mehalla,1-1,Final
-5,05/01/2026,13:00,National Bank of Egypt,Wadi Degla,2-2,Final
-5,06/01/2026,10:00,Enppi,Ceramica Cleopatra,2-0,Final
-5,06/01/2026,10:00,El Gouna FC,Petrojet,1-3,Final
-5,06/01/2026,13:00,Al Ittihad,Masr,1-1,Final
-6,10/01/2026,09:00,Wadi Degla,Pyramids FC,4-0,Final
-6,10/01/2026,09:00,Pharco,Al Ahly,1-4,Final
-6,10/01/2026,12:00,Kahraba Ismailia,AL Masry,1-1,Final
-6,11/01/2026,10:00,Zamalek SC,Masr,0-1,Final
-6,11/01/2026,10:00,Petrojet,Future FC,0-2,Final
-6,11/01/2026,13:00,Smouha SC,Haras El Hodood,1-0,Final
-6,12/01/2026,10:00,Enppi,El Mokawloon,1-2,Final
-6,12/01/2026,10:00,Ghazl El Mehalla,Ceramica Cleopatra,1-0,Final
-6,12/01/2026,13:00,National Bank of Egypt,Ismaily SC,0-0,Final
-7,15/01/2026,10:00,Pyramids FC,Petrojet,0-7,Final
-7,15/01/2026,10:00,Al Ahly,El Geish,1-2,Final
-7,15/01/2026,13:00,AL Masry,Zamalek SC,0-2,Final
-7,15/01/2026,13:00,El Mokawloon,Ceramica Cleopatra,1-0,Final
-7,16/01/2026,10:00,Enppi,Ghazl El Mehalla,0-0,Final
-7,17/01/2026,09:00,Haras El Hodood,Al Ittihad,0-0,Final
-7,17/01/2026,09:00,Masr,Kahraba Ismailia,1-2,Final
-7,17/01/2026,13:00,Ismaily SC,Wadi Degla,1-2,Final
-7,17/01/2026,13:00,Future FC,El Gouna FC,0-2,Final
-,25/03/2026,10:00,Wadi Degla,El Geish,3-1,Final
-,25/03/2026,13:00,Enppi,Petrojet,0-1,Final
-,26/03/2026,10:00,El Gouna FC,AL Masry,0-2,Final
-,26/03/2026,13:00,Masr,El Mokawloon,0-0,Final
-,29/03/2026,10:00,El Geish,Wadi Degla,2-1,Final
-,29/03/2026,13:00,Petrojet,Enppi,0-4,Final
-,30/03/2026,10:00,AL Masry,El Gouna FC,2-2,Final
-,30/03/2026,13:00,El Mokawloon,Masr,1-1,Final
-,25/05/2026,09:00,Enppi,Wadi Degla,0-0,Final
-,25/05/2026,12:00,Masr,AL Masry,1-0,Final
-,01/06/2026,09:00,AL Masry,Masr,1-0,Final
-,01/06/2026,12:00,Wadi Degla,Enppi,0-1,Final
-3,08/06/2026,09:00,Masr,Wadi Degla,0-2,Final
-,08/06/2026,12:30,Enppi,AL Masry,0-3,Final
+1,05/04/2026,03:00,Al Masry Club,Zamalek,1-4,Final
+1,07/04/2026,03:00,Smouha Sporting Club,ENPPI,0-2,Final
+1,07/04/2026,03:00,Ceramica Cleopatra,Al Ahly SC,1-1,Final
+2,11/04/2026,03:00,Pyramids FC,Al Masry Club,1-1,Final
+2,11/04/2026,03:00,Al Ahly SC,Smouha Sporting Club,2-1,Final
+2,11/04/2026,03:00,ENPPI,Ceramica Cleopatra,1-1,Final
+3,22/04/2026,03:00,Al Masry Club,ENPPI,2-2,Final
+3,22/04/2026,03:00,Smouha Sporting Club,Ceramica Cleopatra,0-2,Final
+3,23/04/2026,03:00,Zamalek,Pyramids FC,1-0,Final
+4,27/04/2026,03:00,Smouha Sporting Club,Al Masry Club,0-1,Final
+4,27/04/2026,03:00,Zamalek,ENPPI,0-0,Final
+4,27/04/2026,03:00,Pyramids FC,Al Ahly SC,3-0,Final
+5,01/05/2026,03:00,Ceramica Cleopatra,Al Masry Club,0-1,Final
+5,01/05/2026,03:00,Pyramids FC,ENPPI,3-2,Final
+5,01/05/2026,03:00,Zamalek,Al Ahly SC,0-3,Final
+6,05/05/2026,03:00,Al Ahly SC,ENPPI,3-0,Final
+6,05/05/2026,03:00,Ceramica Cleopatra,Pyramids FC,1-1,Final
+6,05/05/2026,03:00,Smouha Sporting Club,Zamalek,0-1,Final
+7,20/05/2026,03:00,Al Masry Club,Al Ahly SC,0-2,Final
+7,20/05/2026,03:00,Pyramids FC,Smouha Sporting Club,2-1,Final
+7,20/05/2026,03:00,Zamalek,Ceramica Cleopatra,1-0,Final

@@ -1,12 +1,12 @@
 ﻿matchday,date,time,home_team,away_team,result,status
-1,31/07/2026,10:00,Zorya Lugansk,Kolos Kovalivka,,
-1,01/08/2026,05:00,Kryvbas Kryvyi Rih,Karpaty Lviv,,
-1,01/08/2026,07:30,FC Kharkiv,NK Veres,,
-1,02/08/2026,05:00,Chernomorets Odessa,Polissya Zhytomyr,,
-1,02/08/2026,07:30,Epitsentr Kamianets-Podilskyi,FK Obolon,,
-1,02/08/2026,10:00,Dynamo Kyiv,Livyi Bereh,,
-1,03/08/2026,07:30,FK Bukovina,FC LNZ Cherkasy,,
-1,03/08/2026,10:00,FC Kudrivka,Shajtar Donetsk,,
+1,31/07/2026,03:00,Zorya Lugansk,Kolos Kovalivka,2-0,Final
+1,01/08/2026,03:00,Kryvbas Kryvyi Rih,Karpaty Lviv,1-4,Final
+1,01/08/2026,03:00,FC Kharkiv,NK Veres,1-0,Final
+1,02/08/2026,03:00,Chernomorets Odessa,Polissya Zhytomyr,1-2,Final
+1,02/08/2026,03:00,Epitsentr Kamianets-Podilskyi,FK Obolon,3-0,Final
+1,03/08/2026,03:00,FK Bukovina,FC LNZ Cherkasy,0-0,Final
+1,03/08/2026,03:00,Shajtar Donetsk,FC Kudrivka,5-1,Final
+1,02/12/2026,10:00,Dynamo Kyiv,Livyi Bereh,,
 2,08/08/2026,05:00,Chernomorets Odessa,Kolos Kovalivka,,
 2,08/08/2026,07:30,Livyi Bereh,FC Kudrivka,,
 2,08/08/2026,10:00,FK Bukovina,FK Obolon,,
@@ -15,14 +15,14 @@
 2,09/08/2026,10:00,NK Veres,Dynamo Kyiv,,
 2,10/08/2026,07:30,Polissya Zhytomyr,FC Kharkiv,,
 2,10/08/2026,10:00,Karpaty Lviv,FC LNZ Cherkasy,,
-3,15/08/2026,03:00,Dynamo Kyiv,Kolos Kovalivka,,
-3,15/08/2026,03:00,Epitsentr Kamianets-Podilskyi,NK Veres,,
-3,15/08/2026,03:00,FC Kharkiv,Shajtar Donetsk,,
-3,15/08/2026,03:00,Karpaty Lviv,FK Bukovina,,
-3,15/08/2026,03:00,Kryvbas Kryvyi Rih,Livyi Bereh,,
-3,15/08/2026,03:00,FC Kudrivka,FK Obolon,,
-3,15/08/2026,03:00,FC LNZ Cherkasy,Chernomorets Odessa,,
-3,15/08/2026,03:00,Polissya Zhytomyr,Zorya Lugansk,,
+3,14/08/2026,10:00,Epitsentr Kamianets-Podilskyi,NK Veres,,
+3,15/08/2026,05:00,Kryvbas Kryvyi Rih,Livyi Bereh,,
+3,15/08/2026,07:30,FC Kudrivka,FK Obolon,,
+3,15/08/2026,10:00,Karpaty Lviv,FK Bukovina,,
+3,16/08/2026,05:00,FC LNZ Cherkasy,Chernomorets Odessa,,
+3,16/08/2026,07:30,FC Kharkiv,Shajtar Donetsk,,
+3,16/08/2026,10:00,Dynamo Kyiv,Kolos Kovalivka,,
+3,17/08/2026,10:00,Polissya Zhytomyr,Zorya Lugansk,,
 4,29/08/2026,03:00,FK Bukovina,Dynamo Kyiv,,
 4,29/08/2026,03:00,Kolos Kovalivka,FK Obolon,,
 4,29/08/2026,03:00,FC Kudrivka,Epitsentr Kamianets-Podilskyi,,

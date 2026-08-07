@@ -1,10 +1,10 @@
 ﻿matchday,date,time,home_team,away_team,result,status
-1,31/07/2026,12:30,LASK,Grazer AK,,
-1,01/08/2026,10:00,WSG Tirol,Sturm Graz,,
-1,01/08/2026,12:30,Red Bull Salzburgo,TSV Hartberg,,
-1,02/08/2026,10:00,Wolfsberger AC,Austria Wien,,
-1,02/08/2026,10:00,Austria Lustenau,SV Ried,,
-1,02/08/2026,12:00,Rapid Wien,SCR Altach,,
+1,31/07/2026,03:00,LASK,Grazer AK,3-0,Final
+1,01/08/2026,03:00,WSG Tirol,Sturm Graz,1-1,Final
+1,01/08/2026,03:00,Red Bull Salzburgo,TSV Hartberg,1-0,Final
+1,02/08/2026,03:00,Wolfsberger AC,Austria Wien,3-0,Final
+1,02/08/2026,03:00,Austria Lustenau,SV Ried,1-1,Final
+1,02/08/2026,03:00,Rapid Wien,SCR Altach,1-0,Final
 2,07/08/2026,12:30,SCR Altach,WSG Tirol,,
 2,08/08/2026,10:00,Grazer AK,Austria Lustenau,,
 2,08/08/2026,12:30,TSV Hartberg,Sturm Graz,,

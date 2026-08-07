@@ -1,12 +1,12 @@
 ﻿matchday,date,time,home_team,away_team,result,status
-1,01/08/2026,11:00,FC Wiltz 71,Etzella Ettelbruck,,
-1,01/08/2026,12:00,Progrès Niedercorn,Jeunesse Esch,,
-1,02/08/2026,09:00,FC Atert Bissen,F91 Dudelange,,
-1,02/08/2026,09:00,US Mondorf,FC Differdange 03,,
-1,02/08/2026,09:00,RFCU Luxemburg,UN Käerjéng,,
-1,02/08/2026,09:00,US Rumelange,Swift Hesperange,,
-1,02/08/2026,09:00,UNA Strassen,Victoria Rosport,,
-1,02/08/2026,09:00,Résidence Walferdange,US Hostert,,
+1,01/08/2026,03:00,FC Wiltz 71,Etzella Ettelbruck,1-1,Final
+1,01/08/2026,03:00,Progrès Niedercorn,Jeunesse Esch,2-1,Final
+1,02/08/2026,03:00,US Mondorf,FC Differdange 03,3-2,Final
+1,02/08/2026,03:00,RFCU Luxemburg,UN Käerjéng,5-1,Final
+1,02/08/2026,03:00,US Rumelange,Swift Hesperange,1-0,Final
+1,02/08/2026,03:00,Résidence Walferdange,US Hostert,3-2,Final
+1,04/08/2026,03:00,FC Atert Bissen,F91 Dudelange,2-0,Final
+1,04/08/2026,03:00,UNA Strassen,Victoria Rosport,4-0,Final
 2,09/08/2026,09:00,Etzella Ettelbruck,RFCU Luxemburg,,
 2,09/08/2026,09:00,F91 Dudelange,UNA Strassen,,
 2,09/08/2026,09:00,FC Differdange 03,US Rumelange,,
@@ -31,14 +31,14 @@
 4,23/08/2026,09:00,Swift Hesperange,US Hostert,,
 4,23/08/2026,09:00,Victoria Rosport,FC Wiltz 71,,
 4,23/08/2026,09:00,Résidence Walferdange,FC Atert Bissen,,
-5,30/08/2026,03:00,Etzella Ettelbruck,Résidence Walferdange,,
-5,30/08/2026,03:00,US Hostert,FC Differdange 03,,
-5,30/08/2026,03:00,UN Käerjéng,Swift Hesperange,,
-5,30/08/2026,03:00,US Mondorf,Progrès Niedercorn,,
-5,30/08/2026,03:00,RFCU Luxemburg,Victoria Rosport,,
-5,30/08/2026,03:00,US Rumelange,Jeunesse Esch,,
-5,30/08/2026,03:00,UNA Strassen,FC Atert Bissen,,
-5,30/08/2026,03:00,FC Wiltz 71,F91 Dudelange,,
+5,30/08/2026,09:00,Etzella Ettelbruck,Résidence Walferdange,,
+5,30/08/2026,09:00,US Hostert,FC Differdange 03,,
+5,30/08/2026,09:00,UN Käerjéng,Swift Hesperange,,
+5,30/08/2026,09:00,US Mondorf,Progrès Niedercorn,,
+5,30/08/2026,09:00,RFCU Luxemburg,Victoria Rosport,,
+5,30/08/2026,09:00,US Rumelange,Jeunesse Esch,,
+5,30/08/2026,09:00,UNA Strassen,FC Atert Bissen,,
+5,30/08/2026,09:00,FC Wiltz 71,F91 Dudelange,,
 6,06/09/2026,03:00,FC Atert Bissen,US Mondorf,,
 6,06/09/2026,03:00,F91 Dudelange,RFCU Luxemburg,,
 6,06/09/2026,03:00,FC Differdange 03,UN Käerjéng,,

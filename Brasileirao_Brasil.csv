@@ -1,381 +1,381 @@
 ﻿matchday,date,time,home_team,away_team,result,status
-1,28/01/2026,17:00,Atletico-MG,Palmeiras,2-2,Final
-1,28/01/2026,17:00,Coritiba,RB Bragantino,0-1,Final
-1,28/01/2026,17:00,Internacional,Atletico Paranaense,0-1,Final
-1,28/01/2026,17:00,Vitoria,Remo,2-0,Final
-1,28/01/2026,17:30,Fluminense,Gremio,2-1,Final
-1,28/01/2026,18:00,Chapecoense-sc,Santos,4-2,Final
-1,28/01/2026,18:00,Corinthians,Bahia,1-2,Final
-1,28/01/2026,19:30,Sao Paulo,Flamengo,2-1,Final
-1,29/01/2026,18:00,Mirassol,Vasco DA Gama,2-1,Final
-1,29/01/2026,19:30,Botafogo,Cruzeiro,4-0,Final
-2,04/02/2026,17:00,RB Bragantino,Atletico-MG,1-0,Final
-2,04/02/2026,17:00,Flamengo,Internacional,1-1,Final
-2,04/02/2026,18:00,Remo,Mirassol,2-2,Final
-2,04/02/2026,18:00,Santos,Sao Paulo,1-1,Final
-2,04/02/2026,19:30,Gremio,Botafogo,5-3,Final
-2,04/02/2026,19:30,Palmeiras,Vitoria,5-1,Final
-2,05/02/2026,17:00,Bahia,Fluminense,1-1,Final
-2,05/02/2026,18:00,Vasco DA Gama,Chapecoense-sc,1-1,Final
-2,05/02/2026,19:30,Cruzeiro,Coritiba,1-2,Final
-3,10/02/2026,19:30,Vitoria,Flamengo,1-2,Final
-3,11/02/2026,17:00,Chapecoense-sc,Coritiba,3-3,Final
-3,11/02/2026,17:00,Mirassol,Cruzeiro,2-2,Final
-3,11/02/2026,18:00,Atletico-MG,Remo,3-3,Final
-3,11/02/2026,19:30,Sao Paulo,Gremio,2-0,Final
-3,11/02/2026,19:30,Vasco DA Gama,Bahia,0-1,Final
-3,12/02/2026,17:00,Atletico Paranaense,Santos,2-1,Final
-3,12/02/2026,17:30,Fluminense,Botafogo,1-0,Final
-3,12/02/2026,18:00,Corinthians,RB Bragantino,2-0,Final
-3,12/02/2026,19:30,Internacional,Palmeiras,1-3,Final
-2,19/02/2026,17:30,Atletico Paranaense,Corinthians,0-1,Final
-4,25/02/2026,16:00,Flamengo,Mirassol,,
-4,25/02/2026,17:00,RB Bragantino,Atletico Paranaense,1-1,Final
-4,25/02/2026,17:00,Remo,Internacional,1-1,Final
-4,25/02/2026,17:30,Coritiba,Sao Paulo,0-1,Final
-4,25/02/2026,18:00,Cruzeiro,Corinthians,1-1,Final
-4,25/02/2026,19:30,Gremio,Atletico-MG,2-1,Final
-4,25/02/2026,19:30,Palmeiras,Fluminense,2-1,Final
-4,26/02/2026,17:00,Santos,Vasco DA Gama,2-1,Final
-5,10/03/2026,19:30,Mirassol,Santos,2-2,Final
-5,11/03/2026,17:00,Atletico-MG,Internacional,1-0,Final
-5,11/03/2026,18:00,Bahia,Vitoria,1-1,Final
-5,11/03/2026,19:30,Corinthians,Coritiba,0-2,Final
-5,11/03/2026,19:30,Flamengo,Cruzeiro,2-0,Final
-5,12/03/2026,17:00,Remo,Fluminense,0-2,Final
-5,12/03/2026,17:30,Vasco DA Gama,Palmeiras,2-1,Final
-5,12/03/2026,18:00,Sao Paulo,Chapecoense-sc,2-0,Final
-5,12/03/2026,19:30,Gremio,RB Bragantino,1-1,Final
-6,14/03/2026,16:30,Vitoria,Atletico-MG,2-0,Final
-6,14/03/2026,18:30,Botafogo,Flamengo,0-3,Final
-6,15/03/2026,14:00,Fluminense,Atletico Paranaense,3-2,Final
-6,15/03/2026,14:00,Internacional,Bahia,0-1,Final
-6,15/03/2026,14:00,Santos,Corinthians,1-1,Final
-6,15/03/2026,16:30,Coritiba,Remo,1-0,Final
-6,15/03/2026,16:30,Palmeiras,Mirassol,1-0,Final
-6,15/03/2026,18:30,RB Bragantino,Sao Paulo,1-2,Final
-6,15/03/2026,18:30,Cruzeiro,Vasco DA Gama,3-3,Final
-6,16/03/2026,18:00,Chapecoense-sc,Gremio,1-1,Final
-7,18/03/2026,17:00,Bahia,RB Bragantino,2-0,Final
-7,18/03/2026,17:00,Palmeiras,Botafogo,2-1,Final
-7,18/03/2026,17:30,Atletico Paranaense,Cruzeiro,2-1,Final
-7,18/03/2026,18:00,Atletico-MG,Sao Paulo,1-0,Final
-7,18/03/2026,18:00,Mirassol,Coritiba,0-1,Final
-7,18/03/2026,19:30,Santos,Internacional,1-2,Final
-7,18/03/2026,19:30,Vasco DA Gama,Fluminense,3-2,Final
-7,19/03/2026,17:00,Gremio,Vitoria,2-0,Final
-7,19/03/2026,18:00,Flamengo,Remo,3-0,Final
-7,19/03/2026,19:30,Chapecoense-sc,Corinthians,0-0,Final
-8,21/03/2026,14:00,RB Bragantino,Botafogo,1-2,Final
-8,21/03/2026,16:30,Fluminense,Atletico-MG,1-0,Final
-8,21/03/2026,19:00,Sao Paulo,Palmeiras,0-1,Final
-8,22/03/2026,14:00,Atletico Paranaense,Coritiba,2-0,Final
-8,22/03/2026,14:00,Cruzeiro,Santos,0-0,Final
-8,22/03/2026,14:00,Remo,Bahia,4-1,Final
-8,22/03/2026,14:00,Vasco DA Gama,Gremio,2-1,Final
-8,22/03/2026,16:30,Internacional,Chapecoense-sc,2-0,Final
-8,22/03/2026,16:30,Vitoria,Mirassol,1-0,Final
-8,22/03/2026,18:30,Corinthians,Flamengo,1-1,Final
-5,29/03/2026,17:30,Atletico Paranaense,Botafogo,4-1,Final
-9,01/04/2026,17:30,Botafogo,Mirassol,3-2,Final
-9,01/04/2026,17:30,Internacional,Sao Paulo,1-1,Final
-9,01/04/2026,18:00,Bahia,Atletico Paranaense,3-0,Final
-9,01/04/2026,18:00,Cruzeiro,Vitoria,3-0,Final
-9,01/04/2026,18:30,Coritiba,Vasco DA Gama,1-1,Final
-9,01/04/2026,19:30,Fluminense,Corinthians,3-1,Final
-9,02/04/2026,17:00,Chapecoense-sc,Atletico-MG,0-4,Final
-9,02/04/2026,17:00,Santos,Remo,2-0,Final
-9,02/04/2026,19:30,RB Bragantino,Flamengo,3-0,Final
-9,02/04/2026,19:30,Palmeiras,Gremio,2-1,Final
-10,04/04/2026,16:30,Sao Paulo,Cruzeiro,4-1,Final
-10,04/04/2026,18:30,Coritiba,Fluminense,1-1,Final
-10,04/04/2026,19:00,Vasco DA Gama,Botafogo,1-2,Final
-10,05/04/2026,14:00,Chapecoense-sc,Vitoria,1-1,Final
-10,05/04/2026,15:30,Atletico-MG,Atletico Paranaense,2-1,Final
-10,05/04/2026,15:30,Flamengo,Santos,3-1,Final
-10,05/04/2026,17:30,Bahia,Palmeiras,1-2,Final
-10,05/04/2026,17:30,Corinthians,Internacional,0-1,Final
-10,05/04/2026,18:00,Mirassol,RB Bragantino,0-1,Final
-10,05/04/2026,18:30,Gremio,Remo,0-0,Final
-11,11/04/2026,14:30,Remo,Vasco DA Gama,1-1,Final
-11,11/04/2026,14:30,Vitoria,Sao Paulo,2-0,Final
-11,11/04/2026,16:30,Mirassol,Bahia,1-2,Final
-11,11/04/2026,18:00,Santos,Atletico-MG,1-0,Final
-11,11/04/2026,18:30,Internacional,Gremio,0-0,Final
-11,12/04/2026,09:00,Atletico Paranaense,Chapecoense-sc,2-0,Final
-11,12/04/2026,14:00,Botafogo,Coritiba,2-2,Final
-11,12/04/2026,16:00,Fluminense,Flamengo,1-2,Final
-11,12/04/2026,16:30,Corinthians,Palmeiras,0-0,Final
-11,12/04/2026,16:30,Cruzeiro,RB Bragantino,2-1,Final
-12,18/04/2026,16:30,Chapecoense-sc,Botafogo,1-4,Final
-12,18/04/2026,16:30,Vasco DA Gama,Sao Paulo,2-1,Final
-12,18/04/2026,18:00,Vitoria,Corinthians,0-0,Final
-12,18/04/2026,18:30,Cruzeiro,Gremio,2-0,Final
-12,19/04/2026,09:00,Internacional,Mirassol,1-2,Final
-12,19/04/2026,14:00,Coritiba,Atletico-MG,2-0,Final
-12,19/04/2026,14:00,Santos,Fluminense,2-3,Final
-12,19/04/2026,16:30,RB Bragantino,Remo,4-2,Final
-12,19/04/2026,16:30,Palmeiras,Atletico Paranaense,1-0,Final
-12,19/04/2026,17:30,Flamengo,Bahia,2-0,Final
-13,25/04/2026,16:30,Bahia,Santos,2-2,Final
-13,25/04/2026,16:30,Botafogo,Internacional,2-2,Final
-13,25/04/2026,16:30,Remo,Cruzeiro,0-1,Final
-13,25/04/2026,19:00,Sao Paulo,Mirassol,1-0,Final
-13,26/04/2026,14:00,Corinthians,Vasco DA Gama,1-0,Final
-13,26/04/2026,14:00,Gremio,Coritiba,1-0,Final
-13,26/04/2026,16:30,Atletico Paranaense,Vitoria,3-1,Final
-13,26/04/2026,16:30,RB Bragantino,Palmeiras,0-1,Final
-13,26/04/2026,18:30,Atletico-MG,Flamengo,0-4,Final
-13,26/04/2026,18:30,Fluminense,Chapecoense-sc,2-1,Final
-14,02/05/2026,14:00,Botafogo,Remo,1-2,Final
-14,02/05/2026,16:30,Palmeiras,Santos,1-1,Final
-14,02/05/2026,16:30,Vitoria,Coritiba,4-1,Final
-14,02/05/2026,18:30,Atletico Paranaense,Gremio,0-0,Final
-14,02/05/2026,19:00,Cruzeiro,Atletico-MG,1-3,Final
-14,03/05/2026,14:00,Flamengo,Vasco DA Gama,2-2,Final
-14,03/05/2026,14:00,Sao Paulo,Bahia,2-2,Final
-14,03/05/2026,16:30,Chapecoense-sc,RB Bragantino,1-2,Final
-14,03/05/2026,16:30,Internacional,Fluminense,2-0,Final
-14,03/05/2026,18:30,Mirassol,Corinthians,2-1,Final
-15,09/05/2026,14:00,Coritiba,Internacional,2-2,Final
-15,09/05/2026,16:00,Fluminense,Vitoria,2-2,Final
-15,09/05/2026,19:00,Bahia,Cruzeiro,1-2,Final
-15,10/05/2026,14:00,Atletico-MG,Botafogo,1-1,Final
-15,10/05/2026,14:00,Remo,Palmeiras,1-1,Final
-15,10/05/2026,16:30,Corinthians,Sao Paulo,3-2,Final
-15,10/05/2026,16:30,Mirassol,Chapecoense-sc,1-1,Final
-15,10/05/2026,16:30,Santos,RB Bragantino,2-0,Final
-15,10/05/2026,17:30,Gremio,Flamengo,0-1,Final
-15,10/05/2026,18:30,Vasco DA Gama,Atletico Paranaense,1-0,Final
-16,16/05/2026,16:30,Atletico-MG,Mirassol,3-1,Final
-16,16/05/2026,16:30,Internacional,Vasco DA Gama,4-1,Final
-16,16/05/2026,17:00,Fluminense,Sao Paulo,2-1,Final
-16,16/05/2026,19:00,Palmeiras,Cruzeiro,1-1,Final
-16,17/05/2026,09:00,Santos,Coritiba,0-3,Final
-16,17/05/2026,14:00,Bahia,Gremio,1-1,Final
-16,17/05/2026,14:00,Botafogo,Corinthians,3-1,Final
-16,17/05/2026,16:30,RB Bragantino,Vitoria,2-0,Final
-16,17/05/2026,16:30,Chapecoense-sc,Remo,2-3,Final
-16,17/05/2026,17:30,Atletico Paranaense,Flamengo,1-1,Final
-17,23/05/2026,15:00,Sao Paulo,Botafogo,1-1,Final
-17,23/05/2026,15:00,Vitoria,Internacional,2-0,Final
-17,23/05/2026,17:00,Gremio,Santos,3-2,Final
-17,23/05/2026,17:00,Mirassol,Fluminense,1-0,Final
-17,23/05/2026,19:00,Flamengo,Palmeiras,0-3,Final
-17,24/05/2026,14:00,Cruzeiro,Chapecoense-sc,2-1,Final
-17,24/05/2026,14:00,Remo,Atletico Paranaense,1-2,Final
-17,24/05/2026,16:30,Corinthians,Atletico-MG,1-0,Final
-17,24/05/2026,18:30,Vasco DA Gama,RB Bragantino,0-3,Final
-17,25/05/2026,18:00,Coritiba,Bahia,3-2,Final
-18,30/05/2026,14:00,Atletico Paranaense,Mirassol,1-0,Final
-18,30/05/2026,14:00,Flamengo,Coritiba,3-0,Final
-18,30/05/2026,15:30,Bahia,Botafogo,2-1,Final
-18,30/05/2026,15:30,Gremio,Corinthians,1-3,Final
-18,30/05/2026,18:00,Santos,Vitoria,3-1,Final
-18,31/05/2026,09:00,RB Bragantino,Internacional,3-1,Final
-18,31/05/2026,14:00,Palmeiras,Chapecoense-sc,1-0,Final
-18,31/05/2026,14:00,Vasco DA Gama,Atletico-MG,0-1,Final
-18,31/05/2026,18:30,Cruzeiro,Fluminense,1-1,Final
-18,31/05/2026,18:30,Remo,Sao Paulo,1-0,Final
-19,16/07/2026,17:30,Botafogo,Santos,2-1,Final
-19,16/07/2026,17:30,Vitoria,Vasco DA Gama,1-0,Final
-4,17/07/2026,17:30,Bahia,Chapecoense-sc,2-0,Final
-19,17/07/2026,18:00,Fluminense,RB Bragantino,1-1,Final
-19,17/07/2026,18:00,Mirassol,Gremio,2-1,Final
-19,21/07/2026,17:30,Atletico-MG,Bahia,1-1,Final
-19,22/07/2026,17:30,Coritiba,Palmeiras,1-3,Final
-19,22/07/2026,19:30,Chapecoense-sc,Flamengo,0-4,Final
-19,22/07/2026,19:30,Internacional,Cruzeiro,1-2,Final
-19,22/07/2026,19:30,Sao Paulo,Atletico Paranaense,1-2,Final
-4,23/07/2026,17:30,Botafogo,Vitoria,0-0,Final
-19,23/07/2026,17:30,Corinthians,Remo,3-0,Final
-20,25/07/2026,16:30,Atletico Paranaense,Internacional,2-0,Final
-20,25/07/2026,16:30,Santos,Chapecoense-sc,2-2,Final
-20,25/07/2026,18:30,Vasco DA Gama,Mirassol,1-1,Final
-20,26/07/2026,14:00,Bahia,Corinthians,1-1,Final
-20,26/07/2026,14:00,Cruzeiro,Botafogo,0-1,Final
-20,26/07/2026,16:30,RB Bragantino,Coritiba,0-0,Final
-20,26/07/2026,16:30,Flamengo,Sao Paulo,1-1,Final
-20,26/07/2026,16:30,Gremio,Fluminense,1-1,Final
-20,26/07/2026,17:30,Palmeiras,Atletico-MG,1-2,Final
-20,26/07/2026,17:30,Remo,Vitoria,2-0,Final
-21,29/07/2026,15:00,Atletico-MG,RB Bragantino,,
-21,29/07/2026,15:00,Botafogo,Gremio,,
-21,29/07/2026,15:00,Chapecoense-sc,Vasco DA Gama,,
-21,29/07/2026,15:00,Sao Paulo,Santos,,
-21,29/07/2026,17:30,Internacional,Flamengo,1-1,Final
-21,29/07/2026,17:30,Mirassol,Remo,2-1,Final
-21,29/07/2026,19:30,Fluminense,Bahia,0-0,Final
-21,29/07/2026,19:30,Vitoria,Palmeiras,0-4,Final
-21,30/07/2026,17:30,Corinthians,Atletico Paranaense,,
-21,30/07/2026,19:30,Coritiba,Cruzeiro,,
-22,08/08/2026,14:00,Gremio,Sao Paulo,,
-22,08/08/2026,16:30,Remo,Atletico-MG,,
-22,08/08/2026,18:30,Coritiba,Chapecoense-sc,,
-22,08/08/2026,19:00,Botafogo,Fluminense,,
-22,09/08/2026,09:00,Cruzeiro,Mirassol,,
-22,09/08/2026,14:00,Bahia,Vasco DA Gama,,
+1,28/01/2026,03:00,Atlético Mineiro,Palmeiras,2-2,Final
+1,28/01/2026,03:00,Coritiba - PR,Red Bull Bragantino,0-1,Final
+1,28/01/2026,03:00,Internacional,Athletico Paranaense,0-1,Final
+1,28/01/2026,03:00,Vitória - BA,Remo - PA,2-0,Final
+1,28/01/2026,03:00,Fluminense RJ,Grêmio Porto Alegre,2-1,Final
+1,29/01/2026,03:00,Chapecoense,Santos FC,4-2,Final
+1,29/01/2026,03:00,Corinthians SP,Bahia - BA,1-2,Final
+1,29/01/2026,03:00,São Paulo FC,Flamengo RJ,2-1,Final
+1,30/01/2026,03:00,Mirassol - SP,Vasco da Gama - RJ,2-1,Final
+1,30/01/2026,03:00,Botafogo - RJ,Cruzeiro,4-0,Final
+2,04/02/2026,03:00,Red Bull Bragantino,Atlético Mineiro,1-0,Final
+2,04/02/2026,03:00,Flamengo RJ,Internacional,1-1,Final
+2,05/02/2026,03:00,Remo - PA,Mirassol - SP,2-2,Final
+2,05/02/2026,03:00,Santos FC,São Paulo FC,1-1,Final
+2,05/02/2026,03:00,Grêmio Porto Alegre,Botafogo - RJ,5-3,Final
+2,05/02/2026,03:00,Palmeiras,Vitória - BA,5-1,Final
+2,05/02/2026,03:00,Bahia - BA,Fluminense RJ,1-1,Final
+2,06/02/2026,03:00,Vasco da Gama - RJ,Chapecoense,1-1,Final
+2,06/02/2026,03:00,Cruzeiro,Coritiba - PR,1-2,Final
+2,19/02/2026,03:00,Athletico Paranaense,Corinthians SP,0-1,Final
+3,11/02/2026,03:00,Vitória - BA,Flamengo RJ,1-2,Final
+3,11/02/2026,03:00,Chapecoense,Coritiba - PR,3-3,Final
+3,11/02/2026,03:00,Mirassol - SP,Cruzeiro,2-2,Final
+3,12/02/2026,03:00,Atlético Mineiro,Remo - PA,3-3,Final
+3,12/02/2026,03:00,São Paulo FC,Grêmio Porto Alegre,2-0,Final
+3,12/02/2026,03:00,Vasco da Gama - RJ,Bahia - BA,0-1,Final
+3,12/02/2026,03:00,Athletico Paranaense,Santos FC,2-1,Final
+3,12/02/2026,03:00,Fluminense RJ,Botafogo - RJ,1-0,Final
+3,13/02/2026,03:00,Corinthians SP,Red Bull Bragantino,2-0,Final
+3,13/02/2026,03:00,Internacional,Palmeiras,1-3,Final
+4,25/02/2026,03:00,Flamengo RJ,Mirassol - SP,,
+4,25/02/2026,03:00,Red Bull Bragantino,Athletico Paranaense,1-1,Final
+4,25/02/2026,03:00,Remo - PA,Internacional,1-1,Final
+4,25/02/2026,03:00,Coritiba - PR,São Paulo FC,0-1,Final
+4,26/02/2026,03:00,Cruzeiro,Corinthians SP,1-1,Final
+4,26/02/2026,03:00,Grêmio Porto Alegre,Atlético Mineiro,2-1,Final
+4,26/02/2026,03:00,Palmeiras,Fluminense RJ,2-1,Final
+4,26/02/2026,03:00,Santos FC,Vasco da Gama - RJ,2-1,Final
+4,18/07/2026,03:00,Bahia - BA,Chapecoense,2-0,Final
+4,24/07/2026,03:00,Botafogo - RJ,Vitória - BA,0-0,Final
+5,11/03/2026,03:00,Mirassol - SP,Santos FC,2-2,Final
+5,11/03/2026,03:00,Atlético Mineiro,Internacional,1-0,Final
+5,12/03/2026,03:00,Bahia - BA,Vitória - BA,1-1,Final
+5,12/03/2026,03:00,Corinthians SP,Coritiba - PR,0-2,Final
+5,12/03/2026,03:00,Flamengo RJ,Cruzeiro,2-0,Final
+5,12/03/2026,03:00,Remo - PA,Fluminense RJ,0-2,Final
+5,12/03/2026,03:00,Vasco da Gama - RJ,Palmeiras,2-1,Final
+5,13/03/2026,03:00,São Paulo FC,Chapecoense,2-0,Final
+5,13/03/2026,03:00,Grêmio Porto Alegre,Red Bull Bragantino,1-1,Final
+5,30/03/2026,03:00,Athletico Paranaense,Botafogo - RJ,4-1,Final
+6,14/03/2026,03:00,Vitória - BA,Atlético Mineiro,2-0,Final
+6,15/03/2026,03:00,Botafogo - RJ,Flamengo RJ,0-3,Final
+6,15/03/2026,03:00,Fluminense RJ,Athletico Paranaense,3-2,Final
+6,15/03/2026,03:00,Internacional,Bahia - BA,0-1,Final
+6,15/03/2026,03:00,Santos FC,Corinthians SP,1-1,Final
+6,15/03/2026,03:00,Coritiba - PR,Remo - PA,1-0,Final
+6,15/03/2026,03:00,Palmeiras,Mirassol - SP,1-0,Final
+6,16/03/2026,03:00,Red Bull Bragantino,São Paulo FC,1-2,Final
+6,16/03/2026,03:00,Cruzeiro,Vasco da Gama - RJ,3-3,Final
+6,17/03/2026,03:00,Chapecoense,Grêmio Porto Alegre,1-1,Final
+7,18/03/2026,03:00,Bahia - BA,Red Bull Bragantino,2-0,Final
+7,18/03/2026,03:00,Palmeiras,Botafogo - RJ,2-1,Final
+7,18/03/2026,03:00,Athletico Paranaense,Cruzeiro,2-1,Final
+7,19/03/2026,03:00,Atlético Mineiro,São Paulo FC,1-0,Final
+7,19/03/2026,03:00,Mirassol - SP,Coritiba - PR,0-1,Final
+7,19/03/2026,03:00,Santos FC,Internacional,1-2,Final
+7,19/03/2026,03:00,Vasco da Gama - RJ,Fluminense RJ,3-2,Final
+7,19/03/2026,03:00,Grêmio Porto Alegre,Vitória - BA,2-0,Final
+7,20/03/2026,03:00,Flamengo RJ,Remo - PA,3-0,Final
+7,20/03/2026,03:00,Chapecoense,Corinthians SP,0-0,Final
+8,21/03/2026,03:00,Red Bull Bragantino,Botafogo - RJ,1-2,Final
+8,21/03/2026,03:00,Fluminense RJ,Atlético Mineiro,1-0,Final
+8,22/03/2026,03:00,São Paulo FC,Palmeiras,0-1,Final
+8,22/03/2026,03:00,Athletico Paranaense,Coritiba - PR,2-0,Final
+8,22/03/2026,03:00,Cruzeiro,Santos FC,0-0,Final
+8,22/03/2026,03:00,Remo - PA,Bahia - BA,4-1,Final
+8,22/03/2026,03:00,Vasco da Gama - RJ,Grêmio Porto Alegre,2-1,Final
+8,22/03/2026,03:00,Internacional,Chapecoense,2-0,Final
+8,22/03/2026,03:00,Vitória - BA,Mirassol - SP,1-0,Final
+8,23/03/2026,03:00,Corinthians SP,Flamengo RJ,1-1,Final
+9,02/04/2026,03:00,Botafogo - RJ,Mirassol - SP,3-2,Final
+9,02/04/2026,03:00,Internacional,São Paulo FC,1-1,Final
+9,02/04/2026,03:00,Bahia - BA,Athletico Paranaense,3-0,Final
+9,02/04/2026,03:00,Cruzeiro,Vitória - BA,3-0,Final
+9,02/04/2026,03:00,Coritiba - PR,Vasco da Gama - RJ,1-1,Final
+9,02/04/2026,03:00,Fluminense RJ,Corinthians SP,3-1,Final
+9,03/04/2026,03:00,Chapecoense,Atlético Mineiro,0-4,Final
+9,03/04/2026,03:00,Santos FC,Remo - PA,2-0,Final
+9,03/04/2026,03:00,Red Bull Bragantino,Flamengo RJ,3-0,Final
+9,03/04/2026,03:00,Palmeiras,Grêmio Porto Alegre,2-1,Final
+10,04/04/2026,03:00,São Paulo FC,Cruzeiro,4-1,Final
+10,05/04/2026,03:00,Coritiba - PR,Fluminense RJ,1-1,Final
+10,05/04/2026,03:00,Vasco da Gama - RJ,Botafogo - RJ,1-2,Final
+10,05/04/2026,03:00,Chapecoense,Vitória - BA,1-1,Final
+10,05/04/2026,03:00,Atlético Mineiro,Athletico Paranaense,2-1,Final
+10,05/04/2026,03:00,Flamengo RJ,Santos FC,3-1,Final
+10,06/04/2026,03:00,Bahia - BA,Palmeiras,1-2,Final
+10,06/04/2026,03:00,Corinthians SP,Internacional,0-1,Final
+10,06/04/2026,03:00,Mirassol - SP,Red Bull Bragantino,0-1,Final
+10,06/04/2026,03:00,Grêmio Porto Alegre,Remo - PA,0-0,Final
+11,11/04/2026,03:00,Remo - PA,Vasco da Gama - RJ,1-1,Final
+11,11/04/2026,03:00,Vitória - BA,São Paulo FC,2-0,Final
+11,11/04/2026,03:00,Mirassol - SP,Bahia - BA,1-2,Final
+11,12/04/2026,03:00,Santos FC,Atlético Mineiro,1-0,Final
+11,12/04/2026,03:00,Internacional,Grêmio Porto Alegre,0-0,Final
+11,12/04/2026,03:00,Athletico Paranaense,Chapecoense,2-0,Final
+11,12/04/2026,03:00,Botafogo - RJ,Coritiba - PR,2-2,Final
+11,12/04/2026,03:00,Fluminense RJ,Flamengo RJ,1-2,Final
+11,12/04/2026,03:00,Corinthians SP,Palmeiras,0-0,Final
+11,12/04/2026,03:00,Cruzeiro,Red Bull Bragantino,2-1,Final
+12,18/04/2026,03:00,Chapecoense,Botafogo - RJ,1-4,Final
+12,18/04/2026,03:00,Vasco da Gama - RJ,São Paulo FC,2-1,Final
+12,19/04/2026,03:00,Vitória - BA,Corinthians SP,0-0,Final
+12,19/04/2026,03:00,Cruzeiro,Grêmio Porto Alegre,2-0,Final
+12,19/04/2026,03:00,Internacional,Mirassol - SP,1-2,Final
+12,19/04/2026,03:00,Coritiba - PR,Atlético Mineiro,2-0,Final
+12,19/04/2026,03:00,Santos FC,Fluminense RJ,2-3,Final
+12,19/04/2026,03:00,Red Bull Bragantino,Remo - PA,4-2,Final
+12,19/04/2026,03:00,Palmeiras,Athletico Paranaense,1-0,Final
+12,20/04/2026,03:00,Flamengo RJ,Bahia - BA,2-0,Final
+13,25/04/2026,03:00,Bahia - BA,Santos FC,2-2,Final
+13,25/04/2026,03:00,Botafogo - RJ,Internacional,2-2,Final
+13,25/04/2026,03:00,Remo - PA,Cruzeiro,0-1,Final
+13,26/04/2026,03:00,São Paulo FC,Mirassol - SP,1-0,Final
+13,26/04/2026,03:00,Corinthians SP,Vasco da Gama - RJ,1-0,Final
+13,26/04/2026,03:00,Grêmio Porto Alegre,Coritiba - PR,1-0,Final
+13,26/04/2026,03:00,Athletico Paranaense,Vitória - BA,3-1,Final
+13,26/04/2026,03:00,Red Bull Bragantino,Palmeiras,0-1,Final
+13,27/04/2026,03:00,Atlético Mineiro,Flamengo RJ,0-4,Final
+13,27/04/2026,03:00,Fluminense RJ,Chapecoense,2-1,Final
+14,02/05/2026,03:00,Botafogo - RJ,Remo - PA,1-2,Final
+14,02/05/2026,03:00,Palmeiras,Santos FC,1-1,Final
+14,02/05/2026,03:00,Vitória - BA,Coritiba - PR,4-1,Final
+14,03/05/2026,03:00,Athletico Paranaense,Grêmio Porto Alegre,0-0,Final
+14,03/05/2026,03:00,Cruzeiro,Atlético Mineiro,1-3,Final
+14,03/05/2026,03:00,Flamengo RJ,Vasco da Gama - RJ,2-2,Final
+14,03/05/2026,03:00,São Paulo FC,Bahia - BA,2-2,Final
+14,03/05/2026,03:00,Chapecoense,Red Bull Bragantino,1-2,Final
+14,03/05/2026,03:00,Internacional,Fluminense RJ,2-0,Final
+14,04/05/2026,03:00,Mirassol - SP,Corinthians SP,2-1,Final
+15,09/05/2026,03:00,Coritiba - PR,Internacional,2-2,Final
+15,09/05/2026,03:00,Fluminense RJ,Vitória - BA,2-2,Final
+15,10/05/2026,03:00,Bahia - BA,Cruzeiro,1-2,Final
+15,10/05/2026,03:00,Atlético Mineiro,Botafogo - RJ,1-1,Final
+15,10/05/2026,03:00,Remo - PA,Palmeiras,1-1,Final
+15,10/05/2026,03:00,Corinthians SP,São Paulo FC,3-2,Final
+15,10/05/2026,03:00,Mirassol - SP,Chapecoense,1-1,Final
+15,10/05/2026,03:00,Santos FC,Red Bull Bragantino,2-0,Final
+15,11/05/2026,03:00,Grêmio Porto Alegre,Flamengo RJ,0-1,Final
+15,11/05/2026,03:00,Vasco da Gama - RJ,Athletico Paranaense,1-0,Final
+16,16/05/2026,03:00,Atlético Mineiro,Mirassol - SP,3-1,Final
+16,16/05/2026,03:00,Internacional,Vasco da Gama - RJ,4-1,Final
+16,17/05/2026,03:00,Fluminense RJ,São Paulo FC,2-1,Final
+16,17/05/2026,03:00,Palmeiras,Cruzeiro,1-1,Final
+16,17/05/2026,03:00,Santos FC,Coritiba - PR,0-3,Final
+16,17/05/2026,03:00,Bahia - BA,Grêmio Porto Alegre,1-1,Final
+16,17/05/2026,03:00,Botafogo - RJ,Corinthians SP,3-1,Final
+16,17/05/2026,03:00,Red Bull Bragantino,Vitória - BA,2-0,Final
+16,17/05/2026,03:00,Chapecoense,Remo - PA,2-3,Final
+16,18/05/2026,03:00,Athletico Paranaense,Flamengo RJ,1-1,Final
+17,23/05/2026,03:00,São Paulo FC,Botafogo - RJ,1-1,Final
+17,23/05/2026,03:00,Vitória - BA,Internacional,2-0,Final
+17,24/05/2026,03:00,Grêmio Porto Alegre,Santos FC,3-2,Final
+17,24/05/2026,03:00,Mirassol - SP,Fluminense RJ,1-0,Final
+17,24/05/2026,03:00,Flamengo RJ,Palmeiras,0-3,Final
+17,24/05/2026,03:00,Cruzeiro,Chapecoense,2-1,Final
+17,24/05/2026,03:00,Remo - PA,Athletico Paranaense,1-2,Final
+17,24/05/2026,03:00,Corinthians SP,Atlético Mineiro,1-0,Final
+17,25/05/2026,03:00,Vasco da Gama - RJ,Red Bull Bragantino,0-3,Final
+17,26/05/2026,03:00,Coritiba - PR,Bahia - BA,3-2,Final
+18,30/05/2026,03:00,Athletico Paranaense,Mirassol - SP,1-0,Final
+18,30/05/2026,03:00,Flamengo RJ,Coritiba - PR,3-0,Final
+18,30/05/2026,03:00,Bahia - BA,Botafogo - RJ,2-1,Final
+18,30/05/2026,03:00,Grêmio Porto Alegre,Corinthians SP,1-3,Final
+18,31/05/2026,03:00,Santos FC,Vitória - BA,3-1,Final
+18,31/05/2026,03:00,Red Bull Bragantino,Internacional,3-1,Final
+18,31/05/2026,03:00,Palmeiras,Chapecoense,1-0,Final
+18,31/05/2026,03:00,Vasco da Gama - RJ,Atlético Mineiro,0-1,Final
+18,01/06/2026,03:00,Cruzeiro,Fluminense RJ,1-1,Final
+18,01/06/2026,03:00,Remo - PA,São Paulo FC,1-0,Final
+19,17/07/2026,03:00,Botafogo - RJ,Santos FC,2-1,Final
+19,17/07/2026,03:00,Vitória - BA,Vasco da Gama - RJ,1-0,Final
+19,18/07/2026,03:00,Fluminense RJ,Red Bull Bragantino,1-1,Final
+19,18/07/2026,03:00,Mirassol - SP,Grêmio Porto Alegre,2-1,Final
+19,22/07/2026,03:00,Atlético Mineiro,Bahia - BA,1-1,Final
+19,23/07/2026,03:00,Coritiba - PR,Palmeiras,1-3,Final
+19,23/07/2026,03:00,Chapecoense,Flamengo RJ,0-4,Final
+19,23/07/2026,03:00,Internacional,Cruzeiro,1-2,Final
+19,23/07/2026,03:00,São Paulo FC,Athletico Paranaense,1-2,Final
+19,24/07/2026,03:00,Corinthians SP,Remo - PA,3-0,Final
+20,25/07/2026,03:00,Athletico Paranaense,Internacional,2-0,Final
+20,25/07/2026,03:00,Santos FC,Chapecoense,2-2,Final
+20,26/07/2026,03:00,Vasco da Gama - RJ,Mirassol - SP,1-1,Final
+20,26/07/2026,03:00,Bahia - BA,Corinthians SP,1-1,Final
+20,26/07/2026,03:00,Cruzeiro,Botafogo - RJ,0-1,Final
+20,26/07/2026,03:00,Red Bull Bragantino,Coritiba - PR,0-0,Final
+20,26/07/2026,03:00,Flamengo RJ,São Paulo FC,1-1,Final
+20,26/07/2026,03:00,Grêmio Porto Alegre,Fluminense RJ,1-1,Final
+20,27/07/2026,03:00,Palmeiras,Atlético Mineiro,1-2,Final
+20,27/07/2026,03:00,Remo - PA,Vitória - BA,2-0,Final
+21,29/07/2026,03:00,Atlético Mineiro,Red Bull Bragantino,,
+21,29/07/2026,03:00,Botafogo - RJ,Grêmio Porto Alegre,,
+21,29/07/2026,03:00,Chapecoense,Vasco da Gama - RJ,,
+21,29/07/2026,03:00,São Paulo FC,Santos FC,,
+21,30/07/2026,03:00,Internacional,Flamengo RJ,1-1,Final
+21,30/07/2026,03:00,Mirassol - SP,Remo - PA,2-1,Final
+21,30/07/2026,03:00,Fluminense RJ,Bahia - BA,0-0,Final
+21,30/07/2026,03:00,Vitória - BA,Palmeiras,0-4,Final
+21,31/07/2026,03:00,Corinthians SP,Athletico Paranaense,0-0,Final
+21,31/07/2026,03:00,Coritiba - PR,Cruzeiro,0-1,Final
+22,08/08/2026,14:00,Grêmio Porto Alegre,São Paulo FC,,
+22,08/08/2026,16:30,Remo - PA,Atlético Mineiro,,
+22,08/08/2026,18:30,Coritiba - PR,Chapecoense,,
+22,08/08/2026,19:00,Botafogo - RJ,Fluminense RJ,,
+22,09/08/2026,09:00,Cruzeiro,Mirassol - SP,,
+22,09/08/2026,14:00,Bahia - BA,Vasco da Gama - RJ,,
 22,09/08/2026,14:00,Palmeiras,Internacional,,
-22,09/08/2026,16:30,RB Bragantino,Corinthians,,
-22,09/08/2026,16:30,Santos,Atletico Paranaense,,
-22,09/08/2026,17:30,Flamengo,Vitoria,,
-23,15/08/2026,14:30,Atletico-MG,Gremio,,
-23,15/08/2026,14:30,Fluminense,Palmeiras,,
-23,15/08/2026,16:30,Atletico Paranaense,RB Bragantino,,
-23,15/08/2026,19:00,Sao Paulo,Coritiba,,
-23,16/08/2026,09:00,Chapecoense-sc,Bahia,,
-23,16/08/2026,14:00,Vasco DA Gama,Santos,,
-23,16/08/2026,16:30,Mirassol,Flamengo,,
-23,16/08/2026,16:30,Vitoria,Botafogo,,
-23,16/08/2026,17:30,Corinthians,Cruzeiro,,
-23,17/08/2026,18:00,Internacional,Remo,,
-24,22/08/2026,14:00,Fluminense,Remo,,
-24,22/08/2026,16:30,Internacional,Atletico-MG,,
-24,22/08/2026,18:30,Cruzeiro,Flamengo,,
-24,23/08/2026,14:00,RB Bragantino,Gremio,,
-24,23/08/2026,14:00,Palmeiras,Vasco DA Gama,,
-24,23/08/2026,14:00,Vitoria,Bahia,,
-24,23/08/2026,16:30,Chapecoense-sc,Sao Paulo,,
-24,23/08/2026,16:30,Santos,Mirassol,,
-24,23/08/2026,17:30,Coritiba,Corinthians,,
-24,24/08/2026,18:00,Botafogo,Atletico Paranaense,,
-25,30/08/2026,15:00,Atletico Paranaense,Fluminense,,
-25,30/08/2026,15:00,Atletico-MG,Vitoria,,
-25,30/08/2026,15:00,Bahia,Internacional,,
-25,30/08/2026,15:00,Corinthians,Santos,,
-25,30/08/2026,15:00,Flamengo,Botafogo,,
-25,30/08/2026,15:00,Gremio,Chapecoense-sc,,
-25,30/08/2026,15:00,Mirassol,Palmeiras,,
-25,30/08/2026,15:00,Remo,Coritiba,,
-25,30/08/2026,15:00,Sao Paulo,RB Bragantino,,
-25,30/08/2026,15:00,Vasco DA Gama,Cruzeiro,,
-26,06/09/2026,15:00,Botafogo,Palmeiras,,
-26,06/09/2026,15:00,RB Bragantino,Bahia,,
-26,06/09/2026,15:00,Corinthians,Chapecoense-sc,,
-26,06/09/2026,15:00,Coritiba,Mirassol,,
-26,06/09/2026,15:00,Cruzeiro,Atletico Paranaense,,
-26,06/09/2026,15:00,Fluminense,Vasco DA Gama,,
-26,06/09/2026,15:00,Internacional,Santos,,
-26,06/09/2026,15:00,Remo,Flamengo,,
-26,06/09/2026,15:00,Sao Paulo,Atletico-MG,,
-26,06/09/2026,15:00,Vitoria,Gremio,,
-27,13/09/2026,15:00,Atletico-MG,Fluminense,,
-27,13/09/2026,15:00,Bahia,Remo,,
-27,13/09/2026,15:00,Botafogo,RB Bragantino,,
-27,13/09/2026,15:00,Chapecoense-sc,Internacional,,
-27,13/09/2026,15:00,Coritiba,Atletico Paranaense,,
-27,13/09/2026,15:00,Flamengo,Corinthians,,
-27,13/09/2026,15:00,Gremio,Vasco DA Gama,,
-27,13/09/2026,15:00,Mirassol,Vitoria,,
-27,13/09/2026,15:00,Palmeiras,Sao Paulo,,
-27,13/09/2026,15:00,Santos,Cruzeiro,,
-28,20/09/2026,15:00,Atletico Paranaense,Bahia,,
-28,20/09/2026,15:00,Atletico-MG,Chapecoense-sc,,
-28,20/09/2026,15:00,Corinthians,Fluminense,,
-28,20/09/2026,15:00,Flamengo,RB Bragantino,,
-28,20/09/2026,15:00,Gremio,Palmeiras,,
-28,20/09/2026,15:00,Mirassol,Botafogo,,
-28,20/09/2026,15:00,Remo,Santos,,
-28,20/09/2026,15:00,Sao Paulo,Internacional,,
-28,20/09/2026,15:00,Vasco DA Gama,Coritiba,,
-28,20/09/2026,15:00,Vitoria,Cruzeiro,,
-29,07/10/2026,15:00,Atletico Paranaense,Atletico-MG,,
-29,07/10/2026,15:00,Botafogo,Vasco DA Gama,,
-29,07/10/2026,15:00,RB Bragantino,Mirassol,,
-29,07/10/2026,15:00,Cruzeiro,Sao Paulo,,
-29,07/10/2026,15:00,Fluminense,Coritiba,,
-29,07/10/2026,15:00,Internacional,Corinthians,,
-29,07/10/2026,15:00,Palmeiras,Bahia,,
-29,07/10/2026,15:00,Remo,Gremio,,
-29,07/10/2026,15:00,Santos,Flamengo,,
-29,07/10/2026,15:00,Vitoria,Chapecoense-sc,,
-30,11/10/2026,15:00,Atletico-MG,Santos,,
-30,11/10/2026,15:00,Bahia,Mirassol,,
-30,11/10/2026,15:00,RB Bragantino,Cruzeiro,,
-30,11/10/2026,15:00,Chapecoense-sc,Atletico Paranaense,,
-30,11/10/2026,15:00,Coritiba,Botafogo,,
-30,11/10/2026,15:00,Flamengo,Fluminense,,
-30,11/10/2026,15:00,Gremio,Internacional,,
-30,11/10/2026,15:00,Palmeiras,Corinthians,,
-30,11/10/2026,15:00,Sao Paulo,Vitoria,,
-30,11/10/2026,15:00,Vasco DA Gama,Remo,,
-31,18/10/2026,15:00,Atletico Paranaense,Palmeiras,,
-31,18/10/2026,15:00,Atletico-MG,Coritiba,,
-31,18/10/2026,15:00,Bahia,Flamengo,,
-31,18/10/2026,15:00,Botafogo,Chapecoense-sc,,
-31,18/10/2026,15:00,Corinthians,Vitoria,,
-31,18/10/2026,15:00,Fluminense,Santos,,
-31,18/10/2026,15:00,Gremio,Cruzeiro,,
-31,18/10/2026,15:00,Mirassol,Internacional,,
-31,18/10/2026,15:00,Remo,RB Bragantino,,
-31,18/10/2026,15:00,Sao Paulo,Vasco DA Gama,,
-32,25/10/2026,16:00,Chapecoense-sc,Fluminense,,
-32,25/10/2026,16:00,Coritiba,Gremio,,
-32,25/10/2026,16:00,Cruzeiro,Remo,,
-32,25/10/2026,16:00,Flamengo,Atletico-MG,,
-32,25/10/2026,16:00,Internacional,Botafogo,,
-32,25/10/2026,16:00,Mirassol,Sao Paulo,,
-32,25/10/2026,16:00,Palmeiras,RB Bragantino,,
-32,25/10/2026,16:00,Santos,Bahia,,
-32,25/10/2026,16:00,Vasco DA Gama,Corinthians,,
-32,25/10/2026,16:00,Vitoria,Atletico Paranaense,,
-33,28/10/2026,16:00,Atletico-MG,Cruzeiro,,
-33,28/10/2026,16:00,Bahia,Sao Paulo,,
-33,28/10/2026,16:00,RB Bragantino,Chapecoense-sc,,
-33,28/10/2026,16:00,Corinthians,Mirassol,,
-33,28/10/2026,16:00,Coritiba,Vitoria,,
-33,28/10/2026,16:00,Fluminense,Internacional,,
-33,28/10/2026,16:00,Gremio,Atletico Paranaense,,
-33,28/10/2026,16:00,Remo,Botafogo,,
-33,28/10/2026,16:00,Santos,Palmeiras,,
-33,28/10/2026,16:00,Vasco DA Gama,Flamengo,,
-34,04/11/2026,16:00,Atletico Paranaense,Vasco DA Gama,,
-34,04/11/2026,16:00,Botafogo,Atletico-MG,,
-34,04/11/2026,16:00,RB Bragantino,Santos,,
-34,04/11/2026,16:00,Chapecoense-sc,Mirassol,,
-34,04/11/2026,16:00,Cruzeiro,Bahia,,
-34,04/11/2026,16:00,Flamengo,Gremio,,
-34,04/11/2026,16:00,Internacional,Coritiba,,
-34,04/11/2026,16:00,Palmeiras,Remo,,
-34,04/11/2026,16:00,Sao Paulo,Corinthians,,
-34,04/11/2026,16:00,Vitoria,Fluminense,,
-35,18/11/2026,16:00,Corinthians,Botafogo,,
-35,18/11/2026,16:00,Coritiba,Santos,,
-35,18/11/2026,16:00,Cruzeiro,Palmeiras,,
-35,18/11/2026,16:00,Flamengo,Atletico Paranaense,,
-35,18/11/2026,16:00,Gremio,Bahia,,
-35,18/11/2026,16:00,Mirassol,Atletico-MG,,
-35,18/11/2026,16:00,Remo,Chapecoense-sc,,
-35,18/11/2026,16:00,Sao Paulo,Fluminense,,
-35,18/11/2026,16:00,Vasco DA Gama,Internacional,,
-35,18/11/2026,16:00,Vitoria,RB Bragantino,,
-36,22/11/2026,16:00,Atletico Paranaense,Remo,,
-36,22/11/2026,16:00,Atletico-MG,Corinthians,,
-36,22/11/2026,16:00,Bahia,Coritiba,,
-36,22/11/2026,16:00,Botafogo,Sao Paulo,,
-36,22/11/2026,16:00,RB Bragantino,Vasco DA Gama,,
-36,22/11/2026,16:00,Chapecoense-sc,Cruzeiro,,
-36,22/11/2026,16:00,Fluminense,Mirassol,,
-36,22/11/2026,16:00,Internacional,Vitoria,,
-36,22/11/2026,16:00,Palmeiras,Flamengo,,
-36,22/11/2026,16:00,Santos,Gremio,,
-37,29/11/2026,16:00,Atletico-MG,Vasco DA Gama,,
-37,29/11/2026,16:00,Botafogo,Bahia,,
-37,29/11/2026,16:00,Chapecoense-sc,Palmeiras,,
-37,29/11/2026,16:00,Corinthians,Gremio,,
-37,29/11/2026,16:00,Coritiba,Flamengo,,
-37,29/11/2026,16:00,Fluminense,Cruzeiro,,
-37,29/11/2026,16:00,Internacional,RB Bragantino,,
-37,29/11/2026,16:00,Mirassol,Atletico Paranaense,,
-37,29/11/2026,16:00,Sao Paulo,Remo,,
-37,29/11/2026,16:00,Vitoria,Santos,,
-38,02/12/2026,16:00,Atletico Paranaense,Sao Paulo,,
-38,02/12/2026,16:00,Bahia,Atletico-MG,,
-38,02/12/2026,16:00,RB Bragantino,Fluminense,,
-38,02/12/2026,16:00,Cruzeiro,Internacional,,
-38,02/12/2026,16:00,Flamengo,Chapecoense-sc,,
-38,02/12/2026,16:00,Gremio,Mirassol,,
-38,02/12/2026,16:00,Palmeiras,Coritiba,,
-38,02/12/2026,16:00,Remo,Corinthians,,
-38,02/12/2026,16:00,Santos,Botafogo,,
-38,02/12/2026,16:00,Vasco DA Gama,Vitoria,,
+22,09/08/2026,16:30,Red Bull Bragantino,Corinthians SP,,
+22,09/08/2026,16:30,Santos FC,Athletico Paranaense,,
+22,09/08/2026,17:30,Flamengo RJ,Vitória - BA,,
+23,15/08/2026,11:30,Atlético Mineiro,Grêmio Porto Alegre,,
+23,15/08/2026,14:30,Fluminense RJ,Palmeiras,,
+23,15/08/2026,16:30,Athletico Paranaense,Red Bull Bragantino,,
+23,15/08/2026,19:00,São Paulo FC,Coritiba - PR,,
+23,16/08/2026,09:00,Chapecoense,Bahia - BA,,
+23,16/08/2026,14:00,Vasco da Gama - RJ,Santos FC,,
+23,16/08/2026,16:30,Mirassol - SP,Flamengo RJ,,
+23,16/08/2026,16:30,Vitória - BA,Botafogo - RJ,,
+23,16/08/2026,17:30,Corinthians SP,Cruzeiro,,
+23,17/08/2026,18:00,Internacional,Remo - PA,,
+24,22/08/2026,14:00,Fluminense RJ,Remo - PA,,
+24,22/08/2026,16:30,Internacional,Atlético Mineiro,,
+24,22/08/2026,18:30,Cruzeiro,Flamengo RJ,,
+24,23/08/2026,14:00,Red Bull Bragantino,Grêmio Porto Alegre,,
+24,23/08/2026,14:00,Palmeiras,Vasco da Gama - RJ,,
+24,23/08/2026,14:00,Vitória - BA,Bahia - BA,,
+24,23/08/2026,16:30,Chapecoense,São Paulo FC,,
+24,23/08/2026,16:30,Santos FC,Mirassol - SP,,
+24,23/08/2026,17:30,Coritiba - PR,Corinthians SP,,
+24,24/08/2026,18:00,Botafogo - RJ,Athletico Paranaense,,
+25,29/08/2026,03:00,Athletico Paranaense,Fluminense RJ,,
+25,29/08/2026,03:00,Atlético Mineiro,Vitória - BA,,
+25,29/08/2026,03:00,Bahia - BA,Internacional,,
+25,29/08/2026,03:00,Corinthians SP,Santos FC,,
+25,29/08/2026,03:00,Flamengo RJ,Botafogo - RJ,,
+25,29/08/2026,03:00,Grêmio Porto Alegre,Chapecoense,,
+25,29/08/2026,03:00,Mirassol - SP,Palmeiras,,
+25,29/08/2026,03:00,Remo - PA,Coritiba - PR,,
+25,29/08/2026,03:00,São Paulo FC,Red Bull Bragantino,,
+25,29/08/2026,03:00,Vasco da Gama - RJ,Cruzeiro,,
+26,05/09/2026,03:00,Botafogo - RJ,Palmeiras,,
+26,05/09/2026,03:00,Red Bull Bragantino,Bahia - BA,,
+26,05/09/2026,03:00,Corinthians SP,Chapecoense,,
+26,05/09/2026,03:00,Coritiba - PR,Mirassol - SP,,
+26,05/09/2026,03:00,Cruzeiro,Athletico Paranaense,,
+26,05/09/2026,03:00,Fluminense RJ,Vasco da Gama - RJ,,
+26,05/09/2026,03:00,Internacional,Santos FC,,
+26,05/09/2026,03:00,Remo - PA,Flamengo RJ,,
+26,05/09/2026,03:00,São Paulo FC,Atlético Mineiro,,
+26,05/09/2026,03:00,Vitória - BA,Grêmio Porto Alegre,,
+27,12/09/2026,03:00,Atlético Mineiro,Fluminense RJ,,
+27,12/09/2026,03:00,Bahia - BA,Remo - PA,,
+27,12/09/2026,03:00,Botafogo - RJ,Red Bull Bragantino,,
+27,12/09/2026,03:00,Chapecoense,Internacional,,
+27,12/09/2026,03:00,Coritiba - PR,Athletico Paranaense,,
+27,12/09/2026,03:00,Flamengo RJ,Corinthians SP,,
+27,12/09/2026,03:00,Grêmio Porto Alegre,Vasco da Gama - RJ,,
+27,12/09/2026,03:00,Mirassol - SP,Vitória - BA,,
+27,12/09/2026,03:00,Palmeiras,São Paulo FC,,
+27,12/09/2026,03:00,Santos FC,Cruzeiro,,
+28,19/09/2026,03:00,Athletico Paranaense,Bahia - BA,,
+28,19/09/2026,03:00,Atlético Mineiro,Chapecoense,,
+28,19/09/2026,03:00,Corinthians SP,Fluminense RJ,,
+28,19/09/2026,03:00,Flamengo RJ,Red Bull Bragantino,,
+28,19/09/2026,03:00,Grêmio Porto Alegre,Palmeiras,,
+28,19/09/2026,03:00,Mirassol - SP,Botafogo - RJ,,
+28,19/09/2026,03:00,Remo - PA,Santos FC,,
+28,19/09/2026,03:00,São Paulo FC,Internacional,,
+28,19/09/2026,03:00,Vasco da Gama - RJ,Coritiba - PR,,
+28,19/09/2026,03:00,Vitória - BA,Cruzeiro,,
+29,07/10/2026,03:00,Athletico Paranaense,Atlético Mineiro,,
+29,07/10/2026,03:00,Botafogo - RJ,Vasco da Gama - RJ,,
+29,07/10/2026,03:00,Red Bull Bragantino,Mirassol - SP,,
+29,07/10/2026,03:00,Cruzeiro,São Paulo FC,,
+29,07/10/2026,03:00,Fluminense RJ,Coritiba - PR,,
+29,07/10/2026,03:00,Internacional,Corinthians SP,,
+29,07/10/2026,03:00,Palmeiras,Bahia - BA,,
+29,07/10/2026,03:00,Remo - PA,Grêmio Porto Alegre,,
+29,07/10/2026,03:00,Santos FC,Flamengo RJ,,
+29,07/10/2026,03:00,Vitória - BA,Chapecoense,,
+30,10/10/2026,03:00,Atlético Mineiro,Santos FC,,
+30,10/10/2026,03:00,Bahia - BA,Mirassol - SP,,
+30,10/10/2026,03:00,Red Bull Bragantino,Cruzeiro,,
+30,10/10/2026,03:00,Chapecoense,Athletico Paranaense,,
+30,10/10/2026,03:00,Coritiba - PR,Botafogo - RJ,,
+30,10/10/2026,03:00,Flamengo RJ,Fluminense RJ,,
+30,10/10/2026,03:00,Grêmio Porto Alegre,Internacional,,
+30,10/10/2026,03:00,Palmeiras,Corinthians SP,,
+30,10/10/2026,03:00,São Paulo FC,Vitória - BA,,
+30,10/10/2026,03:00,Vasco da Gama - RJ,Remo - PA,,
+31,17/10/2026,03:00,Athletico Paranaense,Palmeiras,,
+31,17/10/2026,03:00,Atlético Mineiro,Coritiba - PR,,
+31,17/10/2026,03:00,Bahia - BA,Flamengo RJ,,
+31,17/10/2026,03:00,Botafogo - RJ,Chapecoense,,
+31,17/10/2026,03:00,Corinthians SP,Vitória - BA,,
+31,17/10/2026,03:00,Fluminense RJ,Santos FC,,
+31,17/10/2026,03:00,Grêmio Porto Alegre,Cruzeiro,,
+31,17/10/2026,03:00,Mirassol - SP,Internacional,,
+31,17/10/2026,03:00,Remo - PA,Red Bull Bragantino,,
+31,17/10/2026,03:00,São Paulo FC,Vasco da Gama - RJ,,
+32,24/10/2026,03:00,Chapecoense,Fluminense RJ,,
+32,24/10/2026,03:00,Coritiba - PR,Grêmio Porto Alegre,,
+32,24/10/2026,03:00,Cruzeiro,Remo - PA,,
+32,24/10/2026,03:00,Flamengo RJ,Atlético Mineiro,,
+32,24/10/2026,03:00,Internacional,Botafogo - RJ,,
+32,24/10/2026,03:00,Mirassol - SP,São Paulo FC,,
+32,24/10/2026,03:00,Palmeiras,Red Bull Bragantino,,
+32,24/10/2026,03:00,Santos FC,Bahia - BA,,
+32,24/10/2026,03:00,Vasco da Gama - RJ,Corinthians SP,,
+32,24/10/2026,03:00,Vitória - BA,Athletico Paranaense,,
+33,28/10/2026,03:00,Atlético Mineiro,Cruzeiro,,
+33,28/10/2026,03:00,Bahia - BA,São Paulo FC,,
+33,28/10/2026,03:00,Red Bull Bragantino,Chapecoense,,
+33,28/10/2026,03:00,Corinthians SP,Mirassol - SP,,
+33,28/10/2026,03:00,Coritiba - PR,Vitória - BA,,
+33,28/10/2026,03:00,Fluminense RJ,Internacional,,
+33,28/10/2026,03:00,Grêmio Porto Alegre,Athletico Paranaense,,
+33,28/10/2026,03:00,Remo - PA,Botafogo - RJ,,
+33,28/10/2026,03:00,Santos FC,Palmeiras,,
+33,28/10/2026,03:00,Vasco da Gama - RJ,Flamengo RJ,,
+34,04/11/2026,03:00,Athletico Paranaense,Vasco da Gama - RJ,,
+34,04/11/2026,03:00,Botafogo - RJ,Atlético Mineiro,,
+34,04/11/2026,03:00,Red Bull Bragantino,Santos FC,,
+34,04/11/2026,03:00,Chapecoense,Mirassol - SP,,
+34,04/11/2026,03:00,Cruzeiro,Bahia - BA,,
+34,04/11/2026,03:00,Flamengo RJ,Grêmio Porto Alegre,,
+34,04/11/2026,03:00,Internacional,Coritiba - PR,,
+34,04/11/2026,03:00,Palmeiras,Remo - PA,,
+34,04/11/2026,03:00,São Paulo FC,Corinthians SP,,
+34,04/11/2026,03:00,Vitória - BA,Fluminense RJ,,
+35,18/11/2026,03:00,Corinthians SP,Botafogo - RJ,,
+35,18/11/2026,03:00,Coritiba - PR,Santos FC,,
+35,18/11/2026,03:00,Cruzeiro,Palmeiras,,
+35,18/11/2026,03:00,Flamengo RJ,Athletico Paranaense,,
+35,18/11/2026,03:00,Grêmio Porto Alegre,Bahia - BA,,
+35,18/11/2026,03:00,Mirassol - SP,Atlético Mineiro,,
+35,18/11/2026,03:00,Remo - PA,Chapecoense,,
+35,18/11/2026,03:00,São Paulo FC,Fluminense RJ,,
+35,18/11/2026,03:00,Vasco da Gama - RJ,Internacional,,
+35,18/11/2026,03:00,Vitória - BA,Red Bull Bragantino,,
+36,21/11/2026,03:00,Athletico Paranaense,Remo - PA,,
+36,21/11/2026,03:00,Atlético Mineiro,Corinthians SP,,
+36,21/11/2026,03:00,Bahia - BA,Coritiba - PR,,
+36,21/11/2026,03:00,Botafogo - RJ,São Paulo FC,,
+36,21/11/2026,03:00,Red Bull Bragantino,Vasco da Gama - RJ,,
+36,21/11/2026,03:00,Chapecoense,Cruzeiro,,
+36,21/11/2026,03:00,Fluminense RJ,Mirassol - SP,,
+36,21/11/2026,03:00,Internacional,Vitória - BA,,
+36,21/11/2026,03:00,Palmeiras,Flamengo RJ,,
+36,21/11/2026,03:00,Santos FC,Grêmio Porto Alegre,,
+37,28/11/2026,03:00,Atlético Mineiro,Vasco da Gama - RJ,,
+37,28/11/2026,03:00,Botafogo - RJ,Bahia - BA,,
+37,28/11/2026,03:00,Chapecoense,Palmeiras,,
+37,28/11/2026,03:00,Corinthians SP,Grêmio Porto Alegre,,
+37,28/11/2026,03:00,Coritiba - PR,Flamengo RJ,,
+37,28/11/2026,03:00,Fluminense RJ,Cruzeiro,,
+37,28/11/2026,03:00,Internacional,Red Bull Bragantino,,
+37,28/11/2026,03:00,Mirassol - SP,Athletico Paranaense,,
+37,28/11/2026,03:00,São Paulo FC,Remo - PA,,
+37,28/11/2026,03:00,Vitória - BA,Santos FC,,
+38,02/12/2026,03:00,Athletico Paranaense,São Paulo FC,,
+38,02/12/2026,03:00,Bahia - BA,Atlético Mineiro,,
+38,02/12/2026,03:00,Red Bull Bragantino,Fluminense RJ,,
+38,02/12/2026,03:00,Cruzeiro,Internacional,,
+38,02/12/2026,03:00,Flamengo RJ,Chapecoense,,
+38,02/12/2026,03:00,Grêmio Porto Alegre,Mirassol - SP,,
+38,02/12/2026,03:00,Palmeiras,Coritiba - PR,,
+38,02/12/2026,03:00,Remo - PA,Corinthians SP,,
+38,02/12/2026,03:00,Santos FC,Botafogo - RJ,,
+38,02/12/2026,03:00,Vasco da Gama - RJ,Vitória - BA,,

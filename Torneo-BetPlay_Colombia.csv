@@ -1,267 +1,121 @@
 ﻿matchday,date,time,home_team,away_team,result,status
-1,23/01/2026,15:30,Real Santander,Real Cartagena,0-1,Final
-1,24/01/2026,17:00,Barranquilla,Orsomarso,1-2,Final
-1,25/01/2026,16:00,Internacional Palmira,Patriotas,3-1,Final
-1,25/01/2026,16:00,Ind. Yumbo,Depor FC,1-1,Final
-1,26/01/2026,14:00,Leones FC,Tigres FC,0-0,Final
-1,26/01/2026,16:00,Popayan,Quindio,0-1,Final
-1,26/01/2026,17:00,Real Soacha,Envigado,0-2,Final
-1,26/01/2026,18:00,Union Magdalena,Bogota FC,0-0,Final
-2,30/01/2026,15:00,Bogota FC,Internacional Palmira,1-2,Final
-2,30/01/2026,15:00,Depor FC,Barranquilla,0-2,Final
-2,30/01/2026,17:00,Patriotas,Real Santander,2-0,Final
-2,30/01/2026,19:30,Real Cartagena,Real Soacha,1-0,Final
-2,31/01/2026,14:00,Envigado,Ind. Yumbo,2-0,Final
-2,31/01/2026,20:30,Orsomarso,Union Magdalena,0-1,Final
-2,01/02/2026,15:00,Tigres FC,Popayan,2-0,Final
-2,01/02/2026,15:00,Quindio,Leones FC,3-0,Final
-3,03/02/2026,19:45,Barranquilla,Patriotas,2-0,Final
-3,04/02/2026,15:00,Tigres FC,Orsomarso,0-1,Final
-3,04/02/2026,15:00,Real Santander,Depor FC,1-1,Final
-3,04/02/2026,17:30,Internacional Palmira,Quindio,1-2,Final
-3,04/02/2026,18:00,Ind. Yumbo,Real Cartagena,1-1,Final
-3,05/02/2026,15:00,Popayan,Real Soacha,1-1,Final
-3,05/02/2026,17:30,Leones FC,Bogota FC,1-1,Final
-4,08/02/2026,17:30,Real Soacha,Leones FC,2-0,Final
-4,09/02/2026,14:00,Envigado,Tigres FC,0-0,Final
-4,09/02/2026,15:00,Depor FC,Internacional Palmira,0-1,Final
-4,09/02/2026,16:00,Union Magdalena,Popayan,0-2,Final
-4,09/02/2026,16:05,Bogota FC,Real Cartagena,0-1,Final
-4,09/02/2026,18:10,Orsomarso,Patriotas,0-0,Final
-4,09/02/2026,20:15,Quindio,Ind. Yumbo,0-0,Final
-5,13/02/2026,17:30,Real Cartagena,Depor FC,4-1,Final
-5,14/02/2026,14:00,Patriotas,Bogota FC,0-1,Final
-5,14/02/2026,15:00,Real Santander,Real Soacha,2-1,Final
-5,14/02/2026,17:00,Leones FC,Union Magdalena,1-3,Final
-5,14/02/2026,17:00,Internacional Palmira,Envigado,2-1,Final
-5,16/02/2026,15:00,Tigres FC,Ind. Yumbo,1-3,Final
-5,16/02/2026,19:30,Quindio,Barranquilla,1-0,Final
-5,17/02/2026,20:10,Popayan,Orsomarso,2-2,Final
-6,20/02/2026,16:00,Depor FC,Patriotas,1-1,Final
-6,21/02/2026,17:00,Real Cartagena,Leones FC,2-3,Final
-6,21/02/2026,17:00,Barranquilla,Internacional Palmira,0-4,Final
-6,22/02/2026,15:00,Bogota FC,Popayan,2-1,Final
-6,22/02/2026,15:00,Real Soacha,Orsomarso,1-0,Final
-6,23/02/2026,19:00,Ind. Yumbo,Real Santander,1-1,Final
-6,24/02/2026,15:30,Envigado,Quindio,1-2,Final
-6,24/02/2026,16:00,Union Magdalena,Tigres FC,3-1,Final
-7,26/02/2026,17:00,Popayan,Barranquilla,0-2,Final
-7,27/02/2026,15:00,Leones FC,Ind. Yumbo,0-2,Final
-7,27/02/2026,15:00,Bogota FC,Depor FC,1-0,Final
-7,28/02/2026,14:00,Quindio,Union Magdalena,1-2,Final
-7,28/02/2026,16:00,Patriotas,Real Soacha,1-0,Final
-7,28/02/2026,17:00,Internacional Palmira,Real Santander,1-0,Final
-7,01/03/2026,17:00,Orsomarso,Envigado,0-1,Final
-7,02/03/2026,19:00,Tigres FC,Real Cartagena,0-0,Final
-8,03/03/2026,15:00,Depor FC,Leones FC,0-0,Final
-8,04/03/2026,16:00,Barranquilla,Union Magdalena,1-3,Final
-8,04/03/2026,18:00,Ind. Yumbo,Bogota FC,1-1,Final
-8,05/03/2026,15:00,Envigado,Popayan,1-0,Final
-8,05/03/2026,15:00,Real Santander,Quindio,1-2,Final
-8,05/03/2026,16:00,Real Soacha,Internacional Palmira,2-2,Final
-8,06/03/2026,15:00,Tigres FC,Patriotas,1-1,Final
-8,06/03/2026,18:00,Real Cartagena,Orsomarso,4-0,Final
-9,10/03/2026,15:00,Real Santander,Popayan,1-1,Final
-9,10/03/2026,19:00,Real Cartagena,Internacional Palmira,2-2,Final
-9,11/03/2026,15:00,Bogota FC,Tigres FC,0-1,Final
-9,11/03/2026,15:30,Leones FC,Envigado,0-3,Final
-9,11/03/2026,17:00,Union Magdalena,Real Soacha,1-1,Final
-9,11/03/2026,17:45,Depor FC,Orsomarso,1-1,Final
-9,11/03/2026,18:00,Ind. Yumbo,Barranquilla,1-0,Final
-9,11/03/2026,20:00,Patriotas,Quindio,0-0,Final
-10,14/03/2026,15:30,Popayan,Leones FC,2-1,Final
-10,15/03/2026,17:00,Orsomarso,Real Santander,2-0,Final
-10,16/03/2026,14:00,Tigres FC,Depor FC,2-1,Final
-10,16/03/2026,16:00,Union Magdalena,Patriotas,2-1,Final
-10,16/03/2026,16:05,Envigado,Real Cartagena,1-1,Final
-10,16/03/2026,17:30,Barranquilla,Bogota FC,1-1,Final
-10,16/03/2026,18:15,Internacional Palmira,Ind. Yumbo,1-0,Final
-10,16/03/2026,20:20,Quindio,Real Soacha,0-0,Final
-11,20/03/2026,15:00,Bogota FC,Quindio,0-2,Final
-11,20/03/2026,19:00,Leones FC,Internacional Palmira,1-2,Final
-11,21/03/2026,14:00,Patriotas,Popayan,3-3,Final
-11,21/03/2026,15:00,Real Santander,Tigres FC,1-1,Final
-11,21/03/2026,16:00,Real Soacha,Barranquilla,2-2,Final
-11,21/03/2026,17:00,Orsomarso,Ind. Yumbo,2-0,Final
-11,22/03/2026,20:30,Real Cartagena,Union Magdalena,2-1,Final
-12,25/03/2026,15:00,Envigado,Bogota FC,1-2,Final
-12,25/03/2026,17:00,Barranquilla,Leones FC,3-0,Final
-12,25/03/2026,18:00,Real Soacha,Depor FC,1-2,Final
-12,26/03/2026,16:00,Union Magdalena,Real Santander,2-0,Final
-12,26/03/2026,17:00,Internacional Palmira,Tigres FC,2-1,Final
-12,26/03/2026,18:00,Ind. Yumbo,Patriotas,2-1,Final
-12,26/03/2026,19:00,Quindio,Orsomarso,2-2,Final
-12,27/03/2026,15:00,Popayan,Real Cartagena,1-1,Final
-13,30/03/2026,15:00,Ind. Yumbo,Union Magdalena,0-2,Final
-13,30/03/2026,19:00,Orsomarso,Internacional Palmira,1-2,Final
-13,31/03/2026,15:00,Tigres FC,Barranquilla,3-1,Final
-13,31/03/2026,15:00,Real Santander,Envigado,1-3,Final
-13,31/03/2026,17:45,Depor FC,Popayan,1-1,Final
-13,31/03/2026,19:00,Real Cartagena,Quindio,2-1,Final
-13,01/04/2026,15:00,Bogota FC,Real Soacha,2-2,Final
-13,01/04/2026,16:00,Patriotas,Leones FC,1-0,Final
-11,06/04/2026,18:00,Depor FC,Envigado,1-2,Final
-14,07/04/2026,15:00,Popayan,Ind. Yumbo,0-0,Final
-4,07/04/2026,19:30,Barranquilla,Real Santander,2-0,Final
-3,09/04/2026,16:00,Union Magdalena,Envigado,4-2,Final
-14,11/04/2026,14:00,Real Soacha,Tigres FC,0-2,Final
-14,12/04/2026,17:00,Leones FC,Real Santander,1-0,Final
-14,12/04/2026,17:00,Quindio,Depor FC,2-1,Final
-14,13/04/2026,15:00,Bogota FC,Orsomarso,2-0,Final
-14,13/04/2026,16:00,Union Magdalena,Internacional Palmira,0-2,Final
-14,13/04/2026,18:05,Patriotas,Real Cartagena,1-0,Final
-14,13/04/2026,20:10,Barranquilla,Envigado,1-2,Final
-15,17/04/2026,19:00,Internacional Palmira,Popayan,2-1,Final
-15,18/04/2026,15:30,Envigado,Patriotas,2-0,Final
-15,18/04/2026,15:30,Tigres FC,Quindio,0-1,Final
-15,18/04/2026,15:30,Real Cartagena,Barranquilla,1-3,Final
-15,18/04/2026,15:30,Real Santander,Bogota FC,1-2,Final
-15,18/04/2026,15:30,Depor FC,Union Magdalena,1-3,Final
-15,18/04/2026,15:30,Orsomarso,Leones FC,0-0,Final
-15,18/04/2026,15:30,Ind. Yumbo,Real Soacha,1-1,Final
-1,24/04/2026,18:10,Tigres FC,Internacional Palmira,1-0,Final
-1,24/04/2026,20:15,Quindio,Envigado,2-1,Final
-1,26/04/2026,20:30,Barranquilla,Real Cartagena,0-0,Final
-1,27/04/2026,17:00,Bogota FC,Union Magdalena,1-1,Final
-2,29/04/2026,15:30,Envigado,Tigres FC,2-0,Final
-2,29/04/2026,19:00,Internacional Palmira,Quindio,0-0,Final
-2,02/05/2026,18:00,Real Cartagena,Bogota FC,2-0,Final
-3,04/05/2026,14:00,Envigado,Internacional Palmira,0-0,Final
-2,04/05/2026,16:00,Union Magdalena,Barranquilla,2-0,Final
-3,04/05/2026,19:00,Quindio,Tigres FC,1-0,Final
-3,08/05/2026,17:00,Barranquilla,Bogota FC,2-0,Final
-3,08/05/2026,19:30,Real Cartagena,Union Magdalena,2-1,Final
-4,10/05/2026,16:00,Tigres FC,Quindio,0-1,Final
-4,10/05/2026,20:20,Internacional Palmira,Envigado,0-0,Final
-4,12/05/2026,16:00,Union Magdalena,Real Cartagena,3-0,Final
-4,13/05/2026,16:00,Bogota FC,Barranquilla,1-1,Final
-5,14/05/2026,17:00,Tigres FC,Envigado,1-2,Final
-5,14/05/2026,19:45,Quindio,Internacional Palmira,0-1,Final
-5,17/05/2026,17:00,Barranquilla,Union Magdalena,1-1,Final
-5,17/05/2026,19:40,Bogota FC,Real Cartagena,1-2,Final
-6,18/05/2026,15:00,Envigado,Quindio,1-0,Final
-6,18/05/2026,19:00,Internacional Palmira,Tigres FC,2-2,Final
-6,21/05/2026,16:00,Union Magdalena,Bogota FC,0-0,Final
-6,21/05/2026,19:30,Real Cartagena,Barranquilla,2-1,Final
-,25/05/2026,20:00,Real Cartagena,Envigado,2-3,Final
-,29/05/2026,15:00,Envigado,Real Cartagena,1-1,Final
-1,24/07/2026,16:05,Quindio,Popayan,0-1,Final
-1,24/07/2026,18:00,Tigres FC,Leones FC,0-1,Final
-1,25/07/2026,16:00,Bogota FC,Union Magdalena,1-0,Final
-1,25/07/2026,19:00,Real Cartagena,Real Santander,5-1,Final
-1,26/07/2026,16:00,Patriotas,Internacional Palmira,3-1,Final
-1,26/07/2026,17:00,Orsomarso,Barranquilla,1-0,Final
-1,27/07/2026,15:30,Envigado,Real Soacha,1-0,Final
-1,27/07/2026,19:30,Depor FC,Ind. Yumbo,0-2,Final
-2,31/07/2026,16:00,Real Santander,Patriotas,,
-2,31/07/2026,18:00,Union Magdalena,Orsomarso,,
-2,01/08/2026,16:00,Popayan,Tigres FC,,
-2,02/08/2026,16:00,Real Soacha,Real Cartagena,,
-2,02/08/2026,17:00,Barranquilla,Depor FC,,
-2,02/08/2026,17:00,Internacional Palmira,Bogota FC,,
-2,03/08/2026,15:30,Ind. Yumbo,Envigado,,
-2,03/08/2026,17:30,Leones FC,Quindio,,
-3,06/08/2026,14:00,Real Soacha,Popayan,,
-3,06/08/2026,15:30,Envigado,Union Magdalena,,
-3,06/08/2026,16:00,Depor FC,Real Santander,,
-3,06/08/2026,18:00,Bogota FC,Leones FC,,
-3,06/08/2026,18:00,Orsomarso,Tigres FC,,
-3,06/08/2026,20:10,Real Cartagena,Ind. Yumbo,,
-3,07/08/2026,19:30,Quindio,Internacional Palmira,,
-3,08/08/2026,14:00,Patriotas,Barranquilla,,
-4,08/08/2026,15:00,Internacional Palmira,Depor FC,,
-4,08/08/2026,15:00,Ind. Yumbo,Quindio,,
-4,09/08/2026,17:00,Popayan,Union Magdalena,,
-4,10/08/2026,14:00,Tigres FC,Envigado,,
-4,10/08/2026,16:00,Leones FC,Real Soacha,,
-4,11/08/2026,17:45,Real Cartagena,Bogota FC,,
-4,11/08/2026,18:00,Patriotas,Orsomarso,,
-4,12/08/2026,15:30,Real Santander,Barranquilla,,
-5,15/08/2026,14:00,Bogota FC,Patriotas,,
-5,15/08/2026,15:00,Ind. Yumbo,Tigres FC,,
-5,15/08/2026,16:00,Depor FC,Real Cartagena,,
-5,15/08/2026,16:00,Orsomarso,Popayan,,
-5,16/08/2026,14:00,Real Soacha,Real Santander,,
-5,16/08/2026,15:00,Envigado,Internacional Palmira,,
-5,16/08/2026,17:00,Union Magdalena,Leones FC,,
-5,18/08/2026,19:30,Barranquilla,Quindio,,
-6,21/08/2026,15:30,Real Santander,Ind. Yumbo,,
-6,21/08/2026,19:00,Patriotas,Depor FC,,
+1,24/07/2026,03:00,Deportes Quindío,Boca Juniors de Cali,0-1,Final
+1,25/07/2026,03:00,Tigres FC,Leones FC,0-1,Final
+1,25/07/2026,03:00,Bogotá FC,Unión Magdalena,1-0,Final
+1,26/07/2026,03:00,Real Cartagena,Real Santander,5-1,Final
+1,26/07/2026,03:00,Patriotas FC,Internacional de Palmira,3-1,Final
+1,27/07/2026,03:00,Orsomarso SC,Barranquilla FC,1-0,Final
+1,27/07/2026,03:00,Envigado FC,Real Soacha Cundinamarca,1-0,Final
+1,28/07/2026,03:00,Atlético FC,Independiente Yumbo,0-2,Final
+2,31/07/2026,03:00,Real Santander,Patriotas FC,2-2,Final
+2,01/08/2026,03:00,Unión Magdalena,Orsomarso SC,0-0,Final
+2,01/08/2026,03:00,Boca Juniors de Cali,Tigres FC,0-0,Final
+2,02/08/2026,03:00,Real Soacha Cundinamarca,Real Cartagena,1-1,Final
+2,03/08/2026,03:00,Barranquilla FC,Atlético FC,2-2,Final
+2,03/08/2026,03:00,Internacional de Palmira,Bogotá FC,0-0,Final
+2,03/08/2026,03:00,Independiente Yumbo,Envigado FC,1-1,Final
+2,04/08/2026,03:00,Leones FC,Deportes Quindío,1-1,Final
+3,06/08/2026,03:00,Real Soacha Cundinamarca,Boca Juniors de Cali,3-1,Final
+3,06/08/2026,03:00,Atlético FC,Real Santander,2-2,Final
+3,06/08/2026,03:00,Bogotá FC,Leones FC,0-1,Final
+3,07/08/2026,03:00,Real Cartagena,Independiente Yumbo,0-2,Final
+3,07/08/2026,19:30,Deportes Quindío,Internacional de Palmira,,
+3,08/08/2026,14:00,Patriotas FC,Barranquilla FC,,
+3,19/08/2026,17:00,Orsomarso SC,Tigres FC,,
+3,01/09/2026,15:30,Envigado FC,Unión Magdalena,,
+4,09/08/2026,17:00,Boca Juniors de Cali,Unión Magdalena,,
+4,10/08/2026,14:00,Tigres FC,Envigado FC,,
+4,10/08/2026,18:00,Leones FC,Real Soacha Cundinamarca,,
+4,11/08/2026,15:30,Real Santander,Barranquilla FC,,
+4,11/08/2026,17:45,Real Cartagena,Bogotá FC,,
+4,11/08/2026,18:00,Patriotas FC,Orsomarso SC,,
+4,08/09/2026,19:30,Internacional de Palmira,Atlético FC,,
+4,09/09/2026,18:00,Independiente Yumbo,Deportes Quindío,,
+5,15/08/2026,14:00,Bogotá FC,Patriotas FC,,
+5,15/08/2026,16:00,Atlético FC,Real Cartagena,,
+5,15/08/2026,16:00,Orsomarso SC,Boca Juniors de Cali,,
+5,16/08/2026,14:00,Real Soacha Cundinamarca,Real Santander,,
+5,16/08/2026,15:00,Envigado FC,Internacional de Palmira,,
+5,16/08/2026,17:00,Unión Magdalena,Leones FC,,
+5,18/08/2026,19:30,Barranquilla FC,Deportes Quindío,,
+5,18/09/2026,19:00,Independiente Yumbo,Tigres FC,,
+6,21/08/2026,15:30,Real Santander,Independiente Yumbo,,
+6,21/08/2026,19:00,Patriotas FC,Atlético FC,,
 6,22/08/2026,15:30,Leones FC,Real Cartagena,,
-6,23/08/2026,18:00,Quindio,Envigado,,
-6,24/08/2026,15:30,Tigres FC,Union Magdalena,,
-6,24/08/2026,17:00,Orsomarso,Real Soacha,,
-6,24/08/2026,20:10,Internacional Palmira,Barranquilla,,
-6,25/08/2026,15:30,Popayan,Bogota FC,,
-7,28/08/2026,17:30,Ind. Yumbo,Leones FC,,
-7,28/08/2026,20:00,Union Magdalena,Quindio,,
-7,29/08/2026,14:00,Real Soacha,Patriotas,,
-7,29/08/2026,15:00,Envigado,Orsomarso,,
-7,29/08/2026,15:00,Barranquilla,Popayan,,
-7,29/08/2026,15:30,Real Santander,Internacional Palmira,,
-7,29/08/2026,15:30,Depor FC,Bogota FC,,
+6,23/08/2026,18:00,Deportes Quindío,Envigado FC,,
+6,24/08/2026,15:30,Tigres FC,Unión Magdalena,,
+6,24/08/2026,17:00,Orsomarso SC,Real Soacha Cundinamarca,,
+6,24/08/2026,20:10,Internacional de Palmira,Barranquilla FC,,
+6,25/08/2026,15:30,Boca Juniors de Cali,Bogotá FC,,
+7,29/08/2026,03:00,Barranquilla FC,Boca Juniors de Cali,,
+7,29/08/2026,03:00,Envigado FC,Orsomarso SC,,
+7,28/08/2026,17:30,Independiente Yumbo,Leones FC,,
+7,28/08/2026,20:00,Unión Magdalena,Deportes Quindío,,
+7,29/08/2026,14:00,Real Soacha Cundinamarca,Patriotas FC,,
+7,29/08/2026,15:30,Atlético FC,Bogotá FC,,
+7,29/08/2026,15:30,Real Santander,Internacional de Palmira,,
 7,29/08/2026,18:00,Real Cartagena,Tigres FC,,
-8,05/09/2026,15:00,Patriotas,Tigres FC,,
-8,05/09/2026,15:00,Leones FC,Depor FC,,
-8,05/09/2026,15:00,Bogota FC,Ind. Yumbo,,
-8,05/09/2026,15:00,Popayan,Envigado,,
-8,05/09/2026,15:00,Quindio,Real Santander,,
-8,05/09/2026,15:00,Union Magdalena,Barranquilla,,
-8,05/09/2026,15:00,Orsomarso,Real Cartagena,,
-8,05/09/2026,15:00,Internacional Palmira,Real Soacha,,
-9,12/09/2026,15:00,Envigado,Leones FC,,
-9,12/09/2026,15:00,Tigres FC,Bogota FC,,
-9,12/09/2026,15:00,Popayan,Real Santander,,
-9,12/09/2026,15:00,Quindio,Patriotas,,
-9,12/09/2026,15:00,Barranquilla,Ind. Yumbo,,
-9,12/09/2026,15:00,Orsomarso,Depor FC,,
-9,12/09/2026,15:00,Real Soacha,Union Magdalena,,
-9,12/09/2026,15:00,Internacional Palmira,Real Cartagena,,
-10,19/09/2026,15:00,Patriotas,Union Magdalena,,
-10,19/09/2026,15:00,Leones FC,Popayan,,
-10,19/09/2026,15:00,Bogota FC,Barranquilla,,
-10,19/09/2026,15:00,Real Cartagena,Envigado,,
-10,19/09/2026,15:00,Real Santander,Orsomarso,,
-10,19/09/2026,15:00,Depor FC,Tigres FC,,
-10,19/09/2026,15:00,Real Soacha,Quindio,,
-10,19/09/2026,15:00,Ind. Yumbo,Internacional Palmira,,
-11,26/09/2026,15:00,Envigado,Depor FC,,
-11,26/09/2026,15:00,Tigres FC,Real Santander,,
-11,26/09/2026,15:00,Popayan,Patriotas,,
-11,26/09/2026,15:00,Quindio,Bogota FC,,
-11,26/09/2026,15:00,Union Magdalena,Real Cartagena,,
-11,26/09/2026,15:00,Barranquilla,Real Soacha,,
-11,26/09/2026,15:00,Internacional Palmira,Leones FC,,
-11,26/09/2026,15:00,Ind. Yumbo,Orsomarso,,
-12,03/10/2026,15:00,Patriotas,Ind. Yumbo,,
-12,03/10/2026,15:00,Leones FC,Barranquilla,,
-12,03/10/2026,15:00,Tigres FC,Internacional Palmira,,
-12,03/10/2026,15:00,Bogota FC,Envigado,,
-12,03/10/2026,15:00,Real Cartagena,Popayan,,
-12,03/10/2026,15:00,Real Santander,Union Magdalena,,
-12,03/10/2026,15:00,Depor FC,Real Soacha,,
-12,03/10/2026,15:00,Orsomarso,Quindio,,
-13,07/10/2026,15:00,Envigado,Real Santander,,
-13,07/10/2026,15:00,Leones FC,Patriotas,,
-13,07/10/2026,15:00,Popayan,Depor FC,,
-13,07/10/2026,15:00,Quindio,Real Cartagena,,
-13,07/10/2026,15:00,Union Magdalena,Ind. Yumbo,,
-13,07/10/2026,15:00,Barranquilla,Tigres FC,,
-13,07/10/2026,15:00,Real Soacha,Bogota FC,,
-13,07/10/2026,15:00,Internacional Palmira,Orsomarso,,
-14,10/10/2026,15:00,Envigado,Barranquilla,,
-14,10/10/2026,15:00,Tigres FC,Real Soacha,,
-14,10/10/2026,15:00,Real Cartagena,Patriotas,,
-14,10/10/2026,15:00,Real Santander,Leones FC,,
-14,10/10/2026,15:00,Depor FC,Quindio,,
-14,10/10/2026,15:00,Orsomarso,Bogota FC,,
-14,10/10/2026,15:00,Internacional Palmira,Union Magdalena,,
-14,10/10/2026,15:00,Ind. Yumbo,Popayan,,
-15,17/10/2026,15:00,Patriotas,Envigado,,
-15,17/10/2026,15:00,Patriotas,Depor FC,,
-15,17/10/2026,15:00,Leones FC,Orsomarso,,
-15,17/10/2026,15:00,Bogota FC,Real Santander,,
-15,17/10/2026,15:00,Popayan,Internacional Palmira,,
-15,17/10/2026,15:00,Quindio,Tigres FC,,
-15,17/10/2026,15:00,Barranquilla,Real Cartagena,,
-15,17/10/2026,15:00,Real Soacha,Ind. Yumbo,,
+8,05/09/2026,03:00,Boca Juniors de Cali,Envigado FC,,
+8,05/09/2026,03:00,Bogotá FC,Independiente Yumbo,,
+8,05/09/2026,03:00,Internacional de Palmira,Real Soacha Cundinamarca,,
+8,05/09/2026,03:00,Leones FC,Atlético FC,,
+8,05/09/2026,03:00,Orsomarso SC,Real Cartagena,,
+8,05/09/2026,03:00,Patriotas FC,Tigres FC,,
+8,05/09/2026,03:00,Deportes Quindío,Real Santander,,
+8,05/09/2026,03:00,Unión Magdalena,Barranquilla FC,,
+9,12/09/2026,03:00,Barranquilla FC,Independiente Yumbo,,
+9,12/09/2026,03:00,Boca Juniors de Cali,Real Santander,,
+9,12/09/2026,03:00,Envigado FC,Leones FC,,
+9,12/09/2026,03:00,Internacional de Palmira,Real Cartagena,,
+9,12/09/2026,03:00,Orsomarso SC,Atlético FC,,
+9,12/09/2026,03:00,Deportes Quindío,Patriotas FC,,
+9,12/09/2026,03:00,Real Soacha Cundinamarca,Unión Magdalena,,
+9,12/09/2026,03:00,Tigres FC,Bogotá FC,,
+10,19/09/2026,03:00,Atlético FC,Tigres FC,,
+10,19/09/2026,03:00,Bogotá FC,Barranquilla FC,,
+10,19/09/2026,03:00,Independiente Yumbo,Internacional de Palmira,,
+10,19/09/2026,03:00,Leones FC,Boca Juniors de Cali,,
+10,19/09/2026,03:00,Patriotas FC,Unión Magdalena,,
+10,19/09/2026,03:00,Real Cartagena,Envigado FC,,
+10,19/09/2026,03:00,Real Soacha Cundinamarca,Deportes Quindío,,
+10,19/09/2026,03:00,Real Santander,Orsomarso SC,,
+11,26/09/2026,03:00,Barranquilla FC,Real Soacha Cundinamarca,,
+11,26/09/2026,03:00,Boca Juniors de Cali,Patriotas FC,,
+11,26/09/2026,03:00,Envigado FC,Atlético FC,,
+11,26/09/2026,03:00,Independiente Yumbo,Orsomarso SC,,
+11,26/09/2026,03:00,Internacional de Palmira,Leones FC,,
+11,26/09/2026,03:00,Deportes Quindío,Bogotá FC,,
+11,26/09/2026,03:00,Tigres FC,Real Santander,,
+11,26/09/2026,03:00,Unión Magdalena,Real Cartagena,,
+12,03/10/2026,03:00,Atlético FC,Real Soacha Cundinamarca,,
+12,03/10/2026,03:00,Bogotá FC,Envigado FC,,
+12,03/10/2026,03:00,Leones FC,Barranquilla FC,,
+12,03/10/2026,03:00,Orsomarso SC,Deportes Quindío,,
+12,03/10/2026,03:00,Patriotas FC,Independiente Yumbo,,
+12,03/10/2026,03:00,Real Cartagena,Boca Juniors de Cali,,
+12,03/10/2026,03:00,Real Santander,Unión Magdalena,,
+12,03/10/2026,03:00,Tigres FC,Internacional de Palmira,,
+13,07/10/2026,03:00,Barranquilla FC,Tigres FC,,
+13,07/10/2026,03:00,Boca Juniors de Cali,Atlético FC,,
+13,07/10/2026,03:00,Envigado FC,Real Santander,,
+13,07/10/2026,03:00,Internacional de Palmira,Orsomarso SC,,
+13,07/10/2026,03:00,Leones FC,Patriotas FC,,
+13,07/10/2026,03:00,Deportes Quindío,Real Cartagena,,
+13,07/10/2026,03:00,Real Soacha Cundinamarca,Bogotá FC,,
+13,07/10/2026,03:00,Unión Magdalena,Independiente Yumbo,,
+14,10/10/2026,03:00,Atlético FC,Deportes Quindío,,
+14,10/10/2026,03:00,Envigado FC,Barranquilla FC,,
+14,10/10/2026,03:00,Independiente Yumbo,Boca Juniors de Cali,,
+14,10/10/2026,03:00,Internacional de Palmira,Unión Magdalena,,
+14,10/10/2026,03:00,Orsomarso SC,Bogotá FC,,
+14,10/10/2026,03:00,Real Cartagena,Patriotas FC,,
+14,10/10/2026,03:00,Real Santander,Leones FC,,
+14,10/10/2026,03:00,Tigres FC,Real Soacha Cundinamarca,,
+15,17/10/2026,03:00,Barranquilla FC,Real Cartagena,,
+15,17/10/2026,03:00,Boca Juniors de Cali,Internacional de Palmira,,
+15,17/10/2026,03:00,Bogotá FC,Real Santander,,
+15,17/10/2026,03:00,Leones FC,Orsomarso SC,,
+15,17/10/2026,03:00,Patriotas FC,Atlético FC,,
+15,17/10/2026,03:00,Patriotas FC,Envigado FC,,
+15,17/10/2026,03:00,Deportes Quindío,Tigres FC,,
+15,17/10/2026,03:00,Real Soacha Cundinamarca,Independiente Yumbo,,

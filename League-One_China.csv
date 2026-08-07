@@ -1,241 +1,241 @@
 ﻿matchday,date,time,home_team,away_team,result,status
-1,14/03/2026,02:00,Wuxi Wugou,Dongguan United,2-0,Final
-1,14/03/2026,06:30,Meizhou Kejia,Yanbian Longding,0-3,Final
-1,14/03/2026,06:30,Heilongjiang Lava Spring,Guangxi Hengchen,2-1,Final
-1,14/03/2026,06:30,Nantong Zhiyun,Hebei Kungfu,2-1,Final
-1,14/03/2026,06:30,Guangzhou E-Power,Ningbo Professional,2-0,Final
+1,14/03/2026,03:00,Wuxi Wugou,Foshan Nanshi,2-0,Final
+1,14/03/2026,03:00,Jiangxi Dingnan United,Guangxi Hengchen,2-1,Final
+1,14/03/2026,03:00,Guangdong GZ-Power,Ningbo Professional,2-0,Final
+1,14/03/2026,03:00,Meizhou Hakka,Yanbian Longding,0-3,Final
+1,14/03/2026,03:00,Nantong Zhiyun,Shijiazhuang Gongfu FC,2-1,Final
 1,15/03/2026,03:00,Shenzhen Juniors,Shaanxi Union,1-0,Final
-1,15/03/2026,06:00,Suzhou Dongwu,Dalian Huayi,1-2,Final
-1,15/03/2026,06:30,Nanjing City,Changchun Yatai,2-1,Final
-2,20/03/2026,06:00,Wuxi Wugou,Shenzhen Juniors,4-0,Final
-2,20/03/2026,07:00,Guangxi Hengchen,Ningbo Professional,2-1,Final
-2,21/03/2026,06:30,Meizhou Kejia,Suzhou Dongwu,1-2,Final
-2,21/03/2026,06:30,Heilongjiang Lava Spring,Nantong Zhiyun,1-1,Final
-2,21/03/2026,06:30,Nanjing City,Yanbian Longding,0-0,Final
-2,21/03/2026,06:30,Dongguan United,Guangzhou E-Power,2-3,Final
-2,21/03/2026,06:30,Hebei Kungfu,Changchun Yatai,1-0,Final
-3,04/04/2026,02:00,Dalian Huayi,Heilongjiang Lava Spring,1-1,Final
-3,04/04/2026,02:30,Ningbo Professional,Wuxi Wugou,2-3,Final
+1,15/03/2026,03:00,Suzhou Dongwu,Dalian K'un City,1-2,Final
+1,15/03/2026,03:00,Nanjing City,Changchun Yatai,2-1,Final
+2,20/03/2026,03:00,Wuxi Wugou,Shenzhen Juniors,4-0,Final
+2,20/03/2026,03:00,Guangxi Hengchen,Ningbo Professional,2-1,Final
+2,21/03/2026,03:00,Jiangxi Dingnan United,Nantong Zhiyun,1-1,Final
+2,21/03/2026,03:00,Foshan Nanshi,Guangdong GZ-Power,2-3,Final
+2,21/03/2026,03:00,Meizhou Hakka,Suzhou Dongwu,1-2,Final
+2,21/03/2026,03:00,Nanjing City,Yanbian Longding,0-0,Final
+2,21/03/2026,03:00,Shijiazhuang Gongfu FC,Changchun Yatai,1-0,Final
+2,27/09/2026,06:00,Shaanxi Union,Dalian K'un City,,
+3,04/04/2026,03:00,Dalian K'un City,Jiangxi Dingnan United,1-1,Final
+3,04/04/2026,03:00,Ningbo Professional,Wuxi Wugou,2-3,Final
 3,04/04/2026,03:00,Shenzhen Juniors,Yanbian Longding,1-0,Final
-3,04/04/2026,06:30,Nantong Zhiyun,Nanjing City,1-0,Final
-3,04/04/2026,06:30,Guangxi Hengchen,Guangzhou E-Power,1-0,Final
-3,05/04/2026,02:00,Shaanxi Union,Hebei Kungfu,1-0,Final
-3,05/04/2026,02:30,Changchun Yatai,Suzhou Dongwu,1-0,Final
-3,05/04/2026,02:30,Dongguan United,Meizhou Kejia,0-1,Final
-4,11/04/2026,02:30,Changchun Yatai,Shaanxi Union,2-1,Final
-4,11/04/2026,02:30,Ningbo Professional,Shenzhen Juniors,0-3,Final
-4,11/04/2026,06:30,Meizhou Kejia,Guangxi Hengchen,2-1,Final
-4,11/04/2026,06:30,Nantong Zhiyun,Suzhou Dongwu,1-0,Final
-4,11/04/2026,06:30,Guangzhou E-Power,Wuxi Wugou,1-0,Final
-4,12/04/2026,02:00,Dalian Huayi,Yanbian Longding,1-2,Final
-4,12/04/2026,06:30,Heilongjiang Lava Spring,Nanjing City,1-1,Final
-4,12/04/2026,06:30,Hebei Kungfu,Dongguan United,0-1,Final
-5,18/04/2026,02:00,Yanbian Longding,Ningbo Professional,0-0,Final
-5,18/04/2026,02:30,Dongguan United,Changchun Yatai,1-3,Final
-5,18/04/2026,02:30,Shaanxi Union,Nantong Zhiyun,0-0,Final
-5,18/04/2026,06:00,Suzhou Dongwu,Guangxi Hengchen,1-0,Final
-5,18/04/2026,06:30,Nanjing City,Shenzhen Juniors,1-3,Final
-5,19/04/2026,02:00,Wuxi Wugou,Dalian Huayi,2-3,Final
-5,19/04/2026,06:30,Hebei Kungfu,Heilongjiang Lava Spring,1-2,Final
-5,19/04/2026,06:30,Guangzhou E-Power,Meizhou Kejia,3-0,Final
-6,25/04/2026,02:00,Yanbian Longding,Shaanxi Union,0-0,Final
-6,25/04/2026,03:00,Shenzhen Juniors,Dongguan United,0-3,Final
-6,25/04/2026,06:00,Suzhou Dongwu,Heilongjiang Lava Spring,0-1,Final
-6,25/04/2026,06:30,Meizhou Kejia,Ningbo Professional,0-3,Final
-6,25/04/2026,06:30,Guangxi Hengchen,Nanjing City,1-0,Final
-6,26/04/2026,02:00,Wuxi Wugou,Hebei Kungfu,0-0,Final
-6,26/04/2026,02:30,Changchun Yatai,Guangzhou E-Power,1-2,Final
-6,26/04/2026,06:30,Nantong Zhiyun,Dalian Huayi,1-0,Final
-7,02/05/2026,02:00,Dalian Huayi,Dongguan United,2-2,Final
-7,02/05/2026,02:00,Yanbian Longding,Wuxi Wugou,1-1,Final
-7,02/05/2026,06:30,Heilongjiang Lava Spring,Shaanxi Union,1-1,Final
-7,02/05/2026,06:30,Hebei Kungfu,Guangxi Hengchen,0-3,Final
-7,02/05/2026,06:30,Guangzhou E-Power,Nantong Zhiyun,3-1,Final
-7,03/05/2026,06:00,Ningbo Professional,Changchun Yatai,3-1,Final
-7,03/05/2026,06:30,Meizhou Kejia,Shenzhen Juniors,1-4,Final
-7,03/05/2026,06:30,Nanjing City,Suzhou Dongwu,1-0,Final
-8,09/05/2026,06:30,Heilongjiang Lava Spring,Changchun Yatai,2-3,Final
-8,09/05/2026,06:30,Nanjing City,Meizhou Kejia,2-0,Final
-8,10/05/2026,02:00,Dalian Huayi,Guangzhou E-Power,1-1,Final
-8,10/05/2026,02:00,Yanbian Longding,Guangxi Hengchen,1-1,Final
-8,10/05/2026,02:00,Shaanxi Union,Ningbo Professional,1-1,Final
-8,10/05/2026,06:00,Shenzhen Juniors,Hebei Kungfu,2-0,Final
-8,10/05/2026,06:30,Nantong Zhiyun,Wuxi Wugou,1-0,Final
-8,10/05/2026,06:30,Dongguan United,Suzhou Dongwu,1-1,Final
-9,23/05/2026,06:00,Wuxi Wugou,Nanjing City,1-1,Final
-9,23/05/2026,06:00,Ningbo Professional,Dalian Huayi,1-0,Final
-9,23/05/2026,06:30,Dongguan United,Heilongjiang Lava Spring,1-1,Final
-9,23/05/2026,06:30,Guangxi Hengchen,Nantong Zhiyun,0-0,Final
-9,24/05/2026,02:30,Changchun Yatai,Shenzhen Juniors,0-4,Final
-9,24/05/2026,06:00,Suzhou Dongwu,Shaanxi Union,0-3,Final
-9,24/05/2026,06:30,Hebei Kungfu,Meizhou Kejia,0-1,Final
-9,24/05/2026,06:30,Guangzhou E-Power,Yanbian Longding,3-4,Final
-10,29/05/2026,02:00,Shaanxi Union,Nanjing City,0-1,Final
-10,29/05/2026,06:00,Ningbo Professional,Nantong Zhiyun,1-1,Final
-10,29/05/2026,06:30,Guangzhou E-Power,Shenzhen Juniors,0-0,Final
-10,30/05/2026,02:00,Yanbian Longding,Changchun Yatai,2-2,Final
-10,30/05/2026,06:00,Dalian Huayi,Hebei Kungfu,0-0,Final
-10,30/05/2026,06:00,Suzhou Dongwu,Wuxi Wugou,1-3,Final
-10,30/05/2026,06:30,Meizhou Kejia,Heilongjiang Lava Spring,2-2,Final
-10,30/05/2026,06:30,Guangxi Hengchen,Dongguan United,3-3,Final
-11,13/06/2026,02:30,Changchun Yatai,Dalian Huayi,2-1,Final
-11,13/06/2026,06:30,Nanjing City,Ningbo Professional,1-2,Final
-11,13/06/2026,07:00,Heilongjiang Lava Spring,Guangzhou E-Power,1-3,Final
-11,14/06/2026,06:00,Wuxi Wugou,Meizhou Kejia,1-1,Final
-11,14/06/2026,06:00,Shenzhen Juniors,Guangxi Hengchen,1-1,Final
-11,14/06/2026,06:30,Hebei Kungfu,Suzhou Dongwu,1-1,Final
-11,14/06/2026,06:30,Nantong Zhiyun,Yanbian Longding,2-0,Final
-11,14/06/2026,06:30,Dongguan United,Shaanxi Union,0-5,Final
-12,27/06/2026,02:30,Changchun Yatai,Guangxi Hengchen,1-2,Final
-12,27/06/2026,06:00,Dalian Huayi,Shenzhen Juniors,5-4,Final
-12,27/06/2026,06:30,Nantong Zhiyun,Meizhou Kejia,1-3,Final
-12,27/06/2026,06:30,Dongguan United,Yanbian Longding,0-2,Final
-12,27/06/2026,06:30,Hebei Kungfu,Nanjing City,2-1,Final
-12,27/06/2026,06:30,Guangzhou E-Power,Shaanxi Union,2-1,Final
-12,28/06/2026,06:00,Suzhou Dongwu,Ningbo Professional,1-2,Final
-12,28/06/2026,07:00,Heilongjiang Lava Spring,Wuxi Wugou,3-3,Final
-13,04/07/2026,05:00,Yanbian Longding,Heilongjiang Lava Spring,3-0,Final
-13,04/07/2026,06:00,Suzhou Dongwu,Guangzhou E-Power,2-2,Final
-13,04/07/2026,06:00,Shenzhen Juniors,Nantong Zhiyun,0-0,Final
-13,04/07/2026,06:00,Shaanxi Union,Wuxi Wugou,2-1,Final
-13,04/07/2026,06:00,Ningbo Professional,Hebei Kungfu,2-1,Final
-13,05/07/2026,06:30,Meizhou Kejia,Changchun Yatai,1-3,Final
-13,05/07/2026,06:30,Nanjing City,Dongguan United,3-1,Final
-13,05/07/2026,06:30,Guangxi Hengchen,Dalian Huayi,3-1,Final
-14,11/07/2026,05:00,Yanbian Longding,Suzhou Dongwu,3-1,Final
-14,11/07/2026,06:00,Dalian Huayi,Nanjing City,2-0,Final
-14,11/07/2026,06:00,Wuxi Wugou,Guangxi Hengchen,,Aplazado
-14,11/07/2026,06:00,Shaanxi Union,Meizhou Kejia,4-0,Final
-14,11/07/2026,06:30,Guangzhou E-Power,Hebei Kungfu,2-0,Final
-14,12/07/2026,06:00,Shenzhen Juniors,Heilongjiang Lava Spring,3-3,Final
-14,12/07/2026,06:30,Nantong Zhiyun,Changchun Yatai,,Aplazado
-14,13/07/2026,06:00,Ningbo Professional,Dongguan United,1-0,Final
-15,17/07/2026,06:00,Changchun Yatai,Wuxi Wugou,1-5,Final
-15,17/07/2026,06:00,Suzhou Dongwu,Shenzhen Juniors,0-0,Final
-15,17/07/2026,06:30,Dongguan United,Nantong Zhiyun,1-2,Final
-15,17/07/2026,06:30,Hebei Kungfu,Yanbian Longding,0-0,Final
-15,18/07/2026,06:30,Meizhou Kejia,Dalian Huayi,2-0,Final
-15,18/07/2026,06:30,Nanjing City,Guangzhou E-Power,0-1,Final
-15,18/07/2026,06:30,Guangxi Hengchen,Shaanxi Union,3-0,Final
-15,18/07/2026,07:00,Heilongjiang Lava Spring,Ningbo Professional,0-1,Final
-16,25/07/2026,06:00,Changchun Yatai,Nanjing City,2-1,Final
-16,25/07/2026,06:00,Ningbo Professional,Guangzhou E-Power,1-2,Final
-16,25/07/2026,06:30,Dongguan United,Wuxi Wugou,0-2,Final
-16,25/07/2026,06:30,Hebei Kungfu,Nantong Zhiyun,1-1,Final
-16,25/07/2026,07:00,Shaanxi Union,Shenzhen Juniors,3-0,Final
-16,26/07/2026,05:00,Yanbian Longding,Meizhou Kejia,2-1,Final
-16,26/07/2026,06:00,Dalian Huayi,Suzhou Dongwu,0-0,Final
-16,26/07/2026,06:30,Guangxi Hengchen,Heilongjiang Lava Spring,4-4,Final
-17,01/08/2026,05:00,Yanbian Longding,Nanjing City,,
-17,01/08/2026,06:00,Dalian Huayi,Shaanxi Union,,
-17,01/08/2026,06:00,Ningbo Professional,Guangxi Hengchen,,
-17,01/08/2026,06:30,Nantong Zhiyun,Heilongjiang Lava Spring,,
-17,01/08/2026,06:30,Guangzhou E-Power,Dongguan United,,
-17,02/08/2026,06:00,Changchun Yatai,Hebei Kungfu,,
-17,02/08/2026,06:00,Suzhou Dongwu,Meizhou Kejia,,
-17,02/08/2026,06:00,Shenzhen Juniors,Wuxi Wugou,,
+3,04/04/2026,03:00,Guangxi Hengchen,Guangdong GZ-Power,1-0,Final
+3,04/04/2026,03:00,Nantong Zhiyun,Nanjing City,1-0,Final
+3,05/04/2026,03:00,Shaanxi Union,Shijiazhuang Gongfu FC,1-0,Final
+3,05/04/2026,03:00,Changchun Yatai,Suzhou Dongwu,1-0,Final
+3,05/04/2026,03:00,Foshan Nanshi,Meizhou Hakka,0-1,Final
+4,11/04/2026,03:00,Changchun Yatai,Shaanxi Union,2-1,Final
+4,11/04/2026,03:00,Ningbo Professional,Shenzhen Juniors,0-3,Final
+4,11/04/2026,03:00,Guangdong GZ-Power,Wuxi Wugou,1-0,Final
+4,11/04/2026,03:00,Meizhou Hakka,Guangxi Hengchen,2-1,Final
+4,11/04/2026,03:00,Nantong Zhiyun,Suzhou Dongwu,1-0,Final
+4,12/04/2026,03:00,Dalian K'un City,Yanbian Longding,1-2,Final
+4,12/04/2026,03:00,Jiangxi Dingnan United,Nanjing City,1-1,Final
+4,12/04/2026,03:00,Shijiazhuang Gongfu FC,Foshan Nanshi,0-1,Final
+5,18/04/2026,03:00,Yanbian Longding,Ningbo Professional,0-0,Final
+5,18/04/2026,03:00,Foshan Nanshi,Changchun Yatai,1-3,Final
+5,18/04/2026,03:00,Shaanxi Union,Nantong Zhiyun,0-0,Final
+5,18/04/2026,03:00,Suzhou Dongwu,Guangxi Hengchen,1-0,Final
+5,18/04/2026,03:00,Nanjing City,Shenzhen Juniors,1-3,Final
+5,19/04/2026,03:00,Wuxi Wugou,Dalian K'un City,2-3,Final
+5,19/04/2026,03:00,Guangdong GZ-Power,Meizhou Hakka,3-0,Final
+5,19/04/2026,03:00,Shijiazhuang Gongfu FC,Jiangxi Dingnan United,1-2,Final
+6,25/04/2026,03:00,Yanbian Longding,Shaanxi Union,0-0,Final
+6,25/04/2026,03:00,Shenzhen Juniors,Foshan Nanshi,0-3,Final
+6,25/04/2026,03:00,Suzhou Dongwu,Jiangxi Dingnan United,0-1,Final
+6,25/04/2026,03:00,Guangxi Hengchen,Nanjing City,1-0,Final
+6,25/04/2026,03:00,Meizhou Hakka,Ningbo Professional,0-3,Final
+6,26/04/2026,03:00,Wuxi Wugou,Shijiazhuang Gongfu FC,0-0,Final
+6,26/04/2026,03:00,Changchun Yatai,Guangdong GZ-Power,1-2,Final
+6,26/04/2026,03:00,Nantong Zhiyun,Dalian K'un City,1-0,Final
+7,02/05/2026,03:00,Dalian K'un City,Foshan Nanshi,2-2,Final
+7,02/05/2026,03:00,Yanbian Longding,Wuxi Wugou,1-1,Final
+7,02/05/2026,03:00,Jiangxi Dingnan United,Shaanxi Union,1-1,Final
+7,02/05/2026,03:00,Guangdong GZ-Power,Nantong Zhiyun,3-1,Final
+7,02/05/2026,03:00,Shijiazhuang Gongfu FC,Guangxi Hengchen,0-3,Final
+7,03/05/2026,03:00,Ningbo Professional,Changchun Yatai,3-1,Final
+7,03/05/2026,03:00,Meizhou Hakka,Shenzhen Juniors,1-4,Final
+7,03/05/2026,03:00,Nanjing City,Suzhou Dongwu,1-0,Final
+8,09/05/2026,03:00,Jiangxi Dingnan United,Changchun Yatai,2-3,Final
+8,09/05/2026,03:00,Nanjing City,Meizhou Hakka,2-0,Final
+8,10/05/2026,03:00,Dalian K'un City,Guangdong GZ-Power,1-1,Final
+8,10/05/2026,03:00,Yanbian Longding,Guangxi Hengchen,1-1,Final
+8,10/05/2026,03:00,Shaanxi Union,Ningbo Professional,1-1,Final
+8,10/05/2026,03:00,Shenzhen Juniors,Shijiazhuang Gongfu FC,2-0,Final
+8,10/05/2026,03:00,Foshan Nanshi,Suzhou Dongwu,1-1,Final
+8,10/05/2026,03:00,Nantong Zhiyun,Wuxi Wugou,1-0,Final
+9,23/05/2026,03:00,Ningbo Professional,Dalian K'un City,1-0,Final
+9,23/05/2026,03:00,Wuxi Wugou,Nanjing City,1-1,Final
+9,23/05/2026,03:00,Foshan Nanshi,Jiangxi Dingnan United,1-1,Final
+9,23/05/2026,03:00,Guangxi Hengchen,Nantong Zhiyun,0-0,Final
+9,24/05/2026,03:00,Changchun Yatai,Shenzhen Juniors,0-4,Final
+9,24/05/2026,03:00,Suzhou Dongwu,Shaanxi Union,0-3,Final
+9,24/05/2026,03:00,Guangdong GZ-Power,Yanbian Longding,3-4,Final
+9,24/05/2026,03:00,Shijiazhuang Gongfu FC,Meizhou Hakka,0-1,Final
+10,29/05/2026,03:00,Shaanxi Union,Nanjing City,0-1,Final
+10,29/05/2026,03:00,Ningbo Professional,Nantong Zhiyun,1-1,Final
+10,29/05/2026,03:00,Guangdong GZ-Power,Shenzhen Juniors,0-0,Final
+10,30/05/2026,03:00,Yanbian Longding,Changchun Yatai,2-2,Final
+10,30/05/2026,03:00,Dalian K'un City,Shijiazhuang Gongfu FC,0-0,Final
+10,30/05/2026,03:00,Suzhou Dongwu,Wuxi Wugou,1-3,Final
+10,30/05/2026,03:00,Guangxi Hengchen,Foshan Nanshi,3-3,Final
+10,30/05/2026,03:00,Meizhou Hakka,Jiangxi Dingnan United,2-2,Final
+11,13/06/2026,03:00,Changchun Yatai,Dalian K'un City,2-1,Final
+11,13/06/2026,03:00,Nanjing City,Ningbo Professional,1-2,Final
+11,13/06/2026,03:00,Shijiazhuang Gongfu FC,Suzhou Dongwu,1-1,Final
+11,13/06/2026,03:00,Jiangxi Dingnan United,Guangdong GZ-Power,1-3,Final
+11,14/06/2026,03:00,Shenzhen Juniors,Guangxi Hengchen,1-1,Final
+11,14/06/2026,03:00,Wuxi Wugou,Meizhou Hakka,1-1,Final
+11,14/06/2026,03:00,Foshan Nanshi,Shaanxi Union,0-5,Final
+11,14/06/2026,03:00,Nantong Zhiyun,Yanbian Longding,2-0,Final
+12,27/06/2026,03:00,Changchun Yatai,Guangxi Hengchen,1-2,Final
+12,27/06/2026,03:00,Dalian K'un City,Shenzhen Juniors,5-4,Final
+12,27/06/2026,03:00,Foshan Nanshi,Yanbian Longding,0-2,Final
+12,27/06/2026,03:00,Guangdong GZ-Power,Shaanxi Union,2-1,Final
+12,27/06/2026,03:00,Nantong Zhiyun,Meizhou Hakka,1-3,Final
+12,27/06/2026,03:00,Shijiazhuang Gongfu FC,Nanjing City,2-1,Final
+12,28/06/2026,03:00,Suzhou Dongwu,Ningbo Professional,1-2,Final
+12,28/06/2026,03:00,Jiangxi Dingnan United,Wuxi Wugou,3-3,Final
+13,04/07/2026,03:00,Yanbian Longding,Jiangxi Dingnan United,3-0,Final
+13,04/07/2026,03:00,Ningbo Professional,Shijiazhuang Gongfu FC,2-1,Final
+13,04/07/2026,03:00,Shaanxi Union,Wuxi Wugou,2-1,Final
+13,04/07/2026,03:00,Shenzhen Juniors,Nantong Zhiyun,0-0,Final
+13,04/07/2026,03:00,Suzhou Dongwu,Guangdong GZ-Power,2-2,Final
+13,05/07/2026,03:00,Guangxi Hengchen,Dalian K'un City,3-1,Final
+13,05/07/2026,03:00,Meizhou Hakka,Changchun Yatai,1-3,Final
+13,05/07/2026,03:00,Nanjing City,Foshan Nanshi,3-1,Final
+14,11/07/2026,03:00,Yanbian Longding,Suzhou Dongwu,3-1,Final
+14,11/07/2026,03:00,Dalian K'un City,Nanjing City,2-0,Final
+14,11/07/2026,03:00,Shaanxi Union,Meizhou Hakka,4-0,Final
+14,11/07/2026,03:00,Guangdong GZ-Power,Shijiazhuang Gongfu FC,2-0,Final
+14,12/07/2026,03:00,Shenzhen Juniors,Jiangxi Dingnan United,3-3,Final
+14,13/07/2026,03:00,Ningbo Professional,Foshan Nanshi,1-0,Final
+14,26/09/2026,06:00,Wuxi Wugou,Guangxi Hengchen,,
+14,26/09/2026,06:30,Nantong Zhiyun,Changchun Yatai,,
+15,17/07/2026,03:00,Changchun Yatai,Wuxi Wugou,1-5,Final
+15,17/07/2026,03:00,Suzhou Dongwu,Shenzhen Juniors,0-0,Final
+15,17/07/2026,03:00,Foshan Nanshi,Nantong Zhiyun,1-2,Final
+15,17/07/2026,03:00,Shijiazhuang Gongfu FC,Yanbian Longding,0-0,Final
+15,18/07/2026,03:00,Guangxi Hengchen,Shaanxi Union,3-0,Final
+15,18/07/2026,03:00,Meizhou Hakka,Dalian K'un City,2-0,Final
+15,18/07/2026,03:00,Nanjing City,Guangdong GZ-Power,0-1,Final
+15,18/07/2026,03:00,Jiangxi Dingnan United,Ningbo Professional,0-1,Final
+16,25/07/2026,03:00,Changchun Yatai,Nanjing City,2-1,Final
+16,25/07/2026,03:00,Ningbo Professional,Guangdong GZ-Power,1-2,Final
+16,25/07/2026,03:00,Shaanxi Union,Shenzhen Juniors,3-0,Final
+16,25/07/2026,03:00,Foshan Nanshi,Wuxi Wugou,0-2,Final
+16,25/07/2026,03:00,Shijiazhuang Gongfu FC,Nantong Zhiyun,1-1,Final
+16,26/07/2026,03:00,Yanbian Longding,Meizhou Hakka,2-1,Final
+16,26/07/2026,03:00,Dalian K'un City,Suzhou Dongwu,0-0,Final
+16,26/07/2026,03:00,Guangxi Hengchen,Jiangxi Dingnan United,4-4,Final
+17,01/08/2026,03:00,Yanbian Longding,Nanjing City,1-1,Final
+17,01/08/2026,03:00,Dalian K'un City,Shaanxi Union,2-2,Final
+17,01/08/2026,03:00,Ningbo Professional,Guangxi Hengchen,2-4,Final
+17,01/08/2026,03:00,Guangdong GZ-Power,Foshan Nanshi,1-1,Final
+17,01/08/2026,03:00,Nantong Zhiyun,Jiangxi Dingnan United,5-1,Final
+17,02/08/2026,03:00,Changchun Yatai,Shijiazhuang Gongfu FC,2-2,Final
+17,02/08/2026,03:00,Shenzhen Juniors,Wuxi Wugou,1-0,Final
+17,02/08/2026,03:00,Suzhou Dongwu,Meizhou Hakka,1-0,Final
 18,08/08/2026,06:00,Suzhou Dongwu,Changchun Yatai,,
-18,08/08/2026,06:30,Meizhou Kejia,Dongguan United,,
+18,08/08/2026,06:30,Meizhou Hakka,Foshan Nanshi,,
 18,08/08/2026,06:30,Nanjing City,Nantong Zhiyun,,
-18,08/08/2026,06:30,Hebei Kungfu,Shaanxi Union,,
-18,08/08/2026,07:00,Heilongjiang Lava Spring,Dalian Huayi,,
+18,08/08/2026,06:30,Shijiazhuang Gongfu FC,Shaanxi Union,,
+18,08/08/2026,07:00,Jiangxi Dingnan United,Dalian K'un City,,
 18,09/08/2026,05:00,Yanbian Longding,Shenzhen Juniors,,
 18,09/08/2026,06:00,Wuxi Wugou,Ningbo Professional,,
-18,09/08/2026,06:30,Guangzhou E-Power,Guangxi Hengchen,,
-19,15/08/2026,05:00,Yanbian Longding,Dalian Huayi,,
-19,15/08/2026,06:00,Wuxi Wugou,Guangzhou E-Power,,
+18,09/08/2026,06:30,Guangdong GZ-Power,Guangxi Hengchen,,
+19,15/08/2026,05:00,Yanbian Longding,Dalian K'un City,,
 19,15/08/2026,06:00,Shaanxi Union,Changchun Yatai,,
-19,15/08/2026,06:30,Guangxi Hengchen,Meizhou Kejia,,
-19,16/08/2026,06:00,Suzhou Dongwu,Nantong Zhiyun,,
+19,15/08/2026,06:00,Wuxi Wugou,Guangdong GZ-Power,,
+19,15/08/2026,06:30,Guangxi Hengchen,Meizhou Hakka,,
 19,16/08/2026,06:00,Shenzhen Juniors,Ningbo Professional,,
-19,16/08/2026,06:30,Nanjing City,Heilongjiang Lava Spring,,
-19,16/08/2026,06:30,Dongguan United,Hebei Kungfu,,
-20,22/08/2026,06:00,Dalian Huayi,Wuxi Wugou,,
+19,16/08/2026,06:00,Suzhou Dongwu,Nantong Zhiyun,,
+19,16/08/2026,06:30,Foshan Nanshi,Shijiazhuang Gongfu FC,,
+19,16/08/2026,06:30,Nanjing City,Jiangxi Dingnan United,,
+20,22/08/2026,06:00,Dalian K'un City,Wuxi Wugou,,
 20,22/08/2026,06:00,Ningbo Professional,Yanbian Longding,,
-20,22/08/2026,06:30,Meizhou Kejia,Guangzhou E-Power,,
-20,22/08/2026,06:30,Nantong Zhiyun,Shaanxi Union,,
 20,22/08/2026,06:30,Guangxi Hengchen,Suzhou Dongwu,,
-20,23/08/2026,06:00,Changchun Yatai,Dongguan United,,
+20,22/08/2026,06:30,Meizhou Hakka,Guangdong GZ-Power,,
+20,22/08/2026,06:30,Nantong Zhiyun,Shaanxi Union,,
+20,23/08/2026,06:00,Changchun Yatai,Foshan Nanshi,,
 20,23/08/2026,06:00,Shenzhen Juniors,Nanjing City,,
-20,23/08/2026,07:00,Heilongjiang Lava Spring,Hebei Kungfu,,
+20,23/08/2026,07:00,Jiangxi Dingnan United,Shijiazhuang Gongfu FC,,
 21,29/08/2026,06:00,Shaanxi Union,Yanbian Longding,,
+21,29/08/2026,06:30,Foshan Nanshi,Shenzhen Juniors,,
 21,29/08/2026,06:30,Nanjing City,Guangxi Hengchen,,
-21,29/08/2026,06:30,Dongguan United,Shenzhen Juniors,,
-21,29/08/2026,06:30,Hebei Kungfu,Wuxi Wugou,,
-21,29/08/2026,07:00,Heilongjiang Lava Spring,Suzhou Dongwu,,
-21,30/08/2026,06:00,Dalian Huayi,Nantong Zhiyun,,
-21,30/08/2026,06:00,Ningbo Professional,Meizhou Kejia,,
-21,30/08/2026,06:30,Guangzhou E-Power,Changchun Yatai,,
+21,29/08/2026,06:30,Shijiazhuang Gongfu FC,Wuxi Wugou,,
+21,29/08/2026,07:00,Jiangxi Dingnan United,Suzhou Dongwu,,
+21,30/08/2026,06:00,Dalian K'un City,Nantong Zhiyun,,
+21,30/08/2026,06:00,Ningbo Professional,Meizhou Hakka,,
+21,30/08/2026,06:30,Guangdong GZ-Power,Changchun Yatai,,
 22,05/09/2026,06:00,Changchun Yatai,Ningbo Professional,,
+22,05/09/2026,06:00,Shaanxi Union,Jiangxi Dingnan United,,
 22,05/09/2026,06:00,Wuxi Wugou,Yanbian Longding,,
-22,05/09/2026,06:00,Shaanxi Union,Heilongjiang Lava Spring,,
-22,05/09/2026,06:30,Nantong Zhiyun,Guangzhou E-Power,,
-22,05/09/2026,06:30,Dongguan United,Dalian Huayi,,
+22,05/09/2026,06:30,Foshan Nanshi,Dalian K'un City,,
+22,05/09/2026,06:30,Nantong Zhiyun,Guangdong GZ-Power,,
+22,06/09/2026,06:00,Shenzhen Juniors,Meizhou Hakka,,
 22,06/09/2026,06:00,Suzhou Dongwu,Nanjing City,,
-22,06/09/2026,06:00,Shenzhen Juniors,Meizhou Kejia,,
-22,06/09/2026,06:30,Guangxi Hengchen,Hebei Kungfu,,
-23,12/09/2026,06:00,Changchun Yatai,Heilongjiang Lava Spring,,
-23,12/09/2026,06:00,Suzhou Dongwu,Dongguan United,,
+22,06/09/2026,06:30,Guangxi Hengchen,Shijiazhuang Gongfu FC,,
+23,12/09/2026,06:00,Changchun Yatai,Jiangxi Dingnan United,,
 23,12/09/2026,06:00,Ningbo Professional,Shaanxi Union,,
+23,12/09/2026,06:00,Suzhou Dongwu,Foshan Nanshi,,
+23,12/09/2026,06:30,Guangdong GZ-Power,Dalian K'un City,,
 23,12/09/2026,06:30,Guangxi Hengchen,Yanbian Longding,,
-23,12/09/2026,06:30,Guangzhou E-Power,Dalian Huayi,,
 23,13/09/2026,06:00,Wuxi Wugou,Nantong Zhiyun,,
-23,13/09/2026,06:30,Meizhou Kejia,Nanjing City,,
-23,13/09/2026,06:30,Hebei Kungfu,Shenzhen Juniors,,
-24,18/09/2026,05:00,Yanbian Longding,Guangzhou E-Power,,
-24,18/09/2026,06:00,Dalian Huayi,Ningbo Professional,,
+23,13/09/2026,06:30,Meizhou Hakka,Nanjing City,,
+23,13/09/2026,06:30,Shijiazhuang Gongfu FC,Shenzhen Juniors,,
+24,18/09/2026,05:00,Yanbian Longding,Guangdong GZ-Power,,
+24,18/09/2026,06:00,Dalian K'un City,Ningbo Professional,,
 24,18/09/2026,06:30,Nantong Zhiyun,Guangxi Hengchen,,
-24,19/09/2026,06:00,Shenzhen Juniors,Changchun Yatai,,
 24,19/09/2026,06:00,Shaanxi Union,Suzhou Dongwu,,
-24,19/09/2026,06:30,Meizhou Kejia,Hebei Kungfu,,
-24,19/09/2026,06:30,Heilongjiang Lava Spring,Dongguan United,,
+24,19/09/2026,06:00,Shenzhen Juniors,Changchun Yatai,,
+24,19/09/2026,06:30,Jiangxi Dingnan United,Foshan Nanshi,,
+24,19/09/2026,06:30,Meizhou Hakka,Shijiazhuang Gongfu FC,,
 24,19/09/2026,06:30,Nanjing City,Wuxi Wugou,,
-2,27/09/2026,06:00,Shaanxi Union,Dalian Huayi,,
 25,06/10/2026,06:00,Changchun Yatai,Yanbian Longding,,
 25,06/10/2026,06:00,Wuxi Wugou,Suzhou Dongwu,,
-25,06/10/2026,06:30,Heilongjiang Lava Spring,Meizhou Kejia,,
+25,06/10/2026,06:30,Jiangxi Dingnan United,Meizhou Hakka,,
 25,06/10/2026,06:30,Nantong Zhiyun,Ningbo Professional,,
-25,06/10/2026,06:30,Hebei Kungfu,Dalian Huayi,,
-25,07/10/2026,06:00,Shenzhen Juniors,Guangzhou E-Power,,
+25,06/10/2026,06:30,Shijiazhuang Gongfu FC,Dalian K'un City,,
+25,07/10/2026,06:00,Shenzhen Juniors,Guangdong GZ-Power,,
+25,07/10/2026,06:30,Foshan Nanshi,Guangxi Hengchen,,
 25,07/10/2026,06:30,Nanjing City,Shaanxi Union,,
-25,07/10/2026,06:30,Dongguan United,Guangxi Hengchen,,
-26,10/10/2026,06:00,Dalian Huayi,Changchun Yatai,,
-26,10/10/2026,06:00,Suzhou Dongwu,Hebei Kungfu,,
-26,10/10/2026,06:30,Meizhou Kejia,Wuxi Wugou,,
+26,10/10/2026,06:00,Dalian K'un City,Changchun Yatai,,
+26,10/10/2026,06:00,Suzhou Dongwu,Shijiazhuang Gongfu FC,,
+26,10/10/2026,06:30,Meizhou Hakka,Wuxi Wugou,,
 26,11/10/2026,02:00,Yanbian Longding,Nantong Zhiyun,,
-26,11/10/2026,06:00,Shaanxi Union,Dongguan United,,
 26,11/10/2026,06:00,Ningbo Professional,Nanjing City,,
+26,11/10/2026,06:00,Shaanxi Union,Foshan Nanshi,,
+26,11/10/2026,06:30,Guangdong GZ-Power,Jiangxi Dingnan United,,
 26,11/10/2026,06:30,Guangxi Hengchen,Shenzhen Juniors,,
-26,11/10/2026,06:30,Guangzhou E-Power,Heilongjiang Lava Spring,,
-27,17/10/2026,02:00,Yanbian Longding,Dongguan United,,
-27,17/10/2026,06:00,Wuxi Wugou,Heilongjiang Lava Spring,,
-27,17/10/2026,06:00,Shenzhen Juniors,Dalian Huayi,,
+27,17/10/2026,02:00,Yanbian Longding,Foshan Nanshi,,
 27,17/10/2026,06:00,Ningbo Professional,Suzhou Dongwu,,
+27,17/10/2026,06:00,Shenzhen Juniors,Dalian K'un City,,
+27,17/10/2026,06:00,Wuxi Wugou,Jiangxi Dingnan United,,
 27,17/10/2026,06:30,Guangxi Hengchen,Changchun Yatai,,
-27,18/10/2026,06:00,Shaanxi Union,Guangzhou E-Power,,
-27,18/10/2026,06:30,Meizhou Kejia,Nantong Zhiyun,,
-27,18/10/2026,06:30,Nanjing City,Hebei Kungfu,,
-28,24/10/2026,02:00,Dalian Huayi,Guangxi Hengchen,,
-28,24/10/2026,02:30,Changchun Yatai,Meizhou Kejia,,
+27,18/10/2026,06:00,Shaanxi Union,Guangdong GZ-Power,,
+27,18/10/2026,06:30,Meizhou Hakka,Nantong Zhiyun,,
+27,18/10/2026,06:30,Nanjing City,Shijiazhuang Gongfu FC,,
+28,24/10/2026,02:00,Dalian K'un City,Guangxi Hengchen,,
+28,24/10/2026,02:30,Changchun Yatai,Meizhou Hakka,,
+28,24/10/2026,06:30,Foshan Nanshi,Nanjing City,,
 28,24/10/2026,06:30,Nantong Zhiyun,Shenzhen Juniors,,
-28,24/10/2026,06:30,Dongguan United,Nanjing City,,
-28,24/10/2026,06:30,Hebei Kungfu,Ningbo Professional,,
-28,25/10/2026,06:00,Wuxi Wugou,Shaanxi Union,,
-28,25/10/2026,06:30,Heilongjiang Lava Spring,Yanbian Longding,,
-28,25/10/2026,06:30,Guangzhou E-Power,Suzhou Dongwu,,
-29,31/10/2026,01:30,Changchun Yatai,Nantong Zhiyun,,
-29,31/10/2026,01:30,Meizhou Kejia,Shaanxi Union,,
-29,31/10/2026,01:30,Heilongjiang Lava Spring,Shenzhen Juniors,,
-29,31/10/2026,01:30,Suzhou Dongwu,Yanbian Longding,,
-29,31/10/2026,01:30,Nanjing City,Dalian Huayi,,
-29,31/10/2026,01:30,Dongguan United,Ningbo Professional,,
-29,31/10/2026,01:30,Hebei Kungfu,Guangzhou E-Power,,
-29,31/10/2026,01:30,Guangxi Hengchen,Wuxi Wugou,,
-30,07/11/2026,01:30,Nantong Zhiyun,Dongguan United,,
-30,07/11/2026,01:30,Dalian Huayi,Meizhou Kejia,,
-30,07/11/2026,01:30,Wuxi Wugou,Changchun Yatai,,
-30,07/11/2026,01:30,Yanbian Longding,Hebei Kungfu,,
-30,07/11/2026,01:30,Shenzhen Juniors,Suzhou Dongwu,,
-30,07/11/2026,01:30,Guangzhou E-Power,Nanjing City,,
-30,07/11/2026,01:30,Shaanxi Union,Guangxi Hengchen,,
-30,07/11/2026,01:30,Ningbo Professional,Heilongjiang Lava Spring,,
+28,24/10/2026,06:30,Shijiazhuang Gongfu FC,Ningbo Professional,,
+28,25/10/2026,05:00,Wuxi Wugou,Shaanxi Union,,
+28,25/10/2026,05:30,Jiangxi Dingnan United,Yanbian Longding,,
+28,25/10/2026,05:30,Guangdong GZ-Power,Suzhou Dongwu,,
+29,31/10/2026,00:30,Changchun Yatai,Nantong Zhiyun,,
+29,31/10/2026,00:30,Jiangxi Dingnan United,Shenzhen Juniors,,
+29,31/10/2026,00:30,Foshan Nanshi,Ningbo Professional,,
+29,31/10/2026,00:30,Guangxi Hengchen,Wuxi Wugou,,
+29,31/10/2026,00:30,Meizhou Hakka,Shaanxi Union,,
+29,31/10/2026,00:30,Nanjing City,Dalian K'un City,,
+29,31/10/2026,00:30,Shijiazhuang Gongfu FC,Guangdong GZ-Power,,
+29,31/10/2026,00:30,Suzhou Dongwu,Yanbian Longding,,
+30,07/11/2026,00:30,Dalian K'un City,Meizhou Hakka,,
+30,07/11/2026,00:30,Guangdong GZ-Power,Nanjing City,,
+30,07/11/2026,00:30,Nantong Zhiyun,Foshan Nanshi,,
+30,07/11/2026,00:30,Ningbo Professional,Jiangxi Dingnan United,,
+30,07/11/2026,00:30,Shaanxi Union,Guangxi Hengchen,,
+30,07/11/2026,00:30,Shenzhen Juniors,Suzhou Dongwu,,
+30,07/11/2026,00:30,Wuxi Wugou,Changchun Yatai,,
+30,07/11/2026,00:30,Yanbian Longding,Shijiazhuang Gongfu FC,,

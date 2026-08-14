@@ -1,10 +1,10 @@
 ﻿matchday,date,time,home_team,away_team,result,status
-1,14/08/2026,03:00,Araz-Naxçıvan PFK,İmişli FK,,
-1,14/08/2026,03:00,Kapaz PFK,Sabah FK,,
-1,14/08/2026,03:00,Turan Tovuz,Gabala FK,,
-1,14/08/2026,03:00,Qarabağ FK,Şamaxı FK,,
-1,14/08/2026,03:00,Sumgayıt FK,Neftçi PFK,,
-1,14/08/2026,03:00,Zira FK,Shafa FK,,
+1,14/08/2026,03:00,Turan Tovuz,Gabala FK,1-0,Final
+1,15/08/2026,09:30,Araz-Naxçıvan PFK,İmişli FK,,
+1,15/08/2026,11:45,Sabah FK,Kapaz PFK,,
+1,16/08/2026,10:00,Sumgayıt FK,Neftçi PFK,,
+1,16/08/2026,12:00,Zira FK,Shafa FK,,
+1,17/08/2026,10:30,Qarabağ FK,Şamaxı FK,,
 2,22/08/2026,10:00,Neftçi PFK,Araz-Naxçıvan PFK,,
 2,22/08/2026,10:00,Turan Tovuz,Şamaxı FK,,
 2,22/08/2026,10:00,Gabala FK,Shafa FK,,

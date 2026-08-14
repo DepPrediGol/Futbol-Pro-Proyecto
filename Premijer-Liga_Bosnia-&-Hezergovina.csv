@@ -1,14 +1,14 @@
 ﻿matchday,date,time,home_team,away_team,result,status
-1,07/08/2026,13:00,Željezničar Sarajevo,BSK Banja Luka,,
-1,08/08/2026,14:00,FK Sarajevo,Radnik Bijeljina,,
-1,08/08/2026,14:00,Široki Brijeg,Sloga Doboj,,
-1,09/08/2026,11:30,Borac Banja Luka,Velež Mostar,,
-1,09/08/2026,14:00,Zrinjski Mostar,Čelik Zenica,,
-2,15/08/2026,10:00,BSK Banja Luka,Velež Mostar,,
-2,15/08/2026,10:00,Čelik Zenica,Široki Brijeg,,
-2,15/08/2026,10:00,Radnik Bijeljina,Zrinjski Mostar,,
-2,15/08/2026,10:00,Sloga Doboj,Borac Banja Luka,,
+1,07/08/2026,03:00,Željezničar Sarajevo,BSK Banja Luka,2-1,Final
+1,08/08/2026,03:00,FK Sarajevo,Radnik Bijeljina,0-0,Final
+1,08/08/2026,03:00,Široki Brijeg,Sloga Doboj,0-0,Final
+1,09/08/2026,03:00,Borac Banja Luka,Velež Mostar,3-1,Final
+1,09/08/2026,03:00,Zrinjski Mostar,Čelik Zenica,2-1,Final
+2,14/08/2026,03:00,Čelik Zenica,Široki Brijeg,1-2,Final
 2,15/08/2026,10:00,Željezničar Sarajevo,FK Sarajevo,,
+2,16/08/2026,10:00,BSK Banja Luka,Velež Mostar,,
+2,16/08/2026,14:00,Radnik Bijeljina,Zrinjski Mostar,,
+2,17/08/2026,14:00,Sloga Doboj,Borac Banja Luka,,
 3,22/08/2026,10:00,FK Sarajevo,BSK Banja Luka,,
 3,22/08/2026,10:00,Široki Brijeg,Radnik Bijeljina,,
 3,22/08/2026,10:00,Velež Mostar,Sloga Doboj,,

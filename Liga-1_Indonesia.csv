@@ -1,307 +1,307 @@
 ﻿matchday,date,time,home_team,away_team,result,status
-1,08/08/2025,03:00,Borneo FC,Bhayangkara Presisi Indonesia,1-0,Final
-1,08/08/2025,03:00,Persebaya Surabaya,PSIM Yogyakarta,0-1,Final
-1,08/08/2025,03:00,PSM Makassar,Persijap Jepara,1-1,Final
-1,09/08/2025,03:00,Persib Bandung,Semen Padang,2-0,Final
-1,09/08/2025,03:00,Dewa United FC,Malut United FC,1-3,Final
-1,09/08/2025,03:00,Madura United,Persis Solo (LI),1-2,Final
-1,10/08/2025,03:00,Bali United,Persik Kediri,1-1,Final
-1,10/08/2025,03:00,Persija Jakarta,Persita Tangerang,4-0,Final
-1,11/08/2025,03:00,Arema Cronus FC,PSBS Biak,4-1,Final
-2,15/08/2025,03:00,Semen Padang,Dewa United FC,2-0,Final
-2,15/08/2025,03:00,Malut United FC,Bali United,3-3,Final
-2,16/08/2025,03:00,Persik Kediri,Madura United,1-2,Final
-2,16/08/2025,03:00,PSIM Yogyakarta,Arema Cronus FC,1-1,Final
-2,16/08/2025,03:00,Bhayangkara Presisi Indonesia,PSM Makassar,1-1,Final
-2,16/08/2025,03:00,Persita Tangerang,Persebaya Surabaya,0-1,Final
-2,16/08/2025,03:00,Persis Solo (LI),Persija Jakarta,0-3,Final
-2,18/08/2025,03:00,PSBS Biak,Borneo FC,0-1,Final
-2,18/08/2025,03:00,Persijap Jepara,Persib Bandung,2-1,Final
-3,22/08/2025,03:00,Arema Cronus FC,Bhayangkara Presisi Indonesia,2-1,Final
-3,22/08/2025,03:00,Semen Padang,PSM Makassar,1-1,Final
-3,23/08/2025,03:00,Persija Jakarta,Malut United FC,1-1,Final
-3,23/08/2025,03:00,PSBS Biak,Persis Solo (LI),2-2,Final
-3,23/08/2025,03:00,Persebaya Surabaya,Bali United,5-2,Final
-3,24/08/2025,03:00,Borneo FC,Persijap Jepara,3-1,Final
-3,24/08/2025,03:00,PSIM Yogyakarta,Persib Bandung,1-1,Final
-3,24/08/2025,03:00,Madura United,Persita Tangerang,1-1,Final
-3,07/02/2026,03:00,Persik Kediri,Dewa United FC,2-1,Final
-4,29/08/2025,03:00,Bhayangkara Presisi Indonesia,Persis Solo (LI),2-0,Final
-4,29/08/2025,03:00,PSBS Biak,Persik Kediri,1-2,Final
-4,29/08/2025,03:00,Dewa United FC,Persija Jakarta,1-3,Final
-4,30/08/2025,03:00,Persijap Jepara,Arema Cronus FC,0-0,Final
-4,30/08/2025,03:00,Bali United,Madura United,1-0,Final
-4,30/08/2025,03:00,Malut United FC,PSIM Yogyakarta,0-2,Final
-4,04/10/2025,03:00,Persita Tangerang,Semen Padang,2-0,Final
-4,05/12/2025,03:00,Persib Bandung,Borneo FC,3-1,Final
-4,06/12/2025,03:00,PSM Makassar,Persebaya Surabaya,1-1,Final
-5,11/09/2025,03:00,Semen Padang,PSBS Biak,1-2,Final
-5,11/09/2025,03:00,Persita Tangerang,PSM Makassar,2-1,Final
-5,12/09/2025,03:00,Persib Bandung,Persebaya Surabaya,1-0,Final
-5,12/09/2025,03:00,Persik Kediri,Malut United FC,2-1,Final
-5,12/09/2025,03:00,Madura United,Bhayangkara Presisi Indonesia,0-0,Final
-5,13/09/2025,03:00,Arema Cronus FC,Dewa United FC,1-2,Final
-5,13/09/2025,03:00,Persis Solo (LI),Persijap Jepara,1-2,Final
-5,14/09/2025,03:00,PSIM Yogyakarta,Borneo FC,1-3,Final
-5,14/09/2025,03:00,Persija Jakarta,Bali United,1-1,Final
-6,19/09/2025,03:00,Bhayangkara Presisi Indonesia,Persik Kediri,1-0,Final
-6,19/09/2025,03:00,Malut United FC,Madura United,4-1,Final
-6,19/09/2025,03:00,Persebaya Surabaya,Semen Padang,1-0,Final
-6,20/09/2025,03:00,Dewa United FC,PSBS Biak,3-1,Final
-6,20/09/2025,03:00,Bali United,PSIM Yogyakarta,1-3,Final
-6,21/09/2025,03:00,Persijap Jepara,Persita Tangerang,1-2,Final
-6,21/09/2025,03:00,PSM Makassar,Persija Jakarta,2-0,Final
-6,22/09/2025,03:00,Arema Cronus FC,Persib Bandung,1-2,Final
-6,22/09/2025,03:00,Borneo FC,Persis Solo (LI),1-0,Final
-7,25/09/2025,03:00,Bhayangkara Presisi Indonesia,Malut United FC,0-1,Final
-7,25/09/2025,03:00,PSBS Biak,Madura United,0-0,Final
-7,26/09/2025,03:00,Semen Padang,Bali United,1-3,Final
-7,26/09/2025,03:00,Dewa United FC,Persebaya Surabaya,1-1,Final
-7,27/09/2025,03:00,PSM Makassar,PSIM Yogyakarta,0-0,Final
-7,27/09/2025,03:00,Persijap Jepara,Persik Kediri,0-2,Final
-7,27/09/2025,03:00,Persita Tangerang,Persib Bandung,2-1,Final
-7,28/09/2025,03:00,Persis Solo (LI),Arema Cronus FC,2-2,Final
-7,28/09/2025,03:00,Borneo FC,Persija Jakarta,3-1,Final
-8,27/12/2025,03:00,Persik Kediri,Persis Solo (LI),2-1,Final
-8,27/12/2025,03:00,Persib Bandung,PSM Makassar,1-0,Final
-8,28/12/2025,03:00,Malut United FC,Borneo FC,3-2,Final
-8,28/12/2025,03:00,Persebaya Surabaya,Persijap Jepara,4-0,Final
-8,28/12/2025,03:00,Madura United,Semen Padang,5-1,Final
-8,29/12/2025,03:00,PSIM Yogyakarta,PSBS Biak,2-2,Final
-8,29/12/2025,03:00,Bali United,Dewa United FC,0-0,Final
-8,29/12/2025,03:00,Persija Jakarta,Bhayangkara Presisi Indonesia,3-0,Final
-8,30/12/2025,03:00,Arema Cronus FC,Persita Tangerang,0-1,Final
-9,16/10/2025,03:00,Dewa United FC,Madura United,0-2,Final
-9,17/10/2025,03:00,Persita Tangerang,PSIM Yogyakarta,4-0,Final
-9,17/10/2025,03:00,PSBS Biak,Persib Bandung,0-3,Final
-9,18/10/2025,03:00,Borneo FC,Persik Kediri,2-0,Final
-9,18/10/2025,03:00,Persebaya Surabaya,Persija Jakarta,1-3,Final
-9,19/10/2025,03:00,PSM Makassar,Arema Cronus FC,1-2,Final
-9,19/10/2025,03:00,Persijap Jepara,Bali United,1-2,Final
-9,20/10/2025,03:00,Semen Padang,Bhayangkara Presisi Indonesia,0-1,Final
-9,20/10/2025,03:00,Persis Solo (LI),Malut United FC,1-3,Final
-10,22/10/2025,03:00,PSIM Yogyakarta,Dewa United FC,2-0,Final
-10,24/10/2025,03:00,PSBS Biak,Persebaya Surabaya,0-0,Final
-10,24/10/2025,03:00,Madura United,Persija Jakarta,0-1,Final
-10,25/10/2025,03:00,Persik Kediri,PSM Makassar,1-1,Final
-10,25/10/2025,03:00,Bali United,Persita Tangerang,0-0,Final
-10,26/10/2025,03:00,Arema Cronus FC,Borneo FC,1-3,Final
-10,26/10/2025,03:00,Malut United FC,Semen Padang,1-0,Final
-10,27/10/2025,03:00,Bhayangkara Presisi Indonesia,Persijap Jepara,2-0,Final
-10,27/10/2025,03:00,Persib Bandung,Persis Solo (LI),2-0,Final
-11,31/10/2025,03:00,PSIM Yogyakarta,Persik Kediri,2-1,Final
-11,31/10/2025,03:00,Persija Jakarta,PSBS Biak,3-1,Final
-11,01/11/2025,03:00,Bhayangkara Presisi Indonesia,Persita Tangerang,1-1,Final
-11,01/11/2025,03:00,Bali United,Persib Bandung,0-1,Final
-11,02/11/2025,03:00,PSM Makassar,Madura United,1-1,Final
-11,02/11/2025,03:00,Persebaya Surabaya,Persis Solo (LI),2-1,Final
-11,03/11/2025,03:00,Persijap Jepara,Malut United FC,1-2,Final
-11,03/11/2025,03:00,Semen Padang,Arema Cronus FC,1-2,Final
-11,05/11/2025,03:00,Borneo FC,Dewa United FC,4-0,Final
-12,06/11/2025,03:00,PSBS Biak,Persita Tangerang,2-1,Final
-12,07/11/2025,03:00,Bhayangkara Presisi Indonesia,Bali United,2-1,Final
-12,07/11/2025,03:00,Persik Kediri,Persebaya Surabaya,1-1,Final
-12,08/11/2025,03:00,Arema Cronus FC,Persija Jakarta,1-2,Final
-12,08/11/2025,03:00,Persis Solo (LI),PSIM Yogyakarta,2-2,Final
-12,09/11/2025,03:00,Dewa United FC,PSM Makassar,0-1,Final
-12,09/11/2025,03:00,Semen Padang,Borneo FC,0-2,Final
-12,09/11/2025,03:00,Madura United,Persijap Jepara,2-1,Final
-12,14/12/2025,03:00,Malut United FC,Persib Bandung,2-0,Final
-13,20/11/2025,03:00,Persijap Jepara,Semen Padang,1-2,Final
-13,20/11/2025,03:00,Persija Jakarta,Persik Kediri,3-1,Final
-13,21/11/2025,03:00,PSM Makassar,PSBS Biak,5-0,Final
-13,21/11/2025,03:00,Persib Bandung,Dewa United FC,1-0,Final
-13,22/11/2025,03:00,Persebaya Surabaya,Arema Cronus FC,1-1,Final
-13,22/11/2025,03:00,PSIM Yogyakarta,Bhayangkara Presisi Indonesia,1-0,Final
-13,22/11/2025,03:00,Borneo FC,Madura United,1-0,Final
-13,23/11/2025,03:00,Persita Tangerang,Malut United FC,0-0,Final
-13,23/11/2025,03:00,Bali United,Persis Solo (LI),0-0,Final
-14,27/11/2025,03:00,Persik Kediri,Semen Padang,2-1,Final
-14,27/11/2025,03:00,PSBS Biak,Persijap Jepara,3-2,Final
-14,28/11/2025,03:00,Bhayangkara Presisi Indonesia,Persebaya Surabaya,1-1,Final
-14,28/11/2025,03:00,Persija Jakarta,PSIM Yogyakarta,2-0,Final
-14,29/11/2025,03:00,Malut United FC,Arema Cronus FC,1-1,Final
-14,29/11/2025,03:00,Dewa United FC,Persita Tangerang,1-0,Final
-14,29/11/2025,03:00,Persis Solo (LI),PSM Makassar,3-4,Final
-14,30/11/2025,03:00,Borneo FC,Bali United,0-1,Final
-14,30/11/2025,03:00,Madura United,Persib Bandung,1-4,Final
-15,20/12/2025,03:00,Dewa United FC,Persis Solo (LI),5-1,Final
-15,20/12/2025,03:00,Persebaya Surabaya,Borneo FC,2-2,Final
-15,21/12/2025,03:00,Persita Tangerang,Persik Kediri,3-0,Final
-15,21/12/2025,03:00,PSM Makassar,Malut United FC,0-1,Final
-15,21/12/2025,03:00,Persib Bandung,Bhayangkara Presisi Indonesia,2-0,Final
-15,22/12/2025,03:00,PSBS Biak,Bali United,0-3,Final
-15,22/12/2025,03:00,Semen Padang,Persija Jakarta,1-0,Final
-15,23/12/2025,03:00,Arema Cronus FC,Madura United,2-2,Final
-15,23/12/2025,03:00,Persijap Jepara,PSIM Yogyakarta,1-1,Final
-16,03/01/2026,03:00,Borneo FC,PSM Makassar,2-1,Final
-16,03/01/2026,03:00,Persija Jakarta,Persijap Jepara,2-0,Final
-16,03/01/2026,03:00,Madura United,Persebaya Surabaya,0-1,Final
-16,04/01/2026,03:00,Malut United FC,PSBS Biak,6-2,Final
-16,04/01/2026,03:00,Persis Solo (LI),Persita Tangerang,1-3,Final
-16,04/01/2026,03:00,PSIM Yogyakarta,Semen Padang,1-0,Final
-16,04/01/2026,03:00,Bali United,Arema Cronus FC,1-0,Final
-16,05/01/2026,03:00,Bhayangkara Presisi Indonesia,Dewa United FC,1-0,Final
-16,05/01/2026,03:00,Persik Kediri,Persib Bandung,1-1,Final
-17,09/01/2026,03:00,Persita Tangerang,Borneo FC,2-0,Final
-17,09/01/2026,03:00,PSM Makassar,Bali United,0-2,Final
-17,10/01/2026,03:00,Persebaya Surabaya,Malut United FC,2-1,Final
-17,10/01/2026,03:00,Madura United,PSIM Yogyakarta,0-3,Final
-17,11/01/2026,03:00,Persib Bandung,Persija Jakarta,1-0,Final
-17,11/01/2026,03:00,Arema Cronus FC,Persik Kediri,2-1,Final
-17,11/01/2026,03:00,Semen Padang,Persis Solo (LI),2-3,Final
-17,12/01/2026,03:00,PSBS Biak,Bhayangkara Presisi Indonesia,4-1,Final
-17,12/01/2026,03:00,Persijap Jepara,Dewa United FC,0-3,Final
-18,23/01/2026,03:00,Persis Solo (LI),Borneo FC,0-1,Final
-18,23/01/2026,03:00,Persija Jakarta,Madura United,2-0,Final
-18,24/01/2026,03:00,Malut United FC,Persik Kediri,4-0,Final
-18,24/01/2026,03:00,Bali United,Semen Padang,3-3,Final
-18,24/01/2026,03:00,Persita Tangerang,Bhayangkara Presisi Indonesia,1-1,Final
-18,24/01/2026,03:00,Persijap Jepara,PSM Makassar,2-0,Final
-18,25/01/2026,03:00,PSIM Yogyakarta,Persebaya Surabaya,0-3,Final
-18,25/01/2026,03:00,Persib Bandung,PSBS Biak,1-0,Final
-18,26/01/2026,03:00,Dewa United FC,Arema Cronus FC,2-0,Final
-19,30/01/2026,03:00,Persik Kediri,Bali United,3-2,Final
-19,30/01/2026,03:00,Persita Tangerang,Persija Jakarta,0-2,Final
-19,31/01/2026,03:00,Malut United FC,Bhayangkara Presisi Indonesia,1-2,Final
-19,31/01/2026,03:00,Persis Solo (LI),Persib Bandung,0-1,Final
-19,31/01/2026,03:00,Madura United,PSBS Biak,0-0,Final
-19,01/02/2026,03:00,Borneo FC,PSIM Yogyakarta,2-1,Final
-19,01/02/2026,03:00,Persebaya Surabaya,Dewa United FC,1-1,Final
-19,02/02/2026,03:00,Arema Cronus FC,Persijap Jepara,1-0,Final
-19,02/02/2026,03:00,PSM Makassar,Semen Padang,0-0,Final
-20,22/08/2025,03:00,Dewa United FC,Persik Kediri,3-1,Final
-20,06/02/2026,03:00,PSIM Yogyakarta,Persis Solo (LI),0-0,Final
-20,06/02/2026,03:00,Persib Bandung,Malut United FC,2-0,Final
-20,07/02/2026,03:00,Bhayangkara Presisi Indonesia,Borneo FC,1-2,Final
-20,07/02/2026,03:00,Bali United,Persebaya Surabaya,1-3,Final
-20,07/02/2026,03:00,Persijap Jepara,Madura United,1-0,Final
-20,08/02/2026,03:00,Semen Padang,Persita Tangerang,1-0,Final
-20,08/02/2026,03:00,PSBS Biak,PSM Makassar,1-2,Final
-20,08/02/2026,03:00,Persija Jakarta,Arema Cronus FC,0-2,Final
-21,13/02/2026,03:00,Persik Kediri,PSIM Yogyakarta,2-2,Final
-21,13/02/2026,03:00,Persis Solo (LI),Madura United,2-2,Final
-21,13/02/2026,03:00,Malut United FC,Persijap Jepara,4-0,Final
-21,14/02/2026,03:00,PSM Makassar,Dewa United FC,0-2,Final
-21,14/02/2026,03:00,Persebaya Surabaya,Bhayangkara Presisi Indonesia,1-2,Final
-21,15/02/2026,03:00,Arema Cronus FC,Semen Padang,3-0,Final
-21,15/02/2026,03:00,Bali United,Persija Jakarta,0-1,Final
-21,16/02/2026,03:00,Persita Tangerang,PSBS Biak,2-1,Final
-21,15/03/2026,03:00,Borneo FC,Persib Bandung,1-1,Final
-22,20/02/2026,03:00,Persija Jakarta,PSM Makassar,2-1,Final
-22,20/02/2026,03:00,Persik Kediri,Bhayangkara Presisi Indonesia,3-4,Final
-22,20/02/2026,03:00,Semen Padang,Malut United FC,2-2,Final
-22,21/02/2026,03:00,Madura United,Arema Cronus FC,2-2,Final
-22,21/02/2026,03:00,Persijap Jepara,Persebaya Surabaya,3-1,Final
-22,21/02/2026,03:00,Persis Solo (LI),PSBS Biak,1-1,Final
-22,22/02/2026,03:00,Dewa United FC,Borneo FC,2-1,Final
-22,22/02/2026,03:00,Persib Bandung,Persita Tangerang,1-0,Final
-22,23/02/2026,03:00,PSIM Yogyakarta,Bali United,3-3,Final
-23,24/02/2026,03:00,Malut United FC,Persija Jakarta,2-3,Final
-23,24/02/2026,03:00,Bhayangkara Presisi Indonesia,Semen Padang,4-0,Final
-23,25/02/2026,03:00,Persebaya Surabaya,PSM Makassar,1-0,Final
-23,26/02/2026,03:00,Borneo FC,Arema Cronus FC,3-1,Final
-23,26/02/2026,03:00,Persib Bandung,Madura United,5-0,Final
-23,26/02/2026,03:00,Persita Tangerang,Dewa United FC,0-1,Final
-23,27/02/2026,03:00,PSBS Biak,PSIM Yogyakarta,2-4,Final
-23,28/02/2026,03:00,Bali United,Persijap Jepara,0-0,Final
-23,01/03/2026,03:00,Persis Solo (LI),Persik Kediri,2-1,Final
-24,01/03/2026,03:00,Dewa United FC,Bhayangkara Presisi Indonesia,0-2,Final
-24,02/03/2026,03:00,Persebaya Surabaya,Persib Bandung,2-2,Final
-24,02/03/2026,03:00,PSM Makassar,Persita Tangerang,2-4,Final
-24,03/03/2026,03:00,Madura United,Malut United FC,1-2,Final
-24,03/03/2026,03:00,Persija Jakarta,Borneo FC,2-2,Final
-24,04/03/2026,03:00,Semen Padang,PSIM Yogyakarta,0-0,Final
-24,05/03/2026,03:00,Persijap Jepara,Persis Solo (LI),0-0,Final
-24,05/03/2026,03:00,Persik Kediri,PSBS Biak,2-1,Final
-24,06/03/2026,03:00,Arema Cronus FC,Bali United,3-4,Final
-25,07/03/2026,03:00,Malut United FC,PSM Makassar,3-3,Final
-25,07/03/2026,03:00,Borneo FC,Persebaya Surabaya,5-1,Final
-25,07/03/2026,03:00,Persita Tangerang,Madura United,4-1,Final
-25,09/03/2026,03:00,Persib Bandung,Persik Kediri,3-0,Final
-25,09/03/2026,03:00,PSBS Biak,Semen Padang,0-2,Final
-25,10/03/2026,03:00,Bhayangkara Presisi Indonesia,Arema Cronus FC,2-1,Final
-25,11/03/2026,03:00,PSIM Yogyakarta,Persijap Jepara,2-2,Final
-25,12/03/2026,03:00,Persis Solo (LI),Bali United,3-0,Final
-25,15/03/2026,03:00,Persija Jakarta,Dewa United FC,1-1,Final
-26,03/04/2026,03:00,Arema Cronus FC,Malut United FC,1-1,Final
-26,03/04/2026,03:00,Dewa United FC,PSIM Yogyakarta,1-0,Final
-26,04/04/2026,03:00,PSM Makassar,Persis Solo (LI),1-1,Final
-26,04/04/2026,03:00,Persebaya Surabaya,Persita Tangerang,1-0,Final
-26,05/04/2026,03:00,Bhayangkara Presisi Indonesia,Persija Jakarta,3-2,Final
-26,05/04/2026,03:00,Madura United,Borneo FC,1-3,Final
-26,05/04/2026,03:00,Semen Padang,Persib Bandung,0-2,Final
-26,06/04/2026,03:00,Persik Kediri,Persijap Jepara,0-0,Final
-26,06/04/2026,03:00,Bali United,PSBS Biak,6-1,Final
-27,10/04/2026,03:00,PSIM Yogyakarta,PSM Makassar,1-2,Final
-27,10/04/2026,03:00,Persita Tangerang,Arema Cronus FC,0-1,Final
-27,11/04/2026,03:00,Borneo FC,PSBS Biak,5-1,Final
-27,11/04/2026,03:00,Madura United,Persik Kediri,2-1,Final
-27,11/04/2026,03:00,Persija Jakarta,Persebaya Surabaya,3-0,Final
-27,11/04/2026,03:00,Persijap Jepara,Bhayangkara Presisi Indonesia,2-1,Final
-27,12/04/2026,03:00,Persis Solo (LI),Semen Padang,2-1,Final
-27,12/04/2026,03:00,Malut United FC,Dewa United FC,1-2,Final
-27,12/04/2026,03:00,Persib Bandung,Bali United,3-2,Final
-28,17/04/2026,03:00,Bhayangkara Presisi Indonesia,PSIM Yogyakarta,2-1,Final
-28,17/04/2026,03:00,Persebaya Surabaya,Madura United,1-2,Final
-28,18/04/2026,03:00,Arema Cronus FC,Persis Solo (LI),2-0,Final
-28,18/04/2026,03:00,PSBS Biak,Persija Jakarta,0-1,Final
-28,18/04/2026,03:00,PSM Makassar,Borneo FC,1-2,Final
-28,19/04/2026,03:00,Persik Kediri,Persita Tangerang,1-0,Final
-28,19/04/2026,03:00,Bali United,Malut United FC,4-1,Final
-28,20/04/2026,03:00,Semen Padang,Persijap Jepara,0-2,Final
-28,20/04/2026,03:00,Dewa United FC,Persib Bandung,2-2,Final
-29,22/04/2026,03:00,Persis Solo (LI),Bhayangkara Presisi Indonesia,2-1,Final
-29,22/04/2026,03:00,PSIM Yogyakarta,Persija Jakarta,1-1,Final
-29,23/04/2026,03:00,Persita Tangerang,Bali United,0-1,Final
-29,23/04/2026,03:00,PSM Makassar,Persik Kediri,3-1,Final
-29,23/04/2026,03:00,Malut United FC,Persebaya Surabaya,0-2,Final
-29,24/04/2026,03:00,Persijap Jepara,PSBS Biak,2-0,Final
-29,24/04/2026,03:00,Persib Bandung,Arema Cronus FC,0-0,Final
-29,25/04/2026,03:00,Madura United,Dewa United FC,1-2,Final
-29,25/04/2026,03:00,Borneo FC,Semen Padang,3-0,Final
-30,27/04/2026,03:00,Bali United,PSM Makassar,2-0,Final
-30,27/04/2026,03:00,Persija Jakarta,Persis Solo (LI),4-0,Final
-30,28/04/2026,03:00,Arema Cronus FC,Persebaya Surabaya,0-4,Final
-30,28/04/2026,03:00,PSBS Biak,Malut United FC,0-7,Final
-30,29/04/2026,03:00,Semen Padang,Madura United,0-1,Final
-30,29/04/2026,03:00,Persik Kediri,Borneo FC,0-1,Final
-30,29/04/2026,03:00,Dewa United FC,Persijap Jepara,1-0,Final
-30,30/04/2026,03:00,PSIM Yogyakarta,Persita Tangerang,0-1,Final
-30,30/04/2026,03:00,Bhayangkara Presisi Indonesia,Persib Bandung,2-4,Final
-31,02/05/2026,03:00,Persebaya Surabaya,PSBS Biak,4-0,Final
-31,02/05/2026,03:00,Malut United FC,Persis Solo (LI),5-2,Final
-31,03/05/2026,03:00,Persik Kediri,Arema Cronus FC,3-2,Final
-31,03/05/2026,03:00,Dewa United FC,Semen Padang,1-0,Final
-31,04/05/2026,03:00,Persib Bandung,PSIM Yogyakarta,1-0,Final
-31,04/05/2026,03:00,PSM Makassar,Bhayangkara Presisi Indonesia,2-1,Final
-31,04/05/2026,03:00,Persijap Jepara,Persija Jakarta,0-2,Final
-31,05/05/2026,03:00,Madura United,Bali United,2-0,Final
-31,05/05/2026,03:00,Borneo FC,Persita Tangerang,2-0,Final
-32,08/05/2026,03:00,Semen Padang,Persik Kediri,0-3,Final
-32,08/05/2026,03:00,PSBS Biak,Dewa United FC,0-5,Final
-32,09/05/2026,03:00,Arema Cronus FC,PSM Makassar,3-0,Final
-32,09/05/2026,03:00,Persis Solo (LI),Persebaya Surabaya,0-0,Final
-32,10/05/2026,03:00,Persija Jakarta,Persib Bandung,1-2,Final
-32,10/05/2026,03:00,Persita Tangerang,Persijap Jepara,0-3,Final
-32,10/05/2026,03:00,PSIM Yogyakarta,Malut United FC,2-0,Final
-32,11/05/2026,03:00,Bali United,Borneo FC,2-3,Final
-32,11/05/2026,03:00,Bhayangkara Presisi Indonesia,Madura United,3-1,Final
-33,15/05/2026,03:00,Semen Padang,Persebaya Surabaya,0-7,Final
-33,15/05/2026,03:00,PSBS Biak,Arema Cronus FC,2-5,Final
-33,16/05/2026,03:00,Persik Kediri,Persija Jakarta,1-3,Final
-33,16/05/2026,03:00,Malut United FC,Persita Tangerang,1-1,Final
-33,16/05/2026,03:00,Persis Solo (LI),Dewa United FC,1-0,Final
-33,17/05/2026,03:00,Bali United,Bhayangkara Presisi Indonesia,4-1,Final
-33,17/05/2026,03:00,Persijap Jepara,Borneo FC,0-0,Final
-33,17/05/2026,03:00,PSIM Yogyakarta,Madura United,2-1,Final
-33,17/05/2026,03:00,PSM Makassar,Persib Bandung,1-2,Final
-34,22/05/2026,03:00,Arema Cronus FC,PSIM Yogyakarta,3-1,Final
-34,22/05/2026,03:00,Dewa United FC,Bali United,0-1,Final
-34,23/05/2026,03:00,Borneo FC,Malut United FC,7-1,Final
-34,23/05/2026,03:00,Bhayangkara Presisi Indonesia,PSBS Biak,7-0,Final
-34,23/05/2026,03:00,Madura United,PSM Makassar,2-0,Final
-34,23/05/2026,03:00,Persebaya Surabaya,Persik Kediri,5-0,Final
-34,23/05/2026,03:00,Persib Bandung,Persijap Jepara,0-0,Final
-34,23/05/2026,03:00,Persija Jakarta,Semen Padang,3-0,Final
-34,23/05/2026,03:00,Persita Tangerang,Persis Solo (LI),1-3,Final
+1,04/09/2026,03:30,Arema Cronus FC,Isenmulang Kalteng,,
+1,04/09/2026,07:00,Bali United,PSS Sleman,,
+1,05/09/2026,03:30,Bhayangkara Presisi Indonesia,Persebaya Surabaya,,
+1,05/09/2026,03:30,Persik Kediri,Dewa United FC,,
+1,05/09/2026,03:30,PSIM Yogyakarta,Persita Tangerang,,
+1,05/09/2026,07:00,Borneo FC,Persija Jakarta,,
+1,06/09/2026,03:30,Java United,Garudayaksa F.C,,
+1,06/09/2026,07:00,Madura United,Persijap Jepara,,
+1,06/09/2026,07:00,Persib Bandung,PSM Makassar,,
+2,11/09/2026,03:30,Garudayaksa F.C,Persik Kediri,,
+2,11/09/2026,03:30,Isenmulang Kalteng,Bali United,,
+2,11/09/2026,07:00,Dewa United FC,Bhayangkara Presisi Indonesia,,
+2,12/09/2026,03:30,Persija Jakarta,Persib Bandung,,
+2,12/09/2026,03:30,PSS Sleman,Madura United,,
+2,12/09/2026,07:00,Persijap Jepara,Borneo FC,,
+2,13/09/2026,03:30,Persita Tangerang,Java United,,
+2,13/09/2026,03:30,PSM Makassar,Arema Cronus FC,,
+2,13/09/2026,07:00,Persebaya Surabaya,PSIM Yogyakarta,,
+3,18/09/2026,03:30,Arema Cronus FC,Persik Kediri,,
+3,18/09/2026,07:00,Madura United,PSIM Yogyakarta,,
+3,19/09/2026,03:30,Persebaya Surabaya,Garudayaksa F.C,,
+3,19/09/2026,03:30,PSM Makassar,Persita Tangerang,,
+3,19/09/2026,07:00,Bhayangkara Presisi Indonesia,Isenmulang Kalteng,,
+3,19/09/2026,07:00,Persija Jakarta,Java United,,
+3,20/09/2026,03:30,Borneo FC,Bali United,,
+3,20/09/2026,03:30,Dewa United FC,PSS Sleman,,
+3,20/09/2026,07:00,Persijap Jepara,Persib Bandung,,
+4,09/10/2026,03:30,Persik Kediri,Madura United,,
+4,09/10/2026,07:00,Isenmulang Kalteng,Persebaya Surabaya,,
+4,10/10/2026,03:30,Arema Cronus FC,Bhayangkara Presisi Indonesia,,
+4,10/10/2026,03:30,Persita Tangerang,Garudayaksa F.C,,
+4,10/10/2026,07:00,Bali United,Persijap Jepara,,
+4,10/10/2026,07:00,PSIM Yogyakarta,Persija Jakarta,,
+4,11/10/2026,03:30,Java United,Borneo FC,,
+4,11/10/2026,07:00,Persib Bandung,Dewa United FC,,
+4,11/10/2026,07:00,PSS Sleman,PSM Makassar,,
+5,16/09/2026,03:30,Borneo FC,Dewa United FC,,
+5,16/10/2026,03:30,PSIM Yogyakarta,PSM Makassar,,
+5,16/10/2026,07:00,Java United,Bali United,,
+5,16/10/2026,07:00,Madura United,Bhayangkara Presisi Indonesia,,
+5,16/10/2026,07:00,Persijap Jepara,Isenmulang Kalteng,,
+5,17/10/2026,03:30,Garudayaksa F.C,Arema Cronus FC,,
+5,17/10/2026,07:00,Persita Tangerang,Persija Jakarta,,
+5,18/10/2026,03:30,Persebaya Surabaya,PSS Sleman,,
+5,18/10/2026,07:00,Persib Bandung,Persik Kediri,,
+6,20/10/2026,03:30,Isenmulang Kalteng,Java United,,
+6,20/10/2026,07:00,Dewa United FC,Persijap Jepara,,
+6,20/10/2026,07:00,Bhayangkara Presisi Indonesia,PSIM Yogyakarta,,
+6,21/10/2026,03:30,Bali United,Garudayaksa F.C,,
+6,21/10/2026,07:00,Persija Jakarta,Arema Cronus FC,,
+6,22/10/2026,03:30,Persik Kediri,PSS Sleman,,
+6,22/10/2026,03:30,PSM Makassar,Persebaya Surabaya,,
+6,22/10/2026,07:00,Madura United,Persib Bandung,,
+6,26/11/2026,02:30,Borneo FC,Persita Tangerang,,
+7,24/10/2026,03:30,Isenmulang Kalteng,PSIM Yogyakarta,,
+7,24/10/2026,07:00,Persijap Jepara,Java United,,
+7,25/10/2026,02:30,Arema Cronus FC,Dewa United FC,,
+7,25/10/2026,02:30,Persita Tangerang,Bali United,,
+7,26/10/2026,02:30,Garudayaksa F.C,Persib Bandung,,
+7,26/10/2026,06:00,Bhayangkara Presisi Indonesia,PSM Makassar,,
+7,26/10/2026,06:00,Persebaya Surabaya,Madura United,,
+7,26/10/2026,06:00,Persija Jakarta,Persik Kediri,,
+7,28/10/2026,02:30,PSS Sleman,Borneo FC,,
+8,30/10/2026,02:30,Java United,Bhayangkara Presisi Indonesia,,
+8,30/10/2026,06:00,Persebaya Surabaya,Persijap Jepara,,
+8,31/10/2026,02:30,Arema Cronus FC,Bali United,,
+8,31/10/2026,02:30,PSM Makassar,Madura United,,
+8,31/10/2026,06:00,Dewa United FC,Persija Jakarta,,
+8,01/11/2026,02:30,Persik Kediri,Persita Tangerang,,
+8,01/11/2026,02:30,PSIM Yogyakarta,Borneo FC,,
+8,01/11/2026,06:00,Garudayaksa F.C,PSS Sleman,,
+8,01/11/2026,06:00,Persib Bandung,Isenmulang Kalteng,,
+9,06/11/2026,02:30,PSIM Yogyakarta,Dewa United FC,,
+9,06/11/2026,06:00,Madura United,Arema Cronus FC,,
+9,07/11/2026,02:30,Borneo FC,PSM Makassar,,
+9,07/11/2026,06:00,Persija Jakarta,Persebaya Surabaya,,
+9,07/11/2026,06:00,Persijap Jepara,Garudayaksa F.C,,
+9,07/11/2026,06:00,Persita Tangerang,Isenmulang Kalteng,,
+9,08/11/2026,02:30,Bali United,Persik Kediri,,
+9,08/11/2026,02:30,PSS Sleman,Bhayangkara Presisi Indonesia,,
+9,08/11/2026,06:00,Java United,Persib Bandung,,
+10,20/11/2026,02:30,Garudayaksa F.C,Madura United,,
+10,20/11/2026,02:30,PSS Sleman,Arema Cronus FC,,
+10,20/11/2026,06:00,Dewa United FC,Persita Tangerang,,
+10,21/11/2026,02:30,Persebaya Surabaya,Java United,,
+10,21/11/2026,02:30,Persik Kediri,PSIM Yogyakarta,,
+10,21/11/2026,06:00,Bhayangkara Presisi Indonesia,Persijap Jepara,,
+10,21/11/2026,06:00,PSM Makassar,Persija Jakarta,,
+10,22/11/2026,02:30,Isenmulang Kalteng,Borneo FC,,
+10,22/11/2026,06:00,Persib Bandung,Bali United,,
+11,27/11/2026,02:30,Isenmulang Kalteng,PSS Sleman,,
+11,27/11/2026,06:00,Borneo FC,Persik Kediri,,
+11,28/11/2026,02:30,Bali United,Bhayangkara Presisi Indonesia,,
+11,28/11/2026,02:30,PSIM Yogyakarta,Persijap Jepara,,
+11,28/11/2026,02:30,PSM Makassar,Dewa United FC,,
+11,28/11/2026,06:00,Madura United,Java United,,
+11,28/11/2026,06:00,Persija Jakarta,Garudayaksa F.C,,
+11,29/11/2026,02:30,Arema Cronus FC,Persebaya Surabaya,,
+11,29/11/2026,06:00,Persita Tangerang,Persib Bandung,,
+12,04/12/2026,02:30,Bali United,PSM Makassar,,
+12,04/12/2026,02:30,Persik Kediri,Isenmulang Kalteng,,
+12,04/12/2026,06:00,Dewa United FC,Madura United,,
+12,04/12/2026,06:00,Bhayangkara Presisi Indonesia,Persija Jakarta,,
+12,05/12/2026,02:30,Persijap Jepara,Arema Cronus FC,,
+12,05/12/2026,06:00,Garudayaksa F.C,Borneo FC,,
+12,05/12/2026,06:00,Java United,PSIM Yogyakarta,,
+12,06/12/2026,02:30,Persebaya Surabaya,Persib Bandung,,
+12,06/12/2026,06:00,PSS Sleman,Persita Tangerang,,
+13,08/12/2026,02:30,PSM Makassar,Persik Kediri,,
+13,08/12/2026,06:00,Isenmulang Kalteng,Persija Jakarta,,
+13,08/12/2026,06:00,Madura United,Bali United,,
+13,09/12/2026,02:30,Arema Cronus FC,Java United,,
+13,09/12/2026,06:00,Bhayangkara Presisi Indonesia,Garudayaksa F.C,,
+13,09/12/2026,06:00,Persebaya Surabaya,Dewa United FC,,
+13,10/12/2026,02:30,PSIM Yogyakarta,PSS Sleman,,
+13,10/12/2026,06:00,Persijap Jepara,Persita Tangerang,,
+13,03/02/2027,03:00,Persib Bandung,Borneo FC,,
+14,12/12/2026,02:30,Madura United,Isenmulang Kalteng,,
+14,12/12/2026,06:00,Persija Jakarta,Bali United,,
+14,13/12/2026,02:30,Java United,PSM Makassar,,
+14,13/12/2026,06:00,Borneo FC,Persebaya Surabaya,,
+14,13/12/2026,06:00,Garudayaksa F.C,Dewa United FC,,
+14,14/12/2026,02:30,Persita Tangerang,Bhayangkara Presisi Indonesia,,
+14,14/12/2026,02:30,PSIM Yogyakarta,Arema Cronus FC,,
+14,14/12/2026,06:00,Persib Bandung,PSS Sleman,,
+14,14/12/2026,06:00,Persik Kediri,Persijap Jepara,,
+15,16/12/2026,02:30,Persija Jakarta,Madura United,,
+15,17/12/2026,02:30,PSM Makassar,Garudayaksa F.C,,
+15,17/12/2026,06:00,Dewa United FC,Isenmulang Kalteng,,
+15,18/12/2026,02:30,Persik Kediri,Java United,,
+15,18/12/2026,02:30,PSS Sleman,Persijap Jepara,,
+15,18/12/2026,06:00,Bali United,PSIM Yogyakarta,,
+15,18/12/2026,06:00,Persita Tangerang,Persebaya Surabaya,,
+15,20/12/2026,02:30,Bhayangkara Presisi Indonesia,Borneo FC,,
+15,20/12/2026,06:00,Arema Cronus FC,Persib Bandung,,
+16,21/12/2026,02:30,Isenmulang Kalteng,PSM Makassar,,
+16,22/12/2026,02:30,Dewa United FC,Bali United,,
+16,22/12/2026,02:30,Java United,PSS Sleman,,
+16,22/12/2026,02:30,PSIM Yogyakarta,Garudayaksa F.C,,
+16,22/12/2026,06:00,Persebaya Surabaya,Persik Kediri,,
+16,22/12/2026,06:00,Persijap Jepara,Persija Jakarta,,
+16,23/12/2026,02:30,Borneo FC,Arema Cronus FC,,
+16,23/12/2026,06:00,Madura United,Persita Tangerang,,
+16,23/12/2026,06:00,Persib Bandung,Bhayangkara Presisi Indonesia,,
+17,26/12/2026,02:30,Bali United,Persebaya Surabaya,,
+17,26/12/2026,02:30,Java United,Dewa United FC,,
+17,26/12/2026,06:00,Garudayaksa F.C,Isenmulang Kalteng,,
+17,26/12/2026,06:00,Persijap Jepara,PSM Makassar,,
+17,26/12/2026,06:00,PSS Sleman,Persija Jakarta,,
+17,27/12/2026,02:30,Arema Cronus FC,Persita Tangerang,,
+17,27/12/2026,02:30,Borneo FC,Madura United,,
+17,27/12/2026,06:00,Bhayangkara Presisi Indonesia,Persik Kediri,,
+17,27/12/2026,06:00,Persib Bandung,PSIM Yogyakarta,,
+18,07/02/2027,03:00,Dewa United FC,Persib Bandung,,
+18,07/02/2027,03:00,Persita Tangerang,PSS Sleman,,
+18,08/02/2027,03:00,Bhayangkara Presisi Indonesia,Java United,,
+18,08/02/2027,03:00,Persija Jakarta,PSIM Yogyakarta,,
+18,09/02/2027,03:00,Madura United,Garudayaksa F.C,,
+18,09/02/2027,03:00,Persik Kediri,Bali United,,
+18,10/02/2027,03:00,Isenmulang Kalteng,Persijap Jepara,,
+18,10/02/2027,03:00,Persebaya Surabaya,Arema Cronus FC,,
+18,11/02/2027,03:00,PSM Makassar,Borneo FC,,
+19,12/02/2027,03:00,Persita Tangerang,Dewa United FC,,
+19,13/02/2027,03:00,Garudayaksa F.C,Bhayangkara Presisi Indonesia,,
+19,13/02/2027,03:00,Java United,Persija Jakarta,,
+19,14/02/2027,03:00,Persib Bandung,Madura United,,
+19,15/02/2027,03:00,Bali United,Isenmulang Kalteng,,
+19,15/02/2027,03:00,Borneo FC,Persijap Jepara,,
+19,16/02/2027,03:00,PSIM Yogyakarta,Persebaya Surabaya,,
+19,16/02/2027,03:00,PSM Makassar,PSS Sleman,,
+19,17/02/2027,03:00,Persik Kediri,Arema Cronus FC,,
+20,18/02/2027,03:00,Bhayangkara Presisi Indonesia,Persita Tangerang,,
+20,19/02/2027,03:00,Bali United,Java United,,
+20,19/02/2027,03:00,Dewa United FC,Garudayaksa F.C,,
+20,20/02/2027,03:00,Persija Jakarta,Borneo FC,,
+20,20/02/2027,03:00,PSS Sleman,PSIM Yogyakarta,,
+20,21/02/2027,03:00,Isenmulang Kalteng,Persib Bandung,,
+20,21/02/2027,03:00,Madura United,Persebaya Surabaya,,
+20,22/02/2027,03:00,Arema Cronus FC,PSM Makassar,,
+20,22/02/2027,03:00,Persijap Jepara,Persik Kediri,,
+21,23/02/2027,03:00,Garudayaksa F.C,Persita Tangerang,,
+21,24/02/2027,03:00,PSS Sleman,Bali United,,
+21,25/02/2027,03:00,Java United,Isenmulang Kalteng,,
+21,25/02/2027,03:00,PSIM Yogyakarta,Madura United,,
+21,26/02/2027,03:00,Persik Kediri,Persija Jakarta,,
+21,27/02/2027,03:00,Dewa United FC,Arema Cronus FC,,
+21,27/02/2027,03:00,Persebaya Surabaya,PSM Makassar,,
+21,28/02/2027,03:00,Borneo FC,Bhayangkara Presisi Indonesia,,
+21,28/02/2027,03:00,Persib Bandung,Persijap Jepara,,
+22,01/03/2027,03:00,Madura United,PSS Sleman,,
+22,02/03/2027,03:00,Isenmulang Kalteng,Persik Kediri,,
+22,03/03/2027,03:00,Persebaya Surabaya,Persija Jakarta,,
+22,03/03/2027,03:00,PSM Makassar,PSIM Yogyakarta,,
+22,04/03/2027,03:00,Arema Cronus FC,Garudayaksa F.C,,
+22,04/03/2027,03:00,Bhayangkara Presisi Indonesia,Dewa United FC,,
+22,04/03/2027,03:00,Persijap Jepara,Bali United,,
+22,14/03/2027,03:00,Persita Tangerang,Borneo FC,,
+22,14/03/2027,03:00,Persib Bandung,Java United,,
+23,18/03/2027,03:00,Garudayaksa F.C,Persijap Jepara,,
+23,18/03/2027,03:00,Bali United,Madura United,,
+23,19/03/2027,03:00,PSIM Yogyakarta,Bhayangkara Presisi Indonesia,,
+23,19/03/2027,03:00,Persik Kediri,Persebaya Surabaya,,
+23,20/03/2027,03:00,Persita Tangerang,Arema Cronus FC,,
+23,20/03/2027,03:00,PSM Makassar,Java United,,
+23,21/03/2027,03:00,Dewa United FC,Borneo FC,,
+23,21/03/2027,03:00,Persija Jakarta,Isenmulang Kalteng,,
+23,21/03/2027,03:00,PSS Sleman,Persib Bandung,,
+24,02/04/2027,03:00,Persijap Jepara,Dewa United FC,,
+24,02/04/2027,03:00,Java United,Persebaya Surabaya,,
+24,03/04/2027,03:00,Borneo FC,Garudayaksa F.C,,
+24,03/04/2027,03:00,Persija Jakarta,PSM Makassar,,
+24,03/04/2027,03:00,PSIM Yogyakarta,Persib Bandung,,
+24,04/04/2027,03:00,Arema Cronus FC,PSS Sleman,,
+24,04/04/2027,03:00,Bali United,Persita Tangerang,,
+24,05/04/2027,03:00,Isenmulang Kalteng,Bhayangkara Presisi Indonesia,,
+24,05/04/2027,03:00,Madura United,Persik Kediri,,
+25,09/04/2027,03:00,Persijap Jepara,PSIM Yogyakarta,,
+25,09/04/2027,03:00,Dewa United FC,PSM Makassar,,
+25,10/04/2027,03:00,Persebaya Surabaya,Bali United,,
+25,10/04/2027,03:00,Garudayaksa F.C,Persija Jakarta,,
+25,10/04/2027,03:00,Persib Bandung,Arema Cronus FC,,
+25,11/04/2027,03:00,PSS Sleman,Isenmulang Kalteng,,
+25,11/04/2027,03:00,Borneo FC,Java United,,
+25,12/04/2027,03:00,Persita Tangerang,Persik Kediri,,
+25,12/04/2027,03:00,Bhayangkara Presisi Indonesia,Madura United,,
+26,16/04/2027,03:00,Dewa United FC,PSIM Yogyakarta,,
+26,16/04/2027,03:00,Garudayaksa F.C,Persebaya Surabaya,,
+26,17/04/2027,03:00,Arema Cronus FC,Persijap Jepara,,
+26,17/04/2027,03:00,Persija Jakarta,PSS Sleman,,
+26,17/04/2027,03:00,Bali United,Persib Bandung,,
+26,18/04/2027,03:00,PSM Makassar,Bhayangkara Presisi Indonesia,,
+26,18/04/2027,03:00,Persik Kediri,Borneo FC,,
+26,19/04/2027,03:00,Isenmulang Kalteng,Madura United,,
+26,19/04/2027,03:00,Java United,Persita Tangerang,,
+27,23/04/2027,03:00,Java United,Persik Kediri,,
+27,23/04/2027,03:00,PSM Makassar,Isenmulang Kalteng,,
+27,23/04/2027,03:00,Madura United,Dewa United FC,,
+27,24/04/2027,03:00,Persib Bandung,Persija Jakarta,,
+27,24/04/2027,03:00,PSS Sleman,Garudayaksa F.C,,
+27,24/04/2027,03:00,Bhayangkara Presisi Indonesia,Arema Cronus FC,,
+27,24/04/2027,03:00,Persebaya Surabaya,Borneo FC,,
+27,25/04/2027,03:00,Persita Tangerang,Persijap Jepara,,
+27,25/04/2027,03:00,PSIM Yogyakarta,Bali United,,
+28,27/04/2027,03:00,Isenmulang Kalteng,Dewa United FC,,
+28,27/04/2027,03:00,Persik Kediri,PSM Makassar,,
+28,28/04/2027,03:00,Garudayaksa F.C,Java United,,
+28,28/04/2027,03:00,PSS Sleman,Persebaya Surabaya,,
+28,28/04/2027,03:00,Persija Jakarta,Bhayangkara Presisi Indonesia,,
+28,29/04/2027,03:00,Persita Tangerang,PSIM Yogyakarta,,
+28,29/04/2027,03:00,Persijap Jepara,Madura United,,
+28,30/04/2027,03:00,Bali United,Arema Cronus FC,,
+28,30/04/2027,03:00,Borneo FC,Persib Bandung,,
+29,02/05/2027,03:00,Bhayangkara Presisi Indonesia,PSS Sleman,,
+29,02/05/2027,03:00,Dewa United FC,Java United,,
+29,03/05/2027,03:00,Isenmulang Kalteng,Persita Tangerang,,
+29,03/05/2027,03:00,PSIM Yogyakarta,Persik Kediri,,
+29,03/05/2027,03:00,Madura United,PSM Makassar,,
+29,04/05/2027,03:00,Arema Cronus FC,Persija Jakarta,,
+29,04/05/2027,03:00,Persib Bandung,Garudayaksa F.C,,
+29,05/05/2027,03:00,Persijap Jepara,Persebaya Surabaya,,
+29,05/05/2027,03:00,Bali United,Borneo FC,,
+30,07/05/2027,03:00,Persita Tangerang,Madura United,,
+30,07/05/2027,03:00,PSS Sleman,Dewa United FC,,
+30,08/05/2027,03:00,Java United,Arema Cronus FC,,
+30,08/05/2027,03:00,Persik Kediri,Bhayangkara Presisi Indonesia,,
+30,08/05/2027,03:00,PSM Makassar,Persib Bandung,,
+30,09/05/2027,03:00,Persebaya Surabaya,Isenmulang Kalteng,,
+30,09/05/2027,03:00,Persija Jakarta,Persijap Jepara,,
+30,10/05/2027,03:00,Garudayaksa F.C,Bali United,,
+30,10/05/2027,03:00,Borneo FC,PSIM Yogyakarta,,
+31,12/05/2027,03:00,Dewa United FC,Persik Kediri,,
+31,12/05/2027,03:00,Java United,Madura United,,
+31,13/05/2027,03:00,Persib Bandung,Persebaya Surabaya,,
+31,13/05/2027,03:00,PSM Makassar,Persijap Jepara,,
+31,14/05/2027,03:00,Arema Cronus FC,PSIM Yogyakarta,,
+31,14/05/2027,03:00,Borneo FC,PSS Sleman,,
+31,14/05/2027,03:00,Persija Jakarta,Persita Tangerang,,
+31,15/05/2027,03:00,Bhayangkara Presisi Indonesia,Bali United,,
+31,15/05/2027,03:00,Isenmulang Kalteng,Garudayaksa F.C,,
+32,21/05/2027,03:00,Persijap Jepara,Bhayangkara Presisi Indonesia,,
+32,21/05/2027,03:00,PSS Sleman,Java United,,
+32,21/05/2027,03:00,Persebaya Surabaya,Persita Tangerang,,
+32,22/05/2027,03:00,Bali United,Dewa United FC,,
+32,22/05/2027,03:00,Garudayaksa F.C,PSM Makassar,,
+32,22/05/2027,03:00,Madura United,Persija Jakarta,,
+32,23/05/2027,03:00,Arema Cronus FC,Borneo FC,,
+32,23/05/2027,03:00,PSIM Yogyakarta,Isenmulang Kalteng,,
+32,23/05/2027,03:00,Persik Kediri,Persib Bandung,,
+33,28/05/2027,03:00,Persita Tangerang,PSM Makassar,,
+33,28/05/2027,03:00,Dewa United FC,Persebaya Surabaya,,
+33,29/05/2027,03:00,Persik Kediri,Garudayaksa F.C,,
+33,29/05/2027,03:00,PSIM Yogyakarta,Java United,,
+33,29/05/2027,03:00,Bhayangkara Presisi Indonesia,Persib Bandung,,
+33,29/05/2027,03:00,Madura United,Borneo FC,,
+33,29/05/2027,03:00,Persijap Jepara,PSS Sleman,,
+33,30/05/2027,03:00,Isenmulang Kalteng,Arema Cronus FC,,
+33,30/05/2027,03:00,Bali United,Persija Jakarta,,
+34,05/06/2027,03:00,Arema Cronus FC,Madura United,,
+34,05/06/2027,03:00,Borneo FC,Isenmulang Kalteng,,
+34,05/06/2027,03:00,Garudayaksa F.C,PSIM Yogyakarta,,
+34,05/06/2027,03:00,Java United,Persijap Jepara,,
+34,05/06/2027,03:00,Persebaya Surabaya,Bhayangkara Presisi Indonesia,,
+34,05/06/2027,03:00,Persib Bandung,Persita Tangerang,,
+34,05/06/2027,03:00,Persija Jakarta,Dewa United FC,,
+34,05/06/2027,03:00,PSM Makassar,Bali United,,
+34,05/06/2027,03:00,PSS Sleman,Persik Kediri,,

@@ -1,15 +1,15 @@
 ﻿matchday,date,time,home_team,away_team,result,status
-1,07/08/2026,13:30,VfL Bochum,Hertha BSC,,
-1,08/08/2026,06:00,1. FC Heidenheim 1846,VfL Osnabrück,,
-1,08/08/2026,06:00,SV Darmstadt 98,Holstein Kiel,,
-1,08/08/2026,06:00,Karlsruher SC,Arminia Bielefeld,,
-1,08/08/2026,06:00,1. FC Magdeburg,Eintracht Brunswick,,
-1,08/08/2026,13:30,VfL Wolfsburgo,1. FC Kaiserslautern,,
-1,09/08/2026,06:30,FC St. Pauli,SpVgg Greuther Fürth,,
-1,09/08/2026,06:30,1. FC Nuremberg,Dynamo Dresden,,
-1,09/08/2026,06:30,Energie Cottbus,Hanóver 96,,
-2,14/08/2026,11:30,Holstein Kiel,FC St. Pauli,,
-2,14/08/2026,11:30,Eintracht Brunswick,VfL Bochum,,
+1,07/08/2026,03:00,VfL Bochum,Hertha BSC,0-1,Final
+1,08/08/2026,03:00,1. FC Heidenheim 1846,VfL Osnabrück,4-3,Final
+1,08/08/2026,03:00,SV Darmstadt 98,Holstein Kiel,2-2,Final
+1,08/08/2026,03:00,Karlsruher SC,Arminia Bielefeld,2-1,Final
+1,08/08/2026,03:00,1. FC Magdeburg,Eintracht Brunswick,1-6,Final
+1,08/08/2026,03:00,VfL Wolfsburgo,1. FC Kaiserslautern,0-0,Final
+1,09/08/2026,03:00,FC St. Pauli,SpVgg Greuther Fürth,1-1,Final
+1,09/08/2026,03:00,1. FC Nuremberg,Dynamo Dresden,3-0,Final
+1,09/08/2026,03:00,Energie Cottbus,Hanóver 96,3-1,Final
+2,14/08/2026,03:00,Holstein Kiel,FC St. Pauli,2-2,Final
+2,14/08/2026,03:00,Eintracht Brunswick,VfL Bochum,0-1,Final
 2,15/08/2026,06:00,Hertha BSC,1. FC Heidenheim 1846,,
 2,15/08/2026,06:00,SpVgg Greuther Fürth,1. FC Nuremberg,,
 2,15/08/2026,06:00,VfL Osnabrück,1. FC Magdeburg,,

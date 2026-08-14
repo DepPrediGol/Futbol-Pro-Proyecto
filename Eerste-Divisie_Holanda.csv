@@ -1,17 +1,17 @@
 ﻿matchday,date,time,home_team,away_team,result,status
-1,08/08/2026,05:00,GD Chaves,Académica de Coimbra,,
-1,08/08/2026,08:00,FC Penafiel,Portimonense SC,,
-1,08/08/2026,12:00,CD Tondela,Amarante FC,,
-1,09/08/2026,05:00,SC Farense,União Torreense,,
-1,09/08/2026,08:00,FC Vizela,União Leiria,,
-1,09/08/2026,09:30,AVS,Sporting CP B,,
-1,09/08/2026,09:30,CD Feirense,FC Felgueiras 1932,,
-1,10/08/2026,12:00,SL Benfica B,Leixões SC,,
-1,10/08/2026,12:00,LFC Lourosa,FC Porto B,,
-2,14/08/2026,12:00,Académica de Coimbra,CD Feirense,,
-2,15/08/2026,05:00,União Torreense,FC Penafiel,,
+1,08/08/2026,03:00,GD Chaves,Académica de Coimbra,1-4,Final
+1,08/08/2026,03:00,FC Penafiel,Portimonense SC,0-1,Final
+1,08/08/2026,03:00,CD Tondela,Amarante FC,2-1,Final
+1,09/08/2026,03:00,SC Farense,União Torreense,2-1,Final
+1,09/08/2026,03:00,FC Vizela,União Leiria,1-0,Final
+1,09/08/2026,03:00,AVS,Sporting CP B,0-1,Final
+1,09/08/2026,03:00,CD Feirense,FC Felgueiras 1932,0-0,Final
+1,10/08/2026,03:00,SL Benfica B,Leixões SC,1-0,Final
+1,10/08/2026,03:00,LFC Lourosa,FC Porto B,2-0,Final
+2,14/08/2026,03:00,Académica de Coimbra,CD Feirense,1-0,Final
 2,15/08/2026,08:00,União Leiria,SL Benfica B,,
 2,15/08/2026,09:30,Sporting CP B,GD Chaves,,
+2,15/08/2026,12:00,União Torreense,FC Penafiel,,
 2,16/08/2026,05:00,Portimonense SC,FC Vizela,,
 2,16/08/2026,08:00,Amarante FC,LFC Lourosa,,
 2,16/08/2026,09:30,Leixões SC,CD Tondela,,
@@ -19,13 +19,13 @@
 2,17/08/2026,12:00,FC Felgueiras 1932,AVS,,
 3,21/08/2026,12:00,SL Benfica B,Portimonense SC,,
 3,21/08/2026,14:15,CD Tondela,Académica de Coimbra,,
-3,22/08/2026,03:00,CD Feirense,FC Porto B,,
-3,22/08/2026,03:00,SC Farense,FC Felgueiras 1932,,
 3,22/08/2026,05:00,Leixões SC,União Leiria,,
 3,22/08/2026,08:00,FC Vizela,Amarante FC,,
 3,22/08/2026,12:00,LFC Lourosa,União Torreense,,
 3,23/08/2026,05:00,GD Chaves,AVS,,
 3,23/08/2026,08:00,FC Penafiel,Sporting CP B,,
+3,24/08/2026,12:00,SC Farense,FC Felgueiras 1932,,
+3,24/08/2026,14:15,CD Feirense,FC Porto B,,
 4,28/08/2026,12:00,União Leiria,CD Tondela,,
 4,29/08/2026,05:00,Portimonense SC,Leixões SC,,
 4,29/08/2026,08:00,Académica de Coimbra,LFC Lourosa,,
@@ -35,15 +35,15 @@
 4,30/08/2026,12:00,FC Porto B,FC Penafiel,,
 4,30/08/2026,12:00,FC Felgueiras 1932,GD Chaves,,
 4,30/08/2026,12:00,Sporting CP B,SC Farense,,
-5,06/09/2026,03:00,SL Benfica B,União Torreense,,
-5,06/09/2026,03:00,CD Feirense,Sporting CP B,,
-5,06/09/2026,03:00,CD Tondela,FC Porto B,,
-5,06/09/2026,03:00,FC Vizela,FC Felgueiras 1932,,
-5,06/09/2026,03:00,União Leiria,Portimonense SC,,
-5,06/09/2026,03:00,Leixões SC,Amarante FC,,
-5,06/09/2026,03:00,LFC Lourosa,AVS,,
-5,06/09/2026,03:00,FC Penafiel,Académica de Coimbra,,
-5,06/09/2026,03:00,SC Farense,GD Chaves,,
+5,05/09/2026,03:00,SL Benfica B,União Torreense,,
+5,05/09/2026,03:00,CD Feirense,Sporting CP B,,
+5,05/09/2026,03:00,CD Tondela,FC Porto B,,
+5,05/09/2026,03:00,FC Vizela,FC Felgueiras 1932,,
+5,05/09/2026,03:00,União Leiria,Portimonense SC,,
+5,05/09/2026,03:00,Leixões SC,Amarante FC,,
+5,05/09/2026,03:00,LFC Lourosa,AVS,,
+5,05/09/2026,03:00,FC Penafiel,Académica de Coimbra,,
+5,05/09/2026,03:00,SC Farense,GD Chaves,,
 6,13/09/2026,03:00,Académica de Coimbra,SL Benfica B,,
 6,13/09/2026,03:00,AVS,SC Farense,,
 6,13/09/2026,03:00,Amarante FC,União Leiria,,

@@ -15,22 +15,22 @@
 2,02/08/2026,03:00,Sigma Olomouc,FK Mladá Boleslav,2-2,Final
 2,02/08/2026,03:00,Bohemians Praha 1905,FC Hradec Králové,0-0,Final
 2,02/08/2026,03:00,FK Pardubice,FK Jablonec,0-2,Final
-3,07/08/2026,12:00,FC Zbrojovka Brno,Slovan Liberec,,
-3,08/08/2026,10:00,FK Teplice,Viktoria Plzeň,,
-3,08/08/2026,10:00,FC Zlín,Bohemians Praha 1905,,
-3,08/08/2026,13:00,FK Mladá Boleslav,AC Sparta Praha,,
-3,09/08/2026,08:00,Slavia Praha,FK Pardubice,,
-3,09/08/2026,10:00,FC Hradec Králové,Baník Ostrava,,
-3,09/08/2026,10:00,FK Jablonec,1. FC Slovácko,,
-3,09/08/2026,13:00,SK Artis Brno,Sigma Olomouc,,
+3,07/08/2026,03:00,FC Zbrojovka Brno,Slovan Liberec,0-1,Final
+3,08/08/2026,03:00,FK Teplice,Viktoria Plzeň,5-5,Final
+3,08/08/2026,03:00,FC Zlín,Bohemians Praha 1905,0-2,Final
+3,08/08/2026,03:00,FK Mladá Boleslav,AC Sparta Praha,2-0,Final
+3,09/08/2026,03:00,Slavia Praha,FK Pardubice,2-1,Final
+3,09/08/2026,03:00,FC Hradec Králové,Baník Ostrava,2-1,Final
+3,09/08/2026,03:00,FK Jablonec,1. FC Slovácko,1-0,Final
+3,09/08/2026,03:00,SK Artis Brno,Sigma Olomouc,1-2,Final
 4,15/08/2026,10:00,1. FC Slovácko,Sigma Olomouc,,
 4,15/08/2026,10:00,FK Pardubice,FK Mladá Boleslav,,
 4,15/08/2026,10:00,AC Sparta Praha,FK Teplice,,
 4,15/08/2026,13:00,Viktoria Plzeň,FC Zlín,,
 4,16/08/2026,08:00,Baník Ostrava,SK Artis Brno,,
-4,16/08/2026,10:00,FC Zbrojovka Brno,FC Hradec Králové,,
 4,16/08/2026,10:00,Bohemians Praha 1905,FK Jablonec,,
 4,16/08/2026,13:00,Slovan Liberec,Slavia Praha,,
+4,02/09/2026,11:00,FC Zbrojovka Brno,FC Hradec Králové,,
 5,22/08/2026,10:00,FK Mladá Boleslav,1. FC Slovácko,,
 5,22/08/2026,10:00,SK Artis Brno,AC Sparta Praha,,
 5,22/08/2026,10:00,FC Zlín,Slovan Liberec,,
@@ -48,13 +48,13 @@
 6,30/08/2026,10:00,Viktoria Plzeň,1. FC Slovácko,,
 6,30/08/2026,13:00,AC Sparta Praha,Slavia Praha,,
 7,05/09/2026,03:00,1. FC Slovácko,FK Pardubice,,
-7,05/09/2026,03:00,FC Hradec Králové,AC Sparta Praha,,
-7,05/09/2026,03:00,FK Jablonec,Slovan Liberec,,
-7,05/09/2026,03:00,FK Mladá Boleslav,Baník Ostrava,,
-7,05/09/2026,03:00,SK Artis Brno,Viktoria Plzeň,,
 7,05/09/2026,03:00,Sigma Olomouc,Bohemians Praha 1905,,
 7,05/09/2026,03:00,Slavia Praha,FC Zbrojovka Brno,,
-7,05/09/2026,03:00,FC Zlín,FK Teplice,,
+7,05/09/2026,11:00,SK Artis Brno,Viktoria Plzeň,,
+7,06/09/2026,06:00,FK Mladá Boleslav,Baník Ostrava,,
+7,06/09/2026,08:00,FK Jablonec,Slovan Liberec,,
+7,06/09/2026,08:00,FC Zlín,FK Teplice,,
+7,06/09/2026,11:00,FC Hradec Králové,AC Sparta Praha,,
 8,12/09/2026,03:00,FC Zbrojovka Brno,SK Artis Brno,,
 8,12/09/2026,03:00,Baník Ostrava,FK Pardubice,,
 8,12/09/2026,03:00,Bohemians Praha 1905,1. FC Slovácko,,

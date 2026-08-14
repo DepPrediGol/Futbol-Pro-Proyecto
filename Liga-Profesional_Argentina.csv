@@ -44,32 +44,32 @@
 3,04/08/2026,03:00,Vélez Sarsfield,Independiente,1-0,Final
 3,04/08/2026,03:00,Huracán,Atlético Tucumán,0-0,Final
 3,04/08/2026,03:00,Central Córdoba SdE,San Lorenzo,1-0,Final
-4,07/08/2026,17:30,Rosario Central,Aldosivi,,
-4,07/08/2026,19:45,Independiente Rivadavia,Estudiantes de Río Cuarto,,
-4,08/08/2026,12:45,Atlético Tucumán,Sarmiento de Junín,,
-4,08/08/2026,12:45,Deportivo Riestra,Estudiantes,,
-4,08/08/2026,15:00,Tigre,River Plate,,
-4,08/08/2026,17:15,Boca Juniors,Vélez Sarsfield,,
-4,08/08/2026,19:30,Independiente,Platense,,
-4,08/08/2026,19:30,Instituto de Córdoba,Gimnasia de Mendoza,,
-4,09/08/2026,13:00,San Lorenzo,Huracán,,
-4,09/08/2026,15:45,Defensa y Justicia,Newell's Old Boys,,
-4,09/08/2026,15:45,Gimnasia de La Plata,Barracas Central,,
-4,09/08/2026,18:15,Argentinos Juniors,Racing Club,,
-4,10/08/2026,17:00,Banfield,Belgrano de Córdoba,,
-4,10/08/2026,19:15,Unión de Santa Fe,Central Córdoba SdE,,
-4,11/08/2026,19:00,Talleres de Córdoba,Lanús,,
+4,08/08/2026,03:00,Rosario Central,Aldosivi,2-1,Final
+4,08/08/2026,03:00,Independiente Rivadavia,Estudiantes de Río Cuarto,2-1,Final
+4,08/08/2026,03:00,Atlético Tucumán,Sarmiento de Junín,1-2,Final
+4,08/08/2026,03:00,Deportivo Riestra,Estudiantes,2-0,Final
+4,08/08/2026,03:00,Tigre,River Plate,1-0,Final
+4,09/08/2026,03:00,Boca Juniors,Vélez Sarsfield,1-1,Final
+4,09/08/2026,03:00,Independiente,Platense,0-1,Final
+4,09/08/2026,03:00,Instituto de Córdoba,Gimnasia de Mendoza,1-0,Final
+4,09/08/2026,03:00,San Lorenzo,Huracán,0-2,Final
+4,09/08/2026,03:00,Defensa y Justicia,Newell's Old Boys,2-1,Final
+4,09/08/2026,03:00,Gimnasia de La Plata,Barracas Central,2-0,Final
+4,10/08/2026,03:00,Argentinos Juniors,Racing Club,2-1,Final
+4,11/08/2026,03:00,Banfield,Belgrano de Córdoba,0-2,Final
+4,11/08/2026,03:00,Unión de Santa Fe,Central Córdoba SdE,1-2,Final
+4,12/08/2026,03:00,Talleres de Córdoba,Lanús,0-3,Final
+5,14/08/2026,18:30,Racing Club,Banfield,,
 5,15/08/2026,12:30,Aldosivi,Tigre,,
 5,15/08/2026,12:30,San Lorenzo,Unión de Santa Fe,,
 5,15/08/2026,14:45,Estudiantes,Gimnasia de La Plata,,
 5,15/08/2026,17:00,Belgrano de Córdoba,Independiente Rivadavia,,
 5,15/08/2026,17:00,Newell's Old Boys,Deportivo Riestra,,
-5,15/08/2026,18:30,Racing Club,Banfield,,
 5,15/08/2026,19:15,Platense,Boca Juniors,,
 5,16/08/2026,13:00,Sarmiento de Junín,Huracán,,
-5,16/08/2026,13:00,Central Córdoba SdE,Instituto de Córdoba,,
 5,16/08/2026,16:00,River Plate,Argentinos Juniors,,
 5,16/08/2026,18:15,Barracas Central,Rosario Central,,
+5,16/08/2026,18:15,Central Córdoba SdE,Instituto de Córdoba,,
 5,17/08/2026,12:45,Estudiantes de Río Cuarto,Atlético Tucumán,,
 5,17/08/2026,15:00,Lanús,Independiente,,
 5,17/08/2026,17:15,Vélez Sarsfield,Defensa y Justicia,,
@@ -86,7 +86,7 @@
 6,23/08/2026,15:00,Belgrano de Córdoba,Defensa y Justicia,,
 6,23/08/2026,17:15,River Plate,Vélez Sarsfield,,
 6,23/08/2026,19:30,Racing Club,Boca Juniors,,
-6,24/08/2026,17:00,Tigre,Central Córdoba SdE,,
+6,24/08/2026,17:15,Tigre,Central Córdoba SdE,,
 6,24/08/2026,19:15,Lanús,Argentinos Juniors,,
 6,24/08/2026,19:15,Talleres de Córdoba,Rosario Central,,
 7,28/08/2026,17:00,Huracán,Estudiantes de Río Cuarto,,

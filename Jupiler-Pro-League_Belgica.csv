@@ -1,14 +1,14 @@
 ﻿matchday,date,time,home_team,away_team,result,status
-1,07/08/2026,13:45,Club Brugge KV,KV Kortrijk,,
-1,08/08/2026,11:15,Standard Lieja,Cercle Brugge,,
-1,08/08/2026,13:45,KVC Westerlo,Union Saint-Gilloise,,
-1,08/08/2026,13:45,Sint-Truidense VV,Lommel SK,,
-1,09/08/2026,06:30,KAA Gent,KV Mechelen,,
-1,09/08/2026,09:00,Sporting Charleroi,Oud-Heverlee Leuven,,
-1,09/08/2026,09:00,SV Zulte Waregem,KRC Genk,,
-1,09/08/2026,11:30,RSC Anderlecht,RAAL La Louviére,,
-1,09/08/2026,12:15,Royal Antwerp FC,SK Beveren,,
-2,14/08/2026,13:45,Cercle Brugge,Sint-Truidense VV,,
+1,07/08/2026,03:00,Club Brugge KV,KV Kortrijk,3-0,Final
+1,08/08/2026,03:00,Standard Lieja,Cercle Brugge,2-2,Final
+1,08/08/2026,03:00,KVC Westerlo,Union Saint-Gilloise,1-5,Final
+1,08/08/2026,03:00,Sint-Truidense VV,Lommel SK,1-1,Final
+1,09/08/2026,03:00,KAA Gent,KV Mechelen,2-0,Final
+1,09/08/2026,03:00,Sporting Charleroi,Oud-Heverlee Leuven,3-1,Final
+1,09/08/2026,03:00,SV Zulte Waregem,KRC Genk,2-1,Final
+1,09/08/2026,03:00,RSC Anderlecht,RAAL La Louviére,2-1,Final
+1,09/08/2026,03:00,Royal Antwerp FC,SK Beveren,2-1,Final
+2,14/08/2026,03:00,Cercle Brugge,Sint-Truidense VV,3-3,Final
 2,15/08/2026,09:00,Union Saint-Gilloise,SV Zulte Waregem,,
 2,15/08/2026,11:15,KV Kortrijk,Royal Antwerp FC,,
 2,15/08/2026,13:45,KRC Genk,KVC Westerlo,,

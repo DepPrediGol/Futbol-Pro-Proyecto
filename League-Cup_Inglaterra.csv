@@ -2,37 +2,60 @@
 ,01/08/2026,03:00,Tranmere Rovers,Rochdale AFC,1-2,Final
 ,03/08/2026,03:00,York City,Crawley Town,0-2,Final
 ,06/08/2026,03:00,Bristol City,Walsall FC,0-1,Final
-,07/08/2026,13:45,Wolverhampton Wanderers,Port Vale FC,,
-,07/08/2026,13:45,Wycombe Wanderers,Stevenage FC,,
-,07/08/2026,14:00,Middlesbrough FC,Wrexham AFC,,
-,08/08/2026,07:00,Cambridge United,Barnet FC,,
-,08/08/2026,08:00,Queens Park Rangers,Millwall FC,,
-,08/08/2026,09:00,Barnsley FC,Wigan Athletic,,
-,08/08/2026,09:00,Stockport County,Doncaster Rovers,,
-,08/08/2026,09:00,Sheffield Wednesday,Bolton Wanderers,,
-,08/08/2026,09:00,Fleetwood Town,Chesterfield FC,,
-,08/08/2026,09:00,Crewe Alexandra,Accrington Stanley,,
-,08/08/2026,09:00,Stoke City,Oldham Athletic,,
-,08/08/2026,09:00,Burnley FC,Notts County,,
-,08/08/2026,09:00,Derby County,Lincoln City,,
-,08/08/2026,09:00,Bradford City,Rochdale AFC,,
-,08/08/2026,09:00,Burton Albion,Blackburn Rovers,,
-,08/08/2026,09:00,Salford City,Shrewsbury Town,,
-,08/08/2026,09:00,Grimsby Town,Blackpool FC,,
-,08/08/2026,09:00,Preston North End,Huddersfield Town,,
-,08/08/2026,09:00,Gillingham FC,Luton Town,,
-,08/08/2026,09:00,Cardiff City,Swindon Town,,
-,08/08/2026,09:00,Bristol Rovers,Peterborough United,,
-,08/08/2026,09:00,Watford FC,Crawley Town,,
-,08/08/2026,09:00,Norwich City,Milton Keynes Dons,,
-,08/08/2026,09:00,Leyton Orient,Oxford United,,
-,08/08/2026,09:00,Bromley FC,Reading FC,,
-,08/08/2026,09:00,Swansea City,Birmingham City,,
-,08/08/2026,09:00,West Ham United,Portsmouth FC,,
-,08/08/2026,09:00,AFC Wimbledon,Newport County,,
-,08/08/2026,09:00,Leicester City,Northampton Town,,
-,08/08/2026,11:30,Rotherham United,West Bromwich Albion,,
-,08/08/2026,11:30,Cheltenham Town,Charlton Athletic,,
-,08/08/2026,11:30,Colchester United,Southampton FC,,
-,09/08/2026,10:00,Mansfield Town,Sheffield United,,
-,10/08/2026,14:00,Plymouth Argyle,Exeter City,,
+,07/08/2026,03:00,Wolverhampton Wanderers,Port Vale FC,3-0,Final
+,07/08/2026,03:00,Wycombe Wanderers,Stevenage FC,1-2,Final
+,07/08/2026,03:00,Middlesbrough FC,Wrexham AFC,1-0,Final
+,08/08/2026,03:00,Cambridge United,Barnet FC,2-1,Final
+,08/08/2026,03:00,Queens Park Rangers,Millwall FC,0-2,Final
+,08/08/2026,03:00,Barnsley FC,Wigan Athletic,6-5,Final
+,08/08/2026,03:00,Stockport County,Doncaster Rovers,4-5,Final
+,08/08/2026,03:00,Sheffield Wednesday,Bolton Wanderers,1-0,Final
+,08/08/2026,03:00,Fleetwood Town,Chesterfield FC,1-0,Final
+,08/08/2026,03:00,Crewe Alexandra,Accrington Stanley,2-1,Final
+,08/08/2026,03:00,Stoke City,Oldham Athletic,2-0,Final
+,08/08/2026,03:00,Burnley FC,Notts County,4-3,Final
+,08/08/2026,03:00,Derby County,Lincoln City,1-2,Final
+,08/08/2026,03:00,Bradford City,Rochdale AFC,2-0,Final
+,08/08/2026,03:00,Burton Albion,Blackburn Rovers,1-2,Final
+,08/08/2026,03:00,Salford City,Shrewsbury Town,3-4,Final
+,08/08/2026,03:00,Grimsby Town,Blackpool FC,1-3,Final
+,08/08/2026,03:00,Preston North End,Huddersfield Town,4-3,Final
+,08/08/2026,03:00,Gillingham FC,Luton Town,0-3,Final
+,08/08/2026,03:00,Cardiff City,Swindon Town,3-2,Final
+,08/08/2026,03:00,Bristol Rovers,Peterborough United,0-1,Final
+,08/08/2026,03:00,Watford FC,Crawley Town,1-0,Final
+,08/08/2026,03:00,Norwich City,Milton Keynes Dons,4-1,Final
+,08/08/2026,03:00,Leyton Orient,Oxford United,2-0,Final
+,08/08/2026,03:00,Bromley FC,Reading FC,4-5,Final
+,08/08/2026,03:00,Swansea City,Birmingham City,0-1,Final
+,08/08/2026,03:00,West Ham United,Portsmouth FC,3-1,Final
+,08/08/2026,03:00,AFC Wimbledon,Newport County,5-4,Final
+,08/08/2026,03:00,Leicester City,Northampton Town,1-0,Final
+,08/08/2026,03:00,Rotherham United,West Bromwich Albion,1-4,Final
+,08/08/2026,03:00,Cheltenham Town,Charlton Athletic,1-3,Final
+,08/08/2026,03:00,Colchester United,Southampton FC,0-2,Final
+,09/08/2026,03:00,Mansfield Town,Sheffield United,0-3,Final
+,10/08/2026,03:00,Plymouth Argyle,Exeter City,2-0,Final
+,25/08/2026,13:00,Cardiff City,Norwich City,,
+,25/08/2026,13:30,Doncaster Rovers,Middlesbrough FC,,
+,25/08/2026,13:45,Barnsley FC,Crewe Alexandra,,
+,25/08/2026,13:45,Blackburn Rovers,Sheffield United,,
+,25/08/2026,13:45,Blackpool FC,Lincoln City,,
+,25/08/2026,13:45,Fleetwood Town,Shrewsbury Town,,
+,25/08/2026,13:45,Sheffield Wednesday,Wolverhampton Wanderers,,
+,25/08/2026,13:45,Stoke City,Hull City,,
+,25/08/2026,13:45,Cambridge United,Millwall FC,,
+,25/08/2026,13:45,Ipswich Town,Leicester City,,
+,25/08/2026,13:45,Plymouth Argyle,Coventry City,,
+,25/08/2026,13:45,Southampton FC,West Ham United,,
+,25/08/2026,13:45,Stevenage FC,Reading FC,,
+,25/08/2026,13:45,Walsall FC,Leyton Orient,,
+,25/08/2026,13:45,Watford FC,Peterborough United,,
+,25/08/2026,14:00,Nottingham Forest,Leeds United,,
+,25/08/2026,14:00,Birmingham City,Brentford FC,,
+,26/08/2026,13:45,Bradford City,Burnley FC,,
+,26/08/2026,13:45,Newcastle United,West Bromwich Albion,,
+,26/08/2026,13:45,Tottenham Hotspur,Charlton Athletic,,
+,26/08/2026,14:00,Preston North End,Everton FC,,
+,27/08/2026,13:30,Chelsea FC,Luton Town,,
+,27/08/2026,14:00,Fulham FC,AFC Wimbledon,,

@@ -7,15 +7,15 @@
 1,02/08/2026,03:00,Richards Bay FC,Polokwane City FC,1-2,Final
 1,02/08/2026,03:00,Siwelele FC,TS Galaxy,2-2,Final
 1,19/08/2026,12:30,Mamelodi Sundowns,Marumo Gallants,,
-2,11/08/2026,12:30,Chippa United,Richards Bay FC,,
-2,11/08/2026,12:30,Marumo Gallants,Kruger United FC,,
-2,11/08/2026,12:30,Polokwane City FC,Stellenbosch FC,,
-2,11/08/2026,12:30,TS Galaxy,Mamelodi Sundowns,,
-2,12/08/2026,12:30,AmaZulu FC,Orlando Pirates,,
-2,12/08/2026,12:30,Durban City FC,Golden Arrows,,
-2,12/08/2026,12:30,Kaizer Chiefs,Sekhukhune United,,
-2,12/08/2026,12:30,Milford FC,Siwelele FC,,
-3,14/08/2026,12:30,Stellenbosch FC,Marumo Gallants,,
+2,11/08/2026,03:00,Chippa United,Richards Bay FC,1-1,Final
+2,11/08/2026,03:00,Marumo Gallants,Kruger United FC,0-0,Final
+2,11/08/2026,03:00,Polokwane City FC,Stellenbosch FC,3-3,Final
+2,11/08/2026,03:00,TS Galaxy,Mamelodi Sundowns,2-3,Final
+2,12/08/2026,03:00,AmaZulu FC,Orlando Pirates,1-1,Final
+2,12/08/2026,03:00,Durban City FC,Golden Arrows,0-0,Final
+2,12/08/2026,03:00,Kaizer Chiefs,Sekhukhune United,2-0,Final
+2,12/08/2026,03:00,Milford FC,Siwelele FC,1-0,Final
+3,14/08/2026,03:00,Stellenbosch FC,Marumo Gallants,3-1,Final
 3,15/08/2026,08:00,AmaZulu FC,Siwelele FC,,
 3,15/08/2026,08:00,Kaizer Chiefs,Mamelodi Sundowns,,
 3,15/08/2026,10:30,Sekhukhune United,Polokwane City FC,,
@@ -34,11 +34,11 @@
 5,01/09/2026,12:30,Durban City FC,Stellenbosch FC,,
 5,04/09/2026,12:30,Marumo Gallants,Polokwane City FC,,
 5,04/09/2026,12:30,Richards Bay FC,AmaZulu FC,,
-5,05/09/2026,08:30,Chippa United,Milford FC,,
-5,05/09/2026,08:30,Kruger United FC,Orlando Pirates,,
-5,05/09/2026,11:00,Sekhukhune United,TS Galaxy,,
-5,05/09/2026,13:15,Kaizer Chiefs,Siwelele FC,,
-5,06/09/2026,08:30,Golden Arrows,Mamelodi Sundowns,,
+5,05/09/2026,08:00,Chippa United,Milford FC,,
+5,05/09/2026,08:00,Kruger United FC,Orlando Pirates,,
+5,05/09/2026,10:30,Sekhukhune United,TS Galaxy,,
+5,05/09/2026,13:00,Kaizer Chiefs,Siwelele FC,,
+5,06/09/2026,08:00,Golden Arrows,Mamelodi Sundowns,,
 6,11/09/2026,12:30,Stellenbosch FC,Sekhukhune United,,
 6,12/09/2026,08:30,AmaZulu FC,Marumo Gallants,,
 6,12/09/2026,08:30,Polokwane City FC,Kaizer Chiefs,,

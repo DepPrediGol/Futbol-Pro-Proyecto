@@ -7,15 +7,15 @@
 1,03/08/2026,03:00,FK Bukovina,FC LNZ Cherkasy,0-0,Final
 1,03/08/2026,03:00,Shajtar Donetsk,FC Kudrivka,5-1,Final
 1,02/12/2026,10:00,Dynamo Kyiv,Livyi Bereh,,
-2,08/08/2026,05:00,Chernomorets Odessa,Kolos Kovalivka,,
-2,08/08/2026,07:30,Livyi Bereh,FC Kudrivka,,
-2,08/08/2026,10:00,FK Bukovina,FK Obolon,,
-2,09/08/2026,05:00,Zorya Lugansk,Kryvbas Kryvyi Rih,,
-2,09/08/2026,07:30,Epitsentr Kamianets-Podilskyi,Shajtar Donetsk,,
-2,09/08/2026,10:00,NK Veres,Dynamo Kyiv,,
-2,10/08/2026,07:30,Polissya Zhytomyr,FC Kharkiv,,
-2,10/08/2026,10:00,Karpaty Lviv,FC LNZ Cherkasy,,
-3,14/08/2026,10:00,Epitsentr Kamianets-Podilskyi,NK Veres,,
+2,08/08/2026,03:00,Chernomorets Odessa,Kolos Kovalivka,,
+2,08/08/2026,03:00,Livyi Bereh,FC Kudrivka,0-0,Final
+2,08/08/2026,03:00,FK Bukovina,FK Obolon,0-0,Final
+2,09/08/2026,03:00,Zorya Lugansk,Kryvbas Kryvyi Rih,1-3,Final
+2,09/08/2026,03:00,Epitsentr Kamianets-Podilskyi,Shajtar Donetsk,0-2,Final
+2,09/08/2026,03:00,NK Veres,Dynamo Kyiv,1-2,Final
+2,10/08/2026,03:00,Polissya Zhytomyr,FC Kharkiv,3-1,Final
+2,10/08/2026,03:00,Karpaty Lviv,FC LNZ Cherkasy,3-0,Final
+3,14/08/2026,03:00,Epitsentr Kamianets-Podilskyi,NK Veres,0-0,Final
 3,15/08/2026,05:00,Kryvbas Kryvyi Rih,Livyi Bereh,,
 3,15/08/2026,07:30,FC Kudrivka,FK Obolon,,
 3,15/08/2026,10:00,Karpaty Lviv,FK Bukovina,,
@@ -23,14 +23,14 @@
 3,16/08/2026,07:30,FC Kharkiv,Shajtar Donetsk,,
 3,16/08/2026,10:00,Dynamo Kyiv,Kolos Kovalivka,,
 3,17/08/2026,10:00,Polissya Zhytomyr,Zorya Lugansk,,
-4,29/08/2026,03:00,FK Bukovina,Dynamo Kyiv,,
-4,29/08/2026,03:00,Kolos Kovalivka,FK Obolon,,
-4,29/08/2026,03:00,FC Kudrivka,Epitsentr Kamianets-Podilskyi,,
-4,29/08/2026,03:00,Livyi Bereh,Karpaty Lviv,,
-4,29/08/2026,03:00,FC LNZ Cherkasy,NK Veres,,
-4,29/08/2026,03:00,Shajtar Donetsk,Polissya Zhytomyr,,
-4,29/08/2026,03:00,Zorya Lugansk,FC Kharkiv,,
-4,29/08/2026,03:00,Chernomorets Odessa,Kryvbas Kryvyi Rih,,
+4,28/08/2026,07:30,Kolos Kovalivka,FK Obolon,,
+4,29/08/2026,05:00,FC Kudrivka,Epitsentr Kamianets-Podilskyi,,
+4,29/08/2026,07:30,Livyi Bereh,Karpaty Lviv,,
+4,29/08/2026,10:00,Shajtar Donetsk,Polissya Zhytomyr,,
+4,30/08/2026,05:00,Chernomorets Odessa,Kryvbas Kryvyi Rih,,
+4,30/08/2026,07:30,FC LNZ Cherkasy,NK Veres,,
+4,30/08/2026,10:00,Zorya Lugansk,FC Kharkiv,,
+4,31/08/2026,10:00,FK Bukovina,Dynamo Kyiv,,
 5,05/09/2026,03:00,Dynamo Kyiv,FC LNZ Cherkasy,,
 5,05/09/2026,03:00,Epitsentr Kamianets-Podilskyi,FK Bukovina,,
 5,05/09/2026,03:00,FC Kharkiv,FK Obolon,,

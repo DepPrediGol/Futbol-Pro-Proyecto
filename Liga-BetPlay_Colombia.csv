@@ -18,7 +18,7 @@
 2,02/08/2026,03:00,Jaguares de Córdoba,Atlético Nacional,0-3,Final
 2,03/08/2026,03:00,América de Cali,Boyacá Chicó,7-0,Final
 2,03/08/2026,03:00,Santa Fe,Once Caldas,2-2,Final
-2,02/09/2026,18:20,Cúcuta Deportivo,Internacional de Bogotá,,
+2,19/08/2026,18:00,Cúcuta Deportivo,Internacional de Bogotá,,
 3,04/08/2026,03:00,Atlético Bucaramanga,Cúcuta Deportivo,1-1,Final
 3,04/08/2026,03:00,Llaneros FC,Fortaleza FC,3-1,Final
 3,05/08/2026,03:00,Deportes Tolima,Independiente Medellín,2-3,Final
@@ -29,46 +29,46 @@
 3,27/09/2026,20:10,Deportivo Cali,Águilas Doradas,,
 3,29/09/2026,15:00,Boyacá Chicó,Alianza FC,,
 3,30/09/2026,20:00,Atlético Nacional,Atlético Junior,,
-4,08/08/2026,14:00,Santa Fe,Boyacá Chicó,2-0,Final
-4,08/08/2026,16:20,Fortaleza FC,Cúcuta Deportivo,2-0,Final
-4,08/08/2026,18:25,Deportes Tolima,Internacional de Bogotá,2-1,Final
-4,08/08/2026,20:30,Deportivo Pasto,Deportivo Cali,0-2,Final
-4,09/08/2026,16:05,Alianza FC,Atlético Bucaramanga,2-3,Final
-4,09/08/2026,18:10,Jaguares de Córdoba,Once Caldas,1-1,Final
-4,09/08/2026,20:15,América de Cali,Atlético Nacional,1-0,Final
-4,10/08/2026,16:00,Águilas Doradas,Llaneros FC,,
-4,10/08/2026,18:00,Independiente Medellín,Millonarios,,
-4,10/08/2026,20:05,Atlético Junior,Deportivo Pereira,,
-5,14/08/2026,18:00,Llaneros FC,Deportes Tolima,,
-5,15/08/2026,18:05,Cúcuta Deportivo,Águilas Doradas,,
-5,15/08/2026,20:10,Atlético Nacional,Santa Fe,,
-5,16/08/2026,16:00,Deportivo Pereira,Jaguares de Córdoba,,
-5,16/08/2026,18:05,América de Cali,Fortaleza FC,,
-5,16/08/2026,20:15,Once Caldas,Alianza FC,,
-5,17/08/2026,14:00,Internacional de Bogotá,Independiente Medellín,,
-5,17/08/2026,16:05,Atlético Bucaramanga,Deportivo Pasto,,
-5,17/08/2026,18:10,Millonarios,Deportivo Cali,,
+4,08/08/2026,03:00,Santa Fe,Boyacá Chicó,2-0,Final
+4,08/08/2026,03:00,Fortaleza FC,Cúcuta Deportivo,2-0,Final
+4,09/08/2026,03:00,Deportes Tolima,Internacional de Bogotá,2-1,Final
+4,09/08/2026,03:00,Deportivo Pasto,Deportivo Cali,0-2,Final
+4,09/08/2026,03:00,Alianza FC,Atlético Bucaramanga,2-3,Final
+4,10/08/2026,03:00,Jaguares de Córdoba,Once Caldas,1-1,Final
+4,10/08/2026,03:00,América de Cali,Atlético Nacional,1-0,Final
+4,11/08/2026,03:00,Atlético Junior,Deportivo Pereira,,
+4,12/08/2026,03:00,Independiente Medellín,Millonarios,,
+4,19/08/2026,16:00,Águilas Doradas,Llaneros FC,,
+5,15/08/2026,03:00,Llaneros FC,Deportes Tolima,,
+5,16/08/2026,03:00,Atlético Nacional,Santa Fe,,
+5,16/08/2026,03:00,Cúcuta Deportivo,Águilas Doradas,,
+5,16/08/2026,03:00,Deportivo Pereira,Jaguares de Córdoba,,
+5,17/08/2026,03:00,América de Cali,Fortaleza FC,,
+5,17/08/2026,03:00,Atlético Bucaramanga,Deportivo Pasto,,
+5,17/08/2026,03:00,Internacional de Bogotá,Independiente Medellín,,
+5,17/08/2026,03:00,Once Caldas,Alianza FC,,
+5,18/08/2026,03:00,Millonarios,Deportivo Cali,,
 5,17/08/2026,20:15,Boyacá Chicó,Atlético Junior,,
-6,21/08/2026,16:00,Jaguares de Córdoba,Boyacá Chicó,,
+6,21/08/2026,16:05,Jaguares de Córdoba,Boyacá Chicó,,
+6,21/08/2026,19:30,Alianza FC,Deportivo Pereira,,
 6,22/08/2026,14:00,Águilas Doradas,Millonarios,,
 6,22/08/2026,16:05,Deportes Tolima,Atlético Bucaramanga,,
 6,22/08/2026,18:10,Santa Fe,América de Cali,,
-6,22/08/2026,20:15,Atlético Junior,Once Caldas,,
+6,22/08/2026,20:15,Independiente Medellín,Cúcuta Deportivo,,
 6,23/08/2026,14:00,Fortaleza FC,Atlético Nacional,,
 6,23/08/2026,16:05,Deportivo Pasto,Llaneros FC,,
 6,23/08/2026,18:10,Deportivo Cali,Internacional de Bogotá,,
-6,23/08/2026,20:15,Independiente Medellín,Cúcuta Deportivo,,
-6,24/08/2026,18:00,Alianza FC,Deportivo Pereira,,
-7,25/08/2026,18:00,Atlético Bucaramanga,Águilas Doradas,,
-7,25/08/2026,20:05,Santa Fe,Jaguares de Córdoba,,
-7,26/08/2026,14:00,Boyacá Chicó,Fortaleza FC,,
-7,26/08/2026,16:20,Internacional de Bogotá,Deportivo Pasto,,
-7,26/08/2026,18:25,América de Cali,Atlético Junior,,
+6,23/08/2026,20:15,Atlético Junior,Once Caldas,,
+7,26/08/2026,03:00,Atlético Bucaramanga,Águilas Doradas,,
+7,26/08/2026,03:00,Santa Fe,Jaguares de Córdoba,,
+7,25/08/2026,20:00,Cúcuta Deportivo,Alianza FC,,
+7,26/08/2026,16:00,Boyacá Chicó,Fortaleza FC,,
+7,26/08/2026,18:20,América de Cali,Atlético Junior,,
 7,26/08/2026,20:30,Atlético Nacional,Deportivo Cali,,
+7,28/08/2026,03:00,Once Caldas,Deportes Tolima,,
 7,27/08/2026,18:10,Llaneros FC,Millonarios,,
-7,27/08/2026,20:15,Once Caldas,Deportes Tolima,,
+7,27/08/2026,20:15,Internacional de Bogotá,Deportivo Pasto,,
 7,03/09/2026,20:00,Deportivo Pereira,Independiente Medellín,,
-7,08/10/2026,18:00,Cúcuta Deportivo,Alianza FC,,
 8,29/08/2026,16:25,Jaguares de Córdoba,América de Cali,,
 8,29/08/2026,18:30,Atlético Junior,Santa Fe,,
 8,29/08/2026,20:30,Alianza FC,Atlético Nacional,,
@@ -79,15 +79,15 @@
 8,31/08/2026,18:00,Deportivo Pasto,Deportivo Pereira,,
 8,31/08/2026,20:05,Deportivo Cali,Atlético Bucaramanga,,
 8,01/09/2026,20:00,Fortaleza FC,Once Caldas,,
-9,03/09/2026,18:00,América de Cali,Alianza FC,,
-9,06/09/2026,03:00,Atlético Bucaramanga,Independiente Medellín,,
-9,06/09/2026,03:00,Boyacá Chicó,Once Caldas,,
-9,06/09/2026,03:00,Cúcuta Deportivo,Deportivo Pasto,,
-9,06/09/2026,03:00,Internacional de Bogotá,Águilas Doradas,,
-9,06/09/2026,03:00,Atlético Junior,Jaguares de Córdoba,,
-9,06/09/2026,03:00,Llaneros FC,Deportivo Cali,,
-9,06/09/2026,03:00,Deportivo Pereira,Millonarios,,
-9,06/09/2026,03:00,Santa Fe,Fortaleza FC,,
+9,05/09/2026,14:00,Atlético Bucaramanga,Independiente Medellín,,
+9,05/09/2026,18:00,Boyacá Chicó,Once Caldas,,
+9,05/09/2026,18:15,América de Cali,Alianza FC,,
+9,05/09/2026,20:20,Atlético Junior,Jaguares de Córdoba,,
+9,06/09/2026,14:00,Internacional de Bogotá,Águilas Doradas,,
+9,06/09/2026,16:05,Cúcuta Deportivo,Deportivo Pasto,,
+9,06/09/2026,18:10,Deportivo Pereira,Millonarios,,
+9,06/09/2026,20:15,Santa Fe,Fortaleza FC,,
+9,07/09/2026,20:00,Llaneros FC,Deportivo Cali,,
 9,07/10/2026,20:20,Atlético Nacional,Deportes Tolima,,
 10,13/09/2026,03:00,Alianza FC,Atlético Junior,,
 10,13/09/2026,03:00,América de Cali,Deportivo Pasto,,

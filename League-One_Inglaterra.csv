@@ -1,16 +1,16 @@
 ﻿matchday,date,time,home_team,away_team,result,status
-1,15/08/2026,11:30,Notts County,Leicester City,,
-1,15/08/2026,11:30,Oxford United,MK Dons,,
-1,15/08/2026,11:30,Reading,Luton Town,,
-1,15/08/2026,14:00,Barnsley,Bromley,,
-1,15/08/2026,14:00,Blackpool,Wycombe Wanderers,,
-1,15/08/2026,14:00,Bradford City,Peterborough United,,
-1,15/08/2026,14:00,Burton Albion,Stevenage,,
-1,15/08/2026,14:00,Cambridge United,Wigan Athletic,,
-1,15/08/2026,14:00,Huddersfield Town,AFC Wimbledon,,
-1,15/08/2026,14:00,Leyton Orient,Sheffield Wednesday,,
-1,15/08/2026,14:00,Mansfield Town,Doncaster Rovers,,
-1,15/08/2026,14:00,Plymouth Argyle,Stockport County,,
+1,15/08/2026,11:30,Notts County,Leicester City,1 - 1,Final
+1,15/08/2026,11:30,Oxford United,MK Dons,2 - 2,Final
+1,15/08/2026,11:30,Reading,Luton Town,3 - 4,Final
+1,15/08/2026,14:00,Barnsley,Bromley,0 - 1,Final
+1,15/08/2026,14:00,Blackpool,Wycombe Wanderers,1 - 1,Final
+1,15/08/2026,14:00,Bradford City,Peterborough United,2 - 0,Final
+1,15/08/2026,14:00,Burton Albion,Stevenage,1 - 1,Final
+1,15/08/2026,14:00,Cambridge United,Wigan Athletic,3 - 2,Final
+1,15/08/2026,14:00,Huddersfield Town,AFC Wimbledon,3 - 0,Final
+1,15/08/2026,14:00,Leyton Orient,Sheffield Wednesday,1 - 2,Final
+1,15/08/2026,14:00,Mansfield Town,Doncaster Rovers,2 - 1,Final
+1,15/08/2026,14:00,Plymouth Argyle,Stockport County,1 - 3,Final
 2,20/08/2026,19:00,Sheffield Wednesday,Bradford City,,
 2,22/08/2026,11:30,Doncaster Rovers,Barnsley,,
 2,22/08/2026,11:30,Luton Town,Notts County,,
@@ -41,11 +41,11 @@
 4,01/09/2026,18:45,Huddersfield Town,Oxford United,,
 4,01/09/2026,18:45,Leicester City,Plymouth Argyle,,
 4,01/09/2026,18:45,Peterborough United,Stevenage,,
-4,01/09/2026,18:45,Wigan Athletic,MK Dons,,
 4,01/09/2026,18:45,Wycombe Wanderers,Sheffield Wednesday,,
 4,02/09/2026,18:45,Barnsley,Blackpool,,
 4,02/09/2026,18:45,Burton Albion,AFC Wimbledon,,
 4,02/09/2026,18:45,Luton Town,Stockport County,,
+4,02/09/2026,18:45,Wigan Athletic,MK Dons,,
 4,02/09/2026,19:00,Reading,Mansfield Town,,
 5,05/09/2026,11:30,Peterborough United,Sheffield Wednesday,,
 5,05/09/2026,11:30,Wigan Athletic,Stockport County,,

@@ -8,15 +8,15 @@
 1,08/08/2026,18:45,Pau FC,FC Annecy,0 - 1,Final
 1,08/08/2026,18:45,Rodez Aveyron Football,Stade Lavallois MFC,3 - 1,Final
 1,08/08/2026,18:45,FC Sochaux-Montbéliard,AS Saint-Étienne,0 - 3,Final
-2,14/08/2026,18:45,FC Annecy,Rodez Aveyron Football,,
-2,14/08/2026,18:45,Dijon FCO,Pau FC,,
-2,14/08/2026,18:45,Grenoble Foot 38,FC Metz,,
-2,14/08/2026,18:45,EN Avant Guingamp,US Boulogne CO,,
-2,14/08/2026,18:45,Stade Lavallois MFC,FC Nantes,,
-2,14/08/2026,18:45,AS Nancy Lorraine,Montpellier Hérault SC,,
-2,14/08/2026,18:45,Red Star FC,FC Sochaux-Montbéliard,,
-2,14/08/2026,18:45,Stade DE Reims,USL Dunkerque,,
-2,14/08/2026,18:45,AS Saint-Étienne,Clermont Foot 63,,
+2,14/08/2026,18:45,FC Annecy,Rodez Aveyron Football,2 - 0,Final
+2,14/08/2026,18:45,Dijon FCO,Pau FC,0 - 1,Final
+2,14/08/2026,18:45,Grenoble Foot 38,FC Metz,0 - 0,Final
+2,14/08/2026,18:45,EN Avant Guingamp,US Boulogne CO,1 - 0,Final
+2,14/08/2026,18:45,Stade Lavallois MFC,FC Nantes,2 - 1,Final
+2,14/08/2026,18:45,AS Nancy Lorraine,Montpellier Hérault SC,0 - 1,Final
+2,14/08/2026,18:45,Red Star FC,FC Sochaux-Montbéliard,0 - 0,Final
+2,14/08/2026,18:45,Stade DE Reims,USL Dunkerque,3 - 3,Final
+2,14/08/2026,18:45,AS Saint-Étienne,Clermont Foot 63,3 - 1,Final
 3,21/08/2026,18:00,US Boulogne CO,Red Star FC,,
 3,21/08/2026,18:00,Clermont Foot 63,Dijon FCO,,
 3,21/08/2026,18:00,USL Dunkerque,Montpellier Hérault SC,,
@@ -62,15 +62,15 @@
 7,19/09/2026,12:00,US Boulogne CO,FC Nantes,,
 7,19/09/2026,12:00,EN Avant Guingamp,Red Star FC,,
 7,19/09/2026,18:00,FC Metz,AS Saint-Étienne,,
-8,08/10/2026,22:00,Clermont Foot 63,Red Star FC,,
-8,08/10/2026,22:00,Dijon FCO,FC Metz,,
-8,08/10/2026,22:00,USL Dunkerque,FC Annecy,,
-8,08/10/2026,22:00,Montpellier Hérault SC,Grenoble Foot 38,,
-8,08/10/2026,22:00,AS Nancy Lorraine,EN Avant Guingamp,,
-8,08/10/2026,22:00,FC Nantes,Stade DE Reims,,
-8,08/10/2026,22:00,Pau FC,Stade Lavallois MFC,,
-8,08/10/2026,22:00,AS Saint-Étienne,Rodez Aveyron Football,,
-8,08/10/2026,22:00,FC Sochaux-Montbéliard,US Boulogne CO,,
+8,09/10/2026,18:00,USL Dunkerque,FC Annecy,,
+8,09/10/2026,18:00,Montpellier Hérault SC,Grenoble Foot 38,,
+8,09/10/2026,18:00,AS Nancy Lorraine,EN Avant Guingamp,,
+8,09/10/2026,18:00,Pau FC,Stade Lavallois MFC,,
+8,09/10/2026,18:00,FC Sochaux-Montbéliard,US Boulogne CO,,
+8,10/10/2026,12:00,Clermont Foot 63,Red Star FC,,
+8,10/10/2026,12:00,FC Nantes,Stade DE Reims,,
+8,10/10/2026,18:00,AS Saint-Étienne,Rodez Aveyron Football,,
+8,12/10/2026,18:45,Dijon FCO,FC Metz,,
 9,15/10/2026,22:00,FC Annecy,AS Nancy Lorraine,,
 9,15/10/2026,22:00,Grenoble Foot 38,US Boulogne CO,,
 9,15/10/2026,22:00,EN Avant Guingamp,Pau FC,,

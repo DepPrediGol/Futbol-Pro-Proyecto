@@ -1,13 +1,13 @@
 ﻿matchday,date,time,home_team,away_team,result,status
-1,15/08/2026,17:30,Deportivo Alavés,Getafe CF,,
-1,15/08/2026,19:30,Sevilla FC,Rayo Vallecano,,
-1,16/08/2026,15:00,R. Racing Club,Villarreal CF,,
-1,16/08/2026,17:00,RCD Espanyol de Barcelona,Levante UD,,
-1,16/08/2026,19:30,Celta,CA Osasuna,,
+1,15/08/2026,17:30,Deportivo Alavés,Getafe CF,3 - 0,Final
+1,15/08/2026,19:30,Sevilla FC,Rayo Vallecano,2 - 1,Final
+1,16/08/2026,15:00,R. Racing Club,Villarreal CF,2 - 2,Final
+1,16/08/2026,17:00,RCD Espanyol de Barcelona,Levante UD,3 - 0,Final
 1,17/08/2026,19:00,RC Deportivo,Elche CF,,
 1,19/08/2026,19:00,Atlético de Madrid,Málaga CF,,
 1,25/08/2026,19:00,Valencia CF,Real Betis,,
 1,26/08/2026,19:00,Real Madrid,Real Sociedad,,
+1,27/08/2026,18:30,Celta,CA Osasuna,,
 1,27/08/2026,19:00,FC Barcelona,Athletic Club,,
 2,20/08/2026,19:00,Rayo Vallecano,Deportivo Alavés,,
 2,21/08/2026,19:00,Real Betis,Real Sociedad,,

@@ -209,16 +209,16 @@
 21,09/08/2026,03:00,Cuiabá - MT,Fortaleza - CE,1-1,Final
 21,11/08/2026,03:00,Goiás - GO,Londrina - PR,1-0,Final
 21,12/08/2026,03:00,Avaí - SC,CR Brasil - AL,0-1,Final
-22,15/08/2026,03:00,Ponte Preta,En vivo,1-0,Final
-22,15/08/2026,03:00,São Bernardo FC - SP,En vivo,0-0,Final
-22,14/08/2026,18:30,Sport Recife - PE,Londrina - PR,,
-22,15/08/2026,14:00,Ceará - CE,Cuiabá - MT,,
-22,15/08/2026,14:00,Atlético Goianiense,Vila Nova - GO,,
-22,15/08/2026,14:00,Criciúma - SC,Goiás - GO,,
-22,15/08/2026,16:30,Juventude - RS,Fortaleza - CE,,
-22,16/08/2026,09:00,Operário Ferroviário - PR,Avaí - SC,,
-22,16/08/2026,16:30,América - MG,Athletic - MG,,
-22,16/08/2026,16:30,CR Brasil - AL,Grêmio Novorizontino - SP,,
+22,15/08/2026,03:00,Ponte Preta,Náutico - PE,1-1,Final
+22,15/08/2026,03:00,São Bernardo FC - SP,Botafogo - SP,0-1,Final
+22,15/08/2026,03:00,Sport Recife - PE,Londrina - PR,2-1,Final
+22,15/08/2026,03:00,Ceará - CE,Cuiabá - MT,1-3,Final
+22,15/08/2026,03:00,Atlético Goianiense,Vila Nova - GO,0-2,Final
+22,15/08/2026,03:00,Criciúma - SC,Goiás - GO,1-0,Final
+22,15/08/2026,03:00,Juventude - RS,Fortaleza - CE,0-0,Final
+22,16/08/2026,03:00,Operário Ferroviário - PR,Avaí - SC,1-2,Final
+22,16/08/2026,03:00,América - MG,Athletic - MG,1-3,Final
+22,16/08/2026,03:00,CR Brasil - AL,Grêmio Novorizontino - SP,0-0,Final
 23,18/08/2026,17:30,Londrina - PR,Atlético Goianiense,,
 23,18/08/2026,19:30,Náutico - PE,Ceará - CE,,
 23,18/08/2026,19:35,Goiás - GO,Juventude - RS,,
@@ -240,7 +240,6 @@
 24,25/08/2026,17:30,Atlético Goianiense,Botafogo - SP,,
 24,25/08/2026,17:30,Juventude - RS,CR Brasil - AL,,
 25,29/08/2026,03:00,Londrina - PR,Juventude - RS,,
-25,29/08/2026,03:00,Fortaleza - CE,Operário Ferroviário - PR,,
 25,28/08/2026,17:30,Goiás - GO,São Bernardo FC - SP,,
 25,28/08/2026,18:30,Grêmio Novorizontino - SP,Sport Recife - PE,,
 25,28/08/2026,18:30,Náutico - PE,Athletic - MG,,
@@ -249,6 +248,7 @@
 25,30/08/2026,14:00,América - MG,Ponte Preta,,
 25,30/08/2026,16:00,CR Brasil - AL,Criciúma - SC,,
 25,30/08/2026,16:30,Vila Nova - GO,Ceará - CE,,
+25,31/08/2026,17:30,Fortaleza - CE,Operário Ferroviário - PR,,
 26,05/09/2026,03:00,Náutico - PE,Botafogo - SP,,
 26,04/09/2026,17:30,Criciúma - SC,Cuiabá - MT,,
 26,04/09/2026,18:30,Athletic - MG,Vila Nova - GO,,
@@ -262,13 +262,13 @@
 27,08/09/2026,03:00,São Bernardo FC - SP,Londrina - PR,,
 27,08/09/2026,03:00,Sport Recife - PE,Ponte Preta,,
 27,08/09/2026,03:00,Vila Nova - GO,Goiás - GO,,
-27,09/09/2026,03:00,Botafogo - SP,Grêmio Novorizontino - SP,,
-27,09/09/2026,03:00,América - MG,Náutico - PE,,
-27,09/09/2026,03:00,Operário Ferroviário - PR,CR Brasil - AL,,
-27,09/09/2026,03:00,Fortaleza - CE,Avaí - SC,,
-27,09/09/2026,03:00,Atlético Goianiense,Ceará - CE,,
-27,09/09/2026,03:00,Criciúma - SC,Juventude - RS,,
-27,09/09/2026,03:00,Cuiabá - MT,Athletic - MG,,
+27,08/09/2026,18:30,Cuiabá - MT,Athletic - MG,,
+27,08/09/2026,19:30,Criciúma - SC,Juventude - RS,,
+27,09/09/2026,17:30,Botafogo - SP,Grêmio Novorizontino - SP,,
+27,09/09/2026,17:30,Fortaleza - CE,Avaí - SC,,
+27,09/09/2026,18:30,América - MG,Náutico - PE,,
+27,09/09/2026,18:30,Operário Ferroviário - PR,CR Brasil - AL,,
+27,09/09/2026,19:30,Atlético Goianiense,Ceará - CE,,
 28,12/09/2026,03:00,Botafogo - SP,Goiás - GO,,
 28,12/09/2026,03:00,Grêmio Novorizontino - SP,Cuiabá - MT,,
 28,12/09/2026,03:00,América - MG,São Bernardo FC - SP,,

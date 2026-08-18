@@ -1,16 +1,16 @@
 ﻿matchday,date,time,home_team,away_team,result,status
-1,15/08/2026,11:30,Newport County,Rochdale,,
-1,15/08/2026,11:30,Oldham Athletic,Port Vale,,
-1,15/08/2026,14:00,Accrington Stanley,Colchester United,,
-1,15/08/2026,14:00,Barnet,Salford City,,
-1,15/08/2026,14:00,Cheltenham Town,Rotherham United,,
-1,15/08/2026,14:00,Chesterfield,Fleetwood Town,,
-1,15/08/2026,14:00,Crawley Town,Crewe Alexandra,,
-1,15/08/2026,14:00,Gillingham,Walsall,,
-1,15/08/2026,14:00,Grimsby Town,Exeter City,,
-1,15/08/2026,14:00,Northampton Town,Swindon Town,,
-1,15/08/2026,14:00,Tranmere Rovers,Shrewsbury Town,,
-1,15/08/2026,14:00,York City,Bristol Rovers,,
+1,15/08/2026,11:30,Newport County,Rochdale,3 - 0,Final
+1,15/08/2026,11:30,Oldham Athletic,Port Vale,2 - 0,Final
+1,15/08/2026,14:00,Accrington Stanley,Colchester United,2 - 2,Final
+1,15/08/2026,14:00,Barnet,Salford City,3 - 1,Final
+1,15/08/2026,14:00,Cheltenham Town,Rotherham United,2 - 1,Final
+1,15/08/2026,14:00,Chesterfield,Fleetwood Town,0 - 1,Final
+1,15/08/2026,14:00,Crawley Town,Crewe Alexandra,0 - 1,Final
+1,15/08/2026,14:00,Gillingham,Walsall,0 - 3,Final
+1,15/08/2026,14:00,Grimsby Town,Exeter City,1 - 0,Final
+1,15/08/2026,14:00,Northampton Town,Swindon Town,0 - 0,Final
+1,15/08/2026,14:00,Tranmere Rovers,Shrewsbury Town,2 - 0,Final
+1,15/08/2026,14:00,York City,Bristol Rovers,3 - 2,Final
 2,22/08/2026,11:30,Salford City,Chesterfield,,
 2,22/08/2026,11:30,Walsall,Grimsby Town,,
 2,22/08/2026,11:30,Bristol Rovers,Newport County,,

@@ -1,8 +1,8 @@
 ﻿matchday,date,time,home_team,away_team,result,status
-1,21/08/2026,14:00,FK Vllaznia,KF Skënderbeu,,
-1,22/08/2026,09:00,KF Laçi,AF Elbasani,,
-1,22/08/2026,09:00,FK Partizani,KF Teuta Durrës,,
-1,23/08/2026,11:30,FC Dinamo City,FK Vora,,
+1,21/08/2026,03:00,FK Vllaznia,KF Skënderbeu,2-2,Final
+1,22/08/2026,03:00,KF Laçi,AF Elbasani,1-1,Final
+1,22/08/2026,03:00,FK Partizani,KF Teuta Durrës,0-0,Final
+1,23/08/2026,14:00,FC Dinamo City,FK Vora,,
 1,23/08/2026,14:00,Egnatia Rrogozhine,KF Tiranë,,
 2,29/08/2026,09:00,FK Partizani,KF Laçi,,
 2,29/08/2026,11:30,AF Elbasani,FK Vllaznia,,
@@ -15,10 +15,10 @@
 3,06/09/2026,11:30,FC Dinamo City,AF Elbasani,,
 3,06/09/2026,11:30,KF Tiranë,FK Vora,,
 4,11/09/2026,11:30,KF Skënderbeu,KF Tiranë,,
-4,12/09/2026,03:00,AF Elbasani,Egnatia Rrogozhine,,
-4,12/09/2026,03:00,KF Laçi,FK Vllaznia,,
-4,12/09/2026,03:00,FK Partizani,FC Dinamo City,,
-4,12/09/2026,03:00,KF Teuta Durrës,FK Vora,,
+4,12/09/2026,09:00,FK Partizani,FC Dinamo City,,
+4,12/09/2026,11:30,KF Teuta Durrës,FK Vora,,
+4,13/09/2026,09:00,KF Laçi,FK Vllaznia,,
+4,13/09/2026,11:30,AF Elbasani,Egnatia Rrogozhine,,
 5,19/09/2026,03:00,FC Dinamo City,KF Laçi,,
 5,19/09/2026,03:00,KF Tiranë,AF Elbasani,,
 5,19/09/2026,03:00,Egnatia Rrogozhine,FK Partizani,,

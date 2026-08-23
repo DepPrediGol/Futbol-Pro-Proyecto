@@ -1,8 +1,8 @@
 ﻿matchday,date,time,home_team,away_team,result,status
-1,22/08/2026,11:30,Inter,AC Monza,,
-1,22/08/2026,11:30,Udinese Calcio,Como 1907,,
-1,22/08/2026,13:45,Genoa CFC,SSC Napoli,,
-1,22/08/2026,13:45,Parma Calcio 1913,Cagliari Calcio,,
+1,22/08/2026,03:00,Inter,AC Monza,4-1,Final
+1,22/08/2026,03:00,Udinese Calcio,Como 1907,1-1,Final
+1,22/08/2026,03:00,Genoa CFC,SSC Napoli,0-2,Final
+1,22/08/2026,03:00,Parma Calcio 1913,Cagliari Calcio,0-1,Final
 1,23/08/2026,11:30,Venezia FC,US Lecce,,
 1,23/08/2026,11:30,Frosinone Calcio,Juventus,,
 1,23/08/2026,13:45,Atalanta,Sassuolo Calcio,,
@@ -31,13 +31,13 @@
 3,07/09/2026,13:45,Udinese Calcio,Lazio Roma,,
 4,11/09/2026,13:45,Venezia FC,ACF Fiorentina,,
 4,12/09/2026,08:00,Genoa CFC,Frosinone Calcio,,
-4,12/09/2026,11:00,Lazio Roma,AC Milan,,
+4,12/09/2026,11:00,Sassuolo Calcio,Juventus,,
 4,12/09/2026,13:45,Atalanta,Cagliari Calcio,,
 4,13/09/2026,05:30,Torino FC,AS Roma,,
 4,13/09/2026,08:00,Como 1907,Parma Calcio 1913,,
 4,13/09/2026,08:00,US Lecce,AC Monza,,
 4,13/09/2026,11:00,SSC Napoli,Bologna FC,,
-4,13/09/2026,13:45,Sassuolo Calcio,Juventus,,
+4,13/09/2026,13:45,Lazio Roma,AC Milan,,
 4,14/09/2026,13:45,Inter,Udinese Calcio,,
 5,18/09/2026,13:45,AC Monza,Sassuolo Calcio,,
 5,19/09/2026,08:00,Bologna FC,Torino FC,,

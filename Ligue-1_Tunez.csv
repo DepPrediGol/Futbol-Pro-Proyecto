@@ -1,11 +1,11 @@
 ﻿matchday,date,time,home_team,away_team,result,status
-1,22/08/2026,10:30,US Ben Guerdane,CS Hammam-Lif,,
-1,22/08/2026,10:30,ES Hammam Sousse,US Monastir,,
-1,22/08/2026,10:30,PS Sakiet Eddaïer,JS Omrane,,
-1,22/08/2026,10:30,Stade Tunisien,CS Sfaxien,,
-1,23/08/2026,10:00,ES Métlaoui,Club Africain,,
+1,22/08/2026,03:00,US Ben Guerdane,En vivo,0-0,Final
+1,22/08/2026,03:00,ES Hammam Sousse,US Monastir,0-0,Final
+1,22/08/2026,03:00,PS Sakiet Eddaïer,JS Omrane,2-0,Final
+1,22/08/2026,03:00,Stade Tunisien,CS Sfaxien,1-1,Final
 1,23/08/2026,10:30,CA Bizertin,AS Marsa,,
 1,23/08/2026,10:30,Espérance de Tunis,Étoile du Sahel,,
+1,23/08/2026,10:30,ES Métlaoui,Club Africain,,
 1,23/08/2026,10:30,Espérance Zarzis,Olympique Béja,,
 2,29/08/2026,10:30,Club Africain,ES Hammam Sousse,,
 2,29/08/2026,10:30,CS Sfaxien,Espérance Zarzis,,

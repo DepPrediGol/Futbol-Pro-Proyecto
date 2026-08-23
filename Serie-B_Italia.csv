@@ -1,10 +1,10 @@
 ﻿matchday,date,time,home_team,away_team,result,status
-1,21/08/2026,13:30,L.R. Vicenza,US Catanzaro,,
-1,22/08/2026,12:00,Carrarese Calcio,Mantova 1911,,
-1,22/08/2026,12:00,FC Südtirol,Virtus Entella,,
-1,22/08/2026,14:00,Benevento Calcio,Modena FC,,
-1,22/08/2026,14:00,Empoli FC,US Cremonese,,
-1,22/08/2026,14:00,US Avellino,US Arezzo,,
+1,21/08/2026,03:00,L.R. Vicenza,US Catanzaro,3-2,Final
+1,22/08/2026,03:00,Carrarese Calcio,Mantova 1911,1-2,Final
+1,22/08/2026,03:00,FC Südtirol,Virtus Entella,1-0,Final
+1,22/08/2026,03:00,Benevento Calcio,Modena FC,1-2,Final
+1,22/08/2026,03:00,Empoli FC,US Cremonese,1-0,Final
+1,22/08/2026,03:00,US Avellino,US Arezzo,1-2,Final
 1,23/08/2026,12:00,Hellas Verona,Ascoli Calcio,,
 1,23/08/2026,12:00,Pisa SC,Calcio Padova,,
 1,23/08/2026,14:00,Cesena FC,Sampdoria,,

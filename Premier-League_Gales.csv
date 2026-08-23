@@ -23,14 +23,14 @@
 3,14/08/2026,03:00,The New Saints,Briton Ferry Llansawel AFC,1-0,Final
 3,15/08/2026,03:00,Barry Town United,Cardiff Metropolitan,1-0,Final
 3,15/08/2026,03:00,Caernarfon Town,Colwyn Bay FC,3-0,Final
-4,21/08/2026,13:45,Cardiff Metropolitan,The New Saints,,
-4,21/08/2026,13:45,Colwyn Bay FC,Airbus UK,,
-4,21/08/2026,13:45,Flint Town United,Briton Ferry Llansawel AFC,,
-4,21/08/2026,13:45,Haverfordwest County,Cambrian United,,
-4,21/08/2026,13:45,Holywell Town,Barry Town United,,
-4,21/08/2026,13:45,Penybont FC,Llandudno FC,,
-4,21/08/2026,13:45,Trefelin BGC,Caernarfon Town,,
-4,22/08/2026,06:30,Ammanford AFC,Connah's Quay Nomads,,
+4,21/08/2026,03:00,Cardiff Metropolitan,The New Saints,0-5,Final
+4,21/08/2026,03:00,Colwyn Bay FC,Airbus UK,1-0,Final
+4,21/08/2026,03:00,Flint Town United,Briton Ferry Llansawel AFC,0-1,Final
+4,21/08/2026,03:00,Haverfordwest County,Cambrian United,0-3,Final
+4,21/08/2026,03:00,Holywell Town,Barry Town United,1-3,Final
+4,21/08/2026,03:00,Penybont FC,Llandudno FC,2-1,Final
+4,21/08/2026,03:00,Trefelin BGC,Caernarfon Town,0-2,Final
+4,22/08/2026,03:00,Ammanford AFC,Connah's Quay Nomads,0-2,Final
 5,28/08/2026,13:45,Barry Town United,Airbus UK,,
 5,28/08/2026,13:45,Cardiff Metropolitan,Briton Ferry Llansawel AFC,,
 5,28/08/2026,13:45,Connah's Quay Nomads,Cambrian United,,
@@ -42,10 +42,10 @@
 6,31/08/2026,08:30,Airbus UK,Holywell Town,,
 6,31/08/2026,08:30,Ammanford AFC,Cardiff Metropolitan,,
 6,31/08/2026,08:30,Briton Ferry Llansawel AFC,Barry Town United,,
-6,31/08/2026,08:30,Caernarfon Town,The New Saints,,
 6,31/08/2026,08:30,Cambrian United,Penybont FC,,
 6,31/08/2026,08:30,Flint Town United,Connah's Quay Nomads,,
 6,31/08/2026,08:30,Haverfordwest County,Trefelin BGC,,
+6,31/08/2026,09:00,Caernarfon Town,The New Saints,,
 6,31/08/2026,11:15,Colwyn Bay FC,Llandudno FC,,
 7,04/09/2026,13:45,Briton Ferry Llansawel AFC,Airbus UK,,
 7,04/09/2026,13:45,Caernarfon Town,Flint Town United,,
@@ -53,23 +53,23 @@
 7,04/09/2026,13:45,Connah's Quay Nomads,Haverfordwest County,,
 7,04/09/2026,13:45,Holywell Town,Trefelin BGC,,
 7,04/09/2026,13:45,Llandudno FC,Ammanford AFC,,
-7,04/09/2026,13:45,Penybont FC,Colwyn Bay FC,,
+7,05/09/2026,06:30,Penybont FC,Colwyn Bay FC,,
 7,05/09/2026,11:15,The New Saints,Barry Town United,,
 8,11/09/2026,13:45,Airbus UK,The New Saints,,
 8,11/09/2026,13:45,Ammanford AFC,Caernarfon Town,,
 8,11/09/2026,13:45,Barry Town United,Llandudno FC,,
 8,11/09/2026,13:45,Cambrian United,Holywell Town,,
-8,11/09/2026,13:45,Colwyn Bay FC,Connah's Quay Nomads,,
 8,11/09/2026,13:45,Flint Town United,Cardiff Metropolitan,,
 8,11/09/2026,13:45,Haverfordwest County,Briton Ferry Llansawel AFC,,
 8,11/09/2026,13:45,Trefelin BGC,Penybont FC,,
-9,15/09/2026,03:00,Barry Town United,Ammanford AFC,,
-9,15/09/2026,03:00,Connah's Quay Nomads,Airbus UK,,
-9,15/09/2026,03:00,Holywell Town,Colwyn Bay FC,,
-9,15/09/2026,03:00,Llandudno FC,Caernarfon Town,,
-9,15/09/2026,03:00,Penybont FC,Briton Ferry Llansawel AFC,,
-9,15/09/2026,03:00,The New Saints,Flint Town United,,
-9,15/09/2026,03:00,Trefelin BGC,Cambrian United,,
+8,12/09/2026,11:30,Colwyn Bay FC,Connah's Quay Nomads,,
+9,15/09/2026,13:45,Barry Town United,Ammanford AFC,,
+9,15/09/2026,13:45,Connah's Quay Nomads,Airbus UK,,
+9,15/09/2026,13:45,Holywell Town,Colwyn Bay FC,,
+9,15/09/2026,13:45,Llandudno FC,Caernarfon Town,,
+9,15/09/2026,13:45,Penybont FC,Briton Ferry Llansawel AFC,,
+9,15/09/2026,13:45,The New Saints,Flint Town United,,
+9,15/09/2026,13:45,Trefelin BGC,Cambrian United,,
 9,29/09/2026,03:00,Cardiff Metropolitan,Haverfordwest County,,
 10,18/09/2026,03:00,Airbus UK,Flint Town United,,
 10,18/09/2026,03:00,Ammanford AFC,Penybont FC,,

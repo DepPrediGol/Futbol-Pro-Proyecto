@@ -292,7 +292,6 @@
 17,06/06/2026,03:00,CA Los Andes,Estudiantes de Caseros,0-0,Final
 17,06/06/2026,03:00,Acassuso,Central Norte,2-1,Final
 17,06/06/2026,03:00,Atlético San Miguel,Defensores de Belgrano,0-0,Final
-17,06/06/2026,14:00,San Martín de San Juan,Nueva Chicago,,
 17,06/06/2026,03:00,Atlético Rafaela,Colegiales de Munro,1-0,Final
 17,07/06/2026,03:00,Tristan Suárez,Almagro,0-0,Final
 17,07/06/2026,03:00,Deportivo Morón,Almirante Brown,1-0,Final
@@ -305,6 +304,7 @@
 17,07/06/2026,03:00,Godoy Cruz,Mitre de SdE,2-1,Final
 17,07/06/2026,03:00,Colón de Santa Fe,Club Ciudad de Bolivar,0-0,Final
 17,07/06/2026,03:00,San Martín de Tucumán,Quilmes,0-0,Final
+17,26/08/2026,03:00,San Martín de San Juan,Nueva Chicago,1-0,Final
 18,13/06/2026,03:00,Ferrocarril Midland,Atlanta,1-2,Final
 18,13/06/2026,03:00,Colegiales de Munro,San Martín de Tucumán,2-0,Final
 18,13/06/2026,03:00,Almagro,Agropecuario Argentino,2-1,Final
@@ -369,13 +369,13 @@
 21,05/08/2026,03:00,Almagro,Gimnasia y Tiro de Salta,0-2,Final
 21,06/08/2026,03:00,Quilmes,Gimnasia de Jujuy,2-0,Final
 21,19/08/2026,03:00,Chacarita Juniors,Güemes de SdE,0-0,Final
-21,25/08/2026,17:00,Deportivo Madryn,Godoy Cruz,,
-21,26/08/2026,13:00,Acassuso,San Telmo,,
-21,26/08/2026,13:00,Chaco For Ever,Atlético San Miguel,,
-21,26/08/2026,13:30,Patronato de Paraná,Atlanta,,
-21,26/08/2026,19:30,Central Norte,Deportivo Morón,,
+21,26/08/2026,03:00,Deportivo Madryn,Godoy Cruz,2-0,Final
+21,26/08/2026,03:00,Acassuso,San Telmo,1-2,Final
+21,26/08/2026,03:00,Chaco For Ever,Atlético San Miguel,3-0,Final
+21,26/08/2026,03:00,Patronato de Paraná,Atlanta,2-0,Final
+21,27/08/2026,03:00,Central Norte,Deportivo Morón,0-0,Final
 21,02/09/2026,18:00,Colegiales de Munro,Ferrocarril Midland,,
-21,09/09/2026,13:00,Defensores de Belgrano,CA Los Andes,,
+21,09/09/2026,13:30,Defensores de Belgrano,CA Los Andes,,
 21,16/09/2026,13:00,San Martín de San Juan,Tristan Suárez,,
 22,25/07/2026,03:00,Tristan Suárez,Chacarita Juniors,1-0,Final
 22,25/07/2026,03:00,Estudiantes de Caseros,Club Ciudad de Bolivar,1-2,Final
@@ -412,7 +412,7 @@
 23,02/08/2026,03:00,Chaco For Ever,Deportivo Morón,2-0,Final
 23,02/08/2026,03:00,Deportivo Madryn,All Boys,2-0,Final
 23,02/08/2026,03:00,Central Norte,CA Los Andes,1-0,Final
-23,03/08/2026,14:00,Güemes de SdE,Tristan Suárez,,
+23,03/08/2026,03:00,Güemes de SdE,Tristan Suárez,1-3,Final
 24,08/08/2026,03:00,Ferrocarril Midland,Deportivo Maipú,2-0,Final
 24,08/08/2026,03:00,Agropecuario Argentino,Güemes de SdE,3-0,Final
 24,08/08/2026,03:00,Almirante Brown,Club Ciudad de Bolivar,2-0,Final
@@ -461,48 +461,48 @@
 26,22/08/2026,03:00,Atlético San Miguel,Colón de Santa Fe,1-2,Final
 26,22/08/2026,03:00,Chaco For Ever,CA Los Andes,1-0,Final
 26,23/08/2026,03:00,Central Norte,Estudiantes de Caseros,2-1,Final
-26,23/08/2026,13:00,Chacarita Juniors,San Martín de Tucumán,,
-26,23/08/2026,13:30,Club Ciudad de Bolivar,Racing de Córdoba,,
-26,23/08/2026,13:30,Deportivo Maipú,Quilmes,,
-26,23/08/2026,14:00,Temperley,Ferrocarril Midland,,
-26,24/08/2026,14:00,Güemes de SdE,Atlético Rafaela,,
-26,24/08/2026,18:00,Ferro Carril Oeste,All Boys,,
-27,29/08/2026,03:00,All Boys,Chaco For Ever,,
-27,29/08/2026,03:00,Almirante Brown,Deportivo Madryn,,
-27,29/08/2026,03:00,Atlanta,San Martín de San Juan,,
-27,29/08/2026,03:00,Atlético Rafaela,Tristan Suárez,,
-27,29/08/2026,03:00,Patronato de Paraná,Almagro,,
-27,29/08/2026,03:00,Godoy Cruz,San Telmo,,
-27,29/08/2026,03:00,Gimnasia y Tiro de Salta,Chacarita Juniors,,
-27,29/08/2026,03:00,CA Los Andes,Acassuso,,
-27,29/08/2026,03:00,Quilmes,Temperley,,
-27,29/08/2026,03:00,San Martín de Tucumán,Güemes de SdE,,
-27,29/08/2026,13:00,Colegiales de Munro,Deportivo Maipú,,
-27,29/08/2026,14:00,Club Ciudad de Bolivar,Defensores de Belgrano,,
-27,29/08/2026,15:00,Mitre de SdE,Central Norte,,
-27,29/08/2026,15:00,Gimnasia de Jujuy,Agropecuario Argentino,,
-27,29/08/2026,15:00,Ferrocarril Midland,Nueva Chicago,,
-27,29/08/2026,15:00,Racing de Córdoba,Colón de Santa Fe,,
-27,30/08/2026,13:30,Estudiantes de Caseros,Ferro Carril Oeste,,
-27,30/08/2026,13:30,Deportivo Morón,Atlético San Miguel,,
-28,05/09/2026,03:00,Acassuso,All Boys,,
-28,05/09/2026,03:00,Agropecuario Argentino,Atlético Rafaela,,
-28,05/09/2026,03:00,Almagro,Gimnasia de Jujuy,,
-28,05/09/2026,03:00,Tristan Suárez,San Martín de Tucumán,,
-28,05/09/2026,03:00,San Martín de San Juan,Ferrocarril Midland,,
+26,23/08/2026,03:00,Chacarita Juniors,San Martín de Tucumán,1-2,Final
+26,23/08/2026,03:00,Club Ciudad de Bolivar,Racing de Córdoba,1-1,Final
+26,23/08/2026,03:00,Deportivo Maipú,Quilmes,1-0,Final
+26,23/08/2026,03:00,Temperley,Ferrocarril Midland,2-1,Final
+26,24/08/2026,03:00,Güemes de SdE,Atlético Rafaela,0-0,Final
+26,25/08/2026,03:00,Ferro Carril Oeste,All Boys,1-0,Final
+27,29/08/2026,03:00,Gimnasia y Tiro de Salta,Chacarita Juniors,1-0,Final
+27,29/08/2026,03:00,Colegiales de Munro,Deportivo Maipú,1-0,Final
+27,29/08/2026,03:00,Atlético Rafaela,Tristan Suárez,2-1,Final
+27,29/08/2026,03:00,Club Ciudad de Bolivar,Defensores de Belgrano,1-0,Final
+27,29/08/2026,03:00,Ferrocarril Midland,Nueva Chicago,2-0,Final
+27,30/08/2026,03:00,Almirante Brown,Deportivo Madryn,1-0,Final
+27,30/08/2026,03:00,Mitre de SdE,Central Norte,2-2,Final
+27,30/08/2026,03:00,All Boys,Chaco For Ever,0-0,Final
+27,30/08/2026,03:00,Atlanta,San Martín de San Juan,0-1,Final
+27,30/08/2026,03:00,Estudiantes de Caseros,Ferro Carril Oeste,2-2,Final
+27,30/08/2026,03:00,Patronato de Paraná,Almagro,0-1,Final
+27,30/08/2026,03:00,Deportivo Morón,Atlético San Miguel,2-1,Final
+27,30/08/2026,03:00,Racing de Córdoba,Colón de Santa Fe,1-0,Final
+27,30/08/2026,03:00,Godoy Cruz,San Telmo,3-0,Final
+27,30/08/2026,03:00,San Martín de Tucumán,Güemes de SdE,1-1,Final
+27,31/08/2026,03:00,Quilmes,Temperley,0-1,Final
+27,31/08/2026,17:00,CA Los Andes,Acassuso,,
+27,31/08/2026,19:00,Gimnasia de Jujuy,Agropecuario Argentino,,
+28,04/09/2026,13:30,Defensores de Belgrano,Racing de Córdoba,,
 28,05/09/2026,03:00,Temperley,Colegiales de Munro,,
-28,05/09/2026,03:00,Central Norte,Almirante Brown,,
-28,05/09/2026,03:00,Chacarita Juniors,Atlanta,,
-28,05/09/2026,03:00,Chaco For Ever,Estudiantes de Caseros,,
-28,05/09/2026,03:00,Güemes de SdE,Gimnasia y Tiro de Salta,,
-28,05/09/2026,03:00,Colón de Santa Fe,Deportivo Morón,,
-28,05/09/2026,03:00,Defensores de Belgrano,Racing de Córdoba,,
-28,05/09/2026,03:00,Deportivo Maipú,Patronato de Paraná,,
-28,05/09/2026,03:00,Deportivo Madryn,Club Ciudad de Bolivar,,
-28,05/09/2026,03:00,Ferro Carril Oeste,Mitre de SdE,,
 28,05/09/2026,03:00,Nueva Chicago,Quilmes,,
-28,05/09/2026,03:00,Atlético San Miguel,Godoy Cruz,,
-28,05/09/2026,03:00,San Telmo,CA Los Andes,,
+28,04/09/2026,18:00,Ferro Carril Oeste,Mitre de SdE,,
+28,05/09/2026,13:00,Tristan Suárez,San Martín de Tucumán,,
+28,05/09/2026,13:00,San Telmo,CA Los Andes,,
+28,05/09/2026,13:30,Chacarita Juniors,Atlanta,,
+28,05/09/2026,15:00,Colón de Santa Fe,Deportivo Morón,,
+28,06/09/2026,13:00,Agropecuario Argentino,Atlético Rafaela,,
+28,06/09/2026,13:00,Atlético San Miguel,Godoy Cruz,,
+28,06/09/2026,13:30,Acassuso,All Boys,,
+28,06/09/2026,13:30,Almagro,Gimnasia de Jujuy,,
+28,06/09/2026,13:30,San Martín de San Juan,Ferrocarril Midland,,
+28,06/09/2026,14:00,Chaco For Ever,Estudiantes de Caseros,,
+28,06/09/2026,14:00,Deportivo Maipú,Patronato de Paraná,,
+28,06/09/2026,14:00,Deportivo Madryn,Club Ciudad de Bolivar,,
+28,06/09/2026,15:00,Central Norte,Almirante Brown,,
+28,06/09/2026,15:00,Güemes de SdE,Gimnasia y Tiro de Salta,,
 29,12/09/2026,03:00,All Boys,San Telmo,,
 29,12/09/2026,03:00,Almagro,Deportivo Maipú,,
 29,12/09/2026,03:00,Almirante Brown,Ferro Carril Oeste,,
@@ -512,15 +512,15 @@
 29,12/09/2026,03:00,Patronato de Paraná,Temperley,,
 29,12/09/2026,03:00,Godoy Cruz,Colón de Santa Fe,,
 29,12/09/2026,03:00,Club Ciudad de Bolivar,Central Norte,,
-29,12/09/2026,03:00,Colegiales de Munro,Nueva Chicago,,
 29,12/09/2026,03:00,Defensores de Belgrano,Deportivo Madryn,,
 29,12/09/2026,03:00,Gimnasia de Jujuy,Atlético Rafaela,,
 29,12/09/2026,03:00,Gimnasia y Tiro de Salta,Tristan Suárez,,
 29,12/09/2026,03:00,CA Los Andes,Atlético San Miguel,,
 29,12/09/2026,03:00,Ferrocarril Midland,Chacarita Juniors,,
 29,12/09/2026,03:00,Quilmes,San Martín de San Juan,,
-29,12/09/2026,03:00,Racing de Córdoba,Deportivo Morón,,
-29,12/09/2026,03:00,San Martín de Tucumán,Agropecuario Argentino,,
+29,12/09/2026,15:00,Colegiales de Munro,Nueva Chicago,,
+29,12/09/2026,15:00,Racing de Córdoba,Deportivo Morón,,
+29,12/09/2026,15:00,San Martín de Tucumán,Agropecuario Argentino,,
 30,19/09/2026,03:00,Acassuso,Mitre de SdE,,
 30,19/09/2026,03:00,Agropecuario Argentino,Gimnasia y Tiro de Salta,,
 30,19/09/2026,03:00,Atlético Rafaela,San Martín de Tucumán,,
@@ -534,11 +534,11 @@
 30,19/09/2026,03:00,Colón de Santa Fe,CA Los Andes,,
 30,19/09/2026,03:00,Deportivo Morón,Godoy Cruz,,
 30,19/09/2026,03:00,Deportivo Maipú,Gimnasia de Jujuy,,
-30,19/09/2026,03:00,Deportivo Madryn,Racing de Córdoba,,
 30,19/09/2026,03:00,Ferro Carril Oeste,Club Ciudad de Bolivar,,
 30,19/09/2026,03:00,Nueva Chicago,Patronato de Paraná,,
 30,19/09/2026,03:00,Atlético San Miguel,All Boys,,
 30,19/09/2026,03:00,San Telmo,Estudiantes de Caseros,,
+30,19/09/2026,15:00,Deportivo Madryn,Racing de Córdoba,,
 31,26/09/2026,03:00,All Boys,Colón de Santa Fe,,
 31,26/09/2026,03:00,Almagro,Nueva Chicago,,
 31,26/09/2026,03:00,Almirante Brown,Acassuso,,

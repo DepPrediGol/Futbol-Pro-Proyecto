@@ -23,22 +23,22 @@
 3,15/08/2026,03:00,Milford FC,Kruger United FC,2-1,Final
 3,16/08/2026,03:00,Chippa United,Orlando Pirates,0-3,Final
 3,16/08/2026,03:00,TS Galaxy,Golden Arrows,0-0,Final
-4,25/08/2026,12:30,Kruger United FC,Durban City FC,,
-4,25/08/2026,12:30,Marumo Gallants,TS Galaxy,,
-4,25/08/2026,12:30,Orlando Pirates,Sekhukhune United,,
-4,25/08/2026,12:30,Siwelele FC,Chippa United,,
-4,26/08/2026,12:30,Golden Arrows,Stellenbosch FC,,
-4,26/08/2026,12:30,Mamelodi Sundowns,AmaZulu FC,,
-4,26/08/2026,12:30,Polokwane City FC,Milford FC,,
-4,26/08/2026,12:30,Richards Bay FC,Kaizer Chiefs,,
+4,25/08/2026,03:00,Kruger United FC,Durban City FC,0-2,Final
+4,25/08/2026,03:00,Marumo Gallants,TS Galaxy,2-3,Final
+4,25/08/2026,03:00,Orlando Pirates,Sekhukhune United,2-0,Final
+4,25/08/2026,03:00,Siwelele FC,Chippa United,1-1,Final
+4,26/08/2026,03:00,Golden Arrows,Stellenbosch FC,1-0,Final
+4,26/08/2026,03:00,Mamelodi Sundowns,AmaZulu FC,5-2,Final
+4,26/08/2026,03:00,Polokwane City FC,Milford FC,0-0,Final
+4,26/08/2026,03:00,Richards Bay FC,Kaizer Chiefs,2-2,Final
 5,01/09/2026,12:30,Durban City FC,Stellenbosch FC,,
+5,01/09/2026,12:30,Kruger United FC,Orlando Pirates,,
 5,04/09/2026,12:30,Marumo Gallants,Polokwane City FC,,
 5,04/09/2026,12:30,Richards Bay FC,AmaZulu FC,,
 5,05/09/2026,08:00,Chippa United,Milford FC,,
-5,05/09/2026,08:00,Kruger United FC,Orlando Pirates,,
 5,05/09/2026,10:30,Sekhukhune United,TS Galaxy,,
-5,05/09/2026,13:00,Kaizer Chiefs,Siwelele FC,,
 5,06/09/2026,08:00,Golden Arrows,Mamelodi Sundowns,,
+5,06/09/2026,10:30,Kaizer Chiefs,Siwelele FC,,
 6,11/09/2026,12:30,Stellenbosch FC,Sekhukhune United,,
 6,12/09/2026,08:00,AmaZulu FC,Marumo Gallants,,
 6,12/09/2026,08:00,Polokwane City FC,Kaizer Chiefs,,
@@ -49,12 +49,12 @@
 6,16/09/2026,12:30,Orlando Pirates,Durban City FC,,
 7,09/09/2026,12:30,Mamelodi Sundowns,Siwelele FC,,
 7,18/09/2026,12:30,Richards Bay FC,Sekhukhune United,,
-7,19/09/2026,08:30,Golden Arrows,Kaizer Chiefs,,
-7,19/09/2026,08:30,Milford FC,Durban City FC,,
-7,19/09/2026,11:00,Polokwane City FC,AmaZulu FC,,
-7,19/09/2026,13:15,Kruger United FC,Stellenbosch FC,,
-7,20/09/2026,08:30,Marumo Gallants,Orlando Pirates,,
-7,20/09/2026,11:00,TS Galaxy,Chippa United,,
+7,19/09/2026,08:00,Golden Arrows,Kaizer Chiefs,,
+7,19/09/2026,08:00,Milford FC,Durban City FC,,
+7,19/09/2026,10:30,Polokwane City FC,AmaZulu FC,,
+7,19/09/2026,13:00,Kruger United FC,Stellenbosch FC,,
+7,20/09/2026,08:00,Marumo Gallants,Orlando Pirates,,
+7,20/09/2026,10:30,TS Galaxy,Chippa United,,
 8,16/10/2026,12:30,Durban City FC,AmaZulu FC,,
 8,17/10/2026,08:30,Chippa United,Kruger United FC,,
 8,17/10/2026,08:30,Golden Arrows,Milford FC,,

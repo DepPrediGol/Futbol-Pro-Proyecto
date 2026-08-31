@@ -1,6 +1,6 @@
 ﻿matchday,date,time,home_team,away_team,result,status
 1,31/07/2026,03:00,Portuguesa FC,Carabobo FC,1-0,Final
-1,01/08/2026,03:00,Anzoátegui FC,Deportivo Táchira,,
+1,01/08/2026,03:00,Anzoátegui FC,Deportivo Táchira,0-3,Final
 1,01/08/2026,03:00,Monagas,Deportivo La Guaira,1-2,Final
 1,01/08/2026,03:00,Trujillanos FC,Universidad Central,2-0,Final
 1,02/08/2026,03:00,Zamora FC,Rayo Zuliano,2-1,Final
@@ -33,21 +33,21 @@
 5,22/08/2026,03:00,Zamora FC,Universidad Central,2-0,Final
 5,22/08/2026,03:00,Estudiantes de Mérida,Academia Puerto Cabello,1-1,Final
 5,23/08/2026,03:00,Metropolitanos FC,Deportivo Táchira,3-1,Final
-5,23/08/2026,08:30,Monagas,Portuguesa FC,,
-6,30/08/2026,03:00,Trujillanos FC,Monagas,,
-6,31/08/2026,03:00,Carabobo FC,Zamora FC,,
-6,01/09/2026,03:00,Deportivo Táchira,Caracas FC,,
-6,01/09/2026,03:00,Universidad Central,Rayo Zuliano,,
-6,01/09/2026,03:00,Academia Puerto Cabello,Anzoátegui FC,,
-6,01/09/2026,03:00,Portuguesa FC,Metropolitanos FC,,
-6,01/09/2026,03:00,Deportivo La Guaira,Estudiantes de Mérida,,
-7,08/09/2026,03:00,Anzoátegui FC,Monagas,,
-7,08/09/2026,03:00,Metropolitanos FC,Trujillanos FC,,
-7,08/09/2026,03:00,Zamora FC,Deportivo Táchira,,
-7,08/09/2026,03:00,Rayo Zuliano,Carabobo FC,,
-7,08/09/2026,03:00,Estudiantes de Mérida,Universidad Central,,
-7,08/09/2026,03:00,Caracas FC,Portuguesa FC,,
-7,08/09/2026,03:00,Academia Puerto Cabello,Deportivo La Guaira,,
+5,23/08/2026,03:00,Monagas,Portuguesa FC,0-0,Final
+6,30/08/2026,03:00,Trujillanos FC,Monagas,3-1,Final
+6,30/08/2026,03:00,Deportivo Táchira,Caracas FC,0-0,Final
+6,31/08/2026,03:00,Portuguesa FC,Metropolitanos FC,2-2,Final
+6,30/08/2026,18:00,Carabobo FC,Zamora FC,,
+6,31/08/2026,03:00,Deportivo La Guaira,Estudiantes de Mérida,1-2,Final
+6,31/08/2026,17:30,Universidad Central,Rayo Zuliano,,
+6,31/08/2026,18:30,Academia Puerto Cabello,Anzoátegui FC,,
+7,02/09/2026,20:00,Zamora FC,Deportivo Táchira,,
+7,02/09/2026,23:00,Caracas FC,Portuguesa FC,,
+7,03/09/2026,19:30,Rayo Zuliano,Carabobo FC,,
+7,03/09/2026,20:00,Anzoátegui FC,Monagas,,
+7,03/09/2026,20:00,Estudiantes de Mérida,Universidad Central,,
+7,03/09/2026,22:00,Academia Puerto Cabello,Deportivo La Guaira,,
+7,03/09/2026,23:00,Metropolitanos FC,Trujillanos FC,,
 8,15/09/2026,03:00,Trujillanos FC,Caracas FC,,
 8,15/09/2026,03:00,Deportivo Táchira,Rayo Zuliano,,
 8,15/09/2026,03:00,Deportivo La Guaira,Anzoátegui FC,,

@@ -189,7 +189,6 @@
 15,19/07/2026,03:00,Phoenix Rising,Monterey Bay FC,3-2,Final
 16,23/07/2026,03:00,Lexington SC,Oakland Roots,2-0,Final
 16,23/07/2026,03:00,Colorado Springs Switchbacks,Miami FC,2-0,Final
-16,26/07/2026,03:00,Birmingham Legion,New Mexico United,,
 16,26/07/2026,03:00,Brooklyn FC,San Antonio FC,0-1,Final
 16,26/07/2026,03:00,Detroit City FC,Las Vegas Lights FC,0-1,Final
 16,26/07/2026,03:00,Indy Eleven,Loudoun United,0-1,Final
@@ -252,23 +251,23 @@
 20,23/08/2026,03:00,Birmingham Legion,Sporting JAX,2-3,Final
 20,23/08/2026,03:00,San Antonio FC,Oakland Roots,0-1,Final
 20,23/08/2026,03:00,Orange County SC,FC Tulsa,1-5,Final
-20,23/08/2026,03:00,Sacramento Republic,Phoenix Rising,,
-20,23/08/2026,03:00,Colorado Springs Switchbacks,El Paso Locomotive,,
-20,24/08/2026,18:00,Charleston Battery,Miami FC,,
-21,26/08/2026,20:00,El Paso Locomotive,Pittsburgh Riverhounds,,
-21,26/08/2026,20:30,New Mexico United,Lexington SC,,
-21,29/08/2026,16:00,Pittsburgh Riverhounds,Tampa Bay Rowdies,,
-21,29/08/2026,18:00,Brooklyn FC,Sporting JAX,,
-21,29/08/2026,18:00,Hartford Athletic,Birmingham Legion,,
-21,29/08/2026,19:00,Louisville City FC,Detroit City FC,,
-21,29/08/2026,19:00,Oakland Roots,Orange County SC,,
-21,29/08/2026,19:30,FC Tulsa,Rhode Island FC,,
-21,29/08/2026,20:00,El Paso Locomotive,Loudoun United,,
-21,29/08/2026,20:30,New Mexico United,San Antonio FC,,
-21,29/08/2026,21:00,Monterey Bay FC,Sacramento Republic,,
-21,29/08/2026,21:30,Las Vegas Lights FC,Charleston Battery,,
-21,29/08/2026,21:30,Phoenix Rising,Indy Eleven,,
-21,30/08/2026,18:00,Lexington SC,Colorado Springs Switchbacks,,
+20,23/08/2026,03:00,Sacramento Republic,Phoenix Rising,2-2,Final
+20,23/08/2026,03:00,Colorado Springs Switchbacks,El Paso Locomotive,0-1,Final
+20,25/08/2026,03:00,Charleston Battery,Miami FC,5-0,Final
+21,27/08/2026,03:00,El Paso Locomotive,Pittsburgh Riverhounds,2-1,Final
+21,27/08/2026,03:00,New Mexico United,Lexington SC,2-1,Final
+21,29/08/2026,03:00,Pittsburgh Riverhounds,Tampa Bay Rowdies,0-0,Final
+21,30/08/2026,03:00,Brooklyn FC,Sporting JAX,4-1,Final
+21,30/08/2026,03:00,Hartford Athletic,Birmingham Legion,3-2,Final
+21,30/08/2026,03:00,Lexington SC,Colorado Springs Switchbacks,0-1,Final
+21,30/08/2026,03:00,Louisville City FC,Detroit City FC,0-0,Final
+21,30/08/2026,03:00,Oakland Roots,Orange County SC,1-1,Final
+21,30/08/2026,03:00,FC Tulsa,Rhode Island FC,1-0,Final
+21,30/08/2026,03:00,El Paso Locomotive,Loudoun United,4-1,Final
+21,30/08/2026,03:00,Monterey Bay FC,Sacramento Republic,1-1,Final
+21,30/08/2026,03:00,Las Vegas Lights FC,Charleston Battery,0-2,Final
+21,30/08/2026,03:00,Phoenix Rising,Indy Eleven,2-1,Final
+21,30/08/2026,03:00,New Mexico United,San Antonio FC,1-2,Final
 22,02/09/2026,18:00,Charleston Battery,Hartford Athletic,,
 22,04/09/2026,18:00,Loudoun United,Colorado Springs Switchbacks,,
 22,05/09/2026,18:00,Detroit City FC,Hartford Athletic,,
@@ -295,20 +294,21 @@
 23,12/09/2026,21:00,Sacramento Republic,Detroit City FC,,
 24,15/09/2026,18:00,Indy Eleven,Brooklyn FC,,
 24,16/09/2026,17:00,Hartford Athletic,Sporting JAX,,
-24,19/09/2026,03:00,Brooklyn FC,FC Tulsa,,
-24,19/09/2026,03:00,Charleston Battery,Monterey Bay FC,,
-24,19/09/2026,03:00,Colorado Springs Switchbacks,New Mexico United,,
-24,19/09/2026,03:00,Detroit City FC,Pittsburgh Riverhounds,,
-24,19/09/2026,03:00,Las Vegas Lights FC,Hartford Athletic,,
-24,19/09/2026,03:00,Lexington SC,Orange County SC,,
-24,19/09/2026,03:00,Louisville City FC,Loudoun United,,
-24,19/09/2026,03:00,Phoenix Rising,El Paso Locomotive,,
-24,19/09/2026,03:00,Rhode Island FC,Miami FC,,
-24,19/09/2026,03:00,Tampa Bay Rowdies,Birmingham Legion,,
-24,20/09/2026,03:00,Indy Eleven,Oakland Roots,,
-24,20/09/2026,03:00,Sacramento Republic,San Antonio FC,,
-25,23/09/2026,03:00,Birmingham Legion,Brooklyn FC,,
+24,16/09/2026,19:30,Birmingham Legion,New Mexico United,,
+24,19/09/2026,18:00,Brooklyn FC,FC Tulsa,,
+24,19/09/2026,18:00,Charleston Battery,Monterey Bay FC,,
+24,19/09/2026,18:00,Detroit City FC,Pittsburgh Riverhounds,,
+24,19/09/2026,18:00,Lexington SC,Orange County SC,,
+24,19/09/2026,18:00,Louisville City FC,Loudoun United,,
+24,19/09/2026,18:30,Rhode Island FC,Miami FC,,
+24,19/09/2026,18:30,Tampa Bay Rowdies,Birmingham Legion,,
+24,19/09/2026,20:00,Colorado Springs Switchbacks,New Mexico United,,
+24,19/09/2026,21:00,Phoenix Rising,El Paso Locomotive,,
+24,19/09/2026,21:30,Las Vegas Lights FC,Hartford Athletic,,
+24,20/09/2026,16:00,Indy Eleven,Oakland Roots,,
+24,20/09/2026,18:00,Sacramento Republic,San Antonio FC,,
 25,23/09/2026,03:00,Las Vegas Lights FC,Orange County SC,,
+25,23/09/2026,11:00,Birmingham Legion,Brooklyn FC,,
 25,25/09/2026,03:00,El Paso Locomotive,FC Tulsa,,
 25,25/09/2026,03:00,Hartford Athletic,Louisville City FC,,
 25,26/09/2026,03:00,Charleston Battery,Rhode Island FC,,

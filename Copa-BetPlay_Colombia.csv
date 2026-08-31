@@ -1,73 +1,73 @@
 ﻿matchday,date,time,home_team,away_team,result,status
-,08/05/2026,03:00,Atlético Bucaramanga,Real Santander,5-0,Final
-,08/05/2026,03:00,Boca Juniors de Cali,Alianza FC,1-1,Final
-,12/05/2026,03:00,Deportivo Cali,Atlético Bucaramanga,2-0,Final
-,12/05/2026,03:00,Real Santander,Boca Juniors de Cali,0-3,Final
-,15/05/2026,03:00,Boca Juniors de Cali,Deportivo Cali,1-5,Final
-,16/05/2026,03:00,Alianza FC,Real Santander,3-0,Final
-,21/05/2026,03:00,Atlético Bucaramanga,Boca Juniors de Cali,2-3,Final
-,21/05/2026,03:00,Deportivo Cali,Alianza FC,1-0,Final
-,24/05/2026,03:00,Real Santander,Deportivo Cali,1-2,Final
-,24/05/2026,03:00,Atlético Bucaramanga,Alianza FC,1-2,Final
-,07/05/2026,03:00,Patriotas FC,Boyacá Chicó,0-0,Final
-,08/05/2026,03:00,Llaneros FC,Atlético FC,3-0,Final
-,11/05/2026,03:00,Atlético FC,Patriotas FC,1-1,Final
-,12/05/2026,03:00,Millonarios,Llaneros FC,1-0,Final
-,16/05/2026,03:00,Patriotas FC,Millonarios,2-3,Final
-,16/05/2026,03:00,Boyacá Chicó,Atlético FC,4-0,Final
-,21/05/2026,03:00,Llaneros FC,Patriotas FC,3-1,Final
-,23/05/2026,03:00,Millonarios,Boyacá Chicó,2-2,Final
-,27/05/2026,03:00,Boyacá Chicó,Llaneros FC,0-1,Final
-,30/05/2026,03:00,Atlético FC,Millonarios,1-8,Final
-,08/05/2026,03:00,Fortaleza FC,Leones FC,4-1,Final
-,10/05/2026,03:00,Orsomarso SC,Cúcuta Deportivo,1-1,Final
-,11/05/2026,03:00,Independiente Medellín,Fortaleza FC,1-0,Final
-,12/05/2026,03:00,Leones FC,Orsomarso SC,2-0,Final
-,16/05/2026,03:00,Orsomarso SC,Independiente Medellín,1-1,Final
-,16/05/2026,03:00,Cúcuta Deportivo,Leones FC,0-0,Final
-,20/05/2026,03:00,Fortaleza FC,Orsomarso SC,1-1,Final
-,29/05/2026,03:00,Cúcuta Deportivo,Fortaleza FC,0-0,Final
-,30/05/2026,03:00,Leones FC,Independiente Medellín,1-1,Final
-,02/06/2026,03:00,Independiente Medellín,Cúcuta Deportivo,2-1,Final
-,07/05/2026,03:00,Jaguares de Córdoba,Real Soacha Cundinamarca,1-2,Final
-,08/05/2026,03:00,Independiente Yumbo,Deportivo Pereira,1-1,Final
-,10/05/2026,03:00,Águilas Doradas,Jaguares de Córdoba,0-0,Final
-,13/05/2026,03:00,Real Soacha Cundinamarca,Independiente Yumbo,2-0,Final
-,17/05/2026,03:00,Deportivo Pereira,Real Soacha Cundinamarca,1-0,Final
-,18/05/2026,03:00,Independiente Yumbo,Águilas Doradas,1-4,Final
-,21/05/2026,03:00,Águilas Doradas,Deportivo Pereira,1-1,Final
-,21/05/2026,03:00,Jaguares de Córdoba,Independiente Yumbo,3-0,Final
-,26/05/2026,03:00,Real Soacha Cundinamarca,Águilas Doradas,2-2,Final
-,26/05/2026,03:00,Deportivo Pereira,Jaguares de Córdoba,1-0,Final
-,21/07/2026,03:00,Atlético Nacional,Tigres FC,2-0,Final
-,22/07/2026,03:00,Internacional de Bogotá,Internacional de Palmira,1-0,Final
-,22/07/2026,03:00,Deportes Tolima,Deportes Quindío,2-1,Final
-,22/07/2026,03:00,Deportivo Pasto,Bogotá FC,0-1,Final
-,22/07/2026,03:00,Once Caldas,Envigado FC,3-0,Final
-,22/07/2026,03:00,América de Cali,Real Cartagena,2-1,Final
-,23/07/2026,03:00,Atlético Junior,Barranquilla FC,2-2,Final
-,06/08/2026,03:00,Santa Fe,Unión Magdalena,2-0,Final
-,29/07/2026,03:00,Deportes Quindío,Deportes Tolima,4-2,Final
-,29/07/2026,03:00,Bogotá FC,Deportivo Pasto,0-3,Final
-,29/07/2026,03:00,Tigres FC,Atlético Nacional,0-2,Final
-,30/07/2026,03:00,Internacional de Palmira,Internacional de Bogotá,1-2,Final
-,30/07/2026,03:00,Barranquilla FC,Atlético Junior,5-3,Final
-,30/07/2026,03:00,Real Cartagena,América de Cali,1-1,Final
-,30/07/2026,03:00,Envigado FC,Once Caldas,0-3,Final
-,10/09/2026,15:00,Unión Magdalena,Santa Fe,,
-,10/09/2026,03:00,Fortaleza FC,N.,,
-,13/08/2026,03:00,Deportivo Cali,Atlético Nacional,,
-,14/08/2026,03:00,Independiente Medellín,Deportivo Pasto,,
-,19/08/2026,03:00,Alianza FC,Once Caldas,,
-,20/08/2026,03:00,Internacional de Bogotá,Real Soacha Cundinamarca,,
-,30/08/2026,17:45,Barranquilla FC,Millonarios,,
-,02/09/2026,17:30,Deportes Quindío,Llaneros FC,,
-,09/09/2026,18:00,Deportivo Pereira,América de Cali,,
-,10/09/2026,03:00,N.,Fortaleza FC,,
-,15/08/2026,03:00,Millonarios,Barranquilla FC,,
-,19/08/2026,03:00,Llaneros FC,Deportes Quindío,,
-,20/08/2026,03:00,Once Caldas,Alianza FC,,
-,21/08/2026,03:00,Real Soacha Cundinamarca,Internacional de Bogotá,,
-,21/08/2026,03:00,Atlético Nacional,Deportivo Cali,,
-,21/08/2026,03:00,Deportivo Pasto,Independiente Medellín,,
-,15/09/2026,20:00,América de Cali,Deportivo Pereira,,
+1,08/05/2026,03:00,Atlético Bucaramanga,Real Santander,5-0,Final
+1,08/05/2026,03:00,Boca Juniors de Cali,Alianza FC,1-1,Final
+1,12/05/2026,03:00,Deportivo Cali,Atlético Bucaramanga,2-0,Final
+1,12/05/2026,03:00,Real Santander,Boca Juniors de Cali,0-3,Final
+1,15/05/2026,03:00,Boca Juniors de Cali,Deportivo Cali,1-5,Final
+1,16/05/2026,03:00,Alianza FC,Real Santander,3-0,Final
+2,21/05/2026,03:00,Atlético Bucaramanga,Boca Juniors de Cali,2-3,Final
+2,21/05/2026,03:00,Deportivo Cali,Alianza FC,1-0,Final
+2,24/05/2026,03:00,Real Santander,Deportivo Cali,1-2,Final
+2,24/05/2026,03:00,Atlético Bucaramanga,Alianza FC,1-2,Final
+2,07/05/2026,03:00,Patriotas FC,Boyacá Chicó,0-0,Final
+2,08/05/2026,03:00,Llaneros FC,Atlético FC,3-0,Final
+3,11/05/2026,03:00,Atlético FC,Patriotas FC,1-1,Final
+3,12/05/2026,03:00,Millonarios,Llaneros FC,1-0,Final
+3,16/05/2026,03:00,Patriotas FC,Millonarios,2-3,Final
+3,16/05/2026,03:00,Boyacá Chicó,Atlético FC,4-0,Final
+3,21/05/2026,03:00,Llaneros FC,Patriotas FC,3-1,Final
+3,23/05/2026,03:00,Millonarios,Boyacá Chicó,2-2,Final
+3,27/05/2026,03:00,Boyacá Chicó,Llaneros FC,0-1,Final
+3,30/05/2026,03:00,Atlético FC,Millonarios,1-8,Final
+4,08/05/2026,03:00,Fortaleza FC,Leones FC,4-1,Final
+4,10/05/2026,03:00,Orsomarso SC,Cúcuta Deportivo,1-1,Final
+4,11/05/2026,03:00,Independiente Medellín,Fortaleza FC,1-0,Final
+4,12/05/2026,03:00,Leones FC,Orsomarso SC,2-0,Final
+4,16/05/2026,03:00,Orsomarso SC,Independiente Medellín,1-1,Final
+4,16/05/2026,03:00,Cúcuta Deportivo,Leones FC,0-0,Final
+4,20/05/2026,03:00,Fortaleza FC,Orsomarso SC,1-1,Final
+5,29/05/2026,03:00,Cúcuta Deportivo,Fortaleza FC,0-0,Final
+5,30/05/2026,03:00,Leones FC,Independiente Medellín,1-1,Final
+5,02/06/2026,03:00,Independiente Medellín,Cúcuta Deportivo,2-1,Final
+5,07/05/2026,03:00,Jaguares de Córdoba,Real Soacha Cundinamarca,1-2,Final
+5,08/05/2026,03:00,Independiente Yumbo,Deportivo Pereira,1-1,Final
+5,10/05/2026,03:00,Águilas Doradas,Jaguares de Córdoba,0-0,Final
+5,13/05/2026,03:00,Real Soacha Cundinamarca,Independiente Yumbo,2-0,Final
+6,17/05/2026,03:00,Deportivo Pereira,Real Soacha Cundinamarca,1-0,Final
+6,18/05/2026,03:00,Independiente Yumbo,Águilas Doradas,1-4,Final
+6,21/05/2026,03:00,Águilas Doradas,Deportivo Pereira,1-1,Final
+6,21/05/2026,03:00,Jaguares de Córdoba,Independiente Yumbo,3-0,Final
+6,26/05/2026,03:00,Real Soacha Cundinamarca,Águilas Doradas,2-2,Final
+6,26/05/2026,03:00,Deportivo Pereira,Jaguares de Córdoba,1-0,Final
+7,21/07/2026,03:00,Atlético Nacional,Tigres FC,2-0,Final
+7,22/07/2026,03:00,Internacional de Bogotá,Internacional de Palmira,1-0,Final
+7,22/07/2026,03:00,Deportes Tolima,Deportes Quindío,2-1,Final
+7,22/07/2026,03:00,Deportivo Pasto,Bogotá FC,0-1,Final
+7,22/07/2026,03:00,Once Caldas,Envigado FC,3-0,Final
+7,22/07/2026,03:00,América de Cali,Real Cartagena,2-1,Final
+7,23/07/2026,03:00,Atlético Junior,Barranquilla FC,2-2,Final
+8,06/08/2026,03:00,Santa Fe,Unión Magdalena,2-0,Final
+8,29/07/2026,03:00,Deportes Quindío,Deportes Tolima,4-2,Final
+8,29/07/2026,03:00,Bogotá FC,Deportivo Pasto,0-3,Final
+8,29/07/2026,03:00,Tigres FC,Atlético Nacional,0-2,Final
+8,30/07/2026,03:00,Internacional de Palmira,Internacional de Bogotá,1-2,Final
+8,30/07/2026,03:00,Barranquilla FC,Atlético Junior,5-3,Final
+8,30/07/2026,03:00,Real Cartagena,América de Cali,1-1,Final
+8,30/07/2026,03:00,Envigado FC,Once Caldas,0-3,Final
+9,02/09/2026,17:30,Deportes Quindío,Llaneros FC,,
+9,02/09/2026,18:15,Atlético Nacional,Deportivo Cali,,
+9,09/09/2026,18:00,Real Soacha Cundinamarca,Internacional de Bogotá,,
+9,09/09/2026,18:00,América de Cali,Deportivo Pereira,,
+9,09/09/2026,19:00,Once Caldas,Alianza FC,,
+9,09/09/2026,20:10,Deportivo Pasto,Independiente Medellín,,
+9,16/09/2026,20:30,Barranquilla FC,Millonarios,,
+10,10/09/2026,15:00,Unión Magdalena,Santa Fe,,
+10,10/09/2026,03:00,Fortaleza FC,N.,,
+10,13/08/2026,03:00,Deportivo Cali,Atlético Nacional,,
+10,14/08/2026,03:00,Independiente Medellín,Deportivo Pasto,,
+10,19/08/2026,03:00,Alianza FC,Once Caldas,,
+10,20/08/2026,03:00,Internacional de Bogotá,Real Soacha Cundinamarca,,
+10,30/08/2026,17:45,Millonarios,Barranquilla FC,,
+10,09/09/2026,18:00,Deportivo Pereira,América de Cali,,
+10,10/09/2026,03:00,N.,Fortaleza FC,,
+11,19/08/2026,03:00,Llaneros FC,Deportes Quindío,,

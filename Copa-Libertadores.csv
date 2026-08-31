@@ -1,152 +1,151 @@
 ﻿matchday,date,time,home_team,away_team,result,status
-,04/02/2026,03:00,The Strongest,Deportivo Táchira,2-1,Final
-,05/02/2026,03:00,2 de Mayo,Alianza Lima,1-0,Final
-,06/02/2026,03:00,Juventud de Las Piedras,Universidad Católica,0-1,Final
-,11/02/2026,03:00,Deportivo Táchira,The Strongest,5-3,Final
-,12/02/2026,03:00,Alianza Lima,2 de Mayo,1-1,Final
-,13/02/2026,03:00,Universidad Católica,Juventud de Las Piedras,3-4,Final
-,17/02/2026,03:00,Carabobo FC,Huachipato,1-0,Final
-,18/02/2026,03:00,2 de Mayo,Sporting Cristal,2-2,Final
-,18/02/2026,03:00,Liverpool,Independiente Medellín,1-2,Final
-,18/02/2026,03:00,O'Higgins,Bahia - BA,1-0,Final
-,19/02/2026,03:00,Barcelona,Argentinos Juniors,0-1,Final
-,19/02/2026,03:00,Nacional Potosí,Botafogo - RJ,1-0,Final
-,19/02/2026,03:00,Juventud de Las Piedras,Guaraní,0-0,Final
-,20/02/2026,03:00,Deportivo Táchira,Deportes Tolima,0-1,Final
-,24/02/2026,03:00,Huachipato,Carabobo FC,1-2,Final
-,25/02/2026,03:00,Sporting Cristal,2 de Mayo,5-4,Final
-,25/02/2026,03:00,Independiente Medellín,Liverpool,0-0,Final
-,25/02/2026,03:00,Bahia - BA,O'Higgins,3-4,Final
-,26/02/2026,03:00,Argentinos Juniors,Barcelona,4-5,Final
-,26/02/2026,03:00,Botafogo - RJ,Nacional Potosí,2-0,Final
-,26/02/2026,03:00,Guaraní,Juventud de Las Piedras,1-2,Final
-,27/02/2026,03:00,Deportes Tolima,Deportivo Táchira,3-0,Final
-,04/03/2026,03:00,Barcelona,Botafogo - RJ,1-1,Final
-,04/03/2026,03:00,Carabobo FC,Sporting Cristal,0-1,Final
-,05/03/2026,03:00,O'Higgins,Deportes Tolima,1-0,Final
-,06/03/2026,03:00,Juventud de Las Piedras,Independiente Medellín,1-1,Final
-,11/03/2026,03:00,Botafogo - RJ,Barcelona,0-1,Final
-,11/03/2026,03:00,Sporting Cristal,Carabobo FC,3-2,Final
-,12/03/2026,03:00,Deportes Tolima,O'Higgins,2-0,Final
-,13/03/2026,03:00,Independiente Medellín,Juventud de Las Piedras,2-1,Final
-,09/04/2026,03:00,Independiente Medellín,Estudiantes,1-1,Final
-,09/04/2026,03:00,Cusco FC,Flamengo RJ,0-2,Final
-,15/04/2026,03:00,Estudiantes,Cusco FC,2-1,Final
-,17/04/2026,03:00,Flamengo RJ,Independiente Medellín,4-1,Final
-,30/04/2026,03:00,Estudiantes,Flamengo RJ,1-1,Final
-,01/05/2026,03:00,Independiente Medellín,Cusco FC,1-0,Final
-,07/05/2026,03:00,Cusco FC,Estudiantes,1-1,Final
-,08/05/2026,03:00,Independiente Medellín,Flamengo RJ,0-3,Final
-,21/05/2026,03:00,Flamengo RJ,Estudiantes,1-0,Final
-,21/05/2026,03:00,Cusco FC,Independiente Medellín,2-3,Final
-,27/05/2026,03:00,Estudiantes,Independiente Medellín,1-0,Final
-,27/05/2026,03:00,Flamengo RJ,Cusco FC,3-0,Final
-,08/04/2026,03:00,Deportes Tolima,Universitario de Deportes,0-0,Final
-,09/04/2026,03:00,Coquimbo Unido,Nacional,1-1,Final
-,15/04/2026,03:00,Nacional,Deportes Tolima,3-1,Final
-,15/04/2026,03:00,Universitario de Deportes,Coquimbo Unido,0-2,Final
-,29/04/2026,03:00,Deportes Tolima,Coquimbo Unido,3-0,Final
-,30/04/2026,03:00,Universitario de Deportes,Nacional,4-2,Final
-,07/05/2026,03:00,Deportes Tolima,Nacional,3-0,Final
-,08/05/2026,03:00,Coquimbo Unido,Universitario de Deportes,2-1,Final
-,20/05/2026,03:00,Coquimbo Unido,Deportes Tolima,3-0,Final
-,21/05/2026,03:00,Nacional,Universitario de Deportes,0-0,Final
-,27/05/2026,03:00,Universitario de Deportes,Deportes Tolima,0-0,Final
-,27/05/2026,03:00,Nacional,Coquimbo Unido,1-0,Final
-,08/04/2026,03:00,Independiente Rivadavia,Bolívar,1-0,Final
-,08/04/2026,03:00,Deportivo La Guaira,Fluminense RJ,0-0,Final
-,15/04/2026,03:00,Bolívar,Deportivo La Guaira,1-1,Final
-,16/04/2026,03:00,Fluminense RJ,Independiente Rivadavia,1-2,Final
-,01/05/2026,03:00,Bolívar,Fluminense RJ,2-0,Final
-,01/05/2026,03:00,Independiente Rivadavia,Deportivo La Guaira,4-1,Final
-,07/05/2026,03:00,Deportivo La Guaira,Bolívar,1-1,Final
-,07/05/2026,03:00,Independiente Rivadavia,Fluminense RJ,1-1,Final
-,20/05/2026,03:00,Fluminense RJ,Bolívar,2-1,Final
-,22/05/2026,03:00,Deportivo La Guaira,Independiente Rivadavia,2-4,Final
-,28/05/2026,03:00,Bolívar,Independiente Rivadavia,1-3,Final
-,28/05/2026,03:00,Fluminense RJ,Deportivo La Guaira,3-1,Final
-,08/04/2026,03:00,Barcelona,Cruzeiro,0-1,Final
-,08/04/2026,03:00,Universidad Católica,Boca Juniors,1-2,Final
-,15/04/2026,03:00,Boca Juniors,Barcelona,3-0,Final
-,16/04/2026,03:00,Cruzeiro,Universidad Católica,1-2,Final
-,29/04/2026,03:00,Cruzeiro,Boca Juniors,1-0,Final
-,30/04/2026,03:00,Barcelona,Universidad Católica,1-2,Final
-,06/05/2026,03:00,Barcelona,Boca Juniors,1-0,Final
-,07/05/2026,03:00,Universidad Católica,Cruzeiro,0-0,Final
-,20/05/2026,03:00,Boca Juniors,Cruzeiro,1-1,Final
-,22/05/2026,03:00,Universidad Católica,Barcelona,2-0,Final
-,29/05/2026,03:00,Cruzeiro,Barcelona,4-0,Final
-,29/05/2026,03:00,Boca Juniors,Universidad Católica,0-1,Final
-,10/04/2026,03:00,Platense,Corinthians SP,0-2,Final
-,10/04/2026,03:00,Santa Fe,Peñarol,1-1,Final
-,16/04/2026,03:00,Corinthians SP,Santa Fe,2-0,Final
-,17/04/2026,03:00,Peñarol,Platense,1-2,Final
-,30/04/2026,03:00,Platense,Santa Fe,2-1,Final
-,01/05/2026,03:00,Corinthians SP,Peñarol,2-0,Final
-,07/05/2026,03:00,Santa Fe,Corinthians SP,1-1,Final
-,08/05/2026,03:00,Platense,Peñarol,1-1,Final
-,20/05/2026,03:00,Santa Fe,Platense,2-1,Final
-,22/05/2026,03:00,Peñarol,Corinthians SP,1-1,Final
-,28/05/2026,03:00,Corinthians SP,Platense,0-2,Final
-,28/05/2026,03:00,Peñarol,Santa Fe,0-1,Final
-,09/04/2026,03:00,Atlético Junior,Palmeiras,1-1,Final
-,09/04/2026,03:00,Sporting Cristal,Cerro Porteño,1-0,Final
-,15/04/2026,03:00,Cerro Porteño,Atlético Junior,1-0,Final
-,17/04/2026,03:00,Palmeiras,Sporting Cristal,2-1,Final
-,29/04/2026,03:00,Sporting Cristal,Atlético Junior,2-0,Final
-,30/04/2026,03:00,Cerro Porteño,Palmeiras,1-1,Final
-,06/05/2026,03:00,Sporting Cristal,Palmeiras,0-2,Final
-,08/05/2026,03:00,Atlético Junior,Cerro Porteño,0-1,Final
-,21/05/2026,03:00,Palmeiras,Cerro Porteño,0-1,Final
-,21/05/2026,03:00,Atlético Junior,Sporting Cristal,3-2,Final
-,29/05/2026,03:00,Cerro Porteño,Sporting Cristal,2-0,Final
-,29/05/2026,03:00,Palmeiras,Atlético Junior,4-1,Final
-,08/04/2026,03:00,Always Ready,LDU Quito,0-1,Final
-,09/04/2026,03:00,Mirassol - SP,Lanús,1-0,Final
-,15/04/2026,03:00,LDU Quito,Mirassol - SP,2-0,Final
-,17/04/2026,03:00,Lanús,Always Ready,1-0,Final
-,29/04/2026,03:00,Lanús,LDU Quito,1-0,Final
-,30/04/2026,03:00,Mirassol - SP,Always Ready,2-0,Final
-,06/05/2026,03:00,Always Ready,Lanús,4-0,Final
-,08/05/2026,03:00,Mirassol - SP,LDU Quito,2-0,Final
-,20/05/2026,03:00,Always Ready,Mirassol - SP,1-2,Final
-,21/05/2026,03:00,LDU Quito,Lanús,2-0,Final
-,27/05/2026,03:00,Lanús,Mirassol - SP,1-0,Final
-,27/05/2026,03:00,LDU Quito,Always Ready,3-2,Final
-,10/04/2026,03:00,Universidad Central,Libertad,3-1,Final
-,10/04/2026,03:00,Rosario Central,Independiente del Valle,0-0,Final
-,16/04/2026,03:00,Libertad,Rosario Central,0-1,Final
-,16/04/2026,03:00,Independiente del Valle,Universidad Central,3-1,Final
-,29/04/2026,03:00,Libertad,Independiente del Valle,2-3,Final
-,29/04/2026,03:00,Universidad Central,Rosario Central,0-3,Final
-,06/05/2026,03:00,Rosario Central,Libertad,1-0,Final
-,06/05/2026,03:00,Universidad Central,Independiente del Valle,2-0,Final
-,20/05/2026,03:00,Rosario Central,Universidad Central,4-0,Final
-,20/05/2026,03:00,Independiente del Valle,Libertad,4-1,Final
-,28/05/2026,03:00,Libertad,Universidad Central,0-1,Final
-,28/05/2026,03:00,Independiente del Valle,Rosario Central,1-0,Final
-,12/08/2026,03:00,Fluminense RJ,Independiente Rivadavia,0-0,Final
-,12/08/2026,03:00,Estudiantes,Universidad Católica,1-1,Final
-,13/08/2026,03:00,Palmeiras,Cerro Porteño,1-1,Final
-,13/08/2026,03:00,Platense,Coquimbo Unido,1-1,Final
-,13/08/2026,03:00,Cruzeiro,Flamengo RJ,1-1,Final
-,14/08/2026,03:00,Mirassol - SP,LDU Quito,1-1,Final
-,14/08/2026,03:00,Rosario Central,Corinthians SP,0-0,Final
-,19/08/2026,03:00,Deportes Tolima,Independiente del Valle,0-1,Final
-,19/08/2026,03:00,Independiente Rivadavia,Fluminense RJ,4-5,Final
-,19/08/2026,03:00,Universidad Católica,Estudiantes,0-3,Final
-,20/08/2026,03:00,Cerro Porteño,Palmeiras,0-1,Final
-,20/08/2026,03:00,Coquimbo Unido,Platense,6-7,Final
-,20/08/2026,03:00,Flamengo RJ,Cruzeiro,2-1,Final
-,21/08/2026,03:00,LDU Quito,Mirassol - SP,5-4,Final
-,21/08/2026,03:00,Corinthians SP,Rosario Central,1-0,Final
-,25/08/2026,19:30,Independiente del Valle,Deportes Tolima,,
-,08/09/2026,03:00,Estudiantes,Corinthians SP,,
-,08/09/2026,03:00,Fluminense RJ,Platense,,
-,08/09/2026,03:00,Palmeiras,LDU Quito,,
-,15/09/2026,03:00,Corinthians SP,Estudiantes,,
-,15/09/2026,03:00,Platense,Fluminense RJ,,
-,15/09/2026,03:00,LDU Quito,Palmeiras,,
-,13/10/2026,03:00,N.,N.,,
-,20/10/2026,03:00,N.,N.,,
-,28/11/2026,03:00,N.,N.,,
+1,04/02/2026,03:00,The Strongest,Deportivo Táchira,2-1,Final
+1,05/02/2026,03:00,2 de Mayo,Alianza Lima,1-0,Final
+1,06/02/2026,03:00,Juventud de Las Piedras,Universidad Católica,0-1,Final
+1,11/02/2026,03:00,Deportivo Táchira,The Strongest,5-3,Final
+1,12/02/2026,03:00,Alianza Lima,2 de Mayo,1-1,Final
+1,13/02/2026,03:00,Universidad Católica,Juventud de Las Piedras,3-4,Final
+2,17/02/2026,03:00,Carabobo FC,Huachipato,1-0,Final
+2,18/02/2026,03:00,2 de Mayo,Sporting Cristal,2-2,Final
+2,18/02/2026,03:00,Liverpool,Independiente Medellín,1-2,Final
+2,18/02/2026,03:00,O'Higgins,Bahia - BA,1-0,Final
+2,19/02/2026,03:00,Barcelona,Argentinos Juniors,0-1,Final
+2,19/02/2026,03:00,Nacional Potosí,Botafogo - RJ,1-0,Final
+2,19/02/2026,03:00,Juventud de Las Piedras,Guaraní,0-0,Final
+2,20/02/2026,03:00,Deportivo Táchira,Deportes Tolima,0-1,Final
+3,24/02/2026,03:00,Huachipato,Carabobo FC,1-2,Final
+3,25/02/2026,03:00,Sporting Cristal,2 de Mayo,5-4,Final
+3,25/02/2026,03:00,Independiente Medellín,Liverpool,0-0,Final
+3,25/02/2026,03:00,Bahia - BA,O'Higgins,3-4,Final
+3,26/02/2026,03:00,Argentinos Juniors,Barcelona,4-5,Final
+3,26/02/2026,03:00,Botafogo - RJ,Nacional Potosí,2-0,Final
+3,26/02/2026,03:00,Guaraní,Juventud de Las Piedras,1-2,Final
+3,27/02/2026,03:00,Deportes Tolima,Deportivo Táchira,3-0,Final
+4,04/03/2026,03:00,Barcelona,Botafogo - RJ,1-1,Final
+4,04/03/2026,03:00,Carabobo FC,Sporting Cristal,0-1,Final
+4,05/03/2026,03:00,O'Higgins,Deportes Tolima,1-0,Final
+4,06/03/2026,03:00,Juventud de Las Piedras,Independiente Medellín,1-1,Final
+4,11/03/2026,03:00,Botafogo - RJ,Barcelona,0-1,Final
+4,11/03/2026,03:00,Sporting Cristal,Carabobo FC,3-2,Final
+4,12/03/2026,03:00,Deportes Tolima,O'Higgins,2-0,Final
+4,13/03/2026,03:00,Independiente Medellín,Juventud de Las Piedras,2-1,Final
+5,09/04/2026,03:00,Independiente Medellín,Estudiantes,1-1,Final
+5,09/04/2026,03:00,Cusco FC,Flamengo RJ,0-2,Final
+5,15/04/2026,03:00,Estudiantes,Cusco FC,2-1,Final
+5,17/04/2026,03:00,Flamengo RJ,Independiente Medellín,4-1,Final
+5,30/04/2026,03:00,Estudiantes,Flamengo RJ,1-1,Final
+5,01/05/2026,03:00,Independiente Medellín,Cusco FC,1-0,Final
+6,07/05/2026,03:00,Cusco FC,Estudiantes,1-1,Final
+6,08/05/2026,03:00,Independiente Medellín,Flamengo RJ,0-3,Final
+6,21/05/2026,03:00,Flamengo RJ,Estudiantes,1-0,Final
+6,21/05/2026,03:00,Cusco FC,Independiente Medellín,2-3,Final
+6,27/05/2026,03:00,Estudiantes,Independiente Medellín,1-0,Final
+6,27/05/2026,03:00,Flamengo RJ,Cusco FC,3-0,Final
+7,08/04/2026,03:00,Deportes Tolima,Universitario de Deportes,0-0,Final
+7,09/04/2026,03:00,Coquimbo Unido,Nacional,1-1,Final
+7,15/04/2026,03:00,Nacional,Deportes Tolima,3-1,Final
+7,15/04/2026,03:00,Universitario de Deportes,Coquimbo Unido,0-2,Final
+7,29/04/2026,03:00,Deportes Tolima,Coquimbo Unido,3-0,Final
+7,30/04/2026,03:00,Universitario de Deportes,Nacional,4-2,Final
+8,07/05/2026,03:00,Deportes Tolima,Nacional,3-0,Final
+8,08/05/2026,03:00,Coquimbo Unido,Universitario de Deportes,2-1,Final
+8,20/05/2026,03:00,Coquimbo Unido,Deportes Tolima,3-0,Final
+8,21/05/2026,03:00,Nacional,Universitario de Deportes,0-0,Final
+8,27/05/2026,03:00,Universitario de Deportes,Deportes Tolima,0-0,Final
+8,27/05/2026,03:00,Nacional,Coquimbo Unido,1-0,Final
+9,08/04/2026,03:00,Independiente Rivadavia,Bolívar,1-0,Final
+9,08/04/2026,03:00,Deportivo La Guaira,Fluminense RJ,0-0,Final
+9,15/04/2026,03:00,Bolívar,Deportivo La Guaira,1-1,Final
+9,16/04/2026,03:00,Fluminense RJ,Independiente Rivadavia,1-2,Final
+10,01/05/2026,03:00,Bolívar,Fluminense RJ,2-0,Final
+10,01/05/2026,03:00,Independiente Rivadavia,Deportivo La Guaira,4-1,Final
+10,07/05/2026,03:00,Deportivo La Guaira,Bolívar,1-1,Final
+10,07/05/2026,03:00,Independiente Rivadavia,Fluminense RJ,1-1,Final
+11,20/05/2026,03:00,Fluminense RJ,Bolívar,2-1,Final
+11,22/05/2026,03:00,Deportivo La Guaira,Independiente Rivadavia,2-4,Final
+11,28/05/2026,03:00,Bolívar,Independiente Rivadavia,1-3,Final
+11,28/05/2026,03:00,Fluminense RJ,Deportivo La Guaira,3-1,Final
+12,08/04/2026,03:00,Barcelona,Cruzeiro,0-1,Final
+12,08/04/2026,03:00,Universidad Católica,Boca Juniors,1-2,Final
+12,15/04/2026,03:00,Boca Juniors,Barcelona,3-0,Final
+12,16/04/2026,03:00,Cruzeiro,Universidad Católica,1-2,Final
+13,29/04/2026,03:00,Cruzeiro,Boca Juniors,1-0,Final
+13,30/04/2026,03:00,Barcelona,Universidad Católica,1-2,Final
+13,06/05/2026,03:00,Barcelona,Boca Juniors,1-0,Final
+13,07/05/2026,03:00,Universidad Católica,Cruzeiro,0-0,Final
+14,20/05/2026,03:00,Boca Juniors,Cruzeiro,1-1,Final
+14,22/05/2026,03:00,Universidad Católica,Barcelona,2-0,Final
+14,29/05/2026,03:00,Cruzeiro,Barcelona,4-0,Final
+14,29/05/2026,03:00,Boca Juniors,Universidad Católica,0-1,Final
+15,10/04/2026,03:00,Platense,Corinthians SP,0-2,Final
+15,10/04/2026,03:00,Santa Fe,Peñarol,1-1,Final
+15,16/04/2026,03:00,Corinthians SP,Santa Fe,2-0,Final
+15,17/04/2026,03:00,Peñarol,Platense,1-2,Final
+16,30/04/2026,03:00,Platense,Santa Fe,2-1,Final
+16,01/05/2026,03:00,Corinthians SP,Peñarol,2-0,Final
+16,07/05/2026,03:00,Santa Fe,Corinthians SP,1-1,Final
+16,08/05/2026,03:00,Platense,Peñarol,1-1,Final
+17,20/05/2026,03:00,Santa Fe,Platense,2-1,Final
+17,22/05/2026,03:00,Peñarol,Corinthians SP,1-1,Final
+17,28/05/2026,03:00,Corinthians SP,Platense,0-2,Final
+17,28/05/2026,03:00,Peñarol,Santa Fe,0-1,Final
+18,09/04/2026,03:00,Atlético Junior,Palmeiras,1-1,Final
+18,09/04/2026,03:00,Sporting Cristal,Cerro Porteño,1-0,Final
+18,15/04/2026,03:00,Cerro Porteño,Atlético Junior,1-0,Final
+18,17/04/2026,03:00,Palmeiras,Sporting Cristal,2-1,Final
+19,29/04/2026,03:00,Sporting Cristal,Atlético Junior,2-0,Final
+19,30/04/2026,03:00,Cerro Porteño,Palmeiras,1-1,Final
+19,06/05/2026,03:00,Sporting Cristal,Palmeiras,0-2,Final
+19,08/05/2026,03:00,Atlético Junior,Cerro Porteño,0-1,Final
+20,21/05/2026,03:00,Palmeiras,Cerro Porteño,0-1,Final
+20,21/05/2026,03:00,Atlético Junior,Sporting Cristal,3-2,Final
+20,29/05/2026,03:00,Cerro Porteño,Sporting Cristal,2-0,Final
+20,29/05/2026,03:00,Palmeiras,Atlético Junior,4-1,Final
+21,08/04/2026,03:00,Always Ready,LDU Quito,0-1,Final
+21,09/04/2026,03:00,Mirassol - SP,Lanús,1-0,Final
+21,15/04/2026,03:00,LDU Quito,Mirassol - SP,2-0,Final
+21,17/04/2026,03:00,Lanús,Always Ready,1-0,Final
+22,29/04/2026,03:00,Lanús,LDU Quito,1-0,Final
+22,30/04/2026,03:00,Mirassol - SP,Always Ready,2-0,Final
+22,06/05/2026,03:00,Always Ready,Lanús,4-0,Final
+22,08/05/2026,03:00,Mirassol - SP,LDU Quito,2-0,Final
+23,20/05/2026,03:00,Always Ready,Mirassol - SP,1-2,Final
+23,21/05/2026,03:00,LDU Quito,Lanús,2-0,Final
+23,27/05/2026,03:00,Lanús,Mirassol - SP,1-0,Final
+23,27/05/2026,03:00,LDU Quito,Always Ready,3-2,Final
+24,10/04/2026,03:00,Universidad Central,Libertad,3-1,Final
+24,10/04/2026,03:00,Rosario Central,Independiente del Valle,0-0,Final
+24,16/04/2026,03:00,Libertad,Rosario Central,0-1,Final
+24,16/04/2026,03:00,Independiente del Valle,Universidad Central,3-1,Final
+25,29/04/2026,03:00,Libertad,Independiente del Valle,2-3,Final
+25,29/04/2026,03:00,Universidad Central,Rosario Central,0-3,Final
+25,06/05/2026,03:00,Rosario Central,Libertad,1-0,Final
+25,06/05/2026,03:00,Universidad Central,Independiente del Valle,2-0,Final
+26,20/05/2026,03:00,Rosario Central,Universidad Central,4-0,Final
+26,20/05/2026,03:00,Independiente del Valle,Libertad,4-1,Final
+26,28/05/2026,03:00,Libertad,Universidad Central,0-1,Final
+26,28/05/2026,03:00,Independiente del Valle,Rosario Central,1-0,Final
+27,12/08/2026,03:00,Fluminense RJ,Independiente Rivadavia,0-0,Final
+27,12/08/2026,03:00,Estudiantes,Universidad Católica,1-1,Final
+27,13/08/2026,03:00,Palmeiras,Cerro Porteño,1-1,Final
+27,13/08/2026,03:00,Platense,Coquimbo Unido,1-1,Final
+27,13/08/2026,03:00,Cruzeiro,Flamengo RJ,1-1,Final
+27,14/08/2026,03:00,Mirassol - SP,LDU Quito,1-1,Final
+27,14/08/2026,03:00,Rosario Central,Corinthians SP,0-0,Final
+28,19/08/2026,03:00,Deportes Tolima,Independiente del Valle,0-1,Final
+28,19/08/2026,03:00,Independiente Rivadavia,Fluminense RJ,4-5,Final
+28,19/08/2026,03:00,Universidad Católica,Estudiantes,0-3,Final
+28,20/08/2026,03:00,Cerro Porteño,Palmeiras,0-1,Final
+28,20/08/2026,03:00,Coquimbo Unido,Platense,6-7,Final
+28,20/08/2026,03:00,Flamengo RJ,Cruzeiro,2-1,Final
+28,21/08/2026,03:00,LDU Quito,Mirassol - SP,5-4,Final
+28,21/08/2026,03:00,Corinthians SP,Rosario Central,1-0,Final
+28,26/08/2026,03:00,Independiente del Valle,Deportes Tolima,3-1,Final
+29,08/09/2026,17:00,Fluminense RJ,Platense,,
+29,09/09/2026,17:00,Palmeiras,LDU Quito,,
+29,09/09/2026,19:30,Estudiantes,Corinthians SP,,
+29,10/09/2026,19:30,Independiente del Valle,Flamengo RJ,,
+29,15/09/2026,17:00,Platense,Fluminense RJ,,
+29,16/09/2026,17:00,LDU Quito,Palmeiras,,
+29,16/09/2026,19:30,Corinthians SP,Estudiantes,,
+29,17/09/2026,19:30,Flamengo RJ,Independiente del Valle,,

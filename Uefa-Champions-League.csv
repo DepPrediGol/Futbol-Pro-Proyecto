@@ -1,282 +1,145 @@
 ﻿matchday,date,time,home_team,away_team,result,status
-1,08/07/2025,10:00,KuPS,Milsami Orhei,1-0,Final
-1,08/07/2025,11:00,Saburtalo,Malmo FF,1-3,Final
-1,08/07/2025,11:00,FC Noah,Buducnost Podgorica,1-0,Final
-1,08/07/2025,11:30,FC Levadia Tallinn,Rīgas FS,0-1,Final
-1,08/07/2025,12:00,Olimpija Ljubljana,Kairat Almaty,1-1,Final
-1,08/07/2025,13:00,The New Saints,Shkendija,0-0,Final
-1,08/07/2025,13:00,Vikingur Gota,Lincoln Red Imps FC,2-3,Final
-1,08/07/2025,13:00,Drita,FC Differdange 03,1-0,Final
-1,08/07/2025,14:00,Egnatia Rrogozhinë,Breidablik,1-0,Final
-1,08/07/2025,14:00,Virtus,Zrinjski,0-2,Final
-1,09/07/2025,11:00,FK Zalgiris Vilnius,Hamrun Spartans,2-0,Final
-1,09/07/2025,12:30,FCSB,Inter Club d'Escaldes,3-1,Final
-1,09/07/2025,12:30,Ludogorets,Dinamo Minsk,1-0,Final
-1,09/07/2025,13:45,Shelbourne,Linfield,1-0,Final
-1,15/07/2025,10:00,Kairat Almaty,Olimpija Ljubljana,2-0,Final
-1,15/07/2025,10:30,Lincoln Red Imps FC,Vikingur Gota,1-0,Final
-1,15/07/2025,12:00,Malmo FF,Saburtalo,3-1,Final
-1,15/07/2025,12:00,Milsami Orhei,KuPS,0-0,Final
-1,15/07/2025,12:00,Rīgas FS,FC Levadia Tallinn,1-0,Final
-1,15/07/2025,12:00,Hamrun Spartans,FK Zalgiris Vilnius,2-0,Final
-1,15/07/2025,13:00,Shkendija,The New Saints,2-1,Final
-1,15/07/2025,13:00,FC Differdange 03,Drita,2-3,Final
-1,15/07/2025,13:30,Inter Club d'Escaldes,FCSB,2-1,Final
-1,15/07/2025,14:00,Breidablik,Egnatia Rrogozhinë,5-0,Final
-1,15/07/2025,14:00,Buducnost Podgorica,FC Noah,2-2,Final
-1,15/07/2025,14:00,Zrinjski,Virtus,2-1,Final
-1,16/07/2025,13:45,Dinamo Minsk,Ludogorets,2-2,Final
-1,16/07/2025,13:45,Linfield,Shelbourne,1-1,Final
-2,22/07/2025,10:00,KuPS,Kairat Almaty,2-0,Final
-2,22/07/2025,11:00,Lincoln Red Imps FC,FK Crvena Zvezda,0-1,Final
-2,22/07/2025,11:00,FC Noah,Ferencvarosi TC,1-2,Final
-2,22/07/2025,12:00,FC Copenhagen,Drita,2-0,Final
-2,22/07/2025,12:00,Plzen,Servette FC,0-1,Final
-2,22/07/2025,12:00,Pafos,Maccabi Tel Aviv,1-1,Final
-2,22/07/2025,12:00,Rīgas FS,Malmo FF,1-4,Final
-2,22/07/2025,12:00,Hamrun Spartans,Dynamo Kyiv,0-3,Final
-2,22/07/2025,13:00,Shkendija,FCSB,1-0,Final
-2,22/07/2025,13:15,Slovan Bratislava,Zrinjski,4-0,Final
-2,22/07/2025,13:30,Lech Poznan,Breidablik,7-1,Final
-2,22/07/2025,13:45,Rangers,Panathinaikos,2-0,Final
-2,22/07/2025,13:45,HNK Rijeka,Ludogorets,0-0,Final
-2,23/07/2025,12:00,Brann,Red Bull Salzburg,1-4,Final
-2,23/07/2025,13:45,Shelbourne,Qarabag,0-3,Final
-2,29/07/2025,10:00,Kairat Almaty,KuPS,3-0,Final
-2,29/07/2025,13:00,Dynamo Kyiv,Hamrun Spartans,3-0,Final
-2,29/07/2025,13:00,Drita,FC Copenhagen,0-1,Final
-2,29/07/2025,14:00,Zrinjski,Slovan Bratislava,2-2,Final
-2,29/07/2025,14:00,FK Crvena Zvezda,Lincoln Red Imps FC,5-1,Final
-2,30/07/2025,11:00,Qarabag,Shelbourne,1-0,Final
-2,30/07/2025,12:00,Malmo FF,Rīgas FS,1-0,Final
-2,30/07/2025,12:30,FCSB,Shkendija,1-2,Final
-2,30/07/2025,12:30,Ludogorets,HNK Rijeka,3-1,Final
-2,30/07/2025,13:00,Maccabi Tel Aviv,Pafos,0-1,Final
-2,30/07/2025,13:00,Panathinaikos,Rangers,1-1,Final
-2,30/07/2025,13:00,Ferencvarosi TC,FC Noah,4-3,Final
-2,30/07/2025,13:30,Breidablik,Lech Poznan,0-1,Final
-2,30/07/2025,13:45,Red Bull Salzburg,Brann,1-1,Final
-2,30/07/2025,14:00,Servette FC,Plzen,1-3,Final
-3,05/08/2025,12:00,Malmo FF,FC Copenhagen,0-0,Final
-3,05/08/2025,13:00,Dynamo Kyiv,Pafos,0-1,Final
-3,05/08/2025,13:00,Shkendija,Qarabag,0-1,Final
-3,05/08/2025,13:45,Rangers,Plzen,3-0,Final
-3,06/08/2025,10:00,Kairat Almaty,Slovan Bratislava,1-0,Final
-3,06/08/2025,12:00,Red Bull Salzburg,Club Brugge KV,0-1,Final
-3,06/08/2025,12:30,Ludogorets,Ferencvarosi TC,0-0,Final
-3,06/08/2025,13:30,Lech Poznan,FK Crvena Zvezda,1-3,Final
-3,06/08/2025,14:00,Nice,Benfica,0-2,Final
-3,06/08/2025,14:00,Feyenoord,Fenerbahçe,2-1,Final
-3,12/08/2025,11:00,Qarabag,Shkendija,5-1,Final
-3,12/08/2025,12:00,FC Copenhagen,Malmo FF,5-0,Final
-3,12/08/2025,12:00,Plzen,Rangers,2-1,Final
-3,12/08/2025,12:00,Fenerbahçe,Feyenoord,5-2,Final
-3,12/08/2025,12:00,Pafos,Dynamo Kyiv,2-0,Final
-3,12/08/2025,12:30,Club Brugge KV,Red Bull Salzburg,3-2,Final
-3,12/08/2025,13:15,Ferencvarosi TC,Ludogorets,3-0,Final
-3,12/08/2025,13:15,Slovan Bratislava,Kairat Almaty,1-0,Final
-3,12/08/2025,14:00,Benfica,Nice,2-0,Final
-3,12/08/2025,14:00,FK Crvena Zvezda,Lech Poznan,1-1,Final
-,19/08/2025,14:00,Rangers,Club Brugge KV,1-3,Final
-,19/08/2025,14:00,FK Crvena Zvezda,Pafos,1-2,Final
-,19/08/2025,14:00,Ferencvarosi TC,Qarabag,1-3,Final
-,20/08/2025,14:00,Celtic,Kairat Almaty,0-0,Final
-,20/08/2025,14:00,Bodo/Glimt,Sturm Graz,5-0,Final
-,20/08/2025,14:00,FC Basel 1893,FC Copenhagen,1-1,Final
-,20/08/2025,14:00,Fenerbahçe,Benfica,0-0,Final
-,26/08/2025,11:45,Kairat Almaty,Celtic,0-0,Final
-,26/08/2025,14:00,Sturm Graz,Bodo/Glimt,2-1,Final
-,26/08/2025,14:00,Pafos,FK Crvena Zvezda,1-1,Final
-,27/08/2025,11:45,Qarabag,Ferencvarosi TC,2-3,Final
-,27/08/2025,14:00,Benfica,Fenerbahçe,1-0,Final
-,27/08/2025,14:00,FC Copenhagen,FC Basel 1893,2-0,Final
-,27/08/2025,14:00,Club Brugge KV,Rangers,6-0,Final
-1,16/09/2025,11:45,PSV Eindhoven,Union St. Gilloise,1-3,Final
-1,16/09/2025,11:45,Athletic Club,Arsenal,0-2,Final
-1,16/09/2025,14:00,Tottenham,Villarreal,1-0,Final
-1,16/09/2025,14:00,Benfica,Qarabag,2-3,Final
-1,16/09/2025,14:00,Juventus,Borussia Dortmund,4-4,Final
-1,16/09/2025,14:00,Real Madrid,Marseille,2-1,Final
-1,17/09/2025,11:45,Olympiakos Piraeus,Pafos,0-0,Final
-1,17/09/2025,11:45,Slavia Praha,Bodo/Glimt,2-2,Final
-1,17/09/2025,14:00,Liverpool,Atletico Madrid,3-2,Final
-1,17/09/2025,14:00,Paris Saint Germain,Atalanta,4-0,Final
-1,17/09/2025,14:00,Bayern München,Chelsea,3-1,Final
-1,17/09/2025,14:00,Ajax,Inter,0-2,Final
-1,18/09/2025,11:45,FC Copenhagen,Bayer Leverkusen,2-2,Final
-1,18/09/2025,11:45,Club Brugge KV,Monaco,4-1,Final
-1,18/09/2025,14:00,Newcastle,Barcelona,1-2,Final
-1,18/09/2025,14:00,Manchester City,Napoli,2-0,Final
-1,18/09/2025,14:00,Eintracht Frankfurt,Galatasaray,5-1,Final
-1,18/09/2025,14:00,Sporting CP,Kairat Almaty,4-1,Final
-2,30/09/2025,11:45,Atalanta,Club Brugge KV,2-1,Final
-2,30/09/2025,11:45,Kairat Almaty,Real Madrid,0-5,Final
-2,30/09/2025,14:00,Chelsea,Benfica,1-0,Final
-2,30/09/2025,14:00,Marseille,Ajax,4-0,Final
-2,30/09/2025,14:00,Bodo/Glimt,Tottenham,2-2,Final
-2,30/09/2025,14:00,Inter,Slavia Praha,3-0,Final
-2,30/09/2025,14:00,Atletico Madrid,Eintracht Frankfurt,5-1,Final
-2,30/09/2025,14:00,Galatasaray,Liverpool,1-0,Final
-2,30/09/2025,14:00,Pafos,Bayern München,1-5,Final
-2,01/10/2025,11:45,Qarabag,FC Copenhagen,2-0,Final
-2,01/10/2025,11:45,Union St. Gilloise,Newcastle,0-4,Final
-2,01/10/2025,14:00,Arsenal,Olympiakos Piraeus,2-0,Final
-2,01/10/2025,14:00,Monaco,Manchester City,2-2,Final
-2,01/10/2025,14:00,Borussia Dortmund,Athletic Club,4-1,Final
-2,01/10/2025,14:00,Bayer Leverkusen,PSV Eindhoven,1-1,Final
-2,01/10/2025,14:00,Napoli,Sporting CP,2-1,Final
-2,01/10/2025,14:00,Barcelona,Paris Saint Germain,1-2,Final
-2,01/10/2025,14:00,Villarreal,Juventus,2-2,Final
-3,21/10/2025,11:45,Barcelona,Olympiakos Piraeus,6-1,Final
-3,21/10/2025,11:45,Kairat Almaty,Pafos,0-0,Final
-3,21/10/2025,14:00,Newcastle,Benfica,3-0,Final
-3,21/10/2025,14:00,Arsenal,Atletico Madrid,4-0,Final
-3,21/10/2025,14:00,Bayer Leverkusen,Paris Saint Germain,2-7,Final
-3,21/10/2025,14:00,PSV Eindhoven,Napoli,6-2,Final
-3,21/10/2025,14:00,FC Copenhagen,Borussia Dortmund,2-4,Final
-3,21/10/2025,14:00,Villarreal,Manchester City,0-2,Final
-3,21/10/2025,14:00,Union St. Gilloise,Inter,0-4,Final
-3,22/10/2025,11:45,Athletic Club,Qarabag,3-1,Final
-3,22/10/2025,11:45,Galatasaray,Bodo/Glimt,3-1,Final
-3,22/10/2025,14:00,Chelsea,Ajax,5-1,Final
-3,22/10/2025,14:00,Monaco,Tottenham,0-0,Final
-3,22/10/2025,14:00,Bayern München,Club Brugge KV,4-0,Final
-3,22/10/2025,14:00,Eintracht Frankfurt,Liverpool,1-5,Final
-3,22/10/2025,14:00,Sporting CP,Marseille,2-1,Final
-3,22/10/2025,14:00,Atalanta,Slavia Praha,0-0,Final
-3,22/10/2025,14:00,Real Madrid,Juventus,1-0,Final
-4,04/11/2025,12:45,Napoli,Eintracht Frankfurt,0-0,Final
-4,04/11/2025,12:45,Slavia Praha,Arsenal,0-3,Final
-4,04/11/2025,15:00,Liverpool,Real Madrid,1-0,Final
-4,04/11/2025,15:00,Tottenham,FC Copenhagen,4-0,Final
-4,04/11/2025,15:00,Paris Saint Germain,Bayern München,1-2,Final
-4,04/11/2025,15:00,Bodo/Glimt,Monaco,0-1,Final
-4,04/11/2025,15:00,Juventus,Sporting CP,1-1,Final
-4,04/11/2025,15:00,Atletico Madrid,Union St. Gilloise,3-1,Final
-4,04/11/2025,15:00,Olympiakos Piraeus,PSV Eindhoven,1-1,Final
-4,05/11/2025,12:45,Qarabag,Chelsea,2-2,Final
-4,05/11/2025,12:45,Pafos,Villarreal,1-0,Final
-4,05/11/2025,15:00,Newcastle,Athletic Club,2-0,Final
-4,05/11/2025,15:00,Manchester City,Borussia Dortmund,4-1,Final
-4,05/11/2025,15:00,Marseille,Atalanta,0-1,Final
-4,05/11/2025,15:00,Ajax,Galatasaray,0-3,Final
-4,05/11/2025,15:00,Benfica,Bayer Leverkusen,0-1,Final
-4,05/11/2025,15:00,Inter,Kairat Almaty,2-1,Final
-4,05/11/2025,15:00,Club Brugge KV,Barcelona,3-3,Final
-5,25/11/2025,12:45,Ajax,Benfica,0-2,Final
-5,25/11/2025,12:45,Galatasaray,Union St. Gilloise,0-1,Final
-5,25/11/2025,15:00,Chelsea,Barcelona,3-0,Final
-5,25/11/2025,15:00,Manchester City,Bayer Leverkusen,0-2,Final
-5,25/11/2025,15:00,Marseille,Newcastle,2-1,Final
-5,25/11/2025,15:00,Borussia Dortmund,Villarreal,4-0,Final
-5,25/11/2025,15:00,Bodo/Glimt,Juventus,2-3,Final
-5,25/11/2025,15:00,Napoli,Qarabag,2-0,Final
-5,25/11/2025,15:00,Slavia Praha,Athletic Club,0-0,Final
-5,26/11/2025,12:45,FC Copenhagen,Kairat Almaty,3-2,Final
-5,26/11/2025,12:45,Pafos,Monaco,2-2,Final
-5,26/11/2025,15:00,Liverpool,PSV Eindhoven,1-4,Final
-5,26/11/2025,15:00,Arsenal,Bayern München,3-1,Final
-5,26/11/2025,15:00,Paris Saint Germain,Tottenham,5-3,Final
-5,26/11/2025,15:00,Eintracht Frankfurt,Atalanta,0-3,Final
-5,26/11/2025,15:00,Sporting CP,Club Brugge KV,3-0,Final
-5,26/11/2025,15:00,Atletico Madrid,Inter,2-1,Final
-5,26/11/2025,15:00,Olympiakos Piraeus,Real Madrid,3-4,Final
-6,09/12/2025,10:30,Kairat Almaty,Olympiakos Piraeus,0-1,Final
-6,09/12/2025,12:45,Bayern München,Sporting CP,3-1,Final
-6,09/12/2025,15:00,Tottenham,Slavia Praha,3-0,Final
-6,09/12/2025,15:00,Monaco,Galatasaray,1-0,Final
-6,09/12/2025,15:00,PSV Eindhoven,Atletico Madrid,2-3,Final
-6,09/12/2025,15:00,Atalanta,Chelsea,2-1,Final
-6,09/12/2025,15:00,Inter,Liverpool,0-1,Final
-6,09/12/2025,15:00,Barcelona,Eintracht Frankfurt,2-1,Final
-6,09/12/2025,15:00,Union St. Gilloise,Marseille,2-3,Final
-6,10/12/2025,12:45,Villarreal,FC Copenhagen,2-3,Final
-6,10/12/2025,12:45,Qarabag,Ajax,2-4,Final
-6,10/12/2025,15:00,Borussia Dortmund,Bodo/Glimt,2-2,Final
-6,10/12/2025,15:00,Bayer Leverkusen,Newcastle,2-2,Final
-6,10/12/2025,15:00,Benfica,Napoli,2-0,Final
-6,10/12/2025,15:00,Juventus,Pafos,2-0,Final
-6,10/12/2025,15:00,Athletic Club,Paris Saint Germain,0-0,Final
-6,10/12/2025,15:00,Real Madrid,Manchester City,1-2,Final
-6,10/12/2025,15:00,Club Brugge KV,Arsenal,0-3,Final
-7,20/01/2026,10:30,Kairat Almaty,Club Brugge KV,1-4,Final
-7,20/01/2026,12:45,Bodo/Glimt,Manchester City,3-1,Final
-7,20/01/2026,15:00,Tottenham,Borussia Dortmund,2-0,Final
-7,20/01/2026,15:00,Sporting CP,Paris Saint Germain,2-1,Final
-7,20/01/2026,15:00,FC Copenhagen,Napoli,1-1,Final
-7,20/01/2026,15:00,Inter,Arsenal,1-3,Final
-7,20/01/2026,15:00,Villarreal,Ajax,1-2,Final
-7,20/01/2026,15:00,Real Madrid,Monaco,6-1,Final
-7,20/01/2026,15:00,Olympiakos Piraeus,Bayer Leverkusen,2-0,Final
-7,21/01/2026,12:45,Qarabag,Eintracht Frankfurt,3-2,Final
-7,21/01/2026,12:45,Galatasaray,Atletico Madrid,1-1,Final
-7,21/01/2026,15:00,Newcastle,PSV Eindhoven,3-0,Final
-7,21/01/2026,15:00,Chelsea,Pafos,1-0,Final
-7,21/01/2026,15:00,Marseille,Liverpool,0-3,Final
-7,21/01/2026,15:00,Bayern München,Union St. Gilloise,2-0,Final
-7,21/01/2026,15:00,Juventus,Benfica,2-0,Final
-7,21/01/2026,15:00,Atalanta,Athletic Club,2-3,Final
-7,21/01/2026,15:00,Slavia Praha,Barcelona,2-4,Final
-8,28/01/2026,15:00,Liverpool,Qarabag,6-0,Final
-8,28/01/2026,15:00,Arsenal,Kairat Almaty,3-2,Final
-8,28/01/2026,15:00,Manchester City,Galatasaray,2-0,Final
-8,28/01/2026,15:00,Paris Saint Germain,Newcastle,1-1,Final
-8,28/01/2026,15:00,Monaco,Juventus,0-0,Final
-8,28/01/2026,15:00,Borussia Dortmund,Inter,0-2,Final
-8,28/01/2026,15:00,Bayer Leverkusen,Villarreal,3-0,Final
-8,28/01/2026,15:00,Eintracht Frankfurt,Tottenham,0-2,Final
-8,28/01/2026,15:00,Ajax,Olympiakos Piraeus,1-2,Final
-8,28/01/2026,15:00,PSV Eindhoven,Bayern München,1-2,Final
-8,28/01/2026,15:00,Benfica,Real Madrid,4-2,Final
-8,28/01/2026,15:00,Napoli,Chelsea,2-3,Final
-8,28/01/2026,15:00,Barcelona,FC Copenhagen,4-1,Final
-8,28/01/2026,15:00,Atletico Madrid,Bodo/Glimt,1-2,Final
-8,28/01/2026,15:00,Athletic Club,Sporting CP,2-3,Final
-8,28/01/2026,15:00,Club Brugge KV,Marseille,3-0,Final
-8,28/01/2026,15:00,Union St. Gilloise,Atalanta,1-0,Final
-8,28/01/2026,15:00,Pafos,Slavia Praha,4-1,Final
-32,17/02/2026,12:45,Galatasaray,Juventus,5-2,Final
-32,17/02/2026,15:00,Monaco,Paris Saint Germain,2-3,Final
-32,17/02/2026,15:00,Borussia Dortmund,Atalanta,2-0,Final
-32,17/02/2026,15:00,Benfica,Real Madrid,0-1,Final
-32,18/02/2026,12:45,Qarabag,Newcastle,1-6,Final
-32,18/02/2026,15:00,Bodo/Glimt,Inter,3-1,Final
-32,18/02/2026,15:00,Olympiakos Piraeus,Bayer Leverkusen,0-2,Final
-32,18/02/2026,15:00,Club Brugge KV,Atletico Madrid,3-3,Final
-32,24/02/2026,12:45,Atletico Madrid,Club Brugge KV,4-1,Final
-32,24/02/2026,15:00,Newcastle,Qarabag,3-2,Final
-32,24/02/2026,15:00,Bayer Leverkusen,Olympiakos Piraeus,0-0,Final
-32,24/02/2026,15:00,Inter,Bodo/Glimt,1-2,Final
-32,25/02/2026,12:45,Atalanta,Borussia Dortmund,4-1,Final
-32,25/02/2026,15:00,Paris Saint Germain,Monaco,2-2,Final
-32,25/02/2026,15:00,Juventus,Galatasaray,3-2,Final
-32,25/02/2026,15:00,Real Madrid,Benfica,2-1,Final
-16,10/03/2026,12:45,Galatasaray,Liverpool,1-0,Final
-16,10/03/2026,15:00,Newcastle,Barcelona,1-1,Final
-16,10/03/2026,15:00,Atalanta,Bayern München,1-6,Final
-16,10/03/2026,15:00,Atletico Madrid,Tottenham,5-2,Final
-16,11/03/2026,12:45,Bayer Leverkusen,Arsenal,1-1,Final
-16,11/03/2026,15:00,Paris Saint Germain,Chelsea,5-2,Final
-16,11/03/2026,15:00,Bodo/Glimt,Sporting CP,3-0,Final
-16,11/03/2026,15:00,Real Madrid,Manchester City,3-0,Final
-16,17/03/2026,12:45,Sporting CP,Bodo/Glimt,5-0,Final
-16,17/03/2026,15:00,Arsenal,Bayer Leverkusen,2-0,Final
-16,17/03/2026,15:00,Chelsea,Paris Saint Germain,0-3,Final
-16,17/03/2026,15:00,Manchester City,Real Madrid,1-2,Final
-16,18/03/2026,12:45,Barcelona,Newcastle,7-2,Final
-16,18/03/2026,15:00,Liverpool,Galatasaray,4-0,Final
-16,18/03/2026,15:00,Tottenham,Atletico Madrid,3-2,Final
-16,18/03/2026,15:00,Bayern München,Atalanta,4-1,Final
-,07/04/2026,14:00,Sporting CP,Arsenal,0-1,Final
-,07/04/2026,14:00,Real Madrid,Bayern München,1-2,Final
-,08/04/2026,14:00,Paris Saint Germain,Liverpool,2-0,Final
-,08/04/2026,14:00,Barcelona,Atletico Madrid,0-2,Final
-,14/04/2026,14:00,Liverpool,Paris Saint Germain,0-2,Final
-,14/04/2026,14:00,Atletico Madrid,Barcelona,1-2,Final
-,15/04/2026,14:00,Arsenal,Sporting CP,0-0,Final
-,15/04/2026,14:00,Bayern München,Real Madrid,4-3,Final
-,28/04/2026,14:00,Paris Saint Germain,Bayern München,5-4,Final
-,29/04/2026,14:00,Atletico Madrid,Arsenal,1-1,Final
-,05/05/2026,14:00,Arsenal,Atletico Madrid,1-0,Final
-,06/05/2026,14:00,Bayern München,Paris Saint Germain,1-1,Final
-,30/05/2026,11:00,Paris Saint Germain,Arsenal,1-1,Final
+1,08/09/2026,11:45,Club Brugge KV,Aston Villa,,
+1,08/09/2026,11:45,AEK Athen,LASK,,
+1,08/09/2026,14:00,Real Madrid,Inter,,
+1,08/09/2026,14:00,FC Porto,Manchester City,,
+1,08/09/2026,14:00,Borussia Dortmund,Villarreal CF,,
+1,08/09/2026,14:00,Lille OSC,Real Betis,,
+1,09/09/2026,11:45,FC Barcelona,Feyenoord,,
+1,09/09/2026,11:45,VfB Stuttgart,Viking FK,,
+1,09/09/2026,14:00,Liverpool FC,Atlético de Madrid,,
+1,09/09/2026,14:00,Paris Saint-Germain,Slovan Bratislava,,
+1,09/09/2026,14:00,SSC Napoli,Arsenal FC,,
+1,09/09/2026,14:00,Sporting CP,Galatasaray,,
+1,10/09/2026,11:45,Fenerbahçe,AS Roma,,
+1,10/09/2026,11:45,PSV Eindhoven,Shajtar Donetsk,,
+1,10/09/2026,14:00,Bayern Munich,FK Bodø/Glimt,,
+1,10/09/2026,14:00,Manchester United,Sabah FK,,
+1,10/09/2026,14:00,Como 1907,RB Leipzig,,
+1,10/09/2026,14:00,Slavia Praha,RC Lens,,
+2,13/10/2026,11:45,RC Lens,Sporting CP,,
+2,13/10/2026,11:45,Sabah FK,Slavia Praha,,
+2,13/10/2026,14:00,Inter,Club Brugge KV,,
+2,13/10/2026,14:00,Galatasaray,FC Barcelona,,
+2,13/10/2026,14:00,Atlético de Madrid,Manchester United,,
+2,13/10/2026,14:00,Arsenal FC,Lille OSC,,
+2,13/10/2026,14:00,Viking FK,Bayern Munich,,
+2,13/10/2026,14:00,RB Leipzig,PSV Eindhoven,,
+2,13/10/2026,14:00,Villarreal CF,SSC Napoli,,
+2,14/10/2026,11:45,LASK,Liverpool FC,,
+2,14/10/2026,11:45,Feyenoord,Como 1907,,
+2,14/10/2026,14:00,AS Roma,Real Madrid,,
+2,14/10/2026,14:00,Manchester City,Paris Saint-Germain,,
+2,14/10/2026,14:00,FK Bodø/Glimt,Borussia Dortmund,,
+2,14/10/2026,14:00,Aston Villa,Fenerbahçe,,
+2,14/10/2026,14:00,Real Betis,FC Porto,,
+2,14/10/2026,14:00,Shajtar Donetsk,AEK Athen,,
+2,14/10/2026,14:00,Slovan Bratislava,VfB Stuttgart,,
+3,20/10/2026,11:45,Sabah FK,Borussia Dortmund,,
+3,20/10/2026,11:45,Fenerbahçe,Slavia Praha,,
+3,20/10/2026,14:00,Manchester City,AEK Athen,,
+3,20/10/2026,14:00,VfB Stuttgart,Atlético de Madrid,,
+3,20/10/2026,14:00,Liverpool FC,Villarreal CF,,
+3,20/10/2026,14:00,AS Roma,Slovan Bratislava,,
+3,20/10/2026,14:00,FC Porto,PSV Eindhoven,,
+3,20/10/2026,14:00,SSC Napoli,FK Bodø/Glimt,,
+3,20/10/2026,14:00,Paris Saint-Germain,FC Barcelona,,
+3,21/10/2026,11:45,Como 1907,Manchester United,,
+3,21/10/2026,11:45,Lille OSC,Galatasaray,,
+3,21/10/2026,14:00,Real Madrid,RB Leipzig,,
+3,21/10/2026,14:00,Inter,Shajtar Donetsk,,
+3,21/10/2026,14:00,Bayern Munich,Arsenal FC,,
+3,21/10/2026,14:00,Club Brugge KV,RC Lens,,
+3,21/10/2026,14:00,Aston Villa,Viking FK,,
+3,21/10/2026,14:00,Sporting CP,LASK,,
+3,21/10/2026,14:00,Real Betis,Feyenoord,,
+4,03/11/2026,11:45,Shajtar Donetsk,Sporting CP,,
+4,03/11/2026,11:45,Galatasaray,VfB Stuttgart,,
+4,03/11/2026,14:00,Feyenoord,Inter,,
+4,03/11/2026,14:00,FC Barcelona,Aston Villa,,
+4,03/11/2026,14:00,Atlético de Madrid,Bayern Munich,,
+4,03/11/2026,14:00,Villarreal CF,Paris Saint-Germain,,
+4,03/11/2026,14:00,Manchester United,AS Roma,,
+4,03/11/2026,14:00,FK Bodø/Glimt,Lille OSC,,
+4,03/11/2026,14:00,LASK,Slovan Bratislava,,
+4,04/11/2026,11:45,AEK Athen,Real Madrid,,
+4,04/11/2026,11:45,Fenerbahçe,Liverpool FC,,
+4,04/11/2026,14:00,RB Leipzig,Manchester City,,
+4,04/11/2026,14:00,Slavia Praha,Arsenal FC,,
+4,04/11/2026,14:00,PSV Eindhoven,Club Brugge KV,,
+4,04/11/2026,14:00,Borussia Dortmund,Real Betis,,
+4,04/11/2026,14:00,FC Porto,SSC Napoli,,
+4,04/11/2026,14:00,RC Lens,Como 1907,,
+4,04/11/2026,14:00,Viking FK,Sabah FK,,
+5,24/11/2026,11:45,Galatasaray,Aston Villa,,
+5,24/11/2026,11:45,FK Bodø/Glimt,LASK,,
+5,24/11/2026,14:00,Real Madrid,PSV Eindhoven,,
+5,24/11/2026,14:00,Manchester City,SSC Napoli,,
+5,24/11/2026,14:00,Arsenal FC,Borussia Dortmund,,
+5,24/11/2026,14:00,Feyenoord,FC Porto,,
+5,24/11/2026,14:00,Slovan Bratislava,Real Betis,,
+5,24/11/2026,14:00,RB Leipzig,RC Lens,,
+5,24/11/2026,14:00,Como 1907,AEK Athen,,
+5,25/11/2026,11:45,Sabah FK,FC Barcelona,,
+5,25/11/2026,11:45,Slavia Praha,Villarreal CF,,
+5,25/11/2026,14:00,Inter,VfB Stuttgart,,
+5,25/11/2026,14:00,Atlético de Madrid,Viking FK,,
+5,25/11/2026,14:00,Paris Saint-Germain,AS Roma,,
+5,25/11/2026,14:00,Club Brugge KV,Liverpool FC,,
+5,25/11/2026,14:00,Lille OSC,Bayern Munich,,
+5,25/11/2026,14:00,Sporting CP,Manchester United,,
+5,25/11/2026,14:00,Shajtar Donetsk,Fenerbahçe,,
+6,08/12/2026,11:45,Villarreal CF,Sabah FK,,
+6,08/12/2026,11:45,Viking FK,Feyenoord,,
+6,08/12/2026,14:00,FC Barcelona,Manchester City,,
+6,08/12/2026,14:00,Aston Villa,Paris Saint-Germain,,
+6,08/12/2026,14:00,Bayern Munich,Slavia Praha,,
+6,08/12/2026,14:00,SSC Napoli,Club Brugge KV,,
+6,08/12/2026,14:00,AS Roma,Sporting CP,,
+6,08/12/2026,14:00,Manchester United,RB Leipzig,,
+6,08/12/2026,14:00,AEK Athen,Galatasaray,,
+6,09/12/2026,11:45,Real Betis,Como 1907,,
+6,09/12/2026,11:45,Slovan Bratislava,Shajtar Donetsk,,
+6,09/12/2026,14:00,Arsenal FC,Real Madrid,,
+6,09/12/2026,14:00,Borussia Dortmund,Inter,,
+6,09/12/2026,14:00,PSV Eindhoven,Atlético de Madrid,,
+6,09/12/2026,14:00,Liverpool FC,FC Porto,,
+6,09/12/2026,14:00,RC Lens,FK Bodø/Glimt,,
+6,09/12/2026,14:00,LASK,Fenerbahçe,,
+6,09/12/2026,14:00,VfB Stuttgart,Lille OSC,,
+7,19/01/2027,11:45,FK Bodø/Glimt,Atlético de Madrid,,
+7,19/01/2027,11:45,Galatasaray,Feyenoord,,
+7,19/01/2027,14:00,Real Madrid,LASK,,
+7,19/01/2027,14:00,Inter,Liverpool FC,,
+7,19/01/2027,14:00,VfB Stuttgart,Club Brugge KV,,
+7,19/01/2027,14:00,Aston Villa,Borussia Dortmund,,
+7,19/01/2027,14:00,AEK Athen,AS Roma,,
+7,19/01/2027,14:00,FC Porto,Slavia Praha,,
+7,19/01/2027,14:00,Lille OSC,Slovan Bratislava,,
+7,20/01/2027,11:45,Fenerbahçe,Villarreal CF,,
+7,20/01/2027,11:45,Sabah FK,SSC Napoli,,
+7,20/01/2027,14:00,RC Lens,Manchester City,,
+7,20/01/2027,14:00,Sporting CP,FC Barcelona,,
+7,20/01/2027,14:00,Como 1907,Paris Saint-Germain,,
+7,20/01/2027,14:00,Real Betis,Arsenal FC,,
+7,20/01/2027,14:00,Manchester United,Bayern Munich,,
+7,20/01/2027,14:00,Viking FK,PSV Eindhoven,,
+7,20/01/2027,14:00,RB Leipzig,Shajtar Donetsk,,
+8,27/01/2027,14:00,Shajtar Donetsk,Real Madrid,,
+8,27/01/2027,14:00,Manchester City,Sporting CP,,
+8,27/01/2027,14:00,Slovan Bratislava,Inter,,
+8,27/01/2027,14:00,FC Barcelona,Como 1907,,
+8,27/01/2027,14:00,Atlético de Madrid,Fenerbahçe,,
+8,27/01/2027,14:00,Paris Saint-Germain,Galatasaray,,
+8,27/01/2027,14:00,Liverpool FC,RC Lens,,
+8,27/01/2027,14:00,Arsenal FC,Sabah FK,,
+8,27/01/2027,14:00,Bayern Munich,Real Betis,,
+8,27/01/2027,14:00,Club Brugge KV,FK Bodø/Glimt,,
+8,27/01/2027,14:00,Borussia Dortmund,AEK Athen,,
+8,27/01/2027,14:00,Slavia Praha,Aston Villa,,
+8,27/01/2027,14:00,AS Roma,Lille OSC,,
+8,27/01/2027,14:00,LASK,FC Porto,,
+8,27/01/2027,14:00,Villarreal CF,Manchester United,,
+8,27/01/2027,14:00,PSV Eindhoven,VfB Stuttgart,,
+8,27/01/2027,14:00,Feyenoord,RB Leipzig,,
+8,27/01/2027,14:00,SSC Napoli,Viking FK,,

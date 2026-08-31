@@ -19,16 +19,16 @@
 3,09/08/2026,03:00,FC St. Gallen,FC Luzern,2-2,Final
 4,22/08/2026,03:00,FC Luzern,FC Lausanne-Sport,1-0,Final
 4,22/08/2026,03:00,FC Zürich,FC Basel 1893,1-2,Final
-4,23/08/2026,03:00,FC Thun Berner Oberland,Servette FC,,
-4,23/08/2026,07:00,BSC Young Boys,FC Vaduz,,
+4,23/08/2026,03:00,BSC Young Boys,FC Vaduz,4-2,Final
 4,15/09/2026,12:00,Grasshopper Club Zürich,FC Sion,,
 4,16/09/2026,12:00,FC Lugano,FC St. Gallen,,
-5,29/08/2026,11:00,FC Lausanne-Sport,FC Zürich,,
-5,29/08/2026,11:00,Servette FC,FC Luzern,,
-5,29/08/2026,13:30,BSC Young Boys,FC Basel 1893,,
-5,30/08/2026,07:00,FC Sion,FC Lugano,,
-5,30/08/2026,09:30,FC St. Gallen,FC Thun Berner Oberland,,
-5,30/08/2026,09:30,FC Vaduz,Grasshopper Club Zürich,,
+4,16/09/2026,12:00,FC Thun Berner Oberland,Servette FC,,
+5,29/08/2026,03:00,FC Lausanne-Sport,FC Zürich,2-3,Final
+5,29/08/2026,03:00,Servette FC,FC Luzern,1-1,Final
+5,29/08/2026,03:00,BSC Young Boys,FC Basel 1893,3-3,Final
+5,30/08/2026,03:00,FC Sion,FC Lugano,1-2,Final
+5,30/08/2026,03:00,FC St. Gallen,FC Thun Berner Oberland,3-4,Final
+5,30/08/2026,03:00,FC Vaduz,Grasshopper Club Zürich,5-2,Final
 6,01/09/2026,13:30,FC Zürich,BSC Young Boys,,
 6,02/09/2026,13:30,FC Luzern,FC Vaduz,,
 6,02/09/2026,13:30,FC Thun Berner Oberland,FC Lausanne-Sport,,
@@ -43,7 +43,7 @@
 7,06/09/2026,09:30,FC Sion,FC Thun Berner Oberland,,
 8,12/09/2026,11:00,FC St. Gallen,FC Sion,,
 8,12/09/2026,11:00,FC Thun Berner Oberland,Grasshopper Club Zürich,,
-8,12/09/2026,13:30,FC Lugano,BSC Young Boys,,
+8,12/09/2026,12:00,FC Lugano,BSC Young Boys,,
 8,13/09/2026,07:00,FC Zürich,FC Vaduz,,
 8,13/09/2026,09:30,FC Lausanne-Sport,Servette FC,,
 8,13/09/2026,09:30,FC Luzern,FC Basel 1893,,

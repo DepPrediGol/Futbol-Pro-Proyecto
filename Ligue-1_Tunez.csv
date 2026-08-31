@@ -1,28 +1,28 @@
 ﻿matchday,date,time,home_team,away_team,result,status
-1,22/08/2026,03:00,US Ben Guerdane,En vivo,0-0,Final
+1,22/08/2026,03:00,US Ben Guerdane,CS Hammam-Lif,,
 1,22/08/2026,03:00,ES Hammam Sousse,US Monastir,0-0,Final
 1,22/08/2026,03:00,PS Sakiet Eddaïer,JS Omrane,2-0,Final
 1,22/08/2026,03:00,Stade Tunisien,CS Sfaxien,1-1,Final
-1,23/08/2026,10:30,CA Bizertin,AS Marsa,,
-1,23/08/2026,10:30,Espérance de Tunis,Étoile du Sahel,,
-1,23/08/2026,10:30,ES Métlaoui,Club Africain,,
-1,23/08/2026,10:30,Espérance Zarzis,Olympique Béja,,
-2,29/08/2026,10:30,Club Africain,ES Hammam Sousse,,
-2,29/08/2026,10:30,CS Sfaxien,Espérance Zarzis,,
-2,29/08/2026,10:30,Étoile du Sahel,ES Métlaoui,,
-2,29/08/2026,10:30,CS Hammam-Lif,CA Bizertin,,
-2,29/08/2026,10:30,JS Omrane,Espérance de Tunis,,
-2,29/08/2026,10:30,AS Marsa,PS Sakiet Eddaïer,,
-2,29/08/2026,10:30,US Monastir,Stade Tunisien,,
-2,29/08/2026,10:30,Olympique Béja,US Ben Guerdane,,
+1,23/08/2026,03:00,CA Bizertin,AS Marsa,1-0,Final
+1,23/08/2026,03:00,Espérance de Tunis,Étoile du Sahel,3-2,Final
+1,23/08/2026,03:00,ES Métlaoui,Club Africain,0-1,Final
+1,23/08/2026,03:00,Espérance Zarzis,Olympique Béja,1-0,Final
+2,29/08/2026,03:00,Club Africain,ES Hammam Sousse,1-0,Final
+2,29/08/2026,03:00,CS Sfaxien,Espérance Zarzis,2-1,Final
+2,29/08/2026,03:00,AS Marsa,PS Sakiet Eddaïer,0-0,Final
+2,29/08/2026,03:00,US Monastir,Stade Tunisien,2-1,Final
+2,30/08/2026,03:00,Étoile du Sahel,ES Métlaoui,2-1,Final
+2,30/08/2026,03:00,CS Hammam-Lif,CA Bizertin,0-1,Final
+2,30/08/2026,03:00,JS Omrane,Espérance de Tunis,3-1,Final
+2,30/08/2026,03:00,Olympique Béja,US Ben Guerdane,1-2,Final
 3,05/09/2026,10:30,US Ben Guerdane,CS Sfaxien,,
 3,05/09/2026,10:30,CA Bizertin,Olympique Béja,,
-3,05/09/2026,10:30,Espérance de Tunis,AS Marsa,,
-3,05/09/2026,10:30,Étoile du Sahel,JS Omrane,,
-3,05/09/2026,10:30,ES Métlaoui,ES Hammam Sousse,,
 3,05/09/2026,10:30,PS Sakiet Eddaïer,CS Hammam-Lif,,
 3,05/09/2026,10:30,Stade Tunisien,Club Africain,,
 3,05/09/2026,10:30,Espérance Zarzis,US Monastir,,
+3,06/09/2026,10:30,Espérance de Tunis,AS Marsa,,
+3,06/09/2026,10:30,Étoile du Sahel,JS Omrane,,
+3,06/09/2026,10:30,ES Métlaoui,ES Hammam Sousse,,
 4,12/09/2026,10:30,Club Africain,Espérance Zarzis,,
 4,12/09/2026,10:30,CS Sfaxien,CA Bizertin,,
 4,12/09/2026,10:30,ES Hammam Sousse,Stade Tunisien,,
